@@ -26,3 +26,5 @@
 /eng-kaz.prob -text svneol=unset#unset
 /kaz-eng.prob -text svneol=unset#unset
 /modes.xml -text
+texts/eng.txt -text
+texts/kaz.txt -text svneol=unset#application/octet-stream

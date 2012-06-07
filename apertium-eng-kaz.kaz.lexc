@@ -174,7 +174,7 @@ Multichar_Symbols
 %{т%}                 ! Realised as т before vowels, 0 otherwise
 
 %>                    ! Morpheme boundary
-%                     ! Space
+%                     !! FIXME: is this needed? 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -204,15 +204,14 @@ Punctuation ;
 LEXICON SUBST
 
 N-INFL-COMMON ;
-%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
+%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ; ! FIXME: right?
                                      
 ! NOTE: Some substantivized things might not have pl. form, numerals e.g. 
 ! (not too sure, because in Tatar they have it: 
-! #1 meaning an approximate number: #! "Мин белгәндә аңа, мөгаен, _иллеләр_ тирәсе булгандыр."
-! #2 <11 ones meaning pupils from a given class: #! өчләр = "pupils from the 3. class" 
+! #1 <11 ones meaning pupils from a given class: # өчләр = "pupils from the 3. class" 
+! #2 "Мин белгәндә аңа, мөгаен, _иллеләр_ тирәсе булгандыр."
 !
 ! If they don't have pl. form; link them to N-INFL-COMMON; if they do - to SUBST.
-! That's the only difference between N-INFL-COMMON and SUBST.
 !                                                                     /I.S./
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -285,7 +284,6 @@ LEXICON POSS-REAL  ! P_2
 %<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р CASE-ETC ;
 
 LEXICON ADJ-DAGI
-
 !! ADJ-COMMON ;   !!!! ! FIXME: when we go recursive, use this instead of CASES
 ! ADJ-COMMON ;    !!!! ! FIXME: when we go recursive, use this instead of N-INFL
 !%<n%>: N-INFL ;
@@ -294,7 +292,6 @@ LEXICON ADJ-DAGI
 !# ;
 
 LEXICON GEN-POS
-
 %<px%>:%>%{N%}ікі%{n%} CASE ;
 %<loc%>:%>%{D%}%{A%}%{G%}%{I%} ADJ-DAGI ;
 %<sim%>:%>%{D%}%{A%}й ADJ-DAGI ;
@@ -328,25 +325,20 @@ LEXICON A1                 ! adjectives that can be both substantivized and andv
 %<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLIT ;
 
 %<adj%>%<subst%>: SUBST ;                             !# жақсыны 
-%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;   !# жақсырақты таптым (?: Firespeaker)
+!%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;  !# жақсырақты таптым (?: Firespeaker)
 
 %<adj%>%<advl%>: CLIT ;
-%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} CLIT ;     !# тезрек атта="go faster"
+!%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} CLIT ;    !# тезрек атта="go faster"
 
-LEXICON A2                 ! (derived/not fully lexicalized) adjectives without adverbial reading #! көктемгі
+LEXICON A2                 ! (?derived=not fully lexicalized) adjectives without adverbial reading #! көктемгі
 
 %<adj%>: CLIT ;
+!%<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLIT ; ! they also seem not to take comp. level !# *көктемгірәк
 
 %<adj%>%<subst%>: SUBST ;                             !# "...Самаранч ең бастыны түсінді..."
+!%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;
 
 LEXICON A3                 ! adjectives with (only) predicative use !# бар, жоқ 
-
-! FIXME:NOTE: Maybe this class is not really needed, because it turned out :) that
-!             even "бар" and "юк" can take case endings: !# "Хатыны юкның якыны юк."
-!                                                        !# "Эше барның ашы бар."   
-!             (that means that they should be linked to A2 - and they already are).
-! In the future A3 might stand for some other class of adjectives instead,
-! if we need to distinguish any other.
 
 %<adj%>: CLIT ;
 
@@ -359,7 +351,7 @@ LEXICON ADJ-COMMON
 
 %<adj%>: ADJ-LEVELS ;       ! FIXME:NOTE: ADJ-COMMON is meant to be used as default cont. class
                             ! for verbal adjectives (but not all verbal adjectives can get comparative
-                            ! level ending --> consider A2 ). In contrast to <advl>, <subst> reading is what all
+                            ! level ending). In contrast to <advl>, <subst> reading is what all
                             ! words acting like adjective can get.
 %<adj%>%<subst%>: SUBST
 
@@ -641,7 +633,7 @@ LEXICON NUM-ROMAN
 LEXICON ADV-WITH-KI
 
 ADV ;
-:%>%{G%}%{I%} A2
+ADJ-KI-INFL ;
 
 LEXICON ADV-WITH-KI-I
 
@@ -729,10 +721,6 @@ LEXICON PRON-PERS
 LEXICON PRON-ITG
 
 %<prn%>%<itg%>: N-INFL-COMMON ; ! FIXME: Check contlex
-
-LEXICON PRON-QNT
-
-%<prn%>%<qnt%>: N-INFL-COMMON ; ! FIXME: Check contlex
 
 LEXICON PRON-IND
 
@@ -882,30 +870,9 @@ PRON-DEM ;   ! Demonstrative pronouns
 
 еш% нәрсе:еш% нәрсе PRNNEG ; ! "" ! Use/MT
 
-барлық:барлық PRON-QNT ; ! ""
+LEXICON Numerals
 
-I NUM-ROMAN ; ! ""
-II NUM-ROMAN ; ! ""
-III NUM-ROMAN ; ! ""
-IV NUM-ROMAN ; ! ""
-V NUM-ROMAN ; ! ""
-VI NUM-ROMAN ; ! ""
-VII NUM-ROMAN ; ! ""
-VIII NUM-ROMAN ; ! ""
-IX NUM-ROMAN ; ! ""
-X NUM-ROMAN ; ! ""
-XI NUM-ROMAN ; ! ""
-XI NUM-ROMAN ; ! ""
-XII NUM-ROMAN ; ! ""
-XIII NUM-ROMAN ; ! ""
-XIV NUM-ROMAN ; ! ""
-XV NUM-ROMAN ; ! ""
-XVI NUM-ROMAN ; ! ""
-XVII NUM-ROMAN ; ! ""
-XVIII NUM-ROMAN ; ! ""
-XIX NUM-ROMAN ; ! ""
-XX NUM-ROMAN ; ! ""
-XXI NUM-ROMAN ; ! ""
+XII NUM-ROMAN ; 
 
 нөл:нөл NUM ; ! "zero"
 бір:бір NUM ; ! "one"
@@ -929,7 +896,7 @@ XXI NUM-ROMAN ; ! ""
 он% сегіз:он% сегіз NUM ; ! "eighteen"
 он% тоғыз:он% тоғыз NUM ; ! "nineteen"
 
-жиырма:жиырма NUM ; ! "twenty"         ! FIXME: This has an exceptional ordinal form: жиырмасыншы
+жиырма:жиырма NUM ; ! "twenty"         ! This has an exceptional ordinal form: жиырмасыншы
 отыз:отыз NUM ; ! "thirty"
 қырық:қырық NUM ; ! "forty"
 елу:елу NUM ; ! "fifty"
@@ -1003,37 +970,13 @@ LEXICON Determiners
 
 мынау:мынау DET-QNT ; ! "this"           ! "this-here X", "ce X-ci", "вот это X"
 
-
-LEXICON Numerals
-
-XII NUM-ROMAN ; 
-
-бір:бір NUM ; ! "one"
-екі:екі NUM ; ! "two"
-үш:үш NUM ; ! "three"
-төрт:төрт NUM ; ! "four"
-бес:бес NUM ; ! "five"
-алты:алты NUM ; ! "six"
-жеті:жеті NUM ; ! "seven"
-сегіз:сегіз NUM ; ! "eight" 
-төғыз:төғыз  NUM ; ! "nine"
-он:он NUM ; ! "ten"
-он% бір:он% бір NUM ; ! "eleven"
-жиырма:жиырма NUM ; ! "twenty"
-отыз:отыз NUM ; ! "thirty"
-қырық:қырық NUM ; ! "forty"
-елу:елу NUM ; ! "fifty"
-алныс:алныс NUM ; ! "sixty"
-жетніс:жетніс NUM ; ! "seventy"
-сексен:сексен NUM ; ! "eighty"
-тоқсан:тоқсан NUM ; ! "ninety"
-жүз:жүз NUM ; ! "hundred"
-мың:мың NUM ; ! "thousand"
-
 LEXICON Nouns
 
+ағаш:ағаш N1 ; ! "tree"
 бақша:бақша N1 ; ! "garden house"
+бала:бала N1 ; ! "child"
 ит:ит N1 ; ! "dog"
+мысық:мысық N1 ; ! "cat,copper"
 
 LEXICON ProperNouns 
 
@@ -1046,6 +989,10 @@ LEXICON Adjectives
 
 LEXICON Verbs 
 
+кет:кет Vinfl-AUX ; ! 
+кел:кел Vinfl-AUX ; !
+кел:кел V-IV ; ! "come"
+кет:кет V-IV ; ! "leave"
 
 LEXICON Interjections 
 

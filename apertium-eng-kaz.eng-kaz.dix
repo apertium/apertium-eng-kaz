@@ -2,12 +2,30 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"  c="Имя существительное"/>
+    <sdef n="v"  c="Глагол"/>
+    <sdef n="vblex"  c="Глагол"/>
+    <sdef n="iv"  c="Неп..."/>
   </sdefs>
   <section id="main" type="standard">
     <!-- Раздел: Имя Существительное -->
 
     <e><p><l>dog<s n="n"/></l><r>ит<s n="n"/></r></p></e>
     <e><p><l>garden<s n="n"/></l><r>бақша<s n="n"/></r></p></e>
+    <e><p><l>cat<s n="n"/></l><r>мысық<s n="n"/></r></p></e>
+    <e><p><l>tree<s n="n"/></l><r>ағаш<s n="n"/></r></p></e>
+    <e><p><l>child<s n="n"/></l><r>бала<s n="n"/></r></p></e>
+    <e><p><l>tree<s n="n"/></l><r>ағаш<s n="n"/></r></p></e>
+
+
+    <e><p><l>and<s n="cnjcoo"/></l><r>және<s n="cnjcoo"/></r></p></e>
+
+
+    <e><p><l>she<s n="prn"/></l><r>ол<s n="prn"/></r></p></e>
+    <e><p><l>you<s n="prn"/></l><r>сен<s n="prn"/></r></p></e>
+
+
+    <e><p><l>go<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>come<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
 
   </section>
 </dictionary>

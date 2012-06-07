@@ -3,3 +3,5 @@
 python3 ../apertium-tools/trim-lexc.py apertium-eng-kaz.eng-kaz.dix apertium-eng-kaz.eng.lexc ../apertium-kaz/apertium-kaz.kaz.lexc 
 cp ../apertium-kaz/apertium-kaz.kaz.rlx apertium-eng-kaz.kaz.rlx
 cp ../apertium-kaz/apertium-kaz.kaz.twol apertium-eng-kaz.kaz.twol
+cp /tmp/apertium-kaz.kaz.lexc.trimmed apertium-eng-kaz.kaz.lexc 
+

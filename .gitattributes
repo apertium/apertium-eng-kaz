@@ -1,0 +1,27 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-eng-kaz.eng-kaz.dix -text
+/apertium-eng-kaz.eng-kaz.lrx -text
+/apertium-eng-kaz.eng-kaz.rlx -text
+/apertium-eng-kaz.eng-kaz.t1x -text
+/apertium-eng-kaz.eng-kaz.t2x -text
+/apertium-eng-kaz.eng-kaz.t3x -text
+/apertium-eng-kaz.eng.lexc -text
+/apertium-eng-kaz.eng.twol -text
+/apertium-eng-kaz.kaz-eng.lrx -text
+/apertium-eng-kaz.kaz-eng.rlx -text
+/apertium-eng-kaz.kaz-eng.t1x -text
+/apertium-eng-kaz.kaz-eng.t2x -text
+/apertium-eng-kaz.kaz-eng.t3x -text
+/apertium-eng-kaz.kaz.lexc -text
+/apertium-eng-kaz.kaz.twol -text
+/autogen.sh -text
+/configure.ac -text
+/eng-kaz.prob -text svneol=unset#unset
+/kaz-eng.prob -text svneol=unset#unset
+/modes.xml -text

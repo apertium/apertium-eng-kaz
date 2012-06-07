@@ -5,6 +5,8 @@
     <sdef n="v"  c="Глагол"/>
     <sdef n="vblex"  c="Глагол"/>
     <sdef n="iv"  c="Неп..."/>
+    <sdef n="prn"  c="Местоимение"/>
+    <sdef n="cnjcoo"  c="Союз"/>
   </sdefs>
   <section id="main" type="standard">
     <!-- Раздел: Имя Существительное -->

@@ -7,5 +7,4 @@ LIST N = n ;
 
 SECTION
 
-SELECT N ;
-  ## 
+REMOVE N IF (0 ("<is>")) ; 

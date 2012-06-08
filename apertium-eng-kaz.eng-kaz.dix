@@ -5,12 +5,23 @@
     <sdef n="v"  c="Глагол"/>
     <sdef n="vblex"  c="Глагол"/>
     <sdef n="iv"  c="Неп..."/>
+    <sdef n="tv"  c="п..."/>
     <sdef n="prn"  c="Местоимение"/>
     <sdef n="adv"  c="Наречие"/>
     <sdef n="adj"  c="Имя Прилагательное"/>
     <sdef n="num"  c="Имя Числительное"/>
     <sdef n="pr"  c="Предлог"/>
+    <sdef n="post"  c=""/>
     <sdef n="cnjcoo"  c="Союз"/>
+
+    <sdef n="guio" 	c=""/> 
+    <sdef n="cm" 	c=""/> 
+    <sdef n="sent" 	c=""/> 
+    <sdef n="lpar" 	c=""/> 
+    <sdef n="rpar" 	c=""/> 
+    <sdef n="lquot" 	c=""/> 
+    <sdef n="rquot" 	c=""/> 
+
   </sdefs>
   <section id="main" type="standard">
 
@@ -128,5 +139,24 @@
     <e><p><l>walk<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>walk<g><b/>around</g><s n="vblex"/></l><r>серуенде<s n="v"/><s n="iv"/></r></p></e>
 
+
+
+<!-- SECTION: Пунктуация -->
+
+<e>       <p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+<e>       <p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+<e>       <p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+<e>       <p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+<e>       <p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
+<e>       <p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
+<e>       <p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
+<e>       <p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
+<e>       <p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
+<e>       <p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+<e>       <p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
+<e>       <re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+<e>       <re>%?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
   </section>
 </dictionary>
+

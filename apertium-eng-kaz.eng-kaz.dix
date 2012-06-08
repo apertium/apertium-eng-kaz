@@ -31,11 +31,11 @@
     <e><p><l>for<s n="pr"/></l><r>үшін<s n="post"/></r></p></e>
     <e><p><l>after<s n="pr"/></l><r>кейін<s n="post"/></r></p></e>
     <e><p><l>during<s n="pr"/></l><r><s n="post"/></r></p></e>
-    <e><p><l>beside<s n="pr"/></l><r>мен<s n="post"/></r></p></e>
-    <e><p><l>instead<b/>of<s n="pr"/></l><r>мен<s n="post"/></r></p></e>
+    <e><p><l>beside<s n="pr"/></l><r>артында<s n="post"/></r></p></e>
+    <e><p><l>instead<b/>of<s n="pr"/></l><r>орнына<s n="post"/></r></p></e>
     <e><p><l>ago<s n="pr"/></l><r>бұрын<s n="post"/></r></p></e>
-    <e><p><l>along<s n="pr"/></l><r>мен<s n="post"/></r></p></e>
-    <e><p><l>through<s n="pr"/></l><r>мен<s n="post"/></r></p></e>
+    <e><p><l>along<s n="pr"/></l><r>бойымен<s n="post"/></r></p></e>
+    <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
 
     <!-- Раздел: Имя Существительное -->
 
@@ -73,11 +73,12 @@
 
     <!-- Раздел: Наречие -->
 
-    <e><p><l>yesterday<s n="adv"/></l><r>және<s n="adv"/></r></p></e>
+    <e><p><l>yesterday<s n="adv"/></l><r>кеше<s n="adv"/></r></p></e>
 
     <!-- Раздел: Имя Прилагательное -->
 
-    <e><p><l>nice<s n="adj"/></l><r>және<s n="adj"/></r></p></e>
+    <e><p><l>nice<s n="adj"/></l><r>көркем<s n="adj"/></r></p></e>
+    <e><p><l>have<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
 
     <!-- Раздел: Местоимение -->
 
@@ -94,37 +95,36 @@
     <e><p><l>come<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>can<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>play<s n="vblex"/></l><r>ойна<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>love<s n="vblex"/></l><r>жақсы<b/>көр<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>like<s n="vblex"/></l><r>ұнат<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>have<s n="vblex"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>love<s n="vblex"/></l><r>жақсы<b/>көр<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>like<s n="vblex"/></l><r>ұнат<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>sleep<s n="vblex"/></l><r>ұйықта<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>run<s n="vblex"/></l><r>жүгір<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>look<s n="vblex"/></l><r>қара<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>see<s n="vblex"/></l><r>көр<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>hide<s n="vblex"/></l><r>жасыр<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>know<s n="vblex"/></l><r>біл<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>look<s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>see<s n="vblex"/></l><r>көр<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>hide<s n="vblex"/></l><r>жасыр<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>know<s n="vblex"/></l><r>біл<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>sit<s n="vblex"/></l><r>отыр<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>count<s n="vblex"/></l><r>сана<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>do<s n="vblex"/></l><r>жаса<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>finish<s n="vblex"/></l><r>бітір<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>search<s n="vblex"/></l><r>ізде<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>ask<s n="vblex"/></l><r>сұра<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>speak<s n="vblex"/></l><r>сөйле<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>count<s n="vblex"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>do<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>finish<s n="vblex"/></l><r>бітір<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>search<s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>ask<s n="vblex"/></l><r>сұра<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>speak<s n="vblex"/></l><r>сөйле<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>laugh<s n="vblex"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>tell<s n="vblex"/></l><r>айт<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>reply<s n="vblex"/></l><r>жауап<b/>бер<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>want<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>want<s n="vblex"/></l><r>кел<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>try<s n="vblex"/></l><r>тырыс<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>find<s n="vblex"/></l><r>тап<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>find<s n="vblex"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>cry<s n="vblex"/></l><r>жыла<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>hear<s n="vblex"/></l><r>есті<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>listen<s n="vblex"/></l><r>тыңда<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>listen<s n="vblex"/></l><r>тыңда<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>must<s n="vblex"/></l><r>керек<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>eat<s n="vblex"/></l><r>же<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>drink<s n="vblex"/></l><r>іш<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>eat<s n="vblex"/></l><r>же<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>drink<s n="vblex"/></l><r>іш<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>walk<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>walk<g><b/>around</g><s n="vblex"/></l><r>серуенде<s n="v"/><s n="iv"/></r></p></e>
 

@@ -4,6 +4,10 @@
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+      <cat-item tags="np.ant.*"/>
+    </def-cat>
+    <def-cat n="defa">
+      <cat-item tags="det.def.*"/>
     </def-cat>
     <def-cat n="prep">
       <cat-item tags="pr"/>
@@ -15,6 +19,12 @@
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+      <attr-item tags="np.ant"/>
+    </def-attr>
+    <def-attr n="a_gen">
+      <attr-item tags="f"/>
+      <attr-item tags="m"/>
+      <attr-item tags="mf"/>
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
@@ -104,6 +114,104 @@
 </rule>
      
 
+<rule comment="RULE: in"> <!-- FMT copy 20120610 ...-->
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="defa"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <let> <!-- these could be macros -->
+       <var n="number"/>
+       <lit v=""/>
+    </let>
+    <let>
+       <var n="case"/>
+       <lit-tag v="nom"/>
+    </let>
+    <choose>
+      <when>
+        <test>
+           <equal>
+               <clip pos="3" side="sl" part="a_nbr"/>
+               <lit-tag v="pl"/>
+           </equal>
+        </test>
+        <let> <var n="number"/><lit-tag v="pl"/> </let>
+      </when>
+     </choose>
+     <choose>  
+     <when>
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="in"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="loc"/>
+        </let>
+	</when>    
+     </choose>
+    <out>
+    <chunk name="AdvP">
+    <tags>
+    <tag><lit-tag v="adv"/></tag>
+    </tags>
+    <lu>  
+        <clip pos="3" side="tl" part="lem"/> 
+        <clip pos="3" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+     <b pos="1"/>
+    </out>
+  </action>
+</rule>
+
+<rule comment="RULE: nom"> 
+  <pattern>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <let> <!-- these could be macros -->
+       <var n="number"/>
+       <lit v=""/>
+    </let>
+    <let>
+       <var n="case"/>
+       <lit-tag v="nom"/>
+    </let>
+    <choose>
+      <when>
+        <test>
+           <equal>
+               <clip pos="1" side="sl" part="a_nbr"/>
+               <lit-tag v="pl"/>
+           </equal>
+        </test>
+        <let> <var n="number"/><lit-tag v="pl"/> </let>
+      </when>
+     </choose>
+    <out>
+    <chunk name="SN">
+    <tags>
+    <tag><lit-tag v="nom"/></tag>
+    </tags>
+    <lu>  
+        <clip pos="1" side="tl" part="lem"/> 
+        <clip pos="1" side="tl" part="a_nom"/>
+        <clip pos="1" side="tl" part="a_gen"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+ 
     <rule comment="REGLA: SENT">
       <pattern>
         <pattern-item n="sent"/>

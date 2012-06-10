@@ -4,15 +4,20 @@
     <sdef n="n"  c="Имя существительное"/>
     <sdef n="v"  c="Глагол"/>
     <sdef n="vblex"  c="Глагол"/>
-    <sdef n="iv"  c="Неп..."/>
-    <sdef n="tv"  c="п..."/>
+    <sdef n="iv"  c="Непереходный"/>
+    <sdef n="tv"  c="Переходный"/>
     <sdef n="prn"  c="Местоимение"/>
     <sdef n="adv"  c="Наречие"/>
     <sdef n="adj"  c="Имя Прилагательное"/>
     <sdef n="num"  c="Имя Числительное"/>
+    <sdef n="np"  c="Имя Собственное"/>
     <sdef n="pr"  c="Предлог"/>
-    <sdef n="post"  c=""/>
+    <sdef n="post"  c="Послелог"/>
     <sdef n="cnjcoo"  c="Союз"/>
+    <sdef n="ant"  c="Антропоним"/>
+
+    <sdef n="m"  c="Мужской род"/>
+    <sdef n="f"  c="Женский род"/>
 
     <sdef n="guio" 	c=""/> 
     <sdef n="cm" 	c=""/> 
@@ -77,6 +82,11 @@
     <e><p><l>apple<s n="n"/></l><r>алма<s n="n"/></r></p></e>
     <e><p><l>lip<s n="n"/></l><r>ерін<s n="n"/></r></p></e>
     <e><p><l>paper<s n="n"/></l><r>қағаз<s n="n"/></r></p></e>
+
+    <!-- Раздел: Имя Собственное -->
+
+    <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/></l><r>Джеймс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/></l><r>Мэри<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <!-- Раздел: Союз -->
 

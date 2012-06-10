@@ -228,6 +228,7 @@ LEXICON CLIT-IMP2P               ! These modal particle/clitic appears only afte
 !! Politeness
 
 %+шы%<mod_foc%>:%>ш%{I%} # ;
+# ;
 
 LEXICON CLIT-MA
 
@@ -288,6 +289,7 @@ LEXICON POSS-REAL  ! P_2
 %<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р CASE-ETC ;
 
 LEXICON ADJ-DAGI
+! This should probably be called something else
 
 !! ADJ-COMMON ;   !!!! ! FIXME: when we go recursive, use this instead of CASES
 ! ADJ-COMMON ;    !!!! ! FIXME: when we go recursive, use this instead of N-INFL
@@ -469,22 +471,6 @@ LEXICON VOL-ENDINGS
 %<p2%>%<pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р # ;
 %<p3%>%<pl%>:%>%{S%}%{I%}%{n%} # ;
 
-LEXICON V-INFL-FINITE
-
-! Finite forms
-%<aor%>:%>%{E%} V-PERS-PRES ;                         !
-%<fut%>:%>%{A%}р V-PERS-COP-SUF ;                     !
-%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                    ! 
-%<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;               ! 
-%<past%>%<evid%>:%>%{G%}%{A%}н% екен V-PERS-COP-SUF ; ! evidential general past
-%<ifi%>%<evid%>:%>%{I%}пт%{I%} V-PERS-EVID-SUF ;      ! evidential recent past
-
-LEXICON V-INFL-NON-FINITE
-
-V-INFL-NON-FINITE-IRREG ;
-V-INFL-NON-FINITE-REG ;
-%<neg%>:%>%{M%}%{A%} V-INFL-NON-FINITE-REG ;
-
 LEXICON V-INFL-NON-FINITE-IRREG
 
 ! Adverbial Participles
@@ -530,10 +516,10 @@ LEXICON V-INFL-NON-FINITE-REG
 %<gna9%>:%>%{I%}п CLIT ;
 
 !  Imperatives
-! FIXME: check
 %<imp%>%<p2%>%<sg%>: CLIT-IMP2P ;
+%<imp%>%<p2%>%<pl%>:%>%{I%}ң%>д%{A%}р CLIT-IMP2P ;
 %<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT-IMP2P ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң CLIT-IMP2P ;                      ! Dir/LR
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң CLIT-IMP2P ;                      ! Dir/LR FIXME:CHECK
 %<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р CLIT-IMP2P ;
 
 !  Optative/jussive forms
@@ -547,9 +533,24 @@ LEXICON V-INFL-NON-FINITE-REG
 %<opt%>%<p2%>%<frm%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
 %<opt%>%<p3%>%<pl%>:%>с%{I%}н # ;
 
+LEXICON V-INFL-FINITE
+
+! Finite forms
+%<aor%>:%>%{E%} V-PERS-PRES ;                         !
+%<fut%>:%>%{A%}р V-PERS-COP-SUF ;                     !
+%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                    ! 
+%<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;               ! 
+%<past%>%<evid%>:%>%{G%}%{A%}н% екен V-PERS-COP-SUF ; ! evidential general past
+%<ifi%>%<evid%>:%>%{I%}пт%{I%} V-PERS-EVID-SUF ;      ! evidential recent past
+
+LEXICON V-INFL-NON-FINITE
+
+V-INFL-NON-FINITE-IRREG ;
+V-INFL-NON-FINITE-REG ;
+%<neg%>:%>%{M%}%{A%} V-INFL-NON-FINITE-REG ;
+
 LEXICON V-INFL-COMMON
 
-! %<pfp%>:%{I%}п # ;   ! This has been replaced in V-INFL-NON-FINITE
 V-INFL-FINITE ;
 %<neg%>:%>%{M%}%{A%} V-INFL-FINITE ;
 V-INFL-NON-FINITE ;
@@ -599,6 +600,12 @@ LEXICON N1
 %<n%>%<attr%>: # ;
 %<n%>: SUBST ;
 
+LEXICON N-COMPOUND-PX
+! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
+
+%<n%>:%>%{S%}%{I%}%{n%} CASE-ETC ;
+%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
+
 LEXICON NP-COMMON
 N-INFL-COMMON ;
 
@@ -621,6 +628,10 @@ LEXICON NP-COG-M
 
 %<np%>%<cog%>%<m%>: NP-COMMON ;
 %<np%>%<cog%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
+
+LEXICON NP-AL
+
+%<np%>%<al%>: CASE ; 
 
 LEXICON NUM
 
@@ -912,32 +923,10 @@ LEXICON Pronouns
 PRON-PERS ;  ! Personal pronouns
 PRON-DEM ;   ! Demonstrative pronouns
 
-еш% нәрсе:еш% нәрсе PRNNEG ; ! "" ! Use/MT
+еш% нәрсе:еш% нәрсе PRNNEG ; ! "" Use/MT
+ешкім:ешкім PRNNEG ; ! ""
 
 барлық:барлық PRON-QNT ; ! ""
-
-I NUM-ROMAN ; ! ""
-II NUM-ROMAN ; ! ""
-III NUM-ROMAN ; ! ""
-IV NUM-ROMAN ; ! ""
-V NUM-ROMAN ; ! ""
-VI NUM-ROMAN ; ! ""
-VII NUM-ROMAN ; ! ""
-VIII NUM-ROMAN ; ! ""
-IX NUM-ROMAN ; ! ""
-X NUM-ROMAN ; ! ""
-XI NUM-ROMAN ; ! ""
-XI NUM-ROMAN ; ! ""
-XII NUM-ROMAN ; ! ""
-XIII NUM-ROMAN ; ! ""
-XIV NUM-ROMAN ; ! ""
-XV NUM-ROMAN ; ! ""
-XVI NUM-ROMAN ; ! ""
-XVII NUM-ROMAN ; ! ""
-XVIII NUM-ROMAN ; ! ""
-XIX NUM-ROMAN ; ! ""
-XX NUM-ROMAN ; ! ""
-XXI NUM-ROMAN ; ! ""
 
 нөл:нөл NUM ; ! "zero"
 бір:бір NUM ; ! "one"
@@ -1011,12 +1000,12 @@ LEXICON Determiners
 ешқандай:ешқандай DET-QNT ; ! "no [kind of], none"
 көп:көп DET-QNT ; ! "many, much"
 көптеген:көптеген DET-QNT ; ! "many"
+әр:әр DET-QNT ; ! "every"
+әрбір:әрбір DET-QNT ; ! "each"
 
 бір:бір DET-IND ; ! "a"
 еш:еш DET-IND ; ! "no"
 кей% бір:кей% бір DET-IND ; ! "some"
-әр:әр DET-IND ; ! "every"
-әрбір:әрбір DET-IND ; ! "each"
 
 қай:қай DET-ITG ; ! "which"
 
@@ -1066,13 +1055,14 @@ LEXICON Nouns
 
 адам:адам N1 ; ! "man"
 ана:ана N1 ; ! "mother"
-ауа% райы:ауа% райы N1 ; ! "whether,climate"   ! FIXME:CHECK: and link this to something like N-NOpx3sp   
+ауа% райы:ауа% райы N-COMPOUND-PX ; ! "whether,climate"
 ағаш:ағаш N1 ; ! "tree"
 бала:бала N1 ; ! "child"
 бас:бас N1 ; ! "head,begining,start"
 бақша:бақша N1 ; ! "garden house"
 дыбыс:дыбыс N1 ; ! "sound,noise"
 ерін:ерін N1 ; ! "lip"
+жануар:жануар N1 ; ! "biest"
 жауап:жауап N1 ; ! "answer"
 ит:ит N1 ; ! "dog"
 көз:көз N1 ; ! "eye"
@@ -1091,6 +1081,8 @@ LEXICON Nouns
 
 LEXICON ProperNouns 
 
+Джеймс:Джеймс NP-ANT-M; ! "James" (English)
+Мэри:Мэри NP-ANT-F; ! "Mary" (English)
 
 LEXICON Adverbs
 
@@ -1132,7 +1124,7 @@ LEXICON Verbs
 отыр:отыр V-TD ; ! "sit,board"
 сана:сана V-TD ; ! "think,suppose,imagine"
 сұра:сұра V-TV ; ! "request/ask for"
-сөйле:сөйле V-TD ; ! "say,speak"
+сөйле:сөйле V-TV ; ! "say,speak"
 тап:тап V-TV ; ! "find"
 тырыс:тырыс V-IV ; ! "to try"
 тыңда:тыңда V-TD ; ! "listen"
@@ -1163,13 +1155,17 @@ LEXICON Interjections
 
 LEXICON Abbreviations
 
-млн:млн ABBR ; ! "million"
-кг:кг ABBR ; ! "kg"
-км:км ABBR ; ! "km"
-см:см ABBR ; ! "cm"
+УЕФА:УЕФА ABBR ; ! ""
+
 б%.з%.б:б%.з%.б ABBR ; ! "CE"
 б%.з%.д:б%.з%.д ABBR ; ! "BCE"
 ж%.:ж%. ABBR ; ! "year"
+кг:кг ABBR ; ! "kg"
+км:км ABBR ; ! "km"
+км²:км² ABBR ; ! "km²"
+км³:км³ ABBR ; ! "km³"
+млн:млн ABBR ; ! "million"
+см:см ABBR ; ! "cm"
 т%.:т%. ABBR ; ! "tonne"
 т%.б%.:т%.б%. ABBR ; ! "etc."
 

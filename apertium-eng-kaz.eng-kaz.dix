@@ -32,21 +32,19 @@
 
     <!-- Раздел: Предлог -->
 
-    <e><p><l>in<s n="pr"/></l><r></r></p></e>
-    <e><p><l>on<s n="pr"/></l><r></r></p></e>
-    <e><p><l>from<s n="pr"/></l><r></r></p></e>
-    <e><p><l>of<s n="pr"/></l><r></r></p></e>
-    <e><p><l>to<s n="pr"/></l><r></r></p></e>
-    <e><p><l>the<s n="pr"/></l><r></r></p></e>
-    <e><p><l>a<s n="pr"/></l><r></r></p></e>
-    <e><p><l>an<s n="pr"/></l><r></r></p></e>
-    <e><p><l>by<s n="pr"/></l><r></r></p></e>
+    <e r="LR"><p><l>in<s n="pr"/></l><r></r></p></e>
+    <e r="LR"><p><l>on<s n="pr"/></l><r></r></p></e>
+    <e r="LR"><p><l>from<s n="pr"/></l><r></r></p></e>
+    <e r="LR"><p><l>of<s n="pr"/></l><r></r></p></e>
+    <e r="LR"><p><l>to<s n="pr"/></l><r></r></p></e>
+    <e r="LR"><p><l>the<s n="pr"/></l><r></r></p></e>
+    <e r="LR"><p><l>by<s n="pr"/></l><r></r></p></e>
     <e><p><l>with<s n="pr"/></l><r>мен<s n="post"/></r></p></e>
     <e><p><l>inside<s n="pr"/></l><r>ішінде<s n="post"/></r></p></e>
     <e><p><l>outside<s n="pr"/></l><r>сыртында<s n="post"/></r></p></e>
     <e><p><l>for<s n="pr"/></l><r>үшін<s n="post"/></r></p></e>
     <e><p><l>after<s n="pr"/></l><r>кейін<s n="post"/></r></p></e>
-    <e><p><l>during<s n="pr"/></l><r><s n="post"/></r></p></e>
+    <e r="LR"><p><l>during<s n="pr"/></l><r><s n="post"/></r></p></e>
     <e><p><l>beside<s n="pr"/></l><r>артында<s n="post"/></r></p></e>
     <e><p><l>instead<b/>of<s n="pr"/></l><r>орнына<s n="post"/></r></p></e>
     <e><p><l>ago<s n="pr"/></l><r>бұрын<s n="post"/></r></p></e>

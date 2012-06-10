@@ -245,7 +245,7 @@
         <file name="apertium-eng-kaz.kaz-eng.t3x"/>
         <file name="kaz-eng.t3x.bin"/>
       </program>
-      <program name="hfst-proc $1">
+      <program name="lt-proc $1">
         <file name="kaz-eng.autogen.bin"/>
       </program>
     </pipeline>
@@ -275,7 +275,7 @@
         <file name="apertium-eng-kaz.kaz-eng.t3x"/>
         <file name="kaz-eng.t3x.bin"/>
       </program>
-      <program name="hfst-proc -d">
+      <program name="lt-proc -d">
         <file name="kaz-eng.autogen.bin"/>
       </program>
     </pipeline>

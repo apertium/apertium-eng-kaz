@@ -83,7 +83,8 @@
       </when>
      </choose>
      <choose>  
-     <when>
+     <when> <!-- FMT: Need to add the rest of the prepositions, and have an
+                      alternative out section to avoid, e.g. "Through gardens → бақша" -->
         <test>
           <equal caseless="yes">
             <clip pos="1" side="sl" part="lem"/>
@@ -171,7 +172,7 @@
   </action>
 </rule>
 
-<rule comment="RULE: nom"> 
+<rule comment="RULE: nom">  <!-- FMT -->
   <pattern>
     <pattern-item n="nom"/>
   </pattern>

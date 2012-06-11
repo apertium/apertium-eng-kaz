@@ -15912,7 +15912,6 @@
 
                             <e lm="literally" i=""><i>literally</i><par n="maybe__adv"/></e>
 
-                            <e lm="little" i=""><i>little</i><par n="maybe__adv"/></e>
 
                             <e lm="locally" i=""><i>locally</i><par n="maybe__adv"/></e>
 
@@ -23644,7 +23643,7 @@
 
                             <e lm="less" i=""><i>less</i><par n="much__det"/></e>
 
-                            <e lm="little" i=""><i>little</i><par n="much__det"/></e>
+                            <!--<e lm="little" i=""><i>little</i><par n="much__det"/></e>-->
 
                             <e lm="more" i=""><i>more</i><par n="enough__det"/></e>
 
@@ -54750,7 +54749,6 @@
 
                             <e lm="tireless" i=""><i>tireless</i><par n="expensive__adj"/></e>
 
-                            <e lm="together" i=""><i>together</i><par n="expensive__adj"/></e>
 
                             <e lm="toneless" i=""><i>toneless</i><par n="expensive__adj"/></e>
 
@@ -58788,6 +58786,8 @@
                             <e lm="very" i=""><i>very</i><par n="very__preadv"/></e>
 
                             <e lm="God willing" i=""><i>God<b/>willing</i><par n="maybe__adv"/></e>
+
+                            <e lm="together" i=""><i>together</i><par n="maybe__adv"/></e>
 
                             <e lm="audaciously" i=""><i>audaciously</i><par n="maybe__adv"/></e>
 

@@ -65,7 +65,7 @@
     <def-macro n="initialize_case" npar="0">
           <let>
             <var n="case"/>
-            <lit v="nom"/>
+            <lit-tag v="nom"/>
           </let>
     </def-macro>
 
@@ -111,7 +111,7 @@
      <otherwise>
           <let>
             <var n="case"/>
-            <lit v="nom"/>
+            <lit-tag v="nom"/>
           </let>
      </otherwise>
      </choose>

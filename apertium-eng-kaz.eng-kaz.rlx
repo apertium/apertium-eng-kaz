@@ -6,14 +6,30 @@ SETS
 LIST N = n ; 
 LIST Det = det ; 
 LIST A = adj ; 
-LIST V = vblex ; 
+LIST V = vblex vbser vaux vbhaver ; 
 LIST Adv = adv ; 
 LIST Pron = prn ; 
 LIST CS = cnjsub ; 
+LIST CC = cnjcoo ; 
+LIST Rel = rel ; 
+LIST Preadv = preadv ; 
+LIST Pr = pr ; 
+
+LIST Cop = vbser ; 
 
 LIST Inf = inf ; 
 LIST Pres = pres pri; 
 LIST Past = past ;  
+LIST Ger = ger ; 
+
+LIST Interr = itg ; 
+LIST Subj = subj ; 
+LIST Obj = obj ; 
+LIST Pos = pos ; 
+
+LIST 1p = p1 ;
+LIST 2p = p2 ;
+LIST 3p = p3 ;
 
 LIST FIN = pres past pri ; 
 
@@ -21,7 +37,11 @@ LIST SENT = sent ;
 
 SET V-FIN = V + FIN ;
 
-SET CLB = SENT | V-FIN ;
+SET V-DO = ("do"i) ; 
+
+SET CLB = SENT | V-FIN | Subj ; # 'Subj' is risky, e.g. coordination
+
+SET PERSON = 1p | 2p | 3p ;
 
 SECTION
 
@@ -35,13 +55,19 @@ REMOVE V IF (-1 Det);
 
 REMOVE A IF (-1 Det) (0 N OR A) (1 ("<is>")) (2 A);
 
-REMOVE N IF (0 N OR V-FIN) (NOT 1* V-FIN BARRIER CLB);
+REMOVE N IF (0 V-FIN) (0 N OR V-FIN) (NOT 1* V-FIN BARRIER CLB);
 
-REMOVE A IF (0 A OR Adv) (NOT 1 N);
+REMOVE A IF (0 A OR Adv) (NOT 1 N) (NOT -1* Cop BARRIER CLB) ;
 
 REMOVE N IF (0 N OR V-FIN) (1 ("<to>"i)) (2 Inf);
 
+SELECT V-FIN + $$PERSON IF (-1 Subj + $$PERSON);
+
+SELECT Inf IF (-1* V-DO BARRIER SENT) (NOT 1 Det);
+
 REMOVE Inf IF (0 Inf OR V-FIN) (NOT 1* V-FIN BARRIER CLB) (NOT -1* V-FIN BARRIER CLB);
+
+REMOVE V-FIN IF (0 Inf) (0 Inf OR V-FIN) ((1C* V-FIN BARRIER CLB) OR (-1C* V-FIN BARRIER CLB));
 
 SELECT Inf IF (-2 ("do"i)) (-1 Pron) (0 Pres OR Inf);
 
@@ -49,3 +75,36 @@ REMOVE CS IF (NOT 1* V-FIN BARRIER CLB);
 
 REMOVE Det IF (NOT 1 N);
 
+SELECT Adv + Interr IF (0 Adv OR Rel) (1* ("?")) ;
+
+SELECT Subj IF (0 Subj OR Obj) (1 V-FIN);
+
+SELECT A IF (-1 Preadv) (0 A OR V);
+
+REMOVE Pr IF (NOT 1* N BARRIER CLB);
+
+REMOVE Pr IF (0 Pr OR CC) (-1 SENT);
+
+SELECT V-FIN + $$PERSON (-1C Subj + $$PERSON);
+
+SELECT Inf IF (-2 V-FIN) (-1 Adv) (0 V-FIN OR Inf);
+
+SELECT Det + Pos IF (0 Det OR Pron) (1 N);
+
+SELECT A IF (0 Det OR A) (-1 Det) (1 N);
+
+SELECT Ger IF (-1 Cop);
+
+SELECT Pr IF (0 Pr OR Adv) (1 Det);
+
+REMOVE Rel IF (-1 CC);
+
+SELECT Det IF (0 ("<no>") OR ("<some>")) (1C N);
+
+REMOVE A IF (0C A OR N) (-1 Det) (1 SENT);
+
+SELECT Det IF (0C Pron OR Det) (1C N);
+
+SELECT V-FIN IF (-1C Subj) (1 Inf);
+
+REMOVE Subj IF (0C Subj OR Obj) (-1C* Subj BARRIER SENT);

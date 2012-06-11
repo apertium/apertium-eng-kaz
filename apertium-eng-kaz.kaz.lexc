@@ -1087,11 +1087,23 @@ LEXICON ProperNouns
 
 LEXICON Adverbs
 
+қайда:қайда ADVITG ; ! "where (где;куда)"
+қашан:қашан ADVITG ; ! "when"
+бірге:бірге ADV ; ! "together" FIXME:NOTE: also a <post>
+қайтадан:қайтадан ADV ; ! "once again"
+әрдайым:әрдайым ADV ; ! "always"
+өте:өте ADV ; ! "very"
+бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
 кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
+қазір:қазір ADV-WITH-KI ; ! "now > the one now"
 
 LEXICON Adjectives
 
 бар:бар A2 ;
+жылы:жылы A1 ; ! "warm"
+кішкентай:кішкентай A1 ; ! "small, little"
+суық:суық A1 ; ! "cold"
+үлкен:үлкен A1 ; ! "big"
 
 LEXICON Verbs 
 
@@ -1100,12 +1112,14 @@ LEXICON Verbs
 ал:ал Vinfl-AUX ; ! 
 ал:ал Vinfl-AUX ; ! 
 кет:кет Vinfl-AUX ; ! 
+бол:бол Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
+бол:бол V-IV ; ! "be/become"
 біл:біл V-TD ; ! "know,understand,learn"
 бітір:бітір V-TV ; ! "finish"  ! FIXME: causitive
 есті:есті V-TV ; ! "hear"

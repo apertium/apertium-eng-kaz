@@ -112,6 +112,12 @@
     <e><p><l>boy<s n="n"/></l><r>ұл<s n="n"/></r></p></e>
     <e><p><l>girl<s n="n"/></l><r>қыз<s n="n"/></r></p></e>
     <e><p><l>sister<s n="n"/></l><r>әпке<s n="n"/></r></p></e>
+	 <!-- әпке is southern dialect for "older sister" -->
+    <!-- the literary standard words are:
+      апа - older sister
+      сіңіл - younger sister (of a girl)
+      қарындас - younger sister (of a guy)
+    -->
     <e><p><l>mother<s n="n"/></l><r>ана<s n="n"/></r></p></e>
     <e><p><l>window<s n="n"/></l><r>терезе<s n="n"/></r></p></e>
     <e><p><l>bird<s n="n"/></l><r>құс<s n="n"/></r></p></e>
@@ -132,6 +138,7 @@
     <e><p><l>year<s n="n"/></l><r>жыл<s n="n"/></r></p></e>
     <e><p><l>hand<s n="n"/></l><r>қол<s n="n"/></r></p></e>
     <e><p><l>time<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
+    <!-- "time" has lots of translations in Kazakh, including рет, заман, сағат -->
   
 
     <!-- Раздел: Имя Собственное -->
@@ -182,21 +189,24 @@
     <e><p><l>never<s n="adv"/></l><r>ешқашан<s n="adv"/></r></p></e>
     <e><p><l>probably<s n="adv"/></l><r>мүмкін<s n="adv"/></r></p></e>
     <e><p><l>everywhere<s n="adv"/></l><r>барлық<b/>жерде<s n="adv"/></r></p></e>
-    <e><p><l>slowly<s n="adv"/></l><r>мүмкін<s n="adv"/></r></p></e>
+    <e><p><l>slowly<s n="adv"/></l><r>жай<s n="adv"/></r></p></e>
     <e><p><l>then<s n="adv"/></l><r>сосын<s n="adv"/></r></p></e>
     <e><p><l>again<s n="adv"/></l><r>қайтадан<s n="adv"/></r></p></e>
     <e><p><l>carefully<s n="adv"/></l><r>байқап<s n="adv"/></r></p></e>
+	 <!-- maybe "ақырын"? "абайлап"? -->
     <e><p><l>also<s n="adv"/></l><r>тағы<s n="adv"/></r></p></e>
+	 <!-- isn't тағы a postadv? -->
     <e><p><l>of<b/>course<s n="adv"/></l><r>әрине<s n="adv"/></r></p></e>
     <e><p><l>around<s n="adv"/></l><r>айналасы<s n="adv"/></r></p></e>
     <e><p><l>no<s n="adv"/></l><r>жоқ<s n="adv"/></r></p></e>
     <e><p><l>well<s n="adv"/></l><r>жақсы<s n="adv"/></r></p></e>
     <e><p><l>still<s n="adv"/></l><r>әлі<s n="adv"/></r></p></e>
     <e><p><l>there<s n="adv"/></l><r>анда<s n="adv"/></r></p></e>
+	 <!-- not "онда"?? -->
    
     <e><p><l>always<s n="adv"/></l><r>әрдайым<s n="adv"/></r></p></e>
     <e><p><l>together<s n="adv"/></l><r>бірге<s n="adv"/></r></p></e>
-    <e><p><l>outside<s n="adv"/></l><r>далада<s n="adv"/></r></p></e>
+    <e><p><l>outside<s n="adv"/></l><r>дала<s n="n"/><s n="loc"/></r></p></e>
 
 
     <!-- Раздел: Имя Прилагательное -->
@@ -207,12 +217,13 @@
 <!--    <e><p><l>have<s n="adj"/></l><r>бар<s n="adj"/></r></p></e> -->
     <e><p><l>warm<s n="adj"/></l><r>жылы<s n="adj"/></r></p></e>
     <e><p><l>cold<s n="adj"/></l><r>суық<s n="adj"/></r></p></e>
-    <e><p><l>big<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
-    <e><p><l>little<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
-    <e><p><l>happy<s n="adj"/></l><r>бақытты<s n="adj"/></r></p></e>
+    <e><p><l>large<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
     <e><p><l>small<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
+    <e><p><l>happy<s n="adj"/></l><r>бақытты<s n="adj"/></r></p></e>
     <e><p><l>beautiful<s n="adj"/></l><r>әдемі<s n="adj"/></r></p></e>
     <e><p><l>old<s n="adj"/></l><r>ескі<s n="adj"/></r></p></e>
+    <e><p><l>old<s n="adj"/></l><r>кәрі<s n="adj"/></r></p></e>
+    <e><p><l>new<s n="adj"/></l><r>жаңа<s n="adj"/></r></p></e>
     <e><p><l>close<s n="adj"/></l><r>жақын<s n="adj"/></r></p></e>
 
         

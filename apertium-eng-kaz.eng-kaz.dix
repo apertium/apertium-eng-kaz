@@ -229,12 +229,12 @@
         
     <!-- Раздел: Местоимение -->
 
-    <e><p><l>i<s n="prn"/></l><r>мен<s n="prn"/></r></p></e>
-    <e><p><l>she<s n="prn"/></l><r>ол<s n="prn"/></r></p></e>
-    <e><p><l>you<s n="prn"/></l><r>сен<s n="prn"/></r></p></e>
-    <e><p><l>they<s n="prn"/></l><r>олар<s n="prn"/></r></p></e>
-    <e><p><l>it<s n="prn"/></l><r>ол<s n="prn"/></r></p></e>
-    <e><p><l>he<s n="prn"/></l><r>ол<s n="prn"/></r></p></e>
+    <e><p><l>i<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>she<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>you<s n="prn"/></l><r>сен<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>they<s n="prn"/></l><r>олар<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>it<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>he<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>something<s n="prn"/></l><r>бір<b/>нәрсе<s n="prn"/></r></p></e>
     <e><p><l>anything<s n="prn"/></l><r>еш<b/>нәрсе<s n="prn"/></r></p></e>
     <e><p><l>both<s n="prn"/></l><r>екеуі<s n="prn"/></r></p></e>

@@ -19,14 +19,25 @@
     <sdef n="vbser"  c=""/>
     <sdef n="preadv"  c=""/>
 
+    <sdef n="sg"  c=""/>
+    <sdef n="pl"  c=""/>
+
+    <sdef n="p1"  c=""/>
+    <sdef n="p2"  c=""/>
+    <sdef n="p3"  c=""/>
+
     <sdef n="ind"  c=""/>
     <sdef n="def"  c=""/>
+    <sdef n="pos"  c=""/>
+    <sdef n="pers"  c=""/>
     <sdef n="itg"  c=""/>
 
     <sdef n="ant"  c="Антропоним"/>
 
     <sdef n="m"  c="Мужской род"/>
     <sdef n="f"  c="Женский род"/>
+
+    <sdef n="gen"  c=""/>
 
     <sdef n="guio" 	c=""/> 
     <sdef n="cm" 	c=""/> 
@@ -63,6 +74,7 @@
     <e><p><l>along<s n="pr"/></l><r>бойымен<s n="post"/></r></p></e>
     <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
     <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>алдында<s n="post"/></r></p></e>  
+    <e><p><l>althrough<s n="pr"/></l><r>дегенмен<s n="post"/></r></p></e>
 
     <!-- Раздел: Имя Существительное -->
 
@@ -93,6 +105,7 @@
     <e><p><l>apple<s n="n"/></l><r>алма<s n="n"/></r></p></e>
     <e><p><l>lip<s n="n"/></l><r>ерін<s n="n"/></r></p></e>
     <e><p><l>paper<s n="n"/></l><r>қағаз<s n="n"/></r></p></e>
+  
 
     <!-- Раздел: Имя Собственное -->
 
@@ -129,6 +142,15 @@
 
     <e><p><l>yesterday<s n="adv"/></l><r>кеше<s n="adv"/></r></p></e>
     <e><p><l>today<s n="adv"/></l><r>бүгін<s n="adv"/></r></p></e>
+    <e><p><l>now<s n="adv"/></l><r>қазір<s n="adv"/></r></p></e>
+    <e><p><l>quickly<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
+    <e><p><l>never<s n="adv"/></l><r>ешқашан<s n="adv"/></r></p></e>
+    <e><p><l>probably<s n="adv"/></l><r>мүмкін<s n="adv"/></r></p></e>
+    <e><p><l>everywhere<s n="adv"/></l><r>барлық<b/>жерде<s n="adv"/></r></p></e>
+    <e><p><l>slowly<s n="adv"/></l><r>мүмкін<s n="adv"/></r></p></e>
+    <e><p><l>then<s n="adv"/></l><r>сосын<s n="adv"/></r></p></e>
+    <e><p><l>again<s n="adv"/></l><r>қайтадан<s n="adv"/></r></p></e>
+    <e><p><l>carefully<s n="adv"/></l><r>байқап<s n="adv"/></r></p></e>
 
     <e><p><l>always<s n="adv"/></l><r>әрдайым<s n="adv"/></r></p></e>
     <e><p><l>together<s n="adv"/></l><r>бірге<s n="adv"/></r></p></e>
@@ -144,7 +166,9 @@
     <e><p><l>big<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
     <e><p><l>little<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
     <e><p><l>happy<s n="adj"/></l><r>бақытты<s n="adj"/></r></p></e>
-    
+    <e><p><l>small<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
+
+        
     <!-- Раздел: Местоимение -->
 
     <e><p><l>i<s n="prn"/></l><r>мен<s n="prn"/></r></p></e>
@@ -155,6 +179,13 @@
     <e><p><l>he<s n="prn"/></l><r>ол<s n="prn"/></r></p></e>
     <e><p><l>something<s n="prn"/></l><r>бір<b/>нәрсе<s n="prn"/></r></p></e>
     <e><p><l>anything<s n="prn"/></l><r>еш<b/>нәрсе<s n="prn"/></r></p></e>
+
+    <e><p><l>my<s n="det"/><s n="pos"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>his<s n="det"/><s n="pos"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>her<s n="det"/><s n="pos"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></r></p></e>
+    <e><p><l>their<s n="det"/><s n="pos"/></l><r>олар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="gen"/></r></p></e>
+
+    <e><p><l>that<s n="prn"/></l><r><s n="prn"/></r></p></e>
 
     <!-- Раздел: Глагол -->
 

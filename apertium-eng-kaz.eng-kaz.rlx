@@ -9,6 +9,6 @@ LIST A = adj ;
 
 SECTION
 
-REMOVE N IF (0 ("<is>")) ; 
+REMOVE N IF (0 ("<is>"i)) ; 
 
 REMOVE A IF (-1 Det) (0 N OR A) (1 ("<is>")) (2 A);

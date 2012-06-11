@@ -50,6 +50,7 @@
     <e><p><l>ago<s n="pr"/></l><r>бұрын<s n="post"/></r></p></e>
     <e><p><l>along<s n="pr"/></l><r>бойымен<s n="post"/></r></p></e>
     <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
+    <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>алдында<s n="post"/></r></p></e>  
 
     <!-- Раздел: Имя Существительное -->
 
@@ -86,6 +87,19 @@
     <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/></l><r>Джеймс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/></l><r>Мэри<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
+   <!-- Раздел: Имя Числительное -->
+
+   <e><p><l>one<s n="num"/></l><r>бір<s n="num"/></r></p></e>
+   <e><p><l>two<s n="num"/></l><r>екі<s n="num"/></r></p></e>
+   <e><p><l>three<s n="num"/></l><r>үш<s n="num"/></r></p></e>
+   <e><p><l>four<s n="num"/></l><r>төрт<s n="num"/></r></p></e>
+   <e><p><l>five<s n="num"/></l><r>бес<s n="num"/></r></p></e>
+   <e><p><l>six<s n="num"/></l><r>алты<s n="num"/></r></p></e>
+   <e><p><l>seven<s n="num"/></l><r>жеті<s n="num"/></r></p></e>
+   <e><p><l>eight<s n="num"/></l><r>сегіз<s n="num"/></r></p></e>
+   <e><p><l>nine<s n="num"/></l><r>тоғыз<s n="num"/></r></p></e>
+   <e><p><l>ten<s n="num"/></l><r>он<s n="num"/></r></p></e>
+
     <!-- Раздел: Союз -->
 
     <e><p><l>and<s n="cnjcoo"/></l><r>және<s n="cnjcoo"/></r></p></e>
@@ -94,20 +108,32 @@
     <!-- Раздел: Наречие -->
 
     <e><p><l>yesterday<s n="adv"/></l><r>кеше<s n="adv"/></r></p></e>
+    <e><p><l>where<s n="adv"/></l><r>қайда<s n="adv"/></r></p></e>
+    <e><p><l>why<s n="adv"/></l><r>неге<s n="adv"/></r></p></e>
+    <e><p><l>when<s n="adv"/></l><r>қашан<s n="adv"/></r></p></e
+    <e><p><l>who<s n="adv"/></l><r>кім<s n="adv"/></r></p></e>
+    
 
     <!-- Раздел: Имя Прилагательное -->
 
     <e><p><l>nice<s n="adj"/></l><r>көркем<s n="adj"/></r></p></e>
     <e><p><l>have<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
-
+    <e><p><l>warm<s n="adj"/></l><r>жылы<s n="adj"/></r></p></e>
+    <e><p><l>cold<s n="adj"/></l><r>суық<s n="adj"/></r></p></e>
+    <e><p><l>big<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
+    <e><p><l>little<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
+    <e><p><l>happy<s n="adj"/></l><r>бақытты<s n="adj"/></r></p></e>
+    
     <!-- Раздел: Местоимение -->
 
+    <e><p><l>i<s n="prn"/></l><r>мен<s n="prn"/></r></p></e>
     <e><p><l>she<s n="prn"/></l><r>ол<s n="prn"/></r></p></e>
     <e><p><l>you<s n="prn"/></l><r>сен<s n="prn"/></r></p></e>
     <e><p><l>they<s n="prn"/></l><r>олар<s n="prn"/></r></p></e>
     <e><p><l>it<s n="prn"/></l><r>ол<s n="prn"/></r></p></e>
     <e><p><l>he<s n="prn"/></l><r>ол<s n="prn"/></r></p></e>
     <e><p><l>something<s n="prn"/></l><r>бір<b/>нәрсе<s n="prn"/></r></p></e>
+    <e><p><l>anything<s n="prn"/></l><r>еш<b/>нәрсе<s n="prn"/></r></p></e>
 
     <!-- Раздел: Глагол -->
 

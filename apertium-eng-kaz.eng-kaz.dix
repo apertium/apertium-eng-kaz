@@ -15,9 +15,13 @@
     <sdef n="post"  c="Послелог"/>
     <sdef n="cnjcoo"  c="Союз"/>
     <sdef n="det"  c=""/>
+    <sdef n="rel"  c=""/>
+    <sdef n="vbser"  c=""/>
+    <sdef n="preadv"  c=""/>
 
     <sdef n="ind"  c=""/>
     <sdef n="def"  c=""/>
+    <sdef n="itg"  c=""/>
 
     <sdef n="ant"  c="Антропоним"/>
 
@@ -115,12 +119,21 @@
 
     <!-- Раздел: Наречие -->
 
-    <e><p><l>yesterday<s n="adv"/></l><r>кеше<s n="adv"/></r></p></e>
-    <e><p><l>where<s n="adv"/></l><r>қайда<s n="adv"/></r></p></e>
-    <e><p><l>why<s n="adv"/></l><r>неге<s n="adv"/></r></p></e>
-    <e><p><l>when<s n="adv"/></l><r>қашан<s n="adv"/></r></p></e>
-    <e><p><l>who<s n="adv"/></l><r>кім<s n="adv"/></r></p></e>
+    <e><p><l>where<s n="rel"/><s n="adv"/></l><r>қайда<s n="adv"/><s n="itg"/></r></p></e> <!-- FIXME: This will need transfer -->
+    <e><p><l>where<s n="adv"/><s n="itg"/></l><r>қайда<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>why<s n="adv"/><s n="itg"/></l><r>неге<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>when<s n="adv"/><s n="itg"/></l><r>қашан<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>who<s n="adv"/><s n="itg"/></l><r>кім<s n="adv"/><s n="itg"/></r></p></e>
     
+    <e><p><l>very<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
+
+    <e><p><l>yesterday<s n="adv"/></l><r>кеше<s n="adv"/></r></p></e>
+    <e><p><l>today<s n="adv"/></l><r>бүгін<s n="adv"/></r></p></e>
+
+    <e><p><l>always<s n="adv"/></l><r>әрдайым<s n="adv"/></r></p></e>
+    <e><p><l>together<s n="adv"/></l><r>бірге<s n="adv"/></r></p></e>
+    <e><p><l>outside<s n="adv"/></l><r>далада<s n="adv"/></r></p></e>
+
 
     <!-- Раздел: Имя Прилагательное -->
 
@@ -145,6 +158,8 @@
 
     <!-- Раздел: Глагол -->
 
+    <e r="LR"><p><l>be<s n="vbser"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>be<s n="vblex"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>go<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>come<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>can<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>

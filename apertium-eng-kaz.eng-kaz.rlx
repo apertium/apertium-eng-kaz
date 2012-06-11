@@ -6,9 +6,46 @@ SETS
 LIST N = n ; 
 LIST Det = det ; 
 LIST A = adj ; 
+LIST V = vblex ; 
+LIST Adv = adv ; 
+LIST Pron = prn ; 
+LIST CS = cnjsub ; 
+
+LIST Inf = inf ; 
+LIST Pres = pres pri; 
+LIST Past = past ;  
+
+LIST FIN = pres past pri ; 
+
+LIST SENT = sent ; 
+
+SET V-FIN = V + FIN ;
+
+SET CLB = SENT | V-FIN ;
 
 SECTION
 
 REMOVE N IF (0 ("<is>"i)) ; 
 
+SELECT Inf IF (-2 V-FIN) (-1 ("<to>"));
+
+REMOVE V IF (-1 A) (-2 Det);
+
+REMOVE V IF (-1 Det);
+
 REMOVE A IF (-1 Det) (0 N OR A) (1 ("<is>")) (2 A);
+
+REMOVE N IF (0 N OR V-FIN) (NOT 1* V-FIN BARRIER CLB);
+
+REMOVE A IF (0 A OR Adv) (NOT 1 N);
+
+REMOVE N IF (0 N OR V-FIN) (1 ("<to>"i)) (2 Inf);
+
+REMOVE Inf IF (0 Inf OR V-FIN) (NOT 1* V-FIN BARRIER CLB) (NOT -1* V-FIN BARRIER CLB);
+
+SELECT Inf IF (-2 ("do"i)) (-1 Pron) (0 Pres OR Inf);
+
+REMOVE CS IF (NOT 1* V-FIN BARRIER CLB);
+
+REMOVE Det IF (NOT 1 N);
+

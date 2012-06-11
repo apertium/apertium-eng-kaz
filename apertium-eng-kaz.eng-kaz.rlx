@@ -45,6 +45,8 @@ SET PERSON = 1p | 2p | 3p ;
 
 SECTION
 
+REMOVE V-FIN IF (-1C V-FIN);
+
 REMOVE N IF (0 ("<is>"i)) ; 
 
 SELECT Inf IF (-2 V-FIN) (-1 ("<to>"));
@@ -55,7 +57,9 @@ REMOVE V IF (-1 Det);
 
 REMOVE A IF (-1 Det) (0 N OR A) (1 ("<is>")) (2 A);
 
-REMOVE N IF (0 V-FIN) (0 N OR V-FIN) (NOT 1* V-FIN BARRIER CLB);
+REMOVE Inf IF (0 N OR Inf) (1 ("to"i)) (2 Inf);
+
+REMOVE N IF (0 V-FIN) (0 N) (0 N OR V-FIN) ((NOT 1* V-FIN BARRIER CLB) OR (NOT -1C* V-FIN BARRIER CLB));
 
 REMOVE A IF (0 A OR Adv) (NOT 1 N) (NOT -1* Cop BARRIER CLB) ;
 
@@ -109,4 +113,3 @@ SELECT V-FIN IF (-1C Subj) (1 Inf);
 
 REMOVE Subj IF (0C Subj OR Obj) (-1C* Subj BARRIER SENT);
 
-REMOVE Inf IF (0 N OR Inf) (1 ("to"i)) (2 Inf);

@@ -71,22 +71,34 @@
     <e r="LR"><p><l>to<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>the<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>by<s n="pr"/></l><r></r></p></e>
+
+	 <!-- The following postpositions are used with nominative case -->
+	 <!-- except for a few pronoun forms with мен -->
     <e><p><l>with<s n="pr"/></l><r>мен<s n="post"/></r></p></e>
+    <e><p><l>for<s n="pr"/></l><r>үшін<s n="post"/></r></p></e>
+    <e><p><l>althrough<s n="pr"/></l><r>дегенмен<s n="post"/></r></p></e>
+    <e><p><l>ago<s n="pr"/></l><r>бұрын<s n="post"/></r></p></e>
+    <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
+
+	 <!-- The following postpositions are all nominative -->
+	 <!-- they are used with the genitive case -->
+	 <!-- They can take any case, and have any px affix -->
     <e><p><l>under<s n="pr"/></l><r>астында<s n="post"/></r></p></e>
-    <e><p><l>behind<s n="pr"/></l><r>қарама-қарсы<s n="post"/></r></p></e>
+    <e><p><l>behind<s n="pr"/></l><r>артында<s n="post"/></r></p></e>
     <e><p><l>inside<s n="pr"/></l><r>ішінде<s n="post"/></r></p></e>
     <e><p><l>outside<s n="pr"/></l><r>сыртында<s n="post"/></r></p></e>
-    <e><p><l>for<s n="pr"/></l><r>үшін<s n="post"/></r></p></e>
-    <e><p><l>after<s n="pr"/></l><r>кейін<s n="post"/></r></p></e>
-    <e r="LR"><p><l>during<s n="pr"/></l><r><s n="post"/></r></p></e>
-    <e><p><l>beside<s n="pr"/></l><r>артында<s n="post"/></r></p></e>
+    <e><p><l>beside<s n="pr"/></l><r>жанында<s n="post"/></r></p></e>
+    <e><p><l>next<b/>to<s n="pr"/></l><r>жанында<s n="post"/></r></p></e>
     <e><p><l>instead<b/>of<s n="pr"/></l><r>орнына<s n="post"/></r></p></e>
-    <e><p><l>ago<s n="pr"/></l><r>бұрын<s n="post"/></r></p></e>
-    <e><p><l>along<s n="pr"/></l><r>бойымен<s n="post"/></r></p></e>
-    <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
+    <e><p><l>on<b/>top<b/>of<s n="pr"/></l><r>үстінде<s n="post"/></r></p></e>
+    <e><p><l>along<s n="pr"/></l><r>бойымен<s n="post"/></r></p></e><!-- see selimcan's comments on this in kaz-tat bidix -->
     <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>алдында<s n="post"/></r></p></e>  
-    <e><p><l>althrough<s n="pr"/></l><r>дегенмен<s n="post"/></r></p></e>
-    <e><p><l>at<s n="pr"/></l><r>үстінде<s n="post"/></r></p></e>
+
+    <!-- The following postpositions use ablative case -->
+    <e><p><l>after<s n="pr"/></l><r>кейін<s n="post"/></r></p></e>
+
+    <!-- This one will be tricky -->
+    <e r="LR"><p><l>during<s n="pr"/></l><r><s n="post"/></r></p></e>
 
     <!-- Раздел: Имя Существительное -->
 
@@ -186,7 +198,9 @@
 
     <!-- Раздел: Имя Прилагательное -->
 
-    <e><p><l>nice<s n="adj"/></l><r>көркем<s n="adj"/></r></p></e>
+    <e><p><l>big<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
+	 <e><p><l>little<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
+	 <e><p><l>nice<s n="adj"/></l><r>көркем<s n="adj"/></r></p></e>
 <!--    <e><p><l>have<s n="adj"/></l><r>бар<s n="adj"/></r></p></e> -->
     <e><p><l>warm<s n="adj"/></l><r>жылы<s n="adj"/></r></p></e>
     <e><p><l>cold<s n="adj"/></l><r>суық<s n="adj"/></r></p></e>

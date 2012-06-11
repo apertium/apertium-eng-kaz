@@ -9,6 +9,7 @@
     <sdef n="vbhaver"  c="Глагол"/>
     <sdef n="iv"  c="Непереходный"/>
     <sdef n="tv"  c="Переходный"/>
+    <sdef n="caus"/>
     <sdef n="prn"  c="Местоимение"/>
     <sdef n="adv"  c="Наречие"/>
     <sdef n="adj"  c="Имя Прилагательное"/>

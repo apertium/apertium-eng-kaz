@@ -233,12 +233,17 @@
     <e><p><l>i<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>she<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>you<s n="prn"/></l><r>сен<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>you<s n="prn"/></l><r>сендер<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>you<s n="prn"/></l><r>сіз<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>you<s n="prn"/></l><r>сіздер<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>they<s n="prn"/></l><r>олар<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>it<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>he<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>something<s n="prn"/></l><r>бір<b/>нәрсе<s n="prn"/></r></p></e>
     <e><p><l>anything<s n="prn"/></l><r>еш<b/>нәрсе<s n="prn"/></r></p></e>
     <e><p><l>both<s n="prn"/></l><r>екеуі<s n="prn"/></r></p></e>
+    <!-- interesting translation -->
+
     <e><p><l>what<s n="prn"/><s n="itg"/></l><r>не<s n="prn"/><s n="itg"/></r></p></e>
 
     <e><p><l>my<s n="det"/><s n="pos"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>

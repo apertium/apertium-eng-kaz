@@ -205,7 +205,7 @@
   </action>
 </rule>
 
-<rule comment="RULE: in"> <!-- FMT copy 20120610 ...-->
+<rule comment="RULE: prep defa nom"> <!-- FMT copy 20120610 ...-->
   <pattern>
     <pattern-item n="prep"/>
     <pattern-item n="defa"/>
@@ -244,6 +244,46 @@
     </out>
   </action>
 </rule>
+
+
+<rule comment="RULE: defa nom"> <!-- FMT copy 20120610 ...-->
+  <pattern>
+    <pattern-item n="defa"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+    <choose>
+      <when>
+        <test>
+           <equal>
+               <clip pos="2" side="sl" part="a_nbr"/>
+               <lit-tag v="pl"/>
+           </equal>
+        </test>
+        <let> <var n="number"/><lit-tag v="pl"/> </let>
+      </when>
+     </choose>
+      <call-macro n="choose_case">
+        <with-param pos="2"/>
+     </call-macro>
+    <out>
+    <chunk name="AdvP">
+    <tags>
+    <tag><lit-tag v="adv"/></tag>
+    </tags>
+    <lu>  
+        <clip pos="2" side="tl" part="lem"/> 
+        <clip pos="2" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+     <b pos="1"/>
+    </out>
+  </action>
+</rule>
+
 
 <rule comment="RULE: nom">  <!-- FMT -->
   <pattern>

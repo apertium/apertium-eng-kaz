@@ -6,6 +6,10 @@
       <cat-item tags="n.*"/>
       <cat-item tags="np.ant.*"/>
     </def-cat>
+    <def-cat n="adjec">
+      <cat-item tags="adj.*"/>
+      <cat-item tags="adj"/>
+    </def-cat>
     <def-cat n="defa">
       <cat-item tags="det.def.*"/>
     </def-cat>
@@ -47,42 +51,26 @@
     <def-var n="plural"/>
     <def-var n="case"/>
   </section-def-vars>
+
+
   <section-def-macros>
-    <def-macro n="test" npar="1">
+    <def-macro n="initialize_number" npar="0">
           <let>
             <var n="number"/>
             <lit v=""/>
           </let>
     </def-macro>
-  </section-def-macros>
-  <section-rules>
 
-<rule comment="RULE: in"> <!-- MLF trying 20120610 ...-->
-  <pattern>
-    <pattern-item n="prep"/>
-    <pattern-item n="nom"/>
-  </pattern>
-  <action>
-    <let> <!-- these could be macros -->
-       <var n="number"/>
-       <lit v=""/>
-    </let>
-    <let>
-       <var n="case"/>
-       <lit-tag v="nom"/>
-    </let>
-    <choose>
-      <when>
-        <test>
-           <equal>
-               <clip pos="2" side="sl" part="a_nbr"/>
-               <lit-tag v="pl"/>
-           </equal>
-        </test>
-        <let> <var n="number"/><lit-tag v="pl"/> </let>
-      </when>
-     </choose>
-     <choose>  
+
+    <def-macro n="initialize_case" npar="0">
+          <let>
+            <var n="case"/>
+            <lit v="nom"/>
+          </let>
+    </def-macro>
+
+    <def-macro n="choose_case" npar="1">
+    <choose>  
      <when> <!-- FMT: Need to add the rest of the prepositions, and have an
                       alternative out section to avoid, e.g. "Through gardens → бақша" -->
         <test>
@@ -96,7 +84,67 @@
           <lit-tag v="loc"/>
         </let>
 	</when>    
+       <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="from"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="abl"/>
+        </let>
+	</when>    
+       <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="to"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="dat"/>
+        </let>
+	</when>    
+     <otherwise>
+          <let>
+            <var n="case"/>
+            <lit v="nom"/>
+          </let>
+     </otherwise>
      </choose>
+    </def-macro>
+
+    
+
+  </section-def-macros>
+
+
+<section-rules>
+
+<rule comment="RULE: prep nom"> 
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+    <choose>
+      <when>
+        <test>
+           <equal>
+               <clip pos="2" side="sl" part="a_nbr"/>
+               <lit-tag v="pl"/>
+           </equal>
+        </test>
+        <let> <var n="number"/><lit-tag v="pl"/> </let>
+      </when>
+     </choose>
+     <call-macro n="choose_case">
+        <with-param pos="1"/>
+     </call-macro>
     <out>
     <chunk name="AdvP">
     <tags>
@@ -114,22 +162,14 @@
   </action>
 </rule>
      
-
-<rule comment="RULE: in"> <!-- FMT copy 20120610 ...-->
+<rule comment="RULE: prep adjec nom"> 
   <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="defa"/>
+    <pattern-item n="adjec"/>
     <pattern-item n="nom"/>
   </pattern>
   <action>
-    <let> <!-- these could be macros -->
-       <var n="number"/>
-       <lit v=""/>
-    </let>
-    <let>
-       <var n="case"/>
-       <lit-tag v="nom"/>
-    </let>
+    <call-macro n="initialize_number"/>
     <choose>
       <when>
         <test>
@@ -141,20 +181,52 @@
         <let> <var n="number"/><lit-tag v="pl"/> </let>
       </when>
      </choose>
-     <choose>  
-     <when>
+     <call-macro n="choose_case">
+        <with-param pos="1"/>
+     </call-macro>
+    <out>
+    <chunk name="AdvP">
+    <tags>
+    <tag><lit-tag v="adv"/></tag>
+    </tags>
+    <lu>
+        <clip pos="2" side="tl" part="whole"/> 
+    </lu>
+     <b pos="1"/>
+    <lu>  
+        <clip pos="3" side="tl" part="lem"/> 
+        <clip pos="3" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+     <b pos="2"/>
+    </out>
+  </action>
+</rule>
+
+<rule comment="RULE: in"> <!-- FMT copy 20120610 ...-->
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="defa"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+    <choose>
+      <when>
         <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="in"/>
-          </equal>
+           <equal>
+               <clip pos="3" side="sl" part="a_nbr"/>
+               <lit-tag v="pl"/>
+           </equal>
         </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="loc"/>
-        </let>
-	</when>    
+        <let> <var n="number"/><lit-tag v="pl"/> </let>
+      </when>
      </choose>
+      <call-macro n="choose_case">
+        <with-param pos="1"/>
+     </call-macro>
     <out>
     <chunk name="AdvP">
     <tags>
@@ -168,6 +240,7 @@
      </lu>
     </chunk>
      <b pos="1"/>
+     <b pos="2"/>
     </out>
   </action>
 </rule>
@@ -177,10 +250,7 @@
     <pattern-item n="nom"/>
   </pattern>
   <action>
-    <let> <!-- these could be macros -->
-       <var n="number"/>
-       <lit v=""/>
-    </let>
+   <call-macro n="initialize_number"/>
     <let>
        <var n="case"/>
        <lit-tag v="nom"/>

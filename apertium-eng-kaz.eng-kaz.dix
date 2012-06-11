@@ -160,13 +160,15 @@
     <!-- Раздел: Имя Прилагательное -->
 
     <e><p><l>nice<s n="adj"/></l><r>көркем<s n="adj"/></r></p></e>
-    <e><p><l>have<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
+<!--    <e><p><l>have<s n="adj"/></l><r>бар<s n="adj"/></r></p></e> -->
     <e><p><l>warm<s n="adj"/></l><r>жылы<s n="adj"/></r></p></e>
     <e><p><l>cold<s n="adj"/></l><r>суық<s n="adj"/></r></p></e>
     <e><p><l>big<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
     <e><p><l>little<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
     <e><p><l>happy<s n="adj"/></l><r>бақытты<s n="adj"/></r></p></e>
     <e><p><l>small<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
+    <e><p><l>beautiful<s n="adj"/></l><r>әдемі<s n="adj"/></r></p></e>
+    
 
         
     <!-- Раздел: Местоимение -->

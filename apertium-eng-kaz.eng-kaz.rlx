@@ -108,3 +108,5 @@ SELECT Det IF (0C Pron OR Det) (1C N);
 SELECT V-FIN IF (-1C Subj) (1 Inf);
 
 REMOVE Subj IF (0C Subj OR Obj) (-1C* Subj BARRIER SENT);
+
+REMOVE Inf IF (0 N OR Inf) (1 ("to"i)) (2 Inf);

@@ -4,6 +4,9 @@
     <sdef n="n"  c="Имя существительное"/>
     <sdef n="v"  c="Глагол"/>
     <sdef n="vblex"  c="Глагол"/>
+    <sdef n="vaux"  c="Глагол"/>
+    <sdef n="vbdo"  c="Глагол"/>
+    <sdef n="vbhaver"  c="Глагол"/>
     <sdef n="iv"  c="Непереходный"/>
     <sdef n="tv"  c="Переходный"/>
     <sdef n="prn"  c="Местоимение"/>
@@ -18,6 +21,7 @@
     <sdef n="rel"  c=""/>
     <sdef n="vbser"  c=""/>
     <sdef n="preadv"  c=""/>
+    <sdef n="cnjadv"  c=""/>
 
     <sdef n="sg"  c=""/>
     <sdef n="pl"  c=""/>
@@ -27,6 +31,7 @@
     <sdef n="p3"  c=""/>
 
     <sdef n="ind"  c=""/>
+    <sdef n="qnt"  c=""/>
     <sdef n="def"  c=""/>
     <sdef n="pos"  c=""/>
     <sdef n="pers"  c=""/>
@@ -52,6 +57,10 @@
 
     <e r="LR"><p><l>a<s n="det"/><s n="ind"/></l><r></r></p></e>
     <e r="LR"><p><l>the<s n="det"/><s n="def"/></l><r></r></p></e>
+    <e r="LR"><p><l>no<s n="det"/><s n="ind"/></l><r></r></p></e>
+    <e r="LR"><p><l>some<s n="det"/><s n="qnt"/></l><r></r></p></e>
+
+    <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- Раздел: Предлог -->
 
@@ -63,6 +72,8 @@
     <e r="LR"><p><l>the<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>by<s n="pr"/></l><r></r></p></e>
     <e><p><l>with<s n="pr"/></l><r>мен<s n="post"/></r></p></e>
+    <e><p><l>under<s n="pr"/></l><r>астында<s n="post"/></r></p></e>
+    <e><p><l>behind<s n="pr"/></l><r>қарама-қарсы<s n="post"/></r></p></e>
     <e><p><l>inside<s n="pr"/></l><r>ішінде<s n="post"/></r></p></e>
     <e><p><l>outside<s n="pr"/></l><r>сыртында<s n="post"/></r></p></e>
     <e><p><l>for<s n="pr"/></l><r>үшін<s n="post"/></r></p></e>
@@ -75,6 +86,7 @@
     <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
     <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>алдында<s n="post"/></r></p></e>  
     <e><p><l>althrough<s n="pr"/></l><r>дегенмен<s n="post"/></r></p></e>
+    <e><p><l>at<s n="pr"/></l><r>үстінде<s n="post"/></r></p></e>
 
     <!-- Раздел: Имя Существительное -->
 
@@ -105,6 +117,9 @@
     <e><p><l>apple<s n="n"/></l><r>алма<s n="n"/></r></p></e>
     <e><p><l>lip<s n="n"/></l><r>ерін<s n="n"/></r></p></e>
     <e><p><l>paper<s n="n"/></l><r>қағаз<s n="n"/></r></p></e>
+    <e><p><l>year<s n="n"/></l><r>жыл<s n="n"/></r></p></e>
+    <e><p><l>hand<s n="n"/></l><r>қол<s n="n"/></r></p></e>
+    <e><p><l>time<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
   
 
     <!-- Раздел: Имя Собственное -->
@@ -129,8 +144,13 @@
 
     <e><p><l>and<s n="cnjcoo"/></l><r>және<s n="cnjcoo"/></r></p></e>
     <e><p><l>but<s n="cnjcoo"/></l><r>бірақ<s n="cnjcoo"/></r></p></e>
+    <e><p><l>or<s n="cnjcoo"/></l><r>немесе<s n="cnjcoo"/></r></p></e>
+    <e><p><l>then<s n="cnjadv"/></l><r>сосын<s n="cnjcoo"/></r></p></e>
+    <e><p><l>although<s n="cnjadv"/></l><r>дегенмен<s n="cnjcoo"/></r></p></e>
 
     <!-- Раздел: Наречие -->
+
+    <e r="LR"><p><l>not<s n="adv"/></l><r></r></p></e>
 
     <e><p><l>where<s n="rel"/><s n="adv"/></l><r>қайда<s n="adv"/><s n="itg"/></r></p></e> <!-- FIXME: This will need transfer -->
     <e><p><l>where<s n="adv"/><s n="itg"/></l><r>қайда<s n="adv"/><s n="itg"/></r></p></e>
@@ -151,7 +171,14 @@
     <e><p><l>then<s n="adv"/></l><r>сосын<s n="adv"/></r></p></e>
     <e><p><l>again<s n="adv"/></l><r>қайтадан<s n="adv"/></r></p></e>
     <e><p><l>carefully<s n="adv"/></l><r>байқап<s n="adv"/></r></p></e>
-
+    <e><p><l>also<s n="adv"/></l><r>тағы<s n="adv"/></r></p></e>
+    <e><p><l>of<b/>course<s n="adv"/></l><r>әрине<s n="adv"/></r></p></e>
+    <e><p><l>around<s n="adv"/></l><r>айналасы<s n="adv"/></r></p></e>
+    <e><p><l>no<s n="adv"/></l><r>жоқ<s n="adv"/></r></p></e>
+    <e><p><l>well<s n="adv"/></l><r>жақсы<s n="adv"/></r></p></e>
+    <e><p><l>still<s n="adv"/></l><r>әлі<s n="adv"/></r></p></e>
+    <e><p><l>there<s n="adv"/></l><r>анда<s n="adv"/></r></p></e>
+   
     <e><p><l>always<s n="adv"/></l><r>әрдайым<s n="adv"/></r></p></e>
     <e><p><l>together<s n="adv"/></l><r>бірге<s n="adv"/></r></p></e>
     <e><p><l>outside<s n="adv"/></l><r>далада<s n="adv"/></r></p></e>
@@ -168,7 +195,8 @@
     <e><p><l>happy<s n="adj"/></l><r>бақытты<s n="adj"/></r></p></e>
     <e><p><l>small<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
     <e><p><l>beautiful<s n="adj"/></l><r>әдемі<s n="adj"/></r></p></e>
-    
+    <e><p><l>old<s n="adj"/></l><r>ескі<s n="adj"/></r></p></e>
+    <e><p><l>close<s n="adj"/></l><r>жақын<s n="adj"/></r></p></e>
 
         
     <!-- Раздел: Местоимение -->
@@ -181,6 +209,8 @@
     <e><p><l>he<s n="prn"/></l><r>ол<s n="prn"/></r></p></e>
     <e><p><l>something<s n="prn"/></l><r>бір<b/>нәрсе<s n="prn"/></r></p></e>
     <e><p><l>anything<s n="prn"/></l><r>еш<b/>нәрсе<s n="prn"/></r></p></e>
+    <e><p><l>both<s n="prn"/></l><r>екеуі<s n="prn"/></r></p></e>
+    <e><p><l>what<s n="prn"/><s n="itg"/></l><r>не<s n="prn"/><s n="itg"/></r></p></e>
 
     <e><p><l>my<s n="det"/><s n="pos"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>
     <e><p><l>his<s n="det"/><s n="pos"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -191,9 +221,17 @@
 
     <!-- Раздел: Глагол -->
 
+    <!-- Some function verbs that have no lexical equivalent in Kazakh -->
+    <e r="LR"><p><l>can<s n="vaux"/></l><r></r></p></e>
+    <e r="LR"><p><l>must<s n="vaux"/></l><r></r></p></e>
+    <e r="LR"><p><l>do<s n="vbdo"/></l><r></r></p></e>
+    <e r="LR"><p><l>have<s n="vbhaver"/></l><r></r></p></e>
+
     <e r="LR"><p><l>be<s n="vbser"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>be<s n="vblex"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>go<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>do<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>make<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>come<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>can<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>play<s n="vblex"/></l><r>ойна<s n="v"/><s n="iv"/></r></p></e>
@@ -229,7 +267,7 @@
     <e><p><l>drink<s n="vblex"/></l><r>іш<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>walk<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>walk<g><b/>around</g><s n="vblex"/></l><r>серуенде<s n="v"/><s n="iv"/></r></p></e>
-
+    <e><p><l>think<g><b/>that</g><s n="vblex"/></l><r>ойла<s n="v"/><s n="iv"/></r></p></e>
 
 
 <!-- SECTION: Пунктуация -->

@@ -101,6 +101,8 @@ Multichar_Symbols
 %<evid%>              ! evidential
 %<aor%>               ! non-future
 %<pres%>              ! for "жатыр", "тұр" and other 2
+%<fut%>               ! future
+%<fut_plan%>          ! future plan
 
 !! Participles
 %<prc_perf%>          ! perfect participle (-{I}п) !# "Бірақ мысығы үйде, _ұйықтап_ жатыр." 
@@ -537,7 +539,8 @@ LEXICON V-INFL-FINITE
 
 ! Finite forms
 %<aor%>:%>%{E%} V-PERS-PRES ;                         !
-%<fut%>:%>%{A%}р V-PERS-COP-SUF ;                     !
+%<fut%>:%>%{A%}р V-PERS-COP-SUF ;                     ! future
+%<fut_plan%>:%>%{M%}%{A%}%{K%} V-PERS-COP-SUF ;       ! future plan
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                    ! 
 %<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;               ! 
 %<past%>%<evid%>:%>%{G%}%{A%}н% екен V-PERS-COP-SUF ; ! evidential general past
@@ -600,8 +603,8 @@ LEXICON N1
 %<n%>%<attr%>: # ;
 %<n%>: SUBST ;
 
-LEXICON N-COMPOUND-PX
-! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
+LEXICON N-COMPOUND-PX ! consider "N2" for the name
+                      ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
 
 %<n%>:%>%{S%}%{I%}%{n%} CASE-ETC ;
 %<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
@@ -859,6 +862,8 @@ LEXICON Conjunctions
 
 және:және CC ; ! "and"
 бірақ:бірақ CC ; ! "but"
+немесе:немесе CC ; ! "or"
+дегенмен:дегенмен CA ; ! "nevertheless"
 
 LEXICON Postpositions
 
@@ -1065,6 +1070,7 @@ LEXICON Nouns
 ерін:ерін N1 ; ! "lip"
 жануар:жануар N1 ; ! "biest"
 жауап:жауап N1 ; ! "answer"
+жыл:жыл N1 ; ! "year"
 ит:ит N1 ; ! "dog"
 көз:көз N1 ; ! "eye"
 мысық:мысық N1 ; ! "cat,copper"
@@ -1073,7 +1079,9 @@ LEXICON Nouns
 су:су N1 ; ! "water"
 сұрақ:сұрақ N1 ; ! "question"
 терезе:терезе N1 ; ! "window"
+уақыт:уақыт N1 ; ! "time"
 қағаз:қағаз N1 ; ! "paper"
+қол:қол N1 ; ! "hand"
 қыз:қыз N1 ; ! "girl,daughter,virgin"
 құс:құс N1 ; ! "bird"
 үй:үй N1 ; ! "home,house"
@@ -1082,6 +1090,8 @@ LEXICON Nouns
 
 LEXICON ProperNouns 
 
+Азамат:Азамат:Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
+Айгүл:Айгүл:Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
 Джеймс:Джеймс NP-ANT-M; ! "James" (English)
 Мэри:Мэри NP-ANT-F; ! "Mary" (English)
 
@@ -1090,7 +1100,9 @@ LEXICON Adverbs
 қайда:қайда ADVITG ; ! "where (где;куда)"
 қашан:қашан ADVITG ; ! "when"
 бірге:бірге ADV ; ! "together" FIXME:NOTE: also a <post>
+тағы:тағы ADV ; ! "more"
 қайтадан:қайтадан ADV ; ! "once again"
+әлі:әлі ADV ; ! "now" !FIXME:CHECK
 әрдайым:әрдайым ADV ; ! "always"
 өте:өте ADV ; ! "very"
 бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
@@ -1100,6 +1112,8 @@ LEXICON Adverbs
 LEXICON Adjectives
 
 бар:бар A2 ;
+ескі:ескі A1 ; ! "old"
+жақын:жақын A1 ; ! "close"
 жылы:жылы A1 ; ! "warm"
 кішкентай:кішкентай A1 ; ! "small, little"
 суық:суық A1 ; ! "cold"

@@ -146,9 +146,9 @@
         <with-param pos="1"/>
      </call-macro>
     <out>
-    <chunk name="AdvP">
+    <chunk name="prep-nom">
     <tags>
-    <tag><lit-tag v="adv"/></tag>
+    <tag><lit-tag v="AdvP"/></tag>
     </tags>
     <lu>  
         <clip pos="2" side="tl" part="lem"/> 
@@ -161,7 +161,7 @@
     </out>
   </action>
 </rule>
-     
+    
 <rule comment="RULE: adjec nom"> 
   <pattern>
     <pattern-item n="adjec"/>
@@ -180,14 +180,19 @@
         <let> <var n="number"/><lit-tag v="pl"/> </let>
       </when>
      </choose>
-     <out>
-    <chunk name="AdvP">
+     <let>
+          <var n="case"/>
+          <lit-tag v="nom"/>
+        </let>
+    <out>
+    <chunk name="adjec-nom">
     <tags>
-    <tag><lit-tag v="adv"/></tag>
+    <tag><lit-tag v="SN"/></tag>
     </tags>
     <lu>
         <clip pos="1" side="tl" part="whole"/> 
     </lu>
+     <b pos="1"/>
     <lu>  
         <clip pos="2" side="tl" part="lem"/> 
         <clip pos="2" side="tl" part="a_nom"/>
@@ -195,12 +200,10 @@
         <var n="case"/>  
      </lu>
     </chunk>
-     <b pos="1"/>
-    </out>
+     </out>
   </action>
 </rule>
-
-
+ 
 <rule comment="RULE: prep adjec nom"> 
   <pattern>
     <pattern-item n="prep"/>
@@ -224,9 +227,9 @@
         <with-param pos="1"/>
      </call-macro>
     <out>
-    <chunk name="AdvP">
+    <chunk name="prep-adjec-nom">
     <tags>
-    <tag><lit-tag v="adv"/></tag>
+    <tag><lit-tag v="AdvP"/></tag>
     </tags>
     <lu>
         <clip pos="2" side="tl" part="whole"/> 
@@ -267,9 +270,9 @@
         <with-param pos="1"/>
      </call-macro>
     <out>
-    <chunk name="AdvP">
+    <chunk name="prep-defa-nom">
     <tags>
-    <tag><lit-tag v="adv"/></tag>
+    <tag><lit-tag v="AdvP"/></tag>
     </tags>
     <lu>  
         <clip pos="3" side="tl" part="lem"/> 
@@ -285,7 +288,7 @@
 </rule>
 
 
-<rule comment="RULE: defa nom"> <!-- FMT copy 20120610 ...-->
+<rule comment="RULE: defa nom"> 
   <pattern>
     <pattern-item n="defa"/>
     <pattern-item n="nom"/>
@@ -303,13 +306,14 @@
         <let> <var n="number"/><lit-tag v="pl"/> </let>
       </when>
      </choose>
-      <call-macro n="choose_case">
-        <with-param pos="2"/>
-     </call-macro>
+         <let>
+            <var n="case"/>
+            <lit-tag v="nom"/>
+          </let>
     <out>
-    <chunk name="AdvP">
+    <chunk name="defa-nom">
     <tags>
-    <tag><lit-tag v="adv"/></tag>
+    <tag><lit-tag v="SN"/></tag>
     </tags>
     <lu>  
         <clip pos="2" side="tl" part="lem"/> 

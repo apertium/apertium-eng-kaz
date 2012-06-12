@@ -293,23 +293,20 @@ LEXICON POSS-REAL  ! P_2
 LEXICON ADJ-DAGI
 ! This should probably be called something else
 
-!! ADJ-COMMON ;   !!!! ! FIXME: when we go recursive, use this instead of CASES
-! ADJ-COMMON ;    !!!! ! FIXME: when we go recursive, use this instead of N-INFL
-!%<n%>: N-INFL ;
 %<subst%>: CASE ; 
 %<attr%>: CLIT ;
-!# ;
 
 LEXICON GEN-POS
 
 %<px%>:%>%{N%}ікі%{n%} CASE ;
 %<loc%>:%>%{D%}%{A%}%{G%}%{I%} ADJ-DAGI ;
-%<sim%>:%>%{D%}%{A%}й ADJ-DAGI ;
+%<sim%>:%>%{D%}%{A%}й CLIT ;   ! FIXME:CHECK:In Tatar this is considered to be an adverbializer, so
+                               ! no case endings after it. In Kazakh it should be the same /I.S./ 
 
 LEXICON CASE-ETC
 CASE ;
 GEN-POS ;
-%<adv%>:ш%{A%} # ;          ! FIXME: might not be quite the right place
+!%<adv%>:ш%{A%} # ;          ! FIXME: might not be quite the right place
 
 LEXICON POSSESSION
 POSS-REAL ;
@@ -653,7 +650,7 @@ LEXICON DIGITLEX
 
 LEXICON NUM-ROMAN
 
-%<num%>: NUM ;
+NUM ;
 
 LEXICON ADV-WITH-KI
 
@@ -1030,11 +1027,11 @@ LEXICON Determiners
 
 мынау:мынау DET-QNT ; ! "this"           ! "this-here X", "ce X-ci", "вот это X"
 
-
 LEXICON Numerals
 
 XII NUM-ROMAN ; 
 
+нөл:нөл NUM ; ! "zero"
 бір:бір NUM ; ! "one"
 екі:екі NUM ; ! "two"
 үш:үш NUM ; ! "three"
@@ -1043,25 +1040,56 @@ XII NUM-ROMAN ;
 алты:алты NUM ; ! "six"
 жеті:жеті NUM ; ! "seven"
 сегіз:сегіз NUM ; ! "eight" 
-төғыз:төғыз  NUM ; ! "nine"
+тоғыз:тоғыз  NUM ; ! "nine"
 он:он NUM ; ! "ten"
-он% бір:он% бір NUM ; ! "eleven"
-жиырма:жиырма NUM ; ! "twenty"
+
+он% бір:он% бір NUM ; ! "eleven"       ! These are needed only because the corresponding
+он% екі:он% екі NUM ; ! "twelve"       ! tatar numerals are written as one word
+он% үш:он% үш NUM ; ! "thirteen"
+он% төрт:он% төрт NUM ; ! "fourteen"
+он% бес:он% бес NUM ; ! "fifteen"
+он% алты:он% алты NUM ; ! "sixteen"
+он% жеті:он% жеті NUM ; ! "seventeen"
+он% сегіз:он% сегіз NUM ; ! "eighteen"
+он% тоғыз:он% тоғыз NUM ; ! "nineteen"
+
+жиырма:жиырма NUM ; ! "twenty"         ! FIXME: This has an exceptional ordinal form: жиырмасыншы
 отыз:отыз NUM ; ! "thirty"
 қырық:қырық NUM ; ! "forty"
 елу:елу NUM ; ! "fifty"
-алныс:алныс NUM ; ! "sixty"
-жетніс:жетніс NUM ; ! "seventy"
+алпыс:алпыс NUM ; ! "sixty"
+жетпіс:жетпіс NUM ; ! "seventy"
 сексен:сексен NUM ; ! "eighty"
 тоқсан:тоқсан NUM ; ! "ninety"
 жүз:жүз NUM ; ! "hundred"
+
 мың:мың NUM ; ! "thousand"
+түмен:түмен NUM ; ! "archaic for 10 000"
+миллион:миллион NUM ; ! "million"
+миллиард:миллиард NUM ; ! "billion"
+триллион:триллион NUM ; ! "trillion"
+
+!ширек:ширек NUM ; ! "quarter"         ! FIXME:DISCUSS: POS
+!жарым:жарым NUM ; ! "half"            ! (consider that they don't have ordinal form obviously)
+!жарты:жарты NUM ; ! "half"
+
+бір:біреу NUM-COLL ;           
+екі:екеу NUM-COLL ;
+үш:үшеу NUM-COLL ;
+төрт:төртеу NUM-COLL ;
+бес:бесеу NUM-COLL ;
+алтау:алтау NUM-COLL ;
+жетеу:жетеу NUM-COLL ;
+
+! Technically this goes on to higher numbers
+! but its use beyond 5(?) is rare
+! and is of questionable grammaticality /not-I.S./
+! Grammar says first 7 numerals have this form, so let's extend it to 7 /I.S./
 
 LEXICON Nouns
 
 адам:адам N1 ; ! "man"
 ана:ана N1 ; ! "mother"
-ауа% райы:ауа% райы N-COMPOUND-PX ; ! "whether,climate"
 ағаш:ағаш N1 ; ! "tree"
 бала:бала N1 ; ! "child"
 бас:бас N1 ; ! "head,begining,start"
@@ -1114,10 +1142,14 @@ LEXICON Adjectives
 бар:бар A2 ;
 ескі:ескі A1 ; ! "old"
 жақын:жақын A1 ; ! "close"
+жаңа:жаңа A1 ; ! "new"
+жаңа:жаңа A1 ; ! "new"
 жылы:жылы A1 ; ! "warm"
 кішкентай:кішкентай A1 ; ! "small, little"
+кәрі:кәрі A1 ; ! "old (person)"
 суық:суық A1 ; ! "cold"
 үлкен:үлкен A1 ; ! "big"
+көркем:көркем A1 ; ! "beautiful"
 
 LEXICON Verbs 
 
@@ -1127,6 +1159,7 @@ LEXICON Verbs
 ал:ал Vinfl-AUX ; ! 
 кет:кет Vinfl-AUX ; ! 
 бол:бол Vinfl-AUX ; !
+біт:біт Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
@@ -1135,12 +1168,13 @@ LEXICON Verbs
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
 бол:бол V-IV ; ! "be/become"
 біл:біл V-TD ; ! "know,understand,learn"
-бітір:бітір V-TV ; ! "finish"  ! FIXME: causitive
+біт:біт V-IV ; ! "terminate"
 есті:есті V-TV ; ! "hear"
 жаса:жаса V-TV ; ! "do,make"
 жасыр:жасыр V-TD ; ! "conceal,hide"
+жасырын:жасырын V-IV ; ! "hide oneself"
 жақсы% көр:жақсы% көр V-TD ; ! "to like"
-же:же V-TD ; ! "eat"
+же:же V-TV ; ! "eat"
 жыла:жыла V-TD ; ! "cry,weep"
 жүгір:жүгір V-TD ; ! "run"
 кел:кел V-IV ; ! "come"
@@ -1149,7 +1183,7 @@ LEXICON Verbs
 күл:күл V-TD ; ! "laugh"
 көр:көр V-TV ; ! "see"
 ойла:ойла V-TD ; ! "think"
-ойна:ойна V-TD ; ! "play"
+ойна:ойна V-TV ; ! "play"
 отыр:отыр V-TD ; ! "sit,board"
 сана:сана V-TD ; ! "think,suppose,imagine"
 сұра:сұра V-TV ; ! "request/ask for"
@@ -1158,9 +1192,13 @@ LEXICON Verbs
 тырыс:тырыс V-IV ; ! "to try"
 тыңда:тыңда V-TD ; ! "listen"
 ізде:ізде V-TD ; ! "seek"
+істе:істе V-TD ; ! "do,make"
 іш:іш V-TV ; ! "drink"
 қара:қара V-TV ; ! "look at"
+қара:қара V-TV ; ! "look at"
+қыл:қыл V-TV ; ! "do"
 ұйықта:ұйықта V-TD ; ! "sleep" 
+ұна:ұна V-TD ; ! "be pleased with"
 
 LEXICON Interjections 
 

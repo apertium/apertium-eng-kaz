@@ -46,7 +46,6 @@
     <sdef n="inf" c="Infinitive"/> 
     <sdef n="ger" c="Gerund"/> 
     <sdef n="pp" c="Past participle"/> 
-    <sdef n="pri" c="Present indicative"/> 
     <sdef n="p1" c="First person"/> 
     <sdef n="p2" c="Second person"/> 
     <sdef n="p3" c="Third person"/> 
@@ -4036,7 +4035,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r>ve<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ve<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4104,7 +4103,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4212,7 +4211,7 @@
                             <e i="">
       <p>
         <l>am<b/>able<b/>to</l>
-        <r>be<b/>able<b/>to<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        <r>be<b/>able<b/>to<s n="vbmod"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4220,7 +4219,7 @@
                             <e i="">
       <p>
         <l>is<b/>able<b/>to</l>
-        <r>be<b/>able<b/>to<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>be<b/>able<b/>to<s n="vbmod"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4304,7 +4303,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r>ve<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ve<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4364,7 +4363,7 @@
                             <e i="">
       <p>
         <l>oes</l>
-        <r>o<s n="vbdo"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>o<s n="vbdo"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4400,7 +4399,7 @@
                             <e i="">
       <p>
         <l>am</l>
-        <r>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        <r>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4408,7 +4407,7 @@
                             <e i="">
       <p>
         <l>is</l>
-        <r>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4492,7 +4491,7 @@
                             <e i="">
       <p>
         <l>am</l>
-        <r>be<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        <r>be<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4500,7 +4499,7 @@
                             <e i="">
       <p>
         <l>is</l>
-        <r>be<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>be<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4570,7 +4569,7 @@
                             <e i="">
       <p>
         <l>'m</l>
-        <r>be<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+        <r>be<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4586,7 +4585,7 @@
                             <e i="">
       <p>
         <l>'s</l>
-        <r>be<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>be<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4616,7 +4615,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r>ve<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ve<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4684,7 +4683,7 @@
                             <e i="">
       <p>
         <l>oes</l>
-        <r>o<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>o<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4752,7 +4751,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4820,7 +4819,7 @@
                             <e i="">
       <p>
         <l>es</l>
-        <r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4888,7 +4887,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -4972,7 +4971,7 @@
                             <e i="">
       <p>
         <l>ies</l>
-        <r>y<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>y<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5040,7 +5039,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5108,7 +5107,7 @@
                             <e i="">
       <p>
         <l>ys</l>
-        <r>y<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>y<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5176,7 +5175,7 @@
                             <e i="">
       <p>
         <l>ides</l>
-        <r>ide<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ide<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5260,7 +5259,7 @@
                             <e i="">
       <p>
         <l>es</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5328,7 +5327,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5396,7 +5395,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5464,7 +5463,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5548,7 +5547,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5616,7 +5615,7 @@
                             <e i="">
       <p>
         <l>ises</l>
-        <r>ise<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ise<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5684,7 +5683,7 @@
                             <e i="">
       <p>
         <l>akes</l>
-        <r>ake<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ake<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5752,7 +5751,7 @@
                             <e i="">
       <p>
         <l>its</l>
-        <r>it<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>it<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5820,7 +5819,7 @@
                             <e i="">
       <p>
         <l>ears</l>
-        <r>ear<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ear<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5888,7 +5887,7 @@
                             <e i="">
       <p>
         <l>eats</l>
-        <r>eat<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>eat<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -5956,7 +5955,7 @@
                             <e i="">
       <p>
         <l>omes</l>
-        <r>ome<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ome<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6024,7 +6023,7 @@
                             <e i="">
       <p>
         <l>alls</l>
-        <r>all<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>all<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6092,7 +6091,7 @@
                             <e i="">
       <p>
         <l>ets</l>
-        <r>et<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>et<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6168,7 +6167,7 @@
                             <e i="">
       <p>
         <l>ins</l>
-        <r>in<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>in<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6236,7 +6235,7 @@
                             <e i="">
       <p>
         <l>olds</l>
-        <r>old<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>old<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6304,7 +6303,7 @@
                             <e i="">
       <p>
         <l>ds</l>
-        <r>d<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>d<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6372,7 +6371,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6440,7 +6439,7 @@
                             <e i="">
       <p>
         <l>ides</l>
-        <r>ide<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ide<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6508,7 +6507,7 @@
                             <e i="">
       <p>
         <l>akes</l>
-        <r>ake<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ake<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6576,7 +6575,7 @@
                             <e i="">
       <p>
         <l>inds</l>
-        <r>ind<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ind<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6644,7 +6643,7 @@
                             <e i="">
       <p>
         <l>ites</l>
-        <r>ite<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ite<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6712,7 +6711,7 @@
                             <e i="">
       <p>
         <l>eds</l>
-        <r>ed<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ed<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6780,7 +6779,7 @@
                             <e i="">
       <p>
         <l>ses</l>
-        <r>s<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>s<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6864,7 +6863,7 @@
                             <e i="">
       <p>
         <l>ows</l>
-        <r>ow<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ow<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -6932,7 +6931,7 @@
                             <e i="">
       <p>
         <l>ings</l>
-        <r>ing<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ing<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7000,7 +6999,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7068,7 +7067,7 @@
                             <e i="">
       <p>
         <l>uys</l>
-        <r>uy<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>uy<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7136,7 +7135,7 @@
                             <e i="">
       <p>
         <l>tches</l>
-        <r>tch<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>tch<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7204,7 +7203,7 @@
                             <e i="">
       <p>
         <l>es</l>
-        <r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7280,7 +7279,7 @@
                             <e i="">
       <p>
         <l>oses</l>
-        <r>ose<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ose<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7348,7 +7347,7 @@
                             <e i="">
       <p>
         <l>ings</l>
-        <r>ing<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ing<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7416,7 +7415,7 @@
                             <e i="">
       <p>
         <l>othes</l>
-        <r>othe<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>othe<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7484,7 +7483,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7552,7 +7551,7 @@
                             <e i="">
       <p>
         <l>eps</l>
-        <r>ep<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ep<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7620,7 +7619,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7688,7 +7687,7 @@
                             <e i="">
       <p>
         <l>ies</l>
-        <r>ie<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ie<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7756,7 +7755,7 @@
                             <e i="">
       <p>
         <l>igs</l>
-        <r>ig<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ig<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7824,7 +7823,7 @@
                             <e i="">
       <p>
         <l>ives</l>
-        <r>ive<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ive<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7900,7 +7899,7 @@
                             <e i="">
       <p>
         <l>aws</l>
-        <r>aw<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>aw<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -7968,7 +7967,7 @@
                             <e i="">
       <p>
         <l>inks</l>
-        <r>ink<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ink<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8036,7 +8035,7 @@
                             <e i="">
       <p>
         <l>ives</l>
-        <r>ive<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ive<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8104,7 +8103,7 @@
                             <e i="">
       <p>
         <l>ls</l>
-        <r>l<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>l<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8188,7 +8187,7 @@
                             <e i="">
       <p>
         <l>eats</l>
-        <r>eat<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>eat<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8256,7 +8255,7 @@
                             <e i="">
       <p>
         <l>els</l>
-        <r>el<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>el<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8324,7 +8323,7 @@
                             <e i="">
       <p>
         <l>ights</l>
-        <r>ight<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ight<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8392,7 +8391,7 @@
                             <e i="">
       <p>
         <l>es</l>
-        <r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8460,7 +8459,7 @@
                             <e i="">
       <p>
         <l>ghts</l>
-        <r>ght<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ght<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8528,7 +8527,7 @@
                             <e i="">
       <p>
         <l>ies</l>
-        <r>y<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>y<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8596,7 +8595,7 @@
                             <e i="">
       <p>
         <l>ids</l>
-        <r>id<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>id<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8740,7 +8739,7 @@
                             <e i="">
       <p>
         <l>goes</l>
-        <r>go<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>go<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -8954,7 +8953,7 @@
                             <e i="">
       <p>
         <l>ees</l>
-        <r>ee<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ee<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9022,7 +9021,7 @@
                             <e i="">
       <p>
         <l>ells</l>
-        <r>ell<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ell<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9090,7 +9089,7 @@
                             <e i="">
       <p>
         <l>ets</l>
-        <r>et<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>et<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9158,7 +9157,7 @@
                             <e i="">
       <p>
         <l>ives</l>
-        <r>ive<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ive<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9226,7 +9225,7 @@
                             <e i="">
       <p>
         <l>ears</l>
-        <r>ear<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ear<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9294,7 +9293,7 @@
                             <e i="">
       <p>
         <l>eezes</l>
-        <r>eeze<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>eeze<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9362,7 +9361,7 @@
                             <e i="">
       <p>
         <l>ets</l>
-        <r>et<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>et<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9438,7 +9437,7 @@
                             <e i="">
       <p>
         <l>angs</l>
-        <r>ang<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ang<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9522,7 +9521,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9590,7 +9589,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9666,7 +9665,7 @@
                             <e i="">
       <p>
         <l>es</l>
-        <r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9742,7 +9741,7 @@
                             <e i="">
       <p>
         <l>eaves</l>
-        <r>eave<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>eave<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9810,7 +9809,7 @@
                             <e i="">
       <p>
         <l>ads</l>
-        <r>ad<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ad<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9878,7 +9877,7 @@
                             <e i="">
       <p>
         <l>aves</l>
-        <r>ave<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ave<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -9946,7 +9945,7 @@
                             <e i="">
       <p>
         <l>ies</l>
-        <r>ie<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ie<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10014,7 +10013,7 @@
                             <e i="">
       <p>
         <l>ses</l>
-        <r>se<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>se<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10082,7 +10081,7 @@
                             <e i="">
       <p>
         <l>kes</l>
-        <r>ke<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ke<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10150,7 +10149,7 @@
                             <e i="">
       <p>
         <l>ets</l>
-        <r>et<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>et<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10218,7 +10217,7 @@
                             <e i="">
       <p>
         <l>elts</l>
-        <r>elt<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>elt<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10295,7 +10294,7 @@
                             <e i="">
       <p>
         <l>ands</l>
-        <r>and<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>and<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10363,7 +10362,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10431,7 +10430,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10499,7 +10498,7 @@
                             <e i="">
       <p>
         <l>uns</l>
-        <r>un<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>un<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10567,7 +10566,7 @@
                             <e i="">
       <p>
         <l>ines</l>
-        <r>ine<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ine<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10635,7 +10634,7 @@
                             <e i="">
       <p>
         <l>ots</l>
-        <r>ot<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ot<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10703,7 +10702,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10771,7 +10770,7 @@
                             <e i="">
       <p>
         <l>es</l>
-        <r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10847,7 +10846,7 @@
                             <e i="">
       <p>
         <l>inks</l>
-        <r>ink<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ink<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10915,7 +10914,7 @@
                             <e i="">
       <p>
         <l>ites</l>
-        <r>ite<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ite<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -10983,7 +10982,7 @@
                             <e i="">
       <p>
         <l>ings</l>
-        <r>ing<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ing<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11051,7 +11050,7 @@
                             <e i="">
       <p>
         <l>eeks</l>
-        <r>eek<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>eek<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11119,7 +11118,7 @@
                             <e i="">
       <p>
         <l>ears</l>
-        <r>ear<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ear<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11195,7 +11194,7 @@
                             <e i="">
       <p>
         <l>es</l>
-        <r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11263,7 +11262,7 @@
                             <e i="">
       <p>
         <l>inks</l>
-        <r>ink<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ink<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11347,7 +11346,7 @@
                             <e i="">
       <p>
         <l>ays</l>
-        <r>ay<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ay<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11415,7 +11414,7 @@
                             <e i="">
       <p>
         <l>es</l>
-        <r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11483,7 +11482,7 @@
                             <e i="">
       <p>
         <l>eaks</l>
-        <r>eak<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>eak<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11551,7 +11550,7 @@
                             <e i="">
       <p>
         <l>ins</l>
-        <r>in<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>in<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11627,7 +11626,7 @@
                             <e i="">
       <p>
         <l>aves</l>
-        <r>ave<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ave<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11711,7 +11710,7 @@
                             <e i="">
       <p>
         <l>eals</l>
-        <r>eal<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>eal<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11779,7 +11778,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11847,7 +11846,7 @@
                             <e i="">
       <p>
         <l>icks</l>
-        <r>ick<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ick<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11915,7 +11914,7 @@
                             <e i="">
       <p>
         <l>ikes</l>
-        <r>ike<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ike<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -11983,7 +11982,7 @@
                             <e i="">
       <p>
         <l>ells</l>
-        <r>ell<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ell<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12059,7 +12058,7 @@
                             <e i="">
       <p>
         <l>ims</l>
-        <r>im<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>im<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12127,7 +12126,7 @@
                             <e i="">
       <p>
         <l>eachs</l>
-        <r>each<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>each<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12195,7 +12194,7 @@
                             <e i="">
       <p>
         <l>eads</l>
-        <r>ead<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ead<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12271,7 +12270,7 @@
                             <e i="">
       <p>
         <l>ies</l>
-        <r>ie<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ie<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12339,7 +12338,7 @@
                             <e i="">
       <p>
         <l>ins</l>
-        <r>in<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>in<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12407,7 +12406,7 @@
                             <e i="">
       <p>
         <l>eaks</l>
-        <r>eak<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>eak<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12491,7 +12490,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12559,7 +12558,7 @@
                             <e i="">
       <p>
         <l>inks</l>
-        <r>ink<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ink<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12627,7 +12626,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12695,7 +12694,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12763,7 +12762,7 @@
                             <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -12831,7 +12830,7 @@
                             <e i="">
       <p>
         <l>es</l>
-        <r>e<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>e<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -13600,7 +13599,7 @@
                         <e i="">
       <p>
         <l>akes</l>
-        <r>ake<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ake<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -13651,7 +13650,7 @@
                         <e i="">
       <p>
         <l>ears</l>
-        <r>ear<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ear<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -13702,7 +13701,7 @@
                         <e i="">
       <p>
         <l>ys</l>
-        <r>y<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>y<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -13753,7 +13752,7 @@
                         <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -13804,7 +13803,7 @@
                         <e i="">
       <p>
         <l>kes</l>
-        <r>ke<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ke<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -13855,7 +13854,7 @@
                         <e i="">
       <p>
         <l>es</l>
-        <r>e<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>e<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -13906,7 +13905,7 @@
                         <e i="">
       <p>
         <l>olds</l>
-        <r>old<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>old<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -13957,7 +13956,7 @@
                         <e i="">
       <p>
         <l>ives</l>
-        <r>ive<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ive<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -14008,7 +14007,7 @@
                         <e i="">
       <p>
         <l>ets</l>
-        <r>et<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>et<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -14065,7 +14064,7 @@
                         <e i="">
       <p>
         <l>igs</l>
-        <r>ig<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ig<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -14116,7 +14115,7 @@
                         <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -14167,7 +14166,7 @@
                         <e i="">
       <p>
         <l>ings</l>
-        <r>ing<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ing<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -14218,7 +14217,7 @@
                         <e i="">
       <p>
         <l>ows</l>
-        <r>ow<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>ow<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -14269,7 +14268,7 @@
                         <e i="">
       <p>
         <l>ds</l>
-        <r>d<s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r>d<s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -14320,7 +14319,7 @@
                         <e i="">
       <p>
         <l>es</l>
-        <r><s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -14371,7 +14370,7 @@
                         <e i="">
       <p>
         <l>s</l>
-        <r><s n="vblex"/><s n="sep"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        <r><s n="vblex"/><s n="sep"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
       </p>
     </e>
                         <e i="">
@@ -14837,11 +14836,11 @@
 
                             <e lm="you've got" i=""><p><l>you've<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>have<b/>got<s n="vblex"/><s n="pres"/></r></p></e>
 
-                            <e lm="she's got" i=""><p><l>she's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="she's got" i=""><p><l>she's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e lm="he's got" i=""><p><l>he's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="he's got" i=""><p><l>he's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e lm="it's got" i=""><p><l>it's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="it's got" i=""><p><l>it's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
                             <e lm="we've got" i=""><p><l>we've<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>have<b/>got<s n="vblex"/><s n="pres"/></r></p></e>
 
@@ -14881,11 +14880,11 @@
 
                             <e lm="don't" i=""><p><l>don't</l><r>do<s n="vbdo"/><s n="pres"/><j/>not<s n="adv"/></r></p></e>
 
-                            <e lm="doesn't" i=""><p><l>doesn't</l><r>do<s n="vbdo"/><s n="pri"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+                            <e lm="doesn't" i=""><p><l>doesn't</l><r>do<s n="vbdo"/><s n="pres"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
 
                             <e lm="didn't" i=""><p><l>didn't</l><r>do<s n="vbdo"/><s n="past"/><j/>not<s n="adv"/></r></p></e>
 
-                            <e lm="isn't" i=""><p><l>isn't</l><r>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+                            <e lm="isn't" i=""><p><l>isn't</l><r>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
 
                             <e lm="wasn't" i=""><p><l>wasn't</l><r>be<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
 
@@ -14895,7 +14894,7 @@
 
                             <e lm="wouldn't" i=""><p><l>wouldn't</l><r>would<s n="vaux"/><s n="inf"/><j/>not<s n="adv"/></r></p></e>
 
-                            <e lm="hasn't" i=""><p><l>hasn't</l><r>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+                            <e lm="hasn't" i=""><p><l>hasn't</l><r>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
 
                             <e lm="haven't" i=""><p><l>haven't</l><r>have<s n="vbhaver"/><s n="pres"/><j/>not<s n="adv"/></r></p></e>
 
@@ -14913,15 +14912,15 @@
 
                             <e lm="won't" i=""><p><l>won't</l><r>will<s n="vaux"/><s n="inf"/><j/>not<s n="adv"/></r></p></e>
 
-                            <e lm="there's" i=""><p><l>there's</l><r>there<s n="adv"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="there's" i=""><p><l>there's</l><r>there<s n="adv"/><j/>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e lm="there's" i=""><p><l>there's</l><r>there<s n="adv"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="there's" i=""><p><l>there's</l><r>there<s n="adv"/><j/>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
                             <e lm="there're" i=""><p><l>there're</l><r>there<s n="adv"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e>
 
-                            <e lm="who's" i=""><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="who's" i=""><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e lm="who's" i=""><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="who's" i=""><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
                             <e lm="would've" i=""><p><l>would've</l><r>would<s n="vaux"/><s n="inf"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
 
@@ -14933,7 +14932,7 @@
 
                             <e lm="gonna" i=""><p><l>gonna</l><r>go<s n="vblex"/><s n="ger"/><j/>to<s n="pr"/></r></p></e>
 
-                            <e lm="that's" i=""><p><l>that's</l><r>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="that's" i=""><p><l>that's</l><r>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
                             <e lm="annoy" i=""><i>annoy</i><par n="enjoy__vblex"/></e>
 
@@ -14971,9 +14970,9 @@
 
                             <e lm="hous" i=""><i>hous</i><par n="liv/e__vblex"/></e>
 
-                            <e r="RL" i=""><p><l>there<b/>is</l><r>there<b/>is<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e r="RL" i=""><p><l>there<b/>is</l><r>there<b/>is<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e r="RL" i=""><p><l>there<b/>are</l><r>there<b/>is<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+                            <e r="RL" i=""><p><l>there<b/>are</l><r>there<b/>is<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
     
                             <e lm="any" i=""><i>any</i><par n="very__preadv"/></e>
@@ -58622,11 +58621,11 @@
 
                             <e lm="you've got" i=""><p><l>you've<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>have<b/>got<s n="vblex"/><s n="pres"/></r></p></e>
 
-                            <e lm="she's got" i=""><p><l>she's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="she's got" i=""><p><l>she's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e lm="he's got" i=""><p><l>he's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="he's got" i=""><p><l>he's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e lm="it's got" i=""><p><l>it's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="it's got" i=""><p><l>it's<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>have<b/>got<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
                             <e lm="we've got" i=""><p><l>we've<b/>got</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>have<b/>got<s n="vblex"/><s n="pres"/></r></p></e>
 
@@ -58666,11 +58665,11 @@
 
                             <e lm="don't" i=""><p><l>don't</l><r>do<s n="vbdo"/><s n="pres"/><j/>not<s n="adv"/></r></p></e>
 
-                            <e lm="doesn't" i=""><p><l>doesn't</l><r>do<s n="vbdo"/><s n="pri"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+                            <e lm="doesn't" i=""><p><l>doesn't</l><r>do<s n="vbdo"/><s n="pres"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
 
                             <e lm="didn't" i=""><p><l>didn't</l><r>do<s n="vbdo"/><s n="past"/><j/>not<s n="adv"/></r></p></e>
 
-                            <e lm="isn't" i=""><p><l>isn't</l><r>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+                            <e lm="isn't" i=""><p><l>isn't</l><r>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
 
                             <e lm="wasn't" i=""><p><l>wasn't</l><r>be<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
 
@@ -58680,7 +58679,7 @@
 
                             <e lm="wouldn't" i=""><p><l>wouldn't</l><r>would<s n="vaux"/><s n="inf"/><j/>not<s n="adv"/></r></p></e>
 
-                            <e lm="hasn't" i=""><p><l>hasn't</l><r>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
+                            <e lm="hasn't" i=""><p><l>hasn't</l><r>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
 
                             <e lm="haven't" i=""><p><l>haven't</l><r>have<s n="vbhaver"/><s n="pres"/><j/>not<s n="adv"/></r></p></e>
 
@@ -58698,15 +58697,15 @@
 
                             <e lm="won't" i=""><p><l>won't</l><r>will<s n="vaux"/><s n="inf"/><j/>not<s n="adv"/></r></p></e>
 
-                            <e lm="there's" i=""><p><l>there's</l><r>there<s n="adv"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="there's" i=""><p><l>there's</l><r>there<s n="adv"/><j/>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e lm="there's" i=""><p><l>there's</l><r>there<s n="adv"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="there's" i=""><p><l>there's</l><r>there<s n="adv"/><j/>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
                             <e lm="there're" i=""><p><l>there're</l><r>there<s n="adv"/><j/>be<s n="vbser"/><s n="pres"/></r></p></e>
 
-                            <e lm="who's" i=""><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="who's" i=""><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e lm="who's" i=""><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="who's" i=""><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
                             <e lm="would've" i=""><p><l>would've</l><r>would<s n="vaux"/><s n="inf"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
 
@@ -58718,7 +58717,7 @@
 
                             <e lm="gonna" i=""><p><l>gonna</l><r>go<s n="vblex"/><s n="ger"/><j/>to<s n="pr"/></r></p></e>
 
-                            <e lm="that's" i=""><p><l>that's</l><r>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e lm="that's" i=""><p><l>that's</l><r>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/><j/>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
                             <e lm="annoy" i=""><i>annoy</i><par n="enjoy__vblex"/></e>
 
@@ -58754,9 +58753,9 @@
 
                             <e lm="hous" i=""><i>hous</i><par n="liv/e__vblex"/></e>
 
-                            <e r="RL" i=""><p><l>there<b/>is</l><r>there<b/>is<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e r="RL" i=""><p><l>there<b/>is</l><r>there<b/>is<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e r="RL" i=""><p><l>there<b/>are</l><r>there<b/>is<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+                            <e r="RL" i=""><p><l>there<b/>are</l><r>there<b/>is<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
     
                             <e lm="any" i=""><i>any</i><par n="very__preadv"/></e>
@@ -83621,12 +83620,12 @@
 
 <section id="apostrophes" type="preblank">
 
-                            <e r="LR" i=""><p><l>'m</l><r>be<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+                            <e r="LR" i=""><p><l>'m</l><r>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
 
                             <e r="LR" i=""><p><l>'re</l><r>be<s n="vbser"/><s n="pres"/></r></p></e>
 
 
-                            <e r="LR" i=""><p><l>'s</l><r>be<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+                            <e r="LR" i=""><p><l>'s</l><r>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
 
 

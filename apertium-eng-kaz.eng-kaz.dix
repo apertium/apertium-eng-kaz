@@ -189,7 +189,7 @@
     <e><p><l>now<s n="adv"/></l><r>қазір<s n="adv"/></r></p></e>
     <e><p><l>quickly<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
     <e><p><l>never<s n="adv"/></l><r>ешқашан<s n="adv"/></r></p></e>
-    <e><p><l>probably<s n="adv"/></l><r>мүмкін<s n="adv"/></r></p></e>
+    <e><p><l>probably<s n="adv"/></l><r>мүмкін<s n="adj"/></r></p></e> <!-- FIXME: adj.advl (?) -->
     <e><p><l>everywhere<s n="adv"/></l><r>барлық<b/>жерде<s n="adv"/></r></p></e>
     <e><p><l>slowly<s n="adv"/></l><r>жай<s n="adv"/></r></p></e>
     <e><p><l>then<s n="adv"/></l><r>сосын<s n="adv"/></r></p></e>
@@ -233,13 +233,13 @@
 
     <e><p><l>i<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>she<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>it<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>he<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>you<s n="prn"/></l><r>сен<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>you<s n="prn"/></l><r>сендер<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>you<s n="prn"/></l><r>сіз<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>you<s n="prn"/></l><r>сіздер<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>they<s n="prn"/></l><r>олар<s n="prn"/><s n="pers"/></r></p></e>
-    <e><p><l>it<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
-    <e><p><l>he<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>something<s n="prn"/></l><r>бір<b/>нәрсе<s n="prn"/></r></p></e>
     <e><p><l>anything<s n="prn"/></l><r>еш<b/>нәрсе<s n="prn"/></r></p></e>
     <e><p><l>both<s n="prn"/></l><r>екеуі<s n="prn"/></r></p></e>

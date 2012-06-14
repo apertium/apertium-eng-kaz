@@ -6,6 +6,9 @@
       <cat-item tags="n.*"/>
       <cat-item tags="np.ant.*"/>
     </def-cat>
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+     </def-cat>
     <def-cat n="adjec">
       <cat-item tags="adj.*"/>
       <cat-item tags="adj"/>
@@ -24,6 +27,9 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np.ant"/>
+    </def-attr>
+     <def-attr n="a_num">
+      <attr-item tags="num"/>
     </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="f"/>
@@ -204,6 +210,119 @@
   </action>
 </rule>
  
+<rule comment="RULE: num nom"> 
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+        <let>
+          <var n="case"/>
+          <lit-tag v="nom"/>
+        </let>
+    <out>
+    <chunk name="num-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+        <clip pos="1" side="tl" part="lem"/> 
+        <clip pos="1" side="tl" part="a_num"/> 
+        <!-- We could have used <lit-tag v="num"/> -->
+    </lu>
+     <b pos="1"/>
+    <lu>  
+        <clip pos="2" side="tl" part="lem"/> 
+        <clip pos="2" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+     </out>
+  </action>
+</rule>
+
+<rule comment="RULE: defa num nom"> 
+    <pattern>
+    <pattern-item n="defa"/>
+    <pattern-item n="num"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+      <call-macro n="choose_case">
+        <with-param pos="3"/>
+     </call-macro>
+      <let>
+          <var n="case"/>
+          <lit-tag v="nom"/>
+        </let>
+    <out>
+    <chunk name="defa-num-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+        <clip pos="2" side="tl" part="lem"/> 
+        <clip pos="2" side="tl" part="a_num"/> 
+        <!-- We could have used <lit-tag v="num"/> -->
+    </lu>
+    <b pos="1"/>
+    <lu>  
+        <clip pos="3" side="tl" part="lem"/> 
+        <clip pos="3" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+   <b pos="2"/>
+    </out>
+  </action>
+</rule>
+
+<rule comment="RULE: num adjec nom"> 
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+    <call-macro n="choose_case">
+        <with-param pos="1"/>
+     </call-macro> 
+    <let>
+          <var n="case"/>
+          <lit-tag v="nom"/>
+        </let>
+    <out>
+    <chunk name="num-adjec-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+        <clip pos="1" side="tl" part="lem"/> 
+        <clip pos="1" side="tl" part="a_num"/> 
+        <!-- We could have used <lit-tag v="num"/> -->
+    </lu>
+    <b pos="1"/>
+    <lu>
+        <clip pos="2" side="tl" part="whole"/> 
+    </lu>
+    <b pos="2"/>
+    <lu>  
+        <clip pos="3" side="tl" part="lem"/> 
+        <clip pos="3" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+
 <rule comment="RULE: prep adjec nom"> 
   <pattern>
     <pattern-item n="prep"/>

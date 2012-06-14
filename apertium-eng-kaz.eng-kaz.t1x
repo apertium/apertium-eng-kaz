@@ -2,6 +2,10 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="pers-verb"> <!-- past and present tense -->
+      <cat-item tags="vblex.pres.*"/>
+      <cat-item tags="vblex.past.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.ant.*"/>
@@ -41,6 +45,13 @@
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
     </def-attr>
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+    </def-attr>
+    <def-attr n="a_kaz_verb"> 
+      <attr-item tags="v.tv"/>
+      <attr-item tags="v.iv"/>
+    </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -57,6 +68,9 @@
     <def-var n="current_verb"/>
     <def-var n="plural"/>
     <def-var n="case"/>
+    <def-var n="tense"/>
+    <def-var n="verb-pers"/> <!-- State variable -->
+    <def-var n="verb-nbr"/> <!-- State variable -->
   </section-def-vars>
 
 
@@ -130,6 +144,62 @@
 
 
 <section-rules>
+
+<rule comment="RULE: verb"> <!-- first attempt at simple verbs -->
+  <pattern>
+    <pattern-item n="pers-verb"/>
+  </pattern>
+  <action>
+    <choose>
+     <when>
+       <test>
+         <equal><var n="verb-pers"/><lit v=""/></equal></test>
+      <let>
+          <var n="verb-pers"/><lit-tag v="p3"/>
+      </let>
+     </when>
+    </choose>
+    <choose>
+     <when>
+       <test>
+         <equal><var n="verb-nbr"/><lit v=""/></equal></test>
+      <let>
+          <var n="verb-nbr"/><lit-tag v="sg"/>
+      </let>
+     </when>
+    </choose>
+    <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+      </otherwise> 
+    </choose>
+
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_kaz_verb"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
 
 <rule comment="RULE: prep nom"> 
   <pattern>
@@ -765,6 +835,14 @@
         <pattern-item n="sent"/>
       </pattern>
       <action>
+        <let> <!-- approx: assign 3rd person singular for verbs -->
+          <var n="verb-pers"/>
+          <lit v="p3"/>
+        </let>
+        <let>
+          <var n="verb-nbr"/>
+          <lit v="sg"/>
+        </let>
         <out>
           <chunk name="sent" case="caseFirstWord">
             <tags>

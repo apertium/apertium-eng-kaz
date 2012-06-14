@@ -559,7 +559,7 @@
   </action>
 </rule>
 
-<rule comment="RULE: prep art adjec nom"> 
+<rule comment="RULE: prep art adjec nom">  
   <pattern>
     <pattern-item n="prep"/>
     <pattern-item n="art"/>

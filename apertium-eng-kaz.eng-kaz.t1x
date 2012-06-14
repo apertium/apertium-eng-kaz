@@ -281,6 +281,50 @@
   </action>
 </rule>
 
+<rule comment="RULE: defa adjec nom">  
+  <pattern>
+     <pattern-item n="defa"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+    <choose>
+      <when>
+        <test>
+           <equal>
+               <clip pos="3" side="sl" part="a_nbr"/>
+               <lit-tag v="pl"/>
+           </equal>
+        </test>
+        <let> <var n="number"/><lit-tag v="pl"/> </let>
+      </when>
+     </choose>
+     <let>
+          <var n="case"/>
+          <lit-tag v="nom"/>
+        </let>
+    <out>
+    <chunk name="defa-adjec-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+        <clip pos="2" side="tl" part="whole"/> 
+    </lu>
+     <b pos="1"/>
+    <lu>  
+        <clip pos="3" side="tl" part="lem"/> 
+        <clip pos="3" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+     <b pos="2"/>
+     </out>
+  </action>
+</rule>
+
 <rule comment="RULE: num adjec nom"> 
   <pattern>
     <pattern-item n="num"/>
@@ -366,6 +410,50 @@
   </action>
 </rule>
 
+<rule comment="RULE: prep defa adjec nom"> 
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="defa"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+    <choose>
+      <when>
+        <test>
+           <equal>
+               <clip pos="4" side="sl" part="a_nbr"/>
+               <lit-tag v="pl"/>
+           </equal>
+        </test>
+        <let> <var n="number"/><lit-tag v="pl"/> </let>
+      </when>
+     </choose>
+     <call-macro n="choose_case">
+        <with-param pos="1"/>
+     </call-macro>
+    <out>
+    <chunk name="prep-defa-adjec-nom">
+    <tags>
+    <tag><lit-tag v="AdvP"/></tag>
+    </tags>
+    <lu>
+        <clip pos="3" side="tl" part="whole"/> 
+    </lu>
+     <b pos="1"/>
+    <lu>  
+        <clip pos="4" side="tl" part="lem"/> 
+        <clip pos="4" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+     <b pos="2"/>
+    </out>
+  </action>
+</rule>
+
 <rule comment="RULE: prep defa nom"> <!-- FMT copy 20120610 ...-->
   <pattern>
     <pattern-item n="prep"/>
@@ -402,6 +490,7 @@
     </chunk>
      <b pos="1"/>
      <b pos="2"/>
+     <b pos="3"/>
     </out>
   </action>
 </rule>

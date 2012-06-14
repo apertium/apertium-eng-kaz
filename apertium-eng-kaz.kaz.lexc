@@ -1184,7 +1184,8 @@ LEXICON Verbs
 күл:күл V-TD ; ! "laugh"
 көр:көр V-TV ; ! "see"
 ойла:ойла V-TD ; ! "think"
-ойна:ойна V-TV ; ! "play"
+! MLF 201206141913 changed ойна to V-IV to match generation dict
+ойна:ойна V-IV ; ! "play" 
 отыр:отыр V-TD ; ! "sit,board"
 сана:сана V-TD ; ! "think,suppose,imagine"
 сұра:сұра V-TV ; ! "request/ask for"

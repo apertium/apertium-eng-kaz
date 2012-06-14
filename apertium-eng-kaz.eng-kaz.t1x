@@ -13,8 +13,9 @@
       <cat-item tags="adj.*"/>
       <cat-item tags="adj"/>
     </def-cat>
-    <def-cat n="defa">
+    <def-cat n="art">
       <cat-item tags="det.def.*"/>
+      <cat-item tags="det.ind.*"/>
     </def-cat>
     <def-cat n="prep">
       <cat-item tags="pr"/>
@@ -276,9 +277,9 @@
   </action>
 </rule>
 
-<rule comment="RULE: defa num nom"> 
+<rule comment="RULE: art num nom"> 
     <pattern>
-    <pattern-item n="defa"/>
+    <pattern-item n="art"/>
     <pattern-item n="num"/>
     <pattern-item n="nom"/>
   </pattern>
@@ -292,7 +293,7 @@
           <lit-tag v="nom"/>
         </let>
     <out>
-    <chunk name="defa-num-nom">
+    <chunk name="art-num-nom">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     </tags>
@@ -314,10 +315,10 @@
   </action>
 </rule>
 
-<rule comment="RULE: prep defa num nom"> 
+<rule comment="RULE: prep art num nom"> 
   <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="defa"/>
+    <pattern-item n="art"/>
     <pattern-item n="num"/>
     <pattern-item n="nom"/>
   </pattern>
@@ -327,7 +328,7 @@
         <with-param pos="1"/>
      </call-macro>
     <out>
-    <chunk name="prep-defa-num-nom">
+    <chunk name="prep-art-num-nom">
     <tags>
     <tag><lit-tag v="AdvP"/></tag>
     </tags>
@@ -348,9 +349,9 @@
   </action>
 </rule>
 
-<rule comment="RULE: defa adjec nom">  
+<rule comment="RULE: art adjec nom">  
   <pattern>
-     <pattern-item n="defa"/>
+     <pattern-item n="art"/>
     <pattern-item n="adjec"/>
     <pattern-item n="nom"/>
   </pattern>
@@ -372,7 +373,7 @@
           <lit-tag v="nom"/>
         </let>
     <out>
-    <chunk name="defa-adjec-nom">
+    <chunk name="art-adjec-nom">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     </tags>
@@ -433,9 +434,9 @@
   </action>
 </rule>
 
-<rule comment="RULE: defa num adjec nom"> 
+<rule comment="RULE: art num adjec nom"> 
     <pattern>
-    <pattern-item n="defa"/>
+    <pattern-item n="art"/>
     <pattern-item n="num"/>
     <pattern-item n="adjec"/>
     <pattern-item n="nom"/>
@@ -450,7 +451,7 @@
           <lit-tag v="nom"/>
         </let>
     <out>
-    <chunk name="defa-num-adjec-nom">
+    <chunk name="art-num-adjec-nom">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     </tags>
@@ -558,10 +559,10 @@
   </action>
 </rule>
 
-<rule comment="RULE: prep defa adjec nom"> 
+<rule comment="RULE: prep art adjec nom"> 
   <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="defa"/>
+    <pattern-item n="art"/>
     <pattern-item n="adjec"/>
     <pattern-item n="nom"/>
   </pattern>
@@ -582,14 +583,15 @@
         <with-param pos="1"/>
      </call-macro>
     <out>
-    <chunk name="prep-defa-adjec-nom">
+    <chunk name="prep-art-adjec-nom">
     <tags>
     <tag><lit-tag v="AdvP"/></tag>
     </tags>
+      <b pos="1"/>
     <lu>
         <clip pos="3" side="tl" part="whole"/> 
     </lu>
-     <b pos="1"/>
+     <b pos="2"/>
     <lu>  
         <clip pos="4" side="tl" part="lem"/> 
         <clip pos="4" side="tl" part="a_nom"/>
@@ -597,15 +599,14 @@
         <var n="case"/>  
      </lu>
     </chunk>
-     <b pos="2"/>
     </out>
   </action>
 </rule>
 
-<rule comment="RULE: prep defa num adjec nom"> 
+<rule comment="RULE: prep art num adjec nom"> 
     <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="defa"/>
+    <pattern-item n="art"/>
     <pattern-item n="num"/>
     <pattern-item n="adjec"/>
     <pattern-item n="nom"/>
@@ -616,7 +617,7 @@
         <with-param pos="1"/>
      </call-macro>
     <out>
-    <chunk name="prep-defa-num-adjec-nom">
+    <chunk name="prep-art-num-adjec-nom">
     <tags>
     <tag><lit-tag v="AdvP"/></tag>
     </tags>
@@ -640,10 +641,10 @@
   </action>
 </rule>
 
-<rule comment="RULE: prep defa nom"> <!-- FMT copy 20120610 ...-->
+<rule comment="RULE: prep art nom"> <!-- FMT copy 20120610 ...-->
   <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="defa"/>
+    <pattern-item n="art"/>
     <pattern-item n="nom"/>
   </pattern>
   <action>
@@ -663,7 +664,7 @@
         <with-param pos="1"/>
      </call-macro>
     <out>
-    <chunk name="prep-defa-nom">
+    <chunk name="prep-art-nom">
     <tags>
     <tag><lit-tag v="AdvP"/></tag>
     </tags>
@@ -681,9 +682,9 @@
 </rule>
 
 
-<rule comment="RULE: defa nom"> 
+<rule comment="RULE: art nom"> 
   <pattern>
-    <pattern-item n="defa"/>
+    <pattern-item n="art"/>
     <pattern-item n="nom"/>
   </pattern>
   <action>
@@ -704,7 +705,7 @@
             <lit-tag v="nom"/>
           </let>
     <out>
-    <chunk name="defa-nom">
+    <chunk name="art-nom">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     </tags>

@@ -925,11 +925,11 @@
       <action>
         <let> <!-- approx: assign 3rd person singular for verbs -->
           <var n="verb-pers"/>
-          <lit v="p3"/>
+          <lit-tag v="p3"/>
         </let>
         <let>
           <var n="verb-nbr"/>
-          <lit v="sg"/>
+          <lit-tag v="sg"/>
         </let>
         <out>
           <chunk name="sent" case="caseFirstWord">

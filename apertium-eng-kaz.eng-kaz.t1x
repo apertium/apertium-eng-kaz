@@ -6,6 +6,18 @@
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vblex.past"/>
     </def-cat>
+    <def-cat n="pers-verb-to-be"> <!-- past and present tense -->
+      <cat-item tags="vbser.pres.*"/>
+      <cat-item tags="vbser.past.*"/>
+      <cat-item tags="vbser.past"/>
+    </def-cat>
+    <def-cat n="verb-ing"> <!-- past and present tense -->
+      <cat-item tags="vblex.ger"/>
+<!--      <cat-item tags="vbser.ger"/>
+      <cat-item tags="vbhaver.ger"/>
+      <cat-item tags="vbmod.ger"/>  --> <!-- We'll try later -->
+   </def-cat>
+    
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.ant.*"/>
@@ -80,13 +92,13 @@
 
 
   <section-def-macros>
+
     <def-macro n="initialize_number" npar="0">
           <let>
             <var n="number"/>
             <lit v=""/>
           </let>
     </def-macro>
-
 
     <def-macro n="initialize_case" npar="0">
           <let>
@@ -143,9 +155,26 @@
      </choose>
     </def-macro>
 
+
+<def-macro n="gen-simple-verb" npar="1">
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_kaz_verb"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+    </out>
+</def-macro>
     
 
-  </section-def-macros>
+</section-def-macros>
 
 
 <section-rules>
@@ -196,21 +225,66 @@
         <let><var n="tense"/><lit-tag v="aor"/></let>
       </otherwise> 
     </choose>
+      <call-macro n="gen-simple-verb">
+         <with-param pos="1"/> 
+     </call-macro>
+  </action>
+</rule>
 
-    <out>
-      <chunk name="pers-verb">
-      <tags>
-        <tag><lit-tag v="SV"/></tag>
-      </tags>
-        <lu>
-          <clip pos="1" side="tl" part="lem"/>
-	  <clip pos="1" side="tl" part="a_kaz_verb"/>
-          <var n="tense"/>
-          <var n="verb-pers"/>	
-          <var n="verb-nbr"/>
-        </lu>
-      </chunk>
-    </out>
+<rule comment="RULE: be + verb-ing"> <!-- first attempt at "ing" verbal forms -->
+  <pattern>
+    <pattern-item n="pers-verb-to-be"/>
+    <pattern-item n="verb-ing"/> <!-- * -->
+   </pattern>
+  <action>
+    <choose>
+     <when>
+       <test>
+         <equal><var n="verb-pers"/><lit v=""/></equal></test>
+      <let>
+          <var n="verb-pers"/><lit-tag v="p3"/>
+      </let>
+     </when>
+    </choose>
+    <choose>
+     <when>
+       <test>
+         <equal><var n="verb-nbr"/><lit v=""/></equal></test>
+      <let>
+          <var n="verb-nbr"/><lit-tag v="sg"/>
+      </let>
+     </when>
+    </choose>
+    <choose>
+<!--      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+      </when> --> <!-- We don't know how to do this yet -->
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="past"/></let>
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let> <!-- This is clearly wrong but we'll change it later -->
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
+
   </action>
 </rule>
     

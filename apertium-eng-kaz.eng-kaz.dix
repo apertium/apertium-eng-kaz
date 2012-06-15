@@ -297,7 +297,7 @@
     <e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>laugh<s n="vblex"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
     <!-- CAUTION: some ditransitives, may need transfer rules or something -->
     <e><p><l>tell<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>reply<s n="vblex"/></l><r>жауап<b/>бер<s n="v"/><s n="iv"/></r></p></e>
@@ -306,7 +306,7 @@
     <e><p><l>try<s n="vblex"/></l><r>тырыс<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>find<s n="vblex"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>cry<s n="vblex"/></l><r>жыла<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>hear<s n="vblex"/></l><r>есті<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>hear<s n="vblex"/></l><r>есті<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>listen<s n="vblex"/></l><r>тыңда<s n="v"/><s n="tv"/></r></p></e>
     <!-- hrm -->
     <e><p><l>must<s n="vblex"/></l><r>керек<s n="v"/><s n="iv"/></r></p></e>

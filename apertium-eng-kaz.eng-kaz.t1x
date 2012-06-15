@@ -4,7 +4,7 @@
   <section-def-cats>
     <def-cat n="pers-verb"> <!-- past and present tense -->
       <cat-item tags="vblex.pres.*"/>
-      <cat-item tags="vblex.past.*"/>
+      <cat-item tags="vblex.past"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -28,7 +28,12 @@
       <cat-item tags="sent"/>
     </def-cat>
   </section-def-cats>
+ 
   <section-def-attrs>
+    <def-attr n="a_tense">
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+    </def-attr> 
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np.ant"/>
@@ -178,6 +183,15 @@
         </test>
         <let><var n="tense"/><lit-tag v="aor"/></let>
       </when>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="ifi"/></let>
+      </when>
       <otherwise>
         <let><var n="tense"/><lit-tag v="aor"/></let>
       </otherwise> 
@@ -192,14 +206,14 @@
           <clip pos="1" side="tl" part="lem"/>
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
           <var n="tense"/>
-          <var n="verb-pers"/>
+          <var n="verb-pers"/>	
           <var n="verb-nbr"/>
         </lu>
       </chunk>
     </out>
   </action>
 </rule>
-
+    
 
 <rule comment="RULE: prep nom"> 
   <pattern>

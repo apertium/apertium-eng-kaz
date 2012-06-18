@@ -203,6 +203,7 @@
      </when>
     </choose>
     <choose>
+
       <when>
         <test>
           <equal>
@@ -210,8 +211,29 @@
              <lit-tag v="pres"/>
           </equal>
         </test>
-        <let><var n="tense"/><lit-tag v="aor"/></let>
+        <let><var n="tense"/><lit-tag v="pres"/></let> 
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b/>
+        <lu>
+          <lit v="отыр"/>
+          <lit-tag v="vaux"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
       </when>
+
       <when>
         <test>
           <equal>
@@ -220,14 +242,18 @@
           </equal>
         </test>
         <let><var n="tense"/><lit-tag v="ifi"/></let>
-      </when>
-      <otherwise>
-        <let><var n="tense"/><lit-tag v="aor"/></let>
-      </otherwise> 
-    </choose>
       <call-macro n="gen-simple-verb">
          <with-param pos="1"/> 
      </call-macro>
+      </when>
+
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+      <call-macro n="gen-simple-verb">
+         <with-param pos="1"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
   </action>
 </rule>
 
@@ -256,15 +282,35 @@
      </when>
     </choose>
     <choose>
-<!--      <when>
+      <when>
         <test>
           <equal>
              <clip pos="1" side="sl" part="a_tense"/>
              <lit-tag v="pres"/>
           </equal>
         </test>
-        <let><var n="tense"/><lit-tag v="aor"/></let>
-      </when> --> <!-- We don't know how to do this yet -->
+        <let><var n="tense"/><lit-tag v="pres"/></let>
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="отыр"/>
+          <lit-tag v="vaux"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when> 
       <when>
         <test>
           <equal>
@@ -287,6 +333,7 @@
 
   </action>
 </rule>
+
     
 
 <rule comment="RULE: prep nom"> 

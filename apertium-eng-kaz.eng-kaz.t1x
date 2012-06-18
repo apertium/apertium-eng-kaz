@@ -5,6 +5,13 @@
     <def-cat n="pers-verb"> <!-- past and present tense -->
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vblex.past"/>
+    </def-cat>   
+    <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
+      <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
+      <cat-item tags="vblex.pres"/>
+    </def-cat>
+    <def-cat n="vaux-will"> <!-- future -->
+      <cat-item lemma="will" tags="vaux.inf"/>
     </def-cat>
     <def-cat n="pers-verb-to-be"> <!-- past and present tense -->
       <cat-item tags="vbser.pres.*"/>
@@ -172,18 +179,9 @@
       </chunk>
     </out>
 </def-macro>
-    
-
-</section-def-macros>
 
 
-<section-rules>
-
-<rule comment="RULE: verb"> <!-- first attempt at simple verbs -->
-  <pattern>
-    <pattern-item n="pers-verb"/>
-  </pattern>
-  <action>
+<def-macro n="default-nbr-pers" npar="0">
     <choose>
      <when>
        <test>
@@ -202,6 +200,19 @@
       </let>
      </when>
     </choose>
+</def-macro>    
+
+</section-def-macros>
+
+
+<section-rules>
+
+<rule comment="RULE: verb"> 
+  <pattern>
+    <pattern-item n="pers-verb"/>
+  </pattern>
+  <action>
+     <call-macro n="default-nbr-pers"/>
     <choose>
 
       <when>
@@ -263,24 +274,7 @@
     <pattern-item n="verb-ing"/> <!-- * -->
    </pattern>
   <action>
-    <choose>
-     <when>
-       <test>
-         <equal><var n="verb-pers"/><lit v=""/></equal></test>
-      <let>
-          <var n="verb-pers"/><lit-tag v="p3"/>
-      </let>
-     </when>
-    </choose>
-    <choose>
-     <when>
-       <test>
-         <equal><var n="verb-nbr"/><lit v=""/></equal></test>
-      <let>
-          <var n="verb-nbr"/><lit-tag v="sg"/>
-      </let>
-     </when>
-    </choose>
+    <call-macro n="default-nbr-pers"/>
     <choose>
       <when>
         <test>
@@ -334,6 +328,20 @@
   </action>
 </rule>
 
+
+<rule comment="RULE: will + verb"> <!-- will verb -->
+  <pattern>
+    <pattern-item n="vaux-will"/>
+    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+    <let><var n="tense"/><lit-tag v="aor"/></let>
+    <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+    </call-macro>   
+  </action>
+</rule>
     
 
 <rule comment="RULE: prep nom"> 

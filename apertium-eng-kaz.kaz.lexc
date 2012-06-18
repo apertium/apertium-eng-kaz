@@ -99,7 +99,7 @@ Multichar_Symbols
 %<ifi%>               ! eyewitness past
 %<past%>              ! past
 %<evid%>              ! evidential
-%<aor%>               ! non-future
+%<aor%>               ! non-future (MLF 20120618: will be used to translate the future anyway!)
 %<pres%>              ! for "жатыр", "тұр" and other 2
 %<fut%>               ! future
 %<fut_plan%>          ! future plan

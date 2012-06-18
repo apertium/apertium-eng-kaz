@@ -23,8 +23,7 @@
 <!--      <cat-item tags="vbser.ger"/>
       <cat-item tags="vbhaver.ger"/>
       <cat-item tags="vbmod.ger"/>  --> <!-- We'll try later -->
-   </def-cat>
-    
+   </def-cat>   
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.ant.*"/>
@@ -42,6 +41,9 @@
     </def-cat>
     <def-cat n="prep">
       <cat-item tags="pr"/>
+    </def-cat>
+    <def-cat n="subj-pron">
+       <cat-item tags="prn.subj.*"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -65,9 +67,15 @@
       <attr-item tags="m"/>
       <attr-item tags="mf"/>
     </def-attr>
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
     </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
@@ -75,6 +83,9 @@
     <def-attr n="a_kaz_verb"> 
       <attr-item tags="v.tv"/>
       <attr-item tags="v.iv"/>
+    </def-attr>
+    <def-attr n="a_kaz_perspron"> 
+      <attr-item tags="prn.pers"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -95,6 +106,7 @@
     <def-var n="tense"/>
     <def-var n="verb-pers"/> <!-- State variable -->
     <def-var n="verb-nbr"/> <!-- State variable -->
+    <def-var n="formality"/> <!-- Used to generate formal versions of 2nd person pronouns -->
   </section-def-vars>
 
 
@@ -971,6 +983,63 @@
     </chunk>
     </out>
   </action>
+</rule>
+
+
+<rule comment="RULE: subj-pron">
+  <pattern>
+    <pattern-item n="subj-pron"/>
+  </pattern>
+  <action>
+  <choose>
+    <when>
+      <test>
+       <equal>
+         <clip pos="1" side="sl" part="a_nbr"/>
+         <lit-tag v="sp"/>
+       </equal>
+      </test>
+       <let><var n="number"/><lit-tag v="sg"/></let> <!-- choosing singular in the absence of information -->
+    </when>
+       <otherwise>
+         <let>
+           <var n="number"/><clip pos="1" side="sl" part="a_nbr"/>
+         </let>
+       </otherwise>
+  </choose>
+  <choose>
+    <when>
+     <test>  
+       <equal>
+          <clip pos="1" side="sl" part="a_pers"/>
+          <lit-tag v="p2"/>
+       </equal>
+     </test>
+     <let><var n="formality"/><lit-tag v="frm"/></let>
+    </when>
+     <otherwise>
+     <let><var n="formality"/><lit v=""/></let>
+     </otherwise>
+  </choose>
+  <call-macro n="initialize_case"/> <!-- will set it to nominative -->
+  <out>
+   <chunk name="subj-pron">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_kaz_perspron"/>
+      <clip pos="1" side="sl" part="a_pers"/>
+      <var n="number"/>
+      <var n="formality"/>
+      <var n="case"/>
+    </lu>
+  </chunk>
+  </out>
+  <let><var n="verb-pers"/><clip pos="1" side="sl" part="a_pers"/></let>
+  <let><var n="verb-nbr"/><var n="number"/></let>
+ </action>
 </rule>
  
     <rule comment="REGLA: SENT">

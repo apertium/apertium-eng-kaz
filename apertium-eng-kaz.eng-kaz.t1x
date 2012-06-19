@@ -185,7 +185,8 @@
           <clip pos="1" side="tl" part="lem"/>
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
           <var n="tense"/>
-          <var n="verb-pers"/>	
+          <var n="verb-pers"/>
+          <var n="formality"/>	
           <var n="verb-nbr"/>
         </lu>
       </chunk>
@@ -250,7 +251,8 @@
           <lit v="отыр"/>
           <lit-tag v="vaux"/>
           <var n="tense"/>
-          <var n="verb-pers"/>	
+          <var n="verb-pers"/>
+          <var n="formality"/>	
           <var n="verb-nbr"/>
         </lu>
       </chunk>
@@ -1053,7 +1055,7 @@
         </let>
         <let>
           <var n="verb-nbr"/>
-          <lit-tag v="sg"/>
+          <lit-tag v="pl"/>
         </let>
         <out>
           <chunk name="sent" case="caseFirstWord">

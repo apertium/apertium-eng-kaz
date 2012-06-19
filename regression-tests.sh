@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TESTNAME=_regression_tests
+TESTNAME=Regression_tests
 
 NODOWNLOAD=$1
 #TEMPDIR=/tmp/testcache # `mktemp -d`;
@@ -20,7 +20,7 @@ REGEN=0
 
 if [ "$NODOWNLOAD" == "" ]; then
 	REGEN=1
-	LANG=en wget -N http://wiki.apertium.org/wiki/English_and_Kazakh$TESTNAME 2>&1 | cat > wgetlog.txt
+	LANG=en wget -N http://wiki.apertium.org/wiki/English_and_Kazakh/$TESTNAME 2>&1 | cat > wgetlog.txt
         grep "Saving to:" wgetlog.txt || REGEN=0 && echo $TESTNAME not changed on webserver
 else
 	echo "NOT Downloading test set $TESTNAME"
@@ -54,26 +54,28 @@ fi
 for dir in $DIRS; do
 	if [ $dir = "en" ]; then
 		#mode="en-eo_oldtag";
-		mode="en-eo";
+		mode="eng-kaz";
 	else 
-		mode="eo-en";
+		mode="kaz-eng";
 	fi
 
-	echo "Translating using  apertium -d $DATADIR $mode"
+	echo "Translating using  apertium -d $DATADIR $mode-debug"
 
- 	cat test_SL_$dir | nl -s ' : ' > testtmp
-	cat testtmp | apertium -d $DATADIR $mode > testres
+ 	cat test_SL_$dir | nl -s ' : ' > testtmp;
+	cat testtmp | apertium -d $DATADIR $mode-debug > testres;
 
-	cat test_TL_$dir | nl -s ' : ' | diff -wi - testres | grep -r '[<>]' >> testtmp
+	cat test_TL_$dir | nl -s ' : ' | diff -wi - testres | grep '[<>]' >> testtmp2;
 
-	FAIL=`grep "^<" testtmp |  cut -c2-8`; 
+	FAIL=`grep "^<" testtmp2 |  cut -c2-8`; 
 #	if [[ "$FAIL"!="" ]]; then
 #		echo "< correct      > actual"
 #	else
 #		echo "All tests passed."
 #	fi
-	for i in $FAIL; do grep " $i : " testtmp; done
-
+	for i in $FAIL; do 
+		grep " $i : " testtmp2; 
+	done
 done
+rm testtmp2
 
 

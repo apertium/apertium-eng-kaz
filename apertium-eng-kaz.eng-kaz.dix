@@ -295,7 +295,7 @@
     <!-- e><p><l>do<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e --><!-- FIXME: check if repeat -->
     <e><p><l>finish<s n="vblex"/></l><r>біт<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>finish<s n="vblex"/></l><r>біт<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
-    <e><p><l>search<b/>for<s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>search<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ask<s n="vblex"/></l><r>сұра<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>speak<s n="vblex"/></l><r>сөйле<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
@@ -305,7 +305,7 @@
     <!-- CAUTION: some ditransitives, may need transfer rules or something -->
     <e><p><l>tell<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>reply<s n="vblex"/></l><r>жауап<b/>бер<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>want<s n="vblex"/></l><r>кел<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>want<s n="vblex"/></l><r>кел<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check, kel = 'come' -->
     <!-- will require transfer rules for correct verb form -->
     <e><p><l>try<s n="vblex"/></l><r>тырыс<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>find<s n="vblex"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>

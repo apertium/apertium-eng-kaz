@@ -275,7 +275,7 @@
     <e><p><l>come<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
     <!-- see above: "can" has several translations I guess... -->
     <e><p><l>can<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>play<s n="vblex"/></l><r>ойна<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>play<s n="vblex"/></l><r>ойна<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check iv/tv -->
     <e><p><l>like<s n="vblex"/></l><r>жақсы<b/>көр<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>love<s n="vblex"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
 	 <!-- ұна takes a dative "subject"!!! -->

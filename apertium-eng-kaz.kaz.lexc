@@ -99,7 +99,7 @@ Multichar_Symbols
 %<ifi%>               ! eyewitness past
 %<past%>              ! past
 %<evid%>              ! evidential
-%<aor%>               ! non-future (MLF 20120618: will be used to translate the future anyway!)
+%<aor%>               ! non-future
 %<pres%>              ! for "жатыр", "тұр" and other 2
 %<fut%>               ! future
 %<fut_plan%>          ! future plan
@@ -226,7 +226,7 @@ N-INFL-COMMON ;
 ! Modal/discourse particles
 
 LEXICON CLIT-IMP2P               ! These modal particle/clitic appears only after 2nd person imperatives,
-                                 ! and vice versa - 2nd person imperatives take only this clitics
+                            
 !! Politeness
 
 %+шы%<mod_foc%>:%>ш%{I%} # ;
@@ -234,17 +234,15 @@ LEXICON CLIT-IMP2P               ! These modal particle/clitic appears only afte
 
 LEXICON CLIT-MA
 
-!%+ма%<qst%>:%>% %{M%}%{A%} V-PERS-COP ; ! CHECK  ! FIXME: what's this?
-
 !! Question modal particles
 
 %+ма%<qst%>:%>% %{M%}%{A%} # ;
 
-LEXICON CLIT-OTHER             !FIXME:DISCUSS: make from this a separate clitics class for verbs
+LEXICON CLIT-OTHER
 
 !! Other question modal particles
 
-%+меді%<qst%>:% %{M%}еді # ;   ! FIXME:CHECK
+!%+меді%<qst%>:% %{M%}еді # ;   ! FIXME:CHECK
 %+мекен%<qst%>:% %{M%}екен # ;
 
 !! Assertive (emphasizing) modal particles
@@ -256,7 +254,8 @@ LEXICON CLIT-OTHER             !FIXME:DISCUSS: make from this a separate clitics
 !!                and not attach them to the previous word
 
 %+ғана%<postadv%>:% %{G%}ана # ; ! "only"
-%+да%<postadv%>:% %{D%}%{A%} # ; ! "also"
+%+да%<postadv%>:% %{D%}%{A%} # ; ! "1. even if"
+%+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
 
 LEXICON CLIT 
 
@@ -299,7 +298,9 @@ LEXICON ADJ-DAGI
 LEXICON GEN-POS
 
 %<px%>:%>%{N%}ікі%{n%} CASE ;
-%<loc%>:%>%{D%}%{A%}%{G%}%{I%} ADJ-DAGI ;
+%<loc%>:%>%{D%}%{A%}%{G%}%{I%} ADJ-DAGI ; ! FIXME:NOTE: I am in favour for changing the tag to loc2
+                                          ! ("DAGI"=loc2 and not "DAGI"=loc"DA"+attr"GI") But first
+                                          ! I'll give some arguments in a mail to apertium-turkic
 %<sim%>:%>%{D%}%{A%}й CLIT ;   ! FIXME:CHECK:In Tatar this is considered to be an adverbializer, so
                                ! no case endings after it. In Kazakh it should be the same /I.S./ 
 
@@ -593,116 +594,6 @@ LEXICON Copula
 е%<cop%>%<neg%>%<evid%>:емес% екен V-PERS-COP-SUF ; 
 е%<cop%>%<ifi%>:е%>%{D%}%{I%} V-PERS-PAST ; 
 
-!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (beginning)
-
-LEXICON N1
-
-%<n%>%<attr%>: # ;
-%<n%>: SUBST ;
-
-LEXICON N-COMPOUND-PX ! consider "N2" for the name
-                      ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
-
-%<n%>:%>%{S%}%{I%}%{n%} CASE-ETC ;
-%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
-
-LEXICON NP-COMMON
-N-INFL-COMMON ;
-
-LEXICON NP-TOP
-
-%<np%>%<top%>: NP-COMMON ;
-!%<adj%>%<top%>:%{L%}%{I%}%{K%} ADJ-COMMON ;  ! FIXME: do these tags make sense?
-
-LEXICON NP-ANT-M
-
-%<np%>%<ant%>%<m%>: NP-COMMON ;
-%<np%>%<ant%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
-
-LEXICON NP-ANT-F
-
-%<np%>%<ant%>%<f%>: NP-COMMON ;
-%<np%>%<ant%>%<f%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
-
-LEXICON NP-COG-M
-
-%<np%>%<cog%>%<m%>: NP-COMMON ;
-%<np%>%<cog%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
-
-LEXICON NP-AL
-
-%<np%>%<al%>: CASE ; 
-
-LEXICON NUM
-
-%<num%>: # ; 
-%<num%>%<subst%>: SUBST ; 
-%<num%>%<ord%>:%>%{I%}нш%{I%} N-INFL-COMMON ;
-
-LEXICON NUM-COLL
-
-%<num%>%<coll%>%<subst%>: N-INFL-COMMON ;
-%<num%>%<coll%>%<advl%>: # ;
-
-LEXICON DIGITLEX
-
-%<num%>: # ;
-
-LEXICON NUM-ROMAN
-
-NUM ;
-
-LEXICON ADV-WITH-KI
-
-ADV ;
-:%>%{G%}%{I%} A2
-
-LEXICON ADV-WITH-KI-I
-
-:%{I%} ADV ;
-ADJ-KI-INFL ; 
-
-LEXICON ADVITG
-
-%<adv%>%<itg%>: # ; 
-
-LEXICON ADV
-
-%<adv%>: CLIT ;
-
-LEXICON CC
-
-%<cnjcoo%>: # ;
-
-LEXICON CS
-
-%<cnjsub%>: # ; 
-
-LEXICON CA
-
-%<cnjadv%>: # ; 
-
-LEXICON POSTADV
-
-%<postadv%>: # ;
-
-LEXICON POST 
-
-%<post%>: # ;
-
-LEXICON QST
-
-%<qst%>: # ; 
-
-LEXICON INTERJ
-
-%<ij%>: # ;
-
-LEXICON ABBR 
-
-%<abbr%>: # ;
-
-
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 
 LEXICON Pron-12SG-CASES
@@ -713,13 +604,14 @@ LEXICON Pron-12SG-CASES
 %<abl%>:енен CLIT ;
 %<loc%>:енде CLIT ;
 %<ins%>:енімен CLIT ;
-%<px%>:енікі CLIT ;
-%<loc%>%<attr%>:ендегі CLIT ;
+%<px%>:енікі%{n%} CASE ;
+%<loc%>:ендегі ADJ-DAGI ;
+%<sim%>:ендей CLIT ;
 
 LEXICON PRON-PERS-INFL
 CASE-ETC ;
 
-LEXICON PRON-PERS  !!!! Inconsistent: біз has a separate entry, but олар does not. The bilingual dictionary is also inconsistent. To be repaired.
+LEXICON PRON-PERS
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мен CLIT ;
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м Pron-12SG-CASES ;
@@ -823,7 +715,7 @@ LEXICON PRON-RECIP
 
 %<prn%>%<recip%>: POSSESSION ;
 
-!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (end)
+!!!!!!!!!!!!!!!!!!!!!!     DETERMINERS
 
 LEXICON DET-DEM
 
@@ -841,6 +733,115 @@ LEXICON DET-IND
 LEXICON DET-ITG
 
 %<det%>%<itg%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS
+
+LEXICON N1
+
+%<n%>%<attr%>: # ;
+%<n%>: SUBST ;
+
+LEXICON N-COMPOUND-PX ! consider "N2" for the name
+                      ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
+
+%<n%>:%>%{S%}%{I%}%{n%} CASE-ETC ;
+%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
+
+LEXICON NP-COMMON
+N-INFL-COMMON ;
+
+LEXICON NP-TOP
+
+%<np%>%<top%>: NP-COMMON ;
+!%<adj%>%<top%>:%{L%}%{I%}%{K%} ADJ-COMMON ;  ! FIXME: do these tags make sense?
+
+LEXICON NP-ANT-M
+
+%<np%>%<ant%>%<m%>: NP-COMMON ;
+%<np%>%<ant%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
+
+LEXICON NP-ANT-F
+
+%<np%>%<ant%>%<f%>: NP-COMMON ;
+%<np%>%<ant%>%<f%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
+
+LEXICON NP-COG-M
+
+%<np%>%<cog%>%<m%>: NP-COMMON ;
+%<np%>%<cog%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
+
+LEXICON NP-AL
+
+%<np%>%<al%>: CASE ; 
+
+LEXICON NUM
+
+%<num%>: # ; 
+%<num%>%<subst%>: SUBST ; 
+%<num%>%<ord%>:%>%{I%}нш%{I%} N-INFL-COMMON ;
+
+LEXICON NUM-COLL
+
+%<num%>%<coll%>%<subst%>: N-INFL-COMMON ;
+%<num%>%<coll%>%<advl%>: # ;
+
+LEXICON DIGITLEX
+
+%<num%>: # ;
+
+LEXICON NUM-ROMAN
+
+NUM ;
+
+LEXICON POST 
+
+%<post%>: # ;
+
+LEXICON POSTADV
+
+%<postadv%>: # ;
+
+LEXICON ADV-WITH-KI
+
+ADV ;
+:%>%{G%}%{I%} A2
+
+LEXICON ADV-WITH-KI-I
+
+:%{I%} ADV ;
+ADJ-KI-INFL ; 
+
+LEXICON ADVITG
+
+%<adv%>%<itg%>: # ; 
+
+LEXICON ADV
+
+%<adv%>: CLIT ;
+
+LEXICON CC
+
+%<cnjcoo%>: # ;
+
+LEXICON CS
+
+%<cnjsub%>: # ; 
+
+LEXICON CA
+
+%<cnjadv%>: # ; 
+
+LEXICON QST
+
+%<qst%>: # ; 
+
+LEXICON INTERJ
+
+%<ij%>: # ;
+
+LEXICON ABBR 
+
+%<abbr%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -901,7 +902,7 @@ LEXICON Postadverbs
 ғана:ғана POSTADV ;   ! "only" Dir/LR
 ғана:қана POSTADV ;   ! "only" Dir/LR
 
-да:%~да POSTADV ; ! ""     Dir/RL
+да:%~да POSTADV ; ! "1. even if"     Dir/RL
 да:да POSTADV ; ! ""       Dir/LR
 да:де POSTADV ; ! ""       Dir/LR
 да:та POSTADV ; ! ""       Dir/LR
@@ -1090,6 +1091,7 @@ LEXICON Nouns
 
 адам:адам N1 ; ! "man"
 ана:ана N1 ; ! "mother"
+ауа% райы:ауа% райы N-COMPOUND-PX ; ! "whether,climate"
 ағаш:ағаш N1 ; ! "tree"
 бала:бала N1 ; ! "child"
 бас:бас N1 ; ! "head,begining,start"
@@ -1140,7 +1142,9 @@ LEXICON Adverbs
 LEXICON Adjectives
 
 бар:бар A2 ;
+мүмкін:мүмкін A2 ; ! "possible"
 ескі:ескі A1 ; ! "old"
+жақсы:жақсы A1 ; ! "good"
 жақын:жақын A1 ; ! "close"
 жаңа:жаңа A1 ; ! "new"
 жаңа:жаңа A1 ; ! "new"
@@ -1149,8 +1153,6 @@ LEXICON Adjectives
 кәрі:кәрі A1 ; ! "old (person)"
 суық:суық A1 ; ! "cold"
 үлкен:үлкен A1 ; ! "big"
-әдемі:әдемі A1 ; ! "beautiful"
-жақсы:жақсы A1 ; ! "nice"
 
 LEXICON Verbs 
 
@@ -1163,7 +1165,6 @@ LEXICON Verbs
 біт:біт Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
-айт:айт V-TV ; ! "say,tell"  ! basically TV...
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
 ал:ал V-TD ; ! "take,recieve,buy,collect,"
@@ -1184,8 +1185,7 @@ LEXICON Verbs
 күл:күл V-TD ; ! "laugh"
 көр:көр V-TV ; ! "see"
 ойла:ойла V-TD ; ! "think"
-! MLF 201206141913 changed ойна to V-IV to match generation dict
-ойна:ойна V-IV ; ! "play" 
+ойна:ойна V-TV ; ! "play"
 отыр:отыр V-TD ; ! "sit,board"
 сана:сана V-TD ; ! "think,suppose,imagine"
 сұра:сұра V-TV ; ! "request/ask for"

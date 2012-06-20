@@ -719,7 +719,7 @@ LEXICON Pron-12SG-CASES
 LEXICON PRON-PERS-INFL
 CASE-ETC ;
 
-LEXICON PRON-PERS
+LEXICON PRON-PERS  !!!! Inconsistent: біз has a separate entry, but олар does not. The bilingual dictionary is also inconsistent. To be repaired.
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мен CLIT ;
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м Pron-12SG-CASES ;

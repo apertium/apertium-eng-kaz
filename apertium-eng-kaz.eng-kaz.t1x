@@ -4,6 +4,7 @@
   <section-def-cats>
     <def-cat n="pers-verb"> <!-- past and present tense -->
       <cat-item tags="vblex.pres.*"/>
+      <cat-item tags="vblex.pres"/>
       <cat-item tags="vblex.past"/>
     </def-cat>   
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
@@ -186,7 +187,7 @@
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
           <var n="tense"/>
           <var n="verb-pers"/>
-          <var n="formality"/>	
+          <var n="formality"/>		
           <var n="verb-nbr"/>
         </lu>
       </chunk>

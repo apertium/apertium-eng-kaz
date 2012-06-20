@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 TESTNAME=Regression_tests
 
 NODOWNLOAD=$1
@@ -53,7 +53,6 @@ fi
 
 for dir in $DIRS; do
 	if [ $dir = "en" ]; then
-		#mode="en-eo_oldtag";
 		mode="eng-kaz";
 	else 
 		mode="kaz-eng";

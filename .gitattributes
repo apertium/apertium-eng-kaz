@@ -28,3 +28,4 @@
 texts/eng.chunks.txt -text
 texts/eng.txt -text
 texts/kaz.txt -text svneol=unset#application/octet-stream
+/wiki-tests.sh -text

@@ -23,6 +23,7 @@
     <sdef n="vbser"  c=""/>
     <sdef n="preadv"  c=""/>
     <sdef n="cnjadv"  c=""/>
+    <sdef n="ij"  c="Interjection"/>
     <sdef n="sint"  c="nice nicer nicest"/>
 
     <sdef n="sg"  c=""/>
@@ -189,7 +190,7 @@
     <e><p><l>now<s n="adv"/></l><r>қазір<s n="adv"/></r></p></e>
     <e><p><l>quickly<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
     <e><p><l>never<s n="adv"/></l><r>ешқашан<s n="adv"/></r></p></e>
-    <e><p><l>probably<s n="adv"/></l><r>мүмкін<s n="adv"/></r></p></e>
+    <e><p><l>probably<s n="adv"/></l><r>мүмкін<s n="adj"/></r></p></e> <!-- maybe with advl tag?-->
     <e><p><l>everywhere<s n="adv"/></l><r>барлық<b/>жерде<s n="adv"/></r></p></e>
     <e><p><l>slowly<s n="adv"/></l><r>жай<s n="adv"/></r></p></e>
     <e><p><l>then<s n="adv"/></l><r>сосын<s n="adv"/></r></p></e>
@@ -200,7 +201,7 @@
 	 <!-- isn't тағы a postadv? -->
     <e><p><l>of<b/>course<s n="adv"/></l><r>әрине<s n="adv"/></r></p></e>
     <e><p><l>around<s n="adv"/></l><r>айналасы<s n="adv"/></r></p></e>
-    <e><p><l>no<s n="adv"/></l><r>жоқ<s n="adv"/></r></p></e>
+    <e><p><l>no<s n="adv"/></l><r>жоқ<s n="ij"/></r></p></e> <!-- This is an interjection -->
     <e><p><l>well<s n="adv"/></l><r>жақсы<s n="adv"/></r></p></e>
     <e><p><l>still<s n="adv"/></l><r>әлі<s n="adv"/></r></p></e>
     <e><p><l>there<s n="adv"/></l><r>анда<s n="adv"/></r></p></e>

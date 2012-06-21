@@ -292,7 +292,7 @@
     <pardef n="separa">
 
                             <e i="">
-      <re>[.\?;:!]</re>
+      <re>[.\?;:!"]+</re>
       <p>
         <l/>
         <r><s n="sent"/></r>

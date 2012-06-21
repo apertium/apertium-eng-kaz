@@ -58,7 +58,9 @@
                </test>
                <let><var n="PREP"/>
                  <concat>
-                  <lit v="^prep"/>
+                  <get-case-from pos="1">
+                    <lit v="^prep"/>
+                  </get-case-from>
                   <lit-tag  v="pr"/>
                   <lit v="{"/>
                   <lit v="^to"/>
@@ -74,7 +76,9 @@
                </test>
                <let><var n="PREP"/>
                  <concat>
-                  <lit v="^prep"/>
+                  <get-case-from pos="1">
+                    <lit v="^prep"/>
+                  </get-case-from>
                   <lit-tag  v="pr"/>
                   <lit v="{"/>
                   <lit v="^in"/>
@@ -89,7 +93,9 @@
                </test>
                <let><var n="PREP"/>
                  <concat>
-                  <lit v="^prep"/>
+                  <get-case-from pos="1">
+                    <lit v="^prep"/>
+                  </get-case-from>
                   <lit-tag  v="pr"/>
                   <lit v="{"/>
                   <lit v="^with"/>
@@ -104,7 +110,9 @@
                </test>
                <let><var n="PREP"/>
                  <concat>
-                  <lit v="^prep"/>
+                  <get-case-from pos="1">
+                    <lit v="^prep"/>
+                  </get-case-from>
                   <lit-tag  v="pr"/>
                   <lit v="{"/>
                   <lit v="^from"/>
@@ -129,7 +137,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <var n="PREP"/>
+            <var n="PREP"/>
           <chunk>
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>

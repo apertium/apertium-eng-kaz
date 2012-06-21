@@ -27,6 +27,9 @@
     <sdef n="sint"  c="nice nicer nicest"/>
 
     <sdef n="cop"  c=""/>
+    <sdef n="qst"  c=""/>
+    <sdef n="dem"  c=""/>
+
     <sdef n="sg"  c=""/>
     <sdef n="pl"  c=""/>
 
@@ -60,7 +63,9 @@
   </sdefs>
   <section id="main" type="standard">
 
+    <e r="RL"><p><l></l><r>ма<s n="qst"/></r></p></e>
     <e r="RL"><p><l>be<s n="vbser"/></l><r>е<s n="cop"/></r></p></e>
+    <e r="RL"><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>бір<s n="det"/><s n="ind"/></r></p></e>
 
     <e r="LR"><p><l>a<s n="det"/><s n="ind"/></l><r></r></p></e>
     <e r="LR"><p><l>the<s n="det"/><s n="def"/></l><r></r></p></e>
@@ -68,6 +73,7 @@
     <e r="LR"><p><l>some<s n="det"/><s n="qnt"/></l><r></r></p></e>
 
     <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>that<s n="det"/><s n="dem"/></l><r>бұл<s n="det"/><s n="dem"/></r></p></e>
 
     <!-- Раздел: Предлог -->
 
@@ -204,6 +210,7 @@
     
     <e><p><l>very<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
 
+    <e><p><l>extremely<s n="adv"/></l><r>әбден<s n="adv"/></r></p></e>
     <e><p><l>yesterday<s n="adv"/></l><r>кеше<s n="adv"/></r></p></e>
     <e><p><l>today<s n="adv"/></l><r>бүгін<s n="adv"/></r></p></e>
     <e><p><l>now<s n="adv"/></l><r>қазір<s n="adv"/></r></p></e>
@@ -235,15 +242,17 @@
 
     <!-- Раздел: Имя Прилагательное -->
 
+    <e r="RL"><p><l>existing<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
+
     <e><p><l>big<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
-	 <e><p><l>little<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
-	 <e><p><l>nice<s n="adj"/><s n="sint"/></l><r>жақсы<s n="adj"/></r></p></e>
-<!--    <e><p><l>have<s n="adj"/></l><r>бар<s n="adj"/></r></p></e> -->
+    <e><p><l>little<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
+    <e><p><l>nice<s n="adj"/><s n="sint"/></l><r>жақсы<s n="adj"/></r></p></e>
     <e><p><l>warm<s n="adj"/><s n="sint"/></l><r>жылы<s n="adj"/></r></p></e>
     <e><p><l>cold<s n="adj"/><s n="sint"/></l><r>суық<s n="adj"/></r></p></e>
     <e><p><l>large<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
     <e><p><l>small<s n="adj"/><s n="sint"/></l><r>кішкентай<s n="adj"/></r></p></e>
     <e><p><l>happy<s n="adj"/><s n="sint"/></l><r>бақытты<s n="adj"/></r></p></e>
+    <e><p><l>glad<s n="adj"/></l><r>қуанышты<s n="adj"/></r></p></e> <!-- wrong in eng.dix -->
     <e><p><l>beautiful<s n="adj"/></l><r>әдемі<s n="adj"/></r></p></e>
     <e><p><l>old<s n="adj"/><s n="sint"/></l><r>ескі<s n="adj"/></r></p></e>
     <e><p><l>old<s n="adj"/><s n="sint"/></l><r>кәрі<s n="adj"/></r></p></e>
@@ -286,6 +295,12 @@
     <e r="LR"><p><l>must<s n="vaux"/></l><r></r></p></e>
     <e r="LR"><p><l>do<s n="vbdo"/></l><r></r></p></e>
     <e r="LR"><p><l>have<s n="vbhaver"/></l><r></r></p></e>
+
+    <e r="RL"><p><l></l><r>жат<s n="vaux"/></r></p></e>
+    <e r="RL"><p><l></l><r>жүр<s n="vaux"/></r></p></e>
+    <e r="RL"><p><l></l><r>тұр<s n="vaux"/></r></p></e>
+    <e r="RL"><p><l></l><r>отыр<s n="vaux"/></r></p></e>
+    <e r="RL"><p><l>be<s n="vbser"/></l><r>бол<s n="vaux"/></r></p></e>
 
     <e r="LR"><p><l>be<s n="vbser"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>be<s n="vblex"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>

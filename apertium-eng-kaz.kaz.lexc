@@ -1095,7 +1095,7 @@ LEXICON Nouns
 адам:адам N1 ; ! "man"
 ана:ана N1 ; ! "mother"
 апта:апта N1 ; ! "week"
-ауа% райы:ауа% райы N-COMPOUND-PX ; ! "weather,climate"
+ауа% райы:ауа% рай N-COMPOUND-PX ; ! "weather,climate"
 ағаш:ағаш N1 ; ! "tree"
 бала:бала N1 ; ! "child"
 бас:бас N1 ; ! "head,begining,start"
@@ -1145,6 +1145,7 @@ LEXICON Adverbs
 бірге:бірге ADV ; ! "together" FIXME:NOTE: also a <post>
 тағы:тағы ADV ; ! "more"
 қайтадан:қайтадан ADV ; ! "once again"
+әбден:әбден ADV ; ! "extremely"
 әлі:әлі ADV ; ! "now" !FIXME:CHECK
 әрдайым:әрдайым ADV ; ! "always"
 өте:өте ADV ; ! "very"
@@ -1165,16 +1166,26 @@ LEXICON Adjectives
 кішкентай:кішкентай A1 ; ! "small, little"
 кәрі:кәрі A1 ; ! "old (person)"
 суық:суық A1 ; ! "cold"
+қуанышты:қуанышты A1 ; ! "glad"
 үлкен:үлкен A1 ; ! "big"
 әдемі:әдемі A1 ; ! "beautiful"
 
 LEXICON Verbs 
 
+жат:жатыр Vinfl-AUX-IMPF ; ! 
+жүр:жүр Vinfl-AUX-IMPF ; ! 
 отыр:отыр Vinfl-AUX-IMPF ; ! 
+отыр:отыр Vinfl-AUX-IMPF ; ! 
+тұр:тұр Vinfl-AUX-IMPF ; ! 
+жат:жат Vinfl-AUX ; ! 
+жүр:жүр Vinfl-AUX ; ! 
 отыр:отыр Vinfl-AUX ; ! 
+отыр:отыр Vinfl-AUX ; ! 
+тұр:тұр Vinfl-AUX ; ! 
 ал:ал Vinfl-AUX ; ! 
 ал:ал Vinfl-AUX ; ! 
 кет:кет Vinfl-AUX ; ! 
+бол:бол Vinfl-AUX ; !
 бол:бол Vinfl-AUX ; !
 біт:біт Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
@@ -1183,6 +1194,7 @@ LEXICON Verbs
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
 бол:бол V-IV ; ! "be/become"
+бол:бол V-IV ; ! "be/become"
 біл:біл V-TV ; ! "know,understand,learn"
 біт:біт V-IV ; ! "terminate"
 есті:есті V-TV ; ! "hear"
@@ -1190,10 +1202,12 @@ LEXICON Verbs
 жаса:жаса V-TV ; ! "do,make"
 жасыр:жасыр V-TD ; ! "conceal,hide"
 жасырын:жасырын V-IV ; ! "hide oneself"
+жат:жат V-IV ; ! "lie"
 жақсы% көр:жақсы% көр V-TD ; ! "to like"
 же:же V-TV ; ! "eat"
 жыла:жыла V-TD ; ! "cry,weep"
 жүгір:жүгір V-TD ; ! "run"
+жүр:жүр V-IV ; ! "move"
 кел:кел V-IV ; ! "come"
 кел:кел V-IV ; ! "come"
 кет:кет V-IV ; ! "leave"
@@ -1202,14 +1216,16 @@ LEXICON Verbs
 ойла:ойла V-TD ; ! "think"
 ойна:ойна V-TV ; ! "play"
 отыр:отыр V-TD ; ! "sit,board"
+отыр:отыр V-TD ; ! "sit,board"
 сана:сана V-TD ; ! "think,suppose,imagine"
 сұра:сұра V-TV ; ! "request/ask for"
 сөйле:сөйле V-TV ; ! "say,speak"
 тап:тап V-TV ; ! "find"
 тырыс:тырыс V-IV ; ! "to try"
 тыңда:тыңда V-TD ; ! "listen"
+тұр:тұр V-IV ; ! "rise,stand"
 ізде:ізде V-TD ; ! "seek"
-істе:істе V-TD ; ! "do,make"
+істе:істе V-TV ; ! "do,make"
 іш:іш V-TV ; ! "drink"
 қара:қара V-TV ; ! "look at"
 қыл:қыл V-TV ; ! "do"

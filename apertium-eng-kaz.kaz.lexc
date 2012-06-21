@@ -862,9 +862,11 @@ LEXICON ModalParticles
 LEXICON Conjunctions
 
 және:және CC ; ! "and"
+ал:ал CC ; ! "contrastive and"
 бірақ:бірақ CC ; ! "but"
 немесе:немесе CC ; ! "or"
 дегенмен:дегенмен CA ; ! "nevertheless"
+осы% себептен:осы% себептен CA ; ! "therefore"
 
 LEXICON Postpositions
 
@@ -1203,7 +1205,7 @@ LEXICON Verbs
 жасыр:жасыр V-TD ; ! "conceal,hide"
 жасырын:жасырын V-IV ; ! "hide oneself"
 жат:жат V-IV ; ! "lie"
-жақсы% көр:жақсы% көр V-TD ; ! "to like"
+жақсы% көр:жақсы% көр V-TV ; ! "to like"
 же:же V-TV ; ! "eat"
 жыла:жыла V-TD ; ! "cry,weep"
 жүгір:жүгір V-TD ; ! "run"

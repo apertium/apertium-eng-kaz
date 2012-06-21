@@ -2,8 +2,14 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="vaux-neg">
+      <cat-item tags="vaux.neg.*"/>
+    </def-cat>
     <def-cat n="vaux">
       <cat-item tags="vaux.*"/>
+    </def-cat>
+    <def-cat n="v-ger-past">
+      <cat-item tags="v.*.ger_past.*"/>
     </def-cat>
     <def-cat n="v-ing">
       <cat-item tags="v.*.gna9"/>
@@ -87,6 +93,8 @@
       <attr-item tags="pprs"/>
 
       <attr-item tags="gna9"/>
+      <attr-item tags="prc_impf"/>
+      <attr-item tags="ger_past"/>
     </def-attr>
     <def-attr n="a_pers">
       <attr-item tags="p1"/>
@@ -102,8 +110,9 @@
     <def-var n="current_verb"/>
   </section-def-vars>
   <section-def-macros>
-    <def-macro n="reset-case1" npar="1">
-          <let><var n="sntype"/><lit-tag v=""/></let>
+    <def-macro n="reset-vars1" npar="1">
+          <let><var n="sntype"/><lit v=""/></let>
+          <let><var n="number"/><lit v=""/></let>
     </def-macro>
 
     <def-macro n="conv-temps1" npar="1">
@@ -143,22 +152,12 @@
 
     <def-macro n="conv-number1" npar="1">
       <choose>
-        <when>
-          <test>
-            <equal><clip pos="1" side="tl" part="a_adj"/><lit v=""/></equal>
-          </test> 
-          <choose> 
             <when>
                <test>
-                  <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  <not><equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal></not>
                </test>
-               <let><var n="number"/><lit-tag v="pl"/></let>
+               <let><var n="number"/><lit-tag v="sg"/></let>
             </when> 
-            <otherwise>
-              <let><var n="number"/><lit-tag v="sg"/></let>
-            </otherwise>
-          </choose>
-        </when>
       </choose>
     </def-macro>
 
@@ -275,7 +274,7 @@
             </lu>
           </chunk>
         </out>
-        <call-macro n="reset-case1">
+        <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>
       </action>
@@ -318,7 +317,7 @@
             </lu>
           </chunk>
         </out>
-        <call-macro n="reset-case1">
+        <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>
       </action>
@@ -356,7 +355,7 @@
             </lu>
           </chunk>
         </out>
-        <call-macro n="reset-case1">
+        <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>
       </action>
@@ -391,7 +390,7 @@
             </lu>
           </chunk>
         </out>
-        <call-macro n="reset-case1">
+        <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>
       </action>
@@ -430,7 +429,7 @@
             </lu>
           </chunk>
         </out>
-        <call-macro n="reset-case1">
+        <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>
       </action>
@@ -460,7 +459,48 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: V-PRC-IMPF VAUX">
+    <rule comment="REGLA: V-ING VAUX-NEG">
+      <pattern>
+        <pattern-item n="v-ing"/>
+        <pattern-item n="vaux"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_tns"/>
+          <lit-tag v="inf"/>
+        </let>
+        <call-macro n="conv-temps1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <lit v="do"/>
+              <lit-tag v="vbdo"/>
+              <clip pos="2" side="tl" part="a_tns"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: V-ING VAUX">
       <pattern>
         <pattern-item n="v-ing"/>
         <pattern-item n="vaux"/>
@@ -470,6 +510,9 @@
           <clip pos="1" side="tl" part="a_tns"/>
           <lit-tag v="ger"/>
         </let>
+        <call-macro n="conv-temps1">
+          <with-param pos="2"/>
+        </call-macro>
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
@@ -492,6 +535,34 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: V-GER-PAST">
+      <pattern>
+        <pattern-item n="v-ger-past"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_tns"/>
+          <lit-tag v="ger"/>
+        </let>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: V-ADV">
       <pattern>

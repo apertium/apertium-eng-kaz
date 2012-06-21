@@ -193,10 +193,13 @@
     <!-- Раздел: Союз -->
 
     <e><p><l>and<s n="cnjcoo"/></l><r>және<s n="cnjcoo"/></r></p></e>
+    <e><p><l>and<s n="cnjcoo"/></l><r>ал<s n="cnjcoo"/></r></p></e>
+    <e><p><l>but<s n="cnjcoo"/></l><r>ал<s n="cnjcoo"/></r></p></e>
     <e><p><l>but<s n="cnjcoo"/></l><r>бірақ<s n="cnjcoo"/></r></p></e>
     <e><p><l>or<s n="cnjcoo"/></l><r>немесе<s n="cnjcoo"/></r></p></e>
     <e><p><l>then<s n="cnjadv"/></l><r>сосын<s n="cnjcoo"/></r></p></e>
     <e><p><l>although<s n="cnjadv"/></l><r>дегенмен<s n="cnjcoo"/></r></p></e>
+    <e><p><l>therefore<s n="cnjadv"/></l><r>осы<b/>себептен<s n="cnjadv"/></r></p></e>
 
     <!-- Раздел: Наречие -->
 
@@ -226,9 +229,10 @@
     <e><p><l>also<s n="adv"/></l><r>тағы<s n="adv"/></r></p></e>
     <e><p><l>so<s n="adv"/></l><r>солай<s n="adv"/></r></p></e>
 	 <!-- isn't тағы a postadv? -->
-    <e><p><l>of<b/>course<s n="adv"/></l><r>әрине<s n="adv"/></r></p></e>
     <e><p><l>around<s n="adv"/></l><r>айналасы<s n="adv"/></r></p></e>
     <e><p><l>no<s n="adv"/></l><r>жоқ<s n="ij"/></r></p></e> <!-- This is an interjection -->
+    <e><p><l>of<b/>course<s n="adv"/></l><r>әрине<s n="adv"/></r></p></e>
+    <e><p><l>of<b/>course<s n="adv"/></l><r>әлбетте<s n="ij"/></r></p></e> <!-- This is an interjection -->
     <e><p><l>well<s n="adv"/></l><r>жақсы<s n="adv"/></r></p></e>
     <e><p><l>still<s n="adv"/></l><r>әлі<s n="adv"/></r></p></e>
     <e><p><l>there<s n="adv"/></l><r>анда<s n="adv"/></r></p></e>
@@ -361,7 +365,9 @@
     <e><p><l>think<g><b/>that</g><s n="vblex"/></l><r>ойла<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>think<g><b/>that</g><s n="vblex"/></l><r>ойла<s n="v"/><s n="iv"/></r></p></e>
 
+    <!-- SECTION: Interjections -->
 
+<e>       <p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>
 
 <!-- SECTION: Пунктуация -->
 

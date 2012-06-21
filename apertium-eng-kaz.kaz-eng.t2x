@@ -9,6 +9,12 @@
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
     </def-cat>
+    <def-cat n="SN-GEN-ATTR">
+      <cat-item tags="SN.GEN.ATTR"/>
+    </def-cat>
+    <def-cat n="SN-GEN">
+      <cat-item tags="SN.GEN"/>
+    </def-cat>
     <def-cat n="SN-ADVP">
       <cat-item tags="SN.LOC"/>
       <cat-item tags="SN.ABL"/>
@@ -126,7 +132,62 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+    <rule comment="REGLA: SN-GEN-ATTR SN-ADVP">
+      <pattern>
+        <pattern-item n="SN-GEN-ATTR"/>
+        <pattern-item n="SN-ADVP"/>
+      </pattern>
+      <action>
+        <call-macro n="set-prep1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+            <var n="PREP"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
+
+
+    <rule comment="REGLA: SN-GEN">
+      <pattern>
+        <pattern-item n="SN-GEN"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <chunk>
+            <lit v="gen"/>
+            <lit-tag  v="gen"/>
+            <lit v="{"/>
+                  <lit v="^'s"/>
+                  <lit-tag  v="gen"/>
+            <lit v="$}"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
     <rule comment="REGLA: SN-ADVP">
       <pattern>

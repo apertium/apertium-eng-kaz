@@ -31,14 +31,21 @@
     <def-cat n="v-imp">
       <cat-item tags="v.*.imp.*"/>
     </def-cat>
-    <def-cat n="det-ind">
+    <def-cat n="det">
       <cat-item tags="det.ind"/>
+      <cat-item tags="det.itg"/>
       <cat-item lemma="бір" tags="num"/>
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
       <cat-item tags="n.attr"/>
+    </def-cat>
+    <def-cat n="loc-attr">
+      <cat-item tags="n.px3sp.loc.attr"/>
+    </def-cat>
+    <def-cat n="nom-gen">
+      <cat-item tags="n.gen"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -280,11 +287,64 @@
       </action>
     </rule>
 
+  <rule comment="REGLA: ADJ NOM-GEN LOC-ATTR">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom-gen"/>
+        <pattern-item n="loc-attr"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="j-n-x" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+              <tag><lit-tag v="ATTR"/></tag>
+            </tags>
+            <lu>
+              <lit v="in"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <lit-tag v="sg"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="of"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
   <rule comment="REGLA: ADJ ADJ DET-IND NOM">
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="adj"/>
-        <pattern-item n="det-ind"/>
+        <pattern-item n="det"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -326,7 +386,7 @@
   <rule comment="REGLA: ADJ DET-IND NOM">
       <pattern>
         <pattern-item n="adj"/>
-        <pattern-item n="det-ind"/>
+        <pattern-item n="det"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -357,6 +417,40 @@
         </out>
         <call-macro n="reset-vars1">
           <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+  <rule comment="REGLA: DET-IND NOM">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="d-n" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="2"/>
         </call-macro>
       </action>
     </rule>

@@ -1095,8 +1095,10 @@ XII NUM-ROMAN ;
 LEXICON Nouns
 
 адам:адам N1 ; ! "man"
+алд:ал%{д%} N1 ; ! "front"
 ана:ана N1 ; ! "mother"
 апта:апта N1 ; ! "week"
+арт:арт N1 ; ! "back side"
 ауа% райы:ауа% рай N-COMPOUND-PX ; ! "weather,climate"
 ағаш:ағаш N1 ; ! "tree"
 бала:бала N1 ; ! "child"
@@ -1109,6 +1111,7 @@ LEXICON Nouns
 жануар:жануар N1 ; ! "biest"
 жауап:жауап N1 ; ! "answer"
 жексенбі:жексенбі N1 ; ! "sunday"
+жер:жер N1 ; ! "land,earth"
 жыл:жыл N1 ; ! "year"
 жұма:жұма N1 ; ! "friday"
 ит:ит N1 ; ! "dog"
@@ -1125,6 +1128,7 @@ LEXICON Nouns
 сәрсенбі:сәрсенбі N1 ; ! "wednesday"
 терезе:терезе N1 ; ! "window"
 уақыт:уақыт N1 ; ! "time"
+іш:іш N1 ; ! "inside,stomach"
 қағаз:қағаз N1 ; ! "paper"
 қол:қол N1 ; ! "hand"
 қыз:қыз N1 ; ! "girl,daughter,virgin"
@@ -1132,6 +1136,8 @@ LEXICON Nouns
 үй:үй N1 ; ! "home,house"
 үстел:үстел N1 ; ! "table"
 ұл:ұл N1 ; ! "son"
+алд:ал%{д%} N1 ; ! "front"
+арт:арт N1 ; ! "back"
 
 LEXICON ProperNouns 
 
@@ -1226,7 +1232,7 @@ LEXICON Verbs
 тырыс:тырыс V-IV ; ! "to try"
 тыңда:тыңда V-TD ; ! "listen"
 тұр:тұр V-IV ; ! "rise,stand"
-ізде:ізде V-TD ; ! "seek"
+ізде:ізде V-TV ; ! "seek, look for"
 істе:істе V-TV ; ! "do,make"
 іш:іш V-TV ; ! "drink"
 қара:қара V-TV ; ! "look at"

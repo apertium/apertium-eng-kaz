@@ -32,6 +32,7 @@
 
     <sdef n="sg"  c=""/>
     <sdef n="pl"  c=""/>
+    <sdef n="sp"  c=""/>
 
     <sdef n="p1"  c=""/>
     <sdef n="p2"  c=""/>
@@ -66,6 +67,7 @@
     <e r="RL"><p><l></l><r>ма<s n="qst"/></r></p></e>
     <e r="RL"><p><l>be<s n="vbser"/></l><r>е<s n="cop"/></r></p></e>
     <e r="RL"><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>бір<s n="det"/><s n="ind"/></r></p></e>
+    <e r="RL"><p><l>which<s n="det"/><s n="itg"/><s n="sp"/></l><r>қай<s n="det"/><s n="itg"/></r></p></e>
 
     <e r="LR"><p><l>a<s n="det"/><s n="ind"/></l><r></r></p></e>
     <e r="LR"><p><l>the<s n="det"/><s n="def"/></l><r></r></p></e>
@@ -130,6 +132,12 @@
     <e><p><l>week<s n="n"/></l><r>апта<s n="n"/></r></p></e>
     <e><p><l>company<s n="n"/></l><r>компания<s n="n"/></r></p></e>
     <e><p><l>reform<s n="n"/></l><r>реформа<s n="n"/></r></p></e>
+    <e><p><l>land<s n="n"/></l><r>жер<s n="n"/></r></p></e>
+    <e><p><l>earth<s n="n"/></l><r>жер<s n="n"/></r></p></e>
+    <e><p><l>place<s n="n"/></l><r>жер<s n="n"/></r></p></e>
+    <e><p><l>front<s n="n"/></l><r>алд<s n="n"/></r></p></e>
+    <e><p><l>inside<s n="n"/></l><r>іш<s n="n"/></r></p></e>
+    <e><p><l>back<s n="n"/></l><r>арт<s n="n"/></r></p></e>
    
 	 <!-- әпке is southern dialect for "older sister" -->
     <!-- the literary standard words are:

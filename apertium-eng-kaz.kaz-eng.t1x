@@ -28,6 +28,18 @@
       <cat-item tags="vaux.*.aor.*"/> <!-- include auxiliaries for now -->
       <cat-item tags="vaux.*.ifi.*"/>
     </def-cat>
+
+    <def-cat n="v-neg-pot">
+      <cat-item lemma="ал" tags="v.tv.neg.aor.*"/>
+      <cat-item lemma="ал" tags="v.tv.neg.ifi.*"/>
+    </def-cat>
+
+    <def-cat n="v-pot">
+      <cat-item lemma="ал" tags="v.tv.aor.*"/>
+      <cat-item lemma="ал" tags="v.tv.ifi.*"/>
+    </def-cat>
+
+
     <def-cat n="v-imp">
       <cat-item tags="v.*.imp.*"/>
     </def-cat>
@@ -553,6 +565,51 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: V-ING V-NEG-POT">
+      <pattern>
+        <pattern-item n="v-ing"/>
+        <pattern-item n="v-neg-pot"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_tns"/>
+          <lit-tag v="inf"/>
+        </let>
+        <call-macro n="conv-temps1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="sl" part="a_tns"/></tag>
+              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="can"/>
+              <lit-tag v="vaux"/>
+              <clip pos="2" side="tl" part="a_tns"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
     <rule comment="REGLA: V-ING VAUX-NEG">
       <pattern>
         <pattern-item n="v-ing"/>
@@ -570,6 +627,9 @@
           <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="sl" part="a_tns"/></tag>
+              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
             </tags>
             <lu>
               <lit v="do"/>
@@ -611,6 +671,9 @@
           <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="sl" part="a_tns"/></tag>
+              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
             </tags>
             <lu>
               <lit v="be"/>

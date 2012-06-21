@@ -861,6 +861,11 @@ LEXICON ModalParticles
 
 LEXICON Conjunctions
 
+да:%~да CC ; ! "also" Dir/RL
+да:да CC ; ! ""       Dir/LR
+да:де CC ; ! ""       Dir/LR
+да:та CC ; ! ""       Dir/LR
+да:те CC ; ! ""       Dir/LR
 және:және CC ; ! "and"
 ал:ал CC ; ! "contrastive and"
 бірақ:бірақ CC ; ! "but"
@@ -1097,10 +1102,12 @@ LEXICON Nouns
 адам:адам N1 ; ! "man"
 алд:ал%{д%} N1 ; ! "front"
 ана:ана N1 ; ! "mother"
+апа:апа N1 ; ! "older female relative"
 апта:апта N1 ; ! "week"
 арт:арт N1 ; ! "back side"
 ауа% райы:ауа% рай N-COMPOUND-PX ; ! "weather,climate"
 ағаш:ағаш N1 ; ! "tree"
+аң:аң  N1 ; ! "beast"
 бала:бала N1 ; ! "child"
 бас:бас N1 ; ! "head,begining,start"
 бақша:бақша N1 ; ! "garden house"
@@ -1129,6 +1136,7 @@ LEXICON Nouns
 терезе:терезе N1 ; ! "window"
 уақыт:уақыт N1 ; ! "time"
 іш:іш N1 ; ! "inside,stomach"
+қарындас:қарындас N1 ; ! "younger sister"
 қағаз:қағаз N1 ; ! "paper"
 қол:қол N1 ; ! "hand"
 қыз:қыз N1 ; ! "girl,daughter,virgin"
@@ -1136,6 +1144,8 @@ LEXICON Nouns
 үй:үй N1 ; ! "home,house"
 үстел:үстел N1 ; ! "table"
 ұл:ұл N1 ; ! "son"
+әрекет:әрекет N1 ; ! "behaviour"
+әрекет:әрекет N1 ; ! "move, activity"
 алд:ал%{д%} N1 ; ! "front"
 арт:арт N1 ; ! "back"
 
@@ -1158,6 +1168,7 @@ LEXICON Adverbs
 әрдайым:әрдайым ADV ; ! "always"
 өте:өте ADV ; ! "very"
 бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
+енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
 кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
 қазір:қазір ADV-WITH-KI ; ! "now > the one now"
 
@@ -1165,6 +1176,8 @@ LEXICON Adjectives
 
 бар:бар A2 ;
 мүмкін:мүмкін A2 ; ! "possible"
+анық:анық A1 ; ! "clear;clearly"
+ақырын:ақырын A1 ; ! "slow"
 ескі:ескі A1 ; ! "old"
 жақсы:жақсы A1 ; ! "good"
 жақын:жақын A1 ; ! "close"
@@ -1174,6 +1187,7 @@ LEXICON Adjectives
 кішкентай:кішкентай A1 ; ! "small, little"
 кәрі:кәрі A1 ; ! "old (person)"
 суық:суық A1 ; ! "cold"
+қатты:қатты A1 ; ! "hard,fast"
 қуанышты:қуанышты A1 ; ! "glad"
 үлкен:үлкен A1 ; ! "big"
 әдемі:әдемі A1 ; ! "beautiful"
@@ -1185,10 +1199,12 @@ LEXICON Verbs
 отыр:отыр Vinfl-AUX-IMPF ; ! 
 отыр:отыр Vinfl-AUX-IMPF ; ! 
 тұр:тұр Vinfl-AUX-IMPF ; ! 
+тұр:тұр Vinfl-AUX-IMPF ; ! 
 жат:жат Vinfl-AUX ; ! 
 жүр:жүр Vinfl-AUX ; ! 
 отыр:отыр Vinfl-AUX ; ! 
 отыр:отыр Vinfl-AUX ; ! 
+тұр:тұр Vinfl-AUX ; ! 
 тұр:тұр Vinfl-AUX ; ! 
 ал:ал Vinfl-AUX ; ! 
 ал:ал Vinfl-AUX ; ! 
@@ -1196,11 +1212,14 @@ LEXICON Verbs
 бол:бол Vinfl-AUX ; !
 бол:бол Vinfl-AUX ; !
 біт:біт Vinfl-AUX ; !
+баста:баста Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
+бар:бар V-TD ; ! "go"
+баста:баста V-TV ; ! "start,begin"
 бол:бол V-IV ; ! "be/become"
 бол:бол V-IV ; ! "be/become"
 біл:біл V-TV ; ! "know,understand,learn"
@@ -1214,14 +1233,14 @@ LEXICON Verbs
 жақсы% көр:жақсы% көр V-TV ; ! "to like"
 же:же V-TV ; ! "eat"
 жыла:жыла V-TD ; ! "cry,weep"
-жүгір:жүгір V-TD ; ! "run"
+жүгір:жүгір V-IV ; ! "run"
 жүр:жүр V-IV ; ! "move"
 кел:кел V-IV ; ! "come"
 кел:кел V-IV ; ! "come"
 кет:кет V-IV ; ! "leave"
 күл:күл V-IV ; ! "laugh"
 көр:көр V-TV ; ! "see"
-ойла:ойла V-TD ; ! "think"
+ойла:ойла V-TV ; ! "think"
 ойна:ойна V-TV ; ! "play"
 отыр:отыр V-TD ; ! "sit,board"
 отыр:отыр V-TD ; ! "sit,board"
@@ -1230,7 +1249,8 @@ LEXICON Verbs
 сөйле:сөйле V-TV ; ! "say,speak"
 тап:тап V-TV ; ! "find"
 тырыс:тырыс V-IV ; ! "to try"
-тыңда:тыңда V-TD ; ! "listen"
+тыңда:тыңда V-TV ; ! "listen"
+тұр:тұр V-IV ; ! "rise,stand"
 тұр:тұр V-IV ; ! "rise,stand"
 ізде:ізде V-TV ; ! "seek, look for"
 істе:істе V-TV ; ! "do,make"

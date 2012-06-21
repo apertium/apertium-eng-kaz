@@ -116,10 +116,8 @@
     <e><p><l>boy<s n="n"/></l><r>ұл<s n="n"/></r></p></e>
     <e><p><l>girl<s n="n"/></l><r>қыз<s n="n"/></r></p></e>
     <e><p><l>sister<s n="n"/></l><r>әпке<s n="n"/></r></p></e>
-    <e><p><l>report<s n="n"/></l><r>есеп беруі<s n="n"/></r></p></e>   <!-- we may change -->
     <e><p><l>reform<s n="n"/></l><r>реформа<s n="n"/></r></p></e>
     <e><p><l>week<s n="n"/></l><r>апта<s n="n"/></r></p></e>
-    <e><p><l>services<s n="n"/></l><r>қызмет атқарулар<s n="n"/></r></p></e>
     <e><p><l>company<s n="n"/></l><r>компания<s n="n"/></r></p></e>
     <e><p><l>reform<s n="n"/></l><r>реформа<s n="n"/></r></p></e>
    
@@ -133,7 +131,7 @@
 <e><p><l>monday<s n="n"/></l><r>дүйсенбі<s n="n"/></r></p></e>
 <e><p><l>tuesday<s n="n"/></l><r>сейсенбі<s n="n"/></r></p></e>
 <e><p><l>wednesday<s n="n"/></l><r>сәрсенбі<s n="n"/></r></p></e>
-<e><p><l>thurthday<s n="n"/></l><r>бейсенбі<s n="n"/></r></p></e>
+<e><p><l>thursday<s n="n"/></l><r>бейсенбі<s n="n"/></r></p></e>
 <e><p><l>friday<s n="n"/></l><r>жұма<s n="n"/></r></p></e>
 <e><p><l>saturday<s n="n"/></l><r>сенбі<s n="n"/></r></p></e>
 <e><p><l>sunday<s n="n"/></l><r>жексенбі<s n="n"/></r></p></e>
@@ -168,7 +166,6 @@
 
     <e><p><l>Azamat<s n="np"/><s n="ant"/><s n="m"/></l><r>Азамат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ajgul<s n="np"/><s n="ant"/><s n="f"/></l><r>Айгүл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-    <e><p><l>Europe<s n="np"/><s n="ant"/><s n="f"/></l><r>Еуропа<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
    <!-- Раздел: Имя Числительное -->
 
@@ -248,10 +245,8 @@
     <e><p><l>old<s n="adj"/><s n="sint"/></l><r>кәрі<s n="adj"/></r></p></e>
     <e><p><l>new<s n="adj"/><s n="sint"/></l><r>жаңа<s n="adj"/></r></p></e>
     <e><p><l>close<s n="adj"/><s n="sint"/></l><r>жақын<s n="adj"/></r></p></e>
-    <e><p><l>special<s n="adj"/><s n="sint"/></l><r>арнайы<s n="adj"/></r></p></e>
-    <e><p><l>english<s n="adj"/><s n="sint"/></l><r>ағылшын<s n="adj"/></r></p></e>
-    <e><p><l>economic<s n="adj"/><s n="sint"/></l><r>экономикалық<s n="adj"/></r></p></e>
-    <e><p><l>financial<s n="adj"/><s n="sint"/></l><r>қаржылық<s n="adj"/></r></p></e>
+    
+  
         
     <!-- Раздел: Местоимение -->
 

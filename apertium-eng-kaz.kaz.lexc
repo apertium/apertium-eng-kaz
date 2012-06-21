@@ -355,11 +355,6 @@ LEXICON A3                 ! adjectives with (only) predicative use !# бар, �
 
 %<adj%>: CLIT ;
 
-LEXICON ADJ-ORD            ! the stems linked to this will most likely be moved to numerals
-
-%<adj%>%<ord%>: # ;
-%<adj%>%<ord%>%<subst%>: SUBST ;
-
 LEXICON ADJ-COMMON
 
 %<adj%>: ADJ-LEVELS ;       ! FIXME:NOTE: ADJ-COMMON is meant to be used as default cont. class
@@ -596,7 +591,7 @@ LEXICON Copula
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 
-LEXICON Pron-12SG-CASES
+LEXICON PRON-12SG-CASES
 
 %<gen%>:енің CLIT ;
 %<dat%>:аған CLIT ;
@@ -609,28 +604,36 @@ LEXICON Pron-12SG-CASES
 %<sim%>:ендей CLIT ;
 
 LEXICON PRON-PERS-INFL
+
 CASE-ETC ;
 
-LEXICON PRON-PERS  !!!! Inconsistent: біз has a separate entry, but олар does not. The bilingual dictionary is also inconsistent. To be repaired.
+LEXICON PRON-PERS
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мен CLIT ;
-мен%<prn%>%<pers%>%<p1%>%<sg%>:м Pron-12SG-CASES ;
+мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-12SG-CASES ;
 
 сен%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:сен CLIT ;
-сен%<prn%>%<pers%>%<p2%>%<sg%>:с Pron-12SG-CASES ;
-
-сен%<prn%>%<pers%>%<p2%>%<pl%>:сендер PRON-PERS-INFL ;
+сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-12SG-CASES ;
 
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ол CLIT ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>:о PRON-DEM-INFL ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:оның CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:оған CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:оны CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:одан CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:онда CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:онымен CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:онікі%{n%} CASE ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ондағы ADJ-DAGI ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<sim%>:ондай CLIT ;
 
 біз%<prn%>%<pers%>%<p1%>%<pl%>:біз PRON-PERS-INFL ;
 
+сендер%<prn%>%<pers%>%<p2%>%<pl%>:сендер PRON-PERS-INFL ;
+
+олар%<prn%>%<pers%>%<p3%>%<pl%>:олар PRON-PERS-INFL ;
+
 сіз%<prn%>%<pers%>%<p2%>%<sg%>%<frm%>:сіз PRON-PERS-INFL ;
-
-сіз%<prn%>%<pers%>%<p2%>%<pl%>%<frm%>:сіздер PRON-PERS-INFL ;
-
-ол%<prn%>%<pers%>%<p3%>%<pl%>:олар PRON-PERS-INFL ;
+сіздер%<prn%>%<pers%>%<p2%>%<pl%>%<frm%>:сіздер PRON-PERS-INFL ;
 
 LEXICON PRON-ITG
 
@@ -1091,23 +1094,33 @@ LEXICON Nouns
 
 адам:адам N1 ; ! "man"
 ана:ана N1 ; ! "mother"
+апта:апта N1 ; ! "week"
 ауа% райы:ауа% райы N-COMPOUND-PX ; ! "weather,climate"
 ағаш:ағаш N1 ; ! "tree"
 бала:бала N1 ; ! "child"
 бас:бас N1 ; ! "head,begining,start"
 бақша:бақша N1 ; ! "garden house"
+бейсенбі:бейсенбі N1 ; ! "Thursday"
 дыбыс:дыбыс N1 ; ! "sound,noise"
+дүйсенбі:дүйсенбі N1 ; ! "Monday"
 ерін:ерін N1 ; ! "lip"
 жануар:жануар N1 ; ! "biest"
 жауап:жауап N1 ; ! "answer"
+жексенбі:жексенбі N1 ; ! "sunday"
 жыл:жыл N1 ; ! "year"
+жұма:жұма N1 ; ! "friday"
 ит:ит N1 ; ! "dog"
+компания:компания N1 ; ! "company"
+күшік:күшік N1 ; ! "pup"
 көз:көз N1 ; ! "eye"
 мысық:мысық N1 ; ! "cat,copper"
 ойын:ойын N1 ; ! "play, game"
 орындық:орындық N1 ; ! "chair"
+сейсенбі:сейсенбі N1 ; ! "Tuesday"
+сенбі:сенбі N1 ; ! "Saturday"
 су:су N1 ; ! "water"
 сұрақ:сұрақ N1 ; ! "question"
+сәрсенбі:сәрсенбі N1 ; ! "wednesday"
 терезе:терезе N1 ; ! "window"
 уақыт:уақыт N1 ; ! "time"
 қағаз:қағаз N1 ; ! "paper"
@@ -1167,12 +1180,13 @@ LEXICON Verbs
 кел:кел Vinfl-AUX ; !
 кел:кел Vinfl-AUX ; !
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
-ал:ал V-TD ; ! "take,recieve,buy,collect,"
-ал:ал V-TD ; ! "take,recieve,buy,collect,"
+ал:ал V-TV ; ! "take,recieve,buy,collect,"
+ал:ал V-TV ; ! "take,recieve,buy,collect,"
 бол:бол V-IV ; ! "be/become"
 біл:біл V-TV ; ! "know,understand,learn"
 біт:біт V-IV ; ! "terminate"
 есті:есті V-TV ; ! "hear"
+жаз:жаз V-TV ; ! "write"
 жаса:жаса V-TV ; ! "do,make"
 жасыр:жасыр V-TD ; ! "conceal,hide"
 жасырын:жасырын V-IV ; ! "hide oneself"
@@ -1199,7 +1213,7 @@ LEXICON Verbs
 іш:іш V-TV ; ! "drink"
 қара:қара V-TV ; ! "look at"
 қыл:қыл V-TV ; ! "do"
-ұйықта:ұйықта V-TD ; ! "sleep" 
+ұйықта:ұйықта V-IV ; ! "sleep" 
 ұна:ұна V-TD ; ! "be pleased with"
 
 LEXICON Interjections 

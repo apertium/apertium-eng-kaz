@@ -7,3 +7,8 @@ cp ../apertium-kaz/apertium-kaz.kaz.rlx apertium-eng-kaz.kaz-eng.rlx
 cp ../apertium-kaz/apertium-kaz.kaz.twol apertium-eng-kaz.kaz.twol
 cp /tmp/apertium-kaz.kaz.lexc.trimmed apertium-eng-kaz.kaz.lexc 
 
+
+==Kazakh disambiguation==
+
+* Coordination (local/global)
+* Anaphora (ол → she/he/it, vs. ол → that)

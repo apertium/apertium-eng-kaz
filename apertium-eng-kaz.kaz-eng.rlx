@@ -182,6 +182,10 @@ REMOVE Pl IF (0 V-P3) (NOT -1* N-PL-NOM BARRIER BOS) ;
     ## But start with (personal) pronouns.
     #! Бірақ кеше өте суық ^еді/е<cop><ifi><p3><pl>/е<cop><ifi><p3><sg>$^!
 
-#^бірге/бір<num><subst><dat>/бірге<adv>$
 
-SELECT Adv (OC Num + Dat OR Adv) (1 V-FIN); 
+SELECT Adv IF (OC Num + Dat OR Adv) (1 V-FIN); 
+    #^бірге/бір<num><subst><dat>/бірге<adv>$
+
+SELECT Adv IF (0C Num + Dat OR Adv) ; 
+    ## If we find any real ambiguity we can discard this rule
+    #^Олар<prn><pers><p3><pl><gen>$ ^ана<n><px3sp><nom>$ ^мысық<n><px3sp><ins>$ ^бір<num><subst><dat>$ ^үй<n><loc>$

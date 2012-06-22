@@ -245,6 +245,9 @@
       <program name="lt-proc -b">
         <file name="kaz-eng.autobil.bin"/>
       </program>
+      <program name="apertium-lrx-proc">
+        <file name="kaz-eng.lrx.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-eng-kaz.kaz-eng.t1x"/>
         <file name="kaz-eng.t1x.bin"/>
@@ -274,6 +277,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="kaz-eng.autobil.bin"/>
+      </program>
+      <program name="apertium-lrx-proc">
+        <file name="kaz-eng.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-eng-kaz.kaz-eng.t1x"/>

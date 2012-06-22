@@ -1,5 +1,6 @@
 <rules>
   <rule>
-    <match lemma="ит" tags="n.*"><select lemma="dog" tags="n.*"/></match>
+    <match tags="det.*"/>
+    <match lemma="жер"><select lemma="place"/></match>
   </rule>
 </rules>

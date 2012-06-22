@@ -19,6 +19,7 @@
     <sdef n="post"  c="Послелог"/>
     <sdef n="cnjcoo"  c="Союз"/>
     <sdef n="det"  c=""/>
+    <sdef n="predet"  c=""/>
     <sdef n="rel"  c=""/>
     <sdef n="vbser"  c=""/>
     <sdef n="preadv"  c=""/>
@@ -77,6 +78,7 @@
     <e r="LR"><p><l>some<s n="det"/><s n="qnt"/></l><r></r></p></e>
 
     <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>that<s n="det"/><s n="dem"/></l><r>бұл<s n="det"/><s n="dem"/></r></p></e>
 
     <!-- Раздел: Предлог -->
@@ -140,12 +142,14 @@
     <e><p><l>land<s n="n"/></l><r>жер<s n="n"/></r></p></e>
     <e><p><l>earth<s n="n"/></l><r>жер<s n="n"/></r></p></e>
     <e><p><l>place<s n="n"/></l><r>жер<s n="n"/></r></p></e>
-    <e><p><l>front<s n="n"/></l><r>алд<s n="n"/></r></p></e>
-    <e><p><l>inside<s n="n"/></l><r>іш<s n="n"/></r></p></e>
-    <e><p><l>back<s n="n"/></l><r>арт<s n="n"/></r></p></e>
     <e><p><l>behaviour<s n="n"/></l><r>әрекет<s n="n"/></r></p></e>
     <e><p><l>activity<s n="n"/></l><r>әрекет<s n="n"/></r></p></e>
     <e><p><l>move<s n="n"/></l><r>әрекет<s n="n"/></r></p></e>
+
+    <e><p><l>front<s n="n"/></l><r>алд<s n="n"/></r></p></e>
+    <e><p><l>inside<s n="n"/></l><r>іш<s n="n"/></r></p></e>
+    <e><p><l>back<s n="n"/></l><r>арт<s n="n"/></r></p></e>
+    <e><p><l>under<s n="n"/></l><r>аст<s n="n"/></r></p></e>
    
 	 <!-- әпке is southern dialect for "older sister" -->
     <!-- the literary standard words are:
@@ -236,7 +240,8 @@
     <e><p><l>now<s n="adv"/></l><r>қазір<s n="adv"/></r></p></e>
     <e><p><l>now<s n="adv"/></l><r>енді<s n="adv"/></r></p></e>
     <e><p><l>quickly<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
-    <e><p><l>never<s n="adv"/></l><r>ешқашан<s n="adv"/></r></p></e>
+    <e><p><l>never<s n="adv"/></l><r>ешқашан<s n="adv"/></r></p></e> <!-- with or without space ? -->
+    <e><p><l>never<s n="adv"/></l><r>еш<b/>қашан<s n="adv"/></r></p></e>
     <e><p><l>probably<s n="adv"/></l><r>мүмкін<s n="adj"/></r></p></e> <!-- maybe with advl tag?-->
     <e><p><l>everywhere<s n="adv"/></l><r>барлық<b/>жерде<s n="adv"/></r></p></e>
     <e><p><l>slowly<s n="adv"/></l><r>жай<s n="adv"/></r></p></e>
@@ -313,7 +318,9 @@
     <e><p><l>her<s n="det"/><s n="pos"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></r></p></e>
     <e><p><l>their<s n="det"/><s n="pos"/></l><r>олар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="gen"/></r></p></e>
 
-    <e><p><l>that<s n="prn"/></l><r>сол<s n="prn"/></r></p></e>
+    <e><p><l>that<s n="prn"/><s n="dem"/></l><r>сол<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>that<s n="prn"/><s n="dem"/></l><r>ол<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>that<s n="prn"/><s n="dem"/></l><r>бұл<s n="prn"/><s n="dem"/></r></p></e>
 
     <!-- Раздел: Глагол -->
 
@@ -332,6 +339,7 @@
     <e r="LR"><p><l>be<s n="vbser"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>be<s n="vblex"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>go<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>leave<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>do<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>do<s n="vblex"/></l><r>істе<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>make<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
@@ -364,7 +372,7 @@
     <e><p><l>speak<s n="vblex"/></l><r>сөйле<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>laugh<s n="vblex"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
     <!-- CAUTION: some ditransitives, may need transfer rules or something -->
     <e><p><l>tell<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
@@ -390,6 +398,9 @@
     <e><p><l>go<s n="vblex"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>start<s n="vblex"/></l><r>баста<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>stand<s n="vblex"/></l><r>тұр<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>smile<s n="vblex"/></l><r>жыми<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>cover<s n="vblex"/></l><r>жап<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>close<s n="vblex"/></l><r>жап<s n="v"/><s n="tv"/></r></p></e>
 
     <!-- SECTION: Interjections -->
 

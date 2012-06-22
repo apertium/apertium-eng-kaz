@@ -56,6 +56,9 @@
     <def-cat n="loc-attr">
       <cat-item tags="n.px3sp.loc.attr"/>
     </def-cat>
+    <def-cat n="nom-post">
+      <cat-item lemma="арт" tags="n.px3sp.*"/>
+    </def-cat>
     <def-cat n="nom-gen">
       <cat-item tags="n.gen"/>
     </def-cat>
@@ -268,6 +271,41 @@
             </lu>
           </chunk>
         </out>
+      </action>
+    </rule>
+
+  <rule comment="REGLA: NOM-POST">
+      <pattern>
+        <pattern-item n="nom-post"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="post" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <var n="number"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="of"/>
+              <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
       </action>
     </rule>
 
@@ -613,7 +651,7 @@
     <rule comment="REGLA: V-ING VAUX-NEG">
       <pattern>
         <pattern-item n="v-ing"/>
-        <pattern-item n="vaux"/>
+        <pattern-item n="vaux-neg"/>
       </pattern>
       <action>
         <let>
@@ -653,6 +691,57 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: V-ADV V-ING VAUX">
+      <pattern>
+        <pattern-item n="v-adv"/>
+        <pattern-item n="v-ing"/>
+        <pattern-item n="vaux"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_tns"/>
+          <lit-tag v="ger"/>
+        </let>
+        <let>
+          <clip pos="2" side="tl" part="a_tns"/>
+          <lit-tag v="ger"/>
+        </let>
+        <call-macro n="conv-temps1">
+          <with-param pos="3"/>
+        </call-macro>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="3" side="sl" part="a_tns"/></tag>
+              <tag><clip pos="3" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="3" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <clip pos="3" side="tl" part="a_tns"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="2" side="tl" part="a_tns"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_tns"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: V-ING VAUX">
       <pattern>

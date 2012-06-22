@@ -12,6 +12,9 @@
     <def-cat n="SN-GEN-ATTR">
       <cat-item tags="SN.GEN.ATTR"/>
     </def-cat>
+    <def-cat n="SN-POST">
+      <cat-item lemma="post" tags="SN.*"/>
+    </def-cat>
     <def-cat n="SN-GEN">
       <cat-item tags="SN.GEN"/>
     </def-cat>
@@ -132,6 +135,36 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+
+    <rule comment="REGLA: SN-GEN SN-POST">
+      <pattern>
+        <pattern-item n="SN-GEN"/>
+        <pattern-item n="SN-POST"/>
+      </pattern>
+      <action>
+        <call-macro n="set-prep1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <var n="PREP"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
     <rule comment="REGLA: SN-GEN-ATTR SN-ADVP">
       <pattern>
         <pattern-item n="SN-GEN-ATTR"/>

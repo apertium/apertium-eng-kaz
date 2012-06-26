@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- -*- nxml -*- -->
+<!DOCTYPE transfer SYSTEM "transfer.dtd">
+<!-- -*- sgml -*- -->
 <transfer default="chunk">
   <section-def-cats>
     <def-cat n="pers-verb"> <!-- past and present tense -->
@@ -114,7 +115,9 @@
 
   <section-def-macros>
 
-    <def-macro n="f_bcond" npar="1"><!-- Outputs nothing if the blank is " " and the blank otherwise..-->
+    <def-macro n="out-blank-if-not-single-space" npar="1">
+<!-- Outputs nothing if the blank is " " and the blank otherwise..-->
+<!-- Takes one position parameter -->
       <choose>
         <when>
           <test>
@@ -418,8 +421,10 @@
 
      <!--<b pos="1"/>-->
     </out>
-        <call-macro n="f_bcond">
+        <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="out-blank-if-not-single-space">
           <with-param pos="2"/>
         </call-macro>
   </action>
@@ -566,8 +571,11 @@
         <var n="case"/>  
      </lu>
     </chunk>
-   <b pos="2"/>
     </out>
+         <call-macro n="out-blank-if-not-single-space"> 
+         <with-param pos="2"/>
+        </call-macro>
+<!--   <b pos="2"/> -->
   </action>
 </rule>
 
@@ -644,8 +652,11 @@
         <var n="case"/>  
      </lu>
     </chunk>
-     <b pos="2"/>
+<!--     <b pos="2"/> -->
      </out>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="2"/>
+        </call-macro>
   </action>
 </rule>
 
@@ -728,8 +739,12 @@
         <var n="case"/>  
      </lu>
     </chunk>
-   <b pos="3"/>
+<!--
+   <b pos="3"/> -->
     </out>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="3"/>
+        </call-macro>
   </action>
 </rule>
 
@@ -767,8 +782,12 @@
         <var n="case"/>  
      </lu>
     </chunk>
-   <b pos="3"/>
+<!--   <b pos="3"/> -->
+
     </out>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="3"/>
+        </call-macro>
   </action>
 </rule>
 
@@ -810,8 +829,12 @@
         <var n="case"/>  
      </lu>
     </chunk>
-     <b pos="2"/>
+<!--     <b pos="2"/> -->
+
     </out>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="2"/>
+        </call-macro>
   </action>
 </rule>
 
@@ -935,9 +958,11 @@
      <b pos="1"/>
      <b pos="2"/>-->
     </out>
-        <call-macro n="f_bcond">
+        <call-macro n="out-blank-if-not-single-space">
           <with-param pos="1"/>
-          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="out-blank-if-not-single-space"> 
+         <with-param pos="2"/>
         </call-macro>
   </action>
 </rule>
@@ -977,8 +1002,11 @@
         <var n="case"/>  
      </lu>
     </chunk>
-     <b pos="1"/>
+<!--  <b pos="1"/> -->
     </out>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
   </action>
 </rule>
 

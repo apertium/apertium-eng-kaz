@@ -15,6 +15,7 @@
       <cat-item lemma="will" tags="vaux.inf"/>
     </def-cat>
     <def-cat n="pers-verb-to-be"> <!-- past and present tense -->
+      <cat-item tags="vbser.pres"/>
       <cat-item tags="vbser.pres.*"/>
       <cat-item tags="vbser.past.*"/>
       <cat-item tags="vbser.past"/>

@@ -363,6 +363,69 @@
 </rule>
 
 
+
+<rule comment="RULE: be + ger"> 
+  <pattern>
+    <pattern-item n="pers-verb-to-be"/>
+    <pattern-item n="verb-ing"/> <!-- * -->
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+    <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="pres"/></let>
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> 
+        <lu>
+          <lit v="отыр"/>
+          <lit-tag v="vaux"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="past"/></let>
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let> 
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
+
+  </action>
+</rule>
+
+
+
 <rule comment="RULE: will + verb"> <!-- will verb -->
   <pattern>
     <pattern-item n="vaux-will"/>

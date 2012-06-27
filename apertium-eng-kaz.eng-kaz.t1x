@@ -401,6 +401,46 @@
   </action>
 </rule>
     
+<rule comment="RULE: prep-of num nom"> 
+  <pattern>
+    <pattern-item n="prep-of"/>
+   <pattern-item n="num"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+    <choose>
+      <when>
+        <test>
+           <equal>
+               <clip pos="2" side="sl" part="a_nbr"/>
+               <lit-tag v="pl"/>
+           </equal>
+        </test>
+        <let> <var n="number"/><lit-tag v="pl"/> </let>
+      </when>
+     </choose>
+    <out>
+    <chunk name="prep_of-nom">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag>
+    </tags>
+    <lu>  
+        <clip pos="2" side="tl" part="lem"/> 
+        <clip pos="2" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <lit-tag v="gen"/>  
+     </lu>
+    </chunk>
+
+     <!--<b pos="1"/>-->
+    </out>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
+  </action>
+</rule>
+
 
 <rule comment="RULE: prep-of nom"> 
   <pattern>
@@ -505,37 +545,6 @@
         <!-- We could have used <lit-tag v="num"/> -->
     </lu>
      <b pos="1"/>
-    <lu>  
-        <clip pos="2" side="tl" part="lem"/> 
-        <clip pos="2" side="tl" part="a_nom"/>
-        <var n="number"/> 
-        <var n="case"/>  
-     </lu>
-    </chunk>
-     </out>
-  </action>
-</rule>
-
-<rule comment="RULE: prep nom"> <!-- and then should be with art -->
-  <pattern>
-    <pattern-item n="prep"/>
-    <pattern-item n="nom"/>
-  </pattern>
-  <action>
-    <call-macro n="initialize_number"/>
-       <call-macro n="choose_case">
-        <with-param pos="1"/>
-     </call-macro>
-    <out>
-    <chunk name="prep-nom">
-    <tags>
-    <tag><lit-tag v="AdvP"/></tag>
-    </tags>
-    <lu>
-        <clip pos="1" side="tl" part="lem"/> 
-        <clip pos="1" side="tl" part="a_num"/> 
-    </lu>
-     <b pos="2"/>
     <lu>  
         <clip pos="2" side="tl" part="lem"/> 
         <clip pos="2" side="tl" part="a_nom"/>

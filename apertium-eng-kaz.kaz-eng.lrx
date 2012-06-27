@@ -1,6 +1,9 @@
 <rules>
   <rule>
-    <match tags="det.*"/>
+    <or>
+      <match lemma="қай" tags="det.*"/>
+      <match lemma="барлық" tags="det.*"/>
+    </or>
     <match lemma="жер"><select lemma="place"/></match>
   </rule>
 </rules>

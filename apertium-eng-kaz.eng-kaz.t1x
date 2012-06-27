@@ -54,7 +54,7 @@
     </def-cat>
 
   <def-cat n="prep-of">
-      <cat-item tags="prep-of"/>
+      <cat-item tags="pr" lemma="of" />
     </def-cat>
   </section-def-cats>
  
@@ -402,10 +402,10 @@
 </rule>
     
 
-<rule comment="RULE: prep-of"> 
+<rule comment="RULE: prep-of nom"> 
   <pattern>
-    <pattern-item n="prep"/>
-    <pattern-item n="of"/>
+    <pattern-item n="prep-of"/>
+    <pattern-item n="nom"/>
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
@@ -420,11 +420,8 @@
         <let> <var n="number"/><lit-tag v="pl"/> </let>
       </when>
      </choose>
-     <call-macro n="choose_case">
-        <with-param pos="1"/>
-     </call-macro>
     <out>
-    <chunk name="prep-of">
+    <chunk name="prep_of-nom">
     <tags>
     <tag><lit-tag v="AdjP"/></tag>
     </tags>
@@ -432,7 +429,7 @@
         <clip pos="2" side="tl" part="lem"/> 
         <clip pos="2" side="tl" part="a_nom"/>
         <var n="number"/> 
-        <var n="case"/>  
+        <lit-tag v="gen"/>  
      </lu>
     </chunk>
 
@@ -440,9 +437,6 @@
     </out>
         <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="out-blank-if-not-single-space">
-          <with-param pos="2"/>
         </call-macro>
   </action>
 </rule>

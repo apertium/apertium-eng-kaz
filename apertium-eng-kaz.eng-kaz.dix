@@ -121,6 +121,10 @@
 
     <!-- Раздел: Имя Существительное -->
 
+    <e><p><l>rating<s n="n"/></l><r>рейтинг<s n="n"/></r></p></e>
+    <e><p><l>risk<s n="n"/></l><r>тәуекелдік<s n="n"/></r></p></e>
+    <e><p><l>bank<s n="n"/></l><r>банк<s n="n"/></r></p></e>
+    <e><p><l>market<s n="n"/></l><r>нарық<s n="n"/></r></p></e>
     <e><p><l>dog<s n="n"/></l><r>ит<s n="n"/></r></p></e>
     <e><p><l>puppy<s n="n"/></l><r>күшік<s n="n"/></r></p></e>
     <e><p><l>garden<s n="n"/></l><r>бақша<s n="n"/></r></p></e>
@@ -167,6 +171,7 @@
 <e><p><l>sunday<s n="n"/></l><r>жексенбі<s n="n"/></r></p></e>
 
     <e><p><l>mother<s n="n"/></l><r>ана<s n="n"/></r></p></e>
+    <e><p><l>book<s n="n"/></l><r>кітап<s n="n"/></r></p></e>
     <e><p><l>window<s n="n"/></l><r>терезе<s n="n"/></r></p></e>
     <e><p><l>bird<s n="n"/></l><r>құс<s n="n"/></r></p></e>
     <e><p><l>eye<s n="n"/></l><r>көз<s n="n"/></r></p></e>
@@ -233,7 +238,7 @@
     <e><p><l>who<s n="adv"/><s n="itg"/></l><r>кім<s n="adv"/><s n="itg"/></r></p></e>
     
     <e><p><l>very<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
-
+    <e><p><l>tomorrow<s n="adv"/></l><r>ертең<s n="adv"/></r></p></e>
     <e><p><l>extremely<s n="adv"/></l><r>әбден<s n="adv"/></r></p></e>
     <e><p><l>yesterday<s n="adv"/></l><r>кеше<s n="adv"/></r></p></e>
     <e><p><l>today<s n="adv"/></l><r>бүгін<s n="adv"/></r></p></e>

@@ -44,12 +44,17 @@
     </def-cat>
     <def-cat n="prep">
       <cat-item tags="pr"/>
-    </def-cat>
+     </def-cat>
+
     <def-cat n="subj-pron">
        <cat-item tags="prn.subj.*"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
+    </def-cat>
+
+  <def-cat n="prep-of">
+      <cat-item tags="prep-of"/>
     </def-cat>
   </section-def-cats>
  
@@ -397,10 +402,10 @@
 </rule>
     
 
-<rule comment="RULE: prep nom"> 
+<rule comment="RULE: prep-of"> 
   <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="nom"/>
+    <pattern-item n="of"/>
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
@@ -419,9 +424,9 @@
         <with-param pos="1"/>
      </call-macro>
     <out>
-    <chunk name="prep-nom">
+    <chunk name="prep-of">
     <tags>
-    <tag><lit-tag v="AdvP"/></tag>
+    <tag><lit-tag v="AdjP"/></tag>
     </tags>
     <lu>  
         <clip pos="2" side="tl" part="lem"/> 
@@ -516,6 +521,38 @@
      </out>
   </action>
 </rule>
+
+<rule comment="RULE: prep nom"> <!-- and then should be with art -->
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+       <call-macro n="choose_case">
+        <with-param pos="1"/>
+     </call-macro>
+    <out>
+    <chunk name="prep-nom">
+    <tags>
+    <tag><lit-tag v="AdvP"/></tag>
+    </tags>
+    <lu>
+        <clip pos="1" side="tl" part="lem"/> 
+        <clip pos="1" side="tl" part="a_num"/> 
+    </lu>
+     <b pos="2"/>
+    <lu>  
+        <clip pos="2" side="tl" part="lem"/> 
+        <clip pos="2" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+     </out>
+  </action>
+</rule>
+
 
 <rule comment="RULE: prep num nom"> 
   <pattern>

@@ -177,7 +177,7 @@
           <lit-tag v="abl"/>
         </let>
 	</when>    
-       <when> 
+        <when> 
         <test>
           <equal caseless="yes">
             <clip pos="1" side="sl" part="lem"/>
@@ -187,6 +187,18 @@
         <let>
           <var n="case"/>
           <lit-tag v="dat"/>
+        </let>
+	</when>    
+        <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="with"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="ins"/>
         </let>
 	</when>    
      <otherwise>

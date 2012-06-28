@@ -421,46 +421,6 @@
   </action>
 </rule>
     
-<!--
-<rule comment="RULE: prep-of num nom"> 
-  <pattern>
-    <pattern-item n="prep-of"/>
-   <pattern-item n="num"/>
-    <pattern-item n="nom"/>
-  </pattern>
-  <action>
-    <call-macro n="initialize_number"/>
-    <choose>
-      <when>
-        <test>
-           <equal>
-               <clip pos="2" side="sl" part="a_nbr"/>
-               <lit-tag v="pl"/>
-           </equal>
-        </test>
-        <let> <var n="number"/><lit-tag v="pl"/> </let>
-      </when>
-     </choose>
-    <out>
-    <chunk name="prep_of-nom">
-    <tags>
-    <tag><lit-tag v="AdjP"/></tag>
-    </tags>
-    <lu>  
-        <clip pos="2" side="tl" part="lem"/> 
-        <clip pos="2" side="tl" part="a_nom"/>
-        <var n="number"/> 
-        <lit-tag v="gen"/>  
-     </lu>
-    </chunk>
-
-    </out>
-        <call-macro n="out-blank-if-not-single-space"> 
-          <with-param pos="1"/>
-        </call-macro>
-  </action>
-</rule>
--->
 
 <rule comment="RULE: prep nom"> 
   <pattern>

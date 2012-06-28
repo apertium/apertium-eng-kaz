@@ -115,6 +115,8 @@
     <def-var n="verb-pers"/> <!-- State variable -->
     <def-var n="verb-nbr"/> <!-- State variable -->
     <def-var n="formality"/> <!-- Used to generate formal versions of 2nd person pronouns -->
+    <def-var n="pptag"/> <!-- Will contain the tag of the next postpositional phrase generated (AdvP, AdjP, etc.) -->
+    
   </section-def-vars>
 
 
@@ -155,7 +157,9 @@
           </let>
     </def-macro>
 
-    <def-macro n="choose_case" npar="1">
+
+    <def-macro n="choose_case" npar="1">  <!-- Actually chooses case and the type of PP -->
+    <let><var n="pptag"/><lit-tag v="AdvP"/></let>  <!-- MLF20120628 maybe we could have PP.loc, PP.ins, etc.: think about this -->
     <choose>  
      <when> <!-- FMT: Need to add the rest of the prepositions, and have an
                       alternative out section to avoid, e.g. "Through gardens → бақша" -->
@@ -204,6 +208,22 @@
         <let>
           <var n="case"/>
           <lit-tag v="ins"/>
+        </let>
+	</when>    
+        <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="of"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="gen"/>
+        </let>
+        <let>
+          <var n="pptag"/>
+          <lit-tag v="AdjP"/>   <!-- MLF20120628 could be genP in the future -->
         </let>
 	</when>    
      <otherwise>
@@ -401,6 +421,7 @@
   </action>
 </rule>
     
+<!--
 <rule comment="RULE: prep-of num nom"> 
   <pattern>
     <pattern-item n="prep-of"/>
@@ -433,13 +454,59 @@
      </lu>
     </chunk>
 
-     <!--<b pos="1"/>-->
     </out>
         <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="1"/>
         </call-macro>
   </action>
 </rule>
+-->
+
+<rule comment="RULE: prep nom"> 
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="initialize_number"/>
+    <choose>
+      <when>
+        <test>
+           <equal>
+               <clip pos="2" side="sl" part="a_nbr"/>
+               <lit-tag v="pl"/>
+           </equal>
+        </test>
+        <let> <var n="number"/><lit-tag v="pl"/> </let>
+      </when>
+     </choose>
+     <call-macro n="choose_case">
+        <with-param pos="1"/>
+     </call-macro>
+    <out>
+    <chunk name="prep-nom">
+    <tags>
+    <tag><var n="pptag"/></tag>
+    </tags>
+    <lu>  
+        <clip pos="2" side="tl" part="lem"/> 
+        <clip pos="2" side="tl" part="a_nom"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
+
+     <!--<b pos="1"/>-->
+    </out>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="out-blank-if-not-single-space">
+          <with-param pos="2"/>
+        </call-macro>
+  </action>
+</rule>
+
 
 
 <rule comment="RULE: prep-of nom"> 
@@ -571,7 +638,7 @@
     <out>
     <chunk name="prep-num-nom">
     <tags>
-    <tag><lit-tag v="AdvP"/></tag>
+    <tag><var n="pptag"/></tag>
     </tags>
     <lu>
         <clip pos="2" side="tl" part="lem"/> 
@@ -646,7 +713,7 @@
     <out>
     <chunk name="prep-art-num-nom">
     <tags>
-    <tag><lit-tag v="AdvP"/></tag>
+    <tag><var n="pptag"/></tag>
     </tags>
     <lu>
         <clip pos="3" side="tl" part="lem"/> 
@@ -815,7 +882,7 @@
     <out>
     <chunk name="prep-num-adjec-nom">
     <tags>
-    <tag><lit-tag v="AdvP"/></tag>
+    <tag><var n="pptag"/></tag>
     </tags>
     <lu>
         <clip pos="2" side="tl" part="lem"/> 
@@ -868,7 +935,7 @@
     <out>
     <chunk name="prep-adjec-nom">
     <tags>
-    <tag><lit-tag v="AdvP"/></tag>
+    <tag><var n="pptag"/></tag>
     </tags>
     <lu>
         <clip pos="2" side="tl" part="whole"/> 
@@ -916,7 +983,7 @@
     <out>
     <chunk name="prep-art-adjec-nom">
     <tags>
-    <tag><lit-tag v="AdvP"/></tag>
+    <tag><var n="pptag"/></tag>
     </tags>
       <b pos="1"/>
     <lu>
@@ -950,7 +1017,7 @@
     <out>
     <chunk name="prep-art-num-adjec-nom">
     <tags>
-    <tag><lit-tag v="AdvP"/></tag>
+    <tag><var n="pptag"/></tag>
     </tags>
     <lu>
         <clip pos="3" side="tl" part="lem"/> 
@@ -997,7 +1064,7 @@
     <out>
     <chunk name="prep-art-nom">
     <tags>
-    <tag><lit-tag v="AdvP"/></tag>
+    <tag><var n="pptag"/></tag>
     </tags>
     <lu>  
         <clip pos="3" side="tl" part="lem"/> 

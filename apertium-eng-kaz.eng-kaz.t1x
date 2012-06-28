@@ -116,6 +116,12 @@
     <def-var n="verb-nbr"/> <!-- State variable -->
     <def-var n="formality"/> <!-- Used to generate formal versions of 2nd person pronouns -->
     <def-var n="pptag"/> <!-- Will contain the tag of the next postpositional phrase generated (AdvP, AdjP, etc.) -->
+
+    <def-var n="genpp"/> <!-- yes: will generate postposition; no= won't -->
+    <def-var n="pplemma"/> <!-- lemma of postpostion -->
+    <def-var n="ppcat"/> <!-- category of postposition -->
+    <def-var n="ppinfl"/> <!-- inflexion information for postposition -->
+    
     
   </section-def-vars>
 
@@ -233,6 +239,110 @@
           </let>
      </otherwise>
      </choose>
+    </def-macro>
+
+    <def-macro n="choose_case_and_postposition" npar="1">  
+    <let><var n="pptag"/><lit-tag v="AdvP"/></let> <!-- for most of them -->
+    <let><var n="genpp"/><lit-tag v="no"/></let> <!-- for simple cases -->
+
+    <choose>  
+     <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="in"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="loc"/>
+        </let>
+	</when>    
+       <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="from"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="abl"/>
+        </let>
+	</when>    
+        <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="to"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="dat"/>
+        </let>
+	</when>    
+        <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="with"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="ins"/>
+        </let>
+	</when>    
+
+        <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="of"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="gen"/>
+        </let>
+        <let>
+          <var n="pptag"/>
+          <lit-tag v="AdjP"/>   <!-- MLF20120628 could be genP in the future -->
+        </let>
+	</when>    
+
+        <when> 
+        <test>
+          <equal caseless="yes">
+             <clip pos="1" side="sl" part="lem"/><lit v="below"/>
+          </equal>
+        </test>
+        <let><var n="case"/><lit-tag v="gen"/></let>
+        <let><var n="genpp"/><lit v="yes"/></let>
+        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+        <let><var n="pplemma"/><lit v="аст"/></let>
+        <let><var n="ppcat"/><lit-tag v="n"/></let>
+        <let><var n="ppinfl"/>
+             <concat><lit-tag v="px3sp"/><lit-tag v="loc"/></concat></let>
+	</when>    
+     <otherwise>
+          <let>
+            <var n="case"/>
+            <lit-tag v="nom"/>
+          </let>
+     </otherwise>
+     </choose>
+    </def-macro>
+
+    <def-macro n="generate_postposition" npar="0">
+      <out>
+        <lu>
+         <var n="pplemma"/>
+         <var n="ppcat"/>
+         <var n="ppinfl"/>
+        </lu>
+      </out>
     </def-macro>
 
 
@@ -440,24 +550,52 @@
         <let> <var n="number"/><lit-tag v="pl"/> </let>
       </when>
      </choose>
-     <call-macro n="choose_case">
+     <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
-    <out>
-    <chunk name="prep-nom">
-    <tags>
-    <tag><var n="pptag"/></tag>
-    </tags>
-    <lu>  
-        <clip pos="2" side="tl" part="lem"/> 
-        <clip pos="2" side="tl" part="a_nom"/>
-        <var n="number"/> 
-        <var n="case"/>  
-     </lu>
-    </chunk>
+    <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+       <!-- when there is postposition information, it is generated -->
+        <out>
+          <chunk name="prep-art-nom">
+            <tags>
+                <tag><var n="pptag"/></tag>
+            </tags>
+            <lu>  
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <var n="number"/> 
+               <var n="case"/>  
+            </lu>
+            <b/>
+            <lu>  
+               <var n="pplemma"/>
+               <var n="ppcat"/>
+               <var n="ppinfl"/> 
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <out>
+          <chunk name="prep-art-nom">
+            <tags>
+                <tag><var n="pptag"/></tag>
+            </tags>
+            <lu>  
+               <clip pos="2" side="tl" part="lem"/> 
+               <clip pos="2" side="tl" part="a_nom"/>
+               <var n="number"/> 
+               <var n="case"/>  
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
 
      <!--<b pos="1"/>-->
-    </out>
+
         <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="1"/>
         </call-macro>
@@ -469,44 +607,6 @@
 
 
 
-<rule comment="RULE: prep-of nom"> 
-  <pattern>
-    <pattern-item n="prep-of"/>
-    <pattern-item n="nom"/>
-  </pattern>
-  <action>
-    <call-macro n="initialize_number"/>
-    <choose>
-      <when>
-        <test>
-           <equal>
-               <clip pos="2" side="sl" part="a_nbr"/>
-               <lit-tag v="pl"/>
-           </equal>
-        </test>
-        <let> <var n="number"/><lit-tag v="pl"/> </let>
-      </when>
-     </choose>
-    <out>
-    <chunk name="prep_of-nom">
-    <tags>
-    <tag><lit-tag v="AdjP"/></tag>
-    </tags>
-    <lu>  
-        <clip pos="2" side="tl" part="lem"/> 
-        <clip pos="2" side="tl" part="a_nom"/>
-        <var n="number"/> 
-        <lit-tag v="gen"/>  
-     </lu>
-    </chunk>
-
-     <!--<b pos="1"/>-->
-    </out>
-        <call-macro n="out-blank-if-not-single-space"> 
-          <with-param pos="1"/>
-        </call-macro>
-  </action>
-</rule>
     
 <rule comment="RULE: adjec nom"> 
   <pattern>
@@ -999,7 +1099,7 @@
   </action>
 </rule>
 
-<rule comment="RULE: prep art nom"> <!-- FMT copy 20120610 ...-->
+<rule comment="RULE: prep art nom"> 
   <pattern>
     <pattern-item n="prep"/>
     <pattern-item n="art"/>
@@ -1018,25 +1118,49 @@
         <let> <var n="number"/><lit-tag v="pl"/> </let>
       </when>
      </choose>
-      <call-macro n="choose_case">
+      <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
-    <out>
-    <chunk name="prep-art-nom">
-    <tags>
-    <tag><var n="pptag"/></tag>
-    </tags>
-    <lu>  
-        <clip pos="3" side="tl" part="lem"/> 
-        <clip pos="3" side="tl" part="a_nom"/>
-        <var n="number"/> 
-        <var n="case"/>  
-     </lu>
-    </chunk>
-<!--
-     <b pos="1"/>
-     <b pos="2"/>-->
-    </out>
+    <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+       <!-- when there is postposition information, it is generated -->
+        <out>
+          <chunk name="prep-art-nom">
+            <tags>
+                <tag><var n="pptag"/></tag>
+            </tags>
+            <lu>  
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <var n="number"/> 
+               <var n="case"/>  
+            </lu>
+            <b/>
+            <lu>  
+               <var n="pplemma"/>
+               <var n="ppcat"/>
+               <var n="ppinfl"/> 
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <out>
+          <chunk name="prep-art-nom">
+            <tags>
+                <tag><var n="pptag"/></tag>
+            </tags>
+            <lu>  
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <var n="number"/> 
+               <var n="case"/>  
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
         <call-macro n="out-blank-if-not-single-space">
           <with-param pos="1"/>
         </call-macro>

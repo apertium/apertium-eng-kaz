@@ -326,6 +326,20 @@
         <let><var n="ppinfl"/>
              <concat><lit-tag v="px3sp"/><lit-tag v="loc"/></concat></let>
 	</when>    
+        <when> 
+        <test>
+          <equal caseless="yes">
+             <clip pos="1" side="sl" part="lem"/><lit v="through"/>
+          </equal>
+        </test>
+        <let><var n="case"/><lit-tag v="nom"/></let>
+        <let><var n="genpp"/><lit v="yes"/></let>
+        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+        <let><var n="pplemma"/><lit v="арқылы"/></let>
+        <let><var n="ppcat"/><lit-tag v="post"/></let>
+        <let><var n="ppinfl"/><lit v=""/></let>
+        <!-- no inflection here -->
+	</when>    
      <otherwise>
           <let>
             <var n="case"/>
@@ -563,8 +577,8 @@
                 <tag><var n="pptag"/></tag>
             </tags>
             <lu>  
-               <clip pos="3" side="tl" part="lem"/> 
-               <clip pos="3" side="tl" part="a_nom"/>
+               <clip pos="2" side="tl" part="lem"/> 
+               <clip pos="2" side="tl" part="a_nom"/>
                <var n="number"/> 
                <var n="case"/>  
             </lu>

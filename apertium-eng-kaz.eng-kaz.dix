@@ -193,8 +193,7 @@
     <e><p><l>hand<s n="n"/></l><r>қол<s n="n"/></r></p></e>
     <e><p><l>time<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
     <!-- "time" has lots of translations in Kazakh, including рет, заман, сағат -->
-<!--  , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , building, burn, burst, business, butter, canvas, care, cause, chalk, chance, change, cloth, coal, color, -->
-<!-- 
+
  <e><p><l>account<s n="n"/></l><r>есеп<s n="n"/></r></p></e>
  <e><p><l>act<s n="n"/></l><r>іс-әрекет<s n="n"/></r></p></e>
  <e><p><l> addition<s n="n"/></l><r>қосымша<s n="n"/></r></p></e>
@@ -211,27 +210,37 @@
  <e><p><l>argument<s n="n"/></l><r>келіспеушілік<s n="n"/></r></p></e>
  <e><p><l>art<s n="n"/></l><r>мәдениет<s n="n"/></r></p></e>
  <e><p><l>attack<s n="n"/></l><r>шабуыл<s n="n"/></r></p></e>
- <e><p><l>attempt<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>attention<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>attraction<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>authority<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>back<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>balance<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>base<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>behavior<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>belief<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>birth<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>bite<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>bit<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>blood<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>blow<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>body<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>brass<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>bread<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>breath<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
- <e><p><l>brother<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
+ <e><p><l>attempt<s n="n"/></l><r>талпыныс<s n="n"/></r></p></e>
+ <e><p><l>attention<s n="n"/></l><r>назар<s n="n"/></r></p></e>
+ <e><p><l>authority<s n="n"/></l><r>жетекшілік<s n="n"/></r></p></e>
+ <e><p><l>back<s n="n"/></l><r>арт<s n="n"/></r></p></e>
+ <e><p><l>balance<s n="n"/></l><r>тепе-теңдік<s n="n"/></r></p></e>
+ <e><p><l>base<s n="n"/></l><r>қор<s n="n"/></r></p></e>
+ <e><p><l>behavior<s n="n"/></l><r>іс-қимыл<s n="n"/></r></p></e>
+ <e><p><l>belief<s n="n"/></l><r>сенім<s n="n"/></r></p></e>
+ <e><p><l>bit<s n="n"/></l><r>бит<s n="n"/></r></p></e>
+ <e><p><l>blood<s n="n"/></l><r>қан<s n="n"/></r></p></e>
+ <e><p><l>blow<s n="n"/></l><r>соққы<s n="n"/></r></p></e>
+ <e><p><l>body<s n="n"/></l><r>дене<s n="n"/></r></p></e>
+ <e><p><l>brass<s n="n"/></l><r>мыс<s n="n"/></r></p></e>
+ <e><p><l>bread<s n="n"/></l><r>нан<s n="n"/></r></p></e>
+ <e><p><l>breath<s n="n"/></l><r>дем<s n="n"/></r></p></e>
+ <e><p><l>brother<s n="n"/></l><r>аға<s n="n"/></r></p></e>
+<e><p><l>building<s n="n"/></l><r>құрылыс<s n="n"/></r></p></e>
+<e><p><l>burn<s n="n"/></l><r>күйік<s n="n"/></r></p></e>
+<e><p><l>burst<s n="n"/></l><r>атылыс<s n="n"/></r></p></e>
+<e><p><l>business<s n="n"/></l><r>бизнес<s n="n"/></r></p></e>
+<e><p><l>butter<s n="n"/></l><r>май<s n="n"/></r></p></e>
+<e><p><l>canvas<s n="n"/></l><r>мата<s n="n"/></r></p></e>
+<e><p><l>care<s n="n"/></l><r>қамқорлық<s n="n"/></r></p></e>
+<e><p><l>cause<s n="n"/></l><r>себеп<s n="n"/></r></p></e>
+<e><p><l>chalk<s n="n"/></l><r>бор<s n="n"/></r></p></e>
+<e><p><l>chance<s n="n"/></l><r>мүмкіндік<s n="n"/></r></p></e>
+<e><p><l>change<s n="n"/></l><r>өзгеріс<s n="n"/></r></p></e>
+<e><p><l>cloth<s n="n"/></l><r>киім<s n="n"/></r></p></e>
+<e><p><l>color<s n="n"/></l><r>түс<s n="n"/></r></p></e>
 
--->
+
 
     <!-- Раздел: Имя Собственное -->
 

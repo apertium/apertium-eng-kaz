@@ -179,8 +179,8 @@
           <var n="case"/>
           <lit-tag v="loc"/>
         </let>
-	</when>    
-       <when> 
+	</when> 
+          <when> 
         <test>
           <equal caseless="yes">
             <clip pos="1" side="sl" part="lem"/>
@@ -192,6 +192,7 @@
           <lit-tag v="abl"/>
         </let>
 	</when>    
+      
         <when> 
         <test>
           <equal caseless="yes">
@@ -256,7 +257,34 @@
           <var n="case"/>
           <lit-tag v="loc"/>
         </let>
-	</when>    
+	</when> 
+
+ <!-- <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="on"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="gen"/>
+        </let>
+	</when> 
+ 
+ <when> 
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="at"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="loc"/>
+        </let>
+	</when> -->
+  
        <when> 
         <test>
           <equal caseless="yes">
@@ -351,7 +379,76 @@
         <let><var n="ppcat"/><lit-tag v="post"/></let>
         <let><var n="ppinfl"/><lit v=""/></let>
         <!-- no inflection here -->
+	</when> 
+   <when> 
+        <test>
+          <equal caseless="yes">
+             <clip pos="1" side="sl" part="lem"/><lit v="towards"/>
+          </equal>
+        </test>
+        <let><var n="case"/><lit-tag v="dat"/></let>
+        <let><var n="genpp"/><lit v="yes"/></let>
+        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+        <let><var n="pplemma"/><lit v="қара"/></let>
+        <let><var n="ppcat"/><lit-tag v="post"/></let>
+        <let><var n="ppinfl"/>  
+             <concat><lit-tag v="tv"/><lit-tag v="prc_impf"/></concat></let>
+     
+	</when>       
+        <when> 
+        <test>
+          <equal caseless="yes">
+             <clip pos="1" side="sl" part="lem"/><lit v="behind"/>
+          </equal>
+        </test>
+        <let><var n="case"/><lit-tag v="gen"/></let>
+        <let><var n="genpp"/><lit v="yes"/></let>
+        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+        <let><var n="pplemma"/><lit v="арт"/></let>
+        <let><var n="ppcat"/><lit-tag v="n"/></let>
+        <let><var n="ppinfl"/>
+             <concat><lit-tag v="px3sp"/><lit-tag v="loc"/></concat></let>
 	</when>    
+<when> 
+        <test>
+          <equal caseless="yes">
+             <clip pos="1" side="sl" part="lem"/><lit v="beside"/>
+          </equal>
+        </test>
+        <let><var n="case"/><lit-tag v="gen"/></let>
+        <let><var n="genpp"/><lit v="yes"/></let>
+        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+        <let><var n="pplemma"/><lit v="жанында"/></let>
+        <let><var n="ppcat"/><lit-tag v="n"/></let>
+        <let><var n="ppinfl"/><lit v=""/></let>
+	</when>    
+<when> 
+        <test>
+          <equal caseless="yes">
+             <clip pos="1" side="sl" part="lem"/><lit v="on"/>
+          </equal>
+        </test>
+        <let><var n="case"/><lit-tag v="gen"/></let>
+        <let><var n="genpp"/><lit v="yes"/></let>
+        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+        <let><var n="pplemma"/><lit v="үстінде"/></let>
+        <let><var n="ppcat"/><lit-tag v="n"/></let>
+        <let><var n="ppinfl"/><lit v=""/></let>
+	</when>   
+<when> 
+        <test>
+          <equal caseless="yes">
+             <clip pos="1" side="sl" part="lem"/><lit v="at"/>
+          </equal>
+        </test>
+        <let><var n="case"/><lit-tag v="gen"/></let>
+        <let><var n="genpp"/><lit v="yes"/></let>
+        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+        <let><var n="pplemma"/><lit v="үстінде"/></let>
+        <let><var n="ppcat"/><lit-tag v="n"/></let>
+        <let><var n="ppinfl"/><lit v=""/></let>
+	</when>     
+
      <otherwise>
           <let>
             <var n="case"/>

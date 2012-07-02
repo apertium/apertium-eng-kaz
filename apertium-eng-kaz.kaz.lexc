@@ -901,7 +901,7 @@ LEXICON Postpositions
 арқылы:арқылы POST ; ! "through, via, by means of" + NOM
 бұрын:бұрын POST ; ! "before, ago" + NOM
 үшін:үшін POST ; ! "for (the benefit of), in order" + NOM
-
+қарай:қарай  POST ; ! "towards" + DAT
 мен:%{M%}ен POST ; ! "with" + NOM
 мен:%{M%}енен POST ; ! "with" + NOM ! Dir/LR
 мен:мен POST ; ! "with" + NOM       ! Dir/LR

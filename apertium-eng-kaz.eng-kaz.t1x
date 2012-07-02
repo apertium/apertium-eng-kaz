@@ -45,6 +45,7 @@
     <def-cat n="prep">
       <cat-item tags="pr"/>
      </def-cat>
+ 
 
     <def-cat n="subj-pron">
        <cat-item tags="prn.subj.*"/>
@@ -52,10 +53,18 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
-
-  <def-cat n="prep-of">
-      <cat-item tags="pr" lemma="of" />
+    <def-cat n="possessive"> <!-- check if complete -->
+      <cat-item tags="PXD"/> <!-- to be determined -->
+      <cat-item tags="px3sp"/>
+      <cat-item tags="px1sg"/>
+      <cat-item tags="px2sg"/>
+      <cat-item tags="px1pl"/>
+      <cat-item tags="px2pl"/>
     </def-cat>
+
+
+
+   
   </section-def-cats>
  
   <section-def-attrs>
@@ -104,8 +113,29 @@
       <attr-item tags="ins"/>
       <attr-item tags="abl"/>
     </def-attr>
-
+    <def-attr n="a_Rcas">
+      <attr-item tags="Rnom"/>
+      <attr-item tags="Racc"/>
+      <attr-item tags="Rdat"/>
+      <attr-item tags="Rgen"/>
+      <attr-item tags="Rloc"/>
+      <attr-item tags="Rins"/>
+      <attr-item tags="Rabl"/>
+    </def-attr>
+    <def-attr n="a_possessive"> <!-- check if complete -->
+      <attr-item tags="PXD"/> <!-- to be determined -->
+      <attr-item tags="px3sp"/>
+      <attr-item tags="px1sg"/>
+      <attr-item tags="px2sg"/>
+      <attr-item tags="px1pl"/>
+      <attr-item tags="px2pl"/>
+    </def-attr>
+    <def-attr n="a_postposition"> <!-- Kazakh postposition indicators -->
+      <attr-item tags="n"/> 
+      <attr-item tags="post"/>
+    </def-attr>
   </section-def-attrs>
+
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="current_verb"/>
@@ -121,7 +151,7 @@
     <def-var n="pplemma"/> <!-- lemma of postpostion -->
     <def-var n="ppcat"/> <!-- category of postposition -->
     <def-var n="ppinfl"/> <!-- inflexion information for postposition -->
-    
+        <def-var n="postposition_lu"/> <!-- complete postposition ready for lu -->
     
   </section-def-vars>
 
@@ -253,22 +283,49 @@
      </choose>
     </def-macro>
 
+
+
+
     <def-macro n="choose_case_and_postposition" npar="1">  
     <let><var n="pptag"/><lit-tag v="AdvP"/></let> <!-- for most of them -->
-    <let><var n="genpp"/><lit-tag v="no"/></let> <!-- for simple cases -->
-    <choose>  
-     <when> 
+    <let><var n="genpp"/><lit v="no"/></let> <!-- for simple cases -->
+
+    <choose>
+      <when> <!-- make genpp="yes" when a postposition is detected -->
         <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="in"/>
-          </equal>
+          <or>
+            <equal>
+               <clip pos="1" side="tl" part="a_postposition"/>
+               <lit-tag v="n"/>
+            </equal>
+            <equal>
+               <clip pos="1" side="tl" part="a_postposition"/>
+               <lit-tag v="post"/>
+            </equal>
+          </or>  
         </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="loc"/>
-        </let>
-	</when> 
+        <let><var n="genpp"/><lit v="yes"/></let> <!-- for simple cases -->
+      </when>
+    </choose>
+
+    <choose>
+      <when>
+        <test>
+          <equal><var n="genpp"/><lit v="no"/></equal>
+        </test>
+        <choose> <!-- no postpositions -->
+          <when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="in"/>
+              </equal>
+            </test>
+            <let>
+               <var n="case"/>
+               <lit-tag v="loc"/>
+            </let>
+ 	  </when> 
 
  <!-- <when> 
         <test>
@@ -296,189 +353,148 @@
         </let>
 	</when> -->
   
-       <when> 
-        <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="from"/>
-          </equal>
-        </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="abl"/>
-        </let>
-	</when>    
-        <when> 
-        <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="to"/>
-          </equal>
-        </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="dat"/>
-        </let>
-	</when>    
-        <when> 
-        <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="with"/>
-          </equal>
-        </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="ins"/>
-        </let>
-	</when>    
+           <when> 
+             <test>
+               <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="from"/>
+               </equal>
+             </test>
+             <let>
+                <var n="case"/>
+                <lit-tag v="abl"/>
+             </let>
+	   </when>    
 
-        <when> 
-        <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="of"/>
-          </equal>
-        </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="gen"/>
-        </let>
-        <let>
-          <var n="pptag"/>
-          <lit-tag v="AdjP"/>   <!-- MLF20120628 could be genP in the future -->
-        </let>
-	</when>    
+          <when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="to"/>
+              </equal>
+            </test>
+            <let>
+              <var n="case"/>
+              <lit-tag v="dat"/>
+            </let>
+	  </when>    
 
-        <when> 
+           <when> 
+             <test>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="with"/>
+                </equal>
+             </test>
+             <let>
+               <var n="case"/>
+               <lit-tag v="ins"/>
+             </let>
+       	   </when>    
+
+           <when> 
+             <test>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="of"/>
+                 </equal>
+              </test>
+              <let>
+                <var n="case"/>
+                <lit-tag v="gen"/>
+              </let>
+              <let>
+                 <var n="pptag"/>
+                 <lit-tag v="AdjP"/>   <!-- MLF20120628 could be genP in the future -->
+              </let>
+	   </when>    
+
+           <otherwise>
+              <let>
+                <var n="case"/>
+                <lit-tag v="ins"/> <!-- Choice when we don't know the translation of the preposition, can be improved -->
+              </let>
+              <let>
+                <var n="pptag"/>
+                <lit-tag v="AdvP"/>   <!-- MLF20120628 could be genP in the future -->
+              </let>
+            </otherwise>
+	</choose>
+      </when> <!-- End of solutions without postpositions -->
+
+      <when>  <!--- Now, with postpositions -->
         <test>
-          <equal caseless="yes">
-             <clip pos="1" side="sl" part="lem"/><lit v="below"/>
+          <equal>
+             <var n="genpp"/>
+             <lit v="yes"/>
           </equal>
         </test>
-        <let><var n="case"/><lit-tag v="gen"/></let>
-        <let><var n="genpp"/><lit v="yes"/></let>
-        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-        <let><var n="pplemma"/><lit v="аст"/></let>
-        <let><var n="ppcat"/><lit-tag v="n"/></let>
-        <let><var n="ppinfl"/>
-             <concat><lit-tag v="px3sp"/><lit-tag v="loc"/></concat></let>
-	</when>    
-        <when> 
-        <test>
-          <equal caseless="yes">
-             <clip pos="1" side="sl" part="lem"/><lit v="after"/>
-          </equal>
-        </test>
-        <let><var n="case"/><lit-tag v="abl"/></let>
-        <let><var n="genpp"/><lit v="yes"/></let>
-        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-        <let><var n="pplemma"/><lit v="кейін"/></let>
-        <let><var n="ppcat"/><lit-tag v="post"/></let>
-        <let><var n="ppinfl"/><lit v=""/></let>
-	</when>    
-        <when> 
-        <test>
-          <equal caseless="yes">
-             <clip pos="1" side="sl" part="lem"/><lit v="through"/>
-          </equal>
-        </test>
-        <let><var n="case"/><lit-tag v="nom"/></let>
-        <let><var n="genpp"/><lit v="yes"/></let>
-        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-        <let><var n="pplemma"/><lit v="арқылы"/></let>
-        <let><var n="ppcat"/><lit-tag v="post"/></let>
-        <let><var n="ppinfl"/><lit v=""/></let>
-        <!-- no inflection here -->
-	</when> 
-   <when> 
-        <test>
-          <equal caseless="yes">
-             <clip pos="1" side="sl" part="lem"/><lit v="towards"/>
-          </equal>
-        </test>
-        <let><var n="case"/><lit-tag v="dat"/></let>
-        <let><var n="genpp"/><lit v="yes"/></let>
-        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-        <let><var n="pplemma"/><lit v="қара"/></let>
-        <let><var n="ppcat"/><lit-tag v="post"/></let>
-        <let><var n="ppinfl"/>  
-             <concat><lit-tag v="tv"/><lit-tag v="prc_impf"/></concat></let>
-     
-	</when>       
-        <when> 
-        <test>
-          <equal caseless="yes">
-             <clip pos="1" side="sl" part="lem"/><lit v="behind"/>
-          </equal>
-        </test>
-        <let><var n="case"/><lit-tag v="gen"/></let>
-        <let><var n="genpp"/><lit v="yes"/></let>
-        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-        <let><var n="pplemma"/><lit v="арт"/></let>
-        <let><var n="ppcat"/><lit-tag v="n"/></let>
-        <let><var n="ppinfl"/>
-             <concat><lit-tag v="px3sp"/><lit-tag v="loc"/></concat></let>
-	</when>    
-<when> 
-        <test>
-          <equal caseless="yes">
-             <clip pos="1" side="sl" part="lem"/><lit v="beside"/>
-          </equal>
-        </test>
-        <let><var n="case"/><lit-tag v="gen"/></let>
-        <let><var n="genpp"/><lit v="yes"/></let>
-        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-        <let><var n="pplemma"/><lit v="жанында"/></let>
-        <let><var n="ppcat"/><lit-tag v="n"/></let>
-        <let><var n="ppinfl"/><lit v=""/></let>
-	</when>    
-<when> 
-        <test>
-          <equal caseless="yes">
-             <clip pos="1" side="sl" part="lem"/><lit v="on"/>
-          </equal>
-        </test>
-        <let><var n="case"/><lit-tag v="gen"/></let>
-        <let><var n="genpp"/><lit v="yes"/></let>
-        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-        <let><var n="pplemma"/><lit v="үстінде"/></let>
-        <let><var n="ppcat"/><lit-tag v="n"/></let>
-        <let><var n="ppinfl"/><lit v=""/></let>
-	</when>   
-<when> 
-        <test>
-          <equal caseless="yes">
-             <clip pos="1" side="sl" part="lem"/><lit v="at"/>
-          </equal>
-        </test>
-        <let><var n="case"/><lit-tag v="gen"/></let>
-        <let><var n="genpp"/><lit v="yes"/></let>
-        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-        <let><var n="pplemma"/><lit v="үстінде"/></let>
-        <let><var n="ppcat"/><lit-tag v="n"/></let>
-        <let><var n="ppinfl"/><lit v=""/></let>
-	</when>     
-<when> 
-        <test>
-          <equal caseless="yes">
-             <clip pos="1" side="sl" part="lem"/><lit v="across"/>
-          </equal>
-        </test>
-        <let><var n="case"/><lit-tag v="nom"/></let>
-        <let><var n="genpp"/><lit v="yes"/></let>
-        <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-        <let><var n="pplemma"/><lit v="арқылы"/></let>
-        <let><var n="ppcat"/><lit-tag v="post"/></let>
-        <let><var n="ppinfl"/><lit v=""/></let>
-        <!-- no inflection here -->
-	</when> 
-     <otherwise>
-          <let>
-            <var n="case"/>
-            <lit-tag v="ins"/> <!-- Choice when we don't know the translation of the preposition, can be improved -->
-          </let>
-     </otherwise>
+        <choose> <!-- Generate postposition --> 
+          <when> <!-- noun-based postpositions -->
+             <test>
+               <equal>
+                 <clip side="tl" part="a_postposition" pos="1"/>
+                 <lit-tag v="n"/>
+	       </equal>
+             </test>
+             <let><var n="case"/><lit-tag v="gen"/></let>
+             <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+             <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                        <clip pos="1" side="tl" part="lem"/>
+                        <lit-tag v="n"/>
+                        <lit-tag v="px3sp"/>
+        		<clip part="a_cas" side="tl" pos="1"/> 
+                      </concat>
+             </let>
+	  </when>
+          <when> <!-- non-noun-based postpositions -->
+             <test>
+               <equal>
+                 <clip side="tl" part="a_postposition" pos="1"/>
+                 <lit-tag v="post"/>
+	       </equal>
+             </test>
+             <choose>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rnom"/></equal></test>
+                   <let><var n="case"/><lit-tag v="nom"/></let>
+                </when>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rdat"/></equal></test>
+                   <let><var n="case"/><lit-tag v="dat"/></let>
+                </when>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rabl"/></equal></test>
+                   <let><var n="case"/><lit-tag v="abl"/></let>
+                </when>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rloc"/></equal></test>
+                   <let><var n="case"/><lit-tag v="loc"/></let>
+                </when>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rins"/></equal></test>
+                   <let><var n="case"/><lit-tag v="ins"/></let>
+                </when>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Racc"/></equal></test>
+                   <let><var n="case"/><lit-tag v="acc"/></let>
+                </when>
+                <when> <!-- This case is unlikely, but we'll leave it just in case -->
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rgen"/></equal></test>
+                   <let><var n="case"/><lit-tag v="gen"/></let>
+                </when>
+             </choose>
+             <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+             <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                        <clip pos="1" side="tl" part="lem"/>
+                        <lit-tag v="post"/>
+                      </concat>
+             </let>
+	  </when>
+	</choose>
+       </when>
      </choose>
     </def-macro>
 
@@ -707,9 +723,7 @@
             </lu>
             <b/>
             <lu>  
-               <var n="pplemma"/>
-               <var n="ppcat"/>
-               <var n="ppinfl"/> 
+               <var n="postposition_lu"/>
             </lu>
           </chunk>
         </out>
@@ -1106,9 +1120,7 @@
             </lu>
             <b/>
             <lu>  
-               <var n="pplemma"/>
-               <var n="ppcat"/>
-               <var n="ppinfl"/> 
+               <var n="postposition_lu"/>
             </lu>
           </chunk>
         </out>
@@ -1243,9 +1255,7 @@
             </lu>
             <b/>
             <lu>  
-               <var n="pplemma"/>
-               <var n="ppcat"/>
-               <var n="ppinfl"/> 
+               <var n="postposition_lu"/>
             </lu>
           </chunk>
         </out>

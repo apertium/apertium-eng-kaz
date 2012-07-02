@@ -156,7 +156,7 @@
           </let>
     </def-macro>
 
-    <def-macro n="initialize_case" npar="0">
+    <def-macro n="initialize_case_to_nominative" npar="0">
           <let>
             <var n="case"/>
             <lit-tag v="nom"/>
@@ -248,10 +248,7 @@
         </let>
 	</when>    
      <otherwise>
-          <let>
-            <var n="case"/>
-            <lit-tag v="nom"/>
-          </let>
+     <call-macro n="initialize_case_to_nominative"/>
      </otherwise>
      </choose>
     </def-macro>
@@ -756,10 +753,7 @@
   <action>
     <call-macro n="initialize_number"/>
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="2"/></call-macro> 
-     <let>
-          <var n="case"/>
-          <lit-tag v="nom"/>
-        </let>
+    <call-macro n="initialize_case_to_nominative"/>
     <out>
     <chunk name="adjec-nom">
     <tags>
@@ -787,10 +781,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-        <let>
-          <var n="case"/>
-          <lit-tag v="nom"/>
-        </let>
+     <call-macro n="initialize_case_to_nominative"/>
     <out>
     <chunk name="num-nom">
     <tags>
@@ -858,10 +849,7 @@
       <call-macro n="choose_case">
         <with-param pos="3"/>
      </call-macro>
-      <let>
-          <var n="case"/>
-          <lit-tag v="nom"/>
-        </let>
+       <call-macro n="initialize_case_to_nominative"/>
     <out>
     <chunk name="art-num-nom">
     <tags>
@@ -931,10 +919,7 @@
   <action>
     <call-macro n="initialize_number"/>
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="3"/></call-macro>      
-        <let>
-          <var n="case"/>
-          <lit-tag v="nom"/>
-        </let>
+       <call-macro n="initialize_case_to_nominative"/>
     <out>
     <chunk name="art-adjec-nom">
     <tags>
@@ -970,10 +955,7 @@
     <call-macro n="choose_case">
         <with-param pos="1"/>
      </call-macro> 
-    <let>
-          <var n="case"/>
-          <lit-tag v="nom"/>
-        </let>
+       <call-macro n="initialize_case_to_nominative"/>
     <out>
     <chunk name="num-adjec-nom">
     <tags>
@@ -1012,10 +994,7 @@
       <call-macro n="choose_case">
         <with-param pos="4"/>
      </call-macro>
-      <let>
-          <var n="case"/>
-          <lit-tag v="nom"/>
-        </let>
+     <call-macro n="initialize_case_to_nominative"/>
     <out>
     <chunk name="art-num-adjec-nom">
     <tags>
@@ -1305,10 +1284,7 @@
   <action>
     <call-macro n="initialize_number"/>
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="2"/></call-macro> 
-         <let>
-            <var n="case"/>
-            <lit-tag v="nom"/>
-          </let>
+    <call-macro n="initialize_case_to_nominative"/>
     <out>
     <chunk name="art-nom">
     <tags>
@@ -1336,10 +1312,7 @@
   </pattern>
   <action>
    <call-macro n="initialize_number"/>
-    <let>
-       <var n="case"/>
-       <lit-tag v="nom"/>
-    </let>
+   <call-macro n="initialize_case_to_nominative"/>
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="1"/></call-macro> 
     <out>
     <chunk name="SN">
@@ -1394,7 +1367,7 @@
      <let><var n="formality"/><lit v=""/></let>
      </otherwise>
   </choose>
-  <call-macro n="initialize_case"/> <!-- will set it to nominative -->
+  <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
   <out>
    <chunk name="subj-pron">
     <tags>

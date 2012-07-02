@@ -383,7 +383,7 @@ CLIT ;
 
 LEXICON Natinfl
 
-A1 ;              ! nationality's adjectival form, e.g. "Turkish [food]"
+!A1 ;              ! nationality's adjectival form, e.g. "Turkish [food]" ! Consider <n.attr> reading for this 
 N1 ;              ! a member of the nationality, e.g. "A Turk"
 %>ш%{A%} ADV ;    ! as / in the style of the nat., e.g. "à la Turk"
 %>ш%{A%} ADV ;    ! in the language of the nationality, e.g. "in Turkish"
@@ -1057,7 +1057,9 @@ XII NUM-ROMAN ;
 ! and is of questionable grammaticality /not-I.S./
 ! Grammar says first 7 numerals have this form, so let's extend it to 7 /I.S./
 
-LEXICON Nouns
+
+!=============!
+ LEXICON Nouns
 
 абақты:абақты N1 ; ! "jail"
 август:август N1 ; ! "August"
@@ -1065,7 +1067,6 @@ LEXICON Nouns
 адам:адам N1 ; ! "man"
 адамзат:адамзат N1 ; ! "mankind"
 азап:азап N1 ; ! "suffering"
-азық%-түлік:азық%-түлік N1 ; ! "groceries"
 азық:азық N1 ; ! "nutrition"
 ай:ай N1 ; ! "moon"
 айна:айна N1 ; ! "mirror"
@@ -1100,6 +1101,7 @@ LEXICON Nouns
 ая:ая N1 ; ! "extent"
 аяз:аяз N1 ; ! "frost"
 аяу:аяу N1 ; ! "mercy"
+аға:аға N1 ; ! "older brother"
 ағай:ағай N1 ; ! "uncle"
 ағаш:ағаш N1 ; ! "tree"
 ақиқат:ақиқат N1 ; ! "truth"
@@ -1119,7 +1121,6 @@ LEXICON Nouns
 баспасөз:баспасөз N1 ; ! "publisher"
 бата:бата N1 ; ! "blessing"
 батыр:батыр N1 ; ! "hero"
-бауырлас:бауырлас N1 ; ! "brother"
 бақша:бақша N1 ; ! "garden house"
 бақыт:бақыт N1 ; ! "luck"
 без:без N1 ; ! "gland"
@@ -1128,7 +1129,6 @@ LEXICON Nouns
 бел:бел N1 ; ! "waist"
 бидай:бидай N1 ; ! "wheat"
 бие:бие N1 ; ! "mare"
-билік:билік N1 ; ! "~wealth"
 биология:биология N1 ; ! "biology"
 бор:бор N1 ; ! "chalk"
 борыш:борыш N1 ; ! "debt"
@@ -1149,6 +1149,7 @@ LEXICON Nouns
 дарын:дарын N1 ; ! "talent"
 дауыл:дауыл N1 ; ! "storm"
 даңқ:даңқ N1 ; ! "glory"
+дем:дем N1 ; ! "rest,breath"
 дене:дене N1 ; ! "body"
 денсаулық:денсаулық N1 ; ! "health"
 директор:директор N1 ; ! "director"
@@ -1320,6 +1321,7 @@ LEXICON Nouns
 мысал:мысал N1 ; ! "example"
 мысық:мысық N1 ; ! "cat,copper"
 мін:мін N1 ; ! "flaw"
+мүмкіндік:мүмкіндік N1 ; ! "possibility,opportunity"
 мүше:мүше N1 ; ! "member"
 мұз:мұз N1 ; ! "ice"
 мұнара:мұнара N1 ; ! "tower"
@@ -1329,6 +1331,7 @@ LEXICON Nouns
 мұғалім:мұғалім N1 ; ! "teacher"
 мәдениет:мәдениет N1 ; ! "culture"
 мәтін:мәтін N1 ; ! "text"
+назар:назар N1 ; ! "attentiveness"
 найзағай:найзағай N1 ; ! "lightning"
 нан:нан N1 ; ! "bread"
 наразылық:наразылық N1 ; ! "dissatisfaction"
@@ -1349,7 +1352,6 @@ LEXICON Nouns
 орамал:орамал N1 ; ! "towel"
 орман:орман N1 ; ! "forest"
 орымал:орымал N1 ; ! "towel"
-орынбасар:орынбасар N1 ; ! "~representative"
 орындық:орындық N1 ; ! "chair"
 орыс:орыс N1 ; ! "Russian"
 отан:отан N1 ; ! "homeland"
@@ -1399,6 +1401,7 @@ LEXICON Nouns
 саясат:саясат N1 ; ! "politics"
 сағат:сағат N1 ; ! "hour"
 сақал:сақал N1 ; ! "beard"
+себеп:себеп N1 ; ! "reason"
 сегізаяқ:сегізаяқ N1 ; ! "octopus"
 сезім:сезім N1 ; ! "feeling"
 сейсенбі:сейсенбі N1 ; ! "Tuesday"
@@ -1412,7 +1415,6 @@ LEXICON Nouns
 сияқ:сияқ N1 ; ! "shape"
 сиқыр:сиқыр N1 ; ! "sorcery"
 сйыр:сйыр N1 ; ! "cow"
-совет:совет N1 ; ! "soviet/council"
 солдат:солдат N1 ; ! "soldier"
 солтүстік:солтүстік N1 ; ! "north"
 сорпа:сорпа N1 ; ! "soup"
@@ -1494,7 +1496,6 @@ LEXICON Nouns
 тұрғын:тұрғын N1 ; ! "resident"
 тұтқын:тұтқын N1 ; ! "captive"
 тәлім:тәлім N1 ; ! "teaching"
-тән:тән N1 ; ! "body"
 тәрбие:тәрбие N1 ; ! "education"
 тәуелсіздік:тәуелсіздік N1 ; ! "independence"
 тәңір:тәңір N1 ; ! "God"             
@@ -1519,7 +1520,6 @@ LEXICON Nouns
 шана:шана N1 ; ! "sled"
 шапан:шапан N1 ; ! "coat"
 шарап:шарап N1 ; ! "wine"
-шаруа:шаруа N1 ; ! "business"
 шаш:шаш N1 ; ! "hair"
 шаян:шаян N1 ; ! "scorpion"
 шаңбыр:шаңбыр N1 ; ! "beet"
@@ -1540,7 +1540,6 @@ LEXICON Nouns
 юбка:юбка N1 ; ! "skirt"
 ілгек:ілгек N1 ; ! "hook"
 ілмек:ілмек N1 ; ! "loop"
-ілтипат:ілтипат N1 ; ! "attention"
 інжір:інжір N1 ; ! "fig"
 ірге:ірге N1 ; ! "foundation"
 ірімшік:ірімшік N1 ; ! "cheese"
@@ -1548,7 +1547,6 @@ LEXICON Nouns
 ішек:ішек N1 ; ! "intestine"
 ғасыр:ғасыр N1 ; ! "century"
 ғибадат:ғибадат N1 ; ! "worship"
-ғимарат:ғимарат N1 ; ! "building"
 ғылым:ғылым N1 ; ! "science"
 ғұлама:ғұлама N1 ; ! "scholar"
 қабір:қабір N1 ; ! "grave"
@@ -1587,6 +1585,7 @@ LEXICON Nouns
 қол:қол N1 ; ! "hand"
 қолғап:қолғап N1 ; ! "glove"
 қонақ:қонақ N1 ; ! "guest"
+қор:қор N1 ; ! "reserves,wealth"
 қорсақ:қорсақ N1 ; ! "stomach"
 қоян:қоян N1 ; ! "rabbit"
 қоқыс:қоқыс N1 ; ! "garbage"
@@ -1610,7 +1609,6 @@ LEXICON Nouns
 құрым:құрым N1 ; ! "soot"
 құс:құс N1 ; ! "bird"
 құт:құт N1 ; ! "luck"
-құқық:құқық N1 ; ! "authority"
 үй:үй N1 ; ! "home,house"
 үйрек:үйрек N1 ; ! "duck"
 үкім:үкім N1 ; ! "government"
@@ -1643,16 +1641,18 @@ LEXICON Nouns
 өзен:өзен N1 ; ! "river"
 өкше:өкше N1 ; ! "heel"
 өкіл:өкіл N1 ; ! "representative"
-өкімет:өкімет N1 ; ! "power"
+өкімет:өкімет N1 ; ! "power,правительство"
 өлең:өлең N1 ; ! "song"
 өмір:өмір N1 ; ! "life"
 өндіріс:өндіріс N1 ; ! "manufacturing"
-өнер:өнер N1 ; ! "art"
 өнеркәсіп:өнеркәсіп N1 ; ! "industry"
 өрмекші:өрмекші N1 ; ! "spider"
 өсиет:өсиет N1 ; ! "testament"
 өтірік:өтірік N1 ; ! "lie"
 өң:өң N1 ; ! "appearance"
+бизнес:бизнес N1 ; ! ""
+өзгеріс:өзгеріс N1 ; ! ""
+мыс:мыс N1 ; ! ""
 алд:ал%{д%} N1 ; ! "front"
 ара:ара N1 ; ! "among"
 арт:арт N1 ; ! "back"
@@ -1660,31 +1660,14 @@ LEXICON Nouns
 жан:жан N1 ; ! "next to"
 орыс:орыс Natinfl ; ! "Russian"
 
-LEXICON ProperNouns 
+ LEXICON ProperNouns 
 
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
 Джеймс:Джеймс NP-ANT-M; ! "James" (English)
 Мэри:Мэри NP-ANT-F; ! "Mary" (English)
 
-LEXICON Adverbs
-
-қайда:қайда ADVITG ; ! "where (где;куда)"
-қашан:қашан ADVITG ; ! "when"
-еш% қашан:еш% қашан ADV ; ! "never" ! Use/MT
-бірге:бірге ADV ; ! "together" FIXME:NOTE: also a <post>
-тағы:тағы ADV ; ! "more"
-қайтадан:қайтадан ADV ; ! "once again"
-әбден:әбден ADV ; ! "extremely"
-әлі:әлі ADV ; ! "now" !FIXME:CHECK
-әрдайым:әрдайым ADV ; ! "always"
-өте:өте ADV ; ! "very"
-бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
-енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
-кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
-қазір:қазір ADV-WITH-KI ; ! "now > the one now"
-
-LEXICON Adjectives
+ LEXICON Adjectives
 
 бар:бар A3 ; ! ""
 мүмкін:мүмкін A3 ; ! "possible"
@@ -1703,7 +1686,24 @@ LEXICON Adjectives
 үлкен:үлкен A1 ; ! "big"
 әдемі:әдемі A1 ; ! "beautiful"
 
-LEXICON Verbs 
+ LEXICON Adverbs
+
+қайда:қайда ADVITG ; ! "where (где;куда)"
+қашан:қашан ADVITG ; ! "when"
+еш% қашан:еш% қашан ADV ; ! "never" ! Use/MT
+бірге:бірге ADV ; ! "together" FIXME:NOTE: also a <post>
+тағы:тағы ADV ; ! "more"
+қайтадан:қайтадан ADV ; ! "once again"
+әбден:әбден ADV ; ! "extremely"
+әлі:әлі ADV ; ! "now" !FIXME:CHECK
+әрдайым:әрдайым ADV ; ! "always"
+өте:өте ADV ; ! "very"
+бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
+енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
+кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
+қазір:қазір ADV-WITH-KI ; ! "now > the one now"
+
+ LEXICON Verbs 
 
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
@@ -1742,7 +1742,7 @@ LEXICON Verbs
 ойна:ойна V-TV ; ! "play"
 отыр:отыр V-TD ; ! "sit,board"
 отыр:отыр V-TD ; ! "sit,board"
-сана:сана V-TD ; ! "think,suppose,imagine"
+сана:сана V-TV ; ! "think,suppose,imagine"
 сөйле:сөйле V-TV ; ! "say,speak"
 сұра:сұра V-TV ; ! "request/ask for"
 тап:тап V-TV ; ! "find"
@@ -1783,7 +1783,9 @@ LEXICON Verbs
 тұр:тұр Vinfl-AUX ; ! 
 тұр:тұр Vinfl-AUX ; ! 
 
-LEXICON Interjections 
+ LEXICON Interjections 
+!=====================!
+
 
 болыпты:болыпты INTERJ ; ! "okay / that's it"
 демек:демек INTERJ ; ! "that is"
@@ -1804,7 +1806,11 @@ LEXICON Interjections
 әйе:әйе INTERJ ; ! "yes"
 әлбетте:әлбетте INTERJ ; ! "of course"
 
-LEXICON Abbreviations
+
+!=====================!
+ LEXICON Abbreviations
+!=====================!
+
 
 ААҚ:ААҚ ABBR ; ! "Ашық акционердық коғам=Public company"
 АҚШ:АҚШ ABBR ; ! "USA"
@@ -1813,21 +1819,46 @@ LEXICON Abbreviations
 СССР:СССР ABBR ; ! "USSR"
 ТР:ТР ABBR ; ! "Republic of Tatarstan"
 УЕФА:УЕФА ABBR ; ! ""
+КСР:КСР ABBR ; ! ""
 
-б%.з%.б:б%.з%.б ABBR ; ! "CE"
-б%.з%.д:б%.з%.д ABBR ; ! "BCE"
+б%.з%.б%.:б%.з%.б%. ABBR ; ! "CE"
+б%.з%.б%.:б%.з%.б ABBR ; ! "CE" Dir/LR
+б%.з%.д%.:б%.з%.д%. ABBR ; ! "BCE"
+б%.з%.д%.:б%.з%.д ABBR ; ! "BCE" Dir/LR
+
 ж%.:ж%. ABBR ; ! "year"
+ж%.:ж ABBR ; ! "year" Dir/LR
 кг:кг ABBR ; ! "kg"
 км:км ABBR ; ! "km"
 км²:км² ABBR ; ! "km²"
-км2:км2 ABBR ; ! "km²"
+км²:км2 ABBR ; ! "km²"
 км³:км³ ABBR ; ! "km³"
+км³:км3 ABBR ; ! "km³"
+м²:м² ABBR ; ! "m²"
+м²:м2 ABBR ; ! "m²"
+м³:м³ ABBR ; ! "m³"
+м³:м3 ABBR ; ! "m³"
 млн:млн ABBR ; ! "million"
+млрд:млрд ABBR ; ! "billion"
+мм:мм ABBR ; ! "mm"
 см:см ABBR ; ! "cm"
 т%.:т%. ABBR ; ! "tonne"
 т%.б%.:т%.б%. ABBR ; ! "etc."
 
-LEXICON Punctuation
+ҚР:ҚР ABBR ; ! "Republic of Kazakhstan"
+мыс%.:мыс%. ABBR ; ! ""
+оңт%.:оңт%. ABBR ; ! "оңтүстік,көньяк,south" FIXME:CHECK -->"
+солт%.:солт%. ABBR ; ! "солтүстік,төньяк,north" FIXME:CHECK -->"
+солт%.:солт ABBR ; ! "солтүстік,төньяк,north" FIXME:CHECK -->" Dir/LR
+хим%.:хим%. ABBR ; ! "chemical"
+экон%.:экон%. ABBR ; ! "economic"
+тех%.:тех%. ABBR ; ! ""
+
+
+!===================!
+ LEXICON Punctuation
+!===================!
+
 
 .%<sent%>:. # ;
 ..%<sent%>:.. # ;

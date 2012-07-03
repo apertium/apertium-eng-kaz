@@ -811,7 +811,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-       <call-macro n="choose_case">
+       <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
     <out>
@@ -844,7 +844,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-      <call-macro n="choose_case">
+      <call-macro n="choose_case_and_postposition">
         <with-param pos="3"/>
      </call-macro>
        <call-macro n="initialize_case_to_nominative"/>
@@ -883,7 +883,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-       <call-macro n="choose_case">
+       <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
     <out>
@@ -950,7 +950,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-    <call-macro n="choose_case">
+    <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro> 
        <call-macro n="initialize_case_to_nominative"/>
@@ -989,7 +989,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-      <call-macro n="choose_case">
+      <call-macro n="choose_case_and_postposition">
         <with-param pos="4"/>
      </call-macro>
      <call-macro n="initialize_case_to_nominative"/>
@@ -1033,7 +1033,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-      <call-macro n="choose_case">
+      <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
     <out>
@@ -1148,7 +1148,7 @@
   <action>
     <call-macro n="initialize_number"/>
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="4"/></call-macro> 
-     <call-macro n="choose_case">
+     <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
     <out>
@@ -1182,7 +1182,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-      <call-macro n="choose_case">
+      <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
     <out>

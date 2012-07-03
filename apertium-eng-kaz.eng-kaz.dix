@@ -102,7 +102,7 @@
     <!-- Section: prepositions -->
     <!-- Still not finished MLF20120702 -->
     <!-- Prepositions that do not need a postposition have to have a null translation -->
-    <!-- as they will be dealt in transfer -->
+    <!-- as they will be dealt with in transfer -->
 
 <!-- MLF20120702 We do not need a translation for these, as they are treated using case -->
     <e r="LR"><p><l>in<s n="pr"/></l><r></r></p></e>
@@ -110,10 +110,10 @@
     <e r="LR"><p><l>of<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>to<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>with<s n="pr"/></l><r></r></p></e>
-
-<!-- MLF20120702 We'll think about these ones later 
-    <e r="LR"><p><l>on<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>at<s n="pr"/></l><r></r></p></e>
+
+<!-- MLF2012073 We'll think about these ones later 
+    
     <e r="LR"><p><l>by<s n="pr"/></l><r></r></p></e>
 -->
 
@@ -126,9 +126,9 @@
 
     <e><p><l>for<s n="pr"/></l><r>үшін<s n="post"/><s n="Rnom"/></r></p></e>
     <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/><s n="Rnom"/></r></p></e>
-
+    <e><p><l>across<s n="pr"/></l><r>арқылы<s n="post"/><s n="Rnom"/></r></p></e>   <!-- MLF20120703 just an approximation! -->
 <!-- What is this? MLF20120702
-    <e><p><l>althrough<s n="pr"/></l><r>дегенмен<s n="post"/></r></p></e> -->
+    <e><p><l>though<s n="pr"/></l><r>дегенмен<s n="post"/></r></p></e> -->
 
 <!-- This is not a preposition in English, so remove 
     <e><p><l>ago<s n="pr"/></l><r>бұрын<s n="post"/></r></p></e> -->
@@ -148,6 +148,7 @@
     <e><p><l>beside<s n="pr"/></l><r>жан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>instead<b/>of<s n="pr"/></l><r>орн<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>on<b/>top<b/>of<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+    <e><p><l>on<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>above<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>алд<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>near<s n="pr"/></l><r>тұс<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>

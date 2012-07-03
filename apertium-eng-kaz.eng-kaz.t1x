@@ -151,7 +151,8 @@
     <def-var n="pplemma"/> <!-- lemma of postpostion -->
     <def-var n="ppcat"/> <!-- category of postposition -->
     <def-var n="ppinfl"/> <!-- inflexion information for postposition -->
-        <def-var n="postposition_lu"/> <!-- complete postposition ready for lu -->
+    <def-var n="postposition_lu"/> <!-- complete postposition ready for lu -->        
+    <def-var n="noun_lu"/> <!-- complete noun in prep X rules, ready for lu -->
     
   </section-def-vars>
 
@@ -327,20 +328,7 @@
             </let>
  	  </when> 
 
- <!-- <when> 
-        <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="on"/>
-          </equal>
-        </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="gen"/>
-        </let>
-	</when> 
- 
- <when> 
+      <when>   <!-- at and in have the same translation: locative -->
         <test>
           <equal caseless="yes">
             <clip pos="1" side="sl" part="lem"/>
@@ -351,7 +339,7 @@
           <var n="case"/>
           <lit-tag v="loc"/>
         </let>
-	</when> -->
+	</when> 
   
            <when> 
              <test>
@@ -496,16 +484,6 @@
 	</choose>
        </when>
      </choose>
-    </def-macro>
-
-    <def-macro n="generate_postposition" npar="0">
-      <out>
-        <lu>
-         <var n="pplemma"/>
-         <var n="ppcat"/>
-         <var n="ppinfl"/>
-        </lu>
-      </out>
     </def-macro>
 
 
@@ -706,20 +684,29 @@
      <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
+     <let>
+           <var n="noun_lu"/>
+           <concat>
+             <clip pos="2" side="tl" part="lem"/> 
+               <clip pos="2" side="tl" part="a_nom"/>
+               <var n="number"/> 
+               <var n="case"/>
+           </concat>  
+        </let>
     <choose>
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
        <!-- when there is postposition information, it is generated -->
+       <!-- Build the first lexical unit -->
+
+       
         <out>
           <chunk name="prep-nom">
             <tags>
                 <tag><var n="pptag"/></tag>
             </tags>
             <lu>  
-               <clip pos="2" side="tl" part="lem"/> 
-               <clip pos="2" side="tl" part="a_nom"/>
-               <var n="number"/> 
-               <var n="case"/>  
+               <var n="noun_lu"/>
             </lu>
             <b/>
             <lu>  
@@ -735,10 +722,7 @@
                 <tag><var n="pptag"/></tag>
             </tags>
             <lu>  
-               <clip pos="2" side="tl" part="lem"/> 
-               <clip pos="2" side="tl" part="a_nom"/>
-               <var n="number"/> 
-               <var n="case"/>  
+               <var n="noun_lu"/>
             </lu>
           </chunk>
         </out>

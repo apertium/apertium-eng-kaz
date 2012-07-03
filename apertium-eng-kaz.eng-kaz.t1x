@@ -527,6 +527,19 @@
     </choose>
 </def-macro>    
 
+<def-macro n="build-noun-lu" npar="1">
+     <let>
+           <var n="noun_lu"/>
+           <concat>
+             <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_nom"/>
+               <var n="number"/> 
+               <var n="case"/>
+           </concat>  
+        </let>
+
+</def-macro>
+
 </section-def-macros>
 
 
@@ -684,23 +697,11 @@
      <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
-     <let>
-           <var n="noun_lu"/>
-           <concat>
-             <clip pos="2" side="tl" part="lem"/> 
-               <clip pos="2" side="tl" part="a_nom"/>
-               <var n="number"/> 
-               <var n="case"/>
-           </concat>  
-        </let>
+      <call-macro n="build-noun-lu"><with-param pos="2"/></call-macro>
     <choose>
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
-       <!-- when there is postposition information, it is generated -->
-       <!-- Build the first lexical unit -->
-
-       
-        <out>
+        <out> <!-- with postposition -->
           <chunk name="prep-nom">
             <tags>
                 <tag><var n="pptag"/></tag>
@@ -715,7 +716,7 @@
           </chunk>
         </out>
       </when>
-      <otherwise>
+      <otherwise> <!-- without postposition -->
         <out>
           <chunk name="prep-nom">
             <tags>
@@ -728,9 +729,6 @@
         </out>
       </otherwise>
     </choose>
-
-     <!--<b pos="1"/>-->
-
         <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="1"/>
         </call-macro>

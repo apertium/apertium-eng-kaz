@@ -748,25 +748,19 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-   <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="2"/></call-macro> 
+    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="2"/></call-macro> 
     <call-macro n="initialize_case_to_nominative"/>
+    <call-macro n="build-noun-lu"><with-param pos="2"/></call-macro>
     <out>
-    <chunk name="adjec-nom">
-    <tags>
-    <tag><lit-tag v="SN"/></tag>
-    </tags>
-    <lu>
-        <clip pos="1" side="tl" part="whole"/> 
-    </lu>
-     <b pos="1"/>
-    <lu>  
-        <clip pos="2" side="tl" part="lem"/> 
-        <clip pos="2" side="tl" part="a_nom"/>
-        <var n="number"/> 
-        <var n="case"/>  
-     </lu>
-    </chunk>
-     </out>
+      <chunk name="adjec-nom">
+      <tags>
+        <tag><lit-tag v="SN"/></tag>
+      </tags>
+      <lu><clip pos="1" side="tl" part="whole"/></lu>
+      <b pos="1"/>
+      <lu><var n="noun_lu"/></lu>
+      </chunk>
+    </out>
   </action>
 </rule>
  
@@ -801,6 +795,7 @@
 </rule>
 
 
+
 <rule comment="RULE: prep num nom"> 
   <pattern>
     <pattern-item n="prep"/>
@@ -809,10 +804,15 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-       <call-macro n="choose_case_and_postposition">
+
+     <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
-    <out>
+  <call-macro n="build-noun-lu"><with-param pos="3"/></call-macro>
+    <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+        <out> <!-- with postposition -->
     <chunk name="prep-num-nom">
     <tags>
     <tag><var n="pptag"/></tag>
@@ -822,15 +822,42 @@
         <clip pos="2" side="tl" part="a_num"/> 
         <!-- We could have used <lit-tag v="num"/> -->
     </lu>
-     <b pos="2"/>
-    <lu>  
-        <clip pos="3" side="tl" part="lem"/> 
-        <clip pos="3" side="tl" part="a_nom"/>
-        <var n="number"/> 
-        <var n="case"/>  
-     </lu>
+    <b/>
+      <lu>  
+               <var n="noun_lu"/>
+            </lu>
+     <b/>
+   <lu>  
+               <var n="postposition_lu"/>
+            </lu>
     </chunk>
      </out>
+  </when>
+      <otherwise> <!-- without postposition -->
+        <out>
+          <chunk name="prep-num-nom">
+            <tags>
+                <tag><var n="pptag"/></tag>
+            </tags>
+   <lu>
+        <clip pos="2" side="tl" part="lem"/> 
+        <clip pos="2" side="tl" part="a_num"/> 
+        <!-- We could have used <lit-tag v="num"/> -->
+    </lu>
+    <b/>
+            <lu>  
+               <var n="noun_lu"/>
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="out-blank-if-not-single-space">
+          <with-param pos="2"/>
+        </call-macro>
   </action>
 </rule>
 
@@ -842,7 +869,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-      <call-macro n="choose_case_and_postposition">
+      <call-macro n="choose_case">
         <with-param pos="3"/>
      </call-macro>
        <call-macro n="initialize_case_to_nominative"/>
@@ -881,7 +908,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-       <call-macro n="choose_case_and_postposition">
+       <call-macro n="choose_case">
         <with-param pos="1"/>
      </call-macro>
     <out>
@@ -948,7 +975,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-    <call-macro n="choose_case_and_postposition">
+    <call-macro n="choose_case">
         <with-param pos="1"/>
      </call-macro> 
        <call-macro n="initialize_case_to_nominative"/>
@@ -987,7 +1014,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-      <call-macro n="choose_case_and_postposition">
+      <call-macro n="choose_case">
         <with-param pos="4"/>
      </call-macro>
      <call-macro n="initialize_case_to_nominative"/>
@@ -1031,7 +1058,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-      <call-macro n="choose_case_and_postposition">
+      <call-macro n="choose_case">
         <with-param pos="1"/>
      </call-macro>
     <out>
@@ -1146,7 +1173,7 @@
   <action>
     <call-macro n="initialize_number"/>
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="4"/></call-macro> 
-     <call-macro n="choose_case_and_postposition">
+     <call-macro n="choose_case">
         <with-param pos="1"/>
      </call-macro>
     <out>
@@ -1180,7 +1207,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-      <call-macro n="choose_case_and_postposition">
+      <call-macro n="choose_case">
         <with-param pos="1"/>
      </call-macro>
     <out>

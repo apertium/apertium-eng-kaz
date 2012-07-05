@@ -1191,19 +1191,14 @@
     <tags>
     <tag><var n="pptag"/></tag>
     </tags>
-    <tags>
-    <tag><lit-tag v="SN"/></tag>
-    </tags>
- <lu>
-              <clip pos="3" side="tl" part="lem"/> 
-              <clip pos="3" side="tl" part="a_num"/> 
-             <!-- We could have used <lit-tag v="num"/>  -->
-           </lu>       
-<b/>
     <lu>
         <clip pos="3" side="tl" part="whole"/> 
     </lu>
-   
+<b/>
+    <lu>
+        <var n="noun_lu"/>
+    </lu>   
+    <b/>
 <lu>  
                <var n="postposition_lu"/>
             </lu>
@@ -1221,7 +1216,7 @@
 <lu>
         <clip pos="3" side="tl" part="whole"/> 
     </lu>
-
+    <b/>
    <lu>  
                <var n="noun_lu"/>
             </lu>

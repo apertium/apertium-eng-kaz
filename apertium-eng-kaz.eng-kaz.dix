@@ -136,7 +136,7 @@
 
 
 <!-- MLF 20120702 noun-based postpositions -->
-<!-- MLF 20120702 they will not be marked as Pgen as they are always -->
+<!-- MLF 20120702 they will not be marked as Pgen as they are always nouns -->
    
     <e><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>below<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -152,9 +152,6 @@
     <e><p><l>above<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>алд<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>near<s n="pr"/></l><r>тұс<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
-
-
-<!-- MLF20120702 not sure about this one -->
     <e><p><l>along<s n="pr"/></l><r>бой<s n="n"/><s n="PXD"/><s n="ins"/></r></p></e>
 
 
@@ -885,6 +882,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>yellow<s n="adj"/><s n="sint"/></l><r>сары<s n="adj"/></r></p></e>
     <e><p><l>green<s n="adj"/><s n="sint"/></l><r>жасыл<s n="adj"/></r></p></e>
     <e><p><l>white<s n="adj"/><s n="sint"/></l><r>ақ<s n="adj"/></r></p></e>
+
+    <e><p><l>dark<s n="adj"/><s n="sint"/></l><r>қараңғы<s n="adj"/></r></p></e>
 
     <e><p><l>big<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
     <e><p><l>little<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>

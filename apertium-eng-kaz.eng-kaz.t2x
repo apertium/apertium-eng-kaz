@@ -6,6 +6,14 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="SV">
+      <cat-item tags="SV"/>
+      <cat-item tags="SV.*"/>
+    </def-cat>
+    <def-cat n="AdvP">
+      <cat-item tags="AdvP"/>
+      <cat-item tags="AdvP.*"/>
+    </def-cat>
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
     </def-cat>
@@ -31,15 +39,41 @@
     <def-var n="number"/>
     <def-var n="POST"/>
   </section-def-vars>
+
   <section-def-macros>
+
     <def-macro n="test1" npar="1">
       <let>
         <var n="POST"/>
         <lit v=""/>
       </let>
     </def-macro>
+
+    <def-macro n="out-blank-if-not-single-space" npar="1">
+<!-- Outputs nothing if the blank is " " and the blank otherwise..-->
+<!-- Takes one position parameter -->
+      <choose>
+        <when>
+          <test>
+            <not>
+              <equal>
+                <b pos="1"/>
+                <lit v=" "/>
+              </equal>
+            </not>
+          </test>
+          <out>
+            <b pos="1"/>
+          </out>
+        </when>
+      </choose>
+    </def-macro>
+
+
+
   </section-def-macros>
   <section-rules>
+
     <rule comment="REGLA: SN">
       <pattern>
         <pattern-item n="SN"/>
@@ -54,6 +88,34 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="RULE: SV AdvP → AdvP SV">
+    <!-- Just reorders SV and AdvP -->
+     <pattern>
+       <pattern-item n="SV"/>
+       <pattern-item n="AdvP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>  
+      </out>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
+     </action>
+    </rule>
+    
+
   </section-rules>
 </interchunk>
 

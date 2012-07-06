@@ -967,6 +967,7 @@
     <call-macro n="initialize_number"/>
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="3"/></call-macro>      
        <call-macro n="initialize_case_to_nominative"/>
+ <call-macro n="build-noun-lu"><with-param pos="3"/></call-macro>
     <out>
     <chunk name="art-adjec-nom">
     <tags>
@@ -999,6 +1000,7 @@
         <with-param pos="1"/>
      </call-macro> 
        <call-macro n="initialize_case_to_nominative"/>
+ <call-macro n="build-noun-lu"><with-param pos="3"/></call-macro>
     <out>
     <chunk name="num-adjec-nom">
     <tags>
@@ -1029,11 +1031,12 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-      <!-- <call-macro n="choose_case"> -->
+<!-- <call-macro n="choose_case"> -->
 <call-macro n="choose_case_and_postposition">
         <with-param pos="2"/>
      </call-macro>
      <call-macro n="initialize_case_to_nominative"/>
+<call-macro n="build-noun-lu"><with-param pos="4"/></call-macro> 
     <out>
     <chunk name="art-num-adjec-nom">
     <tags>
@@ -1044,16 +1047,22 @@
         <clip pos="2" side="tl" part="a_num"/> 
         <!-- We could have used <lit-tag v="num"/> -->
     </lu>
-    <b pos="1"/>
+    <b/>
     <lu>
         <clip pos="3" side="tl" part="whole"/> 
     </lu>
-   <b pos="4"/>
+   <b/>
     <lu><var n="noun_lu"/></lu>
     </chunk>
 <!--
    <b pos="3"/> -->
     </out>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="3"/>
         </call-macro>
@@ -1069,10 +1078,16 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-     <!--  <call-macro n="choose_case"> -->
 <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
+<call-macro n="build-noun-lu"><with-param pos="4"/></call-macro> 
+ <choose>
+    <when>
+ 
+      <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+       <!-- when there is postposition information, it is generated --> 
+
     <out>
     <chunk name="prep-num-adjec-nom">
     <tags>
@@ -1083,21 +1098,57 @@
         <clip pos="2" side="tl" part="a_num"/> 
         <!-- We could have used <lit-tag v="num"/> -->
     </lu>
-    <b pos="1"/>
+    <b/>
     <lu>
         <clip pos="3" side="tl" part="whole"/> 
     </lu>
-   <b pos="2"/>
+   <b/>
     <lu><var n="noun_lu"/></lu>
-    </chunk>
-<!--   <b pos="3"/> -->
-
-    </out>
+  <b/>
+<lu>
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+    </when>
+    <otherwise> 
+      <out>
+        <chunk name="prep-num-adjec-nom">
+           <tags>
+             <tag><var n="pptag"/></tag>
+           </tags>
+          <lu>
+             <clip pos="2" side="tl" part="lem"/> 
+              <clip pos="2" side="tl" part="a_num"/> 
+             <!-- We could have used <lit-tag v="num"/> -->
+          </lu>
+           <b/>
+           <lu>
+              <clip pos="3" side="tl" part="whole"/> 
+           </lu>
+           <b/>
+            <lu>  
+             <clip pos="4" side="tl" part="lem"/> 
+             <clip pos="4" side="tl" part="a_nom"/>
+             <var n="number"/> 
+             <var n="case"/>  
+           </lu>	
+        </chunk>
+      </out>
+    </otherwise>
+    </choose>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
+       <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="2"/>
+        </call-macro>   
         <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="3"/>
         </call-macro>
   </action>
 </rule>
+
 
 <rule comment="RULE: prep adjec nom"> 
   <pattern>
@@ -1162,15 +1213,13 @@
       </out>
     </otherwise>
     </choose>
-
-
         <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="2"/>
         </call-macro>
   </action>
 </rule>
 
-<rule comment="RULE: prep art adjec nom">  <!-- finished but_smth is wrong((__???-->
+<rule comment="RULE: prep art adjec nom">  
   <pattern>
     <pattern-item n="prep"/>
     <pattern-item n="art"/>
@@ -1236,9 +1285,8 @@
   </action>
 </rule>
 
-
      
-      
+      <!-- it'is meee -->
 
 
 <rule comment="RULE: prep art num adjec nom"> 
@@ -1251,10 +1299,16 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-      <call-macro n="choose_case">
+    <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
-    <out>
+    <call-macro n="build-noun-lu"><with-param pos="5"/></call-macro> 
+ <choose>
+    <when>
+ 
+      <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+       <!-- when there is postposition information, it is generated --> 
+<out>
     <chunk name="prep-art-num-adjec-nom">
     <tags>
     <tag><var n="pptag"/></tag>
@@ -1263,21 +1317,60 @@
         <clip pos="3" side="tl" part="lem"/> 
         <clip pos="3" side="tl" part="a_num"/> 
     </lu>
-    <b pos="2"/>
+    <b/>
     <lu>
         <clip pos="4" side="tl" part="whole"/> 
     </lu>
-   <b pos="3"/>
-    <lu>  
-        <clip pos="5" side="tl" part="lem"/> 
-        <clip pos="5" side="tl" part="a_nom"/>
-        <var n="number"/> 
-        <var n="case"/>  
-     </lu>
-    </chunk>
-    </out>
-  </action>
+   <b/>
+           <lu><var n="noun_lu"/></lu>
+    <b/>
+<lu>
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+    </when>
+    <otherwise> 
+      <out>
+        <chunk name="prep-art-num-adjec-nom">
+           <tags>
+             <tag><var n="pptag"/></tag>
+           </tags>
+          <lu>
+             <clip pos="3" side="tl" part="lem"/> 
+              <clip pos="3" side="tl" part="a_num"/> 
+             <!-- We could have used <lit-tag v="num"/> -->
+          </lu>
+           <b/>
+           <lu>
+              <clip pos="4" side="tl" part="whole"/> 
+           </lu>
+           <b/>
+            <lu>  
+             <clip pos="5" side="tl" part="lem"/> 
+             <clip pos="5" side="tl" part="a_nom"/>
+             <var n="number"/> 
+             <var n="case"/>  
+           </lu>	
+</chunk>
+ </out>
+</otherwise>
+    </choose>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
+       <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="2"/>
+        </call-macro>   
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="3"/>
+        </call-macro>
+<call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="4"/>
+        </call-macro>
+ </action>
 </rule>
+   
 
 <rule comment="RULE: prep art nom"> 
   <pattern>

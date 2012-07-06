@@ -1163,14 +1163,13 @@
      <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
-
+    <call-macro n="build-noun-lu"><with-param pos="3"/></call-macro> 
     <choose>
     <when>
     <!-- *** -->
       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
        <!-- when there is postposition information, it is generated -->
         <out>
-          <b pos="1"/>
           <chunk name="prep-nom">
             <tags>
                 <tag><var n="pptag"/></tag>
@@ -1178,7 +1177,7 @@
              <lu>
                <clip pos="2" side="tl" part="whole"/> 
             </lu>
-            <b pos="2"/>
+            <b/>
             <lu>  
                <clip pos="3" side="tl" part="lem"/> 
                <clip pos="3" side="tl" part="a_nom"/>
@@ -1194,7 +1193,6 @@
     </when>
     <otherwise> 
       <out>
-        <b pos="1"/>
         <chunk name="prep-adjec-nom">
            <tags>
              <tag><var n="pptag"/></tag>
@@ -1202,7 +1200,7 @@
            <lu>
               <clip pos="2" side="tl" part="whole"/> 
            </lu>
-           <b pos="2"/>
+           <b/>
            <lu>  
              <clip pos="3" side="tl" part="lem"/> 
              <clip pos="3" side="tl" part="a_nom"/>
@@ -1213,6 +1211,9 @@
       </out>
     </otherwise>
     </choose>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="2"/>
         </call-macro>

@@ -208,84 +208,6 @@
       </choose>
     </def-macro>
 
-<!-- remove when it is not used anywhere -->
-    <def-macro n="choose_case" npar="1">  <!-- Actually chooses case and the type of PP -->
-    <let><var n="pptag"/><lit-tag v="AdvP"/></let>  <!-- MLF20120628 maybe we could have PP.loc, PP.ins, etc.: think about this -->
-    <choose>  
-     <when> <!-- FMT: Need to add the rest of the prepositions, and have an
-                      alternative out section to avoid, e.g. "Through gardens → бақша" -->
-        <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="in"/>
-          </equal>
-        </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="loc"/>
-        </let>
-	</when> 
-          <when> 
-        <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="from"/>
-          </equal>
-        </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="abl"/>
-        </let>
-	</when>    
-      
-        <when> 
-        <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="to"/>
-          </equal>
-        </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="dat"/>
-        </let>
-	</when>    
-        <when> 
-        <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="with"/>
-          </equal>
-        </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="ins"/>
-        </let>
-	</when>    
-        <when> 
-        <test>
-          <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit v="of"/>
-          </equal>
-        </test>
-        <let>
-          <var n="case"/>
-          <lit-tag v="gen"/>
-        </let>
-        <let>
-          <var n="pptag"/>
-          <lit-tag v="AdjP"/>   <!-- MLF20120628 could be genP in the future -->
-        </let>
-	</when>    
-     <otherwise>
-     <call-macro n="initialize_case_to_nominative"/>
-     </otherwise>
-     </choose>
-    </def-macro>
-
-
-
 
     <def-macro n="choose_case_and_postposition" npar="1">  
     <let><var n="pptag"/><lit-tag v="AdvP"/></let> <!-- for most of them -->
@@ -863,11 +785,11 @@
     <pattern-item n="nom"/>
   </pattern>
   <action>
-    <call-macro n="initialize_number"/>
-      <call-macro n="choose_case">
-        <with-param pos="3"/>
-     </call-macro>
+       <call-macro n="initialize_number"/>
        <call-macro n="initialize_case_to_nominative"/>
+       <call-macro n="build-noun-lu">
+          <with-param pos="3"/>
+       </call-macro>
     <out>
     <chunk name="art-num-nom">
     <tags>
@@ -995,7 +917,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-   <!-- <call-macro n="choose_case"> -->
+
 <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro> 
@@ -1031,10 +953,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-<!-- <call-macro n="choose_case"> -->
-<call-macro n="choose_case_and_postposition">
-        <with-param pos="2"/>
-     </call-macro>
+
      <call-macro n="initialize_case_to_nominative"/>
 <call-macro n="build-noun-lu"><with-param pos="4"/></call-macro> 
     <out>
@@ -1179,10 +1098,7 @@
             </lu>
             <b/>
             <lu>  
-               <clip pos="3" side="tl" part="lem"/> 
-               <clip pos="3" side="tl" part="a_nom"/>
-               <var n="number"/> 
-               <var n="case"/>  
+               <var n="noun_lu"/>
             </lu>
             <b/>
             <lu>  
@@ -1202,10 +1118,7 @@
            </lu>
            <b/>
            <lu>  
-             <clip pos="3" side="tl" part="lem"/> 
-             <clip pos="3" side="tl" part="a_nom"/>
-             <var n="number"/> 
-             <var n="case"/>  
+               <var n="noun_lu"/>
            </lu>
         </chunk>
       </out>

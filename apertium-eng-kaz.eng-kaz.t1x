@@ -38,7 +38,7 @@
       <cat-item tags="adj.*"/>
       <cat-item tags="adj"/>
     </def-cat>
-    <def-cat n="art">
+    <def-cat n="det">
       <cat-item tags="det.def.*"/>
       <cat-item tags="det.ind.*"/>
     </def-cat>
@@ -792,9 +792,9 @@
   </action>
 </rule>
 
-<rule comment="RULE: art num nom"> 
+<rule comment="RULE: det num nom"> 
     <pattern>
-    <pattern-item n="art"/>
+    <pattern-item n="det"/>
     <pattern-item n="num"/>
     <pattern-item n="nom"/>
   </pattern>
@@ -805,7 +805,7 @@
           <with-param pos="3"/>
        </call-macro>
     <out>
-    <chunk name="art-num-nom">
+    <chunk name="det-num-nom">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     </tags>
@@ -825,10 +825,10 @@
   </action>
 </rule>
 
-<rule comment="RULE: prep art num nom"> 
+<rule comment="RULE: prep det num nom"> 
   <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="art"/>
+    <pattern-item n="det"/>
     <pattern-item n="num"/>
     <pattern-item n="nom"/>
   </pattern>
@@ -842,7 +842,7 @@
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
         <out> <!-- with postposition -->
-          <chunk name="prep-art-num-nom">
+          <chunk name="prep-det-num-nom">
             <tags>
                 <tag><var n="pptag"/></tag>
             </tags>
@@ -864,7 +864,7 @@
       </when>
       <otherwise> <!-- without postposition -->    
 <out>
-    <chunk name="prep-art-num-nom">
+    <chunk name="prep-det-num-nom">
     <tags>
     <tag><var n="pptag"/></tag>
     </tags>
@@ -893,9 +893,9 @@
   </action>
 </rule>
 
-<rule comment="RULE: art adjec nom">  
+<rule comment="RULE: det adjec nom">  
   <pattern>
-     <pattern-item n="art"/>
+     <pattern-item n="det"/>
     <pattern-item n="adjec"/>
     <pattern-item n="nom"/>
   </pattern>
@@ -905,7 +905,7 @@
        <call-macro n="initialize_case_to_nominative"/>
  <call-macro n="build-noun-lu"><with-param pos="3"/></call-macro>
     <out>
-    <chunk name="art-adjec-nom">
+    <chunk name="det-adjec-nom">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     </tags>
@@ -958,9 +958,9 @@
   </action>
 </rule>
 
-<rule comment="RULE: art num adjec nom"> 
+<rule comment="RULE: det num adjec nom"> 
     <pattern>
-    <pattern-item n="art"/>
+    <pattern-item n="det"/>
     <pattern-item n="num"/>
     <pattern-item n="adjec"/>
     <pattern-item n="nom"/>
@@ -971,7 +971,7 @@
      <call-macro n="initialize_case_to_nominative"/>
 <call-macro n="build-noun-lu"><with-param pos="4"/></call-macro> 
     <out>
-    <chunk name="art-num-adjec-nom">
+    <chunk name="det-num-adjec-nom">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     </tags>
@@ -1147,10 +1147,10 @@
   </action>
 </rule>
 
-<rule comment="RULE: prep art adjec nom">  
+<rule comment="RULE: prep det adjec nom">  
   <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="art"/>
+    <pattern-item n="det"/>
     <pattern-item n="adjec"/>
     <pattern-item n="nom"/>
   </pattern>
@@ -1164,7 +1164,7 @@
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
     <out> <!-- with postposition -->
-    <chunk name="prep-art-adjec-nom">
+    <chunk name="prep-det-adjec-nom">
     <tags>
     <tag><var n="pptag"/></tag>
     </tags>
@@ -1184,7 +1184,7 @@
 </when>
       <otherwise> <!-- without postposition -->    
 <out>
-    <chunk name="prep-art-adjec-nom">
+    <chunk name="prep-det-adjec-nom">
     <tags>
     <tag><var n="pptag"/></tag>
     </tags>
@@ -1217,10 +1217,10 @@
       <!-- it'is meee -->
 
 
-<rule comment="RULE: prep art num adjec nom"> 
+<rule comment="RULE: prep det num adjec nom"> 
     <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="art"/>
+    <pattern-item n="det"/>
     <pattern-item n="num"/>
     <pattern-item n="adjec"/>
     <pattern-item n="nom"/>
@@ -1237,7 +1237,7 @@
       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
        <!-- when there is postposition information, it is generated --> 
 <out>
-    <chunk name="prep-art-num-adjec-nom">
+    <chunk name="prep-det-num-adjec-nom">
     <tags>
     <tag><var n="pptag"/></tag>
     </tags>
@@ -1260,7 +1260,7 @@
     </when>
     <otherwise> 
       <out>
-        <chunk name="prep-art-num-adjec-nom">
+        <chunk name="prep-det-num-adjec-nom">
            <tags>
              <tag><var n="pptag"/></tag>
            </tags>
@@ -1300,10 +1300,10 @@
 </rule>
    
 
-<rule comment="RULE: prep art nom"> 
+<rule comment="RULE: prep det nom"> 
   <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="art"/>
+    <pattern-item n="det"/>
     <pattern-item n="nom"/>
   </pattern>
   <action>
@@ -1319,7 +1319,7 @@
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
        <!-- when there is postposition information, it is generated -->
         <out>
-          <chunk name="prep-art-nom">
+          <chunk name="prep-det-nom">
             <tags>
                 <tag><var n="pptag"/></tag>
             </tags>
@@ -1335,7 +1335,7 @@
       </when>
       <otherwise>
         <out>
-          <chunk name="prep-art-nom">
+          <chunk name="prep-det-nom">
             <tags>
                 <tag><var n="pptag"/></tag>
             </tags>
@@ -1356,9 +1356,9 @@
 </rule>
 
 
-<rule comment="RULE: art nom"> 
+<rule comment="RULE: det nom"> 
   <pattern>
-    <pattern-item n="art"/>
+    <pattern-item n="det"/>
     <pattern-item n="nom"/>
   </pattern>
   <action>
@@ -1366,7 +1366,7 @@
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="2"/></call-macro> 
     <call-macro n="initialize_case_to_nominative"/>
     <out>
-    <chunk name="art-nom">
+    <chunk name="det-nom">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     </tags>

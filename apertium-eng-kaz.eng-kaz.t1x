@@ -842,10 +842,56 @@
   </pattern>
   <action>
        <call-macro n="initialize_number"/>
-       <call-macro n="initialize_case_to_nominative"/>
-       <call-macro n="build-noun-lu">
-          <with-param pos="3"/>
+    <call-macro n="initialize_case_to_nominative"/>
+       <call-macro n="build-noun-lu-with-possessive">
+      <with-param pos="3"/> <!-- noun -->
+      <with-param pos="1"/> <!-- possessive -->
        </call-macro>
+  <choose>
+  <when> <!-- Demonstrative -->
+    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+  <out>
+    <chunk name="det-num-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+        <clip pos="2" side="tl" part="lem"/> 
+        <clip pos="2" side="tl" part="a_num"/> 
+        <clip pos="1" side="tl" part="a_det"/>
+        <clip pos="1" side="tl" part="a_dem"/>
+    </lu>
+        <lu>
+<var n="noun_lu_with_poss"/>
+</lu>
+    </chunk>
+    </out>
+</when>
+
+ <when> 
+    <test><equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+    <out>
+    <chunk name="det-num-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+    </lu>
+    <b pos="1"/>
+  <lu>
+        <clip pos="2" side="tl" part="lem"/> 
+        <clip pos="2" side="tl" part="a_num"/> 
+    </lu>
+ <b pos="1"/>
+    <lu> 
+      <var n="noun_lu_with_poss"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+
+<otherwise>
     <out>
     <chunk name="det-num-nom">
     <tags>
@@ -854,18 +900,18 @@
     <lu>
         <clip pos="2" side="tl" part="lem"/> 
         <clip pos="2" side="tl" part="a_num"/> 
-        <!-- We could have used <lit-tag v="num"/> -->
     </lu>
-    <b pos="1"/>
-     <lu><var n="noun_lu"/></lu>
+<b pos="1"/>
+    <lu>  
+      <var n="noun_lu_with_poss"/>
+     </lu>
     </chunk>
     </out>
-         <call-macro n="out-blank-if-not-single-space"> 
-         <with-param pos="2"/>
-        </call-macro>
-<!--   <b pos="2"/> -->
+</otherwise>
+</choose>
   </action>
 </rule>
+
 
 <rule comment="RULE: prep det num nom"> 
   <pattern>
@@ -949,23 +995,6 @@
           <with-param pos="3"/>
           <with-param pos="1"/>
     </call-macro>
-<!--    <out>
-    <chunk name="det-adjec-nom">
-    <tags>
-    <tag><lit-tag v="SN"/></tag>
-    </tags>
-    <lu>
-        <clip pos="2" side="tl" part="whole"/> 
-    </lu>
-     <b pos="1"/>
-    <lu><var n="noun_lu"/></lu>
-    </chunk>
-     </out>
-        <call-macro n="out-blank-if-not-single-space"> 
-          <with-param pos="2"/>
-        </call-macro>
--->
-
 <choose>
   <when> <!-- Demonstrative -->
     <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
@@ -1031,10 +1060,9 @@
      </out>
     </otherwise>
 </choose>
-
-
   </action>
 </rule>
+
 
 <rule comment="RULE: num adjec nom"> 
   <pattern>
@@ -1071,49 +1099,101 @@
   </action>
 </rule>
 
-<rule comment="RULE: det num adjec nom"> 
-    <pattern>
-    <pattern-item n="det"/>
+<rule comment="RULE: det num adjec nom">  
+  <pattern>
+     <pattern-item n="det"/>
     <pattern-item n="num"/>
     <pattern-item n="adjec"/>
     <pattern-item n="nom"/>
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-
-     <call-macro n="initialize_case_to_nominative"/>
-<call-macro n="build-noun-lu"><with-param pos="4"/></call-macro> 
+       
+      
+ <call-macro n="initialize_case_to_nominative"/>
+   <call-macro n="build-noun-lu-with-possessive">
+          <with-param pos="4"/>
+          <with-param pos="1"/>
+    </call-macro>
+<choose>
+  <when> <!-- Demonstrative -->
+    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
     <out>
     <chunk name="det-num-adjec-nom">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     </tags>
     <lu>
+      <clip pos="2" side="tl" part="lem"/>
+     <clip pos="2" side="tl" part="a_num"/>
+      <clip pos="1" side="tl" part="a_det"/>
+      <clip pos="1" side="tl" part="a_dem"/>
+    </lu>
+    <b pos="1"/>
+    <lu>
+        <clip pos="2" side="tl" part="whole"/> 
+    </lu>
+    <b pos="2"/>
+    <lu>  
+      <var n="noun_lu_with_poss"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+  
+  <when>  <!-- possessive -->
+    <test><equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+    <out>
+    <chunk name="det-num-adjec-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+    </lu>
+    <b pos="1"/>
+<lu>
         <clip pos="2" side="tl" part="lem"/> 
         <clip pos="2" side="tl" part="a_num"/> 
-        <!-- We could have used <lit-tag v="num"/> -->
     </lu>
-    <b/>
+    <b pos="1"/>
     <lu>
         <clip pos="3" side="tl" part="whole"/> 
     </lu>
-   <b/>
-    <lu><var n="noun_lu"/></lu>
+    <b pos="3"/>
+    <lu>
+      <var n="noun_lu_with_poss"/>
+     </lu>
     </chunk>
-<!--
-   <b pos="3"/> -->
     </out>
-        <call-macro n="out-blank-if-not-single-space"> 
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="out-blank-if-not-single-space"> 
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="out-blank-if-not-single-space"> 
-          <with-param pos="3"/>
-        </call-macro>
+  </when>
+
+  <otherwise>
+    <call-macro n="out-blank-if-not-single-space"> 
+        <with-param pos="1"/>
+    </call-macro>
+    <out>
+    <chunk name="det-num-adjec-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+<!-- <lu>
+        <clip pos="2" side="tl" part="lem"/> 
+        <clip pos="2" side="tl" part="a_num"/> 
+    </lu> -->
+<b pos="1"/>
+    <lu>
+        <clip pos="3" side="tl" part="whole"/> 
+    </lu>
+     <b pos="3"/>
+    <lu><var n="noun_lu_with_poss"/></lu>
+    </chunk>
+     </out>
+    </otherwise>
+</choose>
   </action>
 </rule>
+
 
 <rule comment="RULE: prep num adjec nom"> 
     <pattern>

@@ -480,14 +480,14 @@
 <def-macro n="build-noun-lu-with-possessive" npar="2">
      <let><var n="poss-frm"/><lit v=""/></let>
      <choose>
-       <when><test><equal><clip pos="2" side="sl" part="lem"/><lit v="my"/></equal></test> <let><var n="np-poss"/><lit-tag v="px1sg"/></let></when>
-       <when><test><equal><clip pos="2" side="sl" part="lem"/><lit v="our"/></equal></test> <let><var n="np-poss"/><lit-tag v="px1pl"/></let></when>
-       <when><test><equal><clip pos="2" side="sl" part="lem"/><lit v="your"/></equal></test> <let><var n="np-poss"/><lit-tag v="px2sg"/></let>
+       <when><test><equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="my"/></equal></test> <let><var n="np-poss"/><lit-tag v="px1sg"/></let></when>
+       <when><test><equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="our"/></equal></test> <let><var n="np-poss"/><lit-tag v="px1pl"/></let></when>
+       <when><test><equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="your"/></equal></test> <let><var n="np-poss"/><lit-tag v="px2sg"/></let>
              <let><var n="poss-frm"/><lit-tag v="frm"/></let></when>
-       <when><test><equal><clip pos="2" side="sl" part="lem"/><lit v="his"/></equal></test> <let><var n="np-poss"/><lit-tag v="px3sp"/></let></when>
-       <when><test><equal><clip pos="2" side="sl" part="lem"/><lit v="her"/></equal></test> <let><var n="np-poss"/><lit-tag v="px3sp"/></let></when>
-       <when><test><equal><clip pos="2" side="sl" part="lem"/><lit v="its"/></equal></test> <let><var n="np-poss"/><lit-tag v="px3sp"/></let></when>
-       <when><test><equal><clip pos="2" side="sl" part="lem"/><lit v="their"/></equal></test> <let><var n="np-poss"/><lit-tag v="px3sp"/></let></when>
+       <when><test><equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="his"/></equal></test> <let><var n="np-poss"/><lit-tag v="px3sp"/></let></when>
+       <when><test><equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="her"/></equal></test> <let><var n="np-poss"/><lit-tag v="px3sp"/></let></when>
+       <when><test><equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="its"/></equal></test> <let><var n="np-poss"/><lit-tag v="px3sp"/></let></when>
+       <when><test><equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="their"/></equal></test> <let><var n="np-poss"/><lit-tag v="px3sp"/></let></when>
       <otherwise><let><var n="np-poss"/><lit v=""/></let></otherwise>
      </choose>
      <let>
@@ -495,9 +495,9 @@
            <concat>
              <clip pos="1" side="tl" part="lem"/> 
                <clip pos="1" side="tl" part="a_nom"/>
+               <var n="number"/> 
                <var n="np-poss"/>
                <var n="poss-frm"/>
-               <var n="number"/> 
                <var n="case"/>
            </concat>  
         </let>
@@ -945,8 +945,11 @@
     <call-macro n="initialize_number"/>
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="3"/></call-macro>      
        <call-macro n="initialize_case_to_nominative"/>
- <call-macro n="build-noun-lu"><with-param pos="3"/></call-macro>
-    <out>
+   <call-macro n="build-noun-lu-with-possessive">
+          <with-param pos="3"/>
+          <with-param pos="1"/>
+    </call-macro>
+<!--    <out>
     <chunk name="det-adjec-nom">
     <tags>
     <tag><lit-tag v="SN"/></tag>
@@ -957,11 +960,79 @@
      <b pos="1"/>
     <lu><var n="noun_lu"/></lu>
     </chunk>
-<!--     <b pos="2"/> -->
      </out>
         <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="2"/>
         </call-macro>
+-->
+
+<choose>
+  <when> <!-- Demonstrative -->
+    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+    <out>
+    <chunk name="det-adjec-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_det"/>
+      <clip pos="1" side="tl" part="a_dem"/>
+    </lu>
+    <b pos="1"/>
+    <lu>
+        <clip pos="2" side="tl" part="whole"/> 
+    </lu>
+    <b pos="2"/>
+    <lu>  
+      <var n="noun_lu_with_poss"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+  
+  <when>  <!-- possessive -->
+    <test><equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+    <out>
+    <chunk name="det-adjec-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+    </lu>
+    <b pos="1"/>
+    <lu>
+        <clip pos="2" side="tl" part="whole"/> 
+    </lu>
+    <b pos="2"/>
+    <lu>
+      <var n="noun_lu_with_poss"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+
+  <otherwise>
+    <call-macro n="out-blank-if-not-single-space"> 
+        <with-param pos="1"/>
+    </call-macro>
+    <out>
+    <chunk name="det-adjec-nom">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+        <clip pos="2" side="tl" part="whole"/> 
+    </lu>
+     <b pos="2"/>
+    <lu><var n="noun_lu_with_poss"/></lu>
+    </chunk>
+     </out>
+    </otherwise>
+</choose>
+
+
   </action>
 </rule>
 
@@ -1342,7 +1413,7 @@
 </rule>
    
 
-<rule comment="RULE: prep det nom"> 
+<rule comment="RULE: prep det nom">  
   <pattern>
     <pattern-item n="prep"/>
     <pattern-item n="det"/>
@@ -1355,7 +1426,6 @@
   <call-macro n="initialize_number"/>
   <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="3"/></call-macro> 
   <call-macro n="build-noun-lu"><with-param pos="3"/></call-macro> 
-      
     <choose>
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
@@ -1469,8 +1539,6 @@
     </call-macro>
   </otherwise>
 </choose>
-
-  
   </action>
 </rule>
 
@@ -1585,3 +1653,4 @@
 
   </section-rules>
 </transfer>
+

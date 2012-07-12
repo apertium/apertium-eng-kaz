@@ -915,7 +915,7 @@
 </rule>
 
 
-<rule comment="RULE: prep det num nom"> 
+<rule comment="RULE: prep det num nom">  
   <pattern>
     <pattern-item n="prep"/>
     <pattern-item n="det"/>
@@ -923,27 +923,86 @@
     <pattern-item n="nom"/>
   </pattern>
   <action>
-    <call-macro n="initialize_number"/>
-<call-macro n="choose_case_and_postposition">
-        <with-param pos="1"/>
-     </call-macro>
- <call-macro n="build-noun-lu"><with-param pos="4"/></call-macro>
-   <choose>
+
+  <call-macro n="choose_case_and_postposition"><with-param pos="1"/></call-macro>
+  <call-macro n="initialize_number"/>
+  <call-macro n="build-noun-lu-with-possessive"><with-param pos="4"/><with-param pos="2"/></call-macro> 
+    <choose>
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
-        <out> <!-- with postposition -->
+       <!-- when there is postposition information, it is generated -->
+
+       <choose>
+         <when> <!-- Demonstrative, postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
+           <out>
+             <chunk name="prep-det-num-nom">
+             <tags>
+                <tag><lit-tag v="SN"/></tag>
+             </tags>
+             <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_det"/>
+             <clip pos="2" side="tl" part="a_dem"/>
+             </lu>
+             <b/>
+             <lu>
+             <clip pos="3" side="tl" part="lem"/> 
+             <clip pos="3" side="tl" part="a_num"/> 
+             </lu>
+             <b/>
+             <lu>  
+                <var n="noun_lu_with_poss"/>
+             </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+             </chunk>
+           </out>
+        </when>
+       
+        <when>  <!-- Possessive, with postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+           <out>
+            <chunk name="prep-det-num-nom">
+              <tags>
+                <tag><lit-tag v="SN"/></tag>
+              </tags>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <b/>
+<lu>
+             <clip pos="3" side="tl" part="lem"/> 
+             <clip pos="3" side="tl" part="a_num"/> 
+             </lu>
+             <b/>
+              <lu> 
+                <var n="noun_lu_with_poss"/>
+              </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+           </chunk>
+         </out>
+       </when>
+
+
+       <otherwise> <!-- no possessive or demonstrative, postposition -->
+        <out>
           <chunk name="prep-det-num-nom">
             <tags>
                 <tag><var n="pptag"/></tag>
             </tags>
-           <lu>
-              <clip pos="3" side="tl" part="lem"/> 
-              <clip pos="3" side="tl" part="a_num"/> 
-             <!-- We could have used <lit-tag v="num"/> -->
-           </lu>            
-           <b/>
-           <lu>  
-               <var n="noun_lu"/>
+<lu>
+             <clip pos="3" side="tl" part="lem"/> 
+             <clip pos="3" side="tl" part="a_num"/> 
+             </lu>
+             <b/>
+            <lu>  
+               <var n="noun_lu_with_poss"/>
             </lu>
             <b/>
             <lu>  
@@ -951,37 +1010,90 @@
             </lu>
           </chunk>
         </out>
+       </otherwise>
+       
+      </choose>
       </when>
-      <otherwise> <!-- without postposition -->    
-<out>
-    <chunk name="prep-det-num-nom">
-    <tags>
-    <tag><var n="pptag"/></tag>
-    </tags>
-    <lu>
-        <clip pos="3" side="tl" part="lem"/> 
-        <clip pos="3" side="tl" part="a_num"/> 
-        <!-- We could have used <lit-tag v="num"/> -->
-    </lu>
-    <b pos="3"/>
-   <lu>  
-               <var n="noun_lu"/>
-            </lu>
-    </chunk>
-     </out>
-   </otherwise>
+      <otherwise> <!-- no postposition -->
+        <choose>   
+
+         <when> <!-- Demonstrative, no postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
+           <out>
+             <chunk name="prep-det-num-nom">
+             <tags>
+                <tag><lit-tag v="SN"/></tag>
+             </tags>
+             <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_det"/>
+             <clip pos="2" side="tl" part="a_dem"/>
+             </lu>
+             <b/>
+<lu>
+             <clip pos="3" side="tl" part="lem"/> 
+             <clip pos="3" side="tl" part="a_num"/> 
+             </lu>
+             <b/>
+             <lu>  
+                <var n="noun_lu_with_poss"/>
+             </lu>
+             </chunk>
+           </out>
+        </when>
+
+        <when>  <!-- Possessive, with postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+           <out>
+            <chunk name="prep-det-num-nom">
+              <tags>
+                <tag><lit-tag v="SN"/></tag>
+              </tags>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+             <b/>
+<lu>
+             <clip pos="3" side="tl" part="lem"/> 
+             <clip pos="3" side="tl" part="a_num"/> 
+             </lu>
+             <b/>
+             <lu>  
+                <var n="noun_lu_with_poss"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+          
+
+          <otherwise> <!-- No possessive, no demonstrative -->
+           <out>
+             <chunk name="prep-det-num-nom">
+              <tags>
+                  <tag><var n="pptag"/></tag>
+              </tags>
+              <lu>  
+                 <var n="noun_lu_with_poss"/>
+              </lu>
+             </chunk>
+            </out>
+	  </otherwise>
+       </choose>
+     </otherwise>
     </choose>
+        <!-- Superblank management may surely be improved -->
         <call-macro n="out-blank-if-not-single-space"> 
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="out-blank-if-not-single-space">
-          <with-param pos="2"/>
+        <call-macro n="out-blank-if-not-single-space"> 
+         <with-param pos="2"/>
         </call-macro>
-        <call-macro n="out-blank-if-not-single-space">
-          <with-param pos="3"/>
+<call-macro n="out-blank-if-not-single-space"> 
+         <with-param pos="3"/>
         </call-macro>
   </action>
 </rule>
+
 
 <rule comment="RULE: det adjec nom">  
   <pattern>

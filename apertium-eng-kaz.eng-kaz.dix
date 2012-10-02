@@ -621,6 +621,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>goodness<s n="n"/></l><r>қайыр<s n="n"/></r></p></e>
 <e><p><l>good<s n="n"/></l><r>товар<s n="n"/></r></p></e>
 <e><p><l>goose<s n="n"/></l><r>қаз<s n="n"/></r></p></e>
+<e><p><l>gold<s n="n"/></l><r>алтын<s n="n"/></r></p></e>
 <e><p><l>government<s n="n"/></l><r>үкім<s n="n"/></r></p></e>
 <e><p><l>governor<s n="n"/></l><r>әкім<s n="n"/></r></p></e>
 <e><p><l>grace<s n="n"/></l><r>мейірім<s n="n"/></r></p></e>
@@ -957,6 +958,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>vodka<s n="n"/></l><r>арақ<s n="n"/></r></p></e>
 <e><p><l>whisky<s n="n"/></l><r>виски<s n="n"/></r></p></e>
 
+<e><p><l>light<s n="n"/></l><r>жарық<s n="n"/></r></p></e>  <!--тагы глагол болуы мумкин  -->
+<e><p><l>shade<s n="n"/></l><r>көлеңке<s n="n"/></r></p></e>
+<e><p><l>silver<s n="n"/></l><r>күміс<s n="n"/></r></p></e>
+<e><p><l>silver<s n="n"/></l><r>күміс<s n="n"/></r></p></e>
+
 
 
 
@@ -1049,6 +1055,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>yellow<s n="adj"/><s n="sint"/></l><r>сары<s n="adj"/></r></p></e>
     <e><p><l>green<s n="adj"/><s n="sint"/></l><r>жасыл<s n="adj"/></r></p></e>
     <e><p><l>white<s n="adj"/><s n="sint"/></l><r>ақ<s n="adj"/></r></p></e>
+   <e><p><l>gray<s n="adj"/><s n="sint"/></l><r>сұр<s n="adj"/></r></p></e>
 
     <e><p><l>dark<s n="adj"/><s n="sint"/></l><r>қараңғы<s n="adj"/></r></p></e>
 
@@ -1141,6 +1148,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>build<s n="vblex"/></l><r>құру<s n="v"/><s n="iv"/></r></p></e>
     <!-- see above: "can" has several translations I guess... -->
     <e><p><l>can<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
+ <e><p><l>take<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>play<s n="vblex"/></l><r>ойна<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check iv/tv -->
     <e><p><l>like<s n="vblex"/></l><r>жақсы<b/>көр<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>love<s n="vblex"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
@@ -1164,11 +1172,16 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>ask<s n="vblex"/></l><r>сұра<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>speak<s n="vblex"/></l><r>сөйле<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
+   <e><p><l>give<s n="vblex"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>send<s n="vblex"/></l><r>жібер<s n="v"/><s n="tv"/></r></p></e>
+ <e><p><l>put<s n="vblex"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>laugh<s n="vblex"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
     <!-- CAUTION: some ditransitives, may need transfer rules or something -->
     <e><p><l>tell<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
+  <e><p><l>let<s n="vblex"/></l><r>қой<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>keep<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>reply<s n="vblex"/></l><r>жауап<b/>бер<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>want<s n="vblex"/></l><r>кел<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check, kel = 'come' -->
     <!-- will require transfer rules for correct verb form -->

@@ -403,6 +403,7 @@
 <e><p><l>pencil<s n="n"/></l><r>қарындаш<s n="n"/></r></p></e>
 <e><p><l>picture<s n="n"/></l><r>сурет<s n="n"/></r></p></e>
 <e><p><l>pin<s n="n"/></l><r>түйреуіш<s n="n"/></r></p></e>
+<e><p><l>pineapple<s n="n"/></l><r>ананас<s n="n"/></r></p></e>
 <e><p><l>pipe<s n="n"/></l><r>труба<s n="n"/></r></p></e>
 <e><p><l>plane<s n="n"/></l><r>самолет<s n="n"/></r></p></e>
 <e><p><l>plough<s n="n"/></l><r>соқа<s n="n"/></r></p></e>
@@ -929,6 +930,35 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>wrath<s n="n"/></l><r>қаһар<s n="n"/></r></p></e>
 <e><p><l>young<s n="n"/></l><r>кенже<s n="n"/></r></p></e>
 
+<e><p><l>insect<s n="n"/></l><r>жәндік<s n="n"/></r></p></e>
+<e><p><l>rat<s n="n"/></l><r>егеуқұйрық<s n="n"/></r></p></e>
+<e><p><l>fruit<s n="n"/></l><r>жеміс<s n="n"/></r></p></e>
+
+<e><p><l>meal<s n="n"/></l><r>ас<s n="n"/></r></p></e>
+<e><p><l>milk<s n="n"/></l><r>сүт<s n="n"/></r></p></e>
+<e><p><l>sugar<s n="n"/></l><r>қант<s n="n"/></r></p></e>
+<e><p><l>alcohol<s n="n"/></l><r>алкоголь<s n="n"/></r></p></e>
+<e><p><l>beef<s n="n"/></l><r>сиыр еті<s n="n"/></r></p></e>
+<e><p><l>champagne<s n="n"/></l><r>аққайнар<s n="n"/></r></p></e>
+<e><p><l>chocolate<s n="n"/></l><r>шоколад<s n="n"/></r></p></e>
+<e><p><l>citron<s n="n"/></l><r>цитрон<s n="n"/></r></p></e>
+<e><p><l>coffee<s n="n"/></l><r>кофе<s n="n"/></r></p></e>
+<e><p><l>cocktail<s n="n"/></l><r>коктейль<s n="n"/></r></p></e>
+<e><p><l>cognac<s n="n"/></l><r>коньяк<s n="n"/></r></p></e>
+<e><p><l>liqueur<s n="n"/></l><r>ликер<s n="n"/></r></p></e>
+<e><p><l>macaroni<s n="n"/></l><r>түтік кеспе<s n="n"/></r></p></e>
+<e><p><l>omelet<s n="n"/></l><r>омлет<s n="n"/></r></p></e>
+<e><p><l>olive<s n="n"/></l><r>зәйтүн<s n="n"/></r></p></e>
+<e><p><l>salad<s n="n"/></l><r>салат<s n="n"/></r></p></e>
+<e><p><l>sardine<s n="n"/></l><r>сардина<s n="n"/></r></p></e>
+<e><p><l>tea<s n="n"/></l><r>шай<s n="n"/></r></p></e>
+<e><p><l>toast<s n="n"/></l><r>нан<s n="n"/></r></p></e>
+<e><p><l>vanila<s n="n"/></l><r>ваниль<s n="n"/></r></p></e>
+<e><p><l>vodka<s n="n"/></l><r>арақ<s n="n"/></r></p></e>
+<e><p><l>whisky<s n="n"/></l><r>виски<s n="n"/></r></p></e>
+
+
+
 
     <!-- Раздел: Имя Собственное -->
 
@@ -1041,6 +1071,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>quiet<s n="adj"/><s n="sint"/></l><r>ақырын<s n="adj"/></r></p></e>
     <e><p><l>careful<s n="adj"/></l><r>ақырын<s n="adj"/></r></p></e>
     <e><p><l>hard<s n="adj"/><s n="sint"/></l><r>қатты<s n="adj"/></r></p></e>
+  
     
   
         

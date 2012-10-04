@@ -916,7 +916,7 @@ LEXICON Postpositions
 арналған:арналған POST ; ! "intended for" + DAT
 
 бірге:бірге POST ; ! "with" + INS
-
+туралы:туралы POST ; ! "туралы" + INS
 
 LEXICON Postadverbs 
 
@@ -1057,6 +1057,7 @@ XII NUM-ROMAN ;
 
 абақты:абақты N1 ; ! "jail"
 автор:автор N1 ; ! "author"
+автоматты:автоматты N1 ; ! "automatic"
 адам:адам N1 ; ! "man"
 адамзат:адамзат N1 ; ! "mankind"
 азап:азап N1 ; ! "suffering"
@@ -1098,6 +1099,7 @@ XII NUM-ROMAN ;
 ақша:ақша N1 ; ! "money"
 ақы:ақы N1 ; ! "wage"
 ақын:ақын N1 ; ! "poet"
+аттракцион:аттаркцион N1 ; ! "attraction"
 аң:аң  N1 ; ! "beast"
 аңыз:аңыз әнғіме N1 ; ! "legend"
 байланыс:байланыс N1 ; ! "connection"
@@ -1624,6 +1626,7 @@ XII NUM-ROMAN ;
 бой:бой N1 ; ! "length, height"
 тұс:тұс N1 ; ! "~near"
 орыс:орыс Natinfl ; ! "Russian"
+сан:сан N1 ; ! "amount"
 
 картоп:картоп N1 ; ! "potato"
 қыр:қыр  N1 ; ! angle
@@ -1782,6 +1785,10 @@ cиыр еті:сиыр еті N1; !beef
 алтын:алтын N1; !gold
 жарық:жарық N1; !light
 көлеңке:көлеңке N1; !shade
+күміс:күміс N1; !silver
+қышқыл:қышқыл N1; !acid
+
+
 жеңіл% автокөлік:жеңіл% автокөлік N1 ;
 
 
@@ -1821,6 +1828,10 @@ cиыр еті:сиыр еті N1; !beef
 үлкен:үлкен A1 ; ! "big"
 әдемі:әдемі A1 ; ! "beautiful"
 жақсы:жақсы A1 ; ! "nice"
+алғыр:алғыр A1 ; ! "able"
+қарсы:қарсы A1 ; ! "against"
+ашуқор:ашуқор A1 ; ! "angry"
+сергек:сергек A1 ; ! "awake"
  LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"

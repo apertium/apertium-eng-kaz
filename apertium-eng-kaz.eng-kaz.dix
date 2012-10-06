@@ -996,6 +996,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>and<s n="cnjcoo"/></l><r>және<s n="cnjcoo"/></r></p></e>
 <!--    <e><p><l>and<s n="cnjcoo"/></l><r>ал<s n="cnjcoo"/></r></p></e> !! MLF 20120711, just to avoid problems -->
     <e><p><l>but<s n="cnjcoo"/></l><r>ал<s n="cnjcoo"/></r></p></e>
+<e><p><l>because<s n="n"/></l><r>себебі<b/><s n="n"/></r></p></e>
+
     <e><p><l>but<s n="cnjcoo"/></l><r>бірақ<s n="cnjcoo"/></r></p></e>
     <e><p><l>or<s n="cnjcoo"/></l><r>немесе<s n="cnjcoo"/></r></p></e>
     <e><p><l>then<s n="cnjadv"/></l><r>сосын<s n="cnjcoo"/></r></p></e>
@@ -1045,7 +1047,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>always<s n="adv"/></l><r>әрдайым<s n="adv"/></r></p></e>
     <e><p><l>together<s n="adv"/></l><r>бірге<s n="adv"/></r></p></e>
     <e><p><l>outside<s n="adv"/></l><r>дала<s n="n"/><s n="loc"/></r></p></e>
-
+<e><p><l>between<s n="adv"/></l><r>арасында<b/><s n="adv"/></r></p></e>
     <e><p><l>before<s n="adv"/></l><r>дейін<s n="adv"/></r></p></e> <!-- зависит от переднего слова--> 
 
     <!-- Раздел: Имя Прилагательное -->

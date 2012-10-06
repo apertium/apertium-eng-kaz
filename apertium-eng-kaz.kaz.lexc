@@ -892,6 +892,7 @@ LEXICON Conjunctions
 немесе:немесе CC ; ! "or"
 дегенмен:дегенмен CA ; ! "nevertheless"
 осы% себептен:осы% себептен CA ; ! "therefore"
+себебі:себебі CC ; ! "because"
 
 LEXICON Postpositions
 
@@ -1787,7 +1788,11 @@ cиыр еті:сиыр еті N1; !beef
 көлеңке:көлеңке N1; !shade
 күміс:күміс N1; !silver
 қышқыл:қышқыл N1; !acid
-
+басшы:басшы N1; !chief
+туған% күні:туған% күні N1; !birthday
+туылған% күні:туылған% күні N1; !birth
+икем:икем N1; !bent
+жайлылық:жайлылық  N1; !comfort
 
 жеңіл% автокөлік:жеңіл% автокөлік N1 ;
 
@@ -1832,6 +1837,14 @@ cиыр еті:сиыр еті N1; !beef
 қарсы:қарсы A1 ; ! "against"
 ашуқор:ашуқор A1 ; ! "angry"
 сергек:сергек A1 ; ! "awake"
+химиялық:химиялық A1 ; ! "chemical"
+қайнап% тұрған:қайнап% тұрған A1 ; ! "boiling"
+ашық:ашық A1 ; ! "bright"
+сынған:сынған A1 ; ! "broken"
+сенімді:сенімді A1 ; ! "certain"
+арзан:арзан A1 ; ! "cheap"
+таза:таза A1 ; ! "clean"
+
  LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"
@@ -1843,10 +1856,12 @@ cиыр еті:сиыр еті N1; !beef
 әбден:әбден ADV ; ! "extremely"
 әлі:әлі ADV ; ! "now" !FIXME:CHECK
 әрдайым:әрдайым ADV ; ! "always"
+арасында:арасында ADV ; ! "between"
 өте:өте ADV ; ! "very"
 бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
 енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
 кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
+ертен:ертен ADV-WITH-KI ; ! "tomorrow > tomorow's"
 қазір:қазір ADV-WITH-KI ; ! "now > the one now"
 
  LEXICON Verbs 

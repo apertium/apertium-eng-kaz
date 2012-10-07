@@ -1793,7 +1793,17 @@ cиыр еті:сиыр еті N1; !beef
 туылған% күні:туылған% күні N1; !birth
 икем:икем N1; !bent
 жайлылық:жайлылық  N1; !comfort
-
+зиян:зиян  N1; !damage
+қызы:қызы  N1; !daughter
+градус:градус N1; !degree
+тәуелділік:тәуелділік N1; !dependent
+дизайн:дизайн N1; !design
+тілек:тілек N1; !desire
+үркіншілік:үркіншілк N1; !destruction
+бөлшек:бөлшек N1; !detail
+даму:даму N1; !development
+тәжірибе:тәжірибе N1; !experience
+сауда:сауда N1; !trade
 жеңіл% автокөлік:жеңіл% автокөлік N1 ;
 
 
@@ -1825,6 +1835,7 @@ cиыр еті:сиыр еті N1; !beef
 суық:суық A1 ; ! "cold"
 қара:қара A1 ; ! "black"
 сұр:сұр A1 ; ! "gray"
+өлі:өлі A1 ; ! "dead"
 қараңғы:қараңғы A1 ; ! "dark"
 қатты:қатты A1 ; ! "hard,fast"
 қараңғы:қараңғы A1 ; ! "dark brown?"
@@ -1844,7 +1855,13 @@ cиыр еті:сиыр еті N1; !beef
 сенімді:сенімді A1 ; ! "certain"
 арзан:арзан A1 ; ! "cheap"
 таза:таза A1 ; ! "clean"
-
+құрметті:құрметті A1 ; ! "dear"
+терең:терең A1 ; ! "deep"
+сыпайы:сыпайы A1 ; ! "delicate"
+әр% түрлі:әр% түрлі A1 ; ! "different"
+электрикалық:электрикалық A1 ; ! "electric"
+ақылсыз:ақылсыз A1 ; ! "foolish"
+күшті:күшті A1 ; ! "violent"
  LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"
@@ -1865,6 +1882,10 @@ cиыр еті:сиыр еті N1; !beef
 қазір:қазір ADV-WITH-KI ; ! "now > the one now"
 
  LEXICON Verbs 
+
+сатып% ал:сатып% ал V-TV ; ! "buy" 
+төбелес:төбелес V-TV ; ! "fight" 
+жүз:жүз V-TV ; ! "swim" 
 
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"

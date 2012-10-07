@@ -967,8 +967,16 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>silver<s n="n"/></l><r>күміс<s n="n"/></r></p></e>
 <e><p><l>acid<s n="n"/></l><r>қышқыл<s n="n"/></r></p></e>
 
-
-
+<e><p><l>damage<s n="n"/></l><r>зиян<s n="n"/></r></p></e>
+<e><p><l>daughter<s n="n"/></l><r>қызы<s n="n"/></r></p></e>
+<e><p><l>degree<s n="n"/></l><r>градус<s n="n"/></r></p></e>
+<e><p><l>dependent<s n="n"/></l><r>тәуелділік<s n="n"/></r></p></e>
+<e><p><l>design<s n="n"/></l><r>дизайн<s n="n"/></r></p></e>
+<e><p><l>desire<s n="n"/></l><r>тілек<s n="n"/></r></p></e>
+<e><p><l>destruction<s n="n"/></l><r>үркіншілік<s n="n"/></r></p></e>
+<e><p><l>detail<s n="n"/></l><r>бөлшек<s n="n"/></r></p></e>
+<e><p><l>development<s n="n"/></l><r>даму<s n="n"/></r></p></e>
+<e><p><l>experience<s n="n"/></l><r>тәжірибе<s n="n"/></r></p></e>
 
     <!-- Раздел: Имя Собственное -->
 
@@ -1088,8 +1096,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>against<s n="adj"/><s n="sint"/></l><r>қарсы<s n="adj"/></r></p></e>
    <e><p><l>angry<s n="adj"/><s n="sint"/></l><r>ашуқор<s n="adj"/></r></p></e>
       <e><p><l>awake<s n="adj"/><s n="sint"/></l><r>сергек<s n="adj"/></r></p></e>
-  
-        
+     <e><p><l>dead<s n="adj"/><s n="sint"/></l><r>өлі<s n="adj"/></r></p></e>
+ <e><p><l>dear<s n="adj"/><s n="sint"/></l><r>құрметті<s n="adj"/></r></p></e>
+<e><p><l>deep<s n="adj"/><s n="sint"/></l><r>терең<s n="adj"/></r></p></e>
+<e><p><l>delicate<s n="adj"/><s n="sint"/></l><r>сыпайы<s n="adj"/></r></p></e>
+<e><p><l>different<s n="adj"/><s n="sint"/></l><r>әр<b/>түрлі<s n="adj"/></r></p></e>
+<e><p><l>electric<s n="adj"/><s n="sint"/></l><r>электрикалық<s n="adj"/></r></p></e>
+ <e><p><l>foolish<s n="adj"/><s n="sint"/></l><r>ақылсыз<s n="adj"/></r></p></e>  
+ <e><p><l>violent<s n="adj"/><s n="sint"/></l><r>күшті<s n="adj"/></r></p></e>       
     <!-- Раздел: Местоимение -->
 
     <e><p><l>i<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
@@ -1216,6 +1230,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>cover<s n="vblex"/></l><r>жап<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>close<s n="vblex"/></l><r>жап<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>live<s n="vblex"/></l><r>өмір сүр<s n="v"/><s n="tv"/></r></p></e>
+  <e><p><l>buy<s n="vblex"/></l><r>сатып ал<s n="v"/><s n="tv"/></r></p></e>
+ <e><p><l>fight<s n="vblex"/></l><r>төбелес<s n="v"/><s n="tv"/></r></p></e>
+ <e><p><l>swim<s n="vblex"/></l><r>жүз<s n="v"/><s n="tv"/></r></p></e>
+
+
     <!-- SECTION: Interjections -->
 
 <e>       <p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>

@@ -1804,6 +1804,7 @@ cиыр еті:сиыр еті N1; !beef
 даму:даму N1; !development
 тәжірибе:тәжірибе N1; !experience
 сауда:сауда N1; !trade
+дала:дала N1; !outside
 жеңіл% автокөлік:жеңіл% автокөлік N1 ;
 
 
@@ -1834,7 +1835,7 @@ cиыр еті:сиыр еті N1; !beef
 сары:сары A1 ; ! "yellow"
 суық:суық A1 ; ! "cold"
 қара:қара A1 ; ! "black"
-сұр:сұр A1 ; ! "gray"
+сұр:сұр A1 ; ! "grey"
 өлі:өлі A1 ; ! "dead"
 қараңғы:қараңғы A1 ; ! "dark"
 қатты:қатты A1 ; ! "hard,fast"
@@ -1862,6 +1863,14 @@ cиыр еті:сиыр еті N1; !beef
 электрикалық:электрикалық A1 ; ! "electric"
 ақылсыз:ақылсыз A1 ; ! "foolish"
 күшті:күшті A1 ; ! "violent"
+қоңыр:қоңыр A1 ; ! "brown"
+үлкен:үлкен A1 ; ! "large"
+бақытты:бақытты A1 ; ! "happy"
+ақырын:ақырын A1 ; ! "quiet"
+ақырын:ақырын A1 ; ! "careful"
+қатты:қатты A1 ; ! "hard"
+
+
  LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"
@@ -1880,6 +1889,22 @@ cиыр еті:сиыр еті N1; !beef
 кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
 ертен:ертен ADV-WITH-KI ; ! "tomorrow > tomorow's"
 қазір:қазір ADV-WITH-KI ; ! "now > the one now"
+күнде:күнде ADV ; ! "everyday"
+тез:тез ADV ; ! "quickly"
+мүмкін:мүмкін ADV ; ! "probably"
+барлық% жерде: барлық% жерде ADV ; ! "everywhere"
+баяу:баяу ADV ; ! "slowly"
+сосын:сосын ADV ; ! "then"
+байқап:байқап ADV ; ! "carefully"
+солай:солай ADV ; ! "so"
+айналасы:айналасы ADV ; ! "around"
+әрине:әрине ADV ; ! "of% course"
+жақсы:жақсы ADV ; ! "well"
+әлі:әлі ADV ; ! "still"
+анда:анда ADV ; ! "there"
+дейін:дейін ADV ; ! "before"
+
+
 
  LEXICON Verbs 
 

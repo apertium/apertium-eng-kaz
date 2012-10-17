@@ -961,7 +961,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>vanila<s n="n"/></l><r>ваниль<s n="n"/></r></p></e>
 <e><p><l>vodka<s n="n"/></l><r>арақ<s n="n"/></r></p></e>
 <e><p><l>whisky<s n="n"/></l><r>виски<s n="n"/></r></p></e>
-
+<e><p><l>bus<s n="n"/></l><r>автобус<s n="n"/></r></p></e>
 <e><p><l>light<s n="n"/></l><r>жарық<s n="n"/></r></p></e>  <!--тагы глагол болуы мумкин  -->
 <e><p><l>shade<s n="n"/></l><r>көлеңке<s n="n"/></r></p></e>
 <e><p><l>silver<s n="n"/></l><r>күміс<s n="n"/></r></p></e>
@@ -977,7 +977,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>detail<s n="n"/></l><r>бөлшек<s n="n"/></r></p></e>
 <e><p><l>development<s n="n"/></l><r>даму<s n="n"/></r></p></e>
 <e><p><l>experience<s n="n"/></l><r>тәжірибе<s n="n"/></r></p></e>
-
+<e><p><l>object<s n="n"/></l><r>объект<s n="n"/></r></p></e>
+<e><p><l>base<s n="n"/></l><r>база<s n="n"/></r></p></e>
+<e><p><l>mail<s n="n"/></l><r>почта<s n="n"/></r></p></e>
+<e><p><l>list<s n="n"/></l><r>тізім<s n="n"/></r></p></e>
+<e><p><l>user<s n="n"/></l><r>қолданушы<s n="n"/></r></p></e>
     <!-- Раздел: Имя Собственное -->
 
     <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/></l><r>Джеймс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -1103,8 +1107,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>different<s n="adj"/><s n="sint"/></l><r>әр<b/>түрлі<s n="adj"/></r></p></e>
 <e><p><l>electric<s n="adj"/><s n="sint"/></l><r>электрикалық<s n="adj"/></r></p></e>
  <e><p><l>foolish<s n="adj"/><s n="sint"/></l><r>ақылсыз<s n="adj"/></r></p></e>  
- <e><p><l>violent<s n="adj"/><s n="sint"/></l><r>күшті<s n="adj"/></r></p></e>       
-    <!-- Раздел: Местоимение -->
+ <e><p><l>violent<s n="adj"/><s n="sint"/></l><r>күшті<s n="adj"/></r></p></e>      
+ <e><p><l>based<s n="adj"/><s n="sint"/></l><r>орналасқан<s n="adj"/></r></p></e>   
+ <e><p><l>public<s n="adj"/><s n="sint"/></l><r>қоғамдық<s n="adj"/></r></p></e>      
+ <!-- Раздел: Местоимение -->
 
     <e><p><l>i<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>we<s n="prn"/></l><r>біз<s n="prn"/><s n="pers"/></r></p></e>
@@ -1167,7 +1173,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>make<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>make<s n="vblex"/></l><r>қыл<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>come<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>build<s n="vblex"/></l><r>құру<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>build<s n="vblex"/></l><r>құр<s n="v"/><s n="iv"/></r></p></e>
     <!-- see above: "can" has several translations I guess... -->
     <e><p><l>can<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
  <e><p><l>take<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
@@ -1233,7 +1239,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
   <e><p><l>buy<s n="vblex"/></l><r>сатып ал<s n="v"/><s n="tv"/></r></p></e>
  <e><p><l>fight<s n="vblex"/></l><r>төбелес<s n="v"/><s n="tv"/></r></p></e>
  <e><p><l>swim<s n="vblex"/></l><r>жүз<s n="v"/><s n="tv"/></r></p></e>
-
+ <e><p><l>communicate<s n="vblex"/></l><r>байланыс<s n="v"/><s n="tv"/></r></p></e>
 
     <!-- SECTION: Interjections -->
 

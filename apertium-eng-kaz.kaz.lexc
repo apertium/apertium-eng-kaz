@@ -1812,6 +1812,9 @@ cиыр еті:сиыр еті N1; !beef
 почта:почта N1; !mail
 қолданушы:қолданушы N1; !user
 тізім:тізім N1; !list
+жақ:жақ N1; !side
+әпке:әпке N1; !sister
+жұмыс:жұмыс N1; !work
 жеңіл% автокөлік:жеңіл% автокөлік N1 ;
 
 
@@ -1910,7 +1913,8 @@ cиыр еті:сиыр еті N1; !beef
 әлі:әлі ADV ; ! "still"
 анда:анда ADV ; ! "there"
 дейін:дейін ADV ; ! "before"
-
+толықтай:толықтай ADV ; ! "completely"
+дерлік:дерлік ADV ; ! "almost"
 
 
  LEXICON Verbs 
@@ -1984,8 +1988,10 @@ cиыр еті:сиыр еті N1; !beef
 кұр:құр V-IV ; ! "build"
 ал:ал V-IV ; ! "take"
 cүй:сүй V-IV ; ! "love"
-
-
+біт:біт V-IV ; ! "complete"
+өл:өл V-IV ; ! "die"
+ұмыт:ұмыт V-IV ; ! "forget"
+ұш:ұш V-IV ; ! "fly"
 жат:жатыр Vinfl-AUX-IMPF ; ! 
 жүр:жүр Vinfl-AUX-IMPF ; ! 
 отыр:отыр Vinfl-AUX-IMPF ; ! 

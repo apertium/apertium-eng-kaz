@@ -215,8 +215,7 @@
    
 	 <!-- әпке is southern dialect for "older sister" -->
     <!-- the literary standard words are:
-      апа - older sister
-      сіңіл - younger sister (of a girl)
+      апа - older sisteryounger sister (of a girl)
       қарындас - younger sister (of a guy)
     -->
 
@@ -967,6 +966,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>shade<s n="n"/></l><r>көлеңке<s n="n"/></r></p></e>
 <e><p><l>silver<s n="n"/></l><r>күміс<s n="n"/></r></p></e>
 <e><p><l>acid<s n="n"/></l><r>қышқыл<s n="n"/></r></p></e>
+<e><p><l>chief<s n="n"/></l><r>басшы<s n="n"/></r></p></e>
 
 <e><p><l>damage<s n="n"/></l><r>зиян<s n="n"/></r></p></e>
 <e><p><l>daughter<s n="n"/></l><r>қызы<s n="n"/></r></p></e>
@@ -989,6 +989,23 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>number<s n="n"/></l><r>сан<s n="n"/></r></p></e>
 <e><p><l>research<s n="n"/></l><r>зерттеу<s n="n"/></r></p></e>
 <e><p><l>film<s n="n"/></l><r>фильм<s n="n"/></r></p></e>
+<e><p><l>sheet<s n="n"/></l><r>парақ<s n="n"/></r></p></e>
+<e><p><l>language<s n="n"/></l><r>тіл<s n="n"/></r></p></e>
+<e><p><l>universal<s n="n"/></l><r>әлем<s n="n"/></r></p></e>
+<e><p><l>sign<s n="n"/></l><r>белгі<s n="n"/></r></p></e>
+<e><p><l>sentence<s n="n"/></l><r>сөйлем<s n="n"/></r></p></e>
+<e><p><l>paragraph<s n="n"/></l><r>абзац<s n="n"/></r></p></e>
+<e><p><l>date<s n="n"/></l><r>күн<s n="n"/></r></p></e>
+<e><p><l>debit<s n="n"/></l><r>дебет<s n="n"/></r></p></e>
+<e><p><l>deck<s n="n"/></l><r>палуба<s n="n"/></r></p></e>
+<e><p><l>defect<s n="n"/></l><r>ақау<s n="n"/></r></p></e>
+<e><p><l>deficiency<s n="n"/></l><r>тапшылық<s n="n"/></r></p></e>
+<e><p><l>complex<s n="n"/></l><r>комплекс<s n="n"/></r></p></e>
+<e><p><l>flat<s n="n"/></l><r>пәтер<s n="n"/></r></p></e>
+<e><p><l>male<s n="n"/></l><r>аталық<s n="n"/></r></p></e>
+<e><p><l>material<s n="n"/></l><r>материал<s n="n"/></r></p></e>
+
+
 
 <!--<e><p><l>abroad<s n="n"/></l><r>тыс<s n="n"/></r></p></e>-->
 
@@ -1116,16 +1133,45 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
      <e><p><l>dead<s n="adj"/><s n="sint"/></l><r>өлі<s n="adj"/></r></p></e>
  <e><p><l>dear<s n="adj"/><s n="sint"/></l><r>құрметті<s n="adj"/></r></p></e>
 <e><p><l>deep<s n="adj"/><s n="sint"/></l><r>терең<s n="adj"/></r></p></e>
+<e><p><l>broken<s n="adj"/><s n="sint"/></l><r>сынған<s n="adj"/></r></p></e>
+<e><p><l>certain<s n="adj"/><s n="sint"/></l><r>сенімді<s n="adj"/></r></p></e>
+<e><p><l>bright<s n="adj"/><s n="sint"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>chemical<s n="adj"/><s n="sint"/></l><r>химиялық<s n="adj"/></r></p></e>
+
+<e><p><l>violent<s n="adj"/><s n="sint"/></l><r>күшті<s n="adj"/></r></p></e>
+
 <e><p><l>delicate<s n="adj"/><s n="sint"/></l><r>сыпайы<s n="adj"/></r></p></e>
 <e><p><l>different<s n="adj"/><s n="sint"/></l><r>әр<b/>түрлі<s n="adj"/></r></p></e>
 <e><p><l>electric<s n="adj"/><s n="sint"/></l><r>электрикалық<s n="adj"/></r></p></e>
  <e><p><l>foolish<s n="adj"/><s n="sint"/></l><r>ақылсыз<s n="adj"/></r></p></e>  
- <e><p><l>violent<s n="adj"/><s n="sint"/></l><r>күшті<s n="adj"/></r></p></e>      
  <e><p><l>based<s n="adj"/><s n="sint"/></l><r>орналасқан<s n="adj"/></r></p></e>   
  <e><p><l>public<s n="adj"/><s n="sint"/></l><r>қоғамдық<s n="adj"/></r></p></e>  
 <e><p><l>good<s n="adj"/><s n="sint"/></l><r>жақсы<s n="adj"/></r></p></e>      
  <e><p><l>next<s n="adj"/><s n="sint"/></l><r>келесі<s n="adj"/></r></p></e>      
-     
+ <e><p><l>cheap<s n="adj"/><s n="sint"/></l><r>арзан<s n="adj"/></r></p></e>      
+ <e><p><l>clean<s n="adj"/><s n="sint"/></l><r>таза<s n="adj"/></r></p></e>      
+ <e><p><l>common<s n="adj"/><s n="sint"/></l><r>ортақ<s n="adj"/></r></p></e>      
+ <e><p><l>conscious<s n="adj"/><s n="sint"/></l><r>есті<s n="adj"/></r></p></e>      
+  <e><p><l>early<s n="adj"/><s n="sint"/></l><r>ерте<s n="adj"/></r></p></e>      
+  <e><p><l>elastic<s n="adj"/><s n="sint"/></l><r>созымтал<s n="adj"/></r></p></e>      
+  <e><p><l>equal<s n="adj"/><s n="sint"/></l><r>бірдей<s n="adj"/></r></p></e>      
+  <e><p><l>fat<s n="adj"/><s n="sint"/></l><r>толық<s n="adj"/></r></p></e>      
+  <e><p><l>fertile<s n="adj"/><s n="sint"/></l><r>шұрайлы<s n="adj"/></r></p></e>      
+   <e><p><l>first<s n="adj"/><s n="sint"/></l><r>бірінші<s n="adj"/></r></p></e>      
+   <e><p><l>free<s n="adj"/><s n="sint"/></l><r>еркін<s n="adj"/></r></p></e>      
+   <e><p><l>frequent<s n="adj"/><s n="sint"/></l><r>тығыз<s n="adj"/></r></p></e>      
+     <e><p><l>full<s n="adj"/><s n="sint"/></l><r>толымды<s n="adj"/></r></p></e>      
+    <e><p><l>great<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>      
+    <e><p><l>high<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>      
+   <e><p><l>hollow<s n="adj"/><s n="sint"/></l><r>толығымен<s n="adj"/></r></p></e>      
+   <e><p><l>important<s n="adj"/><s n="sint"/></l><r>маңызды<s n="adj"/></r></p></e>      
+   <e><p><l>long<s n="adj"/><s n="sint"/></l><r>ұзақ<s n="adj"/></r></p></e>      
+   <e><p><l>medical<s n="adj"/><s n="sint"/></l><r>медикалық<s n="adj"/></r></p></e>      
+    <e><p><l>military<s n="adj"/><s n="sint"/></l><r>әскери<s n="adj"/></r></p></e>      
+    <e><p><l>sweet<s n="adj"/><s n="sint"/></l><r>тәтті<s n="adj"/></r></p></e>      
+   <e><p><l>tall<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>      
+   <e><p><l>thick<s n="adj"/><s n="sint"/></l><r>қалың<s n="adj"/></r></p></e>      
+   
  <!-- Раздел: Местоимение -->
 
 
@@ -1262,6 +1308,18 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>forget<s n="vblex"/></l><r>ұмыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>fly<s n="vblex"/></l><r>ұш<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>insrease<s n="vblex"/></l><r>өс<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>appear<s n="vblex"/></l><r>көрін<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>disappear<s n="vblex"/></l><r>жоғал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>study<s n="vblex"/></l><r>оқы<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>sell<s n="vblex"/></l><r>сат<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decrease<s n="vblex"/></l><r>азайт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>boil<s n="vblex"/></l><r>қайна<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>break<s n="vblex"/></l><r>сындыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cut<s n="vblex"/></l><r>кес<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>fix<s n="vblex"/></l><r>жөнде<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>hang<s n="vblex"/></l><r>іл<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>marry<s n="vblex"/></l><r>үйлен<s n="v"/><s n="tv"/></r></p></e>
+
 
 <e>       <p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>
 

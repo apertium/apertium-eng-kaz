@@ -69,8 +69,7 @@ Multichar_Symbols
 !! some additional ~cases
 %<sim%>               ! Similative (<apprx> in kymorph) !! -дай/-дәй, -тай, -тәй
 %<reas%>              ! Reason
-%<abe%>               ! Abessive       
-
+%<abe%>               ! Abessive
 ! Levels of comparison of adjectives
 %<comp%>              ! Comparative
 %<sup%>               ! Superlative
@@ -1820,9 +1819,21 @@ cиыр еті:сиыр еті N1; !beef
 сан:сан N1; !number
 зерттеу:зерттеу N1; !research
 фильм:фильм N1; !film
-жеңіл% автокөлік:жеңіл% автокөлік N1 ;
-
-
+тіл:тіл N1; !language
+парақ:парақ N1; !sheet
+әлем:әлем N1; !universal
+белгі:белгі N1; !sign
+жеңіл% автокөлік:жеңіл% автокөлік N1; !car
+сөйлем:сөйлем N1; !sentence
+абзац:абзац N1; !paragraph
+күн:күн N1; !date
+дебет:дебет N1; !debit
+палуба:палуба N1; !deck
+ақау:ақау N1; !defect
+тапшылық:тапшылық N1; !deficiency
+комплекс:комплекс N1; !complex
+пәтер:пәтер N1; !flat
+аталық:аталық N1; !male
 
  LEXICON ProperNouns 
 
@@ -1887,7 +1898,29 @@ cиыр еті:сиыр еті N1; !beef
 орналасқан:орналасқан A1 ; ! "based"
 жақсы:жақсы A1 ; ! "good"
 келесі:келесі A1 ; ! "next"
-
+ылғалды:ылғалды A1 ; ! "damp"
+арзан:арзан A1 ; ! "cheap"
+ортақ:ортақ A1 ; ! "common"
+есті:есті A1 ; ! "conscious"
+ерте:ерте A1 ; ! "early"
+созымтал:созымтал A1 ; ! "elastic"
+бірдей:бірдей A1 ; ! "equal"
+толық:толық A1 ; ! "fat"
+шұрайлы:шұрайлы A1 ; ! "fertile"
+бірінші:бірінші A1 ; ! "first"
+еркін:еркін A1 ; ! "free"
+тығыз:тығыз A1 ; ! "frequent"
+толымды:толымды A1 ; ! "full"
+үлкен:үлкен A1 ; ! "great"
+биік:биік A1 ; ! "high"
+толығымен:толығымен A1 ; ! "hollow"
+маңызды:маңызды A1 ; ! "important"
+ұзақ:ұзақ A1 ; ! "long"
+медикалық:медикалық A1 ; ! "medical"
+әскери:әскери A1 ; ! "military"
+тәтті:тәтті A1 ; ! "sweet"
+биік:биік A1 ; ! "tall"
+қалың:қалың A1 ; ! "thick"
 
  LEXICON Adverbs
 
@@ -1999,6 +2032,17 @@ cүй:сүй V-IV ; ! "love"
 біт:біт V-IV ; ! "complete"
 өл:өл V-IV ; ! "die"
 өс:өс V-IV ; ! "inscrease"
+көрін:көрін V-IV ; ! "appear"
+жоғал:жоғал V-IV ; ! "disappear"
+оқы:оқы V-IV ; ! "study"
+сат:сат V-IV ; ! "sell"
+азайт:азайт V-IV ; ! "decrease"
+қайна:қайна V-IV ; ! "boil"
+сындыр:сындыр V-IV ; ! "break"
+кес:кес V-IV ; ! "cut"
+жөнде:жөнде V-IV ; ! "fix"
+іл:іл V-IV ; ! "hang"
+үйлен:үйлен V-IV ; ! "marry"
 
 ұмыт:ұмыт V-IV ; ! "forget"
 ұш:ұш V-IV ; ! "fly"

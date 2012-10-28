@@ -1835,6 +1835,13 @@ cиыр еті:сиыр еті N1; !beef
 пәтер:пәтер N1; !flat
 аталық:аталық N1; !male
 
+салыстыру:салыстыру N1; !comparison
+жарыс:жарыс N1; !competition
+шарт:шарт N1; !condition
+тығын:тығын N1; !cork
+ел:ел N1; !country
+кредит:кредит N1; !credit
+
  LEXICON ProperNouns 
 
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
@@ -1901,6 +1908,11 @@ cиыр еті:сиыр еті N1; !beef
 ылғалды:ылғалды A1 ; ! "damp"
 арзан:арзан A1 ; ! "cheap"
 ортақ:ортақ A1 ; ! "common"
+қатал:қатал A1 ; ! "cruel"
+қисық:қисық A1 ; ! "curve"
+
+
+
 есті:есті A1 ; ! "conscious"
 ерте:ерте A1 ; ! "early"
 созымтал:созымтал A1 ; ! "elastic"
@@ -1921,6 +1933,7 @@ cиыр еті:сиыр еті N1; !beef
 тәтті:тәтті A1 ; ! "sweet"
 биік:биік A1 ; ! "tall"
 қалың:қалың A1 ; ! "thick"
+ағымдық:ағымдық A1 ; ! "current" 
 
  LEXICON Adverbs
 
@@ -1963,6 +1976,11 @@ cиыр еті:сиыр еті N1; !beef
 сатып% ал:сатып% ал V-TV ; ! "buy" 
 төбелес:төбелес V-TV ; ! "fight" 
 жүз:жүз V-TV ; ! "swim" 
+басқар:басқар V-TV ; ! "control" 
+пісір:пісір V-TV ; ! "cook" 
+көшір:көшір V-TV ; ! "copy" 
+ұсақта:ұсақта V-TV ; ! "crush" 
+
 
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
@@ -2043,6 +2061,7 @@ cүй:сүй V-IV ; ! "love"
 жөнде:жөнде V-IV ; ! "fix"
 іл:іл V-IV ; ! "hang"
 үйлен:үйлен V-IV ; ! "marry"
+шытынат:шытынат V-IV ; ! "crack"
 
 ұмыт:ұмыт V-IV ; ! "forget"
 ұш:ұш V-IV ; ! "fly"

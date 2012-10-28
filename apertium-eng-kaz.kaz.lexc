@@ -1834,6 +1834,7 @@ cиыр еті:сиыр еті N1; !beef
 комплекс:комплекс N1; !complex
 пәтер:пәтер N1; !flat
 аталық:аталық N1; !male
+ас% қорыту:ас% қорыту N1; !digestion
 
 салыстыру:салыстыру N1; !comparison
 жарыс:жарыс N1; !competition
@@ -1841,7 +1842,11 @@ cиыр еті:сиыр еті N1; !beef
 тығын:тығын N1; !cork
 ел:ел N1; !country
 кредит:кредит N1; !credit
+ашылым:ашылым N1; !discovery
+сарап:сарап N1; !discussion
+ауру:ауру N1; !disease
 
+арақашықтық:арақашықтық N1; !distance
  LEXICON ProperNouns 
 
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
@@ -1910,6 +1915,7 @@ cиыр еті:сиыр еті N1; !beef
 ортақ:ортақ A1 ; ! "common"
 қатал:қатал A1 ; ! "cruel"
 қисық:қисық A1 ; ! "curve"
+кір:кір A1 ; ! "dirty"
 
 
 
@@ -1980,7 +1986,7 @@ cиыр еті:сиыр еті N1; !beef
 пісір:пісір V-TV ; ! "cook" 
 көшір:көшір V-TV ; ! "copy" 
 ұсақта:ұсақта V-TV ; ! "crush" 
-
+жиіркендір:жиіркендір V-TV ; ! "disgust" 
 
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"

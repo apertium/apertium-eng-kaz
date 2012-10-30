@@ -1117,76 +1117,75 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>white<s n="adj"/><s n="sint"/></l><r>ақ<s n="adj"/></r></p></e>
    <e><p><l>grey<s n="adj"/><s n="sint"/></l><r>сұр<s n="adj"/></r></p></e>
 
-    <e><p><l>dark<s n="adj"/><s n="sint"/></l><r>қараңғы<s n="adj"/></r></p></e>
+    <e><p><l>dark<s n="adj"/></l><r>қараңғы<s n="adj"/></r></p></e>
 
-    <e><p><l>big<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
+    <e><p><l>big<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
     <e><p><l>little<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
-    <e><p><l>nice<s n="adj"/><s n="sint"/></l><r>жақсы<s n="adj"/></r></p></e>
-    <e><p><l>warm<s n="adj"/><s n="sint"/></l><r>жылы<s n="adj"/></r></p></e>
-    <e><p><l>cold<s n="adj"/><s n="sint"/></l><r>суық<s n="adj"/></r></p></e>
-    <e><p><l>large<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
-    <e><p><l>small<s n="adj"/><s n="sint"/></l><r>кішкентай<s n="adj"/></r></p></e>
-    <e><p><l>happy<s n="adj"/><s n="sint"/></l><r>бақытты<s n="adj"/></r></p></e>
+    <e><p><l>nice<s n="adj"/></l><r>жақсы<s n="adj"/></r></p></e>
+    <e><p><l>warm<s n="adj"/></l><r>жылы<s n="adj"/></r></p></e>
+    <e><p><l>cold<s n="adj"/></l><r>суық<s n="adj"/></r></p></e>
+    <e><p><l>large<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
+    <e><p><l>small<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
+    <e><p><l>happy<s n="adj"/></l><r>бақытты<s n="adj"/></r></p></e>
     <e><p><l>glad<s n="adj"/></l><r>қуанышты<s n="adj"/></r></p></e> <!-- wrong in eng.dix -->
-    <e><p><l>beautiful<s n="adj"/></l><r>әдемі<s n="adj"/></r></p></e>
-    <e><p><l>old<s n="adj"/><s n="sint"/></l><r>ескі<s n="adj"/></r></p></e>
-    <e><p><l>old<s n="adj"/><s n="sint"/></l><r>кәрі<s n="adj"/></r></p></e>
-    <e><p><l>new<s n="adj"/><s n="sint"/></l><r>жаңа<s n="adj"/></r></p></e>
-    <e><p><l>close<s n="adj"/><s n="sint"/></l><r>жақын<s n="adj"/></r></p></e>
-    <e><p><l>clear<s n="adj"/><s n="sint"/></l><r>анық<s n="adj"/></r></p></e>
-    <e><p><l>slow<s n="adj"/><s n="sint"/></l><r>ақырын<s n="adj"/></r></p></e>
-    <e><p><l>quiet<s n="adj"/><s n="sint"/></l><r>ақырын<s n="adj"/></r></p></e>
+    <e><p><l>beautiful<s n="adj"/><s n="sint"/></l><r>әдемі<s n="adj"/></r></p></e>
+    <e><p><l>old<s n="adj"/></l><r>ескі<s n="adj"/></r></p></e>
+    <e><p><l>old<s n="adj"/></l><r>кәрі<s n="adj"/></r></p></e>
+    <e><p><l>new<s n="adj"/></l><r>жаңа<s n="adj"/></r></p></e>
+    <e><p><l>close<s n="adj"/></l><r>жақын<s n="adj"/></r></p></e>
+    <e><p><l>clear<s n="adj"/></l><r>анық<s n="adj"/></r></p></e>
+    <e><p><l>slow<s n="adj"/></l><r>ақырын<s n="adj"/></r></p></e>
+    <e><p><l>quiet<s n="adj"/></l><r>ақырын<s n="adj"/></r></p></e>
     <e><p><l>careful<s n="adj"/></l><r>ақырын<s n="adj"/></r></p></e>
-    <e><p><l>hard<s n="adj"/><s n="sint"/></l><r>қатты<s n="adj"/></r></p></e>
- <e><p><l>able<s n="adj"/><s n="sint"/></l><r>алғыр<s n="adj"/></r></p></e>
+    <e><p><l>hard<s n="adj"/></l><r>қатты<s n="adj"/></r></p></e>
+ <e><p><l>able<s n="adj"/></l><r>алғыр<s n="adj"/></r></p></e>
  <e><p><l>against<s n="adj"/><s n="sint"/></l><r>қарсы<s n="adj"/></r></p></e>
-   <e><p><l>angry<s n="adj"/><s n="sint"/></l><r>ашуқор<s n="adj"/></r></p></e>
-      <e><p><l>awake<s n="adj"/><s n="sint"/></l><r>сергек<s n="adj"/></r></p></e>
-     <e><p><l>dead<s n="adj"/><s n="sint"/></l><r>өлі<s n="adj"/></r></p></e>
- <e><p><l>dear<s n="adj"/><s n="sint"/></l><r>құрметті<s n="adj"/></r></p></e>
+   <e><p><l>angry<s n="adj"/></l><r>ашуқор<s n="adj"/></r></p></e>
+      <e><p><l>awake<s n="adj"/></l><r>сергек<s n="adj"/></r></p></e>
+     <e><p><l>dead<s n="adj"/></l><r>өлі<s n="adj"/></r></p></e>
+ <e><p><l>dear<s n="adj"/></l><r>құрметті<s n="adj"/></r></p></e>
 <e><p><l>deep<s n="adj"/><s n="sint"/></l><r>терең<s n="adj"/></r></p></e>
-<e><p><l>broken<s n="adj"/><s n="sint"/></l><r>сынған<s n="adj"/></r></p></e>
+<e><p><l>broken<s n="adj"/></l><r>сынған<s n="adj"/></r></p></e>
 <e><p><l>certain<s n="adj"/><s n="sint"/></l><r>сенімді<s n="adj"/></r></p></e>
-<e><p><l>bright<s n="adj"/><s n="sint"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>bright<s n="adj"/></l><r>ашық<s n="adj"/></r></p></e>
 <e><p><l>chemical<s n="adj"/><s n="sint"/></l><r>химиялық<s n="adj"/></r></p></e>
 
-<e><p><l>violent<s n="adj"/><s n="sint"/></l><r>күшті<s n="adj"/></r></p></e>
-
+<e><p><l>violent<s n="adj"/></l><r>күшті<s n="adj"/></r></p></e>
 <e><p><l>delicate<s n="adj"/><s n="sint"/></l><r>сыпайы<s n="adj"/></r></p></e>
 <e><p><l>different<s n="adj"/><s n="sint"/></l><r>әр<b/>түрлі<s n="adj"/></r></p></e>
 <e><p><l>electric<s n="adj"/><s n="sint"/></l><r>электрикалық<s n="adj"/></r></p></e>
  <e><p><l>foolish<s n="adj"/><s n="sint"/></l><r>ақылсыз<s n="adj"/></r></p></e>  
  <e><p><l>based<s n="adj"/><s n="sint"/></l><r>орналасқан<s n="adj"/></r></p></e>   
- <e><p><l>public<s n="adj"/><s n="sint"/></l><r>қоғамдық<s n="adj"/></r></p></e>  
+ <e><p><l>public<s n="adj"/></l><r>қоғамдық<s n="adj"/></r></p></e>  
 <e><p><l>good<s n="adj"/><s n="sint"/></l><r>жақсы<s n="adj"/></r></p></e>      
- <e><p><l>next<s n="adj"/><s n="sint"/></l><r>келесі<s n="adj"/></r></p></e>      
+ <e><p><l>next<s n="adj"/></l><r>келесі<s n="adj"/></r></p></e>      
  <e><p><l>cheap<s n="adj"/><s n="sint"/></l><r>арзан<s n="adj"/></r></p></e>      
- <e><p><l>clean<s n="adj"/><s n="sint"/></l><r>таза<s n="adj"/></r></p></e>      
- <e><p><l>common<s n="adj"/><s n="sint"/></l><r>ортақ<s n="adj"/></r></p></e>      
+ <e><p><l>clean<s n="adj"/></l><r>таза<s n="adj"/></r></p></e>      
+ <e><p><l>common<s n="adj"/></l><r>ортақ<s n="adj"/></r></p></e>      
  <e><p><l>conscious<s n="adj"/><s n="sint"/></l><r>есті<s n="adj"/></r></p></e>      
-  <e><p><l>early<s n="adj"/><s n="sint"/></l><r>ерте<s n="adj"/></r></p></e>      
+  <e><p><l>early<s n="adj"/></l><r>ерте<s n="adj"/></r></p></e>      
   <e><p><l>elastic<s n="adj"/><s n="sint"/></l><r>созымтал<s n="adj"/></r></p></e>      
-  <e><p><l>equal<s n="adj"/><s n="sint"/></l><r>бірдей<s n="adj"/></r></p></e>      
-  <e><p><l>fat<s n="adj"/><s n="sint"/></l><r>толық<s n="adj"/></r></p></e>      
+  <e><p><l>equal<s n="adj"/></l><r>бірдей<s n="adj"/></r></p></e>      
+  <e><p><l>fat<s n="adj"/></l><r>толық<s n="adj"/></r></p></e>      
   <e><p><l>fertile<s n="adj"/><s n="sint"/></l><r>шұрайлы<s n="adj"/></r></p></e>      
-   <e><p><l>first<s n="adj"/><s n="sint"/></l><r>бірінші<s n="adj"/></r></p></e>      
+   <e><p><l>first<s n="adj"/></l><r>бірінші<s n="adj"/></r></p></e>      
    <e><p><l>free<s n="adj"/><s n="sint"/></l><r>еркін<s n="adj"/></r></p></e>      
    <e><p><l>frequent<s n="adj"/><s n="sint"/></l><r>тығыз<s n="adj"/></r></p></e>      
-     <e><p><l>full<s n="adj"/><s n="sint"/></l><r>толымды<s n="adj"/></r></p></e>      
-    <e><p><l>great<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>      
-    <e><p><l>high<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>      
+     <e><p><l>full<s n="adj"/></l><r>толымды<s n="adj"/></r></p></e>      
+    <e><p><l>great<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>      
+    <e><p><l>high<s n="adj"/></l><r>биік<s n="adj"/></r></p></e>      
    <e><p><l>hollow<s n="adj"/><s n="sint"/></l><r>толығымен<s n="adj"/></r></p></e>      
    <e><p><l>important<s n="adj"/><s n="sint"/></l><r>маңызды<s n="adj"/></r></p></e>      
-   <e><p><l>long<s n="adj"/><s n="sint"/></l><r>ұзақ<s n="adj"/></r></p></e>      
+   <e><p><l>long<s n="adj"/></l><r>ұзақ<s n="adj"/></r></p></e>      
    <e><p><l>medical<s n="adj"/><s n="sint"/></l><r>медикалық<s n="adj"/></r></p></e>      
     <e><p><l>military<s n="adj"/><s n="sint"/></l><r>әскери<s n="adj"/></r></p></e>      
-    <e><p><l>sweet<s n="adj"/><s n="sint"/></l><r>тәтті<s n="adj"/></r></p></e>      
-   <e><p><l>tall<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>      
-   <e><p><l>thick<s n="adj"/><s n="sint"/></l><r>қалың<s n="adj"/></r></p></e>  
-<e><p><l>cruel<s n="adj"/><s n="sint"/></l><r>қатал<s n="adj"/></r></p></e>      
+    <e><p><l>sweet<s n="adj"/></l><r>тәтті<s n="adj"/></r></p></e>      
+   <e><p><l>tall<s n="adj"/></l><r>биік<s n="adj"/></r></p></e>      
+   <e><p><l>thick<s n="adj"/></l><r>қалың<s n="adj"/></r></p></e>  
+<e><p><l>cruel<s n="adj"/></l><r>қатал<s n="adj"/></r></p></e>      
 <e><p><l>current<s n="adj"/><s n="sint"/></l><r>ағымдық<s n="adj"/></r></p></e>      
-   <e><p><l>curve<s n="adj"/><s n="sint"/></l><r>қисық<s n="adj"/></r></p></e>  
-<e><p><l>dirty<s n="adj"/><s n="sint"/></l><r>кір<s n="adj"/></r></p></e>  
+   <e><p><l>curve<s n="adj"/></l><r>қисық<s n="adj"/></r></p></e>  
+<e><p><l>dirty<s n="adj"/></l><r>кір<s n="adj"/></r></p></e>  
   
 
 

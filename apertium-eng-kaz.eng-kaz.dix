@@ -1016,6 +1016,13 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>discussion<s n="n"/></l><r>сарап<s n="n"/></r></p></e>
 <e><p><l>disease<s n="n"/></l><r>ауру<s n="n"/></r></p></e>
 <e><p><l>distance<s n="n"/></l><r>арақашықтық<s n="n"/></r></p></e>
+<e><p><l>east<s n="n"/></l><r>шығыс<s n="n"/></r></p></e>
+<e><p><l>effect<s n="n"/></l><r>эффект<s n="n"/></r></p></e>
+<e><p><l>end<s n="n"/></l><r>соңы<s n="n"/></r></p></e>
+<e><p><l>error<s n="n"/></l><r>қате<s n="n"/></r></p></e>
+<e><p><l>existense<s n="n"/></l><r>тіршілік<s n="n"/></r></p></e>
+<e><p><l>expansion<s n="n"/></l><r>аумақтау<s n="n"/></r></p></e>
+<e><p><l>expert<s n="n"/></l><r>сарапшы<s n="n"/></r></p></e>
 
 
 
@@ -1095,6 +1102,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>there<s n="adv"/></l><r>анда<s n="adv"/></r></p></e>
 <e><p><l>completely<s n="adv"/></l><r>толықтай<s n="adv"/></r></p></e>
 <e><p><l>almost<s n="adv"/></l><r>дерлік<s n="adv"/></r></p></e>
+<e><p><l>even<s n="adv"/></l><r>тіпті<s n="adv"/></r></p></e>
 		
  <!-- not "онда"?? -->
    
@@ -1186,6 +1194,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>current<s n="adj"/><s n="sint"/></l><r>ағымдық<s n="adj"/></r></p></e>      
    <e><p><l>curve<s n="adj"/></l><r>қисық<s n="adj"/></r></p></e>  
 <e><p><l>dirty<s n="adj"/></l><r>кір<s n="adj"/></r></p></e>  
+<e><p><l>enough<s n="adj"/></l><r>жеткілікті<s n="adj"/></r></p></e>  
   
 
 
@@ -1271,6 +1280,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>disgust<s n="vblex"/></l><r>жиіркендір<s n="v"/><s n="tv"/></r></p></e>
             
 <e><p><l>copy<s n="vblex"/></l><r>көшір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>exchange<s n="vblex"/></l><r>айырбаста<s n="v"/><s n="tv"/></r></p></e>
     
     <e><p><l>look<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
  <e><p><l>cook<s n="vblex"/></l><r>пісір<s n="v"/><s n="tv"/></r></p></e>

@@ -1627,6 +1627,9 @@ XII NUM-ROMAN ;
 тұс:тұс N1 ; ! "~near"
 орыс:орыс Natinfl ; ! "Russian"
 сан:сан N1 ; ! "amount"
+шығыс:шығыс N1 ; ! "east"
+эффект:эффект N1 ; ! "effect"
+сарапшы:сарапшы N1 ; ! "expert"
 
 картоп:картоп N1 ; ! "potato"
 қыр:қыр  N1 ; ! angle
@@ -1845,6 +1848,10 @@ cиыр еті:сиыр еті N1; !beef
 ашылым:ашылым N1; !discovery
 сарап:сарап N1; !discussion
 ауру:ауру N1; !disease
+соңы:соңы N1; !end
+қате:қате N1; !error
+тіршілік:тіршілік N1; !existense
+аумақтау:аумақтау N1; !expansion
 
 арақашықтық:арақашықтық N1; !distance
  LEXICON ProperNouns 
@@ -1916,6 +1923,7 @@ cиыр еті:сиыр еті N1; !beef
 қатал:қатал A1 ; ! "cruel"
 қисық:қисық A1 ; ! "curve"
 кір:кір A1 ; ! "dirty"
+жеткілікті:жеткілікті A1 ; ! "enough"
 
 
 
@@ -1975,6 +1983,7 @@ cиыр еті:сиыр еті N1; !beef
 дейін:дейін ADV ; ! "before"
 толықтай:толықтай ADV ; ! "completely"
 дерлік:дерлік ADV ; ! "almost"
+тіпті:тіпті ADV ; ! "even"
 
 
  LEXICON Verbs 
@@ -1987,6 +1996,7 @@ cиыр еті:сиыр еті N1; !beef
 көшір:көшір V-TV ; ! "copy" 
 ұсақта:ұсақта V-TV ; ! "crush" 
 жиіркендір:жиіркендір V-TV ; ! "disgust" 
+айырбаста:айырбаста V-TV ; ! "exchange" 
 
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"

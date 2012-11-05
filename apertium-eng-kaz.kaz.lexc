@@ -1144,6 +1144,8 @@ XII NUM-ROMAN ;
 денсаулық:денсаулық N1 ; ! "health"
 директор:директор N1 ; ! "director"
 диқан:диқан N1 ; ! "farmer"
+
+
 доллар:доллар N1 ; ! "dollar"
 доп:доп N1 ; ! "ball"
 дос:дос N1 ; ! "friend"
@@ -1630,6 +1632,8 @@ XII NUM-ROMAN ;
 шығыс:шығыс N1 ; ! "east"
 эффект:эффект N1 ; ! "effect"
 сарапшы:сарапшы N1 ; ! "expert"
+факт:факт N1 ; ! "fact"
+
 
 картоп:картоп N1 ; ! "potato"
 қыр:қыр  N1 ; ! angle
@@ -1852,6 +1856,14 @@ cиыр еті:сиыр еті N1; !beef
 қате:қате N1; !error
 тіршілік:тіршілік N1; !existense
 аумақтау:аумақтау N1; !expansion
+өтірік:өтірік N1; !false
+қорқыныш:қорқыныш N1; !fear
+әйел:әйел N1; !female
+қиял:қиял N1; !fiction
+от:от N1; !fire
+ұшу:ұшу N1; !flight
+гүл:гүл N1; !flower
+түр:түр N1; !form
 
 арақашықтық:арақашықтық N1; !distance
  LEXICON ProperNouns 
@@ -1924,6 +1936,7 @@ cиыр еті:сиыр еті N1; !beef
 қисық:қисық A1 ; ! "curve"
 кір:кір A1 ; ! "dirty"
 жеткілікті:жеткілікті A1 ; ! "enough"
+әлсіз:әлсіз A1 ; ! "feeble"
 
 
 
@@ -1948,6 +1961,7 @@ cиыр еті:сиыр еті N1; !beef
 биік:биік A1 ; ! "tall"
 қалың:қалың A1 ; ! "thick"
 ағымдық:ағымдық A1 ; ! "current" 
+алыс:алыс A1 ; ! "far" 
 
  LEXICON Adverbs
 
@@ -1984,7 +1998,7 @@ cиыр еті:сиыр еті N1; !beef
 толықтай:толықтай ADV ; ! "completely"
 дерлік:дерлік ADV ; ! "almost"
 тіпті:тіпті ADV ; ! "even"
-
+алға:алға ADV ; ! "forward"
 
  LEXICON Verbs 
 
@@ -1997,6 +2011,9 @@ cиыр еті:сиыр еті N1; !beef
 ұсақта:ұсақта V-TV ; ! "crush" 
 жиіркендір:жиіркендір V-TV ; ! "disgust" 
 айырбаста:айырбаста V-TV ; ! "exchange" 
+құла:құла V-TV ; ! "fall" 
+жұм:жұм V-TV ; ! "fold" 
+қина:қина V-TV ; ! "force" 
 
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"

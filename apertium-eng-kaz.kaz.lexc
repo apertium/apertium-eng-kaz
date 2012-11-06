@@ -892,6 +892,7 @@ LEXICON Conjunctions
 дегенмен:дегенмен CA ; ! "nevertheless"
 осы% себептен:осы% себептен CA ; ! "therefore"
 себебі:себебі CC ; ! "because"
+егер:егер CC ; ! "if"
 
 LEXICON Postpositions
 
@@ -1871,8 +1872,27 @@ cиыр еті:сиыр еті N1; !beef
 порт:порт N1; !harbour
 жарастық:жарастық N1; !harmony
 юмор:юмор N1; !humour
-
+ой:ой N1; !idea
 шөп:шөп N1; !grass
+ауру:ауру N1; !ill
+импульс:импульс N1; !impulse
+құрал:құрал N1; !instrument
+сақтандыру:сақтандыру N1; !insurance
+мүдде:мүдде N1; !interest
+өнертабыс:өнертабыс N1; !invention
+темір:темір N1; !iron
+тоңба:тоңба N1; !jelly
+саяхат:саяхат N1; !journey
+қазы:қазы N1; !judge
+түйіншек:түйіншек N1; !knot
+тері:тері N1; !leather
+хат:хат N1; !letter
+деңгей:деңгей N1; !level
+шек:шек N1; !limit
+төсем:төсем N1; !linen
+сұйықтық:сұйықтық N1; !liquid
+шығын:шығын N1; !loss
+
 
 
 
@@ -1925,6 +1945,7 @@ cиыр еті:сиыр еті N1; !beef
 арзан:арзан A1 ; ! "cheap"
 таза:таза A1 ; ! "clean"
 құрметті:құрметті A1 ; ! "dear"
+аласа:аласа A1 ; ! "low"
 терең:терең A1 ; ! "deep"
 сыпайы:сыпайы A1 ; ! "delicate"
 әр% түрлі:әр% түрлі A1 ; ! "different"
@@ -1948,6 +1969,9 @@ cиыр еті:сиыр еті N1; !beef
 кір:кір A1 ; ! "dirty"
 жеткілікті:жеткілікті A1 ; ! "enough"
 әлсіз:әлсіз A1 ; ! "feeble"
+соңғы:соңғы A1 ; ! "last"
+сол:сол A1 ; ! "left"
+
 
 
 
@@ -1973,6 +1997,7 @@ cиыр еті:сиыр еті N1; !beef
 қалың:қалың A1 ; ! "thick"
 ағымдық:ағымдық A1 ; ! "current" 
 алыс:алыс A1 ; ! "far" 
+еркін:еркін A1 ; ! "loose" 
 
  LEXICON Adverbs
 
@@ -2011,6 +2036,8 @@ cиыр еті:сиыр еті N1; !beef
 дерлік:дерлік ADV ; ! "almost"
 тіпті:тіпті ADV ; ! "even"
 алға:алға ADV ; ! "forward"
+кеш:кеш ADV ; ! "late"
+солға:солға ADV ; ! "left"
 
  LEXICON Verbs 
 
@@ -2029,6 +2056,11 @@ cиыр еті:сиыр еті N1; !beef
 жүргіз:жүргіз V-TV ; ! "guide" 
 қыз:қыз V-TV ; ! "heat" 
 көмектес:көмектес V-TV ; ! "help" 
+өс:өс V-TV ; ! "increase" 
+біріктір:біріктір V-TV ; ! "join" 
+секір:секір V-TV ; ! "jump" 
+теп:теп V-TV ; ! "kick" 
+сүй:сүй V-TV ; ! "kiss" 
 
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
@@ -2098,6 +2130,8 @@ cүй:сүй V-IV ; ! "love"
 біт:біт V-IV ; ! "complete"
 өл:өл V-IV ; ! "die"
 өс:өс V-IV ; ! "inscrease"
+келтір:келтір V-IV ; ! "lead"
+
 көрін:көрін V-IV ; ! "appear"
 жоғал:жоғал V-IV ; ! "disappear"
 оқы:оқы V-IV ; ! "study"

@@ -1864,6 +1864,17 @@ cиыр еті:сиыр еті N1; !beef
 ұшу:ұшу N1; !flight
 гүл:гүл N1; !flower
 түр:түр N1; !form
+стақан:стақан N1; !glass
+абыз:абыз N1; !grip
+топ:топ N1; !group
+бой:бой N1; !growth
+порт:порт N1; !harbour
+жарастық:жарастық N1; !harmony
+юмор:юмор N1; !humour
+
+шөп:шөп N1; !grass
+
+
 
 арақашықтық:арақашықтық N1; !distance
  LEXICON ProperNouns 
@@ -1994,6 +2005,7 @@ cиыр еті:сиыр еті N1; !beef
 жақсы:жақсы ADV ; ! "well"
 әлі:әлі ADV ; ! "still"
 анда:анда ADV ; ! "there"
+мында:мында ADV ; ! "here"
 дейін:дейін ADV ; ! "before"
 толықтай:толықтай ADV ; ! "completely"
 дерлік:дерлік ADV ; ! "almost"
@@ -2014,6 +2026,9 @@ cиыр еті:сиыр еті N1; !beef
 құла:құла V-TV ; ! "fall" 
 жұм:жұм V-TV ; ! "fold" 
 қина:қина V-TV ; ! "force" 
+жүргіз:жүргіз V-TV ; ! "guide" 
+қыз:қыз V-TV ; ! "heat" 
+көмектес:көмектес V-TV ; ! "help" 
 
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
@@ -2095,7 +2110,8 @@ cүй:сүй V-IV ; ! "love"
 іл:іл V-IV ; ! "hang"
 үйлен:үйлен V-IV ; ! "marry"
 шытынат:шытынат V-IV ; ! "crack"
-
+жауап% бер:жауап% бер V-IV ; ! "reply"
+жек% көр:жек% көр V-IV ; ! "hate"
 ұмыт:ұмыт V-IV ; ! "forget"
 ұш:ұш V-IV ; ! "fly"
 жат:жатыр Vinfl-AUX-IMPF ; ! 

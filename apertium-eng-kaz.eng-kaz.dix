@@ -1033,6 +1033,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>flower<s n="n"/></l><r>гүл<s n="n"/></r></p></e>
 <e><p><l>flower<s n="n"/></l><r>гүл<s n="n"/></r></p></e>
 <e><p><l>form<s n="n"/></l><r>түр<s n="n"/></r></p></e>
+<e><p><l>glass<s n="n"/></l><r>стақан<s n="n"/></r></p></e>
+<e><p><l>grass<s n="n"/></l><r>шөп<s n="n"/></r></p></e>
+<e><p><l>grip<s n="n"/></l><r>абыз<s n="n"/></r></p></e>
+<e><p><l>group<s n="n"/></l><r>топ<s n="n"/></r></p></e>
+<e><p><l>growth<s n="n"/></l><r>бой<s n="n"/></r></p></e>
+<e><p><l>harbour<s n="n"/></l><r>порт<s n="n"/></r></p></e>
+<e><p><l>harmony<s n="n"/></l><r>жарастық<s n="n"/></r></p></e>
+<e><p><l>humour<s n="n"/></l><r>юмор<s n="n"/></r></p></e>
 
 
 
@@ -1110,6 +1118,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>well<s n="adv"/></l><r>жақсы<s n="adv"/></r></p></e>
     <e><p><l>still<s n="adv"/></l><r>әлі<s n="adv"/></r></p></e>
     <e><p><l>there<s n="adv"/></l><r>анда<s n="adv"/></r></p></e>
+<e><p><l>here<s n="adv"/></l><r>мында<s n="adv"/></r></p></e>
+
 <e><p><l>completely<s n="adv"/></l><r>толықтай<s n="adv"/></r></p></e>
 <e><p><l>almost<s n="adv"/></l><r>дерлік<s n="adv"/></r></p></e>
 <e><p><l>even<s n="adv"/></l><r>тіпті<s n="adv"/></r></p></e>
@@ -1324,6 +1334,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
   <e><p><l>let<s n="vblex"/></l><r>қой<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>keep<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>reply<s n="vblex"/></l><r>жауап<b/>бер<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>hate<s n="vblex"/></l><r>жек<b/>көр<s n="v"/><s n="iv"/></r></p></e>
+ <e><p><l>guide<s n="vblex"/></l><r>жүргіз<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>want<s n="vblex"/></l><r>кел<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check, kel = 'come' -->
     <!-- will require transfer rules for correct verb form -->
     <e><p><l>try<s n="vblex"/></l><r>тырыс<s n="v"/><s n="iv"/></r></p></e>
@@ -1332,6 +1344,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>hear<s n="vblex"/></l><r>есті<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>listen<s n="vblex"/></l><r>тыңда<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>write<s n="vblex"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>help<s n="vblex"/></l><r>көмектес<s n="v"/><s n="iv"/></r></p></e>
+    
     <!-- hrm -->
     <e><p><l>must<s n="vblex"/></l><r>керек<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>eat<s n="vblex"/></l><r>же<s n="v"/><s n="tv"/></r></p></e>
@@ -1341,7 +1355,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>walk<g><b/>around</g><s n="vblex"/></l><r>серуенде<s n="v"/><s n="iv"/></r></p></e>
     <!-- FIXME: hrm, something's not right here -->
     <e r="LR"><p><l>think<g><b/>that</g><s n="vblex"/></l><r>ойла<s n="v"/><s n="iv"/></r></p></e>
-
+<e><p><l>heat<s n="vblex"/></l><r>қыз<s n="v"/><s n="iv"/></r></p></e>
+    
     <e><p><l>go<s n="vblex"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>start<s n="vblex"/></l><r>баста<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>stand<s n="vblex"/></l><r>тұр<s n="v"/><s n="iv"/></r></p></e>

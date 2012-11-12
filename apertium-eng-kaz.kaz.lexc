@@ -913,11 +913,11 @@ LEXICON Postpositions
 қарай:қарай POST ; ! "toward" + DAT
 
 бұрын:бұрын POST ; ! "earlier than, раньше" + ABL ! FIXME: check case (nominative is for sure, maybe some other meaming if it comes after n.abl.)
-
+астынан:астынан POST ; ! "from below" + DAT
 арналған:арналған POST ; ! "intended for" + DAT
-
+секілді:секілді POST ; ! "similarly to" + DAT
 бірге:бірге POST ; ! "with" + INS
-туралы:туралы POST ; ! "туралы" + INS
+туралы:туралы POST ; ! "about" + INS
 
 LEXICON Postadverbs 
 
@@ -1145,6 +1145,9 @@ XII NUM-ROMAN ;
 денсаулық:денсаулық N1 ; ! "health"
 директор:директор N1 ; ! "director"
 диқан:диқан N1 ; ! "farmer"
+минут:минут N1 ; ! "minute"
+секунд:секунд N1 ; ! "second"
+сағат:сағат N1 ; ! "o'clock"
 
 
 доллар:доллар N1 ; ! "dollar"
@@ -1624,6 +1627,7 @@ XII NUM-ROMAN ;
 аст:аст N1 ; ! "under"
 жан:жан N1 ; ! "next to"
 үст:үст N1 ; ! "top"
+үст:үст N1 ; ! "above"
 жан:жан N1 ; ! "next to"
 іш:іш N1 ; ! "inside,stomach"
 бой:бой N1 ; ! "length, height"
@@ -1892,6 +1896,13 @@ cиыр еті:сиыр еті N1; !beef
 төсем:төсем N1; !linen
 сұйықтық:сұйықтық N1; !liquid
 шығын:шығын N1; !loss
+жаттығу:жаттығу N1; !exercise
+сағат:сағат N1; !o'clock
+күлімсіреу:күлімсіреу N1; !smile
+жалғасы:жалғасы N1; !continue
+тұрғын:тұрғын N1; !citizien
+Қазақстан:Қазақстан N1; !Kazakhstan
+Азия:Азия N1; !Asia
 
 
 
@@ -2038,6 +2049,8 @@ cиыр еті:сиыр еті N1; !beef
 алға:алға ADV ; ! "forward"
 кеш:кеш ADV ; ! "late"
 солға:солға ADV ; ! "left"
+түсте:түсте ADV ; ! "afternoon"
+секілді:секілді ADV ; ! "similarly"
 
  LEXICON Verbs 
 
@@ -2061,19 +2074,23 @@ cиыр еті:сиыр еті N1; !beef
 секір:секір V-TV ; ! "jump" 
 теп:теп V-TV ; ! "kick" 
 сүй:сүй V-TV ; ! "kiss" 
+қала:қала V-TV ; ! "want" 
 
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
 бар:бар V-IV ; ! "go"
+бар:бар V-IV ; ! "have"
 бер:бер V-IV ; ! "give"
+өмір% сүр:өмір% сүр V-TV ; ! "live"
 баста:баста V-TV ; ! "start,begin"
 біл:біл V-TV ; ! "know,understand,learn"
 біт:біт V-IV ; ! "terminate"
 бол:бол V-IV ; ! "be/become"
 бол:бол V-IV ; ! "be/become"
-есті:есті V-TV ; ! "hear"
-жаз:жаз V-TV ; ! "write"
+есті:есті V-IV ; ! "hear"
+жаз:жаз V-IV ; ! "write"
+жүргіз:жүргіз V-IV ; ! "drive"
 жақсы% көр:жақсы% көр V-TV ; ! "to like"
 жап:жап V-TV ; ! "close"
 жаса:жаса V-TV ; ! "do,make"
@@ -2083,6 +2100,7 @@ cиыр еті:сиыр еті N1; !beef
 же:же V-TV ; ! "eat"
 жүгір:жүгір V-IV ; ! "run"
 жүр:жүр V-IV ; ! "move"
+жалғастыр:жалғастыр V-TV ; ! "continue"
 жыла:жыла V-TD ; ! "cry,weep"
 жыми:жыми V-IV ; ! "to smile"                            FIXME:check
 ізде:ізде V-TV ; ! "seek, look for"
@@ -2131,6 +2149,8 @@ cүй:сүй V-IV ; ! "love"
 өл:өл V-IV ; ! "die"
 өс:өс V-IV ; ! "inscrease"
 келтір:келтір V-IV ; ! "lead"
+өндір:өндір V-TV ; ! "produce"
+аш:аш V-TV ; ! "discover"
 
 көрін:көрін V-IV ; ! "appear"
 жоғал:жоғал V-IV ; ! "disappear"

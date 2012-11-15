@@ -1452,6 +1452,7 @@ XII NUM-ROMAN ;
 тон:тон N1 ; ! "robe"
 торғай:торғай N1 ; ! "sparrow"
 ту:ту N1 ; ! "banner"
+ат:ат N1 ; ! "name"
 турнир:турнир N1 ; ! "tournament"
 туыс:туыс N1 ; ! "relative"
 тігінші:тігінші N1 ; ! "tailor"
@@ -1828,7 +1829,7 @@ cиыр еті:сиыр еті N1; !beef
 жұмыс:жұмыс N1; !work
 саябақ:саябақ N1; !park
 жұмыс:жұмыс N1; !job
-сан:сан N1; !number
+
 зерттеу:зерттеу N1; !research
 фильм:фильм N1; !film
 тіл:тіл N1; !language
@@ -1903,6 +1904,8 @@ cиыр еті:сиыр еті N1; !beef
 тұрғын:тұрғын N1; !citizien
 Қазақстан:Қазақстан N1; !Kazakhstan
 Азия:Азия N1; !Asia
+халық:халық N1; !nation
+жазбахат:жазбахат N1; !note
 
 
 
@@ -1916,6 +1919,7 @@ cиыр еті:сиыр еті N1; !beef
 Мэри:Мэри NP-ANT-F; ! "Mary" (English)
 
  LEXICON Adjectives
+табиғи:табиғи A1 ; ! "natural"
 
 бар:бар A3 ; ! ""
 мүмкін:мүмкін A3 ; ! "possible"
@@ -1983,6 +1987,7 @@ cиыр еті:сиыр еті N1; !beef
 соңғы:соңғы A1 ; ! "last"
 сол:сол A1 ; ! "left"
 
+бір% қалыпты:бір% қалыпты A1 ; ! "normal"
 
 
 
@@ -2009,7 +2014,8 @@ cиыр еті:сиыр еті N1; !beef
 ағымдық:ағымдық A1 ; ! "current" 
 алыс:алыс A1 ; ! "far" 
 еркін:еркін A1 ; ! "loose" 
-
+тар:тар A1 ; ! "narrow" 
+маңызды:маңызды A1 ; ! "necessary" 
  LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"
@@ -2075,6 +2081,7 @@ cиыр еті:сиыр еті N1; !beef
 теп:теп V-TV ; ! "kick" 
 сүй:сүй V-TV ; ! "kiss" 
 қала:қала V-TV ; ! "want" 
+керек:керек V-TV ; ! "need"
 
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"

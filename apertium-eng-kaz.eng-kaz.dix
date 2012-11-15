@@ -180,7 +180,8 @@
     <e r="LR"><p><l>during<s n="pr"/></l><r><s n="post"/></r></p></e> -->
 
     <!-- Раздел: Имя Существительное -->
-
+<e><p><l>name<s n="n"/></l><r>ат<s n="n"/></r></p></e>
+    
     <e><p><l>rating<s n="n"/></l><r>рейтинг<s n="n"/></r></p></e>
     <e><p><l>risk<s n="n"/></l><r>тәуекелдік<s n="n"/></r></p></e>
     <e><p><l>bank<s n="n"/></l><r>банк<s n="n"/></r></p></e>
@@ -951,6 +952,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>insect<s n="n"/></l><r>жәндік<s n="n"/></r></p></e>
 <e><p><l>rat<s n="n"/></l><r>егеуқұйрық<s n="n"/></r></p></e>
 <e><p><l>fruit<s n="n"/></l><r>жеміс<s n="n"/></r></p></e>
+<e><p><l>note<s n="n"/></l><r>жазбахат<s n="n"/></r></p></e>
 
 <e><p><l>meal<s n="n"/></l><r>ас<s n="n"/></r></p></e>
 <e><p><l>milk<s n="n"/></l><r>сүт<s n="n"/></r></p></e>
@@ -1071,6 +1073,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>citizien<s n="n"/></l><r>тұрғын<s n="n"/></r></p></e>
 <e><p><l>Kazakhstan<s n="n"/></l><r>Қазақстан<s n="n"/></r></p></e>
 <e><p><l>Asia<s n="n"/></l><r>Азия<s n="n"/></r></p></e>
+<e><p><l>nation<s n="n"/></l><r>халық<s n="n"/></r></p></e>
+<e><p><l>noise<s n="n"/></l><r>дыбыс<s n="n"/></r></p></e>
 
 
 <!--<e><p><l>abroad<s n="n"/></l><r>тыс<s n="n"/></r></p></e>-->
@@ -1179,6 +1183,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>green<s n="adj"/><s n="sint"/></l><r>жасыл<s n="adj"/></r></p></e>
     <e><p><l>white<s n="adj"/><s n="sint"/></l><r>ақ<s n="adj"/></r></p></e>
    <e><p><l>grey<s n="adj"/><s n="sint"/></l><r>сұр<s n="adj"/></r></p></e>
+<e><p><l>natural<s n="adj"/></l><r>табиғи<s n="adj"/></r></p></e>
 
     <e><p><l>dark<s n="adj"/></l><r>қараңғы<s n="adj"/></r></p></e>
 
@@ -1202,6 +1207,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>careful<s n="adj"/></l><r>ақырын<s n="adj"/></r></p></e>
     <e><p><l>hard<s n="adj"/></l><r>қатты<s n="adj"/></r></p></e>
  <e><p><l>able<s n="adj"/></l><r>алғыр<s n="adj"/></r></p></e>
+<e><p><l>necessary<s n="adj"/><s n="sint"/></l><r>маңызды<s n="adj"/></r></p></e>
+ 
  <e><p><l>against<s n="adj"/><s n="sint"/></l><r>қарсы<s n="adj"/></r></p></e>
    <e><p><l>angry<s n="adj"/></l><r>ашуқор<s n="adj"/></r></p></e>
       <e><p><l>awake<s n="adj"/></l><r>сергек<s n="adj"/></r></p></e>
@@ -1252,12 +1259,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
    <e><p><l>curve<s n="adj"/></l><r>қисық<s n="adj"/></r></p></e>  
 <e><p><l>dirty<s n="adj"/></l><r>кір<s n="adj"/></r></p></e>  
 <e><p><l>enough<s n="adj"/></l><r>жеткілікті<s n="adj"/></r></p></e>  
-<e><p><l>far<s n="adj"/></l><r>алыс<s n="adj"/></r></p></e>  
+<e><p><l>far<s n="adj"/></l><r>алыс<s n="adj"/></r></p></e>
   <e><p><l>feeble<s n="adj"/></l><r>әлсіз<s n="adj"/></r></p></e>
   <e><p><l>last<s n="adj"/></l><r>соңғы<s n="adj"/></r></p></e>
    <e><p><l>loose<s n="adj"/></l><r>еркін<s n="adj"/></r></p></e>
    <e><p><l>loud<s n="adj"/></l><r>қатты<s n="adj"/></r></p></e>
-   <e><p><l>low<s n="adj"/></l><r><s n="adj"/></r></p></e>
+   <e><p><l>low<s n="adj"/></l><r>аласа<s n="adj"/></r></p></e>
+   <e><p><l>narrow<s n="adj"/></l><r>тар<s n="adj"/></r></p></e>
+   <e><p><l>normal<s n="adj"/></l><r>бір<g><b/>қалыпты</g><s n="adj"/></r></p></e>
     
 
 
@@ -1324,8 +1333,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>do<s n="vblex"/></l><r>істе<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>make<s n="vblex"/></l><r>жаса<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>continue<s n="vblex"/></l><r>жалғастыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>need<s n="vblex"/></l><r>керек<s n="v"/><s n="tv"/></r></p></e>
     
-    <e><p><l>come<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>build<s n="vblex"/></l><r>құр<s n="v"/><s n="iv"/></r></p></e>
     <!-- see above: "can" has several translations I guess... -->
     <e><p><l>can<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>

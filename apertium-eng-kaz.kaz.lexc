@@ -1625,11 +1625,14 @@ XII NUM-ROMAN ;
 алд:ал%{д%} N1 ; ! "front"
 ара:ара N1 ; ! "among"
 арт:арт N1 ; ! "back"
+арт:арт N1 ; ! "behind"
 аст:аст N1 ; ! "under"
 жан:жан N1 ; ! "next to"
 үст:үст N1 ; ! "top"
+үст:үст N1 ; ! "over"
 үст:үст N1 ; ! "above"
 жан:жан N1 ; ! "next to"
+сырт:сырт N1 ; ! "out"
 іш:іш N1 ; ! "inside,stomach"
 бой:бой N1 ; ! "length, height"
 тұс:тұс N1 ; ! "~near"
@@ -1639,7 +1642,7 @@ XII NUM-ROMAN ;
 эффект:эффект N1 ; ! "effect"
 сарапшы:сарапшы N1 ; ! "expert"
 факт:факт N1 ; ! "fact"
-
+ие:ие N1 ; ! "owner"
 
 картоп:картоп N1 ; ! "potato"
 қыр:қыр  N1 ; ! angle
@@ -1906,11 +1909,40 @@ cиыр еті:сиыр еті N1; !beef
 Азия:Азия N1; !Asia
 халық:халық N1; !nation
 жазбахат:жазбахат N1; !note
-
-
-
-
+қадағалау:қадағалау N1; !observation
+әрекет:әрекет N1; !operation
+пікір:пікір N1; !opinion
+ұйым:ұйым N1; !organization
+бедер:бедер N1; !ornament
+бет:бет N1; !page
+ауру:ауру N1; !pain
 арақашықтық:арақашықтық N1; !distance
+параллель:параллель N1; !parallel
+бөлік:бөлік N1; !part
+ескі:ескі N1; !past
+төлемақы:төлемақы N1; !payment
+қарындаш:қарындаш N1; !pencil
+паштет:паштет N1; !paste
+түйреуіш:түйеруіш N1; !pin
+құбыр:құбыр N1; !pipe
+орын:орын N1; !place
+қондырғы:қондырғы N1; !plant
+ләззат:ләззат N1; !pleasure
+соқа:соқа N1; !plow
+нүкте:нүкте N1; !point
+у:у N1; !poison
+сыр:сыр N1; !polish
+портье:портье N1; !porter
+позиция:позиция N1; !position
+ұнтақ:ұнтақ N1; !powder
+сыйлық:сыйлық N1; !present
+баға:баға N1; !price
+үдеріс:үдеріс N1; !process
+пайда:пайда N1; !profit
+қарасөз:қарасөз N1; !prose
+қарсылық:қарсылық N1; !protest
+жаза:жаза N1; !punishment
+
  LEXICON ProperNouns 
 
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
@@ -1986,7 +2018,10 @@ cиыр еті:сиыр еті N1; !beef
 әлсіз:әлсіз A1 ; ! "feeble"
 соңғы:соңғы A1 ; ! "last"
 сол:сол A1 ; ! "left"
-
+физикалық:физикалық A1 ; ! "physical"
+саяси:саяси A1 ; ! "political"
+бейшара:бейшара A1 ; ! "poor"
+мүмкін:мүмкін A1 ; ! "possible"
 бір% қалыпты:бір% қалыпты A1 ; ! "normal"
 
 
@@ -2016,6 +2051,10 @@ cиыр еті:сиыр еті N1; !beef
 еркін:еркін A1 ; ! "loose" 
 тар:тар A1 ; ! "narrow" 
 маңызды:маңызды A1 ; ! "necessary" 
+жеке:жеке A1 ; ! "private" 
+ықтимал:ықтимал A1 ; ! "probable" 
+
+
  LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"
@@ -2057,10 +2096,12 @@ cиыр еті:сиыр еті N1; !beef
 солға:солға ADV ; ! "left"
 түсте:түсте ADV ; ! "afternoon"
 секілді:секілді ADV ; ! "similarly"
-
+ғана:ғана ADV ; ! "only"
+қарсы:қарсы ADV ; ! "opposite"
  LEXICON Verbs 
-
-сатып% ал:сатып% ал V-TV ; ! "buy" 
+тапсырыс% бер:тапсырыс% бер V-TV ; ! "order" 
+баспаға% шығар:баспаға% шығар V-TV ; ! "print" 
+сатып% ал:сатып% ал V-IV ; ! "buy" 
 төбелес:төбелес V-TV ; ! "fight" 
 жүз:жүз V-TV ; ! "swim" 
 басқар:басқар V-TV ; ! "control" 
@@ -2082,7 +2123,8 @@ cиыр еті:сиыр еті N1; !beef
 сүй:сүй V-TV ; ! "kiss" 
 қала:қала V-TV ; ! "want" 
 керек:керек V-TV ; ! "need"
-
+ұсын:ұсын V-TV ; ! "offer"
+аш:аш V-TV ; ! "open"
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
@@ -2135,6 +2177,7 @@ cиыр еті:сиыр еті N1; !beef
 тырыс:тырыс V-IV ; ! "to try"
 ұйықта:ұйықта V-IV ; ! "sleep" 
 ұна:ұна V-TD ; ! "be pleased with"
+итер:итер V-TD ; ! "push"
 ұста:ұста V-IV ; ! "keep"
 қой:қой V-IV ; ! "let"
 сал:сал V-IV ; ! "put"
@@ -2158,7 +2201,7 @@ cүй:сүй V-IV ; ! "love"
 келтір:келтір V-IV ; ! "lead"
 өндір:өндір V-TV ; ! "produce"
 аш:аш V-TV ; ! "discover"
-
+сал:сал V-TV ; ! "paint"
 көрін:көрін V-IV ; ! "appear"
 жоғал:жоғал V-IV ; ! "disappear"
 оқы:оқы V-IV ; ! "study"
@@ -2170,6 +2213,7 @@ cүй:сүй V-IV ; ! "love"
 жөнде:жөнде V-IV ; ! "fix"
 іл:іл V-IV ; ! "hang"
 үйлен:үйлен V-IV ; ! "marry"
+тарт:тарт V-TV ; ! "pull"
 шытынат:шытынат V-IV ; ! "crack"
 жауап% бер:жауап% бер V-IV ; ! "reply"
 жек% көр:жек% көр V-IV ; ! "hate"
@@ -2207,6 +2251,7 @@ cүй:сүй V-IV ; ! "love"
 жарайды:жарайды INTERJ ; ! "okay / it'll do"
 жоқ:жоқ INTERJ ; ! "no"
 иә:иә INTERJ ; ! "yes"
+өтінем:өтінем INTERJ ; ! "please"
 мақұл:мақұл INTERJ ; ! "fine/okay"
 мейлі:мейлі INTERJ ; ! "okay/fine"
 мына:мына INTERJ ; ! "here is, вот"
@@ -2219,7 +2264,6 @@ cүй:сүй V-IV ; ! "love"
 қане:қане INTERJ ; ! "where"           ! interrog. interjection (question form of "вот")
 әйе:әйе INTERJ ; ! "yes"
 әлбетте:әлбетте INTERJ ; ! "of course"
-
 
 !=====================!
  LEXICON Abbreviations
@@ -2298,3 +2342,4 @@ cүй:сүй V-IV ; ! "love"
 /%<sent%>:/ # ;
 
 <(%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9)+>  DIGITLEX ; ! Use/Circ
+

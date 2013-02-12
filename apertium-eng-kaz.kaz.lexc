@@ -1664,6 +1664,7 @@ XII NUM-ROMAN ;
   бәтеңке:бәтеңке N1 ; !boot
   бөтелке:бөтелке N1 ; !bottle
  ми:ми N1 ; !brain
+ жаңбыр:жаңбыр N1 ; !rain
  тежегіш:тежегіш N1 ; !brake
  кірпіш:кірпіш N1 ; !brick
 көпір:көпір N1 ; !bridge
@@ -1942,7 +1943,44 @@ cиыр еті:сиыр еті N1; !beef
 қарасөз:қарасөз N1; !prose
 қарсылық:қарсылық N1; !protest
 жаза:жаза N1; !punishment
-
+таңдама:таңдама N1; !range
+жылдамдық:жылдамдық N1; !rate
+сәуле:сәуле N1; !ray
+реакция:реакция N1; !reaction
+себеп:себеп N1; !reason
+өкініш:өкініш N1; !regret
+қатынас:қатынас N1; !relation
+өтініш:өтініш N1; !request
+құрмет:құрмет N1; !respect
+демалыс:демалыс N1; !rest
+марапат:марапат N1; !reward
+ритм:ритм N1; !rhythm
+түбір:түбір N1; !root
+ереже:ереже N1; !rule
+көлем:көлем N1; !scale
+орындық:орындық N1; !seat
+секретарь:секретарь N1; !secretary
+тұқым:тұқым N1; !seed
+іріктеу:іріктеу N1; !selection
+сезім:сезім N1; !sense
+жыныс:жыныс N1; !sex
+көлеңке:көлеңке N1; !shade
+шок:шок N1; !shock
+өлшем:өлшем N1; !size
+еңіс:еңіс N1; !slope
+иіс:иіс N1; !smell
+қоғам:қоғам N1; !society
+ғарыш:ғарыш N1; !space
+арыз:арыз N1; !statement
+бу:бу N1; !steam
+қадам:қадам N1; !step
+тас:тас N1; !stone
+дүкен:дүкен N1; !store
+субстанция:субстанция N1; !substance
+құрылым:құрылым N1; !structure
+болжам:болжам N1; !suggestion
+көмек:көмек N1; !support
+сюрприз:сюрприз N1; !surprise
  LEXICON ProperNouns 
 
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
@@ -1952,12 +1990,13 @@ cиыр еті:сиыр еті N1; !beef
 
  LEXICON Adjectives
 табиғи:табиғи A1 ; ! "natural"
-
+жұмсақ:жұмсақ A1; !soft
 бар:бар A3 ; ! ""
 мүмкін:мүмкін A3 ; ! "possible"
 анық:анық A1 ; ! "clear;clearly"
 ақ:ақ A1 ; ! "white"
 ақырын:ақырын A1 ; ! "slow"
+тосын:тосын A1 ; ! "sudden"
 ескі:ескі A1 ; ! "old"
 жасыл:жасыл A1 ; ! "green"
 жақсы:жақсы A1 ; ! "good"
@@ -1983,6 +2022,7 @@ cиыр еті:сиыр еті N1; !beef
 алғыр:алғыр A1 ; ! "able"
 қарсы:қарсы A1 ; ! "against"
 ашуқор:ашуқор A1 ; ! "angry"
+оғаш:оғаш A1 ; ! "strange"
 сергек:сергек A1 ; ! "awake"
 химиялық:химиялық A1 ; ! "chemical"
 қайнап% тұрған:қайнап% тұрған A1 ; ! "boiling"
@@ -2002,6 +2042,7 @@ cиыр еті:сиыр еті N1; !beef
 қоңыр:қоңыр A1 ; ! "brown"
 үлкен:үлкен A1 ; ! "large"
 бақытты:бақытты A1 ; ! "happy"
+ерекше:ерекше A1 ; ! "special"
 ақырын:ақырын A1 ; ! "quiet"
 ақырын:ақырын A1 ; ! "careful"
 қатты:қатты A1 ; ! "hard"
@@ -2022,10 +2063,13 @@ cиыр еті:сиыр еті N1; !beef
 саяси:саяси A1 ; ! "political"
 бейшара:бейшара A1 ; ! "poor"
 мүмкін:мүмкін A1 ; ! "possible"
+өткір:өткір A1 ; ! "sharp"
+қысқа:қысқа A1 ; ! "short"
+тегіс:тегіс A1 ; ! "smooth"
 бір% қалыпты:бір% қалыпты A1 ; ! "normal"
-
-
-
+күшті:күшті A1 ; ! "strong"
+түзу:түзу A1 ; ! "straight"
+қатты:қатты A1 ; ! "stiff"
 есті:есті A1 ; ! "conscious"
 ерте:ерте A1 ; ! "early"
 созымтал:созымтал A1 ; ! "elastic"
@@ -2053,8 +2097,17 @@ cиыр еті:сиыр еті N1; !beef
 маңызды:маңызды A1 ; ! "necessary" 
 жеке:жеке A1 ; ! "private" 
 ықтимал:ықтимал A1 ; ! "probable" 
-
-
+дайын:дайын A1 ; ! "ready" 
+жүйелі:жүйелі A1 ; ! "regular"
+жауапты:жауапты A1 ; ! "responsible"
+бұдыр:бұдыр A1 ; ! "rough"
+дөңгелек:дөңгелек A1 ; ! "round"
+мұңды:мұңды A1 ; ! "sad"
+қауіпсіз:қауіпсіз A1 ; ! "safe"
+бірдей:бірдей A1 ; ! "same"
+тиянақты:тиянақты A1 ; ! "serious"
+қарапайым:қарапайым A1 ; ! "simple"
+бүтін:бүтін A1 ; ! "solid"
  LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"
@@ -2075,6 +2128,8 @@ cиыр еті:сиыр еті N1; !beef
 қазір:қазір ADV-WITH-KI ; ! "now > the one now"
 күнде:күнде ADV ; ! "everyday"
 тез:тез ADV ; ! "quickly"
+тез:тез ADV ; ! "quick"
+жеткілікті:жеткілікті ADV ; ! "quite"
 мүмкін:мүмкін ADV ; ! "probably"
 барлық% жерде: барлық% жерде ADV ; ! "everywhere"
 баяу:баяу ADV ; ! "slowly"
@@ -2117,7 +2172,9 @@ cиыр еті:сиыр еті N1; !beef
 қыз:қыз V-TV ; ! "heat" 
 көмектес:көмектес V-TV ; ! "help" 
 өс:өс V-TV ; ! "increase" 
-біріктір:біріктір V-TV ; ! "join" 
+біріктір:біріктір V-TV ; ! "join"
+сындыр:сындыр V-TV ; ! "smash" 
+сілкіт:сілкіт V-TV ; ! "shake" 
 секір:секір V-TV ; ! "jump" 
 теп:теп V-TV ; ! "kick" 
 сүй:сүй V-TV ; ! "kiss" 
@@ -2139,14 +2196,19 @@ cиыр еті:сиыр еті N1; !beef
 бол:бол V-IV ; ! "be/become"
 есті:есті V-IV ; ! "hear"
 жаз:жаз V-IV ; ! "write"
+ұрла:ұрла V-IV ; ! "steel"
 жүргіз:жүргіз V-IV ; ! "drive"
 жақсы% көр:жақсы% көр V-TV ; ! "to like"
 жап:жап V-TV ; ! "close"
+жүз:жүз V-TV ; ! "sail"
+сырғана:сырғана V-TV ; ! "slip"
 жаса:жаса V-TV ; ! "do,make"
 жасыр:жасыр V-TD ; ! "conceal,hide"
 жасырын:жасырын V-IV ; ! "hide oneself"
 жат:жат V-IV ; ! "lie"
-же:же V-TV ; ! "eat"
+ажырат:ажырат V-TV ; ! "separate"
+шек:шек V-TV ; ! "smoke"
+же:же V-IV ; ! "eat"
 жүгір:жүгір V-IV ; ! "run"
 жүр:жүр V-IV ; ! "move"
 жалғастыр:жалғастыр V-TV ; ! "continue"
@@ -2157,9 +2219,14 @@ cиыр еті:сиыр еті N1; !beef
 іш:іш V-TV ; ! "drink"
 қара:қара V-TV ; ! "look at"
 кел:кел V-IV ; ! "come"
-кел:кел V-IV ; ! "come"
+сияқтан:сияқтан V-TV ; ! "seem"
 кет:кет V-IV ; ! "leave"
 көр:көр V-TV ; ! "see"
+тік:тік V-TV ; ! "stitch"
+жабыстыр:жабыстыр V-TV ; ! "stick"
+соз:соз V-TV ; ! "stretch"
+көр:көр V-IV ; ! "see"
+тоқта:тоқта V-IV ; ! "stop"
 күл:күл V-IV ; ! "laugh"
 қыл:қыл V-TV ; ! "do"
 ойла:ойла V-TV ; ! "think"
@@ -2178,9 +2245,11 @@ cиыр еті:сиыр еті N1; !beef
 ұйықта:ұйықта V-IV ; ! "sleep" 
 ұна:ұна V-TD ; ! "be pleased with"
 итер:итер V-TD ; ! "push"
+ірікте:ірікте V-TD ; ! "sort"
 ұста:ұста V-IV ; ! "keep"
 қой:қой V-IV ; ! "let"
 сал:сал V-IV ; ! "put"
+
 айт:айт V-TV ; ! "сказать,говорить,рассказывать"
 ал:ал V-TV ; ! "take"
 жібер:жібер V-TV ; ! "send"
@@ -2194,13 +2263,18 @@ cиыр еті:сиыр еті N1; !beef
 бол:бол V-IV ; ! "1. быть"
 кұр:құр V-IV ; ! "build"
 ал:ал V-IV ; ! "take"
-cүй:сүй V-IV ; ! "love"
+cүй:сүй V-TV ; ! "love"
+түшкір:түшкір V-TV ; ! "sneeze"
 біт:біт V-IV ; ! "complete"
 өл:өл V-IV ; ! "die"
 өс:өс V-IV ; ! "inscrease"
 келтір:келтір V-IV ; ! "lead"
 өндір:өндір V-TV ; ! "produce"
 аш:аш V-TV ; ! "discover"
+сыла:сыла V-TV ; ! "rub"
+жаз:жаз V-TV ; ! "record"
+жап:жап V-TV ; ! "shut"
+домала:домала V-TV ; ! "roll"
 сал:сал V-TV ; ! "paint"
 көрін:көрін V-IV ; ! "appear"
 жоғал:жоғал V-IV ; ! "disappear"

@@ -1445,7 +1445,7 @@ XII NUM-ROMAN ;
 теңіз:теңіз N1 ; ! "sea"
 тиын:тиын N1 ; ! "penny"
 тиін:тиін N1 ; ! "squirrel"
-товар:товар N1 ; ! "goods"
+товар:товар N1 ; ! "good"
 тозақ:тозақ N1 ; ! "hell"
 тозаң:тозаң N1 ; ! "dust"
 той:той N1 ; ! "feast"
@@ -1626,6 +1626,7 @@ XII NUM-ROMAN ;
 ара:ара N1 ; ! "among"
 арт:арт N1 ; ! "back"
 арт:арт N1 ; ! "behind"
+дейін:дейін N1 ; ! "till"
 аст:аст N1 ; ! "under"
 жан:жан N1 ; ! "next to"
 үст:үст N1 ; ! "top"
@@ -1981,6 +1982,24 @@ cиыр еті:сиыр еті N1; !beef
 болжам:болжам N1; !suggestion
 көмек:көмек N1; !support
 сюрприз:сюрприз N1; !surprise
+салық:салық N1; !tax
+тенденция:тенденция N1; !tendency
+тест:тест N1; !test
+теория:теория N1; !theory
+машина:машина N1; !machine
+боран:боран N1; !thunder
+дөңгелек:дөңгелек N1; !tire
+шың:шың N1; !top
+сауда:сауда N1; !trade
+көлік:көлік N1; !transport
+фокус:фокус N1; !trick
+қиыншылық:қиыншылық N1; !trouble
+шындық:шындық N1; !true
+бірлік:бірлік N1; !unit
+қабырға:қабырға N1; !wall
+толқын:толқын N1; !wave
+жол:жол N1; !way
+батыс:батыс N1; !west
  LEXICON ProperNouns 
 
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
@@ -1999,7 +2018,7 @@ cиыр еті:сиыр еті N1; !beef
 тосын:тосын A1 ; ! "sudden"
 ескі:ескі A1 ; ! "old"
 жасыл:жасыл A1 ; ! "green"
-жақсы:жақсы A1 ; ! "good"
+тығыз:тығыз A1 ; ! "tight"
 жақын:жақын A1 ; ! "close"
 жаңа:жаңа A1 ; ! "new"
 жылы:жылы A1 ; ! "warm"
@@ -2009,6 +2028,8 @@ cиыр еті:сиыр еті N1; !beef
 сары:сары A1 ; ! "yellow"
 суық:суық A1 ; ! "cold"
 қара:қара A1 ; ! "black"
+су:су  A1 ; ! "wet"
+кең:кең A1 ; ! "wide"
 сұр:сұр A1 ; ! "grey"
 өлі:өлі A1 ; ! "dead"
 қараңғы:қараңғы A1 ; ! "dark"
@@ -2016,6 +2037,7 @@ cиыр еті:сиыр еті N1; !beef
 қараңғы:қараңғы A1 ; ! "dark brown?"
 қуанышты:қуанышты A1 ; ! "glad"
 қызыл:қызыл A1 ; ! "red"
+жас:жас A1 ; ! "young"
 үлкен:үлкен A1 ; ! "big"
 әдемі:әдемі A1 ; ! "beautiful"
 жақсы:жақсы A1 ; ! "nice"
@@ -2034,6 +2056,7 @@ cиыр еті:сиыр еті N1; !beef
 құрметті:құрметті A1 ; ! "dear"
 аласа:аласа A1 ; ! "low"
 терең:терең A1 ; ! "deep"
+
 сыпайы:сыпайы A1 ; ! "delicate"
 әр% түрлі:әр% түрлі A1 ; ! "different"
 электрикалық:электрикалық A1 ; ! "electric"
@@ -2108,6 +2131,9 @@ cиыр еті:сиыр еті N1; !beef
 тиянақты:тиянақты A1 ; ! "serious"
 қарапайым:қарапайым A1 ; ! "simple"
 бүтін:бүтін A1 ; ! "solid"
+дәмді:дәмді A1 ; ! "taste"
+жіңішке:жіңішке A1 ; ! "thin"
+
  LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"
@@ -2174,18 +2200,22 @@ cиыр еті:сиыр еті N1; !beef
 өс:өс V-TV ; ! "increase" 
 біріктір:біріктір V-TV ; ! "join"
 сындыр:сындыр V-TV ; ! "smash" 
+бұр:бұр V-TV ; ! "turn" 
 сілкіт:сілкіт V-TV ; ! "shake" 
 секір:секір V-TV ; ! "jump" 
+қолдан:қолдан V-TV ; ! "use" 
 теп:теп V-TV ; ! "kick" 
 сүй:сүй V-TV ; ! "kiss" 
 қала:қала V-TV ; ! "want" 
 керек:керек V-TV ; ! "need"
 ұсын:ұсын V-TV ; ! "offer"
 аш:аш V-TV ; ! "open"
+сөйле:сөйле V-TV ; ! "talk"
 айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
 бар:бар V-IV ; ! "go"
+ұста:ұста V-TV ; ! "touch
 бар:бар V-IV ; ! "have"
 бер:бер V-IV ; ! "give"
 өмір% сүр:өмір% сүр V-TV ; ! "live"
@@ -2211,6 +2241,9 @@ cиыр еті:сиыр еті N1; !beef
 же:же V-IV ; ! "eat"
 жүгір:жүгір V-IV ; ! "run"
 жүр:жүр V-IV ; ! "move"
+жу:жу V-TV ; ! "wash"
+жарат:жарат V-TV ; ! "waste"
+қара:қара V-TV ; ! "watch"
 жалғастыр:жалғастыр V-TV ; ! "continue"
 жыла:жыла V-TD ; ! "cry,weep"
 жыми:жыми V-IV ; ! "to smile"                            FIXME:check
@@ -2241,6 +2274,7 @@ cиыр еті:сиыр еті N1; !beef
 тұр:тұр V-IV ; ! "rise,stand"
 тұр:тұр V-IV ; ! "rise,stand"
 тыңда:тыңда V-TV ; ! "listen"
+күт:күт V-TV ; ! "wait"
 тырыс:тырыс V-IV ; ! "to try"
 ұйықта:ұйықта V-IV ; ! "sleep" 
 ұна:ұна V-TD ; ! "be pleased with"
@@ -2249,7 +2283,7 @@ cиыр еті:сиыр еті N1; !beef
 ұста:ұста V-IV ; ! "keep"
 қой:қой V-IV ; ! "let"
 сал:сал V-IV ; ! "put"
-
+айналдыр:айналдыр V-IV ; !"twist"
 айт:айт V-TV ; ! "сказать,говорить,рассказывать"
 ал:ал V-TV ; ! "take"
 жібер:жібер V-TV ; ! "send"

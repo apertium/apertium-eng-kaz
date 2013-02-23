@@ -93,9 +93,10 @@
 
     <e r="LR"><p><l>a<s n="det"/><s n="ind"/></l><r></r></p></e>
     <e r="LR"><p><l>the<s n="det"/><s n="def"/></l><r></r></p></e>
-    <e r="LR"><p><l>no<s n="det"/><s n="ind"/></l><r></r></p></e>
-    <e r="LR"><p><l>some<s n="det"/><s n="qnt"/></l><r></r></p></e>
-<e r="LR"><p><l>no<s n="det"/><s n="ind"/></l><r></r></p></e>
+ <e r="LR"><p><l>some<s n="det"/><s n="qnt"/></l><r></r></p></e>   
+<!-- <e r="LR"><p><l>no<s n="det"/><s n="ind"/></l><r></r></p></e>
+   
+<e r="LR"><p><l>no<s n="det"/><s n="ind"/></l><r></r></p></e>-->
     <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="det"/><s n="qnt"/></r></p></e>
 <!-- MLF 201207010 has commented this one out

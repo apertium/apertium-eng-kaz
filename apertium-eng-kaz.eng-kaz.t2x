@@ -148,6 +148,35 @@
      </action>
     </rule>
 
+<rule comment="RULE: SV SN → SN SV">
+    <!-- Just reorders verb and object accusative -->
+     <pattern>
+       <pattern-item n="SV"/>
+ 	<pattern-item n="SN"/>
+   
+     </pattern>
+     <action>
+      <out>
+          
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>   
+      </out>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
+     </action>
+    </rule>
+
+
   </section-rules>
 </interchunk>
 

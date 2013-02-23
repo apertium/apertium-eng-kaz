@@ -16006,7 +16006,8 @@
 
                             <e lm="nicely" i=""><i>nicely</i><par n="maybe__adv"/></e>
 
-                            <e lm="no" i=""><i>no</i><par n="maybe__adv"/></e>
+                            <!--<e lm="no" i=""><i>no</i><par n="maybe__adv"/></e>-->
+		<e lm="no" i=""><i>no</i><par n="hello__ij"/></e>
 
                             <e lm="no doubt" i=""><i>no<b/>doubt</i><par n="maybe__adv"/></e>
 
@@ -16200,9 +16201,9 @@
 
                             <e lm="physically" i=""><i>physically</i><par n="maybe__adv"/></e>
 
-                            <e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>
+                            <!--<e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>
 
-                            <e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>
+                            <e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>-->
 
                             <e lm="point-blank" i=""><i>point-blank</i><par n="maybe__adv"/></e>
 
@@ -16694,7 +16695,7 @@
 
                             <e lm="wrongly" i=""><i>wrongly</i><par n="maybe__adv"/></e>
 
-                            <e lm="yes" i=""><i>yes</i><par n="maybe__adv"/></e>
+                         <!--   <e lm="yes" i=""><i>yes</i><par n="maybe__adv"/></e>-->
 
                             <e lm="yesterday" i=""><i>yesterday</i><par n="maybe__adv"/></e>
 
@@ -23656,7 +23657,7 @@
 
                             <e lm="my" i=""><i>my</i><par n="her__det"/></e>
 
-                            <e lm="no" i=""><i>no</i><par n="other__det"/></e>
+                            <!--<e lm="no" i=""><i>no</i><par n="other__det"/></e>-->
 
                             <e lm="other" i=""><i>other</i><par n="other__det"/></e>
 
@@ -57270,6 +57271,8 @@
                             <e lm="lodge" i=""><i>lodg</i><par n="liv/e__vblex"/></e>
 
                             <e lm="look" i=""><i>look</i><par n="accept__vblex"/></e>
+				<e lm="waste" i=""><i>waste</i><par n="accept__vblex"/></e>
+
 
                             <e lm="look" i=""><i>look</i><par n="accept__vblex"/></e>
 
@@ -59705,7 +59708,7 @@
 
                             <e lm="nicely" i=""><i>nicely</i><par n="maybe__adv"/></e>
 
-                            <e lm="no" i=""><i>no</i><par n="maybe__adv"/></e>
+                            <!--<e lm="no" i=""><i>no</i><par n="maybe__adv"/></e>-->
 
                             <e lm="no doubt" i=""><i>no<b/>doubt</i><par n="maybe__adv"/></e>
 
@@ -59899,9 +59902,9 @@
 
                             <e lm="physically" i=""><i>physically</i><par n="maybe__adv"/></e>
 
-                            <e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>
+                           <!-- <e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>
 
-                            <e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>
+                            <e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>-->
 
                             <e lm="point-blank" i=""><i>point-blank</i><par n="maybe__adv"/></e>
 
@@ -60389,9 +60392,9 @@
 
                             <e lm="wrong" i=""><i>wrong</i><par n="maybe__adv"/></e>
 
-                            <e lm="wrongly" i=""><i>wrongly</i><par n="maybe__adv"/></e>
-
-                            <e lm="yes" i=""><i>yes</i><par n="maybe__adv"/></e>
+                            <e lm="wrongly" i=""><i>wrongly</i><par n="maybe__adv"/></e> 
+                            <!--<e lm="yes" i=""><i>yes</i><par n="maybe__adv"/></e>-->
+<e lm="yes" i=""><i>yes</i><par n="hello__ij"/></e>
 
                             <e lm="yesterday" i=""><i>yesterday</i><par n="maybe__adv"/></e>
 

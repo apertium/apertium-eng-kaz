@@ -27,6 +27,17 @@
       <cat-item tags="vbhaver.ger"/>
       <cat-item tags="vbmod.ger"/>  --> <!-- We'll try later -->
    </def-cat>   
+
+<def-cat n="verb-pp"> <!-- present perfect tense -->
+      <cat-item tags="vblex.pp"/>
+<!--      <cat-item tags="vbser.ger"/>
+      <cat-item tags="vbhaver.ger"/>
+      <cat-item tags="vbmod.ger"/>  --> <!-- We'll try later -->
+   </def-cat> 
+  <def-cat n="vaux-have"> <!--perfect vbhaver -->
+      <cat-item lemma="have" tags="vaux.pp"/>
+    </def-cat>
+ 
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.ant.*"/>
@@ -655,6 +666,21 @@
   <pattern>
     <pattern-item n="vaux-will"/>
     <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+    <let><var n="tense"/><lit-tag v="aor"/></let>
+    <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+    </call-macro>   
+  </action>
+</rule>
+
+
+<rule comment="RULE: have + verb"> <!--prs perfect verb -->
+  <pattern>
+    <pattern-item n="vaux-have"/>
+    <pattern-item n="verb-pp"/> <!--past participle -->
    </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>

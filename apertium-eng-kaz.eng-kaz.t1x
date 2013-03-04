@@ -30,12 +30,14 @@
 
 <def-cat n="verb-pp"> <!-- present perfect tense -->
       <cat-item tags="vblex.pp"/>
+<cat-item tags="vbser.pp"/>
+<cat-item tags="vbhaver.pp"/>
 <!--      <cat-item tags="vbser.ger"/>
       <cat-item tags="vbhaver.ger"/>
       <cat-item tags="vbmod.ger"/>  --> <!-- We'll try later -->
    </def-cat> 
   <def-cat n="vaux-have"> <!--perfect vbhaver -->
-      <cat-item lemma="have" tags="vaux.pp"/>
+      <cat-item lemma="have" tags="vbhaver.*"/>
     </def-cat>
  
     <def-cat n="nom">
@@ -685,7 +687,7 @@
    </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-    <let><var n="tense"/><lit-tag v="aor"/></let>
+   <let><var n="tense"/><lit-tag v="past"/></let>
     <call-macro n="gen-simple-verb">
          <with-param pos="2"/> 
     </call-macro>   

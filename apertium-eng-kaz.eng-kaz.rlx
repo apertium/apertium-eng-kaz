@@ -21,6 +21,7 @@ LIST Inf = inf ;
 LIST Pres = pres pri; 
 LIST Past = past ;  
 LIST Ger = ger ; 
+LIST PrcPast = pp ; 
 
 LIST Interr = itg ; 
 LIST Subj = subj ; 
@@ -38,6 +39,8 @@ LIST SENT = sent ;
 SET V-FIN = V + FIN ;
 
 SET V-DO = ("do"i) ; 
+
+SET V-HAVE = (vbhaver) ; 
 
 SET CLB = SENT | V-FIN | Subj ; # 'Subj' is risky, e.g. coordination
 
@@ -113,3 +116,4 @@ SELECT V-FIN IF (-1C Subj) (1 Inf);
 
 REMOVE Subj IF (0C Subj OR Obj) (-1C* Subj BARRIER SENT);
 
+SELECT V-HAVE IF (1C PrcPast);

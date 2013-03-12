@@ -1623,8 +1623,9 @@
   <action>
 
   <call-macro n="choose_case_and_postposition"><with-param pos="1"/></call-macro>
-  <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="4"/></call-macro> 
-  <call-macro n="build-noun-lu-with-possessive"><with-param pos="4"/><with-param pos="2"/></call-macro>   <call-macro n="initialize_number"/>
+<call-macro n="initialize_number"/> 
+ <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="4"/></call-macro> 
+  <call-macro n="build-noun-lu-with-possessive"><with-param pos="4"/><with-param pos="2"/></call-macro>   
     <choose>
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 

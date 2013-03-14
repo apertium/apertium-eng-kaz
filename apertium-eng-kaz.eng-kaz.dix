@@ -1471,137 +1471,130 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
     <e r="LR"><p><l>be<s n="vbser"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>be<s n="vblex"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>go<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>leave<s n="vblex"/></l><r>кет<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>do<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>sort<s n="vblex"/></l><r>ірікте<s n="v"/><s n="tv"/></r></p></e>
-      
- <e><p><l>do<s n="vblex"/></l><r>істе<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>make<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>continue<s n="vblex"/></l><r>жалғастыр<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>need<s n="vblex"/></l><r>керек<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>use<s n="vblex"/></l><r>қолдан<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>wait<s n="vblex"/></l><r>күт<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>wash<s n="vblex"/></l><r>жу<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>waste<s n="vblex"/></l><r>жарат<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>watch<s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
-    
-    <e><p><l>build<s n="vblex"/></l><r>құр<s n="v"/><s n="tv"/></r></p></e>
-    <!-- see above: "can" has several translations I guess... -->
-    <e><p><l>can<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>take<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
 
-<e><p><l>stretch<s n="vblex"/></l><r>соз<s n="v"/><s n="tv"/></r></p></e>
-
-    <e><p><l>play<s n="vblex"/></l><r>ойна<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check iv/tv -->
-    <e><p><l>like<s n="vblex"/></l><r>жақсы<b/>көр<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>love<s n="vblex"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>touch<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
-		
- <!-- ұна takes a dative "subject"!!! -->
- <e><p><l>increase<s n="vblex"/></l><r>өс<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>jump<s n="vblex"/></l><r>секір<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>kick<s n="vblex"/></l><r>теп<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>kiss<s n="vblex"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>lead<s n="vblex"/></l><r>келтір<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>discover<s n="vblex"/></l><r>аш<s n="v"/><s n="tv"/></r></p></e>
-  <e><p><l>produce<s n="vblex"/></l><r>өндір<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>open<s n="vblex"/></l><r>аш<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>seem<s n="vblex"/></l><r>сияқтан<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>smash<s n="vblex"/></l><r>сындыр<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>sneeze<s n="vblex"/></l><r>түшкір<s n="v"/><s n="iv"/></r></p></e>
- 
-<e><p><l>record<s n="vblex"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>shut<s n="vblex"/></l><r>жап<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>smoke<s n="vblex"/></l><r>шек<s n="v"/><s n="tv"/></r></p></e>
-
-  <e><p><l>offer<s n="vblex"/></l><r>ұсын<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>like<s n="vblex"/></l><r>ұна<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>sleep<s n="vblex"/></l><r>ұйықта<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>run<s n="vblex"/></l><r>жүгір<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>look<s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>look<g><b/>at</g><s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>ask<s n="vblex"/></l><r>сұра<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>build<s n="vblex"/></l><r>құр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>continue<s n="vblex"/></l><r>жалғастыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>control<s n="vblex"/></l><r>басқар<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cook<s n="vblex"/></l><r>пісір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>copy<s n="vblex"/></l><r>көшір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>count<s n="vblex"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>crack<s n="vblex"/></l><r>шытынат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>crush<s n="vblex"/></l><r>ұсақта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>disgust<s n="vblex"/></l><r>жиіркендір<s n="v"/><s n="tv"/></r></p></e>
-            
-<e><p><l>copy<s n="vblex"/></l><r>көшір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>discover<s n="vblex"/></l><r>аш<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>do<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>do<s n="vblex"/></l><r>істе<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>exchange<s n="vblex"/></l><r>айырбаста<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>fall<s n="vblex"/></l><r>құла<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>fold<s n="vblex"/></l><r>жұм<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>force<s n="vblex"/></l><r>қина<s n="v"/><s n="tv"/></r></p></e>
-        <e><p><l>look<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>cook<s n="vblex"/></l><r>пісір<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>control<s n="vblex"/></l><r>басқар<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>stick<s n="vblex"/></l><r>жабыстыр<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>stitch<s n="vblex"/></l><r>тік<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>stop<s n="vblex"/></l><r>тоқта<s n="v"/><s n="tv"/></r></p></e>
-        
-
-<e><p><l>see<s n="vblex"/></l><r>көр<s n="v"/><s n="iv"/></r></p></e>
- <e><p><l>turn<s n="vblex"/></l><r>бұр<s n="v"/><s n="tv"/></r></p></e>
-      
- <e><p><l>hide<s n="vblex"/></l><r>жасыр<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>hide<s n="vblex"/></l><r>жасырын<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>know<s n="vblex"/></l><r>біл<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>sit<s n="vblex"/></l><r>отыр<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>count<s n="vblex"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
-    <!-- e><p><l>do<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e --><!-- FIXME: check if repeat -->
-    <e><p><l>finish<s n="vblex"/></l><r>біт<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>finish<s n="vblex"/></l><r>біт<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
-    <e><p><l>search<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>ask<s n="vblex"/></l><r>сұра<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>speak<s n="vblex"/></l><r>сөйле<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
-   <e><p><l>give<s n="vblex"/></l><r>бер<s n="v"/><s n="iv"/></r></p></e>
- <e><p><l>have<s n="vblex"/></l><r>бар<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>fall<s n="vblex"/></l><r>құла<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>finish<s n="vblex"/></l><r>біт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>finish<s n="vblex"/></l><r>біт<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
+<e><p><l>fold<s n="vblex"/></l><r>жұм<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>force<s n="vblex"/></l><r>қина<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>give<s n="vblex"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>go<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>have<s n="vblex"/></l><r>бар<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>hide<s n="vblex"/></l><r>жасыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>hide<s n="vblex"/></l><r>жасырын<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>increase<s n="vblex"/></l><r>өс<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>jump<s n="vblex"/></l><r>секір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>kick<s n="vblex"/></l><r>теп<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>kiss<s n="vblex"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>know<s n="vblex"/></l><r>біл<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>laugh<s n="vblex"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>lead<s n="vblex"/></l><r>келтір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>leave<s n="vblex"/></l><r>кет<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>like<s n="vblex"/></l><r>жақсы<b/>көр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>like<s n="vblex"/></l><r>ұна<s n="v"/><s n="tv"/></r></p></e> <!-- ұна takes a dative "subject"!!! -->
+<e><p><l>look<s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>look<g><b/>at</g><s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>look<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>love<s n="vblex"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>make<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>need<s n="vblex"/></l><r>керек<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>offer<s n="vblex"/></l><r>ұсын<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>open<s n="vblex"/></l><r>аш<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>play<s n="vblex"/></l><r>ойна<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check iv/tv -->
+<e><p><l>produce<s n="vblex"/></l><r>өндір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>put<s n="vblex"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>record<s n="vblex"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>run<s n="vblex"/></l><r>жүгір<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>search<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>seem<s n="vblex"/></l><r>сияқтан<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>send<s n="vblex"/></l><r>жібер<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>put<s n="vblex"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>laugh<s n="vblex"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>talk<s n="vblex"/></l><r>сөйле<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>shut<s n="vblex"/></l><r>жап<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>sit<s n="vblex"/></l><r>отыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>sleep<s n="vblex"/></l><r>ұйықта<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>smash<s n="vblex"/></l><r>сындыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>smoke<s n="vblex"/></l><r>шек<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>sneeze<s n="vblex"/></l><r>түшкір<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>sort<s n="vblex"/></l><r>ірікте<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>speak<s n="vblex"/></l><r>сөйле<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>stretch<s n="vblex"/></l><r>соз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>stick<s n="vblex"/></l><r>жабыстыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>stitch<s n="vblex"/></l><r>тік<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>stop<s n="vblex"/></l><r>тоқта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>see<s n="vblex"/></l><r>көр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>talk<s n="vblex"/></l><r>сөйле<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>turn<s n="vblex"/></l><r>бұр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>take<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>touch<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>use<s n="vblex"/></l><r>қолдан<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>wait<s n="vblex"/></l><r>күт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>wash<s n="vblex"/></l><r>жу<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>waste<s n="vblex"/></l><r>жарат<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>watch<s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
+        
+    <!-- see above: "can" has several translations I guess... -->
+<e><p><l>can<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
+  
     <!-- CAUTION: some ditransitives, may need transfer rules or something -->
-    <e><p><l>tell<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
-  <e><p><l>let<s n="vblex"/></l><r>қой<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>tell<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>let<s n="vblex"/></l><r>қой<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>keep<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>reply<s n="vblex"/></l><r>жауап<b/>бер<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>hate<s n="vblex"/></l><r>жек<b/>көр<s n="v"/><s n="iv"/></r></p></e>
- <e><p><l>guide<s n="vblex"/></l><r>жүргіз<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>want<s n="vblex"/></l><r>қала<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check, kel = 'come' -->
+<e><p><l>reply<s n="vblex"/></l><r>жауап<b/>бер<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>hate<s n="vblex"/></l><r>жек<b/>көр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>guide<s n="vblex"/></l><r>жүргіз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>want<s n="vblex"/></l><r>қала<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check, kel = 'come' -->
+    
     <!-- will require transfer rules for correct verb form -->
-    <e><p><l>try<s n="vblex"/></l><r>тырыс<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>find<s n="vblex"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>cry<s n="vblex"/></l><r>жыла<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>hear<s n="vblex"/></l><r>есті<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>listen<s n="vblex"/></l><r>тыңда<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>write<s n="vblex"/></l><r>жаз<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>steel<s n="vblex"/></l><r>ұрла<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>try<s n="vblex"/></l><r>тырыс<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>find<s n="vblex"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cry<s n="vblex"/></l><r>жыла<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>hear<s n="vblex"/></l><r>есті<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>listen<s n="vblex"/></l><r>тыңда<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>write<s n="vblex"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>steel<s n="vblex"/></l><r>ұрла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>help<s n="vblex"/></l><r>көмектес<s n="v"/><s n="tv"/></r></p></e>
-   <e><p><l>drive<s n="vblex"/></l><r>жүргіз<s n="v"/><s n="iv"/></r></p></e>
- <e><p><l>separate<s n="vblex"/></l><r>ажырат<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>shake<s n="vblex"/></l><r>сілкіт<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>slip<s n="vblex"/></l><r>сырғана<s n="v"/><s n="tv"/></r></p></e>
- <e><p><l>twist<s n="vblex"/></l><r>айналдыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>drive<s n="vblex"/></l><r>жүргіз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>separate<s n="vblex"/></l><r>ажырат<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>shake<s n="vblex"/></l><r>сілкіт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>slip<s n="vblex"/></l><r>сырғана<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>twist<s n="vblex"/></l><r>айналдыр<s n="v"/><s n="tv"/></r></p></e>
  
     <!-- hrm -->
     <e><p><l>must<s n="vblex"/></l><r>керек<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>eat<s n="vblex"/></l><r>же<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>drink<s n="vblex"/></l><r>іш<s n="v"/><s n="tv"/></r></p></e>
+    
     <!-- yeah, this is one translation of "walk" .... -->
-    <e><p><l>walk<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>walk<g><b/>around</g><s n="vblex"/></l><r>серуенде<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>walk<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>walk<g><b/>around</g><s n="vblex"/></l><r>серуенде<s n="v"/><s n="iv"/></r></p></e>
+
     <!-- FIXME: hrm, something's not right here -->
-    <e r="LR"><p><l>think<g><b/>that</g><s n="vblex"/></l><r>ойла<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>heat<s n="vblex"/></l><r>қыз<s n="v"/><s n="iv"/></r></p></e>
+<e r="LR"><p><l>think<g><b/>that</g><s n="vblex"/></l><r>ойла<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>heat<s n="vblex"/></l><r>қыздыр<s n="v"/><s n="iv"/></r></p></e>
     
     <e><p><l>go<s n="vblex"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>start<s n="vblex"/></l><r>баста<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>start<s n="vblex"/></l><r>баста<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>stand<s n="vblex"/></l><r>тұр<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>smile<s n="vblex"/></l><r>жыми<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>cover<s n="vblex"/></l><r>жап<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>close<s n="vblex"/></l><r>жап<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>live<s n="vblex"/></l><r>өмір<b/>сүр<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>live<s n="vblex"/></l><r>өмір<b/>сүр<s n="v"/><s n="iv"/></r></p></e>
   <e><p><l>buy<s n="vblex"/></l><r>сатып<b/>ал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>order<s n="vblex"/></l><r>тапсырыс<b/>бер<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>print<s n="vblex"/></l><r>баспаға<b/>шығар<s n="v"/><s n="iv"/></r></p></e>

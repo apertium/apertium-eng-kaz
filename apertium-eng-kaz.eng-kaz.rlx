@@ -6,7 +6,7 @@ SETS
 LIST N = n ; 
 LIST Det = det ; 
 LIST A = adj ; 
-LIST V = vblex vbser vaux vbhaver ; 
+LIST V = vblex vbser vaux vbhaver vbdo ; 
 LIST Adv = adv ; 
 LIST Pron = prn ; 
 LIST CS = cnjsub ; 

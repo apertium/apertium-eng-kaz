@@ -40,7 +40,13 @@ SET V-FIN = V + FIN ;
 
 SET V-DO = ("do"i) ; 
 
+SET V-DO-AUX = (vbdo) ;
+
+SET ADV-NOT = ("not"i) ;
+ 
 SET V-HAVE = (vbhaver) ; 
+
+LIST PRN-SUBJ  = (prn subj) ;
 
 SET CLB = SENT | V-FIN | Subj ; # 'Subj' is risky, e.g. coordination
 
@@ -117,3 +123,5 @@ SELECT V-FIN IF (-1C Subj) (1 Inf);
 REMOVE Subj IF (0C Subj OR Obj) (-1C* Subj BARRIER SENT);
 
 SELECT V-HAVE IF (1C PrcPast);
+
+SELECT V-DO-AUX IF (-1C PRN-SUBJ) (1C ADV-NOT);

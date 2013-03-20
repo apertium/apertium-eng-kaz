@@ -46,7 +46,11 @@
     <def-cat n="not">
       <cat-item lemma="not" tags="adv"/>
      </def-cat>
-  
+
+  <def-cat n="vaux-ing"> <!--not prs cont -->
+      <cat-item lemma="be" tags="vbser.*"/>
+    </def-cat>
+    
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.ant.*"/>
@@ -188,6 +192,7 @@
     <def-var n="ppinfl"/> <!-- inflexion information for postposition -->
     <def-var n="postposition_lu"/> <!-- complete postposition ready for lu -->        
     <def-var n="noun_lu"/> <!-- complete noun in prep X rules, ready for lu -->
+<def-var n="subj-pron_lu"/> <!-- complete noun in prep X rules, ready for lu -->
     <def-var n="noun_lu_with_poss"/> <!-- same, with possessive -->
     <def-var n="np-poss"/> <!-- possessive for noun_lu_with_poss -->
     <def-var n="poss-frm"/> <!-- formality for possessives -->
@@ -501,6 +506,18 @@
         </let>
 
 </def-macro>
+<def-macro n="build-subj-pron-lu" npar="1"> 
+     <let>
+           <var n="subj-pron_lu"/>
+           <concat>
+             <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_kaz_perspron"/>
+               <var n="number"/> 
+               <var n="case"/>
+           </concat>  
+        </let>
+
+</def-macro>
 
 <!-- This should be called build-noun-lu when all prep X rules are converted -->
 <def-macro n="build-noun-lu-with-possessive" npar="2">
@@ -535,7 +552,7 @@
 
 <section-rules>
 
-<rule comment="RULE: verb"> 
+<rule comment="RULE: vaux-do not approx-inf-verb"> 
   <pattern>
     <pattern-item n="vaux-do"/>
     <pattern-item n="not"/>
@@ -585,9 +602,9 @@
       </when>
 
       <otherwise>
-        <let><var n="tense"/><lit-tag v="aor"/></let>
+        <let><var n="tense"/><lit-tag v="neg.aor"/></let>
       <call-macro n="gen-simple-verb">
-         <with-param pos="3"/> 
+         <with-param pos="2"/> 
      </call-macro>
       </otherwise> 
     </choose>
@@ -651,6 +668,91 @@
   </action>
 </rule>
 
+
+<!--<rule comment="RULE: pers-verb-to-be not verb-ing"> I am not playing - Мен ойнап жатқан жоқпын  
+  <pattern>
+ 
+    <pattern-item n="vaux-ing"/>
+<pattern-item n="pers-verb-to-be"/>
+    <pattern-item n="not"/>
+    <pattern-item n="verb-ing"/>
+  </pattern>
+  <action>
+     <call-macro n="default-nbr-pers"/>
+    <choose>
+
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="pres"/></let> 
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="neg.aor"/>
+        <lit v="жатқан жоқ"/>
+          <lit-tag v="vaux"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when>
+</choose>
+</action>
+
+      <when>
+        <test>
+          <equal> 
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>  I was not playing - Мен ойнап отырмадым  
+</equal> 
+</test>  
+</when>
+ <let><var n="tense"/><lit-tag v="past"/></let>
+<when>
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> 
+        <lu>
+          <lit v="отыр"/>
+ <lit-tag v="neg.aor"/>
+          <lit-tag v="vaux"/>
+          <lit-tag v="ifi"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when>
+   
+       
+  <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+      <call-macro n="gen-simple-verb">
+         <with-param pos="4"/> 
+     </call-macro>
+      </otherwise> 
+ 
+</rule>
+-->
 <rule comment="RULE: be + verb-ing"> <!-- first attempt at "ing" verbal forms -->
   <pattern>
     <pattern-item n="pers-verb-to-be"/>
@@ -749,19 +851,26 @@
   </action>
 </rule>
 
-<rule comment="RULE: must + verb"> <!-- must verb -->
+<!--<rule comment="RULE: must + verb"> <must verb ->
   <pattern>
     <pattern-item n="vaux-must"/>
-    <pattern-item n="approx-inf-verb"/> <!-- I must go - Мен бару керекпін-->
-   </pattern>
+    <pattern-item n="approx-inf-verb"/>  I must go - Мен бару керекпін-->
+  <!-- </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
     <let><var n="tense"/><lit-tag v="aor"/></let>
+ <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> this position is probably not optimal -->
+ <!--       <lu>
+          <lit v="керек"/>
     <call-macro n="gen-simple-verb">
          <with-param pos="2"/> 
     </call-macro>   
-  </action>
-</rule>
+  </action>->
+</rule>-->
 
 <rule comment="RULE: have + verb"> <!--prs perfect verb -->
   <pattern>
@@ -830,8 +939,7 @@
   </action>
 </rule>
 
-<!--
-<rule comment="RULE: prep subj-pron"> Prep+pronoun 'I go with you' - 'Мен сенімен барамын'
+<rule comment="RULE: prep subj-pron"> <!--I go with you - Мен сізбен барам -->
   <pattern>
     <pattern-item n="prep"/>
     <pattern-item n="subj-pron"/>
@@ -842,17 +950,17 @@
      <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>
-      <call-macro n="build-noun-lu"><with-param pos="2"/></call-macro>
+      <call-macro n="build-subj-pron-lu"><with-param pos="2"/></call-macro>
     <choose>
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
-        <out>  with postposition 
-         <chunk name="prep-subj-pron">
+        <out> <!-- with postposition -->
+          <chunk name="prep-subj-pron">
             <tags>
                 <tag><var n="pptag"/></tag>
             </tags>
             <lu>  
-              <var n="noun_lu"/>
+               <var n="subj-pron_lu"/>
             </lu>
             <b/>
             <lu>  
@@ -861,14 +969,14 @@
           </chunk>
         </out>
       </when>
-      <otherwise>
-  <out>
+      <otherwise> <!-- without postposition -->
+        <out>
           <chunk name="prep-subj-pron">
             <tags>
                 <tag><var n="pptag"/></tag>
             </tags>
             <lu>  
-               <var n="noun_lu"/>
+               <var n="subj-pron_lu"/>
             </lu>
           </chunk>
         </out>
@@ -882,7 +990,7 @@
         </call-macro>
   </action>
 </rule>
--->
+
     
 <rule comment="RULE: adjec nom"> 
   <pattern>

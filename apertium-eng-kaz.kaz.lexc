@@ -397,7 +397,7 @@ LEXICON ADJ-KI-INFL
 !FIXME
 LEXICON V-PERS-PRES ! P_6
 %<p1%>%<sg%>:%>м%{I%}н CLIT ;    ! Dir/LR
-%<p1%>%<sg%>:%>м CLIT ;
+%<p1%>%<sg%>:%>м%{I%}н CLIT ;
 %<p2%>%<sg%>:%>с%{I%}ң CLIT ; 
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; 
 %<p3%>%<sg%>:%>д%{I%} CLIT-OTHER ; 
@@ -470,7 +470,7 @@ CASE-ETC ;
 LEXICON VOL-ENDINGS
 
 %<p1%>%<sg%>:%>%{I%}м # ;
-%<p2%>%<sg%>:%>%{I%}ң # ; 
+%<p2%>%<sg%>:%>%{I%}з # ; 
 %<p2%>%<sg%>%<frm%>:%>%{I%}ң%{I%}з # ; 
 %<p3%>%<sg%>:%>%{S%}%{I%}%{n%} # ;
 %<p1%>%<pl%>:%>%{I%}м%{I%}з # ; 

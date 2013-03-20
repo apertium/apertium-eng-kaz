@@ -591,22 +591,29 @@
       <when>
         <test>
           <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
+             <clip pos="1" side="sl" part="a_tense"/><!--I didn't go - Мен бармадым -->
              <lit-tag v="past"/>
           </equal>
         </test>
-        <let><var n="tense"/><lit-tag v="ifi"/></let>
-      <call-macro n="gen-simple-verb">
-         <with-param pos="3"/> 
-     </call-macro>
+         <let><var n="tense"/><lit-tag v="past"/></let> 
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="neg.aor"/>
+          <var n="verb-pers"/>	
+          <var n="formality"/>	
+          <var n="verb-nbr"/>
+	<var n="verb-pp"/>
+        </lu>
+      </chunk>
+        </out>
       </when>
 
-      <otherwise>
-        <let><var n="tense"/><lit-tag v="neg.aor"/></let>
-      <call-macro n="gen-simple-verb">
-         <with-param pos="2"/> 
-     </call-macro>
-      </otherwise> 
     </choose>
   </action>
 </rule>

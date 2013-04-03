@@ -163,6 +163,7 @@
     <def-attr n="a_postposition"> <!-- Kazakh postposition indicators -->
       <attr-item tags="n"/> 
       <attr-item tags="post"/>
+	 <attr-item tags="prn"/> <!--with me -->
     </def-attr>
     <def-attr n="a_det">  <!-- determiner tag -->
       <attr-item tags="det"/>
@@ -264,10 +265,15 @@
                <clip pos="1" side="tl" part="a_postposition"/>
                <lit-tag v="n"/>
             </equal>
+ 	<equal>
+               <clip pos="1" side="tl" part="a_postposition"/>
+               <lit-tag v="prn"/><!--with me -->
+            </equal>	
             <equal>
                <clip pos="1" side="tl" part="a_postposition"/>
                <lit-tag v="post"/>
             </equal>
+
           </or>  
         </test>
         <let><var n="genpp"/><lit v="yes"/></let> <!-- for simple cases -->

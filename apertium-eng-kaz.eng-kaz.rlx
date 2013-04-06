@@ -94,7 +94,7 @@ SELECT Subj IF (0 Subj OR Obj) (1 V-FIN);
 
 SELECT A IF (-1 Preadv) (0 A OR V);
 
-REMOVE Pr IF (NOT 1* N BARRIER CLB);
+#REMOVE Pr IF (NOT 1* N BARRIER CLB);
 
 REMOVE Pr IF (0 Pr OR CC) (-1 SENT);
 
@@ -125,3 +125,5 @@ REMOVE Subj IF (0C Subj OR Obj) (-1C* Subj BARRIER SENT);
 SELECT V-HAVE IF (1C PrcPast);
 
 SELECT V-DO-AUX IF (-1C PRN-SUBJ) (1C ADV-NOT);
+
+SELECT Pr IF (0 Pr OR Adv) (1 Pron + Obj) ;

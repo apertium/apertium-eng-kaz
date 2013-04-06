@@ -437,7 +437,7 @@ LEXICON V-PERS-COND ! P_4
 LEXICON V-PERS-COP-SUF-NO3
 
 %<p1%>%<sg%>:%>%{M%}%{I%}н CLIT ; 
-%<p2%>%<sg%>:%>с%{I%}ң CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}з CLIT ; 
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; 
 %<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ; 
 %<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;  

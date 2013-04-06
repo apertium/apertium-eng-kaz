@@ -254,6 +254,24 @@
     </def-macro>
 
 
+    <def-macro n="assign-tl-number-according-to-sl-nbr" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="sl" part="a_nbr"/>
+              <lit-tag v="pl"/>
+            </equal>
+          </test>
+          <let><var n="number"/><lit-tag v="pl"/></let>
+        </when>
+        <otherwise>
+          <let><var n="number"/><lit-tag v="sg"/></let>
+        </otherwise>   
+      </choose>
+    </def-macro>
+
+
     <def-macro n="choose_case_and_postposition" npar="1">  
     <let><var n="pptag"/><lit-tag v="AdvP"/></let> <!-- for most of them -->
     <let><var n="genpp"/><lit v="no"/></let> <!-- for simple cases -->
@@ -1024,7 +1042,7 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-   <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="2"/></call-macro> 
+   <call-macro n="assign-tl-number-according-to-sl-nbr"><with-param pos="2"/></call-macro> 
      <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
      </call-macro>

@@ -544,12 +544,29 @@
 
 </def-macro>
 <def-macro n="build-obj-pron-lu" npar="1"> 
+ <choose>
+    <when>
+     <test>  
+       <equal>
+          <clip pos="1" side="sl" part="a_pers"/>
+          <lit-tag v="p2"/>
+       </equal>
+     </test>
+     <let><var n="formality"/><lit-tag v="frm"/></let>
+    </when>
+     <otherwise>
+     <let><var n="formality"/><lit v=""/></let>
+     </otherwise>
+  </choose>
+
      <let>
            <var n="obj-pron_lu"/>
            <concat>
              <clip pos="1" side="tl" part="lem"/> 
                <clip pos="1" side="tl" part="a_kaz_perspron"/>
+               <clip pos="1" side="sl" part="a_pers"/>
                <var n="number"/> 
+               <var n="formality"/>
                <var n="case"/>
            </concat>  
         </let>

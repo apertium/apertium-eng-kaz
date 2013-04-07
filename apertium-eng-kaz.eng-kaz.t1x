@@ -473,45 +473,244 @@
      </choose>
     </def-macro>
 
-<def-macro n="set-case-and-postposition" npar="1">  <!--under me   Menin astymda-->
+
+
+  <def-macro n="choose_case_and_postposition2" npar="2">  
     <let><var n="pptag"/><lit-tag v="AdvP"/></let> <!-- for most of them -->
     <let><var n="genpp"/><lit v="no"/></let> <!-- for simple cases -->
-<choose> <!-- Generate postposition --> 
+
+    <choose>
+      <when> <!-- make genpp="yes" when a postposition is detected -->
+        <test>
+          <or>
+            <equal>
+               <clip pos="1" side="tl" part="a_postposition"/>
+               <lit-tag v="n"/>
+            </equal>
+     
+            <equal>
+               <clip pos="1" side="tl" part="a_postposition"/>
+               <lit-tag v="post"/>
+            </equal>
+
+          </or>  
+        </test>
+        <let><var n="genpp"/><lit v="yes"/></let> <!-- for simple cases -->
+      </when>
+    </choose>
+
+    <choose>
+      <when>
+        <test>
+          <equal><var n="genpp"/><lit v="no"/></equal>
+        </test>
+        <choose> <!-- no postpositions -->
+          <when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="in"/>
+              </equal>
+            </test>
+            <let>
+               <var n="case"/>
+               <lit-tag v="loc"/>
+            </let>
+       </when> 
+
+      <when>   <!-- at and in have the same translation: locative -->
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="lem"/>
+            <lit v="at"/>
+          </equal>
+        </test>
+        <let>
+          <var n="case"/>
+          <lit-tag v="loc"/>
+        </let>
+    </when> 
+  
+           <when> 
+             <test>
+               <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="from"/>
+               </equal>
+             </test>
+             <let>
+                <var n="case"/>
+                <lit-tag v="abl"/>
+             </let>
+       </when>    
+
+          <when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="to"/>
+              </equal>
+            </test>
+            <let>
+              <var n="case"/>
+              <lit-tag v="dat"/>
+            </let>
+      </when>    
+
+           <when> 
+             <test>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="with"/>
+                </equal>
+             </test>
+             <let>
+               <var n="case"/>
+               <lit-tag v="ins"/>
+             </let>
+              </when>    
+
+           <when> 
+             <test>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="of"/>
+                 </equal>
+              </test>
+              <let>
+                <var n="case"/>
+                <lit-tag v="gen"/>
+              </let>
+              <let>
+                 <var n="pptag"/>
+                 <lit-tag v="AdjP"/>   <!-- MLF20120628 could be genP in the future -->
+              </let>
+       </when>    
+
+           <otherwise>
+              <let>
+                <var n="case"/>
+                <lit-tag v="ins"/> <!-- Choice when we don't know the translation of the preposition, can be improved -->
+              </let>
+              <let>
+                <var n="pptag"/>
+                <lit-tag v="AdvP"/>   <!-- MLF20120628 could be genP in the future -->
+              </let>
+            </otherwise>
+    </choose>
+      </when> <!-- End of solutions without postpositions -->
+
+      <when>  <!--- Now, with postpositions -->
+        <test>
+          <equal>
+             <var n="genpp"/>
+             <lit v="yes"/>
+          </equal>
+        </test>
+        <choose> <!-- Generate postposition --> 
           <when> <!-- noun-based postpositions -->
              <test>
                <equal>
                  <clip side="tl" part="a_postposition" pos="1"/>
-                 <lit-tag v="pr"/>
-	       </equal>
+                 <lit-tag v="n"/>
+           </equal>
              </test>
              <let><var n="case"/><lit-tag v="gen"/></let>
              <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-             <let><var n="obj-pron_lu"/> <!-- ready for lu -->
+             <!-- we need to compute "possessive"  --> 
+ 
+<let><var n="possessive"/><lit-tag v="px3sp"/></let> <!-- default value -->
+
+<choose> 
+<when>
+   <test>
+      <and>
+          <equal><clip  pos="2" side="sl" part="a_pers"/><lit  v="p1"/></equal>
+          <equal><clip pos="2" side="sl" part="a_nbr"/><lit v="sg"/></equal>
+       </and>
+    </test>      
+          <let><var  n="possessive"/><lit-tag v="px1sg"/></let>
+</when>
+
+
+<when>
+   <test>
+      <and>
+          <equal><clip  pos="2" side="sl" part="a_pers"/><lit  v="p1"/></equal>
+          <equal><clip pos="2" side="sl" part="a_nbr"/><lit v="pl"/></equal>
+       </and>
+    </test>      
+          <let><var  n="possessive"/><lit-tag v="px1pl"/></let>
+</when>
+
+<!-- ...etc remaining cases ... -->
+</choose>
+                  
+              <!-- end of computation of "possessive" -->
+             <let><var n="postposition_lu"/> <!-- ready for lu -->
                       <concat>
                         <clip pos="1" side="tl" part="lem"/>
-                        <lit-tag v="p1"/>
-                        <lit-tag v="px1sp"/>
-        		<clip part="a_cas" side="tl" pos="1"/> 
+                        <lit-tag v="n"/>
+                        <!-- <lit-tag v="px3sp"/>  -->
+                        <var n="possessive"/>
+                        
+                        
+                <clip part="a_cas" side="tl" pos="1"/> 
                       </concat>
              </let>
-	  </when>
-
+      </when>
+          <when> <!-- non-noun-based postpositions -->
+             <test>
+               <equal>
+                 <clip side="tl" part="a_postposition" pos="1"/>
+                 <lit-tag v="post"/>
+           </equal>
+             </test>
+             <choose>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rnom"/></equal></test>
+                   <let><var n="case"/><lit-tag v="nom"/></let>
+                </when>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rdat"/></equal></test>
+                   <let><var n="case"/><lit-tag v="dat"/></let>
+                </when>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rabl"/></equal></test>
+                   <let><var n="case"/><lit-tag v="abl"/></let>
+                </when>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rloc"/></equal></test>
+                   <let><var n="case"/><lit-tag v="loc"/></let>
+                </when>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rins"/></equal></test>
+                   <let><var n="case"/><lit-tag v="ins"/></let>
+                </when>
+                <when>
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Racc"/></equal></test>
+                   <let><var n="case"/><lit-tag v="acc"/></let>
+                </when>
+                <when> <!-- This case is unlikely, but we'll leave it just in case -->
+                   <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rgen"/></equal></test>
+                   <let><var n="case"/><lit-tag v="gen"/></let>
+                </when>
+             </choose>
+             <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+             <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                        <clip pos="1" side="tl" part="lem"/>
+                        <lit-tag v="post"/>
+                      </concat>
+             </let>
+      </when>
+    </choose>
+       </when>
      </choose>
-<!--<let>
-           <var n="obj-pron_lu"/>
-           <concat>
-             <clip pos="1" side="tl" part="lem"/> 
-               <clip pos="1" side="tl" part="a_kaz_perspron"/>
-
-
-
-               <clip pos="1" side="sl" part="a_pers"/>
-
-               <var n="number"/> 
-               <var n="case"/>
-           </concat>  
-        </let>-->
     </def-macro>
+
+
+
 
 <def-macro n="gen-simple-verb" npar="1">
     <out>
@@ -552,6 +751,11 @@
      </when>
     </choose>
 </def-macro>    
+
+
+
+
+
 
 
 <!-- The build-noun-lu will not be used when all prep X rules are converted -->
@@ -1100,10 +1304,8 @@
   <action>
     <call-macro n="initialize_number"/>
    <call-macro n="assign-tl-number-according-to-sl-nbr"><with-param pos="2"/></call-macro> 
-     <call-macro n="choose_case_and_postposition">
+     <call-macro n="choose_case_and_postposition2">
         <with-param pos="1"/>
-     </call-macro>
- <call-macro n="set-case-and-postposition">
         <with-param pos="2"/>
      </call-macro>
       <call-macro n="build-obj-pron-lu"><with-param pos="2"/></call-macro>

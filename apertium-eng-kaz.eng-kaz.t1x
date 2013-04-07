@@ -642,7 +642,27 @@
     </test>      
           <let><var  n="possessive"/><lit-tag v="px1pl"/></let>
 </when>
+<when><!--under you-->
+   <test>
+      <and>
+          <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag  v="p2"/></equal>
+          <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sp"/></equal>
+       </and>
+    </test>      
+        
+  <let><var  n="possessive"/><lit-tag v="px2sg"/></let>
+</when>
 
+
+<when>
+   <test>
+      <and>
+          <equal><clip  pos="2" side="sl" part="a_pers"/><lit-tag  v="p2"/></equal>
+          <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sp"/></equal>
+       </and>
+    </test>      
+          <let><var  n="possessive"/><lit-tag v="px2pl"/></let>
+</when>
 <!-- ...etc remaining cases ... -->
 </choose>
                   

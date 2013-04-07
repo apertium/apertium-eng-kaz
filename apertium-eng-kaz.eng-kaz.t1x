@@ -625,8 +625,8 @@
 <when>
    <test>
       <and>
-          <equal><clip  pos="2" side="sl" part="a_pers"/><lit  v="p1"/></equal>
-          <equal><clip pos="2" side="sl" part="a_nbr"/><lit v="sg"/></equal>
+          <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag  v="p1"/></equal>
+          <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
        </and>
     </test>      
           <let><var  n="possessive"/><lit-tag v="px1sg"/></let>
@@ -636,8 +636,8 @@
 <when>
    <test>
       <and>
-          <equal><clip  pos="2" side="sl" part="a_pers"/><lit  v="p1"/></equal>
-          <equal><clip pos="2" side="sl" part="a_nbr"/><lit v="pl"/></equal>
+          <equal><clip  pos="2" side="sl" part="a_pers"/><lit-tag  v="p1"/></equal>
+          <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
        </and>
     </test>      
           <let><var  n="possessive"/><lit-tag v="px1pl"/></let>

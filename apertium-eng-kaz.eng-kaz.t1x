@@ -284,10 +284,7 @@
                <clip pos="1" side="tl" part="a_postposition"/>
                <lit-tag v="n"/>
             </equal>
- 	<equal>
-               <clip pos="1" side="tl" part="a_postposition"/>
-               <lit-tag v="prn"/><!--with me -->
-            </equal>	
+ 	
             <equal>
                <clip pos="1" side="tl" part="a_postposition"/>
                <lit-tag v="post"/>
@@ -476,6 +473,45 @@
      </choose>
     </def-macro>
 
+<def-macro n="set-case-and-postposition" npar="1">  <!--under me   Menin astymda-->
+    <let><var n="pptag"/><lit-tag v="AdvP"/></let> <!-- for most of them -->
+    <let><var n="genpp"/><lit v="no"/></let> <!-- for simple cases -->
+<choose> <!-- Generate postposition --> 
+          <when> <!-- noun-based postpositions -->
+             <test>
+               <equal>
+                 <clip side="tl" part="a_postposition" pos="1"/>
+                 <lit-tag v="pr"/>
+	       </equal>
+             </test>
+             <let><var n="case"/><lit-tag v="gen"/></let>
+             <let><var n="pptag"/><lit-tag v="AdvP"/></let>
+             <let><var n="obj-pron_lu"/> <!-- ready for lu -->
+                      <concat>
+                        <clip pos="1" side="tl" part="lem"/>
+                        <lit-tag v="p1"/>
+                        <lit-tag v="px1sp"/>
+        		<clip part="a_cas" side="tl" pos="1"/> 
+                      </concat>
+             </let>
+	  </when>
+
+     </choose>
+<!--<let>
+           <var n="obj-pron_lu"/>
+           <concat>
+             <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_kaz_perspron"/>
+
+
+
+               <clip pos="1" side="sl" part="a_pers"/>
+
+               <var n="number"/> 
+               <var n="case"/>
+           </concat>  
+        </let>-->
+    </def-macro>
 
 <def-macro n="gen-simple-verb" npar="1">
     <out>
@@ -564,7 +600,11 @@
            <concat>
              <clip pos="1" side="tl" part="lem"/> 
                <clip pos="1" side="tl" part="a_kaz_perspron"/>
+
+
+
                <clip pos="1" side="sl" part="a_pers"/>
+
                <var n="number"/> 
                <var n="formality"/>
                <var n="case"/>
@@ -1062,6 +1102,9 @@
    <call-macro n="assign-tl-number-according-to-sl-nbr"><with-param pos="2"/></call-macro> 
      <call-macro n="choose_case_and_postposition">
         <with-param pos="1"/>
+     </call-macro>
+ <call-macro n="set-case-and-postposition">
+        <with-param pos="2"/>
      </call-macro>
       <call-macro n="build-obj-pron-lu"><with-param pos="2"/></call-macro>
     <choose>

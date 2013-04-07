@@ -218,7 +218,7 @@
     <e><p><l>front<s n="n"/></l><r>алд<s n="n"/></r></p></e>
     <e><p><l>inside<s n="n"/></l><r>іш<s n="n"/></r></p></e>
     <e><p><l>back<s n="n"/></l><r>арт<s n="n"/></r></p></e>
-    <e><p><l>under<s n="n"/></l><r>аст<s n="n"/></r></p></e>
+   
    
 	 <!-- әпке is southern dialect for "older sister" -->
     <!-- the literary standard words are:
@@ -926,7 +926,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>truth<s n="n"/></l><r>ақиқат<s n="n"/></r></p></e>
 <e><p><l>tulip<s n="n"/></l><r>қызғалдақ<s n="n"/></r></p></e>
 <e><p><l>uncle<s n="n"/></l><r>ағай<s n="n"/></r></p></e>
-<e><p><l>under<s n="n"/></l><r>аст<s n="n"/></r></p></e>
+
 <e><p><l>unity<s n="n"/></l><r>ынтымақ<s n="n"/></r></p></e>
 <e><p><l>universe<s n="n"/></l><r>әлем<s n="n"/></r></p></e>
 <e><p><l>university<s n="n"/></l><r>университет<s n="n"/></r></p></e>

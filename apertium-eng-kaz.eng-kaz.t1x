@@ -163,7 +163,7 @@
     <def-attr n="a_postposition"> <!-- Kazakh postposition indicators -->
       <attr-item tags="n"/> 
       <attr-item tags="post"/>
-	 <attr-item tags="prn"/> <!--with me -->
+	 
     </def-attr>
     <def-attr n="a_det">  <!-- determiner tag -->
       <attr-item tags="det"/>
@@ -647,22 +647,17 @@
       <and>
           <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag  v="p2"/></equal>
           <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sp"/></equal>
+	
        </and>
     </test>      
-        
-  <let><var  n="possessive"/><lit-tag v="px2sg"/></let>
+<let><var  n="formality"/><lit-tag v="frm"/></let>
+<let><var  n="possessive"/><lit-tag v="px2sg"/>
+ 
+</let>
 </when>
 
 
-<when>
-   <test>
-      <and>
-          <equal><clip  pos="2" side="sl" part="a_pers"/><lit-tag  v="p2"/></equal>
-          <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sp"/></equal>
-       </and>
-    </test>      
-          <let><var  n="possessive"/><lit-tag v="px2pl"/></let>
-</when>
+
 <!-- ...etc remaining cases ... -->
 </choose>
                   
@@ -671,6 +666,7 @@
                       <concat>
                         <clip pos="1" side="tl" part="lem"/>
                         <lit-tag v="n"/>
+			
                         <!-- <lit-tag v="px3sp"/>  -->
                         <var n="possessive"/>
                         

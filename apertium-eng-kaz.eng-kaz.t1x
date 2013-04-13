@@ -272,12 +272,10 @@
     </def-macro>
 
 
-    <def-macro n="choose_case_and_postposition" npar="1">  
-    <let><var n="pptag"/><lit-tag v="AdvP"/></let> <!-- for most of them -->
-    <let><var n="genpp"/><lit v="no"/></let> <!-- for simple cases -->
-
+    <!--<def-macro n="choose_case_and_postposition" npar="1">  
+    <let><var n="pptag"/><lit-tag v="AdvP"/></let> <let><var n="genpp"/><lit v="no"/></let> 
     <choose>
-      <when> <!-- make genpp="yes" when a postposition is detected -->
+      <when> 
         <test>
           <or>
             <equal>
@@ -292,7 +290,7 @@
 
           </or>  
         </test>
-        <let><var n="genpp"/><lit v="yes"/></let> <!-- for simple cases -->
+        <let><var n="genpp"/><lit v="yes"/></let> 
       </when>
     </choose>
 
@@ -301,7 +299,7 @@
         <test>
           <equal><var n="genpp"/><lit v="no"/></equal>
         </test>
-        <choose> <!-- no postpositions -->
+        <choose> 
           <when> 
             <test>
               <equal caseless="yes">
@@ -315,7 +313,7 @@
             </let>
  	  </when> 
 
-      <when>   <!-- at and in have the same translation: locative -->
+      <when>   
         <test>
           <equal caseless="yes">
             <clip pos="1" side="sl" part="lem"/>
@@ -380,32 +378,32 @@
               </let>
               <let>
                  <var n="pptag"/>
-                 <lit-tag v="AdjP"/>   <!-- MLF20120628 could be genP in the future -->
+                 <lit-tag v="AdjP"/>   
               </let>
 	   </when>    
 
            <otherwise>
               <let>
                 <var n="case"/>
-                <lit-tag v="ins"/> <!-- Choice when we don't know the translation of the preposition, can be improved -->
+                <lit-tag v="ins"/> 
               </let>
               <let>
                 <var n="pptag"/>
-                <lit-tag v="AdvP"/>   <!-- MLF20120628 could be genP in the future -->
+                <lit-tag v="AdvP"/>   
               </let>
             </otherwise>
 	</choose>
-      </when> <!-- End of solutions without postpositions -->
+      </when> 
 
-      <when>  <!--- Now, with postpositions -->
+      <when>  
         <test>
           <equal>
              <var n="genpp"/>
              <lit v="yes"/>
           </equal>
         </test>
-        <choose> <!-- Generate postposition --> 
-          <when> <!-- noun-based postpositions -->
+        <choose>
+          <when> 
              <test>
                <equal>
                  <clip side="tl" part="a_postposition" pos="1"/>
@@ -414,7 +412,7 @@
              </test>
              <let><var n="case"/><lit-tag v="gen"/></let>
              <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-             <let><var n="postposition_lu"/> <!-- ready for lu -->
+             <let><var n="postposition_lu"/> 
                       <concat>
                         <clip pos="1" side="tl" part="lem"/>
                         <lit-tag v="n"/>
@@ -423,7 +421,7 @@
                       </concat>
              </let>
 	  </when>
-          <when> <!-- non-noun-based postpositions -->
+          <when> 
              <test>
                <equal>
                  <clip side="tl" part="a_postposition" pos="1"/>
@@ -455,13 +453,13 @@
                    <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Racc"/></equal></test>
                    <let><var n="case"/><lit-tag v="acc"/></let>
                 </when>
-                <when> <!-- This case is unlikely, but we'll leave it just in case -->
+                <when> <
                    <test><equal><clip part="a_Rcas" pos="1" side="tl"/><lit-tag v="Rgen"/></equal></test>
                    <let><var n="case"/><lit-tag v="gen"/></let>
                 </when>
              </choose>
              <let><var n="pptag"/><lit-tag v="AdvP"/></let>
-             <let><var n="postposition_lu"/> <!-- ready for lu -->
+             <let><var n="postposition_lu"/> 
                       <concat>
                         <clip pos="1" side="tl" part="lem"/>
                         <lit-tag v="post"/>
@@ -473,7 +471,7 @@
      </choose>
     </def-macro>
 
-
+-->
 
   <def-macro n="choose_case_and_postposition2" npar="2">  
     <let><var n="pptag"/><lit-tag v="AdvP"/></let> <!-- for most of them -->
@@ -1664,6 +1662,12 @@
               <tags>
                   <tag><var n="pptag"/></tag>
               </tags>
+
+<lu>
+             <clip pos="3" side="tl" part="lem"/> 
+             <clip pos="3" side="tl" part="a_num"/> 
+             </lu>
+             <b/>
               <lu>  
                  <var n="noun_lu_with_poss"/>
               </lu>
@@ -1779,8 +1783,9 @@
   <action>
     <call-macro n="initialize_number"/>
 
-<call-macro n="choose_case_and_postposition">
+<call-macro n="choose_case_and_postposition2">
         <with-param pos="1"/>
+<with-param pos="3"/>
      </call-macro> 
        <call-macro n="initialize_case_to_nominative"/>
  <call-macro n="build-noun-lu"><with-param pos="3"/></call-macro>
@@ -1910,8 +1915,9 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-<call-macro n="choose_case_and_postposition">
+<call-macro n="choose_case_and_postposition2">
         <with-param pos="1"/>
+<with-param pos="3"/>
      </call-macro>
 <call-macro n="build-noun-lu"><with-param pos="4"/></call-macro> 
  <choose>
@@ -1992,8 +1998,9 @@
     <call-macro n="initialize_number"/>
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="3"/></call-macro> 
 
-     <call-macro n="choose_case_and_postposition">
+     <call-macro n="choose_case_and_postposition2">
         <with-param pos="1"/>
+<with-param pos="3"/>
      </call-macro>
     <call-macro n="build-noun-lu"><with-param pos="3"/></call-macro> 
     <choose>
@@ -2055,7 +2062,7 @@
   </pattern>
   <action>
 
-  <call-macro n="choose_case_and_postposition"><with-param pos="1"/></call-macro>
+  <call-macro n="choose_case_and_postposition2"><with-param pos="1"/><with-param pos="4"/></call-macro>
 <call-macro n="initialize_number"/> 
  <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="4"/></call-macro> 
   <call-macro n="build-noun-lu-with-possessive"><with-param pos="4"/><with-param pos="2"/></call-macro>   
@@ -2235,7 +2242,7 @@
   </pattern>
   <action>
 
-  <call-macro n="choose_case_and_postposition"><with-param pos="1"/></call-macro>
+  <call-macro n="choose_case_and_postposition2"><with-param pos="1"/><with-param pos="5"/></call-macro>
   <call-macro n="initialize_number"/>
   <call-macro n="build-noun-lu-with-possessive"><with-param pos="5"/><with-param pos="2"/></call-macro> 
     <choose>
@@ -2447,7 +2454,7 @@
   </pattern>
   <action>
 
-  <call-macro n="choose_case_and_postposition"><with-param pos="1"/></call-macro>
+  <call-macro n="choose_case_and_postposition2"><with-param pos="1"/><with-param pos="3"/></call-macro>
 
   <call-macro n="initialize_number"/>
   <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="3"/></call-macro> 

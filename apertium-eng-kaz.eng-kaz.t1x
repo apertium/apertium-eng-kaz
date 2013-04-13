@@ -651,7 +651,7 @@
        </and>
     </test>      
 <let><var  n="formality"/><lit-tag v="frm"/></let>
-<let><var  n="possessive"/><lit-tag v="px2sg"/>
+<let><var  n="possessive"/><concat><lit-tag v="px2sg"/><lit-tag v="frm"/></concat>
  
 </let>
 </when>

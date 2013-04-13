@@ -1214,8 +1214,9 @@
   <action>
     <call-macro n="initialize_number"/>
    <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="2"/></call-macro> 
-     <call-macro n="choose_case_and_postposition">
+     <call-macro n="choose_case_and_postposition2">
         <with-param pos="1"/>
+ <with-param pos="2"/>
      </call-macro>
       <call-macro n="build-noun-lu"><with-param pos="2"/></call-macro>
     <choose>
@@ -1258,57 +1259,6 @@
   </action>
 </rule>
 
-<rule comment="RULE: prep subj-pron"> <!--I go with you - Мен сізбен барам -->
-  <pattern>
-    <pattern-item n="prep"/>
-    <pattern-item n="subj-pron"/>
-  </pattern>
-  <action>
-    <call-macro n="initialize_number"/>
-   <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="2"/></call-macro> 
-     <call-macro n="choose_case_and_postposition">
-        <with-param pos="1"/>
-     </call-macro>
-      <call-macro n="build-subj-pron-lu"><with-param pos="2"/></call-macro>
-    <choose>
-      <when>  
-       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
-        <out> <!-- with postposition -->
-          <chunk name="prep-subj-pron">
-            <tags>
-                <tag><var n="pptag"/></tag>
-            </tags>
-            <lu>  
-               <var n="subj-pron_lu"/>
-            </lu>
-            <b/>
-            <lu>  
-               <var n="postposition_lu"/>
-            </lu>
-          </chunk>
-        </out>
-      </when>
-      <otherwise> <!-- without postposition -->
-        <out>
-          <chunk name="prep-subj-pron">
-            <tags>
-                <tag><var n="pptag"/></tag>
-            </tags>
-            <lu>  
-               <var n="subj-pron_lu"/>
-            </lu>
-          </chunk>
-        </out>
-      </otherwise>
-    </choose>
-        <call-macro n="out-blank-if-not-single-space"> 
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="out-blank-if-not-single-space">
-          <with-param pos="2"/>
-        </call-macro>
-  </action>
-</rule>
 
     <rule comment="RULE: prep obj-pron"> <!--I go with you - Мен сізбен барам -->
   <pattern>
@@ -1421,8 +1371,9 @@
   </pattern>
   <action>
     <call-macro n="initialize_number"/>
-     <call-macro n="choose_case_and_postposition">
+     <call-macro n="choose_case_and_postposition2">
         <with-param pos="1"/>
+ <with-param pos="3"/>
      </call-macro>
   <call-macro n="build-noun-lu"><with-param pos="3"/></call-macro>
     <choose>
@@ -1565,7 +1516,7 @@
   </pattern>
   <action>
 
-  <call-macro n="choose_case_and_postposition"><with-param pos="1"/></call-macro>
+  <call-macro n="choose_case_and_postposition2"><with-param pos="1"/><with-param pos="4"/></call-macro>
   <call-macro n="initialize_number"/>
   <call-macro n="build-noun-lu-with-possessive"><with-param pos="4"/><with-param pos="2"/></call-macro> 
     <choose>

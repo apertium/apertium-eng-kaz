@@ -651,9 +651,7 @@
        </and>
     </test>      
 <let><var  n="formality"/><lit-tag v="frm"/></let>
-<let><var  n="possessive"/><concat><lit-tag v="px2sg"/><lit-tag v="frm"/></concat>
- 
-</let>
+<let><var  n="possessive"/><lit-tag v="px2sg.frm"/></let>
 </when>
 
 
@@ -918,7 +916,7 @@
         <lu>
           <clip pos="3" side="tl" part="lem"/>
 	  <clip pos="3" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="neg.aor"/>
+          <lit-tag v="neg.ifi"/>
           <var n="verb-pers"/>	
           <var n="formality"/>	
           <var n="verb-nbr"/>

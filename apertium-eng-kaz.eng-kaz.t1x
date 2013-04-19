@@ -1146,7 +1146,6 @@
      </call-macro>
       </otherwise> 
     </choose>
-
   </action>
 </rule>
 
@@ -1168,26 +1167,37 @@
   </action>
 </rule>
 
-<!--<rule comment="RULE: must + verb"> <must verb ->
+<rule comment="RULE: must + verb"> <!--must verb -->
   <pattern>
     <pattern-item n="vaux-must"/>
-    <pattern-item n="approx-inf-verb"/>  I must go - Мен бару керекпін-->
-  <!-- </pattern>
+    <pattern-item n="approx-inf-verb"/>  <!--I must go - Мен бару керекпін-->
+  </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-    <let><var n="tense"/><lit-tag v="aor"/></let>
- <clip pos="2" side="tl" part="lem"/>
+    <let><var n="tense"/><lit-tag v="ifi"/></let>
+   <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu><!--baryp-->
+          <clip pos="2" side="tl" part="lem"/>
 	  <clip pos="2" side="tl" part="a_kaz_verb"/>
           <lit-tag v="prc_perf"/>
         </lu>
-        <b pos="1"/> this position is probably not optimal -->
- <!--       <lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
           <lit v="керек"/>
-    <call-macro n="gen-simple-verb">
-         <with-param pos="2"/> 
-    </call-macro>   
-  </action>->
-</rule>-->
+          <lit-tag v="vbmod"/>
+          <lit-tag v="ifi"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>   
+    
+  </action>
+</rule>
 
 <rule comment="RULE: have + verb"> <!--prs perfect verb -->
   <pattern>

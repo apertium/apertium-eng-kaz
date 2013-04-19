@@ -16309,7 +16309,7 @@
 
                             <e lm="respectively" i=""><i>respectively</i><par n="maybe__adv"/></e>
 
-                            <e lm="right" i=""><i>right</i><par n="maybe__adv"/></e>
+                           <!-- <e lm="right" i=""><i>right</i><par n="maybe__adv"/></e>-->
 
                             <e lm="right away" i=""><i>right<b/>away</i><par n="maybe__adv"/></e>
 
@@ -60394,7 +60394,8 @@
 
                             <e lm="wrongly" i=""><i>wrongly</i><par n="maybe__adv"/></e> 
                             <!--<e lm="yes" i=""><i>yes</i><par n="maybe__adv"/></e>-->
-<e lm="yes" i=""><i>yes</i><par n="hello__ij"/></e>
+		<e lm="yes" i=""><i>yes</i><par n="hello__ij"/></e>
+<e lm="yes" i=""><i>right</i><par n="hello__ij"/></e>
 
                             <e lm="yesterday" i=""><i>yesterday</i><par n="maybe__adv"/></e>
 

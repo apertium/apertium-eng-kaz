@@ -18,6 +18,9 @@
 <def-cat n="vaux-must"> <!-- must -->
       <cat-item lemma="must" tags="vaux.inf"/>
     </def-cat>
+<def-cat n="verb-inf"> <!-- past and present tense -->
+      <cat-item tags="vblex.ger"/>
+</def-cat>
     <def-cat n="pers-verb-to-be"> <!-- past and present tense -->
       <cat-item tags="vbser.pres"/>
       <cat-item tags="vbser.pres.*"/>
@@ -27,8 +30,8 @@
     <def-cat n="verb-ing"> <!-- past and present tense -->
       <cat-item tags="vblex.ger"/>
 <!--      <cat-item tags="vbser.ger"/>
-      <cat-item tags="vbhaver.ger"/>
-      <cat-item tags="vbmod.ger"/>  --> <!-- We'll try later -->
+      <cat-item tags="vbhaver.ger"/> --> <!-- We'll try later -->
+      <cat-item tags="vbmod.ger"/> 
    </def-cat>   
 
 <def-cat n="verb-pp"> <!-- present perfect tense -->
@@ -1149,6 +1152,31 @@
   </action>
 </rule>
 
+<rule comment="RULE: have"> <!--I have a book - Mende kitap bar-->
+  <pattern>
+    <pattern-item n="vaux-have"/>
+ <pattern-item n="nom"/>
+  </pattern>
+  <action>
+     <call-macro n="default-nbr-pers"/>
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <b pos="1"/> 
+        <lu>
+          <lit v="бар"/>
+          <lit-tag v="vbmod"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>   
+  </action>
+</rule>
+
 
 
 
@@ -1174,7 +1202,7 @@
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-    <let><var n="tense"/><lit-tag v="ifi"/></let>
+    <let><var n="tense"/><lit-tag v="pers"/></let>
    <out>
       <chunk name="pers-verb">
       <tags>
@@ -1183,13 +1211,13 @@
         <lu><!--baryp-->
           <clip pos="2" side="tl" part="lem"/>
 	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="prc_perf"/>
+          <lit-tag v="ger"/>
         </lu>
         <b pos="1"/> <!-- this position is probably not optimal -->
         <lu>
           <lit v="керек"/>
           <lit-tag v="vbmod"/>
-          <lit-tag v="ifi"/>
+          <var n="tense"/>
           <var n="verb-pers"/>	
           <var n="verb-nbr"/>
         </lu>

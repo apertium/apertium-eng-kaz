@@ -1159,6 +1159,12 @@
   </pattern>
   <action>
      <call-macro n="default-nbr-pers"/>
+<call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="2"/></call-macro> 
+     <call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
+ <with-param pos="2"/><!--how can I choose "Менде"?-->
+     </call-macro>
+      <call-macro n="build-noun-lu"><with-param pos="2"/></call-macro>
     <out>
       <chunk name="pers-verb">
       <tags>
@@ -1166,11 +1172,8 @@
       </tags>
         <b pos="1"/> 
         <lu>
-          <lit v="бар"/>
-          <lit-tag v="vbmod"/>
-          <var n="tense"/>
-          <var n="verb-pers"/>	
-          <var n="verb-nbr"/>
+          <lit-tag v="vaux"/>
+               
         </lu>
       </chunk>
         </out>   

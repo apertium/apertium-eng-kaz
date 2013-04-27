@@ -100,6 +100,8 @@
 
     <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="det"/><s n="qnt"/></r></p></e>
+
+<e><p><l>the<b/>most<s n="det"/><s n="sp"/></l><r>ең<s n="det"/><s n="qnt"/></r></p></e>
 <!-- MLF 201207010 has commented this one out
     <e><p><l>that<s n="det"/><s n="dem"/></l><r>бұл<s n="det"/><s n="dem"/></r></p></e>
 -->

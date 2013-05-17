@@ -32,8 +32,8 @@
     </def-cat>
     <def-cat n="verb-ing"> <!-- past and present tense -->
       <cat-item tags="vblex.ger"/>
-<!--      <cat-item tags="vbser.ger"/>
-      <cat-item tags="vbhaver.ger"/> --> <!-- We'll try later -->
+<!--<cat-item tags="vbser.ger"/>
+<cat-item tags="vbhaver.ger"/> --> <!-- We'll try later -->
       <cat-item tags="vbmod.ger"/> 
    </def-cat>   
 
@@ -992,10 +992,43 @@
 </rule>
 
 
-<!--<rule comment="RULE: pers-verb-to-be not verb-ing"> I am not playing - Мен ойнап жатқан жоқпын  
+<rule comment="RULE: be + not + verb-ing"> <!--I am not playing - Мен ойнап жатқан жоқпын --> 
   <pattern>
- 
-    <pattern-item n="vaux-ing"/>
+ <!-- <pattern-item n="pers-verb-to-be"/>
+<pattern-item n="not"/>
+    <pattern-item n="verb-ing"/> 
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+    <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="pres"/></let>
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/>  this position is probably not optimal 
+        <lu>
+          <lit v="жоқ"/>
+          <lit-tag v="vaux"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>-->
 <pattern-item n="pers-verb-to-be"/>
     <pattern-item n="not"/>
     <pattern-item n="verb-ing"/>
@@ -1018,64 +1051,67 @@
         <tag><lit-tag v="SV"/></tag>
       </tags>
         <lu>
-          <clip pos="4" side="tl" part="lem"/>
-	  <clip pos="4" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="neg.aor"/>
-        <lit v="жатқан жоқ"/>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+     <lit-tag v="prc_perf"/>
+ </lu>
+        <b pos="1"/>  <!--this position is probably not optimal -->
+      
+<lu>
+	<lit v="жатқан жоқ"/>
           <lit-tag v="vaux"/>
           <var n="tense"/>
           <var n="verb-pers"/>	
           <var n="verb-nbr"/>
-        </lu>
+
+       </lu>
       </chunk>
         </out>
       </when>
-</choose>
-</action>
-
       <when>
         <test>
           <equal> 
              <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="past"/>  I was not playing - Мен ойнап отырмадым  
+             <lit-tag v="past"/> <!--I was not playing - Мен ойнап отырмадым  -->
 </equal> 
 </test>  
-</when>
+
  <let><var n="tense"/><lit-tag v="past"/></let>
-<when>
+
         <out>
       <chunk name="pers-verb">
       <tags>
         <tag><lit-tag v="SV"/></tag>
       </tags>
         <lu>
-          <clip pos="2" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
           <lit-tag v="prc_perf"/>
         </lu>
         <b pos="1"/> 
         <lu>
           <lit v="отыр"/>
- <lit-tag v="neg.aor"/>
+	 <!--<lit-tag v="neg.aor"/>-->
           <lit-tag v="vaux"/>
-          <lit-tag v="ifi"/>
+          <lit-tag v="neg.ifi"/>
           <var n="verb-pers"/>	
           <var n="verb-nbr"/>
         </lu>
       </chunk>
         </out>
       </when>
-   
        
   <otherwise>
-        <let><var n="tense"/><lit-tag v="aor"/></let>
+        <let><var n="tense"/><lit-tag v="neg.ifi"/></let>
       <call-macro n="gen-simple-verb">
-         <with-param pos="4"/> 
+         <with-param pos="3"/> 
      </call-macro>
       </otherwise> 
- 
+  </choose>
+</action>
+	
 </rule>
--->
+
 <rule comment="RULE: be + verb-ing"> <!-- first attempt at "ing" verbal forms -->
   <pattern>
     <pattern-item n="pers-verb-to-be"/>
@@ -1155,6 +1191,7 @@
   </action>
 </rule>
 
+
 <rule comment="RULE: have"> <!--I have a book - Mende kitap bar-->
   <pattern>
     <pattern-item n="vaux-have"/>
@@ -1204,7 +1241,7 @@
 <rule comment="RULE: must + verb"> <!--must verb -->
   <pattern>
     <pattern-item n="vaux-must"/>
-    <pattern-item n="approx-inf-verb"/>  <!--I must go - Мен бару керекпін-->
+    <pattern-item n="approx-inf-verb"/>  <!--I must go - Мен баруым керек-->
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
@@ -1217,16 +1254,12 @@
         <lu><!--baryp-->
           <clip pos="2" side="tl" part="lem"/>
 	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="ger"/>
+          <lit-tag v="aor"/>
         </lu>
         <b pos="1"/> <!-- this position is probably not optimal -->
         <lu>
           <lit v="керек"/>
-          <lit-tag v="vbmod"/>
-          <var n="tense"/>
-          <var n="verb-pers"/>	
-          <var n="verb-nbr"/>
-        </lu>
+         </lu>
       </chunk>
         </out>   
     

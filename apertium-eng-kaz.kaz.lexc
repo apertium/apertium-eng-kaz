@@ -2274,7 +2274,7 @@ cиыр еті:сиыр еті N1; !beef
 тап:тап V-TV ; ! "find"
 тұр:тұр V-IV ; ! "rise,stand"
 тұр:тұр V-IV ; ! "rise,stand"
-тыңда:тыңда V-TV ; ! "listen"
+тыңда:тыңда V-IV ; ! "listen"
 күт:күт V-TV ; ! "wait"
 тырыс:тырыс V-IV ; ! "to try"
 ұйықта:ұйықта V-IV ; ! "sleep" 
@@ -2329,7 +2329,8 @@ cүй:сүй V-TV ; ! "love"
 ұмыт:ұмыт V-IV ; ! "forget"
 ұш:ұш V-IV ; ! "fly"
 жатыр:жатыр Vinfl-AUX-IMPF ; ! <!--Жат +ыр-->
-жүр:жүр Vinfl-AUX-IMPF ; ! 
+жүр:жүр Vinfl-AUX-IMPF ; !
+жатқан% жоқ:жатқан% жоқ Vinfl-AUX-IMPF ; !
 отыр:отыр Vinfl-AUX-IMPF ; ! 
 отыр:отыр Vinfl-AUX-IMPF ; ! 
 тұр:тұр Vinfl-AUX-IMPF ; ! 

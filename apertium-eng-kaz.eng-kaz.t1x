@@ -1231,7 +1231,8 @@
    </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-    <let><var n="tense"/><lit-tag v="aor"/></let>
+    <let><var n="tense"/>
+<lit-tag v="aor"/></let>
     <call-macro n="gen-simple-verb">
          <with-param pos="2"/> 
     </call-macro>   
@@ -1245,7 +1246,7 @@
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-    <let><var n="tense"/><lit-tag v="pers"/></let>
+    <let><var n="tense"/><lit-tag v="aor"/></let>
    <out>
       <chunk name="pers-verb">
       <tags>
@@ -1259,6 +1260,10 @@
         <b pos="1"/> <!-- this position is probably not optimal -->
         <lu>
           <lit v="керек"/>
+	<lit-tag v="vbmod"/>
+       
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
          </lu>
       </chunk>
         </out>   

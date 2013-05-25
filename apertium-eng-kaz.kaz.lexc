@@ -969,7 +969,7 @@ LEXICON Determiners
 бар:бар DET-QNT ; ! "all"
 барлық:барлық DET-QNT ; ! "all"
 бірнеше:бірнеше DET-QNT ; ! "some"
-ең:ең DET-QNT ; ! "the% most"
+
 бірқатар:бірқатар DET-QNT ; ! "several"
 бүкіл:бүкіл DET-QNT ; ! "whole"
 көптеген:көптеген DET-QNT ; ! "many"
@@ -2330,6 +2330,7 @@ cүй:сүй V-TV ; ! "love"
 ұш:ұш V-IV ; ! "fly"
 жатыр:жатыр Vinfl-AUX-IMPF ; ! <!--Жат +ыр-->
 жүр:жүр Vinfl-AUX-IMPF ; !
+керек:керек Vinfl-AUX-IMPF ; !
 жатқан% жоқ:жатқан% жоқ Vinfl-AUX-IMPF ; !
 отыр:отыр Vinfl-AUX-IMPF ; ! 
 отыр:отыр Vinfl-AUX-IMPF ; ! 

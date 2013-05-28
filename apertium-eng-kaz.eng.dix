@@ -41531,7 +41531,7 @@
 
                             <e lm="camping" i=""><i>camping</i><par n="house__n"/></e>
 
-                            <e lm="can" i=""><i>can</i><par n="house__n"/></e>
+                   <!-- <e lm="can" i=""><i>can</i><par n="house__n"/></e>-->
 
                             <e lm="canalisation" i=""><i>canali</i><par n="globali/sation__n"/></e>
 

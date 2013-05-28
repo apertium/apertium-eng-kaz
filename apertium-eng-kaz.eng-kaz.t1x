@@ -11,6 +11,7 @@
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
       <cat-item tags="vblex.pres"/>
+<cat-item tags="vbmod.inf"/>
     </def-cat>
     <def-cat n="vaux-will"> <!-- future -->
       <cat-item lemma="will" tags="vaux.inf"/>
@@ -18,9 +19,13 @@
 <def-cat n="vaux-must"> <!-- must -->
       <cat-item lemma="must" tags="vaux.inf"/>
     </def-cat>
+ <def-cat n="vaux-can"> <!-- future -->
+      <cat-item lemma="can" tags="vaux.inf"/>
+    </def-cat>
 <def-cat n="vaux-should"> <!-- future -->
       <cat-item lemma="should" tags="vaux.inf"/>
     </def-cat>
+
 <def-cat n="verb-inf"> <!-- past and present tense -->
       <cat-item tags="vblex.ger"/>
 </def-cat>
@@ -994,41 +999,6 @@
 
 <rule comment="RULE: be + not + verb-ing"> <!--I am not playing - Мен ойнап жатқан жоқпын --> 
   <pattern>
- <!-- <pattern-item n="pers-verb-to-be"/>
-<pattern-item n="not"/>
-    <pattern-item n="verb-ing"/> 
-   </pattern>
-  <action>
-    <call-macro n="default-nbr-pers"/>
-    <choose>
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="pres"/>
-          </equal>
-        </test>
-        <let><var n="tense"/><lit-tag v="pres"/></let>
-        <out>
-      <chunk name="pers-verb">
-      <tags>
-        <tag><lit-tag v="SV"/></tag>
-      </tags>
-        <lu>
-          <clip pos="2" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="prc_perf"/>
-        </lu>
-        <b pos="1"/>  this position is probably not optimal 
-        <lu>
-          <lit v="жоқ"/>
-          <lit-tag v="vaux"/>
-          <var n="tense"/>
-          <var n="verb-pers"/>	
-          <var n="verb-nbr"/>
-        </lu>
-      </chunk>
-        </out>-->
 <pattern-item n="pers-verb-to-be"/>
     <pattern-item n="not"/>
     <pattern-item n="verb-ing"/>
@@ -1246,7 +1216,7 @@
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-    <let><var n="tense"/><lit-tag v="aor"/></let>
+    <let><var n="tense"/><lit-tag v="pres"/></let>
    <out>
       <chunk name="pers-verb">
       <tags>
@@ -1260,8 +1230,8 @@
         <b pos="1"/> <!-- this position is probably not optimal -->
         <lu>
           <lit v="керек"/>
-	<lit-tag v="vbmod"/>
-       
+	 <lit-tag v="vaux"/>
+          <lit-tag v="tense"/>
           <var n="verb-pers"/>	
           <var n="verb-nbr"/>
          </lu>
@@ -1269,6 +1239,36 @@
         </out>   
     
   </action>
+</rule>
+
+<rule comment="RULE: can + verb "> <!--Men bara alam - I can go-->
+  <pattern>
+    <pattern-item n="vaux-can"/>
+    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+    <let><var n="tense"/><lit-tag v="pers"/></let>
+   <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu><!--bara-->
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_impf"/>
+        </lu>
+        <b pos="1"/> 
+        <lu>
+          <lit v="ал"/>
+	<lit-tag v="vaux"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+         </lu>
+      </chunk>
+        </out>   
+      </action>
 </rule>
 
 <rule comment="RULE: have + verb"> <!--prs perfect verb -->
@@ -1294,7 +1294,7 @@
   <action>
  
   <call-macro n="default-nbr-pers"/>
-    <let><var n="tense"/><lit-tag v="pers"/></let> 
+    <let><var n="tense"/><lit-tag v="past"/></let> 
    <out>
    
 <chunk name="pers-verb">
@@ -1302,14 +1302,14 @@
         <tag><lit-tag v="SV"/></tag>
       </tags>
         <lu><!--барғаным-->
-          <clip pos="3" side="tl" part="lem"/>
-	  <clip pos="3" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="ger"/>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="ger_past"/>
         </lu>
         <b pos="1"/> <!-- this position is probably not optimal -->
         <lu>
           <lit v="жөн"/>
-          <lit-tag v="vbmod"/>
+          <lit-tag v="vaux"/>
           <var n="tense"/>
           <var n="verb-pers"/>	
           <var n="verb-nbr"/>

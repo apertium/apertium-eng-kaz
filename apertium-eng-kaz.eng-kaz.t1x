@@ -1284,6 +1284,21 @@
     </call-macro>   
   </action>
 </rule>
+
+<rule comment="RULE: have + not + verb"> <!--prs perfect verb -->
+  <pattern>
+    <pattern-item n="vaux-have"/>
+ <pattern-item n="not"/>
+    <pattern-item n="verb-pp"/> <!--past participle -->
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+   <let><var n="tense"/><lit-tag v="neg.past"/></let>
+    <call-macro n="gen-simple-verb">
+         <with-param pos="3"/> 
+    </call-macro>   
+  </action>
+</rule>
     
 <rule comment="RULE: should inf"> <!-- I should go -  Менің барғаным жөн-->
   <pattern>

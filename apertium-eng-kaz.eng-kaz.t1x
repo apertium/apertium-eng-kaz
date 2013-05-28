@@ -1209,7 +1209,7 @@
   </action>
 </rule>
 
-<rule comment="RULE: must + verb"> <!--must verb -->
+<rule comment="RULE: must + infinitive"> <!--must verb -->
   <pattern>
     <pattern-item n="vaux-must"/>
     <pattern-item n="approx-inf-verb"/>  <!--I must go - Мен баруым керек-->
@@ -1230,10 +1230,7 @@
         <b pos="1"/> <!-- this position is probably not optimal -->
         <lu>
           <lit v="керек"/>
-	 <lit-tag v="vaux"/>
-          <lit-tag v="tense"/>
-          <var n="verb-pers"/>	
-          <var n="verb-nbr"/>
+	 <var n="noun_lu"/>
          </lu>
       </chunk>
         </out>   
@@ -1241,7 +1238,7 @@
   </action>
 </rule>
 
-<rule comment="RULE: can + verb "> <!--Men bara alam - I can go-->
+<rule comment="RULE: can + infinitive "> <!--Men bara alam - I can go-->
   <pattern>
     <pattern-item n="vaux-can"/>
     <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->

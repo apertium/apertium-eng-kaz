@@ -1177,6 +1177,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>west<s n="n"/></l><r>батыс<s n="n"/></r></p></e>
 
 
+
 <e><p><l>substance<s n="n"/></l><r>субстанция<s n="n"/></r></p></e>
 
 
@@ -1519,7 +1520,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>look<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>love<s n="vblex"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>make<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>need<s n="vblex"/></l><r>керек<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>need<s n="vblex"/></l><r>қажет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>offer<s n="vblex"/></l><r>ұсын<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>open<s n="vblex"/></l><r>аш<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>play<s n="vblex"/></l><r>ойна<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check iv/tv -->

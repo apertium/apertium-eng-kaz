@@ -101,10 +101,10 @@ $(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
 ###############################################################################
 
 $(PREFIX1).lrx.bin: $(BASENAME).$(PREFIX1).lrx
-	apertium-lrx-comp lr $< $@
+	lrx-comp $< $@
 
 $(PREFIX2).lrx.bin: $(BASENAME).$(PREFIX2).lrx
-	apertium-lrx-comp lr $< $@
+	lrx-comp $< $@
 
 ###############################################################################
 ## Structural transfer rules

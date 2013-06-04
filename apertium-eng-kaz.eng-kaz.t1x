@@ -1161,6 +1161,42 @@
   </action>
 </rule>
 
+<rule comment="RULE: will + be + verb-ing"> <!--I will be playing - Мен ойнап отырамын -->
+  <pattern>
+<pattern-item n="vaux-will"/>
+      <pattern-item n="approx-inf-verb"/>
+    <pattern-item n="verb-ing"/> <!-- * -->
+   </pattern>
+ <action>
+     <call-macro n="default-nbr-pers"/>
+    
+       <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="жатыр"/>
+          <lit-tag v="vaux"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+     
+     
+        
+   
+  </action>
+</rule>
+
 
 <rule comment="RULE: have"> <!--I have a book - Mende kitap bar-->
   <pattern>
@@ -1211,26 +1247,73 @@
 
 <rule comment="RULE: must + infinitive"> <!--must verb -->
   <pattern>
+<pattern-item n="nom"/>
     <pattern-item n="vaux-must"/>
     <pattern-item n="approx-inf-verb"/>  <!--I must go - Мен баруым керек-->
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-    <let><var n="tense"/><lit-tag v="pres"/></let>
-   <out>
+    <let><var n="tense"/>
+	<lit-tag v="pres"/></let>
+ <call-macro n="initialize_number"/>
+   <call-macro n="assign-tl-number-according-to-sl-nbr">
+	<with-param pos="2"/>
+</call-macro> 
+     <call-macro n="choose_case_and_postposition2">
+        <with-param pos="2"/>
+        <with-param pos="1"/>
+     </call-macro>
+      <call-macro n="build-obj-pron-lu">
+	<with-param pos="1"/>
+</call-macro>
+<choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+        <out> <!-- with postposition -->
+          <chunk name="SN">
+            <tags>
+                <tag><var n="noun_lu_with_poss"/></tag>
+            </tags>
+            <lu>  
+               <var n="noun_lu"/>
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+</choose>
+<out>
+<chunk name="SN">
+    <tags>
+    <tag><lit-tag v="nom"/></tag>
+    </tags>
+    <lu>  
+        <clip pos="1" side="tl" part="lem"/> 
+        <clip pos="1" side="tl" part="a_nom"/>
+        <clip pos="1" side="tl" part="a_gen"/>
+        <var n="number"/> 
+        <var n="case"/>  
+     </lu>
+    </chunk>
       <chunk name="pers-verb">
       <tags>
         <tag><lit-tag v="SV"/></tag>
       </tags>
         <lu><!--baryp-->
-          <clip pos="2" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="aor"/>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="ger"/>
+	 <var n="verb-nbr"/>
         </lu>
         <b pos="1"/> <!-- this position is probably not optimal -->
         <lu>
           <lit v="керек"/>
+
 	 <var n="noun_lu"/>
+
          </lu>
       </chunk>
         </out>   
@@ -1240,8 +1323,9 @@
 
 <rule comment="RULE: can + infinitive "> <!--Men bara alam - I can go-->
   <pattern>
+ <pattern-item n="subj-pron"/>
     <pattern-item n="vaux-can"/>
-    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+    <pattern-item n="approx-inf-verb"/> 
    </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
@@ -1297,6 +1381,87 @@
   </action>
 </rule>
     
+<rule comment="RULE: have + been + verb-ing"> <!--Present Perfect Continuous I have been playing Мен ойнап отырғанмын -->
+  <pattern>
+    <pattern-item n="vaux-have"/>
+    <pattern-item n="verb-pp"/> <!--past participle -->
+ <pattern-item n="verb-ing"/>
+   </pattern>
+   <action>
+    <call-macro n="default-nbr-pers"/>
+    <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="past"/></let>
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="отыр"/>
+          <lit-tag v="vaux"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when> 
+    <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="past"/></let>
+<!--call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro> -->
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+      </tags>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="отыр"/>
+          <lit-tag v="vaux"/>
+          <lit-tag v="past"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let> <!-- This is clearly wrong but we'll change it later -->
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+  
+ </choose>
+  </action>
+</rule>
+
 <rule comment="RULE: should inf"> <!-- I should go -  Менің барғаным жөн-->
   <pattern>
     

@@ -196,7 +196,7 @@
     <def-var n="verb-pers"/> <!-- State variable -->
     <def-var n="verb-nbr"/> <!-- State variable -->
     <def-var n="formality"/> <!-- Used to generate formal versions of 2nd person pronouns -->
-    <def-var n="pptag"/> <!-- Will contain the tag of the next postpositional phrase generated (AdvP, AdjP, etc.) -->
+    <def-var n="pptag"/> <!-- Will contain the tag of the next postpositional phrase generated (AdvP, GenP, etc.) -->
 
     <def-var n="genpp"/> <!-- yes: will generate postposition; no= won't -->
     <def-var n="pplemma"/> <!-- lemma of postpostion -->
@@ -389,7 +389,7 @@
               </let>
               <let>
                  <var n="pptag"/>
-                 <lit-tag v="AdjP"/>   
+                 <lit-tag v="GenP"/>   
               </let>
 	   </when>    
 
@@ -592,7 +592,7 @@
               </let>
               <let>
                  <var n="pptag"/>
-                 <lit-tag v="AdjP"/>   <!-- MLF20120628 could be genP in the future -->
+                 <lit-tag v="GenP"/>   
               </let>
        </when>    
 
@@ -603,7 +603,7 @@
               </let>
               <let>
                 <var n="pptag"/>
-                <lit-tag v="AdvP"/>   <!-- MLF20120628 could be genP in the future -->
+                <lit-tag v="AdvP"/>  
               </let>
             </otherwise>
     </choose>
@@ -739,7 +739,7 @@
     <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="1" side="tl" part="lem"/>
@@ -894,7 +894,7 @@
     <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="3" side="tl" part="lem"/>
@@ -920,7 +920,7 @@
     <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="3" side="tl" part="lem"/>
@@ -958,7 +958,7 @@
     <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="1" side="tl" part="lem"/>
@@ -1018,7 +1018,7 @@
     <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="3" side="tl" part="lem"/>
@@ -1051,7 +1051,7 @@
         <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="3" side="tl" part="lem"/>
@@ -1101,7 +1101,7 @@
         <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="2" side="tl" part="lem"/>
@@ -1133,7 +1133,7 @@
         <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="2" side="tl" part="lem"/>
@@ -1173,7 +1173,7 @@
        <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="3" side="tl" part="lem"/>
@@ -1214,7 +1214,7 @@
     <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <b pos="1"/> 
         <lu>
@@ -1270,7 +1270,7 @@
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
         <out> <!-- with postposition -->
-          <chunk name="SN">
+          <chunk name="NP">
             <tags>
                 <tag><var n="noun_lu_with_poss"/></tag>
             </tags>
@@ -1286,7 +1286,7 @@
       </when>
 </choose>
 <out>
-<chunk name="SN">
+<chunk name="NP">
     <tags>
     <tag><lit-tag v="nom"/></tag>
     </tags>
@@ -1300,7 +1300,7 @@
     </chunk>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu><!--baryp-->
           <clip pos="3" side="tl" part="lem"/>
@@ -1333,7 +1333,7 @@
    <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu><!--bara-->
           <clip pos="2" side="tl" part="lem"/>
@@ -1401,7 +1401,7 @@
         <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="3" side="tl" part="lem"/>
@@ -1433,7 +1433,7 @@
         <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu>
           <clip pos="3" side="tl" part="lem"/>
@@ -1476,7 +1476,7 @@
    
 <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="VP"/></tag>
       </tags>
         <lu><!--барғаным-->
           <clip pos="2" side="tl" part="lem"/>
@@ -1615,7 +1615,7 @@
     <out>
       <chunk name="adjec-nom">
       <tags>
-        <tag><lit-tag v="SN"/></tag>
+        <tag><lit-tag v="NP"/></tag>
       </tags>
       <lu><clip pos="1" side="tl" part="whole"/></lu>
       <b pos="1"/>
@@ -1637,7 +1637,7 @@
     <out>
     <chunk name="num-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
         <clip pos="1" side="tl" part="lem"/> 
@@ -1737,7 +1737,7 @@
   <out>
     <chunk name="det-num-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
         <clip pos="2" side="tl" part="lem"/> 
@@ -1757,7 +1757,7 @@
     <out>
     <chunk name="det-num-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
       <clip pos="1" side="tl" part="whole"/>
@@ -1779,7 +1779,7 @@
     <out>
     <chunk name="det-num-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
         <clip pos="2" side="tl" part="lem"/> 
@@ -1820,7 +1820,7 @@
            <out>
              <chunk name="prep-det-num-nom">
              <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
              </tags>
              <lu>
              <clip pos="2" side="tl" part="lem"/>
@@ -1849,7 +1849,7 @@
            <out>
             <chunk name="prep-det-num-nom">
               <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
               </tags>
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
@@ -1904,7 +1904,7 @@
            <out>
              <chunk name="prep-det-num-nom">
              <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
              </tags>
              <lu>
              <clip pos="2" side="tl" part="lem"/>
@@ -1929,7 +1929,7 @@
            <out>
             <chunk name="prep-det-num-nom">
               <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
               </tags>
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
@@ -2003,7 +2003,7 @@
     <out>
     <chunk name="det-adjec-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
       <clip pos="1" side="tl" part="lem"/>
@@ -2027,7 +2027,7 @@
     <out>
     <chunk name="det-adjec-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
       <clip pos="1" side="tl" part="whole"/>
@@ -2051,7 +2051,7 @@
     <out>
     <chunk name="det-adjec-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
         <clip pos="2" side="tl" part="whole"/> 
@@ -2084,7 +2084,7 @@
     <out>
     <chunk name="num-adjec-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
         <clip pos="1" side="tl" part="lem"/> 
@@ -2124,7 +2124,7 @@
     <out>
     <chunk name="det-num-adjec-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
       <clip pos="2" side="tl" part="lem"/>
@@ -2149,7 +2149,7 @@
     <out>
     <chunk name="det-num-adjec-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
       <clip pos="1" side="tl" part="whole"/>
@@ -2178,7 +2178,7 @@
     <out>
     <chunk name="det-num-adjec-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
 <!-- <lu>
         <clip pos="2" side="tl" part="lem"/> 
@@ -2369,7 +2369,7 @@
            <out>
              <chunk name="prep-det-adjec-nom">
              <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
              </tags>
              <lu>
              <clip pos="2" side="tl" part="lem"/>
@@ -2397,7 +2397,7 @@
            <out>
             <chunk name="prep-det-adjec-nom">
               <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
               </tags>
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
@@ -2450,7 +2450,7 @@
            <out>
              <chunk name="prep-det-adjec-nom">
              <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
              </tags>
              <lu>
              <clip pos="2" side="tl" part="lem"/>
@@ -2474,7 +2474,7 @@
            <out>
             <chunk name="prep-det-adjec-nom">
               <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
               </tags>
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
@@ -2548,7 +2548,7 @@
            <out>
              <chunk name="prep-det-num-adjec-nom">
              <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
              </tags>
              <lu>
              <clip pos="2" side="tl" part="lem"/>
@@ -2581,7 +2581,7 @@
            <out>
             <chunk name="prep-det-num-adjec-nom">
               <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
               </tags>
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
@@ -2644,7 +2644,7 @@
            <out>
              <chunk name="prep-det-num-adjec-nom">
              <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
              </tags>
              <lu>
              <clip pos="2" side="tl" part="lem"/>
@@ -2673,7 +2673,7 @@
            <out>
             <chunk name="prep-det-num-adjec-nom">
               <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
               </tags>
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
@@ -2762,7 +2762,7 @@
            <out>
              <chunk name="prep-det-nom">
              <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
              </tags>
              <lu>
              <clip pos="2" side="tl" part="lem"/>
@@ -2786,7 +2786,7 @@
            <out>
             <chunk name="prep-det-nom">
               <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
               </tags>
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
@@ -2831,7 +2831,7 @@
            <out>
              <chunk name="prep-det-nom">
              <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
              </tags>
              <lu>
              <clip pos="2" side="tl" part="lem"/>
@@ -2851,7 +2851,7 @@
            <out>
             <chunk name="prep-det-nom">
               <tags>
-                <tag><lit-tag v="SN"/></tag>
+                <tag><lit-tag v="NP"/></tag>
               </tags>
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
@@ -2913,7 +2913,7 @@
     <out>
     <chunk name="det-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
       <clip pos="1" side="tl" part="lem"/>
@@ -2933,7 +2933,7 @@
     <out>
     <chunk name="det-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
       <clip pos="1" side="tl" part="whole"/>
@@ -2950,7 +2950,7 @@
     <out>
     <chunk name="det-nom">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>  
       <var n="noun_lu_with_poss"/>
@@ -2966,25 +2966,22 @@
 </rule>
 
 
-<rule comment="RULE: nom">  <!-- FMT -->
+<rule comment="RULE: nom">  
   <pattern>
     <pattern-item n="nom"/>
   </pattern>
   <action>
    <call-macro n="initialize_number"/>
    <call-macro n="initialize_case_to_nominative"/>
-   <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="1"/></call-macro> 
+   <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="1"/></call-macro>
+   <call-macro n="build-noun-lu"><with-param pos="1"/></call-macro> 
     <out>
-    <chunk name="SN">
+    <chunk name="NP">
     <tags>
     <tag><lit-tag v="nom"/></tag>
     </tags>
-    <lu>  
-        <clip pos="1" side="tl" part="lem"/> 
-        <clip pos="1" side="tl" part="a_nom"/>
-        <clip pos="1" side="tl" part="a_gen"/>
-        <var n="number"/> 
-        <var n="case"/>  
+    <lu>
+      <var n="noun_lu"/>
      </lu>
     </chunk>
     </out>
@@ -3032,7 +3029,7 @@
   <out>
    <chunk name="subj-pron">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
       <clip pos="1" side="tl" part="lem"/>
@@ -3089,7 +3086,7 @@
   <out>
    <chunk name="subj-pron">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
       <clip pos="1" side="tl" part="lem"/>

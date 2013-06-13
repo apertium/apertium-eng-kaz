@@ -2,13 +2,13 @@
 <!-- -*- nxml -*- -->
 <interchunk>
   <section-def-cats>
-    <def-cat n="SN">
-      <cat-item tags="SN"/>
-      <cat-item tags="SN.*"/>
+    <def-cat n="NP">
+      <cat-item tags="NP"/>
+      <cat-item tags="NP.*"/>
     </def-cat>
-    <def-cat n="SV">
-      <cat-item tags="SV"/>
-      <cat-item tags="SV.*"/>
+    <def-cat n="VP">
+      <cat-item tags="VP"/>
+      <cat-item tags="VP.*"/>
     </def-cat>
     <def-cat n="AdvP">
       <cat-item tags="AdvP"/>
@@ -74,9 +74,9 @@
   </section-def-macros>
   <section-rules>
 
-    <rule comment="REGLA: SN">
+    <rule comment="REGLA: NP">
       <pattern>
-        <pattern-item n="SN"/>
+        <pattern-item n="NP"/>
       </pattern>
       <action>
         <out>
@@ -89,10 +89,10 @@
       </action>
     </rule>
 
-    <rule comment="RULE: SV AdvP → AdvP SV">
-    <!-- Just reorders SV and AdvP -->
+    <rule comment="RULE: VP AdvP → AdvP VP">
+    <!-- Just reorders VP and AdvP -->
      <pattern>
-       <pattern-item n="SV"/>
+       <pattern-item n="VP"/>
        <pattern-item n="AdvP"/>
      </pattern>
      <action>
@@ -115,10 +115,10 @@
      </action>
     </rule>
     
-<rule comment="RULE: SV AdvP AdvP → AdvP AdvP SV">
-    <!-- Just reorders SV and AdvP1 AdvP2 -->
+<rule comment="RULE: VP AdvP AdvP → AdvP AdvP VP">
+    <!-- Just reorders VP and AdvP1 AdvP2 -->
      <pattern>
-       <pattern-item n="SV"/>
+       <pattern-item n="VP"/>
        <pattern-item n="AdvP"/>
        <pattern-item n="AdvP"/>
      </pattern>
@@ -148,11 +148,11 @@
      </action>
     </rule>
 
-<rule comment="RULE: SV SN → SN SV">
+<rule comment="RULE: VP NP → NP VP">
     <!-- Just reorders verb and object accusative -->
      <pattern>
-       <pattern-item n="SV"/>
- 	<pattern-item n="SN"/>
+       <pattern-item n="VP"/>
+ 	<pattern-item n="NP"/>
    
      </pattern>
      <action>

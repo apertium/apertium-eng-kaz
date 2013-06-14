@@ -34,6 +34,7 @@
       <cat-item tags="vbser.pres.*"/>
       <cat-item tags="vbser.past.*"/>
       <cat-item tags="vbser.past"/>
+ <cat-item tags="vbser.pp"/>
     </def-cat>
     <def-cat n="verb-ing"> <!-- past and present tense -->
       <cat-item tags="vblex.ger"/>
@@ -112,6 +113,7 @@
     <def-attr n="a_tense">
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
+   <attr-item tags="pass"/>
     </def-attr> 
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -1495,6 +1497,81 @@
      </out>
   </action>
 </rule>
+
+
+<rule comment="RULE: be + verb-pp"> <!--passive -->
+  <pattern>
+    <pattern-item n="pers-verb-to-be"/>
+    <pattern-item n="verb-pp"/> <!--past participle -->
+   </pattern>
+  <action>    
+   <call-macro n="default-nbr-pers"/>
+    <choose>
+
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="pres"/></let> 
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+ <lit-tag v="pass"/>
+          <lit-tag v="aor"/>
+          <var n="verb-pers"/>	
+          <var n="formality"/>	
+          <var n="verb-nbr"/>
+	
+        </lu>
+      </chunk>
+        </out>
+      </when>
+
+      <when>
+         <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="ifi"/></let> 
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+ <lit-tag v="pass"/>
+          <lit-tag v="ifi"/>
+          <var n="verb-pers"/>	
+          <var n="formality"/>	
+          <var n="verb-nbr"/>
+	
+        </lu>
+      </chunk>
+        </out>
+      </when>
+
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
+  </action>
+</rule>
+
 
 <rule comment="RULE: prep nom"> 
   <pattern>

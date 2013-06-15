@@ -14,6 +14,7 @@ LIST CC = cnjcoo ;
 LIST Rel = rel ; 
 LIST Preadv = preadv ; 
 LIST Pr = pr ; 
+LIST NUM = num ;
 
 LIST Cop = vbser ; 
 
@@ -88,7 +89,7 @@ SELECT Inf IF (-2 ("do"i)) (-1 Pron) (0 Pres OR Inf);
 
 REMOVE CS IF (NOT 1* V-FIN BARRIER CLB);
 
-REMOVE Det IF (NOT 1 N);
+REMOVE Det IF (NOT 1 N OR A OR NUM);
 
 SELECT Adv + Interr IF (0 Adv OR Rel) (1* ("?")) ;
 
@@ -130,4 +131,8 @@ SELECT V-DO-AUX IF (-1C PRN-SUBJ) (1C ADV-NOT);
 
 SELECT Pr IF (0 Pr OR Adv) (1 Pron + Obj) ;
 
-REMOVE N IF (0 N OR V) (-1 VAUX-CAN)
+REMOVE N IF (0 N OR V) (-1 VAUX-CAN) ;
+
+REMOVE Pron IF (0 Det OR Pron) (1 NUM) ;
+
+ 

@@ -1289,6 +1289,14 @@
    </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
     <let><var n="tense"/><lit-tag v="pres"/></let>
    <out>
       <chunk name="pers-verb">
@@ -1309,7 +1317,44 @@
           <var n="verb-nbr"/>
          </lu>
       </chunk>
-        </out>   
+        </out> 
+  </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+         <let><var n="tense"/><lit-tag v="past"/></let>
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_impf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="ал"/>
+          <lit-tag v="vaux"/>
+          <lit-tag v="ifi"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let> <!-- This is clearly wrong but we'll change it later -->
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
       </action>
 </rule>
 

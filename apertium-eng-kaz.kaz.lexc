@@ -398,7 +398,7 @@ LEXICON ADJ-KI-INFL
 LEXICON V-PERS-PRES ! P_6
 %<p1%>%<sg%>:%>м%{I%}н CLIT ;    ! Dir/LR
 %<p1%>%<sg%>:%>м%{I%}н CLIT ;
-%<p2%>%<sg%>:%>с%{I%}ң CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}з CLIT ; 
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; 
 %<p3%>%<sg%>:%>д%{I%} CLIT-OTHER ; 
 %<p3%>%<sg%>:%> CLIT-MA ; 
@@ -415,7 +415,7 @@ LEXICON V-PERS-COP ! P_3
 LEXICON V-PERS-PAST ! P_4
 
 %<p1%>%<sg%>:%>%{I%}м CLIT ;
-%<p2%>%<sg%>:%>%{I%}ң CLIT ;
+%<p2%>%<sg%>:%>%{I%}ң%{I%}з CLIT ;
 %<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT ;
 %<p3%>%<sg%>: CLIT ;  
 %<p1%>%<pl%>:%>%{I%}%{K%} CLIT ;
@@ -2241,7 +2241,7 @@ cиыр еті:сиыр еті N1; !beef
 ажырат:ажырат V-TV ; ! "separate"
 шек:шек V-TV ; ! "smoke"
 же:же V-IV ; ! "eat"
-жүгір:жүгір V-IV ; ! "run"
+жүгір:жүгір V-TV ; ! "run"
 жүр:жүр V-IV ; ! "move"
 жу:жу V-TV ; ! "wash"
 жарат:жарат V-TV ; ! "waste"

@@ -188,7 +188,7 @@ apertium_eng_kaz_DATA=$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 		    $(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \
 		    $(PREFIX1).t2x.bin $(PREFIX2).t2x.bin \
 		    $(PREFIX1).t3x.bin $(PREFIX2).t3x.bin \
-		    $(PREFIX1).t4x.bin \ # hack to remove PXD and ND
+		    $(PREFIX1).t4x.bin \
 		    $(PREFIX1).rlx.bin $(PREFIX2).rlx.bin \
 		    $(PREFIX1).lrx.bin $(PREFIX2).lrx.bin \
 		    $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX2).t1x \

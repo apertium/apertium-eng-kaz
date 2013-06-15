@@ -20,7 +20,8 @@
       <cat-item lemma="must" tags="vaux.*"/>
     </def-cat>
  <def-cat n="vaux-can"> <!-- future -->
-      <cat-item lemma="can" tags="vaux.inf"/>
+      <cat-item lemma="can" tags="vaux.pres"/>
+      <cat-item lemma="can" tags="vaux.past"/>
     </def-cat>
 <def-cat n="vaux-should"> <!-- future -->
       <cat-item lemma="should" tags="vaux.inf"/>
@@ -1282,13 +1283,13 @@
 </rule>
 
 <rule comment="RULE: can + infinitive "> <!--Men bara alam - I can go-->
-  <pattern>
+  <pattern> <!-- generalize it for "could" with a tense selector -->
     <pattern-item n="vaux-can"/>
     <pattern-item n="approx-inf-verb"/> 
    </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-    <let><var n="tense"/><lit-tag v="pers"/></let>
+    <let><var n="tense"/><lit-tag v="pres"/></let>
    <out>
       <chunk name="pers-verb">
       <tags>
@@ -1303,6 +1304,7 @@
         <lu>
           <lit v="ал"/>
 	<lit-tag v="vaux"/>
+        <lit-tag v="aor"/>
           <var n="verb-pers"/>	
           <var n="verb-nbr"/>
          </lu>

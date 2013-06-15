@@ -2309,6 +2309,7 @@ cүй:сүй V-TV ; ! "love"
 өндір:өндір V-TV ; ! "produce"
 аш:аш V-TV ; ! "discover"
 сыла:сыла V-TV ; ! "rub"
+кел:кел V-TV ; !come
 жаз:жаз V-TV ; ! "record"
 жап:жап V-TV ; ! "shut"
 домала:домала V-TV ; ! "roll"
@@ -2337,6 +2338,7 @@ cүй:сүй V-TV ; ! "love"
 керек:керек N1 ; !
 жатқан% жоқ:жатқан% жоқ Vinfl-AUX-IMPF ; !
 отыр:отыр Vinfl-AUX-IMPF ; ! 
+керек:керек Vinfl-AUX-IMPF ; !
 отыр:отыр Vinfl-AUX-IMPF ; ! 
 тұр:тұр Vinfl-AUX-IMPF ; ! 
 тұр:тұр Vinfl-AUX-IMPF ; ! 
@@ -2349,7 +2351,7 @@ cүй:сүй V-TV ; ! "love"
 жатыр:жатыр Vinfl-AUX ; ! 
 жүр:жүр Vinfl-AUX ; ! 
 кел:кел Vinfl-AUX ; !
-кел:кел Vinfl-AUX ; !
+кел:кел Vinfl-AUX ; !come
 кет:кет Vinfl-AUX ; ! 
 отыр:отыр Vinfl-AUX ; ! 
 отыр:отыр Vinfl-AUX ; ! 

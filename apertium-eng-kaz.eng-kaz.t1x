@@ -1257,7 +1257,7 @@
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-        <let><var n="tense"/><lit-tag v="pres"/></let>
+        <let><var n="tense"/><lit-tag v="ger"/></let>
         <out>
       <chunk name="pers-verb">
       <tags>
@@ -1266,13 +1266,12 @@
         <lu>
           <clip pos="2" side="tl" part="lem"/>
 	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-    	<lit-tag v="ger"/>
+    	<lit-tag v="prc_perf"/>
         
         </lu>
         <b pos="1"/> <!-- this position is probably not optimal -->
         <lu>
           <lit v="керек"/>
-       
           <var n="verb-pers"/>	
           <var n="verb-nbr"/>
         </lu>

@@ -40,6 +40,8 @@ SET V-FIN = V + FIN ;
 
 SET V-DO = ("do"i) ; 
 
+SET VAUX-CAN = ("can"i) ;
+
 SET V-DO-AUX = (vbdo) ;
 
 SET ADV-NOT = ("not"i) ;
@@ -127,3 +129,5 @@ SELECT V-HAVE IF (1C PrcPast);
 SELECT V-DO-AUX IF (-1C PRN-SUBJ) (1C ADV-NOT);
 
 SELECT Pr IF (0 Pr OR Adv) (1 Pron + Obj) ;
+
+REMOVE N IF (0 N OR V) (-1 VAUX-CAN)

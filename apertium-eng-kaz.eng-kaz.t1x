@@ -11,13 +11,13 @@
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
       <cat-item tags="vblex.pres"/>
-<cat-item tags="vbmod.inf"/>
+<cat-item tags="vbmod.ger"/>
     </def-cat>
     <def-cat n="vaux-will"> <!-- future -->
       <cat-item lemma="will" tags="vaux.inf"/>
     </def-cat>
 <def-cat n="vaux-must"> <!-- must -->
-      <cat-item lemma="must" tags="vaux.inf"/>
+      <cat-item lemma="must" tags="vaux.*"/>
     </def-cat>
  <def-cat n="vaux-can"> <!-- future -->
       <cat-item lemma="can" tags="vaux.inf"/>
@@ -113,7 +113,7 @@
     <def-attr n="a_tense">
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
-   <attr-item tags="pass"/>
+<attr-item tags="vbmod"/>
     </def-attr> 
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -139,6 +139,7 @@
     </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
+ <attr-item tags="vaux"/>
     </def-attr>
     <def-attr n="a_kaz_verb"> 
       <attr-item tags="v.tv"/>
@@ -1249,83 +1250,39 @@
 
 <rule comment="RULE: must + infinitive"> <!--must verb -->
   <pattern>
-<pattern-item n="nom"/>
+
     <pattern-item n="vaux-must"/>
     <pattern-item n="approx-inf-verb"/>  <!--I must go - Мен баруым керек-->
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-    <let><var n="tense"/>
-	<lit-tag v="pres"/></let>
- <call-macro n="initialize_number"/>
-   <call-macro n="assign-tl-number-according-to-sl-nbr">
-	<with-param pos="2"/>
-</call-macro> 
-     <call-macro n="choose_case_and_postposition2">
-        <with-param pos="2"/>
-        <with-param pos="1"/>
-     </call-macro>
-      <call-macro n="build-obj-pron-lu">
-	<with-param pos="1"/>
-</call-macro>
-<choose>
-      <when>  
-       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
-        <out> <!-- with postposition -->
-          <chunk name="NP">
-            <tags>
-                <tag><var n="noun_lu_with_poss"/></tag>
-            </tags>
-            <lu>  
-               <var n="noun_lu"/>
-            </lu>
-            <b/>
-            <lu>  
-               <var n="postposition_lu"/>
-            </lu>
-          </chunk>
-        </out>
-      </when>
-</choose>
-<out>
-<chunk name="NP">
-    <tags>
-    <tag><lit-tag v="nom"/></tag>
-    </tags>
-    <lu>  
-        <clip pos="1" side="tl" part="lem"/> 
-        <clip pos="1" side="tl" part="a_nom"/>
-        <clip pos="1" side="tl" part="a_gen"/>
-        <var n="number"/> 
-        <var n="case"/>  
-     </lu>
-    </chunk>
+        <let><var n="tense"/><lit-tag v="pres"/></let>
+        <out>
       <chunk name="pers-verb">
       <tags>
         <tag><lit-tag v="VP"/></tag>
       </tags>
-        <lu><!--baryp-->
-          <clip pos="3" side="tl" part="lem"/>
-	  <clip pos="3" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="ger"/>
-	 <var n="verb-nbr"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+    	<lit-tag v="ger"/>
+        
         </lu>
         <b pos="1"/> <!-- this position is probably not optimal -->
         <lu>
           <lit v="керек"/>
-
-	 <var n="noun_lu"/>
-
-         </lu>
+       
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
       </chunk>
-        </out>   
-    
+  </out>
+      
   </action>
 </rule>
 
 <rule comment="RULE: can + infinitive "> <!--Men bara alam - I can go-->
   <pattern>
- <pattern-item n="subj-pron"/>
     <pattern-item n="vaux-can"/>
     <pattern-item n="approx-inf-verb"/> 
    </pattern>
@@ -1524,7 +1481,7 @@
         <lu>
           <clip pos="2" side="tl" part="lem"/>
 	  <clip pos="2" side="tl" part="a_kaz_verb"/>
- <lit-tag v="pass"/>
+ 	<lit-tag v="pass"/>
           <lit-tag v="aor"/>
           <var n="verb-pers"/>	
           <var n="formality"/>	

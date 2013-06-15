@@ -127,6 +127,8 @@ REMOVE Subj IF (0C Subj OR Obj) (-1C* Subj BARRIER SENT);
 
 SELECT V-HAVE IF (1C PrcPast);
 
+SELECT V-HAVE IF (1C ADV-NOT)(2 PrcPast);
+
 SELECT V-DO-AUX IF (-1C PRN-SUBJ) (1C ADV-NOT);
 
 SELECT Pr IF (0 Pr OR Adv) (1 Pron + Obj) ;

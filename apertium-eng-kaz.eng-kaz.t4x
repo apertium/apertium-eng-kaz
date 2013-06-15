@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<transfer>
+  <section-def-cats>
+    
+    <def-cat n="default">
+      <cat-item tags="*"/>
+    </def-cat>
+   
+  </section-def-cats>
+  
+  <section-def-attrs>
+    <def-attr n="poss">
+      <attr-item tags="px1sg"/>
+      <attr-item tags="px2sg"/>
+      <attr-item tags="px3sp"/>
+      <attr-item tags="px1pl"/>
+      <attr-item tags="px2pl"/>
+      <attr-item tags="PXD"/>
+    </def-attr>
+
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+       
+  </section-def-attrs>
+ 
+  <section-def-vars>
+    <def-var n="number"/>
+  </section-def-vars>  
+
+  <section-rules>
+    
+    <rule comment="default"> 
+      <pattern>
+        <pattern-item n="default"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="ND"/></equal></test>
+            <let><clip pos="1" side="sl" part="nbr"/><lit v=""/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="poss"/><lit-tag v="PXD"/></equal></test>
+            <let><clip pos="1" side="sl" part="poss"/><lit v=""/></let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+    
+  </section-rules>
+</transfer>

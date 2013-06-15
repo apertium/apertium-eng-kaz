@@ -31,7 +31,11 @@
         <file name="apertium-eng-kaz.eng-kaz.t3x"/>
         <file name="eng-kaz.t3x.bin"/>
       </program>
-      <program name="hfst-proc $1">
+      <program name="apertium-transfer -n"> <!-- Cleanup of PXD and ND -->
+        <file name="apertium-eng-kaz.eng-kaz.t4x"/>
+        <file name="eng-kaz.t4x.bin"/>
+      </program>
+       <program name="hfst-proc $1">
         <file name="eng-kaz.autogen.hfst"/>
       </program>
     </pipeline>
@@ -241,6 +245,43 @@
       <program name="apertium-postchunk">
         <file name="apertium-eng-kaz.eng-kaz.t3x"/>
         <file name="eng-kaz.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-kaz-postchunk-and-cleanup" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-kaz.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-kaz.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-kaz.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-kaz.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="eng-kaz.lrx.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-kaz.eng-kaz.t1x"/>
+        <file name="eng-kaz.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-kaz.eng-kaz.t2x"/>
+        <file name="eng-kaz.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-kaz.eng-kaz.t3x"/>
+        <file name="eng-kaz.t3x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-eng-kaz.eng-kaz.t4x"/>
+        <file name="eng-kaz.t4x.bin"/>
       </program>
     </pipeline>
   </mode>

@@ -1207,6 +1207,42 @@
   </action>
 </rule>
 
+<rule comment="RULE: will + be + not + verb-ing"> <!--I will be playing - Мен ойнап отырамын -->
+  <pattern>
+<pattern-item n="vaux-will"/>
+      <pattern-item n="be"/>
+ <pattern-item n="not"/>
+    <pattern-item n="verb-ing"/> <!-- * -->
+   </pattern>
+ <action>
+     <call-macro n="default-nbr-pers"/>
+    
+       <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="отыр"/>
+          <lit-tag v="vaux"/>
+ 	<lit-tag v="neg.aor"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+     
+        
+   
+  </action>
+</rule>
+
 <rule comment="RULE: will + have + verb-pp"> <!--I will have пщ - Мен барармын -->
   <pattern>
 <pattern-item n="vaux-will"/>

@@ -1357,6 +1357,83 @@
       </action>
 </rule>
 
+<rule comment="RULE: can + infinitive "> <!--Men bara alam - I can go-->
+  <pattern> <!-- generalize it for "could" with a tense selector -->
+    <pattern-item n="vaux-can"/>
+ <pattern-item n="not"/>
+    <pattern-item n="approx-inf-verb"/> 
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+    <let><var n="tense"/><lit-tag v="pres"/></let>
+   <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu><!--bara-->
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_impf"/>
+        </lu>
+        <b pos="1"/> 
+        <lu>
+          <lit v="ал"/>
+	<lit-tag v="vaux"/>
+        <lit-tag v="neg.aor"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+         </lu>
+      </chunk>
+        </out> 
+  </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+         <let><var n="tense"/><lit-tag v="past"/></let>
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_impf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="ал"/>
+          <lit-tag v="vaux"/>
+          <lit-tag v="neg.ifi"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let> <!-- This is clearly wrong but we'll change it later -->
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
+      </action>
+</rule>
+
 <rule comment="RULE: have + verb"> <!--prs perfect verb -->
   <pattern>
     <pattern-item n="vaux-have"/>

@@ -59,6 +59,12 @@
     <def-cat n="not">
       <cat-item lemma="not" tags="adv"/>
      </def-cat>
+<def-cat n="be">
+      <cat-item lemma="be" tags="vbser.inf"/>
+     </def-cat>
+<def-cat n="have">
+      <cat-item lemma="have" tags="vblex.inf"/>
+     </def-cat>
 
   <def-cat n="vaux-ing"> <!--not prs cont -->
       <cat-item lemma="be" tags="vbser.*"/>
@@ -1168,7 +1174,7 @@
 <rule comment="RULE: will + be + verb-ing"> <!--I will be playing - Мен ойнап отырамын -->
   <pattern>
 <pattern-item n="vaux-will"/>
-      <pattern-item n="approx-inf-verb"/>
+      <pattern-item n="be"/>
     <pattern-item n="verb-ing"/> <!-- * -->
    </pattern>
  <action>
@@ -1186,9 +1192,9 @@
         </lu>
         <b pos="1"/> <!-- this position is probably not optimal -->
         <lu>
-          <lit v="жатыр"/>
+          <lit v="отыр"/>
           <lit-tag v="vaux"/>
-          <var n="tense"/>
+ 	<lit-tag v="fut"/>
           <var n="verb-pers"/>	
           <var n="verb-nbr"/>
         </lu>
@@ -1198,6 +1204,22 @@
      
         
    
+  </action>
+</rule>
+
+<rule comment="RULE: will + have + verb-pp"> <!--I will have пщ - Мен барармын -->
+  <pattern>
+<pattern-item n="vaux-will"/>
+      <pattern-item n="vaux-have"/>
+    <pattern-item n="verb-pp"/> <!-- * -->
+   </pattern>
+ <action>
+          <call-macro n="default-nbr-pers"/>
+   <let><var n="tense"/><lit-tag v="fut"/></let>
+    <call-macro n="gen-simple-verb">
+         <with-param pos="3"/> 
+    </call-macro>   
+        
   </action>
 </rule>
 

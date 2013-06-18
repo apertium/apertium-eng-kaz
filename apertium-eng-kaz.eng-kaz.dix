@@ -55,7 +55,7 @@
     <sdef n="f"  c="Женский род"/>
  
     <sdef n="gen"  c="Genitive"/>
-    <sdef n="loc"  c="Locative"/>
+    <sdef n="loc"  c="Locative in Kazakh, location in English"/>
     <sdef n="abl"  c="Ablative"/>
     <sdef n="dat"  c="Dative"/>
     <sdef n="nom"  c="Nominative"/>
@@ -1087,7 +1087,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>citizien<s n="n"/></l><r>тұрғын<s n="n"/></r></p></e>
 <e><p><l>fossil<s n="n"/></l><r>қазба<s n="n"/></r></p></e>
 <e><p><l>Kazakhstan<s n="n"/></l><r>Қазақстан<s n="n"/></r></p></e>
-<e><p><l>China<s n="n"/></l><r>Қытай<s n="n"/></r></p></e>
+<e><p><l>China<s n="np"/><s n="loc"/><s n="sg"/></l><r>Қытай<s n="n"/></r></p></e>
 <e><p><l>Asia<s n="n"/></l><r>Азия<s n="n"/></r></p></e>
 <e><p><l>nation<s n="n"/></l><r>халық<s n="n"/></r></p></e>
 <e><p><l>noise<s n="n"/></l><r>дыбыс<s n="n"/></r></p></e>
@@ -1181,7 +1181,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>west<s n="n"/></l><r>батыс<s n="n"/></r></p></e>
 <e><p><l>primate<s n="n"/></l><r>примат<s n="n"/></r></p></e>
 <e><p><l>video<s n="n"/></l><r>видео<s n="n"/></r></p></e>
-<e><p><l>Africa<s n="n"/></l><r>Африка<s n="n"/></r></p></e>
+<e><p><l>Africa<s n="np"/><s n="loc"/><s n="sg"/></l><r>Африка<s n="n"/></r></p></e>
 <e><p><l>substance<s n="n"/></l><r>субстанция<s n="n"/></r></p></e>
 
 

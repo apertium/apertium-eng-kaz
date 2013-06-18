@@ -127,6 +127,9 @@
       <attr-item tags="n"/>
       <attr-item tags="np.ant"/>
     </def-attr>
+    <def-attr n="a_adjec">
+       <attr-item tags="adj"/>
+    </def-attr>
      <def-attr n="a_num">
       <attr-item tags="num"/>
     </def-attr>
@@ -215,6 +218,7 @@
     <def-var n="ppinfl"/> <!-- inflexion information for postposition -->
     <def-var n="postposition_lu"/> <!-- complete postposition ready for lu -->        
     <def-var n="noun_lu"/> <!-- complete noun in prep X rules, ready for lu -->
+    <def-var n="adjec_lu"/> <!-- adjective, ready for lu -->
 <def-var n="subj-pron_lu"/> <!-- complete noun in prep X rules, ready for lu -->
 <def-var n="obj-pron_lu"/>    
 <def-var n="noun_lu_with_poss"/> <!-- same, with possessive -->
@@ -803,6 +807,17 @@
                <var n="case"/>
            </concat>  
         </let>
+</def-macro>
+
+<def-macro n="build-adjec-lu" npar="1"> 
+     <let>
+           <var n="adjec_lu"/>
+           <concat>
+             <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_adjec"/>
+           </concat>  
+        </let>
+
 
 </def-macro>
 <def-macro n="build-subj-pron-lu" npar="1"> 
@@ -3344,6 +3359,27 @@
         </out>
       </action>
     </rule>
+
+
+<rule comment="RULE: adjec">  
+  <pattern>
+    <pattern-item n="adjec"/>
+  </pattern>
+  <action>
+   <call-macro n="build-adjec-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="AdjP">
+    <tags>
+    <tag><lit-tag v="adjec"/></tag>
+    </tags>
+    <lu>
+      <var n="adjec_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
 
   </section-rules>
 </transfer>

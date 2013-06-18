@@ -1921,8 +1921,10 @@ cиыр еті:сиыр еті N1; !beef
 Қытай:Қытай N1; !China
 Түркия:Түркия N1; !Turkey
 Азия:Азия N1; !Asia
+Калифорния:Калифорния N1; !California
 Африка:Африка N1; !Africa
 халық:халық N1; !nation
+тас% жол:тас% жол N1; !highway
 жазбахат:жазбахат N1; !note
 қадағалау:қадағалау N1; !observation
 әрекет:әрекет N1; !operation
@@ -2013,6 +2015,10 @@ cиыр еті:сиыр еті N1; !beef
 толқын:толқын N1; !wave
 жол:жол N1; !way
 батыс:батыс N1; !west
+ер:ер N1; !man
+мотоцикл:мотоцикл N1; !motorcycle
+велосипед:велосипед N1; !bicycle
+полисмен:полисмен N1; !policeman
  LEXICON ProperNouns 
 
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
@@ -2147,6 +2153,7 @@ cиыр еті:сиыр еті N1; !beef
 бүтін:бүтін A1 ; ! "solid"
 дәмді:дәмді A1 ; ! "taste"
 жіңішке:жіңішке A1 ; ! "thin"
+тез:тез A1 ; ! "fast"
 
  LEXICON Adverbs
 
@@ -2474,4 +2481,4 @@ cүй:сүй V-TV ; ! "love"
 /%<sent%>:/ # ;
 
 <(%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9)+>  DIGITLEX ; ! Use/Circ
-
+:

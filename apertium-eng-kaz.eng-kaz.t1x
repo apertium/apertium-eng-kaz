@@ -2265,7 +2265,7 @@
         </out>
       </when>
       <otherwise>
-        <let><var n="tense"/><lit-tag v="aor"/></let> <!-- This is clearly wrong but we'll change it later -->
+        <let><var n="tense"/><lit-tag v="aor"/></let> 
       <call-macro n="gen-simple-verb">
          <with-param pos="2"/> 
      </call-macro>

@@ -17,12 +17,11 @@ To be able to deal with the necessary case and possessive marking changes for ``
 The idea is that for these ``bare'' NPs, case and possesive markers need to be determined at a later time. This is needed for a number of constructs: these are only some examples:
 \begin{itemize}
 \item Possessive constructs: when NPs are pre-modified by a postpositional phrase with the genitive case postposition (\emph{-NIng}, the person and number of the SN in the postpositional phrase (PP) will result in a possessive ending in the modified NP.
-\item Translation of sentences with the main verb \emph{to have}, as the English subject NP has to be translated as a locative PP using the postposition \emph{-DA}. The object becomes the subject of the sentence and the main verb in Kazakh is the \emph{copula} (in present usually absent):
-\emph{The professor has a book} \(\to\) \emph{Professorda kitap -} ('At the professor a book [is]', very similar to the Russian construction).
-\com{I need a past-tense example where the copula is present}
+\item Translation of sentences with the main verb \emph{to have}, as the English subject NP has to be translated as a locative PP using the postposition \emph{-DA}. The object becomes the subject of the sentence and the main verb in Kazakh is the \emph{copula}:
+\emph{The professor has a book} \(\to\) \emph{Professorda kitap bar} ('At the professor a book is',  similar to the Russian construction); \emph{The professor had a book} \(\to\) \emph{Professorda kitab bol\u{g}an} ('At the professor a book was').
 \item Translation of obligative sentences with \emph{must} + verb or \emph{have to} + verb, as the English subject NP has to be translated as a genitive PP using the postposition \emph{-NIng} and the person and  number have to be transferred to the gerund of the verb. The sentence uses the adjective \emph{kerek} and the \emph{copula} (again, absent in present tense):
 \emph{I have to go} \(\to\) \emph{Mening barwim kerek -} ('My going [is] needed').
-\item Translation of verbs such as \emph{need}: \emph{I need a book} \(\to\) {Maghan kitap kerek -} ('To me a book [is] needed')
+\item Translation of verbs such as \emph{need}: \emph{I need a book} \(\to\) {Ma\u{g}an kitap kerek -} ('To me a book [is] needed')
 \com{I need a past-tense example where the copula is present}
 \end{itemize}
 \com{[The last list may be completed]}
@@ -58,6 +57,22 @@ In this case, the possessor and the case are open for the whole chunk and they h
 
 \section{The translation of VPs also needs work}
 As said above, instead of the current method that just lets ``bare'' English NPs presumably acting as subjects to set global variables for person and number that will then be read by VP chunks to generate the appropriate forms, the plan is now for these ``bare'' NPs to be marked at the chunk level with person and number tags (which would be constants) and for VPs to be marked at the chunk level with person and number to be determined, linked via \texttt{link-to} links to the appropriate morphemes in the verb forms. The chunk-level person and number to be determined would be rewritten by the appropriate 2nd-level \texttt{.t2x} transfer rules, and would then be propagated to lexical forms at the 3rd-level transfer stage (\texttt{.t3x}).
+
+Other indicators that would have to be set at the chunk level are negation (for negative verbs) and conditional (which may be handled as a tense). 
+
+Negation can be easily determined when the VP chunk contains \emph{not}, as in \emph{I don't play} \(\to\) \emph{Men oynamaymwn}, but may need to be externally set in sentences having a non-negative VP but a negative word like those starting with \emph{-eš}, like \emph{I write nothing} \(\to\) \emph{Men ešnærse \v{z}as\textbf{ba}ymwn}, which needs a negative form of the verb. Negation is, as possession or plural in noun phrases, an optional morpheme in the current morphology, one, therefore, that will need to make use of the \texttt{.t4x} hack.
+
+Conditional constructions work by changing the form of the verb to a special form. In the present, the resulting form can be seen as a change in tense (\emph{I play} \(\to\) \emph{oynaymwn} = \texttt{oyna.v.tv.aor.p1.sg}; \emph{If I play} \(\to\) \emph{oynasam} = \texttt{oyna.v.tv.gna-cond.p1.sg}; \emph{If I don't play} \(\to\) \emph{oynamasam} = \texttt{oyna.vblex.neg.gna-cond.p1.sg}). The past seems to use an impersonal form (a verbal adjective, with no person or nmumber agreement, in the locative case; \emph{oyna\u{g}anda} = \texttt{oyna.v.tv.ger-past.loc}).
+
+\section{Adjective phrases seem simpler, but there is a lot to do}
+
+Adjective phrases are simpler. Adjectives in Kazakh do not show agreement, so they can be generated as chunks having no tags. However, the special case of the superlative should perhaps be treated as a noun phrase with a missing noun, as it may take the posessives as NPs do. For instance, the translation of \emph{the most beautiful} is \emph{eng ædemi} (where eng is the superalative marker) but the translation of \emph{the most beautiful of the books} is \emph{kitaplarding eng ædemisi}, with a third-person possessive marking. Comparatives do not need special marking.
+\com{Add a comparative example}
+
+
+
+
+
 
 
 

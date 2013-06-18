@@ -1,10 +1,10 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{qtree}
-
+\usepackage[bf,small]{caption}
 \title{Reorganization of transfer in Apertium-eng-kaz}
 \author{Mikel L. Forcada \\ KazNU, Almaty, Kazakhstan}
-\date{13 june 2013}
+\date{18 june 2013}
 
 \newcommand{\com}[1]{\begin{quote}\begin{sf}#1\end{sf}\end{quote}}
 \begin{document}
@@ -16,35 +16,35 @@ To be able to deal with the necessary case and possessive marking changes for ``
 
 The idea is that for these ``bare'' NPs, case and possesive markers need to be determined at a later time. This is needed for a number of constructs: these are only some examples:
 \begin{itemize}
-\item Possessive constructs: when NPs are pre-modified by a postpositional phrase with the genitive case postposition (\emph{-NIng}, the person and number of the SN in the postpositional phrase (PP) will result in a possessive ending in the modified NP.
+\item Possessive constructs: when NPs are pre-modified by a postpositional phrase with the genitive case postposition (\emph{-NI\c{n}}), the person and number of the SN in the postpositional phrase (called \(\mathrm{GenP}\)) will result in a possessive ending in the modified NP.
 \item Translation of sentences with the main verb \emph{to have}, as the English subject NP has to be translated as a locative PP using the postposition \emph{-DA}. The object becomes the subject of the sentence and the main verb in Kazakh is the \emph{copula}:
 \emph{The professor has a book} \(\to\) \emph{Professorda kitap bar} ('At the professor a book is',  similar to the Russian construction); \emph{The professor had a book} \(\to\) \emph{Professorda kitab bol\u{g}an} ('At the professor a book was').
-\item Translation of obligative sentences with \emph{must} + verb or \emph{have to} + verb, as the English subject NP has to be translated as a genitive PP using the postposition \emph{-NIng} and the person and  number have to be transferred to the gerund of the verb. The sentence uses the adjective \emph{kerek} and the \emph{copula} (again, absent in present tense):
-\emph{I have to go} \(\to\) \emph{Mening barwim kerek -} ('My going [is] needed').
+\item Translation of obligative sentences with \emph{must} + verb or \emph{have to} + verb, as the English subject NP has to be translated as a genitive PP using the postposition \emph{-NI\c{n}} and the person and  number have to be transferred to the gerund of the verb. The sentence uses the adjective \emph{kerek} and the \emph{copula} (again, absent in present tense):
+\emph{I have to go} \(\to\) \emph{Meni\c{n} barwim kerek -} ('My going [is] needed').
 \item Translation of verbs such as \emph{need}: \emph{I need a book} \(\to\) {Ma\u{g}an kitap kerek -} ('To me a book [is] needed')
 \com{I need a past-tense example where the copula is present}
 \end{itemize}
 \com{[The last list may be completed]}
 \section{The translation of prepositional phrases needs little change}
-On encountering an English prepositional phrase, there are three possible outcomes, and none of them seems to need further treatment, so the current rules will be kept more or less as they are, with the exception that the person and number of the main noun of \emph{genitive} PPs ending in the postposition \emph{-NIng} needs to be externally marked so that it may be used to form a possessive morpheme in the NP they modify. Linking (using the \texttt{link-to} attribute) is not necessary as they will not change.
+On encountering an English prepositional phrase, there are three possible outcomes, and none of them seems to need further treatment, so the current rules will be kept more or less as they are, with the exception that the person and number of the main noun of \emph{genitive} PPs ending in the postposition \emph{-NI\c{n}} needs to be externally marked so that it may be used to form a possessive morpheme in the NP they modify. Linking (using the \texttt{link-to} attribute) is not necessary as they will not change.
 Three cases may occur:
 \begin{itemize}
-\item The prepositional phrase results in a simple postpositional phrase using the locative \emph{-DA}, ablative \emph{-DAn}, etc., but not the genitive \emph{-NIng}:
+\item The prepositional phrase results in a simple postpositional phrase using the locative \emph{-DA}, ablative \emph{-DAn}, etc., but not the genitive \emph{-NI\c{n}}:
 \begin{center}
 \Tree [.PP [.P in ] \qroof{the beautiful garden}.NP ] \(\to\) \Tree [.PP \qroof{ædemi baqša}.NP [.P -da ] ]
 \end{center}
-\item The prepositional phrase results in a simple postpositional phrase using the genitive \emph{-NIng}:
+\item The prepositional phrase results in a simple postpositional phrase using the genitive \emph{-NI\c{n}}, which will be marked \(\mathrm{GenP}\):
 \begin{center}
-\Tree [.PP [.P of ]\qroof{the beautiful garden}.NP ] \(\to\) \Tree [.PP \qroof{ædemi baqša}.NP [.P -nyng ] ]
+\Tree [.PP [.P of ]\qroof{the beautiful garden}.NP ] \(\to\) \Tree [.GenP \qroof{ædemi baqša}.NP [.P -ny\c{n} ] ]
 \end{center}
 \item The prepositional phrase results in a complex postpositional phrase based around a noun such as \emph{ast}, \emph{ust}, etc.:
 \begin{center}
-\Tree [.PP [.P under ] \qroof{the garden}.NP ] \(\to\) \Tree [.PP [.NP [.PP \qroof{baqša}.NP -nyng ] \qroof{astyn}.NP ] [.P -da ] ]
+\Tree [.PP [.P under ] \qroof{the garden}.NP ] \(\to\) \Tree [.PP [.GenP [.PP \qroof{baqša}.NP -ny\c{n} ] \qroof{astyn}.NP ] [.P -da ] ]
 \end{center}
 \end{itemize}
 Only in the second case there is need to assign the person and number of the noun to the whole chunk (phrase) for further processing, as it will reflect as a possessive in the NP it modifies.
 \begin{center}
-\Tree [.PP [.P of ] \qroof{the beautiful garden}.NP ]  \(\to\) \Tree [.PP(pers=3,num=sg) \qroof{ædemi baqša}.NP [.P -nyng ] ]
+\Tree [.PP [.P of ] \qroof{the beautiful garden}.NP ]  \(\to\) \Tree [.PP(pers=3,num=sg) \qroof{ædemi baqša}.NP [.P -ny\c{n} ] ]
 \end{center}
 In this case, person and number can be considered \emph{solved} as there will be no need to change them; therefore, there is no need to use \texttt{link-to} references (as it will be seen, this is necessary for ``bare'' NPs). 
 
@@ -53,7 +53,7 @@ When translating an English ``bare'' NP which is not processed as part of any pr
 \begin{center}
 \Tree [.NP [.D a ]  [.N book ] ] \(\to\) \Tree [.{NP(poss=?,case=?,pers=3,num=sg)} [.N kitap ] ]
 \end{center}
-In this case, the possessor and the case are open for the whole chunk and they have to be propagated to the noun via \texttt{link-to} connections to be solved at the 3rd (\texttt{.t3x}) level. Person and number can be considered solved, but need to be available at the chunk level for 2nd-level (\texttt{.t2x}) processing, for instance, so that verbs agree with their subjects. Note that in the current version of transfer (revision 45092, June 16, 2013), number and person are global variables set by NPs that are ''caught'' by verb phrases to determine the right form of verbs. This is to be abandoned so that agreement is treated in the 2nd-level transfer via \texttt{link-to} links and propagated to lexical forms at the 3rd-level (\texttt{.t3x}). There is, therefore, considerable work to do, also as it may affect the current usage of macros in 1st-level (\texttt{.t1x}) transfer.
+In this case, the possessor and the case are open for the whole chunk and they have to be propagated to the noun via \texttt{link-to} connections to be solved at the 3rd (\texttt{.t3x}) level. Person and number can be considered solved, but need to be available at the chunk level for 2nd-level (\texttt{.t2x}) processing, for instance, so that verbs agree with their subjects. Note that in the current version of transfer (revision 45092, June 16, 2013), number and person are global variables set by NPs that are ``caught'' by verb phrases to determine the right form of verbs. This is to be abandoned so that agreement is treated in the 2nd-level transfer via \texttt{link-to} links and propagated to lexical forms at the 3rd level (\texttt{.t3x}). There is, therefore, considerable work to do, also as it may affect the current usage of macros in 1st-level (\texttt{.t1x}) transfer.
 
 \section{The translation of VPs also needs work}
 As said above, instead of the current method that just lets ``bare'' English NPs presumably acting as subjects to set global variables for person and number that will then be read by VP chunks to generate the appropriate forms, the plan is now for these ``bare'' NPs to be marked at the chunk level with person and number tags (which would be constants) and for VPs to be marked at the chunk level with person and number to be determined, linked via \texttt{link-to} links to the appropriate morphemes in the verb forms. The chunk-level person and number to be determined would be rewritten by the appropriate 2nd-level \texttt{.t2x} transfer rules, and would then be propagated to lexical forms at the 3rd-level transfer stage (\texttt{.t3x}).
@@ -66,17 +66,37 @@ Conditional constructions work by changing the form of the verb to a special for
 
 \section{Adjective phrases seem simpler, but there is a lot to do}
 
-Adjective phrases are simpler. Adjectives in Kazakh do not show agreement, so they can be generated as chunks having no tags. However, the special case of the superlative should perhaps be treated as a noun phrase with a missing noun, as it may take the posessives as NPs do. For instance, the translation of \emph{the most beautiful} is \emph{eng ædemi} (where eng is the superalative marker) but the translation of \emph{the most beautiful of the books} is \emph{kitaplarding eng ædemisi}, with a third-person possessive marking. Comparatives do not need special marking.
-\com{Add a comparative example}
+Adjective phrases (\(\mathrm{AdjP}\)) are a bit simpler. Adjectives in
+Kazakh do not show agreement, so they can probably be generated as
+chunks having no tags. However, the special case of the superlative
+should perhaps be treated as a noun phrase with a missing (null) noun,
+as it may take the posessives as NPs do. The label \(\mathrm{AdjP}\)
+could probably be changed here to something like \(\mathrm{SupP}\) if
+we don't want to use just \(\mathrm{NP}\). For instance, the
+translation of \emph{the most beautiful} is \emph{e\c{n} ædemi} (where
+\emph{e\c{n}} is the superalative marker) but the translation of
+\emph{the most beautiful of the books} is \emph{kitaplardy\c{n} e\c{n}
+  ædemisi}, with a third-person possessive marking following the
+adjective, as if a second \emph{kitap} had been deleted from an
+understood \emph{kitaplardy\c{n} e\c{n} ædemi kitaby} ('the most
+beautiful book of the books').\footnote{The current morphology marks
+  some of these changes as \emph{substantivation}.} Comparatives do
+not need special marking and may be treated as regular adjective
+phrases.  \com{Add a comparative example?}
 
-
-
-
-
-
-
-
-
-
-
+\begin{table}
+\begin{center}
+\begin{tabular}{c|p{4cm}|p{5.6cm}}
+\hline\hline
+\textsc{Phrase} & \textsc{Description} & \textsc{Chunk-level tags} \\\hline
+NP & Noun phrase & number*, person, case, possessor* \\
+VP & Verb phrase & number, person, tense/conditionality, negation* \\ 
+PP & Postpositional phrase (except \emph{-NI\c{n}}) & (none, but it remains to be seen if perhaps the possessor of PPs should be marked in view that one can get recursive genitive phrases) \\
+GenP & Postpositional phrase with \emph{-NI\c{n}}) & number, person \\
+AdjP & Adjectival phrase (except superlatives with \emph{e\c{n}}) & (none) \\
+SupP & Superlative phrase (adjectival phrase with \emph{e\c{n}} & possessor* \\\hline
+\end{tabular}
+\end{center}
+\caption{Chunk-level tags that need to be associated to each type of chunk. Those marked with an asterisk correspond to optional morphemes that will need special treatment in a \texttt{.t4x} module (see text).}
+\end{table}
 \end{document}

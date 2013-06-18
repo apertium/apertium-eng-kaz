@@ -1192,6 +1192,7 @@ XII NUM-ROMAN ;
 жалшы:жалшы N1 ; ! "labourer"
 жалын:жалын N1 ; ! "flame"
 жан:жан N1 ; ! "soul"
+
 жанжал:жанжал N1 ; ! "quarrel"
 жануар:жануар N1 ; ! "biest"
 жапырақ:жапырақ N1 ; ! "leaf"
@@ -1258,6 +1259,7 @@ XII NUM-ROMAN ;
 кеудеше:кеудеше N1 ; ! "vest"
 киік:киік N1 ; ! "antelope"
 компания:компания N1 ; ! "company"
+концерт:концерт N1 ; ! "concert"
 кофта:кофта N1 ; ! "blouse"
 куртка:куртка N1 ; ! "jacket"
 кілем:кілем N1 ; ! "carpet"
@@ -1506,6 +1508,7 @@ XII NUM-ROMAN ;
 шет:шет N1 ; ! "edge"
 шешім:шешім N1 ; ! "decision"
 шошқа:шошқа N1 ; ! "pig"
+шоу:шоу N1 ; ! "show"
 шынтақ:шынтақ N1 ; ! "elbow"
 шығын:шығын N1 ; ! "expense"
 шілде:шілде N1 ; ! "July"
@@ -1916,6 +1919,7 @@ cиыр еті:сиыр еті N1; !beef
 тұрғын:тұрғын N1; !citizien
 Қазақстан:Қазақстан N1; !Kazakhstan
 Қытай:Қытай N1; !China
+Түркия:Түркия N1; !Turkey
 Азия:Азия N1; !Asia
 Африка:Африка N1; !Africa
 халық:халық N1; !nation
@@ -2240,6 +2244,7 @@ cиыр еті:сиыр еті N1; !beef
 жүргіз:жүргіз V-IV ; ! "drive"
 жақсы% көр:жақсы% көр V-TV ; ! "to like"
 жап:жап V-TV ; ! "close"
+көрсет:көрсет V-TV ; ! "show"
 жүз:жүз V-TV ; ! "sail"
 сырғана:сырғана V-TV ; ! "slip"
 жаса:жаса V-TV ; ! "do,make"
@@ -2322,6 +2327,7 @@ cүй:сүй V-TV ; ! "love"
 жап:жап V-TV ; ! "shut"
 домала:домала V-TV ; ! "roll"
 сал:сал V-TV ; ! "paint"
+жат:жат V-TV ; ! "lie"
 көрін:көрін V-IV ; ! "appear"
 жоғал:жоғал V-IV ; ! "disappear"
 оқы:оқы V-IV ; ! "study"
@@ -2345,7 +2351,8 @@ cүй:сүй V-TV ; ! "love"
 ал:ал Vinfl-AUX-IMPF ; !
 керек:керек N1 ; !
 жатқан% жоқ:жатқан% жоқ Vinfl-AUX-IMPF ; !
-отыр:отыр Vinfl-AUX-IMPF ; ! 
+отыр:отыр Vinfl-AUX-IMPF ; !
+бол:бол Vinfl-AUX-IMPF ; !  
 керек:керек Vinfl-AUX-IMPF ; !
 отыр:отыр Vinfl-AUX-IMPF ; ! 
 тұр:тұр Vinfl-AUX-IMPF ; ! 

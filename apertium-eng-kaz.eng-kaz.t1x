@@ -1225,11 +1225,11 @@
   </action>
 </rule>
 
-<rule comment="RULE: will + be + not + verb-ing"> <!--I will be playing - Мен ойнап отырамын -->
+<rule comment="RULE: will + not + be + verb-ing"> <!--I will not be playing - Мен ойнап отырамын -->
   <pattern>
 <pattern-item n="vaux-will"/>
-      <pattern-item n="be"/>
- <pattern-item n="not"/>
+       <pattern-item n="not"/>
+<pattern-item n="be"/>
     <pattern-item n="verb-ing"/> <!-- * -->
    </pattern>
  <action>
@@ -1311,6 +1311,43 @@
   </action>
 </rule>
 
+
+<rule comment="RULE: will + not + have + been + verb-ing"> <!--Future perfect Cont in Neg I will NOT have been playing  -->
+  <pattern>
+<pattern-item n="vaux-will"/>
+<pattern-item n="not"/>
+<pattern-item n="vaux-have"/>
+      <pattern-item n="be"/>
+     <pattern-item n="verb-ing"/> <!-- * -->
+   </pattern>
+ <action>
+     <call-macro n="default-nbr-pers"/>
+           <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="5" side="tl" part="lem"/>
+	  <clip pos="5" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="бол"/>
+          <lit-tag v="vaux"/>
+ 	<lit-tag v="neg.aor"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+         
+   
+  </action>
+</rule>
+
+
 <rule comment="RULE: have"> <!--I have a book - Mende kitap bar-->
   <pattern>
     <pattern-item n="vaux-have"/>
@@ -1354,6 +1391,22 @@
 <lit-tag v="aor"/></let>
     <call-macro n="gen-simple-verb">
          <with-param pos="2"/> 
+    </call-macro>   
+  </action>
+</rule>
+
+<rule comment="RULE: will + not +  verb"> <!-- Future Simple in negative -->
+  <pattern>
+    <pattern-item n="vaux-will"/>
+<pattern-item n="not"/>
+    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+    <let><var n="tense"/>
+<lit-tag v="neg.aor"/></let>
+    <call-macro n="gen-simple-verb">
+         <with-param pos="3"/> 
     </call-macro>   
   </action>
 </rule>
@@ -1653,6 +1706,88 @@
   </action>
 </rule>
 
+<rule comment="RULE: have + not + been + verb-ing"> <!--Present Perfect Continuous in Negative I have not been playing Мен ойнап отырмағанмын -->
+  <pattern>
+    <pattern-item n="vaux-have"/>
+<pattern-item n="not"/>
+    <pattern-item n="be"/> <!--past participle -->
+ <pattern-item n="verb-ing"/>
+   </pattern>
+   <action>
+    <call-macro n="default-nbr-pers"/>
+    <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="neg.past"/></let>
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="отыр"/>
+          <lit-tag v="vaux"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when> 
+    <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="past"/></let>
+<!--call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro> -->
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="отыр"/>
+          <lit-tag v="vaux"/>
+          <lit-tag v="neg.past"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let> <!-- This is clearly wrong but we'll change it later -->
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+  
+ </choose>
+  </action>
+</rule>
+
 <rule comment="RULE: should inf"> <!-- I should go -  Менің барғаным жөн-->
   <pattern>
     
@@ -1761,6 +1896,79 @@
   </action>
 </rule>
 
+<rule comment="RULE: be + not + verb-pp"> <!--Pres and Past passive -->
+  <pattern>
+    <pattern-item n="pers-verb-to-be"/>
+<pattern-item n="not"/>
+    <pattern-item n="verb-pp"/> <!--past participle -->
+   </pattern>
+  <action>    
+   <call-macro n="default-nbr-pers"/>
+    <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="pres"/></let> 
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+ 	<lit-tag v="pass"/>
+          <lit-tag v="neg.aor"/>
+          <var n="verb-pers"/>	
+          <var n="formality"/>	
+          <var n="verb-nbr"/>
+	
+        </lu>
+      </chunk>
+        </out>
+      </when>
+
+      <when>
+         <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="ifi"/></let> 
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+ <lit-tag v="pass"/>
+          <lit-tag v="neg.ifi"/>
+          <var n="verb-pers"/>	
+          <var n="formality"/>	
+          <var n="verb-nbr"/>
+	
+        </lu>
+      </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
+  </action>
+</rule>
+
+
 <rule comment="RULE: have + been + verb-pp"> <!--Present Perfect Passive A books has been written  Кітап жазылып болған,Past perfect Кітап жазылған-->
   <pattern>
     <pattern-item n="vaux-have"/>
@@ -1830,7 +2038,86 @@
       </chunk>
         </out>
       </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
+  </action>
+</rule>
 
+
+<rule comment="RULE: have + not + been + verb-pp"> <!--Present Perfect Passive Negative A books has not been written ,Past perfect-->
+  <pattern>
+    <pattern-item n="vaux-have"/>
+ <pattern-item n="not"/>
+    <pattern-item n="verb-pp"/> <!--past participle -->
+ <pattern-item n="verb-pp"/>
+    </pattern>
+  <action>    
+   <call-macro n="default-nbr-pers"/>
+    <choose>
+
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="neg.past"/></let> 
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+       <lu>
+      <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="pass"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+         <lit v="бол"/>
+ 	<lit-tag v="vaux"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="formality"/>	
+          <var n="verb-nbr"/>
+	
+        </lu>
+      </chunk>
+        </out>
+      </when>
+
+      <when>
+         <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="ifi"/></let> 
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+ <lit-tag v="pass"/>
+          <lit-tag v="neg.past"/>
+          <var n="verb-pers"/>	
+          <var n="formality"/>	
+          <var n="verb-nbr"/>
+	        </lu>
+      </chunk>
+        </out>
+      </when>
       <otherwise>
         <let><var n="tense"/><lit-tag v="aor"/></let>
       <call-macro n="gen-simple-verb">
@@ -1871,6 +2158,39 @@
       
   </action>
 </rule>
+
+<rule comment="RULE: will + not + be + verb-pp"> <!--Future1 Passive Negative A books will not be written-->
+  <pattern>
+    <pattern-item n="vaux-will"/>
+<pattern-item n="not"/>
+    <pattern-item n="be"/> <!--past participle -->
+ <pattern-item n="verb-pp"/>
+    </pattern>
+  <action>    
+   <call-macro n="default-nbr-pers"/>
+   
+              <let><var n="tense"/><lit-tag v="pres"/></let> 
+    <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+       <lu>
+      <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="pass"/>
+          <lit-tag v="neg.aor"/>
+          <var n="verb-pers"/>	
+          <var n="formality"/>	
+          <var n="verb-nbr"/>
+	
+        </lu>
+      </chunk>
+        </out>
+      
+  </action>
+</rule>
+
 
 <rule comment="RULE: be + being + verb-ing"> <!-- Passive Progressive: A book is being writing -Кітап жазылып жатыр  -->
   <pattern>
@@ -1938,6 +2258,89 @@
           <lit v="отыр"/>
           <lit-tag v="vaux"/>
           <lit-tag v="past"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let> <!-- This is clearly wrong but we'll change it later -->
+      <call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
+  </action>
+</rule>
+
+<rule comment="RULE: be + not + being + verb-ing"> <!-- Passive Progressive: A book is not being writing   -->
+  <pattern>
+    <pattern-item n="pers-verb-to-be"/>
+<pattern-item n="not"/>
+    <pattern-item n="be"/>
+<pattern-item n="verb-pp"/>
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+    <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="pres"/></let>
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+ <lit-tag v="pass"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="жатқан жоқ"/>
+          <lit-tag v="vaux"/>
+          <var n="tense"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+      </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="past"/></let>
+<!--call-macro n="gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro> -->
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+ <lit-tag v="pass"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="отыр"/>
+          <lit-tag v="vaux"/>
+          <lit-tag v="neg.past"/>
           <var n="verb-pers"/>	
           <var n="verb-nbr"/>
         </lu>

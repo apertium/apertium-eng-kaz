@@ -85,7 +85,7 @@ SELECT Inf IF (1 Inf) (2 Ger);
 
 SELECT Inf IF (1 Inf) (2 PrcPast);
 
-SELECT Inf IF (1 Inf) (2 ADV-NOT);
+SELECT Inf IF (1 ADV-NOT)(2 Inf); 
 
 REMOVE Inf IF (0 Inf OR V-FIN) (NOT 1* V-FIN BARRIER CLB) (NOT -1* V-FIN BARRIER CLB);
 

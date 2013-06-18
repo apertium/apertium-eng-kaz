@@ -62,6 +62,7 @@
 <def-cat n="be">
       <cat-item lemma="be" tags="vbser.inf"/>
 <cat-item lemma="be" tags="vbser.ger"/>
+   <cat-item lemma="be" tags="vbser.pp"/>
      </def-cat>
 <def-cat n="have">
       <cat-item lemma="have" tags="vblex.inf"/>
@@ -1276,6 +1277,39 @@
   </action>
 </rule>
 
+<rule comment="RULE: will + have + been + verb-ing"> <!--Future perfect Cont I will have been playing - Мен ойнап боламын -->
+  <pattern>
+<pattern-item n="vaux-will"/>
+<pattern-item n="vaux-have"/>
+      <pattern-item n="be"/>
+     <pattern-item n="verb-ing"/> <!-- * -->
+   </pattern>
+ <action>
+     <call-macro n="default-nbr-pers"/>
+           <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+      </tags>
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b pos="1"/> <!-- this position is probably not optimal -->
+        <lu>
+          <lit v="бол"/>
+          <lit-tag v="vaux"/>
+ 	<lit-tag v="aor"/>
+          <var n="verb-pers"/>	
+          <var n="verb-nbr"/>
+        </lu>
+      </chunk>
+        </out>
+            
+   
+  </action>
+</rule>
 
 <rule comment="RULE: have"> <!--I have a book - Mende kitap bar-->
   <pattern>
@@ -1541,7 +1575,7 @@
 <rule comment="RULE: have + been + verb-ing"> <!--Present Perfect Continuous I have been playing Мен ойнап отырғанмын -->
   <pattern>
     <pattern-item n="vaux-have"/>
-    <pattern-item n="verb-pp"/> <!--past participle -->
+    <pattern-item n="be"/> <!--past participle -->
  <pattern-item n="verb-ing"/>
    </pattern>
    <action>
@@ -1903,7 +1937,7 @@
         <lu>
           <lit v="отыр"/>
           <lit-tag v="vaux"/>
-          <lit-tag v="ifi"/>
+          <lit-tag v="past"/>
           <var n="verb-pers"/>	
           <var n="verb-nbr"/>
         </lu>

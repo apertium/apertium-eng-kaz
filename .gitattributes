@@ -23,6 +23,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/bidix-entries-nouns-from-gloss.txt -text
+dev/news.en -text
 dev/transfer-rehaul-notes.tex -text
 /eng-kaz.prob -text svneol=unset#unset
 /kaz-eng.prob -text svneol=unset#unset

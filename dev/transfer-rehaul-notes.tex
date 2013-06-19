@@ -91,12 +91,21 @@ phrases.  \com{Add a comparative example?}
 \textsc{Phrase} & \textsc{Description} & \textsc{Chunk-level tags} \\\hline
 NP & Noun phrase & number*, person, case, possessor* \\
 VP & Verb phrase & number, person, tense/conditionality, negation* \\ 
-PP & Postpositional phrase (except \emph{-NI\c{n}}) & (none, but it remains to be seen if perhaps the possessor of PPs should be marked in view that one can get recursive genitive phrases) \\
-GenP & Postpositional phrase with \emph{-NI\c{n}}) & number, person \\
+PP & Postpositional phrase (except \emph{-NI\c{n}}) & number, person, possessor, and case (number and person probably not necessary but parallel to GenP) \\
+GenP & Postpositional phrase with \emph{-NI\c{n}}) & number, person, possessor, and case \\
 AdjP & Adjectival phrase (except superlatives with \emph{e\c{n}}) & (none) \\
 SupP & Superlative phrase (adjectival phrase with \emph{e\c{n}} & possessor* \\\hline
 \end{tabular}
 \end{center}
 \caption{Chunk-level tags that need to be associated to each type of chunk. Those marked with an asterisk correspond to optional morphemes that will need special treatment in a \texttt{.t4x} module (see text).}
 \end{table}
+
+\section{Progress}
+Structural transfer rehaul is taking place in a branch inside the main
+\texttt{apertium-eng-kaz} directory.
+
+\subsection{June 19, 2013}
+
+In \texttt{apertium-eng-kaz.eng-kaz.t1x}, only the noun phrase consisting of a single noun and the prepositional phrase consisting of preposition followed by a single noun have been changed. In \texttt{apertium-eng-kaz.eng-kaz.t2x}, a rule to translate \(\mathrm{NP}\;\mathrm{GenP}\to\mathrm{GenP}\;\mathrm{NP}\) which transfers the possessor from the \(\mathrm{GenP}\)
+ of the \(\mathrm{NP}\) has been generated. Minor adjustments to the \texttt{.t4x} file have been performed.
 \end{document}

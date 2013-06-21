@@ -109,6 +109,8 @@ Structural transfer rehaul is taking place in a branch inside the main
 In \texttt{apertium-eng-kaz.eng-kaz.t1x}, only the noun phrase consisting of a single noun and the prepositional phrase consisting of preposition followed by a single noun have been changed. In \texttt{apertium-eng-kaz.eng-kaz.t2x}, a rule to translate \(\mathrm{NP}\;\mathrm{GenP}\to\mathrm{GenP}\;\mathrm{NP}\) which transfers the possessor from the \(\mathrm{GenP}\)
  of the \(\mathrm{NP}\) has been generated. Minor adjustments to the \texttt{.t4x} file have been performed.
 
+\paragraph{Note:} Instead of using clumsy \texttt{clip} constructs with \texttt{link-to} references with attributes such as \texttt{side}, \texttt{pos} and \texttt{part} that will eventually be ignored, we have opted for simple \texttt{lit-tag} constructs taking integers as values, as they work just fine. We have commented them for clarity. 
+
 \subsection{June 20, 2013}
 \begin{description}
 \item[\texttt{apertium-eng-kaz.eng-kaz.t2x}:] the noun phrase containing a single subject pronoun, the verb phrase containing a single verb have been transferred to the new model. Three more chunks have been defined, for superlative phrases (SupP) of the form \emph{the most beautiful}, of the form \emph{biggest}, and of the form \emph{the biggest}; the Kazakh superlative marker \emph{e\c{n}} has been added to dictionaries as a \emph{preadverb}.
@@ -120,5 +122,20 @@ In \texttt{apertium-eng-kaz.eng-kaz.t1x}, only the noun phrase consisting of a s
   \end{itemize}
 As before, minor adjustments have been made to the \texttt{.t4x} file. 
 
+
+
 \end{description}
+\subsection{June 21, 2013}
+
+The conversion of rules from the old (\emph{tagless chunks}) format to the new (\emph{heavily tagged}) format in \emph{.t1x} has not been completed (rules for subject pronouns, determiner--noun and preposition--determiner--noun have been converted to the new format, and some specific chunks for verbs such as \emph{must} and \emph{have} have been added), but some ``example'' \texttt{.t2x} rules have been added to deal with many of them:
+\begin{itemize}
+\item A rule to deal with  \(\mathrm{PP}\) \(\mathrm{GenP}\) \(\mathrm{GenP}\) \(\mathrm{PP}\) \(\to\) \(\mathrm{GenP}\) \(\mathrm{GenP}\) \(\mathrm{PP}\) so that, according to Kazakh grammar, the first \(\mathrm{GenP}\) does not get the \emph{-NI\c{n}} ending but is instead in attributive case.
+\item A rule to get the accusative case for the object in sentences of the form \(\mathrm{NP}\) \(\mathrm{VP}\) \(\mathrm{PP}\) \(\to\) \(\mathrm{NP}\mathtt{.nom}\) \(\mathrm{NP}\mathtt{.acc}\) \(\mathrm{VP}\) (does not check for transitivity)
+\item Affirmative \(\mathrm{NP}\) \emph{have} \(\mathrm{NP}\) \(\to\) \(\mathrm{NP}\mathtt{.loc}\) \(\mathrm{NP}\mathtt{.nom}\) \emph{bar} \emph{copula} (with \emph{have} as a lexical verb) constructions for the present and the past.
+\item Affirmative \emph{must} construction \(\mathrm{NP}\) \emph{must} \emph{infinitive} \(\to\) \(\mathrm{NP}\mathtt{.gen}\) \emph{verbal-noun} \emph{kerek} \emph{coupla}
+\end{itemize}
+All of these constructs should be extended to deal with objects, modifiers, etc., by writing long \texttt{.t2x} rules. Currently, \texttt{.t2x} is \emph{almost} ready.
+As usual, some \emph{.t4x} adjustments were necessary. Specific phrases such as \(\mathrm{VP\_have}\)
+\(\mathrm{VP\_must\_inf}\) etc have been created to make \texttt{.t2x} rules easier to write.
+
 \end{document}

@@ -2,9 +2,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage{qtree}
 \usepackage[bf,small]{caption}
-\title{Reorganization of transfer in Apertium-eng-kaz}
-\author{Mikel L. Forcada, Aida Sundetova, Aizhan Aitkulova, Assem Shormakova \\ KazNU, Almaty, Kazakhstan}
-\date{20 June 2013}
+\title{Reorganization of transfer in Apertium-eng-kaz: \\ work performed from June 19 to June 22, 2013\footnote{Mikel L. Forcada's visit has been  funded by the Al-Farabi Kazakh National University through the State program for the attraction of foreign scholars.}}
+\author{Mikel L. Forcada,\footnote{Permanent address: Departament de Llenguatges i Sistemes Inform\`{a}tics, Universitat d'Alacant, E-03071 Alacant, Spain.} Aida Sundetova, \\ 
+Aizhan Aitkulova, Assem Shormakova \\ 
+Information Systems Chair \\ Al-Farabi Kazakh National University, \\ Al-Farabi av., 71, 050040 Almaty, Kazakhstan}
+\date{22 June 2013}
 
 \newcommand{\com}[1]{\begin{quote}\begin{sf}#1\end{sf}\end{quote}}
 \begin{document}
@@ -12,7 +14,7 @@
 \maketitle
 
 \section{Introduction}
-To be able to deal with the necessary case and possessive marking changes for ``bare'' Kazakh noun phrases (NPs) resulting (mainly) from the translation of English noun phrases, a reorganization of the current 1st-level (\texttt{.t1x}) and 2nd-level (\texttt{.t2x}) transfer rules is needed in \texttt{apertium-eng-kaz}. Relative \emph{links} using \texttt{link-to} will be dealt with, as usual, at the 3rd level (\texttt{.t3x}), with a caveat: as the morphological description of Kazakh available uses optional morphemes for singular (modelled as the absence of the plural \emph{-LAr} morpheme\footnote{An ad-hoc latinization will be used in examples, with capitals representing archiphonemes; for instance, \emph{A} can be \emph{a} or \emph{e}, depending on vowel harmony}) and for ``no possessor'' (modelled as the absence of the possessor morpheme), further processing will be needed (using a hack involving a \texttt{.t4x} file ---already available--- processed by 1st-level transfer without calling lexical transfer). 
+To be able to deal with the necessary case and possessive marking changes for ``bare'' Kazakh noun phrases (NPs) resulting (mainly) from the translation of English noun phrases, a reorganization of the current 1st-level (\texttt{.t1x}) and 2nd-level (\texttt{.t2x}) transfer rules is currently under way in \texttt{apertium-eng-kaz} (in a subdirectory under the subdirectory \texttt{dev}). Relative \emph{links} equivalent to those using \texttt{link-to}\footnote{Instead of using clumsy \texttt{clip} constructs with \texttt{link-to} references with attributes such as \texttt{side}, \texttt{pos} and \texttt{part} that will eventually be ignored, we have opted for simple \texttt{lit-tag} constructs taking integers as values, as they work just fine. We have commented them for clarity.} in other language pairs, which will be called \emph{references} in this document, are dealt with, as usual, at the 3rd level or \emph{post-chunk} level of transfer (\texttt{.t3x}), with a caveat: as the morphological description of Kazakh available uses optional morphemes for singular (modelled as the absence of the plural \emph{-LAr} morpheme\footnote{An ad-hoc latinization is used in examples, with capitals representing archiphonemes; for instance, \emph{A} can be \emph{a} or \emph{e}, depending on vowel harmony}) and for ``no possessor'' (modelled as the absence of the possessor morpheme), further processing is  needed (using a hack involving a \texttt{.t4x} file processed by 1st-level transfer without calling lexical transfer). 
 
 The idea is that for these ``bare'' NPs, case and possesive markers need to be determined at a later time. This is needed for a number of constructs: these are only some examples:
 \begin{itemize}
@@ -21,12 +23,12 @@ The idea is that for these ``bare'' NPs, case and possesive markers need to be d
 \emph{The professor has a book} \(\to\) \emph{Professorda kitap bar} ('At the professor a book is',  similar to the Russian construction); \emph{The professor had a book} \(\to\) \emph{Professorda kitab bol\u{g}an} ('At the professor a book was').
 \item Translation of obligative sentences with \emph{must} + verb or \emph{have to} + verb, as the English subject NP has to be translated as a genitive PP using the postposition \emph{-NI\c{n}} and the person and  number have to be transferred to the gerund of the verb. The sentence uses the adjective \emph{kerek} and the \emph{copula} (again, absent in present tense):
 \emph{I have to go} \(\to\) \emph{Meni\c{n} barwim kerek -} ('My going [is] needed').
-\item Translation of verbs such as \emph{need}: \emph{I need a book} \(\to\) {Ma\u{g}an kitap kerek -} ('To me a book [is] needed')
-\com{I need a past-tense example where the copula is present}
+\item Translation of verbs such as \emph{need}: \emph{I need a book} \(\to\) {Ma\u{g}an kitap kerek -} ('To me a book needed [is]'); \emph{I needed a book} \(\to\) \emph{Ma\u{g}an kitap kerek edi} ('To me a book needed was')
 \end{itemize}
-\com{[The last list may be completed]}
-\section{The translation of prepositional phrases needs little change}
-On encountering an English prepositional phrase, there are three possible outcomes, and none of them seems to need further treatment, so the current rules will be kept more or less as they are, with the exception that the person and number of the main noun of \emph{genitive} PPs ending in the postposition \emph{-NI\c{n}} needs to be externally marked so that it may be used to form a possessive morpheme in the NP they modify. Linking (using the \texttt{link-to} attribute) is not necessary as they will not change.
+We have generalized the idea of chunk-level tags to all chunks, both for those tags whose value has to be determined at the \texttt{.t2x} level and for those whose value has to be made available to \texttt{.t2x} rules; this makes \texttt{.t2x} rules more general and simpler to write.
+
+\section{Translation of prepositional phrases}
+On encountering an English prepositional phrase, there are three possible outcomes, and none of them seems to need further treatment, so the current rules will be kept more or less as they are, with the exception that the person and number of the main noun of \emph{genitive} PPs ending in the postposition \emph{-NI\c{n}} needs to be marked at the chunk level so that it may be used to form a possessive morpheme in the NP they modify. Using references is not necessary as they will not change. In addition, for all prepositional phrases, an unsolved possessive tag will be used to determine the possessive of its main noun in case there is another genitive phrase premodifying it.
 Three cases may occur:
 \begin{itemize}
 \item The prepositional phrase results in a simple postpositional phrase using the locative \emph{-DA}, ablative \emph{-DAn}, etc., but not the genitive \emph{-NI\c{n}}:
@@ -46,70 +48,97 @@ Only in the second case there is need to assign the person and number of the nou
 \begin{center}
 \Tree [.PP [.P of ] \qroof{the beautiful garden}.NP ]  \(\to\) \Tree [.PP(pers=3,num=sg) \qroof{ædemi baqša}.NP [.P -ny\c{n} ] ]
 \end{center}
-In this case, person and number can be considered \emph{solved} as there will be no need to change them; therefore, there is no need to use \texttt{link-to} references (as it will be seen, this is necessary for ``bare'' NPs). 
+In this case, person and number can be considered \emph{solved} as there will be no need to change them; therefore, there is no need to use references (as it will be seen, this is necessary for ``bare'' NPs). 
 
-\section{The translation of ``bare'' NPs needs work}
-When translating an English ``bare'' NP which is not processed as part of any prepositional phrase (for instance, \emph{The professor} and \emph{a big book} in \emph{The professor wrote a big book}, or \emph{museum} in \emph{museum of modern art}), it is necessary to leave its case and its possessor open for change (see the examples in the introduction):
+\section{Translation of ``bare'' NPs}
+When translating an English ``bare'' NP which is not processed as part
+of any prepositional phrase (for instance, \emph{The professor} and
+\emph{a big book} in \emph{The professor wrote a big book}, or
+\emph{museum} in \emph{museum of modern art}), it is necessary to
+leave its case and its possessor open for change (see the examples in
+the introduction):
 \begin{center}
 \Tree [.NP [.D a ]  [.N book ] ] \(\to\) \Tree [.{NP(poss=?,case=?,pers=3,num=sg)} [.N kitap ] ]
 \end{center}
-In this case, the possessor and the case are open for the whole chunk and they have to be propagated to the noun via \texttt{link-to} connections to be solved at the 3rd (\texttt{.t3x}) level. Person and number can be considered solved, but need to be available at the chunk level for 2nd-level (\texttt{.t2x}) processing, for instance, so that verbs agree with their subjects. Note that in the current version of transfer (revision 45092, June 16, 2013), number and person are global variables set by NPs that are ``caught'' by verb phrases to determine the right form of verbs. This is to be abandoned so that agreement is treated in the 2nd-level transfer via \texttt{link-to} links and propagated to lexical forms at the 3rd level (\texttt{.t3x}). There is, therefore, considerable work to do, also as it may affect the current usage of macros in 1st-level (\texttt{.t1x}) transfer.
+In this case, the possessor and the case are open for the whole chunk and they have to be propagated to the noun via unsolved references to be solved at the 3rd (\texttt{.t3x}) level. Person and number can be considered solved, but need to be available at the chunk level for 2nd-level (\texttt{.t2x}) processing, for instance, so that verbs agree with their subjects. Note that in the current version of transfer, as found in the main branch (revision 45092, June 16, 2013), number and person are global variables set by NPs that are ``caught'' by verb phrases to determine the form of verbs. This has been abandoned and now agreement is treated in the 2nd-level transfer via references and propagated to lexical forms at the 3rd level (\texttt{.t3x}). This involves considerable work, as it makes some of the macros in 1st-level (\texttt{.t1x}) transfer useless, while other macros have to be defined (current rules contain extensive repetition of code generated through cut-and-paste which needs to be factored out into macros).
 
-\section{The translation of VPs also needs work}
-As said above, instead of the current method that just lets ``bare'' English NPs presumably acting as subjects to set global variables for person and number that will then be read by VP chunks to generate the appropriate forms, the plan is now for these ``bare'' NPs to be marked at the chunk level with person and number tags (which would be constants) and for VPs to be marked at the chunk level with person and number to be determined, linked via \texttt{link-to} links to the appropriate morphemes in the verb forms. The chunk-level person and number to be determined would be rewritten by the appropriate 2nd-level \texttt{.t2x} transfer rules, and would then be propagated to lexical forms at the 3rd-level transfer stage (\texttt{.t3x}).
+\section{Translation of VPs}
 
-Other indicators that would have to be set at the chunk level are negation (for negative verbs) and conditional (which may be handled as a tense). 
+As said above, instead of the current method that just lets ``bare'' English NPs presumably acting as subjects to set global variables for person and number that will then be read by VP chunks to generate the appropriate forms, these ``bare'' NPs are now being marked at the chunk level with person and number tags (which would be constants) and  VPs are being marked at the chunk level with person and number to be determined, linked via references to the appropriate morphemes in the appropriate verb lexical forms. The chunk-level person and number to be determined are rewritten by the appropriate 2nd-level \texttt{.t2x} transfer rules, and are propagated to lexical forms at the 3rd-level transfer stage (\texttt{.t3x}).
 
-Negation can be easily determined when the VP chunk contains \emph{not}, as in \emph{I don't play} \(\to\) \emph{Men oynamaymwn}, but may need to be externally set in sentences having a non-negative VP but a negative word like those starting with \emph{-eš}, like \emph{I write nothing} \(\to\) \emph{Men ešnærse \v{z}as\textbf{ba}ymwn}, which needs a negative form of the verb. Negation is, as possession or plural in noun phrases, an optional morpheme in the current morphology, one, therefore, that will need to make use of the \texttt{.t4x} hack.
+Other indicators that have to be set at the chunk level are negation
+(for negative verbs) and conditional (which will be handled as a
+tense).
 
-Conditional constructions work by changing the form of the verb to a special form. In the present, the resulting form can be seen as a change in tense (\emph{I play} \(\to\) \emph{oynaymwn} = \texttt{oyna.v.tv.aor.p1.sg}; \emph{If I play} \(\to\) \emph{oynasam} = \texttt{oyna.v.tv.gna-cond.p1.sg}; \emph{If I don't play} \(\to\) \emph{oynamasam} = \texttt{oyna.vblex.neg.gna-cond.p1.sg}). The past seems to use an impersonal form (a verbal adjective, with no person or nmumber agreement, in the locative case; \emph{oyna\u{g}anda} = \texttt{oyna.v.tv.ger-past.loc}).
+Negation can be easily determined at the \texttt{.t1x} level when the
+English VP chunk contains \emph{not}, as in \emph{I don't play}
+\(\to\) \emph{Men oynamaymwn}, but may need to be detemined at the
+\texttt{.t2x} level in sentences having a non-negative VP but a
+negative word like those starting with \emph{-eš}, like \emph{I write
+  nothing} \(\to\) \emph{Men ešnærse \v{z}as\textbf{ba}ymwn}, which
+requires a negative form of the verb. Negation is, as possession or
+plural in noun phrases, an optional morpheme in the current
+morphology, one, therefore, that has to be solved by the \texttt{.t4x}
+hack described above.
 
-\section{Adjective phrases seem simpler, but there is a lot to do}
+Conditional constructions work by changing the form of the verb to a
+special form. In the present, the resulting form can be seen as a
+change in tense (\emph{I play} \(\to\) \emph{oynaymwn} =
+\texttt{oyna.v.tv.aor.p1.sg}; \emph{If I play} \(\to\) \emph{oynasam}
+= \texttt{oyna.v.tv.gna-cond.p1.sg}; \emph{If I don't play} \(\to\)
+\emph{oynamasam} = \texttt{oyna.vblex.neg.gna-cond.p1.sg}). The past
+seems to use an impersonal form (a verbal adjective, with no person or
+nmumber agreement, in the locative case; \emph{oyna\u{g}anda} =
+\texttt{oyna.v.tv.ger-past.loc}). Verbal nouns in other forms (such as
+the ones needed to translate \emph{must} or \emph{have to} constructs,
+which are realized as verbal nouns with possessives) make it necessary
+for VPs to have a possessive tag to be solved later.
+
+\section{Translation of adjective phrases}
 
 Adjective phrases (\(\mathrm{AdjP}\)) are a bit simpler. Adjectives in
-Kazakh do not show agreement, so they can probably be generated as
+Kazakh do not show agreement, so AdjP can probably be generated as
 chunks having no tags. However, the special case of the superlative
 should perhaps be treated as a noun phrase with a missing (null) noun,
-as it may take the posessives as NPs do. The label \(\mathrm{AdjP}\)
-could probably be changed here to something like \(\mathrm{SupP}\) if
-we don't want to use just \(\mathrm{NP}\). For instance, the
+as it may show posessive morphemes as NPs do. The label \(\mathrm{AdjP}\)
+has been temporarly changed here to something like \(\mathrm{SupP}\) as we were a bit hesitant on using just \(\mathrm{NP}\). For instance, the
 translation of \emph{the most beautiful} is \emph{e\c{n} ædemi} (where
 \emph{e\c{n}} is the superalative marker) but the translation of
 \emph{the most beautiful of the books} is \emph{kitaptardy\c{n} e\c{n}
   ædemisi}, with a third-person possessive marking following the
-adjective, as if a second \emph{kitap} had been deleted from an
-understood \emph{kitaptardy\c{n} e\c{n} ædemi kitaby} ('the most
+adjective, as if a second \emph{kitap} had been deleted from a hypothetical \emph{kitaptardy\c{n} e\c{n} ædemi kitaby} ('the most
 beautiful book of the books').\footnote{The current morphology marks
   some of these changes as \emph{substantivation}.} Comparatives do
 not need special marking and may be treated as regular adjective
-phrases.  \com{Add a comparative example?}
+phrases where the adjective receives the \emph{-IRaK} (\emph{yraq}, \emph{irek}, etc.) comparative endings. Comparatives, as superlatives, are realized in English in two different ways (using synthetic \emph{-er}/\emph{-est} suffixes or prepending \emph{more}/\emph{most}): as a results, \emph{.t1x} rules are duplicated.
 
 \begin{table}
 \begin{center}
-\begin{tabular}{c|p{4cm}|p{5.6cm}}
+\begin{tabular}{c|p{3cm}|p{3cm}|p{3.5cm}}
 \hline\hline
-\textsc{Phrase} & \textsc{Description} & \textsc{Chunk-level tags} \\\hline
-NP & Noun phrase & number*, person, case, possessor* \\
-VP & Verb phrase & number, person, tense/conditionality, negation* \\ 
-PP & Postpositional phrase (except \emph{-NI\c{n}}) & number, person, possessor, and case (number and person probably not necessary but parallel to GenP) \\
-GenP & Postpositional phrase with \emph{-NI\c{n}}) & number, person, possessor, and case \\
-AdjP & Adjectival phrase (except superlatives with \emph{e\c{n}}) & (none) \\
-SupP & Superlative phrase (adjectival phrase with \emph{e\c{n}} & possessor*, case (as it works similarly to a noun phrase) \\\hline
+\textsc{Phrase} & \textsc{Description} & \textsc{Chunk-level tags} & \textsc{notes} \\\hline
+NP & Noun phrase & number*, person, possessor*, case \\\hline
+VP & Verb phrase & number, person, tense/conditionality, possessive*, negation* \\\hline
+PP & Postpositional phrase (except \emph{-NI\c{n}}) & number, person, possessor*, and case & (number and person probably not necessary but parallel to GenP) \\\hline
+GenP & Postpositional phrase with \emph{-NI\c{n}}) & number, person, possessor*, and case \\\hline
+AdjP & Adjectival phrase (except superlatives with \emph{e\c{n}}) & (none) \\\hline
+SupP & Superlative phrase & (adjectival phrase with \emph{e\c{n}} & possessor*, case (merging with NP is to be considered) \\\hline
 \end{tabular}
 \end{center}
-\caption{Chunk-level tags that need to be associated to each type of chunk. Those marked with an asterisk correspond to optional morphemes that will need special treatment in a \texttt{.t4x} module (see text).}
+\caption{Chunk-level tags currently associated to each type of chunk. Those marked with an asterisk correspond to optional morphemes that will need special treatment in a \texttt{.t4x} module (see text).}
+\label{tb:chunks}
 \end{table}
 
 \section{Progress}
-Structural transfer rehaul is taking place in a branch inside the main
-\texttt{apertium-eng-kaz} directory. All changes are marked with the word `\texttt{NEW}.
+As said above, structural transfer rehaul is taking place in a branch
+inside the main \texttt{apertium-eng-kaz} directory. All changes are
+marked with the word `\texttt{NEW}'.
 
 \subsection{June 19, 2013}
 
 In \texttt{apertium-eng-kaz.eng-kaz.t1x}, only the noun phrase consisting of a single noun and the prepositional phrase consisting of preposition followed by a single noun have been changed. In \texttt{apertium-eng-kaz.eng-kaz.t2x}, a rule to translate \(\mathrm{NP}\;\mathrm{GenP}\to\mathrm{GenP}\;\mathrm{NP}\) which transfers the possessor from the \(\mathrm{GenP}\)
  of the \(\mathrm{NP}\) has been generated. Minor adjustments to the \texttt{.t4x} file have been performed.
-
-\paragraph{Note:} Instead of using clumsy \texttt{clip} constructs with \texttt{link-to} references with attributes such as \texttt{side}, \texttt{pos} and \texttt{part} that will eventually be ignored, we have opted for simple \texttt{lit-tag} constructs taking integers as values, as they work just fine. We have commented them for clarity. 
+ 
 
 \subsection{June 20, 2013}
 \begin{description}
@@ -138,4 +167,35 @@ All of these constructs should be extended to deal with objects, modifiers, etc.
 As usual, some \emph{.t4x} adjustments were necessary. Specific phrases such as \(\mathrm{VP\_have}\)
 \(\mathrm{VP\_must\_inf}\) etc have been created to make \texttt{.t2x} rules easier to write.
 
+\subsection{June 22, 2013}
+The conversion of rules from the old (\emph{tagless chunks} to the new
+\emph{tagged chunk} format for noun-phrase (NP) rules in \texttt{.t1x}
+has been completed (10 more rules). VP rules for \emph{can} and
+\emph{should} have been added. A rule for bare adjective phrases has
+also been added.
+
+\section{Work to do}
+Table~\ref{tb:todo} describes work that should ideally be completed before August 31. The list is incomplete. Any new rules should be accompanied by appropriate tests for regression testing.
+\begin{table}
+  \centering
+  \begin{tabular}{r|p{7.5cm}|p{1.7cm}|p{2.2cm}}
+    \hline\hline
+    \textsc{} & \textsc{Task} & \textsc{Proposed deadline} & \textsc{Who} \\
+    \hline
+    1 & Normalize superblank management everywhere so that we get valid XML/HTML from valid XML/HTML & 21/07/2013 & Mikel \\\hline
+    2 & Try to generalize VP treatment in \texttt{.t2x} and \texttt{.t3x} rule files so that we can use less interchunk \texttt{.t2x} rules. This may involve deferring some processing to \texttt{.t3x} (we need to learn what is done in non-trivial \texttt{.t3x} rule files in other Apertium language pairs & 21/07/2013 & Mikel \\\hline
+    3 & Check the \emph{fake lemmas} of \texttt{.t1x} chunks so that they actually describe their internals (convenient for management purposes) & 29/06/2013 & Mikel \\\hline
+    4 & Transform all VP chunks from the \emph{tagless} to the \emph{tagged} format & 05/07/2013 & Aida, Aizhan, Assem (supervised by Mikel) \\\hline
+    5 & Build \texttt{.t1x} and \texttt{.t2x} rules to deal with the \emph{need} construct (\emph{I need[ed] a book} \(\to\) \emph{Ma\u{g}an kitap [edi]}) & 05/07/2013 & Aida (supervised by Mikel) \\\hline
+    6 & Generate negative forms of \emph{to be} & 05/07/2013 & Aida, Aizhan, Assem (supervised by Mikel) \\\hline
+    7 & Generate \texttt{.t2x} rules for the verb \emph{to be} (copula) & 12/07/2013 & Aida, Aizhan, Assem (supervised by Mikel) \\\hline 
+   8 & First check against regression testing, and merge the development branch into the main branch & 20/07/2013 & Mikel \\
+   9 & Comparatives: first, generate \texttt{.t1x} rules for AdjP containing comparatives; then write \emph{.t2x} rules for \emph{than} (\emph{Bigger than the book} \(\to\) \emph{kitap\textbf{qa} \textbf{kara\u{g}anda} ulken\textbf{irek}}), where the noun gets the dative case & 20/08/2013 & Aida, Aizhan, Assem (supervised by Mikel) \\\hline
+    10  & Generating negative forms of verbs from negative (\emph{e\v{s}-}) words (\texttt{.t2x} work) & 20/08/2013 & Aida, Aizhan, Assem (supervised by Mikel) \\\hline
+   11  & Adding vocabulary & Continuous task & Aida, Aizhan, Assem (supervised by Mikel) \\\hline
+   12 & Second check against regression testing & 29/08/2013 & Mikel \\\hline
+  \end{tabular}
+  \caption{Work to be completed in Summer 2013}
+  \label{tb:todo}
+\end{table}
 \end{document}

@@ -64,6 +64,10 @@ In this case, the possessor and the case are open for the whole chunk and they h
 
 \section{Translation of VPs}
 
+[A number of verb-phrase chunks have been written in \texttt{.t1x} during this period, but in the old (\emph{tagless}) format, and many have to be transformed to the new (\emph{tagged}) format (see section~\ref{se:todo}); examples: \emph{can} and \emph{could} constructs, tenses such as future continuous and future perfect, etc.]  
+
+
+
 As said above, instead of the current method that just lets ``bare'' English NPs presumably acting as subjects to set global variables for person and number that will then be read by VP chunks to generate the appropriate forms, these ``bare'' NPs are now being marked at the chunk level with person and number tags (which would be constants) and  VPs are being marked at the chunk level with person and number to be determined, linked via references to the appropriate morphemes in the appropriate verb lexical forms. The chunk-level person and number to be determined are rewritten by the appropriate 2nd-level \texttt{.t2x} transfer rules, and are propagated to lexical forms at the 3rd-level transfer stage (\texttt{.t3x}).
 
 Other indicators that have to be set at the chunk level are negation
@@ -175,6 +179,7 @@ has been completed (10 more rules). VP rules for \emph{can} and
 also been added.
 
 \section{Work to do}
+\label{se:todo}
 Table~\ref{tb:todo} describes work that should ideally be completed before August 31. The list is incomplete. Any new rules should be accompanied by appropriate tests for regression testing.
 \begin{table}
   \centering
@@ -198,4 +203,12 @@ Table~\ref{tb:todo} describes work that should ideally be completed before Augus
   \caption{Work to be completed in Summer 2013}
   \label{tb:todo}
 \end{table}
+
+Other items that could be added to the work this summer but that are not scheduled in Table~\ref{tb:todo}
+\begin{itemize}
+\item Interrogative sentences: yes/no questions (marked with \emph{BA}, which, even if written as a separate word, shows vowel and consonant harmony), informative questions (Kazakh does not move \emph{wh-}words, which are in their canonical positions), tag questions.
+\item Noun-noun compounds (which form structures in Kazakh which are not marked by the genitive postposition \emph{-NI\c{n}} but show possessives: \emph{Qazaqstan president\textbf{i}} instead of \emph{Qazakhstanni\c{n} presidenti}).
+\item Passive voice (partial support is already there)
+\item Taking care of capitals by means of \texttt{get-case-from} 
+\end{itemize}
 \end{document}

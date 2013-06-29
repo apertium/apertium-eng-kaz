@@ -3835,7 +3835,7 @@
   <action>
 
   <call-macro n="choose_case_and_postposition2"><with-param pos="1"/><with-param pos="4"/></call-macro>
-  <call-macro n="NEW-build-noun-lu-2-4-5-sg">
+  <call-macro n="NEW-build-noun-lu-2-4-5">
     <with-param pos="4"/>
   </call-macro>  
  <call-macro n="build-adjec-lu">
@@ -3892,7 +3892,7 @@
                  <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
                  <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
                  <tag><var n="possessive"/></tag> <!-- possessor computed from possessive determiner -->
-                 <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+                 <tag><var n="case"/></tag> <!-- case placeholder -->
             </tags>
             <b pos="1"/>
             <lu>
@@ -3957,7 +3957,7 @@
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
              <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
              <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
-             <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+             <tag><var n="case"/></tag> <!-- case placeholder -->
          </tags>    
              <b pos="1"/>
              <lu>
@@ -3989,7 +3989,7 @@
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
              <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
              <tag><var n="possessive"/></tag> <!-- possessor placeholder -->
-             <tag><lit-tag v="case"/></tag> <!-- case placeholder -->
+             <tag><var n="case"/></tag> <!-- case placeholder -->
            </tags>
            <b pos="1"/> 
              <lu>

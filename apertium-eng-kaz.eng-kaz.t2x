@@ -10,19 +10,49 @@
       <cat-item tags="VP"/>
       <cat-item tags="VP.*"/>
     </def-cat>
-    <def-cat n="AdvP">
-      <cat-item tags="AdvP"/>
-      <cat-item tags="AdvP.*"/>
+    <def-cat n="VP_must_inf">
+      <cat-item tags="VP_must_inf.*"/>
     </def-cat>
+<def-cat n="VP_should_inf">
+      <cat-item tags="VP_should_inf.*"/>
+    </def-cat>
+    <def-cat n="VP_have">
+      <cat-item tags="VP_have.*"/>
+    </def-cat>
+
+<def-cat n="VP_need">
+      <cat-item tags="VP_need.*"/>
+    </def-cat>
+    <def-cat n="PP">
+      <cat-item tags="PP"/>
+      <cat-item tags="PP.*"/>
+    </def-cat>
+    
     <def-cat n="AdjP">
       <cat-item tags="AdjP"/>
       <cat-item tags="AdjP.*"/>
+    </def-cat>
+    <def-cat n="SupP">
+      <cat-item tags="SupP"/>
+      <cat-item tags="SupP.*"/>
+    </def-cat>
+    <def-cat n="GenP"> 
+      <cat-item tags="GenP"/>
+      <cat-item tags="GenP.*"/>
     </def-cat>
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_phrase">
+      <attr-item tags="GenP"/>
+      <attr-item tags="NP"/>
+      <attr-item tags="PP"/>
+      <attr-item tags="VP"/>
+      <attr-item tags="AdjP"/>
+      <attr-item tags="SupP"/>
+    </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -37,11 +67,47 @@
       <attr-item tags="ins"/>
       <attr-item tags="loc"/>
       <attr-item tags="abl"/>
+      <attr-item tags="CD"/>
+    </def-attr>
+    <def-attr n="a_possessive"> <!-- check if complete -->
+      <attr-item tags="PXD"/> <!-- to be determined -->
+      <attr-item tags="px3sp"/>
+      <attr-item tags="px1sg"/>
+      <attr-item tags="px2sg"/>
+      <attr-item tags="px1pl"/>
+      <attr-item tags="px2pl"/>
+    </def-attr>
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+    <def-attr n="a_neg">
+      <attr-item tags="neg"/>
+      <attr-item tags="NXD"/>
+    </def-attr>
+    <def-attr n="a_tense"> <!-- CAREFUL: the list is not complete -->
+      <attr-item tags="aor"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="prc_perf"/>
+      <attr-item tags="past"/>      
+      <attr-item tags="pres"/>
+      <attr-item tags="fut"/>
+      <attr-item tags="TD"/>  <!-- For the future? -->
+    </def-attr>
+    <def-attr n="a_pass">
+       <attr-item tags="pass"/>
     </def-attr>
   </section-def-attrs>
+
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="POST"/>
+    <def-var n="possessive"/>
+    <def-var n="possessive1"/>
+    <def-var n="possessive2"/>
+    <def-var n="formality"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -53,25 +119,61 @@
       </let>
     </def-macro>
 
-    <def-macro n="out-blank-if-not-single-space" npar="1">
-<!-- Outputs nothing if the blank is " " and the blank otherwise..-->
-<!-- Takes one position parameter -->
-      <choose>
-        <when>
-          <test>
-            <not>
-              <equal>
-                <b pos="1"/>
-                <lit v=" "/>
-              </equal>
-            </not>
-          </test>
-          <out>
-            <b pos="1"/>
-          </out>
-        </when>
-      </choose>
-    </def-macro>
+
+<def-macro n="build-possessive" npar="1">
+<choose> 
+<when>
+   <test>
+      <and>
+          <equal><clip pos="1"  part="a_pers"/><lit-tag  v="p1"/></equal>
+          <equal><clip pos="1"  part="a_nbr"/><lit-tag v="sg"/></equal>
+       </and>
+    </test>      
+          <let><var  n="possessive"/><lit-tag v="px1sg"/></let>
+</when>
+
+
+<when>
+   <test>
+      <and>
+          <equal><clip  pos="1"  part="a_pers"/><lit-tag  v="p1"/></equal>
+          <equal><clip pos="1"  part="a_nbr"/><lit-tag v="pl"/></equal>
+       </and>
+    </test>      
+          <let><var  n="possessive"/><lit-tag v="px1pl"/></let>
+</when>
+<when>
+   <test>
+      <and>
+          <equal><clip pos="1"  part="a_pers"/><lit-tag  v="p2"/></equal>
+          <equal><clip pos="1"  part="a_nbr"/><lit-tag v="sg"/></equal>
+	
+       </and>
+    </test>      
+<let><var  n="possessive"/><lit-tag v="px2sg"/></let>
+
+</when>
+<when>
+   <test>
+      <and>
+          <equal><clip pos="1"  part="a_pers"/><lit-tag  v="p2"/></equal>
+          <equal><clip pos="1"  part="a_nbr"/><lit-tag v="sg"/></equal>
+	
+       </and>
+    </test>      
+<let><var  n="possessive"/><lit-tag v="px2sg"/></let>
+
+</when>
+<when>
+   <test>
+          <equal><clip  pos="1"  part="a_pers"/><lit-tag  v="p3"/></equal>
+    </test>      
+          <let><var  n="possessive"/><lit-tag v="px3sp"/></let>
+</when>
+
+</choose>
+
+</def-macro>
 
 
 
@@ -93,14 +195,15 @@
       </action>
     </rule>
 
-    <rule comment="RULE: VP AdvP → AdvP VP">
-    <!-- Just reorders VP and AdvP -->
+    <rule comment="RULE: VP PP → PP VP">
+    <!-- Just reorders VP and PP -->
      <pattern>
        <pattern-item n="VP"/>
-       <pattern-item n="AdvP"/>
+       <pattern-item n="PP"/>
      </pattern>
      <action>
       <out>
+          <b pos="1"/>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -113,21 +216,423 @@
             <clip pos="1" part="chcontent"/>
           </chunk>  
       </out>
-        <call-macro n="out-blank-if-not-single-space"> 
-          <with-param pos="1"/>
-        </call-macro>
      </action>
     </rule>
-    
-<rule comment="RULE: VP AdvP AdvP → AdvP AdvP VP">
-    <!-- Just reorders VP and AdvP1 AdvP2 -->
+
+<rule comment="NEW RULE PP GenP → GenP PP">
+<!-- reorders PP and GenP and will set possessive on PP -->
+  <pattern> 
+     <pattern-item n="PP"/>
+     <pattern-item n="GenP"/>
+  </pattern>
+     <action>
+     <call-macro n="build-possessive">
+        <with-param pos="2"/>
+     </call-macro>
+      <out>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="a_phrase"/>
+            <clip pos="1" part="a_nbr"/>
+            <clip pos="1" part="a_pers"/>
+            <var n="possessive"/>
+            <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>  
+      </out>
+     </action>
+</rule>
+
+<rule comment="NEW RULE PP GenP GenP → GenP GenP PP">
+<!-- only 1 NIng -->
+  <pattern> 
+     <pattern-item n="PP"/>
+     <pattern-item n="GenP"/>
+     <pattern-item n="GenP"/>
+  </pattern>
+     <action>
+     <call-macro n="build-possessive">
+        <with-param pos="2"/>
+     </call-macro>
+     <let><var n="possessive1"/><var n="possessive"/></let>
+     <call-macro n="build-possessive">
+        <with-param pos="3"/>
+     </call-macro>
+     <let><var n="possessive2"/><var n="possessive"/></let>
+      <out>
+          <chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="a_phrase"/>
+            <clip pos="3" part="a_nbr"/>
+            <clip pos="3" part="a_pers"/>
+            <lit-tag v="PXD"/>
+            <lit-tag v="nom"/> <!-- should probably be attr but there is no plural for attr -->
+            <clip pos="3" part="chcontent"/>
+          </chunk>  
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_phrase"/>
+            <clip pos="2" part="a_nbr"/>
+            <clip pos="2" part="a_pers"/>
+            <var n="possessive2"/>
+            <clip pos="2" part="a_cas"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>  
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="a_phrase"/>
+            <clip pos="1" part="a_nbr"/>
+            <clip pos="1" part="a_pers"/>
+            <var n="possessive1"/>
+            <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>  
+      </out>
+     </action>
+</rule>
+
+<rule comment="NEW RULE NP GenP → GenP NP">
+<!-- reorders NP and GenP and will set possessive on NP -->
+  <pattern> 
+     <pattern-item n="NP"/>
+     <pattern-item n="GenP"/>
+  </pattern>
+     <action>
+     <call-macro n="build-possessive">
+        <with-param pos="2"/>
+     </call-macro>
+      <out>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="a_phrase"/>
+            <clip pos="1" part="a_nbr"/>
+            <clip pos="1" part="a_pers"/>
+            <var n="possessive"/>
+            <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>  
+      </out>
+     </action>
+</rule>
+
+<rule comment="NEW RULE SupP GenP → GenP SupP">
+<!-- reorders SupP and GenP and will set possessive on SupP -->
+  <pattern> 
+     <pattern-item n="SupP"/>
+     <pattern-item n="GenP"/>
+  </pattern>
+     <action>
+     <call-macro n="build-possessive">
+        <with-param pos="2"/>
+     </call-macro>
+      <out>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="a_phrase"/>
+            <var n="possessive"/>
+            <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>  
+      </out>
+     </action>
+</rule>
+
+<rule comment="NEW RULE: NP VP_must_inf">
+    <!-- propagates person and number from NP to VP -->
      <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP_must_inf"/>
+     </pattern>
+     <action>
+     <call-macro n="build-possessive">
+        <with-param pos="1"/> 
+     </call-macro>
+      <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <lit-tag v="GenP"/>
+            <clip pos="1" part="a_nbr"/>
+            <clip pos="1" part="a_pers"/>
+            <clip pos="1" part="a_possessive"/>
+            <lit-tag v="gen"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <lit-tag v="ger"/>
+            <var n="possessive"/> 
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+      </out>
+     </action>
+    </rule>
+
+
+<rule comment="NEW RULE: NP VP_should_inf">
+    <!-- MenING barGANYM jon I should go-->
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP_should_inf"/>
+     </pattern>
+     <action>
+     <call-macro n="build-possessive">
+        <with-param pos="1"/> 
+     </call-macro>
+      <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <lit-tag v="GenP"/>
+            <clip pos="1" part="a_nbr"/>
+            <clip pos="1" part="a_pers"/>
+            <clip pos="1" part="a_possessive"/>
+            <lit-tag v="gen"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <lit-tag v="ger_past"/>
+            <var n="possessive"/> 
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+      </out>
+     </action>
+    </rule>
+
+
+
+<rule comment="NEW RULE: agree person and number NP VP">
+    <!-- propagates person and number from NP to VP -->
+     <pattern>
+       <pattern-item n="NP"/>
        <pattern-item n="VP"/>
-       <pattern-item n="AdvP"/>
-       <pattern-item n="AdvP"/>
      </pattern>
      <action>
       <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_pass"/>
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+      </out>
+     </action>
+    </rule>
+
+<rule comment="NEW RULE: agree person and number NP VP PP">
+    <!-- propagates person and number from NP to VP and reorders PP-->
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="PP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+      </out>
+     </action>
+    </rule>
+
+
+<rule comment="NEW RULE: NP VP_have NP">
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP_have"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+           <clip pos="1" part="lem"/>  
+            <lit-tag v="PP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_possessive"/>
+            <lit-tag v="loc"/>
+            <clip pos="1" part="chcontent"/>         
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+         <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="3" part="a_nbr"/> <!-- agree number -->
+            <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
+
+
+<rule comment="NEW RULE: NP VP_need NP">
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP_need"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+           <clip pos="1" part="lem"/>  
+            <lit-tag v="PP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_possessive"/>
+            <lit-tag v="dat"/>
+            <clip pos="1" part="chcontent"/>         
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+         <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="3" part="a_nbr"/> <!-- agree number -->
+            <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
+
+
+<rule comment="NEW RULE: NP VP NP ; agree person and number NP VP, set NP accusative">
+    <!-- propagates person and number from NP to VP -->
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="3" part="a_nbr"/> <!-- agree number -->
+            <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_possessive"/>
+            <lit-tag v="acc"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
+
+    
+<rule comment="RULE: VP PP PP → PP PP VP">
+    <!-- Just reorders VP and PP1 PP2 -->
+     <pattern>
+       <pattern-item n="VP"/>
+       <pattern-item n="PP"/>
+       <pattern-item n="PP"/>
+     </pattern>
+     <action>
+      <out>
+          <b pos="1"/>
+          <b pos="2"/>
           <chunk>
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
@@ -146,13 +651,10 @@
             <clip pos="1" part="chcontent"/>
           </chunk>   
       </out>
-        <call-macro n="out-blank-if-not-single-space"> 
-          <with-param pos="1"/>
-        </call-macro>
      </action>
     </rule>
 
-<rule comment="RULE: VP NP → NP VP">
+<rule comment="NEW RULE: VP NP → NP VP">
     <!-- Just reorders verb and object accusative -->
      <pattern>
        <pattern-item n="VP"/>
@@ -161,7 +663,7 @@
      </pattern>
      <action>
       <out>
-          
+          <b pos="1"/>
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -174,9 +676,6 @@
             <clip pos="1" part="chcontent"/>
           </chunk>   
       </out>
-        <call-macro n="out-blank-if-not-single-space"> 
-          <with-param pos="1"/>
-        </call-macro>
      </action>
     </rule>
 

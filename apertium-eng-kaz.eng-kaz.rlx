@@ -43,6 +43,8 @@ SET V-DO = ("do"i) ;
 
 SET VAUX-CAN = ("can"i) ;
 
+SET VAUX-WILL = ("will"i) ;
+
 SET V-DO-AUX = (vbdo) ;
 
 SET ADV-NOT = ("not"i) ;
@@ -81,13 +83,29 @@ SELECT V-FIN + $$PERSON IF (-1 Subj + $$PERSON);
 
 SELECT Inf IF (-1* V-DO BARRIER SENT) (NOT 1 Det);
 
+REMOVE Inf IF (NOT 0 ("will"i) ) (1C ADV-NOT) (2 Inf);
+
+SELECT Pr IF (1 NUM);
+
 SELECT Inf IF (1 Inf) (2 Ger);
 
 SELECT Inf IF (1 Inf) (2 PrcPast);
 
-SELECT Inf IF (1 ADV-NOT)(2 Inf); 
+SELECT V-DO-AUX IF (-1 PRN-SUBJ) (1C ADV-NOT);
+
+SELECT V-HAVE IF (1C ADV-NOT) (2 PrcPast);
+
+SELECT Inf IF (0 Inf) (1 ADV-NOT)(2 Ger);
+
+SELECT Pres IF (1 ADV-NOT) (2 Inf); 
+
+REMOVE Inf IF (-1 PRN-SUBJ) (NOT 0 ("will"i));
+
+REMOVE N IF (-1 PRN-SUBJ) (0 ("will"i) );
 
 REMOVE Inf IF (0 Inf OR V-FIN) (NOT 1* V-FIN BARRIER CLB) (NOT -1* V-FIN BARRIER CLB);
+
+REMOVE PrcPast IF (-1 VAUX-WILL);
 
 REMOVE V-FIN IF (0 Inf) (0 Inf OR V-FIN) ((1C* V-FIN BARRIER CLB) OR (-1C* V-FIN BARRIER CLB));
 
@@ -132,10 +150,6 @@ SELECT V-FIN IF (-1C Subj) (1 Inf);
 REMOVE Subj IF (0C Subj OR Obj) (-1C* Subj BARRIER SENT);
 
 SELECT V-HAVE IF (1C PrcPast);
-
-SELECT V-HAVE IF (1C ADV-NOT) (2 PrcPast);
-
-SELECT V-DO-AUX IF (-1C PRN-SUBJ) (1C ADV-NOT);
 
 SELECT Pr IF (0 Pr OR Adv) (1 Pron + Obj) ;
 

@@ -11,7 +11,7 @@
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
       <cat-item tags="vblex.pres"/>
-<cat-item tags="vbmod.ger"/>
+      <cat-item tags="vbmod.ger"/>
     </def-cat>
     <def-cat n="vaux-will"> <!-- future -->
       <cat-item lemma="will" tags="vaux.inf"/>
@@ -19,6 +19,12 @@
 <def-cat n="vaux-must"> <!-- must -->
       <cat-item lemma="must" tags="vaux.*"/>
     </def-cat>
+
+<def-cat n="vbmod-have-to"> <!-- must -->
+      <cat-item lemma="have to" tags="vbmod.pres"/>
+    </def-cat>
+
+
  <def-cat n="vaux-can"> 
       <cat-item lemma="can" tags="vaux.pres"/>
       <cat-item lemma="can" tags="vaux.past"/>
@@ -1129,7 +1135,91 @@
 </section-def-macros>
 
 
+
+
+
 <section-rules>
+
+<rule comment="NEW RULE: have to + infinitive"> <!--have to verb -->
+  <pattern>
+
+    <pattern-item n="vbmod-have-to"/>
+    <pattern-item n="approx-inf-verb"/>  <!--I have to go - Менің баруым керек-->
+  </pattern>
+<action>
+  <call-macro n="default-nbr-pers"/>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+            
+        <out>
+      <chunk name="VP_have_to">
+      <tags>
+        <tag><lit-tag v="VP_have_to_inf"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	         <clip pos="2" side="tl" part="a_kaz_verb"/>
+    	      <lit-tag v="4"/>
+           <lit-tag v="5"/>
+           <lit-tag v="nom"/>
+        </lu>
+        <b/> 
+        <lu>
+          <lit v="қажет"/>
+          <lit-tag v="adj"/>	
+        </lu>
+      </chunk>
+  </out>
+       
+  </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <out>
+      <chunk name="VP_have_to">
+        <tags>
+        <tag><lit-tag v="VP_have_to_inf"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+    	      <lit-tag v="4"/>
+           <lit-tag v="5"/>
+           <lit-tag v="nom"/>
+        </lu>
+        <b/> 
+        <lu>
+          <lit v="керек"/>
+          <lit-tag v="adj"/>	
+        </lu>
+      </chunk>
+  </out>
+      </when>
+    </choose>
+      </action>
+</rule>
 
 <rule comment="NEW RULE: vaux-do not approx-inf-verb"> 
 <!-- superblank management not solved -->
@@ -1172,6 +1262,9 @@
     </choose>
   </action>
 </rule>
+
+
+
 
 <rule comment="NEW RULE: have"> <!--I have a book - Mende kitap bar-->
   <pattern>
@@ -1287,7 +1380,6 @@
     </choose>   
   </action>
 </rule>
-
 
 
 <rule comment="NEW RULE: verb"> 
@@ -1813,6 +1905,10 @@
       
   </action>
 </rule>
+
+
+
+
 
 <rule comment="NEW RULE: can + not + infinitive "> <!--Men bara alam - I can go-->
   <pattern> <!-- generalize it for "could" with a tense selector -->

@@ -157,7 +157,7 @@
     <def-attr n="a_tense">
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
-<attr-item tags="vbmod"/>
+
     </def-attr> 
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -1158,9 +1158,9 @@
         </test>
             
         <out>
-      <chunk name="VP_have_to">
+      <chunk name="VP_must">
       <tags>
-        <tag><lit-tag v="VP_have_to_inf"/></tag>
+        <tag><lit-tag v="VP_must_inf"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
@@ -1169,8 +1169,8 @@
       </tags>
       <b pos="1"/>
         <lu>
-          <clip pos="3" side="tl" part="lem"/>
-	         <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <clip pos="2" side="tl" part="lem"/>
+	         <clip pos="2" side="tl" part="a_kaz_verb"/>
     	      <lit-tag v="4"/>
            <lit-tag v="5"/>
            <lit-tag v="nom"/>
@@ -1194,7 +1194,7 @@
         <out>
       <chunk name="VP_have_to">
         <tags>
-        <tag><lit-tag v="VP_have_to_inf"/></tag>
+        <tag><lit-tag v="VP_must_inf"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
@@ -1214,6 +1214,14 @@
           <lit v="керек"/>
           <lit-tag v="adj"/>	
         </lu>
+<b/>
+<lu>
+         <lit v="е"/>  <!-- Note this is a cyrillic е -->
+         <lit-tag v="cop"/>
+         <lit-tag v="ifi"/>
+         <lit-tag v="p3"/>
+         <lit-tag v="2"/>
+       </lu>
       </chunk>
   </out>
       </when>

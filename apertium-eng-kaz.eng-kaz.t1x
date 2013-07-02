@@ -23,7 +23,9 @@
 <def-cat n="vbmod-have-to"> <!-- must -->
       <cat-item lemma="have# to" tags="vbmod.*"/>
     </def-cat>
-
+<def-cat n="vbmod-want-to"> <!-- must -->
+      <cat-item lemma="want# to" tags="vbmod.*"/>
+    </def-cat>
 
  <def-cat n="vaux-can"> 
       <cat-item lemma="can" tags="vaux.pres"/>
@@ -1140,6 +1142,101 @@
 
 <section-rules>
 
+
+<rule comment="NEW RULE: want to + infinitive"> <!--want to verb -->
+  <pattern>
+
+    <pattern-item n="vbmod-want-to"/>
+    <pattern-item n="approx-inf-verb"/>  <!--I want to go - Менің барғым келеді-->
+  </pattern>
+<action>
+  <call-macro n="default-nbr-pers"/>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+            
+        <out>
+      <chunk name="VP_want_to">
+      <tags>
+        <tag><lit-tag v="VP_want_to_inf"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+	
+      </tags>
+      <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+    	   <lit-tag v="prc_vol"/>
+	 <lit-tag v="3"/>
+           <lit-tag v="2"/>
+           
+           
+        </lu>
+        <b/> 
+        <lu>
+          <lit v="кел"/>
+          <lit-tag v="vaux"/>
+          <lit-tag v="aor"/>
+         <lit-tag v="p3"/>
+         <lit-tag v="2"/>
+        </lu>
+      </chunk>
+  </out>
+       
+  </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <out>
+      <chunk name="VP_want_to">
+        <tags>
+        <tag><lit-tag v="VP_want_to_inf"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+
+      </tags>
+      <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+    	   <lit-tag v="prc_vol"/>
+           <lit-tag v="3"/>
+           <lit-tag v="2"/>
+           
+        </lu>
+        <b/> 
+        <lu>
+          <lit v="кел"/>
+         <lit-tag v="vaux"/>
+	 <lit-tag v="ifi"/>
+         <lit-tag v="p3"/>
+         <lit-tag v="2"/>
+        </lu>
+      </chunk>
+  </out>
+      </when>
+    </choose>
+      </action>
+</rule>
+
+
+
 <rule comment="NEW RULE: have to + infinitive"> <!--have to verb -->
   <pattern>
 
@@ -1158,7 +1255,7 @@
         </test>
             
         <out>
-      <chunk name="VP_must">
+      <chunk name="VP_have_to">
       <tags>
         <tag><lit-tag v="VP_must_inf"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -1228,6 +1325,7 @@
     </choose>
       </action>
 </rule>
+
 
 <rule comment="NEW RULE: vaux-do not approx-inf-verb"> 
 <!-- superblank management not solved -->

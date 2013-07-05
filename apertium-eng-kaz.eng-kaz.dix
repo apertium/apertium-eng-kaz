@@ -1344,15 +1344,15 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>dear<s n="adj"/></l><r>құрметті<s n="adj"/></r></p></e>
 <e><p><l>deep<s n="adj"/><s n="sint"/><s n="sint"/></l><r>терең<s n="adj"/></r></p></e>
 <e><p><l>broken<s n="adj"/></l><r>сынған<s n="adj"/></r></p></e>
-<e><p><l>certain<s n="adj"/><s n="sint"/></l><r>сенімді<s n="adj"/></r></p></e>
+<e><p><l>certain<s n="adj"/></l><r>сенімді<s n="adj"/></r></p></e>
 <e><p><l>bright<s n="adj"/><s n="sint"/></l><r>ашық<s n="adj"/></r></p></e>
-<e><p><l>chemical<s n="adj"/><s n="sint"/></l><r>химиялық<s n="adj"/></r></p></e>
+<e><p><l>chemical<s n="adj"/></l><r>химиялық<s n="adj"/></r></p></e>
 
 <e><p><l>violent<s n="adj"/></l><r>күшті<s n="adj"/></r></p></e>
-<e><p><l>delicate<s n="adj"/><s n="sint"/></l><r>сыпайы<s n="adj"/></r></p></e>
-<e><p><l>different<s n="adj"/><s n="sint"/></l><r>әр<b/>түрлі<s n="adj"/></r></p></e>
-<e><p><l>electric<s n="adj"/><s n="sint"/></l><r>электрикалық<s n="adj"/></r></p></e>
- <e><p><l>foolish<s n="adj"/><s n="sint"/></l><r>ақылсыз<s n="adj"/></r></p></e>  
+<e><p><l>delicate<s n="adj"/></l><r>сыпайы<s n="adj"/></r></p></e>
+<e><p><l>different<s n="adj"/></l><r>әр<b/>түрлі<s n="adj"/></r></p></e>
+<e><p><l>electric<s n="adj"/></l><r>электрикалық<s n="adj"/></r></p></e>
+ <e><p><l>foolish<s n="adj"/></l><r>ақылсыз<s n="adj"/></r></p></e>  
  <e><p><l>based<s n="adj"/><s n="sint"/></l><r>орналасқан<s n="adj"/></r></p></e>   
  <e><p><l>public<s n="adj"/></l><r>қоғамдық<s n="adj"/></r></p></e>  
 <e><p><l>good<s n="adj"/></l><r>жақсы<s n="adj"/></r></p></e>      
@@ -1360,18 +1360,18 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>cheap<s n="adj"/><s n="sint"/></l><r>арзан<s n="adj"/></r></p></e>      
  <e><p><l>clean<s n="adj"/><s n="sint"/></l><r>таза<s n="adj"/></r></p></e>      
  <e><p><l>common<s n="adj"/></l><r>ортақ<s n="adj"/></r></p></e>      
- <e><p><l>conscious<s n="adj"/><s n="sint"/></l><r>есті<s n="adj"/></r></p></e>      
+ <e><p><l>conscious<s n="adj"/></l><r>есті<s n="adj"/></r></p></e>      
   <e><p><l>early<s n="adj"/></l><r>ерте<s n="adj"/></r></p></e>      
-  <e><p><l>elastic<s n="adj"/><s n="sint"/></l><r>созымтал<s n="adj"/></r></p></e>      
+  <e><p><l>elastic<s n="adj"/></l><r>созымтал<s n="adj"/></r></p></e>      
   <e><p><l>equal<s n="adj"/></l><r>бірдей<s n="adj"/></r></p></e>      
   <e><p><l>fat<s n="adj"/><s n="sint"/></l><r>толық<s n="adj"/></r></p></e>      
-  <e><p><l>fertile<s n="adj"/><s n="sint"/></l><r>шұрайлы<s n="adj"/></r></p></e>      
+  <e><p><l>fertile<s n="adj"/></l><r>шұрайлы<s n="adj"/></r></p></e>      
    <e><p><l>first<s n="adj"/></l><r>бірінші<s n="adj"/></r></p></e> 
 
  <e><p><l>second<s n="adj"/></l><r>екінші<s n="adj"/></r></p></e>      
        
    <e><p><l>free<s n="adj"/><s n="sint"/></l><r>еркін<s n="adj"/></r></p></e>      
-   <e><p><l>frequent<s n="adj"/><s n="sint"/></l><r>тығыз<s n="adj"/></r></p></e>      
+   <e><p><l>frequent<s n="adj"/></l><r>тығыз<s n="adj"/></r></p></e>      
      <e><p><l>full<s n="adj"/></l><r>толымды<s n="adj"/></r></p></e>      
     <e><p><l>great<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>      
     <e><p><l>high<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>      
@@ -1383,8 +1383,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
    <e><p><l>special<s n="adj"/></l><r>ерекше<s n="adj"/></r></p></e>      
         
    <e><p><l>long<s n="adj"/><s n="sint"/></l><r>ұзақ<s n="adj"/></r></p></e>      
-   <e><p><l>medical<s n="adj"/><s n="sint"/></l><r>медикалық<s n="adj"/></r></p></e>      
-    <e><p><l>military<s n="adj"/><s n="sint"/></l><r>әскери<s n="adj"/></r></p></e>      
+   <e><p><l>medical<s n="adj"/></l><r>медикалық<s n="adj"/></r></p></e>      
+    <e><p><l>military<s n="adj"/></l><r>әскери<s n="adj"/></r></p></e>      
     <e><p><l>sweet<s n="adj"/><s n="sint"/></l><r>тәтті<s n="adj"/></r></p></e>      
    <e><p><l>tall<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>      
    <e><p><l>thick<s n="adj"/></l><r>қалың<s n="adj"/></r></p></e>  

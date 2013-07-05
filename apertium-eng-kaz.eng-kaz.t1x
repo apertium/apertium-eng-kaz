@@ -20,13 +20,13 @@
       <cat-item lemma="must" tags="vaux.*"/>
     </def-cat>
 
-<def-cat n="vbmod-have-to"> <!-- must -->
+<def-cat n="vbmod-have-to"> <!-- have -->
       <cat-item lemma="have# to" tags="vbmod.*"/>
     </def-cat>
-<def-cat n="vbmod-want-to"> <!-- must -->
+<def-cat n="vbmod-want-to"> <!-- want -->
       <cat-item lemma="want# to" tags="vbmod.*"/>
     </def-cat>
-<def-cat n="vbmod-need-to"> <!-- must -->
+<def-cat n="vbmod-need-to"> <!-- need -->
       <cat-item lemma="need# to" tags="vbmod.*"/>
     </def-cat>
 
@@ -116,8 +116,13 @@
       <cat-item tags="adj.sint.comp.*"/>
     </def-cat>
 
+
     <def-cat n="the-most">
       <cat-item lemma="the most" tags="det.qnt.sp"/>
+    </def-cat>
+
+  <def-cat n="more">
+      <cat-item lemma="more" tags="preadv"/>
     </def-cat>
 
     <def-cat n="det">
@@ -144,7 +149,8 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
-    <def-cat n="possessive"> <!-- check if complete -->
+    <def-cat n="possessive">
+ <!-- check if complete -->
       <cat-item tags="PXD"/> <!-- to be determined -->
       <cat-item tags="px3sp"/>
       <cat-item tags="px1sg"/>
@@ -5085,6 +5091,32 @@ this would have to be changed -->
     </out>
   </action>
 </rule>
+
+<rule comment="NEW RULE: more adjec">   <!-- more beautiful, for sint adj comp -->
+  <pattern>
+    <pattern-item n="more"/>
+    <pattern-item n="non-sup-adjec"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="comp-adjec">
+    <tags>
+    <tag><lit-tag v="SupP"/></tag>
+    <tag><lit-tag v="PXD"/></tag>
+    <tag><lit-tag v="CD"/></tag>
+    </tags>
+   
+    <lu>
+       <clip pos="2" part="lem" side="tl"/>
+       <lit-tag v="adj"/>
+       <lit-tag v="comp"/>
+         
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
 
 <rule comment="NEW RULE: adjec">  
   <pattern>

@@ -1254,7 +1254,8 @@
     <pattern-item n="approx-inf-verb"/>  <!--I have to go - Менің баруым керек-->
   </pattern>
 <action>
-  <call-macro n="default-nbr-pers"/>
+<!--
+  <call-macro n="default-nbr-pers"/> -->
 <choose>
       <when>
         <test>

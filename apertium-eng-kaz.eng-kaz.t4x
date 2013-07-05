@@ -11,6 +11,19 @@
       <cat-item tags="v.*"/>      
       <cat-item tags="cop.*"/>
     </def-cat>
+    
+    <def-cat n="shortcop">
+       <cat-item lemma="е" tags="cop.p1.sg"/>
+       <cat-item lemma="е" tags="cop.p2.sg"/>
+       <cat-item lemma="е" tags="cop.p1.pl"/>
+        <cat-item lemma="e" tags="cop.p2.pl"/>
+    </def-cat>
+    
+    <def-cat n="nomnoun">
+       <cat-item tags="n.nom"/>
+       <cat-item tags="n.*.nom"/>
+    </def-cat>
+
    
     <def-cat n="default">
       <cat-item tags="*"/>
@@ -195,7 +208,52 @@
       </action>
     </rule>
     
-     
+    <rule comment="present-tense copula hack"> <!-- MLF 20130605 not working yet! -->
+      <pattern>
+        <pattern-item n="nomnoun"/>
+        <pattern-item n="shortcop"/>
+      </pattern>
+      <action>
+     <choose>
+     <when>
+        <test>
+          <equal>
+             <clip pos="1" part="nbr" side="sl"/>
+             <lit-tag v="sg"/>
+          </equal>
+        </test>
+        <let>
+           <clip pos="1" part="nbr" side="sl"/>
+           <lit v=""/>
+        </let>
+     </when>
+     </choose>
+     <choose>
+     <when>
+        <test>
+          <equal>
+             <clip pos="1" part="poss" side="sl"/>
+             <lit-tag v="PXD"/>
+          </equal>
+        </test>
+        <let>
+           <clip pos="1" part="poss" side="sl"/>
+           <lit v=""/>
+        </let>
+     </when>
+
+     </choose>      
+      
+      
+        <out>
+          <lu>
+           <clip pos="1" side="sl" part="whole"/>
+           <lit v="+"/>
+           <clip pos="2" side="sl" part="whole"/>
+          </lu>
+        </out>
+      </action>  
+    </rule>
      
     
     <rule comment="default"> 

@@ -22,6 +22,7 @@
 /apertium-eng-kaz.kaz.twol -text
 /autogen.sh -text
 /configure.ac -text
+dev/article-for-comp-proc-turk-lang.doc -text
 dev/bidix-entries-nouns-from-gloss.txt -text
 dev/news.en -text
 dev/transfer-rehaul-notes.tex -text

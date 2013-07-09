@@ -81,9 +81,9 @@
      </def-cat>
 <def-cat n="be">
       <cat-item lemma="be" tags="vbser.inf"/>
-<cat-item lemma="be" tags="vbser.*"/>
 <cat-item lemma="be" tags="vbser.ger"/>
    <cat-item lemma="be" tags="vbser.pp"/>
+
      </def-cat>
 <def-cat n="have">
       <cat-item lemma="have" tags="vblex.inf"/>
@@ -913,7 +913,7 @@
           <clip pos="1" side="tl" part="lem"/>
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
           <lit-tag v="pass"/>
-          <lit-tag v="6"/>
+         
           <lit-tag v="4"/>
           <lit-tag v="3"/>
           <lit-tag v="2"/>
@@ -1729,7 +1729,7 @@
         </lu>
         <b/> 
 	<lu>
-          <lit v="отыр"/>  
+          <lit v="жатыр"/>  
  	<lit-tag v="vaux"/>
  	<lit-tag v="6"/>
 	 <lit-tag v="4"/>

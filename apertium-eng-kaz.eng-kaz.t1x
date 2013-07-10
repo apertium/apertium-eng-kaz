@@ -46,7 +46,7 @@
       <cat-item tags="vbser.pres.*"/>
       <cat-item tags="vbser.past.*"/>
       <cat-item tags="vbser.past"/>
- <cat-item tags="vbser.pp"/>
+ <!-- <cat-item tags="vbser.pp"/> --> <!-- I think this does not belong here -->
     </def-cat>
     <def-cat n="verb-ing"> <!-- past and present tense -->
       <cat-item tags="vblex.ger"/>
@@ -79,12 +79,28 @@
     <def-cat n="not">
       <cat-item lemma="not" tags="adv"/>
      </def-cat>
+
+<!--     
 <def-cat n="be">
       <cat-item lemma="be" tags="vbser.inf"/>
 <cat-item lemma="be" tags="vbser.ger"/>
    <cat-item lemma="be" tags="vbser.pp"/>
 
      </def-cat>
+-->     
+<def-cat n="been">
+ <cat-item lemma="be" tags="vbser.pp"/>
+</def-cat>     
+
+<def-cat n="being">
+ <cat-item lemma="be" tags="vbser.ger"/>
+</def-cat>     
+
+<def-cat n="be"> <!-- needed? -->
+ <cat-item lemma="be" tags="vbser.inf"/>
+</def-cat>     
+
+     
 <def-cat n="have">
       <cat-item lemma="have" tags="vblex.inf"/>
      </def-cat>
@@ -1532,7 +1548,7 @@
 <rule comment="NEW RULE: to be"> <!--I am a doctor - ^Мен/мен<post>/мен<prn><pers><p1><sg><nom>$ ^дәрігермін/дәрігер<n><nom>+е<cop><p1><sg>$^./.<sent>$
 -->
   <pattern>
-    <pattern-item n="be"/>
+    <pattern-item n="pers-verb-to-be"/>
   </pattern>
   <action>
   <choose>
@@ -2012,7 +2028,7 @@
   <pattern>
 <pattern-item n="vaux-will"/>
 <pattern-item n="vaux-have"/>
-      <pattern-item n="be"/>
+      <pattern-item n="been"/>
      <pattern-item n="verb-ing"/> <!-- * -->
    </pattern>
  <action>
@@ -2056,7 +2072,7 @@
 <pattern-item n="vaux-will"/>
 <pattern-item n="not"/>
 <pattern-item n="vaux-have"/>
-      <pattern-item n="be"/>
+      <pattern-item n="been"/>
      <pattern-item n="verb-ing"/> <!-- * -->
    </pattern>
  <action>
@@ -2384,7 +2400,7 @@
 <rule comment="NEW RULE: have + been + verb-ing"> <!--Present Perfect Continuous I have been playing Мен ойнап отырғанмын -->
   <pattern>
     <pattern-item n="vaux-have"/>
-    <pattern-item n="be"/> <!--past participle -->
+    <pattern-item n="been"/> <!--past participle -->
  <pattern-item n="verb-ing"/>
    </pattern>
    <action>
@@ -2479,7 +2495,7 @@
   <pattern>
     <pattern-item n="vaux-have"/>
 <pattern-item n="not"/>
-    <pattern-item n="be"/> <!--past participle -->
+    <pattern-item n="been"/> <!--past participle -->
  <pattern-item n="verb-ing"/>
    </pattern>
    <action>
@@ -2718,7 +2734,7 @@
 <!-- not sure about the "past" part of this rule" -->
   <pattern>
     <pattern-item n="vaux-have"/>
-    <pattern-item n="be"/> <!--past participle -->
+    <pattern-item n="been"/> <!--past participle -->
  <pattern-item n="verb-pp"/>
     </pattern>
   <action>    
@@ -2945,7 +2961,7 @@
 <rule comment="NEW RULE: be + being + verb-ed"> <!-- Passive Progressive: A book is being written -Кітап жазылып жатыр  -->
   <pattern>
     <pattern-item n="pers-verb-to-be"/>
-    <pattern-item n="be"/>
+    <pattern-item n="being"/>
 <pattern-item n="verb-pp"/>
    </pattern>
   <action>
@@ -3041,7 +3057,7 @@
   <pattern>
     <pattern-item n="pers-verb-to-be"/>
 <pattern-item n="not"/>
-    <pattern-item n="be"/>
+    <pattern-item n="being"/>
 <pattern-item n="verb-pp"/>
    </pattern>
   <action>

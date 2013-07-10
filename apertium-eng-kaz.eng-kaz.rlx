@@ -103,6 +103,8 @@ REMOVE Inf IF (-1 PRN-SUBJ) (NOT 0 ("will"i));
 
 REMOVE N IF (-1 PRN-SUBJ) (0 ("will"i) );
 
+REMOVE N IF (0 ("will"i)) (1C ADV-NOT) 
+
 REMOVE Inf IF (0 Inf OR V-FIN) (NOT 1* V-FIN BARRIER CLB) (NOT -1* V-FIN BARRIER CLB);
 
 REMOVE PrcPast IF (-1 VAUX-WILL);

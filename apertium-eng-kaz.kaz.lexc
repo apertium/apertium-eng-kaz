@@ -2156,7 +2156,7 @@ cиыр еті:сиыр еті N1; !beef
 дәмді:дәмді A1 ; ! "taste"
 жіңішке:жіңішке A1 ; ! "thin"
 тез:тез A1 ; ! "fast"
-
+танымал:танымал A1 ; ! "famous"
  LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"
@@ -2265,7 +2265,7 @@ cиыр еті:сиыр еті N1; !beef
 жат:жат V-IV ; ! "lie"
 ажырат:ажырат V-TV ; ! "separate"
 шек:шек V-TV ; ! "smoke"
-же:же V-IV ; ! "eat"
+же:же V-TV ; ! "eat"
 жүгір:жүгір V-TV ; ! "run"
 жүр:жүр V-IV ; ! "move"
 жу:жу V-TV ; ! "wash"

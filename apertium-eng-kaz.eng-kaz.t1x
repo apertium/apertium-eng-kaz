@@ -5177,9 +5177,7 @@ this would have to be changed -->
     <out>
     <chunk name="comp-adjec">
     <tags>
-    <tag><lit-tag v="SupP"/></tag>
-    <tag><lit-tag v="PXD"/></tag>
-    <tag><lit-tag v="CD"/></tag>
+    <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
     </tags>
    
     <lu>

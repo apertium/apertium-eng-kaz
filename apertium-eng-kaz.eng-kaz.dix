@@ -1298,7 +1298,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>left<s n="adj"/></l><r>сол<s n="adj"/></r></p></e>
     
     <e><p><l>red<s n="adj"/></l><r>қызыл<s n="adj"/></r></p></e>
-    <e><p><l>blue<s n="adj"/><s n="sint"/></l><r>көк<s n="adj"/></r></p></e>
+    <e><p><l>blue<s n="adj"/></l><r>көк<s n="adj"/></r></p></e>
     <e><p><l>black<s n="adj"/></l><r>қара<s n="adj"/></r></p></e>
     <e><p><l>brown<s n="adj"/><s n="sint"/></l><r>қоңыр<s n="adj"/></r></p></e>
     <e><p><l>yellow<s n="adj"/><s n="sint"/></l><r>сары<s n="adj"/></r></p></e>
@@ -1586,6 +1586,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>hate<s n="vblex"/></l><r>жек<b/>көр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>guide<s n="vblex"/></l><r>жүргіз<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>want<s n="vblex"/></l><r>қала<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check, kel = 'come' -->
+<e><p><l>worry<s n="vblex"/></l><r>мазала<s n="v"/><s n="tv"/></r></p></e> 
     
     <!-- will require transfer rules for correct verb form -->
 <e><p><l>try<s n="vblex"/></l><r>тырыс<s n="v"/><s n="tv"/></r></p></e>

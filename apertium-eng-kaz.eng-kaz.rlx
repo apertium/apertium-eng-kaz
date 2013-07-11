@@ -65,6 +65,8 @@ REMOVE N IF (0 ("<is>"i)) ;
 
 SELECT Inf IF (-2 V-FIN) (-1 ("<to>"));
 
+SELECT Inf IF (0 ("<will>")) (1 ADV-NOT);
+
 REMOVE V IF (-1 A) (-2 Det);
 
 REMOVE V IF (-1 Det);

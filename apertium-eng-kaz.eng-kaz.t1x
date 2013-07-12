@@ -1601,7 +1601,63 @@
     </choose>   
   </action>
 </rule>
-
+ 
+<rule comment="NEW RULE: to be not"> <!--I am not a doctor -->
+  <pattern>
+    <pattern-item n="pers-verb-to-be"/>
+    <pattern-item n="not"/>
+  </pattern>
+  <action>
+  <choose>
+    <when>
+      <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal></test>
+        <out>
+      <chunk name="verb-be">
+      <tags>
+        <tag><lit-tag v="VP_be"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+     </tags>
+<lu>
+         <lit v="е"/>
+        <lit-tag v="cop"/>
+         <lit-tag v="6"/>
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+      </chunk>
+        </out>
+      </when>
+     <when>
+      <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="past"/></equal></test>
+        <out>
+      <chunk name="verb-past-be">
+      <tags>
+        <tag><lit-tag v="VP_past_be"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+          
+       <lu>
+         <lit v="бол"/>  <!-- Note this is a cyrillic е -->
+         <lit-tag v="vaux"/>
+         <lit-tag v="4"/>
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+      </chunk>
+        </out>
+      </when>
+       
+    </choose>   
+  </action>
+</rule>
 
 
 <rule comment="NEW RULE: need"> <!--I need a book - Magan kitap kerek-->

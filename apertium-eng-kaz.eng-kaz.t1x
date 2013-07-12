@@ -318,7 +318,7 @@
       </choose>
     </def-macro>
     
-     <def-macro n="process-preblank-1" npar="1">
+     <def-macro n="process-preblank-1" npar="2">
 <!-- Sets preblank-1 to null if it is just a single blank;
      sets it to superblank 1 otherwise -->
       <choose>
@@ -330,7 +330,7 @@
               </equal>
           </test>
           <let>
-            <var n="preblank-1"/><lit v="zzxxxxx"/>
+            <var n="preblank-1"/><lit v=""/>
           </let>
         </when>
         <otherwise>
@@ -4747,6 +4747,10 @@ this would have to be changed -->
   </when>
 
   <otherwise>
+    <call-macro n="process-preblank-1">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+    </call-macro>
     <out>
     <chunk name="detart-nom">
     <tags>
@@ -4756,8 +4760,10 @@ this would have to be changed -->
     <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
     <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
     </tags>
-    <b pos="1"/>
-    <lu>  
+
+<!--    <b pos="1"/> -->
+     <var n="preblank-1"/>
+     <lu>  
       <var n="NEW-noun_lu"/>
      </lu>
     </chunk>

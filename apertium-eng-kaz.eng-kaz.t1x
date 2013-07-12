@@ -1619,7 +1619,7 @@
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
         <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="neg"/></tag> <!-- negative -->
      </tags>
 <lu>
          <lit v="е"/>

@@ -22,6 +22,8 @@
 /apertium-eng-kaz.kaz.twol -text
 /autogen.sh -text
 /configure.ac -text
+/correct-tests.sh -text
+dev/Correct_tests.html -text
 dev/article-for-comp-proc-turk-lang.fodt -text
 dev/bidix-entries-nouns-from-gloss.txt -text
 dev/news.en -text
@@ -35,4 +37,5 @@ dev/unknown-words-from-news-commentary-v8-20130619.txt -text
 texts/eng.chunks.txt -text
 texts/eng.txt -text
 texts/kaz.txt -text svneol=unset#application/octet-stream
+/wiki-correct-tests.sh -text
 /wiki-tests.sh -text

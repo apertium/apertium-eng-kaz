@@ -2019,6 +2019,11 @@ cиыр еті:сиыр еті N1; !beef
 мотоцикл:мотоцикл N1; !motorcycle
 велосипед:велосипед N1; !bicycle
 полисмен:полисмен N1; !policeman
+олжа:олжа N1 ; ! "booty"
+опасыз:опасыз N1 ; ! "traitor"
+жолдас:жолдас N1 ; ! "comrade"
+
+
  LEXICON ProperNouns 
 
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
@@ -2357,6 +2362,9 @@ cүй:сүй V-TV ; ! "love"
 жек% көр:жек% көр V-IV ; ! "hate"
 ұмыт:ұмыт V-IV ; ! "forget"
 ұш:ұш V-IV ; ! "fly"
+түс:түс V-IV ; "fall"
+
+
 жатыр:жатыр Vinfl-AUX-IMPF ; ! <!--Жат +ыр-->
 жүр:жүр Vinfl-AUX-IMPF ; !
 емес:емес Vinfl-AUX-IMPF ; !
@@ -2406,6 +2414,7 @@ cүй:сүй V-TV ; ! "love"
 ондай% болса:ондай% болса INTERJ ; ! "in that case"
 түсінікті:түсінікті INTERJ ; ! "understood"
 қане:қане INTERJ ; ! "where"           ! interrog. interjection (question form of "вот")
+ау:ау INTERJ ; ! "oh"
 
 әлбетте:әлбетте INTERJ ; ! "of course"
 

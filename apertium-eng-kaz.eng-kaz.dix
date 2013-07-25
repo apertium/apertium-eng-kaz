@@ -354,6 +354,7 @@
 <e><p><l>board<s n="n"/></l><r>тақта<s n="n"/></r></p></e>
 <e><p><l>boat<s n="n"/></l><r>қайық<s n="n"/></r></p></e>
 <e><p><l>boot<s n="n"/></l><r>бәтеңке<s n="n"/></r></p></e>
+<e><p><l>booty<s n="n"/></l><r>олжа<s n="n"/></r></p></e>
 <e><p><l>bottle<s n="n"/></l><r>бөтелке<s n="n"/></r></p></e>
 <e><p><l>brain<s n="n"/></l><r>ми<s n="n"/></r></p></e>
 <e><p><l>brake<s n="n"/></l><r>тежегіш<s n="n"/></r></p></e>
@@ -376,6 +377,7 @@
 <e><p><l>clock<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
 <e><p><l>collar<s n="n"/></l><r>қамыт<s n="n"/></r></p></e>
 <e><p><l>comb<s n="n"/></l><r>жота<s n="n"/></r></p></e>
+<e><p><l>comrade<s n="n"/></l><r>жолдас<s n="n"/></r></p></e>
 <e><p><l>cord<s n="n"/></l><r>шнур<s n="n"/></r></p></e>
 <e><p><l>cup<s n="n"/></l><r>чәшке<s n="n"/></r></p></e>
 <e><p><l>curtain<s n="n"/></l><r>занавес<s n="n"/></r></p></e>
@@ -469,6 +471,7 @@
 <e><p><l>tongue<s n="n"/></l><r>тіл<s n="n"/></r></p></e>
 <e><p><l>town<s n="n"/></l><r>қала<s n="n"/></r></p></e>
 <e><p><l>train<s n="n"/></l><r>поезд<s n="n"/></r></p></e>
+<e><p><l>traitor<s n="n"/></l><r>опасыз<s n="n"/></r></p></e>
 <e><p><l>tray<s n="n"/></l><r>поднос<s n="n"/></r></p></e>
 <e><p><l>trousers<s n="n"/></l><r>сым<s n="n"/></r></p></e>
 <e><p><l>umbrella<s n="n"/></l><r>қолшатыр<s n="n"/></r></p></e>
@@ -1269,6 +1272,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>no<s n="ij"/></l><r>жоқ<s n="ij"/></r></p></e> 
  <e><p><l>please<s n="ij"/></l><r>өтінем<s n="ij"/></r></p></e> 
  <e><p><l>right<s n="ij"/></l><r>дұрыс<s n="ij"/></r></p></e> 
+ <e><p><l>oh<s n="ij"/></l><r>ау<s n="ij"/></r></p></e> 
  <e><p><l>yes<s n="ij"/></l><r>иә<s n="ij"/></r></p></e> <!-- This is an interjection -->
     <e><p><l>of<b/>course<s n="adv"/></l><r>әрине<s n="adv"/></r></p></e>
     <e><p><l>of<b/>course<s n="adv"/></l><r>әлбетте<s n="ij"/></r></p></e> <!-- This is an interjection -->
@@ -1656,6 +1660,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>push<s n="vblex"/></l><r>итер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>roll<s n="vblex"/></l><r>домала<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>rub<s n="vblex"/></l><r>сыла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>fall<s n="vblex"/></l><r>түс<s n="v"/><s n="iv"/></r></p></e>
 
 
 <e>       <p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>

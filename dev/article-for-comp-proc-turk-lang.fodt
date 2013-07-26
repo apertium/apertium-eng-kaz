@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:initial-creator>Mikel Forcada</meta:initial-creator><meta:creation-date>2013-07-06T20:55:00</meta:creation-date><dc:date>2013-07-26T12:52:18</dc:date><meta:editing-cycles>53</meta:editing-cycles><meta:editing-duration>PT9H50M32S</meta:editing-duration><meta:printed-by>Mikel Forcada</meta:printed-by><meta:print-date>2013-07-11T09:12:01</meta:print-date><meta:generator>LibreOffice/3.5$Linux_x86 LibreOffice_project/350m1$Build-2</meta:generator><meta:document-statistic meta:table-count="5" meta:image-count="1" meta:object-count="0" meta:page-count="12" meta:paragraph-count="296" meta:word-count="4615" meta:character-count="30295" meta:non-whitespace-character-count="25903"/><meta:user-defined meta:name="Información 1"/><meta:user-defined meta:name="Información 2"/><meta:user-defined meta:name="Información 3"/><meta:user-defined meta:name="Información 4"/></office:meta>
+ <office:meta><meta:initial-creator>Mikel Forcada</meta:initial-creator><meta:creation-date>2013-07-06T20:55:00</meta:creation-date><dc:date>2013-07-26T15:17:49</dc:date><meta:editing-cycles>56</meta:editing-cycles><meta:editing-duration>PT12H16M3S</meta:editing-duration><meta:printed-by>Mikel Forcada</meta:printed-by><meta:print-date>2013-07-11T09:12:01</meta:print-date><meta:generator>LibreOffice/3.5$Linux_x86 LibreOffice_project/350m1$Build-2</meta:generator><meta:document-statistic meta:table-count="6" meta:image-count="1" meta:object-count="0" meta:page-count="11" meta:paragraph-count="302" meta:word-count="4619" meta:character-count="30355" meta:non-whitespace-character-count="25978"/><meta:user-defined meta:name="Información 1"/><meta:user-defined meta:name="Información 2"/><meta:user-defined meta:name="Información 3"/><meta:user-defined meta:name="Información 4"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="int">237702</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="int">149225</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="int">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="int">30138</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="int">16618</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="int">8615</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="int">281965</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="int">7724</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="int">284907</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="int">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="int">237702</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="int">149225</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="int">30136</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="int">254318</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="int">165841</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -196,6 +196,7 @@
    <style:text-properties style:font-name-complex="Lohit Hindi2"/>
   </style:style>
   <style:style style:name="Heading_20_1" style:display-name="Heading 1" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="1" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.31cm" fo:margin-bottom="0.161cm"/>
    <style:text-properties style:font-name="Times New Roman" fo:font-size="15pt" fo:font-weight="bold" style:font-size-asian="15pt" style:font-weight-asian="bold" style:font-name-complex="Times New Roman" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="2" style:class="text">
@@ -390,6 +391,335 @@
     </style:list-level-properties>
    </text:outline-level-style>
   </text:outline-style>
+  <text:list-style style:name="Numbering_20_1" style:display-name="Numbering 1">
+   <text:list-level-style-number text:level="1" style:num-prefix="(" style:num-suffix=") " style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.499cm" fo:text-indent="-0.499cm" fo:margin-left="0.499cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" style:num-prefix="(" style:num-suffix=") " style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1cm" fo:text-indent="-0.499cm" fo:margin-left="1cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" style:num-prefix="(" style:num-suffix=") " style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.499cm" fo:text-indent="-0.499cm" fo:margin-left="1.499cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" style:num-prefix="(" style:num-suffix=") " style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2cm" fo:text-indent="-0.499cm" fo:margin-left="2cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" style:num-prefix="(" style:num-suffix=") " style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.499cm" fo:text-indent="-0.499cm" fo:margin-left="2.499cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" style:num-prefix="(" style:num-suffix=") " style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3cm" fo:text-indent="-0.499cm" fo:margin-left="3cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" style:num-prefix="(" style:num-suffix=") " style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.5cm" fo:text-indent="-0.499cm" fo:margin-left="3.5cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" style:num-prefix="(" style:num-suffix=") " style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.001cm" fo:text-indent="-0.499cm" fo:margin-left="4.001cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" style:num-prefix="(" style:num-suffix=") " style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.5cm" fo:text-indent="-0.499cm" fo:margin-left="4.5cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" style:num-prefix="(" style:num-suffix=") " style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.001cm" fo:text-indent="-0.499cm" fo:margin-left="5.001cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="Numbering_20_2" style:display-name="Numbering 2">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.499cm" fo:text-indent="-0.499cm" fo:margin-left="0.499cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1" text:start-value="2">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.998cm" fo:text-indent="-0.499cm" fo:margin-left="0.998cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1" text:start-value="3">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.998cm" fo:text-indent="-1cm" fo:margin-left="1.998cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1" text:start-value="4">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.249cm" fo:text-indent="-1.251cm" fo:margin-left="3.249cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1" text:start-value="5">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.748cm" fo:text-indent="-1.499cm" fo:margin-left="4.748cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1" text:start-value="6">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.549cm" fo:text-indent="-1.801cm" fo:margin-left="6.549cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1" text:start-value="7">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="8.849cm" fo:text-indent="-2.3cm" fo:margin-left="8.849cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1" text:start-value="8">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="11.449cm" fo:text-indent="-2.6cm" fo:margin-left="11.449cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1" text:start-value="9">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="14.25cm" fo:text-indent="-2.801cm" fo:margin-left="14.25cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1" text:start-value="10">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="17.351cm" fo:text-indent="-3.101cm" fo:margin-left="17.351cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="Numbering_20_3" style:display-name="Numbering 3">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3cm" fo:text-indent="-3cm" fo:margin-left="3cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="2">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.001cm" fo:text-indent="-3cm" fo:margin-left="6.001cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="3">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="9.001cm" fo:text-indent="-3cm" fo:margin-left="9.001cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="4">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="12.002cm" fo:text-indent="-3cm" fo:margin-left="12.002cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="5">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="15.002cm" fo:text-indent="-3cm" fo:margin-left="15.002cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="6">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="18.002cm" fo:text-indent="-3cm" fo:margin-left="18.002cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="7">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="21.003cm" fo:text-indent="-3cm" fo:margin-left="21.003cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="8">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="24.003cm" fo:text-indent="-3cm" fo:margin-left="24.003cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="9">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="27.003cm" fo:text-indent="-3cm" fo:margin-left="27.003cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" style:num-format="1" text:start-value="10">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="30.004cm" fo:text-indent="-3cm" fo:margin-left="30.004cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="Numbering_20_4" style:display-name="Numbering 4">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="I">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="space" fo:text-indent="-0.499cm" fo:margin-left="0.499cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="I" text:start-value="2">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="space" fo:text-indent="-0.499cm" fo:margin-left="1cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="I" text:start-value="3">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="space" fo:text-indent="-0.499cm" fo:margin-left="1.499cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="I" text:start-value="4">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="space" fo:text-indent="-0.499cm" fo:margin-left="2cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="I" text:start-value="5">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="space" fo:text-indent="-0.499cm" fo:margin-left="2.499cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="I" text:start-value="6">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="space" fo:text-indent="-0.499cm" fo:margin-left="3cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="I" text:start-value="7">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="space" fo:text-indent="-0.499cm" fo:margin-left="3.5cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="I" text:start-value="8">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="space" fo:text-indent="-0.499cm" fo:margin-left="4.001cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="I" text:start-value="9">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="space" fo:text-indent="-0.499cm" fo:margin-left="4.5cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="I" text:start-value="10">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="space" fo:text-indent="-0.499cm" fo:margin-left="5.001cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+  </text:list-style>
+  <text:list-style style:name="Numbering_20_5" style:display-name="Numbering 5">
+   <text:list-level-style-number text:level="1" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.4cm" fo:text-indent="-0.4cm" fo:margin-left="0.4cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" text:style-name="Numbering_20_Symbols" style:num-suffix="." style:num-format="1" text:start-value="2" text:display-levels="2">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.101cm" fo:text-indent="-0.651cm" fo:margin-left="1.101cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" text:style-name="Numbering_20_Symbols" style:num-suffix=")" style:num-format="a" text:start-value="3">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.55cm" fo:text-indent="-0.45cm" fo:margin-left="1.55cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-bullet text:level="4" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2cm" fo:text-indent="-0.395cm" fo:margin-left="2cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.395cm" fo:text-indent="-0.395cm" fo:margin-left="2.395cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.79cm" fo:text-indent="-0.395cm" fo:margin-left="2.79cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.186cm" fo:text-indent="-0.395cm" fo:margin-left="3.186cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.581cm" fo:text-indent="-0.395cm" fo:margin-left="3.581cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.976cm" fo:text-indent="-0.395cm" fo:margin-left="3.976cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.371cm" fo:text-indent="-0.395cm" fo:margin-left="4.371cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="List_20_1" style:display-name="List 1">
+   <text:list-level-style-bullet text:level="1" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.4cm" fo:text-indent="-0.4cm" fo:margin-left="0.4cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.801cm" fo:text-indent="-0.4cm" fo:margin-left="0.801cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.199cm" fo:text-indent="-0.4cm" fo:margin-left="1.199cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.6cm" fo:text-indent="-0.4cm" fo:margin-left="1.6cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2cm" fo:text-indent="-0.4cm" fo:margin-left="2cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.401cm" fo:text-indent="-0.4cm" fo:margin-left="2.401cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.799cm" fo:text-indent="-0.4cm" fo:margin-left="2.799cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.2cm" fo:text-indent="-0.4cm" fo:margin-left="3.2cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.6cm" fo:text-indent="-0.4cm" fo:margin-left="3.6cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Numbering_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.001cm" fo:text-indent="-0.4cm" fo:margin-left="4.001cm"/>
+    </style:list-level-properties>
+    <style:text-properties style:font-name="OpenSymbol"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
   <text:list-style style:name="WW8Num1">
    <text:list-level-style-number text:level="1" style:num-format="1">
     <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
@@ -885,7 +1215,7 @@
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="Tabla1" style:family="table">
-   <style:table-properties style:width="17.044cm" fo:margin-left="0cm" table:align="left" style:writing-mode="lr-tb"/>
+   <style:table-properties style:width="17.044cm" fo:margin-left="0cm" table:align="left" style:may-break-between-rows="false" style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="Tabla1.A" style:family="table-column">
    <style:table-column-properties style:column-width="1.559cm"/>
@@ -927,10 +1257,10 @@
    <style:table-column-properties style:column-width="2.445cm"/>
   </style:style>
   <style:style style:name="Tabla2.C" style:family="table-column">
-   <style:table-column-properties style:column-width="5.863cm"/>
+   <style:table-column-properties style:column-width="4.778cm"/>
   </style:style>
   <style:style style:name="Tabla2.D" style:family="table-column">
-   <style:table-column-properties style:column-width="3.281cm"/>
+   <style:table-column-properties style:column-width="4.366cm"/>
   </style:style>
   <style:style style:name="Tabla2.E" style:family="table-column">
    <style:table-column-properties style:column-width="3.298cm"/>
@@ -968,13 +1298,13 @@
    <style:table-column-properties style:column-width="2.215cm"/>
   </style:style>
   <style:style style:name="Table1.C" style:family="table-column">
-   <style:table-column-properties style:column-width="5.203cm"/>
+   <style:table-column-properties style:column-width="6.5cm"/>
   </style:style>
   <style:style style:name="Table1.D" style:family="table-column">
-   <style:table-column-properties style:column-width="2.549cm"/>
+   <style:table-column-properties style:column-width="2.619cm"/>
   </style:style>
   <style:style style:name="Table1.E" style:family="table-column">
-   <style:table-column-properties style:column-width="4.618cm"/>
+   <style:table-column-properties style:column-width="3.251cm"/>
   </style:style>
   <style:style style:name="Table1.1" style:family="table-row">
    <style:table-row-properties fo:keep-together="auto"/>
@@ -1006,19 +1336,19 @@
    <style:table-properties style:width="17.083cm" fo:margin-left="0.249cm" table:align="left" style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="Table2.A" style:family="table-column">
-   <style:table-column-properties style:column-width="2.686cm"/>
+   <style:table-column-properties style:column-width="2.461cm"/>
   </style:style>
   <style:style style:name="Table2.B" style:family="table-column">
-   <style:table-column-properties style:column-width="2.93cm"/>
+   <style:table-column-properties style:column-width="2.514cm"/>
   </style:style>
   <style:style style:name="Table2.C" style:family="table-column">
-   <style:table-column-properties style:column-width="3.265cm"/>
+   <style:table-column-properties style:column-width="4.445cm"/>
   </style:style>
   <style:style style:name="Table2.D" style:family="table-column">
-   <style:table-column-properties style:column-width="3.59cm"/>
+   <style:table-column-properties style:column-width="2.619cm"/>
   </style:style>
   <style:style style:name="Table2.E" style:family="table-column">
-   <style:table-column-properties style:column-width="4.613cm"/>
+   <style:table-column-properties style:column-width="5.045cm"/>
   </style:style>
   <style:style style:name="Table2.1" style:family="table-row">
    <style:table-row-properties fo:keep-together="auto"/>
@@ -1047,10 +1377,10 @@
    <style:table-properties style:width="17.013cm" fo:margin-left="0cm" table:align="left" fo:keep-with-next="always" style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="Tabla4.A" style:family="table-column">
-   <style:table-column-properties style:column-width="3.493cm"/>
+   <style:table-column-properties style:column-width="2.249cm"/>
   </style:style>
   <style:style style:name="Tabla4.B" style:family="table-column">
-   <style:table-column-properties style:column-width="3.306cm"/>
+   <style:table-column-properties style:column-width="4.549cm"/>
   </style:style>
   <style:style style:name="Tabla4.C" style:family="table-column">
    <style:table-column-properties style:column-width="3.336cm"/>
@@ -1073,10 +1403,37 @@
   <style:style style:name="Tabla4.E2" style:family="table-cell">
    <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="0.05pt solid #000000" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
   </style:style>
-  <style:style style:name="Tabla4.A14" style:family="table-cell">
+  <style:style style:name="Table3" style:family="table">
+   <style:table-properties style:width="17.013cm" fo:margin-left="0cm" table:align="left" fo:keep-with-next="always" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="Table3.A" style:family="table-column">
+   <style:table-column-properties style:column-width="3.466cm"/>
+  </style:style>
+  <style:style style:name="Table3.B" style:family="table-column">
+   <style:table-column-properties style:column-width="3.757cm"/>
+  </style:style>
+  <style:style style:name="Table3.C" style:family="table-column">
+   <style:table-column-properties style:column-width="4.974cm"/>
+  </style:style>
+  <style:style style:name="Table3.D" style:family="table-column">
+   <style:table-column-properties style:column-width="4.815cm"/>
+  </style:style>
+  <style:style style:name="Table3.A1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table3.D1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.097cm" fo:border="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table3.A2" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table3.D2" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="0.05pt solid #000000" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table3.A4" style:family="table-cell">
    <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="none"/>
   </style:style>
-  <style:style style:name="Tabla4.E14" style:family="table-cell">
+  <style:style style:name="Table3.D4" style:family="table-cell">
    <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="0.05pt solid #000000" fo:border-top="none" fo:border-bottom="none"/>
   </style:style>
   <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
@@ -1286,49 +1643,65 @@
   <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0.635cm" fo:margin-right="0cm" fo:text-indent="-0.609cm" style:auto-text-indent="false" style:writing-mode="lr-tb"/>
   </style:style>
-  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="WW8Num4"/>
-  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1"/>
-  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="WW8Num5"/>
-  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="WW8Num8"/>
-  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="WW8Num9"/>
+  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1"/>
+  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="List_20_1"/>
+  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="Numbering_20_1"/>
+  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="Numbering_20_2"/>
+  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="Numbering_20_1">
+   <style:paragraph-properties fo:margin-left="1.251cm" fo:margin-right="0cm" fo:text-indent="-0.499cm" style:auto-text-indent="false"/>
+  </style:style>
   <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Author" style:master-page-name="Standard">
    <style:paragraph-properties style:page-number="auto"/>
   </style:style>
-  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="normal" style:list-style-name="WW8Num2">
-   <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:line-height="100%" fo:text-indent="-0.635cm" style:auto-text-indent="false"/>
-   <style:text-properties fo:language="en" fo:country="US" style:font-size-complex="12pt"/>
+  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Table_20_Heading">
+   <style:text-properties fo:background-color="transparent"/>
   </style:style>
-  <style:style style:name="P70" style:family="paragraph">
+  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties fo:background-color="transparent"/>
+  </style:style>
+  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties fo:color="#000000" fo:language="kk" fo:country="KZ" fo:background-color="transparent"/>
+  </style:style>
+  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties fo:color="#000000" fo:language="kk" fo:country="KZ" fo:font-weight="normal" fo:background-color="transparent" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties fo:color="#000000" style:font-name="Times New Roman1" fo:font-size="10.5pt" fo:language="kk" fo:country="KZ" fo:background-color="transparent" style:font-size-asian="10.5pt" style:font-size-complex="10.5pt"/>
+  </style:style>
+  <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties style:font-name="Times New Roman1" fo:font-size="10.5pt" fo:background-color="transparent" style:font-size-asian="10.5pt" style:font-size-complex="10.5pt"/>
+  </style:style>
+  <style:style style:name="P75" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="start" fo:text-indent="0cm" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:writing-mode="lr-tb">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties fo:hyphenate="false"/>
   </style:style>
-  <style:style style:name="P71" style:family="paragraph">
+  <style:style style:name="P76" style:family="paragraph">
    <style:paragraph-properties fo:text-align="justify"/>
   </style:style>
-  <style:style style:name="P72" style:family="paragraph">
+  <style:style style:name="P77" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" fo:text-indent="1cm"/>
   </style:style>
-  <style:style style:name="P73" style:family="paragraph">
+  <style:style style:name="P78" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="start" fo:text-indent="0cm" style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict" style:writing-mode="lr-tb">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties fo:hyphenate="false"/>
   </style:style>
-  <style:style style:name="P74" style:family="paragraph">
+  <style:style style:name="P79" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:line-height-at-least="0cm" fo:text-align="start" fo:text-indent="0cm" style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict" style:writing-mode="lr-tb"/>
   </style:style>
-  <style:style style:name="P75" style:family="paragraph">
+  <style:style style:name="P80" style:family="paragraph">
    <style:paragraph-properties style:writing-mode="lr-tb"/>
   </style:style>
-  <style:style style:name="P76" style:family="paragraph">
+  <style:style style:name="P81" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-indent="-0.618cm"/>
   </style:style>
-  <style:style style:name="P77" style:family="paragraph">
+  <style:style style:name="P82" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0.635cm" fo:margin-right="0cm" fo:text-indent="-0.606cm" style:writing-mode="lr-tb"/>
   </style:style>
-  <style:style style:name="P78" style:family="paragraph">
+  <style:style style:name="P83" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" fo:text-indent="0.751cm" style:writing-mode="lr-tb"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -1597,6 +1970,58 @@
     </style:list-level-properties>
    </text:list-level-style-bullet>
   </text:list-style>
+  <text:list-style style:name="L2">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.27cm" fo:text-indent="-0.635cm" fo:margin-left="1.27cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.905cm" fo:text-indent="-0.635cm" fo:margin-left="1.905cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm" fo:text-indent="-0.635cm" fo:margin-left="2.54cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.175cm" fo:text-indent="-0.635cm" fo:margin-left="3.175cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm" fo:text-indent="-0.635cm" fo:margin-left="3.81cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm" fo:text-indent="-0.635cm" fo:margin-left="4.445cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm" fo:text-indent="-0.635cm" fo:margin-left="5.08cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm" fo:text-indent="-0.635cm" fo:margin-left="5.715cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm" fo:text-indent="-0.635cm" fo:margin-left="6.35cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm" fo:text-indent="-0.635cm" fo:margin-left="6.985cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-bullet>
+  </text:list-style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="21.001cm" fo:page-height="29.7cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2.007cm" fo:margin-left="2cm" fo:margin-right="2cm" fo:background-color="#ffffff" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="40" style:layout-grid-base-height="0.635cm" style:layout-grid-ruby-height="0cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:layout-grid-base-width="0.423cm" style:layout-grid-snap-to="true" style:layout-grid-snap-to-characters="true" style:footnote-max-height="0cm">
     <style:background-image/>
@@ -1651,31 +2076,31 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
    <text:p text:style-name="P68">A. Sundetova and M.L. Forcada</text:p>
-   <text:p text:style-name="Address">Information Systems Chair, Al-Farabi Kazakh National University, Al-Farabi av., 71, 050040 Almaty, Kazakhstan<text:line-break/>and <text:line-break/>Departament de Llenguatges i Sistemes Informàtics, Universitat d&apos;Alacant, E-03071 Alacant, Spain</text:p>
+   <text:p text:style-name="Address">Information Systems Chair, Al-Farabi Kazakh National University, Al-Farabi av., 71, 050040 Almaty, Kazakhstan, and<text:line-break/>Departament de Llenguatges i Sistemes Informàtics, Universitat d&apos;Alacant, E-03071 Alacant, Spain</text:p>
    <text:p text:style-name="Название">STRUCTURAL TRANSFER RULES FOR ENGLISH-TO-KAZAKH MACHINE TRANSLATION IN THE FREE/OPEN-SOURCE PLATFORM APERTIUM</text:p>
    <text:h text:style-name="Heading_20_1" text:outline-level="1">Introduction<office:annotation>
      <dc:creator>Mikel Forcada</dc:creator>
      <dc:date>2013-07-10T16:30:56</dc:date>
      <text:p><text:span text:style-name="T45">[first attempt]</text:span></text:p>
     </office:annotation></text:h>
-   <text:p text:style-name="Text_20_body">Translating natural text from English to a Turkic language such as Kazakh faces important challenges.<text:span text:style-name="T2"><office:annotation>
+   <text:p text:style-name="Text_20_body">Translating natural text from English to a Turkic language such as Kazakh faces important challenges:<text:span text:style-name="T2"><office:annotation>
       <dc:creator>Mikel Forcada</dc:creator>
       <dc:date>2013-07-08T18:33:00</dc:date>
-      <text:p text:style-name="P75"><text:span text:style-name="T42">I have moved Aida&apos;s text to a comment and just added a reference to the paper later on (</text:span><text:span text:style-name="T7">“On the other hand” (syntax) paragraph below.</text:span><text:span text:style-name="T42">). The paper </text:span><text:span text:style-name="T7">is for the general public, but not specialist. I will check it; I will find other more general references for English→Turkic.</text:span></text:p>
-      <text:p text:style-name="P75"><text:span text:style-name="T62"/></text:p>
-      <text:p text:style-name="P74"><text:span text:style-name="T8">I think the discussion of gender is not relevant in this paper as we can just ignore it when translating to Kazakh. I would remove the corresponding paragraph.</text:span></text:p>
-      <text:p text:style-name="P75"><text:span text:style-name="T62"/></text:p>
-      <text:p text:style-name="P77"><text:span text:style-name="T54">[From paper of problems different system languages translating,paper </text:span><text:span text:style-name="T55">Печерских</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">Т</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">Ф</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">Особенности</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">перевода</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">разносистемных</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">языков</text:span><text:span text:style-name="T54"> (</text:span><text:span text:style-name="T55">на</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">примере</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">английского</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">и</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">казахского</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">языков</text:span><text:span text:style-name="T54">) [</text:span><text:span text:style-name="T55">Текст</text:span><text:span text:style-name="T54">] / </text:span><text:span text:style-name="T55">Т</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">Ф</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">Печерских</text:span><text:span text:style-name="T54">, </text:span><text:span text:style-name="T55">Г</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">А</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">Амангельдина</text:span><text:span text:style-name="T54"> // </text:span><text:span text:style-name="T55">Молодой</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">ученый</text:span><text:span text:style-name="T54">. — 2012. — №3. — </text:span><text:span text:style-name="T55">С</text:span><text:span text:style-name="T54">. 259-261.]</text:span></text:p>
-      <text:p text:style-name="P78"><text:span text:style-name="T44"><text:s/></text:span><text:span text:style-name="T43">S</text:span><text:span text:style-name="T47">imilarities in the parts of speech system in Kazakh and English languages are characterized by a number of specific features, e.g.: vague borders of parts of speech in English language, rather than in Kazakh language. It is due to rather small development of English affixation, which leads to smaller formal placement of parts of speech. There is no distinction in accentuation of the basic parts of speech, the greatest similarity is found in pronouns, in their lexical structure and their division into subclasses. There is a meaning difference in languages, for example, the definiteness <text:s/>of meaning is obligatory for English language, and is unessential for Kazakh language. </text:span></text:p>
-      <text:p text:style-name="P78"><text:span text:style-name="T42">Though in English language the nouns lack any gender category, nevertheless the nouns that stand for animate objects, personal pronouns, and also, as an exception, some animals and subjects can have </text:span><text:span text:style-name="T8">masculine </text:span><text:span text:style-name="T42"> or a </text:span><text:span text:style-name="T8">feminine  </text:span><text:span text:style-name="T42"> genders. The nouns that are related to the person (which answer the question Who is this? – Бұл кім?), happen to have a </text:span><text:span text:style-name="T8">masculine </text:span><text:span text:style-name="T42"> gender (respective pronouns, he, his – ол, онікі) or a </text:span><text:span text:style-name="T8">feminine  </text:span><text:span text:style-name="T42"> gender (respective pronouns, she, her – ол, онікі). As we see from examples, in Kazakh language the gender category is completely absent, therefore, the same adjective, <text:s/>pronoun or an ordinal numeral can be translated into English differently, depends on the meaning of the sentence. </text:span></text:p>
-      <text:p text:style-name="P75"><text:span text:style-name="T62"/></text:p>
+      <text:p text:style-name="P80"><text:span text:style-name="T42">I have moved Aida&apos;s text to a comment and just added a reference to the paper later on (</text:span><text:span text:style-name="T7">“On the other hand” (syntax) paragraph below.</text:span><text:span text:style-name="T42">). The paper </text:span><text:span text:style-name="T7">is for the general public, but not specialist. I will check it; I will find other more general references for English→Turkic.</text:span></text:p>
+      <text:p text:style-name="P80"><text:span text:style-name="T62"/></text:p>
+      <text:p text:style-name="P79"><text:span text:style-name="T8">I think the discussion of gender is not relevant in this paper as we can just ignore it when translating to Kazakh. I would remove the corresponding paragraph.</text:span></text:p>
+      <text:p text:style-name="P80"><text:span text:style-name="T62"/></text:p>
+      <text:p text:style-name="P82"><text:span text:style-name="T54">[From paper of problems different system languages translating,paper </text:span><text:span text:style-name="T55">Печерских</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">Т</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">Ф</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">Особенности</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">перевода</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">разносистемных</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">языков</text:span><text:span text:style-name="T54"> (</text:span><text:span text:style-name="T55">на</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">примере</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">английского</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">и</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">казахского</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">языков</text:span><text:span text:style-name="T54">) [</text:span><text:span text:style-name="T55">Текст</text:span><text:span text:style-name="T54">] / </text:span><text:span text:style-name="T55">Т</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">Ф</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">Печерских</text:span><text:span text:style-name="T54">, </text:span><text:span text:style-name="T55">Г</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">А</text:span><text:span text:style-name="T54">. </text:span><text:span text:style-name="T55">Амангельдина</text:span><text:span text:style-name="T54"> // </text:span><text:span text:style-name="T55">Молодой</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T55">ученый</text:span><text:span text:style-name="T54">. — 2012. — №3. — </text:span><text:span text:style-name="T55">С</text:span><text:span text:style-name="T54">. 259-261.]</text:span></text:p>
+      <text:p text:style-name="P83"><text:span text:style-name="T44"><text:s/></text:span><text:span text:style-name="T43">S</text:span><text:span text:style-name="T47">imilarities in the parts of speech system in Kazakh and English languages are characterized by a number of specific features, e.g.: vague borders of parts of speech in English language, rather than in Kazakh language. It is due to rather small development of English affixation, which leads to smaller formal placement of parts of speech. There is no distinction in accentuation of the basic parts of speech, the greatest similarity is found in pronouns, in their lexical structure and their division into subclasses. There is a meaning difference in languages, for example, the definiteness <text:s/>of meaning is obligatory for English language, and is unessential for Kazakh language. </text:span></text:p>
+      <text:p text:style-name="P83"><text:span text:style-name="T42">Though in English language the nouns lack any gender category, nevertheless the nouns that stand for animate objects, personal pronouns, and also, as an exception, some animals and subjects can have </text:span><text:span text:style-name="T8">masculine </text:span><text:span text:style-name="T42"> or a </text:span><text:span text:style-name="T8">feminine  </text:span><text:span text:style-name="T42"> genders. The nouns that are related to the person (which answer the question Who is this? – Бұл кім?), happen to have a </text:span><text:span text:style-name="T8">masculine </text:span><text:span text:style-name="T42"> gender (respective pronouns, he, his – ол, онікі) or a </text:span><text:span text:style-name="T8">feminine  </text:span><text:span text:style-name="T42"> gender (respective pronouns, she, her – ол, онікі). As we see from examples, in Kazakh language the gender category is completely absent, therefore, the same adjective, <text:s/>pronoun or an ordinal numeral can be translated into English differently, depends on the meaning of the sentence. </text:span></text:p>
+      <text:p text:style-name="P80"><text:span text:style-name="T62"/></text:p>
      </office:annotation></text:span> </text:p>
    <text:p text:style-name="Text_20_body">On the one hand, the complex agglutinative morphology of Turkic languages is very different from that of a fusional, morphologically not too complex language like English; an immediate effect is the fact that correspondences can seldom be modelled as word-for-word translations. Even if Turkic language morphology shows clear morphotactics (ordering of morphemes), its morphophonology shows complex phonological changes to due to interactions between neighboring morphemes (vowel harmony, sonorization, etc.) many of which are explicitly represented in writing.</text:p>
    <text:p text:style-name="Text_20_body">On the other hand, there are many differences between the syntax of Turkic languages and English. Just to name a few: subject–object–verb order (compare subject–verb–object in English), use of postpositions (compare prepositions in English), head-final syntax with modifiers and specifiers always preceding the modified/specified (normally following in English), overt case marking allowing for a rather free ordering of arguments (versus a more fixed order in English), lack of definite articles (extensively used in English), verbal-noun-centered structures where English uses modal verbs (<text:span text:style-name="Emphasis">must, have to, want to</text:span>) or verbal-noun or verbal-adjective-centered constructions where English has subordinate clauses using finite verbs with relatives or subordinating conjunctions (<text:span text:style-name="Emphasis">the book which I read</text:span>, <text:span text:style-name="Emphasis">the place where I saw him</text:span>, <text:span text:style-name="Emphasis">before he came</text:span>), lack of a parallel of the English verb <text:span text:style-name="Emphasis">have</text:span>, as used for possession, etc. For an account (in Russian) of syntax differences between English and Kazakh, see Печерских &amp; Амангельдина (2012).</text:p>
    <text:p text:style-name="Text_20_body">When sufficiently large sentence-aligned parallel corpora are available (for instance, as in the case of English to Turkish, see, for example, Tyers and Alperen 2010), statistical machine translation (Koehn 2010) may be used to attempt translation from English into a Turkic language (in fact, statistical machine translation is currently offered by Google for two Turkic languages, Azeri and Turkish). However, in the case of Kazakh, it would be very hard to put together the necessary amount of sentence-aligned parallel text, and rule-based machine translation, in which experts write up dictionaries and grammatical rules that are applied by an engine, emerges as a clear solution; in fact, existing commercial systems for English to Kazakh (Sanasoft<text:span text:style-name="Footnote_20_anchor"><text:note text:id="ftn1" text:note-class="footnote"><text:note-citation>1</text:note-citation><text:note-body>
        <text:p text:style-name="Footnote"><text:a xlink:type="simple" xlink:href="http://www.sanasoft.kz/c/ru/node/47"><text:span text:style-name="Internet_20_link">http://www.sanasoft.kz/c/ru/node/47</text:span></text:a> (in Russian) <text:a xlink:type="simple" xlink:href="http://www.sanasoft.kz/c/kk/node/53"><text:span text:style-name="Internet_20_link">http://www.sanasoft.kz/c/kk/node/53</text:span></text:a> (in Kazakh).</text:p></text:note-body></text:note></text:span>, Trident<text:span text:style-name="Footnote_20_anchor"><text:note text:id="ftn2" text:note-class="footnote"><text:note-citation>2</text:note-citation><text:note-body>
        <text:p text:style-name="Footnote"><text:a xlink:type="simple" xlink:href="http://www.translate.ua/us/on-line"><text:span text:style-name="Internet_20_link">http://www.translate.ua/us/on-line</text:span></text:a>; also through <text:a xlink:type="simple" xlink:href="http://itranslate4.eu/en/"><text:span text:style-name="Internet_20_link">http://itranslate4.eu/en/</text:span></text:a> </text:p></text:note-body></text:note></text:span>) all appear to be rule-based.</text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/>We are currently engaged in building a free/open-source rule-based machine translation system from English to Kazakh, and we are using the Apertium free/open-source machine translation platform (Forcada et al. 2011, http://www.apertium.org) for various reasons. On the one hand, the platform already contains free/open-source English morphological dictionaries and, what is more important, Kazakh morphological dictionaries (Salimzyanov et al. 2013) which take care of all of the morphotactics and morphophonology and provide a basic vocabulary; this allows us to concentrate our work in two fronts: building the lexical transfer part, that is, a bilingual dictionary (already underway) and building structural transfer rules (grammatical rules for translation), which will be the subject of this paper. <text:s/>On the other hand, building free/open-source dictionaries and rules for English to Kazakh means that they will be freely available,<text:note text:id="ftn3" text:note-class="footnote"><text:note-citation>3</text:note-citation><text:note-body>
+   <text:p text:style-name="Standard">We are currently engaged in building a free/open-source rule-based machine translation system from English to Kazakh, and we are using the Apertium free/open-source machine translation <text:soft-page-break/>platform (Forcada et al. 2011, http://www.apertium.org) for various reasons. On the one hand, the platform already contains free/open-source English morphological dictionaries and, what is more important, Kazakh morphological dictionaries (Salimzyanov et al. 2013) which take care of all of the morphotactics and morphophonology and provide a basic vocabulary; this allows us to concentrate our work in two fronts: building the lexical transfer part, that is, a bilingual dictionary (already underway) and building structural transfer rules (grammatical rules for translation), which will be the subject of this paper. <text:s/>On the other hand, building free/open-source dictionaries and rules for English to Kazakh means that they will be freely available,<text:note text:id="ftn3" text:note-class="footnote"><text:note-citation>3</text:note-citation><text:note-body>
       <text:p text:style-name="Footnote">They already are: see a snapshot at: <text:a xlink:type="simple" xlink:href="https://svn.code.sf.net/p/apertium/svn/incubator/apertium-eng-kaz/">https://svn.code.sf.net/p/apertium/svn/incubator/apertium-eng-kaz/</text:a> </text:p></text:note-body></text:note> for instance, to build translation systems for other Turkic languages; this gives a strategic value to our work, as most of the structural transfer rules will be ready for use with other Turkic languages with little modification or no modification at all.<text:span text:style-name="Footnote_20_anchor"><text:note text:id="ftn4" text:note-class="footnote"><text:note-citation>4</text:note-citation><text:note-body>
        <text:p text:style-name="Footnote">The Apertium project has a particularly active sub-project for Turkic languages (<text:a xlink:type="simple" xlink:href="http://wiki.apertium.org/wiki/Turkic_languages"><text:span text:style-name="Internet_20_link">http://wiki.apertium.org/wiki/Turkic_languages</text:span></text:a>), which has its own mailing list, <text:a xlink:type="simple" xlink:href="https://lists.sourceforge.net/lists/listinfo/apertium-stuff"><text:span text:style-name="Internet_20_link">https://lists.sourceforge.net/lists/listinfo/apertium-stuff</text:span></text:a>.</text:p></text:note-body></text:note></text:span></text:p>
    <text:p text:style-name="Standard"/>
@@ -1991,50 +2416,50 @@
      </draw:text-box>
     </draw:frame></text:p>
    <text:p text:style-name="Text_20_body">Apertium-based MT systems are transfer systems implemented as text pipelines (see Figure 1) consisting of the following modules:</text:p>
-   <text:list xml:id="list1763159859" text:style-name="WW8Num4">
+   <text:list xml:id="list382145615" text:style-name="Numbering_20_2">
     <text:list-item>
-     <text:p text:style-name="P63"><text:soft-page-break/>A deformatter that separates the text to be translated from the formatting tags. Formatting tags are encapsulated as “superblanks” that are placed between words in such a way that the remaining modules see them as regular blanks (for instance, tags in the HTML text <text:span text:style-name="Source_20_Text">I see &lt;em&gt;the sky&lt;/em&gt;</text:span> are encapsulated as <text:span text:style-name="Source_20_Text">I see [&lt;em&gt;]the sky[&lt;/em&gt;] </text:span>and everything in square brackets is treated just as regular blanks).</text:p>
+     <text:p text:style-name="P66">A deformatter that separates the text to be translated from the formatting tags. Formatting tags are encapsulated as “superblanks” that are placed between words in such a way that the remaining modules see them as regular blanks (for instance, tags in the HTML text <text:span text:style-name="Source_20_Text">I see </text:span><text:soft-page-break/><text:span text:style-name="Source_20_Text">&lt;em&gt;the sky&lt;/em&gt;</text:span> are encapsulated as <text:span text:style-name="Source_20_Text">I see [&lt;em&gt;]the sky[&lt;/em&gt;] </text:span>and everything in square brackets is treated just as regular blanks).</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P63">A morphological analyser, yielding, for each surface form (SF), for each lexical unit as it appears in the text, a lexical form (LF) composed of: lemma (dictionary or citation form), lexical category (or “part-of-speech”), and inflection information. For instance, the English SF <text:span text:style-name="T24">books</text:span> would yield two LFs: <text:span text:style-name="T24">book</text:span>, noun, plural, as in <text:span text:style-name="Emphasis">I have bought some books</text:span>) or <text:span text:style-name="Emphasis">book</text:span>, verb, present tense, 3rd person, as in <text:span text:style-name="T24">He books a ticket</text:span>). The morphological analyser executes a finite-state transducer generated by compiling a morphological dictionary for the <text:span text:style-name="T18">source</text:span> language (SL). </text:p>
+     <text:p text:style-name="P66">A morphological analyser, yielding, for each surface form (SF), for each lexical unit as it appears in the text, a lexical form (LF) composed of: lemma (dictionary or citation form), lexical category (or “part-of-speech”), and inflection information. For instance, the English SF <text:span text:style-name="T24">books</text:span> would yield two LFs: <text:span text:style-name="T24">book</text:span>, noun, plural, as in <text:span text:style-name="Emphasis">I have bought some books</text:span>) or <text:span text:style-name="Emphasis">book</text:span>, verb, present tense, 3rd person, as in <text:span text:style-name="T24">He books a ticket</text:span>). The morphological analyser executes a finite-state transducer generated by compiling a morphological dictionary for the <text:span text:style-name="T18">source</text:span> language (SL). </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P63">A constraint-grammar (Karlsson 2005) module based on CG3<text:note text:id="ftn5" text:note-class="footnote"><text:note-citation>5</text:note-citation><text:note-body>
+     <text:p text:style-name="P66">A constraint-grammar (Karlsson 2005) module based on CG3<text:note text:id="ftn5" text:note-class="footnote"><text:note-citation>5</text:note-citation><text:note-body>
         <text:p text:style-name="Footnote"><text:a xlink:type="simple" xlink:href="http://beta.visl.sdu.dk/cg3.html">http://beta.visl.sdu.dk/cg3.html</text:a> </text:p></text:note-body></text:note> is used to discard some LFs using simple rules based on context (this module is not depicted in the figure).</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P63">A part-of-speech tagger based on hidden Markov models (Cutting et al. 1992) selects one of the remaining LFs. The statistical models may be supervisedly trained on an annotated SL monolingual text corpus, or trained in an unsupervised way, either on an unannotated monolingual SL corpus or using two unrelated, unannotated source language and target language corpora (as in Sánchez-Martínez et al. 2008). The Apertium part-of-speech tagger can also read linguistically-motivated constraints (much more rudimentary than constraint grammar rules in the previous module) that forbid specific sequences of two LFs.</text:p>
+     <text:p text:style-name="P66">A part-of-speech tagger based on hidden Markov models (Cutting et al. 1992) selects one of the remaining LFs. The statistical models may be supervisedly trained on an annotated SL monolingual text corpus, or trained in an unsupervised way, either on an unannotated monolingual SL corpus or using two unrelated, unannotated source language and target language corpora (as in Sánchez-Martínez et al. 2008). The Apertium part-of-speech tagger can also read linguistically-motivated constraints (much more rudimentary than constraint grammar rules in the previous module) that forbid specific sequences of two LFs.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P63">A lexical transfer module adds, to each source language LF (SL LF), one or more corresponding target language LFs (TL LFs). This module executes a finite-state transducer generated by compiling a bilingual SL–TL dictionary.</text:p>
+     <text:p text:style-name="P66">A lexical transfer module adds, to each source language LF (SL LF), one or more corresponding target language LFs (TL LFs). This module executes a finite-state transducer generated by compiling a bilingual SL–TL dictionary.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P63">An (optional) lexical selection module (currently not active in the English→Kazakh system) reads in rules that allow for the selection of one of the TL LFs according to context. When this module is absent, the TL LF given as default in the dictionaries is used.</text:p>
+     <text:p text:style-name="P66">An (optional) lexical selection module (currently not active in the English→Kazakh system) reads in rules that allow for the selection of one of the TL LFs according to context. When this module is absent, the TL LF given as default in the dictionaries is used.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P63">A structural transfer module processes the stream of SL LF–TL LF pairs produced by the lexical transfer module and transforms it into a new sequence of TL LFs; a more detailed description is found in section <text:reference-ref text:reference-format="chapter" text:ref-name="structural">2.1</text:reference-ref> as this is the main subject of this paper.</text:p>
+     <text:p text:style-name="P66">A structural transfer module processes the stream of SL LF–TL LF pairs produced by the lexical transfer module and transforms it into a new sequence of TL LFs; a more detailed description is found in section <text:reference-ref text:reference-format="chapter" text:ref-name="structural">2.1</text:reference-ref> as this is the main subject of this paper.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P63">A morphological generator takes the sequence of TL LFs and generates a corresponding sequence of TL SFs. The morphological generator executes a finite-state transducer generated by compiling a morphological dictionary for the TL. </text:p>
+     <text:p text:style-name="P66">A morphological generator takes the sequence of TL LFs and generates a corresponding sequence of TL SFs. The morphological generator executes a finite-state transducer generated by compiling a morphological dictionary for the TL. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P63">A post-generator takes care of some minor orthographical operations such as apostrophations and contractions in the target language (this module is not used for English to Kazakh).</text:p>
+     <text:p text:style-name="P66">A post-generator takes care of some minor orthographical operations such as apostrophations and contractions in the target language (this module is not used for English to Kazakh).</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P63">Finally, the deformatter opens the square-bracketed superblanks and places the formatting tags back into the text so that its format is preserved.</text:p>
+     <text:p text:style-name="P66">Finally, the deformatter opens the square-bracketed superblanks and places the formatting tags back into the text so that its format is preserved.</text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:reference-mark text:name="structural"/>Structural transfer in Apertium</text:h>
-   <text:p text:style-name="Text_20_body">The structural transfer module in Apertium processes the stream of source-language lexical form – target-language lexical form pairs (SL LF–TL LF pairs) and transforms it into a new sequence of TL <text:soft-page-break/>LFs after a series of structural transfer operations specified in a set of rules: reordering, elimination or insertion of TL LFs, agreement, etc. Structural transfer rules have a pattern–action form: when a specific (finite-length) pattern of SL LFs is detected, an action builds and generates the corresponding sequence of TL LFs. Rules are applied in a greedy, left-to-right, longest-match fashion. There are two main modalities of structural transfer. The first one (used for related languages) generates the TL LF sequence in a single step. The second one (used in the English–Kazakh system described in this paper) uses three stages to improve the granularity of structural transfer rules (each one has its own rules file):</text:p>
+   <text:p text:style-name="Text_20_body">The structural transfer module in Apertium processes the stream of source-language lexical form – target-language lexical form pairs (SL LF–TL LF pairs) and transforms it into a new sequence of TL LFs after a series of structural transfer operations specified in a set of rules: reordering, elimination or insertion of TL LFs, agreement, etc. Structural transfer rules have a pattern–action form: when a specific (finite-length) pattern of SL LFs is detected, an action builds and generates the corresponding sequence of TL LFs. Rules are applied in a greedy, left-to-right, longest-match fashion. There are two main modalities of structural transfer. The first one (used for related <text:soft-page-break/>languages) generates the TL LF sequence in a single step. The second one (used in the English–Kazakh system described in this paper) uses three stages to improve the granularity of structural transfer rules (each one has its own rules file):</text:p>
    <text:list xml:id="list108578129" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P64">A first round of transformations (“chunker”) detects SL LF patterns and generates the corresponding sequences of TL LFs grouped in chunks representing simple constituents such as noun phrases, prepositional phrases, etc. These chunks bear tags that may be used for inter-chunk processing. </text:p>
+     <text:p text:style-name="P63">A first round of transformations (“chunker”) detects SL LF patterns and generates the corresponding sequences of TL LFs grouped in chunks representing simple constituents such as noun phrases, prepositional phrases, etc. These chunks bear tags that may be used for inter-chunk processing. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P64">The second round (“interchunk”) reads patterns of chunks and produces a new sequence of chunks. This is the module where one can attempt to perform some longer-range reordering operations, inter-chunk agreement, case selection, etc. </text:p>
+     <text:p text:style-name="P63">The second round (“interchunk”) reads patterns of chunks and produces a new sequence of chunks. This is the module where one can attempt to perform some longer-range reordering operations, inter-chunk agreement, case selection, etc. </text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P64">The third round (“postchunk”) transfers chunk-level tags to the lexical forms they contain and whose lexical-form-level tags are linked (through a referencing systems) to chunk-level tags (for instance, case determined for a noun phrase is transferred to the main noun), and removes all grouping information to generate the desired sequence of TL LFs.</text:p>
+     <text:p text:style-name="P63">The third round (“postchunk”) transfers chunk-level tags to the lexical forms they contain and whose lexical-form-level tags are linked (through a referencing systems) to chunk-level tags (for instance, case determined for a noun phrase is transferred to the main noun), and removes all grouping information to generate the desired sequence of TL LFs.</text:p>
     </text:list-item>
    </text:list>
    <text:h text:style-name="Heading_20_1" text:outline-level="1"><text:bookmark text:name="Ref_structural"/><text:reference-mark text:name="eng-kaz-struct"/>English-to-Kazakh structural transfer<office:annotation>
@@ -2042,112 +2467,112 @@
      <dc:date>2013-07-10T16:49:50</dc:date>
      <text:p><text:span text:style-name="T45">For first level of structural transfer uses 60 rules: 47 rules for verb tense(VP,VP_must_inf, etc chunks), 11 rules for NP, AdjP, SupP chunks.</text:span></text:p>
      <text:p><text:span text:style-name="T45">For second level(interchunk) uses 18 rules.</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">want to + infinitive </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">have to + infinitive</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">need to + infinitive</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">vaux-do not approx-inf-verb </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">have</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">to be </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">need</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">verb</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">be + verb-ing <text:s/></text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">be + not + verb-ing </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">will + be + verb-ing</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">will + not + be + verb-ing</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">will + have + verb-pp</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">will + not + have + verb-pp</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">will + have + been + verb-ing</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">will + not + have + been + verb-ing</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">will + verb</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">will + not + <text:s/>verb</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">must + infinitive</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">can + not + infinitive </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">can + infinitive </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">have + verb-pp</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">have + not + verb</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">have + been + verb-ing</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">have + not + been + verb-ing</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">should + inf</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">be + verb-pp</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">be + not + verb-pp</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">have + been + verb-pp</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">have + not + been + verb-pp</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">will + be + verb-pp</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">will + not + be + verb-pp</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">be + being + verb-ed</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">be + not + being + verb-ed</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">prep noun</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T46"><text:s text:c="2"/></text:span><text:span text:style-name="T45">prep obj-pron</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">adjec noun</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">det num noun</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">num noun</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">prep num noun </text:span><text:span text:style-name="T45"><text:tab/></text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">num adjec noun </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">det num adjec noun</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">prep num adjec noun </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">prep det num adjec noun</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">prep det noun</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">prep det adjec noun <text:s/></text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">prep det num noun <text:s/></text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">want to + infinitive </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">have to + infinitive</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">need to + infinitive</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">vaux-do not approx-inf-verb </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">have</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">to be </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">need</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">verb</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">be + verb-ing <text:s/></text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">be + not + verb-ing </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">will + be + verb-ing</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">will + not + be + verb-ing</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">will + have + verb-pp</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">will + not + have + verb-pp</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">will + have + been + verb-ing</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">will + not + have + been + verb-ing</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">will + verb</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">will + not + <text:s/>verb</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">must + infinitive</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">can + not + infinitive </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">can + infinitive </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">have + verb-pp</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">have + not + verb</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">have + been + verb-ing</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">have + not + been + verb-ing</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">should + inf</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">be + verb-pp</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">be + not + verb-pp</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">have + been + verb-pp</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">have + not + been + verb-pp</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">will + be + verb-pp</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">will + not + be + verb-pp</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">be + being + verb-ed</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">be + not + being + verb-ed</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">prep noun</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T46"><text:s text:c="2"/></text:span><text:span text:style-name="T45">prep obj-pron</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">adjec noun</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">det num noun</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">num noun</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">prep num noun </text:span><text:span text:style-name="T45"><text:tab/></text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">num adjec noun </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">det num adjec noun</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">prep num adjec noun </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">prep det num adjec noun</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">prep det noun</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">prep det adjec noun <text:s/></text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">prep det num noun <text:s/></text:span></text:p>
      <text:p><text:span text:style-name="T45"/></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">det noun</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">det adjec noun </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">prep adjec noun </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">noun</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">subj-pron</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">sup-adjec <text:s/></text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">sup-adjec <text:s/></text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">the-most adjec</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">more adjec</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">adjec</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">num <text:s/></text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">det noun</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">det adjec noun </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">prep adjec noun </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">noun</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">subj-pron</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">sup-adjec <text:s/></text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">sup-adjec <text:s/></text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">the-most adjec</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">more adjec</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">adjec</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">num <text:s/></text:span></text:p>
      <text:p><text:span text:style-name="T45">List of .t2x rules</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T46"><text:s text:c="4"/></text:span><text:span text:style-name="T45">VP PP → PP VP</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T46"><text:s/></text:span><text:span text:style-name="T45">PP GenP → GenP PP</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T46"><text:s/></text:span><text:span text:style-name="T45">PP GenP GenP → GenP GenP PP</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T46"><text:s/></text:span><text:span text:style-name="T45">NP GenP → GenP NP</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T46"><text:s/></text:span><text:span text:style-name="T45">SupP GenP → GenP SupP</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">NP VP_must_inf</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">VP_want_to_inf</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">NP VP_should_inf</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">Agree person and number NP VP</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">Agree person and number NP VP PP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T46"><text:s text:c="4"/></text:span><text:span text:style-name="T45">VP PP → PP VP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T46"><text:s/></text:span><text:span text:style-name="T45">PP GenP → GenP PP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T46"><text:s/></text:span><text:span text:style-name="T45">PP GenP GenP → GenP GenP PP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T46"><text:s/></text:span><text:span text:style-name="T45">NP GenP → GenP NP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T46"><text:s/></text:span><text:span text:style-name="T45">SupP GenP → GenP SupP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">NP VP_must_inf</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">VP_want_to_inf</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">NP VP_should_inf</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">Agree person and number NP VP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">Agree person and number NP VP PP</text:span></text:p>
      <text:p><text:span text:style-name="T45"/></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">NP VP_have NP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">NP VP_have NP</text:span></text:p>
      <text:p><text:span text:style-name="T45"/></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">NP VP_past_be NP</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">NP VP_be NP</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">NP VP_need NP</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">NP VP_need</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">NP VP NP </text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">VP PP PP → PP PP VP</text:span></text:p>
-     <text:p text:style-name="P76"><text:span text:style-name="T45">VP NP → NP VP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">NP VP_past_be NP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">NP VP_be NP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">NP VP_need NP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">NP VP_need</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">NP VP NP </text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">VP PP PP → PP PP VP</text:span></text:p>
+     <text:p text:style-name="P81"><text:span text:style-name="T45">VP NP → NP VP</text:span></text:p>
     </office:annotation></text:h>
    <text:p text:style-name="Text_20_body">This section describes the current structural transfer in Apertium-eng-kaz (revision 46018<text:span text:style-name="T30">, 26.07.2013</text:span>). English to Kazakh chunker rules (file <text:span text:style-name="Source_20_Text">apertium-eng-kaz.eng-kaz.t1x</text:span>) are described in detail in section <text:reference-ref text:reference-format="chapter" text:ref-name="chunker">3.1</text:reference-ref>. English-to-Kazakh inter-chunk rules (file <text:span text:style-name="Source_20_Text">apertium-eng-kaz.eng-kaz.t2x</text:span>) are described in detail in section <text:reference-ref text:reference-format="chapter" text:ref-name="interchunk">3.2</text:reference-ref>. The English-to-Kazakh system has an additional clean-up stage that takes care of the fact that Kazakh morphotactics, as defined in the Kazakh morphological dictionary, contains optional morphemes: for instance, there is no singular morpheme or no-possessive morpheme, but these are generated in the previous three steps. They are eliminated here. Rules for cleanup have the same form as transfer rules for a related language pair (file <text:span text:style-name="Source_20_Text">apertium-eng-kaz.eng-kaz.t4x</text:span>).<text:span text:style-name="T12"><office:annotation>
       <dc:creator>Mikel Forcada</dc:creator>
       <dc:date>2013-07-08T18:36:00</dc:date>
-      <text:p text:style-name="P74"><text:span text:style-name="T42">Aida had inserted this here: </text:span></text:p>
-      <text:p text:style-name="P75"><text:span text:style-name="T42">Some <text:s/>verb and noun <text:s/>phrases need to deal with the necessary case and possessive marking changes for “bare” Kazakh noun phrases (NPs) resulting (mainly) from the translation of English noun phrases, a reorganization of the current 1st-level (.t1x) and 2nd-level (.t2x) transfer rules is currently in apertium-eng-kaz (after all changes development branch was deleted). Relative links equivalent to those using link-to in other language pairs <text:s/>at the 3rd level or post-chunk level of transfer (.t3x), with a caveat: as the morphological description of Kazakh available uses optional morphemes for singular (modelled as the absence of the plural -LAr morpheme) and for “no possessor” (modelled as the absence of the possessor morpheme), further processing is needed (using a hack involving a .t4x file processed by 1st-level transfer without calling lexical transfer). </text:span></text:p>
+      <text:p text:style-name="P79"><text:span text:style-name="T42">Aida had inserted this here: </text:span></text:p>
+      <text:p text:style-name="P80"><text:span text:style-name="T42">Some <text:s/>verb and noun <text:s/>phrases need to deal with the necessary case and possessive marking changes for “bare” Kazakh noun phrases (NPs) resulting (mainly) from the translation of English noun phrases, a reorganization of the current 1st-level (.t1x) and 2nd-level (.t2x) transfer rules is currently in apertium-eng-kaz (after all changes development branch was deleted). Relative links equivalent to those using link-to in other language pairs <text:s/>at the 3rd level or post-chunk level of transfer (.t3x), with a caveat: as the morphological description of Kazakh available uses optional morphemes for singular (modelled as the absence of the plural -LAr morpheme) and for “no possessor” (modelled as the absence of the possessor morpheme), further processing is needed (using a hack involving a .t4x file processed by 1st-level transfer without calling lexical transfer). </text:span></text:p>
      </office:annotation></text:span></text:p>
    <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:reference-mark text:name="chunker"/>The English-to-Kazakh chunker</text:h>
    <text:p text:style-name="Text_20_body">As regards the first round of structural transfer (the “chunker”, rules written in the <text:span text:style-name="Source_20_Text">apertium-eng-kaz.eng-kaz.t1x</text:span> file), rules have been written to address some of the the main local morphosyntactic divergences between the languages involved. The prototype is able to perform the local operations necessary to adequately process short noun phrases, adjective phrases, verb phrases and adpositional phrases (that is, prepositional phrases in English and postpositional phrases in Kazakh).</text:p>
    <text:p text:style-name="Text_20_body">Chunking rules, of which there are currently 60, identify six kinds of chunks and translate them into Kazakh as much as possible, leaving some minor operations to be performed in later stages of structural transfer (for instance, the case of noun phrases). Table <text:sequence-ref text:reference-format="value" text:ref-name="refTable0">1</text:sequence-ref> shows a description of the kinds of chunks found, with examples, and the chunk-level tags associated to them. The translation of English noun phrases and prepositional phrases are given below as examples.<office:annotation>
      <dc:creator>Mikel Forcada</dc:creator>
      <dc:date>2013-07-09T11:24:42</dc:date>
-     <text:p text:style-name="P73"><text:span text:style-name="T61">Aida, make sure that the chunk -level tags are actually the ones we are currently using.</text:span></text:p>
+     <text:p text:style-name="P78"><text:span text:style-name="T61">Aida, make sure that the chunk -level tags are actually the ones we are currently using.</text:span></text:p>
     </office:annotation><office:annotation>
      <dc:creator>User </dc:creator>
      <dc:date>2013-07-11T17:40:19</dc:date>
-     <text:p text:style-name="P70"><text:span text:style-name="T58">Reply to Mikel Forcada (07/09/2013, 11:24): &quot;...&quot;</text:span></text:p>
+     <text:p text:style-name="P75"><text:span text:style-name="T58">Reply to Mikel Forcada (07/09/2013, 11:24): &quot;...&quot;</text:span></text:p>
      <text:p><text:span text:style-name="T67">Yes, we&apos;re using them</text:span></text:p>
     </office:annotation></text:p>
-   <text:p text:style-name="Text_20_body"><text:soft-page-break/></text:p>
    <table:table table:name="Tabla1" table:style-name="Tabla1">
     <table:table-column table:style-name="Tabla1.A"/>
     <table:table-column table:style-name="Tabla1.B"/>
     <table:table-column table:style-name="Tabla1.C"/>
     <table:table-column table:style-name="Tabla1.D"/>
     <table:table-header-rows>
+     <text:soft-page-break/>
      <table:table-row table:style-name="Tabla1.1">
       <table:table-cell table:style-name="Tabla1.A1" office:value-type="string">
        <text:p text:style-name="Table_20_Heading">Phrase</text:p>
@@ -2267,7 +2692,7 @@
    <text:p text:style-name="Text_20_body">Consider the following example: the chunker identifies the English sequence <text:span text:style-name="Emphasis">the large book </text:span><text:s/>(determiner–adjective–noun) as a noun-phrase chunk. It translates into Kazakh, and assigns it four chunk-level tags: number (set to singular), person (set to 3rd), possessor (to be determined, as the noun <text:span text:style-name="Emphasis">кітап</text:span> (&apos;book&apos;) could receive a 3rd-person possesive ending (кітабы) later if the context were, for instance, <text:span text:style-name="Emphasis">the large book of animals, аңдардың үлкен кіта</text:span><text:span text:style-name="Emphasis"><text:span text:style-name="T21">бы</text:span></text:span>), and case (to be determined as it could be, for instance, accusative in <text:span text:style-name="Emphasis">I saw the large book, Мен үлкен кітап</text:span><text:span text:style-name="Emphasis"><text:span text:style-name="T21">ты </text:span></text:span><text:span text:style-name="Emphasis"><text:span text:style-name="T17">көрді</text:span></text:span><text:span text:style-name="Emphasis">м </text:span>).</text:p>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">Translation of prepositional phrases</text:h>
    <text:p text:style-name="Text_20_body">On encountering an English prepositional phrase, which has to be rendered in Kazakh as a postpositional phrase, there are three possible outcomes:</text:p>
-   <text:list xml:id="list2026457442" text:style-name="WW8Num5">
+   <text:list xml:id="list537882518" text:style-name="Numbering_20_1">
     <text:list-item>
      <text:p text:style-name="P65">The prepositional phrase results in a simple postpositional phrase using the locative “-{D}<text:soft-page-break/>{A}”,<text:span text:style-name="Footnote_20_Symbol"><text:note text:id="ftn8" text:note-class="footnote"><text:note-citation>8</text:note-citation><text:note-body>
          <text:p text:style-name="Footnote">{D} can be <text:span text:style-name="Emphasis">д</text:span> or <text:span text:style-name="Emphasis">т,</text:span> and {A} can be <text:span text:style-name="Emphasis">е</text:span> or <text:span text:style-name="Emphasis">а</text:span>, depending on the phonological context.</text:p></text:note-body></text:note></text:span> ablative “-{D}{A}н”, etc., but not the genitive <text:span text:style-name="T19">“-{N}{I}ң”:<text:line-break/></text:span>[PP [P <text:span text:style-name="Emphasis">in</text:span> ] [NP <text:span text:style-name="Emphasis">the beautiful garden</text:span>] ] → [PP [NP <text:span text:style-name="Emphasis">әдемі бақша</text:span>] [P <text:span text:style-name="Emphasis">-да</text:span> ] ]</text:p>
@@ -2353,7 +2778,6 @@
      </table:table-cell>
      <table:table-cell table:style-name="Tabla2.A3" office:value-type="string">
       <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">ойна</text:span> + <text:span text:style-name="Emphasis">п</text:span> (<text:span text:style-name="Emphasis">ып</text:span> or <text:span text:style-name="Emphasis">іп</text:span>) &lt;perfect participle&gt; + <text:span text:style-name="Emphasis">отыр</text:span> + <text:span text:style-name="Emphasis">д{I}</text:span> &lt;past&gt; <text:s/>+ &lt;person&gt;</text:p>
-      <text:p text:style-name="Table_20_Contents"/>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla2.A3" office:value-type="string">
       <text:p text:style-name="Table_20_Contents">Бұрынғы өткен шақ</text:p>
@@ -2366,7 +2790,7 @@
     </table:table-row>
    </table:table>
    <text:p text:style-name="Table"><text:span text:style-name="T30">Table </text:span><text:span text:style-name="T30"><text:sequence text:ref-name="refTable1" text:name="Table" text:formula="ooow:Table+1" style:num-format="1">2</text:sequence></text:span><text:span text:style-name="T30"> <text:s/>Examples of tense mapping operations performed at the chunk level</text:span></text:p>
-   <text:p text:style-name="Text_20_body"><text:span text:style-name="T30">Verb-phrase chunks are also used to prepare translations not using a finite verb (but a nominal or adjectival structure, often based on non-finite forms of verbs instead). For instance, for obligatory </text:span><text:soft-page-break/><text:span text:style-name="T30">English modal constructs</text:span> (<text:span text:style-name="Emphasis">have to, must, need to, should</text:span>) verb phrases made up of three lexical units have to be generated, with a verbal noun, an adjective roughly meaning “necessary” (<text:span text:style-name="Emphasis">керек</text:span>) or “proper” (<text:span text:style-name="Emphasis">жөн</text:span>), and a form of the copula (absent in present tense); the subject receives the genitive or dative case: <text:span text:style-name="Emphasis">I have to go</text:span> → <text:span text:style-name="Emphasis">Менің баруым керек</text:span>, <text:span text:style-name="Emphasis">I need to go</text:span> → <text:span text:style-name="Emphasis">Маған бару керек</text:span>, etc.; see these and other modal construction examples in Table <text:sequence-ref text:reference-format="value" text:ref-name="refTable2">3</text:sequence-ref>.</text:p>
+   <text:p text:style-name="Text_20_body"><text:span text:style-name="T30">Verb-phrase chunks are also used to prepare translations not using a finite verb (but a nominal or adjectival structure, often based on non-finite forms of verbs instead). For instance, for obligatory English modal constructs</text:span> (<text:span text:style-name="Emphasis">have to, must, need to, should</text:span>) verb phrases made up of three lexical units have to be generated, with a verbal noun, an adjective roughly meaning “necessary” (<text:span text:style-name="Emphasis">керек</text:span>) or “proper” (<text:span text:style-name="Emphasis">жөн</text:span>), and a form of the copula (absent in present tense); the subject receives the genitive <text:soft-page-break/>or dative case: <text:span text:style-name="Emphasis">I have to go</text:span> → <text:span text:style-name="Emphasis">Менің баруым керек</text:span>, <text:span text:style-name="Emphasis">I need to go</text:span> → <text:span text:style-name="Emphasis">Маған бару керек</text:span>, etc.; see these and other modal construction examples in Table <text:sequence-ref text:reference-format="value" text:ref-name="refTable2">3</text:sequence-ref>.</text:p>
    <text:p text:style-name="Standard"/>
    <table:table table:name="Table1" table:style-name="Table1">
     <table:table-column table:style-name="Table1.A"/>
@@ -2526,48 +2950,49 @@
    </table:table>
    <text:p text:style-name="Table"><text:span text:style-name="T30">Table </text:span><text:span text:style-name="T30"><text:sequence text:ref-name="refTable3" text:name="Table" text:formula="ooow:Table+1" style:num-format="1">4</text:sequence></text:span><text:span text:style-name="T30"> <text:s/>Translation of some negative constructions.</text:span></text:p>
    <text:p text:style-name="Text_20_body">Verb phrases (VP) are marked at the chunk level with person and number, both to be determined and linked via references to the appropriate morphemes in the appropriate verb lexical forms. The chunk-level person and number to be determined will be rewritten by the appropriate 2nd-level (interchunk) transfer rules, and will be propagated to lexical forms at the 3rd-level transfer stage (postchunk).</text:p>
-   <text:p text:style-name="Text_20_body"><text:soft-page-break/>Other indicators that have to be made available at the chunk level are negation (for negative verbs) and conditional (which will be handled as a tense). For instance, negation can be easily determined at the chunking level when the English VP chunk contains <text:span text:style-name="Emphasis">not</text:span>, as in <text:span text:style-name="T24">I don’t play</text:span> → <text:span text:style-name="Emphasis">мен ойна</text:span><text:span text:style-name="Strong_20_Emphasis">ма</text:span><text:span text:style-name="Emphasis">ймын</text:span>, but may need to be determined at the interchunk level in sentences having a non-negative VP but a negative word like those starting with <text:span text:style-name="Emphasis">еш-</text:span>, like <text:span text:style-name="Emphasis">I write nothing</text:span> → <text:span text:style-name="Emphasis">мен ешнәрсе жаз</text:span><text:span text:style-name="Strong_20_Emphasis">ба</text:span><text:span text:style-name="Emphasis">ймын</text:span>, which requires a negative form of the verb (-<text:span text:style-name="Emphasis">ба-</text:span> in the example).</text:p>
+   <text:p text:style-name="Text_20_body">Other indicators that have to be made available at the chunk level are negation (for negative verbs) and conditional (which will be handled as a tense). For instance, negation can be easily determined at the chunking level when the English VP chunk contains <text:span text:style-name="Emphasis">not</text:span>, as in <text:span text:style-name="T24">I don’t play</text:span> → <text:span text:style-name="Emphasis">мен ойна</text:span><text:span text:style-name="Strong_20_Emphasis">ма</text:span><text:span text:style-name="Emphasis">ймын</text:span>, but may need to be determined at the interchunk level in sentences having a non-negative VP but a negative word like those starting with <text:span text:style-name="Emphasis">еш-</text:span>, like <text:span text:style-name="Emphasis">I write nothing</text:span> → <text:span text:style-name="Emphasis">мен ешнәрсе жаз</text:span><text:span text:style-name="Strong_20_Emphasis">ба</text:span><text:span text:style-name="Emphasis">ймын</text:span>, which requires a negative form of the verb (-<text:span text:style-name="Emphasis">ба-</text:span> in the example).</text:p>
    <text:h text:style-name="Heading_20_3" text:outline-level="3">Translation of adjectival phrases </text:h>
    <text:p text:style-name="Text_20_body">In Kazakh noun phrases, adjectives come before nouns and do not show any agreement with nouns. <text:s/>Adjectives can also appear in separate adjective phrases. Here are some examples:</text:p>
-   <text:list xml:id="list1102341614" text:style-name="WW8Num8">
+   <text:list xml:id="list1954555884" text:continue-numbering="true" text:style-name="Numbering_20_1">
     <text:list-item>
-     <text:p text:style-name="P66">The adjective alone, marked AdjP:</text:p>
+     <text:p text:style-name="P65"><text:soft-page-break/>The adjective alone, marked AdjP:</text:p>
+     <text:p text:style-name="P67">[AdjP <text:span text:style-name="Emphasis">beautiful </text:span>] → [AdjP <text:span text:style-name="Emphasis">әдемі</text:span>] </text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P65">Comparative adjective phrases <text:s/>(English <text:span text:style-name="Emphasis">more</text:span> + adjective, or adjective<text:span text:style-name="Emphasis">-[e]r</text:span>); the Kazakh translation chooses the comparative suffix “-{I}р{A}{K}”: </text:p>
+     <text:p text:style-name="P67"><text:span text:style-name="T13">[AdjP</text:span><text:span text:style-name="T24"> <text:s/></text:span><text:span text:style-name="Emphasis">more beautiful </text:span><text:span text:style-name="Emphasis"><text:span text:style-name="T13">]</text:span></text:span> <text:span text:style-name="T24"><text:s/></text:span>→ <text:span text:style-name="T13">[AdjP</text:span><text:span text:style-name="T24"> </text:span><text:span text:style-name="Emphasis">әдем</text:span><text:span text:style-name="Strong_20_Emphasis">ірек</text:span>]</text:p>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P65">For superlative adjective phrases <text:s/>“<text:span text:style-name="Emphasis">the most</text:span> + adjective” <text:s/>or “adjective-[<text:span text:style-name="Emphasis">e</text:span>]<text:span text:style-name="Emphasis">st</text:span>”, translation is built using “ең” + adjective: </text:p>
+     <text:p text:style-name="P67">[SupP <text:s/><text:span text:style-name="Emphasis">the largest ]</text:span> <text:s/>→ [SupP <text:span text:style-name="Strong_20_Emphasis">ең</text:span> <text:span text:style-name="Emphasis">әдемі</text:span>]<text:line-break/>[SupP <text:s/><text:span text:style-name="Emphasis">the most beautiful ]</text:span> <text:s text:c="2"/>→ [SupP <text:span text:style-name="Strong_20_Emphasis">ең </text:span><text:span text:style-name="Emphasis">үлкен</text:span>]</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="Text_20_body"><text:span text:style-name="T3"><text:s text:c="12"/></text:span>[AdjP <text:span text:style-name="Emphasis">beautiful </text:span>] → [AdjP <text:span text:style-name="Emphasis">әдемі</text:span>] </text:p>
-   <text:list xml:id="list1151073823" text:continue-numbering="true" text:style-name="WW8Num8">
-    <text:list-item>
-     <text:p text:style-name="P66">Comparative adjective phrases <text:s/>(English <text:span text:style-name="Emphasis">more</text:span> + adjective, or adjective<text:span text:style-name="Emphasis">-[e]r</text:span>); the Kazakh translation chooses the comparative suffix “-{I}р{A}{K}”: <text:line-break/><text:span text:style-name="T13">[AdjP</text:span><text:span text:style-name="T24"> <text:s/></text:span><text:span text:style-name="Emphasis">more beautiful </text:span><text:span text:style-name="Emphasis"><text:span text:style-name="T13">]</text:span></text:span> <text:span text:style-name="T24"><text:s/></text:span>→ <text:span text:style-name="T13">[AdjP</text:span><text:span text:style-name="T24"> </text:span><text:span text:style-name="Emphasis">әдем</text:span><text:span text:style-name="Strong_20_Emphasis">ірек</text:span>]</text:p>
-    </text:list-item>
-    <text:list-item>
-     <text:p text:style-name="P66">For superlative adjective phrases <text:s/>“<text:span text:style-name="Emphasis">the most</text:span> + adjective” <text:s/>or “adjective-[<text:span text:style-name="Emphasis">e</text:span>]<text:span text:style-name="Emphasis">st</text:span>”, translation is built using “ең” + adjective: <text:line-break/>[SupP <text:s/><text:span text:style-name="Emphasis">the largest ]</text:span> <text:s/>→ [SupP <text:span text:style-name="Strong_20_Emphasis">ең</text:span> <text:span text:style-name="Emphasis">әдемі</text:span>]<text:line-break/>[SupP <text:s/><text:span text:style-name="Emphasis">the most beautiful ]</text:span> <text:s text:c="2"/>→ [SupP <text:span text:style-name="Strong_20_Emphasis">ең </text:span><text:span text:style-name="Emphasis">үлкен</text:span>]<text:line-break/>As noted in §<text:reference-ref text:reference-format="chapter" text:ref-name="np">3.1.1</text:reference-ref>, superlative adjective phrases have some properties of noun phrases (such as receiving possessive morphemes when modified by a genitive phrase: <text:span text:style-name="Emphasis">the most beautiful of people</text:span> → <text:span text:style-name="Emphasis">адамдардың ең әдемі</text:span><text:span text:style-name="Strong_20_Emphasis">сі</text:span>); one could say that they are treated as NPs with an implied noun.</text:p>
-    </text:list-item>
-   </text:list>
+   <text:p text:style-name="Text_20_body"><text:line-break/>As noted in §<text:reference-ref text:reference-format="chapter" text:ref-name="np">3.1.1</text:reference-ref>, superlative adjective phrases have some properties of noun phrases (such as receiving possessive morphemes when modified by a genitive phrase: <text:span text:style-name="Emphasis">the most beautiful of people</text:span> → <text:span text:style-name="Emphasis">адамдардың ең әдемі</text:span><text:span text:style-name="Strong_20_Emphasis">сі</text:span>); one could say that they are treated as NPs with an implied noun.</text:p>
    <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:reference-mark text:name="interchunk"/>English-to-Kazakh inter-chunk processing</text:h>
    <text:p text:style-name="Text_20_body">The second round of structural transfer (the “interchunk” rules written in the apertium-eng-kaz.eng-kaz.t2x file) is currently performed by a proof-of-concept set of 18 rules, representative of following operations:</text:p>
-   <text:list xml:id="list2122461850" text:style-name="WW8Num9">
+   <text:list xml:id="list300721892" text:style-name="List_20_1">
     <text:list-item>
-     <text:p text:style-name="P67">Inter-chunk agreement (for instance, number and person agreement between subject noun phrase and verb phrase): features to be agreed here are left undefined by the chunker; those that are not defined at the interchunk phase are left for the post-chunk phases.</text:p>
+     <text:p text:style-name="P64">Inter-chunk agreement (for instance, number and person agreement between subject noun phrase and verb phrase): features to be agreed here are left undefined by the chunker; those that are not defined at the interchunk phase are left for the post-chunk phases.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P67">Assigning case to noun phrases (which are generated without case by the chunker): for instance, accusative case for objects (<text:span text:style-name="Emphasis">I see the sky</text:span> → <text:span text:style-name="Emphasis">Мен аспан</text:span><text:span text:style-name="Strong_20_Emphasis">ды</text:span><text:span text:style-name="Emphasis"> көремін</text:span>), genitive case for obligatory constructs (<text:span text:style-name="Emphasis">I have to go → мен</text:span><text:span text:style-name="Strong_20_Emphasis">ің</text:span><text:span text:style-name="Emphasis"> баруым керек</text:span>), <text:s/>dative case for the verb <text:span text:style-name="Emphasis">to need</text:span> (<text:span text:style-name="Emphasis">I need a book</text:span> →<text:span text:style-name="Emphasis">Ма</text:span><text:span text:style-name="Strong_20_Emphasis">ған</text:span><text:span text:style-name="Emphasis"> кітап керек</text:span>), locative case for possession (<text:span text:style-name="Emphasis">I have a book</text:span> → <text:span text:style-name="Emphasis">Мен</text:span><text:span text:style-name="Strong_20_Emphasis">де</text:span><text:span text:style-name="Emphasis"> кітап бар</text:span>), etc.</text:p>
+     <text:p text:style-name="P64">Assigning case to noun phrases (which are generated without case by the chunker): for instance, accusative case for objects (<text:span text:style-name="Emphasis">I see the sky</text:span> → <text:span text:style-name="Emphasis">Мен аспан</text:span><text:span text:style-name="Strong_20_Emphasis">ды</text:span><text:span text:style-name="Emphasis"> көремін</text:span>), genitive case for obligatory constructs (<text:span text:style-name="Emphasis">I have to go → мен</text:span><text:span text:style-name="Strong_20_Emphasis">ің</text:span><text:span text:style-name="Emphasis"> баруым керек</text:span>), <text:s/>dative case for the verb <text:span text:style-name="Emphasis">to need</text:span> (<text:span text:style-name="Emphasis">I need a book</text:span> →<text:span text:style-name="Emphasis">Ма</text:span><text:span text:style-name="Strong_20_Emphasis">ған</text:span><text:span text:style-name="Emphasis"> кітап керек</text:span>), locative case for possession (<text:span text:style-name="Emphasis">I have a book</text:span> → <text:span text:style-name="Emphasis">Мен</text:span><text:span text:style-name="Strong_20_Emphasis">де</text:span><text:span text:style-name="Emphasis"> кітап бар</text:span>), etc.</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P67">Reordering: placing of object before verb ( <text:span text:style-name="Emphasis">I[1] see[2] the sky[3]</text:span> → <text:span text:style-name="Emphasis">Мен[1] аспанды[3] көремін[2]</text:span>), placing of prepositional pharses before the verb <text:s/>(<text:span text:style-name="Emphasis">They[1] played[2] on top of the tree [3] → Олар[1] ағаштың үстінде[3] ойнады [2]</text:span>), etc.</text:p>
+     <text:p text:style-name="P64">Reordering: placing of object before verb ( <text:span text:style-name="Emphasis">I[1] see[2] the sky[3]</text:span> → <text:span text:style-name="Emphasis">Мен[1] аспанды[3] көремін[2]</text:span>), placing of prepositional pharses before the verb <text:s/>(<text:span text:style-name="Emphasis">They[1] played[2] on top of the tree [3] → Олар[1] ағаштың үстінде[3] ойнады [2]</text:span>), etc.</text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="Text_20_body">The set of rules has to be extended, as many combinations of the above phenomena are still not covered (for instance, there is no rule to obtain the right word order in <text:span text:style-name="Emphasis">I have to go to the university</text:span> →<text:span text:style-name="Emphasis">Менің университетке баруым керек</text:span>).<text:note text:id="ftn10" text:note-class="footnote"><text:note-citation>10</text:note-citation><text:note-body>
       <text:p text:style-name="Footnote">As chunks detected by the chunker are finite-length and inter-chunk rules also process finite-length chunk sequences, it has to be noted that there will always be a limit to the scope of reordering or agreement rules.</text:p></text:note-body></text:note> <office:annotation>
      <dc:creator>Mikel Forcada</dc:creator>
      <dc:date>2013-07-10T17:07:11</dc:date>
-     <text:p text:style-name="P70"><text:span text:style-name="T45">Removed text: </text:span><text:span text:style-name="T52">Discrepancy of Kazakh and English language systems generates known problems in translation Kazakh </text:span><text:span text:style-name="T49">sentences</text:span><text:span text:style-name="T52"> into English: </text:span><text:span text:style-name="T53">I have written a letter - Мен хат жазып болдым – I letter writing finished ; I have been to Astana - <text:s/>Мен Астанада болдым – I in Astana been</text:span><text:span text:style-name="T52"> etc. </text:span><text:span text:style-name="T49">T</text:span><text:span text:style-name="T52">ranslating such sentences, it is necessary to specify </text:span><text:span text:style-name="T49">what is</text:span><text:span text:style-name="T52"> mean</text:span><text:span text:style-name="T49">t</text:span><text:span text:style-name="T52">: action as the fact, action as action, or – result of </text:span><text:span text:style-name="T49">some </text:span><text:span text:style-name="T52"><text:s/>action: Mен Астанада болдым – I was in Astana (last Monday) (exact indication </text:span><text:span text:style-name="T49">of</text:span><text:span text:style-name="T52"> the period of stay); </text:span><text:span text:style-name="T10">Мен Астанада болдым</text:span><text:span text:style-name="T9"> </text:span><text:span text:style-name="T52">– I have been to Astanа. </text:span></text:p>
-     <text:p text:style-name="P71"><text:span text:style-name="T49">The</text:span><text:span text:style-name="T52"> “chunk” rules are used</text:span><text:span text:style-name="T49"> t</text:span><text:span text:style-name="T52">o translate sentences</text:span><text:span text:style-name="T49">. The rules </text:span><text:span text:style-name="T52">are described in the dictionary apertium-eng-kaz.eng-kaz.t1x. </text:span></text:p>
-     <text:p text:style-name="P72"><text:span text:style-name="T52">For a simple sentence “I am playing in the garden”, </text:span><text:span text:style-name="T49">the </text:span><text:span text:style-name="T52">parts of speech are define</text:span><text:span text:style-name="T49">d </text:span><text:span text:style-name="T52">first. Then phrases are defined: noun +verb, </text:span><text:span text:style-name="T50">preposition</text:span><text:span text:style-name="T52"> + noun, </text:span><text:span text:style-name="T49">etc</text:span><text:span text:style-name="T52">. <text:s/></text:span><text:span text:style-name="T49">[</text:span><text:span text:style-name="T52">“per</text:span><text:span text:style-name="T49">s</text:span><text:span text:style-name="T52">-verb”</text:span><text:span text:style-name="T49"> ? or some describe some macros, for example NEW-noun-build or NEW-gen-simple-verb]</text:span></text:p>
-     <text:p text:style-name="P72"><text:span text:style-name="T49"/></text:p>
+     <text:p text:style-name="P75"><text:span text:style-name="T45">Removed text: </text:span><text:span text:style-name="T52">Discrepancy of Kazakh and English language systems generates known problems in translation Kazakh </text:span><text:span text:style-name="T49">sentences</text:span><text:span text:style-name="T52"> into English: </text:span><text:span text:style-name="T53">I have written a letter - Мен хат жазып болдым – I letter writing finished ; I have been to Astana - <text:s/>Мен Астанада болдым – I in Astana been</text:span><text:span text:style-name="T52"> etc. </text:span><text:span text:style-name="T49">T</text:span><text:span text:style-name="T52">ranslating such sentences, it is necessary to specify </text:span><text:span text:style-name="T49">what is</text:span><text:span text:style-name="T52"> mean</text:span><text:span text:style-name="T49">t</text:span><text:span text:style-name="T52">: action as the fact, action as action, or – result of </text:span><text:span text:style-name="T49">some </text:span><text:span text:style-name="T52"><text:s/>action: Mен Астанада болдым – I was in Astana (last Monday) (exact indication </text:span><text:span text:style-name="T49">of</text:span><text:span text:style-name="T52"> the period of stay); </text:span><text:span text:style-name="T10">Мен Астанада болдым</text:span><text:span text:style-name="T9"> </text:span><text:span text:style-name="T52">– I have been to Astanа. </text:span></text:p>
+     <text:p text:style-name="P76"><text:span text:style-name="T49">The</text:span><text:span text:style-name="T52"> “chunk” rules are used</text:span><text:span text:style-name="T49"> t</text:span><text:span text:style-name="T52">o translate sentences</text:span><text:span text:style-name="T49">. The rules </text:span><text:span text:style-name="T52">are described in the dictionary apertium-eng-kaz.eng-kaz.t1x. </text:span></text:p>
+     <text:p text:style-name="P77"><text:span text:style-name="T52">For a simple sentence “I am playing in the garden”, </text:span><text:span text:style-name="T49">the </text:span><text:span text:style-name="T52">parts of speech are define</text:span><text:span text:style-name="T49">d </text:span><text:span text:style-name="T52">first. Then phrases are defined: noun +verb, </text:span><text:span text:style-name="T50">preposition</text:span><text:span text:style-name="T52"> + noun, </text:span><text:span text:style-name="T49">etc</text:span><text:span text:style-name="T52">. <text:s/></text:span><text:span text:style-name="T49">[</text:span><text:span text:style-name="T52">“per</text:span><text:span text:style-name="T49">s</text:span><text:span text:style-name="T52">-verb”</text:span><text:span text:style-name="T49"> ? or some describe some macros, for example NEW-noun-build or NEW-gen-simple-verb]</text:span></text:p>
+     <text:p text:style-name="P77"><text:span text:style-name="T49"/></text:p>
     </office:annotation></text:p>
-   <text:h text:style-name="Heading_20_1" text:outline-level="1"><text:bookmark text:name="Ref_results"/><text:soft-page-break/><text:reference-mark text:name="results"/>Some results, problems and limitations</text:h>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1"><text:bookmark text:name="Ref_results"/><text:reference-mark text:name="results"/>Some results, problems and limitations</text:h>
    <text:p text:style-name="Text_20_body">The system described is not much more than a proof-of-concept system that still needs to be extended to reasonably cover all transfer operations needed. Therefore, evaluating the output of the system using customary evaluation measures such as BLEU (Papineni et al. 2002) is still out of the question.</text:p>
-   <text:p text:style-name="Text_20_body">Instead, we will show how our current prototype performs for some representative structures covered by the transfer rules currently available (some of them discussed above). As has been said above, are already at least two MT systems that translate from English to Kazakh: Sanasoft&apos;s and Trident&apos;s, both of which can be used online (see Introduction for details); therefore, we will briefly compare our results to those obtained by the commercial systems.</text:p>
+   <text:p text:style-name="Text_20_body">Instead, tables <text:sequence-ref text:reference-format="value" text:ref-name="refTable4">5</text:sequence-ref> and <text:sequence-ref text:reference-format="value" text:ref-name="refTable5">6</text:sequence-ref> show how our current prototype performs for some representative structures covered by the transfer rules currently available (some of them discussed above). As has been said above, are already at least two MT systems that translate from English to Kazakh: Sanasoft&apos;s and <text:soft-page-break/>Trident&apos;s, both of which can be used online (see Introduction for details); therefore, we will briefly compare our results to those obtained by the commercial systems.</text:p>
    <text:p text:style-name="Text_20_body"/>
    <table:table table:name="Tabla4" table:style-name="Tabla4">
     <table:table-column table:style-name="Tabla4.A"/>
@@ -2602,13 +3027,13 @@
       <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis"><text:span text:style-name="T30">your two beautiful gardens </text:span></text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis"><text:span text:style-name="T30">сіздің екі әдемі бақшаңыз </text:span></text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">сіздің екі әдемі бақшаңыз </text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis"><text:span text:style-name="T30">Сенің екі әдемі бақ</text:span></text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T30">тарың</text:span></text:span><text:span text:style-name="T30">.</text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">Сенің екі әдемі бақ</text:span><text:span text:style-name="Strong_20_Emphasis">тарың</text:span>.</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T30">сендер</text:span></text:span><text:span text:style-name="T30"> екі тамаша бақша</text:span><text:span text:style-name="T23">лар</text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis">сендер</text:span> екі тамаша бақша<text:span text:style-name="Strong_20_Emphasis">лар</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -2619,13 +3044,13 @@
       <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis"><text:span text:style-name="T30">in the big city</text:span></text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis"><text:span text:style-name="T30">үлкен қалада</text:span></text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">үлкен қалада</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis"><text:span text:style-name="T30">Үлкен </text:span></text:span><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T30">қала</text:span></text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">Үлкен </text:span><text:span text:style-name="Strong_20_Emphasis">қала</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis"><text:span text:style-name="T30">үлкен қалада</text:span></text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">үлкен қалада</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -2636,13 +3061,13 @@
       <text:p text:style-name="P48">the chief of the city <text:s text:c="2"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis"><text:span text:style-name="T30">қаланың басшысы</text:span></text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">қаланың басшысы</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis"><text:span text:style-name="T30">қаланың көсемі</text:span></text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">қаланың көсемі</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T30">Бас қала</text:span></text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis">Бас қала</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -2653,13 +3078,13 @@
       <text:p text:style-name="P48">On top of the tree of the garden of the city</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">қала бақшасының <text:s text:c="2"/>ағашының үстінде </text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">қала бақшасының <text:s text:c="2"/>ағашының үстінде </text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T30">Зырылдауық ағаш бақ қала</text:span></text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis">Зырылдауық ағаш бақ қала</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis"><text:span text:style-name="T30">В алқындыр- қаланың бақшасының ағашының</text:span></text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis">В алқындыр- қаланың бақшасының ағашының</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -2670,13 +3095,13 @@
       <text:p text:style-name="P48">bigger</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">үлкенірек</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">үлкенірек</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents">Үлкен</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">Үлкен</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="P50">үлкен</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis">үлкен</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -2685,13 +3110,13 @@
       <text:p text:style-name="P48">more beautiful</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">әдемірек</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">әдемірек</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="T21">Тағы </text:span>әдемі</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis">Тағы </text:span><text:span text:style-name="Emphasis">әдемі</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="P50">тамаша</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis">тамаша</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -2700,13 +3125,13 @@
       <text:p text:style-name="P48">nicest</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">ең жақсы</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">ең жақсы</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P50">Сүйкімді</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis">Сүйкімді</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents">ең жақсы</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">ең жақсы</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -2715,13 +3140,13 @@
       <text:p text:style-name="P48">the most beautiful</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">ең әдемі</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">ең әдемі</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="T21">Көпшілік </text:span>әдемі</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis">Көпшілік</text:span> <text:span text:style-name="Emphasis">әдемі</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents">ең тамаша</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">ең тамаша</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -2732,13 +3157,13 @@
       <text:p text:style-name="P48">I have to go</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">Менің <text:s/>баруым керек </text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">Менің <text:s/>баруым керек </text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P49">Мен барып жатырмын жүрмін</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Strong_20_Emphasis">Мен барып жатырмын жүрмін</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="P48">Маған бару <text:span text:style-name="T21">have</text:span></text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">Маған бару</text:span> <text:span text:style-name="Strong_20_Emphasis">have</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -2747,217 +3172,223 @@
       <text:p text:style-name="P48">I can drive</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">Мен <text:s/>жүргізе аламын </text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">Мен <text:s/>жүргізе аламын </text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P49"><text:span text:style-name="T17">Мен </text:span>болып жатырмын <text:span text:style-name="T17">жүргізіп</text:span> жатырмын</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">Мен</text:span> <text:span text:style-name="Strong_20_Emphasis">болып</text:span> <text:span text:style-name="Strong_20_Emphasis">жатырмын</text:span> <text:span text:style-name="Emphasis">жүргізіп</text:span> <text:span text:style-name="Strong_20_Emphasis">жатырмын</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="P48"><text:span text:style-name="T17">Мен жүру</text:span><text:span text:style-name="T21"> білемін</text:span></text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="Tabla4.A2" table:number-rows-spanned="2" office:value-type="string">
-      <text:p text:style-name="P48">Simple sentences</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">The children played in the beautiful park</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">балалар <text:s text:c="3"/>әдемі саябақта ойнады </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">Балалар әдемі <text:span text:style-name="T21">park</text:span> ойнады</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="P48">Бала-шағалар, тамаша саябақта <text:span text:style-name="T21">played</text:span></text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:covered-table-cell/>
-     <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">I see the blue sky.</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">Мен <text:s text:c="2"/>көк аспанды көремін </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48"><text:span text:style-name="T17">Мен</text:span><text:span text:style-name="T21">де</text:span> көк аспан көріп жатырмын</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E2" office:value-type="string">
-      <text:p text:style-name="P48">Мен көгілдір аспанды көремін.</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:table-cell table:style-name="Tabla4.A14" table:number-rows-spanned="9" office:value-type="string">
-      <text:p text:style-name="P48"/>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">You go to school</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P45">Сіз мектепке барасыз</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">Сіз мектепке бар<text:span text:style-name="T21">дың</text:span></text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E14" office:value-type="string">
-      <text:p text:style-name="P48">сендер үйрету барасыңдар</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:covered-table-cell/>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">A book has been given to you</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P45">кітап <text:s/>сізге <text:s text:c="2"/>беріліп болған </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">Кітап <text:span text:style-name="T21">барып жатыр</text:span> сізге берсін</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E14" office:value-type="string">
-      <text:p text:style-name="P48">Кітап <text:span text:style-name="T21">жібер-</text:span> сендерге болды</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:covered-table-cell/>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">I can go to the three big shop </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P46">Мен <text:s text:c="3"/>үш үлкен дүкенге <text:s/>бара аламын</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">Мен <text:span text:style-name="T21">three</text:span> үлкен магазинге <text:span text:style-name="T21">болып</text:span> жатырмын жүрмін</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E14" office:value-type="string">
-      <text:p text:style-name="P48">Мен <text:span text:style-name="T21">үшке</text:span> деген бару үлкен дүкен білемін</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:covered-table-cell/>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">The most beautiful of garden is opened </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P45"><text:s text:c="2"/>бақшаның ең әдемісі <text:s/>ашылады </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48"><text:span text:style-name="T21">Көпшілік</text:span> әдемі бақ ашық <text:span text:style-name="T21">бар</text:span></text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E14" office:value-type="string">
-      <text:p text:style-name="P48">Ең тамаша бақш<text:span text:style-name="T21">адан</text:span> болады <text:span text:style-name="T21">ашыл-</text:span></text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:covered-table-cell/>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">I see my car </text:p>
-      <text:p text:style-name="P48"/>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P45">Мен <text:s/>менің жеңіл автокөлігімді көремін </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">Мен менің автомобилім көріп жатырмын</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E14" office:value-type="string">
-      <text:p text:style-name="P51">Мен өзінің автомобильсын көремін</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:covered-table-cell/>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P51">I come through green trees </text:p>
-      <text:p text:style-name="P51"/>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P47">Мен <text:s text:c="2"/>жасыл ағаштар арқылы келемін </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">Мен <text:span text:style-name="T21">жолда түспейтін </text:span>жасыл ағаштар жақындап жатырмын</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E14" office:value-type="string">
-      <text:p text:style-name="P48">Мен<text:span text:style-name="T21"> кінәде</text:span> жасыл тал-шыбықтарды <text:span text:style-name="T21">жасырмаймын</text:span></text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:covered-table-cell/>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">the famous doctor of city is going to hospital </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P46"><text:s/>қаланың <text:s/>танымал дәрігері <text:s text:c="2"/>емханаға <text:s/>барып жатыр </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">Атақты дәрігер қала ауруханаға барады</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E14" office:value-type="string">
-      <text:p text:style-name="P48">қаланың <text:span text:style-name="T21">атайы</text:span> докторы ауруханаға деген жиналады</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:covered-table-cell/>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">She was a user </text:p>
-      <text:p text:style-name="P48"><text:soft-page-break/></text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P46">Ол <text:s text:c="2"/>қолданушы <text:soft-page-break/>болды </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">Ол <text:span text:style-name="T21">user</text:span> болды</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E14" office:value-type="string">
-      <text:p text:style-name="P48">Ол <text:soft-page-break/>пайдаланушы<text:span text:style-name="T21">мен</text:span> болды</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row>
-     <table:covered-table-cell/>
-     <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P48">She eats chocolates with sugar</text:p>
-      <text:p text:style-name="P44">For this example I added rule to t2x: NP VP NP PP</text:p>
-      <text:p text:style-name="P48"/>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A2" office:value-type="string">
-      <text:p text:style-name="P46">Ол <text:s text:c="2"/>шоколадтарды <text:s/>қантпен жейді </text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.A14" office:value-type="string">
-      <text:p text:style-name="P48">Ол <text:span text:style-name="T21">eats chocolates </text:span>қант</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Tabla4.E14" office:value-type="string">
-      <text:p text:style-name="P48">Ол шоколадтарды қантпен жейді</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:span text:style-name="Emphasis">Мен жүру</text:span> <text:span text:style-name="Strong_20_Emphasis">білемін</text:span></text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="Table">Table <text:sequence text:ref-name="refTable4" text:name="Table" text:formula="ooow:Table+1" style:num-format="1">5</text:sequence>: Example machine translation output for some simple phrases and examples</text:p>
-   <text:p text:style-name="P14">[Aida, could you prepare a table like this one, marking errors in bold, and showing about 10-15 structures? Maybe one can just add examples from the text.] </text:p>
-   <text:h text:style-name="Heading_20_1" text:outline-level="1"><text:bookmark text:name="Ref_conclusion"/><text:reference-mark text:name="conclusion"/>Concluding remarks and future work<office:annotation>
+   <text:p text:style-name="Table">Table <text:sequence text:ref-name="refTable4" text:name="Table" text:formula="ooow:Table+1" style:num-format="1">5</text:sequence>: Example machine translation output for some simple phrases and sentences.</text:p>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1"><text:reference-mark text:name="conclusion"/>Concluding remarks and future work<office:annotation>
      <dc:creator>Mikel Forcada</dc:creator>
      <dc:date>2013-07-10T17:06:36</dc:date>
      <text:p><text:span text:style-name="T45">[to be written; here is some text to modify:]</text:span></text:p>
     </office:annotation></text:h>
-   <text:p text:style-name="P22">The current prototype already successfully solves many cases of noun-phrase, verb-phrase, prepositional-phrase, and adjectival-phrase translation (some actually better than the available commercial systems <text:span text:style-name="T1">[if we show improvement - <text:s/>how correctly we translate VP,NP,SupP phrases?]</text:span>), and contains a reasonable vocabulary for testing purposes, which nevertheless still needs extending for real-world applications.</text:p>
-   <text:p text:style-name="P22"/>
-   <text:p text:style-name="P22">The following tasks have to be performed in order to have a working machine translation system:</text:p>
-   <text:list xml:id="list1912561417" text:style-name="WW8Num2">
+   <text:p text:style-name="Text_20_body">The current prototype already successfully solves many cases of noun-phrase, verb-phrase, prepositional-phrase, and adjectival-phrase translation (some actually better than the available commercial systems), and contains a reasonable vocabulary for testing purposes, which nevertheless still needs extending for real-world applications.</text:p>
+   <text:p text:style-name="Text_20_body">The following tasks have to be performed in order to have a working machine translation system:</text:p>
+   <text:list xml:id="list946400595" text:continue-numbering="true" text:style-name="List_20_1">
     <text:list-item>
-     <text:p text:style-name="P69">Completing the coverage of structural transfer rules and monolingual and bilingual vocabularies so that the system produces a translation for at least 90% of the English words and performs the basic operations to identify and process correctly short constituents (1–6 words).</text:p>
+     <text:p text:style-name="P64">Completing the coverage of structural transfer rules and monolingual and bilingual vocabularies so that the system produces a translation for at least 90% of the English words and performs the basic operations to identify and process correctly short constituents (1–6 words).</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P69">Releasing the resulting stable system as apertium-eng-kaz and disseminate it to the interested parties to obtain feedback about its functioning. We can reasonably expect this system to work better than the existing commercial systems in most aspects.</text:p>
+     <text:p text:style-name="P64">Releasing the resulting stable system as apertium-eng-kaz and disseminate it to the interested parties to obtain feedback about its functioning. We can reasonably expect this system to work better than the existing commercial systems in most aspects.</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P4">As a longer-range objective, and when a reasonably complete prototype is available, we will tackle another interesting goal: the use of feedback from human input (for instance, in an interactive machine translation system that provides completions to what the translator is typing <text:span text:style-name="T1">[show prototype? Update? Give reference to transtype? <text:s/>- Maybe remove this part?]</text:span> to improve the system.<text:span text:style-name="T41"> </text:span></text:p>
+   <text:p text:style-name="Text_20_body">As a longer-range objective, and when a reasonably complete prototype is available, we will tackle another interesting goal: the use of feedback from human input (for instance, in an interactive machine translation system that provides completions to what the translator is typing).</text:p>
+   <table:table table:name="Table3" table:style-name="Table3">
+    <table:table-column table:style-name="Table3.A"/>
+    <table:table-column table:style-name="Table3.B"/>
+    <table:table-column table:style-name="Table3.C"/>
+    <table:table-column table:style-name="Table3.D"/>
+    <table:table-header-rows>
+     <text:soft-page-break/>
+     <table:table-row>
+      <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+       <text:p text:style-name="P58">English </text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+       <text:p text:style-name="P58">Kazakh (Apertium)</text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="Table3.A1" office:value-type="string">
+       <text:p text:style-name="P58">Kazakh (Sanasoft)</text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="Table3.D1" office:value-type="string">
+       <text:p text:style-name="P58">Kazakh (Trident)</text:p>
+      </table:table-cell>
+     </table:table-row>
+    </table:table-header-rows>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A2" office:value-type="string">
+      <text:p text:style-name="P48">The children played in the beautiful park</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A2" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">балалар <text:s text:c="3"/>әдемі саябақта ойнады </text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A2" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Балалар әдемі</text:span> <text:span text:style-name="Strong_20_Emphasis">park</text:span> <text:span text:style-name="Emphasis">ойнады</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D2" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Бала-шағалар, тамаша саябақта</text:span> <text:span text:style-name="Strong_20_Emphasis">played</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A2" office:value-type="string">
+      <text:p text:style-name="P48">I see the blue sky.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A2" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Мен <text:s text:c="2"/>көк аспанды көремін </text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A2" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis"><text:span text:style-name="T17">Мен</text:span></text:span><text:span text:style-name="Emphasis"><text:span text:style-name="T21">де</text:span></text:span><text:span text:style-name="Emphasis"> көк аспан көріп жатырмын</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D2" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Мен көгілдір аспанды көремін.</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48">You go to school</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P45"><text:span text:style-name="Emphasis">Сіз мектепке барасыз</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Сіз мектепке бар</text:span><text:span text:style-name="Strong_20_Emphasis">дың</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">сендер үйрету барасыңдар</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48">A book has been given to you</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P45"><text:span text:style-name="Emphasis">кітап <text:s/>сізге <text:s text:c="2"/>беріліп болған </text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Кітап</text:span> <text:span text:style-name="Strong_20_Emphasis">барып жатыр</text:span> сізге берсін</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D4" office:value-type="string">
+      <text:p text:style-name="P48">Кітап <text:span text:style-name="Strong_20_Emphasis">жібер</text:span><text:span text:style-name="T21">-</text:span> сендерге болды</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48">I can go to the three big shop </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P46"><text:span text:style-name="Emphasis">Мен <text:s text:c="3"/>үш үлкен дүкенге <text:s/>бара аламын</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Мен</text:span> <text:span text:style-name="Strong_20_Emphasis">three</text:span> <text:span text:style-name="Emphasis">үлкен магазинге</text:span> <text:span text:style-name="Strong_20_Emphasis">болып</text:span> <text:span text:style-name="Emphasis">жатырмын жүрмін</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Мен</text:span> <text:span text:style-name="Strong_20_Emphasis">үшке</text:span> <text:span text:style-name="Emphasis">деген бару үлкен дүкен білемін</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48">The most beautiful of garden is opened </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P45"><text:span text:style-name="Emphasis"><text:s text:c="2"/>бақшаның ең әдемісі <text:s/>ашылады </text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Strong_20_Emphasis">Көпшілік</text:span> <text:span text:style-name="Emphasis">әдемі бақ ашық</text:span> <text:span text:style-name="Strong_20_Emphasis">бар</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Ең тамаша бақш</text:span><text:span text:style-name="Strong_20_Emphasis">адан</text:span> <text:span text:style-name="Emphasis">болады</text:span> <text:span text:style-name="Strong_20_Emphasis">ашыл</text:span><text:span text:style-name="T21">-</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48">I see my car </text:p>
+      <text:p text:style-name="P48"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P45"><text:span text:style-name="Emphasis">Мен <text:s/>менің жеңіл автокөлігімді көремін </text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Мен менің автомобилім көріп жатырмын</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D4" office:value-type="string">
+      <text:p text:style-name="P51"><text:span text:style-name="Emphasis">Мен өзінің автомобильсын көремін</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P51">I come through green trees </text:p>
+      <text:p text:style-name="P51"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P47"><text:span text:style-name="Emphasis">Мен <text:s text:c="2"/>жасыл ағаштар арқылы келемін </text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Мен</text:span> <text:span text:style-name="Strong_20_Emphasis">жолда түспейтін</text:span><text:span text:style-name="Emphasis"><text:span text:style-name="T21"> </text:span></text:span><text:span text:style-name="Emphasis">жасыл ағаштар жақындап жатырмын</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Мен</text:span><text:span text:style-name="T21"> </text:span><text:span text:style-name="Strong_20_Emphasis">кінәде</text:span> <text:span text:style-name="Emphasis">жасыл тал-шыбықтарды </text:span><text:span text:style-name="Strong_20_Emphasis">жасырмаймын</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48">The famous doctor of the city is going to hospital </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P46"><text:span text:style-name="Emphasis">қаланың <text:s/>танымал дәрігері <text:s text:c="2"/>емханаға <text:s/>барып жатыр </text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Атақты дәрігер қала ауруханаға барады</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">қаланың</text:span> <text:span text:style-name="Strong_20_Emphasis">атайы</text:span> <text:span text:style-name="Emphasis">докторы ауруханаға деген жиналады</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48">She was a user </text:p>
+      <text:p text:style-name="P48"/>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P46"><text:span text:style-name="Emphasis">Ол <text:s text:c="2"/>қолданушы болды </text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Ол</text:span> <text:span text:style-name="Strong_20_Emphasis">user</text:span> <text:span text:style-name="Emphasis">болды</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Ол пайдаланушы</text:span><text:span text:style-name="Strong_20_Emphasis">мен</text:span><text:span text:style-name="Emphasis"> болды</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row>
+     <table:table-cell table:style-name="Table3.A2" office:value-type="string">
+      <text:p text:style-name="P48">She eats chocolates with sugar</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A2" office:value-type="string">
+      <text:p text:style-name="P46"><text:span text:style-name="Emphasis">Ол <text:s text:c="2"/>шоколадтарды <text:s/>қантпен жейді </text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.A4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Ол</text:span> <text:span text:style-name="Strong_20_Emphasis">eats chocolates</text:span><text:span text:style-name="T21"> </text:span><text:span text:style-name="Emphasis">қант</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Table3.D4" office:value-type="string">
+      <text:p text:style-name="P48"><text:span text:style-name="Emphasis">Ол шоколадтарды қантпен жейді</text:span></text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Table">Table <text:sequence text:ref-name="refTable5" text:name="Table" text:formula="ooow:Table+1" style:num-format="1">6</text:sequence>: Example machine translation output for some simple phrases and examples</text:p>
+   <text:p text:style-name="Text_20_body"><text:span text:style-name="T21">Acknowledgements</text:span>: MLF thanks the Kazakh state program for the attraction of foreign scholars and Prof. Ualsher Tukeyev for supporting his visit to the Kazakh National University, where part of this work was carried out. We also thank Assem Shormakova, Aizhan Aitkulova, and Prof. Tukeyev for their valuable input.</text:p>
    <text:p text:style-name="Heading">References</text:p>
    <text:p text:style-name="reference">Cutting, D., Kupiec, J., Pedersen, J., Sibun, P. 1992. “A practical part-of-speech tagger”. <text:span text:style-name="Emphasis">Proceedings of the 3rd Conference on Applied Natural Language Processing</text:span> (ANLP’92), p. 133-140.</text:p>
    <text:p text:style-name="reference">Forcada, M.L., Ginestí-Rosell, M., Nordfalk, J., O&apos;Regan, J., Ortiz-Rojas, S., Pérez-Ortiz, J.A. Sánchez-Martínez, F., Ramírez-Sánchez, G., Tyers, F.M. 2011. “Apertium: a free/open-source platform for rule-based machine translation”. Machine Translation 25(2)127-144.</text:p>
    <text:p text:style-name="reference">Karlsson, F., Voutilainen, A., Heikkilä, J., Anttila, A. 1995. <text:span text:style-name="Emphasis">Constraint Grammar: A Language-Independent System for Parsing Unrestricted Text</text:span>. Mouton de Gruyter, Berlin.</text:p>
    <text:p text:style-name="reference">Koehn, P. (2010) <text:span text:style-name="Emphasis">Statistical Machine Translation</text:span>, Cambridge University Press.</text:p>
    <text:p text:style-name="reference">Печерских, Т. Ф., Амангельдина, Г. А. (2012) “Особенности перевода разносистемных языков (на примере английского и казахского языков)”, Молодой ученый. №3, 259–261 [<text:a xlink:type="simple" xlink:href="http://www.moluch.ru/archive/38/4406/"><text:span text:style-name="Internet_20_link">http://www.moluch.ru/archive/38/4406/</text:span></text:a>]</text:p>
-   <text:p text:style-name="reference">Papineni, K., Roukos, S., Ward. T.. amd Zhu, W.J. (2002) “BLEU: a method for automatic evaluation of machine translation” <text:span text:style-name="Emphasis">In Proceedings of the 40th Annual meeting of the Association for Computational Linguistics, </text:span><text:soft-page-break/><text:span text:style-name="Emphasis">Philadelphia (ACL 2002)</text:span>, pp.311–318.</text:p>
-   <text:p text:style-name="reference">Salimzyanov, I., Washington, J.N., Tyers, F.M. “A free/open-source Kazakh-Tatar machine translation”. Proceedings of MT Summit XIV (Nice, France, 4–6 September 2013), accepted.</text:p>
+   <text:p text:style-name="reference">Papineni, K., Roukos, S., Ward. T.. amd Zhu, W.J. (2002) “BLEU: a method for automatic evaluation of machine translation” <text:span text:style-name="Emphasis">In Proceedings of the 40th Annual meeting of the Association for Computational Linguistics, Philadelphia (ACL 2002)</text:span>, pp.311–318.</text:p>
+   <text:p text:style-name="reference">Salimzyanov, I., Washington, J.N., Tyers, F.M. “A free/open-source Kazakh-Tatar machine translation”. <text:soft-page-break/>Proceedings of MT Summit XIV (Nice, France, 4–6 September 2013), accepted.</text:p>
    <text:p text:style-name="reference">Sánchez-Martínez, F., Pérez-Ortiz, J.A., Forcada, M.L. (2008). “Using target-language information to train part-of-speech taggers for machine translation”. <text:span text:style-name="Emphasis">Machine Translation</text:span>, 22(1-2)29–66.</text:p>
    <text:p text:style-name="reference">Tyers, F. M. and Alperen, M. S. (2010) “SETimes: A parallel corpus of Balkan languages”. Proceedings of the MultiLR Workshop at the Language Resources and Evaluation Conference at LREC2010, 49–53 [<text:a xlink:type="simple" xlink:href="http://www.lrec-conf.org/proceedings/lrec2010/workshops/W22.pdf"><text:span text:style-name="Internet_20_link">http://www.lrec-conf.org/proceedings/lrec2010/workshops/W22.pdf</text:span></text:a>].</text:p>
    <text:p text:style-name="Text_20_body"/>

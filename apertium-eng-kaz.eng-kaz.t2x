@@ -52,6 +52,10 @@
       <cat-item tags="GenP"/>
       <cat-item tags="GenP.*"/>
     </def-cat>
+ <def-cat n="if"> 
+      <cat-item tags="if"/>
+      <cat-item tags="if.*"/>
+    </def-cat>
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
     </def-cat>
@@ -64,6 +68,7 @@
       <attr-item tags="VP"/>
       <attr-item tags="AdjP"/>
       <attr-item tags="SupP"/>
+      <attr-item tags="if"/>
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
@@ -105,6 +110,7 @@
       <attr-item tags="prc_perf"/>
       <attr-item tags="past"/>      
       <attr-item tags="pres"/>
+      <attr-item tags="gna_cond"/>
       <attr-item tags="fut"/>
       <attr-item tags="TD"/>  <!-- For the future? -->
     </def-attr>
@@ -344,6 +350,43 @@
       </out>
      </action>
 </rule>
+
+<rule comment="NEW RULE: if NP VP">
+    <!--Егер мен барсам -->
+     <pattern>
+       <pattern-item n="if"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+     </pattern>
+     <action>
+           <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk> 
+      <b pos="1"/>
+           <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="2" part="a_nbr"/> <!-- agree number -->
+            <clip pos="2" part="a_pers"/> <!-- agree person -->
+             <lit-tag v="gna_cond"/>
+            <clip pos="3" part="a_possessive"/> 
+            <clip pos="3" part="a_neg"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk> 
+      </out>
+     </action>
+    </rule>
+
+
 
 <rule comment="NEW RULE SupP GenP → GenP SupP">
 <!-- reorders SupP and GenP and will set possessive on SupP -->

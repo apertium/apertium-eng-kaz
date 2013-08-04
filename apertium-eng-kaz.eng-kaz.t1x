@@ -175,7 +175,9 @@
       <cat-item tags="px1pl"/>
       <cat-item tags="px2pl"/>
     </def-cat>
-
+ <def-cat n="cnjadv">
+       <cat-item tags="cnjadv"/>
+    </def-cat>
 
 
    
@@ -215,6 +217,9 @@
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
  <attr-item tags="vaux"/>
+    </def-attr>
+ <def-attr n="a_cnjadv">
+       <attr-item tags="cnjadv"/>
     </def-attr>
     <def-attr n="a_kaz_verb"> 
       <attr-item tags="v.tv"/>
@@ -292,6 +297,7 @@
     <def-var n="poss-frm"/> <!-- formality for possessives -->
     <def-var n="preblank-1"/>
     <def-var n="preblank-2"/>
+ <def-var n="cnjadv_lu"/> <!-- for conditional IF -->
     
   </section-def-vars>
 
@@ -1043,6 +1049,8 @@
         </let>
 </def-macro>
 
+
+
 <def-macro n="build-num-lu" npar="1"> 
      <let>
            <var n="num_lu"/>
@@ -1098,6 +1106,16 @@
            </concat>  
         </let>
 
+</def-macro>
+
+<def-macro n="build-cnjadv-lu" npar="1"> 
+     <let>
+           <var n="cnjadv_lu"/>
+           <concat>
+             <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_"/>
+           </concat>  
+        </let>
 </def-macro>
 
 <def-macro n="build-possessive-from-possessive-determiner" npar="1">
@@ -5328,6 +5346,25 @@ this would have to be changed -->
     </tags>
     <lu>
       <var n="num_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: cnjadv">  
+  <pattern>
+    <pattern-item n="cnjadv"/>
+  </pattern>
+  <action>
+   <call-macro n="build-cnjadv-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="if">
+    <tags>
+    <tag><lit-tag v="cnjadv"/></tag>
+    </tags>
+    <lu>
+      <var n="cnjadv_lu"/>
      </lu>
     </chunk>
     </out>

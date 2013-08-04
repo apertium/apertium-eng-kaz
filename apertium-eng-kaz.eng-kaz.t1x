@@ -1113,7 +1113,7 @@
            <var n="cnjadv_lu"/>
            <concat>
              <clip pos="1" side="tl" part="lem"/> 
-               <clip pos="1" side="tl" part="a_"/>
+               <clip pos="1" side="tl" part="a_cnjadv"/>
            </concat>  
         </let>
 </def-macro>
@@ -1736,6 +1736,38 @@
   </action>
 </rule>
 
+<rule comment="NEW RULE: verb conditional"> <!--If I go  -->
+  <pattern>
+
+    <pattern-item n="pers-verb"/>
+    
+  </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+        <out>
+      <chunk name="cond">
+      <tags>
+        <tag><lit-tag v="VP_cond"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="gna_cond"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <lu>
+          <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_kaz_verb"/>
+    	  <lit-tag v="4"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+        </lu>
+       
+      </chunk>
+  </out>
+      
+  </action>
+</rule>
+
 
 <rule comment="NEW RULE: verb"> 
   <pattern>
@@ -1781,7 +1813,6 @@
     </choose>
   </action>
 </rule>
-
 
 
 

@@ -13,6 +13,10 @@
     <def-cat n="VP_must_inf">
       <cat-item tags="VP_must_inf.*"/>
     </def-cat>
+
+ <def-cat n="VP_cond">
+      <cat-item tags="VP_cond.*"/>
+    </def-cat>
 <def-cat n="VP_want_to_inf">
       <cat-item tags="VP_want_to_inf.*"/>
     </def-cat>
@@ -356,7 +360,7 @@
      <pattern>
        <pattern-item n="if"/>
        <pattern-item n="NP"/>
-       <pattern-item n="VP"/>
+       <pattern-item n="VP_cond"/>
      </pattern>
      <action>
            <out>
@@ -381,7 +385,8 @@
             <clip pos="3" part="a_possessive"/> 
             <clip pos="3" part="a_neg"/>
             <clip pos="3" part="chcontent"/>
-          </chunk> 
+
+         </chunk> 
       </out>
      </action>
     </rule>

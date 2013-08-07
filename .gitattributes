@@ -26,6 +26,7 @@
 dev/Correct_tests.html -text
 dev/article-for-comp-proc-turk-lang.fodt -text
 dev/bidix-entries-nouns-from-gloss.txt -text
+dev/lexcdiff.py -text
 dev/news.en -text
 dev/text-to-recycle-for-article.rtf -text
 dev/transfer-rehaul-notes.tex -text

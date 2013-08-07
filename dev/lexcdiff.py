@@ -14,6 +14,7 @@ parser.add_argument('lexc2', type=argparse.FileType('r'),
 	help='the file to look find extra stems in')
 parser.add_argument('--lex', dest='lexicon', action='store', 
 	help='which lexicon to extract')
+parser.add_argument('--noformat', dest='notFormatted', action='store_true')
 
 args = parser.parse_args()
 
@@ -39,6 +40,7 @@ def getLexicon(lexc):
 
 #cleanStem = re.compile("^(.*):.*")
 cleanStem = re.compile("^.*(?=\:.* ;)")
+cleanGych = re.compile("^\s*(.*):(.*?)\s*(\w*)\s*;.*!\s*?\"?(.*)\"?(.*)")
 
 def getStem(line):
 	stem = ""
@@ -52,18 +54,32 @@ def getStem(line):
 
 def getStems(lexc):
 	stems = set()
+	entries = {}
 	for line in lexc.split('\n'):
 		stem = getStem(line)
-		if stem: stems.add(stem)
-	return stems
+		if stem:
+			stems.add(stem)
+			#entries[stem] = line.strip()
+			#entries[stem] = cleanGych.sub(line, '\1:\2 \3 ; ! \"\4\" \5')
+			entries[stem] = cleanGych.sub('\g<1>:\g<2> \g<3> ; ! \"\g<4>\" \g<5>', line)
+			#entries[stem] = cleanGych.sub('+\g<2>+\g<3>+', line)
+			#entries[stem] = cleanGych.sub(line, '\g<1> ; \"$2\" ! \5')
+	return (stems, entries)
 
 
 lexc1 = getLexicon(args.lexc1)
 lexc2 = getLexicon(args.lexc2)
 
-stems1 = getStems(lexc1)
-stems2 = getStems(lexc2)
+(stems1, entries1) = getStems(lexc1)
+(stems2, entries2) = getStems(lexc2)
 
-print(stems1 - stems2)
+diff = stems1 - stems2
+#entries = entries1 + entries2
+
+if args.notFormatted:
+	print(diff)
+else:
+	for stem in diff:
+		print(entries1[stem])
 
 #print(lexc1)

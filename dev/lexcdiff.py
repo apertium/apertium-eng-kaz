@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 ### Example Usage ###
-# dev/lexcdiff.py apertium-eng-kaz.kaz.lexc ../apertium-kaz/apertium-kaz.kaz.lexc --lex Nouns
+# dev/lexcdiff.py apertium-eng-kaz.kaz.lexc ../apertium-kaz/apertium-kaz.kaz.lexc --comment "Use/MT kaz-eng" --lex Nouns
 
 import sys, re
 import argparse
@@ -14,7 +14,10 @@ parser.add_argument('lexc2', type=argparse.FileType('r'),
 	help='the file to look find extra stems in')
 parser.add_argument('--lex', dest='lexicon', action='store', 
 	help='which lexicon to extract')
-parser.add_argument('--noformat', dest='notFormatted', action='store_true')
+parser.add_argument('--noformat', dest='notFormatted', action='store_true',
+	help='just return a list of stems on one line')
+parser.add_argument('--comment', dest='comment', action='store',
+	help='an optional comment to add at the end of lines output by this script')
 
 args = parser.parse_args()
 
@@ -40,6 +43,7 @@ def getLexicon(lexc):
 
 #cleanStem = re.compile("^(.*):.*")
 cleanStem = re.compile("^.*(?=\:.* ;)")
+# FIXME: there's a bug here; it's not skipping quotes right:
 cleanGych = re.compile("^\s*(.*):(.*?)\s*(\w*)\s*;.*!\s*?\"?(.*)\"?(.*)")
 
 def getStem(line):
@@ -64,6 +68,8 @@ def getStems(lexc):
 			entries[stem] = cleanGych.sub('\g<1>:\g<2> \g<3> ; ! \"\g<4>\" \g<5>', line)
 			#entries[stem] = cleanGych.sub('+\g<2>+\g<3>+', line)
 			#entries[stem] = cleanGych.sub(line, '\g<1> ; \"$2\" ! \5')
+			if args.comment:
+				entries[stem] += " ! " + args.comment
 	return (stems, entries)
 
 

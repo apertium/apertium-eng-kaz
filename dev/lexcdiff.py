@@ -42,9 +42,9 @@ def getLexicon(lexc):
 	return output
 
 #cleanStem = re.compile("^(.*):.*")
-cleanStem = re.compile("^.*(?=\:.* ;)")
+cleanStem = re.compile("^[^!]*(?=\:.* ;)")
 # FIXME: there's a bug here; it's not skipping quotes right:
-cleanGych = re.compile("^\s*(.*):(.*?)\s*(\w*)\s*;.*!\s*?\"?(.*)\"?(.*)")
+cleanGych = re.compile("^\s*(.*):(.*?)\s*([\w\-]*)\s*;.*!\s*?\"?(.*)\"?(.*)")
 
 def getStem(line):
 	stem = ""
@@ -66,6 +66,8 @@ def getStems(lexc):
 			#entries[stem] = line.strip()
 			#entries[stem] = cleanGych.sub(line, '\1:\2 \3 ; ! \"\4\" \5')
 			entries[stem] = cleanGych.sub('\g<1>:\g<2> \g<3> ; ! \"\g<4>\" \g<5>', line)
+			#FIXME: to fix above quote bug:
+			entries[stem] = re.sub('\"\s*\"', "\"", entries[stem])
 			#entries[stem] = cleanGych.sub('+\g<2>+\g<3>+', line)
 			#entries[stem] = cleanGych.sub(line, '\g<1> ; \"$2\" ! \5')
 			if args.comment:

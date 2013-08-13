@@ -4,280 +4,185 @@
 
 ! See http://wiki.apertium.org/wiki/Turkic_lexicon
 
-!=================!
- Multichar_Symbols
-!=================!
-
+Multichar_Symbols
 ! Followed http://wiki.apertium.org/wiki/Turkic_languages
 
-! Part of speech categories = First-level tags
-%<n%>         ! Noun                       ! Зат есім
-%<np%>        ! Proper noun                ! Жалқы есім
-%<adj%>       ! Adjective                  ! Сын есім
-%<num%>       ! Numeral                    ! Сан есім
-%<prn%>       ! Pronoun                    ! Есімдік
-%<det%>       ! Determiner                 ! Детерминатив
-%<v%>         ! Verb                       ! Етістік
-%<vaux%>      ! Auxilary verb              ! Көмекші етістік
-%<adv%>       ! Adverb                     ! Үстеу
-%<post%>      ! Postposition               ! Септеулік шылау
-%<postadv%>   ! Postadverb                 ! "Постүстеу" (*1)
-%<cnjcoo%>    ! Co-ordinating conjunction  ! Cалаластырғыш жалғаулық
-%<cnjsub%>    ! Sub-ordinating conjunction ! Cабақтастырғыш жалғаулық
-%<cnjadv%>    ! Adverbial conjunction      ! "Үстеу-жалғаулық"
-%<ij%>        ! Interjection               ! Одағай
-%<abbr%>      ! Abbreviation               ! Қысқарған сөз
-%<cop%>       ! Copula                     ! Копула
-%<ideo%>      ! Ideophone                  ! Еліктеу сөз
-
-! *1. Анықтаған сөздерінің артынан келетін үстеулер ("демеуліктер") !# ғана, -ақ
+! Part of speech categories 
+%<n%>                 ! Noun                       ! Зат есім
+%<np%>                ! Proper noun
+%<adj%>               ! Adjective                  ! Сын есім
+%<num%>               ! Numeral                    ! Сан есім
+%<prn%>               ! Pronoun
+%<det%>               ! Determiner
+%<v%>                 ! Verb
+%<vaux%>              ! Auxilary verb
+%<adv%>               ! Adverb                     ! Үстеу           ! Наречие
+%<post%>              ! Postposition               ! Септеулік шылау
+%<postadv%>           ! Postadverb                 ! "Артүстеу"
+%<cnjcoo%>            ! Co-ordinating conjunction  ! жалғаулық шылау
+%<cnjsub%>            ! Sub-ordinating conjunction ! жалғаулық шылау
+%<cnjadv%>            ! Adverbial conjunction      ! жалғаулық шылау
+%<part%>              ! Particle
+%<ij%>                ! Interjection               ! Одағай
+%<abbr%>              ! Abbreviation
+%<cop%>               ! Copula
 
 ! Proper noun types
-%<top%>       ! Toponym      ! Топоним
-%<ant%>       ! Anthroponym  ! Кісі есімі
-%<cog%>       ! Cognomen     ! Фамилия
-%<pat%>       ! Patronym     ! Әке текті есім
-%<org%>       ! Organization ! Ұйым есімі
-%<al%>        ! Other        ! Басқалар
+%<top%>               ! Toponym
+%<ant%>               ! Anthroponym
+%<cog%>               ! Cognomen
+%<org%>               ! Organization
+%<al%>                ! Other
 
 !! gender of anthroponyms and cognoms
-%<m%>         ! Masculine
-%<f%>         ! Feminine
-%<mf%>        ! Masculine/feminine !# basically cognoms without -ов/-ова,
-                                   ! -ин/-ина endings
+%<m%>                 ! Masculine
+%<f%>                 ! Feminine
+%<mf%>                ! Masculine/feminine !# basically cognoms without -ов/-ова ending
 
 ! "Syntactic" tags. Attributive use of non-adjectives etc.
-%<attr%>      ! Attributive
-%<subst%>     ! Substantive
-%<advl%>      ! Adverbial
+%<attr%>              ! Attributive
+%<subst%>             ! Substantive
+%<pred%>              ! Predicative !! deprecated
+%<advl%>              ! Adverbial
 
 ! Number
-%<sg%>        ! Singular
-%<pl%>        ! Plural
+%<sg%>                ! Singular
+%<pl%>                ! Plural
 
 ! Possessives
-%<px1sg%>     ! First person singular
-%<px2sg%>     ! Second person singular
-%<px3sp%>     ! Third person singular/plural
-%<px1pl%>     ! First person plural
-%<px2pl%>     ! Second person plural
-%<px%>        ! General possessive          !# -нікі
+%<px1sg%>             ! First person singular
+%<px2sg%>             ! Second person singular
+%<px3sp%>             ! Third person singular/plural
+%<px1pl%>             ! First person plural
+%<px2pl%>             ! Second person plural
+%<px%>                ! General possessive     !# -нікі
 
 ! Cases
-%<nom%>       ! Nominative
-%<gen%>       ! Genitive
-%<dat%>       ! Dative
-%<acc%>       ! Accusative
-%<abl%>       ! Ablative
-%<loc%>       ! Locative
-%<ins%>       ! Instrumental
+%<nom%>               ! Nominative
+%<gen%>               ! Genitive
+%<dat%>               ! Dative 
+%<acc%>               ! Accusative 
+%<abl%>               ! Ablative 
+%<loc%>               ! Locative 
+%<ins%>               ! Instrumental 
 
 !! some additional ~cases
-%<sim%>       ! Similative
-              !# DAй
-%<abe%>       ! Abessive=Privative ! Лишительный
-              !# SIZ (not used after posessives and cases)
-%<reas%>      ! not used rigth now, just in case for
-              !# LIKTAN
-
+%<sim%>               ! Similative (<apprx> in kymorph) !! -дай/-дәй, -тай, -тәй
+%<reas%>              ! Reason
+%<abe%>               ! Abessive
 ! Levels of comparison of adjectives
-%<comp%>      ! Comparative
-
-! TODO
-!! Some adjecives have a "weakening" form, e.g. яшел>яшькелт, сары>саргылт; but
-!! also ак>аксыл, кара>карасу. Sometimes they take the comparative RAK affix,
-!! e.g. кызгылтрак.
-
-! TODO
-!! There is also what can be called a synthetic superlative form (as opposed
-!! to the /ең<adv>+X<adj>/ construction) -- кап-кара, тип-тигез, төп-төгәл etc.
-!! Probably easiest way would be just to lexicalize them, but make sure that
-!! they don't take the comparative affix.
+%<comp%>              ! Comparative
+%<sup%>               ! Superlative
 
 ! Pronoun types
-%<pers%>      ! Personal
-%<recip%>     ! Reciprocal
-
-!! Pronoun&Determiner types
-%<dem%>       ! Demonstrative
-%<ind%>       ! Indefinite
-%<itg%>       ! Interrogative
-%<qnt%>       ! Quantifier
-%<neg%>       ! Negative       !# ешкім
-              ! (NOTE: also used to denote negation in verbs, i.e for м{A})
-%<ref%>       ! Reflexive
+%<pers%>              ! Personal
+%<ref%>               ! Reflexive
+%<recip%>             ! Reciprocal pronoun
+! Pronoun and determiner types
+%<dem%>               ! Demonstrative
+%<ind%>               ! Indefinite
+%<itg%>               ! Interrogative
+%<qnt%>               ! Quantifier
+%<neg%>               ! Negative       !# еш нерсе ! NOTE: also used to denote negation in verbs
 
 ! Numeral types
-%<ord%>       ! Ordinal
-%<coll%>      ! Collective
-%<dist%>      ! Distributive
+%<ord%>               ! Ordinal
+%<coll%>              ! Collective
 
-! Verbal features
+! Tense, aspect, mood
+%<imp%>               ! Imperative
+%<caus%>              ! causative
+%<coop%>              ! Cooperative
+%<pass%>              ! passive
 
-!! Mood
-%<imp%>       ! Imperative
-%<opt%>       ! Optative/jussive
+%<ifi%>               ! eyewitness past
+%<past%>              ! past
+%<evid%>              ! evidential
+%<aor%>               ! non-future
+%<pres%>              ! for "жатыр", "тұр" and other 2
+%<fut%>               ! future
+%<fut_plan%>          ! future plan
 
-!! Derivation
-%<caus%>      ! Causative
-%<pass%>      ! Passive
-%<coop%>      ! Cooperative
+!! Participles
+%<prc_perf%>          ! perfect participle (-{I}п) !# "Бірақ мысығы үйде, _ұйықтап_ жатыр." 
+%<prc_plan%>          ! plan participle
+%<prc_cond%>          ! conditional participle
+%<prc_impf%>          ! imperfect participle       !# "...олар далада _ойнай_ алмады..."
+%<prc_irre%>          ! irrealis participle
+%<prc_vol%>           ! volition participle
 
-!! Tense / finite forms
-%<pres%>      ! for "жатыр", "тұр", "отыр" and "жүр"
-%<aor%>       ! -{E}
-%<past%>      ! -{G}{A}н
-%<ifi%>       ! -{D}{I}
-%<ifi_evid%>  ! -{I}пт{I}
-%<fut%>       ! -{I}р
-%<fut_plan%>  ! -{M}{A}{K}
+!! Verbal adverbs - Глаголные наречия 
+%<gna_cond%>          ! -с{A}   !# "...қайда екенін _білсе_ де айтқысы келген жоқ...."
+%<gna9%>              ! -{I}п
 
-!! Non-Finite verb forms
+!! Verbal adjectives - Глаголные причастия
+%<glp_fut%>           ! future verbal adjective
+%<glp_fut2%>          ! another future verbal adjective
+%<glp_past%>          ! past verbal adjective
+%<glp_impf%>          ! imperfect verbal adjective
+%<glp_pot%>           ! potential verbal adjective
 
-!!! Participles
-%<prc_perf%>  ! Perfect participle
-              ! -{I}п
-              !# "Бірақ мысығы үйде, _ұйықтап_ жатыр.";
-%<prc_impf%>  ! Imperfect participle
-              ! -{E}
-              !# "...олар далада _ойнай_ алмады...";
-%<prc_vol%>   ! Volition participle
-              ! -{G}{I}
-              !# барғым келмейді;
-%<prc_cond%>  ! Conditional participle
-              ! -с{A}
-              !# ...жесең болады...;
-%<prc_fplan%> ! Future plan participle
-              ! -{M}{A}{K},
-              ! -{M}{A}{K}ш{I} Dir/LR
-              !# "Шал қазға бармақшы болады.";
-%<prc_plan%>  ! Plan participle
-              ! -{G}{A}л{I}
-              !# мен сөйлескелі келдім;
-!%<prc_irre%> ! Irrealis participle
-              ! -{E}{T}{I}н
-              ! (This form is analyzed as <grp_impf> and <ger_impf>)
-              ! (FIXME this might be wrong)
+!! Gerunds - Исем фигыльләр
+%<ger%>               ! just a gerund         ! -{U}
+%<ger_ppot%>          ! gerund p??? potential
+%<ger_past%>          ! past/perfect gerund
+%<ger_perf%>          ! perfective gerund
+%<ger_impf%>          ! imperfective gerund
+%<ger_abs%>           ! absolute(?) gerund
 
-!!! Verbal adverbs ! Көсемшелер !Глагольные наречия
-%<gna_perf%>  ! -{I}п
-              !# "...ул вакытта инде кояш _баеп_, йолдызлар күренә башлаган
-              !# иде..." (Ф.Хөсни);
-%<gna_cond%>  ! -с{A}
-              !# ...қайда екенін _білсе_, маған бұл туралы айтыр еді...;
-%<gna_until%> ! -{G}{A}нш{A}
-              !# "Мен кеткенше ол жауап бермейді.";
-%<gna_after%> ! -{G}{A}л{I}
-              ! (NOTE: ambiguous with prc_plan)
-              !# "Сабақ _біткелі_ екі сағат өтті."; Ол кеткелі біз жұмыс
-              !# істемейдік;
-
-!!! Verbal adjectives ! Есімшелер ! Глагольные причастия
-%<gpr_past%>  ! -{G}{A}н               ! past verbal adjective
-              !# келген адам; оқылмаған кітап;
-%<gpr_impf%>  ! -{E}{T}{I}н            ! imperfect verbal adjective
-              !# басқаратын = руководящий
-%<gpr_pot%>   ! -{U}ш{I}               ! potential verbal adjective
-              !# "...өзінің қадір-қасиетін арттыруға _тырысушы_ саясаткер...";
-%<gpr_ppot%>  ! -{A}рл{I}{K}
-              !# сүйсінерлік ерлік;
-%<gpr_fut%>   ! -{I}р                  ! future verbal adjective
-              !# ""Барар жерің Балкан тау, ол да біздің көрген тау";
-
-!!! Gerunds (verbal nouns)
-%<ger%>       ! -{U}
-%<ger_past%>  ! -{G}{A}н
-%<ger_perf%>  ! -{G}{A}нл{I}{K}   (stresses the fact that something happened)
-%<ger_ppot%>  ! -{A}рл{I}{K}      (~the ability to do the denoted action)
-              !# "_Сүйсінерлігі_ сол, өз сеніміне берік те адал халқымыз дінін
-              !# сатпады, өзгенің тәтті де сылдыр сөзіне ермеді...";
-%<ger_abs%>   ! -уш{I}л{I}{K}          FIXME CHECK
-%<ger_fut%>   ! -{A}р
-              !# "Мен айтарымды айттым";
-%<ger_impf%>  ! -{E}{T}{I}н
-              !# "Ол бүгін кешкілік болатынын айтты";
-! TODO cover -{E}{T}{I}нд{I}{K} form
-
-!! Transitivity
-%<tv%>        ! Transitive
-%<iv%>        ! Intransitive
+! Transitivity
+%<tv%>                ! Transitive
+%<iv%>                ! Intransitive
+%<TD%>                ! Temporary tag (unknown transitivity)
 
 ! Person
-%<p1%>        ! First person
-%<p2%>        ! Second person
-%<p3%>        ! Third person
-%<frm%>       ! Formality
+%<p1%>                ! First person 
+%<p2%>                ! Second person 
+%<p3%>                ! Third person
+%<frm%>               ! formal address         ! FIXME: need better comment
 
-! Modal particles
-%<qst%>       ! Modal question particle
-              !# м{A}
-%<emph%>      ! Emphasizing modal particle
-              !# -шы/-ші
-%<mod_ass%>   ! Assertive modal particle
-              !# -ғой/-қой
-%<mod%>       ! Other modal words (шығар, сияқты etc)
+! Clitics
+%<qst%>               ! Modal question particle
+%<mod_foc%>           ! "Particles of politeness and ardent desire" (as in [N. Poppe. Tatar Manual])
+%<mod_ass%>           ! Assertive modal particle
 
 ! Punctuation
-%<sent%>      ! Sentence marker
-%<guio%>      ! Hyphen
-%<cm%>        ! Comma
-%<apos%>      ! Apostrophe
-%<rquot%>     ! Quote marker (right hand side)
-%<lquot%>     ! Quote marker (left hand side)
-%<rpar%>      ! Parenthetical marker (right hand side)
-%<lpar%>      ! Parenthetical marker (left hand side)
+%<sent%>              ! Sentence marker
+%<guio%>              ! Hyphen
+%<cm%>                ! Comma
+%<apos%>              ! Apostrophe
+%<rquot%>             ! Quote marker (right hand side) 
+%<lquot%>             ! Quote marker (left hand side) 
+%<rpar%>              ! Parenthetical marker (right hand side) 
+%<lpar%>              ! Parenthetical marker (left hand side) 
 
-! Archiphonemes
+%{L%}                 ! Archiphoneme 'l': realised as л, д, т
+%{N%}                 ! Archiphoneme 'n': realised as н, д, т
+%{M%}                 ! Archiphoneme 'm': realised as м, б, п
+%{G%}                 ! Archiphoneme 'g': realised as к, қ, г, ғ
+%{G%}                 ! Archiphoneme 'k': realised as к, қ
+%{D%}                 ! Archiphoneme 'd': realised as д, т
+%{A%}                 ! Archiphoneme 'a': realsied as е, а
+%{I%}                 ! Archiphoneme 'i': realised as і, ы
+%{S%}                 ! Realised as 'с' or ''; only used in 3rd person morphology
+%{K%}                 ! Realised as 'к' or 'қ'
+%{n%}                 ! Realised as 'н' or ''; only used in 3rd person morphology and -NIKI
+%{l%}                 ! Realised as 'л' or 'н'; only used in passive -{I}{l}
+%{y%}                 ! Realised as '' or '{I}'; only used in epenthesis for nouns
+%{o%}                 ! Realised as ''; triggers dialectal interpretation of Iп
+%{E%}                 ! Realised as 'а', 'е', 'й' (={A}/й)
+%{д%}                 ! Realised as д before vowels, 0 otherwise
+%{т%}                 ! Realised as т before vowels, 0 otherwise
 
-%{L%}         ! Archiphoneme 'l': realised as л, д, т
-%{N%}         ! Archiphoneme 'n': realised as н, д, т
-%{M%}         ! Archiphoneme 'm': realised as м, б, п
-%{G%}         ! Archiphoneme 'g': realised as к, қ, г, ғ
-%{G%}         ! Archiphoneme 'k': realised as к, қ  >>>FIXME ???<<<
-%{D%}         ! Archiphoneme 'd': realised as д, т
-%{A%}         ! Archiphoneme 'a': realsied as е, а
-%{I%}         ! Archiphoneme 'i': realised as і, ы
-%{S%}         ! Realised as 'с' or ''; only used in 3rd person morphology
-%{K%}         ! Realised as 'к' or 'қ'
-%{n%}         ! Realised as 'н' or '';
-              ! only used in 3rd person morphology and -NIKI
-%{l%}         ! Realised as 'л' or 'н'; only used in passive -{I}{l}
-%{y%}         ! Realised as '' or '{I}'; only used in epenthesis for nouns
-%{o%}         ! Realised as ''; triggers dialectal interpretation of Iп
-%{E%}         ! Realised as 'а', 'е', 'й' (={A}/й)
-%{д%}         ! Realised as д before vowels, 0 otherwise
-%{т%}         ! Realised as т before vowels, 0 otherwise
-
-
-%{а%}         ! Archiphoneme for back vowel numerals/abbreviation
-%{э%}         ! Archiphoneme for front vowel numerals/abbreviation
-
-%{й%}         !
-%{л%}         !
-%{н%}         !
-%{з%}         !
-%{т%}         !
-%{с%}         !
-
-%{☭%}         ! Used to tell the phonology about a Russian word
-
-%{❗%}         ! Obstacles on the road!!!
-%{ъ%}         ! Force back harmony
-
-%>            ! Morpheme boundary
-%             ! Space
-%-            !
-%,            !
-%.            !
-%%            !
+%>                    ! Morpheme boundary
+%                     ! Space
+%-                    ! 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-!============!
- LEXICON Root
-!============!
+LEXICON Root
 
 ModalParticles ;
 Copula ;
@@ -293,352 +198,123 @@ Adjectives ;
 Adverbs;
 Verbs ;
 Interjections ;
-Ideophones ;
 Abbreviations ;
 Punctuation ;
-Digits ; ! Use/Circ
 
-!==============================================================================!
-!
-!                               N U M E R A L S
-!
-!    WARNING: This section should not be modified without consultation.
-!             Test cases are in dev/numerals.
-!==============================================================================!
-
-LEXICON CASE-NONOM
-
-! This continuation lexicon is a copy of the normal case lexicon,
-! only it does not include nominative
-!   1<num><nom> = 1, 1<num><acc> = 1-{N}{I}
-
-%<gen%>:%>%{N%}%{I%}ң COMMON-CLITICS ;
-%<dat%>:%>%{G%}%{A%} COMMON-CLITICS ;
-%<acc%>:%>%{N%}%{I%} COMMON-CLITICS ;
-%<abl%>:%>%{D%}%{A%}н # ;
-%<loc%>:%>%{D%}%{A%} # ;
-%<ins%>:%>%{M%}ен COMMON-CLITICS ;
-
-LEXICON CASE-ETC-NONOM
-
-CASE-NONOM ;
-GENPOSS-ETC ;
-
-LEXICON N-INFL-COMMON-NONOM
-
-POSSESSION ;
-CASE-ETC-NONOM ;
-
-LEXICON SUBST-NONOM
-
-N-INFL-COMMON-NONOM ;
-%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON-NONOM ;
-
-LEXICON SQRD
-! This lexicon includes common ways of writing squared, cubed etc.
-
-²%<num%>:2 # ;  ! Dir/LR
-³%<num%>:3 # ;  ! Dir/LR
-²%<num%>:² # ;
-³%<num%>:³ # ;
-%<num%>: # ;
-
-LEXICON NUM-DIGIT
-
-%<num%>: # ;
-%<num%>%<subst%>%<nom%>: # ;
-%<num%>%<subst%>:%- SUBST-NONOM ;
-%<num%>%<subst%>: SUBST-NONOM ; ! Dir/LR
-
-%<num%>%<ord%>:%-%{I%}нш%{I%} # ;
-%<num%>%<ord%>%<subst%>%<nom%>:%-%{I%}нш%{I%} # ;
-%<num%>%<ord%>%<subst%>:%-%{I%}нш%{I%} SUBST-NONOM ;
-%<num%>%<ord%>:%-ш%{I%} # ; ! Dir/LR
-%<num%>%<ord%>%<subst%>%<nom%>:%-ш%{I%} # ; ! Dir/LR
-%<num%>%<ord%>%<subst%>:%-ш%{I%} SUBST-NONOM ; ! Dir/LR
-
-%<num%>%<coll%>%<advl%>:%-%{A%}у # ;
-%<num%>%<coll%>%<nom%>:%-%{A%}у # ;
-%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
-
-%<num%>%<percent%>:%% # ;
-%<num%>%<percent%>%<subst%>%<nom%>:%% # ;
-
-%<num%>%<percent%>%<subst%>:%%%{а%}%{з%}%- SUBST-NONOM ;
-%<num%>%<percent%>%<subst%>:%%%{а%}%{з%} SUBST-NONOM ; ! Dir/LR
-%<num%>%<percent%>%<subst%>:%%%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-%<num%>%<percent%>%<subst%>:%%%{э%}%{с%} SUBST-NONOM ; ! Dir/LR
-
-°С%<num%>:°С # ;
-°С%<num%>%<subst%>%<nom%>:°С # ;
-°С%<num%>%<subst%>:°С%{а%}%{с%}%- SUBST-NONOM ;
-°С%<num%>%<subst%>:°С%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-°С%<num%>:ºС # ; ! Dir/LR
-°С%<num%>%<subst%>%<nom%>:ºС # ; ! Dir/LR
-°С%<num%>%<subst%>:ºС%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-°С%<num%>%<subst%>:ºС%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-°С%<num%>:С # ; ! Dir/LR
-°С%<num%>%<subst%>%<nom%>:С # ; ! Dir/LR
-°С%<num%>%<subst%>:С%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-°С%<num%>%<subst%>:С%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-
-С%<num%>:° # ; ! Dir/LR
-С%<num%>%<subst%>%<nom%>:° # ; ! Dir/LR
-С%<num%>%<subst%>:°%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-С%<num%>%<subst%>:°%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
-
-! Measurement units
-
-км:км SQRD ;
-мм:мм SQRD ;
-см:см SQRD ;
-м:м SQRD ;
-
-LEXICON LASTDIGIT
-
-1:1%{э%}%{й%}           NUM-DIGIT ; ! "бір"
-2:2%{э%}                NUM-DIGIT ; ! "екі"
-3:3%{э%}%{с%}           NUM-DIGIT ; ! "үш"
-4:4%{э%}%{с%}           NUM-DIGIT ; ! "төрт"
-5:5%{э%}%{с%}           NUM-DIGIT ; ! "бес"
-6:6%{а%}                NUM-DIGIT ; ! "алты"
-7:7%{э%}                NUM-DIGIT ; ! "жеті"
-8:8%{э%}%{з%}           NUM-DIGIT ; ! "сегіз"
-9:9%{а%}%{з%}           NUM-DIGIT ; ! "тоғыз"
-
-LEXICON LASTDIGIT-REST
-
-1%0:1%0%{а%}%{н%}       NUM-DIGIT ; ! "он"
-2%0:2%0%{а%}            NUM-DIGIT ; ! "қырық"
-3%0:3%0%{а%}%{з%}       NUM-DIGIT ; ! "отыз"
-4%0:4%0%{а%}%{с%}       NUM-DIGIT ; ! "қырық"
-5%0:5%0%{э%}%{й%}       NUM-DIGIT ; ! "елу"
-6%0:6%0%{а%}%{с%}       NUM-DIGIT ; ! "алпыс"
-7%0:7%0%{э%}%{с%}       NUM-DIGIT ; ! "жетпіс"
-8%0:8%0%{э%}%{н%}       NUM-DIGIT ; ! "сексен"
-9%0:9%0%{а%}%{н%}       NUM-DIGIT ; ! "тоқсан"
-
-LEXICON POWERS
-%0%0:%0%0%{э%}%{з%}     NUM-DIGIT ; ! "жүз"
-%0%0%0:%0%0%0%{а%}%{н%} NUM-DIGIT ; ! "мың"
-
-LEXICON LOOP
-
-%,:%, DIGITLEX ;
-%.:%. DIGITLEX ;
-%,:%, LASTDIGIT ;
-%.:%. LASTDIGIT ;
-%,:%, LASTDIGIT-REST ;
-%.:%. LASTDIGIT-REST ;
-%,:%, POWERS ;
-%.:%. POWERS ;
-      DIGITLEX ;
-      LASTDIGIT ;
-      LASTDIGIT-REST ;
-      POWERS ;
-
-LEXICON DIGITLEX
-
-%0:%0 LOOP ;
-1:1   LOOP ;
-2:2   LOOP ;
-3:3   LOOP ;
-4:4   LOOP ;
-5:5   LOOP ;
-6:6   LOOP ;
-7:7   LOOP ;
-8:8   LOOP ;
-9:9   LOOP ;
-
-!==============================================================================!
-!          N U M E R A L     L E X I C O N     E N D S     H E R E
-!==============================================================================!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON SUBST
 
 N-INFL-COMMON ;
 %<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
-
-! NOTE: Some substantivised things might not have pl. form, numerals e.g.
-! (not too sure, because in Tatar they have it:
-! #1 meaning an approximate number:
-     !# "Мин белгәндә аңа, мөгаен, _иллеләр_ тирәсе булгандыр."
-! #2 <11 ones meaning pupils from a given class:
-     !# өчләр = "pupils from the 3. class"
+                                     
+! NOTE: Some substantivized things might not have pl. form, numerals e.g. 
+! (not too sure, because in Tatar they have it: 
+! #1 meaning an approximate number: #! "Мин белгәндә аңа, мөгаен, _иллеләр_ тирәсе булгандыр."
+! #2 <11 ones meaning pupils from a given class: #! өчләр = "pupils from the 3. class" 
 !
-! If they don't take plural; link them to N-INFL-COMMON; if they do - to SUBST.
+! If they don't have pl. form; link them to N-INFL-COMMON; if they do - to SUBST.
 ! That's the only difference between N-INFL-COMMON and SUBST.
 !                                                                     /I.S./
 
-!==============================================================================!
-! CLITICS
-!==============================================================================!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-! First, let's list all the clitics we have
+!!!!!!!!!!!!!!!!!!!!!!     CLITICS
 
-LEXICON CLIT-EMPH
+! FIXME: Might need some refactoring
 
-%+шы%<emph%>:%>ш%{I%} # ;
+! Modal/discourse particles
+
+LEXICON CLIT-IMP2P               ! These modal particle/clitic appears only after 2nd person imperatives,
+                            
+!! Politeness
+
+%+шы%<mod_foc%>:%>ш%{I%} # ;
 # ;
 
-LEXICON CLIT-QST-MA
+LEXICON CLIT-MA
+
+!! Question modal particles
 
 %+ма%<qst%>:%>% %{M%}%{A%} # ;
 
-LEXICON CLIT-QST
+LEXICON CLIT-OTHER
 
-CLIT-QST-MA ;
+!! Other question modal particles
+
+!%+меді%<qst%>:% %{M%}еді # ;   ! FIXME:CHECK
 %+мекен%<qst%>:% %{M%}екен # ;
-# ;
 
-LEXICON CLIT-MODASS
+!! Assertive (emphasizing) modal particles
 
 %+ғой%<mod_ass%>:% %{G%}ой # ;
 # ;
 
-LEXICON CLIT-GHANA-ETC
+!! FIXME:DISCUSS: maybe we should handle their harmonizing in postgenerator module,
+!!                and not attach them to the previous word
 
-%+%-ақ%<postadv%>:%-ақ # ; ! ""
-%+ғана%<postadv%>:% %{G%}ана # ; ! ""
-%+да%<cnjcoo%>:% %{D%}%{A%} # ; ! ""
-%+да%<postadv%>:% %{D%}%{A%} # ; ! ""
+%+ғана%<postadv%>:% %{G%}ана # ; ! "only"
+%+да%<postadv%>:% %{D%}%{A%} # ; ! "1. even if"
+%+да%<cnjcoo%>:% %{D%}%{A%} # ; ! "also"
+
+LEXICON CLIT 
+
+CLIT-OTHER ;
+CLIT-MA ;
 # ;
 
-LEXICON CLIT-COPULA
-
-%+е%<cop%>: V-PERS-S1 ;
-
-! Now, let's group them depending on what they can attach to
-
-LEXICON COMMON-CLITICS
-
-CLIT-QST ;
-CLIT-MODASS ;
-CLIT-GHANA-ETC ;
-
-LEXICON CLITICS-INCLUDING-COPULA ! Can appear only after nominals
-                                 ! (and only after some cases).
-COMMON-CLITICS ;
-CLIT-COPULA ;
+LEXICON CLIT-GENERAL
+CLIT ;
+V-PERS-COP ;
 
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)
 
-! The following combinations are possible (examples in Tatar):
-!
-! stem > case                                        : әти<nom> : әтине<acc>
-!
-! stem > poss-real > case                            : әтием<px1sg><nom> : әтиемне<px1sg><acc>
-! stem > poss-real > ныкы/дагы/дай(*1)               : әтиемнеке/китабындагы,өегездәге/әтиемдәй
-! stem > poss-real > ныкы/дагы > case                : Монда _эчеңдәгене_ тышка чыгарырга ярамый. (источник: musulman.su) 
-! stem > poss-real > [ныкы]/дагы > poss-real > case  : _Эчендәгесе_(*3) – тышында, диләр андый кешеләр турында. (источник: beznen.ru)
-!
-! stem > ныкы/дагы/дай                               : әтинеке/әтидәге/әтидәй
-! stem > ныкы/дагы(*2) > case                        : Бу соңгы _еллардагының_ өчтән икесе чамасы.
-!
-! stem > сыз(abe)                  WORKS
-! stem > сыз(abe) > case
-! stem > сыз(abe) > poss > case    (?)
-!
-! *1. "ныкы" form in some Tatar grammars is called "predicative genitive".
-!     Indeed, when not substantivised, it has predicative use:
-!     "Бу яулык әнинеке." (vs "Әнинең яулыгы.")
-! *2. "дай" is considered to be an adverbializer, so no case endings after it (=no <subst> reading).
-!     (at least in Tatar, I think that in Kazakh it's the same)
-! *3. This doesn't work atm (it's recursive), but it doesn't seem to be very frequent also;
-!     Most likely it is restricted to px3sp.
-!-------------------------------------------
-
-LEXICON CASE-COMMON
-
-%<gen%>:%>%{N%}%{I%}ң COMMON-CLITICS ;
-%<dat%>:%>%{G%}%{A%} COMMON-CLITICS ;
-%<acc%>:%>%{N%}%{I%} COMMON-CLITICS ;
-%<ins%>:%>%{M%}ен COMMON-CLITICS ;
-
 LEXICON CASE
 
-CASE-COMMON ;
-%<nom%>: CLITICS-INCLUDING-COPULA ;
-%<abl%>:%>%{D%}%{A%}н CLITICS-INCLUDING-COPULA ;
-%<loc%>:%>%{D%}%{A%} CLITICS-INCLUDING-COPULA ;
+%<nom%>: CLIT-GENERAL ;
+%<gen%>:%>%{N%}%{I%}ң CLIT ;
+%<dat%>:%>%{G%}%{A%} CLIT ;
+%<acc%>:%>%{N%}%{I%} CLIT ;
+%<abl%>:%>%{D%}%{A%}н CLIT-GENERAL ;
+%<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;
+%<ins%>:%>%{M%}ен CLIT ;
 
-
-LEXICON CASE-2  ! The difference from CASE is that CASE-2 doesn't continue
-                ! with personal copula suffixes. Atm used only for <abe>
-                ! thing /02082012, IS/
-
-CASE-COMMON ;
-%<nom%>: COMMON-CLITICS ;
-%<abl%>:%>%{D%}%{A%}н COMMON-CLITICS ;
-%<loc%>:%>%{D%}%{A%} COMMON-CLITICS ;
-
-LEXICON ATTR/SUBST
-
-%<attr%>: COMMON-CLITICS ;
-%<subst%>: CASE ;
-%<subst%>%<pl%>:%>%{L%}%{A%}р CASE ;
-
-LEXICON ABE-ATTR/ADVL/SUBST
-
-! <abe> thing doesn't take personal copula suffixes (JNW, please correct me),
-! so SUBST reading of it is linked to CASE-2, not CASE.
-! A counterexample could be e.g. "бәхет-сез-мен", but that's only because "бәхетсез"
-! has lexicalised as an adjective.
-
-! Note that allowing of the (scarcely existing) [X +<abe> +<pers.cop> (+ modalpcle)] sequence
-! would require some additional rules in kaz-tat.t2x /02082012, IS/
-
-%<attr%>: COMMON-CLITICS ;
-%<advl%>: COMMON-CLITICS ;
-%<subst%>: CASE-2 ;
-%<subst%>%<pl%>:%>%{L%}%{A%}р CASE-2 ;
-
-LEXICON Abessive          ! Doesn't appear after possessives
-
-!%<abe%>:%>с%{I%}з ATTR/ADVL/SUBST ;
-%+сыз%<post%>:%>с%{I%}з ABE-ATTR/ADVL/SUBST ;
-
-LEXICON GENPOSS-ETC      ! Stuff which can appear after possessives too
-
-%<px%>:%>%{N%}ікі%{n%} CASE ;
-%<loc%>:%>%{D%}%{A%}%{G%}%{I%} ATTR/SUBST ; ! <s>FIXME:NOTE: I am in favour for changing the tag to loc2
-                                            ! ("DAGI"=loc2 and not "DAGI"=loc"DA"+attr"GI") But first
-                                            ! I'll give some arguments in a mail to apertium-turkic</s>
-%<sim%>:%>%{D%}%{A%}й COMMON-CLITICS ;                ! FIXME:CHECK:In Tatar this is considered to be an adverbializer, so
-                                            ! no case endings after it. In Kazakh it should be the same /I.S./ 
-LEXICON CASE-ETC
-
-CASE ;
-GENPOSS-ETC ;
-
-LEXICON POSS-REAL
+LEXICON POSS-REAL  ! P_2
 
 %<px1sg%>:%>%{I%}м CASE-ETC ;
-%<px2sg%>:%>%{I%}ң CASE-ETC ;
+%<px2sg%>:%>%{I%}ң CASE-ETC ; 
+%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з CASE-ETC ; 
 %<px3sp%>:%>%{S%}%{I%}%{n%} CASE-ETC ;
-%<px1pl%>:%>%{I%}м%{I%}з CASE-ETC ;
-%<px2pl%>:%>%{I%}ңд%{A%}р CASE-ETC ;
-
-%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з CASE-ETC ;
+%<px1pl%>:%>%{I%}м%{I%}з CASE-ETC ; 
+%<px2pl%>:%>%{I%}ңд%{A%}р CASE-ETC ; 
 %<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р CASE-ETC ;
 
-LEXICON POSSESSION ! I guess this was used once to implement some
-                   ! recursive things, e.g. the sequence
-                   ! [stem > poss-real > [ныкы]/дагы > poss-real > case]
-                   ! Some gerunds link to it
+LEXICON ADJ-DAGI
+! This should probably be called something else
+
+%<subst%>: CASE ; 
+%<attr%>: CLIT ;
+
+LEXICON GEN-POS
+
+%<px%>:%>%{N%}ікі%{n%} CASE ;
+%<loc%>:%>%{D%}%{A%}%{G%}%{I%} ADJ-DAGI ; ! FIXME:NOTE: I am in favour for changing the tag to loc2
+                                          ! ("DAGI"=loc2 and not "DAGI"=loc"DA"+attr"GI") But first
+                                          ! I'll give some arguments in a mail to apertium-turkic
+%<sim%>:%>%{D%}%{A%}й CLIT ;   ! FIXME:CHECK:In Tatar this is considered to be an adverbializer, so
+                               ! no case endings after it. In Kazakh it should be the same /I.S./ 
+
+LEXICON CASE-ETC
+CASE ;
+GEN-POS ;
+!%<adv%>:ш%{A%} # ;          ! FIXME: might not be quite the right place
+
+LEXICON POSSESSION
 POSS-REAL ;
 
-LEXICON N-INFL-COMMON
-
+LEXICON N-INFL-COMMON 
 POSSESSION ;
 CASE-ETC ;
-Abessive ; ! FIXME might lead to overgeneration:
-           !! check whether it occurs after substantivized stuff;
-           !! not all pronouns take it. "Синсез" vs "*үземсез".
-
-
-
-
 
 !!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (ADJ-COMMON)
 
@@ -646,42 +322,42 @@ Abessive ; ! FIXME might lead to overgeneration:
 !! i.e. change <adj><comp><subst> to <adj><subst><comp>
 !! and make use of ADJ-LEVELS class
 
-LEXICON COMPARATIVE
+LEXICON ADJ-LEVELS
 
-%<comp%>:%>%{I%}р%{A%}%{K%} COMMON-CLITICS ;
-COMMON-CLITICS ;
+%<comp%>:%>%{I%}р%{A%}%{K%} CLIT ;
+CLIT ;
 
-LEXICON A1                ! adjectives that can be both substantivised and andverbialised;
+LEXICON A1                ! adjectives that can be both substantivized and andverbialized;
                           ! all three readings (<adj>, <adj.subst> and <adj.advl>) have comparison levels.
                           !# жақсы, тез
 
-%<adj%>: CLITICS-INCLUDING-COPULA ;                             !# жақсы адам
-%<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLITICS-INCLUDING-COPULA ;   !# жақсырақ іс
+%<adj%>: CLIT ;                                       !# жақсы адам
+%<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLIT ;             !# жақсырақ іс
 
-%<adj%>%<subst%>: SUBST ;                             !# жақсыны таптым
+%<adj%>%<subst%>: SUBST ;                             !# жақсыны таптым 
 %<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;   !# жақсырақты таптым
 
-%<adj%>%<advl%>: COMMON-CLITICS ;                               !# жақсы білемін
-%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} COMMON-CLITICS ;     !# "...ион көп болса соғұрлым тоқ жақсырақ өтеді."
+%<adj%>%<advl%>: CLIT ;                               !# жақсы білемін
+%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} CLIT ;     !# "...ион көп болса соғұрлым тоқ жақсырақ өтеді."
 
-LEXICON A2                 ! (derived/not fully lexicalised) adjectives without adverbial reading;
+LEXICON A2                 ! (derived/not fully lexicalized) adjectives without adverbial reading;
                            ! <adj> and <adj.subst> readings have comparison levels.
                            !# ескі
 
-%<adj%>: CLITICS-INCLUDING-COPULA ;                             !# ескі дос
-%<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLITICS-INCLUDING-COPULA ;   !# ескірек заманда
+%<adj%>: CLIT ;                                       !# ескі дос
+%<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLIT ;             !# ескірек заманда
 
 %<adj%>%<subst%>: SUBST ;                             !# "Ол ескіні ертеден есінде сақтаған, жаңаның жалынды жаршысы болған ақын."
 %<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;   !# "Ихтимал, бу бина башкасы, искерәге урынында утырадыр."
 
-LEXICON A3                 ! (derived/not fully lexicalised) adjectives without adverbial reading,
+LEXICON A3                 ! (derived/not fully lexicalized) adjectives without adverbial reading,
                            ! so-called "predicatives" (бар, жоқ);
                            ! no comparison levels at all.
                            !# көктемгі, басты, бар, жоқ
 
-%<adj%>: CLITICS-INCLUDING-COPULA ;   !# көктемгі су тасқыны
-%<adj%>%<subst%>: SUBST ;           !# "...Самаранч ең бастыны түсінді..."
-                                    !# "Аты бардың заты бар."
+%<adj%>: CLIT ;                                       !# көктемгі су тасқыны
+%<adj%>%<subst%>: SUBST ;                             !# "...Самаранч ең бастыны түсінді..."
+                                                      !# "Аты бардың заты бар."
 
 ! FIXME:NOTE:loc.attr/subst form of some of them seems to be pure overgeneration:
 ! e.g. *язгыдагы
@@ -689,606 +365,370 @@ LEXICON A3                 ! (derived/not fully lexicalised) adjectives without 
 LEXICON A4                 ! "pure" adjectives - no adverbial and substantive readings, no comparison levels;
                            !# ұлттық
 
-%<adj%>: CLITICS-INCLUDING-COPULA ;   !# ұлттық тағам
+%<adj%>: CLIT ;                                       !# ұлттық тағам
+
+LEXICON ADJ-COMMON
+
+%<adj%>: ADJ-LEVELS ;       ! FIXME:NOTE: ADJ-COMMON is meant to be used as default cont. class
+                            ! for verbal adjectives (but not all verbal adjectives can get comparative
+                            ! level ending --> consider A2 ). In contrast to <advl>, <subst> reading is what all
+                            ! words acting like adjective can get.
+%<adj%>%<subst%>: SUBST
 
 LEXICON V-ADJ
 
-# ;
-%<subst%>: GER-INFL ; ! Dont't be confused by the name of the cont.class,
-                      ! it's basically just a simplified N-INFL-COMMON
+ADJ-COMMON ;  
+CLIT ; 
+
+LEXICON Natinfl
+
+!A1 ;              ! nationality's adjectival form, e.g. "Turkish [food]" ! Consider <n.attr> reading for this 
+N1 ;              ! a member of the nationality, e.g. "A Turk"
+%>ш%{A%} ADV ;    ! as / in the style of the nat., e.g. "à la Turk"
+%>ш%{A%} ADV ;    ! in the language of the nationality, e.g. "in Turkish"
+%>ш%{A%} N1 ;     ! the language of the nationality, e.g. "Turkish"
+
+LEXICON ADJ-KI-INFL
+
+%<attr%>:%>%{G%}%{I%} ADJ-COMMON ; ! FIXME: Another name
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION (V-INFL-COMMON)
 
-LEXICON V-PERS-S1-NO3PERSON
+!FIXME
+LEXICON V-PERS-PRES ! P_6
+%<p1%>%<sg%>:%>м%{I%}н CLIT ;    ! Dir/LR
+%<p1%>%<sg%>:%>м%{I%}н CLIT ;
+%<p2%>%<sg%>:%>с%{I%}з CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; 
+%<p3%>%<sg%>:%>д%{I%} CLIT-OTHER ; 
+%<p3%>%<sg%>:%> CLIT-MA ; 
+%<p1%>%<pl%>:%>м%{I%}з CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;  
+%<p3%>%<pl%>:%>д%{I%} CLIT-OTHER ; 
+%<p3%>%<pl%>:%> CLIT-MA ; 
 
-%<p1%>%<sg%>:%>%{M%}%{I%}н COMMON-CLITICS ;
-%<p2%>%<sg%>:%>с%{I%}ң COMMON-CLITICS ;
-%<p1%>%<pl%>:%>%{M%}%{I%}з COMMON-CLITICS ;
-%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р COMMON-CLITICS ;
+LEXICON V-PERS-COP ! P_3
 
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з COMMON-CLITICS ;
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р COMMON-CLITICS ;
+%+е%<cop%>: V-PERS-COP-SUF-NO3 ; 
 
-LEXICON V-PERS-S1
+LEXICON V-PERS-PAST ! P_4
 
-! Used for: -AR-<fut>, -GAn-<past>, -MAK-<fut_plan>, copula
+%<p1%>%<sg%>:%>%{I%}м CLIT ;
+%<p2%>%<sg%>:%>%{I%}ң%{I%}з CLIT ;
+%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT ;
+%<p3%>%<sg%>: CLIT ;  
+%<p1%>%<pl%>:%>%{I%}%{K%} CLIT ;
+%<p2%>%<pl%>:%>%{I%}ңд%{A%}р CLIT ;
+%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р CLIT ;
+%<p3%>%<pl%>: CLIT ;
 
-V-PERS-S1-NO3PERSON ;
-%<p3%>%<sg%>: COMMON-CLITICS ;
-%<p3%>%<pl%>: COMMON-CLITICS ;
+LEXICON V-PERS-COND ! P_4
 
-LEXICON V-PERS-S2
+%<p1%>%<sg%>:%>%{I%}м # ;
+%<p2%>%<sg%>:%>%{I%}ң # ;
+%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
+%<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>%{I%}%{K%} # ;
+%<p2%>%<pl%>:%>%{I%}ңд%{A%}р # ;
+%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р # ;
+%<p3%>%<pl%>: # ;
 
-! Used for: -DI-<ifi>, -sA-<prc_cond>, -sA-<gna_cond>
+LEXICON V-PERS-COP-SUF-NO3
 
-%<p1%>%<sg%>:%>м COMMON-CLITICS ;
-%<p2%>%<sg%>:%>ң COMMON-CLITICS ;
-%<p3%>%<sg%>: COMMON-CLITICS ;
-%<p1%>%<pl%>:%>%{K%} COMMON-CLITICS ;
-%<p2%>%<pl%>:%>ңд%{A%}р COMMON-CLITICS ;
-%<p3%>%<pl%>: COMMON-CLITICS ;
+%<p1%>%<sg%>:%>%{M%}%{I%}н CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}з CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; 
+%<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;  
 
-%<p2%>%<frm%>%<sg%>:%>ң%{I%}з COMMON-CLITICS ;
-%<p2%>%<frm%>%<pl%>:%>ң%{I%}зд%{A%}р COMMON-CLITICS ;
+LEXICON V-PERS-COP-SUF 
 
-LEXICON V-PERS-AOR
+V-PERS-COP-SUF-NO3;
+%<p3%>%<sg%>:%> CLIT ; 
+%<p3%>%<pl%>:%> CLIT ; 
 
-! As the name indicates, used for -{E}-<aor>
-! NOTE that: Алма театрға бара<aor><p3><sg> ма? – Алма в театр идёт?
+LEXICON V-PERS-EVID-SUF 
 
-V-PERS-S1-NO3PERSON ;
-%<p1%>%<sg%>:%>м COMMON-CLITICS ;                    ! Dir/LR
-%<p3%>%<sg%>:%>д%{I%} COMMON-CLITICS ;
-%<p3%>%<sg%>: CLIT-QST-MA ;              ! Dir/LR
-%<p3%>%<pl%>:%>д%{I%} COMMON-CLITICS ;
-%<p3%>%<pl%>: CLIT-QST-MA ;              ! Dir/LR ;
-
-LEXICON V-PERS-IFI_EVID
-
-V-PERS-S1-NO3PERSON ;
-%<p3%>%<sg%>:%>т%{I%} COMMON-CLITICS ;
-%<p3%>%<sg%>:%>т%{I%} COMMON-CLITICS ;
-
-LEXICON VOL-ENDINGS
-
-%<p1%>%<sg%>:%>м CLIT-GHANA-ETC ;
-%<p2%>%<sg%>:%>ң CLIT-GHANA-ETC ;
-%<p3%>%<sg%>:%>с%{I%} CLIT-GHANA-ETC ;
-%<p1%>%<pl%>:%>м%{I%}з CLIT-GHANA-ETC ;
-%<p2%>%<pl%>:%>л%{A%}р%>%{I%}ң CLIT-GHANA-ETC ;
-%<p3%>%<pl%>:%>с%{I%} CLIT-GHANA-ETC ;
-%<p3%>%<pl%>:%>л%{A%}р%>%{I%} CLIT-GHANA-ETC ;             ! Dir/LR
-
-%<p2%>%<frm%>%<sg%>:%>ң%{I%}з CLIT-GHANA-ETC ;
-%<p2%>%<frm%>%<pl%>:%>л%{A%}р%>%{I%}ң%{I%}з CLIT-GHANA-ETC ;
-
-!!!!!!!   G E R U N D S   I N F L E C T I O N
-
-! This is a somewhat simplified version of N-INFL-COMMON.
-! The idea was to avoid overgeneration (I don't think that ger+DAGI would take
-! case endings e.g. Same for ger+NIKI). Still, this cont.class might be not
-! suitable for all of the gerunds. /IS/
-
-LEXICON GER-CASE-NO_COPULA
-
-CASE-COMMON ;
-%<nom%>: COMMON-CLITICS ;
-%<abl%>:%>%{D%}%{A%}н COMMON-CLITICS ;
-%<loc%>:%>%{D%}%{A%} COMMON-CLITICS ;
-
-LEXICON GER-ATTR/SUBST
-
-%<attr%>: COMMON-CLITICS ;
-!%<subst%>: CASE ;
-!%<subst%>%<pl%>:%>%{L%}%{A%}р CASE ;
-
-LEXICON GER-ABE-ATTR/ADVL/SUBST
-
-!%<attr%>: COMMON-CLITICS ;
-%<advl%>: COMMON-CLITICS ;
-!%<subst%>: CASE-2 ;
-!%<subst%>%<pl%>:%>%{L%}%{A%}р CASE-2 ;
-
-LEXICON GER-ABE-ETC          ! Stuff which doesn't appear after possessives
-
-%+сыз%<post%>:%>с%{I%}з GER-ABE-ATTR/ADVL/SUBST ;
-
-LEXICON GER-GENPOSS-ETC      ! Stuff which can appear after possessives too
-
-%<px%>:%>%{N%}ікі%{n%} COMMON-CLITICS ;
-%<loc%>:%>%{D%}%{A%}%{G%}%{I%} GER-ATTR/SUBST ;
-%<sim%>:%>%{D%}%{A%}й COMMON-CLITICS ;
-
-LEXICON GER-CASE-ETC
-
-GER-CASE-NO_COPULA ;
-GER-GENPOSS-ETC ;
-
-LEXICON GER-POSS-REAL
-
-%<px1sg%>:%>%{I%}м GER-CASE-ETC ;
-%<px2sg%>:%>%{I%}ң GER-CASE-ETC ;
-%<px3sp%>:%>%{S%}%{I%}%{n%} GER-CASE-ETC ;
-%<px1pl%>:%>%{I%}м%{I%}з GER-CASE-ETC ;
-%<px2pl%>:%>%{I%}ңд%{A%}р GER-CASE-ETC ;
-
-%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з GER-CASE-ETC ;
-%<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р GER-CASE-ETC ;
+%<p1%>%<sg%>:%>%{M%}%{I%}н CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; 
+%<p3%>%<sg%>: CLIT ; 
+%<p1%>%<pl%>:%>%{M%}%{I%}з CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ңд%{A%}р CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р CLIT ;  
+%<p3%>%<pl%>: CLIT ; 
 
 LEXICON GER-INFL
 
-GER-POSS-REAL ;
-GER-CASE-ETC ;
-%<pl%>:%>%{L%}%{A%}р GER-POSS-REAL ;
-%<pl%>:%>%{L%}%{A%}р GER-CASE-ETC ;
-GER-ABE-ETC ;
+POSSESSION ;
+CASE-ETC ;
+%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+%<pl%>:%>%{L%}%{A%}р CASE-ETC ;
 
-!!!!!!!   end of gerunds inflection lexicon
+LEXICON VOL-ENDINGS
 
-LEXICON V-FINITE-IRREGULAR_NEGATIVE
+%<p1%>%<sg%>:%>%{I%}м # ;
+%<p2%>%<sg%>:%>%{I%}з # ; 
+%<p2%>%<sg%>%<frm%>:%>%{I%}ң%{I%}з # ; 
+%<p3%>%<sg%>:%>%{S%}%{I%}%{n%} # ;
+%<p1%>%<pl%>:%>%{I%}м%{I%}з # ; 
+%<p2%>%<pl%>:%>%{I%}ңд%{A%}р # ; 
+%<p2%>%<pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р # ;
+%<p3%>%<pl%>:%>%{S%}%{I%}%{n%} # ;
 
-%<fut%>:%>%{A%}р V-PERS-S1 ;
-%<neg%>%<fut%>:%>м%{A%}с V-PERS-S1 ;
+LEXICON V-INFL-NON-FINITE-IRREG
 
-LEXICON V-FINITE-REGULAR_NEGATIVE
+! Adverbial Participles
+%<prc_perf%>:%>%{I%}п # ;
+%<prc_perf%>:%>%{o%}%{I%}п # ;    ! Dir/LR
+%<neg%>%<prc_perf%>:%>%{M%}%{A%}%>%{E%} # ;
+%<prc_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;     ! no negative form
 
-%<aor%>:%>%{E%} V-PERS-AOR ;
-%<past%>:%>%{G%}%{A%}н V-PERS-S1 ;
-%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
-%<ifi_evid%>:%>%{I%}п V-PERS-IFI_EVID ;
-%<fut_plan%>:%>%{M%}%{A%}%{K%} V-PERS-S1 ;
+! Gerunds
+%<ger_fut%>:%>%{A%}р GER-INFL ;
+%<neg%>%<ger_fut%>:%>%{M%}%{A%}%>с GER-INFL ;
 
-LEXICON V-NONFINITE-IRREGULAR_NEGATIVE
-
-! Participles
-%<prc_perf%>:%>%{I%}п CLIT-GHANA-ETC ;
-%<prc_perf%>:%>%{o%}%{I%}п CLIT-GHANA-ETC ;            ! Dir/LR
-%<neg%>%<prc_perf%>:%>%{M%}%{A%}%>%{E%} CLIT-GHANA-ETC ;
-%<prc_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;
-%<prc_fplan%>:%>%{M%}%{A%}%{K%} COMMON-CLITICS ;
-%<prc_fplan%>:%>%{M%}%{A%}%{K%}ш%{I%} COMMON-CLITICS ;           ! Dir/LR
-%<prc_plan%>:%>%{G%}%{A%}л%{I%} CLIT-GHANA-ETC ;
-
-! Verbal adverbs
-%<gna_perf%>:%>%{I%}п COMMON-CLITICS ;
-%<neg%>%<gna_perf%>:%>%{M%}%{A%}%>%{E%} COMMON-CLITICS ;
-
-%<gna_until%>:%>%{G%}%{A%}нш%{A%} COMMON-CLITICS ;
-%<gna_after%>:%>%{G%}%{A%}л%{I%} COMMON-CLITICS ;
+%<ger_ppot%>:%>%{A%}р%>л%{I%}к GER-INFL ;
 
 ! Verbal Adjectives
-%<gpr_fut%>:%>%{A%}р V-ADJ ;
-%<neg%>%<gpr_fut%>:%>%{M%}%{A%}%>%с V-ADJ ;
+%<glp_fut%>:%>%{A%}р V-ADJ ;
+%<neg%>%<glp_fut%>:%>%{M%}%{A%}%>%с V-ADJ ;
+%<neg%>%<glp_pot2%>:%>%{G%}%{I%}с V-ADJ ;
 
-%<gpr_ppot%>:%>%{A%}р%>л%{I%}к # ;
-%<neg%>%<gpr_ppot%>:%>%{M%}%{A%}%>сл%{I%}%{K%} # ;
-
-!%<neg%>%<gpr_pot2%>:%>%{G%}%{I%}с # ; FIXME looks wrong
-
-! Gerunds
-%<ger_fut%>:%>%{A%}р GER-POSS-REAL ;
-%<neg%>%<ger_fut%>:%>%{M%}%{A%}%>с GER-POSS-REAL ;
-
-%<ger_ppot%>:%>%{A%}р%>л%{I%}к GER-POSS-REAL ;
-%<neg%>%<ger_ppot%>:%>%{M%}%{A%}%>сл%{I%}%{K%} GER-POSS-REAL ;
-
-LEXICON V-NONFINITE-REGULAR_NEGATIVE
+LEXICON V-INFL-NON-FINITE-REG
 
 ! Participles
-%<prc_impf%>:%>%{E%} CLIT-GHANA-ETC ;
-%<prc_cond%>:%>с%{A%} V-PERS-S2 ;
-
-! Verbal adverbs
-%<gna_cond%>:%>с%{A%} V-PERS-S2 ;
-
-! Verbal adjectives
-%<gpr_past%>:%>%{G%}%{A%}н V-ADJ ;
-%<gpr_impf%>:%>%{E%}т%{I%}н V-ADJ ;
-%<gpr_pot%>:%>у%>ш%{I%} V-ADJ ;
+%<prc_plan%>:%>%{G%}%{A%}л%{I%} # ;
+!%<prc_cond%>:%>с%{A%} V-PERS-COND ;
+%<prc_impf%>:%>%{E%} # ;
+%<prc_irre%>:%>%{E%}т%{I%}н # ;
 
 ! Gerunds
-%<ger%>:%>у GER-INFL ;
 %<ger_past%>:%>%{G%}%{A%}н GER-INFL ;
 %<ger_perf%>:%>%{G%}%{A%}н%>%{L%}%{I%}%{K%} GER-INFL ;
+%<ger_impf%>:%>%{E%}т%{I%}н GER-INFL ;
+%<ger%>:%>у GER-INFL ;
 %<ger_abs%>:%>у%>ш%{I%}%>%{L%}%{I%}%{K%} GER-INFL ;
-%<ger_impf%>:%>%{E%}т%{I%}н GER-POSS-REAL ;
 
-! Imperatives
-%<imp%>%<p2%>%<sg%>: CLIT-EMPH ;
-%<imp%>%<p2%>%<pl%>:%>%{I%}ң%>д%{A%}р CLIT-EMPH ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT-EMPH ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң CLIT-EMPH ;                ! Dir/LR FIXME CHECK
-%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>д%{A%}р CLIT-EMPH ;
+! Verbal adjectives 
+%<glp_past%>:%>%{G%}%{A%}н V-ADJ ;
+%<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! both past (or perf?) and general
+%<glp_impf%>:%>%{E%}т%{I%}н V-ADJ ;
+%<glp_pot%>:%>у%>ш%{I%} V-ADJ ;
 
-! Optative/jussive forms
-%<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}н COMMON-CLITICS ;
-!%<opt%>%<p2%>%<sg%>:%>%{G%}%{I%}н COMMON-CLITICS ;              ! FIXME check
-%<opt%>%<p3%>%<sg%>:%>с%{I%}н COMMON-CLITICS ;
-%<opt%>%<p1%>%<pl%>:%>%{A%}й%{I%}%{K%} COMMON-CLITICS ;
-!%<opt%>%<p2%>%<pl%>:%>%{G%}%{I%}л%{A%} COMMON-CLITICS ;         ! FIXME check
-%<opt%>%<p3%>%<pl%>:%>с%{I%}н COMMON-CLITICS ;
+! Verbal adverbs
+%<gna_cond%>:%>с%{A%} V-PERS-COND ;    !# "...қайда екенен білсе де айтқысы келген жоқ ...
+%<gna9%>:%>%{I%}п CLIT ;
 
-!%<opt%>%<p2%>%<frm%>%<sg%>:%>%{G%}%{I%}л%{A%} COMMON-CLITICS ;  ! FIXME check
-!%<opt%>%<p2%>%<frm%>%<pl%>:%>%{G%}%{I%}л%{A%} COMMON-CLITICS ;  ! FIXME check
+!  Imperatives
+%<imp%>%<p2%>%<sg%>: CLIT-IMP2P ;
+%<imp%>%<p2%>%<pl%>:%>%{I%}ң%>д%{A%}р CLIT-IMP2P ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з CLIT-IMP2P ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң CLIT-IMP2P ;                      ! Dir/LR FIXME:CHECK
+%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р CLIT-IMP2P ;
 
-LEXICON V-COMMON
+!  Optative/jussive forms
 
-V-FINITE-REGULAR_NEGATIVE ;
-%<neg%>:%>%{M%}%{A%} V-FINITE-REGULAR_NEGATIVE ;
+%<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}н # ;
+%<opt%>%<p2%>%<sg%>:%>%{G%}%{I%}н # ;  ! FIXME: check
+%<opt%>%<p2%>%<frm%>%<sg%>:%>%{G%}%{I%}л%{A%} # ;  ! FIXME: check
+%<opt%>%<p3%>%<sg%>:%>с%{I%}н # ;
+%<opt%>%<p1%>%<pl%>:%>%{E%}й%{I%}%{K%} # ;
+%<opt%>%<p2%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;   ! FIXME: check
+%<opt%>%<p2%>%<frm%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
+%<opt%>%<p3%>%<pl%>:%>с%{I%}н # ;
 
-V-FINITE-IRREGULAR_NEGATIVE ;
+LEXICON V-INFL-FINITE
 
-V-NONFINITE-REGULAR_NEGATIVE ;
-%<neg%>:%>%{M%}%{A%} V-NONFINITE-REGULAR_NEGATIVE ;
+! Finite forms
+%<aor%>:%>%{E%} V-PERS-PRES ;                         !
+%<fut%>:%>%{A%}р V-PERS-COP-SUF ;                     ! future
+%<fut_plan%>:%>%{M%}%{A%}%{K%} V-PERS-COP-SUF ;       ! future plan
+%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                    ! 
+%<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;               ! 
+%<past%>%<evid%>:%>%{G%}%{A%}н% екен V-PERS-COP-SUF ; ! evidential general past
+%<ifi%>%<evid%>:%>%{I%}пт%{I%} V-PERS-EVID-SUF ;      ! evidential recent past
 
-V-NONFINITE-IRREGULAR_NEGATIVE ;
+LEXICON V-INFL-NON-FINITE
 
-LEXICON V-DER
+V-INFL-NON-FINITE-IRREG ;
+V-INFL-NON-FINITE-REG ;
+%<neg%>:%>%{M%}%{A%} V-INFL-NON-FINITE-REG ;
 
-%<coop%>:%>%{I%}с V-COMMON ;
+LEXICON V-INFL-COMMON
 
-LEXICON V-TV-NOPASS
-
-%<v%>%<tv%>: V-COMMON ;
-%<v%>%<tv%>: V-DER ;
-
-LEXICON V-TV-PASS
-
-! e.g. көрін
-%<v%>%<tv%>%<pass%>: V-COMMON ;
+V-INFL-FINITE ;
+%<neg%>:%>%{M%}%{A%} V-INFL-FINITE ;
+V-INFL-NON-FINITE ;
 
 LEXICON V-TV
 
-%<v%>%<tv%>: V-COMMON ;
-%<v%>%<tv%>: V-DER ;
-%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-COMMON ;
+%<v%>%<tv%>: V-INFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              
+%<v%>%<tv%>%<coop%>:%>%{I%}с V-INFL-COMMON ;
 
 LEXICON V-IV
 
-%<v%>%<iv%>: V-COMMON ;
-%<v%>%<iv%>: V-DER ;
+%<v%>%<iv%>: V-INFL-COMMON ;
+%<v%>%<iv%>%<coop%>:%>%{I%}с V-INFL-COMMON ;
+
+LEXICON V-TD ! Temporary lexicon
+
+%<v%>%<TD%>: V-INFL-COMMON ;
+%<v%>%<TD%>%<coop%>:%>%{I%}с V-INFL-COMMON ;
 
 !!!!!!!!!!!!!!!!!!!!!!     auxiliary verbs
 
 LEXICON Vinfl-AUX-IMPF
 
-%<vaux%>%<pres%>: V-PERS-S1 ; ! /жүр, жатыр, тұр, отыр/
+%<vaux%>%<pres%>: V-PERS-COP-SUF ; ! /жүр, жатыр, тұр, отыр/ as part of multiword present form
 
 LEXICON Vinfl-AUX
 
-%<vaux%>: V-COMMON ; ! these four verbs in other tenses and all other aux. verbs
+%<vaux%>: V-INFL-COMMON ;          ! these four verbs in other tenses and all other aux. verbs
 
 !!!!!!!!!!!!!!!!!!!!!!     copula
 
 LEXICON Copula
 
-е%<cop%>%<ger_past%>:екен GER-POSS-REAL ;
-е%<cop%>%<ger_perf%>:екен%>%{L%}%{I%}к GER-POSS-REAL ;
+е%<cop%>%<ger_past%>:екен POSSESSION ;
+е%<cop%>%<ger_perf%>:екен%>%{L%}%{I%}к POSSESSION ;
 
-е%<cop%>%<neg%>:емес V-PERS-S1 ;
-е%<cop%>%<past%>:екен V-PERS-S1 ;
-е%<cop%>%<neg%>%<past%>:емес% екен V-PERS-S1 ;
-е%<cop%>%<ifi%>:е%>%{D%}%{I%} V-PERS-S2 ;
+е%<cop%>%<neg%>:емес V-PERS-COP-SUF ; 
+е%<cop%>%<evid%>:екен V-PERS-COP-SUF ; 
+е%<cop%>%<neg%>%<evid%>:емес% екен V-PERS-COP-SUF ; 
+е%<cop%>%<ifi%>:е%>%{D%}%{I%} V-PERS-PAST ; 
 
 !!!!!!!!!!!!!!!!!!!!!!     PRONOUN'S INFLECTION
 
-!!!!!!!   P E R S O N A L
-
 LEXICON PRON-12SG-CASES
 
-%<gen%>:енің COMMON-CLITICS ;
-%<dat%>:аған COMMON-CLITICS ;
-%<acc%>:ені COMMON-CLITICS ;
-%<abl%>:енен COMMON-CLITICS ;
-%<loc%>:енде COMMON-CLITICS ;
-%<ins%>:енімен COMMON-CLITICS ;
+%<gen%>:енің CLIT ;
+%<dat%>:аған CLIT ;
+%<acc%>:ені CLIT ;
+%<abl%>:енен CLIT ;
+%<loc%>:енде CLIT ;
+%<ins%>:енімен CLIT ;
 %<px%>:енікі%{n%} CASE ;
-%<loc%>:ендегі ATTR/SUBST ;
-%<sim%>:ендей COMMON-CLITICS ;
-%<adv%>:еніңше COMMON-CLITICS ;
+%<loc%>:ендегі ADJ-DAGI ;
+%<sim%>:ендей CLIT ;
 
 LEXICON PRON-PERS-INFL
 
 CASE-ETC ;
 
-LEXICON PersonalPronouns
+LEXICON PRON-PERS
 
-мен%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мен COMMON-CLITICS ;
+мен%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:мен CLIT ;
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-12SG-CASES ;
 
-сен%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:сен COMMON-CLITICS ;
+сен%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:сен CLIT ;
 сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-12SG-CASES ;
 
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ол COMMON-CLITICS ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:о COMMON-CLITICS ; ! Dir/LR
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:оның COMMON-CLITICS ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:оған COMMON-CLITICS ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:оны COMMON-CLITICS ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:одан COMMON-CLITICS ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:онда COMMON-CLITICS ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:онымен COMMON-CLITICS ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ол CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:оның CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:оған CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:оны CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:одан CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:онда CLIT ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:онымен CLIT ;
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:онікі%{n%} CASE ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ондағы ATTR/SUBST ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<sim%>:ондай COMMON-CLITICS ;
-ол%<prn%>%<pers%>%<p3%>%<sg%>%<adv%>:оныңша COMMON-CLITICS ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ондағы ADJ-DAGI ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<sim%>:ондай CLIT ;
 
 біз%<prn%>%<pers%>%<p1%>%<pl%>:біз PRON-PERS-INFL ;
-біз%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:біздіңше COMMON-CLITICS ;
 
 сендер%<prn%>%<pers%>%<p2%>%<pl%>:сендер PRON-PERS-INFL ;
-сендер%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:сендерше COMMON-CLITICS ;
 
 олар%<prn%>%<pers%>%<p3%>%<pl%>:олар PRON-PERS-INFL ;
-олар%<prn%>%<pers%>%<p3%>%<pl%>%<adv%>:оларша COMMON-CLITICS ;
 
 сіз%<prn%>%<pers%>%<p2%>%<sg%>%<frm%>:сіз PRON-PERS-INFL ;
-сіз%<prn%>%<pers%>%<p2%>%<sg%>%<frm%>%<adv%>:сіздіңше COMMON-CLITICS ;
 сіздер%<prn%>%<pers%>%<p2%>%<pl%>%<frm%>:сіздер PRON-PERS-INFL ;
-сіздер%<prn%>%<pers%>%<p2%>%<pl%>%<frm%>%<adv%>:сіздерше COMMON-CLITICS ;
 
-!!!!!!!   D E M O N S T R A T I V E
+LEXICON PRON-ITG
 
-! FIXME CHECK (CLITICS-INCLUDING-COPULA vs CLIT) I can't imagine forms like "бумын, бусың" etc.
-! in Tatar, but not sure how it works in Kazakh /I.S./
-!-----
-! Good idea is to link prn.dem.sim forms alternatively to CLIT and CASE,
-! so that it's "adverbial reading" (e.g. "шундый каты кычкырды") doesn't
-! receive <nom> tag /IS/
-
-LEXICON PRON-DEM-INFL
-
-%<gen%>:ның COMMON-CLITICS ;
-%<dat%>:ған COMMON-CLITICS ;
-%<acc%>:ны COMMON-CLITICS ;
-%<abl%>:дан CLITICS-INCLUDING-COPULA ;
-%<abl%>:нан CLITICS-INCLUDING-COPULA ; ! Dir/LR FIXME actually only "осы" seems to take this.
-%<loc%>:нда CLITICS-INCLUDING-COPULA ;
-%<px%>:нікі%{n%} CASE ;
-%<loc%>:ндагы ATTR/SUBST ;
-%<sim%>:ндай CASE ;  ! FIXME: should have <det>, etc.
-%<adv%>:лай CLITICS-INCLUDING-COPULA ;
-%<qnt%>:нша COMMON-CLITICS ;         !
-
-%<pl%>:%>%{L%}%{A%}р CASE-ETC ;
-%<pl%>%<px3sp%>:%>%{L%}%{A%}р%{I%}%{n%} CASE ;
-
-! Commented out till these forms get implemented in tat.lexc too
-!%<TD%>:шалық COMMON-CLITICS ;        ! "that much"  ! FIXME: check cont lex
-!%<reas%>%<abl%>:ндықтан # ; ! "because of"  ! FIXME: not attested with осы?
-
-! FIXME: 1) link the below to PRON-DEM-INFL if possible
-!            (later, once we are certain about things)
-
-LEXICON PRON-DEM-BUL
-
-! FIXME CHECK (бұны vs мұны) Grammars I have list only forms with "б", but variants
-! starting with "м" seem to be more frequent in the (wikipedia) corpus /I.S./
-!-----
-! <s>FIXME</s> (бұл%<prn%>%<dem%>%<pl%>:бұлар N-INFL-COMMON ;) N-INFL-COMMON might lead to
-! overgeneration with p1,p2 possessives (they seem to take onle <px3sp> ending);
-! on the other hand, with something like бу%<prn%>%<dem%>%<px3sp%>:монысы%{n%} CASE ;
-! we loose things like бу<prn><dem><pl><px>:боларныкы /I.S./
-
-бұл%<prn%>%<dem%>%<nom%>:бұл CLITICS-INCLUDING-COPULA ;
-бұл%<prn%>%<dem%>%<nom%>:бұ CLITICS-INCLUDING-COPULA ; ! Dir/LR
-бұл%<prn%>%<dem%>%<gen%>:бұның COMMON-CLITICS ;
-бұл%<prn%>%<dem%>%<gen%>:мұның COMMON-CLITICS ; ! Dir/LR
-бұл%<prn%>%<dem%>%<dat%>:бұған COMMON-CLITICS ;
-бұл%<prn%>%<dem%>%<acc%>:бұны COMMON-CLITICS ;
-бұл%<prn%>%<dem%>%<acc%>:мұны COMMON-CLITICS ; ! Dir/LR
-бұл%<prn%>%<dem%>%<abl%>:бұдан CLITICS-INCLUDING-COPULA ;
-бұл%<prn%>%<dem%>%<abl%>:мұнан CLITICS-INCLUDING-COPULA ; ! Dir/LR
-бұл%<prn%>%<dem%>%<loc%>:бұнда CLITICS-INCLUDING-COPULA ;
-бұл%<prn%>%<dem%>%<loc%>:мұнда CLITICS-INCLUDING-COPULA ; ! Dir/LR
-бұл%<prn%>%<dem%>%<ins%>:бұнымен COMMON-CLITICS ;
-бұл%<prn%>%<dem%>%<ins%>:мұнымен COMMON-CLITICS ; ! Dir/LR
-бұл%<prn%>%<dem%>%<px%>:мұнікі%{n%} CASE ; ! FIXME: check "м" vs "б"
-бұл%<prn%>%<dem%>%<loc%>:бұндағы ATTR/SUBST ;
-бұл%<prn%>%<dem%>%<loc%>:мұндағы ATTR/SUBST ; ! Dir/LR
-бұл%<prn%>%<dem%>%<sim%>:мұндай CASE ;
-бұл%<prn%>%<dem%>%<sim%>:бұндай CASE ; ! Dir/LR
-бұл%<prn%>%<dem%>%<sim%>%<px3sp%>:мұндай%{I%}%{n%} CASE ;
-бұл%<prn%>%<dem%>%<sim%>%<pl%>:мұндайлар CASE ;
-бұл%<prn%>%<dem%>%<sim%>%<pl%>%<px3sp%>:мұндайлары%{n%} CASE ;
-бұл%<prn%>%<dem%>%<adv%>:былай CLITICS-INCLUDING-COPULA ;
-бұл%<prn%>%<dem%>%<adv%>:бұлай CLITICS-INCLUDING-COPULA ; ! Dir/LR
-бұл%<prn%>%<dem%>%<qnt%>:мұнша COMMON-CLITICS ;
-бұл%<prn%>%<dem%>%<px3sp%>:бұнысы%{n%} CASE ;
-
-бұл%<prn%>%<dem%>%<pl%>:бұлар CASE-ETC ;
-бұл%<prn%>%<dem%>%<pl%>%<px3sp%>:бұлары%{n%} CASE ;
-
-LEXICON PRON-DEM-MINA
-
-мына%<prn%>%<dem%>%<nom%>:мына CLITICS-INCLUDING-COPULA ;
-мына%<prn%>%<dem%>%<gen%>:мынаның COMMON-CLITICS ;
-мына%<prn%>%<dem%>%<dat%>:мынаған COMMON-CLITICS ;
-мына%<prn%>%<dem%>%<acc%>:мынаны COMMON-CLITICS ;
-мына%<prn%>%<dem%>%<abl%>:мынадан CLITICS-INCLUDING-COPULA ;
-мына%<prn%>%<dem%>%<loc%>:мынада CLITICS-INCLUDING-COPULA ;
-мына%<prn%>%<dem%>%<ins%>:мынамен COMMON-CLITICS ;
-!мына%<prn%>%<dem%>%<px%>:мынанікі%{n%} CASE ;
-!мына%<prn%>%<dem%>%<loc%>:мынадағы ATTR/SUBST ;
-мына%<prn%>%<dem%>%<sim%>:мынадай CASE ;
-мына%<prn%>%<dem%>%<adv%>:мыналай CLITICS-INCLUDING-COPULA ;
-мына%<prn%>%<dem%>%<px3sp%>:мынасы%{n%} CASE ;
-
-мына%<prn%>%<dem%>%<pl%>:мыналар CASE-ETC ;
-мына%<prn%>%<dem%>%<pl%>%<px3sp%>:мыналары%{n%} CASE ;
-
-LEXICON PRON-DEM-ANA
-
-ана%<prn%>%<dem%>%<nom%>:ана CLITICS-INCLUDING-COPULA ;
-ана%<prn%>%<dem%>%<gen%>:ананың COMMON-CLITICS ;
-ана%<prn%>%<dem%>%<dat%>:анаған COMMON-CLITICS ;
-ана%<prn%>%<dem%>%<acc%>:ананы COMMON-CLITICS ;
-ана%<prn%>%<dem%>%<abl%>:анадан CLITICS-INCLUDING-COPULA ;
-ана%<prn%>%<dem%>%<loc%>:анада CLITICS-INCLUDING-COPULA ;
-ана%<prn%>%<dem%>%<ins%>:анамен COMMON-CLITICS ;
-ана%<prn%>%<dem%>%<px%>:ананікі%{n%} CASE ;
-ана%<prn%>%<dem%>%<loc%>:анадағы ATTR/SUBST ;
-ана%<prn%>%<dem%>%<sim%>:анадай CASE ;
-!ана%<prn%>%<dem%>%<adv%>:аналай CLITICS-INCLUDING-COPULA ;
-!ана%<prn%>%<dem%>%<px3sp%>:анасы%{n%} CASE ;
-
-ана%<prn%>%<dem%>%<pl%>:аналар CASE-ETC ;
-ана%<prn%>%<dem%>%<pl%>%<px3sp%>:аналары%{n%} CASE ;
-
-LEXICON DemonstrativePronouns
-
-PRON-DEM-BUL ;
-PRON-DEM-MINA ;
-PRON-DEM-ANA ;
-
-сол%<prn%>%<dem%>%<nom%>:сол CLITICS-INCLUDING-COPULA ;
-сол%<prn%>%<dem%>:со PRON-DEM-INFL ;
-сол%<prn%>%<dem%>%<ins%>:сонымен COMMON-CLITICS ;
-сол%<prn%>%<dem%>%<px3sp%>:сонысы%{n%} CASE ;
-
-ол%<prn%>%<dem%>%<nom%>:ол CLITICS-INCLUDING-COPULA ;
-ол%<prn%>%<dem%>:о PRON-DEM-INFL ;
-ол%<prn%>%<dem%>%<ins%>:онымен COMMON-CLITICS ;
-ол%<prn%>%<dem%>%<px3sp%>:онысы%{n%} CASE ;
-
-осы%<prn%>%<dem%>%<nom%>:осы COMMON-CLITICS ;
-осы%<prn%>%<dem%>:осы PRON-DEM-INFL ;
-осы%<prn%>%<dem%>%<ins%>:осымен COMMON-CLITICS ;
-осы%<prn%>%<dem%>%<px3sp%>:осысы%{n%} CASE ;
-
-! FIXME DISCUSS: Two below were lexicalized as conjunctional adverbs.
-! -ндықтан affix is a feature of verbs as well though, so it will be handled as a
-! productive derivation.
-
-!ол%<prn%>%<dem%>%<reas%>%<abl%>:ондықтан # ; ! "because of that"
-!сол%<prn%>%<dem%>%<reas%>%<abl%>:сондықтан # ; ! "because of that"
-
-
-!!!!!!!   I N T E R R O G A T I V E
-
-! Some of the words listed in the grammars I have as interrogative pronouns
-! were placed in other root lexicons depending on what POS they substitute or
-! act like syntactically. So (as planned for today):
-! 1) "неше" is a <num><itg>;
-! 2) "қайда, қайдан, қашан, қалай, қалайша" are <adv><itg> (the first three
-! should link to a class containing location cases btw, as many current adverbs
-! do);
-! 3) "қанша" is added both as an interrogative pronoun and as an interrogative
-! adverb /IS/
-!
-! What already added as interrogative pronouns are: кім, ни, нәрсе
-! And to be added as interrogative pronouns are: қайсы, қандай, қанша.
-! I'd like to mark қандай as <sim> form (with қандай for the upper side though),
-! but wouldn't go too deeply into the structure of other two and not derive them
-! from "қай" (that's what they have most likely originated from) IS
-!
-! Of course, "қай", "қайсы" and all other pronouns which can be used as an
-! attribute were added as determiners linking to CLIT as well.
-! Good idea is to have an rlx rule selecting determiner reading when a word is
-! ambiguous between (prn X nom) and (det X) and there is noun to the right;
-! and selecting pronoun if there is a verb to the right.
-
-LEXICON PRON-ITG-INFL
-
-%<prn%>%<itg%>: SUBST ;
-
-LEXICON PRON-ITG-QAYSI
-
-қайсы%<prn%>%<itg%>%<nom%>:қайсы COMMON-CLITICS ;
-қайсы%<prn%>%<itg%>%<gen%>:қайсының COMMON-CLITICS ;
-қайсы%<prn%>%<itg%>%<dat%>:қайсыған COMMON-CLITICS ;
-қайсы%<prn%>%<itg%>%<acc%>:қайсыны COMMON-CLITICS ;
-қайсы%<prn%>%<itg%>%<abl%>:қайсыдан COMMON-CLITICS ;
-қайсы%<prn%>%<itg%>%<loc%>:қайсыда COMMON-CLITICS ;
-қайсы%<prn%>%<itg%>%<ins%>:қайсымен COMMON-CLITICS ;
-
-қайсы%<prn%>%<itg%>:қайсы GER-POSS-REAL ;
-
-LEXICON PRON-ITG-QANSHA
-
-! Might be not complete (қаншалар?)
-! Currently қанша<prn><itg> is translated with ничә<num><itg><subst> and
-! қанша<adv><itg> is going to be translated with "күпме" or "никадәр"
-
-қанша%<prn%>%<itg%>:қанша CASE ;
-
-LEXICON PRON-ITG-QANDAY
-
-! Might be not complete (қандайларығыз? and possessive stuff in general)
-
-қандай%<prn%>%<itg%>%<sim%>:қандай COMMON-CLITICS ;
-! ^ FIXME Similative form of demonstrative pronouns should receive an alternati-
-! ve continuation with CLIT too. Consider e,g.: "Ең жақсы Интернет қандай?" Here
-! it shouldn't receive <nom> tag I think /IS/
-қандай%<prn%>%<itg%>%<sim%>:қандай CASE ;
-қандай%<prn%>%<itg%>%<sim%>%<px3sp%>:қандайы%{n%} CASE ;
-қандай%<prn%>%<itg%>%<sim%>%<pl%>:қандайлар CASE ;
-қандай%<prn%>%<itg%>%<sim%>%<pl%>%<px3sp%>:қандайлары%{n%} CASE ;
-
-LEXICON InterrogativePronouns
-
-PRON-ITG-QAYSI ;
-PRON-ITG-QANSHA ;
-PRON-ITG-QANDAY ;
-нәрсе:нәрсе PRON-ITG-INFL ; ! "thing" ! Use/MT
-не:не PRON-ITG-INFL ; ! "what"
-кім:кім PRON-ITG-INFL ; ! "who"
-
-LEXICON PRON-QNT-POSS
-
-%<prn%>%<qnt%>: GER-POSS-REAL ;
+%<prn%>%<itg%>: N-INFL-COMMON ; ! FIXME: Check contlex
 
 LEXICON PRON-QNT
 
-%<prn%>%<qnt%>: GER-INFL ;
+%<prn%>%<qnt%>: N-INFL-COMMON ; ! FIXME: Check contlex
 
 LEXICON PRON-IND
 
-%<prn%>%<ind%>: CASE ;
+%<prn%>%<ind%>: N-INFL-COMMON ; ! FIXME: Check contlex
 
+LEXICON PRON-REFL
+
+%<prn%>%<ref%>: N-INFL-COMMON ; ! FIXME: Check contlex
+%<prn%>%<ref%>%<pl%>:%{L%}%{A%}р N-INFL-COMMON ;
+
+LEXICON PRON-IND-POSS
+
+%<prn%>%<ind%>: POSSESSION ;
+
+LEXICON PRON-DEM-INFL
+
+%<gen%>:ның CLIT ;
+%<dat%>:ған CLIT ; ! FIXME: this isn't right for some of them (i.e., just -ға)
+                   ! осыған/осыға?, соған, оған, бұған
+%<acc%>:ны CLIT ;  ! 
+%<abl%>:нан CLIT ; ! Dir/LR  ! FIXME: check for correct default
+%<abl%>:дан CLIT ; ! 
+%<loc%>:нда CLIT ; ! 
+%<px%>:нікі%{n%} CASE ;    ! FIXME: check
+%<rloc%>:ндагы ADJ-DAGI ;  ! 
+%<TD%>:шалық CLIT ;        ! "that much"  ! FIXME: check cont lex
+%<adv%>:лай CLIT-GENERAL ; ! 
+%<sim%>:ндай ADJ-DAGI ;    ! 
+%<qnt%>:нша CLIT ;         !
+!%<reas%>%<abl%>:ндықтан # ; ! "because of"  ! FIXME: not attested with осы?
+
+LEXICON PRON-DEM
+
+ол%<prn%>%<dem%>:о PRON-DEM-INFL ;
+сол%<prn%>%<dem%>:со PRON-DEM-INFL ;
+осы%<prn%>%<dem%>:осы PRON-DEM-INFL ;
+
+ол%<prn%>%<dem%>%<nom%>:ол CLIT ;
+сол%<prn%>%<dem%>%<nom%>:cол CLIT ;
+осы%<prn%>%<dem%>%<nom%>:осы CLIT ;
+
+ол%<prn%>%<dem%>%<reas%>%<abl%>:ондықтан # ; ! "because of that"
+сол%<prn%>%<dem%>%<reas%>%<abl%>:сондықтан # ; ! "because of that"
+
+ол%<prn%>%<dem%>%<ins%>:онымен CLIT ;
+сол%<prn%>%<dem%>%<ins%>:сонымен CLIT ;
+осы%<prn%>%<dem%>%<ins%>:осымен CLIT ;
+
+!бұл%<prn%>%<dem%>:бұ PRON-DEM-INFL ;
+бұл%<prn%>%<dem%>%<nom%>:бұл CLIT-GENERAL ;
+бұл%<prn%>%<dem%>%<acc%>:бұны CLIT ;
+бұл%<prn%>%<dem%>%<acc%>:мұны CLIT ; ! Dir/LR
+бұл%<prn%>%<dem%>%<gen%>:бұның CLIT ;
+бұл%<prn%>%<dem%>%<gen%>:мұның CLIT ; ! Dir/LR
+бұл%<prn%>%<dem%>%<loc%>:бұнда CLIT-GENERAL ; 
+бұл%<prn%>%<dem%>%<rloc%>:бұндағы ADJ-DAGI ; 
+бұл%<prn%>%<dem%>%<loc%>:мұнда CLIT-GENERAL ; ! Dir/LR   ! FIXME: check to make sure default is right
+бұл%<prn%>%<dem%>%<rloc%>:мұндағы ADJ-DAGI ; ! Dir/LR   ! FIXME: check to make sure default is right
+бұл%<prn%>%<dem%>%<px%>:мұнікі%{n%} CASE ; ! FIXME: check
+бұл%<prn%>%<dem%>%<abl%>:бұдан CLIT-GENERAL ;
+бұл%<prn%>%<dem%>%<dat%>:бұған CLIT-GENERAL ;
+бұл%<prn%>%<dem%>%<ins%>:мұнымен CLIT ;
+бұл%<prn%>%<dem%>%<sim%>:мындай ADJ-DAGI ;
+бұл%<prn%>%<dem%>%<adv%>:былай CLIT-GENERAL ;
+бұл%<prn%>%<dem%>%<qnt%>:мұнша CLIT ;
+бұл%<prn%>%<dem%>:бұны POSSESSION ;
+бұл%<prn%>%<dem%>%<pl%>:бұлар N-INFL-COMMON ;
 
 LEXICON PRNNEG
 
-%<prn%>%<neg%>: CASE ;
+%<prn%>%<neg%>: CASE ; 
 
 LEXICON PRON-RECIP
 
-%<prn%>%<recip%>: GER-POSS-REAL ;
-
-LEXICON PRON-REF-ADV
-
-CASE-ETC ;
-%<adv%>:ше COMMON-CLITICS ;
-
-LEXICON PRON-REF
-
-! FIXME JNW please have a look at this
-! Listing all forms here because of overgeneration with *өздерім,
-! *өздеріміз, *өзіңдер etc while linking to POSS-REAL. This was the idea.
-! Now they are handled more like personal pronouns (the same tags in the same
-! order), so they should pass transfer without any trouble.
-!-----
-! A remaining problem with reflexive pronoun is that it takes personal copula
-! suffixes "selectively": e.g. prn.refl.px1sg would take only cop.px1sg
-! (prn.ref.px3sp seems to take all of them though).
-! A little bit of overgeneration won't hurt anyone :), but I think that odd
-! forms could be filtered out somehow later. Don't know how to do it./04Aug, IS/
-
-! FIXME DISCUSS Write full forms for the lower side and put only PRON-DEF in the
-! Root Lexicon
-
-%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}м PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}ң PRON-REF-ADV ;
-%<prn%>%<ref%>%<p3%>%<sg%>:%>%{S%}%{I%}%{n%} PRON-REF-ADV ;
-%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}м%{I%}з PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<pl%>:%>д%{A%}р%>%{I%}ң PRON-REF-ADV ;
-%<prn%>%<ref%>%<p3%>%<pl%>:%>д%{A%}р%>%{S%}%{I%}%{n%} PRON-REF-ADV ;
-
-%<prn%>%<ref%>%<p2%>%<sg%>%<frm%>:%>%{I%}ң%{I%}з PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<pl%>%<frm%>:%>д%{A%}р%>%{I%}ң%{I%}з PRON-REF-ADV ;
-
-! This is how it was before:
-!%<prn%>%<ref%>: POSS-REAL ;
-!%<prn%>%<ref%>%<pl%>:%{L%}%{A%}р POSS-REAL ;
+%<prn%>%<recip%>: POSSESSION ;
 
 !!!!!!!!!!!!!!!!!!!!!!     DETERMINERS
 
@@ -1312,64 +752,18 @@ LEXICON DET-NEG
 
 %<det%>%<neg%>: # ;
 
-LEXICON DET-REF
-
-%<det%>%<ref%>: # ;
-
-
-!!!!!!!!!!!!!!!!!!!!!!     OTHER PART-OF-SPEECH LEXICONS
-
-LEXICON N1-ABBR
-
-%<n%>%<attr%>: # ;
-%<n%>:%- POSSESSION ;
-%<n%>:%- CASE-ETC ;
-
+!!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS
 
 LEXICON N1
 
 %<n%>%<attr%>: # ;
 %<n%>: SUBST ;
 
-LEXICON N-COMPOUND-PX-COMMON
-
-:%>%{S%}%{I%}%{n%} CASE-ETC ;
-POSS-REAL ;       ! for stuff like "біздің ауа райымыз" and even "оның ауа райы",
-                  ! which should have a <px3sp> analysis
-
-
 LEXICON N-COMPOUND-PX ! consider "N2" for the name
                       ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
 
-%<n%>: N-COMPOUND-PX-COMMON ;
-%<n%>%<pl%>:%>%{L%}%{A%}р%>%{S%}%{I%}%{n%} CASE-ETC ; ! (e.g. чик сакчылары=пограничники)
-                                                      !  FIXME CHECK: Is {S} needed here ?
-
-
-LEXICON N3
-! Singularia tantum
-
-%<n%>%<attr%>: # ;
-%<n%>: N-INFL-COMMON ;
-
-LEXICON N5
-
-:%{☭%} N1 ;
-
-
-!LEXICON NAT
-! Nationalites
-
-!A1 ;              ! nationality's adjectival form, e.g. "Turkish [food]" ! Consider <n.attr> reading for this 
-!N1 ;              ! a member of the nationality, e.g. "A Turk"
-!:%>ш%{A%} ADV ;   ! as / in the style of the nat., e.g. "à la Turk"
-!:%>ш%{A%} ADV ;   ! in the language of the nationality, e.g. "in Turkish" ! I guess ADJ was meant /I.S./
-!:%>ш%{A%} N1 ;    ! the language of the nationality, e.g. "Turkish"
-
-LEXICON ADV-LANG
-
-N1 ;
-ADV ;
+%<n%>:%>%{S%}%{I%}%{n%} CASE-ETC ;
+%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
 
 LEXICON NP-COMMON
 N-INFL-COMMON ;
@@ -1377,8 +771,6 @@ N-INFL-COMMON ;
 LEXICON NP-TOP
 
 %<np%>%<top%>: NP-COMMON ;
-%<np%>%<top%>%<attr%>: # ;
-
 !%<adj%>%<top%>:%{L%}%{I%}%{K%} ADJ-COMMON ;  ! FIXME: do these tags make sense?
 
 LEXICON NP-ANT-M
@@ -1396,141 +788,58 @@ LEXICON NP-COG-M
 %<np%>%<cog%>%<m%>: NP-COMMON ;
 %<np%>%<cog%>%<m%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
 
-LEXICON NP-COG-MF
-
-! Dual-gender cognoms.
-! Don't derive anything /I.S./
-
-%<np%>%<cog%>%<mf%>: NP-COMMON ;
-%<np%>%<cog%>%<mf%>%<pl%>:%>%{L%}%{A%}р NP-COMMON ;
-
-LEXICON NP-COG-OBIN-FEM
-
-%<np%>%<cog%>%<f%>:а NP-COMMON ;
-%<np%>%<cog%>%<f%>%<pl%>:а%>%{L%}%{A%}р NP-COMMON ;
-
-
-LEXICON NP-COG-OB
-
-! For cognoms ending with -ов, -ев
-! They derive feminine equivalets taking -а /I.S./
-! Also, even the ев ones are normally pronounced
-!    (and take harmony) as if they end in йыф/йып
-
-%<np%>%<cog%>%<m%>:%{☭%} NP-COMMON ;                       ! Dir/LR
-%<np%>%<cog%>%<m%>%<pl%>:%{☭%}%>%{L%}%{A%}р NP-COMMON ;    ! Dir/LR
-
-%<np%>%<cog%>%<m%>:%{а%}%{с%} NP-COMMON ;
-%<np%>%<cog%>%<m%>%<pl%>:%{а%}%{с%}%>%{L%}%{A%}р NP-COMMON ;
-
-NP-COG-OBIN-FEM ;
-
-
-LEXICON NP-COG-IN
-
-! For cognoms ending with -ов, -ев, -ин
-! They derive feminine equivalets taking -а /I.S./
-
-%<np%>%<cog%>%<m%>:%{☭%} NP-COMMON ;
-%<np%>%<cog%>%<m%>%<pl%>:%{☭%}%>%{L%}%{A%}р NP-COMMON ;
-
-NP-COG-OBIN-FEM ;
-
-LEXICON NPCOGFLEX
-
-! This isn't used at the moment,
-! but e.g. ?Polish cognoms ending with -ска would take this cont.class /I.S./ 
-
-LEXICON NP-PAT-VICH
-
-! For patronyms ending with -вич
-! Their feminine equivalets end with -вна /I.S./
-
-%<np%>%<pat%>%<m%>:вич%{☭%} NP-COMMON ;
-
-%<np%>%<pat%>%<f%>:вна NP-COMMON ;
-
 LEXICON NP-ORG
 
 %<np%>%<org%>: CASE ; 
-
-LEXICON NP-ORG-COMPOUND 
-
-%<np%>%<org%>: N-COMPOUND-PX-COMMON ;   ! COMMON because no plural
 
 LEXICON NP-AL
 
 %<np%>%<al%>: CASE ; 
 
-LEXICON NUM-COMMON
-
-%<num%>: # ;
-%<num%>%<subst%>: SUBST ;
-
 LEXICON NUM
 
-NUM-COMMON ;
-%<num%>%<ord%>:%>%{I%}нш%{I%} # ;             ! FIXME: base form, <det> reading
+%<num%>: # ; 
+%<num%>%<subst%>: SUBST ; 
 %<num%>%<ord%>:%>%{I%}нш%{I%} N-INFL-COMMON ;
-
-LEXICON NUM-TWENTY
-
-NUM-COMMON ;
-%<num%>%<ord%>:%>с%{I%}нш%{I%} N-INFL-COMMON ;
-
-LEXICON NUM-ITG ! This is a temporal solution
-                ! (could be integrated with the above)
-
-%<num%>%<itg%>: # ;
-%<num%>%<itg%>%<subst%>: SUBST ;
-%<num%>%<itg%>%<ord%>:%>%{I%}нш%{I%} N-INFL-COMMON ;
 
 LEXICON NUM-COLL
 
 %<num%>%<coll%>%<subst%>: N-INFL-COMMON ;
 %<num%>%<coll%>%<advl%>: # ;
 
-LEXICON NUM-ROMAN
-
-%<num%>%<ord%>: # ;
-
 LEXICON DIGITLEX
 
 %<num%>: # ;
 
-LEXICON POST
+LEXICON NUM-ROMAN
 
-%<post%>: COMMON-CLITICS ;
+NUM ;
+
+LEXICON POST 
+
+%<post%>: # ;
 
 LEXICON POSTADV
 
 %<postadv%>: # ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-LEXICON KI
-
-%<attr%>:%>%{G%}%{I%} COMMON-CLITICS ;
-
-LEXICON ADV
-
-%<adv%>: COMMON-CLITICS ;
-
 LEXICON ADV-WITH-KI
 
 ADV ;
-%<adv%>: KI ;
+:%>%{G%}%{I%} A2
 
-LEXICON ADV-WITH-KI-I     ! Used only for бері<adv>/бергі<adv><attr> right now
+LEXICON ADV-WITH-KI-I
 
-:і ADV ;
-%<adv%>: KI ;
+:%{I%} ADV ;
+ADJ-KI-INFL ; 
 
 LEXICON ADVITG
 
-%<adv%>%<itg%>: # ;
+%<adv%>%<itg%>: # ; 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON ADV
+
+%<adv%>: CLIT ;
 
 LEXICON CC
 
@@ -1542,69 +851,34 @@ LEXICON CS
 
 LEXICON CA
 
-%<cnjadv%>: CLIT-GHANA-ETC ;
+%<cnjadv%>: # ; 
 
 LEXICON QST
 
-%<qst%>: # ;
-
-LEXICON MOD-ASS
-
-%<mod_ass%>: # ;
-
-LEXICON MOD
-
-! шығар, сияқты etc.
-
-%<mod%>: # ;
+%<qst%>: # ; 
 
 LEXICON INTERJ
 
 %<ij%>: # ;
 
-LEXICON IDEO
-
-%<ideo%>: # ;
-
-LEXICON ABBR
+LEXICON ABBR 
 
 %<abbr%>: # ;
-
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-!======================!
- LEXICON ModalParticles
-!======================!
+LEXICON ModalParticles
 
-ма:%~ма QST ; ! "" Dir/RL
 ма:ма QST ; ! "" Dir/LR
 ма:ба QST ; ! "" Dir/LR
 ма:па QST ; ! "" Dir/LR
 ма:ме QST ; ! "" Dir/LR
 ма:бе QST ; ! "" Dir/LR
 ма:пе QST ; ! "" Dir/LR
-ма% не:%~ма% не QST ; ! "" Dir/RL
-ма% не:ма% не QST ; ! "" Dir/LR
-ма% не:ме% не QST ; ! "" Dir/LR
-ше:ше QST ; ! ""
 
-ғой:%~ғой MOD-ASS ; ! "" Dir/RL
-ғой:ғой MOD-ASS ; ! "" Dir/LR
-ғой:қой MOD-ASS ; ! "" Dir/LR
-
-шығар:шығар MOD ; ! FIXME actually a verb, takes personal suffixes (V-PERS-S1);
-                  !   ... more like <vaux><pres> than like a full verb -JNW
-                  ! requires some transfer rules as e.g. in the following:
-                  !# (kaz) Олар мүмкiн көп кiтап оқыған шығар.
-                  !# (tat) Алар бәлки күп китап укыганнардыр.
-                  !# (kir) Алар мүмкүн көп китеп окугандыр.
-
-
-!====================!
- LEXICON Conjunctions
+LEXICON Conjunctions
 
 да:%~да CC ; ! "also" Dir/RL
 да:да CC ; ! ""       Dir/LR
@@ -1612,126 +886,101 @@ LEXICON ABBR
 да:та CC ; ! ""       Dir/LR
 да:те CC ; ! ""       Dir/LR
 және:және CC ; ! "and"
-және:жөне CC ; ! "and" Dir/LR FIXME CHECK
 ал:ал CC ; ! "contrastive and"
 бірақ:бірақ CC ; ! "but"
 немесе:немесе CC ; ! "or"
-егер:егер CS ; ! "if"
 дегенмен:дегенмен CA ; ! "nevertheless"
 осы% себептен:осы% себептен CA ; ! "therefore"
+себебі:себебі CC ; ! "because"
+егер:егер CA ; ! "if"
 
- LEXICON Postpositions
-
-
-
-
+LEXICON Postpositions
 
 арқылы:арқылы POST ; ! "through, via, by means of" + NOM
+
+
 бұрын:бұрын POST ; ! "before, ago" + NOM
+
 мен:%{M%}ен POST ; ! "with" + NOM
 мен:%{M%}енен POST ; ! "with" + NOM ! Dir/LR
-мен:бен POST ; ! "with" + NOM       ! Dir/LR
 мен:мен POST ; ! "with" + NOM       ! Dir/LR
+мен:бен POST ; ! "with" + NOM       ! Dir/LR
 мен:пен POST ; ! "with" + NOM       ! Dir/LR
-секілді:секілді POST ; ! "like, как будто" + NOM
-туралы:туралы POST ; ! "about, concerning" + NOM
-үшін:үшін POST ; ! "for (the benefit of), in order" + NOM
 
 
-
-
-арналған:арналған POST ; ! "intended for" + DAT
+кейін:кейін POST ; ! "after, afterwards, later" + ABL
+бері:бері POST ; ! "since" + ABL
 қарай:қарай POST ; ! "toward" + DAT
 
+бұрын:бұрын POST ; ! "earlier than, раньше" + ABL ! FIXME: check case (nominative is for sure, maybe some other meaming if it comes after n.abl.)
+астынан:астынан POST ; ! "from below" + DAT
+арналған:арналған POST ; ! "intended for" + DAT
+секілді:секілді POST ; ! "similarly to" + DAT
+бірге:бірге POST ; ! "with" + INS
+туралы:туралы POST ; ! "about" + INS
 
-бері:бері POST ; ! "since" + ABL
-бұрын:бұрын POST ; ! "earlier than, раньше" + ABL
-кейін:кейін POST ; ! "after, afterwards, later" + ABL
+LEXICON Postadverbs 
 
+-ақ:%>-ақ POSTADV ; ! ""     ! FIXME:CHECK (note that it concatenates to the preceeding word)
 
+ғана:%~ғана POSTADV ; ! Dir/RL
+ғана:ғана POSTADV ;   ! "only" Dir/LR
+ғана:қана POSTADV ;   ! "only" Dir/LR
 
+да:%~да POSTADV ; ! "1. even if"     Dir/RL
+да:да POSTADV ; ! ""       Dir/LR
+да:де POSTADV ; ! ""       Dir/LR
+да:та POSTADV ; ! ""       Dir/LR
+да:те POSTADV ; ! ""       Dir/LR
 
+тағы POSTADV ; ! "... дагы" = "and ... too" ! FIXME:CHECK pos
+тегіс POSTADV ; ! "entirely/all/all together"
 
+LEXICON Pronouns
 
-
- LEXICON Postadverbs
-
-
- LEXICON Pronouns
-!================!
-
-PersonalPronouns ;
-
-DemonstrativePronouns ;
-
-InterrogativePronouns ;
-
+нәрсе:нәрсе PRON-ITG ; ! "thing"       ! Use/MT
+не:не PRON-ITG ; ! "what"              ! interrog. pronoun
+кім:кім PRON-ITG ; ! "who"              ! interrog. pronoun
+өз:өз PRON-REFL ; ! "self"              ! reflexive pronoun
+бірдеме:бірдеме PRON-IND ; ! "something"          ! pronoun
 басқа:басқа PRON-IND ; ! "other"
-бірдеме:бірдеме PRON-IND ; ! "something"
-бір% нәрсе:бір% нәрсе PRON-IND ; ! "something" Use/MT
-кей:кей PRON-IND ; ! "some" FIXME CHECK
+! бәрі PRON-IND ; ! "everyone"  !!! This is an alternate of below ! FIXME: true for Kazakh too?
+бәрі:бәр PRON-IND-POSS ; ! "everyone"  ! FIXME: in the end, this really shouldn't create <px*> tags too (same problem for kymorph)
+бири%-бир:бири%-бир PRON-RECIP ; ! "each other, one another"
+
+PRON-PERS ;  ! Personal pronouns
+PRON-DEM ;   ! Demonstrative pronouns
+
+еш% нәрсе:еш% нәрсе PRNNEG ; ! "" Use/MT
+ешкім:ешкім PRNNEG ; ! ""
 
 барлық:барлық PRON-QNT ; ! ""
-бәрі:бәр PRON-QNT-POSS ; ! "everyone"  ! FIXME: in the end, this really shouldn't create <px*> tags too (same problem for kymorph)
-! бәрі PRON-IND ; ! "everyone"  !!! This is an alternate of below ! FIXME: true for Kazakh too?
-біреу:біреу PRON-QNT ; ! ""
-әркім:әркім PRON-QNT ; ! ""
 
-ешкім:ешкім PRNNEG ; ! ""
-ешнәрсе:ешнәрсе PRNNEG ; ! ""
-еш% нәрсе:еш% нәрсе PRNNEG ; ! "" Use/MT
-ештеңе:ештеңе PRNNEG ; ! ""
-
-бір%-бір:бір%-бір PRON-RECIP ; ! "each other, one another"
-
-өз:өз PRON-REF ; ! "self"
-
-
-!===================!
- LEXICON Determiners
-!===================!
-
+LEXICON Determiners
 
 анау:анау DET-DEM ;
-әлгі:әлгі DET-DEM ; ! "~этот"
 бұл:бұл DET-DEM ;
-ол:ол DET-DEM ;
 мынау:мынау DET-DEM ;
-ол:ол DET-DEM ;
 осы:осы DET-DEM ;
 сол:сол DET-DEM ;
 сонау:сонау DET-DEM ;
-осынау:осынау DET-DEM ;
+әлгі:әлгі DET-DEM ; ! "~этот"
 
-әр:әр DET-QNT ; ! "every"
-әрбір:әрбір DET-QNT ; ! "each"
-әрбір:һәрбір DET-QNT ; ! "each" Dir/LR
-әртүрлі:әртүрлі DET-QNT ; ! "~every kind"
-әр:һәр DET-QNT ; ! "every" Dir/LR
 бар:бар DET-QNT ; ! "all"
 барлық:барлық DET-QNT ; ! "all"
-бірқатар:бірқатар DET-QNT ; ! "several"
 бірнеше:бірнеше DET-QNT ; ! "some"
+
+бірқатар:бірқатар DET-QNT ; ! "several"
 бүкіл:бүкіл DET-QNT ; ! "whole"
 көптеген:көптеген DET-QNT ; ! "many"
-қанша:қанша DET-QNT ; ! "how many"
+әр:әр DET-QNT ; ! "every"
+әр:һәр DET-QNT ; ! "every" Dir/LR
+әрбір:әрбір DET-QNT ; ! "each"
+әрбір:һәрбір DET-QNT ; ! "each" Dir/LR
 
-ондаған:ондаған DET-QNT ; ! ""
-жүздеген:жүздеген DET-QNT ; ! ""
-мыңдаған:мыңдаған DET-QNT ; ! ""
-түмендеген:түмендеген DET-QNT ; ! ""
-миллиондаған:миллиондаған DET-QNT ; ! ""
-миллиардтаған:миллиардтаған DET-QNT ; ! ""
-күллі:күллі DET-QNT ; ! ""
-исі:исі DET-QNT ; ! ""
-
-әлдебір:әлдебір DET-IND ; ! "a"
 бір:бір DET-IND ; ! "a"
-кей:кей DET-IND ; ! "some"
 кейбір:кейбір DET-IND ; ! "some"
 қайсыбір:қайсыбір DET-IND ; ! "some"
-әлденеше:әлденеше DET-IND ; ! ""
-бірер:бірер DET-IND ; ! ""
 
 қай:қай DET-ITG ; ! "which"
 қайсы:қайсы DET-ITG ; ! "which"
@@ -1739,13 +988,15 @@ InterrogativePronouns ;
 ешбір:ешбір DET-NEG ; ! "none, no"
 ешқандай:ешқандай DET-NEG ; ! "no [kind of], none"
 
-өз:өз DET-REF ; ! "oneself's"
+!!! FIXME: Check these
 
+!!!! Determiners, pronouns, etc. of various sorts
+неше:неше DET-QNT ; ! "how many"        ! interrog. quantifier
+қанша:қанша DET-QNT ; ! "how many"       ! interrog. quantifier
 
-!================!
- LEXICON Numerals
-!================!
+LEXICON Numerals
 
+XII NUM-ROMAN ; 
 
 нөл:нөл NUM ; ! "zero"
 бір:бір NUM ; ! "one"
@@ -1755,12 +1006,12 @@ InterrogativePronouns ;
 бес:бес NUM ; ! "five"
 алты:алты NUM ; ! "six"
 жеті:жеті NUM ; ! "seven"
-сегіз:сегіз NUM ; ! "eight"
+сегіз:сегіз NUM ; ! "eight" 
 тоғыз:тоғыз  NUM ; ! "nine"
 он:он NUM ; ! "ten"
 
-он% бір:он% бір NUM ; ! "eleven"
-он% екі:он% екі NUM ; ! "twelve"
+он% бір:он% бір NUM ; ! "eleven"       ! These are needed only because the corresponding
+он% екі:он% екі NUM ; ! "twelve"       ! tatar numerals are written as one word
 он% үш:он% үш NUM ; ! "thirteen"
 он% төрт:он% төрт NUM ; ! "fourteen"
 он% бес:он% бес NUM ; ! "fifteen"
@@ -1769,7 +1020,7 @@ InterrogativePronouns ;
 он% сегіз:он% сегіз NUM ; ! "eighteen"
 он% тоғыз:он% тоғыз NUM ; ! "nineteen"
 
-жиырма:жиырма NUM-TWENTY ; ! "twenty"
+жиырма:жиырма NUM ; ! "twenty"         ! FIXME: This has an exceptional ordinal form: жиырмасыншы
 отыз:отыз NUM ; ! "thirty"
 қырық:қырық NUM ; ! "forty"
 елу:елу NUM ; ! "fifty"
@@ -1785,475 +1036,292 @@ InterrogativePronouns ;
 миллиард:миллиард NUM ; ! "billion"
 триллион:триллион NUM ; ! "trillion"
 
-! Technically this goes on to higher numbers,
-! but its use beyond 7 is rare and is of questionable grammaticality
-бір:біреу NUM-COLL ;
+!ширек:ширек NUM ; ! "quarter"         ! FIXME:DISCUSS: POS
+!жарым:жарым NUM ; ! "half"            ! (consider that they don't have ordinal form obviously)
+!жарты:жарты NUM ; ! "half"
+
+бір:біреу NUM-COLL ;           
 екі:екеу NUM-COLL ;
 үш:үшеу NUM-COLL ;
 төрт:төртеу NUM-COLL ;
 бес:бесеу NUM-COLL ;
-алты:алтау NUM-COLL ;
-жеті:жетеу NUM-COLL ;
+алтау:алтау NUM-COLL ;
+жетеу:жетеу NUM-COLL ;
 
-I NUM-ROMAN ; ! ""
-II NUM-ROMAN ; ! ""
-III NUM-ROMAN ; ! ""
-IV NUM-ROMAN ; ! ""
-V NUM-ROMAN ; ! ""
-VI NUM-ROMAN ; ! ""
-VII NUM-ROMAN ; ! ""
-VIII NUM-ROMAN ; ! ""
-IX NUM-ROMAN ; ! ""
-X NUM-ROMAN ; ! ""
-XI NUM-ROMAN ; ! ""
-XII NUM-ROMAN ; ! ""
-XIII NUM-ROMAN ; ! ""
-XIV NUM-ROMAN ; ! ""
-XV NUM-ROMAN ; ! ""
-XVI NUM-ROMAN ; ! ""
-XVII NUM-ROMAN ; ! ""
-XVIII NUM-ROMAN ; ! ""
-XIX NUM-ROMAN ; ! ""
-XX NUM-ROMAN ; ! ""
-XXI NUM-ROMAN ; ! ""
-
-неше:неше NUM-ITG ;
+! Technically this goes on to higher numbers
+! but its use beyond 5(?) is rare
+! and is of questionable grammaticality /not-I.S./
+! Grammar says first 7 numerals have this form, so let's extend it to 7 /I.S./
 
 
 !=============!
  LEXICON Nouns
 
 абақты:абақты N1 ; ! "jail"
-автобус:автобус N1 ; ! ""
 автор:автор N1 ; ! "author"
-автор:аутор N1 ; ! "author" Dir/LR
-аға:аға N1 ; ! "older brother"
-ағаш:ағаш N1 ; ! "tree"
+автоматты:автоматты N1 ; ! "automatic"
 адам:адам N1 ; ! "man"
 адамзат:адамзат N1 ; ! "mankind"
 азап:азап N1 ; ! "suffering"
+азық%-түлік:азық%-түлік N1 ; ! "groceries"
 азық:азық N1 ; ! "nutrition"
 ай:ай N1 ; ! "moon"
 айна:айна N1 ; ! "mirror"
-ақиқат:ақиқат N1 ; ! "truth"
-ақпан:ақпан N1 ; ! "February"
-ақша:ақша N1 ; ! "money"
-ақы:ақы N1 ; ! "wage"
-ақын:ақын N1 ; ! "poet"
 алаң:алаң N1 ; ! "area"
+алд:ал%{д%} N1 ; ! "front"
 алжапқыш:алжапқыш N1 ; ! "apron"
 алмұрт:алмұрт N1 ; ! "pear"
-алтын:алтын N1 ; ! "gold"
 ана:ана N1 ; ! "mother"
 анықтамалық:анықтамалық  N1 ; ! "directory"
-аң:аң  N1 ; ! "beast"
-аңыз:аңыз N1 ; ! ""
 апа:апа N1 ; ! "older female relative"
 апта:апта N1 ; ! "week"
-арақ:арақ N1 ; ! ""
-арал:арал N1 ; ! ""
-армия:армия N1 ; ! ""
 арпа:арпа N1 ; ! "barley"
-арыз:арыз N1 ; ! "petition"
+арт:арт N1 ; ! "back side"
 арыстан:арыстан N1 ; ! "lion"
-ас:ас N1 ; ! "food"
+аспан:аспан N1 ; ! "sky"
+аст:ас%{т%} N1 ; ! "down side"
+астық:астық N1 ; ! "grain"
 асқабақ:асқабақ N1 ; ! "pumpkin"
 асқазан:асқазан N1 ; ! "stomach"
-аспан:аспан N1 ; ! "sky"
-астық:астық N1 ; ! "grain"
-ат:ат N1 ; ! "riding horse,castrated male horse;name"
-ауа:ауа N1 ; ! "air"
 ауа% райы:ауа% рай N-COMPOUND-PX ; ! "weather,climate"
+ауа:ауа N1 ; ! "air"
 аудитория:аудитория N1 ; ! "classroom"
-ауру:ауру N1 ; ! "sickness"
-ауыз:ау%{y%}з N1 ; ! "mouth"   ! Dir/LR
+ауыз:ау%{y%}з N1 ; ! "mouth"   ! Dir/LR  ! FIXME: check that only LR
 ауыз:ауыз N1 ; ! "mouth"
+ауыр:ауыр N1 ; ! "weight"
 ашаршылық:ашаршылық N1 ; ! "famine"
 ая:ая N1 ; ! "extent"
 аяз:аяз N1 ; ! "frost"
-аяқ:аяқ N1 ; ! "cup,foot,end"
-әдебиет:әдебиет N1 ; ! "literature"
-әдет:әдет N1 ; ! "custom"
-әдіс:әдіс N1 ; ! "method"
-әже:әже N1 ; ! "grandmother"
-әйел:әйел N1 ; ! "woman"
-әке:әке N1 ; ! "father"
-әкім:әкім N1 ; ! "governor"
-әлем:әлем N1 ; ! "universe"
-ән:ән N1 ; ! "song"
-әнші:әнші N1 ; ! "singer"
-әңгіме:әңгіме N1 ; ! "story"
-әпке:әпке N1 ; ! ""
-әрекет:әрекет N1 ; ! "behaviour,move, activity"
-әскер:әскер N1 ; ! "soldier"
-әулет:әулет N1 ; ! "offspring"
-баға:баға N1 ; ! "price"
-база:база N1 ; ! ""
+аяу:аяу N1 ; ! "mercy"
+аға:аға N1 ; ! "older brother"
+ағай:ағай N1 ; ! "uncle"
+ағаш:ағаш N1 ; ! "tree"
+ақиқат:ақиқат N1 ; ! "truth"
+ақпан:ақпан N1 ; ! "february"
+ақша:ақша N1 ; ! "money"
+ақы:ақы N1 ; ! "wage"
+ақын:ақын N1 ; ! "poet"
+аттракцион:аттаркцион N1 ; ! "attraction"
+аң:аң  N1 ; ! "beast"
+аңыз:аңыз әнғіме N1 ; ! "legend"
 байланыс:байланыс N1 ; ! "connection"
-бақша:бақша N1 ; ! "garden house"
-бақыт:бақыт N1 ; ! "luck"
+бал:бал N1 ; ! "honey"
 бала:бала N1 ; ! "child"
 балапан:балапан N1 ; ! "chick"
-бал:бал N1 ; ! "honey"
 балта:балта N1 ; ! "axe"
-балық:балық N1 ; ! "fish"
-банк:банк N5 ; ! "bank"
+банк:банк N1 ; ! "bank"
 бас:бас N1 ; ! "head,begining,start"
 баспасөз:баспасөз N1 ; ! "publisher"
-бассейн:бассейн N5 ; ! ""
-басшы:басшы N1 ; ! "boss, leader"
 бата:бата N1 ; ! "blessing"
 батыр:батыр N1 ; ! "hero"
-батыс:батыс N1 ; ! "west,occident"
-бәтеңке:бәтеңке N1 ; ! "shoe"
-бедер:бедер N1 ; ! ""
+бақша:бақша N1 ; ! "garden house"
+бақыт:бақыт N1 ; ! "luck"
 без:без N1 ; ! "gland"
 бейбітшілік:бейбітшілік N1 ; ! "peace"
 бейсенбі:бейсенбі N1 ; ! "Thursday"
 бел:бел N1 ; ! "waist"
-белгі:белгі N1 ; ! "mark"
-бет:бет N1 ; ! "face"
 бидай:бидай N1 ; ! "wheat"
 бие:бие N1 ; ! "mare"
-бизнес:бизнес N1 ; ! ""
 биология:биология N1 ; ! "biology"
-білезік:білезік N1 ; ! "bracelet"
-білім:білім N1 ; ! "knowledge"
-бірлік:бірлік N1 ; ! ""
-бой:бой N1 ; ! "height, length"
-болжам:болжам N1 ; ! ""
 бор:бор N1 ; ! "chalk"
 борыш:борыш N1 ; ! "debt"
-бөлік:бөлік N1 ; ! "division"
-бөлме:бөлме N1 ; ! "room"
-бөлшек:бөлшек N1 ; ! "component,detail,(math)fraction;"
-бөрене:бөрене N1 ; ! "log"
-бу:бу N1 ; ! "vapor,fog,steam"
+былау:былау N1 ; ! "bath"
+білезік:білезік N1 ; ! "bracelet"
+білім:білім N1 ; ! "knowledge"
 бүйрек:бүйрек N1 ; ! "kidney"
 бұлт:бұлт N1 ; ! "cloud"
 бұршақ:бұршақ N1 ; ! "bean"
 бұтақ:бұтақ N1 ; ! "branch"
-былау:былау N1 ; ! "bath"
-велосипед:велосипед N1 ; ! ""
-видео:видео N1 ; ! ""
+бөлме:бөлме N1 ; ! "room"
+бөлік:бөлік N1 ; ! "division" FIXME: check
+бөрене:бөрене N1 ; ! "log"
 газета:газета N1 ; ! "newspaper"
-градус:градус N1 ; ! ""
-гүл:гүл N1 ; ! "flower"
-ғалым:ғалым N1 ; ! ""
-ғарыш:ғарыш N1 ; ! "cosmos,outer space"
-ғасыр:ғасыр N1 ; ! "century"
-ғибадат:ғибадат N1 ; ! "worship"
-ғұлама:ғұлама N1 ; ! "scholar"
-ғылым:ғылым N1 ; ! "science"
 дала:дала N1 ; ! "field"
 дана:дана N1 ; ! "item"
-даңқ:даңқ N1 ; ! "glory"
 дарын:дарын N1 ; ! "talent"
 дауыл:дауыл N1 ; ! "storm"
-дәлел:дәлел N1 ; ! "proof,evidence"
-дән:дән N1 ; ! "seed"
-дәптер:дәптер N1 ; ! "notebook"
-дәрігер:дәрігер N1 ; ! "doctor"
-дәрі:дәрі N1 ; ! "medicine"
-дәрісхана:дәрісхана N1 ; ! "classroom"
-дәріхана:дәріхана N1 ; ! "pharmacy"
-дәстүр:дәстүр N1 ; ! "custom,tradition"
-демалыс:демалыс N1 ; ! ""
+даңқ:даңқ N1 ; ! "glory"
 дем:дем N1 ; ! "rest,breath"
 дене:дене N1 ; ! "body"
 денсаулық:денсаулық N1 ; ! "health"
-деңгей:деңгей N1 ; ! "level"
-диқан:диқан N1 ; ! "farmer"
 директор:директор N1 ; ! "director"
-дін:дін N1 ; ! "religion"
+диқан:диқан N1 ; ! "farmer"
+минут:минут N1 ; ! "minute"
+секунд:секунд N1 ; ! "second"
+сағат:сағат N1 ; ! "o'clock"
+
+
 доллар:доллар N1 ; ! "dollar"
 доп:доп N1 ; ! "ball"
 дос:дос N1 ; ! "friend"
-дөңгелек:дөңгелек N1 ; ! "circle,wheel"
+дыбыс:дыбыс N1 ; ! "sound,noise"
+дін:дін N1 ; ! "religion"
 дүйсенбі:дүйсенбі N1 ; ! "Monday"
 дүкен:дүкен N1 ; ! "shop"
-дұға:дұға N1 ; ! "prayer"
 дұшпан:дұшпан N1 ; ! "enemy"
-дыбыс:дыбыс N1 ; ! "sound,noise"
-ел:ел N1 ; ! "country,nation"
+дұға:дұға N1 ; ! "prayer"
+дәлел:дәлел N1 ; ! "evidence"
+дәлел:дәлел N1 ; ! "proof"
+дәптер:дәптер N1 ; ! "notebook"
+дәрі:дәрі N1 ; ! "medicine"
+дәрігер:дәрігер N1 ; ! "doctor"
+дәрісхана:дәрісхана N1 ; ! "classroom"
+дәріхана:дәріхана N1 ; ! "pharmacy"
+дәстүр:дәстүр N1 ; ! "custom"
+дәстүр:дәстүр N1 ; ! "tradition"
+дөңгелек:дөңгелек N1 ; ! "circle"
+дөңгелек:дөңгелек N1 ; ! "wheel"
+еден:еден N1 ; ! "floor"
 елші:елші N1 ; ! "ambassador"
 емтихан:емтихан N1 ; ! "exam"
-ереже:ереже N1 ; ! "principle,precept"
-ер:ер N1 ; ! "man,male;saddle"
 ерік:ерік N1 ; ! "will"
 ерін:ерін N1 ; ! "lip"
+ес:ес N1 ; ! "memory"
+ес:ес N1 ; ! "memory,recollection"
 есек:есек N1 ; ! "donkey"
 есеп:есеп N1 ; ! "invoice,bill,account,math"
-ес:ес N1 ; ! "memory,recollection"
 есік:есік N1 ; ! "door"
 ет:ет N1 ; ! "meat"
 ешкі:ешкі N1 ; ! "goat"
-жаға:жаға N1 ; ! "coast"
-жағдай:жағдай  N1 ; ! "position,situation"
-жаза:жаза N1 ; ! "punishment,penalty"
+егеуқұйрық:егеуқұйрық N1 ; ! "rat"
+жәндік:жәндік N1 ; ! "insect"
 жаз:жаз N1 ; ! "summer"
-жақ:жақ N1 ; ! "side,cheeck"
+жалау:жалау N1 ; ! "flag"
 жалбыз:жалбыз N1 ; ! "mint"
 жалпы:жалпы N1 ; ! "general"
 жалшы:жалшы N1 ; ! "labourer"
 жалын:жалын N1 ; ! "flame"
+жан:жан N1 ; ! "soul"
+
 жанжал:жанжал N1 ; ! "quarrel"
-жан:жан N1 ; ! "soul"
-жан:жан N1 ; ! "soul"
 жануар:жануар N1 ; ! "biest"
-жаңалык:жаңалык N1 ; ! "news"
-жаңбыр:жаңбыр N1 ; ! "rain"
 жапырақ:жапырақ N1 ; ! "leaf"
 жария:жария N1 ; ! "announcement"
 жарнама:жарнама N1 ; ! "advertisement"
-жарық:жарық N1 ; ! "light"
-жарыс:жарыс N1 ; ! "race"
-жас:жас N1 ; ! "age"
-жастық:жастық N1 ; ! "pillow,pad"
 жасырын:жасырын N1 ; ! "concealed"
 жауап:жауап N1 ; ! "answer"
-жәшік:жәшік N1 ; ! "box"
+жаға:жаға N1 ; ! "coast"
+жағдай:жағдай  N1 ; ! "position,situation"
+жағдай:жағдай N1 ; ! "situation"
+жаңалык:жаңалык N1 ; ! "news"
 жейде:жейде N1 ; ! "shirt"
-жексенбі:жексенбі N1 ; ! "Sunday"
+жексенбі:жексенбі N1 ; ! "sunday"
 жел:жел N1 ; ! "wind"
-желтоқсан:желтоқсан N1 ; ! "December"
-жеміс:жеміс N1 ; ! ""
-жеңіс:жеңіс N1 ; ! "victory"
+желтоқсан:желтоқсан N1 ; ! "december"
+жеміс:жеміс N1 ; ! "fruit" 
 жер:жер N1 ; ! "land,earth"
 жерқойма:жерқойма N1 ; ! "cellar"
-жетекшілік:жетекшілік N1 ; ! ""
 жетім:жетім N1 ; ! "orphan"
-жиен:жиен N1 ; ! "nephew"
+жеңіс:жеңіс N1 ; ! "victory"
+жиен:жиен  N1 ; ! "nephew"
+жол:жол N1 ; ! "road"
+жолбарыс:жолбарыс N1 ; ! "tiger"
+журналист:журналист N1 ; ! "journalist"
+жыл:жыл N1 ; ! "year"
+жылан:жылан N1 ; ! "snake"
+жылқы:жылқы N1 ; ! "horse"
+жын:жын N1 ; ! "demon"
 жібек:жібек N1 ; ! "silk"
 жіп:жіп N1 ; ! "thread"
-жолбарыс:жолбарыс N1 ; ! "tiger"
-жолдас:жолдас N1 ; ! "friend,comrade,spouse"
-жол:жол N1 ; ! "road"
-жота:жота N1 ; ! ""
-жөтел:жөтел N1 ; ! "cough"
-журналист:журналис N5 ; ! "journalist" ! Dir/LR
-журналист:журналист N5 ; ! "journalist"
 жүзе:жүзе N1 ; ! "reality"
 жүзік:жүзік N1 ; ! "ring"
 жүзім:жүзім N1 ; ! "grape"
 жүйе:жүйе N1 ; ! "system"
-жүйке:жүйке N1 ; ! ""
 жүн:жүн N1 ; ! "wool"
 жүрек:жүрек N1 ; ! "heart"
 жұбай:жұбай N1 ; ! "spouse"
-жұлдыз:жұлдыз N1 ; ! "star"
 жұма:жұма N1 ; ! "friday"
 жұмыртқа:жұмыртқа N1 ; ! "egg"
-жұмыс:жұмыс N1 ; ! "work"
 жұмысшы:жұмысшы N1 ; ! "worker"
-жылан:жылан N1 ; ! "snake"
-жылдамдық:жылдамдық N1 ; ! "speed"
-жыл:жыл N1 ; ! "year"
-жылқы:жылқы N1 ; ! "horse"
-жын:жын N1 ; ! "demon"
-жыныс:жыныс N1 ; ! ""
-заң:заң N1 ; ! "law"
+жәшік:жәшік N1 ; ! "box"
+жөтел:жөтел N1 ; ! "cough"
 зат:зат N1 ; ! "thing"
-зәйтүн:зәйтүн N1 ; ! ""
-зейін:зейін N1 ; ! "ability"
+заң:заң N1 ; ! "law"
 зейнеткер:зейнеткер N1 ; ! "retired"
+зейін:зейін N1 ; ! "ability"
 зембил:зембил N1 ; ! "stretcher"
-зиян:зиян N1 ; ! "harm"
 зұлым:зұлым N1 ; ! "oppression"
-ие:ие N1 ; ! "lord owner"
-иіс:иіс N1 ; ! "smell"
 ине:ине N1 ; ! "needle"
-интернет:интернет N5 ; ! "internet"
+инстиут:инстиут N1 ; ! "institute"
+интернет:интернет N1 ; ! "internet"
 ит:ит N1 ; ! "dog"
-иықағаш:иықағаш N1 ; ! "hanger"
 иық:иық N1 ; ! "shoulder"
-ілгек:ілгек N1 ; ! "hook"
-ілмек:ілмек N1 ; ! "loop;hook"
-інжір:інжір N1 ; ! "fig"
-ірге:ірге N1 ; ! "foundation"
-ірімшік:ірімшік N1 ; ! "cheese"
-ішек:ішек N1 ; ! "intestine"
-іш:іш N1 ; ! "inside,stomach"
-іш:іш N1 ; ! "inside,stomach"
-камера:камера N1 ; ! ""
-карта:карта N1 ; ! "map"
+иықағаш:иықағаш N1 ; ! "hanger"
 кафе:кафе N1 ; ! "café"
-кәсер:кәсер N1 ; ! "miserable"
 кебіс:кебіс N1 ; ! "sandal"
 келешек:келешек N1 ; ! "future"
 келісім:келісім N1 ; ! "agreement"
 кеме:кеме N1 ; ! "boat"
 кемеңгер:кемеңгер N1 ; ! "sage"
-кеңсе:кеңсе N1 ; ! ""
-керек:керек N1 ; ! "need"
+кенже:кенже N1 ; ! "youngest"
 кеспе:кеспе N1 ; ! "noodles"
+кеуде:кеуде N1 ; ! "chest"
 кеудеше:кеудеше N1 ; ! "vest"
 киік:киік N1 ; ! "antelope"
-киім:киім N1 ; ! ""
+компания:компания N1 ; ! "company"
+концерт:концерт N1 ; ! "concert"
+кофта:кофта N1 ; ! "blouse"
+куртка:куртка N1 ; ! "jacket"
 кілем:кілем N1 ; ! "carpet"
 кілт:кілт N1 ; ! "key"
 кірпік:кірпік N1 ; ! "eyelash"
 кітап:кітап N1 ; ! "book"
-кітапхана:кітапхана N1 ; ! ""
-компания:компания N1 ; ! "company"
-комплекс:комплекс N1 ; ! ""
-компьютер:компьютер N1 ; ! ""
-концерт:концерт N1 ; ! ""
-кофта:кофта N1 ; ! "blouse"
-көз:көз N1 ; ! "eye"
-көкөніс:көкөніс N1 ; ! "vegetable"
-көктем:көктем N1 ; ! "spring,springtime"
-көлем:көлем N1 ; ! "volume"
-көлік:көлік N1 ; ! ""
-көл:көл N1 ; ! "lake"
-көмек:көмек N1 ; ! "help"
-көмір:көмір N1 ; ! "coal"
-көрініс:көрініс N1 ; ! ""
-көрпе:көрпе N1 ; ! "blanket"
-көрші:көрші N1 ; ! "neighbour"
-көт:көт N1 ; ! "ass"
-көше:көше N1 ; ! "street"
-кредит:кредит N1 ; ! ""
-куртка:куртка N1 ; ! "jacket"
 күбі:күбі N1 ; ! "barrel"
 күйеу:күйеу N1 ; ! "groom"
-күміс:күміс N1 ; ! ""
-күн:күн N1 ; ! "day,sun"
 күнтізбе:күнтізбе N1 ; ! "calendar"
-күңкіл:күңкіл N1 ; ! "murmur"
 күріш:күріш N1 ; ! "rice"
-күшік:күшік N1 ; ! "pup"
 күш:күш N1 ; ! "strength"
-қабат:қабат N1 ; ! ""
-қабір:қабір N1 ; ! "grave"
-қабырға:қабырға N1 ; ! "wall"
-қағаз:қағаз N1 ; ! "paper"
-қадам:қадам N1 ; ! ""
-қазан:қазан N1 ; ! "October;pan"
-қаз:қаз N1 ; ! "goose"
-қазы:қазы N1 ; ! "judge"
-қайшы:қайшы N1 ; ! ""
-қайық:қайық N1 ; ! "boat,kayak"
-қайыр:қайыр N1 ; ! "goodness"
-қайырым:қайырым N1 ; ! "compassion"
-қақпа:қақпа N1 ; ! "gate"
-қалайы:қалайы N1 ; ! "tin"
-қала:қала N1 ; ! "city"
-қалам:қалам N1 ; ! "pencil,pen"
-қаламұш:қаламұш N1 ; ! "effort"
-қалта:қалта N1 ; ! "bag,pocket"
-қамба:қамба N1 ; ! "shed"
-қам:қам N1 ; ! "anxiety"
-қамшы:қамшы N1 ; ! ""
-қанат:қанат N1 ; ! "wing"
-қан:қан N1 ; ! "blood"
-қантар:қантар N1 ; ! "January"
-қант:қант N1 ; ! "sugar"
-қапас:қапас N1 ; ! "cage"
-қараша:қараша N1 ; ! "November"
-қарға:қарға N1 ; ! "crow"
-қар:қар N1 ; ! "snow"
-қарсылық:қарсылық N1 ; ! ""
-қару:қару N1 ; ! "weapons"
-қарындас:қарындас N1 ; ! "younger sister"
-қасірет:қасірет N1 ; ! "grief"
-қасқыр:қасқыр N1 ; ! "wolf"
-қастық:қастық N1 ; ! "animosity"
-қасық:қасық N1 ; ! "spoon"
-қате:қате N1 ; ! "fault,mistake,error"
-қатынас:қатынас N1 ; ! "relation"
-қауіп:қауіп%{❗%} N1 ; ! "danger" Dir/LR
-қауіп:қау%{э%}%{y%}п N1 ; ! "danger"
-қауіпсіздік:қауіпсіздік N1 ; ! "safety"
-қаһар:қаһар N1 ; ! "wrath"
-қи:қи N1 ; ! "peat"
-қиямет:қиямет N1 ; ! "resurrection"
-қоғам:қоғам N1 ; ! "society,fellowship"
-қозы:қозы N1 ; ! "lamb"
-қой:қой N1 ; ! "ram,sheep"
-қоқыс:қоқыс N1 ; ! "garbage"
-қолғап:қолғап N1 ; ! "glove"
-қол:қол N1 ; ! "hand"
-қонақ:қонақ N1 ; ! "guest"
-қор:қор N1 ; ! "reserves,wealth"
-қоян:қоян N1 ; ! "rabbit"
-қуат:қуат N1 ; ! "energy"
-қуғын:қуғын N1 ; ! "persecution"
-қулық:қулық N1 ; ! "deceit"
-құбыр:құбыр N1 ; ! ""
-құбыр:құбыр N1 ; ! ""
-құлақ:құлақ N1 ; ! "ear"
-құл:құл N1 ; ! "slave"
-құм:құм N1 ; ! "sand"
-құмырсқа:құмырсқа N1 ; ! "ant,pismire"
-құрал:құрал N1 ; ! ""
-құрмет:құрмет N1 ; ! "respect"
-құрсақ:құрсақ N1 ; ! "belly"
-құрылым:құрылым N1 ; ! "structure"
-құрылыс:құрылыс N1 ; ! "construction"
-құрым:құрым N1 ; ! "soot"
-құс:құс N1 ; ! "bird"
-қызғалдақ:қызғалдақ N1 ; ! "tulip"
-қыз:қыз N1 ; ! "girl,daughter,virgin"
-қызметкер:қызметкер N1 ; ! "officer"
-қызмет:қызмет N1 ; ! "service"
-қылмыс:қылмыс N1 ; ! "crime"
-қыркүйек:қыркүйек N1 ; ! "September"
-қыркүйек:қырқұйек N1 ; ! "September" Dir/LR
-қыркүйек:қыпкүйек N1 ; ! "September" Dir/LR
-қыс:қыс N1 ; ! "winter"
-қыспақ:қыспақ N1 ; ! "constraint"
-қыша:қыша N1 ; ! "mustard"
-қышқыл:қышқыл N1 ; ! ""
+күшік:күшік N1 ; ! "pup"
+күңкіл:күңкіл N1 ; ! "murmur"
+кәсер:кәсер N1 ; ! "miserable"
+көз:көз N1 ; ! "eye"
+көкөніс:көкөніс N1 ; ! "vegetable"
+көл:көл N1 ; ! "lake"
+көлем:көлем N1 ; ! "volume"
+көмір:көмір N1 ; ! "coal"
+көрпе:көрпе N1 ; ! "blanket"
+көрші:көрші N1 ; ! "neighbour"
+көрініс:көрініс N1 ; ! "kind"
+көт:көт N1 ; ! "ass"
+көше:көше N1 ; ! "street"
 лас:лас N1 ; ! "dirt"
-лига:лига N1 ; ! "league"
 лифт:лифт N1 ; ! "lift"
+лига:лига N1 ; ! "league"
 мазар:мазар N1 ; ! "tomb"
 май:май N1 ; ! "oil"
+малай:малай N1 ; ! "servant"
+маса:маса N1 ; ! "mosquito"
+маскүнем:маскүнем N1 ; ! "drunkard"
+маусым:маусым N1 ; ! "June"
 мақсат:мақсат N1 ; ! "purpose"
 мақта:мақта N1 ; ! "cotton"
 мақтаныш:мақтаныш N1 ; ! "pride"
-малай:малай N1 ; ! "servant"
-мамыр:мамыр N1 ; ! ""
 маңай:маңай N1 ; ! "surrounding"
-маңдай:мандай N1 ; ! "forehead" Dir/LR
 маңдай:маңдай N1 ; ! "forehead"
-маса:маса N1 ; ! "mosquito"
-маскүнем:маскүнем N1 ; ! "drunkard"
-материал:материал N1 ; ! ""
-матч:матч N1 ; ! ""
-маусым:маусым N1 ; ! "June"
-машина:машина N1 ; ! ""
-мәдениет:мәдениет N1 ; ! "culture"
-мәтін:мәтін N1 ; ! "text"
 мейіз:мейіз N1 ; ! "raisin"
 мейірім:мейірім N1 ; ! "grace"
 мекеме:мекеме N1 ; ! "institution"
 мектеп:мектеп N1 ; ! "school"
 меншік:меншік N1 ; ! "property"
-ми:ми N1 ; ! ""
-министрлік:министрлік N1 ; ! "ministry"
 министр:министр N1 ; ! "minister/secretary"
-минут:минут N5 ; ! ""
-мін:мін N1 ; ! "flaw"
-мойын:мой%{y%}н N1 ; ! "neck" ! Dir/LR
+министрлік:министрлік N1 ; ! "ministry"
+мойын:мой%{y%}н N1 ; ! "neck"   ! Dir/LR
 мойын:мойын N1 ; ! "neck"
-мүдде:мүдде N1 ; ! "interest"
+мылтық:мылтық N1 ; ! "gun"  ! FIXME: check
+мылқау:мылқау N1 ; ! "deaf"
+мырза:мырза N1 ; ! "sir"
+мысал:мысал N1 ; ! "example"
+мысық:мысық N1 ; ! "cat,copper"
+мін:мін N1 ; ! "flaw"
 мүмкіндік:мүмкіндік N1 ; ! "possibility,opportunity"
-мүше:мүше N1 ; ! "member, body part"
+мүше:мүше N1 ; ! "member"
 мұз:мұз N1 ; ! "ice"
 мұнара:мұнара N1 ; ! "tower"
 мұра:мұра N1 ; ! "inheritance"
 мұрт:мұрт N1 ; ! "moustache"
-мұрын:мұр%{y%}н N1 ; ! "nose"
-мылқау:мылқау N1 ; ! "deaf"
-мылтық:мылтық N1 ; ! "gun"
-мырза:мырза N1 ; ! "sir"
-мысал:мысал N1 ; ! "example"
-мыс:мыс N1 ; ! ""
-мысық:мысық N1 ; ! "cat,copper"
-нағашы:нағашы N1 ; ! "relative"
-нағыз:нағыз N1 ; ! "real"
+мұрын:мұрын N1 ; ! "nose"
+мәдениет:мәдениет N1 ; ! "culture"
+мәтін:мәтін N1 ; ! "text"
 назар:назар N1 ; ! "attentiveness"
 найзағай:найзағай N1 ; ! "lightning"
 нан:нан N1 ; ! "bread"
@@ -2262,96 +1330,61 @@ XXI NUM-ROMAN ; ! ""
 насихат:насихат N1 ; ! "propaganda"
 наурыз:наурыз N1 ; ! "March,Navruz"
 нашар:нашар N1 ; ! "bad"
-негіз:негіз N1 ; ! "base,foundation"
+нағашы:нағашы N1 ; ! "relative"
+нағыз:нағыз N1 ; ! "real"
 ниет:ниет N1 ; ! "intention"
 нүкте:нүкте N1 ; ! "period"
-объект:объект N1 ; ! ""
-ой:ой N1 ; ! "depression,geol,thought"
 ойын:ойын N1 ; ! "play, game"
-ойыншық:ойыншық N1 ; ! "toy"
 ойыншы:ойыншы N1 ; ! "player"
-оқиға:оқиға N1 ; ! "event"
-оқ:оқ N1 ; ! "bullet"
-оқытушы:оқытушы N1 ; ! "teacher"
-олжа:олжа N1 ; ! "plunder"
-оңтүстік:оңтүстік N1 ; ! "south"
+ойыншық:ойыншық N1 ; ! "toy"
 опат:опат N1 ; ! "death"
 оппозиция:оппозиция N1 ; ! "opposition"
 орай:орай N1 ; ! "opportunity"
 орамал:орамал N1 ; ! "towel"
-орамал:орымал N1 ; ! "towel" Dir/LR
 орман:орман N1 ; ! "forest"
 орындық:орындық N1 ; ! "chair"
-орын:ор%{y%}н N1 ; ! "place,seat"
-орын:орын N1 ; ! "place,seat"  ! Dir/LR
+орыс:орыс N1 ; ! "Russian"
 отан:отан N1 ; ! "homeland"
-отбасы:отбас N-COMPOUND-PX ; ! "family"
-от:от N1 ; ! "fire"
-өзгеріс:өзгеріс N1 ; ! ""
-өзен:өзен N1 ; ! "river"
-өкіл:өкіл N1 ; ! "representative"
-өкімет:өкімет N1 ; ! "power,правительство"
-өкініш:өкініш N1 ; ! ""
-өкше:өкше N1 ; ! "heel"
-өмір:өмір N1 ; ! "life"
-өндіріс:өндіріс N1 ; ! "manufacturing"
-өнеркәсіп:өнеркәсіп N1 ; ! "industry"
-өң:өң N1 ; ! "appearance"
-өрмекші:өрмекші N1 ; ! "spider"
-өсиет:өсиет N1 ; ! "testament"
-өтініш:өтініш N1 ; ! ""
-өтірік:өтірік N1 ; ! "lie"
-пайғамбар:пайғамбар N1 ; ! "prophet"
-пайда:пайда N1 ; ! "benefit,gain"
+отбасы:отбасы N1 ; ! "family"
+оқ:оқ N1 ; ! "bullet"
+оқиға:оқиға N1 ; ! "event"
+оқытушы:оқытушы N1 ; ! "teacher"
+оңтүстік:оңтүстік N1 ; ! "south"
 пайыз:пайыз N1 ; ! "percent"
-параллель:параллель N1 ; ! ""
+пайғамбар:пайғамбар N1 ; ! "prophet"
 парасат:парасат N1 ; ! "intellect"
 патша:патша N1 ; ! "king"
-пәтер:пәтер N1 ; ! ""
 пейіл:пейіл N1 ; ! "disposition"
 пейіш:пейіш N1 ; ! "paradise"
 періште:періште N1 ; ! "angel"
 пеш:пеш N1 ; ! "oven"
 пияз:пияз N1 ; ! "onion"
-пікір:пікір N1 ; ! "thought"
 полиция:полиция N1 ; ! "police"
-порт:порт N1 ; ! ""
 президент:президент N1 ; ! "president"
 пышақ:пышақ N1 ; ! "knife"
 радио:радио N1 ; ! "radio"
 рақым:рақым N1 ; ! "kindness"
-реакция:реакция N1 ; ! ""
-рейтинг:рейтинг N5 ; ! ""
+!ресми:ресми N1 ; ! "official"
 республика:республика N1 ; ! "republic"
-реформа:реформа N1 ; ! ""
-рөл:рөл N1 ; ! "role"
 ру:ру N1 ; ! "tribe"
 рух:рух N1 ; ! "spirit"
+ручка:ручка N1 ; ! "pen"
 рұқсат:рұқсат N1 ; ! "permission"
-сабақ:сабақ N1 ; ! "lesson"
+рөл:рөл N1 ; ! "role"
 сабан:сабан N1 ; ! "straw"
+сабақ:сабақ N1 ; ! "lesson"
 сабын:сабын N1 ; ! "soap"
-сағат:сағат N1 ; ! "hour"
 садақа:садақа N1 ; ! "alms"
 сайлау:сайлау N1 ; ! "elections"
-сақал:сақал N1 ; ! "beard"
 салтанат:салтанат N1 ; ! "ceremony"
-салық:салық N1 ; ! "tax"
-сандық:сандық N1 ; ! ""
 сан:сан N1 ; ! "bill,number"
 сапа:сапа N1 ; ! "quality"
-сарапшы:сарапшы N1 ; ! ""
 сарымсақ:сарымсақ N1 ; ! "garlic"
-сауда:сауда N1 ; ! "trade"
-саусақ:саусақ N1 ; ! "finger"
 сау:сау N1 ; ! "healthy"
+саусақ:саусақ N1 ; ! "finger"
 саясат:саясат N1 ; ! "politics"
-саяхат:саяхат N1 ; ! "trip"
-сәби:сәби N1 ; ! "infant"
-сәбіз:сәбіз N1 ; ! "carrots"
-сән:сән N1 ; ! "luxury"
-сәрсенбі:сәрсенбі N1 ; ! "Wednesday"
-сәуле:сәуле N1 ; ! "beam,light,ray"
+сағат:сағат N1 ; ! "hour"
+сақал:сақал N1 ; ! "beard"
 себеп:себеп N1 ; ! "reason"
 сегізаяқ:сегізаяқ N1 ; ! "octopus"
 сезім:сезім N1 ; ! "feeling"
@@ -2360,288 +1393,638 @@ XXI NUM-ROMAN ; ! ""
 сенбі:сенбі N1 ; ! "Saturday"
 сенім:сенім N1 ; ! "belief"
 серік:серік N1 ; ! "companion"
-сиқыр:сиқыр N1 ; ! "sorcery"
+сеулетші:сеулетші N1 ; ! "architect"
 сиыр:сиыр N1 ; ! "cow"
 сия:сия N1 ; ! "ink"
-соғыс:соғыс N1 ; ! "war"
-соққы:соққы N1 ; ! "beating"
+сиқыр:сиқыр N1 ; ! "sorcery"
 солтүстік:солтүстік N1 ; ! "north"
 сорпа:сорпа N1 ; ! "soup"
-сөз:сөз N1 ; ! "word"
-сөре:сөре N1 ; ! "shelf"
+соғыс:соғыс N1 ; ! "war"
+соққы:соққы N1 ; ! "beating"
 стадион:стадион N1 ; ! "stadium"
-станция:станция N1 ; ! ""
 статистика:статистика N1 ; ! "statistics"
 студент:студент N1 ; ! "student"
-сурет:сурет N1 ; ! ""
 су:су N1 ; ! "water"
 суыр:суыр N1 ; ! "marmot"
+сыбыс:сыбыс N1 ; ! "rumour"
+сый:сый N1 ; ! "gift"
+сыншы:сыншы N1 ; ! "critic"
+сыр:сыр N1 ; ! "secret"
+сыра:сыра N1 ; ! "beer"
+сырт:сырт N1 ; ! "outside"
+сырға:сырға N1 ; ! "earring"
 сүйек:сүйек N1 ; ! "bone"
 сүндет:сүндет N1 ; ! "circumcision"
-сүт:сүт N1 ; ! "milk"
+сүрет:сүрет N1 ; ! "picture"
+сүтсірне:сүтсірне N1 ; ! "cheese"
 сұмдық:сұмдық N1 ; ! "cunning"
 сұрақ:сұрақ N1 ; ! "question"
-сыбыс:сыбыс N1 ; ! "rumour"
-сыйлық:сыйлық N1 ; ! "reward"
-сый:сый N1 ; ! "gift"
-сым:сым N1 ; ! "wire"
-сыншы:сыншы N1 ; ! "critic"
-сыра:сыра N1 ; ! "beer"
-сырға:сырға N1 ; ! "earring"
-сыр:сыр N1 ; ! "secret"
-сырт:сырт N1 ; ! "outside"
-сырт:сырт N1 ; ! "outside"
-сюрприз:сюрприз N1 ; ! "surprise"
-табақ:табақ N1 ; ! "plate"
-табан:табан N1 ; ! "sole"
+сәби:сәби N1 ; ! "infant"
+сәбіз:сәбіз N1 ; ! "carrots"
+сән:сән N1 ; ! "luxury"
+сәрсенбі:сәрсенбі N1 ; ! "wednesday"
+сөз:сөз N1 ; ! "word"
+сөре:сөре N1 ; ! "shelf"
 таба:таба N1 ; ! "pan"
+табан:табан N1 ; ! "sole"
+табақ:табақ N1 ; ! "plate"
 табиғат:табиғат N1 ; ! "nature"
-тағам:тағам N1 ; ! "food"
-тағдыр:тағдыр N1 ; ! "fate"
-тақ:тақ N1 ; ! "throne"
-тақта:тақта N1 ; ! "board"
-тақырып:тақырып N1 ; ! "theme"
 талап:талап N1 ; ! "requirement"
-тамақ:тамақ N1 ; ! "throat,meal,warm"
 тамыз:тамыз N1 ; ! "August"
-тамыр:тамыр N1 ; ! "root"
 тап:тап N1 ; ! "class"
-тапшылық:тапшылық N1 ; ! ""
 тарап:тарап N1 ; ! "direction"
 тарау:тарау N1 ; ! "chapter"
 тарих:тарих N1 ; ! "history"
-тас:тас N1 ; ! "stone"
 тау:тау N1 ; ! "mountain"
-таяқ:таяқ N1 ; ! "stick,staff"
-тәжірибе:тәжірибе N1 ; ! "experience"
-тәлім:тәлім N1 ; ! "teaching"
-тәрбие:тәрбие N1 ; ! "education"
-тәуелсіздік:тәуелсіздік N1 ; ! "independence"
-темекі:темеке N1 ; ! "tobacco" Dir/LR
+тағам:тағам N1 ; ! "food"
+тағдыр:тағдыр N1 ; ! "fate"
+тақ:тақ N1 ; ! "throne"
+тақырып:тақырып N1 ; ! "theme"
 темекі:темекі N1 ; ! "tobacco"
-темір:темір N1 ; ! "iron"
 температура:температура N1 ; ! "temperature"
-теңіз:теңіз N1 ; ! "sea"
-теория:теория N1 ; ! ""
-тепе%-теңдік:тепе%-теңдік N1 ; ! ""
 терезе:терезе N1 ; ! "window"
 терек:терек N1 ; ! "popular"
-тері:тері N1 ; ! "skin,leather"
 тесік:тесік N1 ; ! "hole"
-тиін:тиін N1 ; ! "squirrel"
+теңіз:теңіз N1 ; ! "sea"
 тиын:тиын N1 ; ! "penny"
-тігінші:тігінші N1 ; ! "tailor"
-тізе:тізе N1 ; ! "knee"
-тізім:тізім N1 ; ! ""
-тілек:тілек N1 ; ! ""
-тілмаш:тілмаш N1 ; ! "translator"
-тіл:тіл N1 ; ! "language,tongue"
-тілші:тілші N1 ; ! "reporter"
-тіршілік:тіршілік N1 ; ! ""
-тіс:тіс N1 ; ! "tooth"
-товар:товар N1 ; ! "goods"
+тиін:тиін N1 ; ! "squirrel"
+товар:товар N1 ; ! "good"
 тозақ:тозақ N1 ; ! "hell"
 тозаң:тозаң N1 ; ! "dust"
 той:той N1 ; ! "feast"
-толқын:толқын N1 ; ! ""
 тон:тон N1 ; ! "robe"
-топ:топ N1 ; ! "group,team;ball"
 торғай:торғай N1 ; ! "sparrow"
-төре:төре N1 ; ! "noble"
-төсек:төсек N1 ; ! "bed,mattress"
-турнир:турнир N1 ; ! "tournament"
 ту:ту N1 ; ! "banner"
+ат:ат N1 ; ! "name"
+турнир:турнир N1 ; ! "tournament"
 туыс:туыс N1 ; ! "relative"
-түйе:түйе N1 ; ! "camel" FIXME CHECK
+тігінші:тігінші N1 ; ! "tailor"
+тізе:тізе N1 ; ! "knee"
+тілмаш:тілмаш N1 ; ! "translator"
+тілші:тілші N1 ; ! "reporter"
+тіс:тіс N1 ; ! "tooth"
+түйе:түйе N1 ; ! "camel"
 түйсік:түйсік N1 ; ! "perception"
 түлкі:түлкі N1 ; ! "fox"
 түн:түн N1 ; ! "night"
 түрме:түрме N1 ; ! "prison"
-түр:түр N1 ; ! "form,variety"
 түс:түс N1 ; ! "noon"
+түше:түше N1 ; ! "member"
 тұз:тұз N1 ; ! "salt"
-тұқым:тұқым N1 ; ! "seed,offspring"
 тұман:тұман N1 ; ! "fog"
-тұрғын:тұрғын N1 ; ! "resident"
 тұрғы:тұрғы N1 ; ! "viewpoint"
+тұрғын:тұрғын N1 ; ! "resident"
 тұтқын:тұтқын N1 ; ! "captive"
-тырнақ:тырнақ N1 ; ! "nail,fingernail"
+тәлім:тәлім N1 ; ! "teaching"
+тәрбие:тәрбие N1 ; ! "education"
+тәуелсіздік:тәуелсіздік N1 ; ! "independence"
+тәңір:тәңір N1 ; ! "God"             
+төре:төре N1 ; ! "noble"
 уағыз:уағыз N1 ; ! "sermon"
 уақыт:уақыт N1 ; ! "time"
 университет:университет N1 ; ! "university"
-у:у N1 ; ! "poison"
-үйрек:үйрек N1 ; ! "duck"
-үй:үй N1 ; ! "home,house"
-үкім:үкім N1 ; ! "government"
-үрей:үрей N1 ; ! "fright"
-үстел:үстел N1 ; ! "table"
-үст:үст N1 ; ! "top"
-ұзындық:ұзындық N1 ; ! "length"
-ұйым:ұйым N1 ; ! ""
-ұл:ұл N1 ; ! "son"
-ұрпақ:ұрпақ N1 ; ! "generation"
-ұры:ұры N1 ; ! "thief"
-ұят:ұят N1 ; ! "shame"
-ұя:ұя N1 ; ! "nest"
 факультет:факультет N1 ; ! "faculty"
 физика:физика N1 ; ! "physics"
 филология:филология N1 ; ! "philology"
 философия:философия N1 ; ! "philosophy"
-фильм:фильм N1 ; ! ""
 финал:финал N1 ; ! "final"
-финал:финал%{э%}%{л%} N1 ; ! "final" ! Dir/LR  ! Apparently this can take front-vowel endings 8-|
-футбол:футбол N1 ; ! "football"
-халық:хал%{y%}қ N1 ; ! "people"
-хат:хат N1 ; ! "letter,mail"
 хатшы:хатшы N1 ; ! "clerk"
 чемпионат:чемпионат N1 ; ! "championship"
 шабдалы:шабдалы N1 ; ! "peach"
 шабуыл:шабуыл N1 ; ! "attack"
 шайтан:шайтан N1 ; ! "devil"
-шай:шай N1 ; ! ""
 шакірт:шакірт N1 ; ! "disciple"
 шалбар:шалбар N1 ; ! "pants"
 шам:шам N1 ; ! "lamp"
 шана:шана N1 ; ! "sled"
-шанышқы:шанышқы N1 ; ! "fork"
-шаңбыр:шаңбыр N1 ; ! "beet" FIXME CHECK
-шаңғы:шаңғы N1 ; ! "ski"
 шапан:шапан N1 ; ! "coat"
 шарап:шарап N1 ; ! "wine"
-шарт:шарт N1 ; ! "condition requirement"
-шаршы:шаршы N1 ; ! ""
-шатыр:шатыр N1 ; ! ""
 шаш:шаш N1 ; ! "hair"
 шаян:шаян N1 ; ! "scorpion"
+шаңбыр:шаңбыр N1 ; ! "beet"
+шаңғы:шаңғы N1 ; ! "ski"
 шеке:шеке N1 ; ! "temple"
-шек:шек N1 ; ! ""
-шелек:шелек N1 ; ! "bucket"
 шемен:шемен N1 ; ! "dropsy"
 шет:шет N1 ; ! "edge"
 шешім:шешім N1 ; ! "decision"
-шілде:шілде N1 ; ! "July"
-шіркеу:шіркеу N1 ; ! ""
 шошқа:шошқа N1 ; ! "pig"
-шөп:шөп N1 ; ! "grass,green-fodder"
-шыбын:шыбын N1 ; ! "fly"
-шығын:шығын N1 ; ! "expense"
-шығыс:шығыс N1 ; ! "east,orient"
-шындық:шындық N1 ; ! ""
+шоу:шоу N1 ; ! "show"
 шынтақ:шынтақ N1 ; ! "elbow"
+шығын:шығын N1 ; ! "expense"
+шілде:шілде N1 ; ! "July"
+шұлық:шұлық N1 ; ! "stocking"
 ыдыс:ыдыс N1 ; ! "vessel"
 ынтымақ:ынтымақ N1 ; ! "unity"
 ырыс:ырыс N1 ; ! "fortune"
-экономика:экономика N1 ; ! ""
 юбка:юбка N1 ; ! "skirt"
-юмор:юмор N1 ; ! ""
-желі:желі N1 ; ! ""
-қолданушы:қолданушы N1 ; ! "пользователь"
-салыстыру:салыстыру N1 ; ! "сравнение" Use/MT
-алд:ал%{д%} N1 ; ! "front"
+ілгек:ілгек N1 ; ! "hook"
+ілмек:ілмек N1 ; ! "loop"
+інжір:інжір N1 ; ! "fig"
+ірге:ірге N1 ; ! "foundation"
+ірімшік:ірімшік N1 ; ! "cheese"
+іш:іш N1 ; ! "inside,stomach"
+ішек:ішек N1 ; ! "intestine"
+ғасыр:ғасыр N1 ; ! "century"
+ғибадат:ғибадат N1 ; ! "worship"
+ғылым:ғылым N1 ; ! "science"
+ғалым:ғалым N1 ; ! "scientist"
+ғұлама:ғұлама N1 ; ! "scholar"
+қабір:қабір N1 ; ! "grave"
+қаз:қаз N1 ; ! "goose"
+қазан:қазан N1 ; ! "October,Pan"
+қайыр:қайыр N1 ; ! "goodness"
+қайырым:қайырым N1 ; ! "compassion"
+қала:қала N1 ; ! "city"
+қалайы:қалайы N1 ; ! "tin"
+қаламұш:қаламұш N1 ; ! "effort"
+қам:қам N1 ; ! "anxiety"
+қамба:қамба N1 ; ! "shed"
+қан:қан N1 ; ! "blood"
+қанат:қанат N1 ; ! "wing"
+қантар:қантар N1 ; ! "January"
+қапас:қапас N1 ; ! "cage"
+қар:қар N1 ; ! "snow"
+қараша:қараша N1 ; ! "November"
+қару:қару N1 ; ! "weapons"
+қарык:қарык N1 ; ! "rich"
+қарындас:қарындас N1 ; ! "younger sister"
+қарға:қарға N1 ; ! "crow"
+қастық:қастық N1 ; ! "animosity"
+қасық:қасық N1 ; ! "spoon"
+қасірет:қасірет N1 ; ! "grief"
+қасқыр:қасқыр N1 ; ! "wolf"
+қауіп:қауіп N1 ; ! "danger"
+қауіпсіздік:қауіпсіздік N1 ; ! "safety"
+қағаз:қағаз N1 ; ! "paper"
+қақпа:қақпа N1 ; ! "gate"
+қаһар:қаһар N1 ; ! "wrath"
+қи:қи N1 ; ! "peat"
+қиямет:қиямет N1 ; ! "resurrection"
+қозы:қозы N1 ; ! "lamb"
+қол:қол N1 ; ! "hand"
+қолғап:қолғап N1 ; ! "glove"
+қонақ:қонақ N1 ; ! "guest"
+қор:қор N1 ; ! "reserves,wealth"
+қоян:қоян N1 ; ! "rabbit"
+қоқыс:қоқыс N1 ; ! "garbage"
+қуат:қуат N1 ; ! "energy"
+қулық:қулық N1 ; ! "deceit"
+қуғын:қуғын N1 ; ! "persecution"
+қыз:қыз N1 ; ! "girl,daughter,virgin"
+қызмет:қызмет N1 ; ! "service"
+қызметкер:қызметкер N1 ; ! "officer"
+қызғалдақ:қызғалдақ N1 ; ! "tulip"
+қылмыс:қылмыс N1 ; ! "crime"
+қыс:қыс N1 ; ! "winter"
+қыспақ:қыспақ N1 ; ! "constraint"
+қыша:қыша N1 ; ! "mustard"
+құл:құл N1 ; ! "slave"
+құлақ:құлақ N1 ; ! "ear"
+құм:құм N1 ; ! "sand"
+құрсақ:құрсақ N1 ; ! "belly"
+құрылыс:құрылыс N1 ; ! "construction"
+құрым:құрым N1 ; ! "soot"
+құс:құс N1 ; ! "bird"
+үй:үй N1 ; ! "home,house"
+үйрек:үйрек N1 ; ! "duck"
+үкім:үкім N1 ; ! "government"
+үрей:үрей N1 ; ! "fright"
+үстел:үстел N1 ; ! "table"
+компьютер:компьютер N1 ; ! "computer"
+ұзындық:ұзындық N1 ; ! "length"
+ұл:ұл N1 ; ! "son"
+ұрпақ:ұрпақ N1 ; ! "generation"
+ұры:ұры N1 ; ! "thief"
+ұя:ұя N1 ; ! "nest"
+ұят:ұят N1 ; ! "shame"
+әдебиет:әдебиет N1 ; ! "literature"
+әдет:әдет N1 ; ! "custom"
+әдіс:әдіс N1 ; ! "method"
+әже:әже N1 ; ! "grandmother"
+әйел:әйел N1 ; ! "woman"
+әйел:әйел N1 ; ! "woman"
+әке:әке N1 ; ! "father"
+әкім:әкім N1 ; ! "governor"
+әлем:әлем N1 ; ! "universe"
+ән:ән N1 ; ! "song"
+әнші:әнші N1 ; ! "singer"
+әрекет:әрекет N1 ; ! "behaviour"
+әрекет:әрекет N1 ; ! "move, activity"
+әскер:әскер N1 ; ! "soldier"
+әулет:әулет N1 ; ! "offspring"
+әңгіме:әңгіме N1 ; ! "story"
+өзен:өзен N1 ; ! "river"
+өкше:өкше N1 ; ! "heel"
+өкіл:өкіл N1 ; ! "representative"
+өкімет:өкімет N1 ; ! "power,правительство"
+өмір:өмір N1 ; ! "life"
+өндіріс:өндіріс N1 ; ! "manufacturing"
+өнеркәсіп:өнеркәсіп N1 ; ! "industry"
+өрмекші:өрмекші N1 ; ! "spider"
+өсиет:өсиет N1 ; ! "testament"
+өтірік:өтірік N1 ; ! "lie"
+өң:өң N1 ; ! "appearance"
+бизнес:бизнес N1 ; ! ""
+өзгеріс:өзгеріс N1 ; ! ""
+экономика:экономика N1 ; ! ""
+мыс:мыс N1 ; ! ""
 алд:ал%{д%} N1 ; ! "front"
 ара:ара N1 ; ! "among"
 арт:арт N1 ; ! "back"
-арт:арт N1 ; ! "back"
-аст:ас%{т%} N1 ; ! "down side"
-аст:аст N1 ; ! "under"
-бой:бой N1 ; ! ""
-жан:жан N1 ; ! "next to"
-жан:жан N1 ; ! "next to"
-тарап:тарап%{с%} N1 ; ! ""
-тұс:тұс N1 ; ! "~near"
-үст:үст N1 ; ! "top"
-орыс:орыс N1 ; ! "Russian"
-самолет:самолет N1 ; ! " plane"  ! Use/MT eng-kaz
-алма:алма N1 ; ! "apple"  ! Use/MT eng-kaz
-насос:насос N1 ; ! "pump "  ! Use/MT eng-kaz
-қолшатыр:қолшатыр N1 ; ! "umbrella"  ! Use/MT eng-kaz
-үй% құс:үй% құс N1 ; ! " fowl"  ! Use/MT eng-kaz
-инстиут:инстиут N1 ; ! "institute"  ! Use/MT eng-kaz
-аяу:аяу N1 ; ! "mercy"  ! Use/MT eng-kaz
-лезвие:лезвие N1 ; ! " blade"  ! Use/MT eng-kaz
-таңба:таңба N1 ; ! "stamp "  ! Use/MT eng-kaz
-шнур:шнур N1 ; ! " cord"  ! Use/MT eng-kaz
-жаңғақ:жаңғақ N1 ; ! " nut"  ! Use/MT eng-kaz
-иін:иін N1 ; ! "arch"  ! Use/MT eng-kaz
-қамыт:қамыт N1 ; ! "  collar "  ! Use/MT eng-kaz
-кірпіш:кірпіш N1 ; ! "brick"  ! Use/MT eng-kaz
-примат:примат N1 ; ! "primate"  ! Use/MT eng-kaz
-вагон:вагон N1 ; ! " carriage"  ! Use/MT eng-kaz
-балға:балға N1 ; ! "hammer "  ! Use/MT eng-kaz
-түйреуіш:түйреуіш N1 ; ! " pin "  ! Use/MT eng-kaz
-бұлшық:бұлшық N1 ; ! " muscle"  ! Use/MT eng-kaz
-құйрық:құйрық N1 ; ! "tail"  ! Use/MT eng-kaz
-көйлек:көйлек N1 ; ! "dress"  ! Use/MT eng-kaz
-парус:парус N1 ; ! "sail"  ! Use/MT eng-kaz
-қоңырау:қоңырау N1 ; ! "bell"  ! Use/MT eng-kaz
-шоу:шоу N1 ; ! "show"  ! Use/MT eng-kaz
-бөтелке:бөтелке N1 ; ! "bottle"  ! Use/MT eng-kaz
-аттракцион:аттаркцион N1 ; ! "attraction"  ! Use/MT eng-kaz
-ауыр:ауыр N1 ; ! "weight"  ! Use/MT eng-kaz
-қауыз:қауыз N1 ; ! " horn "  ! Use/MT eng-kaz
-канализация:канализация N1 ; ! " drain"  ! Use/MT eng-kaz
-бөпе:бөпе N1 ; ! "baby"  ! Use/MT eng-kaz
-горшок:горшок N1 ; ! "pot"  ! Use/MT eng-kaz
-пирог:пирог N1 ; ! "  cake"  ! Use/MT eng-kaz
-апельсин:апельсин N1 ; ! " orange"  ! Use/MT eng-kaz
-аяқ% саусақ:аяқ% саусақ N1 ; ! "toe"  ! Use/MT eng-kaz
-жер% учаске:жер% учаске N1 ; ! " parcel"  ! Use/MT eng-kaz
-тал:тал N1 ; ! "rod "  ! Use/MT eng-kaz
-ысқырық:ысқырық N1 ; ! "whistle"  ! Use/MT eng-kaz
-губка:губка N1 ; ! "sponge"  ! Use/MT eng-kaz
-түше:түше N1 ; ! "member"  ! Use/MT eng-kaz
-картоп:картоп N1 ; ! "potato"  ! Use/MT eng-kaz
-секция:секция N1 ; ! " drawer"  ! Use/MT eng-kaz
-эффект:эффект N1 ; ! "effect"  ! Use/MT eng-kaz
-тәңір:тәңір N1 ; ! "God"  ! Use/MT eng-kaz
-тележка:тележка N1 ; ! " cart "  ! Use/MT eng-kaz
-занавес:занавес N1 ; ! " curtain"  ! Use/MT eng-kaz
-жәндік:жәндік N1 ; ! "insect"  ! Use/MT eng-kaz
-бас% бармақ:бас% бармақ N1 ; ! " thumb"  ! Use/MT eng-kaz
-емхана:емхана N1 ; ! "hospital"  ! Use/MT eng-kaz
-қарык:қарык N1 ; ! "rich"  ! Use/MT eng-kaz
-құлпы:құлпы N1 ; ! " lock"  ! Use/MT eng-kaz
-тежегіш:тежегіш N1 ; ! "brake"  ! Use/MT eng-kaz
-түзу:түзу N1 ; ! " line"  ! Use/MT eng-kaz
-рельс:рельс N1 ; ! "rail"  ! Use/MT eng-kaz
-секунд:секунд N1 ; ! "second"  ! Use/MT eng-kaz
-иек:иек N1 ; ! " chin"  ! Use/MT eng-kaz
-ананас:ананас N1 ; ! "pineapple "  ! Use/MT eng-kaz
-квитанция:квитанция N1 ; ! " receipt"  ! Use/MT eng-kaz
-труба:труба N1 ; ! " pipe "  ! Use/MT eng-kaz
-тамшы:тамшы N1 ; ! " drop"  ! Use/MT eng-kaz
-батырма:батырма N1 ; ! "button"  ! Use/MT eng-kaz
-дейін:дейін N1 ; ! "till"  ! Use/MT eng-kaz
-күрек:күрек N1 ; ! "spade"  ! Use/MT eng-kaz
-автоматты:автоматты N1 ; ! "automatic"  ! Use/MT eng-kaz
-рамка:рамка N1 ; ! " frame "  ! Use/MT eng-kaz
-бұранда:бұранда N1 ; ! " screw"  ! Use/MT eng-kaz
-билет:билет N1 ; ! "ticket"  ! Use/MT eng-kaz
-қыр:қыр N1 ; ! " angle"  ! Use/MT eng-kaz
-маймыл:маймыл N1 ; ! "monkey"  ! Use/MT eng-kaz
-поезд:поезд N1 ; ! "train"  ! Use/MT eng-kaz
-егеуқұйрық:егеуқұйрық N1 ; ! "rat"  ! Use/MT eng-kaz
-сөмке:сөмке N1 ; ! "bag"  ! Use/MT eng-kaz
-чәшке:чәшке N1 ; ! " cup"  ! Use/MT eng-kaz
-шляпа:шляпа N1 ; ! "hat"  ! Use/MT eng-kaz
-щетка:щетка N1 ; ! "brush"  ! Use/MT eng-kaz
-қарындаш:қарындаш N1 ; ! " pencil"  ! Use/MT eng-kaz
-себет:себет N1 ; ! "basket"  ! Use/MT eng-kaz
-құрт:құрт N1 ; ! "worm"  ! Use/MT eng-kaz
-факт:факт N1 ; ! "fact"  ! Use/MT eng-kaz
-мотор:мотор N1 ; ! "  engine"  ! Use/MT eng-kaz
-көпір:көпір N1 ; ! "bridge"  ! Use/MT eng-kaz
-ферма:ферма N1 ; ! " farm"  ! Use/MT eng-kaz
-опасыз:опасыз N1 ; ! "traitor"  ! Use/MT eng-kaz
-шұлғы:шұлғы N1 ; ! "sock"  ! Use/MT eng-kaz
-сеулетші:сеулетші N1 ; ! "architect"  ! Use/MT eng-kaz
-поднос:поднос N1 ; ! "tray"  ! Use/MT eng-kaz
-шынжыр:шынжыр N1 ; ! "  chain "  ! Use/MT eng-kaz
-соқа:соқа N1 ; ! " plough"  ! Use/MT eng-kaz
-лампа:лампа N1 ; ! "bulb "  ! Use/MT eng-kaz
-жабдықтама:жабдықтама N1 ; ! "stocking"  ! Use/MT eng-kaz
+арт:арт N1 ; ! "behind"
+дейін:дейін N1 ; ! "till"
 
- LEXICON ProperNouns
+жан:жан N1 ; ! "next to"
+үст:үст N1 ; ! "top"
+үст:үст N1 ; ! "over"
+үст:үст N1 ; ! "above"
+жан:жан N1 ; ! "next to"
+сырт:сырт N1 ; ! "out"
+іш:іш N1 ; ! "inside,stomach"
+бой:бой N1 ; ! "length, height"
+тұс:тұс N1 ; ! "~near"
+орыс:орыс Natinfl ; ! "Russian"
+сан:сан N1 ; ! "amount"
+шығыс:шығыс N1 ; ! "east"
+эффект:эффект N1 ; ! "effect"
+сарапшы:сарапшы N1 ; ! "expert"
+факт:факт N1 ; ! "fact"
+ие:ие N1 ; ! "owner"
+
+картоп:картоп N1 ; ! "potato"
+қыр:қыр  N1 ; ! angle
+құмырсқа:құмырсқа N1 ; ! ant
+алма:алма N1 ; !apple
+иін:иін N1 ; !arch
+армия:армия N1 ; !army
+ бөпе:бөпе N1 ; !baby
+  сөмке:сөмке N1 ; !bag
+ топ:топ N1 ; !band
+ бассейн:бассейн N1 ; !basin
+  себет:себет N1 ; !basket
+  төсек:төсек N1 ; !bed
+ қоңырау:қоңырау N1 ; !bell
+  жеміс:жеміс N1 ; !berry
+  лезвие:лезвие N1 ; ! blade
+  тақта:тақта N1 ; !board
+ қайық:қайық N1 ; !boat
+  бәтеңке:бәтеңке N1 ; !boot
+  бөтелке:бөтелке N1 ; !bottle
+ ми:ми N1 ; !brain
+ примат:примат N1 ; !primate
+ жаңбыр:жаңбыр N1 ; !rain
+ тежегіш:тежегіш N1 ; !brake
+ кірпіш:кірпіш N1 ; !brick
+көпір:көпір N1 ; !bridge
+ щетка:щетка N1 ; !brush
+ шелек:шелек N1 ; !bucket
+лампа:лампа N1 ; !bulb 
+видео:видео N1 ; !video 
+ батырма:батырма N1 ; !button
+ пирог:пирог N1 ; !  cake
+  камера:камера N1 ; !camera
+тележка:тележка N1 ; ! cart 
+ вагон:вагон N1 ; ! carriage
+шынжыр:шынжыр N1 ; !  chain 
+ сандық:сандық N1 ; ! chest
+ иек:иек N1 ; ! chin
+ шіркеу:шіркеу N1 ; !   church
+  сағат:сағат N1 ; !clock
+қамыт:қамыт N1 ; !  collar 
+  жота:жота N1 ; ! comb
+ шнур:шнур N1 ; ! cord
+ чәшке:чәшке N1 ; ! cup
+ занавес:занавес N1 ; ! curtain
+ жастық:жастық N1 ; ! cushion
+ канализация:канализация N1 ; ! drain
+ секция:секция N1 ; ! drawer
+  көйлек:көйлек N1 ; !dress
+ тамшы:тамшы N1 ; ! drop
+ мотор:мотор N1 ; !  engine
+  бет:бет N1 ; !face
+ ферма:ферма N1 ; ! farm
+ балық:балық N1 ; ! fish
+ қабат:қабат N1 ; !floor
+  шыбын:шыбын N1 ; !fly
+ аяқ:аяқ N1 ; ! foot
+ футбол:футбол N1 ; ! football
+  шанышқы:шанышқы N1 ; !fork
+ үй% құс:үй% құс N1 ; ! fowl
+рамка:рамка N1 ; ! frame 
+балға:балға N1 ; !hammer 
+  шляпа:шляпа N1 ; !hat
+қауыз:қауыз N1 ; ! horn 
+  емхана:емхана N1 ; !hospital
+ арал:арал N1 ; !island 
+ асыл:асыл тас N1 ; !
+ kettle:kettle шәйнек N1 ; ! jewel
+ жіп:жіп N1 ; ! knot
+ аяқ:аяқ N1 ; ! leg
+ кітапхана:кітапхана N1 ; ! library
+ түзу:түзу N1 ; ! line
+ құлпы:құлпы N1 ; ! lock
+ карта:карта N1 ; ! map
+ матч:матч N1 ; ! match
+  маймыл:маймыл N1 ; !monkey
+ бұлшық:бұлшық N1 ; ! muscle
+ тырнақ:тырнақ N1 ; ! nail
+ жүйке:жүйке N1 ; ! nerve
+ желі:желі N1 ; ! net
+ жаңғақ:жаңғақ N1 ; ! nut
+ кеңсе:кеңсе N1 ; ! office
+ апельсин:апельсин N1 ; ! orange
+ жер% учаске:жер% учаске N1 ; ! parcel
+ қалам:қалам N1 ; ! pen
+ қарындаш:қарындаш N1 ; ! pencil
+ сурет:сурет N1 ; ! picture
+түйреуіш:түйреуіш N1 ; ! pin 
+труба:труба N1 ; ! pipe 
+ самолет:самолет N1 ; ! plane
+ соқа:соқа N1 ; ! plough
+ қалта:қалта N1 ; ! pocket
+ автобус:автобус N1 ; ! bus
+  горшок:горшок N1 ; !pot
+ насос:насос N1 ; !pump 
+ананас:ананас N1 ; !pineapple 
+  рельс:рельс N1 ; !rail
+ квитанция:квитанция N1 ; ! receipt
+ тал:тал N1 ; !rod 
+  шатыр:шатыр N1 ; !roof
+ тамыр:тамыр N1 ; ! root
+  парус:парус N1 ; !sail
+  қайшы:қайшы N1 ; !scissors
+ бұранда:бұранда N1 ; ! screw
+  дән:дән N1 ; !seed
+  қой:қой N1 ; !sheep
+ кеме:кеме N1 ; ! ship
+ аяқ-киім:аяқ-киім N1 ; ! shoe
+ тері:тері N1 ; ! skin
+  шұлғы:шұлғы N1 ; !sock
+  күрек:күрек N1 ; !spade
+  губка:губка N1 ; !sponge
+  көктем:көктем N1 ; !spring
+  шаршы:шаршы N1 ; !square
+ таңба:таңба N1 ; !stamp 
+  жұлдыз:жұлдыз N1 ; !star
+  станция:станция N1 ; !station
+  негіз:негіз N1 ; !stem
+  таяқ:таяқ N1 ; !stick
+  жабдықтама:жабдықтама N1 ; !stocking
+  дүкен:дүкен N1 ; !store
+  күн:күн N1 ; !sun
+  құйрық:құйрық N1 ; !tail
+  тамақ:тамақ N1 ; !throat
+  бас% бармақ:бас% бармақ  N1 ; ! thumb
+  билет:билет N1 ; !ticket
+  аяқ% саусақ:аяқ% саусақ N1 ; !toe
+  тіл:тіл N1 ; !tongue
+  қала:қала N1 ; !town
+  поезд:поезд N1 ; !train
+  поднос:поднос N1 ; !tray
+  сым:сым N1 ; !trousers
+  қолшатыр:қолшатыр N1 ; !umbrella
+ қабырға:қабырға N1 ; ! wall
+  сағат:сағат N1 ; !watch
+ қамшы:қамшы N1 ; !whip 
+  ысқырық:ысқырық N1 ; !whistle
+  сым-темір:сым-темір N1 ; !wire
+  құрт:құрт N1 ; !worm
+ас:ас N1 ; !meal
+cүт:сүт N1; !milk
+қант:қант N1; !sugar
+алкоголь:алкоголь N1; !alcohol
+cиыр еті:сиыр еті N1; !beef
+аққайнар:аққайнар N1; !champagne
+шоколад:шоколад N1; !chocolate
+цитрон:цитрон N1; !citron
+кофе:кофе N1; !coffee
+коктейль:коктейль N1; !cocktail
+коньяк:коньяк N1; !cognac
+ликер:ликер N1; !liqueur
+түтік кеспе:түтік кеспе N1; !macaroni
+омлет:омлет N1; !omelet
+зәйтүн:зәйтүн N1; !olive
+салат:салат N1; !salad
+сардина:сардина N1; !sardine
+шай:шай N1; !tea
+нан:нан N1; !toast
+ваниль:ваниль N1; !vanila
+арақ:арақ N1; !vodka
+виски:виски N1; !whisky
+алтын:алтын N1; !gold
+жарық:жарық N1; !light
+көлеңке:көлеңке N1; !shade
+күміс:күміс N1; !silver
+қышқыл:қышқыл N1; !acid
+басшы:басшы N1; !chief
+туған% күні:туған% күні N1; !birthday
+туылған% күні:туылған% күні N1; !birth
+икем:икем N1; !bent
+жайлылық:жайлылық  N1; !comfort
+зиян:зиян  N1; !damage
+қызы:қызы  N1; !daughter
+градус:градус N1; !degree
+тәуелділік:тәуелділік N1; !dependent
+дизайн:дизайн N1; !design
+тілек:тілек N1; !desire
+үркіншілік:үркіншілк N1; !destruction
+бөлшек:бөлшек N1; !detail
+даму:даму N1; !development
+тәжірибе:тәжірибе N1; !experience
+сауда:сауда N1; !trade
+дала:дала N1; !outside
+объект:объект N1; !object
+база:база N1; !base
+почта:почта N1; !mail
+қолданушы:қолданушы N1; !user
+тізім:тізім N1; !list
+жақ:жақ N1; !side
+әпке:әпке N1; !sister
+жұмыс:жұмыс N1; !work
+саябақ:саябақ N1; !park
+жұмыс:жұмыс N1; !job
+
+зерттеу:зерттеу N1; !research
+фильм:фильм N1; !film
+тіл:тіл N1; !language
+парақ:парақ N1; !sheet
+әлем:әлем N1; !universal
+белгі:белгі N1; !sign
+жеңіл% автокөлік:жеңіл% автокөлік N1; !car
+сөйлем:сөйлем N1; !sentence
+абзац:абзац N1; !paragraph
+күн:күн N1; !date
+дебет:дебет N1; !debit
+палуба:палуба N1; !deck
+ақау:ақау N1; !defect
+тапшылық:тапшылық N1; !deficiency
+комплекс:комплекс N1; !complex
+пәтер:пәтер N1; !flat
+аталық:аталық N1; !male
+ас% қорыту:ас% қорыту N1; !digestion
+
+салыстыру:салыстыру N1; !comparison
+жарыс:жарыс N1; !competition
+шарт:шарт N1; !condition
+тығын:тығын N1; !cork
+ел:ел N1; !country
+кредит:кредит N1; !credit
+ашылым:ашылым N1; !discovery
+сарап:сарап N1; !discussion
+ауру:ауру N1; !disease
+соңы:соңы N1; !end
+қате:қате N1; !error
+тіршілік:тіршілік N1; !existense
+аумақтау:аумақтау N1; !expansion
+өтірік:өтірік N1; !false
+қорқыныш:қорқыныш N1; !fear
+әйел:әйел N1; !female
+қиял:қиял N1; !fiction
+от:от N1; !fire
+ұшу:ұшу N1; !flight
+гүл:гүл N1; !flower
+түр:түр N1; !form
+стақан:стақан N1; !glass
+абыз:абыз N1; !grip
+топ:топ N1; !group
+бой:бой N1; !growth
+порт:порт N1; !harbour
+жарастық:жарастық N1; !harmony
+юмор:юмор N1; !humour
+ой:ой N1; !idea
+шөп:шөп N1; !grass
+ауру:ауру N1; !ill
+импульс:импульс N1; !impulse
+құрал:құрал N1; !instrument
+сақтандыру:сақтандыру N1; !insurance
+мүдде:мүдде N1; !interest
+өнертабыс:өнертабыс N1; !invention
+темір:темір N1; !iron
+тоңба:тоңба N1; !jelly
+саяхат:саяхат N1; !journey
+қазы:қазы N1; !judge
+түйіншек:түйіншек N1; !knot
+тері:тері N1; !leather
+хат:хат N1; !letter
+деңгей:деңгей N1; !level
+шек:шек N1; !limit
+төсем:төсем N1; !linen
+сұйықтық:сұйықтық N1; !liquid
+шығын:шығын N1; !loss
+қазба:қазба N1; !fossil
+жаттығу:жаттығу N1; !exercise
+сағат:сағат N1; !o'clock
+күлімсіреу:күлімсіреу N1; !smile
+жалғасы:жалғасы N1; !continue
+тұрғын:тұрғын N1; !citizien
+Қазақстан:Қазақстан N1; !Kazakhstan
+Қытай:Қытай N1; !China
+Түркия:Түркия N1; !Turkey
+Азия:Азия N1; !Asia
+Калифорния:Калифорния N1; !California
+Африка:Африка N1; !Africa
+халық:халық N1; !nation
+тас% жол:тас% жол N1; !highway
+жазбахат:жазбахат N1; !note
+қадағалау:қадағалау N1; !observation
+әрекет:әрекет N1; !operation
+пікір:пікір N1; !opinion
+ұйым:ұйым N1; !organization
+бедер:бедер N1; !ornament
+бет:бет N1; !page
+ауру:ауру N1; !pain
+арақашықтық:арақашықтық N1; !distance
+параллель:параллель N1; !parallel
+бөлік:бөлік N1; !part
+ескі:ескі N1; !past
+төлемақы:төлемақы N1; !payment
+қарындаш:қарындаш N1; !pencil
+паштет:паштет N1; !paste
+түйреуіш:түйеруіш N1; !pin
+құбыр:құбыр N1; !pipe
+орын:орын N1; !place
+қондырғы:қондырғы N1; !plant
+ләззат:ләззат N1; !pleasure
+соқа:соқа N1; !plow
+нүкте:нүкте N1; !point
+у:у N1; !poison
+сыр:сыр N1; !polish
+портье:портье N1; !porter
+позиция:позиция N1; !position
+ұнтақ:ұнтақ N1; !powder
+сыйлық:сыйлық N1; !present
+баға:баға N1; !price
+үдеріс:үдеріс N1; !process
+пайда:пайда N1; !profit
+қарасөз:қарасөз N1; !prose
+қарсылық:қарсылық N1; !protest
+жаза:жаза N1; !punishment
+таңдама:таңдама N1; !range
+жылдамдық:жылдамдық N1; !rate
+сәуле:сәуле N1; !ray
+реакция:реакция N1; !reaction
+себеп:себеп N1; !reason
+өкініш:өкініш N1; !regret
+қатынас:қатынас N1; !relation
+өтініш:өтініш N1; !request
+құрмет:құрмет N1; !respect
+демалыс:демалыс N1; !rest
+марапат:марапат N1; !reward
+ритм:ритм N1; !rhythm
+түбір:түбір N1; !root
+ереже:ереже N1; !rule
+көлем:көлем N1; !scale
+орындық:орындық N1; !seat
+секретарь:секретарь N1; !secretary
+тұқым:тұқым N1; !seed
+іріктеу:іріктеу N1; !selection
+сезім:сезім N1; !sense
+жыныс:жыныс N1; !sex
+көлеңке:көлеңке N1; !shade
+шок:шок N1; !shock
+өлшем:өлшем N1; !size
+еңіс:еңіс N1; !slope
+иіс:иіс N1; !smell
+қоғам:қоғам N1; !society
+ғарыш:ғарыш N1; !space
+арыз:арыз N1; !statement
+бу:бу N1; !steam
+қадам:қадам N1; !step
+тас:тас N1; !stone
+дүкен:дүкен N1; !store
+субстанция:субстанция N1; !substance
+құрылым:құрылым N1; !structure
+болжам:болжам N1; !suggestion
+көмек:көмек N1; !support
+сюрприз:сюрприз N1; !surprise
+салық:салық N1; !tax
+тенденция:тенденция N1; !tendency
+тест:тест N1; !test
+теория:теория N1; !theory
+машина:машина N1; !machine
+боран:боран N1; !thunder
+дөңгелек:дөңгелек N1; !tire
+шың:шың N1; !top
+сауда:сауда N1; !trade
+көлік:көлік N1; !transport
+фокус:фокус N1; !trick
+қиыншылық:қиыншылық N1; !trouble
+шындық:шындық N1; !true
+бірлік:бірлік N1; !unit
+қабырға:қабырға N1; !wall
+толқын:толқын N1; !wave
+жол:жол N1; !way
+батыс:батыс N1; !west
+ер:ер N1; !man
+мотоцикл:мотоцикл N1; !motorcycle
+велосипед:велосипед N1; !bicycle
+полисмен:полисмен N1; !policeman
+олжа:олжа N1 ; ! "booty"
+опасыз:опасыз N1 ; ! "traitor"
+жолдас:жолдас N1 ; ! "comrade"
+
+
+ LEXICON ProperNouns 
 
 Азамат:Азамат NP-ANT-M; ! "Azamat" (Arabic)
 Айгүл:Айгүл NP-ANT-F; ! "Aygül" (Kazakh)
@@ -2649,493 +2032,455 @@ XXI NUM-ROMAN ; ! ""
 Мэри:Мэри NP-ANT-F; ! "Mary" (English)
 
  LEXICON Adjectives
-
-жеткілікті:жеткілікті A4 ; ! ""
-физикалық:физикалық A4 ; ! ""
-химиялық:химиялық A4 ; ! ""
-ықтимал:ықтимал A4 ; ! ""
-жүйелі:жүйелі A4 ; ! ""
-өлі:өлі A4 ; ! ""
+табиғи:табиғи A1 ; ! "natural"
+жұмсақ:жұмсақ A1; !soft
 бар:бар A3 ; ! ""
-жеке:жеке A3 ; ! "separate"
-келесі:келесі A3 ; ! ""
-мүмкін:мүмкін A1 ; ! "possible"  ! A1 not A3 because мүмкін can be used as adv ("possibly"), and can even be comparative -JNW
-танымал:танымал A3 ; ! ""
-дөңгелек:дөңгелек A2 ; ! "round, circular"
-маңызды:маңызды A2 ; ! ""
+мүмкін:мүмкін A3 ; ! "possible"
+анық:анық A1 ; ! "clear;clearly"
 ақ:ақ A1 ; ! "white"
 ақырын:ақырын A1 ; ! "slow"
-аласа:аласа A1 ; ! "low"
-алыс:алыс A1 ; ! "far, distant"
-анық:анық A1 ; ! "clear;clearly"
-ашық:ашық A1 ; ! "open"
-әдемі:әдемі A1 ; ! "beautiful"
-әскери:әскери A1 ; ! "military"
-биік:биік A1 ; ! "high, tall"
-бүтін:бүтін A1 ; ! "whole"
-дайын:дайын A1 ; ! "ready, ripe"
-дәмді:дәмді A1 ; ! "yummy"
-ерекше:ерекше A1 ; ! "certain, special"
-еркін:еркін A1 ; ! "free"
-ерте:ерте A1 ; ! "early"
+тосын:тосын A1 ; ! "sudden"
 ескі:ескі A1 ; ! "old"
-жақсы:жақсы A1 ; ! "good"
+жасыл:жасыл A1 ; ! "green"
+тығыз:тығыз A1 ; ! "tight"
 жақын:жақын A1 ; ! "close"
 жаңа:жаңа A1 ; ! "new"
-жас:жас A1 ; ! "young"
-жасыл:жасыл A1 ; ! "green"
-жіңішке:жіңішке A1 ; ! "thin"
-жұмсақ:жұмсақ A1 ; ! "soft"
-жылы:жылы A1 ; ! "warm"
-кәрі:кәрі A1 ; ! "old (person)"
-кең:кең A1 ; ! "wide"
-кір:кір A1 ; ! "dirty"
+жылы:жылы A1 ; !warm
 кішкентай:кішкентай A1 ; ! "small, little"
+кәрі:кәрі A1 ; ! "old" (person)
+керек:керек A1 ; ! "needed, necessary, esssential"
+қажет:қажет A1 ; !
+жөн:жөн A1 ; ! 
 көк:көк A1 ; ! "blue"
-күшті:табысты A1 ; ! ""
-қалың:қалың A1 ; ! "dark, deep"
+сары:сары A1 ; ! "yellow"
+суық:суық A1 ; ! "cold"
 қара:қара A1 ; ! "black"
+су:су  A1 ; ! "wet"
+кең:кең A1 ; ! "wide"
+сұр:сұр A1 ; ! "grey"
+өлі:өлі A1 ; ! "dead"
 қараңғы:қараңғы A1 ; ! "dark"
-қарапайым:қарапайым A1 ; ! "simple/poor folk"
-қарсы:қарсы A1 ; ! ""
-қатал:қатал A1 ; ! ""
 қатты:қатты A1 ; ! "hard,fast"
-қоғамдық:қоғамдық A1 ; ! "communal"
-қоңыр:қоңыр A1 ; ! "dark brown?"
+қараңғы:қараңғы A1 ; ! "dark brown?"
 қуанышты:қуанышты A1 ; ! "glad"
 қызыл:қызыл A1 ; ! "red"
-қысқа:қысқа A1 ; ! "short"
-ортақ:ортақ A1 ; ! "general, common"
-өткір:өткір A1 ; ! "sharp, pointed"
-сары:сары A1 ; ! "yellow"
-саяси:саяси A1 ; ! "political"
-сол:сол A1 ; ! "left"
-суық:суық A1 ; ! "cold"
-сұр:сұр A1 ; ! "grey"
-табиғи:табиғи A1 ; ! "natural"
-таза:таза A1 ; ! "pure"
-тар:тар A1 ; ! ""
-тез:тез A1 ; ! "fast"
-терең:терең A1 ; ! "deep, profound"
-толық:толық A1 ; ! "full"
-түзу:түзу A1 ; ! "direct"
-тығыз:тығыз A1 ; ! ""
+жас:жас A1 ; ! "young"
 үлкен:үлкен A1 ; ! "big"
-ұзақ:ұзақ A1 ; ! "long (as in time)"
-арзан:арзан A1 ; ! ""
-сенімді:сенімді A1 ; ! ""
-қауіпсіз:қауіпсіз A1 ; ! "safe"  ! Use/MT eng-kaz
-ақылсыз:ақылсыз A1 ; ! "foolish"  ! Use/MT eng-kaz
-бейшара:бейшара A1 ; ! "poor"  ! Use/MT eng-kaz
-тиянақты:тиянақты A1 ; ! "serious"  ! Use/MT eng-kaz
-есті:есті A1 ; ! "conscious"  ! Use/MT eng-kaz
-әлсіз:әлсіз A1 ; ! "feeble"  ! Use/MT eng-kaz
-созымтал:созымтал A1 ; ! "elastic"  ! Use/MT eng-kaz
-бірдей:бірдей A1 ; ! "same"  ! Use/MT eng-kaz
-оғаш:оғаш A1 ; ! "strange"  ! Use/MT eng-kaz
-қисық:қисық A1 ; ! "curve"  ! Use/MT eng-kaz
-алғыр:алғыр A1 ; ! "able"  ! Use/MT eng-kaz
-шұрайлы:шұрайлы A1 ; ! "fertile"  ! Use/MT eng-kaz
-мұңды:мұңды A1 ; ! "sad"  ! Use/MT eng-kaz
-жөн:жөн A1 ; ! "  ! Use/MT eng-kaz
-тегіс:тегіс A1 ; ! "smooth"  ! Use/MT eng-kaz
-су:су A1 ; ! "wet"  ! Use/MT eng-kaz
-соңғы:соңғы A1 ; ! "last"  ! Use/MT eng-kaz
-әр% түрлі:әр% түрлі A1 ; ! "different"  ! Use/MT eng-kaz
-тәтті:тәтті A1 ; ! "sweet"  ! Use/MT eng-kaz
-орналасқан:орналасқан A1 ; ! "based"  ! Use/MT eng-kaz
-электрикалық:электрикалық A1 ; ! "electric"  ! Use/MT eng-kaz
-толымды:толымды A1 ; ! "full"  ! Use/MT eng-kaz
-ағымдық:ағымдық A1 ; ! "current"  ! Use/MT eng-kaz
-бірінші:бірінші A1 ; ! "first"  ! Use/MT eng-kaz
-толығымен:толығымен A1 ; ! "hollow"  ! Use/MT eng-kaz
-медикалық:медикалық A1 ; ! "medical"  ! Use/MT eng-kaz
-сергек:сергек A1 ; ! "awake"  ! Use/MT eng-kaz
-тосын:тосын A1 ; ! "sudden"  ! Use/MT eng-kaz
-сыпайы:сыпайы A1 ; ! "delicate"  ! Use/MT eng-kaz
-жауапты:жауапты A1 ; ! "responsible"  ! Use/MT eng-kaz
-бұдыр:бұдыр A1 ; ! "rough"  ! Use/MT eng-kaz
-ашуқор:ашуқор A1 ; ! "angry"  ! Use/MT eng-kaz
-сынған:сынған A1 ; ! "broken"  ! Use/MT eng-kaz
-бақытты:бақытты A1 ; ! "happy"  ! Use/MT eng-kaz
-құрметті:құрметті A1 ; ! "dear"  ! Use/MT eng-kaz
+әдемі:әдемі A1 ; ! "beautiful"
+жақсы:жақсы A1 ; ! "nice"
+алғыр:алғыр A1 ; ! "able"
+қарсы:қарсы A1 ; ! "against"
+ашуқор:ашуқор A1 ; ! "angry"
+оғаш:оғаш A1 ; ! "strange"
+сергек:сергек A1 ; ! "awake"
+химиялық:химиялық A1 ; ! "chemical"
+қайнап% тұрған:қайнап% тұрған A1 ; ! "boiling"
+ашық:ашық A1 ; ! "bright"
+сынған:сынған A1 ; ! "broken"
+сенімді:сенімді A1 ; ! "certain"
+арзан:арзан A1 ; ! "cheap"
+таза:таза A1 ; ! "clean"
+құрметті:құрметті A1 ; ! "dear"
+аласа:аласа A1 ; ! "low"
+терең:терең A1 ; ! "deep"
 
+сыпайы:сыпайы A1 ; ! "delicate"
+әр% түрлі:әр% түрлі A1 ; ! "different"
+электрикалық:электрикалық A1 ; ! "electric"
+ақылсыз:ақылсыз A1 ; ! "foolish"
+күшті:күшті A1 ; ! "violent"
+қоңыр:қоңыр A1 ; ! "brown"
+үлкен:үлкен A1 ; ! "large"
+бақытты:бақытты A1 ; ! "happy"
+ерекше:ерекше A1 ; ! "special"
+ақырын:ақырын A1 ; ! "quiet"
+ақырын:ақырын A1 ; ! "careful"
+қатты:қатты A1 ; ! "hard"
+орналасқан:орналасқан A1 ; ! "based"
+жақсы:жақсы A1 ; ! "good"
+келесі:келесі A1 ; ! "next"
+ылғалды:ылғалды A1 ; ! "damp"
+арзан:арзан A1 ; ! "cheap"
+ортақ:ортақ A1 ; ! "common"
+қатал:қатал A1 ; ! "cruel"
+қисық:қисық A1 ; ! "curve"
+кір:кір A1 ; ! "dirty"
+жеткілікті:жеткілікті A1 ; ! "enough"
+әлсіз:әлсіз A1 ; ! "feeble"
+соңғы:соңғы A1 ; ! "last"
+сол:сол A1 ; ! "left"
+физикалық:физикалық A1 ; ! "physical"
+саяси:саяси A1 ; ! "political"
+бейшара:бейшара A1 ; ! "poor"
+мүмкін:мүмкін A1 ; ! "possible"
+өткір:өткір A1 ; ! "sharp"
+қысқа:қысқа A1 ; ! "short"
+тегіс:тегіс A1 ; ! "smooth"
+бір% қалыпты:бір% қалыпты A1 ; ! "normal"
+күшті:күшті A1 ; ! "strong"
+түзу:түзу A1 ; ! "straight"
+қатты:қатты A1 ; ! "stiff"
+есті:есті A1 ; ! "conscious"
+ерте:ерте A1 ; ! "early"
+созымтал:созымтал A1 ; ! "elastic"
+бірдей:бірдей A1 ; ! "equal"
+толық:толық A1 ; ! "fat"
+шұрайлы:шұрайлы A1 ; ! "fertile"
+бірінші:бірінші A1 ; ! "first"
+еркін:еркін A1 ; ! "free"
+тығыз:тығыз A1 ; ! "frequent"
+толымды:толымды A1 ; ! "full"
+үлкен:үлкен A1 ; ! "great"
+биік:биік A1 ; ! "high"
+толығымен:толығымен A1 ; ! "hollow"
+маңызды:маңызды A1 ; ! "important"
+ұзақ:ұзақ A1 ; ! "long"
+медикалық:медикалық A1 ; ! "medical"
+әскери:әскери A1 ; ! "military"
+тәтті:тәтті A1 ; ! "sweet"
+биік:биік A1 ; ! "tall"
+қалың:қалың A1 ; ! "thick"
+ағымдық:ағымдық A1 ; ! "current" 
+алыс:алыс A1 ; ! "far" 
+еркін:еркін A1 ; ! "loose" 
+тар:тар A1 ; ! "narrow" 
+маңызды:маңызды A1 ; ! "necessary" 
+жеке:жеке A1 ; ! "private" 
+ықтимал:ықтимал A1 ; ! "probable" 
+дайын:дайын A1 ; ! "ready" 
+жүйелі:жүйелі A1 ; ! "regular"
+жауапты:жауапты A1 ; ! "responsible"
+бұдыр:бұдыр A1 ; ! "rough"
+дөңгелек:дөңгелек A1 ; ! "round"
+мұңды:мұңды A1 ; ! "sad"
+қауіпсіз:қауіпсіз A1 ; ! "safe"
+бірдей:бірдей A1 ; ! "same"
+тиянақты:тиянақты A1 ; ! "serious"
+қарапайым:қарапайым A1 ; ! "simple"
+бүтін:бүтін A1 ; ! "solid"
+дәмді:дәмді A1 ; ! "taste"
+жіңішке:жіңішке A1 ; ! "thin"
+тез:тез A1 ; ! "fast"
+танымал:танымал A1 ; ! "famous"
  LEXICON Adverbs
 
 қайда:қайда ADVITG ; ! "where (где;куда)"
 қашан:қашан ADVITG ; ! "when"
-еш% қашан:еш% қашан ADV ; ! "never" Use/MT
-ешқашан:ешқашан ADV ; ! "never"
+еш% қашан:еш% қашан ADV ; ! "never" ! Use/MT
+бірге:бірге ADV ; ! "together" FIXME:NOTE: also a <post>
+тағы:тағы ADV ; ! "more"
+қайтадан:қайтадан ADV ; ! "once again"
 әбден:әбден ADV ; ! "extremely"
 әлі:әлі ADV ; ! "now" !FIXME:CHECK
 әрдайым:әрдайым ADV ; ! "always"
-бірге:бірге ADV ; ! "together" FIXME:NOTE: also a <post>
-ең:ең ADV ; ! "most"
-қайтадан:қайтадан ADV ; ! "once again"
+арасында:арасында ADV ; ! "between"
 өте:өте ADV ; ! "very"
-сосын:сосын ADV ; ! ""
-тағы:тағы ADV ; ! "more"
-тіпті:тіпті ADV ; ! "too"
-ертең:ертең ADV ; ! ""
-қазір:қазір ADV ; ! ""
-бүгін:бүгін ADV-WITH-KI ; ! "today > today's"   FIXME: takes abl, dat, ...
+бүгін:бүгін ADV-WITH-KI ; ! "today > today's"
 енді:енді ADV-WITH-KI ; ! "contrastive now > the one now"
 кеше:кеше ADV-WITH-KI ; ! "yesterday > yesterday's"
-кеш:кеш ADV-WITH-KI ; ! "evening/late"
+ертен:ертен ADV-WITH-KI ; ! "tomorrow > tomorow's"
 қазір:қазір ADV-WITH-KI ; ! "now > the one now"
-тез:тез ADV ; ! "quick"  ! Use/MT eng-kaz
-солға:солға ADV ; ! "left"  ! Use/MT eng-kaz
-секілді:секілді ADV ; ! "similarly"  ! Use/MT eng-kaz
-анда:анда ADV ; ! "there"  ! Use/MT eng-kaz
-қарсы:қарсы ADV ; ! "opposite"  ! Use/MT eng-kaz
-солай:солай ADV ; ! "so"  ! Use/MT eng-kaz
-ғана:ғана ADV ; ! "only"  ! Use/MT eng-kaz
-дейін:дейін ADV ; ! "before"  ! Use/MT eng-kaz
-жеткілікті:жеткілікті ADV ; ! "quite"  ! Use/MT eng-kaz
-әрине:әрине ADV ; ! "of% course"  ! Use/MT eng-kaz
-күнде:күнде ADV ; ! "everyday"  ! Use/MT eng-kaz
-жақсы:жақсы ADV ; ! "well"  ! Use/MT eng-kaz
-дерлік:дерлік ADV ; ! "almost"  ! Use/MT eng-kaz
-байқап:байқап ADV ; ! "carefully"  ! Use/MT eng-kaz
-толықтай:толықтай ADV ; ! "completely"  ! Use/MT eng-kaz
-барлық% жерде: барлық% жерде ADV ; ! "everywhere"  ! Use/MT eng-kaz
-түсте:түсте ADV ; ! "afternoon"  ! Use/MT eng-kaz
-мында:мында ADV ; ! "here"  ! Use/MT eng-kaz
+күнде:күнде ADV ; ! "everyday"
+тез:тез ADV ; ! "quickly"
+тез:тез ADV ; ! "quick"
+жеткілікті:жеткілікті ADV ; ! "quite"
+мүмкін:мүмкін ADV ; ! "probably"
+барлық% жерде: барлық% жерде ADV ; ! "everywhere"
+баяу:баяу ADV ; ! "slowly"
+сосын:сосын ADV ; ! "then"
+байқап:байқап ADV ; ! "carefully"
+солай:солай ADV ; ! "so"
+әрине:әрине ADV ; ! "of% course"
+жақсы:жақсы ADV ; ! "well"
+әлі:әлі ADV ; ! "still"
+анда:анда ADV ; ! "there"
+мында:мында ADV ; ! "here"
+дейін:дейін ADV ; ! "before"
+толықтай:толықтай ADV ; ! "completely"
+дерлік:дерлік ADV ; ! "almost"
+тіпті:тіпті ADV ; ! "even"
+алға:алға ADV ; ! "forward"
+кеш:кеш ADV ; ! "late"
+солға:солға ADV ; ! "left"
+түсте:түсте ADV ; ! "afternoon"
+секілді:секілді ADV ; ! "similarly"
+ғана:ғана ADV ; ! "only"
+қарсы:қарсы ADV ; ! "opposite"
+ең:ең ADV ; ! [To make superlatives]
 
- LEXICON Verbs
-
-ажырат:ажырат V-TV ; ! "" caus
-азайт:азайт V-TV ; ! "уменьшать,убавлять" NOTE caus
-айналдыр:айналдыр V-TV ; ! "to turn" NOTE caus
-айт:айт V-TV ; ! "say,tell/сказать,говорить,рассказывать"  ! basically TV...
+ LEXICON Verbs 
+тапсырыс% бер:тапсырыс% бер V-TV ; ! "order" 
+баспаға% шығар:баспаға% шығар V-TV ; ! "print" 
+сатып% ал:сатып% ал V-IV ; ! "buy" 
+төбелес:төбелес V-TV ; ! "fight" 
+жүз:жүз V-TV ; ! "swim" 
+басқар:басқар V-TV ; ! "control" 
+пісір:пісір V-TV ; ! "cook" 
+көшір:көшір V-TV ; ! "copy" 
+ұсақта:ұсақта V-TV ; ! "crush" 
+жиіркендір:жиіркендір V-TV ; ! "disgust" 
+айырбаста:айырбаста V-TV ; ! "exchange" 
+құла:құла V-TV ; ! "fall" 
+жұм:жұм V-TV ; ! "fold" 
+қина:қина V-TV ; ! "force" 
+жүргіз:жүргіз V-TV ; ! "guide" 
+қыз:қыз V-TV ; ! "heat" 
+көмектес:көмектес V-TV ; ! "help" 
+өс:өс V-TV ; ! "increase" 
+біріктір:біріктір V-TV ; ! "join"
+сындыр:сындыр V-TV ; ! "smash" 
+бұр:бұр V-TV ; ! "turn" 
+сілкіт:сілкіт V-TV ; ! "shake" 
+секір:секір V-TV ; ! "jump" 
+қолдан:қолдан V-TV ; ! "use" 
+теп:теп V-TV ; ! "kick" 
+сүй:сүй V-TV ; ! "kiss" 
+қала:қала V-TV ; ! "want" 
+мазала:мазала V-TV ; ! "worry" 
+қажет:қажет V-TV ; ! "need"
+ұсын:ұсын V-TV ; ! "offer"
+аш:аш V-TV ; ! "open"
+сөйле:сөйле V-TV ; ! "talk"
+айт:айт V-TV ; ! "say,tell"  ! basically TV...
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
 ал:ал V-TV ; ! "take,recieve,buy,collect,"
-аш:аш V-TV ; ! "open,reveal,unlock,discover"
-байланыс:байланыс V-IV ; ! "to associate (with)"
-байланыс:байланыс V-IV ; ! "придираться"
-бар:бар V-IV ; ! ""
-бар:бар V-IV ; ! ""
-басқар:басқар V-TV ; ! "руководить,возглавлять,управлять"
-баста:баста V-TV ; ! "start,begin"
-баста:баста V-TV ; ! "начинать,приступать"
+бар:бар V-IV ; ! "go"
+ұста:ұста V-TV ; ! "touch
+бар:бар V-IV ; ! "have"
 бер:бер V-TV ; ! "give"
-бер:бер V-TV ; ! "давать,отдавать,сдавать"
-біл:біл V-TV ; ! "know,understand"
+оқы:оқы V-TV ; ! "read"
+өмір% сүр:өмір% сүр V-TV ; ! "live"
+баста:баста V-TV ; ! "start,begin"
+біл:біл V-TV ; ! "know,understand,learn"
 біт:біт V-IV ; ! "terminate"
-біт:біт V-IV ; ! "кончаться,заканчиваться"
-бол:бол V-IV ; ! "1. быть"
-бол:бол V-IV ; ! "1. быть"
 бол:бол V-IV ; ! "be/become"
 бол:бол V-IV ; ! "be/become"
-бұр:бұр V-TV ; ! "turn"
-домала:домала V-IV ; ! "slide down"
-есті:есті V-TV ; ! "hear"
-жаз:жаз V-TV ; ! "write"
+есті:есті V-IV ; ! "hear"
+жаз:жаз V-IV ; ! "write"
+ұрла:ұрла V-IV ; ! "steel"
+жүргіз:жүргіз V-IV ; ! "drive"
 жақсы% көр:жақсы% көр V-TV ; ! "to like"
 жап:жап V-TV ; ! "close"
-жарат:жарат V-TV ; ! "create"
+көрсет:көрсет V-TV ; ! "show"
+жүз:жүз V-TV ; ! "sail"
+сырғана:сырғана V-TV ; ! "slip"
 жаса:жаса V-TV ; ! "do,make"
-жасыр:жасыр V-TV ; ! "conceal,hide"
-жасырын:жасырын V-IV ; ! "hide oneself" (kaz tat) refl
+жасыр:жасыр V-TD ; ! "conceal,hide"
+жасырын:жасырын V-IV ; ! "hide oneself"
 жат:жат V-IV ; ! "lie"
-жат:жат V-IV ; ! "lie"
+ажырат:ажырат V-TV ; ! "separate"
+шек:шек V-TV ; ! "smoke"
 же:же V-TV ; ! "eat"
-жек% көр:жек% көр V-TV ; ! ""
-жібер:жібер V-TV ; ! "send"
-жоғал:жоғал V-IV ; ! "lose"
-жөнде:жөнде V-TV ; ! ""
-жу:жу V-TV ; ! "wash"
-жүгір:жүгір V-IV ; ! "run"
-жүз:жүз V-IV ; ! "swim"
-жүз:жүз V-IV ; ! "swim"
-жүргіз:жүргіз V-TV ; ! "" (kaz tat) caus
+жүгір:жүгір V-TV ; ! "run"
 жүр:жүр V-IV ; ! "move"
-жыла:жыла V-IV ; ! "cry,weep"
-жыми:жыми V-IV ; ! "to smile"
-ізде:ізде V-TV ; ! "seek,look for"
-іл:іл V-TV ; ! "hang"
+жу:жу V-TV ; ! "wash"
+жарат:жарат V-TV ; ! "waste"
+қара:қара V-TV ; ! "watch"
+жалғастыр:жалғастыр V-TV ; ! "continue"
+жыла:жыла V-TD ; ! "cry,weep"
+жыми:жыми V-IV ; ! "to smile"                            FIXME:check
+ізде:ізде V-TV ; ! "seek, look for"
 істе:істе V-TV ; ! "do,make"
 іш:іш V-TV ; ! "drink"
-кел:кел V-IV ; ! "come"
-кел:кел V-IV ; ! "come"
-келтір:келтір V-TV ; ! "bring" (kaz tat) caus
-кес:кес V-TV ; ! "cut"
-кет:кет V-IV ; ! "leave"
-кет:кет V-IV ; ! "leave"
-көр:көрін V-TV-PASS ; ! "be seen"
-көр:көр V-TV-NOPASS ; ! "see"
-көрсет:көрсет V-TV ; ! "show" (kaz tat) ?caus
-күл:күл V-IV ; ! "laugh"
-күт:күт V-TV ; ! "wait"
-қайна:қайна V-IV ; ! "boil"
-қала:қала V-TV ; ! "desire"
-қала:қала V-TV ; ! "класть"
 қара:қара V-TV ; ! "look at"
-қой:қой V-TV ; ! "release" put
-қолдан:қолдан V-TV ; ! "употреблять"
-құла:құла V-IV ; ! "fall"
-құр:құр V-TV ; ! "build"
-құр:құр V-TV ; ! "build"
-мазала:мазала V-TV ; ! "disturb" trouble
+кел:кел V-IV ; ! "come"
+сияқтан:сияқтан V-TV ; ! "seem"
+кет:кет V-IV ; ! "leave"
+көр:көр V-TV ; ! "see"
+тік:тік V-TV ; ! "stitch"
+жабыстыр:жабыстыр V-TV ; ! "stick"
+соз:соз V-TV ; ! "stretch"
+көр:көр V-IV ; ! "see"
+тоқта:тоқта V-IV ; ! "stop"
+күл:күл V-IV ; ! "laugh"
+қыл:қыл V-TV ; ! "do"
+идентификацияла:идентификацияла V-TV ; ! "identity"
 ойла:ойла V-TV ; ! "think"
 ойла:ойла V-TV ; ! "think"
 ойна:ойна V-TV ; ! "play"
-оқы:оқы V-IV ; ! "learn,study"
-оқы:оқы V-TV ; ! "read"
-отыр:отыр V-IV ; ! "sit,board"
-отыр:отыр V-IV ; ! "sit,board"
-өл:өл V-IV ; ! "die,sink"
-өндір:өндір V-TV ; ! ""
-өс:өс V-IV ; ! "grow"
-пісір:пісір V-TV ; ! "to boil (food)"
-сал:сал V-TV ; ! ""
-сана:сана V-TV ; ! "count"
-сат:сат V-TV ; ! ""
-секір:секір V-IV ; ! "leap,spring"
-сияқтан:сияқтан V-IV ; ! ""
-соз:соз V-TV ; ! ""
+отыр:отыр V-TD ; ! "sit,board"
+отыр:отыр V-TD ; ! "sit,board"
+сана:сана V-TV ; ! "think,suppose,imagine"
 сөйле:сөйле V-TV ; ! "say,speak"
-сөйле:сөйле V-TV ; ! "say,speak"
-сүй:сүй V-TV ; ! ""
 сұра:сұра V-TV ; ! "request/ask for"
-тап:тап V-TV ; ! ""
-тарт:тарт V-TV ; ! ""
-тік:тік V-TV ; ! ""
-тоқта:тоқта V-IV ; ! ""
-төбелес:төбелес V-IV ; ! "arrange a fight"
-түс:түс V-IV ; ! ""
-түшкір:түшкір V-IV ; ! "sneeze (for people)"
+тап:тап V-TV ; ! "find"
 тұр:тұр V-IV ; ! "rise,stand"
 тұр:тұр V-IV ; ! "rise,stand"
-тыңда:тыңда V-TV ; ! "listen"
-тырыс:тырыс V-IV ; ! ""
-ұйықта:ұйықта V-IV ; ! "sleep"
-ұмыт:ұмыт V-TV ; ! "forget,mislay"
-ұна:ұна V-IV ; ! "be pleased with"
-ұрла:ұрла V-TV ; ! "steal"
-ұста:ұста V-TV ; ! "grasp,hold"
-ұсын:ұсын V-TV ; ! "offer"
+тыңда:тыңда V-IV ; ! "listen"
+күт:күт V-TV ; ! "wait"
+тырыс:тырыс V-IV ; ! "to try"
+ұйықта:ұйықта V-IV ; ! "sleep" 
+ұна:ұна V-TD ; ! "be pleased with"
+итер:итер V-TD ; ! "push"
+ірікте:ірікте V-TD ; ! "sort"
+ұста:ұста V-IV ; ! "keep"
+қой:қой V-IV ; ! "let"
+сал:сал V-IV ; ! "put"
+айналдыр:айналдыр V-IV ; !"twist"
+айт:айт V-TV ; ! "сказать,говорить,рассказывать"
+ал:ал V-TV ; ! "take"
+жібер:жібер V-TV ; ! "send"
+ал:ал V-TV ; ! "брать,получать,покупать"
+ал:ал V-TV ; ! "брать,получать,покупать"
+бар:бар V-IV ; ! "идти,ехать"
+баста:баста V-TV ; ! "начинать,приступать"
+біл:біл V-TV ; ! "знать,понимать,полагать"
+біт:біт V-IV ; ! "кончаться,заканчиваться"
+бол:бол V-IV ; ! "1. быть"
+бол:бол V-IV ; ! "1. быть"
+кұр:құр V-IV ; ! "build"
+ал:ал V-IV ; ! "take"
+cүй:сүй V-TV ; ! "love"
+түшкір:түшкір V-TV ; ! "sneeze"
+біт:біт V-IV ; ! "complete"
+өл:өл V-IV ; ! "die"
+өс:өс V-IV ; ! "inscrease"
+келтір:келтір V-IV ; ! "lead"
+өндір:өндір V-TV ; ! "produce"
+аш:аш V-TV ; ! "discover"
+сыла:сыла V-TV ; ! "rub"
+кел:кел V-TV ; !come
+жаз:жаз V-TV ; ! "record"
+жап:жап V-TV ; ! "shut"
+домала:домала V-TV ; ! "roll"
+сал:сал V-TV ; ! "paint"
+жат:жат V-TV ; ! "lie"
+көрін:көрін V-IV ; ! "appear"
+жоғал:жоғал V-IV ; ! "disappear"
+оқы:оқы V-IV ; ! "study"
+сат:сат V-IV ; ! "sell"
+азайт:азайт V-IV ; ! "decrease"
+қайна:қайна V-IV ; ! "boil"
+сындыр:сындыр V-IV ; ! "break"
+кес:кес V-IV ; ! "cut"
+жөнде:жөнде V-IV ; ! "fix"
+іл:іл V-IV ; ! "hang"
+үйлен:үйлен V-IV ; ! "marry"
+тарт:тарт V-TV ; ! "pull"
+шытынат:шытынат V-IV ; ! "crack"
+жауап% бер:жауап% бер V-IV ; ! "reply"
+жек% көр:жек% көр V-IV ; ! "hate"
+ұмыт:ұмыт V-IV ; ! "forget"
 ұш:ұш V-IV ; ! "fly"
-шек:шек V-TV ; ! "испытывать"
-жалғастыр:жалғастыр V-TV ; ! "" caus
-көшір:көшір V-TV ; ! "" caus?
-жұм:жұм V-TV ; ! ""
-теп:теп V-TV ; ! ""
-ізде:ізде V-TV ; ! ""
-қина:қина V-TV ; ! ""
-жат:жатыр Vinfl-AUX-IMPF ; ! 
-жат:жатыр Vinfl-AUX-IMPF ; ! 
-жүр:жүр Vinfl-AUX-IMPF ; ! 
-отыр:отыр Vinfl-AUX-IMPF ; ! 
+түс:түс V-IV ; ! "fall"
+
+
+жатыр:жатыр Vinfl-AUX-IMPF ; ! <!--Жат +ыр-->
+жүр:жүр Vinfl-AUX-IMPF ; !
+емес:емес Vinfl-AUX-IMPF ; !
+ал:ал Vinfl-AUX-IMPF ; !
+керек:керек N1 ; !
+жатқан% жоқ:жатқан% жоқ Vinfl-AUX-IMPF ; !
+отыр:отыр Vinfl-AUX-IMPF ; !
+бол:бол Vinfl-AUX-IMPF ; !  
+керек:керек Vinfl-AUX-IMPF ; !
 отыр:отыр Vinfl-AUX-IMPF ; ! 
 тұр:тұр Vinfl-AUX-IMPF ; ! 
 тұр:тұр Vinfl-AUX-IMPF ; ! 
 ал:ал Vinfl-AUX ; ! 
 ал:ал Vinfl-AUX ; ! 
 баста:баста Vinfl-AUX ; !
-бер:бер Vinfl-AUX ; !
+бол:бол Vinfl-AUX ; !
+бол:бол Vinfl-AUX ; !
 біт:біт Vinfl-AUX ; !
-бол:бол Vinfl-AUX ; !
-бол:бол Vinfl-AUX ; !
-жат:жат Vinfl-AUX ; ! 
-жат:жат Vinfl-AUX ; ! 
+жатыр:жатыр Vinfl-AUX ; ! 
 жүр:жүр Vinfl-AUX ; ! 
 кел:кел Vinfl-AUX ; !
-кел:кел Vinfl-AUX ; !
-кет:кет Vinfl-AUX ; ! 
+кел:кел Vinfl-AUX ; !come
 кет:кет Vinfl-AUX ; ! 
 отыр:отыр Vinfl-AUX ; ! 
 отыр:отыр Vinfl-AUX ; ! 
-сал:сал Vinfl-AUX ; ! 
 тұр:тұр Vinfl-AUX ; ! 
 тұр:тұр Vinfl-AUX ; ! 
-сындыр:сындыр V-IV ; ! "break"  ! Use/MT eng-kaz
-өмір% сүр:өмір% сүр V-TV ; ! "live"  ! Use/MT eng-kaz
-сілкіт:сілкіт V-TV ; ! "shake"  ! Use/MT eng-kaz
-қажет:қажет V-TV ; ! "need"  ! Use/MT eng-kaz
-жабыстыр:жабыстыр V-TV ; ! "stick"  ! Use/MT eng-kaz
-көмектес:көмектес V-TV ; ! "help"  ! Use/MT eng-kaz
-идентификацияла:идентификацияла V-TV ; ! "identity"  ! Use/MT eng-kaz
-ірікте:ірікте V-TD ; ! "sort"  ! Use/MT eng-kaz
-жиіркендір:жиіркендір V-TV ; ! "disgust"  ! Use/MT eng-kaz
-жауап% бер:жауап% бер V-IV ; ! "reply"  ! Use/MT eng-kaz
-ұсақта:ұсақта V-TV ; ! "crush"  ! Use/MT eng-kaz
-көрін:көрін V-IV ; ! "appear"  ! Use/MT eng-kaz
-жатқан% жоқ:жатқан% жоқ Vinfl-AUX-IMPF ; ! "  ! Use/MT eng-kaz
-сатып% ал:сатып% ал V-IV ; ! "buy"  ! Use/MT eng-kaz
-емес:емес Vinfl-AUX-IMPF ; ! "  ! Use/MT eng-kaz
-баспаға% шығар:баспаға% шығар V-TV ; ! "print"  ! Use/MT eng-kaz
-сыла:сыла V-TV ; ! "rub"  ! Use/MT eng-kaz
-шытынат:шытынат V-IV ; ! "crack"  ! Use/MT eng-kaz
-итер:итер V-TD ; ! "push"  ! Use/MT eng-kaz
-айырбаста:айырбаста V-TV ; ! "exchange"  ! Use/MT eng-kaz
-сырғана:сырғана V-TV ; ! "slip"  ! Use/MT eng-kaz
-тапсырыс% бер:тапсырыс% бер V-TV ; ! "order"  ! Use/MT eng-kaz
-үйлен:үйлен V-IV ; ! "marry"  ! Use/MT eng-kaz
 
- LEXICON Interjections
+ LEXICON Interjections 
+!=====================!
 
-ау:ау INTERJ ; ! ""
-әлбетте:әлбетте INTERJ ; ! "of course"
+
+болыпты:болыпты INTERJ ; ! "okay / that's it"
 демек:демек INTERJ ; ! "that is"
 дұрыс:дұрыс INTERJ ; ! "right"
+жарайды:жарайды INTERJ ; ! "okay / it'll do"
 жоқ:жоқ INTERJ ; ! "no"
 иә:иә INTERJ ; ! "yes"
+өтінем:өтінем INTERJ ; ! "please"
+мақұл:мақұл INTERJ ; ! "fine/okay"
+мейлі:мейлі INTERJ ; ! "okay/fine"
+мына:мына INTERJ ; ! "here is, вот"
+міне:міне INTERJ ; ! "here is, вот"
+мә:мә INTERJ ; ! "here you go / take"
+ой:ой INTERJ ; ! "hey"
+онда:онда INTERJ ; ! "then"
+ондай% болса:ондай% болса INTERJ ; ! "in that case"
+түсінікті:түсінікті INTERJ ; ! "understood"
+қане:қане INTERJ ; ! "where"           ! interrog. interjection (question form of "вот")
+ау:ау INTERJ ; ! "oh"
 
- LEXICON Ideophones
-!==================!
-
-арс:арс IDEO ; ! ""
-жарқ:жарқ IDEO ; ! ""
+әлбетте:әлбетте INTERJ ; ! "of course"
 
 !=====================!
  LEXICON Abbreviations
 !=====================!
 
 
-BAE:BAE ABBR ; ! ""
-BG:BG ABBR ; ! ""
-CEZ:CEZ ABBR ; ! ""
-CNPC:CNPC ABBR ; ! ""
-ER:ER ABBR ; ! ""
-HAS:HAS ABBR ; ! ""
-IMD:IMD ABBR ; ! ""
-Kaz:Kaz ABBR ; ! ""
-KPO:KPO ABBR ; ! ""
-KZ:KZ ABBR ; ! ""
-kz:kz ABBR ; ! ""
 ААҚ:ААҚ ABBR ; ! "Ашық акционердық коғам=Public company"
-АК:АК ABBR ; ! ""
-АКСР:АКСР ABBR ; ! ""
 АҚШ:АҚШ ABBR ; ! "USA"
-АӨСШК:АӨСШК ABBR ; ! ""
-аум%.:аум%. ABBR ; ! ""
+КСРО:КСРО ABBR ; ! "USSR"
+РФ:РФ ABBR ; ! "Russian Federation"
+СССР:СССР ABBR ; ! "USSR"
+ТР:ТР ABBR ; ! "Republic of Tatarstan"
+УЕФА:УЕФА ABBR ; ! ""
+КСР:КСР ABBR ; ! ""
+
 б%.з%.б%.:б%.з%.б%. ABBR ; ! "CE"
 б%.з%.б%.:б%.з%.б ABBR ; ! "CE" Dir/LR
 б%.з%.д%.:б%.з%.д%. ABBR ; ! "BCE"
 б%.з%.д%.:б%.з%.д ABBR ; ! "BCE" Dir/LR
-биікт%.:биікт%. ABBR ; ! ""
-биол%.:биол%. ABBR ; ! ""
-Биохим:Биохим ABBR ; ! "Разведка&Добыча"
-БӨ:БӨ ABBR ; ! ""
-БТА:БТА ABBR ; ! "a bank in Kazakhstan"
-БҰҰ:БҰҰ ABBR ; ! "United Nations"
-ВИЧ:ВИЧ ABBR ; ! ""
-геогр%.:геогр%. ABBR ; ! ""
-геол%.:геол%. ABBR ; ! ""
-Гленкор:Гленкор ABBR ; ! ""
-ГЭС:ГЭС ABBR ; ! ""
-ДНҚ:ДНҚ%{а%} ABBR ; ! "DNA"
-ЕҚЫҰ:ЕҚЫҰ ABBR ; ! "eng. OSCE, rus. ОБСЕ"
-Ембімұнайгаз:Ембімұнайгаз ABBR ; ! ""
-ЕурАзЭҚ:ЕурАзЭҚ ABBR ; ! ""
-Еуроодақ:Еуроодақ ABBR ; ! ""
+
 ж%.:ж%. ABBR ; ! "year"
 ж%.:ж ABBR ; ! "year" Dir/LR
-жж%.:жж%. ABBR ; ! ""
-ЖІӨ:ЖІӨ ABBR ; ! ""
-ЖСДП:ЖСДП ABBR ; ! "Жалпыұлттық социал демократиялық партия=Гомуммилли Социаль Демократик Партия"
-ЖШС:ЖШС ABBR ; ! "LLC"
-ІІМ:ІІМ ABBR ; ! "Ішке істер министрліғі"
-КГБ:КГБ ABBR ; ! ""
 кг:кг ABBR ; ! "kg"
-км²:км² ABBR ; ! "km²"
-км²:км2 ABBR ; ! "km²" Dir/LR
-км³:км³ ABBR ; ! "km³"
-км³:км3 ABBR ; ! "km³" Dir/LR
 км:км ABBR ; ! "km"
-КСР:КСР ABBR ; ! ""
-КСРО:КСРО ABBR ; ! "USSR"
-КХДР:КХДР ABBR ; ! ""
-Қазатомпром:Қазатомпром ABBR ; ! ""
-ҚазКСР:ҚазКСР ABBR ; ! ""
-ҚазМУ:ҚазМУ ABBR ; ! "Al-Farabi Kazakh National Universty"
-Қазмұнайгаз:Қазмұнайгаз ABBR ; ! ""
-Қазпошта:Қазпошта ABBR ; ! ""
-ҚазТАГ:ҚазТАГ ABBR ; ! ""
-ҚазҰУ:ҚазҰУ ABBR ; ! "Al-Farabi Kazakh National Universty"
-ҚКП:ҚКП ABBR ; ! ""
-ҚМДБ:ҚМДБ ABBR ; ! "Казакъстан Мөселманнары Диния Нәзараты"
-ҚР:ҚР ABBR ; ! "Republic of Kazakhstan"
-ҚХР:ҚХР ABBR ; ! ""
-лат%.:лат%. ABBR ; ! ""
+км²:км² ABBR ; ! "km²"
+км²:км2 ABBR ; ! "km²"
+км³:км³ ABBR ; ! "km³"
+км³:км3 ABBR ; ! "km³"
 м²:м² ABBR ; ! "m²"
-м²:м2 ABBR ; ! "m²" Dir/LR
+м²:м2 ABBR ; ! "m²"
 м³:м³ ABBR ; ! "m³"
-м³:м3 ABBR ; ! "m³" Dir/LR
-МАГАТЭ:МАГАТЭ ABBR ; ! ""
+м³:м3 ABBR ; ! "m³"
 млн:млн ABBR ; ! "million"
 млрд:млрд ABBR ; ! "billion"
-м:м ABBR ; ! "m"
 мм:мм ABBR ; ! "mm"
-МТК:МТК ABBR ; ! ""
-мыс%.:мыс%. ABBR ; ! ""
-НАТО:НАТО ABBR ; ! ""
-обл%.:обл%. ABBR ; ! ""
-ОГПУ:ОГПУ ABBR ; ! ""
-оңт%.:оңт%. ABBR ; ! "оңтүстік,көньяк,south" FIXME:CHECK -->"
-Өзенмұнайгаз:Өзенмұнайгаз ABBR ; ! ""
-ӨИҚ:ӨИҚ ABBR ; ! "Үзбәкстан Ислам Хәрәкәте"
-ӨФ:ӨФ ABBR ; ! ""
-ПӘК:ПӘК ABBR ; ! ""
-пед%.:пед%. ABBR ; ! ""
-РКФСР:РКФСР ABBR ; ! ""
-РНҚ:РНҚ ABBR ; ! ""
-РФ:РФ ABBR ; ! "Russian Federation"
 см:см ABBR ; ! "cm"
-СНПС:СНПС ABBR ; ! ""
+т%.:т%. ABBR ; ! "tonne"
+т%.б%.:т%.б%. ABBR ; ! "etc."
+
+ҚР:ҚР ABBR ; ! "Republic of Kazakhstan"
+мыс%.:мыс%. ABBR ; ! ""
+оңт%.:оңт%. ABBR ; ! "оңтүстік,көньяк,south" FIXME:CHECK -->"
 солт%.:солт%. ABBR ; ! "солтүстік,төньяк,north" FIXME:CHECK -->"
 солт%.:солт ABBR ; ! "солтүстік,төньяк,north" FIXME:CHECK -->" Dir/LR
-СПИД:СПИД ABBR ; ! ""
-ССРО:ССРО ABBR ; ! ""
-СССР:СССР ABBR ; ! "USSR"
-ССС:ССС ABBR ; ! ""
-СЭС:СЭС ABBR ; ! ""
-т%.б%.:т%.б%. ABBR ; ! "etc."
-тереңд%.:тереңд%. ABBR ; ! ""
-тех%.:тех%. ABBR ; ! ""
-ТМД:ТМД ABBR ; ! "CIS"
-ТР:ТР ABBR ; ! "Republic of Tatarstan"
-т%.:т%. ABBR ; ! "tonne"
-УЕФА:УЕФА ABBR ; ! ""
-ҰҚК:ҰҚК ABBR ; ! "Ұжымдық қауіпсіздік келісімі"
-ФСБ:ФСБ ABBR ; ! ""
 хим%.:хим%. ABBR ; ! "chemical"
-ШЫҰ:ШЫҰ ABBR ; ! "Shanghai Cooperaton Organization"
-ШҰАР:ШҰАР ABBR ; ! "Xinjiang Uyghur Autonomous Region"
 экон%.:экон%. ABBR ; ! "economic"
-ЮНЕСКО:ЮНЕСКО ABBR ; ! ""
-EITI:EITI ABBR ; ! ""
-ЕО:ЕО ABBR ; ! ""
-янв%.:янв%. ABBR ; 
-февр%.:февр%. ABBR ; 
-апр%.:апр%. ABBR ;
-май%.:май%. ABBR ;
-авг%.:авг%. ABBR ;
-сент%.:сент%. ABBR ;
-окт%.:окт%. ABBR ;
-нояб%.:нояб%. ABBR ;
-дек%.:дек%. ABBR ;
-апр:апр ABBR ;
-англ:англ ABBR ;
-Ғ%.С%.:Ғ%.С%. ABBR ; ! ""
-Т%.:Т%. ABBR ; ! ""
+тех%.:тех%. ABBR ; ! ""
+
 
 !===================!
  LEXICON Punctuation
 !===================!
 
 
-%.%<sent%>:%. # ;
-%.%.%<sent%>:%.%. # ;
-%.%.%.%<sent%>:%.%.%. # ;
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
 %-%<guio%>:%- # ;
 %—%<guio%>:%— # ;
 ,%<cm%>:, # ;
-%?%<sent%>:%? # ;
+%?%<sent%>:%? # ; 
 %'%<apos%>:%' # ;
 %"%<sent%>:%" # ;
 %«%<lquot%>:%« # ;
@@ -3146,22 +2491,8 @@ EITI:EITI ABBR ; ! ""
 %]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
 %)%<rpar%>:%) # ;
-%\%<sent%>:%\ # ;
-%/%<sent%>:%/ # ;
+\%<sent%>:\ # ;
+/%<sent%>:/ # ;
 
-
-!==============!
- LEXICON Digits ! Use/Circ
-!==============!
-
-
-%0:%0 NUM ;  ! Use/Circ
-№:№ DIGITLEX ;  ! Use/Circ
-DIGITLEX ; ! Use/Circ
-LASTDIGIT ; ! Use/Circ
-LASTDIGIT-REST ; ! Use/Circ
-
-!LEXICON Guesser
-!
-!<(а | ә | б | в | г | ғ | д | е | ё | ж | з | и | і | й | к | қ | л | м | н | ң | о | ө | п | р | с | т | у | ұ | ү | ф | х | һ | ц | ч | ш | щ | ь | ы | ъ | э | ю | я)+> N1 ; 
-
+<(%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9)+>  DIGITLEX ; ! Use/Circ
+:

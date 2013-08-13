@@ -1742,7 +1742,9 @@
   </action>
 </rule>
 
-<rule comment="NEW RULE: verb conditional"> <!--If I go  -->
+<!-- MLF has commented this rule which is breaking stuff:
+
+<rule comment="NEW RULE: verb conditional"> 
   <pattern>
 
     <pattern-item n="pers-verb"/>
@@ -1754,11 +1756,11 @@
       <chunk name="cond">
       <tags>
         <tag><lit-tag v="VP_cond"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="gna_cond"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="ND"/></tag>  
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="gna_cond"/></tag>  
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="NXD"/></tag> 
       </tags>
       <lu>
           <clip pos="1" side="tl" part="lem"/>
@@ -1773,7 +1775,7 @@
       
   </action>
 </rule>
-
+-->
 
 <rule comment="NEW RULE: verb"> 
   <pattern>

@@ -15,8 +15,10 @@
     <def-cat n="shortcop">
        <cat-item lemma="е" tags="cop.p1.sg"/>
        <cat-item lemma="е" tags="cop.p2.sg"/>
+       <cat-item lemma="е" tags="cop.p3.sg"/>
        <cat-item lemma="е" tags="cop.p1.pl"/>
         <cat-item lemma="e" tags="cop.p2.pl"/>
+       <cat-item lemma="е" tags="cop.p3.pl"/>
     </def-cat>
     
     <def-cat n="nomnoun">

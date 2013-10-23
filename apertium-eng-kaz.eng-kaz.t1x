@@ -110,9 +110,13 @@
     </def-cat>
     
     <def-cat n="nom">
+  <cat-item tags="np.top.attr"/>
       <cat-item tags="n.*"/>
+	<cat-item tags="np.*"/>
       <cat-item tags="np.ant.*"/>
       <cat-item tags="np.loc.*"/>
+      <cat-item tags="np.top"/>
+
     </def-cat>
     <def-cat n="num">
       <cat-item tags="num.*"/>
@@ -1623,6 +1627,8 @@
     </choose>   
   </action>
 </rule>
+
+
  
 <rule comment="NEW RULE: to be not"> <!--I am not a doctor -->
   <pattern>
@@ -1636,7 +1642,7 @@
         <out>
       <chunk name="verb-be">
       <tags>
-        <tag><lit-tag v="VP_be"/></tag>
+        <tag><lit-tag v="VP_not_be"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
@@ -1658,7 +1664,7 @@
         <out>
       <chunk name="verb-past-be">
       <tags>
-        <tag><lit-tag v="VP_past_be"/></tag>
+        <tag><lit-tag v="VP_past_not_be"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->

@@ -23,6 +23,7 @@
     
     <def-cat n="nomnoun">
        <cat-item tags="n.nom"/>
+        <cat-item tags="np.*"/>
        <cat-item tags="n.*.nom"/>
     </def-cat>
 

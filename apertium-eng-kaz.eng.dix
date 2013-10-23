@@ -7,6 +7,9 @@
     <sdef n="predet" c="Pre-determiner"/> 
     <sdef n="detnt" c="Determiner neuter(?)"/> 
     <sdef n="loc" c="Location (in English, not locative!)"/> 
+    <sdef n="top" c="Location in kaz.lexc"/> 
+ <sdef n="attr" c="Location in kaz.lexc"/> 
+    <sdef n="ant" c="Anthroponym"/> 
     <sdef n="ant" c="Anthroponym"/> 
     <sdef n="al" c="Other (altre)"/> 
     <sdef n="cog" c="Cognomen (family name)"/> 
@@ -3662,6 +3665,18 @@
       <p>
         <l/>
         <r><s n="np"/><s n="loc"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+    </pardef>
+
+   <pardef n="Almaty__np">
+
+                            <e i="">
+      <p>
+        <l/>
+        <r><s n="np"/><s n="top"/><s n="attr"/></r>
       </p>
     </e>
 
@@ -35732,7 +35747,7 @@
                             <e lm="Aliya" i=""><i>Aliya</i><par n="Mary__np"/></e>
 
                             <e lm="Aliyah" i=""><i>Aliyah</i><par n="Mary__np"/></e>
-
+			
                             <e lm="Aliza" i=""><i>Aliza</i><par n="Mary__np"/></e>
 
                             <e lm="Alize" i=""><i>Alize</i><par n="Mary__np"/></e>
@@ -77843,7 +77858,8 @@
 
                             <e lm="OSCE" i=""><i>OSCE</i><par n="Linux__np"/></e>
 
-                            <e lm="Astana" i=""><i>Astana</i><par n="Barcelona__np"/></e>
+                            <e lm="Astana" i=""><i>Astana</i><par n="Almaty__np"/></e>
+                            <e lm="Almaty" i=""><i>Almaty</i><par n="Barcelona__np"/></e> 
 
                             <e lm="General Headquarters" i=""><i>General<b/>Headquarters</i><par n="United_Nations__np"/></e>
 

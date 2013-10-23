@@ -1859,7 +1859,7 @@
         </lu>
         <b/> 
 	<lu>
-          <lit v="жат"/>  
+          <lit v="жатыр"/>  
  	<lit-tag v="vaux"/>
  	<lit-tag v="6"/>
 	 <lit-tag v="4"/>
@@ -1898,7 +1898,7 @@
 	<lu>
           <lit v="отыр"/> <!--I was not playing - Мен ойнап отырмадым  -->
  	<lit-tag v="vaux"/>
- 	 	<lit-tag v="6"/>
+ 	 <lit-tag v="6"/>
 	 <lit-tag v="4"/>
 	<lit-tag v="3"/>
           <lit-tag v="2"/>

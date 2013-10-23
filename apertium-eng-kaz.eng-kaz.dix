@@ -1697,6 +1697,28 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>zone<s n="n"/></l><r>аймақ<s n="n"/></r></p></e>
 
 
+<!--new words-->
+ <e><p><l>carelessness<s n="n"/></l><r>абайсыздық<s n="n"/></r></p></e>
+<e><p><l>nobleness<s n="n"/></l><r>абзалдық<s n="n"/></r></p></e>
+<e><p><l>subscription<s n="n"/></l><r>абонемент<s n="n"/></r></p></e>
+<e><p><l>subscriber<s n="n"/></l><r>абонент<s n="n"/></r></p></e> 
+<e><p><l>abstract<s n="n"/></l><r>абстрактілік<s n="n"/></r></p></e>
+<e><p><l>confusion<s n="n"/></l><r>абыржушылық<s n="n"/></r></p></e>
+<e><p><l>абырой<s n="n"/></l><r>абырой<s n="n"/></r></p></e> 
+<e><p><l>aviation<s n="n"/></l><r>авиация<s n="n"/></r></p></e>
+<e><p><l>bus<b/> station<s n="n"/></l><r>автобекет<s n="n"/></r></p></e>
+<e><p><l>autobuilding<s n="n"/></l><r>автоқұрылыс<s n="n"/></r></p></e>
+<e><p><l>automobilist<s n="n"/></l><r>автомобильші<s n="n"/></r></p></e>
+<e><p><l>autotower<s n="n"/></l><r>автомұнара<s n="n"/></r></p></e>
+<e><p><l>autotray<s n="n"/></l><r>автонауа<s n="n"/></r></p></e>
+<e><p><l>copyright<s n="n"/></l><r>авторлық<s n="n"/></r></p></e>
+<e><p><l>autosprincler<s n="n"/></l><r>автосуарғыш<s n="n"/></r></p></e>
+<e><p><l>autodrinker<s n="n"/></l><r>автосуат<s n="n"/></r></p></e>
+<e><p><l>parking<s n="n"/></l><r>автотұрақ<s n="n"/></r></p></e>
+<e><p><l>trailer<s n="n"/></l><r>автотіркеме<s n="n"/></r></p></e>
+<e><p><l>autorepair<b/>shop<s n="n"/></l><r>автошеберхана<s n="n"/></r></p></e>
+<e><p><l>autowinch<s n="n"/></l><r>автошығыр<s n="n"/></r></p></e>
+<e><p><l>agency<s n="n"/></l><r>агенттік<s n="n"/></r></p></e>
 
 
     <!-- Раздел: Имя Собственное -->
@@ -1723,6 +1745,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <!-- Раздел: Союз -->
 <e><p><l>if<s n="cnjadv"/></l><r>егер<s n="cnjadv"/></r></p></e>
     <e><p><l>and<s n="cnjcoo"/></l><r>және<s n="cnjcoo"/></r></p></e>
+    <e><p><l>than<s n="cnjcoo"/></l><r>қарағанда<s n="cnjcoo"/></r></p></e>
 <!--    <e><p><l>and<s n="cnjcoo"/></l><r>ал<s n="cnjcoo"/></r></p></e> !! MLF 20120711, just to avoid s -->
     <e><p><l>but<s n="cnjcoo"/></l><r>ал<s n="cnjcoo"/></r></p></e>
 <e><p><l>because<s n="n"/></l><r>себебі<b/><s n="n"/></r></p></e>

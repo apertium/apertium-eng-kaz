@@ -324,6 +324,58 @@
      </action>
 </rule>
 
+<rule comment="NEW RULE NP GenP GenP → GenP GenP PP">
+<!-- only 1 NIng -->
+  <pattern> 
+     <pattern-item n="NP"/>
+     <pattern-item n="GenP"/>
+     <pattern-item n="GenP"/>
+  </pattern>
+     <action>
+     <call-macro n="build-possessive">
+        <with-param pos="2"/>
+     </call-macro>
+     <let><var n="possessive1"/><var n="possessive"/></let>
+     <call-macro n="build-possessive">
+        <with-param pos="3"/>
+     </call-macro>
+     <let><var n="possessive2"/><var n="possessive"/></let>
+      <out>
+          <chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="a_phrase"/>
+            <clip pos="3" part="a_nbr"/>
+            <clip pos="3" part="a_pers"/>
+            <lit-tag v="PXD"/>
+            <lit-tag v="nom"/> <!-- should probably be attr but there is no plural for attr -->
+            <clip pos="3" part="chcontent"/>
+          </chunk>  
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_phrase"/>
+            <clip pos="2" part="a_nbr"/>
+            <clip pos="2" part="a_pers"/>
+            <var n="possessive2"/>
+            <clip pos="2" part="a_cas"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>  
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="a_phrase"/>
+            <clip pos="1" part="a_nbr"/>
+            <clip pos="1" part="a_pers"/>
+            <var n="possessive1"/>
+            <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>  
+      </out>
+     </action>
+</rule>
+
 <rule comment="NEW RULE NP GenP → GenP NP">
 <!-- reorders NP and GenP and will set possessive on NP -->
   <pattern> 

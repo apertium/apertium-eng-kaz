@@ -57,6 +57,10 @@
       <cat-item tags="AdjP"/>
       <cat-item tags="AdjP.*"/>
     </def-cat>
+    <def-cat n="AdvP">
+      <cat-item tags="AdvP"/>
+      <cat-item tags="AdvP.*"/>
+    </def-cat>
     <def-cat n="SupP">
       <cat-item tags="SupP"/>
       <cat-item tags="SupP.*"/>
@@ -226,8 +230,32 @@
       </action>
     </rule>
 
-    <rule comment="RULE: VP PP → PP VP">
-    <!-- Just reorders VP and PP -->
+
+    <rule comment="RULE: VP AdvP → AdvP VP">
+    <!-- Just reorders VP and AdvP -->
+     <pattern>
+       <pattern-item n="VP"/>
+       <pattern-item n="AdvP"/>
+     </pattern>
+     <action>
+      <out>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>  
+      </out>
+     </action>
+    </rule>
+
+   <rule comment="RULE: VP PP → PP VP">
      <pattern>
        <pattern-item n="VP"/>
        <pattern-item n="PP"/>

@@ -183,6 +183,10 @@
        <cat-item tags="cnjadv"/>
     </def-cat>
 
+    <def-cat n="adv">
+      <cat-item tags="adv.*"/>
+      <cat-item tags="adv"/>
+    </def-cat>
 
    
   </section-def-cats>
@@ -5374,6 +5378,25 @@ this would have to be changed -->
     </tags>
     <lu>
       <var n="adjec_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+
+<rule comment="NEW RULE: adv">  
+  <pattern>
+    <pattern-item n="adv"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="adv">
+    <tags>
+    <tag><lit-tag v="AdvP"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
      </lu>
     </chunk>
     </out>

@@ -15,9 +15,12 @@
       <program name="apertium-tagger -g $2">
         <file name="eng-kaz.prob"/>
       </program>
-      <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="eng-kaz.autobil.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lrx-proc">
+        <file name="eng-kaz.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-eng-kaz.eng-kaz.t1x"/>
@@ -51,6 +54,9 @@
       </program>
       <program name="apertium-tagger -g $2">
         <file name="eng-kaz.prob"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="eng-kaz.lrx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">

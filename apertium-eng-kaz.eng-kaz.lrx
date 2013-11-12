@@ -2,4 +2,23 @@
   <rule>
     <match lemma="dog" tags="n.*"><select lemma="ит" tags="n.*"/></match>
   </rule>
+
+  <rule>
+    <match lemma="residence" tags="n.*"><select lemma="мекен" tags="n.*"/></match>
+  </rule>
+
+
+  <rule>
+    <match lemma="residence" tags="n.*"><select lemma="резиденция" tags="n.*"/></match>
+    <match lemma="of" tags="pr"/>
+    <match lemma="the" tags="det.*"/>
+    <match lemma="president" tags="n.*"/>
+  </rule>
+
+  <rule>
+    <match lemma="government" tags="n.*"/>
+    <match lemma="residence" tags="n.*"><select lemma="резиденция" tags="n.*"/></match>
+  </rule>
+
+
 </rules>

@@ -294,8 +294,8 @@
 
   <mode name="kaz-eng" install="yes">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kaz-eng.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kaz-eng.automorf.bin"/>
       </program>
       <program name="cg-proc -w -1 -n">
         <file name="kaz-eng.rlx.bin"/>
@@ -327,8 +327,8 @@
 
   <mode name="kaz-eng-debug" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kaz-eng.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kaz-eng.automorf.bin"/>
       </program>
       <program name="cg-proc -w -1 -n">
         <file name="kaz-eng.rlx.bin"/>
@@ -360,16 +360,16 @@
   
   <mode name="kaz-eng-morph" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kaz-eng.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kaz-eng.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
   <mode name="kaz-eng-tagger" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kaz-eng.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kaz-eng.automorf.bin"/>
       </program>
       <program name="cg-proc -w -1 -n">
         <file name="kaz-eng.rlx.bin"/>
@@ -380,8 +380,8 @@
 
   <mode name="kaz-eng-biltrans" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kaz-eng.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kaz-eng.automorf.bin"/>
       </program>
       <program name="cg-proc -w -1 -n">
         <file name="kaz-eng.rlx.bin"/>
@@ -395,8 +395,8 @@
 
   <mode name="kaz-eng-lex" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kaz-eng.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kaz-eng.automorf.bin"/>
       </program>
       <program name="cg-proc -w -1 -n">
         <file name="kaz-eng.rlx.bin"/>
@@ -413,8 +413,8 @@
 
   <mode name="kaz-eng-transfer" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kaz-eng.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kaz-eng.automorf.bin"/>
       </program>
       <program name="cg-proc -w -1 -n">
         <file name="kaz-eng.rlx.bin"/>
@@ -435,8 +435,8 @@
 
   <mode name="kaz-eng-interchunk" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kaz-eng.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kaz-eng.automorf.bin"/>
       </program>
       <program name="cg-proc -w -1 -n">
         <file name="kaz-eng.rlx.bin"/>
@@ -461,8 +461,8 @@
 
   <mode name="kaz-eng-postchunk" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="kaz-eng.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="kaz-eng.automorf.bin"/>
       </program>
       <program name="cg-proc -w -1 -n">
         <file name="kaz-eng.rlx.bin"/>

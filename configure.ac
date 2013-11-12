@@ -70,5 +70,12 @@ then
 fi
 
 
+m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: http://wiki.apertium.org/wiki/Installation_troubleshooting])])
+
+# eng TODO
+#AP_CHECK_LING([1], [apertium-eng])
+AP_CHECK_LING([2], [apertium-kaz])
+
+
 AC_OUTPUT([Makefile])
 

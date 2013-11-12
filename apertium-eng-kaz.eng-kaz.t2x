@@ -402,6 +402,37 @@
      </action>
 </rule>
 
+<rule comment="NEW RULE NP1 NP2 → NP1 NP2">
+<!--  set possessive on NP2 -->
+  <pattern> 
+     <pattern-item n="NP"/>
+     <pattern-item n="NP"/>
+  </pattern>
+     <action>
+     <call-macro n="build-possessive">
+        <with-param pos="1"/>
+     </call-macro>
+      <out>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_phrase"/>
+            <clip pos="2" part="a_nbr"/>
+            <clip pos="2" part="a_pers"/>
+            <var n="possessive"/>
+            <clip pos="2" part="a_cas"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>  
+      </out>
+     </action>
+</rule>
+
 <rule comment="NEW RULE: if NP VP">
     <!--Егер мен барсам -->
      <pattern>

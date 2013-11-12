@@ -74,6 +74,10 @@
         <file name="apertium-eng-kaz.eng-kaz.t3x"/>
         <file name="eng-kaz.t3x.bin"/>
       </program>
+      <program name="apertium-transfer -n"> <!-- Cleanup of PXD and ND -->
+        <file name="apertium-eng-kaz.eng-kaz.t4x"/>
+        <file name="eng-kaz.t4x.bin"/>
+      </program>
       <program name="hfst-proc -d">
         <file name="eng-kaz.autogen.hfst"/>
       </program>
@@ -186,7 +190,7 @@
       <program name="lrx-proc">
         <file name="eng-kaz.lrx.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -t -b">
         <file name="apertium-eng-kaz.eng-kaz.t1x"/>
         <file name="eng-kaz.t1x.bin"/>
       </program>
@@ -215,7 +219,7 @@
         <file name="apertium-eng-kaz.eng-kaz.t1x"/>
         <file name="eng-kaz.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk -t">
         <file name="apertium-eng-kaz.eng-kaz.t2x"/>
         <file name="eng-kaz.t2x.bin"/>
       </program>

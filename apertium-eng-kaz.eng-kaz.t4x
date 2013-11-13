@@ -246,7 +246,12 @@
      </when>
 
      </choose>      
-      
+     <choose><!--formality patch-->
+       <when>
+         <test><equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal></test>  <!-- if we generate no formality, add it -->
+            <let><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2.frm"/></let>
+          </when>
+ 	</choose> 
       
         <out>
           <lu>

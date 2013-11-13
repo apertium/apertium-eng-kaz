@@ -1399,6 +1399,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>hope<s n="n"/></l><r>үміт<s n="n"/></r></p></e>
     <e><p><l>horn<s n="n"/></l><r>мүйіз<s n="n"/></r></p></e>
     <e><p><l>husband<s n="n"/></l><r>қожайын<s n="n"/></r></p></e>
+    <e><p><l>image<s n="n"/></l><r>сурет<s n="n"/></r></p></e>    
     <e><p><l>implication<s n="n"/></l><r>астар<s n="n"/></r></p></e>
     <e><p><l>importance<s n="n"/></l><r>маңыз<s n="n"/></r></p></e>
     <e><p><l>importance<s n="n"/></l><r>мән<s n="n"/></r></p></e>
@@ -1728,7 +1729,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>autowinch<s n="n"/></l><r>автошығыр<s n="n"/></r></p></e>
 <e><p><l>agency<s n="n"/></l><r>агенттік<s n="n"/></r></p></e>
 
-
     <!-- Раздел: Имя Собственное -->
 
     <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/></l><r>Джеймс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -1786,6 +1786,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>now<s n="adv"/></l><r>қазір<s n="adv"/></r></p></e>
     <e><p><l>now<s n="adv"/></l><r>енді<s n="adv"/></r></p></e>
     <e><p><l>quickly<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
+ <e><p><l>fast<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
+
 <e><p><l>quick<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
 <e><p><l>quite<s n="adv"/></l><r>жеткілікті<s n="adv"/></r></p></e>
     <e><p><l>never<s n="adv"/></l><r>ешқашан<s n="adv"/></r></p></e> <!-- with or without space ? -->
@@ -2084,7 +2086,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>produce<s n="vblex"/></l><r>өндір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>put<s n="vblex"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>record<s n="vblex"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>run<s n="vblex"/></l><r>жүгір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>run<s n="vblex"/></l><r>жүгір<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>search<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>seem<s n="vblex"/></l><r>сияқтан<s n="v"/><s n="iv"/></r></p></e>
@@ -2123,7 +2125,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>reply<s n="vblex"/></l><r>жауап<b/>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hate<s n="vblex"/></l><r>жек<b/>көр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>guide<s n="vblex"/></l><r>жүргіз<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>want<s n="vblex"/></l><r>қала<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check, kel = 'come' -->
+<!--<e><p><l>want<s n="vblex"/></l><r>қала<s n="v"/><s n="tv"/></r></p></e> -->
 <e><p><l>worry<s n="vblex"/></l><r>мазала<s n="v"/><s n="tv"/></r></p></e> 
     
     <!-- will require transfer rules for correct verb form -->
@@ -2132,7 +2134,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>find<s n="vblex"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>cry<s n="vblex"/></l><r>жыла<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>hear<s n="vblex"/></l><r>есті<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>listen<s n="vblex"/></l><r>тыңда<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>listen<s n="vblex"/></l><r>тыңда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>write<s n="vblex"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>lie<s n="vblex"/></l><r>жат<s n="v"/><s n="tv"/></r></p></e>
 

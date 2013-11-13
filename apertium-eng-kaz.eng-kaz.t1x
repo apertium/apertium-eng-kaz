@@ -183,6 +183,11 @@
        <cat-item tags="cnjadv"/>
     </def-cat>
 
+  <def-cat n="preadv">
+      <cat-item tags="preadv.*"/>
+      <cat-item tags="preadv"/>
+    </def-cat>
+
     <def-cat n="adv">
       <cat-item tags="adv.*"/>
       <cat-item tags="adv"/>
@@ -5384,6 +5389,30 @@ this would have to be changed -->
   </action>
 </rule>
 
+<rule comment="NEW RULE:adv adv">  
+  <pattern>
+ <pattern-item n="preadv"/>
+    <pattern-item n="adv"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="adv">
+    <tags>
+    <tag><lit-tag v="AdvP"/></tag>
+    </tags>
+	<b pos="1"/>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+     </lu>
+	<b/>
+    <lu>
+      <clip pos="2" side="tl" part="whole"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
 
 <rule comment="NEW RULE: adv">  
   <pattern>
@@ -5402,6 +5431,8 @@ this would have to be changed -->
     </out>
   </action>
 </rule>
+
+
 
 <rule comment="NEW RULE: num">  
   <pattern>

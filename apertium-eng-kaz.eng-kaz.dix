@@ -2161,7 +2161,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>heat<s n="vblex"/></l><r>қыздыр<s n="v"/><s n="iv"/></r></p></e>
     
     <e><p><l>go<s n="vblex"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>start<s n="vblex"/></l><r>баста<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>start<s n="vblex"/></l><r>баста<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>stand<s n="vblex"/></l><r>тұр<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>smile<s n="vblex"/></l><r>жыми<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>cover<s n="vblex"/></l><r>жап<s n="v"/><s n="tv"/></r></p></e>

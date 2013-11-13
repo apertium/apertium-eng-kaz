@@ -1579,7 +1579,7 @@
   </action>
 </rule>
 
-<rule comment="NEW RULE: to be"> <!--I am a doctor - ^Мен/мен<post>/мен<prn><pers><p1><sg><nom>$ ^дәрігермін/дәрігер<n><nom>+е<cop><p1><sg>$^./.<sent>$
+<rule comment="NEW RULE: to be noun"> <!--I am a doctor - ^Мен/мен<post>/мен<prn><pers><p1><sg><nom>$ ^дәрігермін/дәрігер<n><nom>+е<cop><p1><sg>$^./.<sent>$
 -->
   <pattern>
     <pattern-item n="pers-verb-to-be"/>
@@ -1695,6 +1695,9 @@
     </choose>   
   </action>
 </rule>
+
+
+
 
 
 <rule comment="NEW RULE: need"> <!--I need a book - Magan kitap kerek-->
@@ -5376,9 +5379,9 @@ this would have to be changed -->
   <action>
    <call-macro n="build-adjec-lu"><with-param pos="1"/></call-macro> 
     <out>
-    <chunk name="AdjP">
+    <chunk name="adjec">
     <tags>
-    <tag><lit-tag v="adjec"/></tag>
+    <tag><lit-tag v="AdjP"/></tag>
     </tags>
     <lu>
       <var n="adjec_lu"/>

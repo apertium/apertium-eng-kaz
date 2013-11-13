@@ -21,10 +21,11 @@
        <cat-item lemma="е" tags="cop.p3.pl"/>
     </def-cat>
     
-    <def-cat n="nomnoun">
+    <def-cat n="nomobject">
        <cat-item tags="n.nom"/>
-        <cat-item tags="np.*"/>
+       <cat-item tags="np.*"/>
        <cat-item tags="n.*.nom"/>
+       <cat-item tags="adj"/>
     </def-cat>
 
    
@@ -213,7 +214,7 @@
     
     <rule comment="present-tense copula hack"> <!-- MLF 20130605 not working yet! -->
       <pattern>
-        <pattern-item n="nomnoun"/>
+        <pattern-item n="nomobject"/>
         <pattern-item n="shortcop"/>
       </pattern>
       <action>

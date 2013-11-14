@@ -27,9 +27,10 @@
     
     <def-cat n="nomobject">
        <cat-item tags="n.nom"/>
-       <cat-item tags="np.*"/>
+       <cat-item tags="np.top"/>
        <cat-item tags="n.*.nom"/>
        <cat-item tags="adj"/>
+
     </def-cat>
 
    
@@ -267,25 +268,9 @@
         </out>
       </action>  
     </rule>
+
      
- <rule comment="noun-np">
-    <pattern>
-       <pattern-item n="np"/>
-    </pattern>
-    <action>
-      <choose><!--formality patch-->
-          <when>
-            <test><equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal></test>  <!-- if we generate no formality, add it -->
-            <let><clip pos="1" side="sl" part="a_pers"/><lit-tag v=""/></let>
-          </when>
- 	</choose>
-               <out>
-          <lu>
-            <clip pos="1" side="sl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule> 
+
    
     <rule comment="default"> 
       <pattern>

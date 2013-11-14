@@ -164,7 +164,7 @@
     </def-cat>
 
     <def-cat n="pron-dem">
-      <cat-item tags="prn.tn.*"/>
+      <cat-item tags="prn.*"/>
     </def-cat>
 
     <def-cat n="subj-pron">
@@ -1071,8 +1071,8 @@
      <let>
            <var n="dem-pron_lu"/>
            <concat>
-             <clip pos="1" side="tl" part="lem"/> 
-               <clip pos="1" side="tl" part="a_det"/>
+          <clip pos="1" side="tl" part="lem"/> 
+          <clip pos="1" side="tl" part="a_det"/>
           <clip pos="1" side="tl" part="a_dem"/>
            </concat>  
         </let>
@@ -5223,6 +5223,7 @@ this would have to be changed -->
     <pattern-item n="nom"/>
   </pattern>
   <action>
+
   <call-macro n="NEW-build-noun-lu-2-4-5">
        <with-param pos="1"/>
   </call-macro> 

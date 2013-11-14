@@ -164,6 +164,10 @@
        <cat-item tags="prn.obj.*"/>
     </def-cat>
 
+    <def-cat n="pron-dem">
+      <cat-item tags="prn.tn.*"/>
+    </def-cat>
+
     <def-cat n="subj-pron">
        <cat-item tags="prn.subj.*"/>
     </def-cat>
@@ -304,6 +308,7 @@
     <def-var n="adjec_lu"/> <!-- adjective, ready for lu -->
 <def-var n="subj-pron_lu"/> <!-- complete noun in prep X rules, ready for lu -->
 <def-var n="obj-pron_lu"/>
+<def-var n="dem-pron_lu"/>
 <def-var n="num_lu"/>    
 <def-var n="noun_lu_with_poss"/> <!-- same, with possessive -->
     <def-var n="np-poss"/> <!-- possessive for noun_lu_with_poss -->
@@ -1062,7 +1067,16 @@
         </let>
 </def-macro>
 
-
+<def-macro n="build-dem-pron-lu" npar="1"> 
+     <let>
+           <var n="dem-pron_lu"/>
+           <concat>
+             <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_det"/>
+          <clip pos="1" side="tl" part="a_dem"/>
+           </concat>  
+        </let>
+</def-macro>
 
 <def-macro n="build-num-lu" npar="1"> 
      <let>
@@ -1073,6 +1087,7 @@
            </concat>  
         </let>
 </def-macro>
+
 
 
 <def-macro n="build-subj-pron-lu" npar="1"> 
@@ -1794,6 +1809,129 @@
 </rule>
 -->
 
+
+<rule comment="NEW RULE: verb + verb-ing ">  <!-- I like playing, I liked playing-->
+  <pattern> 
+    <pattern-item n="pers-verb"/>
+    <pattern-item n="verb-ing"/>  
+   </pattern>
+  <action>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+            
+        <out>
+      <chunk name="verb1">  
+      <tags>
+        <tag><lit-tag v="VP1_verb"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+   	<lu>
+         <clip pos="1" side="tl" part="lem"/>
+	 <clip pos="1" side="tl" part="a_kaz_verb"/>
+ 	<!--<lit-tag v="vaux"/>  -->
+ 	<lit-tag v="6"/>
+	<lit-tag v="aor"/>
+	<lit-tag v="3"/>
+        <lit-tag v="2"/>
+ 	 </lu>
+         </chunk>
+<chunk name="verb_ger">  
+      <tags>
+        <tag><lit-tag v="VP2_Ger"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="a_tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="CD"/></tag>
+      </tags>
+            <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+	 <lit-tag v="ger"/>
+	<lit-tag v="acc"/>
+        
+  
+        </lu>
+    
+      </chunk>
+  </out>
+       
+  </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <out>
+        <chunk name="verb1">  
+      <tags>
+        <tag><lit-tag v="VP1_verb"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+   	<lu>
+         <clip pos="1" side="tl" part="lem"/>
+	 <clip pos="1" side="tl" part="a_kaz_verb"/>
+ 	<!--<lit-tag v="vaux"/>  -->
+ 	<lit-tag v="6"/>
+	<lit-tag v="ifi"/>
+	<lit-tag v="3"/>
+        <lit-tag v="2"/>
+ 	 </lu>
+         </chunk>
+<chunk name="verb_ger">  
+      <tags>
+        <tag><lit-tag v="VP2_Ger"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="a_tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="CD"/></tag>
+      </tags>
+            <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+	 <lit-tag v="ger"/>
+	<lit-tag v="acc"/>
+        </lu>
+    
+      </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let> 
+      <out><b pos="1"/></out>  
+      <call-macro n="NEW-gen-simple-verb-neg">
+         <with-param pos="2"/>  
+     </call-macro>
+      </otherwise> 
+    </choose>
+      </action>
+</rule>
+
+
+
 <rule comment="NEW RULE: verb"> 
   <pattern>
     <pattern-item n="pers-verb"/>
@@ -1838,7 +1976,6 @@
     </choose>
   </action>
 </rule>
-
 
 
 <rule comment="NEW RULE: be + verb-ing "> 
@@ -5229,6 +5366,41 @@ this would have to be changed -->
   </out>
  </action>
 </rule>
+
+<rule comment="NEW RULE: pron-dem">
+  <pattern>
+    <pattern-item n="pron-dem"/>
+  </pattern>
+    <action>
+
+ <call-macro n="build-dem-pron-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="NP">
+    <tags>
+    <tag><lit-tag v="dem-pron"/></tag>
+    </tags>
+    <lu>
+      <var n="dem-pron_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+<!--
+   <call-macro n="build-dem-pron-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="dem-pron">
+    <tags>
+    <tag><lit-tag v="DemP"/></tag>
+    </tags>
+    <lu>
+      <var n="dem-pron_lu"/>
+     </lu>
+    </chunk>
+    </out>-->
+
+
+
  
     <rule comment="REGLA: SENT">
       <pattern>

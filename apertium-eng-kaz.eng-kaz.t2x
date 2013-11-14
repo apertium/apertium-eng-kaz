@@ -13,6 +13,14 @@
     <def-cat n="VP_must_inf">
       <cat-item tags="VP_must_inf.*"/>
     </def-cat>
+   <def-cat n="VP1_verb">
+      <cat-item tags="VP1_verb"/>
+      <cat-item tags="VP1_verb.*"/>
+    </def-cat>
+  <def-cat n="VP2_Ger">
+      <cat-item tags="VP2_Ger"/>
+      <cat-item tags="VP2_Ger.*"/>
+    </def-cat>
 
  <def-cat n="VP_cond">
       <cat-item tags="VP_cond.*"/>
@@ -625,6 +633,48 @@
     </rule>
 
 
+<rule comment="NEW RULE: NP VP_verb +Ger"> <!-- I like playing, I liked playing-->
+    
+   <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP1_verb"/>
+    <pattern-item n="VP2_Ger"/>
+     </pattern>
+     <action>
+           <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+          
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <lit-tag v="VP2_Ger"/>
+            <clip pos="3" part="a_nbr"/> <!-- agree number -->
+            <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="ger"/>
+            <clip pos="3" part="a_possessive"/> 
+            <clip pos="3" part="a_neg"/>
+           <lit-tag v="acc"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk> 
+         <b />
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <lit-tag v="VP1_verb"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+      </out>
+     </action>
+    </rule>
+
 <rule comment="NEW RULE: VP_want_to_inf">
     
    <pattern>
@@ -699,7 +749,7 @@
     </rule>
 
 <rule comment="NEW RULE: NP VP_should_inf NP">
-    <!-- MenING barGANYM jon I should go-->
+    <!-- MenING |NP| korgenym jon I should go-->
      <pattern>
        <pattern-item n="NP"/>
        <pattern-item n="VP_should_inf"/>

@@ -8,6 +8,7 @@
     <sdef n="detnt" c="Determiner neuter(?)"/> 
     <sdef n="loc" c="Location (in English, not locative!)"/> 
     <sdef n="top" c="Location in kaz.lexc"/> 
+<sdef n="nom" c="Nominative"/> 
  <sdef n="attr" c="Location in kaz.lexc"/> 
     <sdef n="ant" c="Anthroponym"/> 
     <sdef n="ant" c="Anthroponym"/> 
@@ -3676,7 +3677,7 @@
                             <e i="">
       <p>
         <l/>
-        <r><s n="np"/><s n="top"/><s n="attr"/></r>
+        <r><s n="np"/><s n="top"/></r>
       </p>
     </e>
 
@@ -18441,7 +18442,7 @@
 
                             <e lm="Júlia" i=""><i>Júlia</i><par n="Mary__np"/></e>
 
-                            <e lm="Kazakhstan" i=""><i>Kazakhstan</i><par n="Barcelona__np"/></e>
+                            <e lm="Kazakhstan" i=""><i>Kazakhstan</i><par n="Almaty__np"/></e>
 
                             <e lm="Kurdistan" i=""><i>Kurdistan</i><par n="Barcelona__np"/></e>
 
@@ -61913,7 +61914,7 @@
 
                             <e lm="Júlia" i=""><i>Júlia</i><par n="Mary__np"/></e>
 
-                            <e lm="Kazakhstan" i=""><i>Kazakhstan</i><par n="Barcelona__np"/></e>
+                            <e lm="Kazakhstan" i=""><i>Kazakhstan</i><par n="Almaty__np"/></e>
 
                             <e lm="Kurdistan" i=""><i>Kurdistan</i><par n="Barcelona__np"/></e>
 
@@ -77859,7 +77860,7 @@
                             <e lm="OSCE" i=""><i>OSCE</i><par n="Linux__np"/></e>
 
                             <e lm="Astana" i=""><i>Astana</i><par n="Almaty__np"/></e>
-                            <e lm="Almaty" i=""><i>Almaty</i><par n="Barcelona__np"/></e> 
+                            <e lm="Almaty" i=""><i>Almaty</i><par n="Almaty__np"/></e> 
 
                             <e lm="General Headquarters" i=""><i>General<b/>Headquarters</i><par n="United_Nations__np"/></e>
 

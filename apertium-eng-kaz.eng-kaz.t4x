@@ -3,6 +3,10 @@
 <transfer>
   <section-def-cats>
     
+ <def-cat n="np">
+      <cat-item tags="np.top"/>
+    </def-cat>
+
     <def-cat n="pron">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -264,7 +268,25 @@
       </action>  
     </rule>
      
-    
+ <rule comment="noun-np">
+    <pattern>
+       <pattern-item n="np"/>
+    </pattern>
+    <action>
+      <choose><!--formality patch-->
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal></test>  <!-- if we generate no formality, add it -->
+            <let><clip pos="1" side="sl" part="a_pers"/><lit-tag v=""/></let>
+          </when>
+ 	</choose>
+               <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule> 
+   
     <rule comment="default"> 
       <pattern>
         <pattern-item n="default"/>
@@ -291,6 +313,12 @@
           <when>
             <test><equal><clip pos="1" side="sl" part="poss"/><lit-tag v="PXD"/></equal></test>
             <let><clip pos="1" side="sl" part="poss"/><lit v=""/></let>
+          </when>
+        </choose>
+  <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal></test>
+            <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
           </when>
         </choose>
         <choose>

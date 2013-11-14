@@ -242,6 +242,13 @@
       <attr-item tags="v.tv"/>
       <attr-item tags="v.iv"/>
     </def-attr>
+  <def-attr n="a_pron"> 
+      <attr-item tags="prn"/>
+      <attr-item tags="prn.neg"/>
+   <attr-item tags="prn.dem.*"/>
+ <attr-item tags="prn.dem"/>
+ <attr-item tags="prn.dem.*"/>    
+</def-attr>
     <def-attr n="a_kaz_perspron"> 
       <attr-item tags="prn.pers"/>
     </def-attr>
@@ -308,7 +315,7 @@
     <def-var n="adjec_lu"/> <!-- adjective, ready for lu -->
 <def-var n="subj-pron_lu"/> <!-- complete noun in prep X rules, ready for lu -->
 <def-var n="obj-pron_lu"/>
-<def-var n="dem-pron_lu"/>
+<def-var n="pron_lu"/>
 <def-var n="num_lu"/>    
 <def-var n="noun_lu_with_poss"/> <!-- same, with possessive -->
     <def-var n="np-poss"/> <!-- possessive for noun_lu_with_poss -->
@@ -1067,13 +1074,12 @@
         </let>
 </def-macro>
 
-<def-macro n="build-dem-pron-lu" npar="1"> 
+<def-macro n="build-pron-lu" npar="1"> 
      <let>
-           <var n="dem-pron_lu"/>
+           <var n="pron_lu"/>
            <concat>
           <clip pos="1" side="tl" part="lem"/> 
-          <clip pos="1" side="tl" part="a_det"/>
-          <clip pos="1" side="tl" part="a_dem"/>
+              <clip pos="1" side="tl" part="a_pron"/>
            </concat>  
         </let>
 </def-macro>
@@ -5374,31 +5380,20 @@ this would have to be changed -->
   </pattern>
     <action>
 
- <call-macro n="build-dem-pron-lu"><with-param pos="1"/></call-macro> 
+ <call-macro n="build-pron-lu"><with-param pos="1"/></call-macro> 
     <out>
-    <chunk name="NP">
+    <chunk name="pron">
     <tags>
-    <tag><lit-tag v="dem-pron"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
-      <var n="dem-pron_lu"/>
+      <var n="pron_lu"/>
      </lu>
     </chunk>
     </out>
   </action>
 </rule>
-<!--
-   <call-macro n="build-dem-pron-lu"><with-param pos="1"/></call-macro> 
-    <out>
-    <chunk name="dem-pron">
-    <tags>
-    <tag><lit-tag v="DemP"/></tag>
-    </tags>
-    <lu>
-      <var n="dem-pron_lu"/>
-     </lu>
-    </chunk>
-    </out>-->
+ 
 
 
 

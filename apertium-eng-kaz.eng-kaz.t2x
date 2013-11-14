@@ -1351,8 +1351,13 @@
           <b pos="2"/>
         <chunk>
             <clip pos="3" part="lem"/>
-            <clip pos="3" part="tags"/>
-            <clip pos="3" part="chcontent"/>
+            <lit-tag v="PP"/>
+            <clip pos="3" part="a_nbr"/> 
+            <clip pos="3" part="a_pers"/> 
+            <clip pos="3" part="a_possessive"/>
+             <lit-tag v="abl"/>
+            <clip pos="3" part="chcontent"/>         
+            
           </chunk>
        <b/>
           <chunk>

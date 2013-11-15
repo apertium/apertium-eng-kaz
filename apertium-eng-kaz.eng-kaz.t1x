@@ -166,9 +166,8 @@
        <cat-item tags="prn.obj.*"/>
     </def-cat>
   <def-cat n="pron-neg">
-      <cat-item tags="prn.neg"/>
-      <cat-item tags="prn.neg.*"/>
-    </def-cat>
+      <cat-item tags="prn.*"/>
+      </def-cat>
 
     <def-cat n="pron-dem">
       <cat-item tags="prn.*"/>
@@ -338,6 +337,12 @@
       <list-item v="enjoy"/>
       <list-item v="start"/>
       <list-item v="finish"/>
+    </def-list>
+    <def-list n="negative_pron"> <!-- Verbs that can take verb-ing as object -->
+      <list-item v="nothing"/>
+      <list-item v="nobody"/>
+      <list-item v="anything"/>
+    
     </def-list>
   </section-def-lists>
   
@@ -944,6 +949,7 @@
       </chunk>
 </out>
 </when>
+
 <otherwise>
 <out>
       <chunk name="pers-verb">
@@ -1270,6 +1276,64 @@
 
 <section-rules>
 
+
+<!--
+<rule comment="NEW RULE: verb pron-negative">
+  <pattern>
+<pattern-item n="pers-verb"/>
+<pattern-item n="pron-neg"/>
+  </pattern>
+    <action>
+<choose>
+
+  <when>
+        <test>
+          <in caseless="yes">
+      <clip pos="2" side="sl" part="lem"/>
+      <list n="negative_pron"/>
+   </in>
+        </test>
+    
+ <call-macro n="build-pron-lu"><with-param pos="2"/></call-macro> 
+    <out>
+    <chunk name="pron">
+    <tags>
+    <tag><lit-tag v="NP_pron_neg"/></tag>
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+    <tag><lit-tag v="p3"/></tag>
+    <tag><lit-tag v="PXD"/></tag>
+    <tag><lit-tag v="CD"/></tag>
+    </tags>
+    <lu>
+      <var n="pron_lu"/>
+     </lu>
+    </chunk>
+    
+<b/>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> 
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><var n="tense"/></tag>  
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="neg"/></tag> 
+      </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="6"/>
+          <lit-tag v="aor"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+        </lu>
+      </chunk>
+</out>
+</when>
+</choose>
+  </action>
+</rule>
+ -->
 
 <rule comment="NEW RULE: want to + infinitive"> <!--want to verb -->
   <pattern>
@@ -5456,30 +5520,7 @@ this would have to be changed -->
 </rule>
 
 
-<rule comment="NEW RULE: pron-negative">
-  <pattern>
-    <pattern-item n="pron-neg"/>
-  </pattern>
-    <action>
 
- <call-macro n="build-pron-lu"><with-param pos="1"/></call-macro> 
-    <out>
-    <chunk name="pron">
-    <tags>
-    <tag><lit-tag v="NP_pron_neg"/></tag>
-    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
-    <tag><lit-tag v="p3"/></tag>
-    <tag><lit-tag v="PXD"/></tag>
-    <tag><lit-tag v="CD"/></tag>
-    </tags>
-    <lu>
-      <var n="pron_lu"/>
-     </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
- 
 
 <rule comment="NEW RULE: pron-dem">
   <pattern>

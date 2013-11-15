@@ -1471,7 +1471,13 @@
           </chunk>
           <b pos="1"/>
           <b pos="2"/>
-        
+         <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+         </chunk>
+          <b/>
+       
           <chunk>
             <clip pos="3" part="lem"/>  
             <lit-tag v="NP"/>
@@ -1480,12 +1486,6 @@
             <clip pos="3" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>
-          </chunk>
-          <b/>
-       <chunk>
-            <clip pos="4" part="lem"/>
-            <clip pos="4" part="tags"/>
-            <clip pos="4" part="chcontent"/>
           </chunk>
           <b/>
           <chunk>

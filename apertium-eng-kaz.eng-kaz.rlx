@@ -22,6 +22,8 @@ LIST Inf = inf ;
 LIST Pres = pres pri; 
 LIST Past = past ;  
 LIST Ger = ger ; 
+LIST VerbalNoun = (vblex subs) ;
+LIST PPRS = (vblex pprs); 
 LIST PrcPast = pp ; 
 
 LIST Interr = itg ; 
@@ -99,6 +101,10 @@ SELECT Inf IF (1 Inf) (2 PrcPast);
 
 SELECT V-DO-AUX IF (-1 PRN-SUBJ) (1C ADV-NOT);
 
+REMOVE V-DO-AUX IF (-1 PRN-SUBJ) (NOT 1C ADV-NOT);
+
+SELECT V IF (-1 PRN-SUBJ OR N);
+
 SELECT V-HAVE IF (1C ADV-NOT) (2 PrcPast);
 
 SELECT Inf IF (0 Inf) (1 ADV-NOT)(2 Ger);
@@ -141,7 +147,11 @@ SELECT Det + Pos IF (0 Det OR Pron) (1 N);
 
 SELECT A IF (0 Det OR A) (-1 Det) (1 N);
 
+REMOVE Ger IF (-1 Det OR A);
+
 SELECT Ger IF (-1 Cop);
+
+SELECT PPRS IF (-1 Det OR A) (1 N);
 
 SELECT Pr IF (0 Pr OR Adv) (1 Det);
 

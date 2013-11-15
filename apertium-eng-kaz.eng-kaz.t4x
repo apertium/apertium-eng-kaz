@@ -31,7 +31,8 @@
        <cat-item tags="n.*.nom"/>
        <cat-item tags="adj"/>
        <cat-item tags="np.*"/>
- <cat-item tags="n.*"/>
+       <cat-item tags="adj"/>
+       <cat-item tags="vblex.ger"/>
 
     </def-cat>
 

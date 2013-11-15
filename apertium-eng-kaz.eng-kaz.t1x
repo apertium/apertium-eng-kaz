@@ -55,6 +55,9 @@
       <cat-item tags="vbmod.ger"/> 
    </def-cat>   
 
+ <def-cat n="NP_verb-ing"> <!-- for ger like NP, I like playing-->
+      <cat-item tags="vblex.ger"/>
+   </def-cat>   
 <def-cat n="verb-pp"> <!-- present perfect tense -->
       <cat-item tags="vblex.pp"/>
 <cat-item tags="vbser.pp"/>
@@ -161,6 +164,10 @@
 
     <def-cat n="obj-pron">
        <cat-item tags="prn.obj.*"/>
+    </def-cat>
+  <def-cat n="pron-neg">
+      <cat-item tags="prn.neg"/>
+      <cat-item tags="prn.neg.*"/>
     </def-cat>
 
     <def-cat n="pron-dem">
@@ -325,7 +332,15 @@
  <def-var n="cnjadv_lu"/> <!-- for conditional IF -->
     
   </section-def-vars>
-
+  <section-def-lists>
+    <def-list n="pseudo_modal_verbs"> <!-- Verbs that can take verb-ing as object -->
+      <list-item v="like"/>
+      <list-item v="enjoy"/>
+      <list-item v="start"/>
+      <list-item v="finish"/>
+    </def-list>
+  </section-def-lists>
+  
 
   <section-def-macros>
 
@@ -899,7 +914,37 @@
 
 
 
-<def-macro n="NEW-gen-simple-verb" npar="1">
+<def-macro n="NEW-gen-simple-verb" npar="1">  
+<choose>
+<when>
+<test>
+   <in caseless="yes">
+      <clip pos="1" side="sl" part="lem"/>
+      <list n="pseudo_modal_verbs"/>
+   </in>
+</test>
+<out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP_psmod"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+        </lu>
+      </chunk>
+</out>
+</when>
+<otherwise>
 <out>
       <chunk name="pers-verb">
       <tags>
@@ -920,8 +965,9 @@
         </lu>
       </chunk>
         </out>
+</otherwise>
+</choose>
 </def-macro>
-
 <def-macro n="NEW-gen-simple-verb-neg" npar="1">
 <out>
       <chunk name="pers-verb">
@@ -1940,6 +1986,38 @@
 </rule>
 
 -->
+
+
+<rule comment="NEW RULE: verb-ing ">  
+  <pattern> 
+       <pattern-item n="NP_verb-ing"/>  
+   </pattern>
+  <action>
+<call-macro n="default-nbr-pers"/>               
+        <out>
+     <chunk name="NP_ger">  
+      <tags>
+       <tag><lit-tag v="NP"/></tag>
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="ND"/></tag> 
+       
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="CD"/></tag>
+      </tags>
+            
+        <lu>
+          <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="5"/>
+        </lu>
+    
+      </chunk>
+  </out>
+ </action>
+</rule>
+
+
 
 <rule comment="NEW RULE: verb"> 
   <pattern>
@@ -5377,6 +5455,32 @@ this would have to be changed -->
  </action>
 </rule>
 
+
+<rule comment="NEW RULE: pron-negative">
+  <pattern>
+    <pattern-item n="pron-neg"/>
+  </pattern>
+    <action>
+
+ <call-macro n="build-pron-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="pron">
+    <tags>
+    <tag><lit-tag v="NP_pron_neg"/></tag>
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+    <tag><lit-tag v="p3"/></tag>
+    <tag><lit-tag v="PXD"/></tag>
+    <tag><lit-tag v="CD"/></tag>
+    </tags>
+    <lu>
+      <var n="pron_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+ 
+
 <rule comment="NEW RULE: pron-dem">
   <pattern>
     <pattern-item n="pron-dem"/>
@@ -5400,7 +5504,8 @@ this would have to be changed -->
     </out>
   </action>
 </rule>
- 
+
+
 
 
 

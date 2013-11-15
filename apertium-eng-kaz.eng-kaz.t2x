@@ -39,7 +39,9 @@
 <def-cat n="VP_be">
       <cat-item tags="VP_be.*"/>
     </def-cat>
-
+<def-cat n="NP_pron_neg">
+      <cat-item tags="NP_pron_neg.*"/>
+    </def-cat>
 
 <def-cat n="VP_not_be">
       <cat-item tags="VP_not_be.*"/>
@@ -632,8 +634,8 @@
      </action>
     </rule>
 
-
-<rule comment="NEW RULE: NP VP_verb +Ger"> <!-- I like playing, I liked playing-->
+<!--
+<rule comment="NEW RULE: NP VP_verb +Ger"> 
     
    <pattern>
        <pattern-item n="NP"/>
@@ -652,8 +654,8 @@
           <chunk>
             <clip pos="3" part="lem"/>
             <lit-tag v="VP2_Ger"/>
-            <clip pos="3" part="a_nbr"/> <!-- agree number -->
-            <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_nbr"/> 
+            <clip pos="3" part="a_pers"/> 
             <clip pos="3" part="ger"/>
             <clip pos="3" part="a_possessive"/> 
             <clip pos="3" part="a_neg"/>
@@ -664,8 +666,8 @@
           <chunk>
             <clip pos="2" part="lem"/>
             <lit-tag v="VP1_verb"/>
-            <clip pos="1" part="a_nbr"/> <!-- agree number -->
-            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_nbr"/> 
+            <clip pos="1" part="a_pers"/> 
             <clip pos="2" part="a_tense"/>
             <clip pos="2" part="a_possessive"/> 
             <clip pos="2" part="a_neg"/>
@@ -674,7 +676,7 @@
       </out>
      </action>
     </rule>
-
+-->
 <rule comment="NEW RULE: VP_want_to_inf">
     
    <pattern>
@@ -865,6 +867,8 @@
       </out>
      </action>
     </rule>
+
+
 
 <rule comment="NEW RULE: agree person and number NP VP PP">
     <!-- propagates person and number from NP to VP and reorders PP-->
@@ -1767,11 +1771,42 @@
           <chunk>
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
+            <clip pos="1" part="neg"/>
             <clip pos="1" part="chcontent"/>
           </chunk>   
       </out>
      </action>
     </rule>
+
+
+
+<rule comment="NEW RULE: VP NP_neg_pron → NP_neg_pron VP_neg">
+    <!-- I see nothing-->
+     <pattern>
+       <pattern-item n="VP"/>
+ 	<pattern-item n="NP_pron_neg"/>
+   
+     </pattern>
+     <action>
+      <out>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>   
+      </out>
+     </action>
+    </rule>
+
+
+
 <rule comment="NEW RULE: NP VP PP1 PP2 -> NP PP2 PP1 VP">
      <pattern>
        <pattern-item n="NP"/>

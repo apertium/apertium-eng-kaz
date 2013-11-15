@@ -7,8 +7,8 @@
       <cat-item tags="np.top"/>
     </def-cat>
 
-    <def-cat n="pron">
-      <cat-item tags="prn.*"/>
+    <def-cat n="perspron">
+      <cat-item tags="prn.pers.*"/>
     </def-cat>
     <def-cat n="v">
       <cat-item tags="vaux.*"/>      
@@ -168,7 +168,7 @@
 
     <rule comment="pronoun">
     <pattern>
-       <pattern-item n="pron"/>
+       <pattern-item n="perspron"/>
     </pattern>
     <action>
       <choose><!--formality patch-->
@@ -189,7 +189,7 @@
                      <lit-tag v="ND"/>
                  </equal>
              </test>
-            <let><clip pos="1" side="sl" part="nbr"/><lit v="sg"/></let>
+            <let><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></let>
           </when>
         </choose>
   	<choose>

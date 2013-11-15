@@ -657,7 +657,7 @@
             <clip pos="3" part="ger"/>
             <clip pos="3" part="a_possessive"/> 
             <clip pos="3" part="a_neg"/>
-           <lit-tag v="acc"/>
+           <lit-tag v="accoo"/>
             <clip pos="3" part="chcontent"/>
           </chunk> 
          <b />

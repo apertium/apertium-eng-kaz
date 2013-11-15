@@ -1079,7 +1079,11 @@
            <var n="pron_lu"/>
            <concat>
           <clip pos="1" side="tl" part="lem"/> 
-              <clip pos="1" side="tl" part="a_pron"/>
+          <clip pos="1" side="tl" part="a_pron"/>
+               <lit-tag v="2"/> <!-- for number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive -->
+               <lit-tag v="5"/> <!-- for case -->
            </concat>  
         </let>
 </def-macro>
@@ -1815,8 +1819,8 @@
 </rule>
 -->
 
-
-<rule comment="NEW RULE: verb + verb-ing ">  <!-- I like playing, I liked playing-->
+<!--
+<rule comment="NEW RULE: verb + verb-ing ">  
   <pattern> 
     <pattern-item n="pers-verb"/>
     <pattern-item n="verb-ing"/>  
@@ -1835,17 +1839,16 @@
       <chunk name="verb1">  
       <tags>
         <tag><lit-tag v="VP1_verb"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="ND"/></tag> 
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="a_tense"/></tag>
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="NXD"/></tag> 
       </tags>
             <b pos="1"/>
    	<lu>
          <clip pos="1" side="tl" part="lem"/>
 	 <clip pos="1" side="tl" part="a_kaz_verb"/>
- 	<!--<lit-tag v="vaux"/>  -->
  	<lit-tag v="6"/>
 	<lit-tag v="aor"/>
 	<lit-tag v="3"/>
@@ -1854,12 +1857,12 @@
          </chunk>
 <chunk name="verb_ger">  
       <tags>
-        <tag><lit-tag v="VP2_Ger"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="a_tense"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+       <tag><lit-tag v="VP2_Ger"/></tag>
+        <tag><lit-tag v="ND"/></tag> 
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="a_tense"/></tag>
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="NXD"/></tag> 
         <tag><lit-tag v="CD"/></tag>
       </tags>
             <b pos="1"/>
@@ -1887,17 +1890,17 @@
         <chunk name="verb1">  
       <tags>
         <tag><lit-tag v="VP1_verb"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="ND"/></tag> 
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="a_tense"/></tag>
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="NXD"/></tag> 
       </tags>
             <b pos="1"/>
    	<lu>
          <clip pos="1" side="tl" part="lem"/>
 	 <clip pos="1" side="tl" part="a_kaz_verb"/>
- 	<!--<lit-tag v="vaux"/>  -->
+ 	
  	<lit-tag v="6"/>
 	<lit-tag v="ifi"/>
 	<lit-tag v="3"/>
@@ -1907,11 +1910,11 @@
 <chunk name="verb_ger">  
       <tags>
         <tag><lit-tag v="VP2_Ger"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="a_tense"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="ND"/></tag> 
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="a_tense"/></tag>
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="NXD"/></tag> 
         <tag><lit-tag v="CD"/></tag>
       </tags>
             <b pos="1"/>
@@ -1936,7 +1939,7 @@
       </action>
 </rule>
 
-
+-->
 
 <rule comment="NEW RULE: verb"> 
   <pattern>
@@ -2019,7 +2022,7 @@
         </lu>
         <b/> 
 	<lu>
-          <lit v="жат"/>  
+          <lit v="жатыр"/>  
  	<lit-tag v="vaux"/>
  	<lit-tag v="6"/>
 	 <lit-tag v="4"/>
@@ -3312,7 +3315,7 @@
         </lu>
         <b/> 
         <lu>
-          <lit v="жат"/>
+          <lit v="жатыр"/>
           <lit-tag v="vaux"/>
           <lit-tag v="4"/>
 	<lit-tag v="3"/>
@@ -5385,6 +5388,10 @@ this would have to be changed -->
     <chunk name="pron">
     <tags>
     <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+    <tag><lit-tag v="p3"/></tag>
+    <tag><lit-tag v="PXD"/></tag>
+    <tag><lit-tag v="CD"/></tag>
     </tags>
     <lu>
       <var n="pron_lu"/>

@@ -2007,7 +2007,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>our<s n="det"/><s n="pos"/><s n="sp"/></l><r>біз<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="gen"/></r></p></e>
 
 <!-- MLF 20120710 Demonstrative determiners -->
-   <!--<e><p><l>this<s n="prn"/><s n="tn"/><s n="mf"/></l><r>бұл<s n="prn"/><s n="dem"/><s n="nom"/></r></p></e>-->
+   <e><p><l>this<s n="prn"/><s n="tn"/><s n="mf"/></l><r>бұл<s n="prn"/><s n="dem"/><s n="nom"/></r></p></e>
     <e><p><l>that<s n="det"/><s n="dem"/></l><r>анау<s n="det"/><s n="dem"/></r></p></e>
 
 
@@ -2030,7 +2030,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e r="RL"><p><l></l><r>ал<s n="vaux"/></r></p></e>
 <e r="RL"><p><l></l><r>емес<s n="vaux"/></r></p></e>
-    <e r="RL"><p><l></l><r>жат<s n="vaux"/></r></p></e>
+    <e r="RL"><p><l></l><r>жатыр<s n="vaux"/></r></p></e>
   <e r="RL"><p><l></l><r>керек<s n="n"/></r></p></e>
 <e r="RL"><p><l></l><r>жатқан<b/>жоқ<s n="vaux"/></r></p></e>
     <e r="RL"><p><l></l><r>жүр<s n="vaux"/></r></p></e>

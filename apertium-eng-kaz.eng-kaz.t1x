@@ -931,7 +931,7 @@
 <out>
       <chunk name="pers-verb">
       <tags>
-        <tag><lit-tag v="VP_psmod"/></tag>
+        <tag><lit-tag v="VP_psmod"/></tag> 
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><var n="tense"/></tag>  <!-- tense/conditionality -->

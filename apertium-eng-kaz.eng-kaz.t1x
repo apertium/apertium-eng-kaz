@@ -251,9 +251,11 @@
   <def-attr n="a_pron"> 
       <attr-item tags="prn"/>
       <attr-item tags="prn.neg"/>
+ <attr-item tags="prn.ind"/>
    <attr-item tags="prn.dem.*"/>
  <attr-item tags="prn.dem"/>
- <attr-item tags="prn.dem.*"/>    
+ <attr-item tags="prn.dem.*"/> 
+ <attr-item tags="prn.*"/>   
 </def-attr>
     <def-attr n="a_kaz_perspron"> 
       <attr-item tags="prn.pers"/>
@@ -341,7 +343,7 @@
     <def-list n="negative_pron"> <!-- Verbs that can take verb-ing as object -->
       <list-item v="nothing"/>
       <list-item v="nobody"/>
-      <list-item v="anything"/>
+        <list-item v="anything"/>
     
     </def-list>
   </section-def-lists>

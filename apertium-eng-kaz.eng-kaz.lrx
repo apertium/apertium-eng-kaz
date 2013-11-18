@@ -20,5 +20,13 @@
     <match lemma="residence" tags="n.*"><select lemma="резиденция" tags="n.*"/></match>
   </rule>
 
+ <rule> 
+    <match lemma="anything" tags="pron.*"><select lemma="еш нәрсені" tags="pron.*"/></match>    
+    <match lemma="not" tags="adv"/>
+    <match lemma="*" tags="vblex.*"/>
+
+   
+  </rule>
+
 
 </rules>

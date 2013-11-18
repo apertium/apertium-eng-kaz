@@ -601,6 +601,7 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
+           <b pos="2"/>
            <chunk>
             <clip pos="3" part="lem"/>
             <lit-tag v="NP"/>
@@ -647,6 +648,7 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
+ <b pos="2"/>
            <chunk>
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
@@ -805,6 +807,7 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
  <b pos="1"/>
+ <b pos="2"/>
 <chunk>
             <clip pos="3" part="lem"/>
             <lit-tag v="NP"/>
@@ -851,6 +854,7 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
  <b pos="1"/>
+ <b pos="2"/>
 <chunk>
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
@@ -916,6 +920,7 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
+          <b pos="2"/>
         <chunk>
             <clip pos="3" part="lem"/>
             <lit-tag v="NP"/>
@@ -1513,6 +1518,7 @@
           </chunk>
           <b pos="1"/>
           <b pos="2"/>
+          <b pos="3"/>
 
             <chunk>
             <clip pos="3" part="lem"/>  
@@ -1575,7 +1581,8 @@
           </chunk>
           <b pos="1"/>
           <b pos="2"/>
-
+          <b pos="3"/>
+          <b pos="4"/>
             <chunk>
             <clip pos="3" part="lem"/>  
             <lit-tag v="NP_obj"/>
@@ -1729,7 +1736,7 @@
           </chunk>
           <b pos="1"/>
           <b pos="2"/>
-          
+          <b pos="3"/>
        <chunk>
             <clip pos="4" part="lem"/>
             <clip pos="4" part="tags"/>
@@ -1761,6 +1768,7 @@
      </action>
     </rule>
 
+
 <rule comment="NEW RULE: NP VP NP_pron_neg ; agree person and number NP VP, set for VP negative because of negative pronouns">
   
      <pattern>
@@ -1788,6 +1796,37 @@
           </chunk> 
           <b/>
           <chunk>
+            <clip pos="2" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+           <lit-tag v="neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
+    
+
+<rule comment="NEW RULE: NP_pron_neg VP">
+  <!-- set for VP negative because of negative pronouns-->
+     <pattern>
+       <pattern-item n="NP_neg"/>
+       <pattern-item n="VP"/>
+       
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+      
+                    <chunk>
             <clip pos="2" part="lem"/>  
             <lit-tag v="VP"/>
             <clip pos="1" part="a_nbr"/> <!-- agree number -->
@@ -1862,6 +1901,7 @@
           </chunk>
           <b pos="1"/>
           <b pos="2"/>
+          <b pos="3"/>
           <chunk>
             <clip pos="4" part="lem"/>
             <clip pos="4" part="tags"/>
@@ -1918,7 +1958,8 @@
           </chunk>
           <b pos="1"/>
           <b pos="2"/>
-
+          <b pos="3"/>
+          <b pos="4"/>
         <chunk>
          <clip pos="5" part="lem"/>
             <clip pos="5" part="a_phrase"/>
@@ -2008,6 +2049,8 @@
      <action>
       <out>
           <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/>
           <chunk>
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
@@ -2067,6 +2110,7 @@
           </chunk>
           <b pos="1"/>
           <b pos="2"/>
+          <b pos="3"/>
         
           <chunk>
             <clip pos="4" part="lem"/>

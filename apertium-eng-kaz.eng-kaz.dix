@@ -31,6 +31,7 @@
     <sdef n="ij"  c="Interjection"/>
     <sdef n="sint"  c="nice nicer nicest"/>
     <sdef n="top"  c=""/>
+    <sdef n="cnjsub"  c=""/>
     <sdef n="cop"  c=""/>
     <sdef n="postadv"  c=""/>
     <sdef n="qst"  c=""/>
@@ -102,6 +103,7 @@
  <e r="LR"><p><l>some<s n="det"/><s n="qnt"/></l><r></r></p></e>   
 <!-- <e r="LR"><p><l>no<s n="det"/><s n="ind"/></l><r></r></p></e>-->
    
+ <e r="LR"><p><l>that<s n="cnjsub"/></l><r></r></p></e>
 
     <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="det"/><s n="qnt"/></r></p></e>
@@ -2184,7 +2186,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>complete<s n="vblex"/></l><r>біт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>die<s n="vblex"/></l><r>өл<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>forget<s n="vblex"/></l><r>ұмыт<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>fly<s n="vblex"/></l><r>ұш<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>fly<s n="vblex"/></l><r>ұш<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>insrease<s n="vblex"/></l><r>өс<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>appear<s n="vblex"/></l><r>көрін<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>disappear<s n="vblex"/></l><r>жоғал<s n="v"/><s n="iv"/></r></p></e>

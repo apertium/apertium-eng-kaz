@@ -89,6 +89,8 @@ REMOVE N IF (0 N OR V-FIN) (1 ("<to>"i)) (2 Inf);
 
 SELECT V-FIN + $$PERSON IF (-1 Subj + $$PERSON);
 
+SELECT CS IF (-1 V)(1 N OR PRN-SUBJ);
+
 SELECT Inf IF (-1* V-DO BARRIER SENT) (NOT 1 Det);
 
 REMOVE Inf IF (NOT 0 ("will"i) ) (1C ADV-NOT) (2 Inf);

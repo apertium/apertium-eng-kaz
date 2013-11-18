@@ -14,6 +14,12 @@
 
     </def-cat>
 
+<def-cat n="NP_obj">
+      <cat-item tags="NP"/>
+      <cat-item tags="NP.*"/>
+    </def-cat>
+
+
 <def-cat n="NP1">
       <cat-item tags="NP"/>
       <cat-item tags="NP.*"/>
@@ -26,6 +32,11 @@
 
     </def-cat>
     <def-cat n="VP">
+      <cat-item tags="VP"/>
+      <cat-item tags="VP.*"/>
+ </def-cat>
+
+  <def-cat n="VP2">
       <cat-item tags="VP"/>
       <cat-item tags="VP.*"/>
  </def-cat>
@@ -159,6 +170,7 @@
       <attr-item tags="past"/>      
       <attr-item tags="pres"/>
       <attr-item tags="gna_cond"/>
+      <attr-item tags="ger_impf"/>
       <attr-item tags="fut"/>
       <attr-item tags="TD"/>  <!-- For the future? -->
     </def-attr>
@@ -1478,6 +1490,139 @@
       </out>
      </action>
     </rule>
+
+
+<rule comment="NEW RULE: NP1 VP NP_obj VP2 ; agree person and number NP VP, set NP accusative">
+    <!-- propagates person and number from NP to VP -->
+     <pattern>
+       <pattern-item n="NP1"/>
+       
+       <pattern-item n="VP"/>
+       <pattern-item n="NP_obj"/>
+       <pattern-item n="VP2"/>
+     </pattern>
+     <action>
+ <call-macro n="build-possessive">
+        <with-param pos="3"/> 
+     </call-macro>
+      <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+
+            <chunk>
+            <clip pos="3" part="lem"/>  
+            <lit-tag v="NP_obj"/>
+            <clip pos="3" part="a_nbr"/> <!-- agree number -->
+            <clip pos="3" part="a_pers"/> <!-- agree person -->
+              <lit-tag v="gen"/>
+          
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+
+              <b/>
+       
+          <chunk>
+            <clip pos="4" part="lem"/>  
+            <lit-tag v="VP2"/>
+            <clip pos="4" part="a_nbr"/> <!-- agree number -->
+            <clip pos="4" part="a_pers"/> <!-- agree person -->
+            <lit-tag v="ger_past"/>
+            <var n="possessive"/> 
+            <clip pos="4" part="a_neg"/> 
+              <lit-tag v="acc"/>            
+            <clip pos="4" part="chcontent"/>
+      
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
+
+<rule comment="NEW RULE: NP1 VP NP_obj VP2 NP_acc ; agree person and number NP VP, set NP_acc accusative">
+    <!-- He said that he wrote a book-->
+     <pattern>
+       <pattern-item n="NP1"/>
+       
+       <pattern-item n="VP"/>
+       <pattern-item n="NP_obj"/>
+       <pattern-item n="VP2"/>
+ <pattern-item n="NP"/>
+     </pattern>
+     <action>
+ <call-macro n="build-possessive">
+        <with-param pos="3"/> 
+     </call-macro>
+      <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+
+            <chunk>
+            <clip pos="3" part="lem"/>  
+            <lit-tag v="NP_obj"/>
+            <clip pos="3" part="a_nbr"/> <!-- agree number -->
+            <clip pos="3" part="a_pers"/> <!-- agree person -->
+              <lit-tag v="gen"/>
+          
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+
+              <b/>
+         <chunk>
+            <clip pos="5" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="5" part="a_nbr"/> <!-- agree number -->
+            <clip pos="5" part="a_pers"/> <!-- agree person -->
+              <clip pos="5" part="a_cas"/>
+         <clip pos="5" part="chcontent"/>
+          </chunk>
+       <b/>
+          <chunk>
+            <clip pos="4" part="lem"/>  
+            <lit-tag v="VP2"/>
+            <clip pos="4" part="a_nbr"/> <!-- agree number -->
+            <clip pos="4" part="a_pers"/> <!-- agree person -->
+            <lit-tag v="ger_past"/>
+            <var n="possessive"/> 
+            <clip pos="4" part="a_neg"/> 
+              <lit-tag v="acc"/>            
+            <clip pos="4" part="chcontent"/>
+      
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
+
 
 
 <rule comment="NEW RULE: NP VP_need">

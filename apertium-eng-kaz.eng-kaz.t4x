@@ -97,6 +97,12 @@
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
     </def-attr>
+
+    <def-attr n="tense">
+      <attr-item tags="ger_impf"/>
+      <attr-item tags="ger_past"/>
+     
+    </def-attr>
        
   </section-def-attrs>
  
@@ -121,6 +127,17 @@
           <when>
             <test><equal><clip pos="1" side="sl" part="poss"/><lit-tag v="px2sg"/></equal></test>  <!-- if we generate no formality, add it -->
             <let><clip pos="1" side="sl" part="poss"/><lit-tag v="px2sg.frm"/></let>
+          </when>
+        </choose>
+     <choose>
+          <when>
+            <test>
+                 <equal>
+                     <clip pos="1" side="sl" part="tense"/><lit-tag v="ger_past"/>
+                  </equal>
+             </test>
+            <let><clip pos="1" side="sl" part="nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
           </when>
         </choose>
         <choose>
@@ -158,6 +175,7 @@
             <let><clip pos="1" side="sl" part="case"/><lit-tag v="nom"/></let>
           </when>
         </choose>
+
         <out>
           <lu>
             <clip pos="1" side="sl" part="whole"/>
@@ -209,6 +227,12 @@
         <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal></test>
+            <let><clip pos="1" side="sl" part="case"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
+ <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part=""/><lit-tag v="CD"/></equal></test>
             <let><clip pos="1" side="sl" part="case"/><lit-tag v="nom"/></let>
           </when>
         </choose>

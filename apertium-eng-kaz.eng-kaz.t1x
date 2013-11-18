@@ -917,6 +917,62 @@
 
 
 
+<def-macro n="NEW-verb-report" npar="1">  
+<choose>
+<when>
+<test>
+   <in caseless="yes">
+      <clip pos="1" side="sl" part="lem"/>
+      <list n="pseudo_modal_verbs"/>
+   </in>
+</test>
+<out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP_psmod"/></tag> 
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="6"/>
+          <lit-tag v="4"/>
+
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+        </lu>
+      </chunk>
+</out>
+</when>
+
+<otherwise>
+<out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP2"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="6"/>
+          <lit-tag v="4"/>
+           <lit-tag v="5"/>
+        
+        </lu>
+      </chunk>
+        </out>
+</otherwise>
+</choose>
+</def-macro>
 
 
 <def-macro n="NEW-gen-simple-verb" npar="1">  
@@ -943,6 +999,7 @@
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
           <lit-tag v="6"/>
           <lit-tag v="4"/>
+
           <lit-tag v="3"/>
           <lit-tag v="2"/>
         </lu>
@@ -959,15 +1016,18 @@
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
         <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="NXD"/></tag>
+ <tag><lit-tag v="CD"/></tag> <!-- negative -->
       </tags>
         <lu>
           <clip pos="1" side="tl" part="lem"/>
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
           <lit-tag v="6"/>
           <lit-tag v="4"/>
+          <lit-tag v="5"/>
           <lit-tag v="3"/>
           <lit-tag v="2"/>
+          <lit-tag v="7"/>
         </lu>
       </chunk>
         </out>
@@ -2024,8 +2084,52 @@
   </out>
  </action>
 </rule>
+<!--
+<rule comment="NEW RULE: verb2 in reported speech"> 
+  <pattern>
+    <pattern-item n="pers-verb"/>
+  </pattern>
+  <action>
+     <call-macro n="default-nbr-pers"/>
+    <choose>
 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="ger_impf"/></let>
+      <call-macro n="NEW-verb-report">
+         <with-param pos="1"/> 
+     </call-macro>
 
+      </when>
+
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="ger_past"/></let>
+      <call-macro n="NEW-verb-report">
+         <with-param pos="1"/> 
+     </call-macro>
+      </when>
+
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+      <call-macro n="NEW-gen-simple-verb">
+         <with-param pos="1"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
+  </action>
+</rule>
+-->
 
 <rule comment="NEW RULE: verb"> 
   <pattern>
@@ -5396,10 +5500,6 @@ this would have to be changed -->
     </lu>
   </chunk>
   </out>
-<!--
-  <let><var n="verb-pers"/><clip pos="1" side="sl" part="a_pers"/></let>
-  <let><var n="verb-nbr"/><var n="number"/></let>
--->
  </action>
 </rule>
  

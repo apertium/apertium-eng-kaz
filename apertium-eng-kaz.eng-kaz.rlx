@@ -73,9 +73,11 @@ SELECT Inf IF (0 ("<will>")) (1 ADV-NOT);
 
 SELECT V IF (1 Ger);
 
-REMOVE V IF (-1 A) (-2 Det);
+REMOVE V-FIN IF (-1 A) (-2 Det); 
 
-REMOVE V IF (-1 Det);
+REMOVE V-FIN IF (-1 Det);
+
+REMOVE Ger IF (-1 V-FIN) (NOT -1 Cop) (1 N); #MLF not sure about this rule here    
 
 REMOVE A IF (-1 Det) (0 N OR A) (1 ("<is>")) (2 A);
 
@@ -151,7 +153,7 @@ SELECT A IF (0 Det OR A) (-1 Det) (1 N);
 
 REMOVE Ger IF (-1 Det OR A);
 
-SELECT Ger IF (-1 Cop);
+SELECT Ger IF (-1 Cop);  # Would not work with "We are sleeping beauties", but it is hard... 
 
 SELECT PPRS IF (-1 Det OR A) (1 N);
 

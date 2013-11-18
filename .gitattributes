@@ -25,6 +25,7 @@ dev/Correct_tests.html -text
 dev/apertium-eng-kaz.kaz.lexc.orig -text
 dev/article-for-comp-proc-turk-lang.fodt -text
 dev/bidix-entries-nouns-from-gloss.txt -text
+dev/eng.hitparade.10000.txt -text
 dev/lexcdiff.py -text
 dev/news.en -text
 dev/text-to-recycle-for-article.rtf -text

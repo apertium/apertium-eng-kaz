@@ -3672,18 +3672,7 @@
 
     </pardef>
 
-   <pardef n="Almaty__np">
-
-                            <e i="">
-      <p>
-        <l/>
-        <r><s n="np"/><s n="top"/></r>
-      </p>
-    </e>
-
-
-    </pardef>
-
+   
     <pardef n="Mars__np">
 
                             <e i="">
@@ -18442,7 +18431,7 @@
 
                             <e lm="Júlia" i=""><i>Júlia</i><par n="Mary__np"/></e>
 
-                            <e lm="Kazakhstan" i=""><i>Kazakhstan</i><par n="Almaty__np"/></e>
+                            <e lm="Kazakhstan" i=""><i>Kazakhstan</i><par n="Barcelona__np"/></e>
 
                             <e lm="Kurdistan" i=""><i>Kurdistan</i><par n="Barcelona__np"/></e>
 
@@ -37763,6 +37752,8 @@
 
                             <e lm="Alicia" i=""><i>Alicia</i><par n="Mary__np"/></e>
 
+                            <e lm="Almaty" i=""><i>Almaty</i><par n="Barcelona__np"/></e> 
+
                             <e lm="America" i=""><i>America</i><par n="Barcelona__np"/></e>
 
                             <e lm="Amsterdam" i=""><i>Amsterdam</i><par n="Barcelona__np"/></e>
@@ -37786,6 +37777,8 @@
                             <e lm="Antonio" i=""><i>Antonio</i><par n="Mark__np"/></e>
 
                             <e lm="Apertium" i=""><i>Apertium</i><par n="Linux__np"/></e>
+
+<e lm="Astana" i=""><i>Astana</i><par n="Barcelona__np"/></e>
 
                             <e lm="China National Petroleum Corporation" i=""><i>China<b/>National<b/>Petroleum<b/>Corporation</i><par n="Linux__np"/></e>
 
@@ -61914,7 +61907,7 @@
 
                             <e lm="Júlia" i=""><i>Júlia</i><par n="Mary__np"/></e>
 
-                            <e lm="Kazakhstan" i=""><i>Kazakhstan</i><par n="Almaty__np"/></e>
+                            <e lm="Kazakhstan" i=""><i>Kazakhstan</i><par n="Barcelona__np"/></e>
 
                             <e lm="Kurdistan" i=""><i>Kurdistan</i><par n="Barcelona__np"/></e>
 
@@ -77859,8 +77852,7 @@
 
                             <e lm="OSCE" i=""><i>OSCE</i><par n="Linux__np"/></e>
 
-                            <e lm="Astana" i=""><i>Astana</i><par n="Almaty__np"/></e>
-                            <e lm="Almaty" i=""><i>Almaty</i><par n="Almaty__np"/></e> 
+                            
 
                             <e lm="General Headquarters" i=""><i>General<b/>Headquarters</i><par n="United_Nations__np"/></e>
 

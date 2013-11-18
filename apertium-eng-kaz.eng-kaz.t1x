@@ -254,6 +254,7 @@
  <attr-item tags="prn.ind"/>
    <attr-item tags="prn.dem.*"/>
  <attr-item tags="prn.dem"/>
+ <attr-item tags="prn.itg"/>
 <attr-item tags="prn.qnt"/>
  <attr-item tags="prn.dem.*"/> 
  <attr-item tags="prn.*"/>   

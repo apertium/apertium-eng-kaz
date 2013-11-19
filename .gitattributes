@@ -22,6 +22,7 @@
 /configure.ac -text
 /correct-tests.sh -text
 dev/Correct_tests.html -text
+dev/apertium-eng-kaz.kaz-eng.t1x -text
 dev/apertium-eng-kaz.kaz.lexc.orig -text
 dev/article-for-comp-proc-turk-lang.fodt -text
 dev/bidix-entries-nouns-from-gloss.txt -text

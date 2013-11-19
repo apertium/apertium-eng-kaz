@@ -51,7 +51,7 @@
     <def-cat n="adj">
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
-     
+      <cat-item tags="n.attr"/>
     </def-cat>
     <def-cat n="loc-attr">
       <cat-item tags="n.px3sp.loc.attr"/>
@@ -65,10 +65,6 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.ant.*"/>
-    </def-cat>
- <def-cat n="subj-pron">
-      <cat-item tags="prn.*"/>
-      
     </def-cat>
     <def-cat n="cop-fin">
       <cat-item tags="cop.ifi.*"/>
@@ -86,10 +82,11 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
-    <def-attr n="a_adjec">
+    <def-attr n="a_adj">
       <attr-item tags="adj"/>
       <attr-item tags="adj.sint"/>
-    
+      <attr-item tags="n.attr"/>
+      <attr-item tags="n"/>
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
@@ -126,23 +123,15 @@
       <attr-item tags="p2"/>
       <attr-item tags="p3"/>
     </def-attr>
-<def-attr n="a_eng_perspron">
-       <attr-item tags="prn.subj"/>
-    </def-attr>
+
 
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="sntype"/>
     <def-var n="current_verb"/>
-   <def-var n="adjec_lu"/>
-<def-var n="noun_lu"/>
- <def-var n="formality"/> 
- <def-var n="case"/>
   </section-def-vars>
   <section-def-macros>
-
-
     <def-macro n="reset-vars1" npar="1">
           <let><var n="sntype"/><lit v=""/></let>
           <let><var n="number"/><lit v=""/></let>
@@ -250,46 +239,15 @@
           </choose>
     </def-macro>
 
-<def-macro n="build-adjec-lu" npar="1"> 
-     <let>
-           <var n="adjec_lu"/>
-           <concat>
-             <clip pos="1" side="tl" part="lem"/> 
-               <clip pos="1" side="tl" part="a_adjec"/>
-           </concat>  
-        </let>
-</def-macro>
-
-<def-macro n="build-noun-lu-2-4-5" npar="1"> 
-     <let>
-           <var n="noun_lu"/>
-           <concat>
-               <clip pos="1" side="tl" part="lem"/> 
-               <clip pos="1" side="tl" part="a_nom"/>
-               <lit-tag v="2"/> <!-- for number -->
-               <!-- no need to link person -->
-               <lit-tag v="4"/> <!-- for possessive -->
-               <lit-tag v="5"/> <!-- for case -->
-           </concat>  
-        </let>
-</def-macro>
-
-
- <def-macro n="initialize_case_to_nominative" npar="0">
-          <let>
-            <var n="case"/>
-            <lit-tag v="nom"/>
-          </let>
-    </def-macro>
   </section-def-macros>
   <section-rules>
 
-  <rule comment="RULE: ADJ">
+  <rule comment="REGLA: ADJ">
       <pattern>
         <pattern-item n="adj"/>
       </pattern>
       <action>
-        <!--<let><var n="number"/><lit v=""/></let>
+        <let><var n="number"/><lit v=""/></let>
         <choose>
  
           <when>
@@ -301,15 +259,15 @@
                <with-param pos="1"/>
              </call-macro>
           </when> 
-        </choose>-->
+        </choose>
         <out>
-          <chunk name="adj" case="caseFirstWord">
+          <chunk name="j" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="AdjP"/></tag>
+              <tag><lit-tag v="ATTR"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
-              <var n="adjec_lu"/>
+              <var n="number"/>
             </lu>
           </chunk>
         </out>
@@ -351,7 +309,7 @@
       </action>
     </rule>
 
-  <rule comment="RULE: NOM">
+  <rule comment="REGLA: NOM">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -363,7 +321,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <chunk name="nom" case="caseFirstWord">
+          <chunk name="n" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
             </tags>
@@ -379,8 +337,7 @@
       </action>
     </rule>
 
- 
-  <rule comment="REGLA: ADJ NOM-GEN LOC-ATTR"> 
+  <rule comment="REGLA: ADJ NOM-GEN LOC-ATTR">
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="nom-gen"/>
@@ -394,7 +351,7 @@
           <with-param pos="2"/>
         </call-macro>
         <out>
-          <chunk name="adj-nomgen-locattr" case="caseFirstWord">
+          <chunk name="j-n-x" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
               <tag><lit-tag v="ATTR"/></tag>
@@ -550,7 +507,7 @@
 
 
 
-  <rule comment="RULE: ADJ NOM">
+  <rule comment="REGLA: ADJ NOM">
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="nom"/>
@@ -563,7 +520,7 @@
           <with-param pos="2"/>
         </call-macro>
         <out>
-          <chunk name="adj-nom" case="caseFirstWord">
+          <chunk name="j-n" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
             </tags>
@@ -973,66 +930,6 @@
         </out>
       </action>
     </rule>
-
-<rule comment="RULE: subj-pron">
-  <pattern>
-    <pattern-item n="subj-pron"/>
-  </pattern>
-  <action>
-  <choose>
-    <when>
-      <test>
-       <equal>
-         <clip pos="1" side="sl" part="a_nbr"/>
-         <lit-tag v="sp"/>
-       </equal>
-      </test>
-       <let><var n="number"/><lit-tag v="sg"/></let> <!-- choosing singular in the absence of information -->
-    </when>
-       <otherwise>
-         <let>
-           <var n="number"/><clip pos="1" side="sl" part="a_nbr"/>
-         </let>
-       </otherwise>
-  </choose>
-  <choose>
-    <when>
-     <test>  
-       <equal>
-          <clip pos="1" side="sl" part="a_pers"/>
-          <lit-tag v="p2"/>
-       </equal>
-     </test>
-     <let><var n="formality"/><lit-tag v="frm"/></let>
-    </when>
-     <otherwise>
-     <let><var n="formality"/><lit v="FD"/></let>
-     </otherwise>
-  </choose>
-  <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
-  <out>
-   <chunk name="subj-pron">
-    <tags>
-    <tag><lit-tag v="NP"/></tag>
-    
-    <tag><var n="number"/></tag>
-    <tag><clip pos="1" side="sl" part="a_pers"/></tag> <!-- Formality 2nd will be set in .t4x -->
-    <tag><lit-tag v="PXD"/></tag>
-    <tag><lit-tag v="CD"/></tag>
-     
-    </tags>
-    <lu>
-      <clip pos="1" side="tl" part="lem"/>
-      <clip pos="1" side="tl" part="a_eng_perspron"/>
-      <clip pos="1" side="sl" part="a_pers"/>
-      <lit-tag v="2"/> <!-- number -->
-      <lit-tag v="4"/> <!-- possession -->
-      <lit-tag v="5"/> <!-- case -->
-    </lu>
-  </chunk>
-  </out>
- </action>
-</rule>
 
     <rule comment="REGLA: SENT">
       <pattern>

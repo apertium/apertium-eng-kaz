@@ -296,7 +296,7 @@
     <pardef n="separa">
 
                             <e i="">
-      <re>[.\?;:!"]+</re>
+      <re>[.\?;:!"]</re>
       <p>
         <l/>
         <r><s n="sent"/></r>
@@ -16206,9 +16206,11 @@
 
                             <e lm="physically" i=""><i>physically</i><par n="maybe__adv"/></e>
 
-                            <!--<e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>
+                            <!--<e lm="please" i=""><i>please</i><par n="maybe__adv"/></e> -->
 
-                            <e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>-->
+                            <e lm="please" i=""><i>please</i><par n="maybe__adv"/></e>
+
+                            <e lm="please" i=""><i>please</i><par n="hello__ij"/></e>
 
                             <e lm="point-blank" i=""><i>point-blank</i><par n="maybe__adv"/></e>
 
@@ -77417,7 +77419,7 @@
 
                             <e lm="subpara." i=""><i>subpara.</i><par n="east__n"/></e>
 
-                            <e lm="no." i=""><i>no.</i><par n="east__n"/></e>
+<!--                            <e lm="no." i=""><i>no.</i><par n="east__n"/></e> -->
 
 
                             <e lm="Soraya Rodríguez Ramos" i=""><i>Soraya<b/>Rodríguez<b/>Ramos</i><par n="Mary__np"/></e>
@@ -77458,7 +77460,7 @@
 
                             <e lm="Universidad Complutense" i=""><i>Universidad<b/>Complutense</i><par n="Linux__np"/></e>
 
-                            <e lm="Miguel Monroe" i=""><i>Miguel<b/>Hernández</i><par n="Mark__np"/></e>
+                            <e lm="Miguel Hernández" i=""><i>Miguel<b/>Hernández</i><par n="Mark__np"/></e>
 
                             <e lm="Instituto Cervantes" i=""><i>Instituto<b/>Cervantes</i><par n="Linux__np"/></e>
 

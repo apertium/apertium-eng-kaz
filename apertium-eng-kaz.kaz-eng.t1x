@@ -66,7 +66,7 @@
       <cat-item tags="n.*"/>
       <cat-item tags="np.ant.*"/>
     </def-cat>
- <def-cat n="subj-pron">
+ <def-cat n="pers-pron">
       <cat-item tags="prn.*"/>
       
     </def-cat>
@@ -129,6 +129,11 @@
 <def-attr n="a_eng_perspron">
        <attr-item tags="prn.subj"/>
     </def-attr>
+<def-attr n="a_mf">
+      <attr-item tags="mf"/>
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+    </def-attr>
 
   </section-def-attrs>
   <section-def-vars>
@@ -139,6 +144,7 @@
 <def-var n="noun_lu"/>
  <def-var n="formality"/> 
  <def-var n="case"/>
+ <def-var n="mf"/>
   </section-def-vars>
   <section-def-macros>
 
@@ -250,6 +256,9 @@
           </choose>
     </def-macro>
 
+
+
+
 <def-macro n="build-adjec-lu" npar="1"> 
      <let>
            <var n="adjec_lu"/>
@@ -260,19 +269,7 @@
         </let>
 </def-macro>
 
-<def-macro n="build-noun-lu-2-4-5" npar="1"> 
-     <let>
-           <var n="noun_lu"/>
-           <concat>
-               <clip pos="1" side="tl" part="lem"/> 
-               <clip pos="1" side="tl" part="a_nom"/>
-               <lit-tag v="2"/> <!-- for number -->
-               <!-- no need to link person -->
-               <lit-tag v="4"/> <!-- for possessive -->
-               <lit-tag v="5"/> <!-- for case -->
-           </concat>  
-        </let>
-</def-macro>
+
 
 
  <def-macro n="initialize_case_to_nominative" npar="0">
@@ -280,6 +277,47 @@
             <var n="case"/>
             <lit-tag v="nom"/>
           </let>
+    </def-macro>
+
+
+ <def-macro n="conv-to-subj" npar="1">
+      <choose>
+            <when>
+               <test>
+                 <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+</test>
+               <let><var n="sntype"/><lit-tag v="prn.subj"/></let>
+            </when>
+<when>
+               <test>
+                 <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+</test>
+               <let><var n="sntype"/><lit-tag v="prn.subj"/></let>
+            </when>
+<when>
+               <test>
+                 <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+</test>
+               <let><var n="sntype"/><lit-tag v="prn.subj"/></let>
+            </when>
+      </choose>
+    </def-macro>
+
+<def-macro n="conv-mfpron" npar="1">
+      <choose>
+            <when>
+               <test>
+                 <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+               </test>
+               <let><var n="mf"/><lit-tag v="mf"/></let>
+            </when> 
+<when>
+               <test>
+                 <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+               </test>
+               <let><var n="mf"/><lit-tag v="mf"/></let>
+            </when> 
+      </choose>
     </def-macro>
   </section-def-macros>
   <section-rules>
@@ -974,20 +1012,20 @@
       </action>
     </rule>
 
-<rule comment="RULE: subj-pron">
+<rule comment="RULE: pers-pron">
   <pattern>
-    <pattern-item n="subj-pron"/>
+    <pattern-item n="pers-pron"/>
   </pattern>
   <action>
   <choose>
     <when>
       <test>
        <equal>
-         <clip pos="1" side="sl" part="a_nbr"/>
-         <lit-tag v="sp"/>
+         <clip pos="1" side="sl" part="a_pers"/>
+         <lit-tag v="p2"/>
        </equal>
       </test>
-       <let><var n="number"/><lit-tag v="sg"/></let> <!-- choosing singular in the absence of information -->
+       <let><var n="number"/><lit-tag v="sp"/></let> 
     </when>
        <otherwise>
          <let>
@@ -1009,25 +1047,29 @@
      <let><var n="formality"/><lit v="FD"/></let>
      </otherwise>
   </choose>
+ <call-macro n="conv-to-subj">
+          <with-param pos="1"/>
+        </call-macro>
+ <call-macro n="conv-mfpron">
+          <with-param pos="1"/>
+        </call-macro>
   <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
   <out>
    <chunk name="subj-pron">
     <tags>
     <tag><lit-tag v="NP"/></tag>
-    
+    <tag><var n="sntype"/></tag>
+    <tag><clip pos="1" side="sl" part="a_pers"/></tag>
+<tag><var n="mf"/></tag> 
     <tag><var n="number"/></tag>
-    <tag><clip pos="1" side="sl" part="a_pers"/></tag> <!-- Formality 2nd will be set in .t4x -->
-    <tag><lit-tag v="PXD"/></tag>
-    <tag><lit-tag v="CD"/></tag>
-     
     </tags>
     <lu>
-      <clip pos="1" side="tl" part="lem"/>
-      <clip pos="1" side="tl" part="a_eng_perspron"/>
-      <clip pos="1" side="sl" part="a_pers"/>
-      <lit-tag v="2"/> <!-- number -->
-      <lit-tag v="4"/> <!-- possession -->
-      <lit-tag v="5"/> <!-- case -->
+<clip pos="1" side="tl" part="lem"/>
+     <lit-tag v="2"/> 
+      <lit-tag v="3"/> 
+      <lit-tag v="4"/> 
+      <lit-tag v="5"/> 
+      <lit-tag v="6"/> 
     </lu>
   </chunk>
   </out>

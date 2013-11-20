@@ -14,6 +14,7 @@
     <def-cat n="v-ing">
       <cat-item tags="v.*.gna9"/>
       <cat-item tags="v.*.prc_impf"/>
+ <cat-item tags="v.*.prc_perf"/>
     </def-cat>
     <def-cat n="v-adv">
       <cat-item tags="v.*.gna9"/>
@@ -111,7 +112,7 @@
       <attr-item tags="aor"/>
       <attr-item tags="past"/>
       <attr-item tags="pri"/>
-
+       <attr-item tags="prc_pers"/>
       <attr-item tags="imp"/>
       <attr-item tags="inf"/>
       <attr-item tags="ger"/>
@@ -169,6 +170,8 @@
                   <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="aor"/></equal>
                </test>
                <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
+</when>
+</choose> 
                <choose>
                  <when>
                    <test>
@@ -185,9 +188,28 @@
                   <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
                 </otherwise>
               </choose>
-            </when>
-          </choose>
+
     </def-macro>
+
+
+  <def-macro n="conv-vpron" npar="1">
+
+<choose>
+                 <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      
+                  </test>
+                 <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                </when>
+                <otherwise>
+                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                </otherwise>
+              </choose>
+     </def-macro>
 
     <def-macro n="conv-number1" npar="1">
       <choose>
@@ -314,6 +336,15 @@
 <when>
                <test>
                  <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+               </test>
+               <let><var n="mf"/><lit-tag v="mf"/></let>
+            </when> 
+<when>
+               <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+<equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
                </test>
                <let><var n="mf"/><lit-tag v="mf"/></let>
             </when> 
@@ -824,43 +855,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: V-ING VAUX">
-      <pattern>
-        <pattern-item n="v-ing"/>
-        <pattern-item n="vaux"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="a_tns"/>
-          <lit-tag v="ger"/>
-        </let>
-        <call-macro n="conv-temps1">
-          <with-param pos="2"/>
-        </call-macro>
-        <out>
-          <chunk name="v" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="2" side="sl" part="a_tns"/></tag>
-              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
-              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
-            </tags>
-            <lu>
-              <lit v="be"/>
-              <lit-tag v="vbser"/>
-              <clip pos="2" side="tl" part="a_tns"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="a_tns"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
+   
 
 
     <rule comment="REGLA: V-GER-PAST">
@@ -957,7 +952,7 @@
     </rule>
 
 
-    <rule comment="REGLA: V-FIN">
+    <rule comment="RULE: V-FIN">
       <pattern>
         <pattern-item n="v-fin"/>
       </pattern>
@@ -986,6 +981,75 @@
       </action>
     </rule>
 
+   <rule comment="RULE: V-ING VAUX"> <!--for present cotinuous-->
+      <pattern>
+        <pattern-item n="v-ing"/>
+        <pattern-item n="vaux"/>
+      </pattern>
+      <action>
+        
+        <call-macro n="conv-temps1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="conv-vpron">
+          <with-param pos="2"/>
+        </call-macro>
+         <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="2" side="sl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="sl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="2" side="sl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="sl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+<choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="imp"/></equal>
+                      </test>
+                 <let><clip pos="1" side="sl" part="a_tns"/><lit v=""/></let>
+           <let><clip pos="1" side="sl" part="pres"/><lit v=""/></let>
+                </when>
+ </choose>
+        <out>
+          <chunk name="verb-pres-ing" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="sl" part="a_tns"/></tag>
+              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="3"/>
+              <lit-tag v="4"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="ger"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: V-IMP">
       <pattern>
@@ -1053,14 +1117,14 @@
  <call-macro n="conv-mfpron">
           <with-param pos="1"/>
         </call-macro>
-  <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
+ 
   <out>
    <chunk name="subj-pron">
     <tags>
-    <tag><lit-tag v="NP"/></tag>
+    <tag><lit-tag v="SN"/></tag>
     <tag><var n="sntype"/></tag>
     <tag><clip pos="1" side="sl" part="a_pers"/></tag>
-<tag><var n="mf"/></tag> 
+    <tag><var n="mf"/></tag> 
     <tag><var n="number"/></tag>
     </tags>
     <lu>

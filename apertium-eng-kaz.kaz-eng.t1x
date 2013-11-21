@@ -161,27 +161,35 @@
                <test>
                   <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="ifi"/></equal>
                </test>
-               <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="past"/></let>
-               <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-               <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-            </when> 
+               <let><clip pos="1" side="sl" part="a_tns"/><lit-tag v="past"/></let>
+              </when> 
             <when>
                <test>
                   <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="aor"/></equal>
                </test>
-               <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
-</when>
-</choose> 
+               <let><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></let>
+                </when>
+
+               <when>
+                   <test>
+                   <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="imp"/></equal>
+                      </test>
+                 <let><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></let>
+
+                </when>
+
+          </choose> 
                <choose>
                  <when>
                    <test>
                      <and>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
                        <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+
                      </and>
                   </test>
-                  <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
-                  <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
+                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
                 </when>
                 <otherwise>
                   <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
@@ -203,6 +211,19 @@
                   </test>
                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
            <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                </when>
+              </choose>
+           <choose>
+               <when>
+                   <test>
+                     <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+
+                     </and>
+                  </test>
+                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
                 </when>
                 <otherwise>
                   <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
@@ -1014,16 +1035,7 @@
            <let><clip pos="2" side="sl" part="a_pers"/><lit v=""/></let>
                 </when>
            </choose>
-<choose>
-               <when>
-                   <test>
-                   
-                       <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="imp"/></equal>
-                      </test>
-                 <let><clip pos="1" side="sl" part="a_tns"/><lit v=""/></let>
-           <let><clip pos="1" side="sl" part="pres"/><lit v=""/></let>
-                </when>
- </choose>
+
         <out>
           <chunk name="verb-pres-ing" case="caseFirstWord">
             <tags>
@@ -1035,7 +1047,7 @@
             <lu>
               <lit v="be"/>
               <lit-tag v="vbser"/>
-              <lit-tag v="pres"/>
+              <lit-tag v="2"/>
               <lit-tag v="3"/>
               <lit-tag v="4"/>
             </lu>
@@ -1137,6 +1149,9 @@
     </lu>
   </chunk>
   </out>
+<call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
  </action>
 </rule>
 

@@ -16,6 +16,9 @@
     <def-cat n="vaux-will"> <!-- future -->
       <cat-item lemma="will" tags="vaux.inf"/>
     </def-cat>
+<def-cat n="vaux-would"> <!-- future -->
+      <cat-item lemma="would" tags="vaux.past"/>
+    </def-cat>
 <def-cat n="vaux-must"> <!-- must -->
       <cat-item lemma="must" tags="vaux.*"/>
     </def-cat>
@@ -1686,8 +1689,7 @@
 <lu>
          <lit v="е"/>
         <lit-tag v="cop"/>
-        
-         <lit-tag v="3"/>
+        <lit-tag v="3"/>
          <lit-tag v="2"/>
        </lu>
       </chunk>
@@ -2507,6 +2509,44 @@
     <call-macro n="NEW-gen-simple-verb">
          <with-param pos="2"/> 
     </call-macro>   
+  </action>
+</rule>
+
+
+<rule comment="NEW RULE: would + verb"> <!-- will verb -->
+<!-- superblank management needs to be corrected -->
+  <pattern>
+    <pattern-item n="vaux-would"/>
+    <pattern-item n="approx-inf-verb"/> 
+   </pattern>
+  <action>
+       <out>
+      <chunk name="pers-verb">  
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="gpr_impf"/>
+    	
+        </lu>
+        <b/> 
+	<lu>
+            <lit v="е"/>
+        <lit-tag v="cop"/>
+          <lit-tag v="4"/>
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+       </chunk>
+  </out> 
   </action>
 </rule>
 

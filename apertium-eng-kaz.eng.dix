@@ -4168,6 +4168,18 @@
 
     </pardef>
 
+<pardef n="would/__vbmod">
+
+                            <e i="">
+      <p>
+        <l/>
+        <r><s n="vaux"/><s n="past"/></r>
+      </p>
+    </e>
+
+
+    </pardef>
+
     <pardef n="c/an__vbmod">
 
                             <e i="">
@@ -14866,19 +14878,19 @@
 
                             <e lm="they'd" i=""><p><l>they'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>have<s n="vbhaver"/><s n="past"/></r></p></e>
 
-                            <e lm="I'd" i=""><p><l>I'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="I'd" i=""><p><l>I'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="you'd" i=""><p><l>you'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="you'd" i=""><p><l>you'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="she'd" i=""><p><l>she'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="she'd" i=""><p><l>she'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="he'd" i=""><p><l>he'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="he'd" i=""><p><l>he'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="it'd" i=""><p><l>it'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="it'd" i=""><p><l>it'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="we'd" i=""><p><l>we'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="we'd" i=""><p><l>we'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="they'd" i=""><p><l>they'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="they'd" i=""><p><l>they'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
                             <e lm="can't" i=""><p><l>can't</l><r>can<s n="vaux"/><s n="pres"/><j/>not<s n="adv"/></r></p></e>
 
@@ -14898,7 +14910,7 @@
 
                             <e lm="weren't" i=""><p><l>weren't</l><r>be<s n="vbser"/><s n="past"/><j/>not<s n="adv"/></r></p></e>
 
-                            <e lm="wouldn't" i=""><p><l>wouldn't</l><r>would<s n="vaux"/><s n="inf"/><j/>not<s n="adv"/></r></p></e>
+                            <e lm="wouldn't" i=""><p><l>wouldn't</l><r>would<s n="vaux"/><s n="past"/><j/>not<s n="adv"/></r></p></e>
 
                             <e lm="hasn't" i=""><p><l>hasn't</l><r>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
 
@@ -14928,7 +14940,7 @@
 
                             <e lm="who's" i=""><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e lm="would've" i=""><p><l>would've</l><r>would<s n="vaux"/><s n="inf"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
+                            <e lm="would've" i=""><p><l>would've</l><r>would<s n="vaux"/><s n="past"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
 
                             <e lm="should've" i=""><p><l>should've</l><r>should<s n="vaux"/><s n="inf"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
 
@@ -55296,7 +55308,7 @@
 
                             <e lm="shall" i=""><i>shall</i><par n="will/__vbmod"/></e>
 
-                            <e lm="would" i=""><i>would</i><par n="will/__vbmod"/></e>
+                            <e lm="would" i=""><i>would</i><par n="would/__vbmod"/></e>
 
                             <e lm="must" i=""><i>must</i><par n="will/__vbmod"/></e>
 
@@ -58671,19 +58683,19 @@
 
                             <e lm="they'd" i=""><p><l>they'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>have<s n="vbhaver"/><s n="past"/></r></p></e>
 
-                            <e lm="I'd" i=""><p><l>I'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="I'd" i=""><p><l>I'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="you'd" i=""><p><l>you'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="you'd" i=""><p><l>you'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="she'd" i=""><p><l>she'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="she'd" i=""><p><l>she'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="he'd" i=""><p><l>he'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="he'd" i=""><p><l>he'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="it'd" i=""><p><l>it'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="it'd" i=""><p><l>it'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="we'd" i=""><p><l>we'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="we'd" i=""><p><l>we'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
-                            <e lm="they'd" i=""><p><l>they'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>would<s n="vaux"/><s n="inf"/></r></p></e>
+                            <e lm="they'd" i=""><p><l>they'd</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>would<s n="vaux"/><s n="past"/></r></p></e>
 
                             <e lm="can't" i=""><p><l>can't</l><r>can<s n="vaux"/><s n="pres"/><j/>not<s n="adv"/></r></p></e>
 
@@ -58703,7 +58715,7 @@
 
                             <e lm="weren't" i=""><p><l>weren't</l><r>be<s n="vbser"/><s n="past"/><j/>not<s n="adv"/></r></p></e>
 
-                            <e lm="wouldn't" i=""><p><l>wouldn't</l><r>would<s n="vaux"/><s n="inf"/><j/>not<s n="adv"/></r></p></e>
+                            <e lm="wouldn't" i=""><p><l>wouldn't</l><r>would<s n="vaux"/><s n="past"/><j/>not<s n="adv"/></r></p></e>
 
                             <e lm="hasn't" i=""><p><l>hasn't</l><r>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/><j/>not<s n="adv"/></r></p></e>
 
@@ -58733,7 +58745,7 @@
 
                             <e lm="who's" i=""><p><l>who's</l><r>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/><j/>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
 
-                            <e lm="would've" i=""><p><l>would've</l><r>would<s n="vaux"/><s n="inf"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
+                            <e lm="would've" i=""><p><l>would've</l><r>would<s n="vaux"/><s n="past"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
 
                             <e lm="should've" i=""><p><l>should've</l><r>should<s n="vaux"/><s n="inf"/><j/>have<s n="vbhaver"/><s n="pres"/></r></p></e>
 

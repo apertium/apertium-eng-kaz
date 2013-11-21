@@ -35,6 +35,7 @@ dev/unknown-words-from-news-commentary-v8-20130619.txt -text
 /eng-kaz.prob -text svneol=unset#unset
 /kaz-eng.prob -text svneol=unset#unset
 /modes.xml -text
+/new-regression-tests.sh -text
 /regression-tests.sh -text
 texts/eng.chunks.txt -text
 texts/eng.txt -text

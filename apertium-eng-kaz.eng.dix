@@ -302,6 +302,7 @@
         <r><s n="sent"/></r>
       </p>
     </e>
+    <e i=""><p><l>..</l><r>..<s n="sent"/></r></p></e> <!-- It is in the kaz dictionary! -->
 
 
     </pardef>

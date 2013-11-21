@@ -3,7 +3,9 @@
 <transfer default="chunk">
   <section-def-cats>
     <def-cat n="vaux-neg">
-      <cat-item tags="vaux.neg.*"/>
+ <cat-item tags="vaux.neg.*"/>
+      <cat-item tags="vaux.*.neg.*"/>
+      <cat-item tags="vaux.pres.neg.*"/>
     </def-cat>
     <def-cat n="vaux">
       <cat-item tags="vaux.*"/>
@@ -161,13 +163,13 @@
                <test>
                   <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="ifi"/></equal>
                </test>
-               <let><clip pos="1" side="sl" part="a_tns"/><lit-tag v="past"/></let>
+               <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="past"/></let>
               </when> 
             <when>
                <test>
                   <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="aor"/></equal>
                </test>
-               <let><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></let>
+               <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
                 </when>
 
                <when>
@@ -210,7 +212,7 @@
                       
                   </test>
                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
                 </when>
               </choose>
            <choose>
@@ -781,31 +783,59 @@
 
 
 
-    <rule comment="REGLA: V-ING VAUX-NEG">
+    <rule comment="RULE: V-ING VAUX-NEG">
       <pattern>
         <pattern-item n="v-ing"/>
         <pattern-item n="vaux-neg"/>
       </pattern>
       <action>
-        <let>
-          <clip pos="1" side="tl" part="a_tns"/>
-          <lit-tag v="inf"/>
-        </let>
-        <call-macro n="conv-temps1">
+   <call-macro n="conv-temps1">
           <with-param pos="2"/>
         </call-macro>
-        <out>
-          <chunk name="v" case="caseFirstWord">
+ <call-macro n="conv-vpron">
+          <with-param pos="2"/>
+        </call-macro>
+         <choose>
+               <when>
+                   <test>
+                   <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="2" side="sl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="sl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="2" side="sl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="2" side="sl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+          <choose>
+               <when>
+                   <test>
+                   <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="ifi"/></equal>
+                      </test>
+                 <let><clip pos="2" side="sl" part="a_tns"/><lit v="past"/></let>
+                </when>
+           </choose>
+        <out>        
+          <chunk name="verb-ing-not" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="sl" part="a_tns"/></tag>
               <tag><clip pos="2" side="sl" part="a_pers"/></tag>
               <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
             </tags>
-            <lu>
-              <lit v="do"/>
-              <lit-tag v="vbdo"/>
-              <clip pos="2" side="tl" part="a_tns"/>
+             <lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <lit-tag v="4"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -816,7 +846,7 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="a_tns"/>
+               <lit-tag v="ger"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -982,7 +1012,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <chunk name="v" case="caseFirstWord">
+          <chunk name="pres-verb" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="sl" part="a_tns"/></tag>
@@ -1037,7 +1067,7 @@
            </choose>
 
         <out>
-          <chunk name="verb-pres-ing" case="caseFirstWord">
+          <chunk name="verb-ing" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="sl" part="a_tns"/></tag>
@@ -1109,20 +1139,7 @@
          </let>
        </otherwise>
   </choose>
-  <choose>
-    <when>
-     <test>  
-       <equal>
-          <clip pos="1" side="sl" part="a_pers"/>
-          <lit-tag v="p2"/>
-       </equal>
-     </test>
-     <let><var n="formality"/><lit-tag v="frm"/></let>
-    </when>
-     <otherwise>
-     <let><var n="formality"/><lit v="FD"/></let>
-     </otherwise>
-  </choose>
+  
  <call-macro n="conv-to-subj">
           <with-param pos="1"/>
         </call-macro>

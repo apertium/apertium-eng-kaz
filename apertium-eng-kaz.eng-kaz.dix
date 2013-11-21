@@ -12,6 +12,7 @@
     <sdef n="tv"  c="Переходный"/>
     <sdef n="caus"/>
     <sdef n="mf"/>
+    <sdef n="pres"/>
  <sdef n="nt"/>
 
  <sdef n="infl"/>
@@ -2061,7 +2062,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e r="RL"><p><l></l><r>емес<s n="vaux"/></r></p></e>
     <e r="RL"><p><l></l><r>жатыр<s n="vaux"/></r></p></e>
   <e r="RL"><p><l></l><r>керек<s n="n"/></r></p></e>
-<e r="RL"><p><l></l><r>жатқан<b/>жоқ<s n="vaux"/></r></p></e>
+<e r="RL"><p><l></l><r>жатқан<b/>жоқ<s n="vaux"/><s n="pres"/><s n="neg"/></r></p></e>
     <e r="RL"><p><l></l><r>жүр<s n="vaux"/></r></p></e>
     <e r="RL"><p><l></l><r>тұр<s n="vaux"/></r></p></e>
     <e r="RL"><p><l></l><r>отыр<s n="vaux"/></r></p></e>

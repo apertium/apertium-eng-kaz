@@ -2216,6 +2216,7 @@
           <lit v="жатқан жоқ"/> <!-- This is a very strange way of doing negatives -->
  	<lit-tag v="vaux"/>
            <lit-tag v="4"/>
+ 	<lit-tag v="neg"/>
           <lit-tag v="5"/>
           <lit-tag v="3"/>
           <lit-tag v="2"/>
@@ -3513,6 +3514,7 @@
           <lit v="жатқан жоқ"/>
           <lit-tag v="vaux"/>
            <lit-tag v="4"/>
+           <lit-tag v="neg"/>
 	  <lit-tag v="3"/>
           <lit-tag v="2"/>
         </lu>

@@ -10,5 +10,5 @@ fi
 
 bash wiki-tests.sh Regression eng kaz update | grep -C $C "$GREP"
 
-#sh wiki-tests.sh Regression kaz eng update | grep -C $C "$GREP"
+bash wiki-tests.sh Regression kaz eng update | grep -C $C "$GREP"
 

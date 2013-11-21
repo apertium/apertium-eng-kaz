@@ -3,7 +3,7 @@
 <transfer default="chunk">
   <section-def-cats>
     <def-cat n="vaux-neg">
- <cat-item tags="vaux.neg.*"/>
+      <cat-item tags="vaux.neg.*"/>
       <cat-item tags="vaux.*.neg.*"/>
       <cat-item tags="vaux.pres.neg.*"/>
     </def-cat>
@@ -819,7 +819,7 @@
                    <test>
                    <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="ifi"/></equal>
                       </test>
-                 <let><clip pos="2" side="sl" part="a_tns"/><lit v="past"/></let>
+                 <let><clip pos="2" side="sl" part="a_tns"/><lit-tag v="past"/></let>
                 </when>
            </choose>
         <out>        
@@ -1032,7 +1032,7 @@
       </action>
     </rule>
 
-   <rule comment="RULE: V-ING VAUX"> <!--for present cotinuous-->
+   <rule comment="RULE: V-ING VAUX"> <!--for present and past continuous-->
       <pattern>
         <pattern-item n="v-ing"/>
         <pattern-item n="vaux"/>

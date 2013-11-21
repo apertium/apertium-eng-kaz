@@ -13,6 +13,9 @@
     <def-cat n="v-ger-past">
       <cat-item tags="v.*.ger_past.*"/>
     </def-cat>
+<def-cat n="vblex">
+      <cat-item tags="vblex.past.*"/>
+    </def-cat>
     <def-cat n="v-ing">
       <cat-item tags="v.*.gna9"/>
       <cat-item tags="v.*.prc_impf"/>
@@ -58,6 +61,9 @@
     </def-cat>
     <def-cat n="loc-attr">
       <cat-item tags="n.px3sp.loc.attr"/>
+    </def-cat>
+<def-cat n="loc-prep">
+      <cat-item tags="n.px3sp.*"/>
     </def-cat>
     <def-cat n="nom-post">
       <cat-item lemma="арт" tags="n.px3sp.*"/>
@@ -962,7 +968,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: V-NEG-FIN">
+    <rule comment="RULE: V-NEG-FIN">
       <pattern>
         <pattern-item n="v-neg-fin"/>
       </pattern>
@@ -1004,6 +1010,35 @@
 
 
     <rule comment="RULE: V-FIN">
+      <pattern>
+        <pattern-item n="v-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="pres-verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="sl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_tns"/>
+              <clip pos="1" side="tl" part="a_pers"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  <rule comment="RULE: V-Pres-Perf">
       <pattern>
         <pattern-item n="v-fin"/>
       </pattern>

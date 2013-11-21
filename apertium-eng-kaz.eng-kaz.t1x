@@ -241,8 +241,8 @@
       <attr-item tags="vblex"/>
  <attr-item tags="vaux"/>
     </def-attr>
- <def-attr n="a_cnjadv">
-       <attr-item tags="cnjadv"/>
+ <def-attr n="a_cnjsub">
+       <attr-item tags="cnjsub"/>
     </def-attr>
     <def-attr n="a_kaz_verb"> 
       <attr-item tags="v.tv"/>
@@ -1209,7 +1209,7 @@
            <var n="cnjadv_lu"/>
            <concat>
              <clip pos="1" side="tl" part="lem"/> 
-               <clip pos="1" side="tl" part="a_cnjadv"/>
+             <clip pos="1" side="tl" part="a_cnjsub"/>
            </concat>  
         </let>
 </def-macro>
@@ -2501,6 +2501,7 @@
     <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
    </pattern>
   <action>
+
         <out><b pos="1"/></out>
     <let><var n="tense"/><lit-tag v="aor"/></let>
     <call-macro n="NEW-gen-simple-verb">
@@ -5791,7 +5792,8 @@ this would have to be changed -->
     <out>
     <chunk name="if">
     <tags>
-    <tag><lit-tag v="cnjadv"/></tag>
+  <tag><lit-tag v="IF"/></tag>
+    <tag><lit-tag v="cnjsub"/></tag>
     </tags>
     <lu>
       <var n="cnjadv_lu"/>

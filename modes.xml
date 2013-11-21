@@ -436,7 +436,7 @@
       <program name="lrx-proc">
         <file name="kaz-eng.lrx.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -t -b">
         <file name="apertium-eng-kaz.kaz-eng.t1x"/>
         <file name="kaz-eng.t1x.bin"/>
       </program>

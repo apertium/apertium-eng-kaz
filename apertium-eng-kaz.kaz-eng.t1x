@@ -138,6 +138,7 @@
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
       <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
     </def-attr>
 <def-attr n="a_eng_perspron">
        <attr-item tags="prn.subj"/>
@@ -146,6 +147,10 @@
       <attr-item tags="mf"/>
       <attr-item tags="m"/>
       <attr-item tags="f"/>
+    </def-attr>
+<def-attr n="a_transitivity">
+      <attr-item tags="iv"/>
+      <attr-item tags="tv"/>
     </def-attr>
 
   </section-def-attrs>
@@ -1108,25 +1113,26 @@
 
 
 
+
 <rule comment="RULE: V-have pp"> <!--for present/past perfect-->
       <pattern>
         <pattern-item n="v-past"/>
-         </pattern>
+      </pattern>
       <action>
-          <let><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></let>
-
+         <let><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></let>
           <choose>
                <when>
                    <test>
-                        <or>
+                     <or>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                       </or>
-                      </test>
+                     </or> 
+                   </test>
                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
                 </when>
            </choose>
+
 
         <out>
           <chunk name="verb-presperf" case="caseFirstWord">

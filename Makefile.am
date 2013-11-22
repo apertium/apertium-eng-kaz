@@ -201,7 +201,7 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_eng_kazdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_eng_kazdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_eng_kazdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t4x $(DESTDIR)$(apertium_eng_kazdir)
+#	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t4x $(DESTDIR)$(apertium_eng_kazdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local: 

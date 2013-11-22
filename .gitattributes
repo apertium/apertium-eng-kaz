@@ -37,6 +37,7 @@ dev/unknown-words-from-news-commentary-v8-20130619.txt -text
 /kazakhnouns.txt -text svneol=unset#application/octet-stream
 /modes.xml -text
 /new-regression-tests.sh -text
+/newdix.txt -text
 /notnoun.txt -text
 /regression-tests.sh -text
 texts/eng.chunks.txt -text

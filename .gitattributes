@@ -34,8 +34,10 @@ dev/transfer-rehaul-notes.tex -text
 dev/unknown-words-from-news-commentary-v8-20130619.txt -text
 /eng-kaz.prob -text svneol=unset#unset
 /kaz-eng.prob -text svneol=unset#unset
+/kazakhnouns.txt -text svneol=unset#application/octet-stream
 /modes.xml -text
 /new-regression-tests.sh -text
+/notnoun.txt -text
 /regression-tests.sh -text
 texts/eng.chunks.txt -text
 texts/eng.txt -text

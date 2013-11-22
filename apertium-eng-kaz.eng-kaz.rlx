@@ -47,6 +47,8 @@ SET VAUX-CAN = ("can"i) ;
 
 SET VAUX-WILL = ("will"i) ;
 
+SET VAUX-WOULD = ("would"i) ;
+
 SET V-DO-AUX = (vbdo) ;
 
 SET ADV-NOT = ("not"i) ;
@@ -61,11 +63,13 @@ SET PERSON = 1p | 2p | 3p ;
 
 SECTION
 
-REMOVE V-FIN IF (-1C V-FIN);
+REMOVE V-FIN IF (-1C V-FIN);  # Careful: would kill "The man who _came_ _wrote_ a book"
 
 REMOVE N IF (0 ("<is>"i)) ; 
 
 REMOVE N IF (0 ("<will>"))(1 ADV-NOT);
+
+SELECT Inf if (-1 VAUX-WOULD) ;
 
 SELECT Inf IF (-2 V-FIN) (-1 ("<to>"));
 

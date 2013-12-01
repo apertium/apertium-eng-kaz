@@ -5412,7 +5412,7 @@ this would have to be changed -->
     </when>
        <otherwise>
          <let>
-           <var n="number"/><clip pos="1" side="sl" part="a_nbr"/>
+           <var n="number"/><clip pos="1" side="tl" part="a_nbr"/>
          </let>
        </otherwise>
   </choose>
@@ -5444,7 +5444,7 @@ this would have to be changed -->
     <lu>
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_kaz_perspron"/>
-      <clip pos="1" side="sl" part="a_pers"/>
+      <clip pos="1" side="tl" part="a_pers"/>
       <lit-tag v="2"/> <!-- number -->
       <lit-tag v="4"/> <!-- possession -->
       <lit-tag v="5"/> <!-- case --> 
@@ -5472,7 +5472,7 @@ this would have to be changed -->
     </when>
        <otherwise>
          <let>
-           <var n="number"/><clip pos="1" side="sl" part="a_nbr"/>
+           <var n="number"/><clip pos="1" side="tl" part="a_nbr"/>
          </let>
        </otherwise>
   </choose>
@@ -5504,7 +5504,7 @@ this would have to be changed -->
     <lu>
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_kaz_perspron"/>
-      <clip pos="1" side="sl" part="a_pers"/>
+      <clip pos="1" side="tl" part="a_pers"/>
       <lit-tag v="2"/> <!-- number -->
       <lit-tag v="4"/> <!-- possession -->
       <lit-tag v="5"/> <!-- case -->

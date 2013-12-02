@@ -71,6 +71,8 @@ REMOVE N IF (0 ("<will>"))(1 ADV-NOT);
 
 SELECT Inf if (-1 VAUX-WOULD) ;
 
+SELECT Pr if (-1 VAUX-WOULD) ;
+
 SELECT Inf IF (-2 V-FIN) (-1 ("<to>"));
 
 SELECT Inf IF (0 ("<will>")) (1 ADV-NOT);
@@ -100,6 +102,8 @@ SELECT CS IF (-1 V)(1 N OR PRN-SUBJ);
 SELECT Inf IF (-1* V-DO BARRIER SENT) (NOT 1 Det);
 
 REMOVE Inf IF (NOT 0 ("will"i) ) (1C ADV-NOT) (2 Inf);
+
+SELECT Pr IF (1 N);
 
 SELECT Pr IF (1 NUM);
 

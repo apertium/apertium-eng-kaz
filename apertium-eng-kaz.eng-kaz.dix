@@ -2002,6 +2002,115 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>wealth<s n="n"/></l><r>байлық<s n="n"/></r></p></e>
 <e><p><l>wrist<s n="n"/></l><r>білезік<s n="n"/></r></p></e>
 <e><p><l>writer<s n="n"/></l><r>автор<s n="n"/></r></p></e>
+
+<!--100 new nouns-->
+<e><p><l>diamond<s n="n"/></l><r>алмас<s n="n"/></r></p></e>
+<e><p><l>monopolist<s n="n"/></l><r>алпауыт<s n="n"/></r></p></e>
+<e><p><l>distance<s n="n"/></l><r>алшақтық<s n="n"/></r></p></e>
+<e><p><l>aftermath<s n="n"/></l><r>алшын<s n="n"/></r></p></e>
+<e><p><l>tribute<s n="n"/></l><r>алым<s n="n"/></r></p></e>
+<e><p><l>requisitions<s n="n"/></l><r>алым%-салық<s n="n"/></r></p></e>
+<e><p><l>profiteer<s n="n"/></l><r>алыпсатар<s n="n"/></r></p></e>
+<e><p><l>method<s n="n"/></l><r>амал<s n="n"/></r></p></e>
+<e><p><l>hopelessness<s n="n"/></l><r>амалсыздық<s n="n"/></r></p></e>
+<e><p><l>illusionist<s n="n"/></l><r>амалшы<s n="n"/></r></p></e>
+<e><p><l>savings<s n="n"/></l><r>аманат<s n="n"/></r></p></e>
+<e><p><l>method<s n="n"/></l><r>амал<s n="n"/></r></p></e>
+<e><p><l>native<b/>language<s n="n"/></l><r>ана тілі<s n="n"/></r></p></e>
+<e><p><l>reference<s n="n"/></l><r>анықтама<s n="n"/></r></p></e>
+<e><p><l>certificate<s n="n"/></l><r>анықтама<s n="n"/></r></p></e>
+<e><p><l>clearness<s n="n"/></l><r>анықтық<s n="n"/></r></p></e>
+<e><p><l>consideration<s n="n"/></l><r>аңғарым<s n="n"/></r></p></e>
+<e><p><l>quick%-wittedness<s n="n"/></l><r>аңғарымпаздық<s n="n"/></r></p></e>
+<e><p><l>hastiness<s n="n"/></l><r>аңғырттық<s n="n"/></r></p></e>
+<e><p><l>annotation<s n="n"/></l><r>аңдатпа<s n="n"/></r></p></e>
+<e><p><l>perjurer<s n="n"/></l><r>антбұзар<s n="n"/></r></p></e>
+<e><p><l>naivete<s n="n"/></l><r>аңқаулық<s n="n"/></r></p></e>
+<e><p><l>hunter<s n="n"/></l><r>аңшы<s n="n"/></r></p></e>
+<e><p><l>hunting<s n="n"/></l><r>аңшылық<s n="n"/></r></p></e>
+<e><p><l>legend<s n="n"/></l><r>аңыз<s n="n"/></r></p></e>
+<e><p><l>abbey<s n="n"/></l><r>аббаттық<s n="n"/></r></p></e>
+<e><p><l>abdication<s n="n"/></l><r>бас<b/>тартушылық<s n="n"/></r></p></e>
+<e><p><l>abhorance<s n="n"/></l><r>жақтырмаушылық<s n="n"/></r></p></e>
+<e><p><l>ability<s n="n"/></l><r>қабілет<s n="n"/></r></p></e>
+<e><p><l>ablaze<b/>coal<s n="n"/></l><r>шоқ<s n="n"/></r></p></e>
+<e><p><l>annotation<s n="n"/></l><r>аңдатпа<s n="n"/></r></p></e>
+<e><p><l>abode<s n="n"/></l><r>мекен<s n="n"/></r></p></e>
+<e><p><l>aboriginal<s n="n"/></l><r>байырғы<s n="n"/></r></p></e>
+<e><p><l>adage<s n="n"/></l><r>афоризм<s n="n"/></r></p></e>
+<e><p><l>adequacy<s n="n"/></l><r>өлшемдестік<s n="n"/></r></p></e>
+<e><p><l>adherent<s n="n"/></l><r>қолдаушы<s n="n"/></r></p></e>
+<e><p><l>admirer<s n="n"/></l><r>қадірлеуші<s n="n"/></r></p></e>
+<e><p><l>adornment<s n="n"/></l><r>әшекей<s n="n"/></r></p></e>
+<e><p><l>adroitness<s n="n"/></l><r>ептілік<s n="n"/></r></p></e>
+<e><p><l>adventure<s n="n"/></l><r>оқиға<s n="n"/></r></p></e>
+<e><p><l>adverb<s n="n"/></l><r>үстеу<s n="n"/></r></p></e>
+<e><p><l>adviser<s n="n"/></l><r>кеңесші<s n="n"/></r></p></e>
+<e><p><l>advocacy<s n="n"/></l><r>насихат<s n="n"/></r></p></e>
+<e><p><l>annotation<s n="n"/></l><r>аңдатпа<s n="n"/></r></p></e>
+<e><p><l>aerology<s n="n"/></l><r>әуетаным<s n="n"/></r></p></e>
+<e><p><l>aerometer<s n="n"/></l><r>ауа<b/>өлшегіш<s n="n"/></r></p></e>
+<e><p><l>aeroplane<s n="n"/></l><r>ұшақ<s n="n"/></r></p></e>
+<e><p><l>agitation<s n="n"/></l><r>үгіт<s n="n"/></r></p></e>
+<e><p><l>agitator<s n="n"/></l><r>үгіттеуші<s n="n"/></r></p></e>
+<e><p><l>agriculture<s n="n"/></l><r>ауыл<b/>шаруашылық<s n="n"/></r></p></e>
+<e><p><l>alga<s n="n"/></l><r>теңіз<b/>балдыры<s n="n"/></r></p></e>
+<e><p><l>algebra<s n="n"/></l><r>алгебра<s n="n"/></r></p></e>
+<e><p><l>alibi<s n="n"/></l><r>дәлел<s n="n"/></r></p></e>
+<e><p><l>alien<s n="n"/></l><r>шетел<b/>адамы<s n="n"/></r></p></e>
+<e><p><l>alliance<s n="n"/></l><r>одақ<s n="n"/></r></p></e>
+<e><p><l>alloy<s n="n"/></l><r>қорытпа<s n="n"/></r></p></e>
+<e><p><l>almond<s n="n"/></l><r>бадам<s n="n"/></r></p></e>
+<e><p><l>aloofness<s n="n"/></l><r>немқұрайлылық<s n="n"/></r></p></e>
+<e><p><l>alp<s n="n"/></l><r>шың<s n="n"/></r></p></e>
+<e><p><l>alphabet<s n="n"/></l><r>әліпби<s n="n"/></r></p></e>
+<e><p><l>alpinist<s n="n"/></l><r>альпинист<s n="n"/></r></p></e>
+<e><p><l>amber<s n="n"/></l><r>янтарь<s n="n"/></r></p></e>
+<e><p><l>annotation<s n="n"/></l><r>аңдатпа<s n="n"/></r></p></e>
+<e><p><l>amity<s n="n"/></l><r>достық<s n="n"/></r></p></e>
+<e><p><l>anaesthetization<s n="n"/></l><r>наркоз<s n="n"/></r></p></e>
+<e><p><l>anagram<s n="n"/></l><r>сөзтізбек<s n="n"/></r></p></e>
+<e><p><l>anger<s n="n"/></l><r>ыза<s n="n"/></r></p></e>
+<e><p><l>animus<s n="n"/></l><r>өшпенділік<s n="n"/></r></p></e>
+<e><p><l>anniversary<s n="n"/></l><r>мүшелтой<s n="n"/></r></p></e>
+<e><p><l>ant<s n="n"/></l><r>құмырсқа<s n="n"/></r></p></e>
+<e><p><l>anthem<s n="n"/></l><r>әнұран<s n="n"/></r></p></e>
+<e><p><l>apartment<s n="n"/></l><r>бөлме<s n="n"/></r></p></e>
+<e><p><l>apology<s n="n"/></l><r>кешірім<s n="n"/></r></p></e>
+<e><p><l>apostrophe<s n="n"/></l><r>апостроф<s n="n"/></r></p></e>
+<e><p><l>appellant<s n="n"/></l><r>арыз<b/>беруші<s n="n"/></r></p></e>
+<e><p><l>applause<s n="n"/></l><r>қол<b/>шапалақ<s n="n"/></r></p></e>
+<e><p><l>application<s n="n"/></l><r>өтініш<s n="n"/></r></p></e>
+<e><p><l>apricot<s n="n"/></l><r>өрік<s n="n"/></r></p></e>
+<e><p><l>apron<s n="n"/></l><r>алжапқыш<s n="n"/></r></p></e>
+<e><p><l>arena<s n="n"/></l><r>арена<s n="n"/></r></p></e>
+<e><p><l>arm<s n="n"/></l><r>қол<s n="n"/></r></p></e>
+<e><p><l>arm<s n="n"/></l><r>білек<s n="n"/></r></p></e>
+<e><p><l>art<s n="n"/></l><r>өнер<s n="n"/></r></p></e>
+<e><p><l>article<s n="n"/></l><r>мақала<s n="n"/></r></p></e>
+<e><p><l>artilleryman<s n="n"/></l><r>зеңбірекші<s n="n"/></r></p></e>
+<e><p><l>ash%-tray<s n="n"/></l><r>күлсауыт<s n="n"/></r></p></e>
+<e><p><l>asp<s n="n"/></l><r>көктерек<s n="n"/></r></p></e>
+<e><p><l>asphalt<s n="n"/></l><r>асфальт<s n="n"/></r></p></e>
+<e><p><l>aspiring<s n="n"/></l><r>талапкер<s n="n"/></r></p></e>
+<e><p><l>assembly<s n="n"/></l><r>құрылтай<s n="n"/></r></p></e>
+<e><p><l>assistant<s n="n"/></l><r>көмекші<s n="n"/></r></p></e>
+<e><p><l>astronaut<s n="n"/></l><r>ғарышкер<s n="n"/></r></p></e>
+<e><p><l>astronomy<s n="n"/></l><r>астрономия<s n="n"/></r></p></e>
+<e><p><l>atheism<s n="n"/></l><r>атеизм<s n="n"/></r></p></e>
+<e><p><l>athlete<s n="n"/></l><r>атлет<s n="n"/></r></p></e>
+<e><p><l>attestation<s n="n"/></l><r>куәлік<s n="n"/></r></p></e>
+<e><p><l>attic<s n="n"/></l><r>шатыр<s n="n"/></r></p></e>
+<e><p><l>attitude<s n="n"/></l><r>арақатынас<s n="n"/></r></p></e>
+<e><p><l>audacity<s n="n"/></l><r>ерлік<s n="n"/></r></p></e>
+<e><p><l>aul<s n="n"/></l><r>ауыл<s n="n"/></r></p></e>
+<e><p><l>austerity<s n="n"/></l><r>қаталдық<s n="n"/></r></p></e>
+
+
+
+
+
+
 <!--ProPER NOUNS -->
 
 

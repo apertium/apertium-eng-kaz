@@ -1716,6 +1716,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 
 <!--new words-->
+
+ <e><p><l>relevance<s n="n"/></l><r>қатынас<s n="n"/></r></p></e>
  <e><p><l>carelessness<s n="n"/></l><r>абайсыздық<s n="n"/></r></p></e>
 <e><p><l>nobleness<s n="n"/></l><r>абзалдық<s n="n"/></r></p></e>
 <e><p><l>subscription<s n="n"/></l><r>абонемент<s n="n"/></r></p></e>

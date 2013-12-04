@@ -1516,6 +1516,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>pen<s n="n"/></l><r>ручка<s n="n"/></r></p></e>
     <e><p><l>people<s n="n"/></l><r>ұлт<s n="n"/></r></p></e>
     <e><p><l>pepper<s n="n"/></l><r>бұрыш<s n="n"/></r></p></e>
+    <e><p><l>cold<s n="n"/></l><r>сыз<s n="n"/></r></p></e>
     <e><p><l>period<s n="n"/></l><r>мерзім<s n="n"/></r></p></e>
     <e><p><l>Persian<s n="n"/></l><r>парсы<s n="n"/></r></p></e>
     <e><p><l>person<s n="n"/></l><r>кісі<s n="n"/></r></p></e>

@@ -163,7 +163,10 @@
     <def-cat n="prep">
       <cat-item tags="pr"/>
      </def-cat>
- 
+  <def-cat n="rel">
+      <cat-item tags="rel"/>
+ <cat-item tags="rel.*"/>
+     </def-cat>
 
     <def-cat n="obj-pron">
        <cat-item tags="prn.obj.*"/>
@@ -1228,6 +1231,8 @@
            </concat>  
         </let>
 </def-macro>
+
+
 
 <def-macro n="build-possessive-from-possessive-determiner" npar="1">
 
@@ -5893,6 +5898,25 @@ this would have to be changed -->
     </tags>
     <lu>
       <var n="cnjadv_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: Rel which">  
+  <pattern>
+    <pattern-item n="rel"/>
+  </pattern>
+  <action>
+ 
+    <out>
+    <chunk name="rel">
+    <tags>
+  <tag><lit-tag v="Rel"/></tag>
+    </tags>
+    <lu>
+ <clip pos="1" side="tl" part="whole"/>
      </lu>
     </chunk>
     </out>

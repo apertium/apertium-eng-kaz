@@ -201,7 +201,7 @@
     </def-cat>
 
     <def-cat n="adv">
-      <cat-item tags="adv.*"/>
+ <cat-item tags="adv.*"/>
       <cat-item tags="adv"/>
     </def-cat>
 
@@ -5608,7 +5608,29 @@ this would have to be changed -->
 -->
 
 
-
+<rule comment="NEW RULE:adv adj">    <!--very large-->
+  <pattern>
+ <pattern-item n="preadv"/>
+    <pattern-item n="adjec"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="adv">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag>
+    </tags>
+	<b pos="1"/>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+     </lu>
+	<b/>
+    <lu>
+      <clip pos="2" side="tl" part="whole"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
  
     <rule comment="REGLA: SENT">
@@ -5753,6 +5775,8 @@ this would have to be changed -->
 </rule>
 
 
+
+
 <rule comment="NEW RULE: adjec">  
   <pattern>
     <pattern-item n="non-sup-adjec"/>
@@ -5797,6 +5821,8 @@ this would have to be changed -->
 </rule>
 
 
+
+
 <rule comment="NEW RULE: adv">  
   <pattern>
     <pattern-item n="adv"/>
@@ -5815,6 +5841,23 @@ this would have to be changed -->
   </action>
 </rule>
 
+<rule comment="NEW RULE: preadv">  
+  <pattern>
+    <pattern-item n="preadv"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="preadv">
+    <tags>
+    <tag><lit-tag v="AdvP"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 
 <rule comment="NEW RULE: num">  

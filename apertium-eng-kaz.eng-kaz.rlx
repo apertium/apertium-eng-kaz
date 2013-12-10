@@ -69,7 +69,7 @@ REMOVE N IF (0 ("<is>"i)) ;
 
 REMOVE N IF (0 ("<will>"))(1 ADV-NOT);
 
-SELECT Rel if (0 Rel) ;
+SELECT Rel if (-1 N) ;
 
 SELECT Inf if (-1 VAUX-WOULD) ;
 

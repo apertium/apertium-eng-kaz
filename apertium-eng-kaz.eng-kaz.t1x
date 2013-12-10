@@ -5613,29 +5613,7 @@ this would have to be changed -->
 -->
 
 
-<rule comment="NEW RULE:adv adj">    <!--very large-->
-  <pattern>
- <pattern-item n="preadv"/>
-    <pattern-item n="adjec"/>
-  </pattern>
-  <action>
-    <out>
-    <chunk name="adv">
-    <tags>
-    <tag><lit-tag v="AdjP"/></tag>
-    </tags>
-	<b pos="1"/>
-    <lu>
-      <clip pos="1" side="tl" part="whole"/>
-     </lu>
-	<b/>
-    <lu>
-      <clip pos="2" side="tl" part="whole"/>
-     </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
+
 
  
     <rule comment="REGLA: SENT">
@@ -5917,6 +5895,30 @@ this would have to be changed -->
     </tags>
     <lu>
  <clip pos="1" side="tl" part="whole"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="NEW RULE:adv adj">    <!--very large-->
+  <pattern>
+ <pattern-item n="preadv"/>
+    <pattern-item n="adjec"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="adv">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag>
+    </tags>
+	<b pos="1"/>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+     </lu>
+	<b/>
+    <lu>
+      <clip pos="2" side="tl" part="whole"/>
      </lu>
     </chunk>
     </out>

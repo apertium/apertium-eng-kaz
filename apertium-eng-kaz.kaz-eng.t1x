@@ -389,6 +389,15 @@
                </test>
                <let><var n="mf"/><lit-tag v="mf"/></let>
             </when> 
+<when>
+               <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+<equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+</and>
+               </test>
+               <let><var n="mf"/><lit-tag v="m"/></let>
+            </when> 
       </choose>
     </def-macro>
   </section-def-macros>
@@ -1113,8 +1122,8 @@
       </action>
     </rule>
 
-<!--
-<rule comment="RULE: V-have not pp"> for negative present/past perfect
+
+<rule comment="RULE: V-have not pp"> <!--for negative present/past perfect-->
       <pattern>
         <pattern-item n="v-past-neg"/>
       </pattern>
@@ -1126,6 +1135,8 @@
                      <or>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+
                      </or> 
                    </test>
                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
@@ -1150,7 +1161,13 @@
               <lit-tag v="4"/>
             </lu>
             <b/>
+ <lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>
+                         </lu> 
+<b/>
             <lu>
+
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <lit-tag v="pp"/>
@@ -1165,7 +1182,6 @@
 
 
 
--->
 
 
 <rule comment="RULE: V-have pp"> <!--for present/past perfect-->
@@ -1180,6 +1196,7 @@
                      <or>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
                      </or> 
                    </test>
                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
@@ -1255,6 +1272,7 @@
       </test>
        <let><var n="number"/><lit-tag v="sp"/></let> 
     </when>
+
        <otherwise>
          <let>
            <var n="number"/><clip pos="1" side="sl" part="a_nbr"/>

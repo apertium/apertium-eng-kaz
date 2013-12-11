@@ -980,8 +980,8 @@
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
         <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
-        <tag><lit-tag v="NXD"/></tag>
- <tag><lit-tag v="CD"/></tag> <!-- negative -->
+        <tag><lit-tag v="NXD"/></tag><!-- negative -->
+        <tag><lit-tag v="CD"/></tag> 
       </tags>
         <lu>
           <clip pos="1" side="tl" part="lem"/>
@@ -1008,14 +1008,17 @@
         <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
         <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
         <tag><lit-tag v="neg"/></tag> <!-- negative -->
-      </tags>
+        <tag><lit-tag v="CD"/></tag>       
+</tags>
         <lu>
           <clip pos="1" side="tl" part="lem"/>
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
           <lit-tag v="6"/>
           <lit-tag v="4"/>
+          <lit-tag v="5"/>
           <lit-tag v="3"/>
           <lit-tag v="2"/>
+          <lit-tag v="7"/>
         </lu>
       </chunk>
         </out>

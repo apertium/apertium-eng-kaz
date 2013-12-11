@@ -13,7 +13,9 @@
     <def-cat n="v-ger-past">
       <cat-item tags="v.*.ger_past.*"/>
     </def-cat>
-
+<def-cat n="v-past-neg">
+      <cat-item tags="v.*.neg.past.*"/>
+    </def-cat>
  <def-cat n="v-past">
       <cat-item tags="v.*.past.*"/>
     </def-cat>
@@ -1111,15 +1113,13 @@
       </action>
     </rule>
 
-
-
-
-<rule comment="RULE: V-have pp"> <!--for present/past perfect-->
+<!--
+<rule comment="RULE: V-have not pp"> for negative present/past perfect
       <pattern>
-        <pattern-item n="v-past"/>
+        <pattern-item n="v-past-neg"/>
       </pattern>
       <action>
-         <let><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></let>
+         <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
           <choose>
                <when>
                    <test>
@@ -1128,8 +1128,8 @@
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
                      </or> 
                    </test>
-                 <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
-                 <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
            </choose>
 
@@ -1138,9 +1138,63 @@
           <chunk name="verb-presperf" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="sl" part="a_tns"/></tag>
-              <tag><clip pos="1" side="sl" part="a_pers"/></tag>
-              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="have"/>
+              <lit-tag v="vbhaver"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <lit-tag v="4"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="pp"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+
+
+-->
+
+
+<rule comment="RULE: V-have pp"> <!--for present/past perfect-->
+      <pattern>
+        <pattern-item n="v-past"/>
+      </pattern>
+      <action>
+         <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
+          <choose>
+               <when>
+                   <test>
+                     <or>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                     </or> 
+                   </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+
+
+        <out>
+          <chunk name="verb-presperf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
             </tags>
             <lu>
               <lit v="have"/>

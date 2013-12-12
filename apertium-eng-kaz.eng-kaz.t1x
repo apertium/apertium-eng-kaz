@@ -315,6 +315,7 @@
     <def-var n="current_verb"/>
     <def-var n="plural"/>
     <def-var n="case"/>
+  <def-var n="caseFirstWord"/>
     <def-var n="tense"/>
     <def-var n="verb-pers"/> <!-- State variable -->
     <def-var n="verb-nbr"/> <!-- State variable -->
@@ -676,6 +677,36 @@
     </def-macro>
 
 -->
+
+<def-macro n="change-case" npar="1"> <!-- change case to lower for p1 sg "I" -->
+<choose>
+  <when>
+       <test>
+         <equal>
+           
+           <clip pos="1" side="sl" part="a_pers"/>
+            <lit-tag v="p1"/>
+          
+           </equal>
+          </test>
+       <modify-case>
+        <clip pos="1" side="tl" part="lem"/>
+          <lit v="aa"/>
+        </modify-case>
+             <let>
+		<var n="caseFirstWord"/>
+		<lit v="aa"/>
+	      </let>
+       </when>
+  <otherwise> 
+	      <let>
+		<var n="caseFirstWord"/>
+		<lit v="aa"/>
+	      </let>
+	    </otherwise>
+</choose>
+
+</def-macro>
 
   <def-macro n="choose_case_and_postposition2" npar="2">  
     <let><var n="pptag"/><lit-tag v="PP"/></let> <!-- for most of them -->
@@ -5481,6 +5512,9 @@ this would have to be changed -->
     <pattern-item n="subj-pron"/>
   </pattern>
   <action>
+<call-macro n="change-case">  <!-- change case  "I"-->
+<with-param pos="1"/>
+  </call-macro> 
   <choose>
     <when>
       <test>
@@ -5513,7 +5547,7 @@ this would have to be changed -->
   </choose>
   <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
   <out>
-   <chunk name="subj-pron">
+   <chunk name="subj-pron" case="caseFirstWord">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><var n="number"/></tag>

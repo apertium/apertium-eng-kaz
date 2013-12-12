@@ -827,8 +827,8 @@
                    <test>
                    <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
                       </test>
-                 <let><clip pos="2" side="sl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="2" side="sl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
 <when>
                    <test>
@@ -837,8 +837,8 @@
                        <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
                      </and>
                       </test>
-                 <let><clip pos="2" side="sl" part="a_nbr"/><lit v=""/></let>
-                 <let><clip pos="2" side="sl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
            </choose>
           <choose>
@@ -846,16 +846,16 @@
                    <test>
                    <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="ifi"/></equal>
                       </test>
-                 <let><clip pos="2" side="sl" part="a_tns"/><lit-tag v="past"/></let>
+                 <let><clip pos="2" side="tl" part="a_tns"/><lit-tag v="past"/></let>
                 </when>
            </choose>
         <out>        
           <chunk name="verb-ing-not" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="2" side="sl" part="a_tns"/></tag>
-              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
-              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="2" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
             </tags>
              <lu>
               <lit v="be"/>
@@ -904,9 +904,9 @@
           <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="3" side="sl" part="a_tns"/></tag>
-              <tag><clip pos="3" side="sl" part="a_pers"/></tag>
-              <tag><clip pos="3" side="sl" part="a_nbr"/></tag>
+              <tag><clip pos="3" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="3" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="3" side="tl" part="a_nbr"/></tag>
             </tags>
             <lu>
               <lit v="be"/>
@@ -1001,9 +1001,9 @@
           <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="sl" part="a_tns"/></tag>
-              <tag><clip pos="1" side="sl" part="a_pers"/></tag>
-              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
             </tags>
             <lu>
               <lit v="do"/>
@@ -1042,9 +1042,9 @@
           <chunk name="pres-verb" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="sl" part="a_tns"/></tag>
-              <tag><clip pos="1" side="sl" part="a_pers"/></tag>
-              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -1080,8 +1080,8 @@
                    
                        <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
                       </test>
-                 <let><clip pos="2" side="sl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="2" side="sl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
 <when>
                    <test>
@@ -1090,8 +1090,8 @@
                        <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
                      </and>
                       </test>
-                 <let><clip pos="2" side="sl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="2" side="sl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
            </choose>
 
@@ -1099,9 +1099,9 @@
           <chunk name="verb-ing" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="2" side="sl" part="a_tns"/></tag>
-              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
-              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="2" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
             </tags>
             <lu>
               <lit v="be"/>

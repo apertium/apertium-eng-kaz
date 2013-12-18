@@ -2099,10 +2099,10 @@
        <tag><lit-tag v="VPQ"/></tag>
    </tags>
  <lu>
+ <lit v="ма"/>
+  <lit-tag v="qst"/>
          
-         <lit v="ба"/>
-         
-        </lu>
+       </lu>
     
       </chunk>
 </out> 

@@ -1885,7 +1885,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>cent<s n="n"/></l><r>цент<s n="n"/></r></p></e>
 <e><p><l>cherry<s n="n"/></l><r>шие<s n="n"/></r></p></e>
 <e><p><l>cobweb<s n="n"/></l><r>өрмек<s n="n"/></r></p></e>
-<e><p><l>coil<s n="n"/></l><r>coil<s n="n"/></r></p></e>
+<e><p><l>coil<s n="n"/></l><r>шығыршық<s n="n"/></r></p></e>
 <e><p><l>dinner<s n="n"/></l><r>кешкі<b/>ас<s n="n"/></r></p></e>
 <e><p><l>eggnog<s n="n"/></l><r>сусын<s n="n"/></r></p></e>
 <e><p><l>fireman<s n="n"/></l><r>өрт<b/>сөндіруші<s n="n"/></r></p></e>

@@ -185,15 +185,6 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
-    <def-cat n="possessive">
- <!-- check if complete -->
-      <cat-item tags="PXD"/> <!-- to be determined -->
-      <cat-item tags="px3sp"/>
-      <cat-item tags="px1sg"/>
-      <cat-item tags="px2sg"/>
-      <cat-item tags="px1pl"/>
-      <cat-item tags="px2pl"/>
-    </def-cat>
  <def-cat n="cnjadv">
        <cat-item tags="cnjadv"/>
     </def-cat>
@@ -294,6 +285,7 @@
       <attr-item tags="px1pl"/>
       <attr-item tags="px2pl"/>
     </def-attr>
+
     <def-attr n="a_postposition"> <!-- Kazakh postposition indicators -->
       <attr-item tags="n"/> 
       <attr-item tags="post"/>
@@ -313,6 +305,7 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="current_verb"/>
+    <def-var n="possessive"/>
     <def-var n="plural"/>
     <def-var n="case"/>
   <def-var n="caseFirstWord"/>

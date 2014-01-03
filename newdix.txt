@@ -1,29 +1,82 @@
-<e><p><l>base<s n="n"/></l><r>негіз<s n="n"/></r></p></e>
-<e><p><l>back<s n="n"/></l><r>қолда-<s n="n"/></r></p></e>
-<e><p><l>bad<s n="n"/></l><r>кері<s n="n"/></r></p></e>
-<e><p><l>bank<s n="n"/></l><r>банк<s n="n"/></r></p></e>
-<e><p><l>bear<s n="n"/></l><r>тасы-<s n="n"/></r></p></e>
-<e><p><l>bed<s n="n"/></l><r>кереует<s n="n"/></r></p></e>
-<e><p><l>begin<s n="n"/></l><r>бастал-<s n="n"/></r></p></e>
-<e><p><l>besides<s n="n"/></l><r>басқа<s n="n"/></r></p></e>
-<e><p><l>best<s n="n"/></l><r>абзалы<s n="n"/></r></p></e>
-<e><p><l>birth<s n="n"/></l><r>туғыз-<s n="n"/></r></p></e>
-<e><p><l>bite<s n="n"/></l><r>тала-<s n="n"/></r></p></e>
-<e><p><l>bite<s n="n"/></l><r>тала-<s n="n"/></r></p></e>
-<e><p><l>black<s n="n"/></l><r>қара<s n="n"/></r></p></e>
-<e><p><l>block<s n="n"/></l><r>block<s n="n"/></r></p></e>
-<e><p><l>blow<s n="n"/></l><r>соқ-<s n="n"/></r></p></e>
-<e><p><l>board<s n="n"/></l><r>басқарма<s n="n"/></r></p></e>
-<e><p><l>book<s n="n"/></l><r>кітап<s n="n"/></r></p></e>
-<e><p><l>born<s n="n"/></l><r>ту-<s n="n"/></r></p></e>
-<e><p><l>borrow<s n="n"/></l><r>қарызға<s n="n"/></r></p></e>
-<e><p><l>bottom<s n="n"/></l><r>ас<s n="n"/></r></p></e>
-<e><p><l>box<s n="n"/></l><r>қорап<s n="n"/></r></p></e>
-<e><p><l>brave<s n="n"/></l><r>ер<s n="n"/></r></p></e>
-<e><p><l>breathe<s n="n"/></l><r>дем<s n="n"/></r></p></e>
-<e><p><l>bring<s n="n"/></l><r>әкел-<s n="n"/></r></p></e>
-<e><p><l>brush<s n="n"/></l><r>brush<s n="n"/></r></p></e>
-<e><p><l>burn<s n="n"/></l><r>жан-<s n="n"/></r></p></e>
-<e><p><l>business<s n="n"/></l><r>бизнес<s n="n"/></r></p></e>
-<e><p><l>busy<s n="n"/></l><r>busy<s n="n"/></r></p></e>
-<e><p><l>by<s n="n"/></l><r>жақын<s n="n"/></r></p></e>
+<e><p><l>babble<s n="vblex"/></l><r>былдырла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>back<s n="vblex"/></l><r>шегін<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>bake<s n="vblex"/></l><r>пісір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>balance<s n="vblex"/></l><r>теңестір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>balk<s n="vblex"/></l><r>кедергі<b/>қой<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>ban<s n="vblex"/></l><r>тыйым<b/>сал<s n="v"/><s n="tv"/></r></p></e>
+
+<e><p><l>bang<s n="vblex"/></l><r>ұр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bandage<s n="vblex"/></l><r>дәке<b/>сал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bar<s n="vblex"/></l><r>тыйым<b/>сал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bare<s n="vblex"/></l><r>шеш<s n="v"/><s n="tv"/></r></p></e>
+
+<e><p><l>bargain<s n="vblex"/></l><r>саудалас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>bark<s n="vblex"/></l><r>үр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>barrage<s n="vblex"/></l><r>кедергі<b/>қой<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>barter<s n="vblex"/></l><r>алмас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>baste<s n="vblex"/></l><r>соқ<s n="v"/><s n="tv"/></r></p></e>
+
+<e><p><l>bat<s n="vblex"/></l><r>таяқпен<b/>ұр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bathe<s n="vblex"/></l><r>шомыл<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>battle<s n="vblex"/></l><r>соғыс<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bawl<s n="vblex"/></l><r>айқайла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>beam<s n="vblex"/></l><r>жарқыра<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>bear<s n="vblex"/></l><r>тас<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>beat<s n="vblex"/></l><r>соқ<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>become<s n="vblex"/></l><r>бол<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>befriend<s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>beg<s n="vblex"/></l><r>өтін<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>begin<s n="vblex"/></l><r>бастал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>behave<s n="vblex"/></l><r>жүргіз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>believe<s n="vblex"/></l><r>сен<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bellow<s n="vblex"/></l><r>өкір<s n="v"/><s n="iv"/></r></p></e>
+
+<e><p><l>belong<s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bend<s n="vblex"/></l><r>бүк<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>berate<s n="vblex"/></l><r>балағатта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>besiege<s n="vblex"/></l><r>қамал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bestow<s n="vblex"/></l><r>орналастыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bet<s n="vblex"/></l><r>тік<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bid<s n="vblex"/></l><r>ұсын<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bite<s n="vblex"/></l><r>тала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bleach<s n="vblex"/></l><r>ақта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bleed<s n="vblex"/></l><r>қансыра<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>bless<s n="vblex"/></l><r>бата<b/>бер<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>blind<s n="vblex"/></l><r>көзді<b/>шағылыстыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>blink<s n="vblex"/></l><r>жылтырла<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>blot<s n="vblex"/></l><r>былға<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>blow<s n="vblex"/></l><r>соқ<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>blurt<s n="vblex"/></l><r>айта<b/>сал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>blush<s n="vblex"/></l><r>алаула<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>boast<s n="vblex"/></l><r>мақтан<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bob<s n="vblex"/></l><r>шайқал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>boil<s n="vblex"/></l><r>қайна<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>bolt<s n="vblex"/></l><r>қаш<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>bomb<s n="vblex"/></l><r>бомбала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bore<s n="vblex"/></l><r>тес<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>borrow<s n="vblex"/></l><r>қарызға<b/>ал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bounce<s n="vblex"/></l><r>секір<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>bow<s n="vblex"/></l><r>иіл<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>box<s n="vblex"/></l><r>қорапқа<b/>сал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>brag<s n="vblex"/></l><r>мақтан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>brake<s n="vblex"/></l><r>тежел<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>branch<s n="vblex"/></l><r>тармақтан<s n="v"/><s n="iv"/></r></p></e>
+
+<e><p><l>brand<s n="vblex"/></l><r>таңбала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>break<s n="vblex"/></l><r>сындыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>breathe<s n="vblex"/></l><r>дем<b/>ал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>breed<s n="vblex"/></l><r>тұқым<b/>қалдыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>bring<s n="vblex"/></l><r>әкел<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>broadcast<s n="vblex"/></l><r>тарат<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>broil<s n="vblex"/></l><r>қыздыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bruise<s n="vblex"/></l><r>қанталан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>brush<s n="vblex"/></l><r>тазала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bubble<s n="vblex"/></l><r>көбіктен<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>build<s n="vblex"/></l><r>құр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bump<s n="vblex"/></l><r>итер<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>burn<s n="vblex"/></l><r>жан<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>burnish<s n="vblex"/></l><r>тегісте<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>bury<s n="vblex"/></l><r>жерле<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>buy<s n="vblex"/></l><r>сатып<b/>ал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>buzz<s n="vblex"/></l><r>гуілде<s n="v"/><s n="iv"/></r></p></e>
+

@@ -455,9 +455,10 @@
      </action>
 </rule>
 
+<!--
 <rule comment="NEW RULE NP1 NP2 → NP1 NP2">
-<!--  set possessive on NP2 -->
-  <pattern> 
+  football player set possessive on NP2 
+ <pattern> 
      <pattern-item n="NP"/>
      <pattern-item n="NP"/>
   </pattern>
@@ -486,7 +487,7 @@
      </action>
 </rule>
 
-
+-->
 
 
 

@@ -1330,7 +1330,42 @@
 <section-rules>
 
 
+<rule comment="NEW RULE: noun1 noun2">  <!-- football player-->
+  <pattern>
+    <pattern-item n="nom"/>
+ <pattern-item n="nom"/>
+  </pattern>
+  <action>
 
+    <out>
+    <chunk name="noun">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="2" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+     <clip pos="1" side="tl" part="lem"/> 
+     <clip pos="1" side="tl" part="a_nom"/>
+     <clip pos="1" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
+    </lu>
+   
+<b pos="1"/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="2" side="tl" part="lem"/> 
+               <clip pos="2" side="tl" part="a_nom"/>
+               <lit-tag v="2"/> <!-- number -->
+               <!-- no need to link person -->
+                <lit-tag v="px3sp"/><!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 <rule comment="NEW RULE: want to + infinitive"> <!--want to verb -->
   <pattern>
@@ -3845,6 +3880,46 @@
   </action>
 </rule>
 
+
+<rule comment="NEW RULE: adjec noun1 noun2">   <!-- for "good football players"-->
+  <pattern>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+ <pattern-item n="nom"/>
+  </pattern>
+  <action>
+<call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="3"/>
+  </call-macro> 
+<call-macro n="build-adjec-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="adjec-noun">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="3" side="tl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="adjec_lu"/>
+     </lu>
+	<b pos="1"/>
+ <lu>
+     <clip pos="2" side="tl" part="lem"/> 
+     <clip pos="2" side="tl" part="a_nom"/>
+     <clip pos="2" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
+     </lu>
+<b pos="2"/>
+	<lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+    </chunk>
+    </out>
+      </action>
+</rule>
+
 <rule comment="NEW RULE: adjec noun"> 
   <pattern>
     <pattern-item n="adjec"/>
@@ -3875,6 +3950,133 @@
     </out>
       </action>
 </rule>
+
+<rule comment="NEW RULE: det num noun1 noun2"> <!-- three good football players-->
+  <pattern>
+    <pattern-item n="det"/>
+    <pattern-item n="num"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="NEW-build-noun-lu-2-4-5-sg">
+      <with-param pos="4"/>
+    </call-macro> <!-- noun is built in singular as the NP contains numerals -->
+     <call-macro n="build-num-lu">
+      <with-param pos="2"/>
+    </call-macro>
+
+<!-- *** -->
+
+<choose>
+  <when> <!-- Demonstrative -->
+    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+    <out>
+    <chunk name="detdem-num-nom">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="4" side="tl" part="a_nbr"/></tag> <!-- number placeholder: use 'semantic' number for SL -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+
+     <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_det"/>
+      <clip pos="1" side="tl" part="a_dem"/>
+    </lu>
+	<b pos="1"/>
+    <lu>  
+      <var n="num_lu"/>
+     </lu>
+    <b pos="2"/>
+    <lu>  
+     <clip pos="3" side="tl" part="lem"/> 
+     <clip pos="3" side="tl" part="a_nom"/>
+     <clip pos="3" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
+     </lu>
+    <b pos="3"/>
+ <lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+  
+  <when> 
+    <test><equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+    <call-macro n="build-possessive-from-possessive-determiner">
+       <with-param pos="1"/>
+    </call-macro>
+    <out>
+    <chunk name="detpos-num-nom">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="4" side="tl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><var n="possessive"/></tag> <!-- possessor computed from possessive determiner -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+  <lu>
+      <clip pos="1" side="tl" part="whole"/>
+    </lu>
+<b pos="1"/>
+  
+    <lu> 
+      <var n="num_lu"/>
+     </lu>
+    <b pos="2"/>
+    <lu> 
+ <clip pos="3" side="tl" part="lem"/> 
+     <clip pos="3" side="tl" part="a_nom"/>
+     <clip pos="3" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
+    </lu>
+    <b pos="3"/>
+    <lu> 
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+
+  <otherwise>
+    <out>
+    <chunk name="detart-num-nom"> <!-- the three good football players-->
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="4" side="tl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <b pos="1"/>
+    <lu>  
+      <var n="num_lu"/>
+    </lu>
+    <b pos="2"/>
+   <lu> 
+ <clip pos="3" side="tl" part="lem"/> 
+     <clip pos="3" side="tl" part="a_nom"/>
+     <clip pos="3" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
+    </lu>
+    <b pos="3"/>
+    <lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+    <call-macro n="out-blank-if-not-single-space"> 
+        <with-param pos="1"/>
+    </call-macro>
+  </otherwise>
+</choose>
+  </action>
+</rule>
+
  
 <rule comment="NEW RULE: det num noun"> 
   <pattern>
@@ -3981,6 +4183,46 @@
 </rule>
 
 
+<rule comment="NEW RULE: num noun1 noun2"> 
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+<call-macro n="NEW-build-noun-lu-2-4-5-sg">
+       <with-param pos="3"/>
+  </call-macro>  <!-- noun is built in singular as the NP contains numerals -->
+<call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="num-noun">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="3" side="tl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="num_lu"/>
+     </lu>
+	<b pos="1"/>
+<lu>
+     <clip pos="2" side="tl" part="lem"/> 
+     <clip pos="2" side="tl" part="a_nom"/>
+     <clip pos="2" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
+</lu>
+	<b pos="2"/>
+	<lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+    </chunk>
+    </out>
+      </action>
+</rule>
+
+
 <rule comment="NEW RULE: num noun"> 
   <pattern>
     <pattern-item n="num"/>
@@ -4012,7 +4254,97 @@
       </action>
 </rule>
 
-
+<rule comment="NEW RULE: prep num noun1 noun2"> 
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="num"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+     <call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
+        <with-param pos="3"/>
+      </call-macro>
+<call-macro n="build-num-lu"><with-param pos="2"/></call-macro> 
+ 
+     <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+        <out> <!-- with postposition -->
+          <chunk name="prep-num-nom">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="3" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+            <b pos="1"/>
+            <lu>  
+               <var n="num_lu"/>
+            </lu>
+<b/>
+ <lu>  <!-- build in situ for the time being -->
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <clip pos="3" side="tl" part="a_nbr"/> 
+               <lit-tag v="nom"/> 
+          
+            </lu>
+ <b/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="4" side="tl" part="lem"/> 
+               <clip pos="4" side="tl" part="a_nom"/>
+               <lit-tag v="sg"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="px3sp"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+            <b pos="2"/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise> <!-- without postposition -->
+        <out>
+          <chunk name="prep-num-nom">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="4" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="4"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+            <b pos="1"/>
+ <lu>  
+               <var n="num_lu"/>
+            </lu>
+ <b pos="2"/>
+ <lu>  <!-- build in situ for the time being -->
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <clip pos="3" side="tl" part="a_nbr"/> 
+               <lit-tag v="nom"/> 
+          
+            </lu>
+<b/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="4" side="tl" part="lem"/> 
+               <clip pos="4" side="tl" part="a_nom"/>
+               <lit-tag v="sg"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+  </action>
+</rule>
 
 <rule comment="NEW RULE: prep num noun"> 
   <pattern>
@@ -4089,6 +4421,54 @@
   </action>
 </rule>
 
+
+<rule comment="NEW RULE: num adjec noun1 noun2"> 
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+   <pattern-item n="nom"/>
+  </pattern>
+  <action>
+<call-macro n="NEW-build-noun-lu-2-4-5-sg">
+       <with-param pos="4"/>
+  </call-macro>  <!-- noun is built in singular as the NP contains numerals -->
+<call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
+<call-macro n="build-adjec-lu"><with-param pos="2"/></call-macro> 
+    <out>
+    <chunk name="num-adjec-noun">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="num_lu"/>
+     </lu>
+<b pos="1"/>
+<lu>
+      <var n="adjec_lu"/>
+     </lu>
+	<b pos="2"/>
+ <lu>  <!-- build in situ for the time being -->
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <clip pos="3" side="tl" part="a_nbr"/> 
+               <lit-tag v="nom"/> 
+          
+            </lu>
+<b pos="3"/>
+	<lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+    </chunk>
+    </out>
+      </action>
+</rule>
+
+
 <rule comment="NEW RULE: num adjec noun"> 
   <pattern>
     <pattern-item n="num"/>
@@ -4124,6 +4504,144 @@
     </chunk>
     </out>
       </action>
+</rule>
+
+<rule comment="NEW RULE: det num adjec noun1 noun2"> 
+  <pattern>
+    <pattern-item n="det"/>
+     <pattern-item n="num"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+   <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="NEW-build-noun-lu-2-4-5-sg">
+      <with-param pos="5"/>
+    </call-macro>
+     <call-macro n="build-adjec-lu">
+      <with-param pos="3"/>
+    </call-macro>
+  <call-macro n="build-num-lu">
+      <with-param pos="2"/>
+    </call-macro>
+
+<!-- *** -->
+
+<choose>
+  <when> <!-- Demonstrative -->
+    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+    <out>
+    <chunk name="detdem-num-adjec-nom">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="5" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+     <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_det"/>
+      <clip pos="1" side="tl" part="a_dem"/>
+    </lu>
+  	<b pos="1"/>
+    <lu>  
+      <var n="num_lu"/>
+     </lu>
+ <b pos="2"/>
+   <lu>  
+      <var n="adjec_lu"/>
+     </lu>
+   <b pos="3"/>
+ <lu>  <!-- build in situ for the time being -->
+               <clip pos="4" side="tl" part="lem"/> 
+               <clip pos="4" side="tl" part="a_nom"/>
+               <clip pos="4" side="tl" part="a_nbr"/> 
+               <lit-tag v="nom"/> 
+          
+            </lu>
+<b pos="4"/>
+    <lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+  
+  <when> 
+    <test><equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+    <call-macro n="build-possessive-from-possessive-determiner">
+       <with-param pos="1"/>
+    </call-macro>
+    <out>
+    <chunk name="detpos-nom">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="5" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><var n="possessive"/></tag> <!-- possessor computed from possessive determiner -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+        <lu>
+      <clip pos="1" side="tl" part="whole"/>
+    </lu>
+    <b pos="1"/>
+    <lu> 
+      <var n="num_lu"/>
+     </lu>
+     <b pos="2"/>
+<lu> 
+      <var n="adjec_lu"/>
+     </lu>
+<b pos="3"/>
+<lu>  <!-- build in situ for the time being -->
+               <clip pos="4" side="tl" part="lem"/> 
+               <clip pos="4" side="tl" part="a_nom"/>
+               <clip pos="4" side="tl" part="a_nbr"/> 
+               <lit-tag v="nom"/> 
+              </lu>
+<b pos="4"/>
+    <lu> 
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+
+  <otherwise>
+    <out>
+    <chunk name="detart-nom">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="5" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <b pos="1"/>
+<lu>  
+      <var n="num_lu"/>
+     </lu>
+<b pos="2"/>
+ <lu>  
+      <var n="adjec_lu"/>
+     </lu>
+<b pos="3"/>
+<lu>  <!-- build in situ for the time being -->
+               <clip pos="4" side="tl" part="lem"/> 
+               <clip pos="4" side="tl" part="a_nom"/>
+               <clip pos="4" side="tl" part="a_nbr"/> 
+               <lit-tag v="nom"/> 
+              </lu>
+<b pos="4"/>
+    <lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+   </otherwise>
+</choose>
+  </action>
 </rule>
 
 
@@ -4243,6 +4761,110 @@
 </rule>
 
 
+<rule comment="NEW RULE: prep num adjec noun1 noun2"> 
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="num"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+     <call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
+        <with-param pos="4"/>
+     </call-macro>
+
+ <call-macro n="build-adjec-lu"><with-param pos="3"/></call-macro> 
+ <call-macro n="build-num-lu"><with-param pos="2"/></call-macro> 
+     <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+        <out> <!-- with postposition -->
+          <chunk name="prep-num-adj-noun">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="5" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="px3sp"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+  <lu>  
+               <var n="num_lu"/>
+            </lu>
+ <b/>
+            <lu>  
+               <var n="adjec_lu"/>
+            </lu>
+ <b/>
+ <lu> 
+               <clip pos="4" side="tl" part="lem"/> 
+               <clip pos="4" side="tl" part="a_nom"/>
+               <clip pos="4" side="tl" part="a_nbr"/>
+                <lit-tag v="nom"/>
+ </lu> 
+<b/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="5" side="tl" part="lem"/> 
+               <clip pos="5" side="tl" part="a_nom"/>
+               <lit-tag v="sg"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise> <!-- without postposition -->
+        <out>
+          <chunk name="prep-num-adj-noun">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="5" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="px3sp"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+<lu>  
+               <var n="num_lu"/>
+            </lu>
+ <b/>
+ <lu>  
+               <var n="adjec_lu"/>
+            </lu>
+ <b/>
+ <lu> 
+               <clip pos="4" side="tl" part="lem"/> 
+               <clip pos="4" side="tl" part="a_nom"/>
+               <clip pos="4" side="tl" part="a_nbr"/>
+                <lit-tag v="nom"/>
+ </lu> 
+<b/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="5" side="tl" part="lem"/> 
+               <clip pos="5" side="tl" part="a_nom"/>
+               <lit-tag v="sg"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+        <call-macro n="out-blank-if-not-single-space"> 
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="out-blank-if-not-single-space">
+          <with-param pos="2"/>
+        </call-macro>
+  </action>
+</rule>
+
 <rule comment="NEW RULE: prep num adjec noun"> 
   <pattern>
     <pattern-item n="prep"/>
@@ -4331,6 +4953,290 @@
         </call-macro>
   </action>
 </rule>
+
+
+<rule comment="NEW RULE: prep det num adjec noun1 noun2">  
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="det"/>
+    <pattern-item n="num"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+
+  <call-macro n="choose_case_and_postposition2"><with-param pos="1"/><with-param pos="5"/></call-macro>
+  <call-macro n="NEW-build-noun-lu-2-4-5-sg">
+    <with-param pos="6"/>
+  </call-macro>  
+ <call-macro n="build-num-lu">
+    <with-param pos="3"/>
+  </call-macro>  
+<call-macro n="build-adjec-lu">
+    <with-param pos="4"/>
+  </call-macro> 
+    <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+       <!-- when there is postposition information, it is generated -->
+
+       <choose>
+         <when> <!-- Demonstrative, postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
+           <out>
+             <chunk name="prep-detdem-num-adjec-noun">
+             <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="5" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="px3sp"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>   
+             </tags>
+       <b pos="1"/>
+		<lu>
+               <var n="num_lu"/>
+            </lu>
+         <b pos="2"/>
+	<lu>
+               <var n="adjec_lu"/>
+            </lu>
+            <b pos="3"/>
+             <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_det"/>
+             <clip pos="2" side="tl" part="a_dem"/>
+             </lu>
+             <b pos="4"/>
+ <lu>
+             <clip pos="5" side="tl" part="lem"/>
+             <clip pos="5" side="tl" part="a_nom"/>
+             <clip pos="5" side="tl" part="a_nbr"/>
+             <lit-tag v="nom"/>
+             </lu>
+<b pos="5"/>
+             <lu>
+               <var n="NEW-noun_lu"/>
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+             </chunk>
+           </out>
+        </when>
+       
+        <when>  <!-- Possessive, with postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+           <call-macro n="build-possessive-from-possessive-determiner">
+              <with-param pos="2"/>
+           </call-macro>
+           <out>
+            <chunk name="prep-detpos-num-adjec-noun">
+            <tags>
+                 <tag><var n="pptag"/></tag>
+                 <tag><clip pos="6" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+                 <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+                 <tag><var n="possessive"/></tag> <!-- possessor computed from possessive determiner -->
+                 <tag><lit-tag v="case"/></tag> <!-- case placeholder -->
+            </tags>
+            <b pos="1"/>
+            <lu>
+               <var n="num_lu"/>
+            </lu>
+           <b pos="2"/>
+	<lu>
+               <var n="adjec_lu"/>
+            </lu>
+            <b pos="3"/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <b pos="4"/>
+ <lu>
+             <clip pos="5" side="tl" part="lem"/>
+             <clip pos="5" side="tl" part="a_nom"/>
+             <clip pos="5" side="tl" part="a_nbr"/>
+             <lit-tag v="nom"/>
+             </lu>
+<b pos="5"/>
+              <lu> 
+                <var n="NEW-noun_lu"/>
+              </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+           </chunk>
+         </out>
+       </when>
+
+
+       <otherwise> <!-- no possessive or demonstrative, postposition -->
+        <out>
+          <chunk name="prep-detart-num-adjec-noun">
+          <tags>
+             <tag><var n="pptag"/></tag>
+             <tag><clip pos="6" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+             <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+             <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+             <tag><var n="case"/></tag> <!-- case placeholder -->
+         </tags>  
+             <b pos="1"/>
+             <b pos="2"/>
+             <lu>
+               <var n="num_lu"/>
+            </lu>
+        <b pos="3"/>
+	<lu>
+               <var n="adjec_lu"/>
+            </lu>
+            <b pos="4"/>  
+ <lu>
+             <clip pos="5" side="tl" part="lem"/>
+             <clip pos="5" side="tl" part="a_nom"/>
+             <clip pos="5" side="tl" part="a_nbr"/>
+             <lit-tag v="nom"/>
+             </lu>
+<b pos="5"/>      
+            <lu>  
+               <var n="NEW-noun_lu"/>
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+       </otherwise>
+       
+      </choose>
+      </when>
+      <otherwise> <!-- no postposition -->
+        <choose>   
+
+         <when> <!-- Demonstrative, no postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
+           <out>
+             <chunk name="prep-detdem-num-adjec-noun">
+          <tags>
+             <tag><var n="pptag"/></tag>
+             <tag><clip pos="6" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+             <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+             <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+             <tag><var n="case"/></tag> <!-- case placeholder -->
+         </tags>    
+         <b pos="1"/>
+             <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_det"/>
+             <clip pos="2" side="tl" part="a_dem"/>
+             </lu>
+         <b pos="2"/>
+	<lu>
+               <var n="adjec_lu"/>
+            </lu>
+            <b pos="3"/>      
+             <lu>
+               <var n="num_lu"/>
+            </lu>
+             <b pos="4"/>
+ <lu>
+             <clip pos="5" side="tl" part="lem"/>
+             <clip pos="5" side="tl" part="a_nom"/>
+             <clip pos="5" side="tl" part="a_nbr"/>
+             <lit-tag v="nom"/>
+             </lu>
+<b pos="5"/>
+             <lu>  
+                <var n="NEW-noun_lu"/>
+             </lu>
+             </chunk>
+           </out>
+        </when>
+
+        <when>  <!-- Possessive, no postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+            <call-macro n="build-possessive-from-possessive-determiner">
+              <with-param pos="2"/>
+           </call-macro>
+           <out>
+            <chunk name="prep-detpos-num-adjec-noun">
+           <tags>
+             <tag><var n="pptag"/></tag>
+             <tag><clip pos="6" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+             <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+             <tag><var n="possessive"/></tag> <!-- possessor placeholder -->
+             <tag><var n="case"/></tag> <!-- case placeholder -->
+           </tags> 
+                <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+               
+        <b pos="2"/>
+        <lu>
+               <var n="num_lu"/>
+            </lu>
+	
+            <b pos="3"/> <lu>
+               <var n="adjec_lu"/>
+            </lu>         
+             <b pos="4"/>
+ <lu>
+             <clip pos="5" side="tl" part="lem"/>
+             <clip pos="5" side="tl" part="a_nom"/>
+             <clip pos="5" side="tl" part="a_nbr"/>
+             <lit-tag v="nom"/>
+             </lu>
+<b pos="5"/>
+             <lu>  
+                <var n="NEW-noun_lu"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+          
+
+          <otherwise> <!-- No possessive, no demonstrative -->
+           <out>
+             <chunk name="prep-detart-num-adjec-noun">
+           <tags>
+             <tag><var n="pptag"/></tag>
+             <tag><clip pos="6" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+             <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+             <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+             <tag><var n="case"/></tag> <!-- case placeholder -->
+           </tags>  
+           <b pos="1"/>
+           <b pos="2"/>
+               <lu>
+               <var n="num_lu"/>
+            </lu>
+             <b pos="3"/>
+	<lu>
+               <var n="adjec_lu"/>
+            </lu>
+            <b pos="4"/> 
+ <lu>
+             <clip pos="5" side="tl" part="lem"/>
+             <clip pos="5" side="tl" part="a_nom"/>
+             <clip pos="5" side="tl" part="a_nbr"/>
+             <lit-tag v="nom"/>
+             </lu>
+<b pos="5"/>
+              <lu>  
+                 <var n="NEW-noun_lu"/>
+              </lu>
+             </chunk>
+            </out>
+	  </otherwise>
+       </choose>
+     </otherwise>
+    </choose>
+  </action>
+</rule>
+
 
 
 <rule comment="NEW RULE: prep det num adjec noun">  
@@ -5464,6 +6370,7 @@ this would have to be changed -->
 
 
 
+
 <rule comment="NEW RULE: noun">  
   <pattern>
     <pattern-item n="nom"/>
@@ -5489,6 +6396,8 @@ this would have to be changed -->
     </out>
   </action>
 </rule>
+
+
 
 
 <rule comment="RULE: obj-pron">

@@ -2272,6 +2272,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e r="RL"><p><l>most<s n="adv"/></l><r>ең<s n="adv"/></r></p></e>
     <e><p><l>where<s n="rel"/><s n="adv"/></l><r>қайда<s n="adv"/><s n="itg"/></r></p></e> <!-- FIXME: This will need transfer -->
     <e><p><l>where<s n="adv"/><s n="itg"/></l><r>қайда<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>what<s n="adv"/><s n="itg"/></l><r>не<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>why<s n="adv"/><s n="itg"/></l><r>неге<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>when<s n="adv"/><s n="itg"/></l><r>қашан<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>who<s n="adv"/><s n="itg"/></l><r>кім<s n="adv"/><s n="itg"/></r></p></e>
@@ -2503,7 +2504,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>you<s n="prn"/></l><r>сіздер<s n="prn"/><s n="pers"/></r></p></e>
 <!--    <e><p><l>they<s n="prn"/></l><r>олар<s n="prn"/><s n="pers"/></r></p></e> -->
     <e><p><l>they<s n="prn"/></l><r>олар<s n="prn"/><s n="pers"/></r></p></e> <!-- Not sure if this is the best way -->
-  <e><p><l>he<s n="prn"/><s n="m"/><s n="sg"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
+  <e><p><l>he<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>it<s n="prn"/></l><r>ол<s n="prn"/><s n="pers"/></r></p></e>
   
  <e><p><l>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="infl"/></r></p></e>
@@ -2520,7 +2521,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>nobody<s n="prn"/><s n="tn"/><s n="m"/></l><r>ешкім<s n="prn"/><s n="neg"/></r></p></e>
     <!-- interesting translation -->
 
-    <e><p><l>what<s n="prn"/><s n="itg"/></l><r>не<s n="prn"/><s n="itg"/></r></p></e>
+  <!--  <e><p><l>what<s n="prn"/><s n="itg"/></l><r>не<s n="prn"/><s n="itg"/></r></p></e>-->
 <e r="LR"><p><l>which<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r></r></p></e>
 <e r="LR"><p><l>that<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r></r></p></e>
 

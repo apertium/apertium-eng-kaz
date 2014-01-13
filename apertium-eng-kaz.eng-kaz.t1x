@@ -10,7 +10,7 @@
     </def-cat>   
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
       <cat-item tags="*.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
-  <cat-item tags="vblex.pres"/>
+      <cat-item tags="vblex.pres"/>
       <cat-item tags="vbmod.ger"/>
     </def-cat>
     <def-cat n="vaux-will"> <!-- future -->
@@ -2255,7 +2255,7 @@
         </lu>
         <b/> 
 	<lu>
-          <lit v="жатыр"/>  
+          <lit v="жат"/>  
  	<lit-tag v="vaux"/>
  	<lit-tag v="6"/>
 	 <lit-tag v="4"/>
@@ -3594,7 +3594,7 @@
         </lu>
         <b/> 
         <lu>
-          <lit v="жатыр"/>
+          <lit v="жат"/>
           <lit-tag v="vaux"/>
           <lit-tag v="4"/>
 	<lit-tag v="3"/>

@@ -24,6 +24,11 @@
         <cat-item lemma="e" tags="cop.p2.pl"/>
        <cat-item lemma="е" tags="cop.p3.pl"/>
     </def-cat>
+
+  <def-cat n="qst">
+       <cat-item lemma="ма" tags="qst"/>
+     
+    </def-cat>
     
     <def-cat n="nomobject">
        <cat-item tags="n.nom"/>
@@ -303,6 +308,43 @@
     </rule>
 
      
+   <rule comment="questions"> <!-- for Barasyn ma/ba/be? -->
+      <pattern>
+        <pattern-item n="v"/>
+        <pattern-item n="qst"/>
+      </pattern>
+      <action>
+ <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_neg"/><lit-tag v="NXD"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_neg"/><lit v=""/></let>
+          </when>
+        </choose>
+ <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="poss"/><lit-tag v="PXD"/></equal></test>
+            <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
+          </when>
+        </choose>
+<choose><!--formality patch-->
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_pers_num"/><lit-tag v="p2.sg"/></equal></test>  <!-- if we generate no formality, add it -->
+            <let><clip pos="1" side="tl" part="a_pers_num"/><lit-tag v="p2.frm.sg"/></let>
+          </when>
+ 	<when>
+            <test><equal><clip pos="1" side="sl" part="a_pers_num"/><lit-tag v="p2.pl"/></equal></test>  <!-- if we generate no formality, add it -->
+            <let><clip pos="1" side="tl" part="a_pers_num"/><lit-tag v="p2.frm.pl"/></let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+           <clip pos="1" side="tl" part="whole"/>
+           <lit v="+"/>
+           <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>  
+    </rule>
 
    
     <rule comment="default"> 

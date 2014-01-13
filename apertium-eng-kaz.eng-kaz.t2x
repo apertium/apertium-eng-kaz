@@ -14,6 +14,12 @@
 
     </def-cat>
 
+
+  <def-cat n="QAdvP">
+      <cat-item tags="QAdvP"/>
+      <cat-item tags="QAdvP.*"/>
+
+    </def-cat>
 <def-cat n="NP_obj">
       <cat-item tags="NP"/>
       <cat-item tags="NP.*"/>
@@ -541,23 +547,121 @@
             <lit-tag v="VP"/>
             <clip pos="2" part="a_nbr"/> <!-- agree number -->
             <clip pos="2" part="a_pers"/> <!-- agree person -->
-             <lit-tag v="gna_cond"/>
+            <clip pos="1" part="a_tense"/>
             <clip pos="3" part="a_possessive"/> 
             <clip pos="3" part="a_neg"/>
             <clip pos="3" part="chcontent"/>
 
          </chunk> 
   <b/>
-<chunk>
+         <chunk>
             
-<clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
+         <clip pos="1" part="lem"/>
+          <lit-tag v="qst"/>
+        <clip pos="1" part="chcontent"/>
           </chunk>
       </out>
      </action>
     </rule>
 
+
+<rule comment="NEW RULE: DO NP VP NP">
+    <!-- Do I write a book Мен кітап жазамын ба?-->
+     <pattern>
+       <pattern-item n="VP_ques"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+           <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+      <b pos="1"/>
+      <b pos="2"/>
+      <b pos="3"/>
+  <chunk>
+            <clip pos="4" part="lem"/>
+            <lit-tag v="NP"/>
+            <clip pos="4" part="a_nbr"/>
+            <clip pos="4" part="a_pers"/>
+            <clip pos="4" part="a_possessive"/>
+            <lit-tag v="acc"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk> 
+  <b/>
+         <chunk>
+            <clip pos="3" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="2" part="a_nbr"/> <!-- agree number -->
+            <clip pos="2" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_tense"/>
+            <clip pos="3" part="a_possessive"/> 
+            <clip pos="3" part="a_neg"/>
+            <clip pos="3" part="chcontent"/>
+
+         </chunk> 
+  <b/>
+         <chunk>
+            
+         <clip pos="1" part="lem"/>
+          <lit-tag v="qst"/>
+        <clip pos="1" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
+
+
+
+<rule comment="NEW RULE: DO NP VP PP">
+    <!-- Do I write a book Мен кітап жазамын ба?-->
+     <pattern>
+       <pattern-item n="VP_ques"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="PP"/>
+     </pattern>
+     <action>
+           <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+      <b pos="1"/>
+      <b pos="2"/>
+      <b pos="3"/>
+  <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk> 
+  <b/>
+         <chunk>
+            <clip pos="3" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="2" part="a_nbr"/> <!-- agree number -->
+            <clip pos="2" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_tense"/>
+            <clip pos="3" part="a_possessive"/> 
+            <clip pos="3" part="a_neg"/>
+            <clip pos="3" part="chcontent"/>
+
+         </chunk> 
+  <b/>
+         <chunk>
+            
+         <clip pos="1" part="lem"/>
+          <lit-tag v="qst"/>
+        <clip pos="1" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
 
 <rule comment="NEW RULE: if NP VP">
     <!--Егер мен барсам -->
@@ -2269,6 +2373,99 @@
             <clip pos="2" part="a_possessive"/> 
             <clip pos="2" part="a_neg"/>
             <clip pos="2" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
+
+<rule comment="NEW RULE: QadvP NP VP NP ; agree person and number NP VP, set NP accusative for special questions">
+    <!-- propagates person and number from NP to VP -->
+     <pattern>
+  <pattern-item n="QAdvP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="4" part="a_nbr"/> <!-- agree number -->
+            <clip pos="4" part="a_pers"/> <!-- agree person -->
+            <clip pos="4" part="a_possessive"/>
+            <lit-tag v="acc"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b/>
+<chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+   <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="2" part="a_nbr"/> <!-- agree number -->
+            <clip pos="2" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_tense"/>
+            <clip pos="3" part="a_possessive"/> 
+            <clip pos="3" part="a_neg"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
+
+
+<rule comment="NEW RULE: QadvP NP VP PP ; agree person and number NP VP, set NP accusative for special questions">
+    <!-- propagates person and number from NP to VP -->
+     <pattern>
+       <pattern-item n="QAdvP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="PP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="lem"/>  
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b/>
+<chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+   <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="2" part="a_nbr"/> <!-- agree number -->
+            <clip pos="2" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_tense"/>
+            <clip pos="3" part="a_possessive"/> 
+            <clip pos="3" part="a_neg"/>
+            <clip pos="3" part="chcontent"/>
           </chunk>
       </out>
      </action>

@@ -9,8 +9,8 @@
       <cat-item tags="vblex.past"/>
     </def-cat>   
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
-      <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
-      <cat-item tags="vblex.pres"/>
+      <cat-item tags="*.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
+  <cat-item tags="vblex.pres"/>
       <cat-item tags="vbmod.ger"/>
     </def-cat>
     <def-cat n="vaux-will"> <!-- future -->
@@ -194,8 +194,14 @@
       <cat-item tags="preadv"/>
     </def-cat>
 
+  <def-cat n="adv-itg">
+      <cat-item tags="adv.itg"/>
+      
+    </def-cat>
+
+
     <def-cat n="adv">
- <cat-item tags="adv.*"/>
+      <cat-item tags="adv.*"/>
       <cat-item tags="adv"/>
     </def-cat>
 
@@ -671,7 +677,7 @@
 
 -->
 
-<def-macro n="change-case" npar="1"> <!-- change case to lower for p1 sg "I" -->
+<def-macro n="change-case" npar="1">  <!--change case to lower for p1 sg "I" -->
 <choose>
   <when>
        <test>
@@ -692,6 +698,10 @@
 	      </let>
        </when>
   <otherwise> 
+  <modify-case>
+        <clip pos="1" side="tl" part="lem"/>
+          <lit v="aa"/>
+        </modify-case>
 	      <let>
 		<var n="caseFirstWord"/>
 		<lit v="aa"/>
@@ -2122,21 +2132,7 @@
    
   </pattern>
   <action>
-  <out> <chunk name="VP_q">  
-      <tags>
-       <tag><lit-tag v="VPQ"/></tag>
-   </tags>
- <lu>
- <lit v="ма"/>
-  <lit-tag v="qst"/>
-         
-       </lu>
-    
-      </chunk>
-</out> 
-  
-    <choose>
-
+       <choose>
       <when>
         <test>
           <equal>
@@ -2160,6 +2156,18 @@
       </when>
 
     </choose>
+ <out> <chunk name="VP_q">  
+      <tags>
+       <tag><lit-tag v="VPQ"/></tag>
+       <tag> <var n="tense"/>  </tag>
+      </tags>
+      <lu>
+      <lit v="ма"/>
+      <lit-tag v="qst"/>
+       <lit-tag v="2"/> 
+       </lu>
+     </chunk>
+</out> 
   </action>
 </rule>
 
@@ -6465,9 +6473,9 @@ this would have to be changed -->
     <pattern-item n="subj-pron"/>
   </pattern>
   <action>
-<call-macro n="change-case">  <!-- change case  "I"-->
+<!--<call-macro n="change-case">   change case  "I"
 <with-param pos="1"/>
-  </call-macro> 
+  </call-macro> -->
   <choose>
     <when>
       <test>
@@ -6794,6 +6802,24 @@ this would have to be changed -->
 </rule>
 
 
+<rule comment="NEW RULE: adv-itg"> <!-- when/where/why-->  
+  <pattern>
+    <pattern-item n="adv-itg"/>
+  </pattern>
+  <action>
+ <call-macro n="change-case"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="adv-itg">
+    <tags>
+    <tag><lit-tag v="QAdvP"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 
 <rule comment="NEW RULE: adv">  
@@ -6813,6 +6839,9 @@ this would have to be changed -->
     </out>
   </action>
 </rule>
+
+
+
 
 <rule comment="NEW RULE: preadv">  
   <pattern>
@@ -6914,6 +6943,21 @@ this would have to be changed -->
     </out>
   </action>
 </rule>
+
+<rule comment="NEW RULE: infinitive - verb"> 
+  <pattern>
+    <pattern-item n="approx-inf-verb"/>
+  </pattern>
+  <action>
+     <let><var n="tense"/><lit-tag v="aor"/></let> 
+      <call-macro n="NEW-gen-simple-verb">
+         <with-param pos="1"/> 
+     </call-macro>
+ 
+  </action>
+</rule>
+
+
 
   </section-rules>
 </transfer>

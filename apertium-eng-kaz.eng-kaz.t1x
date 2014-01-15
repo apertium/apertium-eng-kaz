@@ -127,19 +127,24 @@
       <cat-item tags="num.*"/>
      </def-cat>
     <def-cat n="adjec">
-      <cat-item tags="adj.*"/>
-      <cat-item tags="adj"/>
+    <cat-item tags="adj"/>
+    <cat-item tags="adj.sint"/>
     </def-cat>
     <def-cat n="sup-adjec">
       <cat-item tags="adj.sint.sup"/>
       <cat-item tags="adj.sint.sup.*"/>
     </def-cat>
 
+  <def-cat n="comp-adjec">
+      <cat-item tags="adj.sint.comp"/>
+      <cat-item tags="adj.sint.comp.*"/>
+    </def-cat>
+
     <def-cat n="non-sup-adjec">
       <cat-item tags="adj"/>
       <cat-item tags="adj.sint"/>
-      <cat-item tags="adj.sint.comp"/>      
-      <cat-item tags="adj.sint.comp.*"/>
+  <!--    <cat-item tags="adj.sint.comp"/>      
+      <cat-item tags="adj.sint.comp.*"/>-->
     </def-cat>
 
 
@@ -187,6 +192,10 @@
     </def-cat>
  <def-cat n="cnjadv">
        <cat-item tags="cnjadv"/>
+    </def-cat>
+
+ <def-cat n="cnjcoo">
+       <cat-item tags="cnjcoo"/>
     </def-cat>
 
   <def-cat n="preadv">
@@ -246,6 +255,10 @@
     </def-attr>
  <def-attr n="a_cnjsub">
        <attr-item tags="cnjsub"/>
+    </def-attr>
+
+ <def-attr n="a_cnjcoo">
+       <attr-item tags="post"/>
     </def-attr>
     <def-attr n="a_kaz_verb"> 
       <attr-item tags="v.tv"/>
@@ -339,7 +352,7 @@
     <def-var n="preblank-1"/>
     <def-var n="preblank-2"/>
  <def-var n="cnjadv_lu"/> <!-- for conditional IF -->
-    
+  <def-var n="cnjcoo_lu"/> <!-- for THAN -->   
   </section-def-vars>
   <section-def-lists>
     <def-list n="pseudo_modal_verbs"> <!-- Verbs that can take verb-ing as object -->
@@ -778,6 +791,7 @@
                 <var n="case"/>
                 <lit-tag v="abl"/>
              </let>
+
        </when>    
 <when> 
              <test>
@@ -1269,7 +1283,15 @@
         </let>
 </def-macro>
 
-
+<def-macro n="build-cnjcoo-lu" npar="1"> 
+     <let>
+           <var n="cnjcoo_lu"/>
+           <concat>
+             <clip pos="1" side="tl" part="lem"/> 
+             <clip pos="1" side="tl" part="a_cnjcoo"/>
+           </concat>  
+        </let>
+</def-macro>
 
 <def-macro n="build-possessive-from-possessive-determiner" npar="1">
 
@@ -6192,6 +6214,93 @@ this would have to be changed -->
 </rule>
 
   
+
+<rule comment="NEW RULE: sup-adjec">  
+  <pattern>
+    <pattern-item n="sup-adjec"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="sup-adjec">
+    <tags>
+    <tag><lit-tag v="SupP"/></tag>
+    <tag><lit-tag v="PXD"/></tag>
+    <tag><lit-tag v="CD"/></tag>
+    </tags>
+    <lu>
+       <lit v="ең"/>
+       <lit-tag v="adv"/>
+    </lu>
+    <b/>
+    <lu>
+       <clip pos="1" part="lem" side="tl"/>
+       <lit-tag v="adj"/>
+       <lit-tag v="subst"/>
+       <lit-tag v="2"/>
+       <lit-tag v="3"/>       
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: sup-adjec">  
+  <pattern>
+    <pattern-item n="the"/>
+    <pattern-item n="sup-adjec"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="sup-adjec">
+    <tags>
+    <tag><lit-tag v="SupP"/></tag>
+    <tag><lit-tag v="PXD"/></tag>
+    <tag><lit-tag v="CD"/></tag>
+    </tags>
+    <b pos="1"/>
+    <lu>
+       <lit v="ең"/>
+       <lit-tag v="adv"/>
+    </lu>
+    <b/>
+    <lu>
+       <clip pos="2" part="lem" side="tl"/>
+       <lit-tag v="adj"/>
+       <lit-tag v="subst"/>
+       <lit-tag v="2"/>
+       <lit-tag v="3"/>       
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: noun">  
+  <pattern>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+
+  <call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="1"/>
+  </call-macro> 
+    <out>
+    <chunk name="noun">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
   
 <rule comment="NEW RULE: det adjec noun"> 
   <pattern>
@@ -6379,31 +6488,6 @@ this would have to be changed -->
 
 
 
-<rule comment="NEW RULE: noun">  
-  <pattern>
-    <pattern-item n="nom"/>
-  </pattern>
-  <action>
-
-  <call-macro n="NEW-build-noun-lu-2-4-5">
-       <with-param pos="1"/>
-  </call-macro> 
-    <out>
-    <chunk name="noun">
-    <tags>
-    <tag><lit-tag v="NP"/></tag>
-    <tag><clip pos="1" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
-    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
-    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
-    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
-    </tags>
-    <lu>
-      <var n="NEW-noun_lu"/>
-    </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
 
 
 
@@ -6641,65 +6725,7 @@ this would have to be changed -->
     </rule>
 
 
-<rule comment="NEW RULE: sup-adjec">  
-  <pattern>
-    <pattern-item n="sup-adjec"/>
-  </pattern>
-  <action>
-    <out>
-    <chunk name="sup-adjec">
-    <tags>
-    <tag><lit-tag v="SupP"/></tag>
-    <tag><lit-tag v="PXD"/></tag>
-    <tag><lit-tag v="CD"/></tag>
-    </tags>
-    <lu>
-       <lit v="ең"/>
-       <lit-tag v="adv"/>
-    </lu>
-    <b/>
-    <lu>
-       <clip pos="1" part="lem" side="tl"/>
-       <lit-tag v="adj"/>
-       <lit-tag v="subst"/>
-       <lit-tag v="2"/>
-       <lit-tag v="3"/>       
-     </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
 
-<rule comment="NEW RULE: sup-adjec">  
-  <pattern>
-    <pattern-item n="the"/>
-    <pattern-item n="sup-adjec"/>
-  </pattern>
-  <action>
-    <out>
-    <chunk name="sup-adjec">
-    <tags>
-    <tag><lit-tag v="SupP"/></tag>
-    <tag><lit-tag v="PXD"/></tag>
-    <tag><lit-tag v="CD"/></tag>
-    </tags>
-    <b pos="1"/>
-    <lu>
-       <lit v="ең"/>
-       <lit-tag v="adv"/>
-    </lu>
-    <b/>
-    <lu>
-       <clip pos="2" part="lem" side="tl"/>
-       <lit-tag v="adj"/>
-       <lit-tag v="subst"/>
-       <lit-tag v="2"/>
-       <lit-tag v="3"/>       
-     </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
 
 
 <rule comment="NEW RULE: the-most adjec">   <!-- another rule is needed for the most ADJ -->
@@ -6756,6 +6782,27 @@ this would have to be changed -->
 </rule>
 
 
+<rule comment="NEW RULE: adjec+comp">   <!-- bigger, for adj comp -->
+  <pattern>
+    <pattern-item n="comp-adjec"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="comp-adjec">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
+    </tags>
+   
+    <lu>
+       <clip pos="1" part="lem" side="tl"/>
+       <lit-tag v="adj"/>
+       <lit-tag v="comp"/>
+         
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 
 <rule comment="NEW RULE: adjec">  
@@ -6896,6 +6943,27 @@ this would have to be changed -->
     </tags>
     <lu>
       <var n="cnjadv_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+
+<rule comment="NEW RULE: cnjcoo">  
+  <pattern>
+    <pattern-item n="cnjcoo"/>
+  </pattern>
+  <action>
+   <call-macro n="build-cnjcoo-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="than">
+    <tags>
+  <tag><lit-tag v="THAN"/></tag>
+    <tag><lit-tag v="post"/></tag>
+    </tags>
+    <lu>
+      <var n="cnjcoo_lu"/>
      </lu>
     </chunk>
     </out>

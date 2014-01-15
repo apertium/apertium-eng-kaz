@@ -105,11 +105,20 @@
     <def-cat n="PP">
       <cat-item tags="PP"/>
       <cat-item tags="PP.*"/>
+  
+    </def-cat>
+ 
+<def-cat n="THAN">
+      <cat-item tags="THAN"/>
+      <cat-item tags="THAN.*"/>
+  
     </def-cat>
     
     <def-cat n="AdjP">
       <cat-item tags="AdjP"/>
       <cat-item tags="AdjP.*"/>
+      <cat-item tags="SupP"/>
+      <cat-item tags="SupP.*"/>
     </def-cat>
     <def-cat n="AdvP">
       <cat-item tags="AdvP"/>
@@ -461,40 +470,39 @@
      </action>
 </rule>
 
-<!--
-<rule comment="NEW RULE NP1 NP2 → NP1 NP2">
-  football player set possessive on NP2 
- <pattern> 
-     <pattern-item n="NP"/>
-     <pattern-item n="NP"/>
-  </pattern>
+
+<rule comment="NEW RULE: QAdvP NP VP">
+    <!-- when he came ол келгенде-->
+     <pattern>
+       <pattern-item n="QAdvP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+         </pattern>
      <action>
-     <call-macro n="build-possessive">
-        <with-param pos="1"/>
-     </call-macro>
-      <out>
-          <b pos="1"/>
-          <chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-          <b/>
-          <chunk>
+           <out>
+           <chunk>
             <clip pos="2" part="lem"/>
-            <clip pos="2" part="a_phrase"/>
-            <clip pos="2" part="a_nbr"/>
-            <clip pos="2" part="a_pers"/>
-            <var n="possessive"/>
-            <clip pos="2" part="a_cas"/>
+            <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
-          </chunk>  
+          </chunk> 
+      <b pos="1"/>
+      <b pos="2"/>
+       <chunk>
+            <clip pos="3" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="2" part="a_nbr"/> <!-- agree number -->
+            <clip pos="2" part="a_pers"/> <!-- agree person -->
+              <lit-tag v="ger_past"/>
+            <clip pos="3" part="a_possessive"/> 
+            <clip pos="3" part="a_neg"/>
+              <lit-tag v="loc"/>
+            <clip pos="3" part="chcontent"/>
+
+         </chunk> 
+  
       </out>
      </action>
-</rule>
-
--->
-
+    </rule>
 
 
 <rule comment="NEW RULE SupP GenP → GenP SupP">
@@ -1808,6 +1816,246 @@
     </rule>
 
 
+
+<rule comment="NEW RULE: NP VP_be AdjP THAN NP"> <!-- It is bigger than garden-->
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP_be"/>
+       <pattern-item n="AdjP"/>
+       <pattern-item n="THAN"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+
+      <out>
+          <chunk>
+           <clip pos="1" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_possessive"/>
+             <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>         
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/>
+          <b pos="4"/>
+ <chunk>
+            <clip pos="5" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="5" part="a_nbr"/> <!-- agree number -->
+            <clip pos="5" part="a_pers"/> <!-- agree person -->
+            <clip pos="5" part="a_possessive"/>
+             <lit-tag v="dat"/>
+            <clip pos="5" part="chcontent"/>         
+          </chunk>
+       <b/>
+  <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+       </chunk>
+<b/>
+           <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+            
+          </chunk>
+      
+    </out>
+     </action>
+    </rule>
+
+
+<rule comment="NEW RULE: NP VP_not_be AdjP THAN NP"> <!-- It is not bigger than garden-->
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP_not_be"/>
+       <pattern-item n="AdjP"/>
+       <pattern-item n="THAN"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+
+      <out>
+          <chunk>
+           <clip pos="1" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_possessive"/>
+             <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>         
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/>
+          <b pos="4"/>
+ <chunk>
+            <clip pos="5" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="5" part="a_nbr"/> <!-- agree number -->
+            <clip pos="5" part="a_pers"/> <!-- agree person -->
+            <clip pos="5" part="a_possessive"/>
+             <lit-tag v="dat"/>
+            <clip pos="5" part="chcontent"/>         
+          </chunk>
+       <b/>
+  <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+       </chunk>
+<b/>
+           <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+            
+          </chunk>
+    <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> 
+            <clip pos="1" part="a_pers"/> 
+             <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+             <clip pos="2" part="chcontent"/>
+          </chunk> 
+      
+    </out>
+     </action>
+    </rule>
+
+
+<rule comment="NEW RULE: NP VP_past_be AdjP THAN NP"> <!-- It was bigger than garden-->
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP_past_be"/>
+       <pattern-item n="AdjP"/>
+       <pattern-item n="THAN"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+
+      <out>
+          <chunk>
+           <clip pos="1" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_possessive"/>
+             <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>         
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/>
+          <b pos="4"/>
+ <chunk>
+            <clip pos="5" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="5" part="a_nbr"/> <!-- agree number -->
+            <clip pos="5" part="a_pers"/> <!-- agree person -->
+            <clip pos="5" part="a_possessive"/>
+             <lit-tag v="dat"/>
+            <clip pos="5" part="chcontent"/>         
+          </chunk>
+       <b/>
+  <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+       </chunk>
+<b/>
+           <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+            
+          </chunk>
+       <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> 
+            <clip pos="1" part="a_pers"/> 
+             <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+             <clip pos="2" part="chcontent"/>
+          </chunk> 
+    </out>
+     </action>
+    </rule>
+
+
+<rule comment="NEW RULE: NP VP_past_not_be AdjP THAN NP"> <!-- It was not bigger than garden-->
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP_past_not_be"/>
+       <pattern-item n="AdjP"/>
+       <pattern-item n="THAN"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+
+      <out>
+          <chunk>
+           <clip pos="1" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_possessive"/>
+             <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>         
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/>
+          <b pos="4"/>
+ <chunk>
+            <clip pos="5" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="5" part="a_nbr"/> <!-- agree number -->
+            <clip pos="5" part="a_pers"/> <!-- agree person -->
+            <clip pos="5" part="a_possessive"/>
+             <lit-tag v="dat"/>
+            <clip pos="5" part="chcontent"/>         
+          </chunk>
+       <b/>
+  <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+       </chunk>
+<b/>
+           <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+            
+          </chunk>
+    <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> 
+            <clip pos="1" part="a_pers"/> 
+             <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+             <clip pos="2" part="chcontent"/>
+          </chunk> 
+      
+    </out>
+     </action>
+    </rule>
+
 <rule comment="NEW RULE: NP VP_be AdjP"> <!-- I am happy-->
      <pattern>
        <pattern-item n="NP"/>
@@ -1838,27 +2086,21 @@
             <clip pos="3" part="chcontent"/>         
             
           </chunk>
-       <b/>
-          <chunk>
-            <clip pos="2" part="lem"/>  
-            <lit-tag v="VP"/>
-            <clip pos="1" part="a_nbr"/> 
-            <clip pos="1" part="a_pers"/> 
-             <clip pos="2" part="a_tense"/>
-            <clip pos="2" part="a_possessive"/> 
-            <clip pos="2" part="a_neg"/>
-             <clip pos="2" part="chcontent"/>
-          </chunk> 
+      
     </out>
      </action>
     </rule>
 
+
+
+<!-- He is in the -->
 <rule comment="NEW RULE: NP VP_be PP"> <!--He is from Kazakhstan -->
      <pattern>
        <pattern-item n="NP"/>
        <pattern-item n="VP_be"/>
        <pattern-item n="PP"/>
      </pattern>
+
      <action>
 
       <out>
@@ -1879,7 +2121,7 @@
             <clip pos="3" part="a_nbr"/> 
             <clip pos="3" part="a_pers"/> 
             <clip pos="3" part="a_possessive"/>
-             <lit-tag v="abl"/>
+            <clip pos="3" part="a_cas"/> 
             <clip pos="3" part="chcontent"/>         
             
           </chunk>
@@ -1924,7 +2166,7 @@
             <clip pos="3" part="a_nbr"/> 
             <clip pos="3" part="a_pers"/> 
             <clip pos="3" part="a_possessive"/>
-             <lit-tag v="abl"/>
+            <clip pos="3" part="a_cas"/> 
             <clip pos="3" part="chcontent"/>         
             
           </chunk>
@@ -1943,7 +2185,7 @@
      </action>
     </rule>
 
-<rule comment="NEW RULE: NP VP_be PP"> <!--He is from Kazakhstan -->
+<rule comment="NEW RULE: NP VP_be_not PP"> <!--He is from Kazakhstan -->
      <pattern>
        <pattern-item n="NP"/>
        <pattern-item n="VP_not_be"/>
@@ -1969,7 +2211,7 @@
             <clip pos="3" part="a_nbr"/> 
             <clip pos="3" part="a_pers"/> 
             <clip pos="3" part="a_possessive"/>
-             <lit-tag v="abl"/>
+            <clip pos="3" part="a_cas"/> 
             <clip pos="3" part="chcontent"/>         
             
           </chunk>
@@ -1988,7 +2230,7 @@
      </action>
     </rule>
 
-<rule comment="NEW RULE: NP VP_be_past PP"> <!--He was from Kazakhstan -->
+<rule comment="NEW RULE: NP VP_be_not_past PP"> <!--He was from Kazakhstan -->
      <pattern>
        <pattern-item n="NP"/>
        <pattern-item n="VP_past_not_be"/>
@@ -2014,7 +2256,7 @@
             <clip pos="3" part="a_nbr"/> 
             <clip pos="3" part="a_pers"/> 
             <clip pos="3" part="a_possessive"/>
-             <lit-tag v="abl"/>
+            <clip pos="3" part="a_cas"/> 
             <clip pos="3" part="chcontent"/>         
             
           </chunk>
@@ -2560,7 +2802,7 @@
             <clip pos="3" part="a_nbr"/>
             <clip pos="3" part="a_pers"/>
             <var n="possessive"/>
-            <lit-tag v="dat"/>
+            <clip pos="3" part="a_cas"/>
             <clip pos="3" part="chcontent"/>
            
           </chunk>
@@ -2578,6 +2820,9 @@
       </out>
      </action>
     </rule>
+
+
+
 
 
 <rule comment="NEW RULE:  NP VP PP GenP GenP">

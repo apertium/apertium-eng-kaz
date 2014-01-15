@@ -2254,7 +2254,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <!-- Раздел: Союз -->
 <e><p><l>if<s n="cnjadv"/></l><r>егер<s n="cnjsub"/></r></p></e>
     <e><p><l>and<s n="cnjcoo"/></l><r>және<s n="cnjcoo"/></r></p></e>
-    <e><p><l>than<s n="cnjcoo"/></l><r>қарағанда<s n="cnjcoo"/></r></p></e>
+    <e><p><l>than<s n="cnjcoo"/></l><r>қарағанда<s n="post"/></r></p></e>
 <!--    <e><p><l>and<s n="cnjcoo"/></l><r>ал<s n="cnjcoo"/></r></p></e> !! MLF 20120711, just to avoid s -->
     <e><p><l>but<s n="cnjcoo"/></l><r>ал<s n="cnjcoo"/></r></p></e>
 <e><p><l>because<s n="n"/></l><r>себебі<b/><s n="n"/></r></p></e>

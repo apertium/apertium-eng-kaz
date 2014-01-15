@@ -1299,7 +1299,7 @@
 <choose> 
 <when>
    <test>
-          <equal><clip pos="1" side="sl" part="lem"/><lit  v="my"/></equal>
+          <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit  v="my"/></equal>
     </test>      
           <let><var  n="possessive"/><lit-tag v="px1sg"/></let>
 </when>
@@ -1307,13 +1307,13 @@
 
 <when>
    <test>
-          <equal><clip  pos="1" side="sl" part="lem"/><lit  v="our"/></equal>
+          <equal caseless="yes"><clip  pos="1" side="sl" part="lem"/><lit  v="our"/></equal>
     </test>      
           <let><var  n="possessive"/><lit-tag v="px1pl"/></let>
 </when>
 <when>
    <test>
-          <equal><clip pos="1" side="sl" part="lem"/><lit  v="your"/></equal>
+          <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit  v="your"/></equal>
     </test>      
 <let><var  n="possessive"/><lit-tag v="px2sg"/></let>
 </when>

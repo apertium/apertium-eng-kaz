@@ -100,6 +100,7 @@
     <e r="RL"><p><l>be<s n="vbser"/></l><r>е<s n="cop"/></r></p></e>
     <e r="RL"><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>бір<s n="det"/><s n="ind"/></r></p></e>
     <e r="RL"><p><l>which<s n="det"/><s n="itg"/><s n="sp"/></l><r>қай<s n="det"/><s n="itg"/></r></p></e>
+    <e r="RL"><p><l>which<s n="det"/><s n="itg"/><s n="sp"/></l><r>қайсы<s n="det"/><s n="itg"/></r></p></e>
 
  <e r="LR"><p><l>not<s n="det"/><s n="ind"/></l><r></r></p></e>
     <e r="LR"><p><l>a<s n="det"/><s n="ind"/></l><r></r></p></e>
@@ -1836,7 +1837,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>beam<s n="n"/></l><r>өзек<s n="n"/></r></p></e>
 <e><p><l>bedroom<s n="n"/></l><r>жатын<s n="n"/></r></p></e>
 <e><p><l>camp<s n="n"/></l><r>лагерь<s n="n"/></r></p></e>
-<e><p><l>chicken<s n="n"/></l><r>балапан<s n="n"/></r></p></e>
+<e><p><l>chick<s n="n"/></l><r>балапан<s n="n"/></r></p></e>
+<e><p><l>chicken<s n="n"/></l><r>тауық<s n="n"/></r></p></e>
 <e><p><l>crook<s n="n"/></l><r>ырғақ<s n="n"/></r></p></e>
 <e><p><l>deer<s n="n"/></l><r>бұғы<s n="n"/></r></p></e>
 <e><p><l>dock<s n="n"/></l><r>доқ<s n="n"/></r></p></e>
@@ -1956,6 +1958,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>toothbrush<s n="n"/></l><r>тіс<b/>пастасы<s n="n"/></r></p></e>
 <e><p><l>title<s n="n"/></l><r>тақырып<s n="n"/></r></p></e>
 <e><p><l>turkey<s n="n"/></l><r>күркетауық<s n="n"/></r></p></e>
+<e><p><l>pheasant<s n="n"/></l><r>қырғауыл<s n="n"/></r></p></e>
 <e><p><l>underwear<s n="n"/></l><r>іш<b/>киім<s n="n"/></r></p></e>
 <e><p><l>vacation<s n="n"/></l><r>демалыс<s n="n"/></r></p></e>
 <e><p><l>visitor<s n="n"/></l><r>келуші<s n="n"/></r></p></e>

@@ -198,23 +198,7 @@
                 </when>
 
           </choose> 
-               <choose>
-                 <when>
-                   <test>
-                     <and>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
-
-                     </and>
-                  </test>
-                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
-                </when>
-                <otherwise>
-                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-                </otherwise>
-              </choose>
+              
 
     </def-macro>
 
@@ -228,8 +212,8 @@
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
                       
                   </test>
-                 <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
-                <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
               </choose>
            <choose>
@@ -237,16 +221,30 @@
                    <test>
                      <and>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
 
                      </and>
                   </test>
-                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                </when>
+               
+              </choose>
+<choose>
+               <when>
+                   <test>
+                     <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                      <equal><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></equal>
+                     </and>
+                  </test>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v="p1"/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v="sg"/></let>
                 </when>
                 <otherwise>
-                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v="p3"/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v="sg"/></let>
                 </otherwise>
               </choose>
      </def-macro>
@@ -752,6 +750,23 @@
         <call-macro n="conv-temps1">
           <with-param pos="1"/>
         </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                     <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+
+                     </and>
+                  </test>
+                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                </when>
+                <otherwise>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                </otherwise>
+              </choose>
         <out>
           <chunk name="cop" case="caseFirstWord">
             <tags>
@@ -819,6 +834,23 @@
    <call-macro n="conv-temps1">
           <with-param pos="2"/>
         </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                     <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+
+                     </and>
+                  </test>
+                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                </when>
+                <otherwise>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                </otherwise>
+              </choose>
  <call-macro n="conv-vpron">
           <with-param pos="2"/>
         </call-macro>
@@ -997,6 +1029,23 @@
         <call-macro n="conv-temps1">
           <with-param pos="1"/>
         </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                     <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+
+                     </and>
+                  </test>
+                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                </when>
+                <otherwise>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                </otherwise>
+              </choose>
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
@@ -1038,6 +1087,23 @@
         <call-macro n="conv-temps1">
           <with-param pos="1"/>
         </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                     <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+
+                     </and>
+                  </test>
+                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                </when>
+                <otherwise>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                </otherwise>
+              </choose>
         <out>
           <chunk name="pres-verb" case="caseFirstWord">
             <tags>
@@ -1071,6 +1137,7 @@
         <call-macro n="conv-temps1">
           <with-param pos="2"/>
         </call-macro>
+
  <call-macro n="conv-vpron">
           <with-param pos="2"/>
         </call-macro>

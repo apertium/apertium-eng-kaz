@@ -759,8 +759,8 @@
 
                      </and>
                   </test>
-                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
                 </when>
                 <otherwise>
                   <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
@@ -843,8 +843,8 @@
 
                      </and>
                   </test>
-                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
                 </when>
                 <otherwise>
                   <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
@@ -1038,8 +1038,8 @@
 
                      </and>
                   </test>
-                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
                 </when>
                 <otherwise>
                   <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
@@ -1096,8 +1096,8 @@
 
                      </and>
                   </test>
-                  <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
                 </when>
                 <otherwise>
                   <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>

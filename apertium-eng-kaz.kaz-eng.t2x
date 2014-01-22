@@ -21,6 +21,11 @@
     <def-cat n="SN-GEN">
       <cat-item tags="SN.GEN"/>
     </def-cat>
+
+<def-cat n="SV">
+      <cat-item tags="SV"/>
+      <cat-item tags="SV.*"/>
+    </def-cat>
     <def-cat n="SN-ADVP">
       <cat-item tags="SN.LOC"/>
       <cat-item tags="SN.ABL"/>
@@ -34,6 +39,12 @@
       <attr-item tags="SN.ABL"/>
       <attr-item tags="SN.DAT"/>
       <attr-item tags="SN.INS"/>
+    </def-attr>
+ <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
@@ -49,7 +60,24 @@
       <attr-item tags="ins"/>
       <attr-item tags="loc"/>
       <attr-item tags="abl"/>
+ </def-attr>
+<def-attr n="a_tns">
+      <attr-item tags="ifi"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="aor"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pri"/>
+       <attr-item tags="prc_pers"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="inf"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="pprs"/>
+
+      <attr-item tags="gna9"/>
+      <attr-item tags="prc_impf"/>
+      <attr-item tags="ger_past"/>
     </def-attr>
+   
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
@@ -138,6 +166,47 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+
+
+
+  <rule comment="REGLA: SN SV">  <!--sets pers and number for p3 pl SV -->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+       <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+<let>     <clip pos="2" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
+</when>
+</choose>
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
     <rule comment="REGLA: SN-GEN SN-POST">
       <pattern>

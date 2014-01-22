@@ -851,9 +851,7 @@
                   <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
                 </otherwise>
               </choose>
- <call-macro n="conv-vpron">
-          <with-param pos="2"/>
-        </call-macro>
+
          <choose>
                <when>
                    <test>
@@ -1133,15 +1131,12 @@
         <pattern-item n="vaux"/>
       </pattern>
       <action>
-        
+       
         <call-macro n="conv-temps1">
           <with-param pos="2"/>
         </call-macro>
 
- <call-macro n="conv-vpron">
-          <with-param pos="2"/>
-        </call-macro>
-         <choose>
+        <choose><!-- choosing correct to be-->
                <when>
                    <test>
                    
@@ -1159,6 +1154,28 @@
                       </test>
                  <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
            <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="past"/></equal>
+                     </and>
+                      </test>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v="p3"/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v="sg"/></let>
+
                 </when>
            </choose>
 
@@ -1202,7 +1219,6 @@
                      <or>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
 
                      </or> 
                    </test>
@@ -1263,7 +1279,6 @@
                      <or>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
                      </or> 
                    </test>
                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>

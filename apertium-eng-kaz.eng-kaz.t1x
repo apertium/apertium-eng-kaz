@@ -9,8 +9,7 @@
       <cat-item tags="vblex.past"/>
     </def-cat>   
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
-      <cat-item tags="*.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
-      <cat-item tags="vblex.pres"/>
+      <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
       <cat-item tags="vbmod.ger"/>
     </def-cat>
     <def-cat n="vaux-will"> <!-- future -->
@@ -1403,7 +1402,7 @@
   <pattern>
 
     <pattern-item n="vbmod-want-to"/>
-    <pattern-item n="approx-inf-verb"/>  <!--I want to go - Менің барғым келеді-->
+    <pattern-item n="pers-verb"/>  <!--I want to go - Менің барғым келеді-->
   </pattern>
 <action>
   <call-macro n="default-nbr-pers"/>
@@ -1496,7 +1495,7 @@
   <pattern>
 
     <pattern-item n="vbmod-have-to"/>
-    <pattern-item n="approx-inf-verb"/>  <!--I have to go - Менің баруым керек-->
+    <pattern-item n="pers-verb"/>  <!--I have to go - Менің баруым керек-->
   </pattern>
 <action>
 <!--
@@ -1588,7 +1587,7 @@
   <pattern>
 
     <pattern-item n="vbmod-need-to"/>
-    <pattern-item n="approx-inf-verb"/>  <!--I need to go - Маған бару керек-->
+    <pattern-item n="pers-verb"/>  <!--I need to go - Маған бару керек-->
   </pattern>
 <action>
   <call-macro n="default-nbr-pers"/>
@@ -1720,7 +1719,6 @@
 
 
 
-
 <rule comment="NEW RULE: have"> <!--I have a book - Mende kitap bar-->
   <pattern>
     <pattern-item n="vblex-have"/>
@@ -1777,6 +1775,54 @@
     </choose>   
   </action>
 </rule>
+
+
+<rule comment="NEW RULE: Is/Was?"> <!--Is/Was? -->
+
+  <pattern>
+    <pattern-item n="pers-verb-to-be"/>
+   </pattern>
+  <action>
+  
+       <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="aor"/></let> 
+     
+      </when>
+
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+         <let><var n="tense"/><lit-tag v="ifi"/></let> 
+   
+      </when>
+    </choose>
+ <out> <chunk name="VP_q">  
+      <tags>
+       <tag><lit-tag v="VPQ"/></tag>
+       <tag> <var n="tense"/>  </tag>
+      </tags>
+      <lu>
+      <lit v="ма"/>
+      <lit-tag v="qst"/>
+       <lit-tag v="2"/> 
+       </lu>
+     </chunk>
+</out> 
+  </action>
+</rule>
+
+
 
 <rule comment="NEW RULE: to be noun"> <!--I am a doctor - ^Мен/мен<post>/мен<prn><pers><p1><sg><nom>$ ^дәрігермін/дәрігер<n><nom>+е<cop><p1><sg>$^./.<sent>$
 -->
@@ -2192,6 +2238,9 @@
 </out> 
   </action>
 </rule>
+
+
+
 
 
 <rule comment="NEW RULE: verb"> 
@@ -2661,7 +2710,7 @@
 <!-- superblank management needs to be corrected -->
   <pattern>
     <pattern-item n="vaux-will"/>
-    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+    <pattern-item n="pers-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
    </pattern>
   <action>
 
@@ -2716,7 +2765,7 @@
   <pattern>
     <pattern-item n="vaux-will"/>
 <pattern-item n="not"/>
-    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+    <pattern-item n="pers-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
    </pattern>
   <action>	
     <let><var n="tense"/><lit-tag v="aor"/></let>
@@ -2773,7 +2822,7 @@
   <pattern>
 
     <pattern-item n="vaux-must"/>
-    <pattern-item n="approx-inf-verb"/>  <!--I must go - Мен баруым керек-->
+    <pattern-item n="pers-verb"/>  <!--I must go - Мен баруым керек-->
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
@@ -2986,6 +3035,33 @@
       </action>
 </rule>
 
+
+
+
+
+<rule comment="NEW RULE: have?"> <!--have? -->
+
+  <pattern>
+    <pattern-item n="vaux-have"/>
+   </pattern>
+  <action>
+   <let><var n="tense"/><lit-tag v="past"/></let>
+  
+   <out> <chunk name="VP_q">  
+      <tags>
+       <tag><lit-tag v="VPQ"/></tag>
+       <tag> <var n="tense"/>  </tag>
+      </tags>
+      <lu>
+      <lit v="ма"/>
+      <lit-tag v="qst"/>
+       <lit-tag v="2"/> 
+       </lu>
+     </chunk>
+</out> 
+ 
+  </action>
+</rule>
 
 <rule comment="NEW RULE: have + verb-pp"> <!--prs perfect verb -->
 <!-- superblank management not corrected yet -->
@@ -3214,7 +3290,7 @@
   <pattern>
     
    <pattern-item n="vaux-should"/>
-    <pattern-item n="approx-inf-verb"/>
+    <pattern-item n="pers-verb"/>
   </pattern>
   <action>
  
@@ -8029,6 +8105,21 @@ this would have to be changed -->
  
   </action>
 </rule>
+
+
+<rule comment="NEW RULE: vbser- verb"> 
+  <pattern>
+    <pattern-item n="verb-pp"/>
+  </pattern>
+  <action>
+     <let><var n="tense"/><lit-tag v="past"/></let> 
+      <call-macro n="NEW-gen-simple-verb">
+         <with-param pos="1"/> 
+     </call-macro>
+ 
+  </action>
+</rule>
+
 
 
 

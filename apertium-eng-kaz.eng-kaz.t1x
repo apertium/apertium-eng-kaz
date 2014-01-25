@@ -21,6 +21,10 @@
 <def-cat n="vaux-must"> <!-- must -->
       <cat-item lemma="must" tags="vaux.*"/>
     </def-cat>
+<def-cat n="vaux-may"> <!-- must -->
+      <cat-item lemma="may" tags="vaux.*"/>
+      <cat-item lemma="might" tags="vaux.*"/>
+    </def-cat>
 
 <def-cat n="vbmod-have-to"> <!-- have -->
       <cat-item lemma="have# to" tags="vbmod.*"/>
@@ -2849,6 +2853,85 @@
           <lit v="керек"/>
          <lit-tag v="n"/>
           <lit-tag v="nom"/>	
+        </lu>
+      </chunk>
+  </out>
+      
+  </action>
+</rule>
+
+<!-- may/might-->
+<rule comment="NEW RULE: may/might + not + infinitive"> 
+  <pattern>
+
+    <pattern-item n="vaux-may"/>
+    <pattern-item n="not"/>
+    <pattern-item n="approx-inf-verb"/>  
+  </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+        <out>
+      <chunk name="must-inf">
+      <tags>
+        <tag><lit-tag v="VP_must_inf"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="neg"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+       <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+           <lit-tag v="6"/>
+    	   <lit-tag v="4"/>
+           <lit-tag v="5"/>
+           <lit-tag v="nom"/>
+        </lu>
+        <b/> 
+        <lu>
+          <lit v="керек"/>
+         <lit-tag v="adj"/>
+        </lu>
+      </chunk>
+  </out>
+      
+  </action>
+</rule>
+
+
+<rule comment="NEW RULE: may/might + infinitive"> <!--may/might verb -->
+  <pattern>
+
+    <pattern-item n="vaux-may"/>
+    <pattern-item n="pers-verb"/>  
+  </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+        <out>
+      <chunk name="must-inf">
+      <tags>
+        <tag><lit-tag v="VP_must_inf"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	         <clip pos="2" side="tl" part="a_kaz_verb"/>
+    	      <lit-tag v="4"/>
+           <lit-tag v="5"/>
+           <lit-tag v="nom"/>
+        </lu>
+        <b/> 
+        <lu>
+          <lit v="мүмкін"/>
+         <lit-tag v="adj"/>
         </lu>
       </chunk>
   </out>

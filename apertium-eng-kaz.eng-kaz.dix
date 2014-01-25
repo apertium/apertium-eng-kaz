@@ -2302,8 +2302,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>slowly<s n="adv"/></l><r>жай<s n="adv"/></r></p></e>
     <e><p><l>then<s n="adv"/></l><r>сосын<s n="adv"/></r></p></e>
     <e><p><l>again<s n="adv"/></l><r>қайтадан<s n="adv"/></r></p></e>
-    <e><p><l>carefully<s n="adv"/></l><r>байқап<s n="adv"/></r></p></e>
-	 <!-- maybe "ақырын"? "абайлап"? -->
+    <e><p><l>carefully<s n="adv"/></l><r>ақырын<s n="adv"/></r></p></e>
+    <e><p><l>slightly<s n="adv"/></l><r>азғантай<s n="adv"/></r></p></e>
     <e><p><l>also<s n="adv"/></l><r>тағы<s n="adv"/></r></p></e>
     <e><p><l>so<s n="adv"/></l><r>солай<s n="adv"/></r></p></e>
 	 <!-- isn't тағы a postadv? -->
@@ -2493,7 +2493,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>taste<s n="adj"/></l><r>дәмді<s n="adj"/></r></p></e>
 <e><p><l>thin<s n="adj"/></l><r>жіңішке<s n="adj"/></r></p></e>
 <e><p><l>fast<s n="adj"/></l><r>тез<s n="adj"/></r></p></e>
-
+<e><p><l>unusual<s n="adj"/></l><r>төтенше<s n="adj"/></r></p></e>
+<e><p><l>giant<s n="adj"/></l><r>алып<s n="adj"/></r></p></e>
+<e><p><l>inflatable<s n="adj"/></l><r>үрмелі<s n="adj"/></r></p></e>
 
 <!-- Раздел: Местоимение -->
 
@@ -2605,6 +2607,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>have<s n="vblex"/></l><r>бар<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hide<s n="vblex"/></l><r>жасыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hide<s n="vblex"/></l><r>жасырын<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>hit<s n="vblex"/></l><r>соқ<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>increase<s n="vblex"/></l><r>өс<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>jump<s n="vblex"/></l><r>секір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>kick<s n="vblex"/></l><r>теп<s n="v"/><s n="tv"/></r></p></e>
@@ -2619,6 +2622,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>look<g><b/>at</g><s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>look<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>love<s n="vblex"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
+
 <e><p><l>make<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>need<s n="vblex"/></l><r>қажет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>offer<s n="vblex"/></l><r>ұсын<s n="v"/><s n="tv"/></r></p></e>
@@ -2630,7 +2634,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>run<s n="vblex"/></l><r>жүгір<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>search<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>seem<s n="vblex"/></l><r>сияқтан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>seem<s n="vblex"/></l><r>көрін<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>send<s n="vblex"/></l><r>жібер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>shut<s n="vblex"/></l><r>жап<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>sit<s n="vblex"/></l><r>отыр<s n="v"/><s n="iv"/></r></p></e>
@@ -2645,8 +2649,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>stitch<s n="vblex"/></l><r>тік<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>stop<s n="vblex"/></l><r>тоқта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>see<s n="vblex"/></l><r>көр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>suit<s n="vblex"/></l><r>жарас<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>talk<s n="vblex"/></l><r>сөйле<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>train<s n="vblex"/></l><r>жаттықтыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>turn<s n="vblex"/></l><r>бұр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>take<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>touch<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>

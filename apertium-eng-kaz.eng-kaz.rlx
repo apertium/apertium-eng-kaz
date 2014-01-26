@@ -25,6 +25,7 @@ LIST Ger = ger ;
 LIST VerbalNoun = (vblex subs) ;
 LIST PPRS = (vblex pprs); 
 LIST PrcPast = pp ; 
+LIST AdvItg = (adv itg) ; 
 
 LIST Interr = itg ; 
 LIST Subj = subj ; 
@@ -68,6 +69,8 @@ REMOVE V-FIN IF (-1C V-FIN);  # Careful: would kill "The man who _came_ _wrote_ 
 REMOVE N IF (0 ("<is>"i)) ; 
 
 REMOVE N IF (0 ("<will>"))(1 ADV-NOT);
+
+SELECT AdvItg if (1C V) ;
 
 SELECT Rel if (-1 N) ;
 

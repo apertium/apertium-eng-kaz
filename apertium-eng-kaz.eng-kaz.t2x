@@ -211,6 +211,7 @@
     <def-var n="possessive1"/>
     <def-var n="possessive2"/>
     <def-var n="formality"/>
+    <def-var n="caseFirstWord"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -278,7 +279,39 @@
 
 </def-macro>
 
+<def-macro n="change-case" npar="1">  <!--change case to lower for p1 sg "I" -->
+<choose>
+  <when>
+       <test>
+         <equal>
+           
+           <clip pos="1"  part="a_pers"/>
+            <lit-tag v="p1"/>
+          
+           </equal>
+          </test>
+       <modify-case>
+        <clip pos="1"  part="lem"/>
+          <lit v="aa"/>
+        </modify-case>
+             <let>
+		 <clip pos="1"  part="lem"/>
+		<lit v="aa"/>
+	      </let>
+       </when>
+  <otherwise> 
+  <modify-case>
+        <clip pos="1"  part="lem"/>
+          <lit v="aa"/>
+        </modify-case>
+	      <let>
+		 <clip pos="1"  part="lem"/>
+		<lit v="aa"/>
+	      </let>
+	    </otherwise>
+</choose>
 
+</def-macro>
 
   </section-def-macros>
   <section-rules>
@@ -826,6 +859,9 @@
        <pattern-item n="VP"/>
      </pattern>
      <action>
+<call-macro n="change-case">   
+<with-param pos="2"/>
+  </call-macro>
            <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -834,8 +870,10 @@
           </chunk> 
       <b pos="1"/>
       <b pos="2"/>
-           <chunk>
+           <chunk >
+
             <clip pos="2" part="lem"/>
+
             <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
           </chunk>

@@ -8013,6 +8013,35 @@ this would have to be changed -->
 </rule>
 
 
+
+<rule comment="NEW RULE: which house what house"> <!-- + noun-->  
+  <pattern>
+    <pattern-item n="adv-itg"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+ <call-macro n="change-case"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="adv-itg">
+    <tags>
+    <tag><lit-tag v="QAdvP"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+     </lu>
+<b/>
+  <lu>
+               <clip pos="2" side="tl" part="lem"/> 
+               <clip pos="2" side="tl" part="a_nom"/>
+               <lit-tag v="acc"/>
+ </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+
+
 <rule comment="NEW RULE: adv-itg"> <!-- when/where/why-->  
   <pattern>
     <pattern-item n="adv-itg"/>
@@ -8031,6 +8060,8 @@ this would have to be changed -->
     </out>
   </action>
 </rule>
+
+
 
 
 <rule comment="NEW RULE: adv">  

@@ -825,7 +825,7 @@
 
 
 
-    <rule comment="RULE: V-ING VAUX-NEG">
+    <rule comment="RULE: V-ING VAUX-NEG"> <!-- negative present/past cont -->
       <pattern>
         <pattern-item n="v-ing"/>
         <pattern-item n="vaux-neg"/>
@@ -834,28 +834,13 @@
    <call-macro n="conv-temps1">
           <with-param pos="2"/>
         </call-macro>
- <choose>
-                 <when>
-                   <test>
-                     <and>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+ 
 
-                     </and>
-                  </test>
-                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-                </when>
-                <otherwise>
-                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-                </otherwise>
-              </choose>
-
-         <choose>
+         <choose><!-- choosing correct to be-->
                <when>
                    <test>
-                   <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                   
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
                       </test>
                  <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
            <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
@@ -868,17 +853,33 @@
                      </and>
                       </test>
                  <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
-                 <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
-           </choose>
-          <choose>
-               <when>
+
+<when>
                    <test>
-                   <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="ifi"/></equal>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="past"/></equal>
+                     </and>
                       </test>
-                 <let><clip pos="2" side="tl" part="a_tns"/><lit-tag v="past"/></let>
+                 <let><clip pos="2" side="tl" part="a_pers"/><lit v="p3"/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v="sg"/></let>
+
                 </when>
            </choose>
+           <choose>
+<when>
+                   <test>
+                  
+                  <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="pres"/></equal>
+                      </test>
+                 <let><clip pos="2" side="tl" part="a_tns"/><lit v="pres"/></let>
+
+                </when>
+           </choose>
+          
         <out>        
           <chunk name="verb-ing-not" case="caseFirstWord">
             <tags>
@@ -1019,7 +1020,7 @@
       </action>
     </rule>
 
-    <rule comment="RULE: V-NEG-FIN">
+    <rule comment="RULE: V-NEG-FIN"> <!-- negative present/past simple-->
       <pattern>
         <pattern-item n="v-neg-fin"/>
       </pattern>
@@ -1027,23 +1028,7 @@
         <call-macro n="conv-temps1">
           <with-param pos="1"/>
         </call-macro>
- <choose>
-                 <when>
-                   <test>
-                     <and>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
 
-                     </and>
-                  </test>
-                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-                </when>
-                <otherwise>
-                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-                </otherwise>
-              </choose>
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
@@ -1055,9 +1040,9 @@
             <lu>
               <lit v="do"/>
               <lit-tag v="vbdo"/>
-              <clip pos="1" side="tl" part="a_tns"/>
-              <clip pos="1" side="tl" part="a_pers"/>
-              <clip pos="1" side="tl" part="a_nbr"/>
+              <lit-tag v="2"/>
+             <lit-tag v="3"/>
+             <lit-tag v="4"/>
             </lu>
             <b/>
             <lu>
@@ -1077,7 +1062,7 @@
     </rule>
 
 
-    <rule comment="RULE: V-FIN">
+    <rule comment="RULE: V-FIN">   <!-- present simple past simple-->
       <pattern>
         <pattern-item n="v-fin"/>
       </pattern>
@@ -1085,7 +1070,7 @@
         <call-macro n="conv-temps1">
           <with-param pos="1"/>
         </call-macro>
- <choose>
+ <!--<choose>
                  <when>
                    <test>
                      <and>
@@ -1101,7 +1086,7 @@
                   <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
                   <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
                 </otherwise>
-              </choose>
+              </choose>-->
         <out>
           <chunk name="pres-verb" case="caseFirstWord">
             <tags>
@@ -1113,9 +1098,9 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="a_tns"/>
-              <clip pos="1" side="tl" part="a_pers"/>
-              <clip pos="1" side="tl" part="a_nbr"/>
+             <lit-tag v="2"/>
+             <lit-tag v="3"/>
+             <lit-tag v="4"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>

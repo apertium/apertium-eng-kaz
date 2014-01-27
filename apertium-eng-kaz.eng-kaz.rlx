@@ -72,6 +72,10 @@ REMOVE N IF (0 ("<will>"))(1 ADV-NOT);
 
 SELECT AdvItg if (1C V) ;
 
+SELECT AdvItg if (2C V) ;
+
+SELECT N if (-1 AdvItg) ;
+
 SELECT Rel if (-1 N) ;
 
 SELECT V-HAVE if (2C V) ;

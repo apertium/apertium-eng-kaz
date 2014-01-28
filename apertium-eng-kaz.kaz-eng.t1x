@@ -41,6 +41,15 @@
       <cat-item tags="vaux.*.ifi.*"/>
     </def-cat>
 
+<def-cat n="v-fut">
+      <cat-item tags="v.*.aor.*"/>
+      <cat-item tags="v.*.ifi.*"/>
+      <cat-item tags="vaux.*.aor.*"/> 
+      <cat-item tags="vaux.*.ifi.*"/>
+    </def-cat>
+
+
+
     <def-cat n="v-neg-pot">
       <cat-item lemma="ал" tags="v.tv.neg.aor.*"/>
       <cat-item lemma="ал" tags="v.tv.neg.ifi.*"/>
@@ -1422,6 +1431,63 @@
         </out>
       </action>
     </rule>
+
+
+
+
+
+<rule comment="RULE: V-future"> <!--future perfect-->
+      <pattern>
+        <pattern-item n="v-fut"/>
+      </pattern>
+      <action>
+         <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
+          <choose>
+               <when>
+                   <test>
+                     <or>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                     </or> 
+                   </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+
+
+        <out>
+          <chunk name="verb-futperf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="will"/>
+             <lit-tag v="vaux-will"/>
+              <lit v="have"/>
+              <lit-tag v="vbhaver"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <lit-tag v="4"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="pp"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+
 
   </section-rules>
 </transfer>

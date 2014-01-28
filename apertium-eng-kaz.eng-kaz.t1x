@@ -89,6 +89,16 @@
       <cat-item lemma="not" tags="adv"/>
      </def-cat>
 
+<def-cat n="old">
+      <cat-item lemma="old" tags="adj.*"/>
+     </def-cat>
+
+<def-cat n="years">
+      <cat-item lemma="year" tags="n.pl.*"/>
+      <cat-item lemma="year" tags="n.pl"/>
+     </def-cat>
+
+
 <!--     
 <def-cat n="be">
       <cat-item lemma="be" tags="vbser.inf"/>
@@ -1492,6 +1502,42 @@
     </choose>
       </action>
 </rule>
+
+
+
+<rule comment="NEW RULE: num years old">  <!-- num years old-->
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="years"/>
+    <pattern-item n="old"/>
+  </pattern>
+  <action>
+<call-macro n="NEW-build-noun-lu-2-4-5-sg">
+       <with-param pos="2"/>
+  </call-macro>  <!-- noun is built in singular as the NP contains numerals -->
+<call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="num-years-old">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="2" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="loc"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="num_lu"/>
+     </lu>
+	<b pos="1"/>
+	<lu>
+      <var n="NEW-noun_lu"/>
+
+    </lu>
+    </chunk>
+    </out>
+      </action>
+</rule>
+
 
 
 
@@ -4442,6 +4488,9 @@
     </out>
       </action>
 </rule>
+
+
+
 
 <rule comment="NEW RULE: prep num noun1 noun2"> 
   <pattern>

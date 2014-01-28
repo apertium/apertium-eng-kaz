@@ -32,6 +32,7 @@
     
     <def-cat n="nomobject">
        <cat-item tags="n.nom"/>
+       <cat-item tags="n.*.loc"/> 
        <cat-item tags="np.top"/>
        <cat-item tags="n.*.nom"/>
        <cat-item tags="adj"/>

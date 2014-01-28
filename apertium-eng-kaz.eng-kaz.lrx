@@ -54,6 +54,14 @@
 
   </rule>
 
+<rule>
+    <match lemma="year" tags="n.pl.*"><select lemma="жыл" tags="n.*"/></match>
+  </rule>
 
 
+  <rule>
+    <match lemma="year" tags="n.pl.*"><select lemma="жас" tags="n.*"/></match>
+    <match lemma="old" tags="adj.*"/>
+   
+  </rule>
 </rules>

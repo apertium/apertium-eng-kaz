@@ -42,10 +42,8 @@
     </def-cat>
 
 <def-cat n="v-fut">
-      <cat-item tags="v.*.aor.*"/>
-      <cat-item tags="v.*.ifi.*"/>
-      <cat-item tags="vaux.*.aor.*"/> 
-      <cat-item tags="vaux.*.ifi.*"/>
+      <cat-item tags="v.*.fut.*"/>
+     
     </def-cat>
 
 
@@ -1441,18 +1439,18 @@
 
 
 
-<rule comment="RULE: V-future"> <!--future perfect-->
+<rule comment="RULE: V-future"> <!--future perfect I will have played-->
       <pattern>
         <pattern-item n="v-fut"/>
       </pattern>
       <action>
-         <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
           <choose>
                <when>
                    <test>
                      <or>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
                      </or> 
                    </test>
                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
@@ -1465,24 +1463,26 @@
           <chunk name="verb-futperf" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><lit-tag v="pp"/></tag>
               <tag><clip pos="1" side="tl" part="a_pers"/></tag>
               <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
             </tags>
             <lu>
               <lit v="will"/>
-             <lit-tag v="vaux-will"/>
+             <lit-tag v="vaux"/>
+             <lit-tag v="inf"/>
+ </lu>
+  <b/>
+<lu>
               <lit v="have"/>
               <lit-tag v="vbhaver"/>
-              <lit-tag v="2"/>
-              <lit-tag v="3"/>
-              <lit-tag v="4"/>
+              <lit-tag v="inf"/>
             </lu>
             <b/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <lit-tag v="pp"/>
+              <lit-tag v="2"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>

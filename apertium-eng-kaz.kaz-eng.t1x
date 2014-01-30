@@ -43,13 +43,17 @@
 
 <def-cat n="v-fut">
       <cat-item tags="v.*.fut.*"/>
-     
-    </def-cat>
+         </def-cat>
 
 <def-cat n="v-futCon">
       <cat-item tags="vaux.fut.*"/> <!-- because all жатыр/отыр is vaux verbs-->
      
     </def-cat>
+<def-cat n="v-futCon-neg">
+      <cat-item tags="v.*.neg.fut.*"/> 
+     
+    </def-cat>
+
 
     <def-cat n="v-neg-pot">
       <cat-item lemma="ал" tags="v.tv.neg.aor.*"/>
@@ -1127,6 +1131,59 @@
       <pattern>
         <pattern-item n="v-ing"/>
         <pattern-item n="v-futCon"/>
+      </pattern>
+      <action>
+          <choose>
+               <when>
+                   <test>
+                     <or>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                     </or> 
+                   </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+
+
+        <out>
+          <chunk name="verb-futcont" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="subs"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="will"/>
+             <lit-tag v="vaux"/>
+             <lit-tag v="inf"/>
+ </lu>
+  <b/>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="inf"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="2"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+<rule comment="RULE: V-futureCon"> <!--future negative continuous I will not be playing-->
+      <pattern>
+        <pattern-item n="v-ing"/>
+        <pattern-item n="v-futCon-neg"/>
       </pattern>
       <action>
           <choose>

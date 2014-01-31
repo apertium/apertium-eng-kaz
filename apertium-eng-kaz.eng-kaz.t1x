@@ -93,6 +93,11 @@
       <cat-item lemma="old" tags="adj.*"/>
      </def-cat>
 
+<def-cat n="one-another">
+      <cat-item lemma="one another" tags="n.*"/>
+      <cat-item lemma="each other" tags="n.*"/>
+     </def-cat>
+
 <def-cat n="years">
       <cat-item lemma="year" tags="n.pl.*"/>
       <cat-item lemma="year" tags="n.pl"/>
@@ -1373,6 +1378,32 @@
 
 
 <section-rules>
+
+
+<rule comment="NEW RULE: one another">  
+  <pattern>
+    <pattern-item n="one-another"/>
+  </pattern>
+  <action>
+ 
+    <out>
+    <chunk name="One-anoth">
+    <tags>
+  <tag><lit-tag v="One-anoth"/></tag>
+<tag><lit-tag v="PXD"/></tag>
+<tag><lit-tag v="CD"/></tag>
+    </tags>
+    <lu>
+<clip pos="1" side="tl" part="lem"/> 
+<clip pos="1" side="tl" part="a_pron"/> 
+<lit-tag v="recip"/>
+<lit-tag v="2"/>
+<lit-tag v="3"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 
 <rule comment="NEW RULE: noun1 noun2">  <!-- football player-->

@@ -33,6 +33,7 @@
     <def-cat n="v-neg-fin">
       <cat-item tags="v.*.neg.aor.*"/>
       <cat-item tags="v.*.neg.ifi.*"/>
+
     </def-cat>
     <def-cat n="v-fin">
       <cat-item tags="v.*.aor.*"/>
@@ -50,9 +51,15 @@
      
     </def-cat>
 <def-cat n="v-futCon-neg">
-      <cat-item tags="v.*.neg.fut.*"/> 
+      <cat-item tags="vaux.neg.aor.*"/> 
      
     </def-cat>
+<def-cat n="v-perfcon">
+      <cat-item tags="vaux.past.*"/> 
+      </def-cat>
+<def-cat n="v-perfcon-neg">
+      <cat-item tags="vaux.neg.past.*"/> 
+      </def-cat>
 
 
     <def-cat n="v-neg-pot">
@@ -851,9 +858,136 @@
       </action>
     </rule>
 
+<rule comment="RULE: V-PrPerCon"> <!--Present Perfect Continuous in Negative-->
+      <pattern>
+ <pattern-item n="v-ing"/>
+        <pattern-item n="v-perfcon-neg"/>
+      </pattern>
+      <action>
+         <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
+          <choose>
+               <when>
+                   <test>
+                     <or>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                     </or> 
+                   </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
 
 
-    <rule comment="RULE: V-ING VAUX-NEG"> <!-- negative present/past cont -->
+        <out>
+          <chunk name="verb-presperfcon" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            
+              <tag><clip pos="2" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="have"/>
+              <lit-tag v="vbhaver"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+            </lu>
+            <b/>
+<lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>
+             
+            </lu>
+            <b/>
+
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pp"/>
+              
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="ger"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule> 
+
+
+
+
+<rule comment="RULE: V-futureCon"> <!--future negative continuous I will not be playing-->
+      <pattern>
+        <pattern-item n="v-ing"/>
+        <pattern-item n="v-futCon-neg"/>
+      </pattern>
+      <action>
+          <choose>
+               <when>
+                   <test>
+                     <or>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                     </or> 
+                   </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+
+
+        <out>
+          <chunk name="verb-futcont" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="subs"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="will"/>
+             <lit-tag v="vaux"/>
+             <lit-tag v="inf"/>
+ </lu>
+  <b/>
+
+ <lu>
+              <lit v="not"/>
+             <lit-tag v="adv"/>
+            
+ </lu>
+  <b/>
+
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="inf"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="2"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  
+
+
+
+    <rule comment="RULE: V-ING VAUX-NEG"> <!-- negative present contin/past cont -->
       <pattern>
         <pattern-item n="v-ing"/>
         <pattern-item n="vaux-neg"/>
@@ -1048,84 +1182,65 @@
       </action>
     </rule>
 
-    <rule comment="RULE: V-NEG-FIN"> <!-- negative present/past simple-->
+
+
+
+<rule comment="RULE: V-PrPerCon"> <!--Present Perfect Continuous-->
       <pattern>
-        <pattern-item n="v-neg-fin"/>
+ <pattern-item n="v-ing"/>
+        <pattern-item n="v-perfcon"/>
       </pattern>
       <action>
-        <call-macro n="conv-temps1">
-          <with-param pos="1"/>
-        </call-macro>
-<call-macro n="conv-vpron">
-          <with-param pos="1"/>
-        </call-macro>
+         <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
+          <choose>
+               <when>
+                   <test>
+                     <or>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                     </or> 
+                   </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+
 
         <out>
-          <chunk name="v" case="caseFirstWord">
+          <chunk name="verb-presperfcon" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
-              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
-              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            
+              <tag><clip pos="2" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
             </tags>
             <lu>
-              <lit v="do"/>
-              <lit-tag v="vbdo"/>
+              <lit v="have"/>
+              <lit-tag v="vbhaver"/>
+              <lit-tag v="pres"/>
               <lit-tag v="2"/>
-             <lit-tag v="3"/>
-             <lit-tag v="4"/>
+              <lit-tag v="3"/>
             </lu>
             <b/>
-            <lu>
-              <lit v="not"/>
-              <lit-tag v="adv"/>
+
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pp"/>
+              
             </lu>
             <b/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <lit-tag v="inf"/>
+              <lit-tag v="ger"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
       </action>
-    </rule>
+    </rule> 
 
-
-    <rule comment="RULE: V-FIN">   <!-- present simple past simple-->
-      <pattern>
-        <pattern-item n="v-fin"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-temps1">
-          <with-param pos="1"/>
-        </call-macro>
-  <call-macro n="conv-vpron">
-          <with-param pos="1"/>
-        </call-macro>
-
-
-        <out>
-          <chunk name="pres-verb" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
-              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
-              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-             <lit-tag v="2"/>
-             <lit-tag v="3"/>
-             <lit-tag v="4"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
 
 <rule comment="RULE: V-futureCon"> <!--future continuous I will be playing-->
       <pattern>
@@ -1180,59 +1295,8 @@
     </rule>
 
 
-<rule comment="RULE: V-futureCon"> <!--future negative continuous I will not be playing-->
-      <pattern>
-        <pattern-item n="v-ing"/>
-        <pattern-item n="v-futCon-neg"/>
-      </pattern>
-      <action>
-          <choose>
-               <when>
-                   <test>
-                     <or>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
-                     </or> 
-                   </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-                 <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                </when>
-           </choose>
 
-
-        <out>
-          <chunk name="verb-futcont" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><lit-tag v="subs"/></tag>
-              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
-              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-            </tags>
-            <lu>
-              <lit v="will"/>
-             <lit-tag v="vaux"/>
-             <lit-tag v="inf"/>
- </lu>
-  <b/>
-<lu>
-              <lit v="be"/>
-              <lit-tag v="vbser"/>
-              <lit-tag v="inf"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <lit-tag v="2"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-   <rule comment="RULE: V-ING VAUX"> <!--for present and past continuous-->
+ <rule comment="RULE: V-ING VAUX"> <!--for present and past continuous-->
       <pattern>
         <pattern-item n="v-ing"/>
         <pattern-item n="vaux"/>
@@ -1312,6 +1376,93 @@
         </out>
       </action>
     </rule>
+
+
+
+
+
+
+    <rule comment="RULE: V-NEG-FIN"> <!-- negative present/past simple-->
+      <pattern>
+        <pattern-item n="v-neg-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+<call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="do"/>
+              <lit-tag v="vbdo"/>
+              <lit-tag v="2"/>
+             <lit-tag v="3"/>
+             <lit-tag v="4"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="RULE: V-FIN">   <!-- present simple past simple-->
+      <pattern>
+        <pattern-item n="v-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+        <out>
+          <chunk name="pres-verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="2"/>
+             <lit-tag v="3"/>
+             <lit-tag v="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
 
 
 <rule comment="RULE: V-have not pp"> <!--for negative present/past perfect-->
@@ -1420,6 +1571,12 @@
         </out>
       </action>
     </rule>
+
+
+
+
+
+
 
     <rule comment="REGLA: V-IMP">
       <pattern>

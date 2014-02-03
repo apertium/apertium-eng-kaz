@@ -46,6 +46,7 @@
       <cat-item tags="v.*.fut.*"/>
          </def-cat>
 
+
 <def-cat n="v-futCon">
       <cat-item tags="vaux.fut.*"/> <!-- because all жатыр/отыр is vaux verbs-->
      
@@ -86,6 +87,13 @@
       <cat-item tags="adj.*"/>
      
     </def-cat>
+      <def-cat n="num">
+      <cat-item tags="num"/>
+      <cat-item tags="num.*"/>
+      
+    </def-cat>
+
+
     <def-cat n="loc-attr">
       <cat-item tags="n.px3sp.loc.attr"/>
     </def-cat>
@@ -468,7 +476,7 @@
       </action>
     </rule>
 
-  <rule comment="REGLA: NOM-POST">
+  <rule comment="RULE: NOM-POST">
       <pattern>
         <pattern-item n="nom-post"/>
       </pattern>
@@ -531,6 +539,8 @@
       </action>
     </rule>
 
+
+ 
  
   <rule comment="REGLA: ADJ NOM-GEN LOC-ATTR"> 
       <pattern>
@@ -725,6 +735,56 @@
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="whole"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+<rule comment="RULE: NUM ADJ NOM"> <!--7 ademi kyz-->
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="3"/>
+        </call-macro>
+       <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="whole"/><lit v="one"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="num-adj-nom" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+              <lit-tag v="sp"/>
+            </lu>
+            <b pos="1"/>
+            <b pos="2"/>
+<lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+<b/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
               <var n="number"/>
             </lu>
           </chunk>

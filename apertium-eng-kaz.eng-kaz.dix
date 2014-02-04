@@ -2511,7 +2511,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>able<s n="adj"/></l><r>алғыр<s n="adj"/></r></p></e>
 <e><p><l>absolute<s n="adj"/></l><r>абсолютті<s n="adj"/></r></p></e>
 <e><p><l>adorable<s n="adj"/></l><r>қастерлі<s n="adj"/></r></p></e>
-<e><p><l>adventurous<s n="adj"/></l><r> батыл<s n="adj"/></r></p></e>
+<e><p><l>adventurous<s n="adj"/></l><r>батыл<s n="adj"/></r></p></e>
 <e><p><l>academic<s n="adj"/></l><r>академиялық<s n="adj"/></r></p></e>
 <e><p><l>acceptable<s n="adj"/></l><r>қолайлы<s n="adj"/></r></p></e>
 <e><p><l>acclaimed<s n="adj"/></l><r>жарияланған<s n="adj"/></r></p></e>

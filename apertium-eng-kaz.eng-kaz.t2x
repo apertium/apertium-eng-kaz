@@ -1826,6 +1826,67 @@
      </action>
     </rule>
 
+
+
+<!-- there is new video on the Internet-->
+<rule comment="NEW RULE: NP VP_be NP PP"> 
+     <pattern>
+       <pattern-item n="AdvP"/>
+       <pattern-item n="VP_be"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="PP"/>
+     </pattern>
+     <action>
+<choose>
+          <when>
+            <test>
+                 <equal>
+                     <clip pos="3" part="a_cas"/>
+                     <lit-tag v="CD"/>
+                 </equal>
+               
+             </test>
+            <let><clip pos="3" part="a_cas"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
+
+      <out>
+        <!--  <chunk>
+           <clip pos="1" part="lem"/>  
+            <lit-tag v="AdvP"/>
+            <clip pos="1" part="a_nbr"/> 
+            <clip pos="1" part="a_pers"/> 
+            <clip pos="1" part="a_possessive"/>
+             <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>         
+          </chunk>-->
+
+  <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+       </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+         <chunk>
+            <clip pos="3" part="lem"/>
+            <lit-tag v="NP"/>
+            <clip pos="3" part="a_nbr"/> 
+            <clip pos="3" part="a_pers"/> 
+            <clip pos="3" part="a_possessive"/>
+           <clip pos="3" part="a_cas"/> 
+            <clip pos="3" part="chcontent"/>         
+            
+          </chunk>
+
+       
+    </out>
+     </action>
+    </rule>
+
+
+
+
 <rule comment="NEW RULE: NP VP_be NP"> 
      <pattern>
        <pattern-item n="NP"/>

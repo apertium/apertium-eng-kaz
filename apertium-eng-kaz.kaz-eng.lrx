@@ -6,4 +6,8 @@
     </or>
     <match lemma="жер"><select lemma="place"/></match>
   </rule>
+<rule>
+  
+<match lemma="әдемі" tags="adj"><select lemma="beautiful" tags="adj"/></match>
+  </rule>
 </rules>

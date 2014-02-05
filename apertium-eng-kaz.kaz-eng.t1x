@@ -95,8 +95,16 @@
       <def-cat n="num">
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
-      
+</def-cat>
+
+<def-cat n="dett">
+<cat-item tags="det.dem"/>
+</def-cat>
+
+<def-cat n="gen">
+      <cat-item tags="prn.pers.*.*.gen"/> 
     </def-cat>
+      
 
 
     <def-cat n="loc-attr">
@@ -176,6 +184,15 @@
       <attr-item tags="p3"/>
       <attr-item tags="PD"/>
     </def-attr>
+<def-attr n="a_pos">
+      <attr-item tags="px1sg"/>
+      <attr-item tags="px2sg.frm"/>
+      <attr-item tags="px3sg"/>
+<attr-item tags="px3sp"/>
+<attr-item tags="px1pl"/>
+<attr-item tags="PD"/>
+    </def-attr>
+
 <def-attr n="a_eng_perspron">
        <attr-item tags="prn.subj"/>
     </def-attr>
@@ -192,6 +209,7 @@
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
+<def-var n="num1"/>
     <def-var n="sntype"/>
     <def-var n="current_verb"/>
    <def-var n="adjec_lu"/>
@@ -481,6 +499,50 @@
       </action>
     </rule>
 
+<rule comment="RULE: Pronoun GenP NOM">
+      <pattern>
+        <pattern-item n="gen"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+<let>    
+<clip pos="2" side="tl" part="a_pos"/><lit v=""/>   
+</let> 
+<out>
+          <chunk name="prn-genp-nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="det"/></tag>
+              <tag><lit-tag v="pos"/></tag>
+              <tag><lit-tag v="sg"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+<lit-tag v="2"/>
+<lit-tag v="3"/>
+<lit-tag v="4"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+  
+
   <rule comment="RULE: NOM-POST">
       <pattern>
         <pattern-item n="nom-post"/>
@@ -758,6 +820,58 @@
       </action>
     </rule>
 
+<rule comment="RULE: DET NOM">
+      <pattern>
+        <pattern-item n="dett"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let> <var n="num1"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="num1"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+
+        <out>
+          <chunk name="det-nom" case="caseFirstWord">
+            <tags>
+              
+ <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="det"/></tag>
+              <tag><lit-tag v="dem"/></tag>
+              <tag><var n="num1"/></tag>
+
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+<lit-tag v="2"/>
+<lit-tag v="3"/>
+<lit-tag v="4"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
   <rule comment="RULE: ADJ NOM">

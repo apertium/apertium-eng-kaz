@@ -15,6 +15,9 @@
     <match lemma="president" tags="n.*"/>
   </rule>
 
+
+
+
   <rule>
     <match lemma="government" tags="n.*"/>
     <match lemma="residence" tags="n.*"><select lemma="резиденция" tags="n.*"/></match>
@@ -63,5 +66,9 @@
     <match lemma="year" tags="n.pl.*"><select lemma="жас" tags="n.*"/></match>
     <match lemma="old" tags="adj.*"/>
    
+  </rule>
+
+  <rule>
+    <match lemma="sky" tags="n.*"><select lemma="аспан" tags="n.*"/></match>
   </rule>
 </rules>

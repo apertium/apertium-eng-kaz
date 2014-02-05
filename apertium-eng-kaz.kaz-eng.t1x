@@ -680,7 +680,50 @@
         </call-macro>
       </action>
     </rule>
-
+<rule comment="RULE: NUM  NOM"> <!--7  kyz-->
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+       <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="num-nom" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+           
+<lu>
+              <clip pos="2" side="tl" part="whole"/>
+             <var n="number"/>
+            </lu>
+<b/>
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
   <rule comment="REGLA: DET-IND NOM">
       <pattern>
@@ -750,50 +793,7 @@
       </action>
     </rule>
 
-<rule comment="RULE: NUM  NOM"> <!--7  kyz-->
-      <pattern>
-        <pattern-item n="num"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="2"/>
-        </call-macro>
-       <choose>
-                 <when>
-                   <test>
-                       <equal><clip pos="1" side="sl" part="whole"/><lit v="one"/></equal>
-                  </test>
-                  <let><var n="number"/><lit-tag v="sg"/></let>
-                </when>
-                <otherwise>
-                  <let><var n="number"/><lit-tag v="pl"/></let>
-                </otherwise>
-              </choose>
-        <out>
-          <chunk name="num-nom" case="caseFirstWord">
-            <tags>
-              <tag><var n="sntype"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-              <lit-tag v="sp"/>
-            </lu>
-            <b pos="1"/>
-           
-<lu>
-              <clip pos="2" side="tl" part="whole"/>
-             <var n="number"/>
-            </lu>
-<b/>
-            
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
+
 
 <rule comment="RULE: NUM ADJ NOM"> <!--7 ademi kyz-->
       <pattern>
@@ -808,9 +808,9 @@
        <choose>
                  <when>
                    <test>
-                       <equal><clip pos="1" side="sl" part="whole"/><lit v="one"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
                   </test>
-                  <let><var n="number"/><lit-tag v="pl"/></let>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
                 </when>
                 <otherwise>
                   <let><var n="number"/><lit-tag v="pl"/></let>
@@ -823,7 +823,7 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
-              <lit-tag v="sp"/>
+             
             </lu>
             <b pos="1"/>
             <b pos="2"/>

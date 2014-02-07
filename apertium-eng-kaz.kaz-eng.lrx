@@ -10,4 +10,8 @@
   
 <match lemma="әдемі" tags="adj"><select lemma="beautiful" tags="adj"/></match>
   </rule>
+<rule>
+  
+<match lemma="оның" tags="prn.pers.p3.sg.gen"><select lemma="his" tags="det.pos.sp"/></match>
+  </rule>
 </rules>

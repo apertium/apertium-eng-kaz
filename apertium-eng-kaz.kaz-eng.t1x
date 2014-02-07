@@ -50,7 +50,9 @@
 <def-cat n="v-fut">
       <cat-item tags="v.*.fut.*"/>
          </def-cat>
-
+<def-cat n="vp-be">
+      <cat-item tags="vbser.*.*"/>
+         </def-cat>
 
 <def-cat n="v-futCon">
       <cat-item tags="vaux.fut.*"/> <!-- because all жатыр/отыр is vaux verbs-->
@@ -124,7 +126,7 @@
       <cat-item tags="np.ant.*"/>
     </def-cat>
  <def-cat n="pers-pron">
-      <cat-item tags="prn.*"/>
+      <cat-item tags="prn.pers.*.*.nom"/>
       
     </def-cat>
     <def-cat n="cop-fin">
@@ -499,7 +501,7 @@
       </action>
     </rule>
 
-<rule comment="RULE: Pronoun GenP NOM">
+<rule comment="RULE: Pronoun-GenP NOM">
       <pattern>
         <pattern-item n="gen"/>
         <pattern-item n="nom"/>
@@ -514,6 +516,24 @@
 <let>    
 <clip pos="2" side="tl" part="a_pos"/><lit v=""/>   
 </let> 
+           <choose>
+                 <when>
+                   <test>
+<and>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_pers"/>
+                      <lit-tag v="p3"/>
+                     </equal>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_nbr"/>
+                    <lit-tag v="sg"/>
+</equal>
+</and>
+                  </test>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="his"/></let>
+                </when>
+               
+              </choose>
 <out>
           <chunk name="prn-genp-nom" case="caseFirstWord">
             <tags>
@@ -607,7 +627,40 @@
     </rule>
 
 
- 
+ <rule comment="RULE: VP-be">
+      <pattern>
+        <pattern-item n="vp-be"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="VP-be" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag></tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              
+</lu>
+<b pos="1"/>
+            
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
  
   <rule comment="REGLA: ADJ NOM-GEN LOC-ATTR"> 
       <pattern>

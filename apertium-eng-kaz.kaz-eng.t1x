@@ -597,7 +597,7 @@
                   <let><clip pos="1" side="tl" part="lem"/><lit v="his"/></let>
                 </when>
                
-              </choose>
+              </choose> 
 <out>
           <chunk name="genp" case="caseFirstWord">
             <tags>
@@ -608,15 +608,15 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
-
+<lit-tag v="2"/>
+<lit-tag v="3"/>
+<lit-tag v="4"/>
             </lu>
-            <b/>
+            <b pos="1"/>
             
           </chunk>
         </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
+        
       </action>
     </rule>
 
@@ -656,6 +656,9 @@
         </call-macro>
       </action>
     </rule>
+
+
+
 
 <rule comment="RULE: NOM">
       <pattern>

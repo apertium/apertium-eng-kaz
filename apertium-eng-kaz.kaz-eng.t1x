@@ -99,6 +99,10 @@
       <cat-item tags="num.*"/>
 </def-cat>
 
+ <def-cat n="cop">
+      <cat-item tags="cop.*"/>
+    </def-cat>
+
 <def-cat n="dett">
 <cat-item tags="det.dem"/>
 </def-cat>
@@ -501,6 +505,103 @@
       </action>
     </rule>
 
+
+<!-- Мен дәрігермін-->
+<rule comment="RULE: VP-cop"> 
+      <pattern>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose><!-- choosing correct to be-->
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+
+           </choose>
+        <out>
+          <chunk name="VP-cop" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV-cop"/></tag>
+
+ <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              
+</lu>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+<!--<rule comment="RULE: VP-be">
+      <pattern>
+        <pattern-item n="vp-be"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="VP-be" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag></tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              
+</lu>
+<b pos="1"/>
+            
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>-->
+
 <rule comment="RULE: Pronoun-GenP NOM">
       <pattern>
         <pattern-item n="gen"/>
@@ -691,39 +792,7 @@
 
 
 
- <rule comment="RULE: VP-be">
-      <pattern>
-        <pattern-item n="vp-be"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <chunk name="VP-be" case="caseFirstWord">
-            <tags>
-              <tag><var n="sntype"/></tag></tags>
-<lu>
-              <lit v="be"/>
-              <lit-tag v="vbser"/>
-              
-</lu>
-<b pos="1"/>
-            
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-              <var n="number"/>
-            </lu>
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
+ 
 
  
   <rule comment="REGLA: ADJ NOM-GEN LOC-ATTR"> 

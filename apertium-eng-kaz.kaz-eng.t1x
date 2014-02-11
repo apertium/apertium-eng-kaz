@@ -111,7 +111,13 @@
       <cat-item tags="prn.pers.*.*.gen"/> 
     </def-cat>
       
-
+<def-cat n="p-gen">
+      <cat-item tags="prn.pers.*.*.ins"/> 
+    </def-cat>
+<def-cat n="p-pr">
+<cat-item tags="pr"/>
+      <cat-item tags="pr.*"/> 
+    </def-cat>
 
     <def-cat n="loc-attr">
       <cat-item tags="n.px3sp.loc.attr"/>
@@ -526,6 +532,7 @@
                       </test>
                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
            <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
                 </when>
 <when>
                    <test>
@@ -601,6 +608,66 @@
         </call-macro>
       </action>
     </rule>-->
+
+<rule comment="RULE: Pro-GenP"> <!-- with me-->
+      <pattern>
+
+        <pattern-item n="p-gen"/>
+        
+        
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<let>    
+<clip pos="1" side="tl" part="a_pos"/><lit v=""/>   
+</let> 
+           <choose>
+                 <when>
+                   <test>
+<and>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_pers"/>
+                      <lit-tag v="p3"/>
+                     </equal>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_nbr"/>
+                    <lit-tag v="sg"/>
+</equal>
+</and>
+                  </test>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="his"/></let>
+                </when>
+               
+              </choose> 
+<out>
+          <chunk name="pr-genp" case="caseFirstWord">
+            <tags>
+<tag><lit-tag v="PP"/></tag>
+              <tag><lit-tag v="pr"/></tag>
+              <tag><lit-tag v="prn"/></tag>
+              <tag><lit-tag v="obj"/></tag>
+              
+              <tag><lit-tag v="mf"/></tag>
+              <tag><lit-tag v="sp"/></tag>
+            </tags>
+
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+             <lit-tag v="2"/>
+<lit-tag v="3"/>
+<lit-tag v="4"/>
+ </lu>
+  <b/>            
+          </chunk>
+        </out>
+        
+      </action>
+    </rule>
 
 <rule comment="RULE: Pronoun-GenP NOM">
       <pattern>
@@ -720,6 +787,9 @@
         
       </action>
     </rule>
+
+
+
 
   
 

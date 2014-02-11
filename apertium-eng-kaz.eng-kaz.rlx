@@ -44,6 +44,8 @@ SET V-FIN = V + FIN ;
 
 SET V-DO = ("do"i) ; 
 
+SET English-sg = ("Englsih"i) ;
+
 SET VAUX-CAN = ("can"i) ;
 
 SET VAUX-WILL = ("will"i) ;
@@ -69,6 +71,8 @@ REMOVE V-FIN IF (-1C V-FIN);  # Careful: would kill "The man who _came_ _wrote_ 
 REMOVE N IF (0 ("<is>"i)) ; 
 
 REMOVE N IF (0 ("<will>"))(1 ADV-NOT);
+
+SELECT (n sg) if (0 ("English")) ;
 
 SELECT Rel if (-1 N) ;
 

@@ -2224,6 +2224,9 @@
 
 
 
+
+
+
 <rule comment="NEW RULE: DO?"> 
 <!-- for questions-->
   <pattern>
@@ -2327,6 +2330,63 @@
     </choose>   
   </action>
 </rule>
+
+<rule comment="NEW RULE: do not have"> <!--I do not have a book - Mende kitap jok-->
+  <pattern>
+    <pattern-item n="vaux-do"/>
+    <pattern-item n="not"/>
+    <pattern-item n="vaux-have"/>
+  </pattern>
+  <action>
+  <choose>
+    <when>
+      <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal></test>
+        <out>
+      <chunk name="verb-not-have">
+      <tags>
+        <tag><lit-tag v="VP_have"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+       <lu>
+         <lit v="жоқ"/>
+         <lit-tag v="adj"/>
+       </lu>
+      </chunk>
+        </out>
+      </when>
+     <when>
+      <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="past"/></equal></test>
+        <out>
+      <chunk name="verb-not-have">
+      <tags>
+        <tag><lit-tag v="VP_have"/></tag>
+        <tag><lit-tag v="sg"/></tag> <!-- number -->
+        <tag><lit-tag v="p3"/></tag> <!-- person -->
+        <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="neg"/></tag> <!-- negative -->
+      </tags>
+           <lu>
+         <lit v="бол"/>
+         <lit-tag v="vaux"/>       
+         <lit-tag v="6"/> 
+         <lit-tag v="4"/>      
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>       
+        </lu>
+       
+      </chunk>
+        </out>
+      </when>
+       
+    </choose>   
+  </action>
+</rule>
+
 
 
 <rule comment="NEW RULE: verb"> 

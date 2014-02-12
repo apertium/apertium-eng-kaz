@@ -72,17 +72,21 @@ REMOVE N IF (0 ("<is>"i)) ;
 
 REMOVE N IF (0 ("<will>"))(1 ADV-NOT);
 
+SELECT (vbhaver inf) if (0 ("have")) (-1 ("not"));
+
 SELECT (n sg) if (0 ("English")) ;
 
 SELECT Rel if (-1 N) ;
 
 SELECT AdvItg if (1C V) ;
 
+SELECT (det dem) if (1 N) ;
+
 SELECT AdvItg if (2C V) ;
 
 SELECT N if (-1 AdvItg) ;
 
-
+SELECT N if (-1 Det) ;
 
 SELECT V-HAVE if (2C V) ;
 

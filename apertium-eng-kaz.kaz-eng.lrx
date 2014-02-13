@@ -14,4 +14,9 @@
   
 <match lemma="оның" tags="prn.pers.p3.sg.gen"><select lemma="his" tags="det.pos.sp"/></match>
   </rule>
+<rule>
+  
+<match lemma="онымен" tags="prn.pers.p3.sg.ins"><select lemma="him" tags="prn.obj.p3.m.sg"/></match>
+  </rule>
+
 </rules>

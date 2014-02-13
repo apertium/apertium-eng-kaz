@@ -114,9 +114,9 @@
 <def-cat n="p-ins">
       <cat-item tags="prn.pers.*.*.ins"/> 
     </def-cat>
-<def-cat n="p-pr">
-<cat-item tags="pr"/>
-      <cat-item tags="pr.*"/> 
+<def-cat n="adv">
+<cat-item tags="adv"/>
+      <cat-item tags="adv.*"/>
     </def-cat>
 
     <def-cat n="loc-attr">
@@ -575,9 +575,12 @@
       </action>
     </rule>
 
-<!--<rule comment="RULE: VP-be">
+
+<rule comment="RULE: NOM Adv"><!-- ozen arkyly-->
       <pattern>
-        <pattern-item n="vp-be"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="adv"/>
+
       </pattern>
       <action>
         <call-macro n="conv-case1">
@@ -586,20 +589,26 @@
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
+
         <out>
-          <chunk name="VP-be" case="caseFirstWord">
+          <chunk name="nom-adv" case="caseFirstWord">
             <tags>
-              <tag><var n="sntype"/></tag></tags>
-<lu>
-              <lit v="be"/>
-              <lit-tag v="vbser"/>
-              
-</lu>
-<b pos="1"/>
-            
+              <tag><lit-tag v="PP"/></tag>
+<tag><lit-tag v="sg"/></tag>
+
+<tag><lit-tag v="PD"/></tag>
+
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+
+
+            </lu>
+            <b pos="1"/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
-              <var n="number"/>
+              <lit-tag v="2"/>
+
             </lu>
           </chunk>
         </out>
@@ -607,13 +616,7 @@
           <with-param pos="1"/>
         </call-macro>
       </action>
-    </rule>-->
-
-
-
-
-
-
+    </rule>
 
 <rule comment="RULE: Pro-ins"> <!-- menimen -->
       <pattern>
@@ -1248,6 +1251,10 @@
         </call-macro>
       </action>
     </rule>
+
+
+
+
 
 
   <rule comment="RULE: ADJ NOM">

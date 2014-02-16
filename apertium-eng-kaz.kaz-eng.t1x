@@ -470,11 +470,15 @@
 <and>
 <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
 <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+<not><equal><clip pos="1" side="sl" part="a_mf"/><lit-tag v="f"/></equal></not>
 </and>
                </test>
                <let><var n="mf"/><lit-tag v="m"/></let>
             </when> 
-      </choose>
+<otherwise>
+               <let><var n="mf"/><lit-tag v="f"/></let>
+</otherwise>     
+ </choose>
     </def-macro>
   </section-def-macros>
   <section-rules>
@@ -2297,6 +2301,8 @@
 <clip pos="1" side="sl" part="a_nbr"/>
          <lit-tag v="sg"/>
 </equal>
+
+<not><equal><clip pos="1" side="sl" part="a_mf"/><lit-tag v="f"/></equal></not>
 </and>
       
       </test>

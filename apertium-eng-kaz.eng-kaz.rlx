@@ -52,6 +52,8 @@ SET VAUX-WILL = ("will"i) ;
 
 SET VAUX-WOULD = ("would"i) ;
 
+SET Quest = ("<?>"?) ;
+
 SET V-DO-AUX = (vbdo) ;
 
 SET ADV-NOT = ("not"i) ;
@@ -131,6 +133,8 @@ SELECT Pr IF (1 NUM);
 SELECT Inf IF (1 Inf) (2 Ger);
 
 SELECT Inf IF (1 Inf) (2 PrcPast);
+
+SELECT V-DO-AUX IF (NOT 1C ADV-NOT);
 
 SELECT V-DO-AUX IF (-1 PRN-SUBJ) (1C ADV-NOT);
 

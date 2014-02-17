@@ -1759,6 +1759,53 @@
 </rule>
 
 
+
+<rule comment="NEW RULE: DO?"> 
+<!-- for questions-->
+  <pattern>
+    <pattern-item n="vaux-do"/>
+   
+  </pattern>
+  <action>
+       <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="aor"/></let> 
+     
+      </when>
+
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+         <let><var n="tense"/><lit-tag v="ifi"/></let> 
+   
+      </when>
+
+    </choose>
+ <out> <chunk name="VP_q">  
+      <tags>
+       <tag><lit-tag v="VPQ"/></tag>
+       <tag> <var n="tense"/>  </tag>
+      </tags>
+      <lu>
+     <lit v="ма"/>
+      <lit-tag v="qst"/>
+       <lit-tag v="2"/> 
+       </lu>
+     </chunk>
+</out> 
+  </action>
+</rule>
+
 <rule comment="NEW RULE: vaux-do not approx-inf-verb"> 
 <!-- superblank management not solved -->
   <pattern>
@@ -2227,51 +2274,6 @@
 
 
 
-<rule comment="NEW RULE: DO?"> 
-<!-- for questions-->
-  <pattern>
-    <pattern-item n="vaux-do"/>
-   
-  </pattern>
-  <action>
-       <choose>
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="pres"/>
-          </equal>
-        </test>
-        <let><var n="tense"/><lit-tag v="aor"/></let> 
-     
-      </when>
-
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="past"/>
-          </equal>
-        </test>
-         <let><var n="tense"/><lit-tag v="ifi"/></let> 
-   
-      </when>
-
-    </choose>
- <out> <chunk name="VP_q">  
-      <tags>
-       <tag><lit-tag v="VPQ"/></tag>
-       <tag> <var n="tense"/>  </tag>
-      </tags>
-      <lu>
-      <lit v="ма"/>
-      <lit-tag v="qst"/>
-       <lit-tag v="2"/> 
-       </lu>
-     </chunk>
-</out> 
-  </action>
-</rule>
 
 
 <rule comment="NEW RULE: have"> <!--I have a book - Mende kitap bar-->

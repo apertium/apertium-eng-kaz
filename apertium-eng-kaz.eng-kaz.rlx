@@ -60,6 +60,8 @@ SET ADV-NOT = ("not"i) ;
  
 SET V-HAVE = (vbhaver) ; 
 
+SET V-PRES = (vblex pres) ; 
+
 LIST PRN-SUBJ  = (prn subj) ;
 
 SET CLB = SENT | V-FIN | Subj ; # 'Subj' is risky, e.g. coordination
@@ -100,6 +102,8 @@ SELECT Inf IF (-2 V-FIN) (-1 ("<to>"));
 
 SELECT Inf IF (0 ("<will>")) (1 ADV-NOT);
 
+SELECT V-HAVE IF (1 PrcPast);
+
 SELECT V IF (1 Ger);
 
 REMOVE V-FIN IF (-1 A) (-2 Det); 
@@ -133,6 +137,8 @@ SELECT Pr IF (1 NUM);
 SELECT Inf IF (1 Inf) (2 Ger);
 
 SELECT Inf IF (1 Inf) (2 PrcPast);
+
+SELECT V-PRES IF (-1 N OR Pron)(1 N OR Pron);
 
 SELECT V-DO-AUX IF (NOT 1C ADV-NOT);
 

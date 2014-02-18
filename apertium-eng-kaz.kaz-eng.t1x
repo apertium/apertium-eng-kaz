@@ -126,7 +126,12 @@
       <cat-item tags="n.px3sp.*"/>
     </def-cat>
     <def-cat n="nom-post">
-      <cat-item lemma="арт" tags="n.px3sp.*"/>
+      <cat-item tags="post"/>
+      <cat-item tags="post.*"/>
+      <cat-item tags="post.Rnom"/>
+      <cat-item tags="post.Rnom.*"/>
+      <cat-item tags="n.*.loc"/>
+      <cat-item tags="n.*.loc.*"/>
     </def-cat>
     <def-cat n="nom-gen">
       <cat-item tags="n.gen"/>
@@ -580,10 +585,10 @@
     </rule>
 
 
-<rule comment="RULE: NOM Adv"><!-- ozen arkyly-->
+<rule comment="RULE: NOM post"><!-- ozen arkyly-->
       <pattern>
         <pattern-item n="nom"/>
-        <pattern-item n="adv"/>
+        <pattern-item n="nom-post"/>
 
       </pattern>
       <action>
@@ -595,22 +600,21 @@
         </call-macro>
 
         <out>
-          <chunk name="nom-adv" case="caseFirstWord">
+          <chunk name="nom-pron" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="PP"/></tag>
-<tag><lit-tag v="sg"/></tag>
-
-<tag><lit-tag v="PD"/></tag>
-
+              <tag><lit-tag v="sg"/></tag>
+              <tag><lit-tag v="PD"/></tag>
             </tags>
             <lu>
-              <clip pos="2" side="tl" part="whole"/>
-
+              <clip pos="2" side="tl" part="lem"/>
+             <lit-tag v="pr"/>
 
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
               <lit-tag v="2"/>
 
             </lu>
@@ -644,13 +648,19 @@
                  <when>
                    <test>
 
+                    <and>
                      <equal>
                     <clip pos="1" side="sl" part="a_pers"/>
                       <lit-tag v="p2"/>
                      </equal>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_nbr"/>
+                    <lit-tag v="sg"/>
+</equal>
+</and>
                     
                   </test>
-                  <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sp"/></let>
+                  <let><var n="number"/><lit-tag v="sp"/></let>
                 </when>
 <when>
                    <test>
@@ -684,7 +694,7 @@
 </equal>
 </and>
                   </test>
-                  <let><clip pos="1" side="tl" part="lem"/><lit v="him"/></let>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="he"/></let>
                 </when>
                
               </choose> 
@@ -709,20 +719,16 @@
 <out>
           <chunk name="pr-ins" case="caseFirstWord">
             <tags>
-
-	        <tag><var n="sntype"/></tag> 
-       
-                          
-             
+     <tag><var n="sntype"/></tag> 
             </tags>
 
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <lit-tag v="prn"/>
-   <lit-tag v="obj"/>
-      <clip pos="1" side="sl" part="a_pers"/>
-       <var n="mf"/> 
-        <var n="number"/>
+              <lit-tag v="obj"/>
+              <clip pos="1" side="sl" part="a_pers"/>
+              <var n="mf"/> 
+             <var n="number"/>
             <!-- <lit-tag v="3"/>
              <lit-tag v="4"/>
              <lit-tag v="5"/>

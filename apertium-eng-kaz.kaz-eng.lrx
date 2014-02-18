@@ -26,6 +26,9 @@
 
 <match lemma="қыз" tags="n.*"/>
   </rule>
-
+<rule>
+  
+<match lemma="үст" tags="n.px3sp.loc"><select lemma="on" tags="pr"/></match>
+  </rule>
 
 </rules>

@@ -174,9 +174,10 @@
     <e><p><l>next<b/>to<s n="pr"/></l><r>жан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>beside<s n="pr"/></l><r>жан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>instead<b/>of<s n="pr"/></l><r>орн<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+    <e><p><l>on<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>on<b/>top<b/>of<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
   <e><p><l>on<b/>over<b/>of<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
-    <e><p><l>on<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+
     <e><p><l>after<s n="pr"/></l><r>кейін<s n="n"/><s n="PXD"/><s n="abl"/></r></p></e>
     <e><p><l>above<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>in<b/>front<b/>of<s n="pr"/></l><r>алд<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -1670,7 +1671,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>tobacco<s n="n"/></l><r>темеке<s n="n"/></r></p></e>
     <e><p><l>tomorrow<s n="n"/></l><r>ертең<s n="n"/></r></p></e>
     <e><p><l>tool<s n="n"/></l><r>аспап<s n="n"/></r></p></e>
-    <e><p><l>top<s n="n"/></l><r>үст<s n="n"/></r></p></e>
     <e><p><l>torment<s n="n"/></l><r>ұн<s n="n"/></r></p></e>
     <e><p><l>torch<s n="n"/></l><r>шам<s n="n"/></r></p></e>
     <e><p><l>trace<s n="n"/></l><r>із<s n="n"/></r></p></e>
@@ -2354,12 +2354,12 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <!--Adverbs like pronouns -->
 
-    <e><p><l>on<s n="adv"/></l><r>үстінде<s n="adv"/></r></p></e> 
+ <e><p><l>on<s n="adv"/></l><r>үстінде<s n="adv"/></r></p></e> 
     <e><p><l>under<s n="adv"/></l><r>астында<s n="adv"/></r></p></e> 
     <e><p><l>behind<s n="adv"/></l><r>артында<s n="adv"/></r></p></e> 
     <e><p><l>below<s n="adv"/></l><r>астында<s n="adv"/></r></p></e> 
     <e><p><l>after<s n="adv"/></l><r>кейін<s n="adv"/></r></p></e> 
-    <e><p><l>through<s n="adv"/></l><r>арқылы<s n="adv"/></r></p></e> 
+    <e><p><l>through<s n="adv"/></l><r>арқылы<s n="adv"/></r></p></e>
     <e><p><l>in<s n="adv"/></l><r>ішінде<s n="adv"/></r></p></e> 
     <e><p><l>towards<s n="adv"/></l><r>қарай<s n="adv"/></r></p></e> 
     <e><p><l>some<s n="adv"/></l><r>біраз<s n="adv"/></r></p></e> 
@@ -2666,11 +2666,15 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
   
  <e><p><l>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="infl"/></r></p></e>
 
-
+  <e><p><l>i<s n="prn"/><s n="obj"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>we<s n="prn"/><s n="obj"/></l><r>біз<s n="prn"/><s n="pers"/></r></p></e>
 <e><p><l>she<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/></r></p></e>
   <e><p><l>he<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/></r></p></e>
     <e><p><l>it<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/></r></p></e>
+<e><p><l>you<s n="prn"/><s n="obj"/></l><r>сіз<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>you<s n="prn"/><s n="obj"/></l><r>сіздер<s n="prn"/><s n="pers"/></r></p></e>
 
+    <e><p><l>they<s n="prn"/><s n="obj"/></l><r>олар<s n="prn"/><s n="pers"/></r></p></e> <!-- Not sure if this is the best way -->
 
     <e><p><l>something<s n="prn"/><s n="tn"/><s n="nt"/></l><r>бірдеме<s n="prn"/><s n="ind"/></r></p></e>
 <e><p><l>everything<s n="prn"/></l><r>барлық<s n="prn"/><s n="qnt"/></r></p></e>

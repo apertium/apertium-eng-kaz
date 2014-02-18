@@ -23,7 +23,8 @@
     <match lemma="residence" tags="n.*"><select lemma="резиденция" tags="n.*"/></match>
   </rule>
 
- <rule> 
+ 
+<rule> 
     <match lemma="anything" tags="prn.*"><select lemma="бір нәрсе" tags="prn.*"/></match>    
   </rule>
  <rule> 
@@ -35,6 +36,12 @@
   
 
    
+  </rule>
+
+<rule>
+
+    <match lemma="place" tags="n.*"><select lemma="орын" tags="n.*"/></match>
+
   </rule>
 
 <rule>

@@ -19,10 +19,10 @@
 <match lemma="онымен" tags="prn.pers.p3.sg.ins"><select lemma="him" tags="prn.obj.p3.m.sg"/></match>
   </rule>
 
+
 <rule>
 
   <match lemma="Ол" tags="prn.pers.p3.sg.nom"><select lemma="she" tags="prn.subj.p3.f.*"/></match>
-<match lemma="әдемі" tags="adj"> <select lemma="beautiful" tags="adj"/></match>
 
 <match lemma="қыз" tags="n.*"/>
   </rule>

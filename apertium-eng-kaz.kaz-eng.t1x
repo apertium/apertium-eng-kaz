@@ -625,6 +625,46 @@
         </call-macro>
       </action>
     </rule>
+<rule comment="RULE: NOM post"><!-- ozen arkyly-->
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="adv"/>
+
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+        <out>
+          <chunk name="nom-pron" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PP"/></tag>
+              <tag><lit-tag v="sg"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+             <lit-tag v="pr"/>
+
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <lit-tag v="2"/>
+
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 <rule comment="RULE: Pro-ins"> <!-- menimen -->
       <pattern>

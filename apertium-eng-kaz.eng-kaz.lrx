@@ -40,6 +40,12 @@
 
 <rule>
 
+    <match lemma="woman" tags="n.*"><select lemma="әйел" tags="n.*"/></match>
+
+  </rule>
+
+<rule>
+
     <match lemma="place" tags="n.*"><select lemma="орын" tags="n.*"/></match>
 
   </rule>

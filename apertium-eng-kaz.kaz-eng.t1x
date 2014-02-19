@@ -1019,11 +1019,10 @@
           <chunk name="nom" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
-              <tag><var n="number"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
-              <lit-tag v="2"/>
+              <var n="number"/>
             </lu>
           </chunk>
         </out>
@@ -1324,7 +1323,6 @@
           <chunk name="adj-nom" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
- <tag><var n="number"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -1332,7 +1330,7 @@
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="whole"/>
-              <lit-tag v="2"/>
+              <var n="number"/>
             </lu>
           </chunk>
         </out>

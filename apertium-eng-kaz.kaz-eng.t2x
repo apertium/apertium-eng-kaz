@@ -281,8 +281,8 @@
 </and>
     
    </test>
-<let>     <clip pos="2" part="a_pers"/><lit v=""/> </let>
-  <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
+<let>     <clip pos="3" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="3" part="a_nbr"/><lit v=""/></let>
 </when>
 </choose>
 <choose>
@@ -315,16 +315,15 @@
          <b/>
         <var n="PREP"/>
           <chunk>
-<clip pos="2" part="lem"/>
- <clip pos="2" part="tags"/>
- <clip pos="2" part="chcontent"/>
-          <!--  <clip pos="2" part="lem"/>
-            <lit-tag v="SN"/>
-            <clip pos="1" part="a_nbr"/> 
+
+            <clip pos="2" part="lem"/>
+            <lit-tag v="SN"/>             
+<lit-tag v="pl"/>
+
             <clip pos="2" part="a_pers"/> 
             <clip pos="2" part="a_possessive"/>
              <lit-tag v="nom"/>
-            <clip pos="2" part="chcontent"/> -->
+            <clip pos="2" part="chcontent"/> 
           </chunk>
         </out>
         <call-macro n="reset-case1">

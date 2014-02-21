@@ -56,11 +56,6 @@
 
   </rule>
 
-<rule>
-
-    <match lemma="beautiful" tags="adj"><select lemma="көркем" tags="adj"/></match>
-
-  </rule>
 
   <rule>
 

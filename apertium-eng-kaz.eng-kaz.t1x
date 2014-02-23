@@ -208,6 +208,9 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+    <def-cat n="quest">
+      <cat-item tags="sent" lemma="?"/>
+    </def-cat>
  <def-cat n="cnjadv">
        <cat-item tags="cnjadv"/>
     </def-cat>
@@ -1797,8 +1800,8 @@
        <tag> <var n="tense"/>  </tag>
       </tags>
       <lu>
-     <lit v="ма"/>
-      <lit-tag v="qst"/>
+   <!--  <lit v="ма"/>
+      <lit-tag v="qst"/>-->
        <lit-tag v="2"/> 
        </lu>
      </chunk>
@@ -3281,8 +3284,8 @@
        <tag> <var n="tense"/>  </tag>
       </tags>
       <lu>
-      <lit v="ма"/>
-      <lit-tag v="qst"/>
+     <!-- <lit v="ма"/>
+      <lit-tag v="qst"/>-->
        <lit-tag v="2"/> 
        </lu>
      </chunk>
@@ -7962,7 +7965,32 @@ this would have to be changed -->
 -->
 
 
-
+<rule comment="RULE: Quest">
+      <pattern>
+        <pattern-item n="quest"/>
+      </pattern>
+      <action>
+        <let> <!-- approx: assign 3rd person singular for verbs -->
+          <var n="verb-pers"/>
+          <lit-tag v="p3"/>
+        </let>
+        <let>
+          <var n="verb-nbr"/>
+          <lit-tag v="sg"/>
+        </let>
+        <out>
+          <chunk name="sent" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="Q_mark"/></tag>
+             
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
  
     <rule comment="REGLA: SENT">

@@ -7,7 +7,11 @@
       <cat-item tags="NP.*"/>
 
     </def-cat>
+   <def-cat n="Q_m">
+      <cat-item tags="Q_mark"/>
+      <cat-item tags="Q_mark.*"/>
 
+    </def-cat>
   <def-cat n="NP_neg">
       <cat-item tags="NP_pron_neg"/>
       <cat-item tags="NP_pron_neg.*"/>
@@ -788,6 +792,7 @@
        <pattern-item n="VP_ques"/>
        <pattern-item n="NP"/>
        <pattern-item n="VP"/>
+       <pattern-item n="Q_m"/>
          </pattern>
      <action>
            <out>
@@ -798,6 +803,7 @@
           </chunk> 
       <b pos="1"/>
       <b pos="2"/>
+      <b pos="3"/>
    
        <chunk>
             <clip pos="3" part="lem"/>
@@ -812,10 +818,20 @@
          </chunk> 
   <b/>
          <chunk>
+          <lit v="ques"/>
+            <lit-tag  v="qst"/>
+            <lit v="{"/>
+                  <lit v="^ма"/>
+                  <lit-tag  v="qst"/>
+            <lit v="$}"/> 
+    
+            </chunk>
+
+         <chunk>
             
-         <clip pos="1" part="lem"/>
-          <lit-tag v="qst"/>
-        <clip pos="1" part="chcontent"/>
+         <clip pos="4" part="lem"/>
+        <clip pos="4" part="tags"/>
+        <clip pos="4" part="chcontent"/>
           </chunk>
       </out>
      </action>
@@ -829,6 +845,7 @@
        <pattern-item n="NP"/>
        <pattern-item n="VP"/>
        <pattern-item n="NP"/>
+       <pattern-item n="Q_m"/>
      </pattern>
      <action>
            <out>
@@ -840,6 +857,7 @@
       <b pos="1"/>
       <b pos="2"/>
       <b pos="3"/>
+      <b pos="4"/>
   <chunk>
             <clip pos="4" part="lem"/>
             <lit-tag v="NP"/>
@@ -861,12 +879,23 @@
             <clip pos="3" part="chcontent"/>
 
          </chunk> 
+  
   <b/>
          <chunk>
+          <lit v="ques"/>
+            <lit-tag  v="qst"/>
+            <lit v="{"/>
+                  <lit v="^ма"/>
+                  <lit-tag  v="qst"/>
+            <lit v="$}"/> 
+    
+            </chunk>
+
+         <chunk>
             
-         <clip pos="1" part="lem"/>
-          <lit-tag v="qst"/>
-        <clip pos="1" part="chcontent"/>
+         <clip pos="5" part="lem"/>
+        <clip pos="5" part="tags"/>
+        <clip pos="5" part="chcontent"/>
           </chunk>
       </out>
      </action>
@@ -882,6 +911,7 @@
        <pattern-item n="VP"/>
        <pattern-item n="NP"/>
        <pattern-item n="PP"/>
+       <pattern-item n="Q_m"/>
      </pattern>
      <action>
            <out>
@@ -894,6 +924,7 @@
       <b pos="2"/>
       <b pos="3"/>
       <b pos="4"/>
+      <b pos="5"/>
  <chunk>
             <clip pos="5" part="lem"/>
             <clip pos="5" part="tags"/>
@@ -921,12 +952,22 @@
             <clip pos="3" part="chcontent"/>
 
          </chunk> 
+  
   <b/>
          <chunk>
+          <lit v="ques"/>
+            <lit-tag  v="qst"/>
+            <lit v="{"/>
+                  <lit v="^ма"/>
+                  <lit-tag  v="qst"/>
+            <lit v="$}"/> 
+    
+            </chunk>
+         <chunk>
             
-         <clip pos="1" part="lem"/>
-          <lit-tag v="qst"/>
-        <clip pos="1" part="chcontent"/>
+         <clip pos="6" part="lem"/>
+        <clip pos="6" part="tags"/>
+        <clip pos="6" part="chcontent"/>
           </chunk>
       </out>
      </action>
@@ -940,6 +981,7 @@
        <pattern-item n="NP"/>
        <pattern-item n="VP"/>
        <pattern-item n="PP"/>
+       <pattern-item n="Q_m"/>
      </pattern>
      <action>
            <out>
@@ -951,6 +993,7 @@
       <b pos="1"/>
       <b pos="2"/>
       <b pos="3"/>
+      <b pos="4"/>
   <chunk>
             <clip pos="4" part="lem"/>
             <clip pos="4" part="tags"/>
@@ -968,12 +1011,28 @@
             <clip pos="3" part="chcontent"/>
 
          </chunk> 
-  <b/>
+  <!--<b/>
          <chunk>
             
          <clip pos="1" part="lem"/>
-          <lit-tag v="qst"/>
+        <clip pos="1" part="tags"/>
         <clip pos="1" part="chcontent"/>
+          </chunk>-->
+  <b/>
+         <chunk>
+          <lit v="ques"/>
+            <lit-tag  v="qst"/>
+            <lit v="{"/>
+                  <lit v="^ма"/>
+                  <lit-tag  v="qst"/>
+            <lit v="$}"/> 
+    
+            </chunk>
+         <chunk>
+            
+         <clip pos="5" part="lem"/>
+        <clip pos="5" part="tags"/>
+        <clip pos="5" part="chcontent"/>
           </chunk>
       </out>
      </action>

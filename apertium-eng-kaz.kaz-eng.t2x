@@ -332,6 +332,10 @@
       </action>
     </rule>
 
+
+
+
+
 <rule comment="RULE: SN SN SV">  <!--Men baqwany kordim -->
       <pattern>
         <pattern-item n="SN"/>

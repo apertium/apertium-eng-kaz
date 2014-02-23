@@ -45,5 +45,9 @@
   
 <match lemma="үст" tags="n.px3sp.loc"><select lemma="on" tags="pr"/></match>
   </rule>
+<rule>
+  
+<match lemma="аст" tags="n.px3sp.loc"><select lemma="under" tags="pr"/></match>
+  </rule>
 
 </rules>

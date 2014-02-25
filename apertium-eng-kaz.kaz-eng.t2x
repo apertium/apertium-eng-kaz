@@ -25,6 +25,11 @@
       <cat-item tags="SV-cop"/>
       <cat-item tags="SV-cop.*"/>
     </def-cat>
+<def-cat n="SV-cop-past">
+      <cat-item tags="SV-cop-past"/>
+      <cat-item tags="SV-cop-past.*"/>
+    </def-cat>
+
 <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>

@@ -29,6 +29,11 @@
        <cat-item lemma="ма" tags="qst"/>
      
     </def-cat>
+
+  <def-cat n="det">
+       <cat-item lemma="кейбір" tags="det.ind"/>
+     
+    </def-cat>
     
     <def-cat n="nomobject">
        <cat-item tags="n.nom"/>
@@ -40,8 +45,8 @@
        <cat-item tags="vblex.ger"/>
 
     </def-cat>
-  <def-cat n="prnind">
-      <cat-item tags="prn.ind.*"/>
+  <def-cat n="detind">
+      <cat-item tags="det.ind.*"/>
     </def-cat>
    
     <def-cat n="default">
@@ -102,6 +107,7 @@
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
 
@@ -351,16 +357,16 @@
 
    
 
-<rule comment="prnqnt">  <!-- remove pl from "some" as бірнеше-->
+<rule comment="detind">  <!-- remove pl from "some" as бірнеше-->
       <pattern>
-        <pattern-item n="prnind"/>
+        <pattern-item n="detind"/>
       </pattern>
       <action>
          <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
         <choose>
           <when>
-            <test><equal><clip pos="1" side="sl" part="poss"/><lit-tag v="PXD"/></equal></test>
-            <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
+            <test><equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal></test>
+            <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
           </when>
         </choose>
     
@@ -377,6 +383,8 @@
         </out>
       </action>
     </rule>
+
+
 
 
     <rule comment="default"> 

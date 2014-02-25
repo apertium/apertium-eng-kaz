@@ -1580,6 +1580,10 @@
      </action>
     </rule>
 
+
+
+
+
 <rule comment="NEW RULE: agree person and number NP VP_psmod NP">
     <!-- propagates person and number from NP to VP_psmod -->
      <pattern>
@@ -1620,6 +1624,8 @@
       </out>
      </action>
     </rule>
+
+
 
 
 
@@ -3392,7 +3398,68 @@
      </action>
     </rule>
 
-    
+    <rule comment="NEW RULE: , VP NP">
+    <!--VP NP for I like, however, playing football, not the best solution -->
+     <pattern>
+       <pattern-item n="VP"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <lit-tag v="VP"/>
+                        <lit-tag v="sg"/> <!-- agree number -->
+                        <lit-tag v="p3"/> <!-- agree person -->
+            <clip pos="1" part="a_tense"/>
+            <clip pos="1" part="a_possessive"/> 
+            <clip pos="1" part="a_pass"/>
+            <clip pos="1" part="a_neg"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk> 
+      </out>
+     </action>
+    </rule>
+  <rule comment="NEW RULE: , VP_psmod NP">
+    <!--VP NP for I like, however, playing football, not the best solution -->
+     <pattern>
+       <pattern-item n="VP_psmod"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+            <chunk>
+            <clip pos="2" part="lem"/>
+            <lit-tag v="NP"/>
+            <clip pos="2" part="a_nbr"/>
+            <clip pos="2" part="a_pers"/>
+            <clip pos="2" part="a_possessive"/>
+            <lit-tag v="acc"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <lit-tag v="VP_psmod"/>
+                        <lit-tag v="sg"/> <!-- agree number -->
+                        <lit-tag v="p3"/> <!-- agree person -->
+            <clip pos="1" part="a_tense"/>
+            <clip pos="1" part="a_possessive"/> 
+            <clip pos="1" part="a_pass"/>
+            <clip pos="1" part="a_neg"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk> 
+      </out>
+     </action>
+    </rule>
 
   </section-rules>
 </interchunk>

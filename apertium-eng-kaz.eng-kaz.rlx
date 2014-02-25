@@ -74,6 +74,8 @@ REMOVE V-FIN IF (-1C V-FIN);  # Careful: would kill "The man who _came_ _wrote_ 
 
 REMOVE N IF (0 ("<is>"i)) ; 
 
+SELECT V IF (0 ("<like>"i)) ; 
+
 REMOVE N IF (0 ("<will>"))(1 ADV-NOT);
 
 SELECT (vbhaver inf) if (0 ("have")) (-1 ("not"));

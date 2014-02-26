@@ -124,6 +124,9 @@
     <def-cat n="loc-attr">
       <cat-item tags="n.px3sp.loc.attr"/>
     </def-cat>
+<def-cat n="bol">
+      <cat-item lemma="бол" tags="v.*.ifi.*"/>
+    </def-cat>
 <def-cat n="loc-prep">
       <cat-item tags="n.px3sp.*"/>
     </def-cat>
@@ -532,6 +535,69 @@
     </rule>
 
 
+<rule comment="RULE: VP-cop-past"> 
+      <pattern>
+        <pattern-item n="bol"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+        <out>
+          <chunk name="VP-cop-past" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV"/></tag>
+
+ <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="past"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+<lit-tag v="4"/>
+              
+</lu>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
 <!-- Мен дәрігермін-->
 <rule comment="RULE: VP-cop"> 
       <pattern>
@@ -594,68 +660,8 @@
       </action>
     </rule>
 
-<!--Мен дәрігер болдым
-<rule comment="RULE: VP-cop-past"> 
-      <pattern>
-        <pattern-item n="cop1"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
-        </call-macro>
- <choose>
-               <when>
-                   <test>
-                   
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-
-                </when>
-<when>
-                   <test>
-                   <and>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                     </and>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                </when>
-
-           </choose>
-        <out>
-          <chunk name="VP-cop-past" case="caseFirstWord">
-            <tags>
-              <tag> <lit-tag v="SV-cop-past"/></tag>
-
- <tag><clip pos="1" side="tl" part="a_pers"/></tag>
- <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
 
 
-
-</tags>
-<lu>
-              <lit v="be"/>
-              <lit-tag v="vbser"/>
-              <lit-tag v="past"/>
-              <lit-tag v="2"/>
-              <lit-tag v="3"/>
-<lit-tag v="4"/>
-              
-</lu>
-
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>-->
 
 
 <rule comment="RULE: NOM post">

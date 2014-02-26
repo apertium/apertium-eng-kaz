@@ -789,6 +789,18 @@
                <lit-tag v="loc"/>
             </let>
        </when> 
+<when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="into"/>
+              </equal>
+            </test>
+            <let>
+               <var n="case"/>
+               <lit-tag v="dat"/>
+            </let>
+       </when> 
 
       <when>   <!-- at and in have the same translation: locative -->
         <test>

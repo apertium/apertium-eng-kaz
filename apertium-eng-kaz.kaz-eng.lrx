@@ -34,6 +34,10 @@
 <match lemma="онымен" tags="prn.pers.p3.sg.ins"><select lemma="him" tags="prn.obj.p3.m.sg"/></match>
   </rule>
 
+<rule>
+  
+<match lemma="бар" tags="v.iv.imp.*.*"><select lemma="have" tags="vblex.pres"/></match>
+  </rule>
 
 
 

@@ -19679,10 +19679,6 @@
 
                             <e lm="admittedly" i=""><i>admittedly</i><par n="maybe__adv"/></e>
 
-                            <e lm="in" i=""><i>in</i><par n="maybe__adv"/></e>
-                            <e lm="towards" i=""><i>towards</i><par n="maybe__adv"/></e>
-                            <e lm="before" i=""><i>before</i><par n="maybe__adv"/></e>
-
                             <e lm="abrasive" i=""><i>abrasive</i><par n="expensive__adj"/></e>
 
                             <e lm="no fixed abode" i=""><i>no<b/>fixed<b/>abode</i><par n="after__cnjadv"/></e>
@@ -70046,7 +70042,10 @@
 
                             <e lm="suprarenal" i=""><i>suprarenal</i><par n="expensive__adj"/></e>
 
+                            <e lm="surf" i=""><i>surf</i><par n="accept__vblex"/></e>
                             <e lm="surfer" i=""><i>surfer</i><par n="house__n"/></e>
+
+                            <e lm="surfboard" i=""><i>surfboard</i><par n="house__n"/></e>
 
                             <e lm="surrounding" i=""><i>surrounding</i><par n="expensive__adj"/></e>
 

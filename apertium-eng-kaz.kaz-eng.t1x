@@ -535,8 +535,8 @@
               <tag><lit-tag v="AdjP"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
-              <var n="adjec_lu"/>
+              <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_adjec"/>
             </lu>
           </chunk>
         </out>

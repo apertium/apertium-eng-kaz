@@ -61,6 +61,10 @@
       <attr-item tags="NXD"/>
     </def-attr>
 
+<def-attr n="adj_sint">
+      <attr-item tags="sint"/>
+    </def-attr>
+
     <def-attr n="a_pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
@@ -392,6 +396,12 @@
         <pattern-item n="default"/>
       </pattern>
       <action>
+<choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="adj_sint"/><lit-tag v="sint"/></equal></test>
+            <let><clip pos="1" side="tl" part="adj_sint"/><lit v=""/></let>
+          </when>
+        </choose>
         <choose>
           <when>
             <test>

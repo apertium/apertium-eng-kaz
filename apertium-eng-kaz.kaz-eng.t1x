@@ -779,7 +779,7 @@
         <out>
           <chunk name="verb-need-past" case="caseFirstWord">
             <tags>
-              <tag> <lit-tag v="SV-kerek"/></tag>
+              <tag> <lit-tag v="SV-kerek-past"/></tag>
 
 
  <tag> <lit-tag v="PD"/></tag>

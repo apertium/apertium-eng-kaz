@@ -136,8 +136,8 @@
       <cat-item lemma="бар" tags="adj.*"/>
     </def-cat>
 <def-cat n="kerek">
- <cat-item lemma="керек" tags="v.vaux.pres"/>
-      <cat-item lemma="керек" tags="v.vaux.pres.*"/>
+ <cat-item lemma="керек" tags="n"/>
+      <cat-item lemma="керек" tags="n.*"/>
     </def-cat>
 
 <def-cat n="emes">
@@ -567,10 +567,10 @@
         <out>
           <chunk name="VP-cop-have" case="caseFirstWord">
             <tags>
-              <tag> <lit-tag v="SV"/></tag>
+              <tag> <lit-tag v="SV-kerek"/></tag>
 
- <tag><clip pos="1" side="tl" part="a_pers"/></tag>
- <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+  <tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>
 
 
 
@@ -606,6 +606,9 @@
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
+<call-macro n="remove-poss">
+          <with-param pos="1"/>
+        </call-macro>
  <choose>
                <when>
                    <test>
@@ -631,10 +634,11 @@
         <out>
           <chunk name="verb-need" case="caseFirstWord">
             <tags>
-              <tag> <lit-tag v="SV"/></tag>
+              <tag> <lit-tag v="SV-kerek"/></tag>
 
- <tag><clip pos="1" side="tl" part="a_pers"/></tag>
- <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+
+ <tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>
 
 
 
@@ -642,12 +646,12 @@
 <lu>
               <lit v="need"/>
               <lit-tag v="vblex"/>
-              <lit-tag v="inf"/>
+             
 <lit-tag v="pres"/>
               <lit-tag v="2"/>
               <lit-tag v="3"/>
 <lit-tag v="4"/>
-  <lit-tag v="5"/>            
+            
 </lu>
 
           </chunk>
@@ -1522,6 +1526,7 @@
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
+
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>

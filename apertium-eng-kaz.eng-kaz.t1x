@@ -45,6 +45,7 @@
  <def-cat n="vaux-can"> 
       <cat-item lemma="can" tags="vaux.pres"/>
       <cat-item lemma="can" tags="vaux.past"/>
+      <cat-item lemma="can" tags="vaux.*"/>
     </def-cat>
 <def-cat n="vaux-should"> <!-- future -->
       <cat-item lemma="should" tags="vaux.inf"/>

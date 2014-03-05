@@ -36,11 +36,7 @@
       <cat-item lemma="need# to" tags="vbmod.*"/>
     </def-cat>
 
-<def-cat n="vaux-can-not"> 
-      <cat-item lemma="can" tags="vaux.pres"/>
 
-      <cat-item lemma="not" tags="adv"/>
-    </def-cat>
 
  <def-cat n="vaux-can"> 
       <cat-item lemma="can" tags="vaux.pres"/>
@@ -3106,59 +3102,6 @@
       
   </action>
 </rule>
-
-<!--
-<rule comment="NEW RULE: can + not + infinitive "> 
-  <pattern> 
-    <pattern-item n="vaux-can-not"/>
-
-    <pattern-item n="approx-inf-verb"/> 
-   </pattern>
-  <action>
-    <call-macro n="default-nbr-pers"/>
-<choose>
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="pres"/>
-          </equal>
-        </test>
-            
-        <out>
-      <chunk name="pers-verb">
-      <tags>
-        <tag><lit-tag v="VP"/></tag>
-        <tag><lit-tag v="ND"/></tag> 
-        <tag><lit-tag v="PD"/></tag> 
-        <tag><lit-tag v="tense"/></tag>  
-        <tag><lit-tag v="PXD"/></tag> 
-        <tag><lit-tag v="neg"/></tag> 
-      </tags>
-      <b pos="1"/>
-      <b pos="2"/>
-        <lu>
-          <clip pos="3" side="tl" part="lem"/>
-	  <clip pos="3" side="tl" part="a_kaz_verb"/>
-	<lit-tag v="prc_impf"/>
-    	
-        </lu>
-        <b/> 
-	<lu>
-          <lit v="ал"/>
- 	<lit-tag v="vaux"/>
- 	<lit-tag v="neg"/>
-	 <lit-tag v="aor"/>
-	  <lit-tag v="3"/>
-          <lit-tag v="2"/>
- 	
- 	        </lu>
-      </chunk>
-  </out>
- </when>
-    </choose>
-      </action>
-</rule>-->
 
 <rule comment="NEW RULE: can + not + infinitive "> <!--Men bara almaimyn - I can not go-->
   <pattern> <!-- generalize it for "could" with a tense selector -->

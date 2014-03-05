@@ -58,7 +58,11 @@
     <match lemma="beautiful" tags="adj"><select lemma="әдемі" tags="adj"/></match>
 
   </rule>
+<rule>
 
+    <match lemma="strong" tags="adj"><select lemma="күшті" tags="adj"/></match>
+
+  </rule>
 
   <rule>
 

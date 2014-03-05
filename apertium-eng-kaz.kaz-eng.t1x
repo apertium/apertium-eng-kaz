@@ -135,6 +135,10 @@
  <cat-item lemma="бар" tags="adj"/>
       <cat-item lemma="бар" tags="adj.*"/>
     </def-cat>
+<def-cat n="zhok">
+ <cat-item lemma="жоқ" tags="adj"/>
+      <cat-item lemma="жоқ" tags="adj.*"/>
+    </def-cat>
 <def-cat n="kerek">
  <cat-item lemma="керек" tags="n"/>
       <cat-item lemma="керек" tags="n.*"/>
@@ -593,6 +597,79 @@
       </action>
     </rule>
 
+<rule comment="RULE: VP-zhok"> <!--Mende kitap zhok-->
+      <pattern>
+        <pattern-item n="zhok"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+        <out>
+          <chunk name="VP-cop-have-neg" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV-kerek"/></tag>
+
+  <tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="do"/>
+              <lit-tag v="vbdo"/>
+              <lit-tag v="pres"/>                         
+</lu>
+<b/>
+<lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>                      
+</lu>
+<b/>
+
+<lu>
+              <lit v="have"/>
+              <lit-tag v="vbhaver"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+<lit-tag v="4"/>
+              
+</lu>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
 <rule comment="RULE: verb-need"> <!--Magan kitap kerek-->
@@ -661,6 +738,75 @@
         </call-macro>
       </action>
     </rule>
+
+<rule comment="RULE: verb-need"> <!--Magan kitap kerek edi-->
+      <pattern>
+        <pattern-item n="kerek"/>
+<pattern-item n="edi"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<call-macro n="remove-poss">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+        <out>
+          <chunk name="verb-need-past" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV-kerek"/></tag>
+
+
+ <tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="need"/>
+              <lit-tag v="vblex"/>
+             
+<lit-tag v="past"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+<lit-tag v="4"/>
+            
+</lu>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 
 <rule comment="RULE: VP-cop-had-not"> <!--Mende kitap bolgan emes-->

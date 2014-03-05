@@ -3106,9 +3106,9 @@
   </action>
 </rule>
 
-
-<rule comment="NEW RULE: can + not + infinitive "> <!--Men bara almaimyn - I can not go-->
-  <pattern> <!-- generalize it for "could" with a tense selector -->
+<!--
+<rule comment="NEW RULE: can + not + infinitive "> 
+  <pattern> 
     <pattern-item n="vaux-can-not"/>
 
     <pattern-item n="approx-inf-verb"/> 
@@ -3128,11 +3128,11 @@
       <chunk name="pers-verb">
       <tags>
         <tag><lit-tag v="VP"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="neg"/></tag> <!-- negative -->
+        <tag><lit-tag v="ND"/></tag> 
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="tense"/></tag>  
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="neg"/></tag> 
       </tags>
       <b pos="1"/>
       <b pos="2"/>
@@ -3157,7 +3157,7 @@
  </when>
     </choose>
       </action>
-</rule>
+</rule>-->
 
 <rule comment="NEW RULE: can + not + infinitive "> <!--Men bara almaimyn - I can not go-->
   <pattern> <!-- generalize it for "could" with a tense selector -->

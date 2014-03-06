@@ -34,6 +34,7 @@
       <cat-item tags="SV-kerek-past.*"/>
     </def-cat>
 
+
 <def-cat n="AdjP">
       <cat-item tags="AdjP"/>
       <cat-item tags="AdjP.*"/>
@@ -539,6 +540,9 @@
       </action>
     </rule>
     
+
+
+
 <rule comment="RULE: SN SN SV-kerek/needed">  <!--Men baqwany kordim -->
       <pattern>
         <pattern-item n="SN"/>
@@ -628,7 +632,7 @@
 
 
 
-<rule comment="RULE: SN SN SV-kerek/need">  <!--Men baqwany kordim -->
+<rule comment="RULE: SN SN SV-kerek/need">  
       <pattern>
         <pattern-item n="SN"/>
  <pattern-item n="SN"/>

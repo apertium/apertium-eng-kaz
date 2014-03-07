@@ -40134,6 +40134,7 @@
                             <e lm="Japanese" i=""><i>Japanese</i><par n="politics__n"/></e>
 
                             <e lm="Kazakh" i=""><i>Kazakh</i><par n="politics__n"/></e>
+                            <e lm="kazakh" i=""><i>kazakh</i><par n="politics__n"/></e>
 
                             <e lm="Korean" i=""><i>Korean</i><par n="house__n"/></e>
 
@@ -51565,7 +51566,7 @@
                             <e lm="Danish" i=""><p><l>Danish</l><r>danish</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Egyptian" i=""><p><l>Egyptian</l><r>egyptian</r></p><par n="expensive__adj"/></e>
-<e lm="Kazakh" i=""><p><l>Kazakh</l><r>kazakh</r></p><par n="expensive__adj"/></e>
+                            <!--<e lm="Kazakh" i=""><p><l>Kazakh</l><r>kazakh</r></p><par n="expensive__adj"/></e>-->
 
                             <e lm="English" i=""><p><l>English</l><r>english</r></p><par n="expensive__adj"/></e>
 

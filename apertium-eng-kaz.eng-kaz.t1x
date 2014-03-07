@@ -1825,6 +1825,84 @@
   </action>
 </rule>
 
+<rule comment="NEW RULE: do not need"> <!--I do need a book - Magan kitap kerek емес-->
+  <pattern>
+    <pattern-item n="vaux-do"/>
+    <pattern-item n="not"/>
+    <pattern-item n="vblex-need"/>
+  </pattern>
+  <action>
+  <choose>
+    <when>
+      <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal></test>
+        <out>
+      <chunk name="verb-need">
+      <tags>
+        <tag><lit-tag v="VP_need"/></tag>
+        <tag><lit-tag v="sg"/></tag> <!-- number -->
+        <tag><lit-tag v="p3"/></tag> <!-- person -->
+        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="neg"/></tag> <!-- negative -->
+      </tags>
+       <lu>
+         <lit v="керек"/>
+         <lit-tag v="n"/>
+         <lit-tag v="nom"/>
+       </lu>
+<b/>
+       <lu>
+         <lit v="е"/>  <!-- Note this is a cyrillic е -->
+         <lit-tag v="cop"/>
+         <lit-tag v="6"/>
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+      </chunk>
+        </out>
+      </when>
+     <when>
+      <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="past"/></equal></test>
+        <out>
+      <chunk name="verb-need">
+      <tags>
+        <tag><lit-tag v="VP_need"/></tag>
+        <tag><lit-tag v="sg"/></tag> <!-- number -->
+        <tag><lit-tag v="p3"/></tag> <!-- person -->
+        <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="neg"/></tag> <!-- negative -->
+      </tags>
+           <lu>
+         <lit v="керек"/>
+         <lit-tag v="n"/>
+         <lit-tag v="nom"/>
+       </lu>
+<b/>
+       <lu>
+         <lit v="е"/>  <!-- Note this is a cyrillic е -->
+         <lit-tag v="cop"/>
+         <lit-tag v="6"/>
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+       <b/>
+       <lu>
+         <lit v="е"/>  <!-- Note this is a cyrillic е -->
+         <lit-tag v="cop"/>
+         <lit-tag v="4"/>
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+
+      </chunk>
+        </out>
+      </when>
+       
+    </choose>   
+  </action>
+</rule>
+
 <rule comment="NEW RULE: vaux-do not approx-inf-verb"> 
 <!-- superblank management not solved -->
   <pattern>
@@ -2100,6 +2178,8 @@
     </choose>   
   </action>
 </rule>
+
+
 
 <!-- MLF has commented this rule which is breaking stuff:
 

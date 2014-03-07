@@ -149,8 +149,8 @@
     </def-cat>
 
 <def-cat n="emes">
- <cat-item lemma="е" tags="adv.neg"/>
-      <cat-item lemma="е" tags="adv.neg.*"/>
+ <cat-item lemma="е" tags="cop.neg"/>
+      <cat-item lemma="е" tags="cop.neg.*"/>
     </def-cat>
 
 <def-cat n="edi">
@@ -639,7 +639,7 @@
         <out>
           <chunk name="verb-need-neg" case="caseFirstWord">
             <tags>
-              <tag> <lit-tag v="SV-cop"/></tag>
+              <tag> <lit-tag v="SV-kerek"/></tag>
 
 
  <tag> <lit-tag v="PD"/></tag>
@@ -648,15 +648,14 @@
 
 
 </tags>
-
 <lu>
-              <lit v="need"/>
-              <lit-tag v="vblex"/>
+              <lit v="do"/>
+              <lit-tag v="vbdo"/>
              
 <lit-tag v="pres"/>
-              <lit-tag v="2"/>
+               <lit-tag v="2"/>
               <lit-tag v="3"/>
-<lit-tag v="4"/>
+
             
 </lu>
 <b/>
@@ -665,6 +664,17 @@
               <lit-tag v="adv"/>
             
 </lu>
+<b/>
+<lu>
+              <lit v="need"/>
+              <lit-tag v="vblex"/>
+             
+<lit-tag v="pres"/>
+           
+            
+</lu>
+
+
           </chunk>
         </out>
         <call-macro n="reset-vars1">

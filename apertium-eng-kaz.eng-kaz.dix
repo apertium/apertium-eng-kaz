@@ -3030,7 +3030,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>they<s n="prn"/></l><r>олар<s n="prn"/><s n="pers"/></r></p></e> <!-- Not sure if this is the best way -->
  <e><p><l>she<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/></r></p></e>
   <e><p><l>he<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/></r></p></e>
-    <e><p><l>it<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/></r></p></e>
+    <e><p><l>it<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/></l><r>бұл<s n="prn"/><s n="dem"/></r></p></e>
   
  <e><p><l>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="infl"/></r></p></e>
 
@@ -3191,6 +3191,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>stop<s n="vblex"/></l><r>тоқта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>see<s n="vblex"/></l><r>көр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>suit<s n="vblex"/></l><r>жарас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>rain<s n="vblex"/></l><r>жау<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>talk<s n="vblex"/></l><r>сөйле<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>train<s n="vblex"/></l><r>жаттықтыр<s n="v"/><s n="tv"/></r></p></e>

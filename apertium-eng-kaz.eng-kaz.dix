@@ -2095,6 +2095,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>annotation<s n="n"/></l><r>аңдатпа<s n="n"/></r></p></e>
 <e><p><l>abode<s n="n"/></l><r>мекен<s n="n"/></r></p></e>
 <e><p><l>aboriginal<s n="n"/></l><r>байырғы<s n="n"/></r></p></e>
+<e><p><l>original<s n="n"/></l><r>түпнұсқа<s n="n"/></r></p></e>
 <e><p><l>adage<s n="n"/></l><r>афоризм<s n="n"/></r></p></e>
 <e><p><l>adequacy<s n="n"/></l><r>өлшемдестік<s n="n"/></r></p></e>
 <e><p><l>adherent<s n="n"/></l><r>қолдаушы<s n="n"/></r></p></e>
@@ -2615,7 +2616,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>when<s n="adv"/><s n="itg"/></l><r>қашан<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>who<s n="adv"/><s n="itg"/></l><r>кім<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>seriously<s n="adv"/></l><r>қатты<s n="adv"/></r></p></e>
+    <e><p><l>mentally<s n="adv"/></l><r>ойша<s n="adv"/></r></p></e>
     <e><p><l>not<s n="adv"/></l><r>емес<s n="adv"/></r></p></e>
+    <e><p><l>as<b/>well<s n="adv"/></l><r>сондай-aқ<s n="adv"/></r></p></e>
     <e><p><l>later<s n="adv"/></l><r>кейін<s n="adv"/></r></p></e>
     <e><p><l>left<s n="adv"/></l><r>солға<s n="adv"/></r></p></e>
     <e><p><l>afternoon<s n="adv"/></l><r>түсте<s n="adv"/></r></p></e>

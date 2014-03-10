@@ -140,6 +140,8 @@ SELECT Inf IF (1 Inf) (2 Ger);
 
 SELECT Inf IF (1 Inf) (2 PrcPast);
 
+SELECT Inf IF (-1/0 ADV-NOT)(-1/1 VAUX-CAN);
+
 SELECT V-PRES IF (-1 N OR Pron)(1 N OR Pron);
 
 SELECT V-DO-AUX IF (NOT 1C ADV-NOT);
@@ -161,8 +163,6 @@ REMOVE Inf IF (-1 PRN-SUBJ) (NOT 0 ("will"i));
 REMOVE N IF (-1 PRN-SUBJ) (0 ("will"i) );
 
 REMOVE N IF (0 ("will"i)) (1C ADV-NOT) 
-
-SELECT Inf IF (-1/0 ADV-NOT)(-1/1 VAUX-CAN);
 
 REMOVE Inf IF (0 Inf OR V-FIN) (NOT 1* V-FIN BARRIER CLB) (NOT -1* V-FIN BARRIER CLB);
 

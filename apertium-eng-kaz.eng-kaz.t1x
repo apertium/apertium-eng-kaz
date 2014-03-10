@@ -213,6 +213,9 @@
     <def-cat n="subj-pron">
        <cat-item tags="prn.subj.*"/>
     </def-cat>
+<def-cat n="coma">
+      <cat-item tags="cm"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
@@ -1117,23 +1120,25 @@
 
 <def-macro n="NEW-gen-simple-verb-pass" npar="1">
 <out>
-      <chunk name="pers-verb">
+      <chunk name="pers-verb-pass">
       <tags>
         <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
         <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
-        <tag><lit-tag v="neg"/></tag>
+        <tag><lit-tag v="NXD"/></tag>
       </tags>
         <lu>
           <clip pos="1" side="tl" part="lem"/>
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
           <lit-tag v="pass"/>
-         
+             <lit-tag v="6"/>
           <lit-tag v="4"/>
+          <lit-tag v="5"/>
           <lit-tag v="3"/>
           <lit-tag v="2"/>
+          <lit-tag v="7"/>
         </lu>
       </chunk>
         </out>
@@ -1783,51 +1788,7 @@
 
 
 
-<rule comment="NEW RULE: DO?"> 
-<!-- for questions-->
-  <pattern>
-    <pattern-item n="vaux-do"/>
-   
-  </pattern>
-  <action>
-       <choose>
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="pres"/>
-          </equal>
-        </test>
-        <let><var n="tense"/><lit-tag v="aor"/></let> 
-     
-      </when>
 
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="past"/>
-          </equal>
-        </test>
-         <let><var n="tense"/><lit-tag v="ifi"/></let> 
-   
-      </when>
-
-    </choose>
- <out> <chunk name="VP_q">  
-      <tags>
-       <tag><lit-tag v="VPQ"/></tag>
-       <tag> <var n="tense"/>  </tag>
-      </tags>
-      <lu>
-   <!--  <lit v="ма"/>
-      <lit-tag v="qst"/>-->
-       <lit-tag v="2"/> 
-       </lu>
-     </chunk>
-</out> 
-  </action>
-</rule>
 
 <rule comment="NEW RULE: do not need"> <!--I do need a book - Magan kitap kerek емес-->
   <pattern>
@@ -3277,6 +3238,52 @@
       </action>
 </rule>
 
+
+<rule comment="NEW RULE: DO?"> 
+<!-- for questions-->
+  <pattern>
+    <pattern-item n="vaux-do"/>
+   
+  </pattern>
+  <action>
+       <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="aor"/></let> 
+     
+      </when>
+
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+         <let><var n="tense"/><lit-tag v="ifi"/></let> 
+   
+      </when>
+
+    </choose>
+ <out> <chunk name="VP_q">  
+      <tags>
+       <tag><lit-tag v="VPQ"/></tag>
+       <tag> <var n="tense"/>  </tag>
+      </tags>
+      <lu>
+   <!--  <lit v="ма"/>
+      <lit-tag v="qst"/>-->
+       <lit-tag v="2"/> 
+       </lu>
+     </chunk>
+</out> 
+  </action>
+</rule>
 
 <rule comment="NEW RULE: can + infinitive "> <!--Men bara alam - I can go-->
   <pattern> <!-- generalize it for "could" with a tense selector -->
@@ -8154,7 +8161,31 @@ this would have to be changed -->
 
 
 
-
+<rule comment="RULE: Coma">
+      <pattern>
+        <pattern-item n="coma"/>
+      </pattern>
+      <action>
+        <let> <!-- approx: assign 3rd person singular for verbs -->
+          <var n="verb-pers"/>
+          <lit-tag v="p3"/>
+        </let>
+        <let>
+          <var n="verb-nbr"/>
+          <lit-tag v="sg"/>
+        </let>
+        <out>
+          <chunk name="coma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="CM"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 <rule comment="NEW RULE: the-most adjec">   <!-- another rule is needed for the most ADJ -->
   <pattern>

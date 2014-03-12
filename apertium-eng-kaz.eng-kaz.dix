@@ -2341,6 +2341,70 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>lifeguard<s n="n"/></l><r>құтқарушы<s n="n"/></r></p></e>
 <e><p><l>passer<b/>-by<s n="n"/></l><r>жолаушы<s n="n"/></r></p></e>
 
+<e><p><l>Empire<s n="n"/></l><r>Империя<s n="n"/></r></p></e>
+<e><p><l>difference<s n="n"/></l><r>ажырым<s n="n"/></r></p></e>
+<e><p><l>group<s n="n"/></l><r>топ<s n="n"/></r></p></e>
+<e><p><l>parliament<s n="n"/></l><r>парламент<s n="n"/></r></p></e>
+<e><p><l>name<s n="n"/></l><r>ат<s n="n"/></r></p></e>
+<e><p><l>chairman<s n="n"/></l><r>төраға<s n="n"/></r></p></e>
+<e><p><l>Union<s n="n"/></l><r>Бірлестік<s n="n"/></r></p></e>
+<e><p><l>because<s n="n"/></l><r>неғұрлым<s n="n"/></r></p></e>
+<e><p><l>too<s n="n"/></l><r>олай<s n="n"/></r></p></e>
+<e><p><l>separation<s n="n"/></l><r>аулақтану<s n="n"/></r></p></e>
+<e><p><l>mineral<s n="n"/></l><r>минерал<s n="n"/></r></p></e>
+<e><p><l>objective<s n="n"/></l><r>мақсат<s n="n"/></r></p></e>
+<e><p><l>Chevron<s n="n"/></l><r>Шеврон<s n="n"/></r></p></e>
+<e><p><l>insistence<s n="n"/></l><r>табандылық<s n="n"/></r></p></e>
+
+
+<e><p><l>resource<s n="n"/></l><r>қор<s n="n"/></r></p></e>
+<e><p><l>Treaty<s n="n"/></l><r>Келісім<s n="n"/></r></p></e>
+<e><p><l>pattern<s n="n"/></l><r>үлгі<s n="n"/></r></p></e>
+<e><p><l>structure<s n="n"/></l><r>құрылым<s n="n"/></r></p></e>
+<e><p><l>Communist<s n="n"/></l><r>Коммунист<s n="n"/></r></p></e>
+<e><p><l>party<s n="n"/></l><r>Партия<s n="n"/></r></p></e>
+<e><p><l>leadership<s n="n"/></l><r>көшбасшылық<s n="n"/></r></p></e>
+<e><p><l>most<s n="n"/></l><r>неғұрлым<s n="n"/></r></p></e>
+<e><p><l>level<s n="n"/></l><r>деңгей<s n="n"/></r></p></e>
+<e><p><l>secretary<s n="n"/></l><r>хатшы<s n="n"/></r></p></e>
+<e><p><l>beginning<s n="n"/></l><r>басы<s n="n"/></r></p></e>
+<e><p><l>constitution<s n="n"/></l><r>конституция<s n="n"/></r></p></e>
+<e><p><l>relationship<s n="n"/></l><r>қатынас<s n="n"/></r></p></e>
+<e><p><l>restriction<s n="n"/></l><r>шектеу<s n="n"/></r></p></e>
+<e><p><l>framework<s n="n"/></l><r>құрылым<s n="n"/></r></p></e>
+<e><p><l>popularity<s n="n"/></l><r>мәлімділік<s n="n"/></r></p></e>
+<e><p><l>gain<s n="n"/></l><r>пайда<s n="n"/></r></p></e>
+<e><p><l>by<s n="n"/></l><r>жақын<s n="n"/></r></p></e>
+<e><p><l>nationality<s n="n"/></l><r>ұлт<s n="n"/></r></p></e>
+<e><p><l>variation<s n="n"/></l><r>вариация<s n="n"/></r></p></e>
+<e><p><l>metre<s n="n"/></l><r>метр<s n="n"/></r></p></e>
+<e><p><l>elevation<s n="n"/></l><r>өрлеу<s n="n"/></r></p></e>
+<e><p><l>bottom<s n="n"/></l><r>асты<s n="n"/></r></p></e>
+<e><p><l>depression<s n="n"/></l><r>күйзеліс<s n="n"/></r></p></e>
+<e><p><l>province<s n="n"/></l><r>провинция<s n="n"/></r></p></e>
+<e><p><l>shore<s n="n"/></l><r>жаға<s n="n"/></r></p></e>
+<e><p><l>peak<s n="n"/></l><r>шың<s n="n"/></r></p></e>
+<e><p><l>except<s n="n"/></l><r>басқа<s n="n"/></r></p></e>
+<e><p><l>which<s n="n"/></l><r>нешінші<s n="n"/></r></p></e>
+<e><p><l>all<s n="n"/></l><r>барлық<s n="n"/></r></p></e>
+<e><p><l>either<s n="n"/></l><r>да<s n="n"/></r></p></e>
+<e><p><l>such<s n="n"/></l><r>мынадай<s n="n"/></r></p></e>
+<e><p><l>simply<s n="n"/></l><r>жайдан-жай<s n="n"/></r></p></e>
+<e><p><l>desert<s n="n"/></l><r>шөл<s n="n"/></r></p></e>
+<e><p><l>south<s n="n"/></l><r>оңтүстік<s n="n"/></r></p></e>
+<e><p><l>Many<s n="n"/></l><r>көп<s n="n"/></r></p></e>
+<e><p><l>population<s n="n"/></l><r>халық<s n="n"/></r></p></e>
+<e><p><l>much<s n="n"/></l><r>көп<s n="n"/></r></p></e>
+<e><p><l>minority<s n="n"/></l><r>азшылық<s n="n"/></r></p></e>
+<e><p><l>so<s n="n"/></l><r>олай<s n="n"/></r></p></e>
+<e><p><l>emigration<s n="n"/></l><r>эмиграция<s n="n"/></r></p></e>
+<e><p><l>option<s n="n"/></l><r>талғам<s n="n"/></r></p></e>
+<e><p><l>rate<s n="n"/></l><r>шама<s n="n"/></r></p></e>
+<e><p><l>Eastern<s n="n"/></l><r>Күншығыс<s n="n"/></r></p></e>
+<e><p><l>bloc<s n="n"/></l><r>шығыр<s n="n"/></r></p></e>
+
+
+
 <!--ProPER NOUNS -->
 
 
@@ -2355,6 +2419,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Russia<s n="np"/><s n="loc"/><s n="sg"/></l><r>Ресей<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Turkey<s n="np"/><s n="loc"/><s n="sg"/></l><r>Түркия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>California<s n="np"/><s n="loc"/><s n="sg"/></l><r>Калифорния<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Greek<s n="np"/><s n="loc"/><s n="sg"/></l><r>Грек<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Moscow<s n="np"/><s n="loc"/><s n="sg"/></l><r>Мәскеу<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+
+<e><p><l>Socialist<s n="np"/><s n="loc"/><s n="sg"/></l><r>Социалист<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+
+
+
+
 
 <e><p><l>Afghanistan<s n="np"/><s n="loc"/><s n="sg"/></l><r>Ауғанстан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Albania<s n="np"/><s n="loc"/><s n="sg"/></l><r>Албания<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -2674,9 +2746,31 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>here<s n="adv"/></l><r>мында<s n="adv"/></r></p></e>
 <e><p><l>late<s n="adv"/></l><r>кеш<s n="adv"/></r></p></e>
 
+
+
+
+
 <e><p><l>allegedly<s n="adv"/></l><r>секілді<s n="adv"/></r></p></e>
 <e><p><l>completely<s n="adv"/></l><r>толықтай<s n="adv"/></r></p></e>
 <e><p><l>almost<s n="adv"/></l><r>дерлік<s n="adv"/></r></p></e>
+<e><p><l>officially<s n="adv"/></l><r>ресми<s n="adv"/></r></p></e>
+<e><p><l>soon<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
+<e><p><l>afterward<s n="adv"/></l><r>кейін<s n="adv"/></r></p></e>
+<e><p><l>especially<s n="adv"/></l><r>айрықша<s n="adv"/></r></p></e>
+<e><p><l>strongly<s n="adv"/></l><r>өте<s n="adv"/></r></p></e>
+<e><p><l>largely<s n="adv"/></l><r>едәуір<s n="adv"/></r></p></e>
+<e><p><l>particularly<s n="adv"/></l><r>айрықша<s n="adv"/></r></p></e>
+<e><p><l>nearly<s n="adv"/></l><r>жақын<s n="adv"/></r></p></e>
+<e><p><l>rapidly<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
+<e><p><l>throughout<s n="adv"/></l><r>әр<b/>жерде<s n="adv"/></r></p></e>
+<e><p><l>forward<s n="adv"/></l><r>алға<s n="adv"/></r></p></e>
+<e><p><l>Furthermore<s n="adv"/></l><r>одан<b/>басқа<s n="adv"/></r></p></e>
+<e><p><l>severely<s n="adv"/></l><r>шын<s n="adv"/></r></p></e>
+<e><p><l>within<s n="adv"/></l><r>шегінде<s n="adv"/></r></p></e>
+<e><p><l>respectively<s n="adv"/></l><r>сәйкесінше<s n="adv"/></r></p></e>
+<e><p><l>partially<s n="adv"/></l><r>жарым-жартылай<s n="adv"/></r></p></e>
+<e><p><l>near<s n="adv"/></l><r>қасында<s n="adv"/></r></p></e>
+<e><p><l>during<s n="adv"/></l><r>бойы<s n="adv"/></r></p></e>
 <e><p><l>even<s n="adv"/></l><r>тіпті<s n="adv"/></r></p></e>
 <e><p><l>similarly<s n="adv"/></l><r>секілді<s n="adv"/></r></p></e>
 <e><p><l>opposite<s n="adv"/></l><r>қарсы<s n="adv"/></r></p></e>		
@@ -2993,7 +3087,41 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>busy<s n="adj"/></l><r>бос<b/>емес<s n="adj"/></r></p></e>
 <e><p><l>buttery<s n="adj"/></l><r>көмбе<s n="adj"/></r></p></e>
 <e><p><l>stormy<s n="adj"/></l><r>дауылды<s n="adj"/></r></p></e>
+<e><p><l>ethnic<s n="adj"/></l><r>этникалық<s n="adj"/></r></p></e>
 
+<e><p><l>Autonomous<s n="adj"/></l><r>Автономиялы<s n="adj"/></r></p></e>
+<e><p><l>presidency<s n="adj"/></l><r>президенттік<s n="adj"/></r></p></e>
+<e><p><l>interdependent<s n="adj"/></l><r>өзара<b/>тәуелді<s n="adj"/></r></p></e>
+<e><p><l>economically<s n="adj"/></l><r>экономикалық<s n="adj"/></r></p></e>
+<e><p><l>enormous<s n="adj"/></l><r>алып<s n="adj"/></r></p></e>
+<e><p><l>industrial<s n="adj"/></l><r>индустриялы<s n="adj"/></r></p></e>
+<e><p><l>potential<s n="adj"/></l><r>әлует<s n="adj"/></r></p></e>
+<e><p><l>American<s n="adj"/></l><r>Американдық<s n="adj"/></r></p></e>
+<e><p><l>revised<s n="adj"/></l><r>жөндеулі<s n="adj"/></r></p></e>
+<e><p><l>last<s n="adj"/></l><r>ақырғы<b/>рет<s n="adj"/></r></p></e>
+<e><p><l>Central<s n="adj"/></l><r>Орталық<s n="adj"/></r></p></e>
+<e><p><l>Asian<s n="adj"/></l><r>Азиялық<s n="adj"/></r></p></e>
+<e><p><l>governmental<s n="adj"/></l><r>үкіметтік<s n="adj"/></r></p></e>
+<e><p><l>effective<s n="adj"/></l><r>тиімді<s n="adj"/></r></p></e>
+<e><p><l>legal<s n="adj"/></l><r>заңды<s n="adj"/></r></p></e>
+<e><p><l>rigid<s n="adj"/></l><r>қатал<s n="adj"/></r></p></e>
+<e><p><l>substantial<s n="adj"/></l><r>байыпты<s n="adj"/></r></p></e>
+<e><p><l>ethnic<s n="adj"/></l><r>этникалық<s n="adj"/></r></p></e>
+<e><p><l>highly<s n="adj"/></l><r>төтенше<s n="adj"/></r></p></e>
+<e><p><l>diverse<s n="adj"/></l><r>алуан<s n="adj"/></r></p></e>
+<e><p><l>considerable<s n="adj"/></l><r>маңызды<s n="adj"/></r></p></e>
+<e><p><l>topographical<s n="adj"/></l><r>топографиялық<s n="adj"/></r></p></e>
+<e><p><l>isolated<s n="adj"/></l><r>оңаша<s n="adj"/></r></p></e>
+<e><p><l>southern<s n="adj"/></l><r>оңтүстік<s n="adj"/></r></p></e>
+<e><p><l>seasonal<s n="adj"/></l><r>маусымдық<s n="adj"/></r></p></e>
+<e><p><l>fresh<s n="adj"/></l><r>жаңа<s n="adj"/></r></p></e>
+<e><p><l>willing<s n="adj"/></l><r>дайын<s n="adj"/></r></p></e>
+<e><p><l>few<s n="adj"/></l><r>аз<s n="adj"/></r></p></e>
+<e><p><l>comparable<s n="adj"/></l><r>салыстырмалы<s n="adj"/></r></p></e>
+<e><p><l>former<s n="adj"/></l><r>бұрынғы<s n="adj"/></r></p></e>
+<e><p><l>greek<s n="adj"/></l><r>грек<s n="adj"/></r></p></e>
+<e><p><l>communist<s n="adj"/></l><r>коммунистік<s n="adj"/></r></p></e>
+<e><p><l>soviet<s n="adj"/></l><r>советтік<s n="adj"/></r></p></e>
 <e><p><l>english<s n="adj"/></l><r>ағылшын<s n="adj"/></r></p></e>
 <e><p><l>kazakh<s n="adj"/></l><r>қазақ<s n="adj"/></r></p></e>
 <e><p><l>Kazakh<s n="adj"/></l><r>қазақ<s n="adj"/></r></p></e>
@@ -3450,6 +3578,45 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>bury<s n="vblex"/></l><r>жерле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>buy<s n="vblex"/></l><r>сатып<b/>ал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>buzz<s n="vblex"/></l><r>гуілде<s n="v"/><s n="iv"/></r></p></e>
+<!--kazraw
+<e><p><l>set<s n="vblex"/></l><r>тағайында<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>rename<s n="vblex"/></l><r>қайта<b/>ата<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>differentiate<s n="vblex"/></l><r>саралан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>recognise<s n="vblex"/></l><r>есте<b/>сақта<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>call<s n="vblex"/></l><r>телефон<b/>соқ<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>originate<s n="vblex"/></l><r>іске<b/>қос<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>practice<s n="vblex"/></l><r>қолдан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>convert<s n="vblex"/></l><r>айналдыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>state<s n="vblex"/></l><r>мәлімде<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>remain<s n="vblex"/></l><r>қал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>commit<s n="vblex"/></l><r>істе<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>consider<s n="vblex"/></l><r>қара<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>survive<s n="vblex"/></l><r>тірі<b/>қал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>secure<s n="vblex"/></l><r>қамсыздандыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>learn<s n="vblex"/></l><r>оқы<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>negotiate<s n="vblex"/></l><r>келіс<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>develop<s n="vblex"/></l><r>дамыт<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>consult<s n="vblex"/></l><r>ақылдас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>surrender<s n="vblex"/></l><r>бағын<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>crumble<s n="vblex"/></l><r>үгіт<s n="v"/><s n="iv"/></r></p></e>-->
+<e><p><l>support<s n="vblex"/></l><r>қолда<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>sign<s n="vblex"/></l><r>қол<b/>қой<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>declare<s n="vblex"/></l><r>жарияла<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>dominate<s n="vblex"/></l><r>басқар<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>retain<s n="vblex"/></l><r>сақта<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>occupy<s n="vblex"/></l><r>басып<b/>ал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>elected<s n="vblex"/></l><r>таңдап<b/>ал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>ensure<s n="vblex"/></l><r>кепілдік<b/>бер<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>reinforce<s n="vblex"/></l><r>бекіт<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>limit<s n="vblex"/></l><r>шекте<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>maintain<s n="vblex"/></l><r>қолда<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>range<s n="vblex"/></l><r>орналас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>flow<s n="vblex"/></l><r>туында<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>evaporate<s n="vblex"/></l><r>булан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>proceed<s n="vblex"/></l><r>жалғастыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>emigrate<s n="vblex"/></l><r>көш<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>repatriate<s n="vblex"/></l><r>отанына<b/>қайта<b/>орал<s n="v"/><s n="iv"/></r></p></e>
+
 
 <e><p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>
 

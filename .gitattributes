@@ -19,6 +19,8 @@
 /apertium-eng-kaz.kaz-eng.t2x -text
 /apertium-eng-kaz.kaz-eng.t3x -text
 /autogen.sh -text
+coding-ch/first_diag.txt -text
+coding-ch/kazakhstan1.raw.txt -text
 /configure.ac -text
 /correct-tests.sh -text
 dev/Correct_tests.html -text
@@ -37,7 +39,11 @@ dev/unknown-words-from-news-commentary-v8-20130619.txt -text
 /kazakhnouns.txt -text svneol=unset#application/octet-stream
 /modes.xml -text
 /new-regression-tests.sh -text
+/newadj.txt -text
+/newadv.txt -text
 /newdix.txt -text
+/newpr.txt -text
+/newverb.txt -text
 /notnoun.txt -text
 /regression-tests.sh -text
 texts/eng.chunks.txt -text

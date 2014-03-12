@@ -539,6 +539,75 @@
   <section-rules>
 
 
+<!-- Мен дәрігер емеспін-->
+<rule comment="RULE: VP-cop-neg"> 
+      <pattern>
+        <pattern-item n="cop-neg"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose><!-- choosing correct to be-->
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+        <out>
+          <chunk name="VP-cop-neg" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV-cop"/></tag>
+
+ <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              
+</lu>
+<b/>
+<lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>
+</lu>
+<b/>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
 <rule comment="RULE: VP-cop-past"> <!--Mende kitap bar-->
       <pattern>
         <pattern-item n="bar"/>
@@ -903,7 +972,7 @@
 
 
 
-<rule comment="RULE: VP-cop-had-not"> <!--Mende kitap bolgan emes-->
+<rule comment="RULE: VP-cop-had-not"> <!--Mende kitap zhok-->
       <pattern>
  <pattern-item n="bol"/>
         <pattern-item n="emes"/>
@@ -1028,6 +1097,119 @@
               
 </lu>
 
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+
+
+
+<!-- Мен дәрігермін-->
+<rule comment="RULE: VP-cop"> 
+      <pattern>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose><!-- choosing correct to be-->
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+        <out>
+          <chunk name="VP-cop" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV-cop"/></tag>
+
+ <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              
+</lu>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+
+
+
+<rule comment="RULE: NOM post">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="adv"/>
+
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+        <out>
+          <chunk name="nom-pron" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PP"/></tag>
+              <tag><lit-tag v="sg"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+             <lit-tag v="pr"/>
+
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <lit-tag v="2"/>
+
+            </lu>
           </chunk>
         </out>
         <call-macro n="reset-vars1">
@@ -1204,178 +1386,7 @@
 
 
 
-<!-- Мен дәрігермін-->
-<rule comment="RULE: VP-cop"> 
-      <pattern>
-        <pattern-item n="cop"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
-        </call-macro>
- <choose><!-- choosing correct to be-->
-               <when>
-                   <test>
-                   
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
 
-                </when>
-<when>
-                   <test>
-                   <and>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                     </and>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                </when>
-
-           </choose>
-        <out>
-          <chunk name="VP-cop" case="caseFirstWord">
-            <tags>
-              <tag> <lit-tag v="SV-cop"/></tag>
-
- <tag><clip pos="1" side="tl" part="a_pers"/></tag>
- <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-
-
-
-</tags>
-<lu>
-              <lit v="be"/>
-              <lit-tag v="vbser"/>
-              <lit-tag v="pres"/>
-              <lit-tag v="2"/>
-              <lit-tag v="3"/>
-              
-</lu>
-
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
-
-<!-- Мен дәрігер емеспін-->
-<rule comment="RULE: VP-cop-neg"> 
-      <pattern>
-        <pattern-item n="cop-neg"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
-        </call-macro>
- <choose><!-- choosing correct to be-->
-               <when>
-                   <test>
-                   
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-
-                </when>
-<when>
-                   <test>
-                   <and>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                     </and>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                </when>
-
-           </choose>
-        <out>
-          <chunk name="VP-cop-neg" case="caseFirstWord">
-            <tags>
-              <tag> <lit-tag v="SV-cop"/></tag>
-
- <tag><clip pos="1" side="tl" part="a_pers"/></tag>
- <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-
-
-
-</tags>
-<lu>
-              <lit v="be"/>
-              <lit-tag v="vbser"/>
-              <lit-tag v="pres"/>
-              <lit-tag v="2"/>
-              <lit-tag v="3"/>
-              
-</lu>
-<b/>
-<lu>
-              <lit v="not"/>
-              <lit-tag v="adv"/>
-</lu>
-<b/>
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
-
-
-
-
-<rule comment="RULE: NOM post">
-      <pattern>
-        <pattern-item n="nom"/>
-        <pattern-item n="adv"/>
-
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
-        </call-macro>
-
-        <out>
-          <chunk name="nom-pron" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="PP"/></tag>
-              <tag><lit-tag v="sg"/></tag>
-              <tag><lit-tag v="PD"/></tag>
-            </tags>
-            <lu>
-              <clip pos="2" side="tl" part="lem"/>
-             <lit-tag v="pr"/>
-
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-              <lit-tag v="2"/>
-
-            </lu>
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
 <rule comment="RULE: NOM post"><!-- ozen arkyly-->
       <pattern>
         <pattern-item n="nom"/>

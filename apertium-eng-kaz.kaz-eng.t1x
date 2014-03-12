@@ -105,6 +105,8 @@
 <def-cat n="cop-neg">
       <cat-item tags="cop.neg.*"/>
   <cat-item tags="vaux.pres.*"/>
+   <cat-item tags="cop.neg"/>
+  <cat-item tags="vaux.pres"/>
     </def-cat>
 <def-cat n="dett">
 <cat-item tags="det.dem"/>

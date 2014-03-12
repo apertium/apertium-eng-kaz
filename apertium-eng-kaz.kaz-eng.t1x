@@ -99,6 +99,7 @@
       <cat-item tags="num.*"/>
 </def-cat>
 
+
  <def-cat n="cop">
       <cat-item tags="cop.*"/>
     </def-cat>
@@ -170,7 +171,13 @@
       <cat-item tags="post.Rnom.*"/>
       <cat-item tags="n.*.loc"/>
       <cat-item tags="n.*.loc.*"/>
+
     </def-cat>
+ <def-cat n="nom-pr">
+<cat-item tags="pr"/>
+<cat-item tags="pr.*"/>
+ <cat-item tags="n.*.*"/>
+ </def-cat>
     <def-cat n="nom-gen">
       <cat-item tags="n.gen"/>
     </def-cat>
@@ -2161,6 +2168,69 @@
         </call-macro>
       </action>
     </rule>
+
+
+<rule comment="RULE: NOM-POST NUM ADJ NOM "> <!--жеті әдемі бақшаның астында-->
+      <pattern>
+
+        <pattern-item n="num"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+ <pattern-item n="nom-pr"/>
+       
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="4"/>
+        </call-macro>
+<call-macro n="remove-poss">
+          <with-param pos="4"/>
+        </call-macro>
+       <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="num-adj-nom-nompost" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+            <b pos="2"/>
+<lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+<b/>
+
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+              <var n="number"/>
+            </lu>
+<b/>
+ <lu>
+              <clip pos="4" side="tl" part="whole"/>
+             
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
 
 
   <rule comment="REGLA: ADJ ADJ NOM">

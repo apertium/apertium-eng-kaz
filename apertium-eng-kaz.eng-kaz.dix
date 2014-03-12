@@ -3578,7 +3578,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>bury<s n="vblex"/></l><r>жерле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>buy<s n="vblex"/></l><r>сатып<b/>ал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>buzz<s n="vblex"/></l><r>гуілде<s n="v"/><s n="iv"/></r></p></e>
-<!--kazraw
+<!--kazraw-->
 <e><p><l>set<s n="vblex"/></l><r>тағайында<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>rename<s n="vblex"/></l><r>қайта<b/>ата<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>differentiate<s n="vblex"/></l><r>саралан<s n="v"/><s n="iv"/></r></p></e>
@@ -3598,7 +3598,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>develop<s n="vblex"/></l><r>дамыт<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>consult<s n="vblex"/></l><r>ақылдас<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>surrender<s n="vblex"/></l><r>бағын<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>crumble<s n="vblex"/></l><r>үгіт<s n="v"/><s n="iv"/></r></p></e>-->
+<e><p><l>crumble<s n="vblex"/></l><r>үгіт<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>support<s n="vblex"/></l><r>қолда<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>sign<s n="vblex"/></l><r>қол<b/>қой<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>declare<s n="vblex"/></l><r>жарияла<s n="v"/><s n="iv"/></r></p></e>

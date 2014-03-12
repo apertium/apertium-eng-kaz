@@ -31,6 +31,7 @@ dev/bidix-entries-nouns-from-gloss.txt -text
 dev/eng.hitparade.10000.txt -text
 dev/lexcdiff.py -text
 dev/news.en -text
+dev/proposal.odt -text
 dev/text-to-recycle-for-article.rtf -text
 dev/transfer-rehaul-notes.tex -text
 dev/unknown-words-from-news-commentary-v8-20130619.txt -text

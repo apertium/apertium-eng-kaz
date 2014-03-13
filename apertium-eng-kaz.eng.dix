@@ -40136,6 +40136,15 @@
                             <e lm="Kazakh" i=""><i>Kazakh</i><par n="politics__n"/></e>
                             <e lm="kazakh" i=""><i>kazakh</i><par n="politics__n"/></e>
 
+                            <e lm="Kyrgyz" i=""><i>Kyrgyz</i><par n="politics__n"/></e>
+                            <e lm="kyrgyz" i=""><i>kyrgyz</i><par n="politics__n"/></e>
+
+                            <e lm="Kazakh" i=""><i>Kazakh</i><par n="house__n"/></e>
+                            <e lm="kazakh" i=""><i>kazakh</i><par n="house__n"/></e>
+
+                            <e lm="Kyrgyz" i=""><i>Kyrgyz</i><par n="house__n"/></e>
+                            <e lm="kyrgyz" i=""><i>kyrgyz</i><par n="house__n"/></e>
+
                             <e lm="Korean" i=""><i>Korean</i><par n="house__n"/></e>
 
                             <e lm="Latin" i=""><p><l>Latin</l><r>latin</r></p><par n="house__n"/></e>
@@ -51621,6 +51630,7 @@
                             <e lm="Jordanian" i=""><p><l>Jordanian</l><r>jordanian</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Kenyan" i=""><p><l>Kenyan</l><r>kenyan</r></p><par n="expensive__adj"/></e>
+                            <e lm="Kyrgyz" i=""><p><l>Kyrgyz</l><r>kyrgyz</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Korean" i=""><p><l>Korean</l><r>korean</r></p><par n="expensive__adj"/></e>
 

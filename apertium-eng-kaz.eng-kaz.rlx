@@ -122,6 +122,8 @@ REMOVE Inf IF (0 N OR Inf) (1 ("to"i)) (2 Inf);
 
 SELECT N IF (-1 NUM);
 
+SELECT N IF (-1 ("Baltic"i));
+
 REMOVE N IF (0 V-FIN) (0 N) (0 N OR V-FIN) ((NOT 1* V-FIN BARRIER CLB) OR (NOT -1C* V-FIN BARRIER CLB));
 
 REMOVE A IF (0 A OR Adv) (NOT 1 N) (NOT -1* Cop BARRIER CLB) ;

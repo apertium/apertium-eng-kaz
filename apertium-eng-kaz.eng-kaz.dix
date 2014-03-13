@@ -13,6 +13,7 @@
     <sdef n="caus"/>
     <sdef n="mf"/>
     <sdef n="ord"/>
+    <sdef n="cog"/>
     <sdef n="obj"/>
     <sdef n="recip"/>
   <sdef n="nn"/>
@@ -116,8 +117,9 @@
    
  <e r="LR"><p><l>that<s n="cnjsub"/></l><r></r></p></e>
 
-    <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
+
  <e><p><l>another<s n="prn"/><s n="tn"/><s n="m"/></l><r>басқа<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="det"/><s n="qnt"/></r></p></e>
 
 
@@ -288,6 +290,7 @@
     <e><p><l>answer<s n="n"/></l><r>жауап<s n="n"/></r></p></e>
     <e><p><l>question<s n="n"/></l><r>сұрақ<s n="n"/></r></p></e>
     <e><p><l>person<s n="n"/></l><r>адам<s n="n"/></r></p></e>
+    <e><p><l>perpetuation<s n="n"/></l><r>естелік<s n="n"/></r></p></e>
     <e><p><l>table<s n="n"/></l><r>үстел<s n="n"/></r></p></e>
     <e><p><l>computer<s n="n"/></l><r>компьютер<s n="n"/></r></p></e>
     <e><p><l>chair<s n="n"/></l><r>орындық<s n="n"/></r></p></e>
@@ -2405,6 +2408,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>rate<s n="n"/></l><r>шама<s n="n"/></r></p></e>
 <e><p><l>Eastern<s n="n"/></l><r>Күншығыс<s n="n"/></r></p></e>
 <e><p><l>bloc<s n="n"/></l><r>шығыр<s n="n"/></r></p></e>
+<e><p><l>chairmanship<s n="n"/></l><r>төрағалық<s n="n"/></r></p></e>
+<e><p><l>presidency<s n="n"/></l><r>президенттік<s n="n"/></r></p></e>
 
 
 
@@ -2424,6 +2429,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>California<s n="np"/><s n="loc"/><s n="sg"/></l><r>Калифорния<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Greek<s n="np"/><s n="loc"/><s n="sg"/></l><r>Грек<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Moscow<s n="np"/><s n="loc"/><s n="sg"/></l><r>Мәскеу<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Baltic<s n="np"/><s n="loc"/><s n="sg"/></l><r>Балтық<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 
 <e><p><l>socialist<s n="n"/></l><r>социалист<s n="n"/></r></p></e>
 
@@ -2650,6 +2656,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
     <e><p><l>Azamat<s n="np"/><s n="ant"/><s n="m"/></l><r>Азамат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ajgul<s n="np"/><s n="ant"/><s n="f"/></l><r>Айгүл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+  <e><p><l>Nazarbayev<s n="np"/><s n="cog"/></l><r>Назарбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
    <!-- Раздел: Имя Числительное -->
 
@@ -2758,6 +2765,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>completely<s n="adv"/></l><r>толықтай<s n="adv"/></r></p></e>
 <e><p><l>almost<s n="adv"/></l><r>дерлік<s n="adv"/></r></p></e>
 <e><p><l>officially<s n="adv"/></l><r>ресми<s n="adv"/></r></p></e>
+<e><p><l>in<b/>contrast<s n="adv"/></l><r>айырмашылығында<s n="adv"/></r></p></e>
 <e><p><l>soon<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
 <e><p><l>afterward<s n="adv"/></l><r>кейін<s n="adv"/></r></p></e>
 <e><p><l>especially<s n="adv"/></l><r>айрықша<s n="adv"/></r></p></e>
@@ -3127,12 +3135,15 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>former<s n="adj"/></l><r>бұрынғы<s n="adj"/></r></p></e>
 <e><p><l>greek<s n="adj"/></l><r>грек<s n="adj"/></r></p></e>
 <e><p><l>communist<s n="adj"/></l><r>коммунистік<s n="adj"/></r></p></e>
+<e><p><l>independence-minded<s n="adj"/></l><r>тәуелсіз<b/>ойлы<s n="adj"/></r></p></e>
 <e><p><l>soviet<s n="adj"/></l><r>советтік<s n="adj"/></r></p></e>
 <e><p><l>english<s n="adj"/></l><r>ағылшын<s n="adj"/></r></p></e>
 <e><p><l>kazakh<s n="adj"/></l><r>қазақ<s n="adj"/></r></p></e>
 <e><p><l>Kazakh<s n="adj"/></l><r>қазақ<s n="adj"/></r></p></e>
 <e><p><l>Turkic<s n="adj"/></l><r>түркі<s n="adj"/></r></p></e>
 <e><p><l>turkic<s n="adj"/></l><r>түркі<s n="adj"/></r></p></e>
+<e><p><l>Baltic<s n="adj"/></l><r>Балтық<s n="adj"/></r></p></e>
+<e><p><l>Baltic<s n="adj"/></l><r>балтық<s n="adj"/></r></p></e>
  <e r="RL"><p><l><s n="adj"/></l><r>жоқ<s n="adj"/></r></p></e> 
 
 
@@ -3222,8 +3233,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <!-- MLF 20120710 Demonstrative determiners -->
    <e><p><l>this<s n="prn"/><s n="tn"/><s n="mf"/></l><r>бұл<s n="prn"/><s n="dem"/><s n="nom"/></r></p></e>
     <e><p><l>that<s n="det"/><s n="dem"/></l><r>анау<s n="det"/><s n="dem"/></r></p></e>
-
-
+    <e><p><l>other<s n="prn"/><s n="tn"/><s n="m"/></l><r>басқа<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>other<s n="adj"/></l><r>басқа<s n="adj"/></r></p></e>
  <e><p><l>this<s n="det"/><s n="dem"/></l><r>мынау<s n="det"/><s n="dem"/></r></p></e>
 
 
@@ -3595,11 +3606,12 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>recognise<s n="vblex"/></l><r>мойында<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>call<s n="vblex"/></l><r>қоңырау<b/>шал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>originate<s n="vblex"/></l><r>іске<b/>қос<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>practice<s n="vblex"/></l><r>қолдан<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>convert<s n="vblex"/></l><r>айналдыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>practice<s n="vblex"/></l><r>қолдан<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>name<s n="vblex"/></l><r>ата<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>convert<s n="vblex"/></l><r>айналдыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>state<s n="vblex"/></l><r>мәлімде<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>remain<s n="vblex"/></l><r>қал<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>commit<s n="vblex"/></l><r>істе<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>commit<s n="vblex"/></l><r>тапсыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>consider<s n="vblex"/></l><r>қара<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>survive<s n="vblex"/></l><r>тірі<b/>қал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>secure<s n="vblex"/></l><r>қамсыздандыр<s n="v"/><s n="iv"/></r></p></e>

@@ -17933,6 +17933,7 @@
                             <e lm="E.H. Sukarra" i=""><i>E.H.<b/>Sukarra</i><par n="Linux__np"/></e>
 
                             <e lm="breadwinner" i=""><i>breadwinner</i><par n="house__n"/></e>
+<e lm="chairmanship" i=""><i>chairmanship</i><par n="house__n"/></e>
 
 <e lm="kangaroo" i=""><i>kangaroo</i><par n="house__n"/></e>
 <e lm="keeper" i=""><i>keeper</i><par n="house__n"/></e>
@@ -18451,6 +18452,8 @@
                             <e lm="Júlia" i=""><i>Júlia</i><par n="Mary__np"/></e>
 
                             <e lm="Kazakhstan" i=""><i>Kazakhstan</i><par n="Barcelona__np"/></e>
+
+                            <e lm="Baltic" i=""><i>Baltic</i><par n="Barcelona__np"/></e>
 
                             <e lm="Kurdistan" i=""><i>Kurdistan</i><par n="Barcelona__np"/></e>
 
@@ -19068,7 +19071,7 @@
 
                             <e lm="anointing" i=""><i>anointing</i><par n="house__n"/></e>
 
-                            <e lm="another" i=""><i>another</i><par n="another__det"/></e>
+                            <!--<e lm="another" i=""><i>another</i><par n="another__det"/></e>-->
 
                             <e lm="another" i=""><i>another</i><par n="everyone__prn"/></e>
 
@@ -23641,7 +23644,6 @@
 
                             <e r="LR" i=""><i>a</i><par n="a__det"/></e>
 
-                            <e lm="another" i=""><i>another</i><par n="another__det"/></e>
 
                             <e lm="any" i=""><i>any</i><par n="other__det"/></e>
 
@@ -23683,7 +23685,7 @@
 
                             <!--<e lm="no" i=""><i>no</i><par n="other__det"/></e>-->
 
-                            <e lm="other" i=""><i>other</i><par n="other__det"/></e>
+                            <!--<e lm="other" i=""><i>other</i><par n="other__det"/></e>-->
 
                             <e lm="our" i=""><i>our</i><par n="her__det"/></e>
 
@@ -39736,6 +39738,7 @@
                             <e lm="New Zealand" i=""><i>New<b/>Zealand</i><par n="Barcelona__np"/></e>
 
                             <e lm="Nicaragua" i=""><i>Nicaragua</i><par n="Barcelona__np"/></e>
+                            <e lm="Nazarbayev" i=""><i>Nazarbayev</i><par n="Smith__np"/></e>
 
                             <e lm="Nice" i=""><i>Nice</i><par n="Barcelona__np"/></e>
 
@@ -51715,6 +51718,7 @@
                             <e lm="Thai" i=""><p><l>Thai</l><r>thai</r></p><par n="expensive__adj"/></e>
 
 <e lm="Turkic" i=""><p><l>Turkic</l><r>turkic</r></p><par n="expensive__adj"/></e>
+
                             <e lm="Turkish" i=""><p><l>Turkish</l><r>turkish</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Ukrainian" i=""><p><l>Ukrainian</l><r>ukrainian</r></p><par n="expensive__adj"/></e>
@@ -51829,7 +51833,7 @@
                             <e lm="absorbent" i=""><i>absorbent</i><par n="expensive__adj"/></e>
 
                             <e lm="cardiovascular" i=""><i>cardiovascular</i><par n="expensive__adj"/></e>
-
+                            <e lm="perpetuation" i=""><i>perpetuation</i><par n="house__n"/></e>
                             <e lm="hydrophobia" i=""><i>hydrophobia</i><par n="house__n"/></e>
 
                             <e lm="alcove" i=""><i>alcove</i><par n="house__n"/></e>
@@ -52149,6 +52153,8 @@
                             <e lm="bearable" i=""><i>bearable</i><par n="expensive__adj"/></e>
 
                             <e lm="beautiful" i=""><i>beautiful</i><par n="expensive__adj"/></e>
+
+                            <e lm="independence-minded" i=""><i>independence-minded</i><par n="expensive__adj"/></e>
 
                             <e lm="beneficial" i=""><i>beneficial</i><par n="expensive__adj"/></e>
 
@@ -60662,6 +60668,9 @@
                             <e lm="all" i=""><i>all</i><par n="all__prn"/></e>
 
                             <e lm="another" i=""><i>another</i><par n="everyone__prn"/></e>
+                            <e lm="other" i=""><i>other</i><par n="everyone__prn"/></e>
+
+                            <e lm="other" i=""><i>other</i><par n="expensive__adj"/></e>
 
                             <e lm="another one" i=""><i>another<b/>one</i><par n="everyone__prn"/></e>
 
@@ -62543,7 +62552,6 @@
 
                             <e lm="anointing" i=""><i>anointing</i><par n="house__n"/></e>
 
-                            <e lm="another" i=""><i>another</i><par n="another__det"/></e>
 
                             <e lm="another" i=""><i>another</i><par n="everyone__prn"/></e>
 

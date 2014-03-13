@@ -118,7 +118,7 @@
     <def-attr n="tense">
       <attr-item tags="ger_impf"/>
       <attr-item tags="ger_past"/>
-     
+           <attr-item tags="past"/>
     </def-attr>
        
   </section-def-attrs>
@@ -180,10 +180,27 @@
             <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
           </when>
         </choose>
+<choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="ND"/></equal></test>
+            <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+          </when>
+        </choose>
         <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="poss"/><lit-tag v="PXD"/></equal></test>
             <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
+          </when>
+        </choose>
+<choose>
+          <when>
+<test>
+<and>
+            <equal><clip pos="1" side="sl" part="tense"/><lit-tag v="past"/></equal>
+           <equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal>
+</and>
+</test>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
           </when>
         </choose>
        <choose>

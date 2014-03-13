@@ -76,6 +76,8 @@ REMOVE N IF (0 ("<is>"i)) ;
 
 SELECT V IF (0 ("<like>"i)) ; 
 
+SELECT (vblex sep pp) IF (-1 (vbser past)) ; 
+
 REMOVE N IF (0 ("<will>"))(1 ADV-NOT);
 
 SELECT (vbhaver inf) if (0 ("have")) (-1 ("not"));
@@ -117,6 +119,8 @@ REMOVE Ger IF (-1 V-FIN) (NOT -1 Cop) (1 N); #MLF not sure about this rule here
 REMOVE A IF (-1 Det) (0 N OR A) (1 ("<is>")) (2 A);
 
 REMOVE Inf IF (0 N OR Inf) (1 ("to"i)) (2 Inf);
+
+SELECT N IF (-1 NUM);
 
 REMOVE N IF (0 V-FIN) (0 N) (0 N OR V-FIN) ((NOT 1* V-FIN BARRIER CLB) OR (NOT -1C* V-FIN BARRIER CLB));
 

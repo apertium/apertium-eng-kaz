@@ -40145,6 +40145,12 @@
                             <e lm="Kyrgyz" i=""><i>Kyrgyz</i><par n="house__n"/></e>
                             <e lm="kyrgyz" i=""><i>kyrgyz</i><par n="house__n"/></e>
 
+                        <e lm="Cossack" i=""><p><l>Cossack</l><r>cossack</r></p><par n="house__n"/></e>
+                          
+<e lm="Cossack" i=""><p><l>Cossack</l><r>cossack</r></p><par n="politics__n"/></e>
+
+                            
+
                             <e lm="Korean" i=""><i>Korean</i><par n="house__n"/></e>
 
                             <e lm="Latin" i=""><p><l>Latin</l><r>latin</r></p><par n="house__n"/></e>
@@ -51570,6 +51576,8 @@
 
                             <e lm="Congolese" i=""><p><l>Congolese</l><r>congolese</r></p><par n="expensive__adj"/></e>
 
+<e lm="Cossack" i=""><p><l>Cossack</l><r>cossack</r></p><par n="expensive__adj"/></e>
+
                             <e lm="Cuban" i=""><p><l>Cuban</l><r>cuban</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Cypriot" i=""><p><l>Cypriot</l><r>cypriot</r></p><par n="expensive__adj"/></e>
@@ -51706,6 +51714,7 @@
 
                             <e lm="Thai" i=""><p><l>Thai</l><r>thai</r></p><par n="expensive__adj"/></e>
 
+<e lm="Turkic" i=""><p><l>Turkic</l><r>turkic</r></p><par n="expensive__adj"/></e>
                             <e lm="Turkish" i=""><p><l>Turkish</l><r>turkish</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Ukrainian" i=""><p><l>Ukrainian</l><r>ukrainian</r></p><par n="expensive__adj"/></e>

@@ -71,7 +71,8 @@
       <cat-item tags="vblex.pp"/>
 <cat-item tags="vbser.pp"/>
 <cat-item tags="vbhaver.pp"/>
-
+<cat-item tags="vblex.sep.pp"/>
+<cat-item tags="vblex.sep.inf"/>
    </def-cat> 
   <def-cat n="vaux-have"> <!--perfect vbhaver -->
       <cat-item lemma="have" tags="vbhaver.*"/>

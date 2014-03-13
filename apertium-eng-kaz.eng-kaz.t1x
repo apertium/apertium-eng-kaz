@@ -140,6 +140,8 @@
     <def-cat n="nom">
        <cat-item tags="n.*"/>
       <cat-item tags="np.top"/>
+      <cat-item tags="np.al"/>
+      <cat-item tags="np.al.*"/>
       <cat-item tags="np.cog"/>
       <cat-item tags="np.cog.*"/>
       <cat-item tags="np.*"/>
@@ -264,6 +266,7 @@
       <attr-item tags="np.ant.m"/>
       <attr-item tags="np.ant.f"/>
       <attr-item tags="np.top"/>
+      <attr-item tags="np.org"/>
       <attr-item tags="np.cog.m"/>
     </def-attr>
     <def-attr n="a_adjec">

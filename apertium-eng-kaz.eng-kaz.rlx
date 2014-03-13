@@ -120,7 +120,7 @@ REMOVE A IF (-1 Det) (0 N OR A) (1 ("<is>")) (2 A);
 
 REMOVE Inf IF (0 N OR Inf) (1 ("to"i)) (2 Inf);
 
-SELECT N IF (-1 NUM);
+SELECT N IF (-1C NUM);
 
 SELECT N IF (-1 ("Baltic"i));
 

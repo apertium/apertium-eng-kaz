@@ -202,11 +202,24 @@
 </test>
             <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
           </when>
+
         </choose>
-       <choose>
+<choose>
+          <when>
+<test>
+<and>
+            <equal><clip pos="1" side="sl" part="tense"/><lit-tag v="aor"/></equal>
+           <equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal>
+</and>
+</test>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
+          </when>
+
+        </choose>
+ <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal></test>
-            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
           </when>
         </choose>
 

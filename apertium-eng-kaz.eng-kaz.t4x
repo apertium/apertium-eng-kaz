@@ -15,7 +15,7 @@
       <cat-item tags="v.*"/>      
       <cat-item tags="cop.*"/>
     </def-cat>
-    
+ 
     <def-cat n="shortcop">
        <cat-item lemma="е" tags="cop.p1.sg"/>
        <cat-item lemma="е" tags="cop.p2.sg"/>
@@ -96,7 +96,18 @@
       <attr-item tags="px2sp"/>
       <attr-item tags="PXD"/>
     </def-attr>
+<def-attr n="a_nom">
+      <!--<cat-item tags="n"/>
+      <cat-item tags="np.ant"/>
+      <cat-item tags="np.ant.m"/>
+      <cat-item tags="np.ant.f"/>
+      <cat-item tags="np.top"/>
+      <cat-item tags="np.org"/>
+      <cat-item tags="np.cog.m"/>
+-->
+      <attr-item tags="abbr"/>
 
+    </def-attr>
     <def-attr n="case">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -436,6 +447,8 @@
 
 
 
+
+
     <rule comment="default"> 
       <pattern>
         <pattern-item n="default"/>
@@ -483,12 +496,20 @@
             <let><clip pos="1" side="tl" part="poss"/><lit-tag v="px2sg.frm"/></let>
           </when>
         </choose>
+<choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_nom"/><lit-tag v="abbr"/></equal></test>
+            <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
+          </when>
+        </choose>
        <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal></test>
             <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
           </when>
         </choose>
+
        <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>

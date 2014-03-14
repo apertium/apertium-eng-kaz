@@ -20,6 +20,7 @@
     <sdef n="recip"/>
   <sdef n="nn"/>
   <sdef n="an"/>
+  <sdef n="abbr"/>
     <sdef n="pres"/>
  <sdef n="nt"/>
  <sdef n="infl"/>
@@ -107,19 +108,20 @@
     <e r="RL"><p><l>and<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
     <e r="RL"><p><l>be<s n="vbser"/></l><r>е<s n="cop"/></r></p></e>
     <e r="RL"><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>бір<s n="det"/><s n="ind"/></r></p></e>
+<e><p><l>the<b/>same<s n="det"/><s n="ind"/></l><r>бірдей<s n="adj"/></r></p></e>
     <e><p><l>which<s n="det"/><s n="itg"/><s n="sp"/></l><r>қай<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>қайсы<s n="det"/><s n="itg"/></r></p></e>
  <e><p><l>which<s n="prn"/><s n="itg"/></l><r>қайсы<s n="det"/><s n="itg"/></r></p></e>
 
  <e r="LR"><p><l>not<s n="det"/><s n="ind"/></l><r></r></p></e>
     <e r="LR"><p><l>a<s n="det"/><s n="ind"/></l><r></r></p></e>
-    <e r="LR"><p><l>the<s n="det"/><s n="def"/></l><r></r></p></e>
+    <e r="LR"><p><l>the<s n="det"/><s n="def"/><s n="sp"/></l><r></r></p></e>
  <e><p><l>some<s n="det"/><s n="qnt"/></l><r>кейбір<s n="det"/><s n="ind"/></r></p></e>   
 <!-- <e r="LR"><p><l>no<s n="det"/><s n="ind"/></l><r></r></p></e>-->
    
  <e r="LR"><p><l>that<s n="cnjsub"/></l><r></r></p></e>
 
-
+ <e><p><l>most<s n="prn"/><s n="tn"/><s n="mf"/></l><r>көбі<s n="prn"/><s n="qnt"/></r></p></e>
  <e><p><l>another<s n="prn"/><s n="tn"/><s n="m"/></l><r>басқа<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="det"/><s n="qnt"/></r></p></e>
@@ -143,6 +145,7 @@
     <e r="LR"><p><l>with<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>at<s n="pr"/></l><r></r></p></e>
     <e><p><l>throughout<s n="pr"/></l><r>әр<b/>жерде<s n="adv"/></r></p></e>
+
     <e><p><l>but<s n="pr"/></l><r>алайда<s n="cnjcoo"/></r></p></e>
 
 <!-- MLF2012073 We'll think about these ones later 
@@ -159,6 +162,8 @@
 
     <e><p><l>for<s n="pr"/></l><r>үшін<s n="post"/><s n="Rnom"/></r></p></e>
        <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
+       <e><p><l>as<s n="pr"/></l><r>сияқты<s n="post"/></r></p></e>
+       <e><p><l>until<s n="pr"/></l><r>дейін<s n="post"/></r></p></e>
     <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/><s n="Rnom"/></r></p></e>
 
     <e><p><l>across<s n="pr"/></l><r>арқылы<s n="post"/><s n="Rnom"/></r></p></e>   <!-- MLF20120703 just an approximation! -->
@@ -1663,7 +1668,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>stamp<s n="n"/></l><r>мөртабан<s n="n"/></r></p></e>
     <e><p><l>staple<s n="n"/></l><r>қысқыш<b/>темір<s n="n"/></r></p></e>
     <e><p><l>state<s n="n"/></l><r>мемлекет<s n="n"/></r></p></e>
-    <e><p><l>state<s n="n"/></l><r>рай<s n="n"/></r></p></e>
+
     <e><p><l>state<s n="n"/></l><r>хал<s n="n"/></r></p></e>
     <e><p><l>steed<s n="n"/></l><r>тұлпар<s n="n"/></r></p></e>
     <e><p><l>steering<b/>wheel<s n="n"/></l><r>руль<s n="n"/></r></p></e>
@@ -2416,6 +2421,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>presidency<s n="n"/></l><r>президенттік<s n="n"/></r></p></e>
 <e><p><l>potential<s n="n"/></l><r>потенциал<s n="n"/></r></p></e>
 <e><p><l>American<s n="n"/></l><r>Американ<s n="n"/></r></p></e>
+<e><p><l>Asian<s n="n"/></l><r>азиялық<s n="n"/></r></p></e>
 
 
 
@@ -2486,6 +2492,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Congo<s n="np"/><s n="loc"/><s n="sg"/></l><r>Конго<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Costa<b/>Rica<s n="np"/><s n="loc"/><s n="sg"/></l><r>Коста-Рика<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Cote<b/>d'Ivoire<s n="np"/><s n="loc"/><s n="sg"/></l><r>Кот'д-Ивуар<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>CPSU<s n="np"/><s n="loc"/></l><r>КОКП<s n="abbr"/></r></p></e>
 <e><p><l>Croatia<s n="np"/><s n="loc"/><s n="sg"/></l><r>Хорватия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Cuba<s n="np"/><s n="loc"/><s n="sg"/></l><r>Куба<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Curacao<s n="np"/><s n="loc"/><s n="sg"/></l><r>Кюрасао<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -2728,12 +2735,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>afternoon<s n="adv"/></l><r>түсте<s n="adv"/></r></p></e>
      <e><p><l>only<s n="adv"/></l><r>ғана<s n="adv"/></r></p></e>
     <e><p><l>everyday<s n="adv"/></l><r>күнде<s n="adv"/></r></p></e>
+    <e><p><l>as<s n="preadv"/></l><r>сияқты<s n="post"/></r></p></e>
     <e><p><l>very<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
     <e><p><l>really<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
     <e><p><l>really<s n="adv"/></l><r>өте<s n="adv"/></r></p></e>
     <e><p><l>actually<s n="adv"/></l><r>негізінде<s n="adv"/></r></p></e>
     <e><p><l>pretty<s n="preadv"/></l><r>әдемі<s n="adv"/></r></p></e>
     <e><p><l>tomorrow<s n="adv"/></l><r>ертең<s n="adv"/></r></p></e>
+<e><p><l>the<b/>same<s n="adv"/></l><r>бірдей<s n="adj"/></r></p></e>
     <e><p><l>in<b/>the<b/>past<s n="adv"/></l><r>бұрын<s n="adv"/></r></p></e>
     <e><p><l>extremely<s n="adv"/></l><r>әбден<s n="adv"/></r></p></e>
     <e><p><l>yesterday<s n="adv"/></l><r>кеше<s n="adv"/></r></p></e>
@@ -2802,7 +2811,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>during<s n="adv"/></l><r>бойы<s n="adv"/></r></p></e>
 <e><p><l>even<s n="adv"/></l><r>тіпті<s n="adv"/></r></p></e>
 <e><p><l>similarly<s n="adv"/></l><r>секілді<s n="adv"/></r></p></e>
-<e><p><l>opposite<s n="adv"/></l><r>қарсы<s n="adv"/></r></p></e>		
+<e><p><l>opposite<s n="adv"/></l><r>қарсы<s n="adv"/></r></p></e>
+    <e><p><l>in<b/>fact<s n="adv"/></l><r>шынында<s n="adv"/></r></p></e> 		
  <!-- not "онда"?? -->
    
     <e><p><l>always<s n="adv"/></l><r>әрдайым<s n="adv"/></r></p></e>
@@ -3128,6 +3138,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>industrial<s n="adj"/></l><r>индустриялық<s n="adj"/></r></p></e>
 <e><p><l>potential<s n="adj"/></l><r>әлует<s n="adj"/></r></p></e>
 <e><p><l>American<s n="adj"/></l><r>Американдық<s n="adj"/></r></p></e>
+<e><p><l>Asian<s n="adj"/></l><r>азиялық<s n="adj"/></r></p></e>
+<e><p><l>asian<s n="adj"/></l><r>aзиялық<s n="adj"/></r></p></e>
 <e><p><l>revised<s n="adj"/></l><r>жөндеулі<s n="adj"/></r></p></e>
 <e><p><l>last<s n="adj"/></l><r>ақырғы<b/>рет<s n="adj"/></r></p></e>
 <e><p><l>Central<s n="adj"/></l><r>Орталық<s n="adj"/></r></p></e>
@@ -3642,10 +3654,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>crumble<s n="vblex"/></l><r>үгіттен<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>support<s n="vblex"/></l><r>қолда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>sign<s n="vblex"/></l><r>қол<b/>қой<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>declare<s n="vblex"/></l><r>жарияла<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>dominate<s n="vblex"/></l><r>басқар<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>retain<s n="vblex"/></l><r>сақта<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>occupy<s n="vblex"/></l><r>басып<b/>ал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>declare<s n="vblex"/></l><r>жарияла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>dominate<s n="vblex"/></l><r>басқар<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>retain<s n="vblex"/></l><r>сақта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>occupy<s n="vblex"/></l><r>басып<b/>ал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>elected<s n="vblex"/></l><r>таңдап<b/>ал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>ensure<s n="vblex"/></l><r>кепілдік<b/>бер<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>reinforce<s n="vblex"/></l><r>бекіт<s n="v"/><s n="iv"/></r></p></e>

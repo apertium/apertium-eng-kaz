@@ -23709,7 +23709,7 @@
 
                             <e lm="the" i=""><i>the</i><par n="the__det"/></e>
 
-                            <e lm="the same" i=""><i>the<b/>same</i><par n="other__det"/></e>
+                           <!-- <e lm="the same" i=""><i>the<b/>same</i><par n="other__det"/></e>-->
 
                             <e lm="their" i=""><i>their</i><par n="her__det"/></e>
 
@@ -40014,6 +40014,8 @@
                             <e lm="US" i=""><i>US</i><par n="Barcelona__np"/></e>
 
                             <e lm="USA" i=""><i>USA</i><par n="Barcelona__np"/></e>
+
+                            <e lm="CPSU" i=""><i>CPSU</i><par n="Barcelona__np"/></e>
 
                             <e lm="Ukraine" i=""><i>Ukraine</i><par n="Barcelona__np"/></e>
 

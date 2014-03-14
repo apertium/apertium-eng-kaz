@@ -7,6 +7,10 @@
     <match lemma="residence" tags="n.*"><select lemma="мекен" tags="n.*"/></match>
   </rule>
 
+  <rule>
+    <match lemma="state" tags="n.*"><select lemma="мемлекет" tags="n.*"/></match>
+  </rule>
+
 <rule>
     <match lemma="through" tags="pr"><select lemma="арқылы" tags="post.Rnom"/></match>
   </rule>

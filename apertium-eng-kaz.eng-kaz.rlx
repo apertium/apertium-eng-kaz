@@ -156,6 +156,8 @@ SELECT V-DO-AUX IF (-1 PRN-SUBJ) (1C ADV-NOT);
 
 REMOVE V-DO-AUX IF (-1 PRN-SUBJ) (NOT 1C ADV-NOT);
 
+SELECT (gen) IF (0 ("'s"i));
+
 SELECT V IF (-1 PRN-SUBJ OR N);
 
 SELECT V-HAVE IF (1C ADV-NOT) (2 PrcPast);
@@ -163,6 +165,10 @@ SELECT V-HAVE IF (1C ADV-NOT) (2 PrcPast);
 SELECT Inf IF (0 Inf) (1 ADV-NOT)(2 Ger);
 
 SELECT Pres IF (1 ADV-NOT) (2 Inf); 
+
+SELECT ("put"i vblex pp) IF (-1 V-HAVE); 
+
+SELECT ("forward"i adv) IF (-1 V); 
 
 REMOVE Inf IF (-1 PRN-SUBJ) (NOT 0 ("will"i));
 

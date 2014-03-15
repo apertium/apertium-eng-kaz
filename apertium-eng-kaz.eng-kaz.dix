@@ -148,10 +148,10 @@
 
     <e><p><l>but<s n="pr"/></l><r>алайда<s n="cnjcoo"/></r></p></e>
 
-<!-- MLF2012073 We'll think about these ones later 
+<!-- MLF2012073 We'll think about these ones later -->
     
-    <e r="LR"><p><l>by<s n="pr"/></l><r></r></p></e>
--->
+    <e r="LR"><p><l>by<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
+
 
 	 <!-- The following postpositions are used with nominative case -->
 	 <!-- except for a few pronoun forms with мен -->
@@ -1110,7 +1110,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>group<s n="n"/></l><r>топ<s n="n"/></r></p></e>
 <e><p><l>growth<s n="n"/></l><r>бой<s n="n"/></r></p></e>
 <e><p><l>harbour<s n="n"/></l><r>порт<s n="n"/></r></p></e>
-<e><p><l>harmony<s n="n"/></l><r>жарастық<s n="n"/></r></p></e>
+<e><p><l>harmony<s n="n"/></l><r>үйлесім<s n="n"/></r></p></e>
 <e><p><l>humour<s n="n"/></l><r>юмор<s n="n"/></r></p></e>
 <e><p><l>idea<s n="n"/></l><r>ой<s n="n"/></r></p></e>
 <e><p><l>impulse<s n="n"/></l><r>импульс<s n="n"/></r></p></e>
@@ -2387,7 +2387,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>relationship<s n="n"/></l><r>қатынас<s n="n"/></r></p></e>
 <e><p><l>restriction<s n="n"/></l><r>шектеу<s n="n"/></r></p></e>
 <e><p><l>framework<s n="n"/></l><r>құрылым<s n="n"/></r></p></e>
-<e><p><l>popularity<s n="n"/></l><r>мәлімділік<s n="n"/></r></p></e>
+<e><p><l>popularity<s n="n"/></l><r>танымдылық<s n="n"/></r></p></e>
 <e><p><l>gain<s n="n"/></l><r>пайда<s n="n"/></r></p></e>
 <e><p><l>by<s n="n"/></l><r>жақын<s n="n"/></r></p></e>
 <e><p><l>nationality<s n="n"/></l><r>ұлт<s n="n"/></r></p></e>
@@ -2767,6 +2767,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>slightly<s n="adv"/></l><r>азғантай<s n="adv"/></r></p></e>
     <e><p><l>also<s n="adv"/></l><r>тағы<s n="adv"/></r></p></e>
     <e><p><l>so<s n="adv"/></l><r>солай<s n="adv"/></r></p></e>
+<e><p><l>highly<s n="adv"/></l><r>қатты<s n="adv"/></r></p></e>
 	 <!-- isn't тағы a postadv? -->
     <e><p><l>around<s n="adv"/></l><r>айналасы<s n="adv"/></r></p></e>
     <e><p><l>no<s n="ij"/></l><r>жоқ<s n="ij"/></r></p></e> 
@@ -2857,7 +2858,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>tight<s n="adj"/></l><r>тығыз<s n="adj"/></r></p></e>
 <e><p><l>wet<s n="adj"/></l><r>су<s n="adj"/></r></p></e>
 <e><p><l>wide<s n="adj"/></l><r>кең<s n="adj"/></r></p></e>
-
+<e><p><l>economic<s n="adj"/></l><r>экономикалық<s n="adj"/></r></p></e>
 <e><p><l>mineral<s n="adj"/></l><r>минералды<s n="adj"/></r></p></e>
     <e><p><l>dark<s n="adj"/><s n="sint"/></l><r>қараңғы<s n="adj"/></r></p></e>
 <e><p><l>sudden<s n="adj"/></l><r>тосын<s n="adj"/></r></p></e>
@@ -3151,7 +3152,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>rigid<s n="adj"/></l><r>қатал<s n="adj"/></r></p></e>
 <e><p><l>substantial<s n="adj"/></l><r>байыпты<s n="adj"/></r></p></e>
 <e><p><l>ethnic<s n="adj"/></l><r>этникалық<s n="adj"/></r></p></e>
-<e><p><l>highly<s n="adj"/></l><r>төтенше<s n="adj"/></r></p></e>
+
 <e><p><l>diverse<s n="adj"/></l><r>алуан<s n="adj"/></r></p></e>
 <e><p><l>considerable<s n="adj"/></l><r>маңызды<s n="adj"/></r></p></e>
 <e><p><l>topographical<s n="adj"/></l><r>топографиялық<s n="adj"/></r></p></e>
@@ -3339,6 +3340,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>show<s n="vblex"/></l><r>көрсет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>fold<s n="vblex"/></l><r>жұм<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>force<s n="vblex"/></l><r>қина<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>gain<s n="vblex"/></l><r>жет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>get<b/>out<s n="vblex"/></l><r>шық<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>give<s n="vblex"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>

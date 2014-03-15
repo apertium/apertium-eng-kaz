@@ -47,9 +47,9 @@ dev/unknown-words-from-news-commentary-v8-20130619.txt -text
 /notnoun.txt -text
 /regression-tests.sh -text
 texts/eng.chunks.txt -text
-texts/eng.txt -text
-texts/kaz.txt -text svneol=unset#application/octet-stream
 texts/kazakhstan1.eng.txt -text
 texts/kazakhstan1.kaz.txt -text svneol=unset#application/octet-stream
+texts/story1.eng.txt -text
+texts/story1.kaz.txt -text svneol=unset#application/octet-stream
 /wiki-correct-tests.sh -text
 /wiki-tests.sh -text

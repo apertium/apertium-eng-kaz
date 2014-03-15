@@ -1260,7 +1260,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>attention<s n="n"/></l><r>ілтипат<s n="n"/></r></p></e>
     <e><p><l>attentiveness<s n="n"/></l><r>ықылас<s n="n"/></r></p></e>
     <e><p><l>August<s n="n"/></l><r>август<s n="n"/></r></p></e>
-    <e><p><l>authority<s n="n"/></l><r>құқық<s n="n"/></r></p></e>
     <e><p><l>author<s n="n"/></l><r>жазушы<s n="n"/></r></p></e>
     <e><p><l>autograph<s n="n"/></l><r>қолтаңба<s n="n"/></r></p></e>
     <e><p><l>back<s n="n"/></l><r>арқа<s n="n"/></r></p></e>
@@ -1695,7 +1694,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>teaching<s n="n"/></l><r>ілім<s n="n"/></r></p></e>
     <e><p><l>team<s n="n"/></l><r>пар<s n="n"/></r></p></e>
     <e><p><l>telephone<s n="n"/></l><r>телефон<s n="n"/></r></p></e>
-    <e><p><l>term<s n="n"/></l><r>мерзім<s n="n"/></r></p></e>
+    <e><p><l>term<s n="n"/></l><r>термин<s n="n"/></r></p></e>
     <e><p><l>thearpy<s n="n"/></l><r>ем<s n="n"/></r></p></e>
     <e><p><l>this<b/>year<s n="n"/></l><r>биыл<s n="n"/></r></p></e>
     <e><p><l>thoroughbred<s n="n"/></l><r>арғымақ<s n="n"/></r></p></e>
@@ -3655,7 +3654,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>negotiate<s n="vblex"/></l><r>келіс<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>develop<s n="vblex"/></l><r>дамыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>consult<s n="vblex"/></l><r>ақылдас<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>surrender<s n="vblex"/></l><r>бағын<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>surrender<s n="vblex"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>crumble<s n="vblex"/></l><r>үгіттен<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>support<s n="vblex"/></l><r>қолда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>sign<s n="vblex"/></l><r>қол<b/>қой<s n="v"/><s n="tv"/></r></p></e>

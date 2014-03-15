@@ -152,6 +152,7 @@
   
     <def-cat n="num">
       <cat-item tags="num"/>
+      <cat-item tags="det.ord.*"/>
       <cat-item tags="num.*"/>
      </def-cat>
     <def-cat n="adjec">
@@ -276,6 +277,7 @@
     </def-attr>
      <def-attr n="a_num">
       <attr-item tags="num"/>
+      <attr-item tags="num.ord"/>
     </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="f"/>

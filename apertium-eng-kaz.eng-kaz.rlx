@@ -84,7 +84,13 @@ SELECT (vbhaver inf) if (0 ("have")) (-1 ("not"));
 
 SELECT (n sg) if (0 ("English")) ;
 
+SELECT (vblex pp) if (-1 (vbser past)) ;
+
+SELECT (vblex ger) if (0 ("beginning"i))(NOT 1 V) ;
+
 SELECT Rel if (-1 N) ;
+
+SELECT A if (1C ("Party"i)) ;
 
 SELECT AdvItg if (1C V) ;
 

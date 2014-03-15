@@ -97,17 +97,16 @@
       <attr-item tags="PXD"/>
     </def-attr>
 <def-attr n="a_nom">
-      <!--<cat-item tags="n"/>
+     <!-- <cat-item tags="n"/>
       <cat-item tags="np.ant"/>
       <cat-item tags="np.ant.m"/>
       <cat-item tags="np.ant.f"/>
       <cat-item tags="np.top"/>
-      <cat-item tags="np.org"/>
-      <cat-item tags="np.cog.m"/>
--->
+      <cat-item tags="np.org"/>-->
+      <attr-item tags="np.cog"/>
       <attr-item tags="abbr"/>
-
     </def-attr>
+
     <def-attr n="case">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -509,7 +508,12 @@
             <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
           </when>
         </choose>
-
+<choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_nom"/><lit-tag v="np.cog"/></equal></test>
+            <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
+          </when>
+        </choose>
        <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>

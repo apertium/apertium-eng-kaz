@@ -39765,6 +39765,8 @@
 
                             <e lm="Núria" i=""><i>Núria</i><par n="Mary__np"/></e>
 
+                            <e lm="Nursultan" i=""><i>Nursultan</i><par n="Mark__np"/></e>
+
                             <e lm="Obama" i=""><i>Obama</i><par n="Smith__np"/></e>
 
                             <e lm="O'Grady" i=""><i>O'Grady</i><par n="Smith__np"/></e>
@@ -40016,6 +40018,8 @@
                             <e lm="USA" i=""><i>USA</i><par n="Barcelona__np"/></e>
 
                             <e lm="CPSU" i=""><i>CPSU</i><par n="Barcelona__np"/></e>
+
+                            <e lm="CPK" i=""><i>CPK</i><par n="Barcelona__np"/></e>
 
                             <e lm="Ukraine" i=""><i>Ukraine</i><par n="Barcelona__np"/></e>
 
@@ -82220,6 +82224,8 @@
                             <e lm="petroglyph" i=""><i>petroglyph</i><par n="house__n"/></e>
 
                             <e lm="disputed" i=""><i>disputed</i><par n="expensive__adj"/></e>
+
+                            <e lm="undisputed" i=""><i>undisputed</i><par n="expensive__adj"/></e>
 
                             <e lm="discussed" i=""><i>discussed</i><par n="expensive__adj"/></e>
 

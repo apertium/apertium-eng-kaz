@@ -82,7 +82,7 @@
   </rule>
 
 <rule>
-    <match lemma="year" tags="n.pl.*"><select lemma="жыл" tags="n.*"/></match>
+    <match lemma="year" tags="n.pl"><select lemma="жыл" tags="n.*"/></match>
   </rule>
 
 

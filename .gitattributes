@@ -19,7 +19,7 @@
 /apertium-eng-kaz.kaz-eng.t2x -text
 /apertium-eng-kaz.kaz-eng.t3x -text
 /autogen.sh -text
-/cleanVersion -text svneol=unset#application/octet-stream
+/cleanVersion.txt -text svneol=unset#application/octet-stream
 /configure.ac -text
 /correct-tests.sh -text
 dev/Correct_tests.html -text

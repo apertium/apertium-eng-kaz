@@ -68,6 +68,7 @@
     <sdef n="ord" c="Ordinal"/> 
     <sdef n="qnt" c="Quantifier"/> 
     <sdef n="num" c="Numeral"/> 
+    <sdef n="year" c="Year"/> 
     <sdef n="pron" c="Pronominal"/> 
     <sdef n="ij" c="Interjection"/> 
     <sdef n="sent" c="Sentence marker"/> 
@@ -168,6 +169,15 @@
     </pardef>
 
     <pardef n="numeros">
+
+                            <e i="">
+      <re>[0-9]+</re>
+      <p>
+        <l/>
+        <r><s n="num"/><s n="year"/></r>
+      </p>
+    </e>
+
 
                             <e i="">
       <re>[0-9]+([.,][0-9]+)?</re>

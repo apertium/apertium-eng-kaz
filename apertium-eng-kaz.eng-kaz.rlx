@@ -133,6 +133,9 @@ SELECT N IF (-1 ("Baltic"i));
 SELECT N IF (-1 ("Asian"i));
 
 SELECT N IF (-1 A);
+
+SELECT Adv IF (-1 V)(0 ("forward"i));
+
 SELECT N IF (1 Pr);
 
 REMOVE N IF (0 V-FIN) (0 N) (0 N OR V-FIN) ((NOT 1* V-FIN BARRIER CLB) OR (NOT -1C* V-FIN BARRIER CLB));

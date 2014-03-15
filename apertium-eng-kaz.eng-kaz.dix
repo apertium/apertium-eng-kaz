@@ -2422,7 +2422,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>potential<s n="n"/></l><r>потенциал<s n="n"/></r></p></e>
 <e><p><l>American<s n="n"/></l><r>Американ<s n="n"/></r></p></e>
 <e><p><l>Asian<s n="n"/></l><r>азиялық<s n="n"/></r></p></e>
-
+<e><p><l>practice<s n="n"/></l><r>тәжірибе<s n="n"/></r></p></e>
+<e><p><l>forward<s n="n"/></l><r>шабуылшы<s n="n"/></r></p></e>
+<e><p><l>control<s n="n"/></l><r>бақылау<s n="n"/></r></p></e>
 
 
 <!--ProPER NOUNS -->

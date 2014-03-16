@@ -866,7 +866,18 @@
                 <lit-tag v="abl"/>
              </let>
        </when>    
-
+<when> 
+             <test>
+               <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="since"/>
+               </equal>
+             </test>
+             <let>
+                <var n="case"/>
+                <lit-tag v="abl"/>
+             </let>
+       </when>   
           <when> 
             <test>
               <equal caseless="yes">
@@ -8467,7 +8478,94 @@ this would have to be changed -->
 
 
 
-
+<rule comment="NEW RULE: prep num-years noun"> <!-- after 1920 - 1920 jykdan kein--> 
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="num-year"/>
+  </pattern>
+  <action>
+     <call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
+      </call-macro>
+<call-macro n="build-num-lu"><with-param pos="2"/></call-macro> 
+ 
+     <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+        <out> <!-- with postposition -->
+          <chunk name="prep-num-year-nom">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="3" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+            <b pos="1"/>
+            <lu>  
+               <var n="num_lu"/>
+            </lu>
+ <b/>
+            <lu>  <!-- build in situ for the time being -->
+     
+                 <lit v="жыл"/>
+                 <lit-tag v="n"/>
+                    <lit-tag v="sg"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise> <!-- without postposition -->
+<choose>
+    <when>
+     <test>  
+       <equal>
+         <var n="case"/>
+          <lit-tag v="loc"/>
+       </equal>
+     </test>
+     <let><var n="case"/><lit-tag v="nom"/></let>
+     <let><var n="possessive"/><lit-tag v="px3sp"/></let>
+    </when>
+<otherwise>
+     <let><var n="possessive"/><lit-tag v="PXD"/></let>
+</otherwise>
+</choose>
+        <out>
+          <chunk name="prep-num-year-nom">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag> <lit-tag v="sg"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><var n="possessive"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+            <b pos="1"/>
+ <lu>  
+               <var n="num_lu"/>
+            </lu>
+ <b/>
+            <lu>  <!-- build in situ for the time being -->
+                   <lit v="жыл"/>
+                 <lit-tag v="n"/>
+               <lit-tag v="sg"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+  </action>
+</rule>
 
 <rule comment="NEW RULE: num-year">  
   <pattern>

@@ -252,7 +252,7 @@ REMOVE N IF (0 N OR V) (-1 VAUX-CAN) ;
 
 REMOVE Pron IF (0 Det OR Pron) (1 NUM) ;
 
-SELECT Year IF (-1 ("in") OR ("after")) (NOT 1 N);
+SELECT Year IF (-1 ("in") OR ("after") OR ("since") OR ("of")) (NOT 1 N);
 
 SELECT Year IF (-1 Seasons OR Months);
  

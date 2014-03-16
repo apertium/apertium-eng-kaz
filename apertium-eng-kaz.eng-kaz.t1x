@@ -149,6 +149,10 @@
       <cat-item tags="np.ant.*"/>
       <cat-item tags="np.top.*"/>
     </def-cat>
+
+<def-cat n="num-year">
+      <cat-item tags="num.year"/>
+     </def-cat>
   
     <def-cat n="num">
       <cat-item tags="num"/>
@@ -8462,6 +8466,36 @@ this would have to be changed -->
 </rule>
 
 
+
+
+
+<rule comment="NEW RULE: num-year">  
+  <pattern>
+    <pattern-item n="num-year"/>
+  </pattern>
+  <action>
+   <call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="num-years">
+    <tags>
+    <tag><lit-tag v="PP"/></tag>
+    </tags>
+    <lu>
+      <var n="num_lu"/>
+     </lu>
+<b/>
+<lu>
+     <lit v="жыл"/>
+     <lit-tag v="n"/>
+       <lit-tag v="px3sp"/> 
+      <lit-tag v="nom"/>
+ </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+
 <rule comment="NEW RULE: num">  
   <pattern>
     <pattern-item n="num"/>
@@ -8469,9 +8503,9 @@ this would have to be changed -->
   <action>
    <call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
     <out>
-    <chunk name="NP">
+    <chunk name="num">
     <tags>
-    <tag><lit-tag v="num"/></tag>
+    <tag><lit-tag v="NP"/></tag>
     </tags>
     <lu>
       <var n="num_lu"/>

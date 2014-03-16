@@ -12,6 +12,10 @@
   </rule>
 
 <rule>
+    <match lemma="call" tags="vblex.*"><select lemma="ата" tags="v.*"/></match>
+  </rule>
+
+<rule>
     <match lemma="through" tags="pr"><select lemma="арқылы" tags="post.Rnom"/></match>
   </rule>
 

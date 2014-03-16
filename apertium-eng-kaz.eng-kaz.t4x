@@ -45,8 +45,9 @@
        <cat-item tags="vblex.ger"/>
 
     </def-cat>
-  <def-cat n="detind">
+  <def-cat n="ind">
       <cat-item tags="det.ind.*"/>
+      <cat-item tags="prn.ind.*"/>
     </def-cat>
    
     <def-cat n="default">
@@ -416,9 +417,9 @@
 
    
 
-<rule comment="detind">  <!-- remove pl from "some" as бірнеше-->
+<rule comment="ind">  <!-- remove pl from "some" as бірнеше-->
       <pattern>
-        <pattern-item n="detind"/>
+        <pattern-item n="ind"/>
       </pattern>
       <action>
          <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
@@ -428,11 +429,27 @@
             <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
           </when>
         </choose>
-    
+    <choose>
+          <when>
+            <test>
+<equal><clip pos="1" side="sl" part="case"/><lit-tag v="acc"/></equal>
+</test>
+            <let><clip pos="1" side="tl" part="poss"/><lit-tag v="px3sp"/></let>
+          </when>
+        </choose>
        <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal></test>
             <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
+ 
+<choose>
+          <when>
+            <test>
+<equal><clip pos="1" side="sl" part="poss"/><lit-tag v="PXD"/></equal>
+</test>
+            <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
           </when>
         </choose>
        <out>

@@ -120,7 +120,7 @@ SELECT Inf IF (0 ("<will>")) (1 ADV-NOT);
 
 SELECT V-HAVE IF (1 PrcPast);
 
-SELECT V IF (1 Ger);
+SELECT V IF (1 Ger)(NOT 0 (vblex pres p3 sg));
 
 REMOVE V-FIN IF (-1 A) (-2 Det); 
 

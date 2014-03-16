@@ -16748,7 +16748,6 @@
     
                             <e lm="and" i=""><i>and</i><par n="and__cnjcoo"/></e>
 
-                            <e lm="both" i=""><i>both</i><par n="and__cnjcoo"/></e>
 
                             <e lm="but" i=""><i>but</i><par n="and__cnjcoo"/></e>
 
@@ -16960,7 +16959,6 @@
 
                             <e lm="anything" i=""><i>anything</i><par n="everyone__prn"/></e>
 
-                            <e lm="both" i=""><i>both</i><par n="both__prn"/></e>
 
                             <e lm="each" i=""><i>each</i><par n="everyone__prn"/></e>
 
@@ -23663,7 +23661,7 @@
 
                             <e lm="any" i=""><i>any</i><par n="other__det"/></e>
 
-                            <e lm="both" i=""><i>both</i><par n="several__det"/></e>
+                 <e lm="both" i=""><i>both</i><par n="two__num"/></e>
 
                             <e lm="each" i=""><i>each</i><par n="another__det"/></e>
 
@@ -60507,7 +60505,7 @@
     
                             <e lm="and" i=""><i>and</i><par n="and__cnjcoo"/></e>
 
-                            <e lm="both" i=""><i>both</i><par n="and__cnjcoo"/></e>
+                           <!-- <e lm="both" i=""><i>both</i><par n="and__cnjcoo"/></e>-->
 
                             <e lm="but" i=""><i>but</i><par n="and__cnjcoo"/></e>
 
@@ -60711,7 +60709,7 @@
 
                             <e lm="anything" i=""><i>anything</i><par n="everyone__prn"/></e>
 
-                            <e lm="both" i=""><i>both</i><par n="both__prn"/></e>
+                           <!-- <e lm="both" i=""><i>both</i><par n="both__prn"/></e>-->
 
                             <e lm="each" i=""><i>each</i><par n="everyone__prn"/></e>
 

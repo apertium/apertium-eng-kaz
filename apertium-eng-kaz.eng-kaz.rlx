@@ -104,6 +104,8 @@ SELECT AdvItg if (2C V) ;
 
 SELECT N if (-1 AdvItg) ;
 
+SELECT A if (1 ("Autonomous"i)) ;
+
 SELECT N if (-1 Det) ;
 
 SELECT V-HAVE if (2C V) ;

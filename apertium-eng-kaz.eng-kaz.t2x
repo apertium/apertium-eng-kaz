@@ -673,6 +673,102 @@
     </rule>
 
 
+
+<rule comment="NEW RULE: VP NP PP">
+    <!-- The Kyrgyz Autonomous Soviet Socialist Republic was set up in 1920 and was renamed the Kazakh Autonomous Soviet Socialist Republic in 1925 when the Kazakhs were differentiated officially from the Kyrgyz-->
+        <pattern>
+       <pattern-item n="VP"/>
+       <pattern-item n="AdjP"/>
+       <pattern-item n="AdjP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="PP"/>
+       <pattern-item n="QAdvP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="AdvP"/>
+       <pattern-item n="PP"/>
+         </pattern>
+     <action>
+           <out>
+          <chunk>
+            <clip pos="7" part="lem"/>
+            <clip pos="7" part="tags"/>
+            <clip pos="7" part="chcontent"/>
+          </chunk> 
+      <b pos="1"/>
+      <b pos="2"/>
+      <b pos="3"/>
+      <b pos="4"/>
+<b pos="5"/>
+ <chunk>
+            <clip pos="10" part="lem"/>
+            <clip pos="10" part="tags"/>
+            <clip pos="10" part="chcontent"/>
+          </chunk>
+<b/>
+ <chunk>
+            <clip pos="9" part="lem"/>
+            <clip pos="9" part="tags"/>
+            <clip pos="9" part="chcontent"/>
+          </chunk>
+<b/>
+       <chunk>
+            <clip pos="8" part="lem"/>
+            <lit-tag v="VP"/>
+             <lit-tag v="sg"/> <!-- agree number -->
+             <lit-tag v="p3"/> <!-- agree person -->
+             <lit-tag v="ger_past"/> <!-- agree person -->
+            <clip pos="8" part="a_possessive"/> 
+            <clip pos="8" part="a_neg"/>
+              <lit-tag v="loc"/>
+            <clip pos="8" part="chcontent"/>
+
+         </chunk> 
+       
+<b/> 
+ <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+<b/> 
+ <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk> 
+<b/> 
+ <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk> 
+<b/> 
+ <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+          <b/>
+       <chunk>
+            <clip pos="1" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="4" part="a_nbr"/> <!-- agree number -->
+            <clip pos="4" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_tense"/>
+            <clip pos="1" part="a_possessive"/> 
+            <clip pos="1" part="a_neg"/>
+            <clip pos="1" part="chcontent"/>
+
+         </chunk> 
+       
+
+      </out>
+     </action>
+    </rule>
+
+
+
 <rule comment="NEW RULE: QadvP DO NP VP NP PP">
     <!-- When Do I write a book Мен кітап қашан жазамын?-->
         <pattern>

@@ -1,7 +1,6 @@
 ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz$ perl  ../apertium-eval-translator/apertium-eval-translator-line.pl -t translatedVersion.txt -r cleanVersion.txt
-Error: Cannot open test file 'translatedVersion.txt': No such file or directory
-ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz$ perl  ../apertium-eval-translator/apertium-eval-translator-line.pl -t first_diag.txt -r kazakhstan1.raw.txt
-Use of uninitialized value in addition (+) at ../apertium-eval-translator/apertium-eval-translator-line.pl line 77, <REF> line 13.
+perl  ../apertium-eval-translator/apertium-eval-translator-line.pl -t translatedVersion.txt -r texts/kazakhstan1.kaz.txt 
+
 Statistics about input files
 -------------------------------------------------------
 Number of words in reference: 490

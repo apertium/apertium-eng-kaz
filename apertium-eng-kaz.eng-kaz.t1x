@@ -150,8 +150,12 @@
       <cat-item tags="np.top.*"/>
     </def-cat>
 
+
 <def-cat n="num-year">
-      <cat-item tags="num.year"/>
+      <cat-item lemma="both" tags="num.year"/>
+     </def-cat>
+<def-cat n="both">
+      <cat-item tags="prn.tn.mf.*"/>
      </def-cat>
   
     <def-cat n="num">
@@ -282,6 +286,7 @@
      <def-attr n="a_num">
       <attr-item tags="num"/>
       <attr-item tags="num.ord"/>
+      <attr-item tags="num.coll"/>
     </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="f"/>
@@ -8050,6 +8055,38 @@ this would have to be changed -->
  </action>
 </rule>
 
+
+<rule comment="NEW RULE: pron-both">
+  <pattern>
+<pattern-item n="both"/>
+  </pattern>
+    <action>
+<call-macro n="build-pron-lu"><with-param pos="1"/></call-macro> 
+
+ <out>
+    <chunk name="pron-both">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+    <tag><lit-tag v="p3"/></tag>
+    <tag><lit-tag v="px3sp"/></tag>
+    <tag><lit-tag v="CD"/></tag>
+    </tags>
+    <lu>
+     <clip pos="1" side="tl" part="lem"/> 
+<lit-tag v="prn.qnt"/>
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive -->
+               <lit-tag v="5"/> <!-- for case -->
+     </lu>
+    </chunk>
+    </out>
+
+  </action>
+</rule>
+
+
+
 <rule comment="NEW RULE: pron-dem">
   <pattern>
 
@@ -8101,6 +8138,7 @@ this would have to be changed -->
 </choose>
   </action>
 </rule>
+
 
 
 

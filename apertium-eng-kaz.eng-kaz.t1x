@@ -152,10 +152,10 @@
 
 
 <def-cat n="num-year">
-      <cat-item lemma="both" tags="num.year"/>
+      <cat-item tags="num.year"/>
      </def-cat>
 <def-cat n="both">
-      <cat-item tags="prn.tn.mf.*"/>
+      <cat-item lemma="both" tags="prn.tn.mf.*"/>
      </def-cat>
   
     <def-cat n="num">

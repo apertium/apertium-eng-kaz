@@ -152,8 +152,13 @@
     </def-cat>
 
 <def-cat n="emes">
- <cat-item lemma="е" tags="cop.neg"/>
-      <cat-item lemma="е" tags="cop.neg.*"/>
+<cat-item lemma="е" tags="adv"/>
+      <cat-item lemma="е" tags="adv*"/>
+ <cat-item lemma="е" tags="vaux"/>
+      <cat-item lemma="е" tags="vaux.*"/>
+<cat-item lemma="е" tags="cop.neg"/>
+<cat-item lemma="е" tags="cop.neg.*"/>
+
     </def-cat>
 
 <def-cat n="edi">
@@ -691,6 +696,8 @@
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
+ 
+
 
  <choose>
                <when>
@@ -717,7 +724,7 @@
         <out>
           <chunk name="verb-need-neg" case="caseFirstWord">
             <tags>
-              <tag> <lit-tag v="SV-kerek"/></tag>
+              <tag> <lit-tag v="SV-cop"/></tag>
 
 
  <tag> <lit-tag v="PD"/></tag>
@@ -731,10 +738,9 @@
               <lit-tag v="vbdo"/>
              
 <lit-tag v="pres"/>
-               <lit-tag v="2"/>
-              <lit-tag v="3"/>
 
-            
+ 
+                         
 </lu>
 <b/>
 <lu>
@@ -748,10 +754,13 @@
               <lit-tag v="vblex"/>
              
 <lit-tag v="pres"/>
-           
+
+             <!-- <lit-tag v="2"/>
+              <lit-tag v="3"/>-->
+
             
 </lu>
-
+<b/>
 
           </chunk>
         </out>
@@ -2172,20 +2181,22 @@
 
 <rule comment="RULE: NOM-POST NUM ADJ NOM "> <!--жеті әдемі бақшаның астында-->
       <pattern>
-
+<pattern-item n="nom-pr"/>
         <pattern-item n="num"/>
         <pattern-item n="adj"/>
         <pattern-item n="nom"/>
- <pattern-item n="nom-pr"/>
+ 
        
       </pattern>
       <action>
         <call-macro n="conv-case1">
-          <with-param pos="4"/>
+          <with-param pos="1"/>
         </call-macro>
-<call-macro n="remove-poss">
-          <with-param pos="4"/>
+<call-macro n="conv-number1">
+          <with-param pos="1"/>
         </call-macro>
+
+        
        <choose>
                  <when>
                    <test>

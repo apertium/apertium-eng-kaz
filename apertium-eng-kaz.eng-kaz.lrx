@@ -91,7 +91,7 @@
 
 
   <rule>
-    <match lemma="year" tags="n.pl.*"><select lemma="жас" tags="n.*"/></match>
+    <match lemma="year" tags="n.pl"><select lemma="жас" tags="n.*"/></match>
     <match lemma="old" tags="adj.*"/>
    
   </rule>

@@ -150,7 +150,9 @@
       <cat-item tags="np.top.*"/>
     </def-cat>
 
-
+<def-cat n="to">
+      <cat-item tags="pr"/>
+     </def-cat>
 <def-cat n="num-year">
       <cat-item tags="num.year"/>
      </def-cat>
@@ -222,7 +224,7 @@
     </def-cat>
 
  <def-cat n="it-pron">
-       <cat-item lemma="it"  tags="prn.subj.*"/>
+       <cat-item lemma="it"  tags="prn.subj.p3.*"/>
     </def-cat>
 
     <def-cat n="subj-pron">
@@ -413,6 +415,7 @@
       <list-item v="like"/>
       <list-item v="enjoy"/>
       <list-item v="start"/>
+      <list-item v="love"/>
       <list-item v="finish"/>
     </def-list>
     <def-list n="negative_pron"> <!-- Verbs that can take verb-ing as object -->
@@ -2946,7 +2949,34 @@
 
 
 
-
+<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
+  <pattern>
+    <pattern-item n="to"/>
+    <pattern-item n="approx-inf-verb"/> 
+   </pattern>
+  <action>
+<out>
+  <chunk name="NP_to_inf">  
+      <tags>
+       <tag><lit-tag v="NP"/></tag>
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="ND"/></tag> 
+       
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="CD"/></tag>
+      </tags>
+            
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger_past"/>
+         <lit-tag v="5"/>
+        </lu>
+    
+      </chunk>
+</out>
+  </action>
+</rule>
 
 
 

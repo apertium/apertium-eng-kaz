@@ -245,7 +245,7 @@
     <e><p><l>sister<s n="n"/></l><r>әпке<s n="n"/></r></p></e>
     <e><p><l>sister<s n="n"/></l><r>қарындас<s n="n"/></r></p></e>
     <e><p><l>sister<s n="n"/></l><r>апа<s n="n"/></r></p></e>
-    <e><p><l>sister<s n="n"/></l><r>сіңіл<s n="n"/></r></p></e>
+    <e><p><l>sister<s n="n"/></l><r>сіңлі<s n="n"/></r></p></e>
     <e><p><l>reform<s n="n"/></l><r>реформа<s n="n"/></r></p></e>
     <e><p><l>week<s n="n"/></l><r>апта<s n="n"/></r></p></e>
     <e><p><l>company<s n="n"/></l><r>компания<s n="n"/></r></p></e>
@@ -819,7 +819,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>opposition<s n="n"/></l><r>оппозиция<s n="n"/></r></p></e>
 <e><p><l>oppression<s n="n"/></l><r>зұлым<s n="n"/></r></p></e>
 <e><p><l>orphan<s n="n"/></l><r>жетім<s n="n"/></r></p></e>
-<e><p><l>outside<s n="n"/></l><r>сырт<s n="n"/></r></p></e>
 <e><p><l>oven<s n="n"/></l><r>пеш<s n="n"/></r></p></e>
 <e><p><l>pan<s n="n"/></l><r>таба<s n="n"/></r></p></e>
 <e><p><l>pants<s n="n"/></l><r>шалбар<s n="n"/></r></p></e>
@@ -2752,7 +2751,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>yesterday<s n="adv"/></l><r>кеше<s n="adv"/></r></p></e>
     <e><p><l>today<s n="adv"/></l><r>бүгін<s n="adv"/></r></p></e>
     <e><p><l>now<s n="adv"/></l><r>қазір<s n="adv"/></r></p></e>
-    <e><p><l>now<s n="adv"/></l><r>енді<s n="adv"/></r></p></e>
     <e><p><l>quickly<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
  <e><p><l>fast<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
     <e><p><l>more<b/>and<b/>more<s n="adv"/></l><r>көбірек<s n="adv"/></r></p></e>

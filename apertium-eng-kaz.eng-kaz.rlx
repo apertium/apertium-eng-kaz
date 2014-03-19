@@ -66,6 +66,8 @@ SET V-HAVE = (vbhaver) ;
 
 SET V-PRES = (vblex pres) ; 
 
+SET V-MOD = ("must"i) | ("should"i) | ("will"i) | ("can"i) ; 
+
 LIST PRN-SUBJ  = (prn subj) ;
 
 SET CLB = SENT | V-FIN | Subj ; # 'Subj' is risky, e.g. coordination
@@ -145,6 +147,8 @@ SELECT N IF (-1 ("Asian"i));
 SELECT N IF (-1 A);
 
 SELECT Adv IF (-1 V)(0 ("forward"i));
+
+SELECT Inf IF (-1 V-MOD);
 
 SELECT N IF (1 Pr);
 

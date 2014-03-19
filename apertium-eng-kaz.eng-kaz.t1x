@@ -19,7 +19,7 @@
       <cat-item lemma="would" tags="vaux.past"/>
     </def-cat>
 <def-cat n="vaux-must"> <!-- must -->
-      <cat-item lemma="must" tags="vaux.*"/>
+      <cat-item lemma="must" tags="vaux.inf"/>
     </def-cat>
 <def-cat n="vaux-may"> <!-- must -->
       <cat-item lemma="may" tags="vaux.*"/>
@@ -2984,7 +2984,7 @@
 <!-- superblank management needs to be corrected -->
   <pattern>
     <pattern-item n="vaux-will"/>
-    <pattern-item n="pers-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
    </pattern>
   <action>
 
@@ -3039,7 +3039,7 @@
   <pattern>
     <pattern-item n="vaux-will"/>
 <pattern-item n="not"/>
-    <pattern-item n="pers-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
    </pattern>
   <action>	
     <let><var n="tense"/><lit-tag v="aor"/></let>
@@ -3096,7 +3096,7 @@
   <pattern>
 
     <pattern-item n="vaux-must"/>
-    <pattern-item n="pers-verb"/>  <!--I must go - Мен баруым керек-->
+    <pattern-item n="approx-inf-verb"/>  <!--I must go - Мен баруым керек-->
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
@@ -3685,7 +3685,7 @@
   <pattern>
     
    <pattern-item n="vaux-should"/>
-    <pattern-item n="pers-verb"/>
+    <pattern-item n="approx-inf-verb"/>
   </pattern>
   <action>
  

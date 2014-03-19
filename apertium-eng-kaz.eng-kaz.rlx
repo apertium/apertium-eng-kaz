@@ -104,6 +104,8 @@ SELECT (det dem) if (1 N) ;
 
 SELECT AdvItg if (2C V) ;
 
+SELECT Ger if (-1 ("was"i)) ;
+
 SELECT N if (-1 AdvItg) ;
 
 SELECT A if (1 ("Autonomous"i)) ;
@@ -111,6 +113,8 @@ SELECT A if (1 ("Autonomous"i)) ;
 SELECT N if (-1 Det) ;
 
 SELECT V-HAVE if (2C V) ;
+
+SELECT Inf if (-2 V-MOD) (-1 ADV-NOT);
 
 SELECT Inf if (-1 VAUX-WOULD) ;
 

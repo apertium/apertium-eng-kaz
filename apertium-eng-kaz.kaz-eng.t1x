@@ -2184,6 +2184,11 @@
     </rule>
 
 
+
+
+
+
+
 <rule comment="RULE: NUM Adj NOM NOM-post"><!-- under seven beautiful gardens-->
       <pattern>
         
@@ -2192,17 +2197,14 @@
         <pattern-item n="nom"/>
  <pattern-item n="nom-pr"/>
       </pattern>
-      <action>
+     <action>
         <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
+          <with-param pos="3"/>
         </call-macro>
 <call-macro n="remove-poss">
-          <with-param pos="1"/>
+          <with-param pos="3"/>
         </call-macro>
- <choose>
+       <choose>
                  <when>
                    <test>
                        <equal><clip pos="3" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
@@ -2219,6 +2221,7 @@
               <tag><lit-tag v="PP"/></tag>
               <tag><var n="number"/></tag>
               <tag><lit-tag v="PD"/></tag>
+<tag><var n="sntype"/></tag>
             </tags>
             <lu>
               <clip pos="4" side="tl" part="lem"/>

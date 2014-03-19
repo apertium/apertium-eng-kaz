@@ -182,7 +182,7 @@
 <!-- MLF 20120702 noun-based postpositions -->
 <!-- MLF 20120702 they will not be marked as Pgen as they are always nouns -->
    
-    <e><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+   <!-- <e><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>-->
     <e><p><l>between<s n="pr"/></l><r>ара<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
  <e><p><l>out<s n="pr"/></l><r>сырт<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>below<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>

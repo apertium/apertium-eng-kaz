@@ -177,11 +177,13 @@
       <cat-item tags="n.*.loc"/>
       <cat-item tags="n.*.loc.*"/>
 
+
     </def-cat>
  <def-cat n="nom-pr">
 <cat-item tags="pr"/>
 <cat-item tags="pr.*"/>
- <cat-item tags="n.*.*"/>
+ <cat-item tags="n.*"/>
+ <cat-item tags="adv"/>
  </def-cat>
     <def-cat n="nom-gen">
       <cat-item tags="n.gen"/>
@@ -738,13 +740,18 @@
               <lit-tag v="vbdo"/>
              
 <lit-tag v="pres"/>
+ <lit-tag v="2"/>
+              <lit-tag v="3"/>
+<lit-tag v="4"/>
+
+
 
               <lit-tag v="2"/>
               <lit-tag v="3"/>
  <lit-tag v="4"/>
 
 
- 
+
                          
 </lu>
 <b/>
@@ -1211,7 +1218,7 @@
         </call-macro>
 
         <out>
-          <chunk name="nom-pron" case="caseFirstWord">
+          <chunk name="nom-pr" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="PP"/></tag>
               <tag><lit-tag v="sg"/></tag>
@@ -2182,28 +2189,28 @@
     </rule>
 
 
-<rule comment="RULE: NOM-POST NUM ADJ NOM "> <!--жеті әдемі бақшаның астында-->
+<rule comment="RULE: NUM Adj NOM NOM-post"><!-- under seven beautiful gardens-->
       <pattern>
-<pattern-item n="nom-pr"/>
-        <pattern-item n="num"/>
+        
+<pattern-item n="num"/>
         <pattern-item n="adj"/>
         <pattern-item n="nom"/>
- 
-       
+ <pattern-item n="nom-pr"/>
       </pattern>
       <action>
         <call-macro n="conv-case1">
           <with-param pos="1"/>
         </call-macro>
-<call-macro n="conv-number1">
+        <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
-
-        
-       <choose>
+<call-macro n="remove-poss">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
                  <when>
                    <test>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                       <equal><clip pos="3" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
                   </test>
                   <let><var n="number"/><lit-tag v="sg"/></let>
                 </when>
@@ -2212,30 +2219,41 @@
                 </otherwise>
               </choose>
         <out>
-          <chunk name="num-adj-nom-nompost" case="caseFirstWord">
+          <chunk name="nom-pron" case="caseFirstWord">
             <tags>
-              <tag><var n="sntype"/></tag>
+              <tag><lit-tag v="PP"/></tag>
+              <tag><var n="number"/></tag>
+              <tag><lit-tag v="PD"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
-             
+              <clip pos="4" side="tl" part="lem"/>
+             <lit-tag v="pr"/>
+
             </lu>
             <b pos="1"/>
-            <b pos="2"/>
+
+
 <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
 <b/>
 
             <lu>
-              <clip pos="3" side="tl" part="whole"/>
-              <var n="number"/>
+              <clip pos="2" side="tl" part="whole"/>
+              
             </lu>
 <b/>
- <lu>
-              <clip pos="4" side="tl" part="whole"/>
-             
+
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <lit-tag v="2"/>
+
             </lu>
+
+
+
+
           </chunk>
         </out>
         <call-macro n="reset-vars1">
@@ -2243,7 +2261,6 @@
         </call-macro>
       </action>
     </rule>
-
 
 
 

@@ -4453,6 +4453,122 @@
       </action>
 </rule>
 
+
+
+
+<rule comment="NEW RULE: det noun1 noun2"> <!-- three good football players-->
+  <pattern>
+    <pattern-item n="det"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="NEW-build-noun-lu-2-4-5-sg">
+      <with-param pos="3"/>
+    </call-macro> <!-- noun is built in singular as the NP contains numerals -->
+    
+
+<!-- *** -->
+
+<choose>
+  <when> <!-- Demonstrative -->
+    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+    <out>
+    <chunk name="detdem-nom-nom2">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="3" side="tl" part="a_nbr"/></tag> <!-- number placeholder: use 'semantic' number for SL -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+
+     <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_det"/>
+      <clip pos="1" side="tl" part="a_dem"/>
+    </lu>
+	<b pos="1"/>
+    <lu>  
+     <clip pos="2" side="tl" part="lem"/> 
+     <clip pos="2" side="tl" part="a_nom"/>
+     <clip pos="2" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
+     </lu>
+  <b pos="2"/>
+ <lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+  
+  <when> 
+    <test><equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+    <call-macro n="build-possessive-from-possessive-determiner">
+       <with-param pos="1"/>
+    </call-macro>
+    <out>
+    <chunk name="detpos-num-nom">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="3" side="tl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><var n="possessive"/></tag> <!-- possessor computed from possessive determiner -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+  <lu>
+      <clip pos="1" side="tl" part="whole"/>
+    </lu>
+<b pos="1"/>
+        
+    <lu> 
+ <clip pos="2" side="tl" part="lem"/> 
+     <clip pos="2" side="tl" part="a_nom"/>
+     <clip pos="2" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
+    </lu>
+ <b pos="2"/>
+    <lu> 
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+
+  <otherwise>
+    <out>
+    <chunk name="detart-num-nom"> <!-- the three good football players-->
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="3" side="tl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <b pos="1"/>
+ 
+   <lu> 
+ <clip pos="2" side="tl" part="lem"/> 
+     <clip pos="2" side="tl" part="a_nom"/>
+     <clip pos="2" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
+    </lu>
+    
+    <b pos="2"/>
+    <lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+    <call-macro n="out-blank-if-not-single-space"> 
+        <with-param pos="1"/>
+    </call-macro>
+  </otherwise>
+</choose>
+  </action>
+</rule>
+
 <rule comment="NEW RULE: det num noun1 noun2"> <!-- three good football players-->
   <pattern>
     <pattern-item n="det"/>
@@ -4578,6 +4694,9 @@
 </choose>
   </action>
 </rule>
+
+
+
 
  
 <rule comment="NEW RULE: det num noun"> 

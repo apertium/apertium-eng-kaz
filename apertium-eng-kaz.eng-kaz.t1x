@@ -2949,6 +2949,11 @@
 
 
 
+
+
+
+
+
 <rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
   <pattern>
     <pattern-item n="to"/>
@@ -2958,7 +2963,7 @@
 <out>
   <chunk name="NP_to_inf">  
       <tags>
-       <tag><lit-tag v="NP"/></tag>
+       <tag><lit-tag v="NP_to_inf"/></tag>
         <tag><lit-tag v="PD"/></tag> 
         <tag><lit-tag v="ND"/></tag> 
        
@@ -2973,6 +2978,47 @@
          <lit-tag v="5"/>
         </lu>
     
+      </chunk>
+</out>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
+  <pattern>
+    <pattern-item n="to"/>
+    <pattern-item n="approx-inf-verb"/> 
+    <pattern-item n="nom"/>
+   </pattern>
+  <action>
+
+  <call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="3"/>
+  </call-macro> 
+    <out>
+    <chunk name="to-inf-noun">
+    <tags>
+    <tag><lit-tag v="PP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="acc"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+   <b/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+     </lu>
+  <b/> 
+    <lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+
+    </lu>
       </chunk>
 </out>
   </action>
@@ -8374,6 +8420,7 @@ this would have to be changed -->
 
 
 
+
 <rule comment="RULE: Coma">
       <pattern>
         <pattern-item n="coma"/>
@@ -8399,6 +8446,7 @@ this would have to be changed -->
         </out>
       </action>
     </rule>
+
 
 <rule comment="NEW RULE: the-most adjec">   <!-- another rule is needed for the most ADJ -->
   <pattern>

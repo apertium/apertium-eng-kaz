@@ -5,6 +5,12 @@
     <def-cat n="NP">
       <cat-item tags="NP"/>
       <cat-item tags="NP.*"/>
+      <cat-item tags="NP_to_inf.*"/>
+
+    </def-cat>
+<def-cat n="NP_to_inf">
+      <cat-item tags="NP_to_inf"/>
+      <cat-item tags="NP_to_inf.*"/>
 
     </def-cat>
    <def-cat n="Q_m">
@@ -217,6 +223,7 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="POST"/>
+    <def-var n="Coma"/>
     <def-var n="possessive"/>
     <def-var n="possessive1"/>
     <def-var n="possessive2"/>
@@ -341,10 +348,109 @@
       </action>
     </rule>
 
+<rule comment="NEW RULE: PP PP NP and NP"> <!--to avoid between terms Kazakh and Cossack -->
+     <pattern>
+       <pattern-item n="PP"/>
+       <pattern-item n="PP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="THAN"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+<let><var n="Coma"/>
+                          <concat>
+                  <get-case-from pos="1">
+                    <lit v="^coma"/>
+                  </get-case-from>
+                  <lit-tag  v="cm"/>
+                  <lit v="{"/>
+                  <lit v="^,"/>
+                  <lit-tag  v="cm"/>
+                  <lit v="$}$ "/>
+                </concat>
+               </let>
+                 <out>
+<var n="Coma"/>
+<chunk>
+
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/> 
+          <b pos="4"/>                   
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b/>
+           <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+          <b/>
+  <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+ <b/>
+  <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          
+      </out>
+     </action>
+    </rule>
 
 
 
 
+<rule comment="NEW RULE:  PP NP and NP"> <!--between terms Kazakh and Cossack -->
+     <pattern>
+       <pattern-item n="PP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="THAN"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+
+      <out>
+<chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/>          
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+           <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b/>
+  <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          
+      </out>
+     </action>
+    </rule>
 
 
 <rule comment="NEW RULE PP GenP → GenP PP">
@@ -3999,6 +4105,11 @@
       </out>
      </action>
     </rule>
+
+
+
+
+
 
 
 

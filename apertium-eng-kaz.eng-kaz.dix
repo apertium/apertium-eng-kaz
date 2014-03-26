@@ -182,7 +182,8 @@
 <!-- MLF 20120702 noun-based postpositions -->
 <!-- MLF 20120702 they will not be marked as Pgen as they are always nouns -->
    
-   <!-- <e><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>-->
+    <e><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+    <e r="RL"><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="px3sp"/><s n="loc"/></r></p></e>
     <e><p><l>between<s n="pr"/></l><r>ара<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
  <e><p><l>out<s n="pr"/></l><r>сырт<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>below<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -1725,7 +1726,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>Turkish<s n="n"/></l><r>түрік<s n="n"/></r></p></e>
     <e><p><l>turn<s n="n"/></l><r>рет<s n="n"/></r></p></e>
     <e><p><l>uncle<s n="n"/></l><r>ағай<s n="n"/></r></p></e>
-    <e><p><l>under<s n="n"/></l><r>аст<s n="n"/></r></p></e>
     <e><p><l>untruth<s n="n"/></l><r>жалған<s n="n"/></r></p></e>
     <e><p><l>utensil<s n="n"/></l><r>аспап<s n="n"/></r></p></e>
     <e><p><l>Uzbek<s n="n"/></l><r>өзбек<s n="n"/></r></p></e>

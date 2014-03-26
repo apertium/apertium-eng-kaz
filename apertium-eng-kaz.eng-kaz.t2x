@@ -366,18 +366,19 @@
                   <lit v="{"/>
                   <lit v="^,"/>
                   <lit-tag  v="cm"/>
-                  <lit v="$}$ "/>
+                  <lit v="$}$"/>
                 </concat>
                </let>
                  <out>
 <var n="Coma"/>
+          <b pos="1"/>
 <chunk>
 
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
             <clip pos="3" part="chcontent"/>
           </chunk>
-          <b pos="1"/>
+
           <b pos="2"/>
           <b pos="3"/> 
           <b pos="4"/>                   

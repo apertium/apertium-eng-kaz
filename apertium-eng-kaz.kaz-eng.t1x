@@ -1421,12 +1421,22 @@
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
-
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
         <out>
           <chunk name="nom-pron" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="PP"/></tag>
-              <tag><lit-tag v="sg"/></tag>
+               <tag><var n="number"/></tag>
               <tag><lit-tag v="PD"/></tag>
             </tags>
             <lu>
@@ -1448,6 +1458,69 @@
         </call-macro>
       </action>
     </rule>
+
+
+
+<rule comment="RULE: Adj NOM post"><!-- ademi baksha astynda-->
+      <pattern>
+<pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="nom-post"/>
+
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+                <when>
+                   <test>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit v=""/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="adj-nom-pron" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PP"/></tag>
+              <tag><var n="number"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+             <lit-tag v="pr"/>
+
+            </lu>
+            <b pos="1"/>
+<lu>
+              <clip pos="1" side="tl" part="whole"/>
+          
+
+            </lu>
+<b/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <lit-tag v="2"/>
+
+            </lu>
+
+ 
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 <rule comment="RULE: Pro-ins"> <!-- menimen -->
       <pattern>
@@ -2216,7 +2289,7 @@
                 </otherwise>
               </choose>
         <out>
-          <chunk name="nom-pron" case="caseFirstWord">
+          <chunk name="num-adj-nom-nom-pron" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="PP"/></tag>
               <tag><var n="number"/></tag>

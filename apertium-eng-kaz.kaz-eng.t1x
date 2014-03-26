@@ -1211,12 +1211,22 @@
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
-
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
         <out>
           <chunk name="nom-pr" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="PP"/></tag>
-              <tag><lit-tag v="sg"/></tag>
+               <tag><var n="number"/></tag>
               <tag><lit-tag v="PD"/></tag>
             </tags>
             <lu>
@@ -2282,10 +2292,10 @@
                    <test>
                        <equal><clip pos="3" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
                   </test>
-                  <let><var n="number"/><lit-tag v="sg"/></let>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
                 </when>
                 <otherwise>
-                  <let><var n="number"/><lit-tag v="pl"/></let>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
                 </otherwise>
               </choose>
         <out>
@@ -2303,7 +2313,6 @@
             </lu>
             <b pos="1"/>
 
-
 <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
@@ -2318,7 +2327,7 @@
             <lu>
               <clip pos="3" side="tl" part="lem"/>
               <clip pos="3" side="tl" part="a_nom"/>
-              <lit-tag v="2"/>
+              <var n="number"/>
 
             </lu>
 

@@ -2290,12 +2290,12 @@
        <choose>
                  <when>
                    <test>
-                       <equal><clip pos="3" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                       <equal><clip pos="3" side="sl" part="a_nbr"/><lit v=""/></equal>
                   </test>
-                  <let><var n="number"/><lit-tag v="pl"/></let>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
                 </when>
                 <otherwise>
-                  <let><var n="number"/><lit-tag v="sg"/></let>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
                 </otherwise>
               </choose>
         <out>

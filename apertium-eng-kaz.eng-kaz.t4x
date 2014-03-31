@@ -117,6 +117,7 @@
       <attr-item tags="ins"/>
       <attr-item tags="abl"/>
       <attr-item tags="CD"/>
+      <attr-item tags="Rnom"/>
     </def-attr>
 
     <def-attr n="nbr">
@@ -474,6 +475,12 @@
           <when>
             <test><equal><clip pos="1" side="sl" part="adj_sint"/><lit-tag v="sint"/></equal></test>
             <let><clip pos="1" side="tl" part="adj_sint"/><lit v=""/></let>
+          </when>
+        </choose>
+<choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="Rnom"/></equal></test>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
           </when>
         </choose>
         <choose>

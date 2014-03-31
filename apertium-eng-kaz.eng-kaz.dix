@@ -142,6 +142,7 @@
 
 <!-- MLF20120702 We do not need a translation for these, as they are treated using case -->
     <e r="LR"><p><l>in<s n="pr"/></l><r></r></p></e>
+    <e r="LR"><p><l>off<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>'s<s n="gen"/></l><r></r></p></e>
     <e r="LR"><p><l>from<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>of<s n="pr"/></l><r></r></p></e>
@@ -154,7 +155,7 @@
 
 <!-- MLF2012073 We'll think about these ones later -->
     
-    <e r="LR"><p><l>by<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
+    <e r="LR"><p><l>by<s n="pr"/></l><r>арқылы<s n="post"/><s n="Rnom"/></r></p></e>
 
 
 	 <!-- The following postpositions are used with nominative case -->
@@ -496,7 +497,7 @@
 <e><p><l>sponge<s n="n"/></l><r>губка<s n="n"/></r></p></e>
 <e><p><l>spring<s n="n"/></l><r>көктем<s n="n"/></r></p></e>
 <e><p><l>step<s n="n"/></l><r>қадам<s n="n"/></r></p></e>
-
+<e><p><l>start<s n="n"/></l><r>бастау<s n="n"/></r></p></e>
 <e><p><l>statement<s n="n"/></l><r>арыз<s n="n"/></r></p></e>
 <e><p><l>square<s n="n"/></l><r>шаршы<s n="n"/></r></p></e>
 <e><p><l>stamp<s n="n"/></l><r>таңба<s n="n"/></r></p></e>
@@ -2427,6 +2428,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>practice<s n="n"/></l><r>тәжірибе<s n="n"/></r></p></e>
 <e><p><l>forward<s n="n"/></l><r>шабуылшы<s n="n"/></r></p></e>
 <e><p><l>control<s n="n"/></l><r>бақылау<s n="n"/></r></p></e>
+<e><p><l>view<s n="n"/></l><r>көрініс<s n="n"/></r></p></e>
 
 
 <!--ProPER NOUNS -->
@@ -2717,6 +2719,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
  <!-- Раздел: Наречие -->
 <e><p><l>economically<s n="adv"/></l><r>экономикалы<s n="adv"/></r></p></e>
+<e><p><l>up<s n="adv"/></l><r>жоғары<s n="adv"/></r></p></e>
        <e><p><l>too<s n="adv"/></l><r>өте<s n="adv"/></r></p></e>
        <e><p><l>too<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
     <e><p><l>badly<s n="adv"/></l><r>жаман<s n="adv"/></r></p></e>
@@ -2738,6 +2741,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>left<s n="adv"/></l><r>солға<s n="adv"/></r></p></e>
     <e><p><l>afternoon<s n="adv"/></l><r>түсте<s n="adv"/></r></p></e>
      <e><p><l>only<s n="adv"/></l><r>ғана<s n="adv"/></r></p></e>
+     <e><p><l>like<b/>this<s n="adv"/></l><r>осы<b/>сияқты<s n="adv"/></r></p></e>
     <e><p><l>everyday<s n="adv"/></l><r>күнде<s n="adv"/></r></p></e>
     <e><p><l>as<s n="preadv"/></l><r>сияқты<s n="post"/></r></p></e>
     <e><p><l>very<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
@@ -3155,7 +3159,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>rigid<s n="adj"/></l><r>қатал<s n="adj"/></r></p></e>
 <e><p><l>substantial<s n="adj"/></l><r>байыпты<s n="adj"/></r></p></e>
 <e><p><l>ethnic<s n="adj"/></l><r>этникалық<s n="adj"/></r></p></e>
-
+<e><p><l>dangerous<s n="adj"/></l><r>қауіпті<s n="adj"/></r></p></e>
+<e><p><l>perfect<s n="adj"/></l><r>тамаша<s n="adj"/></r></p></e>
 <e><p><l>diverse<s n="adj"/></l><r>алуан<s n="adj"/></r></p></e>
 <e><p><l>considerable<s n="adj"/></l><r>маңызды<s n="adj"/></r></p></e>
 <e><p><l>topographical<s n="adj"/></l><r>топографиялық<s n="adj"/></r></p></e>
@@ -3323,6 +3328,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>do<s n="vblex"/></l><r>істе<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>exchange<s n="vblex"/></l><r>айырбаста<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>fall<s n="vblex"/></l><r>құла<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>end<s n="vblex"/></l><r>біт<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>urge<s n="vblex"/></l><r>мәжбүр<b/>ет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>rush<s n="vblex"/></l><r>ұмтыл<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>group<s n="vblex"/></l><r>топта<s n="v"/><s n="tv"/></r></p></e>
@@ -3358,7 +3364,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>hide<s n="vblex"/></l><r>жасырын<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>hit<s n="vblex"/></l><r>соқ<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>increase<s n="vblex"/></l><r>өс<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>jump<s n="vblex"/></l><r>секір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>jump<s n="vblex"/></l><r>секір<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>climb<s n="vblex"/></l><r>өрле<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>kick<s n="vblex"/></l><r>теп<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>kiss<s n="vblex"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>know<s n="vblex"/></l><r>біл<s n="v"/><s n="tv"/></r></p></e>

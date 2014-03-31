@@ -2236,6 +2236,64 @@
     </rule>
 
 
+<rule comment="RULE: DET ADJ NOM">
+      <pattern>
+        <pattern-item n="dett"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="3"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="3" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let> <var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+
+        <out>
+          <chunk name="det-adj-nom" case="caseFirstWord">
+            <tags>
+
+              <tag><var n="sntype"/></tag>
+            
+           
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+  <lit-tag v="det"/>
+              <lit-tag v="dem"/>
+              <var n="number"/>
+
+            </lu>
+            <b pos="1"/>
+<lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+       <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 
 

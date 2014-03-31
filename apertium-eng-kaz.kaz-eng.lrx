@@ -40,6 +40,10 @@
 <match lemma="бар" tags="v.iv.imp.*.*"><select lemma="have" tags="vblex.pres"/></match>
   </rule>
 
+<rule>
+
+<match lemma="арт" tags="n.PXD.loc"><select lemma="behind" tags="pr"/></match>
+  </rule>
 
 
   
@@ -58,7 +62,6 @@
   
 <match lemma="аст" tags="n.px3sp.loc"><select lemma="under" tags="pr"/></match>
   </rule>
-
 
 
 

@@ -234,6 +234,11 @@
       </action>
     </rule>
 
+
+
+
+
+
 <rule comment="RULE: SN AdvP SV">  <!--Men baqwada oinadym -->
       <pattern>
         <pattern-item n="SN"/>

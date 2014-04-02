@@ -10,7 +10,13 @@
     </def-cat>   
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
+
       <cat-item tags="vbmod.ger"/>
+    </def-cat>
+  <def-cat n="inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
+      <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
+
+      <cat-item tags="vbser.inf"/>
     </def-cat>
     <def-cat n="vaux-will"> <!-- future -->
       <cat-item lemma="will" tags="vaux.inf"/>
@@ -2969,7 +2975,7 @@
 <rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
   <pattern>
     <pattern-item n="to"/>
-    <pattern-item n="approx-inf-verb"/> 
+    <pattern-item n="inf-verb"/> 
    </pattern>
   <action>
 <out>

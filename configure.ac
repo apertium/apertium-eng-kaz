@@ -5,7 +5,7 @@ AM_INIT_AUTOMAKE([apertium-eng-kaz], [0.1.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
-m4_define([required_apertium_version], [3.2.0])
+m4_define([required_apertium_version], [3.3.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
                           
 
@@ -91,6 +91,7 @@ m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertiu
 #AP_CHECK_LING([1], [apertium-eng])
 AP_CHECK_LING([2], [apertium-kaz])
 
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
 

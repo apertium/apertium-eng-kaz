@@ -99,4 +99,9 @@
   <rule>
     <match lemma="sky" tags="n.*"><select lemma="аспан" tags="n.*"/></match>
   </rule>
+
+<rule>
+    <match lemma="that" tags="det.*"><select lemma="осы" tags="det.*"/></match>
+    <match lemma="time" tags="n.*"><select lemma="уақыт" tags="n.*"/></match>
+     </rule>
 </rules>

@@ -80,6 +80,8 @@ REMOVE V-FIN IF (-1C V-FIN);  # Careful: would kill "The man who _came_ _wrote_ 
 
 REMOVE N IF (0 ("<is>"i)) ; 
 
+SELECT N IF (-1 ("<both>"i)) ; 
+
 SELECT V IF (0 ("<like>"i)) ; 
 
 SELECT (vblex pp) IF (0 ("<hit>"i)) (-1 ("<is>"i)) ; 

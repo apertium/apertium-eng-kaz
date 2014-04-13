@@ -27,6 +27,10 @@
 <def-cat n="vaux-must"> <!-- must -->
       <cat-item lemma="must" tags="vaux.inf"/>
     </def-cat>
+
+<def-cat n="language"> <!--Turkic -->
+      <cat-item tags="adj"/>
+    </def-cat>
 <def-cat n="vaux-may"> <!-- must -->
       <cat-item lemma="may" tags="vaux.*"/>
       <cat-item lemma="might" tags="vaux.*"/>
@@ -2368,7 +2372,7 @@
        <tag><lit-tag v="NP"/></tag>
         <tag><lit-tag v="PD"/></tag> 
         <tag><lit-tag v="ND"/></tag> 
-       
+        <tag><lit-tag v="ger"/></tag> 
         <tag><lit-tag v="PXD"/></tag> 
         <tag><lit-tag v="CD"/></tag>
       </tags>
@@ -2376,8 +2380,11 @@
         <lu>
           <clip pos="1" side="tl" part="lem"/>
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
-         <lit-tag v="ger"/>
-         <lit-tag v="5"/>
+
+         <lit-tag v="4"/>
+  	 <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
         </lu>
     
       </chunk>
@@ -7857,6 +7864,86 @@ this would have to be changed -->
 </rule>
 
 
+<rule comment="NEW RULE: prep adjec"> 
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="language"/>
+
+  </pattern>
+  <action>
+<!--
+    <call-macro n="initialize_number"/>
+   <call-macro n="assign-tl-plural-if-sl-nbr-plural"><with-param pos="2"/></call-macro> 
+-->
+     <call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
+         </call-macro>
+<!--
+      <call-macro n="build-noun-lu"><with-param pos="2"/></call-macro>
+--><call-macro n="build-adjec-lu"><with-param pos="2"/></call-macro> 
+ 
+     <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+        <out> <!-- with postposition -->
+          <chunk name="prep-adjec">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><lit-tag v="sg"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="px3sp"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+ <b pos="1"/>
+            <lu>  
+               <var n="adjec_lu"/>
+            </lu>
+ <b pos="2"/>
+            <lu>  <!-- build in situ for the time being -->
+             <lit v="тіл"/> 
+               <lit-tag v="n"/> 
+               <lit-tag v="2"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise> <!-- without postposition -->
+        <out>
+          <chunk name="prep-adjec">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><lit-tag v="sg"/></tag> <!-- number -->	               <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="px3sp"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+<b pos="1"/> 
+ <lu>  
+               <var n="adjec_lu"/>
+            </lu>
+ <b pos="2"/>
+            <lu>  <!-- build in situ for the time being -->
+              <lit v="тіл"/> 
+               <lit-tag v="n"/> 
+               <lit-tag v="2"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+  </action>
+</rule>
+
+ 
 
 <rule comment="NEW RULE: prep adjec noun"> 
   <pattern>

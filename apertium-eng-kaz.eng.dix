@@ -73,6 +73,7 @@
     <sdef n="ij" c="Interjection"/> 
     <sdef n="sent" c="Sentence marker"/> 
     <sdef n="cm" c="Comma"/> 
+    <sdef n="quote" c="quotes"/> 
     <sdef n="lpar" c="Left parenthesis"/> 
     <sdef n="rpar" c="Right parenthesis"/> 
     <sdef n="lquest" c="Left question mark"/> 
@@ -137,6 +138,20 @@
 
 
     </pardef>
+
+  <pardef n="quote">
+
+                            <e i="">
+      <re>[""]</re>
+      <p>
+        <l/>
+        <r><s n="quote"/></r>
+      </p>
+    </e>
+
+
+    </pardef>
+
 
     <pardef n="aposchar">
 
@@ -306,7 +321,7 @@
     <pardef n="separa">
 
                             <e i="">
-      <re>[.\?;:!""]</re>
+      <re>[.\?;:!"]</re>
       <p>
         <l/>
         <r><s n="sent"/></r>
@@ -83788,7 +83803,9 @@
 
                             <e i=""><par n="separa"/></e>
 
+
                             <e i=""><par n="coma"/></e>
+                            <e i=""><par n="quote"/></e>
 
                             <e i=""><par n="cometa"/></e>
 

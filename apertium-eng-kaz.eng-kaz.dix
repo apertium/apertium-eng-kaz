@@ -3661,7 +3661,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>recognise<s n="vblex"/></l><r>мойында<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>call<s n="vblex"/></l><r>қоңырау<b/>шал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>call<s n="vblex"/></l><r>деп<b/>ата<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>originate<s n="vblex"/></l><r>сөзден<b/>шық<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>originate<s n="vblex"/></l><r>шық<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>practice<s n="vblex"/></l><r>қолдан<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>name<s n="vblex"/></l><r>ата<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>convert<s n="vblex"/></l><r>айналдыр<s n="v"/><s n="tv"/></r></p></e>

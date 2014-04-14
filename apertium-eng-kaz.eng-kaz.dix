@@ -2803,10 +2803,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>officially<s n="adv"/></l><r>ресми<s n="adv"/></r></p></e>
 <e><p><l>forward<s n="adv"/></l><r>ілгері<s n="adv"/></r></p></e>
 <e><p><l>persistently<s n="adv"/></l><r>қажырлы<s n="adv"/></r></p></e>
-<e><p><l>in<b/>contrast<s n="adv"/></l><r>айырмашылығында<s n="adv"/></r></p></e>
-<e><p><l>soon<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
+<e><p><l>in<b/>contrast<s n="adv"/></l><r>салыстырғанда<s n="adv"/></r></p></e>
+<e><p><l>soon<b/>afterward<s n="adv"/></l><r>көп<b/>ұзамай<s n="adv"/></r></p></e>
+<e><p><l>soon<s n="adv"/></l><r>жақында<s n="adv"/></r></p></e>
 <e><p><l>afterward<s n="adv"/></l><r>кейін<s n="adv"/></r></p></e>
-<e><p><l>especially<s n="adv"/></l><r>айрықша<s n="adv"/></r></p></e>
+<e><p><l>especially<s n="adv"/></l><r>әсіресе<s n="adv"/></r></p></e>
 <e><p><l>strongly<s n="adv"/></l><r>өте<s n="adv"/></r></p></e>
 <e><p><l>largely<s n="adv"/></l><r>едәуір<s n="adv"/></r></p></e>
 <e><p><l>particularly<s n="adv"/></l><r>айрықша<s n="adv"/></r></p></e>

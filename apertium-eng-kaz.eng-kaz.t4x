@@ -131,6 +131,7 @@
       <attr-item tags="ger_impf"/>
       <attr-item tags="ger_past"/>
            <attr-item tags="past"/>
+           <attr-item tags="ifi"/>
            <attr-item tags="aor"/>
            <attr-item tags="ger"/>
     </def-attr>
@@ -223,6 +224,18 @@
 <test>
 <and>
             <equal><clip pos="1" side="sl" part="tense"/><lit-tag v="aor"/></equal>
+           <equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal>
+</and>
+</test>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
+          </when>
+
+        </choose>
+<choose>
+          <when>
+<test>
+<and>
+            <equal><clip pos="1" side="sl" part="tense"/><lit-tag v="ifi"/></equal>
            <equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal>
 </and>
 </test>

@@ -321,7 +321,7 @@
     <pardef n="separa">
 
                             <e i="">
-      <re>[.\?;:!"]</re>
+      <re>[.\?;:!""]</re>
       <p>
         <l/>
         <r><s n="sent"/></r>
@@ -17249,7 +17249,7 @@
 
                             <e lm="thanks to" i=""><i>thanks<b/>to</i><par n="at__pr"/></e>
 
-                            <e lm="throughout" i=""><i>throughout</i><par n="at__pr"/></e>
+                            
 
                             <e lm="through" i=""><i>through</i><par n="at__pr"/></e>
 
@@ -59577,6 +59577,8 @@
 
                             <e lm="in kind" i=""><i>in<b/>kind</i><par n="maybe__adv"/></e>
 
+ <e lm="in keeping" i=""><i>in<b/>keeping</i><par n="maybe__adv"/></e>
+
                             <e lm="in no uncertain terms" i=""><i>in<b/>no<b/>uncertain<b/>terms</i><par n="maybe__adv"/></e>
 
                             <e lm="in short order" i=""><i>in<b/>short<b/>order</i><par n="maybe__adv"/></e>
@@ -60988,7 +60990,7 @@
 
                             <e lm="thanks to" i=""><i>thanks<b/>to</i><par n="at__pr"/></e>
 
-                            <e lm="throughout" i=""><i>throughout</i><par n="at__pr"/></e>
+                            
 
                             <e lm="through" i=""><i>through</i><par n="at__pr"/></e>
 

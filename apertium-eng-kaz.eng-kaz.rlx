@@ -104,6 +104,8 @@ SELECT (vblex ger) if (0 ("beginning"i))(NOT 1 V) ;
 
 SELECT Rel if (-1 N) ;
 
+SELECT N if (-1 Pr) ;
+
 SELECT A if (1C ("Party"i)) ;
 
 SELECT AdvItg if (1C V) ;
@@ -274,7 +276,7 @@ REMOVE N IF (0 N OR V) (-1 VAUX-CAN) ;
 
 REMOVE Pron IF (0 Det OR Pron) (1 NUM) ;
 
-SELECT Year IF (-1 ("in") OR ("after") OR ("since") OR ("of")) (NOT 1 N);
+SELECT Year IF (-1 ("in") OR ("after") OR ("since") OR ("of") OR ("throughout")) (NOT 1 N);
 
 SELECT Year IF (-1 Seasons OR Months);
  

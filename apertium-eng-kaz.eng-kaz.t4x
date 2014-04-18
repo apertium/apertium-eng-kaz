@@ -130,6 +130,7 @@
     <def-attr n="tense">
       <attr-item tags="ger_impf"/>
       <attr-item tags="ger_past"/>
+      <attr-item tags="prc_perf"/>
            <attr-item tags="past"/>
            <attr-item tags="ifi"/>
            <attr-item tags="aor"/>
@@ -228,6 +229,19 @@
 </and>
 </test>
             <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
+          </when>
+
+        </choose>
+<choose>
+          <when>
+<test>
+
+            <equal><clip pos="1" side="sl" part="tense"/><lit-tag v="prc_perf"/></equal>
+
+</test>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
+            <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
+            <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
           </when>
 
         </choose>

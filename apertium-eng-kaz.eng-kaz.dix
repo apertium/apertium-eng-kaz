@@ -306,7 +306,7 @@
     <e><p><l>answer<s n="n"/></l><r>жауап<s n="n"/></r></p></e>
     <e><p><l>question<s n="n"/></l><r>сұрақ<s n="n"/></r></p></e>
     <e><p><l>person<s n="n"/></l><r>адам<s n="n"/></r></p></e>
-    <e><p><l>perpetuation<s n="n"/></l><r>естелік<s n="n"/></r></p></e>
+    <e><p><l>perpetuation<s n="n"/></l><r>сақталу<s n="n"/></r></p></e>
     <e><p><l>table<s n="n"/></l><r>үстел<s n="n"/></r></p></e>
     <e><p><l>computer<s n="n"/></l><r>компьютер<s n="n"/></r></p></e>
     <e><p><l>chair<s n="n"/></l><r>орындық<s n="n"/></r></p></e>
@@ -2808,12 +2808,12 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>soon<s n="adv"/></l><r>жақында<s n="adv"/></r></p></e>
 <e><p><l>afterward<s n="adv"/></l><r>кейін<s n="adv"/></r></p></e>
 <e><p><l>especially<s n="adv"/></l><r>әсіресе<s n="adv"/></r></p></e>
-<e><p><l>strongly<s n="adv"/></l><r>өте<s n="adv"/></r></p></e>
+<e><p><l>strongly<s n="adv"/></l><r>қатты<s n="adv"/></r></p></e>
 <e><p><l>largely<s n="adv"/></l><r>едәуір<s n="adv"/></r></p></e>
 <e><p><l>particularly<s n="adv"/></l><r>айрықша<s n="adv"/></r></p></e>
 <e><p><l>nearly<s n="adv"/></l><r>жақында<s n="adv"/></r></p></e>
 <e><p><l>rapidly<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
-<e><p><l>throughout<s n="adv"/></l><r>әр<b/>жерде<s n="adv"/></r></p></e>
+<e><p><l>throughout<s n="adv"/></l><r>жаппай<s n="adv"/></r></p></e>
 <e><p><l>in<b/>keeping<s n="adv"/></l><r>сәйкес<s n="post"/></r></p></e>
 <e><p><l>Furthermore<s n="adv"/></l><r>одан<b/>әрі<s n="post"/></r></p></e>
 <e><p><l>severely<s n="adv"/></l><r>қатал<s n="adv"/></r></p></e>
@@ -3669,7 +3669,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>convert<s n="vblex"/></l><r>айналдыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>state<s n="vblex"/></l><r>мәлімде<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>remain<s n="vblex"/></l><r>қал<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>commit<s n="vblex"/></l><r>тапсыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>commit<s n="vblex"/></l><r>жақта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>consider<s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>survive<s n="vblex"/></l><r>тірі<b/>қал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>secure<s n="vblex"/></l><r>қамсыздандыр<s n="v"/><s n="tv"/></r></p></e>

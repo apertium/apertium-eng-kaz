@@ -59,9 +59,6 @@
       <cat-item lemma="should" tags="vaux.inf"/>
     </def-cat>
 
-<def-cat n="verb-inf"> <!-- past and present tense -->
-      <cat-item tags="vblex.ger"/>
-</def-cat>
     <def-cat n="pers-verb-to-be"> <!-- past and present tense -->
       <cat-item tags="vbser.pres"/>
       <cat-item tags="vbser.pres.*"/>
@@ -69,10 +66,8 @@
       <cat-item tags="vbser.past"/>
  <!-- <cat-item tags="vbser.pp"/> --> <!-- I think this does not belong here -->
     </def-cat>
-    <def-cat n="verb-ing"> <!-- past and present tense -->
+    <def-cat n="verb-ing"> <!--playing -->
       <cat-item tags="vblex.ger"/>
-<!--<cat-item tags="vbser.ger"/>
-<cat-item tags="vbhaver.ger"/> --> <!-- We'll try later -->
       <cat-item tags="vbmod.ger"/> 
    </def-cat>   
 
@@ -143,15 +138,7 @@
  <cat-item lemma="be" tags="vbser.inf"/>
 </def-cat>     
 
-     
-<def-cat n="have">
-      <cat-item lemma="have" tags="vblex.inf"/>
-     </def-cat>
-
-  <def-cat n="vaux-ing"> <!--not prs cont -->
-      <cat-item lemma="be" tags="vbser.*"/>
-    </def-cat>
-    
+   
     <def-cat n="nom">
        <cat-item tags="n.*"/>
       <cat-item tags="np.top"/>
@@ -217,7 +204,7 @@
       <cat-item tags="det.dem.*"/>
     </def-cat>
     <def-cat n="the">
-      <cat-item tags="det.def.sp" lemma="the"/>
+      <cat-item lemma="the" tags="det.def.sp" />
     </def-cat>
     <def-cat n="prep">
       <cat-item tags="pr"/>
@@ -234,10 +221,7 @@
       <cat-item tags="prn.*"/>
       </def-cat>
 
-    <def-cat n="pron-dem">
-      <cat-item tags="prn.*"/>
-    </def-cat>
-
+    
  <def-cat n="it-pron">
        <cat-item lemma="it"  tags="prn.subj.p3.*"/>
     </def-cat>
@@ -320,10 +304,7 @@
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
     </def-attr>
-    <def-attr n="a_verb">
-      <attr-item tags="vblex"/>
- <attr-item tags="vaux"/>
-    </def-attr>
+
  <def-attr n="a_cnjsub">
        <attr-item tags="cnjsub"/>
     </def-attr>
@@ -1509,7 +1490,7 @@
 </rule>
 
 
-<rule comment="NEW RULE: noun1 noun2">  <!-- football player-->
+<rule comment="NEW RULE: noun1's noun2">  <!-- football player-->
   <pattern>
     <pattern-item n="nom"/>
     <pattern-item n="s-gen"/>
@@ -4668,7 +4649,7 @@
 
 
 
-<rule comment="NEW RULE: det noun1 noun2"> <!-- three good football players-->
+<rule comment="NEW RULE: det noun1 noun2"> <!-- the football players-->
   <pattern>
     <pattern-item n="det"/>
     <pattern-item n="nom"/>
@@ -8005,7 +7986,7 @@ this would have to be changed -->
 </rule>
 
 
-<rule comment="NEW RULE: prep adjec"> 
+<rule comment="NEW RULE: prep language"> 
   <pattern>
     <pattern-item n="prep"/>
     <pattern-item n="language"/>
@@ -8956,6 +8937,7 @@ this would have to be changed -->
     </out>
   </action>
 </rule>
+
 
 
 

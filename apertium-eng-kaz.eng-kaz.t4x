@@ -257,19 +257,20 @@
           </when>
 
         </choose>
-<!--
+
 <choose>
           <when>
 <test>
 <and>
             <equal><clip pos="1" side="sl" part="tense"/><lit-tag v="ger"/></equal>
-           <equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal>
+           <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="ND"/></equal>
 </and>
 </test>
-            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+	<let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+            <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
           </when>
 
-        </choose>-->
+        </choose>
  <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal></test>

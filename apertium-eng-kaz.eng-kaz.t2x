@@ -333,7 +333,7 @@
   </section-def-macros>
   <section-rules>
 
-    <rule comment="REGLA: NP">
+    <rule comment="RULE: NP">
       <pattern>
         <pattern-item n="NP"/>
       </pattern>
@@ -1803,6 +1803,7 @@
             <clip pos="1" part="tags"/>
             <clip pos="1" part="chcontent"/>
           </chunk>
+<b/>
           <chunk>
             <clip pos="3" part="lem"/>
             <lit-tag v="VP"/>
@@ -1875,7 +1876,7 @@
             <lit-tag v="NP"/>
             <clip pos="3" part="a_nbr"/>
             <clip pos="3" part="a_pers"/>
-            <clip pos="3" part="a_possessive"/>
+            <lit-tag v="ger"/>
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>
           </chunk>

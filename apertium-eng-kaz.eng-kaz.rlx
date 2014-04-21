@@ -96,6 +96,8 @@ SELECT (vbhaver inf) if (0 ("have")) (-1 ("not"));
 
 SELECT (n sg) if (0 ("English")) ;
 
+SELECT (n sg) if (0 ("Kazakh")) ;
+
 SELECT (vblex pp) if (-1 (vbser past)) ;
 
 SELECT (vblex inf) if (0 ("be"i)) (-1 Pr) ;

@@ -2409,7 +2409,7 @@
        <tag><lit-tag v="NP"/></tag>
         <tag><lit-tag v="PD"/></tag> 
         <tag><lit-tag v="ND"/></tag> 
-        <tag><lit-tag v="aor"/></tag> 
+        <tag><lit-tag v="ger"/></tag> 
         <tag><lit-tag v="PXD"/></tag> 
         <tag><lit-tag v="CD"/></tag>
       </tags>
@@ -8619,7 +8619,7 @@ this would have to be changed -->
     </rule>
 
  
-    <rule comment="REGLA: SENT">
+    <rule comment="RULE: SENT">
       <pattern>
         <pattern-item n="sent"/>
       </pattern>

@@ -101,6 +101,81 @@ cat texts/kazakhstan1.eng.txt | apertium -d . eng-kaz-morph | tr ' ' '\012' | gr
 cat countr.txt | egrep "l>"| awk 'BEGIN{FS="<l>"} {print $3}'
 
 
+http://wiki.apertium.org/wiki/English_and_Kazakh/Work_plan_%28GSOC_2014%29
+
+http://pastebin.com/eSGvUm3Y
 
 
 
+
+
+<!--- script-->
+
+DIX=/home/fran/source/apertium/incubator/apertium-eng-kaz/apertium-eng-kaz.eng.dix
+BIN=/home/fran/source/apertium/incubator/apertium-eng-kaz/eng-kaz.automorf.bin
+cat eng.crp.txt | cut -f2 | grep -v '>(' | sed 's/&lt;/</g' | sed 's/&gt;/>/g' | apertium-destxt | lt-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/eng.coverage.txt
+
+EDICT=`cat $DIX | grep '<e lm' | wc -l`;
+EPAR=`cat $DIX | grep '<pardef n' | wc -l`;
+TOTAL=`cat /tmp/eng.coverage.txt | wc -l`
+KNOWN=`cat /tmp/eng.coverage.txt | grep -v '*' | wc -l`
+COV=`calc $KNOWN / $TOTAL`;
+DATE=`date`;
+
+echo -e $DATE"\t"$EPAR":"$EDICT"\t"$KNOWN"/"$TOTAL"\t"$COV >> history.log
+tail -1 history.log
+
+<!-- -->
+
+tie> for the kazakh one you will need to add words which are not there
+<Aida> yes
+<spectie> Serpis, a veure
+<spectie> Serpis, ./autogen.sh
+<spectie> make
+<inariksit> spectie: on the bright side, you'll walk past this every day :-D http://listenmaa.fi/b/franssons_rum.jpg
+<spectie> i intenta de nou
+<spectie> haha!
+<begiak> apertium: spectre360 * 52240: /incubator/apertium-eng-kaz/apertium-eng-kaz.eng-kaz.dix: ization->isation
+* kalyanee (~kalyanee@101.221.204.29) has joined #apertium
+* kalyanee_ has quit (Ping timeout: 252 seconds)
+<kalyanee>  krvoje:ya   this verb always have the meaning "to be", or "was" etc
+<krvoje> :)
+<begiak> apertium: spectre360 * 52241: /incubator/apertium-eng-kaz/apertium-eng-kaz.eng-kaz.dix: more fixes in bidix
+<krvoje> then the most appropriate tag for it would be "vbser"
+<krvoje> which is the standard apertium's tag for verbs to be
+<krvoje> you can make a separate paradigm for it
+<Serpis> Specti, eres un sol, funciona!!
+<Serpis> gràcies
+<spectie> Serpis, de res!
+<Serpis> suposadament, si en comptes de posar "ceci" pose un text, llavors detectarà si hi ha errors?
+<spectie> analitzarà el text
+<spectie> Aida, i'm making a few fixes in the bilingual dictionary
+<Aida> ok, thank you
+<Aida> spectie, where should I paste script? 
+<kalyanee> tnks
+<kalyanee> we did that
+<Serpis> com puc fer una prova de traducció? Per exemple, vull que traduisca "la maison est à moi"
+* krvoje has quit (Quit: Leaving)
+<spectie> Serpis, echo "la maison est à moi" | apertium -d . fr-ca
+<Serpis> okis
+<spectie> Aida, in a file called 'coverage.sh'
+* tenebr050 (~Atomic@117.227.199.79) has joined #apertium
+<Aida> I did it
+<Aida> I can't run it :/
+<spectie> Aida, you need to change the paths
+<spectie> did you do that ?
+<Aida> yes, but I have mistake
+<spectie> can you show me how you changed it ?
+<spectie> e.g. pastebin the script
+<Aida> http://pastebin.com/ELZyCdKk
+<begiak> [ DIX=apertium-eng-kaz.eng.dix BIN=eng-kaz.automorf.bin cat eng.crp.txt | cut -f - Pastebin.com ]
+* tenebr050 has quit (Client Quit)
+* sirex has quit (Quit: Leaving.)
+<spectie> ok, you need to put the script in a new directory
+<spectie> with the corpus
+<spectie> and i would use the full paths to all files
+<spectie> e.g. instead of eng.crp.txt
+<spectie> i would put:
+<spectie>  /home/fran/.../eng.crp.txt
+<spectie> where ... is the directory you made
+<Aida> and then run it like ".coverage.sh"?

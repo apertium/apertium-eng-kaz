@@ -98,5 +98,9 @@ cat texts/kazakhstan1.eng.txt | apertium -d . eng-kaz-morph | tr ' ' '\012' | gr
 
  cat texts/kazakhstan1.eng.txt | apertium -d . eng-kaz-morph | tr ' ' '\012' | egrep -c "det.*n" | sort -f  | uniq -c
 
+cat countr.txt | egrep "l>"| awk 'BEGIN{FS="<l>"} {print $3}'
+
+
+
 
 

@@ -1,5 +1,8 @@
 <rules>
   <rule>
+    <match lemma="I" tags="prn.*"><select lemma="Мен" tags="prn.*"/></match>
+  </rule>
+  <rule>
     <match lemma="dog" tags="n.*"><select lemma="ит" tags="n.*"/></match>
   </rule>
 

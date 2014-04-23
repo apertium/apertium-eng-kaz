@@ -33,8 +33,11 @@ TARGETS_COMMON = \
 $(PREFIX2).autogen.bin:  $(BASENAME).$(LANG1).dix
 	lt-comp rl $< $@
 
-$(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
+.deps/$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix .deps/.d
 	lt-comp lr $< $@
+
+$(PREFIX1).automorf.bin: .deps/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
+	lt-trim .deps/$(LANG1).automorf.bin $(PREFIX1).autobil.bin $@
 
 ###############################################################################
 ## kaz transducer

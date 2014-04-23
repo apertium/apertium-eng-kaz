@@ -1144,7 +1144,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>noise<s n="n"/></l><r>дыбыс<s n="n"/></r></p></e>
 <e><p><l>operation<s n="n"/></l><r>әрекет<s n="n"/></r></p></e>
 <e><p><l>opinion<s n="n"/></l><r>пікір<s n="n"/></r></p></e>
-<e><p><l>organization<s n="n"/></l><r>ұйым<s n="n"/></r></p></e>
+<e><p><l>organisation<s n="n"/></l><r>ұйым<s n="n"/></r></p></e>
 <e><p><l>ornament<s n="n"/></l><r>бедер<s n="n"/></r></p></e>
 <e><p><l>owner<s n="n"/></l><r>ие<s n="n"/></r></p></e>
 <e><p><l>page<s n="n"/></l><r>бет<s n="n"/></r></p></e>
@@ -2148,7 +2148,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>amber<s n="n"/></l><r>янтарь<s n="n"/></r></p></e>
 <e><p><l>annotation<s n="n"/></l><r>аңдатпа<s n="n"/></r></p></e>
 <e><p><l>amity<s n="n"/></l><r>достық<s n="n"/></r></p></e>
-<e><p><l>anaesthetization<s n="n"/></l><r>наркоз<s n="n"/></r></p></e>
+<e><p><l>anaesthetisation<s n="n"/></l><r>наркоз<s n="n"/></r></p></e>
 <e><p><l>anagram<s n="n"/></l><r>сөзтізбек<s n="n"/></r></p></e>
 <e><p><l>anger<s n="n"/></l><r>ыза<s n="n"/></r></p></e>
 <e><p><l>animus<s n="n"/></l><r>өшпенділік<s n="n"/></r></p></e>

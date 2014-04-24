@@ -130,7 +130,9 @@
  <e><p><l>another<s n="prn"/><s n="tn"/><s n="m"/></l><r>басқа<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="det"/><s n="qnt"/></r></p></e>
-
+ <e><p><l>each<s n="det"/><s n="ind"/><s n="sg"/></l><r>әрбір<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>either<s n="det"/><s n="ind"/><s n="sg"/></l><r>әр<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>every<s n="det"/><s n="ind"/><s n="sg"/></l><r>әр<s n="det"/><s n="qnt"/></r></p></e>
 
 <!-- MLF 201207010 has commented this one out
     <e><p><l>that<s n="det"/><s n="dem"/></l><r>бұл<s n="det"/><s n="dem"/></r></p></e>

@@ -367,6 +367,7 @@
     </def-attr>
     <def-attr n="a_dem">  <!-- demonstrative tag -->
       <attr-item tags="dem"/>
+      <attr-item tags="qnt"/>
     </def-attr>
     <def-attr n="a_pos">  <!-- possessive tag -->
       <attr-item tags="pos"/>
@@ -1490,6 +1491,180 @@
 </rule>
 
 
+<rule comment="NEW RULE: need to + infinitive"> <!--need to verb -->
+  <pattern>
+
+    <pattern-item n="vbmod-need-to"/>
+    <pattern-item n="approx-inf-verb"/>  <!--I need to go - Маған бару керек-->
+  </pattern>
+<action>
+  <call-macro n="default-nbr-pers"/>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+            
+        <out>
+      <chunk name="VP_need_to">
+      <tags>
+        <tag><lit-tag v="VP_need"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	         <clip pos="2" side="tl" part="a_kaz_verb"/>
+    	      <lit-tag v="4"/>
+           <lit-tag v="5"/>
+           <lit-tag v="nom"/>
+        </lu>
+        <b/> 
+        <lu>
+          <lit v="керек"/>
+          <lit-tag v="n"/>
+          <lit-tag v="nom"/>
+        </lu>
+      </chunk>
+  </out>
+       
+  </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <out>
+      <chunk name="VP_need_to">
+        <tags>
+        <tag><lit-tag v="VP_need"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+    	      <lit-tag v="4"/>
+           <lit-tag v="5"/>
+           <lit-tag v="nom"/>
+        </lu>
+        <b/> 
+        <lu>
+          <lit v="керек"/>
+          <lit-tag v="n"/>
+          <lit-tag v="nom"/>
+        </lu>
+<b/>
+<lu>
+         <lit v="е"/>  <!-- Note this is a cyrillic е -->
+         <lit-tag v="cop"/>
+         <lit-tag v="ifi"/>
+         <lit-tag v="p3"/>
+         <lit-tag v="2"/>
+       </lu>
+      </chunk>
+  </out>
+      </when>
+    </choose>
+      </action>
+</rule>
+
+
+
+
+
+<rule comment="NEW RULE: do not need"> <!--I do need a book - Magan kitap kerek емес-->
+  <pattern>
+    <pattern-item n="vaux-do"/>
+    <pattern-item n="not"/>
+    <pattern-item n="vblex-need"/>
+  </pattern>
+  <action>
+  <choose>
+    <when>
+      <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal></test>
+        <out>
+      <chunk name="verb-need">
+      <tags>
+        <tag><lit-tag v="VP_need"/></tag>
+        <tag><lit-tag v="sg"/></tag> <!-- number -->
+        <tag><lit-tag v="p3"/></tag> <!-- person -->
+        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="neg"/></tag> <!-- negative -->
+      </tags>
+       <lu>
+         <lit v="керек"/>
+         <lit-tag v="n"/>
+         <lit-tag v="nom"/>
+       </lu>
+<b/>
+       <lu>
+         <lit v="е"/>  <!-- Note this is a cyrillic е -->
+         <lit-tag v="cop"/>
+         <lit-tag v="6"/>
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+      </chunk>
+        </out>
+      </when>
+     <when>
+      <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="past"/></equal></test>
+        <out>
+      <chunk name="verb-need">
+      <tags>
+        <tag><lit-tag v="VP_need"/></tag>
+        <tag><lit-tag v="sg"/></tag> <!-- number -->
+        <tag><lit-tag v="p3"/></tag> <!-- person -->
+        <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="neg"/></tag> <!-- negative -->
+      </tags>
+           <lu>
+         <lit v="керек"/>
+         <lit-tag v="n"/>
+         <lit-tag v="nom"/>
+       </lu>
+<b/>
+       <lu>
+         <lit v="е"/>  <!-- Note this is a cyrillic е -->
+         <lit-tag v="cop"/>
+         <lit-tag v="6"/>
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+       <b/>
+       <lu>
+         <lit v="е"/>  <!-- Note this is a cyrillic е -->
+         <lit-tag v="cop"/>
+         
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+
+      </chunk>
+        </out>
+      </when>
+       
+    </choose>   
+  </action>
+</rule>
+
+
 <rule comment="NEW RULE: noun1's noun2">  <!-- football player-->
   <pattern>
     <pattern-item n="nom"/>
@@ -1788,178 +1963,7 @@
       </action>
 </rule>
 
-<rule comment="NEW RULE: need to + infinitive"> <!--need to verb -->
-  <pattern>
 
-    <pattern-item n="vbmod-need-to"/>
-    <pattern-item n="pers-verb"/>  <!--I need to go - Маған бару керек-->
-  </pattern>
-<action>
-  <call-macro n="default-nbr-pers"/>
-<choose>
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="pres"/>
-          </equal>
-        </test>
-            
-        <out>
-      <chunk name="VP_need_to">
-      <tags>
-        <tag><lit-tag v="VP_need"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
-      </tags>
-      <b pos="1"/>
-        <lu>
-          <clip pos="2" side="tl" part="lem"/>
-	         <clip pos="2" side="tl" part="a_kaz_verb"/>
-    	      <lit-tag v="4"/>
-           <lit-tag v="5"/>
-           <lit-tag v="nom"/>
-        </lu>
-        <b/> 
-        <lu>
-          <lit v="керек"/>
-          <lit-tag v="n"/>
-          <lit-tag v="nom"/>
-        </lu>
-      </chunk>
-  </out>
-       
-  </when> 
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="past"/>
-          </equal>
-        </test>
-        <out>
-      <chunk name="VP_need_to">
-        <tags>
-        <tag><lit-tag v="VP_need"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
-      </tags>
-      <b pos="1"/>
-        <lu>
-          <clip pos="2" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-    	      <lit-tag v="4"/>
-           <lit-tag v="5"/>
-           <lit-tag v="nom"/>
-        </lu>
-        <b/> 
-        <lu>
-          <lit v="керек"/>
-          <lit-tag v="n"/>
-          <lit-tag v="nom"/>
-        </lu>
-<b/>
-<lu>
-         <lit v="е"/>  <!-- Note this is a cyrillic е -->
-         <lit-tag v="cop"/>
-         <lit-tag v="ifi"/>
-         <lit-tag v="p3"/>
-         <lit-tag v="2"/>
-       </lu>
-      </chunk>
-  </out>
-      </when>
-    </choose>
-      </action>
-</rule>
-
-
-
-
-
-<rule comment="NEW RULE: do not need"> <!--I do need a book - Magan kitap kerek емес-->
-  <pattern>
-    <pattern-item n="vaux-do"/>
-    <pattern-item n="not"/>
-    <pattern-item n="vblex-need"/>
-  </pattern>
-  <action>
-  <choose>
-    <when>
-      <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal></test>
-        <out>
-      <chunk name="verb-need">
-      <tags>
-        <tag><lit-tag v="VP_need"/></tag>
-        <tag><lit-tag v="sg"/></tag> <!-- number -->
-        <tag><lit-tag v="p3"/></tag> <!-- person -->
-        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
-        <tag><lit-tag v="neg"/></tag> <!-- negative -->
-      </tags>
-       <lu>
-         <lit v="керек"/>
-         <lit-tag v="n"/>
-         <lit-tag v="nom"/>
-       </lu>
-<b/>
-       <lu>
-         <lit v="е"/>  <!-- Note this is a cyrillic е -->
-         <lit-tag v="cop"/>
-         <lit-tag v="6"/>
-         <lit-tag v="3"/>
-         <lit-tag v="2"/>
-       </lu>
-      </chunk>
-        </out>
-      </when>
-     <when>
-      <test><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="past"/></equal></test>
-        <out>
-      <chunk name="verb-need">
-      <tags>
-        <tag><lit-tag v="VP_need"/></tag>
-        <tag><lit-tag v="sg"/></tag> <!-- number -->
-        <tag><lit-tag v="p3"/></tag> <!-- person -->
-        <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
-        <tag><lit-tag v="neg"/></tag> <!-- negative -->
-      </tags>
-           <lu>
-         <lit v="керек"/>
-         <lit-tag v="n"/>
-         <lit-tag v="nom"/>
-       </lu>
-<b/>
-       <lu>
-         <lit v="е"/>  <!-- Note this is a cyrillic е -->
-         <lit-tag v="cop"/>
-         <lit-tag v="6"/>
-         <lit-tag v="3"/>
-         <lit-tag v="2"/>
-       </lu>
-       <b/>
-       <lu>
-         <lit v="е"/>  <!-- Note this is a cyrillic е -->
-         <lit-tag v="cop"/>
-         
-         <lit-tag v="3"/>
-         <lit-tag v="2"/>
-       </lu>
-
-      </chunk>
-        </out>
-      </when>
-       
-    </choose>   
-  </action>
-</rule>
 
 <rule comment="NEW RULE: vaux-do not approx-inf-verb"> 
 <!-- superblank management not solved -->
@@ -3017,75 +3021,7 @@
 
 
 
-<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
-  <pattern>
-    <pattern-item n="to"/>
-    <pattern-item n="inf-verb"/> 
-   </pattern>
-  <action>
-<out>
-  <chunk name="NP_to_inf">  
-      <tags>
-       <tag><lit-tag v="NP_to_inf"/></tag>
-        <tag><lit-tag v="PD"/></tag> 
-        <tag><lit-tag v="ND"/></tag> 
-       
-        <tag><lit-tag v="PXD"/></tag> 
-        <tag><lit-tag v="CD"/></tag>
-      </tags>
-            
-        <lu>
-          <clip pos="2" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-         <lit-tag v="ger_past"/>
-         <lit-tag v="5"/>
-        </lu>
-    
-      </chunk>
-</out>
-  </action>
-</rule>
 
-<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
-  <pattern>
-    <pattern-item n="to"/>
-    <pattern-item n="approx-inf-verb"/> 
-    <pattern-item n="nom"/>
-   </pattern>
-  <action>
-
-  <call-macro n="NEW-build-noun-lu-2-4-5">
-       <with-param pos="3"/>
-  </call-macro> 
-    <out>
-    <chunk name="to-inf-noun">
-    <tags>
-    <tag><lit-tag v="PP"/></tag>
-    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
-    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
-    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
-    <tag><lit-tag v="acc"/></tag> <!-- case placeholder -->
-    </tags>
-    <lu>
-      <var n="NEW-noun_lu"/>
-    </lu>
-   <b/>
-        <lu>
-          <clip pos="2" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-         <lit-tag v="ger"/>
-         <lit-tag v="nom"/>
-     </lu>
-  <b/> 
-    <lu>
-     <lit v="үшін"/>
-         <lit-tag v="post"/>
-
-    </lu>
-      </chunk>
-</out>
-  </action>
-</rule>
 
 
 
@@ -4666,7 +4602,14 @@
 
 <choose>
   <when> <!-- Demonstrative -->
-    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+
+    <test>
+<or>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+ <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
+</or>
+</test>
+
     <out>
     <chunk name="detdem-nom-nom2">
     <tags>
@@ -4782,7 +4725,12 @@
 
 <choose>
   <when> <!-- Demonstrative -->
-    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+    <test>
+<or>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+ <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
+</or>
+</test>
     <out>
     <chunk name="detdem-num-nom">
     <tags>
@@ -4911,7 +4859,12 @@
 
 <choose>
   <when> <!-- Demonstrative -->
-    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+    <test>
+<or>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+ <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
+</or>
+</test>
     <out>
     <chunk name="detdem-num-nom">
     <tags>
@@ -5347,7 +5300,12 @@
 
 <choose>
   <when> <!-- Demonstrative -->
-    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+    <test>
+<or>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+ <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
+</or>
+</test>
     <out>
     <chunk name="detdem-num-adjec-nom">
     <tags>
@@ -5485,7 +5443,12 @@
 
 <choose>
   <when> <!-- Demonstrative -->
-    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+    <test>
+<or>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+ <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
+</or>
+</test>
     <out>
     <chunk name="detdem-num-adjec-nom">
     <tags>
@@ -7719,7 +7682,12 @@ this would have to be changed -->
 
 <choose>
   <when> <!-- Demonstrative -->
-    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+    <test>
+<or>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+ <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
+</or>
+</test>
     <out>
     <chunk name="detdem-nom">
     <tags>
@@ -7904,7 +7872,12 @@ this would have to be changed -->
 
 <choose>
   <when> <!-- Demonstrative -->
-    <test><equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal></test>
+    <test>
+<or>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+ <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
+</or>
+</test>
     <out>
     <chunk name="detdem-adjec-nom">
     <tags>
@@ -9190,7 +9163,75 @@ this would have to be changed -->
 </rule>
 
 
+<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
+  <pattern>
+    <pattern-item n="to"/>
+    <pattern-item n="inf-verb"/> 
+   </pattern>
+  <action>
+<out>
+  <chunk name="NP_to_inf">  
+      <tags>
+       <tag><lit-tag v="NP_to_inf"/></tag>
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="ND"/></tag> 
+       
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="CD"/></tag>
+      </tags>
+            
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger_past"/>
+         <lit-tag v="5"/>
+        </lu>
+    
+      </chunk>
+</out>
+  </action>
+</rule>
 
+<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
+  <pattern>
+    <pattern-item n="to"/>
+    <pattern-item n="approx-inf-verb"/> 
+    <pattern-item n="nom"/>
+   </pattern>
+  <action>
+
+  <call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="3"/>
+  </call-macro> 
+    <out>
+    <chunk name="to-inf-noun">
+    <tags>
+    <tag><lit-tag v="PP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="acc"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+   <b/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+     </lu>
+  <b/> 
+    <lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+
+    </lu>
+      </chunk>
+</out>
+  </action>
+</rule>
 
   </section-rules>
 </transfer>

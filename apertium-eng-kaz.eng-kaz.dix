@@ -125,7 +125,7 @@
 <!-- <e r="LR"><p><l>no<s n="det"/><s n="ind"/></l><r></r></p></e>-->
    
  <e r="LR"><p><l>that<s n="cnjsub"/></l><r></r></p></e>
-
+    <e><p><l>each<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>әрбір<s n="det"/><s n="qnt"/></r></p></e>
  <e><p><l>most<s n="prn"/><s n="tn"/><s n="mf"/></l><r>көбі<s n="prn"/><s n="qnt"/></r></p></e>
  <e><p><l>another<s n="prn"/><s n="tn"/><s n="m"/></l><r>басқа<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>another<s n="det"/><s n="ind"/></l><r>басқа<s n="det"/><s n="qnt"/></r></p></e>
@@ -2711,6 +2711,19 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>Ajgul<s n="np"/><s n="ant"/><s n="f"/></l><r>Айгүл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
  <e><p><l>Sofia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Софья<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Solana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Солана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+ <e><p><l>Nikola<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>George<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Джордж<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Abdullah<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Абдулла<s n="np"/><s n="ant"/><s n="m"/></r></p></e>>
+    <e><p><l>Ali<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Али<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Olli<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Олли<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Gul<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Гул<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Slobodan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Слободан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Washington<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Вашингтон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Dayton<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Дэйтон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Ivo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Иво<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Igor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Игор<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Boris<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Борис<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 
 

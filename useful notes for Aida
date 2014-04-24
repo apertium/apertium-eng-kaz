@@ -189,3 +189,6 @@ tie> for the kazakh one you will need to add words which are not there
 <spectie>  
 <spectie> and then to find the most frequent unknown words you can do:
 <spectie> cat eng.hitparade.txt | apertium-destxt | lt-proc eng-kaz.automorf.bin | apertium-retxt | grep '\*' | more
+
+
+http://pastebin.com/raw.php?i=P4kMvuSG

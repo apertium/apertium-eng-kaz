@@ -2436,6 +2436,15 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>control<s n="n"/></l><r>бақылау<s n="n"/></r></p></e>
 <e><p><l>view<s n="n"/></l><r>көрініс<s n="n"/></r></p></e>
 
+<e><p><l>data<s n="n"/><s n="sg"/></l><r>дерек<s n="n"/></r></p></e>
+<e><p><l>staff<s n="n"/><s n="sg"/></l><r>ұжым<s n="n"/></r></p></e>
+<e><p><l>km<s n="n"/><s n="sg"/></l><r>км<s n="abbr"/></r></p></e>
+<e><p><l>euro<s n="n"/><s n="sg"/></l><r>евро<s n="n"/></r></p></e>
+ <e><p><l>Olympics<s n="n"/><s n="sg"/></l><r>Олимпиада<b/>ойындары<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>means<s n="n"/><s n="sg"/></l><r>қаражат<s n="n"/></r></p></e>
+<e><p><l>focus<s n="n"/><s n="sg"/></l><r>фокус<s n="n"/></r></p></e>
+<e><p><l>Orthodox<s n="n"/><s n="sg"/></l><r>православиелік<s n="n"/></r></p></e>
+
 
 <!--ProPER NOUNS -->
 
@@ -2743,6 +2752,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
    <e><p><l>eight<s n="num"/><s n="sp"/></l><r>сегіз<s n="num"/></r></p></e>
    <e><p><l>nine<s n="num"/><s n="sp"/></l><r>тоғыз<s n="num"/></r></p></e>
    <e><p><l>ten<s n="num"/><s n="sp"/></l><r>он<s n="num"/></r></p></e>
+
+
+<e><p><l>billion<s n="num"/><s n="sg"/></l><r>миллиард<s n="num"/></r></p></e>
 
     <!-- Раздел: Союз -->
 <e><p><l>if<s n="cnjadv"/></l><r>егер<s n="cnjsub"/></r></p></e>
@@ -3236,7 +3248,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Turkic<s n="adj"/></l><r>түркі<s n="adj"/></r></p></e>
 <e><p><l>turkic<s n="adj"/></l><r>түркі<s n="adj"/></r></p></e>
 <e><p><l>Baltic<s n="adj"/></l><r>Балтық<s n="adj"/></r></p></e>
-<e><p><l>Baltic<s n="adj"/></l><r>балтық<s n="adj"/></r></p></e>
+<e><p><l>baltic<s n="adj"/></l><r>балтық<s n="adj"/></r></p></e>
+<e><p><l>British<s n="adj"/></l><r>Британдық<s n="adj"/></r></p></e>
+<e><p><l>british<s n="adj"/></l><r>британдыққ<s n="adj"/></r></p></e>
+
  <e r="RL"><p><l><s n="adj"/></l><r>жоқ<s n="adj"/></r></p></e> 
 
 

@@ -179,3 +179,13 @@ tie> for the kazakh one you will need to add words which are not there
 <spectie>  /home/fran/.../eng.crp.txt
 <spectie> where ... is the directory you made
 <Aida> and then run it like ".coverage.sh"?
+
+
+
+ it's good!
+<spectie> to make a frequency list, you can use this:
+<spectie>  
+<spectie> cat /tmp/eng.coverage.txt | cut -f2 -d'^' | cut -f1 -d'/' | sort -f | uniq -c | sort -gr  | grep -v '[0-9] [0-9]' > eng.hitparade.txt
+<spectie>  
+<spectie> and then to find the most frequent unknown words you can do:
+<spectie> cat eng.hitparade.txt | apertium-destxt | lt-proc eng-kaz.automorf.bin | apertium-retxt | grep '\*' | more

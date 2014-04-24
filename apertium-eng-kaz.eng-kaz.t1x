@@ -2422,6 +2422,7 @@
   	 <lit-tag v="5"/>
           <lit-tag v="2"/>
           <lit-tag v="3"/>
+          <lit-tag v="6"/> <!-- FMT: added  to avoid gen error -->
         </lu>
     
       </chunk>

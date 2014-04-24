@@ -2666,7 +2666,21 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Zambia<s n="np"/><s n="loc"/><s n="sg"/></l><r>Замбия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Zimbabwe<s n="np"/><s n="loc"/><s n="sg"/></l><r>Зимбабве<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Texas<s n="np"/><s n="loc"/><s n="sg"/></l><r>Техас<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
-
+<e><p><l>Sofia<s n="np"/><s n="loc"/><s n="sg"/></l><r>София<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Bosnia<s n="np"/><s n="loc"/><s n="sg"/></l><r>Босния<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Yugoslavia<s n="np"/><s n="loc"/><s n="sg"/></l><r>Югославия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Herzegovina<s n="np"/><s n="loc"/><s n="sg"/></l><r>Герцеговина<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Ankara<s n="np"/><s n="loc"/><s n="sg"/></l><r>Анкара<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Belgrade<s n="np"/><s n="loc"/><s n="sg"/></l><r>Белград<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Europe<s n="np"/><s n="loc"/><s n="sg"/></l><r>Европа<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>York<s n="np"/><s n="loc"/><s n="sg"/></l><r>Йорк<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Istanbul<s n="np"/><s n="loc"/><s n="sg"/></l><r>Стамбұл<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Britain<s n="np"/><s n="loc"/><s n="sg"/></l><r>Британ<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Washington<s n="np"/><s n="loc"/><s n="sg"/></l><r>Вашингтон<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Sarajevo<s n="np"/><s n="loc"/><s n="sg"/></l><r>Сараево<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Brussels<s n="np"/><s n="loc"/><s n="sg"/></l><r>Брюссель<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Athens<s n="np"/><s n="loc"/><s n="sg"/></l><r>Афинылар<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Bucharest<s n="np"/><s n="loc"/><s n="sg"/></l><r>Бухарест<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 
 
 

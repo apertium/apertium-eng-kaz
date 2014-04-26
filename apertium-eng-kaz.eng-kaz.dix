@@ -12,6 +12,7 @@
     <sdef n="tv"  c="Переходный"/>
     <sdef n="caus"/>
     <sdef n="mf"/>
+    <sdef n="ref"/>
     <sdef n="coll"/>
     <sdef n="subst"/>
     <sdef n="px3sp"/>
@@ -2884,7 +2885,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>even<s n="adv"/></l><r>тіпті<s n="adv"/></r></p></e>
 <e><p><l>similarly<s n="adv"/></l><r>секілді<s n="adv"/></r></p></e>
 <e><p><l>opposite<s n="adv"/></l><r>қарсы<s n="adv"/></r></p></e>
-    <e><p><l>in<b/>fact<s n="adv"/></l><r>шынында<s n="adv"/></r></p></e> 		
+    <e><p><l>in<b/>fact<s n="adv"/></l><r>шынында<s n="adv"/></r></p></e> 	
+ <e><p><l>how<s n="adv"/><s n="itg"/></l><r>қалай<s n="adv"/><s n="itg"/></r></p></e>	
  <!-- not "онда"?? -->
    
     <e><p><l>always<s n="adv"/></l><r>әрдайым<s n="adv"/></r></p></e>
@@ -3254,6 +3256,97 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
  <e r="RL"><p><l><s n="adj"/></l><r>жоқ<s n="adj"/></r></p></e> 
 
+<e><p><l>specific<s n="adj"/></l><r>өзгеше<s n="adj"/></r></p></e>
+<e><p><l>strategic<s n="adj"/></l><r>стратегиялық<s n="adj"/></r></p></e>
+<e><p><l>islamic<s n="adj"/></l><r>исламдық<s n="adj"/></r></p></e>
+<e><p><l>olympic<s n="adj"/></l><r>олимпиадалық<s n="adj"/></r></p></e>
+<e><p><l>adriatic<s n="adj"/></l><r>адриатикалық<s n="adj"/></r></p></e>
+<e><p><l>diplomatic<s n="adj"/></l><r>мәмілегерлі<s n="adj"/></r></p></e>
+<e><p><l>democratic<s n="adj"/></l><r>демократикалық<s n="adj"/></r></p></e>
+<e><p><l>atlantic<s n="adj"/></l><r>Атлантикалық<s n="adj"/></r></p></e>
+<e><p><l>domestic<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
+<e><p><l>included<s n="adj"/></l><r>қосылған<s n="adj"/></r></p></e>
+<e><p><l>killed<s n="adj"/></l><r>жойылған<s n="adj"/></r></p></e>
+<e><p><l>armed<s n="adj"/></l><r>қарулы<s n="adj"/></r></p></e>
+<e><p><l>planned<s n="adj"/></l><r>жоспарлы<s n="adj"/></r></p></e>
+<e><p><l>stressed<s n="adj"/></l><r>шиеленісті<s n="adj"/></r></p></e>
+<e><p><l>discussed<s n="adj"/></l><r>талданған<s n="adj"/></r></p></e>
+<e><p><l>quoted<s n="adj"/></l><r>көрсетілген<s n="adj"/></r></p></e>
+<e><p><l>stable<s n="adj"/></l><r>төзімді<s n="adj"/></r></p></e>
+<e><p><l>single<s n="adj"/></l><r>жалғыз<s n="adj"/></r></p></e>
+<e><p><l>whole<s n="adj"/></l><r>сау<s n="adj"/></r></p></e>
+<e><p><l>entire<s n="adj"/></l><r>таза<s n="adj"/></r></p></e>
+<e><p><l>concrete<s n="adj"/></l><r>нақты<s n="adj"/></r></p></e>
+<e><p><l>due<s n="adj"/></l><r>ағымдағы<s n="adj"/></r></p></e>
+<e><p><l>positive<s n="adj"/></l><r>оңды<s n="adj"/></r></p></e>
+<e><p><l>half<s n="adj"/></l><r>жарты<s n="adj"/></r></p></e>
+<e><p><l>ruling<s n="adj"/></l><r>басқарушылық<s n="adj"/></r></p></e>
+<e><p><l>ongoing<s n="adj"/></l><r>созылмалы<s n="adj"/></r></p></e>
+<e><p><l>neighbouring<s n="adj"/></l><r>көршілес<s n="adj"/></r></p></e>
+<e><p><l>operating<s n="adj"/></l><r>әрекетті<s n="adj"/></r></p></e>
+<e><p><l>launch<s n="adj"/></l><r>қосылған<s n="adj"/></r></p></e>
+<e><p><l>british<s n="adj"/></l><r>британдық<s n="adj"/></r></p></e>
+<e><p><l>global<s n="adj"/></l><r>ғаламдық<s n="adj"/></r></p></e>
+<e><p><l>technical<s n="adj"/></l><r>техникалық<s n="adj"/></r></p></e>
+<e><p><l>critical<s n="adj"/></l><r>критикалық<s n="adj"/></r></p></e>
+<e><p><l>local<s n="adj"/></l><r>жергілікті<s n="adj"/></r></p></e>
+<e><p><l>fiscal<s n="adj"/></l><r>фискальді<s n="adj"/></r></p></e>
+<e><p><l>real<s n="adj"/></l><r>ақиқатты<s n="adj"/></r></p></e>
+<e><p><l>judicial<s n="adj"/></l><r>сынайтын<s n="adj"/></r></p></e>
+<e><p><l>financial<s n="adj"/></l><r>қаржылық<s n="adj"/></r></p></e>
+<e><p><l>social<s n="adj"/></l><r>әлеуметтік<s n="adj"/></r></p></e>
+<e><p><l>crucial<s n="adj"/></l><r>қысылшаң<s n="adj"/></r></p></e>
+<e><p><l>presidential<s n="adj"/></l><r>президенттік<s n="adj"/></r></p></e>
+<e><p><l>criminal<s n="adj"/></l><r>қылмысты<s n="adj"/></r></p></e>
+<e><p><l>regional<s n="adj"/></l><r>аймақтық<s n="adj"/></r></p></e>
+<e><p><l>national<s n="adj"/></l><r>ұлттық<s n="adj"/></r></p></e>
+<e><p><l>international<s n="adj"/></l><r>халықаралық<s n="adj"/></r></p></e>
+<e><p><l>additional<s n="adj"/></l><r>қосымша<s n="adj"/></r></p></e>
+<e><p><l>constitutional<s n="adj"/></l><r>конституциялық<s n="adj"/></r></p></e>
+<e><p><l>bilateral<s n="adj"/></l><r>екіжақты<s n="adj"/></r></p></e>
+<e><p><l>central<s n="adj"/></l><r>орталық<s n="adj"/></r></p></e>
+<e><p><l>cultural<s n="adj"/></l><r>мәдениетті<s n="adj"/></r></p></e>
+<e><p><l>total<s n="adj"/></l><r>қорытынды<s n="adj"/></r></p></e>
+<e><p><l>civil<s n="adj"/></l><r>азаматтық<s n="adj"/></r></p></e>
+<e><p><l>overall<s n="adj"/></l><r>барлық<s n="adj"/></r></p></e>
+<e><p><l>successful<s n="adj"/></l><r>табысты<s n="adj"/></r></p></e>
+<e><p><l>muslim<s n="adj"/></l><r>мұсылмандық<s n="adj"/></r></p></e>
+<e><p><l>european<s n="adj"/></l><r>еуропалық<s n="adj"/></r></p></e>
+<e><p><l>serbian<s n="adj"/></l><r>сербиялық<s n="adj"/></r></p></e>
+<e><p><l>italian<s n="adj"/></l><r>итальяндық<s n="adj"/></r></p></e>
+<e><p><l>albanian<s n="adj"/></l><r>албаниялық<s n="adj"/></r></p></e>
+<e><p><l>bulgarian<s n="adj"/></l><r>болгариялық<s n="adj"/></r></p></e>
+<e><p><l>croatian<s n="adj"/></l><r>кроатиялық<s n="adj"/></r></p></e>
+<e><p><l>balkan<s n="adj"/></l><r>балқандық<s n="adj"/></r></p></e>
+<e><p><l>human<s n="adj"/></l><r>адами<s n="adj"/></r></p></e>
+<e><p><l>foreign<s n="adj"/></l><r>шетелдік<s n="adj"/></r></p></e>
+<e><p><l>main<s n="adj"/></l><r>негізгі<s n="adj"/></r></p></e>
+<e><p><l>modern<s n="adj"/></l><r>қазіргі<s n="adj"/></r></p></e>
+<e><p><l>northern<s n="adj"/></l><r>солтүстік<s n="adj"/></r></p></e>
+<e><p><l>eastern<s n="adj"/></l><r>күншығыс<s n="adj"/></r></p></e>
+<e><p><l>western<s n="adj"/></l><r>батыс<s n="adj"/></r></p></e>
+<e><p><l>own<s n="adj"/></l><r>меншікті<s n="adj"/></r></p></e>
+<e><p><l>nuclear<s n="adj"/></l><r>атомдық<s n="adj"/></r></p></e>
+<e><p><l>similar<s n="adj"/></l><r>бірдей<s n="adj"/></r></p></e>
+<e><p><l>particular<s n="adj"/></l><r>төл<s n="adj"/></r></p></e>
+<e><p><l>senior<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
+<e><p><l>major<s n="adj"/></l><r>басты<s n="adj"/></r></p></e>
+<e><p><l>gas<s n="adj"/></l><r>газды<s n="adj"/></r></p></e>
+<e><p><l>religious<s n="adj"/></l><r>діни<s n="adj"/></r></p></e>
+<e><p><l>previous<s n="adj"/></l><r>алғашқы<s n="adj"/></r></p></e>
+<e><p><l>direct<s n="adj"/></l><r>тура<s n="adj"/></r></p></e>
+<e><p><l>significant<s n="adj"/></l><r>байыпты<s n="adj"/></r></p></e>
+<e><p><l>recent<s n="adj"/></l><r>жақындағы<s n="adj"/></r></p></e>
+<e><p><l>independent<s n="adj"/></l><r>тәуелсіз<s n="adj"/></r></p></e>
+<e><p><l>current<s n="adj"/></l><r>ағымдық<s n="adj"/></r></p></e>
+<e><p><l>cypriot<s n="adj"/></l><r>кипрлік<s n="adj"/></r></p></e>
+<e><p><l>terrorist<s n="adj"/></l><r>террорлық<s n="adj"/></r></p></e>
+<e><p><l>yugoslav<s n="adj"/></l><r>югославиелік<s n="adj"/></r></p></e>
+<e><p><l>orthodox<s n="adj"/></l><r>провославиелік<s n="adj"/></r></p></e>
+<e><p><l>likely<s n="adj"/></l><r>мүмкін<s n="adj"/></r></p></e>
+<e><p><l>daily<s n="adj"/></l><r>күнделікті<s n="adj"/></r></p></e>
+<e><p><l>necessary<s n="adj"/></l><r>қажетті<s n="adj"/></r></p></e>
+<e><p><l>parliamentary<s n="adj"/></l><r>парламенттік<s n="adj"/></r></p></e>
 
 
 <!-- Order numbers-->
@@ -3318,6 +3411,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>something<s n="prn"/><s n="tn"/><s n="nt"/></l><r>бірдеме<s n="prn"/><s n="ind"/></r></p></e>
 <e><p><l>everything<s n="prn"/></l><r>барлық<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>anything<s n="prn"/><s n="tn"/><s n="m"/></l><r>еш<b/>нәрсе<s n="prn"/><s n="neg"/></r></p></e>
+ <e><p><l>much<s n="det"/><s n="qnt"/><s n="sg"/></l><r>көбірек<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>less<s n="det"/><s n="qnt"/><s n="sg"/></l><r>азырақ<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>itself<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
 
 <e><p><l>anything<s n="prn"/><s n="tn"/><s n="m"/></l><r>бір<b/>нәрсе<s n="prn"/><s n="ind"/></r></p></e>
 

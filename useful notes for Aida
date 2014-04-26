@@ -192,3 +192,8 @@ tie> for the kazakh one you will need to add words which are not there
 
 
 http://pastebin.com/raw.php?i=P4kMvuSG
+
+
+
+ cat newdix.txt|awk '{print "<e><p><l>" $1 "<s n=\"adj\"/></l><r>" $2 "<s n=\"adj\"/></r></p></e>"}'>newd.txt
+

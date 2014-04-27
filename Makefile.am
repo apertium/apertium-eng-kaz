@@ -34,7 +34,7 @@ $(PREFIX2).autogen.bin:  $(BASENAME).$(LANG1).dix
 	lt-comp rl $< $@
 
 .deps/$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix .deps/.d
-	lt-comp lr $< $@
+	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
 $(PREFIX1).automorf.bin: .deps/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
 	lt-trim .deps/$(LANG1).automorf.bin $(PREFIX1).autobil.bin $@

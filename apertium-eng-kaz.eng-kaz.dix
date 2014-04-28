@@ -2446,6 +2446,41 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>focus<s n="n"/><s n="sg"/></l><r>фокус<s n="n"/></r></p></e>
 <e><p><l>Orthodox<s n="n"/><s n="sg"/></l><r>православиелік<s n="n"/></r></p></e>
 <e><p><l>British<s n="n"/></l><r>Британ<s n="n"/></r></p></e>
+<e><p><l>agenda<s n="n"/></l><r>күн<b/>тәртібі<s n="n"/></r></p></e>
+<e><p><l>visa<s n="n"/></l><r>бұрыштама<s n="n"/></r></p></e>
+<e><p><l>aid<s n="n"/></l><r>көмек<s n="n"/></r></p></e>
+<e><p><l>demand<s n="n"/></l><r>сұрақ<s n="n"/></r></p></e>
+<e><p><l>thousand<s n="n"/></l><r>мың<s n="n"/></r></p></e>
+<e><p><l>fund<s n="n"/></l><r>фонд<s n="n"/></r></p></e>
+<e><p><l>standard<s n="n"/></l><r>қалып<s n="n"/></r></p></e>
+<e><p><l>award<s n="n"/></l><r>сыйлық<s n="n"/></r></p></e>
+<e><p><l>justice<s n="n"/></l><r>әділдік<s n="n"/></r></p></e>
+<e><p><l>performance<s n="n"/></l><r>көрсетілім<s n="n"/></r></p></e>
+<e><p><l>finance<s n="n"/></l><r>қаржы<s n="n"/></r></p></e>
+<e><p><l>assistance<s n="n"/></l><r>көмек<s n="n"/></r></p></e>
+<e><p><l>confidence<s n="n"/></l><r>сенімділік<s n="n"/></r></p></e>
+<e><p><l>defence<s n="n"/></l><r>қорғаныс<s n="n"/></r></p></e>
+<e><p><l>violence<s n="n"/></l><r>зорлық<s n="n"/></r></p></e>
+<e><p><l>presence<s n="n"/></l><r>қатынасу<s n="n"/></r></p></e>
+<e><p><l>genocide<s n="n"/></l><r>зұлмат<s n="n"/></r></p></e>
+<e><p><l>committee<s n="n"/></l><r>комитет<s n="n"/></r></p></e>
+<e><p><l>employee<s n="n"/></l><r>жұмыскер<s n="n"/></r></p></e>
+<e><p><l>package<s n="n"/></l><r>пакет<s n="n"/></r></p></e>
+<e><p><l>message<s n="n"/></l><r>хабарлама<s n="n"/></r></p></e>
+<e><p><l>challenge<s n="n"/></l><r>жарысқа<b/>шақыру<s n="n"/></r></p></e>
+<e><p><l>charge<s n="n"/></l><r>оқтау<s n="n"/></r></p></e>
+<e><p><l>tie<s n="n"/></l><r>байланыс<s n="n"/></r></p></e>
+<e><p><l>stable<s n="n"/></l><r>берік<s n="n"/></r></p></e>
+<e><p><l>whole<s n="n"/></l><r>сау<s n="n"/></r></p></e>
+<e><p><l>regime<s n="n"/></l><r>режим<s n="n"/></r></p></e>
+<e><p><l>programme<s n="n"/></l><r>бағдарлама<s n="n"/></r></p></e>
+<e><p><l>pipeline<s n="n"/></l><r>құбыр<s n="n"/></r></p></e>
+<e><p><l>figure<s n="n"/></l><r>тұрпат<s n="n"/></r></p></e>
+<e><p><l>failure<s n="n"/></l><r>бас<s n="n"/></r></p></e>
+<e><p><l>pressure<s n="n"/></l><r>қысым<s n="n"/></r></p></e>
+<e><p><l>infrastructure<s n="n"/></l><r>инфрақұрылым<s n="n"/></r></p></e>
+<e><p><l>case<s n="n"/></l><r>шарт<s n="n"/></r></p></e>
+<e><p><l>release<s n="n"/></l><r>босату<s n="n"/></r></p></e>
 
 <!--ProPER NOUNS -->
 

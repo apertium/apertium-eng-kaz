@@ -2695,7 +2695,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Brussels<s n="np"/><s n="loc"/><s n="sg"/></l><r>Брюссель<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Athens<s n="np"/><s n="loc"/><s n="sg"/></l><r>Афинылар<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Bucharest<s n="np"/><s n="loc"/><s n="sg"/></l><r>Бухарест<s n="np"/><s n="top"/></r></p></e>
-
+<e><p><l>Balkans<s n="np"/><s n="loc"/><s n="pl"/></l><r>Балқандар<s n="np"/><s n="top"/></r></p></e>
 
 
 
@@ -3422,6 +3422,17 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>both<s n="cnjcoo"/></l><r>екеуі<s n="cnjcoo"/></r></p></e>
  <e><p><l>nobody<s n="prn"/><s n="tn"/><s n="m"/></l><r>ешкім<s n="prn"/><s n="neg"/></r></p></e>
  <e><p><l>no<b/>one<s n="prn"/><s n="tn"/><s n="m"/></l><r>ешкім<s n="prn"/><s n="neg"/></r></p></e>
+
+<e><p><l>several<s n="det"/><s n="ind"/><s n="pl"/></l><r>бірер<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>various<s n="det"/><s n="ind"/><s n="pl"/></l><r>әр<b/>түрлі<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>@<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r></r></p></e>
+    <e><p><l>several<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>@<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r></r></p></e>
+    <e><p><l>others<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>@<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r></r></p></e>
+    <e><p><l>few<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>@<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r></r></p></e>
+    
+
+
+
     <!-- interesting translation -->
 
   <!--  <e><p><l>what<s n="prn"/><s n="itg"/></l><r>не<s n="prn"/><s n="itg"/></r></p></e>-->

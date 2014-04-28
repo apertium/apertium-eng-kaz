@@ -2482,6 +2482,33 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>case<s n="n"/></l><r>шарт<s n="n"/></r></p></e>
 <e><p><l>release<s n="n"/></l><r>босату<s n="n"/></r></p></e>
 
+<e><p><l>financing<s n="n"/></l><r>қаржыландыру<s n="n"/></r></p></e>
+<e><p><l>funding<s n="n"/></l><r>қаржыландыру<s n="n"/></r></p></e>
+<e><p><l>trafficking<s n="n"/></l><r>сауда<s n="n"/></r></p></e>
+<e><p><l>planning<s n="n"/></l><r>жоспарлау<s n="n"/></r></p></e>
+<e><p><l>meeting<s n="n"/></l><r>кездесу<s n="n"/></r></p></e>
+<e><p><l>approach<s n="n"/></l><r>мүмкіндік<s n="n"/></r></p></e>
+<e><p><l>path<s n="n"/></l><r>жол<s n="n"/></r></p></e>
+<e><p><l>lack<s n="n"/></l><r>жоқшылық<s n="n"/></r></p></e>
+<e><p><l>network<s n="n"/></l><r>желі<s n="n"/></r></p></e>
+<e><p><l>local<s n="n"/></l><r>жергілікті<s n="n"/></r></p></e>
+<e><p><l>deal<s n="n"/></l><r>іс<s n="n"/></r></p></e>
+<e><p><l>official<s n="n"/></l><r>лауазымды<s n="n"/></r></p></e>
+<e><p><l>trial<s n="n"/></l><r>сынақ<s n="n"/></r></p></e>
+<e><p><l>criminal<s n="n"/></l><r>қылмыс<s n="n"/></r></p></e>
+<e><p><l>goal<s n="n"/></l><r>мақсат<s n="n"/></r></p></e>
+<e><p><l>proposal<s n="n"/></l><r>өтініш<s n="n"/></r></p></e>
+<e><p><l>total<s n="n"/></l><r>қорытынды<s n="n"/></r></p></e>
+<e><p><l>festival<s n="n"/></l><r>фестиваль<s n="n"/></r></p></e>
+<e><p><l>poll<s n="n"/></l><r>сұрақ<s n="n"/></r></p></e>
+<e><p><l>claim<s n="n"/></l><r>сұраныс<s n="n"/></r></p></e>
+<e><p><l>aim<s n="n"/></l><r>нысана<s n="n"/></r></p></e>
+<e><p><l>Muslim<s n="n"/></l><r>Мұсылман<s n="n"/></r></p></e>
+<e><p><l>victim<s n="n"/></l><r>құрбан<s n="n"/></r></p></e>
+<e><p><l>freedom<s n="n"/></l><r>еркіндік<s n="n"/></r></p></e>
+<e><p><l>firm<s n="n"/></l><r>фирма<s n="n"/></r></p></e>
+<e><p><l>terrorism<s n="n"/></l><r>лаңкестік<s n="n"/></r></p></e>
+<e><p><l>tourism<s n="n"/></l><r>туризм<s n="n"/></r></p></e>
 <!--ProPER NOUNS -->
 
 
@@ -2746,6 +2773,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
     <!-- Раздел: Имя Собственное -->
 
+
+    <e><p><l>Justice<s n="np"/><s n="ant"/><s n="f"/><s n="n"/></l><r>Джусти<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/></l><r>Джеймс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/></l><r>Мэри<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Nursultan<s n="np"/><s n="ant"/><s n="m"/></l><r>Нұрсұлтан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>

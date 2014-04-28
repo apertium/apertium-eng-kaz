@@ -2445,7 +2445,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>means<s n="n"/><s n="sg"/></l><r>қаражат<s n="n"/></r></p></e>
 <e><p><l>focus<s n="n"/><s n="sg"/></l><r>фокус<s n="n"/></r></p></e>
 <e><p><l>Orthodox<s n="n"/><s n="sg"/></l><r>православиелік<s n="n"/></r></p></e>
-
+<e><p><l>British<s n="n"/></l><r>Британ<s n="n"/></r></p></e>
 
 <!--ProPER NOUNS -->
 
@@ -3285,7 +3285,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>neighbouring<s n="adj"/></l><r>көршілес<s n="adj"/></r></p></e>
 <e><p><l>operating<s n="adj"/></l><r>әрекетті<s n="adj"/></r></p></e>
 <e><p><l>launch<s n="adj"/></l><r>қосылған<s n="adj"/></r></p></e>
-<e><p><l>british<s n="adj"/></l><r>британдық<s n="adj"/></r></p></e>
 <e><p><l>global<s n="adj"/></l><r>ғаламдық<s n="adj"/></r></p></e>
 <e><p><l>technical<s n="adj"/></l><r>техникалық<s n="adj"/></r></p></e>
 <e><p><l>critical<s n="adj"/></l><r>критикалық<s n="adj"/></r></p></e>
@@ -3425,10 +3424,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e><p><l>several<s n="det"/><s n="ind"/><s n="pl"/></l><r>бірер<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>various<s n="det"/><s n="ind"/><s n="pl"/></l><r>әр<b/>түрлі<s n="det"/><s n="ind"/></r></p></e>
-    <e><p><l>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>@<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r></r></p></e>
-    <e><p><l>several<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>@<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r></r></p></e>
-    <e><p><l>others<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>@<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r></r></p></e>
-    <e><p><l>few<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>@<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r></r></p></e>
+    <e><p><l>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>several<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>бірнеше<s n="prn"/><s n="qnt"/></r></p></e>
+    <e><p><l>others<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>басқалар<s n="prn"/><s n="ind"/><s n="pl"/></r></p></e>
+    <e><p><l>few<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>бірнеше<s n="prn"/><s n="qnt"/></r></p></e>
+    <e><p><l>few<s n="det"/><s n="qnt"/><s n="pl"/></l><r>бірнеше<s n="det"/><s n="qnt"/></r></p></e>
     
 
 

@@ -36,6 +36,10 @@ dev/eng.hitparade.10000.txt -text
 dev/lexcdiff.py -text
 dev/news.en -text
 dev/proposal.odt -text
+dev/testvoc/inconsistency-summary.sh -text
+dev/testvoc/inconsistency.sh -text
+dev/testvoc/testvoc-summary.eng-kaz.txt -text
+dev/testvoc/testvoc.sh -text
 dev/text-to-recycle-for-article.rtf -text
 dev/transfer-rehaul-notes.tex -text
 dev/unknown-words-from-news-commentary-v8-20130619.txt -text

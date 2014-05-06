@@ -12,6 +12,9 @@
     <sdef n="tv"  c="Переходный"/>
     <sdef n="caus"/>
     <sdef n="mf"/>
+    <sdef n="acr"/>
+    <sdef n="aa"/>
+    <sdef n="px"/>
     <sdef n="ref"/>
     <sdef n="coll"/>
     <sdef n="subst"/>
@@ -134,6 +137,7 @@
  <e><p><l>each<s n="det"/><s n="ind"/><s n="sg"/></l><r>әрбір<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>either<s n="det"/><s n="ind"/><s n="sg"/></l><r>әр<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>every<s n="det"/><s n="ind"/><s n="sg"/></l><r>әр<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>enough<s n="det"/><s n="qnt"/><s n="sp"/></l><r>жетерлік<s n="det"/><s n="qnt"/></r></p></e>
 
 <!-- MLF 201207010 has commented this one out
     <e><p><l>that<s n="det"/><s n="dem"/></l><r>бұл<s n="det"/><s n="dem"/></r></p></e>
@@ -210,6 +214,17 @@
     <e><p><l>near<s n="pr"/></l><r>тұс<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>along<s n="pr"/></l><r>бой<s n="n"/><s n="PXD"/><s n="ins"/></r></p></e>
 
+<e><p><l>despite<s n="pr"/></l><r>қарамастан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e><p><l>facing<s n="pr"/></l><r>тартыс<s n="n"/></r></p></e>
+<e><p><l>regarding<s n="pr"/></l><r>туралы<s n="n"/></r></p></e>
+<e><p><l>according<s n="pr"/></l><r>сәйкесінше<s n="n"/></r></p></e>
+<e><p><l>concerning<s n="pr"/></l><r>туралы<s n="n"/></r></p></e>
+<e><p><l>during<s n="pr"/></l><r>бойы<s n="n"/></r></p></e>
+<e><p><l>among<s n="pr"/></l><r>ара<s n="n"/></r></p></e>
+<e><p><l>into<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e><p><l>per<s n="pr"/></l><r>үшін<s n="n"/></r></p></e>
+<e><p><l>over<s n="pr"/></l><r>over<s n="n"/></r></p></e>
+<e><p><l>against<s n="pr"/></l><r>қарсы<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 
 
     <!-- MLF 20120702 The following postpositions use ablative case -->
@@ -2886,6 +2901,17 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
   <e><p><l>OSCE<s n="np"/><s n="al"/><s n="sg"/></l><r>ЕҚЫҰ<s n="abbr"/></r></p></e>
     <e><p><l>Reuters<s n="np"/><s n="al"/><s n="sg"/></l><r>Реутерс<s n="np"/><s n="org"/></r></p></e>
 
+
+
+<e><p><l>BBC<s n="n"/><s n="acr"/></l><r>ББС<s n="abbr"/></r></p></e>
+    <e><p><l>PKK<s n="n"/><s n="acr"/></l><r>PKK<s n="abbr"/></r></p></e>
+    <e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="abbr"/></r></p></e>
+    <e><p><l>NATO<s n="n"/><s n="acr"/></l><r>НАТО<s n="abbr"/></r></p></e>
+    <e><p><l>GDP<s n="n"/><s n="acr"/></l><r>ЖІӨ<s n="abbr"/></r></p></e>
+    <e><p><l>AFP<s n="n"/><s n="acr"/></l><r>AFP<s n="abbr"/></r></p></e>
+    <e><p><l>EU<s n="n"/><s n="acr"/></l><r>ЕО<s n="abbr"/></r></p></e>
+    <e><p><l>TV<s n="n"/><s n="acr"/></l><r>ТВ<s n="abbr"/></r></p></e>
+
     <!-- Раздел: Имя Собственное -->
 
 
@@ -2935,10 +2961,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 
 <e><p><l>billion<s n="num"/><s n="sg"/></l><r>миллиард<s n="num"/></r></p></e>
-
+<e><p><l>million<s n="num"/><s n="sg"/></l><r>миллион<s n="num"/></r></p></e>
     <!-- Раздел: Союз -->
 <e><p><l>if<s n="cnjadv"/></l><r>егер<s n="cnjsub"/></r></p></e>
 <e><p><l>until<s n="cnjadv"/></l><r>шейін<s n="cnjsub"/></r></p></e>
+    <e><p><l>either<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>both<s n="cnjcoo"/></l><r>екеуі<s n="cnjcoo"/></r></p></e>
     <e><p><l>and<s n="cnjcoo"/></l><r>және<s n="cnjcoo"/></r></p></e>
@@ -3197,7 +3224,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>low<s n="adj"/><s n="sint"/></l><r>аласа<s n="adj"/></r></p></e>      
    <e><p><l>special<s n="adj"/></l><r>ерекше<s n="adj"/></r></p></e>      
         <e><p><l>ill<s n="adj"/></l><r>ауру<s n="adj"/></r></p></e>
-   <e><p><l>long<s n="adj"/><s n="sint"/></l><r>ұзақ<s n="adj"/></r></p></e>    
+   <e><p><l>long<s n="adj"/><s n="sint"/></l><r>ұзақ<s n="adj"/></r></p></e>  
+    <e><p><l>late<s n="adj"/><s n="sint"/></l><r>кеш<s n="adj"/></r></p></e>  
    <e><p><l>still<s n="adj"/><s n="sint"/></l><r>әлі<s n="adj"/></r></p></e>        
    <e><p><l>medical<s n="adj"/></l><r>медикалық<s n="adj"/></r></p></e>      
     <e><p><l>military<s n="adj"/></l><r>әскери<s n="adj"/></r></p></e>      
@@ -3617,7 +3645,13 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
   <!--  <e><p><l>what<s n="prn"/><s n="itg"/></l><r>не<s n="prn"/><s n="itg"/></r></p></e>-->
 <e><p><l>which<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r>қайсы</r></p></e>
 <e r="LR"><p><l>that<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r></r></p></e>
-
+ <e><p><l>such<s n="det"/><s n="ind"/><s n="sp"/></l><r>сондай<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>any<s n="det"/><s n="ind"/><s n="sp"/></l><r>кейбір<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>whose<s n="rel"/><s n="aa"/><s n="mf"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="px"/></r></p></e>
+    <e><p><l>whose<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="px"/></r></p></e>
+    <e><p><l>either<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>әр<s n="prn"/></r></p></e>
+    <e><p><l>any<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>кей<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>whose<s n="det"/><s n="itg"/><s n="sp"/></l><r>кім<s n="det"/><s n="itg"/><s n="sp"/></r></p></e>
 <!-- Changes MLF 20120710 to ease transfer of possessive determiners -->
     <e><p><l>my<s n="det"/><s n="pos"/><s n="sp"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>
     <e><p><l>your<s n="det"/><s n="pos"/><s n="sp"/></l><r>сіз<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="frm"/><s n="gen"/></r></p></e>

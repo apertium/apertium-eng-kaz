@@ -3210,7 +3210,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
   <e><p><l>fat<s n="adj"/><s n="sint"/></l><r>толық<s n="adj"/></r></p></e>      
   <e><p><l>fertile<s n="adj"/></l><r>шұрайлы<s n="adj"/></r></p></e>      
  
- 
+     <e><p><l>firm<s n="adj"/><s n="sint"/></l><r>берік<s n="adj"/></r></p></e>
+    <e><p><l>tender<s n="adj"/><s n="sint"/></l><r>нәзік<s n="adj"/></r></p></e>
+    <e><p><l>fair<s n="adj"/><s n="sint"/></l><r>арлы<s n="adj"/></r></p></e>
+    <e><p><l>just<s n="adj"/><s n="sint"/></l><r>әділ<s n="adj"/></r></p></e>
    
    <e><p><l>free<s n="adj"/><s n="sint"/></l><r>еркін<s n="adj"/></r></p></e>      
    <e><p><l>frequent<s n="adj"/></l><r>тығыз<s n="adj"/></r></p></e>      

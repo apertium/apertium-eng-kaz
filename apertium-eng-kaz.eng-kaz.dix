@@ -3058,6 +3058,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>here<s n="adv"/></l><r>мында<s n="adv"/></r></p></e>
 <e><p><l>late<s n="adv"/></l><r>кеш<s n="adv"/></r></p></e>
 
+<e><p><l>so<s n="preadv"/></l><r>олай<s n="adv"/></r></p></e>
+<e><p><l>rather<s n="preadv"/></l><r>тезірек<s n="adv"/></r></p></e>
+<e><p><l>how<s n="preadv"/></l><r>қалайша<s n="adv"/></r></p></e>
+<e><p><l>any<s n="preadv"/></l><r>кейбір<s n="adv"/></r></p></e>
+<e><p><l>half<s n="adv"/></l><r>жартылай<s n="adv"/></r></p></e>
+<e><p><l>much<s n="adv"/></l><r>көп<s n="adv"/></r></p></e>
+<e><p><l>though<s n="adv"/></l><r>тым<s n="adv"/></r></p></e>
+<e><p><l>enough<s n="adv"/></l><r>біраз<s n="adv"/></r></p></e>
 
 
 

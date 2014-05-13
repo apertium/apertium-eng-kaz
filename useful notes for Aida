@@ -224,8 +224,7 @@ $ cat eng.crp.txt | apertium -d ~/source/apertium/incubator/apertium-eng-kaz/ en
 
 
 <spectie> then you can do, e.g.
-<spectie> $ head -1000 eng.crp.txt | apertium -d ~/source/apertium/incubator/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/source/apertium/incubator/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt | grep -v '\/.*\/.*\/.*\/' | cut -f4 -d'/' | c
-<spectie> ut -f1 -d'$' | sed 's/<\([a-z0-9A-Z]\+\)>/<s n="\1"\/>/g'
+<spectie> $ head -1000 eng.crp.txt | apertium -d ~/source/apertium/incubator/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/source/apertium/incubator/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt | grep -v '\/.*\/.*\/.*\/' | cut -f4 -d'/' | cut -f1 -d'$' | sed 's/<\([a-z0-9A-Z]\+\)>/<s n="\1"\/>/g'
 <spectie>  
 <spectie> to get the left side of the bidix
 
@@ -234,3 +233,7 @@ $ cat eng.crp.txt | apertium -d ~/source/apertium/incubator/apertium-eng-kaz/ en
 and you can get the whole bidix using:
 <spectie> http://pastebin.com/7a752JbF
 <begiak> [ $ head -1000 eng.crp.txt | apertium -d ~/source/apertium/incubator/apertium-eng- - Pastebin.com ]
+
+
+head -1000 corpora/eng.crp.txt | apertium -d ~/Source/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/Source/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt | grep -v '\/.*\/.*\/.*\/' | cut -f4 -d'/' | cut -f1 -d'$' | sed 's/<\([a-z0-9A-Z]\+\)>/<s n="\1"\/>/g' | sort -u | pasten.py 2 | sed 's/^/<e><p><l>/g' | sed 's/$/<\/r><\/p><\/e>/g' | sed 's/\t/<\/l><r>/1' | sed 's/\t//g'
+

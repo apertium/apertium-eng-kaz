@@ -218,7 +218,7 @@ $ cat eng.crp.txt | apertium -d ~/source/apertium/incubator/apertium-eng-kaz/ en
 <spectie> a short CG file to merge some analyses
 <spectie> $ cg-comp /tmp/merge-analyses.cg /tmp/merge-analyses.bin
 <spectie> Sections: 1, Rules: 12, Sets: 26, Tags: 23
-<spectie> $ head -1000 corpora/eng.crp.txt | apertium -d ~/Source/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/Source/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt
+<spectie> $ cat corpora/eng.crp.txt | apertium -d ~/Source/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/Source/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt
 <spectie> then you can run it like this
 <spectie> if you want to remove ambiguous words (easier), you can do:
 <spectie> $ head -1000 corpora/eng.crp.txt | apertium -d ~/Source/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/Source/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt | grep -v '\/.*\/.*\/.*\/'
@@ -235,6 +235,7 @@ and you can get the whole bidix using:
 <spectie> http://pastebin.com/7a752JbF
 <begiak> [ $ head -1000 eng.crp.txt | apertium -d ~/source/apertium/incubator/apertium-eng- - Pastebin.com ]
 
+sudo cat corpora/eng.crp.txt | apertium -d ~/Source/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/Source/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc ~/Source/apertium-eng-kaz/eng-kaz.rlx.bin  | apertium-retxt | grep -v '\/.*\/.*\/.*\/' | cut -f4 -d'/' | cut -f1 -d'$' | sed 's/<\([a-z0-9A-Z]\+\)>/<s n="\1"\/>/g' | sort -u | ~/Source/apertium-eng-kaz/pasten.py 2 | sed 's/^/<e><p><l>/g' | sed 's/$/<\/r><\/p><\/e>/g' | sed 's/\t/<\/l><r>/1' | sed 's/\t//g'
 
-head -1000 corpora/eng.crp.txt | apertium -d ~/Source/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/Source/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt | grep -v '\/.*\/.*\/.*\/' | cut -f4 -d'/' | cut -f1 -d'$' | sed 's/<\([a-z0-9A-Z]\+\)>/<s n="\1"\/>/g' | sort -u | pasten.py 2 | sed 's/^/<e><p><l>/g' | sed 's/$/<\/r><\/p><\/e>/g' | sed 's/\t/<\/l><r>/1' | sed 's/\t//g'
+chmod +x /home/ubuntu/Source/apertium-eng-kaz/pasten.py
 

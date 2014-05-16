@@ -2640,6 +2640,113 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>majority<s n="n"/></l><r>көпшілік<s n="n"/></r></p></e>
 <e><p><l>entity<s n="n"/></l><r>нысан<s n="n"/></r></p></e>
 <e><p><l>deputy<s n="n"/></l><r>депутат<s n="n"/></r></p></e>
+<e><p><l>abacus<s n="n"/></l><r>абакан<s n="n"/></r></p></e>
+<e><p><l>abandonment<s n="n"/></l><r>бас<b/>тарту<s n="n"/></r></p></e>
+<e><p><l>abattoir<s n="n"/></l><r>қасапхана<s n="n"/></r></p></e>
+<e><p><l>abbreviation<s n="n"/></l><r>аббревиатура<s n="n"/></r></p></e>
+<e><p><l>abduction<s n="n"/></l><r>қарақтау<s n="n"/></r></p></e>
+<e><p><l>ablution<s n="n"/></l><r>дәрет<s n="n"/></r></p></e>
+<e><p><l>abolition<s n="n"/></l><r>орындатпау<s n="n"/></r></p></e>
+<e><p><l>abomination<s n="n"/></l><r>жеркеніш<s n="n"/></r></p></e>
+<e><p><l>aborigine<s n="n"/></l><r>абориген<s n="n"/></r></p></e>
+<e><p><l>abortion<s n="n"/></l><r>аборт<s n="n"/></r></p></e>
+<e><p><l>absence<s n="n"/></l><r>болмағандық<s n="n"/></r></p></e>
+<e><p><l>absenteeism<s n="n"/></l><r>қыдырымпаздыктар<s n="n"/></r></p></e>
+<e><p><l>absolutism<s n="n"/></l><r>абсолютизм<s n="n"/></r></p></e>
+<e><p><l>absorber<s n="n"/></l><r>сіңіруші<s n="n"/></r></p></e>
+<e><p><l>absorption<s n="n"/></l><r>қылғуғу<s n="n"/></r></p></e>
+<e><p><l>abstention<s n="n"/></l><r>ұстамдылық<s n="n"/></r></p></e>
+<e><p><l>abstinence<s n="n"/></l><r>төзімділік<s n="n"/></r></p></e>
+<e><p><l>abstraction<s n="n"/></l><r>абстракция<s n="n"/></r></p></e>
+<e><p><l>abundance<s n="n"/></l><r>береке<s n="n"/></r></p></e>
+<e><p><l>academician<s n="n"/></l><r>академик<s n="n"/></r></p></e>
+<e><p><l>academy<s n="n"/></l><r>академия<s n="n"/></r></p></e>
+<e><p><l>acceleration<s n="n"/></l><r>үдеу<s n="n"/></r></p></e>
+<e><p><l>accelerator<s n="n"/></l><r>акселератор<s n="n"/></r></p></e>
+<e><p><l>acceptance<s n="n"/></l><r>қабылдау<s n="n"/></r></p></e>
+<e><p><l>accessibility<s n="n"/></l><r>қолжетімділік<s n="n"/></r></p></e>
+<e><p><l>accessory<s n="n"/></l><r>астас<s n="n"/></r></p></e>
+<e><p><l>acclamation<s n="n"/></l><r>сөлемдесу<s n="n"/></r></p></e>
+<e><p><l>acclimatisation<s n="n"/></l><r>акклиматизация<s n="n"/></r></p></e>
+<e><p><l>accommodation<s n="n"/></l><r>машықтану<s n="n"/></r></p></e>
+<e><p><l>accompaniment<s n="n"/></l><r>аккомпонемент<s n="n"/></r></p></e>
+<e><p><l>accomplice<s n="n"/></l><r>астас<s n="n"/></r></p></e>
+<e><p><l>accordionist<s n="n"/></l><r>аккордеоншы<s n="n"/></r></p></e>
+<e><p><l>accord<s n="n"/></l><r>аккорд<s n="n"/></r></p></e>
+<e><p><l>accountability<s n="n"/></l><r>жауапкершілік<s n="n"/></r></p></e>
+<e><p><l>accountant<s n="n"/></l><r>есепші<s n="n"/></r></p></e>
+<e><p><l>accounting<s n="n"/></l><r>бухгалтерлік<b/>есеп<s n="n"/></r></p></e>
+<e><p><l>accreditation<s n="n"/></l><r>аккредитация<s n="n"/></r></p></e>
+<e><p><l>accumulation<s n="n"/></l><r>жинақтау<s n="n"/></r></p></e>
+<e><p><l>accuracy<s n="n"/></l><r>дәлме-дәлділік<s n="n"/></r></p></e>
+<e><p><l>accuser<s n="n"/></l><r>айыптаушы<s n="n"/></r></p></e>
+<e><p><l>ace<s n="n"/></l><r>туз<s n="n"/></r></p></e>
+<e><p><l>achievement<s n="n"/></l><r>табыс<s n="n"/></r></p></e>
+<e><p><l>acquisition<s n="n"/></l><r>табыс<s n="n"/></r></p></e>
+<e><p><l>acre<s n="n"/></l><r>акр<s n="n"/></r></p></e>
+<e><p><l>acrobat<s n="n"/></l><r>акробат<s n="n"/></r></p></e>
+<e><p><l>acronym<s n="n"/></l><r>акроним<s n="n"/></r></p></e>
+<e><p><l>acrylic<s n="n"/></l><r>акрил<s n="n"/></r></p></e>
+<e><p><l>activation<s n="n"/></l><r>белсендіру<s n="n"/></r></p></e>
+<e><p><l>activism<s n="n"/></l><r>белсенділік<s n="n"/></r></p></e>
+<e><p><l>activist<s n="n"/></l><r>белсенді<b/>адам<s n="n"/></r></p></e>
+<e><p><l>actress<s n="n"/></l><r>актриса<s n="n"/></r></p></e>
+<e><p><l>actuality<s n="n"/></l><r>өзектілік<s n="n"/></r></p></e>
+<e><p><l>adaptability<s n="n"/></l><r>қолданушылық<s n="n"/></r></p></e>
+<e><p><l>adaptation<s n="n"/></l><r>бейімделу<s n="n"/></r></p></e>
+<e><p><l>addendum<s n="n"/></l><r>аддендум<s n="n"/></r></p></e>
+<e><p><l>addiction<s n="n"/></l><r>нашақорлық<s n="n"/></r></p></e>
+<e><p><l>addict<s n="n"/></l><r>нашақор<s n="n"/></r></p></e>
+<e><p><l>additive<s n="n"/></l><r>үстеме<s n="n"/></r></p></e>
+<e><p><l>addressee<s n="n"/></l><r>адресат<s n="n"/></r></p></e>
+<e><p><l>adherence<s n="n"/></l><r>берілгендік<s n="n"/></r></p></e>
+<e><p><l>adhesion<s n="n"/></l><r>жабысу<s n="n"/></r></p></e>
+<e><p><l>adipocyte<s n="n"/></l><r>адипоцит<s n="n"/></r></p></e>
+<e><p><l>adjective<s n="n"/></l><r>сын<b/>есім<s n="n"/></r></p></e>
+<e><p><l>adjudication<s n="n"/></l><r>сот<b/>шешімі<s n="n"/></r></p></e>
+<e><p><l>administrator<s n="n"/></l><r>администратор<s n="n"/></r></p></e>
+<e><p><l>admiral<s n="n"/></l><r>адмирал<s n="n"/></r></p></e>
+<e><p><l>admiration<s n="n"/></l><r>масаттану<s n="n"/></r></p></e>
+<e><p><l>adolescent<s n="n"/></l><r>жастық<b/>шақ<s n="n"/></r></p></e>
+<e><p><l>admission<s n="n"/></l><r>гипотеза<s n="n"/></r></p></e>
+<e><p><l>adoption<s n="n"/></l><r>қабылдау<s n="n"/></r></p></e>
+<e><p><l>adoration<s n="n"/></l><r>қадірлеушілік<s n="n"/></r></p></e>
+<e><p><l>adrenaline<s n="n"/></l><r>адреналин<s n="n"/></r></p></e>
+<e><p><l>ad<s n="n"/></l><r>хабарландыру<s n="n"/></r></p></e>
+<e><p><l>adultery<s n="n"/></l><r>адюльтер<s n="n"/></r></p></e>
+<e><p><l>adulthood<s n="n"/></l><r>ересек<b/>өмір<s n="n"/></r></p></e>
+<e><p><l>adult<s n="n"/></l><r>ересек<s n="n"/></r></p></e>
+<e><p><l>advancement<s n="n"/></l><r>өрлеу<s n="n"/></r></p></e>
+<e><p><l>advantage<s n="n"/></l><r>артықшылық<s n="n"/></r></p></e>
+<e><p><l>advent<s n="n"/></l><r>келу<s n="n"/></r></p></e>
+<e><p><l>adventurer<s n="n"/></l><r>авантюрист<s n="n"/></r></p></e>
+<e><p><l>adversity<s n="n"/></l><r>бәле<s n="n"/></r></p></e>
+<e><p><l>aerobics<s n="n"/></l><r>аэробика<s n="n"/></r></p></e>
+<e><p><l>affiliation<s n="n"/></l><r>қосу<s n="n"/></r></p></e>
+<e><p><l>affinity<s n="n"/></l><r>қандастық<s n="n"/></r></p></e>
+<e><p><l>affirmation<s n="n"/></l><r>растама<s n="n"/></r></p></e>
+<e><p><l>affliction<s n="n"/></l><r>сорлылық<s n="n"/></r></p></e>
+<e><p><l>Afghan<s n="n"/></l><r>Ауған<s n="n"/></r></p></e>
+<e><p><l>agent<s n="n"/></l><r>агент<s n="n"/></r></p></e>
+<e><p><l>agglomeration<s n="n"/></l><r>шоғыр<s n="n"/></r></p></e>
+<e><p><l>aggravation<s n="n"/></l><r>аздыру<s n="n"/></r></p></e>
+<e><p><l>aggregation<s n="n"/></l><r>аггрегат<s n="n"/></r></p></e>
+<e><p><l>aggression<s n="n"/></l><r>агрессия<s n="n"/></r></p></e>
+<e><p><l>aggressiveness<s n="n"/></l><r>агрессивтілік<s n="n"/></r></p></e>
+<e><p><l>aggressor<s n="n"/></l><r>агрессор<s n="n"/></r></p></e>
+<e><p><l>agility<s n="n"/></l><r>ебдей<s n="n"/></r></p></e>
+<e><p><l>agony<s n="n"/></l><r>агония<s n="n"/></r></p></e>
+<e><p><l>agora<s n="n"/></l><r>agora<s n="n"/></r></p></e>
+<e><p><l>agronomist<s n="n"/></l><r>агроном<s n="n"/></r></p></e>
+<e><p><l>aide<s n="n"/></l><r>көмекші<s n="n"/></r></p></e>
+<e><p><l>ailment<s n="n"/></l><r>ауру<s n="n"/></r></p></e>
+<e><p><l>airfield<s n="n"/></l><r>аэродром<s n="n"/></r></p></e>
+<e><p><l>airliner<s n="n"/></l><r>авиалайнер<s n="n"/></r></p></e>
+<e><p><l>airline<s n="n"/></l><r>авиажелі<s n="n"/></r></p></e>
+<e><p><l>airman<s n="n"/></l><r>авиатор<s n="n"/></r></p></e>
+<e><p><l>airship<s n="n"/></l><r>әуе<b/>кеме<s n="n"/></r></p></e>
+
+
 <!--ProPER NOUNS -->
 
 
@@ -2937,7 +3044,47 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>Ivo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Иво<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Igor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Игор<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Boris<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Борис<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Aaron<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Аарон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
+
+<e><p><l>Abdel<s n="np"/><s n="ant"/><s n="m"/></l><r>Абдель<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abdo<s n="np"/><s n="ant"/><s n="m"/></l><r>Абдо<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abd<s n="np"/><s n="ant"/><s n="m"/></l><r>Абд<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abdulla<s n="np"/><s n="ant"/><s n="m"/></l><r>Абдулла<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abdul<s n="np"/><s n="ant"/><s n="m"/></l><r>Абдул<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abel<s n="np"/><s n="ant"/><s n="m"/></l><r>Абель<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abraham<s n="np"/><s n="ant"/><s n="m"/></l><r>Абрахам<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abril<s n="np"/><s n="ant"/><s n="f"/></l><r>Абрил<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Achilles<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахиллес<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Adam<s n="np"/><s n="ant"/><s n="m"/></l><r>Адам<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Ada<s n="np"/><s n="ant"/><s n="f"/></l><r>Ада<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Adelaide<s n="np"/><s n="ant"/><s n="f"/></l><r>Аделаиде<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Adela<s n="np"/><s n="ant"/><s n="f"/></l><r>Адела<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Adelina<s n="np"/><s n="ant"/><s n="f"/></l><r>Аделина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Adolf<s n="np"/><s n="ant"/><s n="m"/></l><r>Адольф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Adonis<s n="np"/><s n="ant"/><s n="m"/></l><r>Адонис<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Adriana<s n="np"/><s n="ant"/><s n="f"/></l><r>Адриана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Adriano<s n="np"/><s n="ant"/><s n="m"/></l><r>Адриано<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Adrian<s n="np"/><s n="ant"/><s n="m"/></l><r>Адриан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Adria<s n="np"/><s n="ant"/><s n="f"/></l><r>Адрия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Adrien<s n="np"/><s n="ant"/><s n="m"/></l><r>Адриен<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Agamemnon<s n="np"/><s n="ant"/><s n="m"/></l><r>Агамемнон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Agar<s n="np"/><s n="ant"/><s n="f"/></l><r>Агар<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Agata<s n="np"/><s n="ant"/><s n="f"/></l><r>Агата<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Agatha<s n="np"/><s n="ant"/><s n="f"/></l><r>Агата<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Agnes<s n="np"/><s n="ant"/><s n="f"/></l><r>Агнес<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Agnieszka<s n="np"/><s n="ant"/><s n="f"/></l><r>Агнешка<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Agostino<s n="np"/><s n="ant"/><s n="m"/></l><r>Агостино<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Agustín<s n="np"/><s n="ant"/><s n="m"/></l><r>Агустин<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Ahmad<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмад<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Ahmed<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмед<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Aida<s n="np"/><s n="ant"/><s n="f"/></l><r>Аида<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Aimée<s n="np"/><s n="ant"/><s n="f"/></l><r>Аимии<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Akemi<s n="np"/><s n="ant"/><s n="f"/></l><r>Акеми<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Akira<s n="np"/><s n="ant"/><s n="f"/></l><r>Акира<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Alain<s n="np"/><s n="ant"/><s n="m"/></l><r>Алайн<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Alanis<s n="np"/><s n="ant"/><s n="f"/></l><r>Аланис<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Alan<s n="np"/><s n="ant"/><s n="m"/></l><r>Алан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 
   <e><p><l>Nazarbayev<s n="np"/><s n="cog"/></l><r>Назарбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -4236,6 +4383,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>review<s n="vblex"/></l><r>қайтала<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>grow<s n="vblex"/></l><r>өс<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>stay<s n="vblex"/></l><r>қал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>abandon<s n="vblex"/></l><r>бас<b/>тарт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>abate<s n="vblex"/></l><r>кішірейт<s n="v"/><s n="tv"/></r></p></e>
 
 
 <e><p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>

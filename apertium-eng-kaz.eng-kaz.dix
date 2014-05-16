@@ -3741,7 +3741,56 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>daily<s n="adj"/></l><r>күнделікті<s n="adj"/></r></p></e>
 <e><p><l>necessary<s n="adj"/></l><r>қажетті<s n="adj"/></r></p></e>
 <e><p><l>parliamentary<s n="adj"/></l><r>парламенттік<s n="adj"/></r></p></e>
-
+<e><p><l>abdominal<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
+<e><p><l>aberrant<s n="adj"/></l><r>аномалды<s n="adj"/></r></p></e>
+<e><p><l>abject<s n="adj"/></l><r>аянышты<s n="adj"/></r></p></e>
+<e><p><l>abnormal<s n="adj"/></l><r>есуас<s n="adj"/></r></p></e>
+<e><p><l>aboriginal<s n="adj"/></l><r>ежелгі<s n="adj"/></r></p></e>
+<e><p><l>abrupt<s n="adj"/></l><r>шұғыл<s n="adj"/></r></p></e>
+<e><p><l>absentee<s n="adj"/></l><r>келмеген<s n="adj"/></r></p></e>
+<e><p><l>absent<s n="adj"/></l><r>болмаған<s n="adj"/></r></p></e>
+<e><p><l>absorbent<s n="adj"/></l><r>абсорбент<s n="adj"/></r></p></e>
+<e><p><l>abstract<s n="adj"/></l><r>абстрактілі<s n="adj"/></r></p></e>
+<e><p><l>absurd<s n="adj"/></l><r>абсурдтық<s n="adj"/></r></p></e>
+<e><p><l>abundant<s n="adj"/></l><r>мол<s n="adj"/></r></p></e>
+<e><p><l>abusive<s n="adj"/></l><r>қорлаған<s n="adj"/></r></p></e>
+<e><p><l>abysmal<s n="adj"/></l><r>тұңғиық<s n="adj"/></r></p></e>
+<e><p><l>accessible<s n="adj"/></l><r>жетімді<s n="adj"/></r></p></e>
+<e><p><l>accidental<s n="adj"/></l><r>кездейсоқтық<s n="adj"/></r></p></e>
+<e><p><l>accountable<s n="adj"/></l><r>жауапты<s n="adj"/></r></p></e>
+<e><p><l>acoustic<s n="adj"/></l><r>есту<s n="adj"/></r></p></e>
+<e><p><l>acute<s n="adj"/><s n="sint"/></l><r>өткір<s n="adj"/></r></p></e>
+<e><p><l>adamant<s n="adj"/></l><r>адамантты<s n="adj"/></r></p></e>
+<e><p><l>adaptable<s n="adj"/></l><r>жеңілтек<s n="adj"/></r></p></e>
+<e><p><l>addicted<s n="adj"/></l><r>бейімді<s n="adj"/></r></p></e>
+<e><p><l>adequate<s n="adj"/></l><r>адекваттық<s n="adj"/></r></p></e>
+<e><p><l>adhesive<s n="adj"/></l><r>жабысқақ<s n="adj"/></r></p></e>
+<e><p><l>adjacent<s n="adj"/></l><r>көршілес<s n="adj"/></r></p></e>
+<e><p><l>adjoining<s n="adj"/></l><r>қабысқан<s n="adj"/></r></p></e>
+<e><p><l>administrative<s n="adj"/></l><r>әкімшілік<s n="adj"/></r></p></e>
+<e><p><l>admissible<s n="adj"/></l><r>ықтимал<s n="adj"/></r></p></e>
+<e><p><l>adoptive<s n="adj"/></l><r>ұғымтал<s n="adj"/></r></p></e>
+<e><p><l>adrift<s n="adj"/></l><r>ағымды<s n="adj"/></r></p></e>
+<e><p><l>advantageous<s n="adj"/></l><r>берекелі<s n="adj"/></r></p></e>
+<e><p><l>adverse<s n="adj"/></l><r>қатал<s n="adj"/></r></p></e>
+<e><p><l>advisable<s n="adj"/></l><r>дана<s n="adj"/></r></p></e>
+<e><p><l>advisory<s n="adj"/></l><r>кеңесші<s n="adj"/></r></p></e>
+<e><p><l>aeolian<s n="adj"/></l><r>эолийдік<s n="adj"/></r></p></e>
+<e><p><l>aerial<s n="adj"/></l><r>әуе<s n="adj"/></r></p></e>
+<e><p><l>aerospace<s n="adj"/></l><r>ғарыш<s n="adj"/></r></p></e>
+<e><p><l>aesthetic<s n="adj"/></l><r>эстетикалық<s n="adj"/></r></p></e>
+<e><p><l>affable<s n="adj"/></l><r>ашық-жарқын<s n="adj"/></r></p></e>
+<e><p><l>affirmative<s n="adj"/></l><r>оң<s n="adj"/></r></p></e>
+<e><p><l>affluent<s n="adj"/></l><r>тарау<s n="adj"/></r></p></e>
+<e><p><l>affordable<s n="adj"/></l><r>азықтық<s n="adj"/></r></p></e>
+<e><p><l>aforementioned<s n="adj"/></l><r>айтылған<s n="adj"/></r></p></e>
+<e><p><l>african<s n="adj"/></l><r>африкандық<s n="adj"/></r></p></e>
+<e><p><l>aghast<s n="adj"/></l><r>қорыққан<s n="adj"/></r></p></e>
+<e><p><l>agrarian<s n="adj"/></l><r>аграрлық<s n="adj"/></r></p></e>
+<e><p><l>agricultural<s n="adj"/></l><r>ауылды<s n="adj"/></r></p></e>
+<e><p><l>airy<s n="adj"/><s n="sint"/></l><r>әуе<s n="adj"/></r></p></e>
+<e><p><l>akin<s n="adj"/><s n="sint"/></l><r>ұқсас<s n="adj"/></r></p></e>
+<e><p><l>alcoholic<s n="adj"/></l><r>маскүнем<s n="adj"/></r></p></e>
 
 <!-- Order numbers-->
  <e><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>бір<s n="num"/><s n="ord"/></r></p></e> 

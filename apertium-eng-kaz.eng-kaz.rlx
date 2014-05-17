@@ -122,7 +122,7 @@ SELECT N if (-1 AdvItg) ;
 
 SELECT A if (1 ("Autonomous"i)) ;
 
-SELECT N if (-1 Det) ;
+SELECT N if (-1 Det) (NOT 0 A) ;
 
 SELECT V-HAVE if (2C V) ;
 

@@ -2,7 +2,7 @@ TMPDIR=/tmp
 
 DIR=$1
 
-SED=gsed
+SED=sed
 
 if [[ $DIR = "eng-kaz" ]]; then
 

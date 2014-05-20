@@ -30,6 +30,7 @@ dev/article-for-comp-proc-turk-lang.fodt -text
 dev/bidix-entries-nouns-from-gloss.txt -text
 dev/eng.hitparade.10000.txt -text
 dev/lexcdiff.py -text
+dev/new-bidix.wikipedia.dix -text
 dev/news.en -text
 dev/proposal.odt -text
 dev/testvoc/inconsistency-summary.sh -text

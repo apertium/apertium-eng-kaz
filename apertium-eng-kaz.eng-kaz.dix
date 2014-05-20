@@ -2823,7 +2823,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>annulment<s n="n"/></l><r>жою<s n="n"/></r></p></e>
 <e><p><l>annunciation<s n="n"/></l><r>мадақтау<s n="n"/></r></p></e>
 <e><p><l>anomaly<s n="n"/></l><r>ауытқушылық<s n="n"/></r></p></e>
-<e><p><l>anonymity<s n="n"/></l><r>анонимдық<s n="n"/></r></p></e>
+<e><p><l>anonymity<s n="n"/></l><r>аноним<s n="n"/></r></p></e>
 <e><p><l>antagonism<s n="n"/></l><r>антагонизм<s n="n"/></r></p></e>
 <e><p><l>antecedent<s n="n"/></l><r>антецедент<s n="n"/></r></p></e>
 <e><p><l>antechamber<s n="n"/></l><r>вестибюль<s n="n"/></r></p></e>
@@ -2857,7 +2857,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>appraisal<s n="n"/></l><r>сарапшылық<s n="n"/></r></p></e>
 <e><p><l>appreciation<s n="n"/></l><r>сарапшылық<s n="n"/></r></p></e>
 <e><p><l>apprehension<s n="n"/></l><r>именушілік<s n="n"/></r></p></e>
-<e><p><l>apprenticeship<s n="n"/></l><r>оқытушылықs n="n"/></r></p></e>
+<e><p><l>apprenticeship<s n="n"/></l><r>оқытушылық<s n="n"/></r></p></e>
 <e><p><l>appropriation<s n="n"/></l><r>тағайындау<s n="n"/></r></p></e>
 <e><p><l>approximation<s n="n"/></l><r>аппроксимация<s n="n"/></r></p></e>
 <e><p><l>app<s n="n"/></l><r>қосымша<s n="n"/></r></p></e>
@@ -2876,7 +2876,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>archaeologist<s n="n"/></l><r>археолог<s n="n"/></r></p></e>
 <e><p><l>archaeology<s n="n"/></l><r>археология<s n="n"/></r></p></e>
 <e><p><l>archangel<s n="n"/></l><r>жебірейіл<s n="n"/></r></p></e>
-<e><p><l>archbishopric<s n="n"/></l><r>архиепископтық<s n="n"/></r></p></e>
+<e><p><l>archbishopric<s n="n"/></l><r>архиепископ<s n="n"/></r></p></e>
 <e><p><l>archbishop<s n="n"/></l><r>архиепископ<s n="n"/></r></p></e>
 <e><p><l>archdiocese<s n="n"/></l><r>митрополия<s n="n"/></r></p></e>
 <e><p><l>archduke<s n="n"/></l><r>эрцгерцог<s n="n"/></r></p></e>
@@ -2937,7 +2937,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>attacker<s n="n"/></l><r>шабуылшы<s n="n"/></r></p></e>
 <e><p><l>attainment<s n="n"/></l><r>табыс<s n="n"/></r></p></e>
 <e><p><l>attendant<s n="n"/></l><r>қатысушы<s n="n"/></r></p></e>
-<e><p><l>attire<s n="n"/></l><r>безендіруs n="n"/></r></p></e>
+<e><p><l>attire<s n="n"/></l><r>безендіру<s n="n"/></r></p></e>
 <e><p><l>audience<s n="n"/></l><r>дәрісхана<s n="n"/></r></p></e>
 <e><p><l>audio<s n="n"/></l><r>аудио<s n="n"/></r></p></e>
 <e><p><l>audition<s n="n"/></l><r>тыңдау<s n="n"/></r></p></e>

@@ -3369,6 +3369,29 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>Milosevic<s n="np"/><s n="cog"/><s n="sg"/></l><r>Милосевиц<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
     <e><p><l>Rehn<s n="np"/><s n="cog"/><s n="sg"/></l><r>Рехн<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
+ <e><p><l>Obama<s n="np"/><s n="cog"/></l><r>Обама<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Ward<s n="np"/><s n="cog"/></l><r>Уард<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Ford<s n="np"/><s n="cog"/></l><r>Форд<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Lloyd<s n="np"/><s n="cog"/></l><r>Ллойд<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Moore<s n="np"/><s n="cog"/></l><r>Мур<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Campbell<s n="np"/><s n="cog"/></l><r>Кэмпбелл<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Johnson<s n="np"/><s n="cog"/></l><r>Джонсон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Robinson<s n="np"/><s n="cog"/></l><r>Робинсон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Thompson<s n="np"/><s n="cog"/></l><r>Томсон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Hamilton<s n="np"/><s n="cog"/></l><r>Гамильтон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Hitler<s n="np"/><s n="cog"/></l><r>Хитлер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Jones<s n="np"/><s n="cog"/></l><r>Джонс<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Adams<s n="np"/><s n="cog"/></l><r>Адамс<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Evans<s n="np"/><s n="cog"/></l><r>Эванс<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Collins<s n="np"/><s n="cog"/></l><r>Коллинз<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Roberts<s n="np"/><s n="cog"/></l><r>Робертс<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Wright<s n="np"/><s n="cog"/></l><r>Райд<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Stewart<s n="np"/><s n="cog"/></l><r>Стюарт<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Murray<s n="np"/><s n="cog"/></l><r>Мюррей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Disney<s n="np"/><s n="cog"/></l><r>Дисней<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+
+
+
 
    <!-- Раздел: Имя Числительное -->
 

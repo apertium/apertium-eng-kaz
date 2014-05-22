@@ -3021,6 +3021,49 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>beauty<s n="n"/></l><r>көріктілік<s n="n"/></r></p></e>
 <e><p><l>beehive<s n="n"/></l><r>омарта<s n="n"/></r></p></e>
 <e><p><l>beekeeper<s n="n"/></l><r>омарташ<s n="n"/></r></p></e>
+<e><p><l>prince<s n="n"/></l><r>ханзада<s n="n"/></r></p></e>
+<e><p><l>lane<s n="n"/></l><r>жіңішке<b/>жол<s n="n"/></r></p></e>
+<e><p><l>fine<s n="n"/></l><r>жақсы<s n="n"/></r></p></e>
+<e><p><l>mine<s n="n"/></l><r>мина<s n="n"/></r></p></e>
+<e><p><l>marine<s n="n"/></l><r>флот<s n="n"/></r></p></e>
+<e><p><l>Japanese<s n="n"/></l><r>Жапондық<s n="n"/></r></p></e>
+<e><p><l>wrong<s n="n"/></l><r>қателік<s n="n"/></r></p></e>
+<e><p><l>Dutch<s n="n"/></l><r>Голланд<s n="n"/></r></p></e>
+<e><p><l>Irish<s n="n"/></l><r>Ирландық<s n="n"/></r></p></e>
+<e><p><l>Scottish<s n="n"/></l><r>Шотландық<s n="n"/></r></p></e>
+<e><p><l>smith<s n="n"/></l><r>ұста<s n="n"/></r></p></e>
+<e><p><l>mark<s n="n"/></l><r>баға<s n="n"/></r></p></e>
+<e><p><l>bill<s n="n"/></l><r>есепшот<s n="n"/></r></p></e>
+<e><p><l>earl<s n="n"/></l><r>граф<s n="n"/></r></p></e>
+<e><p><l>dean<s n="n"/></l><r>декан<s n="n"/></r></p></e>
+<e><p><l>Christian<s n="n"/></l><r>Христианин<s n="n"/></r></p></e>
+<e><p><l>Roman<s n="n"/></l><r>Римдік<s n="n"/></r></p></e>
+<e><p><l>ken<s n="n"/></l><r>өре<s n="n"/></r></p></e>
+<e><p><l>franklin<s n="n"/></l><r>франклин<s n="n"/></r></p></e>
+<e><p><l>berlin<s n="n"/></l><r>берлин<s n="n"/></r></p></e>
+<e><p><l>zero<s n="n"/></l><r>нөл<s n="n"/></r></p></e>
+<e><p><l>miller<s n="n"/></l><r>диірменші<s n="n"/></r></p></e>
+<e><p><l>junior<s n="n"/></l><r>кіші<s n="n"/></r></p></e>
+<e><p><l>mayor<s n="n"/></l><r>мэр<s n="n"/></r></p></e>
+<e><p><l>tour<s n="n"/></l><r>тур<s n="n"/></r></p></e>
+<e><p><l>mathematics<s n="n"/></l><r>математика<s n="n"/></r></p></e>
+<e><p><l>species<s n="n"/></l><r>тұқым<s n="n"/></r></p></e>
+<e><p><l>corps<s n="n"/></l><r>кеуде<s n="n"/></r></p></e>
+<e><p><l>headquarters<s n="n"/></l><r>штабпәтер<s n="n"/></r></p></e>
+<e><p><l>bass<s n="n"/></l><r>бас<s n="n"/></r></p></e>
+<e><p><l>princess<s n="n"/></l><r>ханшайым<s n="n"/></r></p></e>
+<e><p><l>Swiss<s n="n"/></l><r>Швейцариялық<s n="n"/></r></p></e>
+<e><p><l>cross<s n="n"/></l><r>крест<s n="n"/></r></p></e>
+<e><p><l>plus<s n="n"/></l><r>плюс<s n="n"/></r></p></e>
+<e><p><l>aircraft<s n="n"/></l><r>авиация<s n="n"/></r></p></e>
+<e><p><l>grant<s n="n"/></l><r>грант<s n="n"/></r></p></e>
+<e><p><l>northeast<s n="n"/></l><r>солтүстік-шығыс<s n="n"/></r></p></e>
+<e><p><l>northwest<s n="n"/></l><r>солтүстіктің-батыс<s n="n"/></r></p></e>
+<e><p><l>southwest<s n="n"/></l><r>оңтүстік-батыс<s n="n"/></r></p></e>
+<e><p><l>trust<s n="n"/></l><r>сенім<s n="n"/></r></p></e>
+<e><p><l>jay<s n="n"/></l><r>жорғаторғай<s n="n"/></r></p></e>
+<e><p><l>jersey<s n="n"/></l><r>джерси<s n="n"/></r></p></e>
+<e><p><l>guy<s n="n"/></l><r>жігіт<s n="n"/></r></p></e>
 
 
 <!--ProPER NOUNS -->
@@ -3353,7 +3396,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Tengiz<s n="np"/><s n="al"/></l><r>Тенгиз<s n="np"/><s n="org"/></r></p></e>
   <e><p><l>OSCE<s n="np"/><s n="al"/><s n="sg"/></l><r>ЕҚЫҰ<s n="abbr"/></r></p></e>
     <e><p><l>Reuters<s n="np"/><s n="al"/><s n="sg"/></l><r>Реутерс<s n="np"/><s n="org"/></r></p></e>
-
+ <e><p><l>Harvard<s n="np"/><s n="al"/><s n="sg"/></l><r>Гарвард<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Marine<s n="np"/><s n="al"/><s n="sg"/></l><r>Марин<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Tour<s n="np"/><s n="al"/><s n="sg"/></l><r>Тур<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Microsoft<s n="np"/><s n="al"/><s n="sg"/></l><r>Майкрософт<s n="np"/><s n="org"/></r></p></e>
+    <e><p><l>Trust<s n="np"/><s n="al"/><s n="sg"/></l><r>Траст<s n="np"/><s n="org"/></r></p></e>
 
 
 <e><p><l>BBC<s n="n"/><s n="acr"/></l><r>ББС<s n="abbr"/></r></p></e>
@@ -3376,6 +3423,50 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>Ajgul<s n="np"/><s n="ant"/><s n="f"/></l><r>Айгүл<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
  <e><p><l>Sofia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Софья<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Solana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Солана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>India<s n="np"/><s n="ant"/><s n="f"/></l><r>Индия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Virginia<s n="np"/><s n="ant"/><s n="f"/></l><r>Виргиния<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Maria<s n="np"/><s n="ant"/><s n="f"/></l><r>Мария<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Victoria<s n="np"/><s n="ant"/><s n="f"/></l><r>Виктория<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Indiana<s n="np"/><s n="ant"/><s n="f"/></l><r>Индиана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Carolina<s n="np"/><s n="ant"/><s n="f"/></l><r>Каролина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Anna<s n="np"/><s n="ant"/><s n="f"/></l><r>Анна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Barbara<s n="np"/><s n="ant"/><s n="f"/></l><r>Барбара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Santa<s n="np"/><s n="ant"/><s n="f"/></l><r>Санта<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Dakota<s n="np"/><s n="ant"/><s n="f"/></l><r>Дакота<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Alice<s n="np"/><s n="ant"/><s n="f"/></l><r>Алиса<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Charlie<s n="np"/><s n="ant"/><s n="f"/></l><r>Чарли<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Marie<s n="np"/><s n="ant"/><s n="f"/></l><r>Мари<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Jane<s n="np"/><s n="ant"/><s n="f"/></l><r>Джейн<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Philippine<s n="np"/><s n="ant"/><s n="f"/></l><r>Филиппина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Marine<s n="np"/><s n="ant"/><s n="f"/></l><r>Марина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Catherine<s n="np"/><s n="ant"/><s n="f"/></l><r>Екатерина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Anne<s n="np"/><s n="ant"/><s n="f"/></l><r>Энн<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Charlotte<s n="np"/><s n="ant"/><s n="f"/></l><r>Шарлотта<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Sarah<s n="np"/><s n="ant"/><s n="f"/></l><r>Сара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Elizabeth<s n="np"/><s n="ant"/><s n="f"/></l><r>Элизабет<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Kim<s n="np"/><s n="ant"/><s n="f"/></l><r>Ким<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Jean<s n="np"/><s n="ant"/><s n="f"/></l><r>Джин<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Morgan<s n="np"/><s n="ant"/><s n="f"/></l><r>Морган<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Christian<s n="np"/><s n="ant"/><s n="f"/></l><r>Кристиан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Jan<s n="np"/><s n="ant"/><s n="f"/></l><r>Яна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Ryan<s n="np"/><s n="ant"/><s n="f"/></l><r>Райан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Robin<s n="np"/><s n="ant"/><s n="f"/></l><r>Робин<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Ann<s n="np"/><s n="ant"/><s n="f"/></l><r>Энн<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Madison<s n="np"/><s n="ant"/><s n="f"/></l><r>Мэдисон<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Brooklyn<s n="np"/><s n="ant"/><s n="f"/></l><r>Бруклин<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Parker<s n="np"/><s n="ant"/><s n="f"/></l><r>Паркер<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Taylor<s n="np"/><s n="ant"/><s n="f"/></l><r>Тейлор<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Paris<s n="np"/><s n="ant"/><s n="f"/></l><r>Пэрис<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Princess<s n="np"/><s n="ant"/><s n="f"/></l><r>Принцесса<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Margaret<s n="np"/><s n="ant"/><s n="f"/></l><r>Маргарет<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Alex<s n="np"/><s n="ant"/><s n="f"/></l><r>Алекс<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Kennedy<s n="np"/><s n="ant"/><s n="f"/></l><r>Кеннеди<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Sydney<s n="np"/><s n="ant"/><s n="f"/></l><r>Сидней<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Kelly<s n="np"/><s n="ant"/><s n="f"/></l><r>Келли<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Trinity<s n="np"/><s n="ant"/><s n="f"/></l><r>Тринити<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+
+
 
     <e><p><l>Nikola<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>George<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Джордж<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -3430,6 +3521,172 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Alain<s n="np"/><s n="ant"/><s n="m"/></l><r>Алайн<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Alanis<s n="np"/><s n="ant"/><s n="f"/></l><r>Аланис<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Alan<s n="np"/><s n="ant"/><s n="m"/></l><r>Алан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Dakota<s n="np"/><s n="ant"/><s n="m"/></l><r>Дакота<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Bob<s n="np"/><s n="ant"/><s n="m"/></l><r>Боб<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jacob<s n="np"/><s n="ant"/><s n="m"/></l><r>Иаков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Eric<s n="np"/><s n="ant"/><s n="m"/></l><r>Эрик<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Muhammad<s n="np"/><s n="ant"/><s n="m"/></l><r>Мухаммед<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Fred<s n="np"/><s n="ant"/><s n="m"/></l><r>Фред<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Alfred<s n="np"/><s n="ant"/><s n="m"/></l><r>Альфред<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>David<s n="np"/><s n="ant"/><s n="m"/></l><r>Дэвид<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Donald<s n="np"/><s n="ant"/><s n="m"/></l><r>Дональд<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Richard<s n="np"/><s n="ant"/><s n="m"/></l><r>Ричард<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Bernard<s n="np"/><s n="ant"/><s n="m"/></l><r>Бернард<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Edward<s n="np"/><s n="ant"/><s n="m"/></l><r>Эдвард<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Howard<s n="np"/><s n="ant"/><s n="m"/></l><r>Говард<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lawrence<s n="np"/><s n="ant"/><s n="m"/></l><r>Лоренс<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Prince<s n="np"/><s n="ant"/><s n="m"/></l><r>Принц<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Bruce<s n="np"/><s n="ant"/><s n="m"/></l><r>Брюс<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lee<s n="np"/><s n="ant"/><s n="m"/></l><r>Ли<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Charlie<s n="np"/><s n="ant"/><s n="m"/></l><r>Чарли<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Mike<s n="np"/><s n="ant"/><s n="m"/></l><r>Майк<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Luke<s n="np"/><s n="ant"/><s n="m"/></l><r>Лука<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lane<s n="np"/><s n="ant"/><s n="m"/></l><r>Лэйн<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Wayne<s n="np"/><s n="ant"/><s n="m"/></l><r>Уэйн<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Joe<s n="np"/><s n="ant"/><s n="m"/></l><r>Джо<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Pierre<s n="np"/><s n="ant"/><s n="m"/></l><r>Пьер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>José<s n="np"/><s n="ant"/><s n="m"/></l><r>Хосе<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Steve<s n="np"/><s n="ant"/><s n="m"/></l><r>Стив<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jeff<s n="np"/><s n="ant"/><s n="m"/></l><r>Джефф<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Hugh<s n="np"/><s n="ant"/><s n="m"/></l><r>Хью<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Joseph<s n="np"/><s n="ant"/><s n="m"/></l><r>Джозеф<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Keith<s n="np"/><s n="ant"/><s n="m"/></l><r>Кит<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jack<s n="np"/><s n="ant"/><s n="m"/></l><r>Джек<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dick<s n="np"/><s n="ant"/><s n="m"/></l><r>Дик<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Nick<s n="np"/><s n="ant"/><s n="m"/></l><r>Ник<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Frederick<s n="np"/><s n="ant"/><s n="m"/></l><r>Фредерик<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Patrick<s n="np"/><s n="ant"/><s n="m"/></l><r>Патрик<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Frank<s n="np"/><s n="ant"/><s n="m"/></l><r>Фрэнк<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Clark<s n="np"/><s n="ant"/><s n="m"/></l><r>Кларк<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Mark<s n="np"/><s n="ant"/><s n="m"/></l><r>Марк<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Al<s n="np"/><s n="ant"/><s n="m"/></l><r>Аль<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Michael<s n="np"/><s n="ant"/><s n="m"/></l><r>Майкл<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Daniel<s n="np"/><s n="ant"/><s n="m"/></l><r>Даниил<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Samuel<s n="np"/><s n="ant"/><s n="m"/></l><r>Самуил<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Marshall<s n="np"/><s n="ant"/><s n="m"/></l><r>Маршалл<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Mitchell<s n="np"/><s n="ant"/><s n="m"/></l><r>Митчелл<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Russell<s n="np"/><s n="ant"/><s n="m"/></l><r>Рассел<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Bill<s n="np"/><s n="ant"/><s n="m"/></l><r>Билл<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Carl<s n="np"/><s n="ant"/><s n="m"/></l><r>Карл<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Earl<s n="np"/><s n="ant"/><s n="m"/></l><r>Эрл<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Karl<s n="np"/><s n="ant"/><s n="m"/></l><r>Карл<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Paul<s n="np"/><s n="ant"/><s n="m"/></l><r>Пол<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Graham<s n="np"/><s n="ant"/><s n="m"/></l><r>Грэхем<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>William<s n="np"/><s n="ant"/><s n="m"/></l><r>Уильям<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Sam<s n="np"/><s n="ant"/><s n="m"/></l><r>Сэм<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jim<s n="np"/><s n="ant"/><s n="m"/></l><r>Джим<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tim<s n="np"/><s n="ant"/><s n="m"/></l><r>Тим<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tom<s n="np"/><s n="ant"/><s n="m"/></l><r>Том<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dan<s n="np"/><s n="ant"/><s n="m"/></l><r>Дэн<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dean<s n="np"/><s n="ant"/><s n="m"/></l><r>Дин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jean<s n="np"/><s n="ant"/><s n="m"/></l><r>Джин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Morgan<s n="np"/><s n="ant"/><s n="m"/></l><r>Морган<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jonathan<s n="np"/><s n="ant"/><s n="m"/></l><r>Джонатан<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ian<s n="np"/><s n="ant"/><s n="m"/></l><r>Ян<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Brian<s n="np"/><s n="ant"/><s n="m"/></l><r>Брайан<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Christian<s n="np"/><s n="ant"/><s n="m"/></l><r>Кристиан<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jan<s n="np"/><s n="ant"/><s n="m"/></l><r>Ян<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Roman<s n="np"/><s n="ant"/><s n="m"/></l><r>Роман<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Norman<s n="np"/><s n="ant"/><s n="m"/></l><r>Норман<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Juan<s n="np"/><s n="ant"/><s n="m"/></l><r>Хуан<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ryan<s n="np"/><s n="ant"/><s n="m"/></l><r>Райан<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ben<s n="np"/><s n="ant"/><s n="m"/></l><r>Бен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Stephen<s n="np"/><s n="ant"/><s n="m"/></l><r>Стивен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ken<s n="np"/><s n="ant"/><s n="m"/></l><r>Кен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Allen<s n="np"/><s n="ant"/><s n="m"/></l><r>Аллен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Warren<s n="np"/><s n="ant"/><s n="m"/></l><r>Уаррен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>John<s n="np"/><s n="ant"/><s n="m"/></l><r>Джон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Franklin<s n="np"/><s n="ant"/><s n="m"/></l><r>Франклин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Benjamin<s n="np"/><s n="ant"/><s n="m"/></l><r>Вениамин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Martin<s n="np"/><s n="ant"/><s n="m"/></l><r>Мартин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Austin<s n="np"/><s n="ant"/><s n="m"/></l><r>Остин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kevin<s n="np"/><s n="ant"/><s n="m"/></l><r>Кевин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lincoln<s n="np"/><s n="ant"/><s n="m"/></l><r>Линкольн<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Don<s n="np"/><s n="ant"/><s n="m"/></l><r>Дон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Gordon<s n="np"/><s n="ant"/><s n="m"/></l><r>Гордон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Simon<s n="np"/><s n="ant"/><s n="m"/></l><r>Саймон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jason<s n="np"/><s n="ant"/><s n="m"/></l><r>Джейсон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Hudson<s n="np"/><s n="ant"/><s n="m"/></l><r>Гудзон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Harrison<s n="np"/><s n="ant"/><s n="m"/></l><r>Харрисон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jackson<s n="np"/><s n="ant"/><s n="m"/></l><r>Джексон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Nelson<s n="np"/><s n="ant"/><s n="m"/></l><r>Нельсон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Wilson<s n="np"/><s n="ant"/><s n="m"/></l><r>Уилсон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Anderson<s n="np"/><s n="ant"/><s n="m"/></l><r>Андерсон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jefferson<s n="np"/><s n="ant"/><s n="m"/></l><r>Джефферсон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Clinton<s n="np"/><s n="ant"/><s n="m"/></l><r>Клинтон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Houston<s n="np"/><s n="ant"/><s n="m"/></l><r>Хьюстон<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Rico<s n="np"/><s n="ant"/><s n="m"/></l><r>Рико<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Francisco<s n="np"/><s n="ant"/><s n="m"/></l><r>Франциско<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Diego<s n="np"/><s n="ant"/><s n="m"/></l><r>Диего<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Antonio<s n="np"/><s n="ant"/><s n="m"/></l><r>Антонио<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Philip<s n="np"/><s n="ant"/><s n="m"/></l><r>Филипп<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Александр<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Roger<s n="np"/><s n="ant"/><s n="m"/></l><r>Роджер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Christopher<s n="np"/><s n="ant"/><s n="m"/></l><r>Кристофер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Walker<s n="np"/><s n="ant"/><s n="m"/></l><r>Уалкер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Parker<s n="np"/><s n="ant"/><s n="m"/></l><r>Паркер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Turner<s n="np"/><s n="ant"/><s n="m"/></l><r>Тернер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Cooper<s n="np"/><s n="ant"/><s n="m"/></l><r>Купер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Peter<s n="np"/><s n="ant"/><s n="m"/></l><r>Питер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Walter<s n="np"/><s n="ant"/><s n="m"/></l><r>Вальтер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Carter<s n="np"/><s n="ant"/><s n="m"/></l><r>Картер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Oliver<s n="np"/><s n="ant"/><s n="m"/></l><r>Оливер<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Junior<s n="np"/><s n="ant"/><s n="m"/></l><r>Юниор<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Taylor<s n="np"/><s n="ant"/><s n="m"/></l><r>Тейлор<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Victor<s n="np"/><s n="ant"/><s n="m"/></l><r>Виктор<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Arthur<s n="np"/><s n="ant"/><s n="m"/></l><r>Артур<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Douglas<s n="np"/><s n="ant"/><s n="m"/></l><r>Дуглас<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dallas<s n="np"/><s n="ant"/><s n="m"/></l><r>Даллас<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Nicholas<s n="np"/><s n="ant"/><s n="m"/></l><r>Николай<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Thomas<s n="np"/><s n="ant"/><s n="m"/></l><r>Томас<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Charles<s n="np"/><s n="ant"/><s n="m"/></l><r>Чарльз<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Francis<s n="np"/><s n="ant"/><s n="m"/></l><r>Фрэнсис<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Chris<s n="np"/><s n="ant"/><s n="m"/></l><r>Крис<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Louis<s n="np"/><s n="ant"/><s n="m"/></l><r>Луис<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Davis<s n="np"/><s n="ant"/><s n="m"/></l><r>Дэвис<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lewis<s n="np"/><s n="ant"/><s n="m"/></l><r>Льюис<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Williams<s n="np"/><s n="ant"/><s n="m"/></l><r>Уильямс<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Carlos<s n="np"/><s n="ant"/><s n="m"/></l><r>Карлос<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ross<s n="np"/><s n="ant"/><s n="m"/></l><r>Росс<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Cross<s n="np"/><s n="ant"/><s n="m"/></l><r>Кросс<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jesus<s n="np"/><s n="ant"/><s n="m"/></l><r>Иисус<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Grant<s n="np"/><s n="ant"/><s n="m"/></l><r>Грант<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Vincent<s n="np"/><s n="ant"/><s n="m"/></l><r>Винсент<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kent<s n="np"/><s n="ant"/><s n="m"/></l><r>Кент<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Albert<s n="np"/><s n="ant"/><s n="m"/></l><r>Альберт<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Robert<s n="np"/><s n="ant"/><s n="m"/></l><r>Роберт<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Herbert<s n="np"/><s n="ant"/><s n="m"/></l><r>Герберт<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Christ<s n="np"/><s n="ant"/><s n="m"/></l><r>Христос<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Scott<s n="np"/><s n="ant"/><s n="m"/></l><r>Скотт<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Matthew<s n="np"/><s n="ant"/><s n="m"/></l><r>Мэтью<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Andrew<s n="np"/><s n="ant"/><s n="m"/></l><r>Эндрю<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Max<s n="np"/><s n="ant"/><s n="m"/></l><r>Макс<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Alex<s n="np"/><s n="ant"/><s n="m"/></l><r>Алекс<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Phoenix<s n="np"/><s n="ant"/><s n="m"/></l><r>Финикс<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jay<s n="np"/><s n="ant"/><s n="m"/></l><r>Джэй<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Bobby<s n="np"/><s n="ant"/><s n="m"/></l><r>Бобби<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kennedy<s n="np"/><s n="ant"/><s n="m"/></l><r>Кеннеди<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Andy<s n="np"/><s n="ant"/><s n="m"/></l><r>Энди<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Stanley<s n="np"/><s n="ant"/><s n="m"/></l><r>Стэнли<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kelly<s n="np"/><s n="ant"/><s n="m"/></l><r>Келли<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Billy<s n="np"/><s n="ant"/><s n="m"/></l><r>Билли<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jimmy<s n="np"/><s n="ant"/><s n="m"/></l><r>Джимми<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Johnny<s n="np"/><s n="ant"/><s n="m"/></l><r>Джонни<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Anthony<s n="np"/><s n="ant"/><s n="m"/></l><r>Энтони<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tony<s n="np"/><s n="ant"/><s n="m"/></l><r>Тони<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Roy<s n="np"/><s n="ant"/><s n="m"/></l><r>Рой<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Gary<s n="np"/><s n="ant"/><s n="m"/></l><r>Гари<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Henry<s n="np"/><s n="ant"/><s n="m"/></l><r>Генри<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Barry<s n="np"/><s n="ant"/><s n="m"/></l><r>Барри<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Harry<s n="np"/><s n="ant"/><s n="m"/></l><r>Гарри<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Larry<s n="np"/><s n="ant"/><s n="m"/></l><r>Ларри<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jerry<s n="np"/><s n="ant"/><s n="m"/></l><r>Джерри<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Perry<s n="np"/><s n="ant"/><s n="m"/></l><r>Перри<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Terry<s n="np"/><s n="ant"/><s n="m"/></l><r>Терри<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Guy<s n="np"/><s n="ant"/><s n="m"/></l><r>Гай<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+
+
+
 
 
   <e><p><l>Nazarbayev<s n="np"/><s n="cog"/></l><r>Назарбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -3458,7 +3715,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>Stewart<s n="np"/><s n="cog"/></l><r>Стюарт<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Murray<s n="np"/><s n="cog"/></l><r>Мюррей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Disney<s n="np"/><s n="cog"/></l><r>Дисней<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-
+<e><p><l>Smith<s n="np"/><s n="cog"/><s n="sg"/></l><r>Смит<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Jackson<s n="np"/><s n="cog"/><s n="sg"/></l><r>Джексон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Clinton<s n="np"/><s n="cog"/><s n="sg"/></l><r>Клинтон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Rico<s n="np"/><s n="cog"/><s n="sg"/></l><r>Рико<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Parker<s n="np"/><s n="cog"/><s n="sg"/></l><r>Паркер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Miller<s n="np"/><s n="cog"/><s n="sg"/></l><r>Миллер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Mayor<s n="np"/><s n="cog"/><s n="sg"/></l><r>Майор<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Kennedy<s n="np"/><s n="cog"/><s n="sg"/></l><r>Кеннеди<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
 
 
@@ -3478,6 +3742,23 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e><p><l>billion<s n="num"/><s n="sg"/></l><r>миллиард<s n="num"/></r></p></e>
 <e><p><l>million<s n="num"/><s n="sg"/></l><r>миллион<s n="num"/></r></p></e>
+
+
+
+    <e><p><l>C<s n="num"/><s n="mf"/><s n="sg"/></l><r>C<s n="num"/></r></p></e>
+    <e><p><l>DC<s n="num"/><s n="mf"/><s n="sg"/></l><r>DC<s n="num"/></r></p></e>
+    <e><p><l>D<s n="num"/><s n="mf"/><s n="sg"/></l><r>D<s n="num"/></r></p></e>
+    <e><p><l>CD<s n="num"/><s n="mf"/><s n="sg"/></l><r>CD<s n="num"/></r></p></e>
+    <e><p><l>DVD<s n="num"/><s n="mf"/><s n="sg"/></l><r>DVD<s n="num"/></r></p></e>
+    <e><p><l>II<s n="num"/><s n="mf"/><s n="sg"/></l><r>II<s n="num"/></r></p></e>
+    <e><p><l>III<s n="num"/><s n="mf"/><s n="sg"/></l><r>III<s n="num"/></r></p></e>
+    <e><p><l>VI<s n="num"/><s n="mf"/><s n="sg"/></l><r>VI<s n="num"/></r></p></e>
+    <e><p><l>L<s n="num"/><s n="mf"/><s n="sg"/></l><r>L<s n="num"/></r></p></e>
+    <e><p><l>M<s n="num"/><s n="mf"/><s n="sg"/></l><r>M<s n="num"/></r></p></e>
+    <e><p><l>V<s n="num"/><s n="mf"/><s n="sg"/></l><r>V<s n="num"/></r></p></e>
+    <e><p><l>IV<s n="num"/><s n="mf"/><s n="sg"/></l><r>IV<s n="num"/></r></p></e>
+    <e><p><l>X<s n="num"/><s n="mf"/><s n="sg"/></l><r>X<s n="num"/></r></p></e>
+
     <!-- Раздел: Союз -->
 <e><p><l>if<s n="cnjadv"/></l><r>егер<s n="cnjsub"/></r></p></e>
 <e><p><l>until<s n="cnjadv"/></l><r>шейін<s n="cnjsub"/></r></p></e>
@@ -4225,6 +4506,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>much<s n="det"/><s n="qnt"/><s n="sg"/></l><r>көбірек<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>less<s n="det"/><s n="qnt"/><s n="sg"/></l><r>азырақ<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>itself<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
+ <e><p><l>herself<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
+<e><p><l>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
 
 <e><p><l>anything<s n="prn"/><s n="tn"/><s n="m"/></l><r>бір<b/>нәрсе<s n="prn"/><s n="ind"/></r></p></e>
 
@@ -4241,7 +4524,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>others<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>басқалар<s n="prn"/><s n="ind"/><s n="pl"/></r></p></e>
     <e><p><l>few<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>бірнеше<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>few<s n="det"/><s n="qnt"/><s n="pl"/></l><r>бірнеше<s n="det"/><s n="qnt"/></r></p></e>
-    
+    <e><p><l>someone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>anyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>everyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәрі<s n="prn"/><s n="qnt"/></r></p></e>
 
 
 
@@ -4289,6 +4574,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e r="LR"><p><l>would<s n="vaux"/></l><r></r></p></e>
     <e r="LR"><p><l>will<s n="vaux"/></l><r></r></p></e>
     <e r="LR"><p><l>do<s n="vbdo"/></l><r></r></p></e>
+  <e r="LR"><p><l>shall<s n="vaux"/></l><r></r></p></e>
+    <e r="LR"><p><l>might<s n="vaux"/></l><r></r></p></e>
+   
     <e r="LR"><p><l>have<s n="vbhaver"/></l><r></r></p></e>
     <e r="LR"><p><l>have<g><b/>to</g><s n="vbmod"/></l><r></r></p></e>
     <e r="LR"><p><l>want<g><b/>to</g><s n="vbmod"/></l><r></r></p></e>

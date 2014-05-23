@@ -3403,6 +3403,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>Trust<s n="np"/><s n="al"/><s n="sg"/></l><r>Траст<s n="np"/><s n="org"/></r></p></e>
 
 
+
+
 <e><p><l>BBC<s n="n"/><s n="acr"/></l><r>ББС<s n="abbr"/></r></p></e>
     <e><p><l>PKK<s n="n"/><s n="acr"/></l><r>PKK<s n="abbr"/></r></p></e>
     <e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="abbr"/></r></p></e>
@@ -3411,6 +3413,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>AFP<s n="n"/><s n="acr"/></l><r>AFP<s n="abbr"/></r></p></e>
     <e><p><l>EU<s n="n"/><s n="acr"/></l><r>ЕО<s n="abbr"/></r></p></e>
     <e><p><l>TV<s n="n"/><s n="acr"/></l><r>ТВ<s n="abbr"/></r></p></e>
+<e><p><l>CD<s n="n"/><s n="acr"/></l><r>CD<s n="abbr"/></r></p></e>
+<e><p><l>DVD<s n="n"/><s n="acr"/></l><r>DVD<s n="abbr"/></r></p></e>
 
     <!-- Раздел: Имя Собственное -->
 
@@ -4440,6 +4444,204 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>airy<s n="adj"/><s n="sint"/></l><r>әуе<s n="adj"/></r></p></e>
 <e><p><l>akin<s n="adj"/><s n="sint"/></l><r>ұқсас<s n="adj"/></r></p></e>
 <e><p><l>alcoholic<s n="adj"/></l><r>маскүнем<s n="adj"/></r></p></e>
+<e><p><l>extra<s n="adj"/></l><r>айрықша<s n="adj"/></r></p></e>
+<e><p><l>scientific<s n="adj"/></l><r>ғылыми<s n="adj"/></r></p></e>
+<e><p><l>catholic<s n="adj"/></l><r>католик<s n="adj"/></r></p></e>
+<e><p><l>endemic<s n="adj"/></l><r>эндемиялық<s n="adj"/></r></p></e>
+<e><p><l>hispanic<s n="adj"/></l><r>испандық<s n="adj"/></r></p></e>
+<e><p><l>electronic<s n="adj"/></l><r>электрондық<s n="adj"/></r></p></e>
+<e><p><l>historic<s n="adj"/></l><r>тарихи<s n="adj"/></r></p></e>
+<e><p><l>classic<s n="adj"/></l><r>классикалық<s n="adj"/></r></p></e>
+<e><p><l>dramatic<s n="adj"/></l><r>драмалы<s n="adj"/></r></p></e>
+<e><p><l>characteristic<s n="adj"/></l><r>мінездемелі<s n="adj"/></r></p></e>
+<e><p><l>widespread<s n="adj"/></l><r>жаядай<s n="adj"/></r></p></e>
+<e><p><l>placed<s n="adj"/></l><r>орналастырылған<s n="adj"/></r></p></e>
+<e><p><l>recommended<s n="adj"/></l><r>ұсынылған<s n="adj"/></r></p></e>
+<e><p><l>distinguished<s n="adj"/></l><r>үздік<s n="adj"/></r></p></e>
+<e><p><l>qualified<s n="adj"/></l><r>білікті<s n="adj"/></r></p></e>
+<e><p><l>classified<s n="adj"/></l><r>классификацияланған<s n="adj"/></r></p></e>
+<e><p><l>allied<s n="adj"/></l><r>жақын<s n="adj"/></r></p></e>
+<e><p><l>marked<s n="adj"/></l><r>белгіленген<s n="adj"/></r></p></e>
+<e><p><l>installed<s n="adj"/></l><r>орнатылған<s n="adj"/></r></p></e>
+<e><p><l>renowned<s n="adj"/></l><r>атайы<s n="adj"/></r></p></e>
+<e><p><l>inspired<s n="adj"/></l><r>шабытты<s n="adj"/></r></p></e>
+<e><p><l>scored<s n="adj"/></l><r>есептелген<s n="adj"/></r></p></e>
+<e><p><l>supposed<s n="adj"/></l><r>ұйғарылған<s n="adj"/></r></p></e>
+<e><p><l>exposed<s n="adj"/></l><r>шығарылған<s n="adj"/></r></p></e>
+<e><p><l>defeated<s n="adj"/></l><r>әкелінген<s n="adj"/></r></p></e>
+<e><p><l>celebrated<s n="adj"/></l><r>мерекеленген<s n="adj"/></r></p></e>
+<e><p><l>integrated<s n="adj"/></l><r>енгізілген<s n="adj"/></r></p></e>
+<e><p><l>pointed<s n="adj"/></l><r>көрсетілген<s n="adj"/></r></p></e>
+<e><p><l>mixed<s n="adj"/></l><r>аралас<s n="adj"/></r></p></e>
+<e><p><l>rapid<s n="adj"/></l><r>аспа-жалап<s n="adj"/></r></p></e>
+<e><p><l>underground<s n="adj"/></l><r>астыртын<s n="adj"/></r></p></e>
+<e><p><l>huge<s n="adj"/></l><r>алып<s n="adj"/></r></p></e>
+<e><p><l>unlike<s n="adj"/></l><r>сүйкімсіз<s n="adj"/></r></p></e>
+<e><p><l>variable<s n="adj"/></l><r>мәнді<s n="adj"/></r></p></e>
+<e><p><l>available<s n="adj"/></l><r>қол<b/>жетімді<s n="adj"/></r></p></e>
+<e><p><l>unable<s n="adj"/></l><r>қабілетсіз<s n="adj"/></r></p></e>
+<e><p><l>capable<s n="adj"/></l><r>алғыр<s n="adj"/></r></p></e>
+<e><p><l>suitable<s n="adj"/></l><r>лайықты<s n="adj"/></r></p></e>
+<e><p><l>notable<s n="adj"/></l><r>белгілі<s n="adj"/></r></p></e>
+<e><p><l>eligible<s n="adj"/></l><r>заңды<s n="adj"/></r></p></e>
+<e><p><l>visible<s n="adj"/></l><r>айқын<s n="adj"/></r></p></e>
+<e><p><l>impossible<s n="adj"/></l><r>нанғысыз<s n="adj"/></r></p></e>
+<e><p><l>double<s n="adj"/></l><r>еселенген<s n="adj"/></r></p></e>
+<e><p><l>mobile<s n="adj"/></l><r>мобильді<s n="adj"/></r></p></e>
+<e><p><l>multiple<s n="adj"/></l><r>мульти<s n="adj"/></r></p></e>
+<e><p><l>supreme<s n="adj"/></l><r>жоғарғы<s n="adj"/></r></p></e>
+<e><p><l>extreme<s n="adj"/></l><r>қысылшаң<s n="adj"/></r></p></e>
+<e><p><l>on-line<s n="adj"/></l><r>онлайн<s n="adj"/></r></p></e>
+<e><p><l>philippine<s n="adj"/></l><r>филиппиндік<s n="adj"/></r></p></e>
+<e><p><l>marine<s n="adj"/></l><r>флоттық<s n="adj"/></r></p></e>
+<e><p><l>alone<s n="adj"/></l><r>жалғыз<s n="adj"/></r></p></e>
+<e><p><l>severe<s n="adj"/></l><r>қатал<s n="adj"/></r></p></e>
+<e><p><l>japanese<s n="adj"/></l><r>жапондық<s n="adj"/></r></p></e>
+<e><p><l>portuguese<s n="adj"/></l><r>португальдік<s n="adj"/></r></p></e>
+<e><p><l>immediate<s n="adj"/></l><r>тез<s n="adj"/></r></p></e>
+<e><p><l>corporate<s n="adj"/></l><r>корпоративтік<s n="adj"/></r></p></e>
+<e><p><l>favourite<s n="adj"/></l><r>сүйікті<s n="adj"/></r></p></e>
+<e><p><l>remote<s n="adj"/></l><r>алыс<s n="adj"/></r></p></e>
+<e><p><l>unique<s n="adj"/></l><r>бірегей<s n="adj"/></r></p></e>
+<e><p><l>defensive<s n="adj"/></l><r>қорғаныстық<s n="adj"/></r></p></e>
+<e><p><l>offensive<s n="adj"/></l><r>шабуылдық<s n="adj"/></r></p></e>
+<e><p><l>comprehensive<s n="adj"/></l><r>қырлы<s n="adj"/></r></p></e>
+<e><p><l>extensive<s n="adj"/></l><r>аумақты<s n="adj"/></r></p></e>
+<e><p><l>massive<s n="adj"/></l><r>тоқпақтай<s n="adj"/></r></p></e>
+<e><p><l>exclusive<s n="adj"/></l><r>ерекше<s n="adj"/></r></p></e>
+<e><p><l>creative<s n="adj"/></l><r>шығармашылық<s n="adj"/></r></p></e>
+<e><p><l>negative<s n="adj"/></l><r>теріс<s n="adj"/></r></p></e>
+<e><p><l>legislative<s n="adj"/></l><r>заң<b/>шығаратын<s n="adj"/></r></p></e>
+<e><p><l>native<s n="adj"/></l><r>жақын<s n="adj"/></r></p></e>
+<e><p><l>conservative<s n="adj"/></l><r>кертартпа<s n="adj"/></r></p></e>
+<e><p><l>respective<s n="adj"/></l><r>лайықты<s n="adj"/></r></p></e>
+<e><p><l>distinctive<s n="adj"/></l><r>айырымды<s n="adj"/></r></p></e>
+<e><p><l>competitive<s n="adj"/></l><r>бәсекелі<s n="adj"/></r></p></e>
+<e><p><l>consecutive<s n="adj"/></l><r>дәйекті<s n="adj"/></r></p></e>
+<e><p><l>executive<s n="adj"/></l><r>әкімшілік<s n="adj"/></r></p></e>
+<e><p><l>trading<s n="adj"/></l><r>саудалы<s n="adj"/></r></p></e>
+<e><p><l>understanding<s n="adj"/></l><r>түсінікті<s n="adj"/></r></p></e>
+<e><p><l>outstanding<s n="adj"/></l><r>үздік<s n="adj"/></r></p></e>
+<e><p><l>corresponding<s n="adj"/></l><r>берілетін<s n="adj"/></r></p></e>
+<e><p><l>surrounding<s n="adj"/></l><r>қоршаулы<s n="adj"/></r></p></e>
+<e><p><l>mining<s n="adj"/></l><r>сүйкімді<s n="adj"/></r></p></e>
+<e><p><l>missing<s n="adj"/></l><r>болмаған<s n="adj"/></r></p></e>
+<e><p><l>resulting<s n="adj"/></l><r>нәтижелі<s n="adj"/></r></p></e>
+<e><p><l>wrong<s n="adj"/></l><r>қателі<s n="adj"/></r></p></e>
+<e><p><l>dutch<s n="adj"/></l><r>голландиялық <s n="adj"/></r></p></e>
+<e><p><l>swedish<s n="adj"/></l><r>шведтік<s n="adj"/></r></p></e>
+<e><p><l>danish<s n="adj"/></l><r>даниялық<s n="adj"/></r></p></e>
+<e><p><l>spanish<s n="adj"/></l><r>испаниялық<s n="adj"/></r></p></e>
+<e><p><l>finnish<s n="adj"/></l><r>финдік<s n="adj"/></r></p></e>
+<e><p><l>parish<s n="adj"/></l><r>шіркеулік<s n="adj"/></r></p></e>
+<e><p><l>irish<s n="adj"/></l><r>ирландиялық<s n="adj"/></r></p></e>
+<e><p><l>scottish<s n="adj"/></l><r>шотландиялық<s n="adj"/></r></p></e>
+<e><p><l>jewish<s n="adj"/></l><r>иудейлік<s n="adj"/></r></p></e>
+<e><p><l>welsh<s n="adj"/></l><r>валлийлік<s n="adj"/></r></p></e>
+<e><p><l>israeli<s n="adj"/></l><r>израильдік<s n="adj"/></r></p></e>
+<e><p><l>nazi<s n="adj"/></l><r>фашистік<s n="adj"/></r></p></e>
+<e><p><l>stock<s n="adj"/></l><r>фондтық<s n="adj"/></r></p></e>
+<e><p><l>frank<s n="adj"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>biological<s n="adj"/></l><r>биологиялық<s n="adj"/></r></p></e>
+<e><p><l>mechanical<s n="adj"/></l><r>механикалық<s n="adj"/></r></p></e>
+<e><p><l>clinical<s n="adj"/></l><r>клиникалық<s n="adj"/></r></p></e>
+<e><p><l>tropical<s n="adj"/></l><r>тропикалық<s n="adj"/></r></p></e>
+<e><p><l>typical<s n="adj"/></l><r>типті<s n="adj"/></r></p></e>
+<e><p><l>historical<s n="adj"/></l><r>тарихи<s n="adj"/></r></p></e>
+<e><p><l>electrical<s n="adj"/></l><r>электрлік<s n="adj"/></r></p></e>
+<e><p><l>classical<s n="adj"/></l><r>классикалық<s n="adj"/></r></p></e>
+<e><p><l>musical<s n="adj"/></l><r>музыкалық<s n="adj"/></r></p></e>
+<e><p><l>practical<s n="adj"/></l><r>практикалық<s n="adj"/></r></p></e>
+<e><p><l>identical<s n="adj"/></l><r>бірдей<s n="adj"/></r></p></e>
+<e><p><l>vertical<s n="adj"/></l><r>тік<s n="adj"/></r></p></e>
+<e><p><l>vocal<s n="adj"/></l><r>дауыс<s n="adj"/></r></p></e>
+<e><p><l>racial<s n="adj"/></l><r>нәсілдік<s n="adj"/></r></p></e>
+<e><p><l>provincial<s n="adj"/></l><r>провинциалды<s n="adj"/></r></p></e>
+<e><p><l>commercial<s n="adj"/></l><r>коммерциялық<s n="adj"/></r></p></e>
+<e><p><l>colonial<s n="adj"/></l><r>отарлық<s n="adj"/></r></p></e>
+<e><p><l>imperial<s n="adj"/></l><r>империялық<s n="adj"/></r></p></e>
+<e><p><l>controversial<s n="adj"/></l><r>даулы<s n="adj"/></r></p></e>
+<e><p><l>initial<s n="adj"/></l><r>алғы<s n="adj"/></r></p></e>
+<e><p><l>residential<s n="adj"/></l><r>тұрғын<s n="adj"/></r></p></e>
+<e><p><l>essential<s n="adj"/></l><r>байыпты<s n="adj"/></r></p></e>
+<e><p><l>influential<s n="adj"/></l><r>ықпалды<s n="adj"/></r></p></e>
+<e><p><l>formal<s n="adj"/></l><r>формалды<s n="adj"/></r></p></e>
+<e><p><l>terminal<s n="adj"/></l><r>терминалды<s n="adj"/></r></p></e>
+<e><p><l>professional<s n="adj"/></l><r>кәсіби<s n="adj"/></r></p></e>
+<e><p><l>educational<s n="adj"/></l><r>білімді<s n="adj"/></r></p></e>
+<e><p><l>operational<s n="adj"/></l><r>шұғыл<s n="adj"/></r></p></e>
+<e><p><l>traditional<s n="adj"/></l><r>дәстүрлі<s n="adj"/></r></p></e>
+<e><p><l>conventional<s n="adj"/></l><r>кесімді<s n="adj"/></r></p></e>
+<e><p><l>personal<s n="adj"/></l><r>дербес<s n="adj"/></r></p></e>
+<e><p><l>internal<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
+<e><p><l>external<s n="adj"/></l><r>сыртқы<s n="adj"/></r></p></e>
+<e><p><l>municipal<s n="adj"/></l><r>муниципалды<s n="adj"/></r></p></e>
+<e><p><l>principal<s n="adj"/></l><r>басты<s n="adj"/></r></p></e>
+<e><p><l>liberal<s n="adj"/></l><r>ымырашыл<s n="adj"/></r></p></e>
+<e><p><l>federal<s n="adj"/></l><r>федералды<s n="adj"/></r></p></e>
+<e><p><l>moral<s n="adj"/></l><r>моралді<s n="adj"/></r></p></e>
+<e><p><l>electoral<s n="adj"/></l><r>талғамал<s n="adj"/></r></p></e>
+<e><p><l>rural<s n="adj"/></l><r>ауылдық<s n="adj"/></r></p></e>
+<e><p><l>architectural<s n="adj"/></l><r>архитектуралық<s n="adj"/></r></p></e>
+<e><p><l>universal<s n="adj"/></l><r>әмбебап<s n="adj"/></r></p></e>
+<e><p><l>digital<s n="adj"/></l><r>цифрлық<s n="adj"/></r></p></e>
+<e><p><l>mental<s n="adj"/></l><r>ментальді<s n="adj"/></r></p></e>
+<e><p><l>experimental<s n="adj"/></l><r>эксперименталді<s n="adj"/></r></p></e>
+<e><p><l>environmental<s n="adj"/></l><r>экологиялық<s n="adj"/></r></p></e>
+<e><p><l>instrumental<s n="adj"/></l><r>аспап<s n="adj"/></r></p></e>
+<e><p><l>coastal<s n="adj"/></l><r>жағалы<s n="adj"/></r></p></e>
+<e><p><l>dual<s n="adj"/></l><r>қос<s n="adj"/></r></p></e>
+<e><p><l>individual<s n="adj"/></l><r>жеке<s n="adj"/></r></p></e>
+<e><p><l>visual<s n="adj"/></l><r>визуалді<s n="adj"/></r></p></e>
+<e><p><l>usual<s n="adj"/></l><r>әдеттегі<s n="adj"/></r></p></e>
+<e><p><l>spiritual<s n="adj"/></l><r>рухани<s n="adj"/></r></p></e>
+<e><p><l>sexual<s n="adj"/></l><r>нәпсіқор<s n="adj"/></r></p></e>
+<e><p><l>naval<s n="adj"/></l><r>флоттық<s n="adj"/></r></p></e>
+<e><p><l>medieval<s n="adj"/></l><r>орта<s n="adj"/></r></p></e>
+<e><p><l>rival<s n="adj"/></l><r>қарсылас<s n="adj"/></r></p></e>
+<e><p><l>royal<s n="adj"/></l><r>хандық<s n="adj"/></r></p></e>
+<e><p><l>parallel<s n="adj"/></l><r>қатарлас<s n="adj"/></r></p></e>
+<e><p><l>novel<s n="adj"/></l><r>романдық<s n="adj"/></r></p></e>
+<e><p><l>retail<s n="adj"/></l><r>бөлшекті<b/>сауда<s n="adj"/></r></p></e>
+<e><p><l>patrol<s n="adj"/></l><r>шолғыншы<s n="adj"/></r></p></e>
+<e><p><l>useful<s n="adj"/></l><r>пайдалы<s n="adj"/></r></p></e>
+<e><p><l>powerful<s n="adj"/></l><r>мықты<s n="adj"/></r></p></e>
+<e><p><l>uniform<s n="adj"/></l><r>униформды<s n="adj"/></r></p></e>
+<e><p><l>minimum<s n="adj"/></l><r>минимум<s n="adj"/></r></p></e>
+<e><p><l>maximum<s n="adj"/></l><r>максимум<s n="adj"/></r></p></e>
+<e><p><l>urban<s n="adj"/></l><r>қалалық<s n="adj"/></r></p></e>
+<e><p><l>republican<s n="adj"/></l><r>республикалық<s n="adj"/></r></p></e>
+<e><p><l>mexican<s n="adj"/></l><r>мексикалық<s n="adj"/></r></p></e>
+<e><p><l>mediterranean<s n="adj"/></l><r>жерорталық<s n="adj"/></r></p></e>
+<e><p><l>korean<s n="adj"/></l><r>кореялық<s n="adj"/></r></p></e>
+<e><p><l>canadian<s n="adj"/></l><r>канадтық<s n="adj"/></r></p></e>
+<e><p><l>indian<s n="adj"/></l><r>индиялық<s n="adj"/></r></p></e>
+<e><p><l>norwegian<s n="adj"/></l><r>норвегиялық<s n="adj"/></r></p></e>
+<e><p><l>belgian<s n="adj"/></l><r>бельгиялық<s n="adj"/></r></p></e>
+<e><p><l>australian<s n="adj"/></l><r>аустралиялық<s n="adj"/></r></p></e>
+<e><p><l>brazilian<s n="adj"/></l><r>бразилиялық<s n="adj"/></r></p></e>
+<e><p><l>iranian<s n="adj"/></l><r>ирандық<s n="adj"/></r></p></e>
+<e><p><l>ukrainian<s n="adj"/></l><r>украиндық<s n="adj"/></r></p></e>
+<e><p><l>hungarian<s n="adj"/></l><r>венгрлік<s n="adj"/></r></p></e>
+<e><p><l>victorian<s n="adj"/></l><r>викторияндық<s n="adj"/></r></p></e>
+<e><p><l>austrian<s n="adj"/></l><r>аустриялық<s n="adj"/></r></p></e>
+<e><p><l>egyptian<s n="adj"/></l><r>мысырлық<s n="adj"/></r></p></e>
+<e><p><l>christian<s n="adj"/></l><r>христиандық<s n="adj"/></r></p></e>
+<e><p><l>roman<s n="adj"/></l><r>римдік<s n="adj"/></r></p></e>
+<e><p><l>metropolitan<s n="adj"/></l><r>астаналық<s n="adj"/></r></p></e>
+<e><p><l>golden<s n="adj"/></l><r>алтын<s n="adj"/></r></p></e>
+<e><p><l>wooden<s n="adj"/></l><r>ағаш<s n="adj"/></r></p></e>
+<e><p><l>virgin<s n="adj"/></l><r>бұзылмаған<s n="adj"/></r></p></e>
+<e><p><l>latin<s n="adj"/></l><r>латиндік<s n="adj"/></r></p></e>
+<e><p><l>television<s n="adj"/></l><r>теледидарламалық<s n="adj"/></r></p></e>
+<e><p><l>born<s n="adj"/></l><r>туылған<s n="adj"/></r></p></e>
+<e><p><l>worn<s n="adj"/></l><r>тозған<s n="adj"/></r></p></e>
+<e><p><l>unknown<s n="adj"/></l><r>беймәлім<s n="adj"/></r></p></e>
+<e><p><l>downtown<s n="adj"/></l><r>іскер<s n="adj"/></r></p></e>
+<e><p><l>linear<s n="adj"/></l><r>сызықты<s n="adj"/></r></p></e>
+<e><p><l>rear<s n="adj"/></l><r>артқы<s n="adj"/></r></p></e>
+<e><p><l>solar<s n="adj"/></l><r>күн<s n="adj"/></r></p></e>
+<e><p><l>carrier<s n="adj"/></l><r>тасымалдаушы<s n="adj"/></r></p></e>
 
 <!-- Order numbers-->
  <e><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>бір<s n="num"/><s n="ord"/></r></p></e> 
@@ -4527,6 +4729,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>someone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>anyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>everyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәрі<s n="prn"/><s n="qnt"/></r></p></e>
+<e><p><l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>ешбір<s n="det"/><s n="neg"/></r></p></e>
 
 
 

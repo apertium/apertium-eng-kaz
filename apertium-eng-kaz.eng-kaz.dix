@@ -3064,6 +3064,187 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>jay<s n="n"/></l><r>жорғаторғай<s n="n"/></r></p></e>
 <e><p><l>jersey<s n="n"/></l><r>джерси<s n="n"/></r></p></e>
 <e><p><l>guy<s n="n"/></l><r>жігіт<s n="n"/></r></p></e>
+<e><p><l>socialist<s n="n"/></l><r>социалист<s n="n"/></r></p></e>
+<e><p><l>formula<s n="n"/></l><r>формула<s n="n"/></r></p></e>
+<e><p><l>peninsula<s n="n"/></l><r>түбек<s n="n"/></r></p></e>
+<e><p><l>drama<s n="n"/></l><r>драма<s n="n"/></r></p></e>
+<e><p><l>opera<s n="n"/></l><r>опера<s n="n"/></r></p></e>
+<e><p><l>orchestra<s n="n"/></l><r>оркестр<s n="n"/></r></p></e>
+<e><p><l>extra<s n="n"/></l><r>айрықша<s n="n"/></r></p></e>
+<e><p><l>web<s n="n"/></l><r>өрмек<s n="n"/></r></p></e>
+<e><p><l>suburb<s n="n"/></l><r>қала<b/>маңы<s n="n"/></r></p></e>
+<e><p><l>Arabic<s n="n"/></l><r>Араб<s n="n"/></r></p></e>
+<e><p><l>traffic<s n="n"/></l><r>қозғалыс<s n="n"/></r></p></e>
+<e><p><l>Catholic<s n="n"/></l><r>Католик<s n="n"/></r></p></e>
+<e><p><l>comic<s n="n"/></l><r>күлдіргі<s n="n"/></r></p></e>
+<e><p><l>Hispanic<s n="n"/></l><r>Испандық<s n="n"/></r></p></e>
+<e><p><l>topic<s n="n"/></l><r>тақырып<s n="n"/></r></p></e>
+<e><p><l>lyric<s n="n"/></l><r>сыршыл<s n="n"/></r></p></e>
+<e><p><l>characteristic<s n="n"/></l><r>мінездеме<s n="n"/></r></p></e>
+<e><p><l>disc<s n="n"/></l><r>күй<b/>табақ<s n="n"/></r></p></e>
+<e><p><l>spread<s n="n"/></l><r>қанат<b/>жаю<s n="n"/></r></p></e>
+<e><p><l>railroad<s n="n"/></l><r>темір<b/>жол<s n="n"/></r></p></e>
+<e><p><l>squad<s n="n"/></l><r>команда<s n="n"/></r></p></e>
+<e><p><l>speed<s n="n"/></l><r>жылдамдық<s n="n"/></r></p></e>
+<e><p><l>hundred<s n="n"/></l><r>жүздік<s n="n"/></r></p></e>
+<e><p><l>household<s n="n"/></l><r>отбасы<s n="n"/></r></p></e>
+<e><p><l>brand<s n="n"/></l><r>марка<s n="n"/></r></p></e>
+<e><p><l>weekend<s n="n"/></l><r>демалыс<b/>күндер<s n="n"/></r></p></e>
+<e><p><l>round<s n="n"/></l><r>раунд<s n="n"/></r></p></e>
+<e><p><l>ground<s n="n"/></l><r>жер<s n="n"/></r></p></e>
+<e><p><l>underground<s n="n"/></l><r>астыртын<s n="n"/></r></p></e>
+<e><p><l>god<s n="n"/></l><r>құдай<s n="n"/></r></p></e>
+<e><p><l>childhood<s n="n"/></l><r>балалық<s n="n"/></r></p></e>
+<e><p><l>billboard<s n="n"/></l><r>хабарландыру<b/>тақтасы<s n="n"/></r></p></e>
+<e><p><l>guard<s n="n"/></l><r>күзет<s n="n"/></r></p></e>
+<e><p><l>lord<s n="n"/></l><r>лорд<s n="n"/></r></p></e>
+<e><p><l>surface<s n="n"/></l><r>бет<s n="n"/></r></p></e>
+<e><p><l>palace<s n="n"/></l><r>сарай<s n="n"/></r></p></e>
+<e><p><l>race<s n="n"/></l><r>дода<s n="n"/></r></p></e>
+<e><p><l>choice<s n="n"/></l><r>талғам<s n="n"/></r></p></e>
+<e><p><l>vice<s n="n"/></l><r>кемістік<s n="n"/></r></p></e>
+<e><p><l>device<s n="n"/></l><r>құрылым<s n="n"/></r></p></e>
+<e><p><l>dance<s n="n"/></l><r>би<s n="n"/></r></p></e>
+<e><p><l>maintenance<s n="n"/></l><r>сүйеніш<s n="n"/></r></p></e>
+<e><p><l>entrance<s n="n"/></l><r>кіре<b/>беріс<s n="n"/></r></p></e>
+<e><p><l>resistance<s n="n"/></l><r>қарсылық<s n="n"/></r></p></e>
+<e><p><l>circumstance<s n="n"/></l><r>жай-жапсар<s n="n"/></r></p></e>
+<e><p><l>instance<s n="n"/></l><r>үлгі<s n="n"/></r></p></e>
+<e><p><l>licence<s n="n"/></l><r>рұқсат<s n="n"/></r></p></e>
+<e><p><l>intelligence<s n="n"/></l><r>зеректік<s n="n"/></r></p></e>
+<e><p><l>audience<s n="n"/></l><r>дәрісхана<s n="n"/></r></p></e>
+<e><p><l>existence<s n="n"/></l><r>тіршілік<s n="n"/></r></p></e>
+<e><p><l>sequence<s n="n"/></l><r>тізбектілік<s n="n"/></r></p></e>
+<e><p><l>decade<s n="n"/></l><r>он<b/>жылдық<s n="n"/></r></p></e>
+<e><p><l>suicide<s n="n"/></l><r>суицид<s n="n"/></r></p></e>
+<e><p><l>code<s n="n"/></l><r>код<s n="n"/></r></p></e>
+<e><p><l>mode<s n="n"/></l><r>әдіс<s n="n"/></r></p></e>
+<e><p><l>episode<s n="n"/></l><r>эпизод<s n="n"/></r></p></e>
+<e><p><l>fee<s n="n"/></l><r>ақшалы<b/>жиын<s n="n"/></r></p></e>
+<e><p><l>wife<s n="n"/></l><r>жұбайы<s n="n"/></r></p></e>
+<e><p><l>coverage<s n="n"/></l><r>ауқым<s n="n"/></r></p></e>
+<e><p><l>storage<s n="n"/></l><r>қор<s n="n"/></r></p></e>
+<e><p><l>passage<s n="n"/></l><r>сапар<s n="n"/></r></p></e>
+<e><p><l>usage<s n="n"/></l><r>игерушілік<s n="n"/></r></p></e>
+<e><p><l>heritage<s n="n"/></l><r>мұра<s n="n"/></r></p></e>
+<e><p><l>percentage<s n="n"/></l><r>пайыз<s n="n"/></r></p></e>
+<e><p><l>movie<s n="n"/></l><r>кинофильм<s n="n"/></r></p></e>
+<e><p><l>duke<s n="n"/></l><r>герцог<s n="n"/></r></p></e>
+<e><p><l>sale<s n="n"/></l><r>сату<s n="n"/></r></p></e>
+<e><p><l>variable<s n="n"/></l><r>айнымалы<s n="n"/></r></p></e>
+<e><p><l>bible<s n="n"/></l><r>библия<s n="n"/></r></p></e>
+<e><p><l>vehicle<s n="n"/></l><r>автомобиль<s n="n"/></r></p></e>
+<e><p><l>cycle<s n="n"/></l><r>цикл<s n="n"/></r></p></e>
+<e><p><l>struggle<s n="n"/></l><r>күресу<s n="n"/></r></p></e>
+<e><p><l>mobile<s n="n"/></l><r>автофургон<s n="n"/></r></p></e>
+<e><p><l>profile<s n="n"/></l><r>профиль<s n="n"/></r></p></e>
+<e><p><l>mile<s n="n"/></l><r>миля<s n="n"/></r></p></e>
+<e><p><l>principle<s n="n"/></l><r>ұстаным<s n="n"/></r></p></e>
+<e><p><l>multiple<s n="n"/></l><r>көбейту<s n="n"/></r></p></e>
+<e><p><l>sample<s n="n"/></l><r>үлгі<s n="n"/></r></p></e>
+<e><p><l>castle<s n="n"/></l><r>қорған<s n="n"/></r></p></e>
+<e><p><l>style<s n="n"/></l><r>стиль<s n="n"/></r></p></e>
+<e><p><l>fame<s n="n"/></l><r>атақ-даңқ<s n="n"/></r></p></e>
+<e><p><l>surname<s n="n"/></l><r>фамилия<s n="n"/></r></p></e>
+<e><p><l>scheme<s n="n"/></l><r>нобай<s n="n"/></r></p></e>
+<e><p><l>extreme<s n="n"/></l><r>қысылшаң<s n="n"/></r></p></e>
+<e><p><l>enzyme<s n="n"/></l><r>фермент<s n="n"/></r></p></e>
+<e><p><l>gene<s n="n"/></l><r>зәузат<s n="n"/></r></p></e>
+<e><p><l>decline<s n="n"/></l><r>төмендетілу<s n="n"/></r></p></e>
+<e><p><l>marine<s n="n"/></l><r>дүнияуи<s n="n"/></r></p></e>
+<e><p><l>submarine<s n="n"/></l><r>субмарина<s n="n"/></r></p></e>
+<e><p><l>magazine<s n="n"/></l><r>журнал<s n="n"/></r></p></e>
+<e><p><l>tone<s n="n"/></l><r>сарын<s n="n"/></r></p></e>
+<e><p><l>landscape<s n="n"/></l><r>ландшафт<s n="n"/></r></p></e>
+<e><p><l>pope<s n="n"/></l><r>римдік<b/>әке<s n="n"/></r></p></e>
+<e><p><l>software<s n="n"/></l><r>бағдарламалық<b/>қамсыздандыру<s n="n"/></r></p></e>
+<e><p><l>atmosphere<s n="n"/></l><r>атмосфера<s n="n"/></r></p></e>
+<e><p><l>genre<s n="n"/></l><r>жанр<s n="n"/></r></p></e>
+<e><p><l>core<s n="n"/></l><r>ядро<s n="n"/></r></p></e>
+<e><p><l>score<s n="n"/></l><r>белгі<s n="n"/></r></p></e>
+<e><p><l>theatre<s n="n"/></l><r>театр<s n="n"/></r></p></e>
+<e><p><l>exposure<s n="n"/></l><r>шығару<s n="n"/></r></p></e>
+<e><p><l>feature<s n="n"/></l><r>ерекшелік<s n="n"/></r></p></e>
+<e><p><l>architecture<s n="n"/></l><r>сәулет<s n="n"/></r></p></e>
+<e><p><l>venture<s n="n"/></l><r>қатерлі<b/>кәсіпорын<s n="n"/></r></p></e>
+<e><p><l>departure<s n="n"/></l><r>кету<s n="n"/></r></p></e>
+<e><p><l>purchase<s n="n"/></l><r>сатып<b/>алу<s n="n"/></r></p></e>
+<e><p><l>phrase<s n="n"/></l><r>фраза<s n="n"/></r></p></e>
+<e><p><l>diocese<s n="n"/></l><r>епархия<s n="n"/></r></p></e>
+<e><p><l>franchise<s n="n"/></l><r>артықшылық<s n="n"/></r></p></e>
+<e><p><l>response<s n="n"/></l><r>жауап<s n="n"/></r></p></e>
+<e><p><l>course<s n="n"/></l><r>курс<s n="n"/></r></p></e>
+<e><p><l>climate<s n="n"/></l><r>климат<s n="n"/></r></p></e>
+<e><p><l>senate<s n="n"/></l><r>сенат<s n="n"/></r></p></e>
+<e><p><l>estate<s n="n"/></l><r>мүлік<s n="n"/></r></p></e>
+<e><p><l>graduate<s n="n"/></l><r>түлек<s n="n"/></r></p></e>
+<e><p><l>satellite<s n="n"/></l><r>серік<s n="n"/></r></p></e>
+<e><p><l>favourite<s n="n"/></l><r>фаворит<s n="n"/></r></p></e>
+<e><p><l>site<s n="n"/></l><r>жер<s n="n"/></r></p></e>
+<e><p><l>website<s n="n"/></l><r>вебсайт<s n="n"/></r></p></e>
+<e><p><l>route<s n="n"/></l><r>жіберу<s n="n"/></r></p></e>
+<e><p><l>dispute<s n="n"/></l><r>дауласу<s n="n"/></r></p></e>
+<e><p><l>venue<s n="n"/></l><r>кездесу<s n="n"/></r></p></e>
+<e><p><l>avenue<s n="n"/></l><r>авеню<s n="n"/></r></p></e>
+<e><p><l>revenue<s n="n"/></l><r>табыс<s n="n"/></r></p></e>
+<e><p><l>technique<s n="n"/></l><r>техника<s n="n"/></r></p></e>
+<e><p><l>offensive<s n="n"/></l><r>шабуыл<s n="n"/></r></p></e>
+<e><p><l>initiative<s n="n"/></l><r>бастама<s n="n"/></r></p></e>
+<e><p><l>native<s n="n"/></l><r>жақын<s n="n"/></r></p></e>
+<e><p><l>locomotive<s n="n"/></l><r>локомотив<s n="n"/></r></p></e>
+<e><p><l>executive<s n="n"/></l><r>әкімшілік<s n="n"/></r></p></e>
+<e><p><l>reserve<s n="n"/></l><r>резерв<s n="n"/></r></p></e>
+<e><p><l>prize<s n="n"/></l><r>жүлде<s n="n"/></r></p></e>
+<e><p><l>relief<s n="n"/></l><r>бедер<s n="n"/></r></p></e>
+<e><p><l>gulf<s n="n"/></l><r>шығанақ<s n="n"/></r></p></e>
+<e><p><l>trading<s n="n"/></l><r>сауда<s n="n"/></r></p></e>
+<e><p><l>landing<s n="n"/></l><r>орналасу<s n="n"/></r></p></e>
+<e><p><l>understanding<s n="n"/></l><r>түсінушілік<s n="n"/></r></p></e>
+<e><p><l>recording<s n="n"/></l><r>жазба<s n="n"/></r></p></e>
+<e><p><l>singing<s n="n"/></l><r>ән<b/>салу<s n="n"/></r></p></e>
+<e><p><l>coaching<s n="n"/></l><r>жаттығу<s n="n"/></r></p></e>
+<e><p><l>fishing<s n="n"/></l><r>балық<b/>аулау<s n="n"/></r></p></e>
+<e><p><l>clothing<s n="n"/></l><r>киім<s n="n"/></r></p></e>
+<e><p><l>programming<s n="n"/></l><r>программалау<s n="n"/></r></p></e>
+<e><p><l>farming<s n="n"/></l><r>ауыл<b/>шаруашылығы<s n="n"/></r></p></e>
+<e><p><l>forming<s n="n"/></l><r>қалпылау<s n="n"/></r></p></e>
+<e><p><l>shopping<s n="n"/></l><r>сатып<b/>алу<s n="n"/></r></p></e>
+<e><p><l>engineering<s n="n"/></l><r>ғимарат<s n="n"/></r></p></e>
+<e><p><l>processing<s n="n"/></l><r>өңдеу<s n="n"/></r></p></e>
+<e><p><l>crossing<s n="n"/></l><r>қоспа<s n="n"/></r></p></e>
+<e><p><l>housing<s n="n"/></l><r>орналастыру<s n="n"/></r></p></e>
+<e><p><l>dating<s n="n"/></l><r>даталау<s n="n"/></r></p></e>
+<e><p><l>marketing<s n="n"/></l><r>маркеттеу<s n="n"/></r></p></e>
+<e><p><l>writing<s n="n"/></l><r>жазу<s n="n"/></r></p></e>
+<e><p><l>painting<s n="n"/></l><r>кескіндеме<s n="n"/></r></p></e>
+<e><p><l>shooting<s n="n"/></l><r>ату<s n="n"/></r></p></e>
+<e><p><l>testing<s n="n"/></l><r>сынақ<s n="n"/></r></p></e>
+<e><p><l>listing<s n="n"/></l><r>тізімдеу<s n="n"/></r></p></e>
+<e><p><l>speech<s n="n"/></l><r>сөйлеу<s n="n"/></r></p></e>
+<e><p><l>tech<s n="n"/></l><r>техника<s n="n"/></r></p></e>
+<e><p><l>inch<s n="n"/></l><r>дюйм<s n="n"/></r></p></e>
+<e><p><l>search<s n="n"/></l><r>ізденіс<s n="n"/></r></p></e>
+<e><p><l>pitch<s n="n"/></l><r>алқынды<b/>беріс<s n="n"/></r></p></e>
+<e><p><l>borough<s n="n"/></l><r>қаланың<b/>ауданы<s n="n"/></r></p></e>
+<e><p><l>photograph<s n="n"/></l><r>фотограф<s n="n"/></r></p></e>
+<e><p><l>cash<s n="n"/></l><r>қолма-қол<b/>ақша<s n="n"/></r></p></e>
+<e><p><l>Spanish<s n="n"/></l><r>Испандық<s n="n"/></r></p></e>
+<e><p><l>parish<s n="n"/></l><r>парафия<s n="n"/></r></p></e>
+<e><p><l>faith<s n="n"/></l><r>сенім<s n="n"/></r></p></e>
+<e><p><l>depth<s n="n"/></l><r>тереңдік<s n="n"/></r></p></e>
+<e><p><l>birth<s n="n"/></l><r>туғызу<s n="n"/></r></p></e>
+<e><p><l>youth<s n="n"/></l><r>жастық<s n="n"/></r></p></e>
+<e><p><l>Israeli<s n="n"/></l><r>Израильдік<s n="n"/></r></p></e>
+<e><p><l>soundtrack<s n="n"/></l><r>кинофильмдік<b/>ән<s n="n"/></r></p></e>
+<e><p><l>block<s n="n"/></l><r>блок<s n="n"/></r></p></e>
+<e><p><l>stock<s n="n"/></l><r>бұйым<s n="n"/></r></p></e>
+<e><p><l>creek<s n="n"/></l><r>айлақ<s n="n"/></r></p></e>
+<e><p><l>rank<s n="n"/></l><r>дәреже<s n="n"/></r></p></e>
+<e><p><l>link<s n="n"/></l><r>сілтеме<s n="n"/></r></p></e>
+<e><p><l>mark<s n="n"/></l><r>белгілеу<s n="n"/></r></p></e>
+<e><p><l>task<s n="n"/></l><r>мақсат<s n="n"/></r></p></e>
+<e><p><l>medal<s n="n"/></l><r>медаль<s n="n"/></r></p></e>
+<e><p><l>commercial<s n="n"/></l><r>коммерция<s n="n"/></r></p></e>
 
 
 <!--ProPER NOUNS -->
@@ -3083,8 +3264,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Greek<s n="np"/><s n="loc"/><s n="sg"/></l><r>Грек<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Moscow<s n="np"/><s n="loc"/><s n="sg"/></l><r>Мәскеу<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Baltic<s n="np"/><s n="loc"/><s n="sg"/></l><r>Балтық<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Philippines<s n="np"/><s n="loc"/><s n="pl"/></l><r>Филиппиндер<s n="np"/><s n="loc"/><s n="pl"/></r></p></e>
 
-<e><p><l>socialist<s n="n"/></l><r>социалист<s n="n"/></r></p></e>
 
 
 
@@ -4642,6 +4823,52 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>rear<s n="adj"/></l><r>артқы<s n="adj"/></r></p></e>
 <e><p><l>solar<s n="adj"/></l><r>күн<s n="adj"/></r></p></e>
 <e><p><l>carrier<s n="adj"/></l><r>тасымалдаушы<s n="adj"/></r></p></e>
+<e><p><l>inner<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
+<e><p><l>proper<s n="adj"/></l><r>тиісті<s n="adj"/></r></p></e>
+<e><p><l>upper<s n="adj"/></l><r>жоғарғы<s n="adj"/></r></p></e>
+<e><p><l>latter<s n="adj"/></l><r>соңғы<s n="adj"/></r></p></e>
+<e><p><l>outer<s n="adj"/></l><r>сыртқы<s n="adj"/></r></p></e>
+<e><p><l>superior<s n="adj"/></l><r>жоғарғы <s n="adj"/></r></p></e>
+<e><p><l>prior<s n="adj"/></l><r>бұрынғы<s n="adj"/></r></p></e>
+<e><p><l>minor<s n="adj"/></l><r>азғантай<s n="adj"/></r></p></e>
+<e><p><l>swiss<s n="adj"/></l><r>швейцариялық<s n="adj"/></r></p></e>
+<e><p><l>numerous<s n="adj"/></l><r>қалың<s n="adj"/></r></p></e>
+<e><p><l>continuous<s n="adj"/></l><r>жалғасымды<s n="adj"/></r></p></e>
+<e><p><l>democrat<s n="adj"/></l><r>бұқарашыл<s n="adj"/></r></p></e>
+<e><p><l>exact<s n="adj"/></l><r>тиянақты<s n="adj"/></r></p></e>
+<e><p><l>subject<s n="adj"/></l><r>тақырыптық<s n="adj"/></r></p></e>
+<e><p><l>correct<s n="adj"/></l><r>дұрыс<s n="adj"/></r></p></e>
+<e><p><l>distinct<s n="adj"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>dominant<s n="adj"/></l><r>басты<s n="adj"/></r></p></e>
+<e><p><l>protestant<s n="adj"/></l><r>протестанттық<s n="adj"/></r></p></e>
+<e><p><l>constant<s n="adj"/></l><r>тұрақты<s n="adj"/></r></p></e>
+<e><p><l>dependent<s n="adj"/></l><r>тәуелді<s n="adj"/></r></p></e>
+<e><p><l>sufficient<s n="adj"/></l><r>жетерлік<s n="adj"/></r></p></e>
+<e><p><l>patient<s n="adj"/></l><r>шыдамды<s n="adj"/></r></p></e>
+<e><p><l>equivalent<s n="adj"/></l><r>балама<s n="adj"/></r></p></e>
+<e><p><l>excellent<s n="adj"/></l><r>тамаша<s n="adj"/></r></p></e>
+<e><p><l>permanent<s n="adj"/></l><r>түпкілікті<s n="adj"/></r></p></e>
+<e><p><l>prominent<s n="adj"/></l><r>көрікті<s n="adj"/></r></p></e>
+<e><p><l>apparent<s n="adj"/></l><r>айқын<s n="adj"/></r></p></e>
+<e><p><l>subsequent<s n="adj"/></l><r>кейінгі<s n="adj"/></r></p></e>
+<e><p><l>saint<s n="adj"/></l><r>пірәдар<s n="adj"/></r></p></e>
+<e><p><l>port<s n="adj"/></l><r>порт<s n="adj"/></r></p></e>
+<e><p><l>buddhist<s n="adj"/></l><r>буддисттік<s n="adj"/></r></p></e>
+<e><p><l>host<s n="adj"/></l><r>қабылдаушы<s n="adj"/></r></p></e>
+<e><p><l>matt<s n="adj"/><s n="sint"/></l><r>бұлыңғыр<s n="adj"/></r></p></e>
+<e><p><l>hebrew<s n="adj"/></l><r>ивриттік<s n="adj"/></r></p></e>
+<e><p><l>fellow<s n="adj"/></l><r>жолдас<s n="adj"/></r></p></e>
+<e><p><l>ex<s n="adj"/></l><r>бұрынғы<s n="adj"/></r></p></e>
+<e><p><l>nearby<s n="adj"/></l><r>жақын<s n="adj"/></r></p></e>
+<e><p><l>weekly<s n="adj"/></l><r>апталық<s n="adj"/></r></p></e>
+<e><p><l>secondary<s n="adj"/></l><r>екінші<s n="adj"/></r></p></e>
+<e><p><l>subsidiary<s n="adj"/></l><r>қосалқы<s n="adj"/></r></p></e>
+<e><p><l>primary<s n="adj"/></l><r>алғашқы<s n="adj"/></r></p></e>
+<e><p><l>literary<s n="adj"/></l><r>әдеби<s n="adj"/></r></p></e>
+<e><p><l>temporary<s n="adj"/></l><r>мезгілдік<s n="adj"/></r></p></e>
+<e><p><l>contemporary<s n="adj"/></l><r>замандас<s n="adj"/></r></p></e>
+<e><p><l>elementary<s n="adj"/></l><r>элементарлық<s n="adj"/></r></p></e>
+<e><p><l>documentary<s n="adj"/></l><r>деректі<s n="adj"/></r></p></e>
 
 <!-- Order numbers-->
  <e><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>бір<s n="num"/><s n="ord"/></r></p></e> 
@@ -4730,7 +4957,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>anyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>everyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәрі<s n="prn"/><s n="qnt"/></r></p></e>
 <e><p><l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>ешбір<s n="det"/><s n="neg"/></r></p></e>
-
+    <e><p><l>one<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
 
 
     <!-- interesting translation -->

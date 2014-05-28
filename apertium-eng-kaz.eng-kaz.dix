@@ -3899,6 +3899,16 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>TV<s n="n"/><s n="acr"/></l><r>ТВ<s n="abbr"/></r></p></e>
 <e><p><l>CD<s n="n"/><s n="acr"/></l><r>CD<s n="abbr"/></r></p></e>
 <e><p><l>DVD<s n="n"/><s n="acr"/></l><r>DVD<s n="abbr"/></r></p></e>
+ <e><p><l>NBA<s n="n"/><s n="acr"/></l><r>NBA<s n="abbr"/></r></p></e>
+    <e><p><l>UEFA<s n="n"/><s n="acr"/></l><r>UEFA<s n="abbr"/></r></p></e>
+    <e><p><l>NBC<s n="n"/><s n="acr"/></l><r>NBC<s n="abbr"/></r></p></e>
+    <e><p><l>PC<s n="n"/><s n="acr"/></l><r>ДК<s n="abbr"/></r></p></e>
+    <e><p><l>RAF<s n="n"/><s n="acr"/></l><r>RAF<s n="abbr"/></r></p></e>
+    <e><p><l>g<s n="n"/><s n="acr"/></l><r>г<s n="abbr"/></r></p></e>
+    <e><p><l>kg<s n="n"/><s n="acr"/></l><r>кг<s n="abbr"/></r></p></e>
+    <e><p><l>cm<s n="n"/><s n="acr"/></l><r>см<s n="abbr"/></r></p></e>
+    <e><p><l>http<s n="n"/><s n="acr"/></l><r>http<s n="abbr"/></r></p></e>
+
 
     <!-- Раздел: Имя Собственное -->
 
@@ -4246,6 +4256,16 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>V<s n="num"/><s n="mf"/><s n="sg"/></l><r>V<s n="num"/></r></p></e>
     <e><p><l>IV<s n="num"/><s n="mf"/><s n="sg"/></l><r>IV<s n="num"/></r></p></e>
     <e><p><l>X<s n="num"/><s n="mf"/><s n="sg"/></l><r>X<s n="num"/></r></p></e>
+
+ <e><p><l>twelve<s n="num"/><s n="sp"/></l><r>он<b/>екі<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>fifteen<s n="num"/><s n="sp"/></l><r>он<b/>бес<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>eleven<s n="num"/><s n="sp"/></l><r>он<b/>бір<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>zero<s n="num"/><s n="sp"/></l><r>нөл<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>fifty<s n="num"/><s n="sp"/></l><r>елу<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>twenty<s n="num"/><s n="sp"/></l><r>жиырма<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>thirty<s n="num"/><s n="sp"/></l><r>отыз<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>forty<s n="num"/><s n="sp"/></l><r>қырық<s n="num"/><s n="sp"/></r></p></e>
+
 
     <!-- Раздел: Союз -->
 <e><p><l>if<s n="cnjadv"/></l><r>егер<s n="cnjsub"/></r></p></e>

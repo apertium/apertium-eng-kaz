@@ -185,7 +185,16 @@
 
 <!-- This is not a preposition in English, so remove 
     <e><p><l>ago<s n="pr"/></l><r>бұрын<s n="post"/></r></p></e> -->
-
+<e><p><l>via<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
+<e><p><l>beyond<s n="pr"/></l><r>кейін<s n="post"/></r></p></e>
+<e><p><l>toward<s n="pr"/></l><r>қарай<s n="post"/></r></p></e>
+<e><p><l>alongside<s n="pr"/></l><r>жан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e><p><l>unlike<s n="pr"/></l><r>емес<s n="post"/></r></p></e>
+<e><p><l>upon<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e><p><l>onto<s n="pr"/></l><r>қарай<s n="post"/></r></p></e>
+<e><p><l>plus<s n="pr"/></l><r>қосымша<s n="post"/></r></p></e>
+<e><p><l>except<s n="pr"/></l><r>басқа<s n="post"/></r></p></e>
+<e><p><l>amongst<s n="pr"/></l><r>арамен<s n="post"/></r></p></e>
 
 
 <!-- MLF 20120702 noun-based postpositions -->

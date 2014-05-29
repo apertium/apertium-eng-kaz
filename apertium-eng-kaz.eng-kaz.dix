@@ -4453,6 +4453,28 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>outside<s n="adv"/></l><r>дала<s n="n"/><s n="loc"/></r></p></e>
 <e><p><l>between<s n="adv"/></l><r>арасында<b/><s n="adv"/></r></p></e>
     <e><p><l>before<s n="adv"/></l><r>дейін<s n="adv"/></r></p></e> <!-- зависит от переднего слова--> 
+<e><p><l>etc<s n="adv"/></l><r>т.б.<s n="adv"/></r></p></e>
+<e><p><l>ahead<s n="adv"/></l><r>алда<s n="adv"/></r></p></e>
+<e><p><l>instead<s n="adv"/></l><r>орынына<s n="adv"/></r></p></e>
+<e><p><l>abroad<s n="adv"/></l><r>шетелге<s n="adv"/></r></p></e>
+<e><p><l>beyond<s n="adv"/></l><r>арасында<s n="adv"/></r></p></e>
+<e><p><l>twice<s n="adv"/></l><r>екі<b/>ретті<s n="adv"/></r></p></e>
+<e><p><l>hence<s n="adv"/></l><r>демек<s n="adv"/></r></p></e>
+<e><p><l>once<s n="adv"/></l><r>бірде<s n="adv"/></r></p></e>
+<e><p><l>alongside<s n="adv"/></l><r>жанында<s n="adv"/></r></p></e>
+<e><p><l>worldwide<s n="adv"/></l><r>арада<s n="adv"/></r></p></e>
+<e><p><l>meanwhile<s n="adv"/></l><r>сол<b/>уақытта<s n="adv"/></r></p></e>
+<e><p><l>fine<s n="adv"/></l><r>тамаша<s n="adv"/></r></p></e>
+<e><p><l>alone<s n="adv"/></l><r>жалғыз<s n="adv"/></r></p></e>
+<e><p><l>elsewhere<s n="adv"/></l><r>басқа<b/>жерде<s n="adv"/></r></p></e>
+<e><p><l>quite<s n="preadv"/></l><r>кішкене<s n="adv"/></r></p></e>
+<e><p><l>else<s n="adv"/></l><r>басқа<s n="adv"/></r></p></e>
+<e><p><l>wrong<s n="adv"/></l><r>қателі<s n="adv"/></r></p></e>
+<e><p><l>hence<s n="cnjadv"/></l><r>демек<s n="cnjadv"/></r></p></e>
+<e><p><l>whereas<s n="cnjadv"/></l><r>сияқты<s n="cnjadv"/></r></p></e>
+<e><p><l>unless<s n="cnjadv"/></l><r>басқа<s n="cnjadv"/></r></p></e>
+<e><p><l>thus<s n="cnjadv"/></l><r>сол<b/>себептен<s n="cnjadv"/></r></p></e>
+<e><p><l>yet<s n="cnjadv"/></l><r>әуелі<s n="cnjadv"/></r></p></e>
 
 <!--Adverbs like pronouns -->
 

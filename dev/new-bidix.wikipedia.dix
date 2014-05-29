@@ -1,44 +1,6 @@
-    <e><p><l>mine<s n="adj"/><s n="pos"/></l><r>mine<s n="adj"/><s n="pos"/></l><r></r></p></e>
-    <e><p><l>broad<s n="adj"/><s n="sint"/></l><r>broad<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>wild<s n="adj"/><s n="sint"/></l><r>wild<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>grand<s n="adj"/><s n="sint"/></l><r>grand<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>fine<s n="adj"/><s n="sint"/></l><r>fine<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>rare<s n="adj"/><s n="sint"/></l><r>rare<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>false<s n="adj"/><s n="sint"/></l><r>false<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>true<s n="adj"/><s n="sint"/></l><r>true<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>rich<s n="adj"/><s n="sint"/></l><r>rich<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>fit<s n="adj"/><s n="sint"/></l><r>fit<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>hot<s n="adj"/><s n="sint"/></l><r>hot<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>vast<s n="adj"/><s n="sint"/></l><r>vast<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>wealthy<s n="adj"/><s n="sint"/></l><r>wealthy<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>friendly<s n="adj"/><s n="sint"/></l><r>friendly<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>holy<s n="adj"/><s n="sint"/></l><r>holy<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>dry<s n="adj"/><s n="sint"/></l><r>dry<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>easy<s n="adj"/><s n="sint"/></l><r>easy<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>guilty<s n="adj"/><s n="sint"/></l><r>guilty<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>heavy<s n="adj"/><s n="sint"/></l><r>heavy<s n="adj"/><s n="sint"/></l><r></r></p></e>
-    <e><p><l>etc<s n="adv"/></l><r>etc<s n="adv"/></l><r></r></p></e>
-    <e><p><l>ahead<s n="adv"/></l><r>ahead<s n="adv"/></l><r></r></p></e>
-    <e><p><l>instead<s n="adv"/></l><r>instead<s n="adv"/></l><r></r></p></e>
-    <e><p><l>abroad<s n="adv"/></l><r>abroad<s n="adv"/></l><r></r></p></e>
-    <e><p><l>beyond<s n="adv"/></l><r>beyond<s n="adv"/></l><r></r></p></e>
-    <e><p><l>twice<s n="adv"/></l><r>twice<s n="adv"/></l><r></r></p></e>
-    <e><p><l>hence<s n="adv"/></l><r>hence<s n="adv"/></l><r></r></p></e>
-    <e><p><l>once<s n="adv"/></l><r>once<s n="adv"/></l><r></r></p></e>
-    <e><p><l>alongside<s n="adv"/></l><r>alongside<s n="adv"/></l><r></r></p></e>
-    <e><p><l>worldwide<s n="adv"/></l><r>worldwide<s n="adv"/></l><r></r></p></e>
-    <e><p><l>meanwhile<s n="adv"/></l><r>meanwhile<s n="adv"/></l><r></r></p></e>
-    <e><p><l>fine<s n="adv"/></l><r>fine<s n="adv"/></l><r></r></p></e>
-    <e><p><l>alone<s n="adv"/></l><r>alone<s n="adv"/></l><r></r></p></e>
-    <e><p><l>elsewhere<s n="adv"/></l><r>elsewhere<s n="adv"/></l><r></r></p></e>
-    <e><p><l>quite<s n="preadv"/></l><r>quite<s n="preadv"/></l><r></r></p></e>
-    <e><p><l>else<s n="adv"/></l><r>else<s n="adv"/></l><r></r></p></e>
-    <e><p><l>wrong<s n="adv"/></l><r>wrong<s n="adv"/></l><r></r></p></e>
-    <e><p><l>hence<s n="cnjadv"/></l><r>hence<s n="cnjadv"/></l><r></r></p></e>
-    <e><p><l>whereas<s n="cnjadv"/></l><r>whereas<s n="cnjadv"/></l><r></r></p></e>
-    <e><p><l>unless<s n="cnjadv"/></l><r>unless<s n="cnjadv"/></l><r></r></p></e>
-    <e><p><l>thus<s n="cnjadv"/></l><r>thus<s n="cnjadv"/></l><r></r></p></e>
-    <e><p><l>yet<s n="cnjadv"/></l><r>yet<s n="cnjadv"/></l><r></r></p></e>
+  
+   
+   
     <e><p><l>neither<s n="adv"/></l><r>neither<s n="adv"/></l><r></r></p></e>
     <e><p><l>thereafter<s n="adv"/></l><r>thereafter<s n="adv"/></l><r></r></p></e>
     <e><p><l>overseas<s n="adv"/></l><r>overseas<s n="adv"/></l><r></r></p></e>

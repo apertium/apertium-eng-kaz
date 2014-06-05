@@ -242,3 +242,21 @@ $ cg-comp ~/Source/apertium-eng-kaz/merge-analyses.cg ~/Source/apertium-eng-kaz/
 
 chmod +x /home/ubuntu/Source/apertium-eng-kaz/pasten.py
 
+
+<Aida> your list is over
+<spectre> ok
+<Aida> now I'm doing last 111 verbs
+<spectre> ok
+<spectre> finish those
+<spectre> and then i think for the next week you should concentrate on rules
+<Aida> spectre, when should I start to prepare evaluation?
+<spectre> find a nice long text
+<spectre> and try and fix the rules
+<spectre> in fact, one idea:
+<spectre> find two texts
+<spectre> in one of the texts you should add all the words and write rules
+<spectre> and in the other text you should just write rules (and leave the unknown words)
+<spectre> if you make them two texts of 500 words then this would make a nice midterm evaluation
+<spectre> and you can just work on that for the next two weeks
+<Aida> ok
+

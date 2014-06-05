@@ -48,7 +48,7 @@ SET V-FIN = V + FIN ;
 
 SET V-DO = ("do"i) ; 
 
-SET English-sg = ("Englsih"i) ;
+SET English-sg = ("English"i) ;
 
 SET VAUX-CAN = ("can"i) ;
 

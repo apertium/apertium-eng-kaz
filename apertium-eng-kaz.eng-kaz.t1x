@@ -899,6 +899,18 @@
              <test>
                <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/>
+                  <lit v="as"/>
+               </equal>
+             </test>
+             <let>
+                <var n="case"/>
+                <lit-tag v="nom"/>
+             </let>
+       </when> 
+<when> 
+             <test>
+               <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
                   <lit v="since"/>
                </equal>
              </test>

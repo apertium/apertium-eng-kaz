@@ -66,7 +66,7 @@ SET V-HAVE = (vbhaver) ;
 
 SET V-PRES = (vblex pres) ; 
 
-SET V-MOD = ("must"i) | ("should"i) | ("will"i) | ("can"i) ; 
+SET V-MOD = ("must"i) | ("should"i) | ("will"i) | ("can"i) | ("need# to"i)  ; 
 
 LIST PRN-SUBJ  = (prn subj) ;
 
@@ -218,15 +218,15 @@ REMOVE Inf IF (-1 PRN-SUBJ) (NOT 0 ("will"i));
 
 REMOVE N IF (-1 PRN-SUBJ) (0 ("will"i) );
 
-REMOVE N IF (0 ("will"i)) (1C ADV-NOT) 
+REMOVE N IF (0 ("will"i)) (1C ADV-NOT)
+
+SELECT Inf IF (0 Inf) (1 ADV-NOT)(2 Ger); 
 
 REMOVE Inf IF (0 Inf OR V-FIN) (NOT 1* V-FIN BARRIER CLB) (NOT -1* V-FIN BARRIER CLB);
 
 REMOVE PrcPast IF (-1 VAUX-WILL);
 
 REMOVE V-FIN IF (0 Inf) (0 Inf OR V-FIN) ((1C* V-FIN BARRIER CLB) OR (-1C* V-FIN BARRIER CLB));
-
-SELECT Inf IF (-2 ("do"i)) (-1 Pron) (0 Pres OR Inf);
 
 REMOVE CS IF (NOT 1* V-FIN BARRIER CLB);
 

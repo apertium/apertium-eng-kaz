@@ -1465,32 +1465,6 @@
 <section-rules>
 
 
-<rule comment="NEW RULE: one another">  
-  <pattern>
-    <pattern-item n="one-another"/>
-  </pattern>
-  <action>
- 
-    <out>
-    <chunk name="One-anoth">
-    <tags>
-  <tag><lit-tag v="One-anoth"/></tag>
-<tag><lit-tag v="PXD"/></tag>
-<tag><lit-tag v="CD"/></tag>
-    </tags>
-    <lu>
-<clip pos="1" side="tl" part="lem"/> 
-<clip pos="1" side="tl" part="a_pron"/> 
-<lit-tag v="recip"/>
-<lit-tag v="2"/>
-<lit-tag v="3"/>
-     </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
-
-
 <rule comment="NEW RULE: need to + infinitive"> <!--need to verb -->
   <pattern>
 
@@ -1581,6 +1555,35 @@
     </choose>
       </action>
 </rule>
+
+
+<rule comment="NEW RULE: one another">  
+  <pattern>
+    <pattern-item n="one-another"/>
+  </pattern>
+  <action>
+ 
+    <out>
+    <chunk name="One-anoth">
+    <tags>
+  <tag><lit-tag v="One-anoth"/></tag>
+<tag><lit-tag v="PXD"/></tag>
+<tag><lit-tag v="CD"/></tag>
+    </tags>
+    <lu>
+<clip pos="1" side="tl" part="lem"/> 
+<clip pos="1" side="tl" part="a_pron"/> 
+<lit-tag v="recip"/>
+<lit-tag v="2"/>
+<lit-tag v="3"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+
+
 
 
 

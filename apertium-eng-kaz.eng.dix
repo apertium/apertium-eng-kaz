@@ -41606,6 +41606,8 @@
 
                             <e lm="camera" i=""><i>camera</i><par n="house__n"/></e>
 
+                            <e lm="cameraman" i=""><i>cameraman</i><par n="house__n"/></e>
+
                             <e lm="camp" i=""><i>camp</i><par n="house__n"/></e>
 
                             <e lm="summer camp" i=""><i>summer<b/>camp</i><par n="house__n"/></e>
@@ -76042,6 +76044,8 @@
                             <e lm="sniff" i=""><i>sniff</i><par n="accept__vblex"/></e>
 
                             <e lm="reel" i=""><i>reel</i><par n="accept__vblex"/></e>
+
+                            <e lm="reel" i=""><i>reel</i><par n="house__n"/></e>
 
                             <e lm="decaffeinate" i=""><i>decaffeinat</i><par n="liv/e__vblex"/></e>
 

@@ -307,6 +307,7 @@
 
  <def-attr n="a_cnjsub">
        <attr-item tags="cnjsub"/>
+       <attr-item tags="adv"/>
     </def-attr>
  <def-attr n="a_cnjcoo">
        <attr-item tags="post"/>
@@ -895,18 +896,7 @@
                 <lit-tag v="nom"/>
              </let>
        </when>    
-<when> 
-             <test>
-               <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
-                  <lit v="as"/>
-               </equal>
-             </test>
-             <let>
-                <var n="case"/>
-                <lit-tag v="nom"/>
-             </let>
-       </when> 
+
 <when> 
              <test>
                <equal caseless="yes">

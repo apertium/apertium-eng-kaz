@@ -66,6 +66,11 @@
       <attr-item tags="sint"/>
     </def-attr>
 
+
+<def-attr n="pron">
+      <attr-item tags="itg"/>
+      <attr-item tags="qnt"/>
+    </def-attr>
     <def-attr n="a_pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
@@ -509,6 +514,18 @@
           <when>
             <test><equal><clip pos="1" side="sl" part="adj_sint"/><lit-tag v="sint"/></equal></test>
             <let><clip pos="1" side="tl" part="adj_sint"/><lit v=""/></let>
+          </when>
+        </choose>
+<choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="pron"/><lit-tag v="itg"/></equal></test>
+            <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
+          </when>
+        </choose>
+<choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="pron"/><lit-tag v="qnt"/></equal></test>
+            <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
           </when>
         </choose>
 <choose>

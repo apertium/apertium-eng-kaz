@@ -1437,7 +1437,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>friend<s n="n"/></l><r>жолдас<s n="n"/></r></p></e>
     <e><p><l>front<s n="n"/></l><r>қасбет<s n="n"/></r></p></e>
     <e><p><l>fundament<s n="n"/></l><r>түп<s n="n"/></r></p></e>
-    <e><p><l>fun<s n="n"/></l><r>қызық<s n="n"/></r></p></e>
+    <e><p><l>fun<s n="n"/></l><r>сауық-сайран<s n="n"/></r></p></e>
     <e><p><l>future<s n="n"/></l><r>болашақ<s n="n"/></r></p></e>
     <e><p><l>garland<s n="n"/></l><r>гүлтәж<s n="n"/></r></p></e>
     <e><p><l>gelding<s n="n"/></l><r>азбан<s n="n"/></r></p></e>
@@ -5953,13 +5953,13 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>reinforce<s n="vblex"/></l><r>бекіт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>limit<s n="vblex"/></l><r>шекте<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>maintain<s n="vblex"/></l><r>қолда<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>range<s n="vblex"/></l><r>орналас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>range<s n="vblex"/></l><r>жалғас<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>flow<s n="vblex"/></l><r>туында<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>evaporate<s n="vblex"/></l><r>булан<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>proceed<s n="vblex"/></l><r>жалғастыр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>emigrate<s n="vblex"/></l><r>көш<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>repatriate<s n="vblex"/></l><r>отанына<b/>қайта<b/>орал<s n="v"/><s n="iv"/></r></p></e>
-
+<e><p><l>stream<s n="vblex"/></l><r>жібер<s n="v"/><s n="tv"/></r></p></e>
 
 <e><p><l>demand<s n="vblex"/></l><r>сұра<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>fund<s n="vblex"/></l><r>жина<s n="v"/><s n="tv"/></r></p></e>

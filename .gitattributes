@@ -55,6 +55,7 @@ dev/unknown-words-from-news-commentary-v8-20130619.txt -text
 /pasten.py -text
 /regression-tests.sh -text
 texts/business_movie.eng.txt -text
+texts/business_movie.kaz.txt -text svneol=unset#application/octet-stream
 texts/eng.chunks.txt -text
 texts/kazakhstan1.eng.txt -text
 texts/kazakhstan1.kaz.txt -text svneol=unset#application/octet-stream

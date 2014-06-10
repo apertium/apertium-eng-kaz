@@ -118,7 +118,7 @@
     <e r="RL"><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>бір<s n="det"/><s n="ind"/></r></p></e>
 <e><p><l>the<b/>same<s n="det"/><s n="ind"/></l><r>бірдей<s n="adj"/></r></p></e>
 <e r="LR"><p><l>the<b/>most<s n="det"/><s n="qnt"/></l><r></r></p></e>
-    <e><p><l>which<s n="det"/><s n="itg"/><s n="sp"/></l><r>қай<s n="det"/><s n="itg"/></r></p></e>
+    <e><p><l>which<s n="det"/><s n="itg"/><s n="sp"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></r></p></e>
     <e><p><l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>қайсы<s n="det"/><s n="itg"/></r></p></e>
  <e><p><l>which<s n="prn"/><s n="itg"/></l><r>қайсы<s n="det"/><s n="itg"/></r></p></e>
 
@@ -175,7 +175,7 @@
 
     <e><p><l>for<s n="pr"/></l><r>үшін<s n="post"/><s n="Rnom"/></r></p></e>
        <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
-       <e><p><l>as<s n="pr"/></l><r>сияқты<s n="post"/><s n="Rnom"/></r></p></e>
+       <e><p><l>as<s n="pr"/></l><r>ретінде<s n="post"/><s n="Rnom"/></r></p></e>
        <e><p><l>until<s n="pr"/></l><r>дейін<s n="post"/></r></p></e>
     <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/><s n="Rnom"/></r></p></e>
 
@@ -4335,7 +4335,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
      <e><p><l>only<s n="adv"/></l><r>ғана<s n="adv"/></r></p></e>
      <e><p><l>like<b/>this<s n="adv"/></l><r>осы<b/>сияқты<s n="adv"/></r></p></e>
     <e><p><l>everyday<s n="adv"/></l><r>күнде<s n="adv"/></r></p></e>
-    <e><p><l>as<s n="preadv"/></l><r>сияқты<s n="post"/></r></p></e>
+    <e><p><l>as<s n="preadv"/></l><r>ретінде<s n="post"/></r></p></e>
     <e><p><l>very<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
 
     <e><p><l>more<s n="preadv"/></l><r>көбірек<s n="adv"/></r></p></e>
@@ -5419,7 +5419,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <!-- interesting translation -->
 
   <!--  <e><p><l>what<s n="prn"/><s n="itg"/></l><r>не<s n="prn"/><s n="itg"/></r></p></e>-->
-<e><p><l>which<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r>қайсы</r></p></e>
+<e><p><l>which<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="gen"/></r></p></e>
 <e r="LR"><p><l>that<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r></r></p></e>
  <e><p><l>whom<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="loc"/></r></p></e>
     <e><p><l>mine<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="px"/></r></p></e>
@@ -5789,7 +5789,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>roll<s n="vblex"/></l><r>домала<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>rub<s n="vblex"/></l><r>сыла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>fall<s n="vblex"/></l><r>түс<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>move<s n="vblex"/></l><r>жылжыт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>move<s n="vblex"/></l><r>жылжы<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>park<s n="vblex"/></l><r>тұраққа<b/>тұр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>surf<s n="vblex"/></l><r>серфингпен<b/>айналас<s n="v"/><s n="iv"/></r></p></e>
 

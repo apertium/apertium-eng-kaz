@@ -80,9 +80,13 @@ REMOVE V-FIN IF (-1C V-FIN);  # Careful: would kill "The man who _came_ _wrote_ 
 
 REMOVE N IF (0 ("<is>"i)) ; 
 
+SELECT N IF (0 ("<sound>"i))(1 ("<to>"i))(2 ("<tell>"i)) ; 
+
 SELECT N IF (-1 ("<both>"i)) ; 
 
 SELECT V IF (0 ("<like>"i)) ; 
+
+SELECT Inf IF (-2* ("<to>"i))(-1 ("<or>"i)) ; 
 
 SELECT N IF (0 ("<names>"i))(-1 Pr) ; 
 
@@ -150,7 +154,7 @@ REMOVE A IF (-1 Det) (0 N OR A) (1 ("<is>")) (2 A);
 
 REMOVE Inf IF (0 N OR Inf) (1 ("to"i)) (2 Inf);
 
-SELECT V IF (1 ("to"i)) (2 Inf);
+SELECT V IF  (-1 Subj OR N)(1 ("to"i)) (2 Inf);
 
 SELECT N IF (-1C NUM);
 

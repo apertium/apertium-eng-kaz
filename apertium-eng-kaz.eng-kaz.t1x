@@ -74,6 +74,10 @@
  <def-cat n="NP_verb-ing"> <!-- for ger like NP, I like playing-->
       <cat-item tags="vblex.ger"/>
    </def-cat>   
+
+<def-cat n="subs-ing"> <!-- for ger like NP, I like playing-->
+      <cat-item tags="vblex.subs"/>
+   </def-cat> 
 <def-cat n="verb-pp"> <!-- present perfect tense -->
       <cat-item tags="vblex.pp"/>
 <cat-item tags="vbser.pp"/>
@@ -4578,6 +4582,41 @@
     </tags>
     <lu>
       <var n="adjec_lu"/>
+     </lu>
+	<b pos="1"/>
+	<lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+    </chunk>
+    </out>
+      </action>
+</rule>
+
+
+<rule comment="NEW RULE: subs-ing noun"> 
+  <pattern>
+    <pattern-item n="subs-ing"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+<call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="2"/>
+  </call-macro> 
+    <out>
+    <chunk name="subs-noun">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="2" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+     <clip pos="1" side="tl" part="lem"/>
+     <clip pos="1" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="gpr_impf"/>
+          <lit-tag v="subst"/>
+          <lit-tag v="nom"/>
      </lu>
 	<b pos="1"/>
 	<lu>
@@ -9101,7 +9140,7 @@ this would have to be changed -->
     <pattern-item n="rel"/>
   </pattern>
   <action>
- 
+      <let> <clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let> 
     <out>
     <chunk name="rel">
     <tags>
@@ -9197,6 +9236,7 @@ this would have to be changed -->
   </action>
 </rule>
 
+
 <rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
   <pattern>
     <pattern-item n="to"/>
@@ -9228,6 +9268,60 @@ this would have to be changed -->
          <lit-tag v="nom"/>
      </lu>
   <b/> 
+    <lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+
+    </lu>
+      </chunk>
+</out>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
+  <pattern>
+    <pattern-item n="to"/>
+    <pattern-item n="approx-inf-verb"/> 
+    <pattern-item n="nom"/>
+    <pattern-item n="cnjcoo"/>
+    <pattern-item n="approx-inf-verb"/> 
+   </pattern>
+  <action>
+   <call-macro n="build-cnjcoo-lu"><with-param pos="4"/></call-macro> 
+  <call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="3"/>
+  </call-macro> 
+    <out>
+    <chunk name="to-inf-noun">
+    <tags>
+    <tag><lit-tag v="PP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="acc"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+   <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+     </lu>
+   <b pos="2"/>
+<lu>
+           <var n="cnjcoo_lu"/>
+     </lu>
+   <b pos="3"/>
+<lu>
+          <clip pos="5" side="tl" part="lem"/>
+	  <clip pos="5" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+     </lu>
+   <b pos="4"/>
     <lu>
      <lit v="үшін"/>
          <lit-tag v="post"/>

@@ -132,7 +132,11 @@
 -->     
 <def-cat n="been">
  <cat-item lemma="be" tags="vbser.pp"/>
-</def-cat>     
+</def-cat>    
+
+<def-cat n="every">
+ <cat-item lemma="every" tags="det.ind.*"/>
+</def-cat>  
 
 <def-cat n="being">
  <cat-item lemma="be" tags="vbser.ger"/>
@@ -206,6 +210,7 @@
       <cat-item tags="det.ind.*"/>
       <cat-item tags="det.pos.*"/>
       <cat-item tags="det.dem.*"/>
+      <cat-item tags="det.qnt.*"/>
     </def-cat>
     <def-cat n="the">
       <cat-item lemma="the" tags="det.def.sp" />
@@ -220,6 +225,7 @@
 
     <def-cat n="obj-pron">
        <cat-item tags="prn.obj.*"/>
+       <cat-item tags="prn.tn.*"/>
     </def-cat>
   <def-cat n="pron-neg">
       <cat-item tags="prn.*"/>
@@ -334,6 +340,7 @@
 </def-attr>
     <def-attr n="a_kaz_perspron"> 
       <attr-item tags="prn.pers"/>
+      <attr-item tags="prn.ind"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -1306,6 +1313,8 @@
            <concat>
              <clip pos="1" side="tl" part="lem"/> 
                <clip pos="1" side="tl" part="a_adjec"/>
+<lit-tag v="2"/>
+<lit-tag v="3"/>
            </concat>  
         </let>
 </def-macro>
@@ -1369,9 +1378,6 @@
            <concat>
              <clip pos="1" side="tl" part="lem"/> 
                <clip pos="1" side="tl" part="a_kaz_perspron"/>
-
-
-
                <clip pos="1" side="sl" part="a_pers"/>
 
                <var n="number"/> 
@@ -2430,8 +2436,7 @@
         <lu>
           <clip pos="1" side="tl" part="lem"/>
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
-
-         <lit-tag v="4"/>
+         <lit-tag v="ger"/>
   	 <lit-tag v="5"/>
           <lit-tag v="2"/>
           <lit-tag v="3"/>
@@ -5236,6 +5241,80 @@
   </action>
 </rule>
 
+<rule comment="NEW RULE: prep every noun">  
+<!-- superblank management around determiner -->	
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="every"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+
+  <call-macro n="choose_case_and_postposition2"><with-param pos="1"/><with-param pos="3"/></call-macro>
+  <call-macro n="NEW-build-noun-lu-2-4-5">
+    <with-param pos="3"/>
+  </call-macro>  
+    <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+       <!-- when there is postposition information, it is generated -->
+         
+           <out>
+             <chunk name="prep-det-ind-noun">
+             <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="3" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>   
+             </tags>
+             <b pos="1"/>
+             <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_det"/>
+             <clip pos="2" side="tl" part="a_dem"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <var n="NEW-noun_lu"/>
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+             </chunk>
+           </out>
+        </when>
+            
+     <otherwise>
+
+           <out>
+             <chunk name="prep-detind-noun">
+          <tags>
+             <tag><var n="pptag"/></tag>
+             <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+             <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+             <tag><lit-tag v="px3sp"/></tag> <!-- possessor placeholder -->
+             <tag><var n="case"/></tag> <!-- case as computed -->
+         </tags>  
+             <b pos="1"/>        
+             <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_det"/>
+             <clip pos="2" side="tl" part="a_dem"/>
+             </lu>
+             <b pos="2"/>
+             <lu>  
+                <var n="NEW-noun_lu"/>
+             </lu>
+             </chunk>
+           </out>
+             </otherwise>
+</choose>
+  </action>
+</rule>
+
+
 
 <rule comment="NEW RULE: num adjec noun1 noun2"> 
   <pattern>
@@ -6356,7 +6435,10 @@
         </when>
        
         <when>  <!-- Possessive, with postposition -->
-           <test><equal><clip pos="2" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+           <test><or><equal><clip pos="2" side="sl" part="a_pos"/><lit-tag v="pos"/></equal>
+<equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
+</or></test>
+
            <call-macro n="build-possessive-from-possessive-determiner">
               <with-param pos="2"/>
            </call-macro>
@@ -8734,12 +8816,14 @@ this would have to be changed -->
     <chunk name="comp-adjec">
     <tags>
     <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
+ <tag><lit-tag v="CD"/></tag>
     </tags>
    <b pos="1"/> 
     <lu>
        <clip pos="2" part="lem" side="tl"/>
        <lit-tag v="adj"/>
        <lit-tag v="comp"/>
+<lit-tag v="2"/>
          
      </lu>
     </chunk>
@@ -8758,17 +8842,18 @@ this would have to be changed -->
     <chunk name="comp-adjec">
     <tags>
     <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
+ <tag><lit-tag v="CD"/></tag>
     </tags>
     <b pos="1"/>
     <lu>
        <clip pos="2" part="lem" side="tl"/>
        <lit-tag v="adj"/>
        <lit-tag v="comp"/>
-         
+         <lit-tag v="2"/> 
      </lu>
     </chunk>
     </out>
-  </action>
+  </action>      
 </rule>
 
 <rule comment="NEW RULE:the more adjec">   <!-- the more beautiful, for sint adj comp -->
@@ -8830,6 +8915,8 @@ this would have to be changed -->
     <chunk name="adjec">
     <tags>
     <tag><lit-tag v="AdjP"/></tag>
+ <tag><lit-tag v="subst"/></tag>
+ <tag><lit-tag v="CD"/></tag>
     </tags>
     <lu>
       <var n="adjec_lu"/>
@@ -9236,6 +9323,43 @@ this would have to be changed -->
   </action>
 </rule>
 
+
+<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
+  <pattern>
+    <pattern-item n="det"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="to"/>
+    <pattern-item n="vblex-have"/> 
+   </pattern>
+  <action>
+<call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="2"/>
+  </call-macro> 
+<out>
+  <chunk name="to-have">  
+      <tags>
+       <tag><lit-tag v="NP_to_have"/></tag>
+        <tag><lit-tag v="p3"/></tag> 
+        <tag><lit-tag v="ND"/></tag> 
+       
+        <tag><lit-tag v="px3sp"/></tag> 
+        <tag><lit-tag v="CD"/></tag>
+      </tags>
+       
+        <lu>
+         <lit v="ал"/>
+          <clip pos="4" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="gen"/>
+        </lu>
+     <b pos="1"/>
+      <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+      </chunk>
+</out>
+  </action>
+</rule>
 
 <rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
   <pattern>

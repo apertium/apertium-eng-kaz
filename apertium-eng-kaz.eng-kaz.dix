@@ -4289,6 +4289,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <!-- Раздел: Союз -->
 <e><p><l>if<s n="cnjadv"/></l><r>егер<s n="cnjsub"/></r></p></e>
 <e><p><l>until<s n="cnjadv"/></l><r>шейін<s n="cnjsub"/></r></p></e>
+<e><p><l>while<s n="cnjcoo"/></l><r>ал<s n="cnjcoo"/></r></p></e>
     <e><p><l>either<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>both<s n="cnjcoo"/></l><r>екеуі<s n="cnjcoo"/></r></p></e>
@@ -4762,7 +4763,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>adorable<s n="adj"/></l><r>қастерлі<s n="adj"/></r></p></e>
 <e><p><l>adored<s n="adj"/></l><r>құрметті<s n="adj"/></r></p></e>
 <e><p><l>advanced<s n="adj"/></l><r>озық<s n="adj"/></r></p></e>
-<e><p><l>afraid<s n="adj"/></l><r>қорыққан<s n="adj"/></r></p></e>
+<e><p><l>afraid<s n="adj"/></l><r>қорқу<s n="adj"/></r></p></e>
 <e><p><l>affectionate<s n="adj"/></l><r>нәзік<s n="adj"/></r></p></e>
 <e><p><l>aged<s n="adj"/></l><r>қарт<s n="adj"/></r></p></e>
 <e><p><l>aggravating<s n="adj"/></l><r>ұлғайтылған<s n="adj"/></r></p></e>

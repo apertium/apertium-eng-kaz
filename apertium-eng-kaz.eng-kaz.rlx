@@ -84,6 +84,8 @@ SELECT N IF (0 ("<sound>"i))(1 ("<to>"i))(2 ("<tell>"i)) ;
 
 SELECT N IF (-1 ("<both>"i)) ; 
 
+SELECT (cnjcoo) IF (1 (pr)) ; 
+
 SELECT V IF (0 ("<like>"i)) ; 
 
 SELECT Inf IF (-2* ("<to>"i))(-1 ("<or>"i)) ; 

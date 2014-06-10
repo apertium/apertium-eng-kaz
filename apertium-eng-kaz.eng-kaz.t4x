@@ -131,6 +131,9 @@
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
+<def-attr n="subst">
+      <attr-item tags="subst"/>
+    </def-attr>
 
     <def-attr n="tense">
       <attr-item tags="ger_impf"/>
@@ -581,6 +584,12 @@
           <when>
             <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal></test>
             <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
+  <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal></test>
+            <let><clip pos="1" side="tl" part="subst"/><lit v=""/></let>
           </when>
         </choose>
 <choose>

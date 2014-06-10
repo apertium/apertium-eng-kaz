@@ -13,6 +13,11 @@
       <cat-item tags="NP_to_inf.*"/>
 
     </def-cat>
+<def-cat n="NP_to_have">
+      <cat-item tags="NP_to_have"/>
+      <cat-item tags="NP_to_have.*"/>
+
+    </def-cat>
    <def-cat n="Q_m">
       <cat-item tags="Q_mark"/>
       <cat-item tags="Q_mark.*"/>
@@ -620,6 +625,32 @@
      </action>
 </rule>
 
+<rule comment="NEW RULE NP NP_to_have">
+<!-- "a way to have fun.-->
+  <pattern> 
+     <pattern-item n="NP_to_have"/>
+     <pattern-item n="NP"/>
+  </pattern>
+     <action>
+      <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_phrase"/>
+            <clip pos="2" part="a_nbr"/>
+            <clip pos="2" part="a_pers"/>
+            <clip pos="2" part="a_possessive"/>
+            <clip pos="2" part="a_cas"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>  
+<b/>
+ <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+</rule>
 
 <rule comment="NEW RULE: QAdvP NP VP">
     <!-- when he came ол келгенде-->
@@ -3753,6 +3784,32 @@
      </action>
     </rule>
 
+<rule comment="NEW RULE: NP AdjP"> <!-- I am happy-->
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="AdjP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+           <clip pos="2" part="lem"/>  
+            <lit-tag v="NP"/>
+             <lit-tag v="subst"/>
+             <lit-tag v="acc"/>
+            <clip pos="2" part="chcontent"/>         
+          </chunk>
+          <b pos="1"/>
+ <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/> 
+            <clip pos="1" part="chcontent"/>         
+            
+          </chunk>
+
+    </out>
+     </action>
+    </rule>
+
 
 
 
@@ -4575,6 +4632,9 @@
      </action>
     </rule>
 
+
+
+
     
 <rule comment="NEW RULE: NP VP NP GenP ; agree person and number NP VP, set NP accusative">
     <!-- propagates person and number from NP to VP -->
@@ -5097,6 +5157,45 @@
             <clip pos="2" part="a_neg"/>
             <clip pos="2" part="chcontent"/>
           </chunk> 
+      </out>
+     </action>
+    </rule>
+ 
+<rule comment="NEW RULE:  NP PP GenP"> 
+    <!--People in every part of the world watch movies as a type of entertainment-->
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="PP"/>
+       <pattern-item n="GenP"/>
+     </pattern>
+     <action>
+<call-macro n="build-possessive">
+        <with-param pos="2"/>
+     </call-macro>
+      <out>
+         <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="a_phrase"/>
+            <clip pos="2" part="a_nbr"/>
+            <clip pos="2" part="a_pers"/>
+            <var n="possessive"/>
+            <clip pos="2" part="a_cas"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+           <b/>
+ <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        
       </out>
      </action>
     </rule>

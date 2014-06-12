@@ -263,3 +263,10 @@ chmod +x /home/ubuntu/Source/apertium-eng-kaz/pasten.py
 <spectre> and you can just work on that for the next two weeks
 <Aida> ok
 
+
+cat texts/movie.eng.txt  | apertium -d . eng-kaz > /tmp/movie.eng-kaz.txt
+
+../apertium-eval-translator/apertium-eval-translator.pl -t /tmp/movie.eng-kaz.txt -r texts/movie.kaz.txt
+
+cat texts/business_movie.eng.txt  | apertium -d . eng-kaz > /tmp/business_movie.eng-kaz.txt
+../apertium-eval-translator/apertium-eval-translator.pl -t /tmp/business_movie.eng-kaz.txt -r texts/business_movie.kaz.txt

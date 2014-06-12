@@ -3492,6 +3492,208 @@
 </rule>
 
 
+<rule comment="NEW RULE: can + adv + infinitive "> <!--You can also download-->
+  <pattern> <!-- generalize it for "could" with a tense selector -->
+    <pattern-item n="vaux-can"/>
+    <pattern-item n="adv"/>
+    <pattern-item n="approx-inf-verb"/> 
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+            
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+         <b pos="1"/>
+        <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+<lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+        <b/> 
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="aor"/>
+	  <lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	
+ 	        </lu>
+      </chunk>
+  </out>
+       
+  </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <out>
+      <chunk name="pers-verb">
+            <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+        <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="prc_impf"/>
+            </lu>
+        <b/> 
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="ifi"/>
+	<lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	</lu>
+          </chunk>
+        </out>
+      </when>
+    </choose>
+      </action>
+</rule>
+
+
+<rule comment="NEW RULE: can + adv + infinitive "> <!--You can also download or stream-->
+  <pattern> <!-- generalize it for "could" with a tense selector -->
+    <pattern-item n="vaux-can"/>
+    <pattern-item n="adv"/>
+    <pattern-item n="approx-inf-verb"/> 
+    <pattern-item n="or"/>
+    <pattern-item n="approx-inf-verb"/> 
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+            
+        <out>
+      <chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+         <b pos="1"/>
+        <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+<lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+            <b pos="3"/>
+ <lu>
+      <clip pos="4" side="tl" part="whole"/>
+            </lu>
+        <b/> 
+<lu>
+          <clip pos="5" side="tl" part="lem"/>
+	  <clip pos="5" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+<b/>
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="aor"/>
+	  <lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	
+ 	        </lu>
+      </chunk>
+  </out>
+       
+  </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <out>
+      <chunk name="pers-verb">
+            <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+        <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="prc_impf"/>
+            </lu>
+        <b/> 
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="ifi"/>
+	<lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	</lu>
+          </chunk>
+        </out>
+      </when>
+    </choose>
+      </action>
+</rule>
+
+
+
 <rule comment="NEW RULE: can + be + infinitive "> <!--this can be go-->
   <pattern> <!-- generalize it for "could" with a tense selector -->
     <pattern-item n="vaux-can"/>

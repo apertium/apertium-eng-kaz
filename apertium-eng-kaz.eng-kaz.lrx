@@ -15,6 +15,10 @@
   </rule>
 
 <rule>
+    <match lemma="home" tags="n.*"><select lemma="үй" tags="n.*"/></match>
+  </rule>
+
+<rule>
     <match lemma="call" tags="vblex.*"><select lemma="ата" tags="v.*"/></match>
   </rule>
 

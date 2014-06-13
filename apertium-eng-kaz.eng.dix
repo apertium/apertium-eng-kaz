@@ -47432,6 +47432,8 @@
 
                             <e lm="pay" i=""><i>pay</i><par n="house__n"/></e>
 
+                            <e lm="pay" i=""><i>pay</i><par n="long/__adj"/></e>
+
                             <e lm="payment" i=""><i>payment</i><par n="house__n"/></e>
 
                             <e lm="payroll" i=""><i>payroll</i><par n="house__n"/></e>
@@ -47523,6 +47525,8 @@
                             <e lm="perineum" i=""><i>perineum</i><par n="house__n"/></e>
 
                             <e lm="period" i=""><i>period</i><par n="house__n"/></e>
+
+                            <e lm="for a period of time" i=""><i>for<b/>a<b/>period<b/>of<b/>time</i><par n="maybe__adv"/></e>
 
                             <e lm="periodicity" i=""><i>periodicit</i><par n="bab/y__n"/></e>
 

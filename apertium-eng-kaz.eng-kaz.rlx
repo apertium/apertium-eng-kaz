@@ -112,6 +112,8 @@ SELECT (vblex ger) if (0 ("beginning"i))(NOT 1 V) ;
 
 SELECT Rel if (-1 N) ;
 
+SELECT A if (0 ("pay"i))(1 N) ;
+
 SELECT N if (-1 Pr) ;
 
 SELECT A if (1C ("Party"i)) ;
@@ -187,6 +189,8 @@ SELECT CS IF (-1 V)(1 N OR PRN-SUBJ);
 SELECT Inf IF (-1* V-DO BARRIER SENT) (NOT 1 Det);
 
 REMOVE Inf IF (NOT 0 ("will"i) ) (1C ADV-NOT) (2 Inf);
+
+SELECT Adv IF (1 N)(2 FIN);
 
 SELECT Pr IF (1 N);
 

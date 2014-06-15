@@ -18,6 +18,12 @@
       <cat-item tags="NP_to_have.*"/>
 
     </def-cat>
+
+<def-cat n="CM">
+      <cat-item tags="CM"/>
+      <cat-item tags="CM.*"/>
+
+    </def-cat>
    <def-cat n="Q_m">
       <cat-item tags="Q_mark"/>
       <cat-item tags="Q_mark.*"/>
@@ -652,6 +658,8 @@
      </action>
 </rule>
 
+
+
 <rule comment="NEW RULE: QAdvP NP VP">
     <!-- when he came ол келгенде-->
      <pattern>
@@ -681,6 +689,99 @@
 
          </chunk> 
   
+      </out>
+     </action>
+    </rule>
+
+
+<rule comment="NEW RULE: QAdvP NP NP CM THAN NP VP NP PP">
+    <!-- when he came ол келгенде-->
+     <pattern>
+       <pattern-item n="QAdvP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="CM"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="CM"/>
+       <pattern-item n="THAN"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="PP"/>
+       <pattern-item n="CM"/>
+         </pattern>
+     <action>
+           <out>
+           <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+ <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk> 
+      <b pos="1"/>
+      <b pos="2"/>
+ <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk> 
+ <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk> 
+
+      <b pos="3"/>
+ <b pos="4"/>
+  <b pos="5"/>
+ <chunk>
+            <clip pos="6" part="lem"/>
+            <clip pos="6" part="tags"/>
+            <clip pos="6" part="chcontent"/>
+          </chunk> 
+      <b pos="6"/>
+<chunk>
+            <clip pos="7" part="lem"/>
+            <clip pos="7" part="tags"/>
+            <clip pos="7" part="chcontent"/>
+          </chunk> 
+   <b pos="7"/>
+  <chunk>
+             <clip pos="9" part="lem"/>
+            <lit-tag v="NP"/>
+            <clip pos="9" part="a_nbr"/>
+            <clip pos="9" part="a_pers"/>
+            <clip pos="9" part="a_possessive"/>
+            <lit-tag v="acc"/>
+            <clip pos="9" part="chcontent"/>
+          </chunk> 
+   <b pos="8"/>
+ <chunk>
+            <clip pos="10" part="lem"/>
+            <clip pos="10" part="tags"/>
+            <clip pos="10" part="chcontent"/>
+          </chunk> 
+   <b pos="9"/>
+       <chunk>
+            <clip pos="8" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="2" part="a_nbr"/> <!-- agree number -->
+            <clip pos="2" part="a_pers"/> <!-- agree person -->
+              <lit-tag v="ger_past"/>
+            <clip pos="8" part="a_possessive"/> 
+            <clip pos="8" part="a_neg"/>
+              <lit-tag v="loc"/>
+            <clip pos="8" part="chcontent"/>
+
+         </chunk> 
+  <chunk>
+            <clip pos="11" part="lem"/>
+            <clip pos="11" part="tags"/>
+            <clip pos="11" part="chcontent"/>
+          </chunk> 
       </out>
      </action>
     </rule>
@@ -2765,6 +2866,62 @@
     </rule>
 
 
+<rule comment="NEW RULE:  NP PP VP NP PP">
+     <pattern>
+       <pattern-item n="NP"/>
+       <pattern-item n="PP"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="PP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/>
+ <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+<b/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <lit-tag v="NP"/>
+            <clip pos="4" part="a_nbr"/>
+            <clip pos="4" part="a_pers"/>
+            <clip pos="4" part="a_possessive"/>
+            <lit-tag v="acc"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b/>
+ <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+<b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_tense"/>
+            <clip pos="3" part="a_possessive"/> 
+            <clip pos="3" part="a_neg"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk> 
+      </out>
+     </action>
+    </rule>
+
+
+
 <rule comment="NEW RULE: agree person and number NP VP PP">
     <!-- propagates person and number from NP to VP and reorders PP-->
      <pattern>
@@ -4059,6 +4216,66 @@
      </action>
     </rule>
 
+<rule comment="NEW RULE: NP VP_be AdvP PP AdvP"> 
+     <pattern>
+       <pattern-item n="GenP"/>
+       <pattern-item n="VP_be"/>
+       <pattern-item n="AdvP"/>
+       <pattern-item n="NP"/>
+     </pattern>
+
+     <action>
+
+      <out>
+      
+
+          <b pos="1"/>
+          <b pos="2"/>
+          <b pos="3"/>
+ <chunk>
+            <clip pos="1" part="lem"/>
+           <clip pos="1" part="tags"/> 
+            <clip pos="1" part="chcontent"/>               
+          </chunk>
+<b/>
+  <!--<chunk>
+           <clip pos="1" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="1" part="a_nbr"/>
+            <clip pos="1" part="a_pers"/> 
+            <clip pos="1" part="a_possessive"/>
+             <clip pos="1" part="a_cas"/>
+            <clip pos="1" part="chcontent"/>         
+          </chunk>
+<b/>
+
+        <chunk>
+            <clip pos="3" part="lem"/>
+            <lit-tag v="PP"/>
+            <clip pos="3" part="a_nbr"/> 
+            <clip pos="3" part="a_pers"/> 
+            <clip pos="3" part="a_possessive"/>
+            <clip pos="3" part="a_cas"/> 
+            <clip pos="3" part="chcontent"/>         
+            
+          </chunk>
+       <b/>-->
+ <chunk>
+            <clip pos="3" part="lem"/>
+           <clip pos="3" part="tags"/> 
+            <clip pos="3" part="chcontent"/>               
+          </chunk>
+<b/>
+ <chunk>
+            <clip pos="4" part="lem"/>
+           <clip pos="4" part="tags"/> 
+            <clip pos="4" part="chcontent"/>               
+          </chunk>
+
+    </out>
+     </action>
+    </rule>
+
 <rule comment="NEW RULE: NP VP_be_past AdvP PP AdvP"> <!--He was from Kazakhstan -->
      <pattern>
        <pattern-item n="NP"/>
@@ -4762,6 +4979,55 @@
      </action>
     </rule>
 
+<rule comment="NEW RULE: NP VP NP AdvP ; agree person and number NP VP, set NP accusative">
+    <!-- propagates person and number from NP to VP -->
+     <pattern>
+       <pattern-item n="NP"/>
+       
+       <pattern-item n="VP"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="AdvP"/>
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+        
+       
+          <chunk>
+            <clip pos="3" part="lem"/>  
+            <lit-tag v="NP"/>
+            <clip pos="3" part="a_nbr"/> <!-- agree number -->
+            <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_possessive"/>
+            <lit-tag v="acc"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+ <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+         </chunk>
+          <b/>
+          <chunk>
+            <clip pos="2" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="1" part="a_nbr"/> <!-- agree number -->
+            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="2" part="a_tense"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
 
 
 

@@ -118,6 +118,8 @@ SELECT A if (0 ("pay"i))(1 N) ;
 
 SELECT N if (-1 Pr) ;
 
+SELECT (det itg) if (1 ("be"i)) (2 ("call"i)) ;
+
 SELECT A if (1C ("Party"i)) ;
 
 SELECT AdvItg if (1C V) ;
@@ -144,11 +146,17 @@ SELECT Pr if (-1 VAUX-WOULD) ;
 
 SELECT Inf IF (-2 V-FIN) (-1 ("<to>"));
 
+SELECT (vblex inf) IF (-2 ("what"i)) (-1 ("<to>"));
+
+SELECT (vblex inf) IF (0 ("do"i)) (-1 ("<to>"));
+
 SELECT Inf IF (0 ("<will>")) (1 ADV-NOT);
 
 SELECT V-HAVE IF (1 PrcPast);
 
 SELECT V IF (1 Ger)(NOT 0 (vblex pres p3 sg));
+
+SELECT V-FIN IF (0 ("show"i)) (1 Det); 
 
 REMOVE V-FIN IF (-1 A) (-2 Det); 
 
@@ -177,6 +185,10 @@ SELECT Adv IF (-1 V)(0 ("forward"i));
 SELECT Inf IF (-1 V-MOD);
 
 SELECT N IF (1 Pr)(2 N);
+
+SELECT N IF (1 (vbser pres));
+
+SELECT N IF (-2 N)(-1 (cnjcoo));
 
 REMOVE N IF (0 V-FIN) (0 N) (0 N OR V-FIN) ((NOT 1* V-FIN BARRIER CLB) OR (NOT -1C* V-FIN BARRIER CLB));
 
@@ -259,6 +271,8 @@ SELECT V-FIN + $$PERSON (-1C Subj + $$PERSON);
 SELECT Inf IF (-2 V-FIN) (-1 Adv) (0 V-FIN OR Inf);
 
 SELECT Det + Pos IF (0 Det OR Pron) (1 N);
+
+SELECT N IF (0 ("television"i)) (-1 Det) (-2 ("or"i));
 
 SELECT A IF (0 Det OR A) (-1 Det) (1 N);
 

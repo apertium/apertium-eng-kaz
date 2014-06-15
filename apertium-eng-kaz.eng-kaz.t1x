@@ -9360,6 +9360,216 @@
 </rule>
 
 
+<rule comment="NEW RULE: prep det unknown noun">  
+<!-- explicit superblank management -->
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="det"/>
+     <pattern-item n="unknown"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+
+  <call-macro n="choose_case_and_postposition2"><with-param pos="1"/><with-param pos="4"/></call-macro>
+  <call-macro n="NEW-build-noun-lu-2-4-5">
+    <with-param pos="4"/>
+  </call-macro>  
+ 
+    <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+       <!-- when there is postposition information, it is generated -->
+
+       <choose>
+         <when> <!-- Demonstrative, postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
+           <out>
+             <chunk name="prep-detdem-noun">
+             <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="4" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>   
+             </tags>
+             <b pos="1"/>
+             <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_det"/>
+             <clip pos="2" side="tl" part="a_dem"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+             <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="3"/>
+             <lu>
+               <var n="NEW-noun_lu"/>
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+             </chunk>
+           </out>
+        </when>
+       
+        <when>  <!-- Possessive, with postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+           <call-macro n="build-possessive-from-possessive-determiner">
+              <with-param pos="2"/>
+           </call-macro>
+           <out>
+            <chunk name="prep-detpos-noun">
+            <tags>
+                 <tag><var n="pptag"/></tag>
+                 <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+                 <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+                 <tag><var n="possessive"/></tag> <!-- possessor computed from possessive determiner -->
+                 <tag><var n="case"/></tag> <!-- case placeholder -->
+            </tags>
+            <b pos="1"/>
+            <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            <b pos="2"/>
+            <lu>
+             <clip pos="3" side="tl" part="whole"/>
+            </lu>
+              <b pos="3"/>
+              <lu> 
+                <var n="NEW-noun_lu"/>
+              </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+           </chunk>
+         </out>
+       </when>
+
+
+       <otherwise> <!-- no possessive or demonstrative, postposition -->
+
+        <out>
+          <chunk name="prep-detart-noun">
+          <tags>
+             <tag><var n="pptag"/></tag>
+             <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+             <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+             <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+             <tag><var n="case"/></tag> <!-- case placeholder -->
+         </tags>  
+         <b pos="1"/>
+         <b pos="2"/>
+             <lu>
+             <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="3"/>        
+            <lu>  
+               <var n="NEW-noun_lu"/>
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+       </otherwise>
+       
+      </choose>
+      </when>
+      <otherwise> <!-- no postposition -->
+        <choose>   
+
+         <when> <!-- Demonstrative, no postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
+           <out>
+             <chunk name="prep-detdem-noun">
+          <tags>
+             <tag><var n="pptag"/></tag>
+             <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+             <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+             <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+             <tag><var n="case"/></tag> <!-- case placeholder -->
+         </tags>    
+             <b pos="1"/>
+             <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_det"/>
+             <clip pos="2" side="tl" part="a_dem"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+             <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="3"/>      
+             <lu>  
+                <var n="NEW-noun_lu"/>
+             </lu>
+             </chunk>
+           </out>
+        </when>
+
+        <when>  <!-- Possessive, with postposition -->
+           <test><equal><clip pos="2" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+           <call-macro n="build-possessive-from-possessive-determiner">
+              <with-param pos="2"/>
+           </call-macro>
+           <out>
+            <chunk name="prep-detpos-noun">
+           <tags>
+             <tag><var n="pptag"/></tag>
+             <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+             <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+             <tag><var n="possessive"/></tag> <!-- possessor placeholder -->
+             <tag><var n="case"/></tag> <!-- case placeholder -->
+           </tags>
+           <b pos="1"/> 
+             <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+           <b pos="2"/>
+                <lu>
+             <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="3"/>          
+             <lu>  
+                <var n="NEW-noun_lu"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+          
+
+          <otherwise> <!-- No possessive, no demonstrative -->
+           <out>
+           <chunk name="prep-detart-noun">
+           <tags>
+             <tag><var n="pptag"/></tag>
+             <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+             <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+             <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+             <tag><var n="case"/></tag> <!-- case placeholder -->
+           </tags>  
+           <b pos="1"/>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="3"/>
+              <lu>  
+                 <var n="NEW-noun_lu"/>
+              </lu>
+             </chunk>
+            </out>
+	  </otherwise>
+       </choose>
+     </otherwise>
+    </choose>
+  </action>
+</rule>
+
 <rule comment="NEW RULE: prep det num noun">  
 <!-- in these and many other prep rules, the case of the chunk is wrong, as it is set to the case computed for the noun: 
 this would have to be changed -->
@@ -11208,9 +11418,22 @@ this would have to be changed -->
 </rule>
 
 
+<rule comment="NEW RULE: be"> 
+  <pattern>
+    <pattern-item n="be"/>
+  </pattern>
+  <action>
+     <let><var n="tense"/><lit-tag v="aor"/></let> 
+      <call-macro n="NEW-gen-simple-verb">
+         <with-param pos="1"/> 
+     </call-macro>
+ 
+  </action>
+</rule>
 
 
-<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
+
+<rule comment="NEW RULE: pseudo+to+inf"> <!--to play -->
   <pattern>
     <pattern-item n="to"/>
     <pattern-item n="inf-verb"/> 
@@ -11318,7 +11541,7 @@ this would have to be changed -->
   </action>
 </rule>
 
-<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
+<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play games or find -->
   <pattern>
     <pattern-item n="to"/>
     <pattern-item n="approx-inf-verb"/> 

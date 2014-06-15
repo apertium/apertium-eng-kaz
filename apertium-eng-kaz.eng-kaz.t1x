@@ -309,7 +309,7 @@
     <def-attr n="a_tense">
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
-
+      <attr-item tags="inf"/>
     </def-attr> 
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -1931,23 +1931,29 @@
   <pattern>
 
     <pattern-item n="vbmod-want-to"/>
-    <pattern-item n="pers-verb"/>  <!--I want to go - Менің барғым келеді-->
+    <pattern-item n="approx-inf-verb"/>  <!--I want to go - Менің барғым келеді-->
   </pattern>
 <action>
   <call-macro n="default-nbr-pers"/>
 <choose>
       <when>
         <test>
+<or>
           <equal>
              <clip pos="1" side="sl" part="a_tense"/>
              <lit-tag v="pres"/>
           </equal>
+ <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="inf"/>
+          </equal>
+</or>
         </test>
             
         <out>
       <chunk name="VP_want_to">
       <tags>
-        <tag><lit-tag v="VP_want_to_inf"/></tag>
+        <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
@@ -11982,6 +11988,50 @@ this would have to be changed -->
     </tags>
     <lu>
       <var n="NEW-noun_lu"/>
+    </lu>
+   <b/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+     </lu>
+  <b/> 
+    <lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+
+    </lu>
+      </chunk>
+</out>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
+  <pattern>
+    <pattern-item n="to"/>
+    <pattern-item n="approx-inf-verb"/> 
+    <pattern-item n="obj-pron"/>
+   </pattern>
+  <action>
+
+ 
+    <out>
+    <chunk name="to-inf-noun">
+    <tags>
+    <tag><lit-tag v="PP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><clip pos="3" side="sl" part="a_pers"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="acc"/></tag> <!-- case placeholder -->
+    </tags>
+     <lu>
+      <clip pos="3" side="tl" part="lem"/>
+      <clip pos="3" side="tl" part="a_kaz_perspron"/>
+      <clip pos="3" side="tl" part="a_pers"/>
+      <lit-tag v="2"/> <!-- number -->
+      <lit-tag v="4"/> <!-- possession -->
+      <lit-tag v="5"/> <!-- case --> 
     </lu>
    <b/>
         <lu>

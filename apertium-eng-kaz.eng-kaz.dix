@@ -3250,6 +3250,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>youth<s n="n"/></l><r>жастық<s n="n"/></r></p></e>
 <e><p><l>Israeli<s n="n"/></l><r>Израильдік<s n="n"/></r></p></e>
 <e><p><l>movie<b/>soundtrack<s n="n"/></l><r>кинофильмдік<b/>ән<s n="n"/></r></p></e>
+<e><p><l>soundtrack<s n="n"/></l><r>кинофильмдік<b/>ән<s n="n"/></r></p></e>
 <e><p><l>block<s n="n"/></l><r>блок<s n="n"/></r></p></e>
 <e><p><l>stock<s n="n"/></l><r>бұйым<s n="n"/></r></p></e>
 <e><p><l>creek<s n="n"/></l><r>айлақ<s n="n"/></r></p></e>
@@ -5551,7 +5552,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>go<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>memorise<s n="vblex"/></l><r>есте<b/>қалдыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>escape<s n="vblex"/></l><r>қаш<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>have<s n="vblex"/></l><r>бар<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>have<s n="vblex"/></l><r>бар<b/>бол<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hide<s n="vblex"/></l><r>жасыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hide<s n="vblex"/></l><r>жасырын<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>hit<s n="vblex"/></l><r>соқ<s n="v"/><s n="iv"/></r></p></e>

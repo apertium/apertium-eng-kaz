@@ -224,6 +224,7 @@
       <attr-item tags="gna_cond"/>
       <attr-item tags="ger_impf"/>
       <attr-item tags="fut"/>
+      <attr-item tags="ger"/>
       <attr-item tags="TD"/>  <!-- For the future? -->
     </def-attr>
     <def-attr n="a_pass">
@@ -883,6 +884,7 @@
             <lit-tag v="NP"/>
             <clip pos="5" part="a_nbr"/>
             <clip pos="5" part="a_pers"/>
+            <clip pos="5" part="a_tense"/>
             <clip pos="5" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="5" part="chcontent"/>
@@ -1042,6 +1044,7 @@
             <lit-tag v="NP"/>
             <clip pos="5" part="a_nbr"/>
             <clip pos="5" part="a_pers"/>
+            <clip pos="5" part="a_tense"/>
             <clip pos="5" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="5" part="chcontent"/>
@@ -1198,6 +1201,7 @@
             <lit-tag v="NP"/>
             <clip pos="4" part="a_nbr"/>
             <clip pos="4" part="a_pers"/>
+            <clip pos="4" part="a_tense"/>
             <clip pos="4" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="4" part="chcontent"/>
@@ -1271,6 +1275,7 @@
             <lit-tag v="NP"/>
             <clip pos="4" part="a_nbr"/>
             <clip pos="4" part="a_pers"/>
+            <clip pos="4" part="a_tense"/>
             <clip pos="4" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="4" part="chcontent"/>
@@ -1445,6 +1450,7 @@
             <lit-tag v="NP"/>
             <clip pos="4" part="a_nbr"/>
             <clip pos="4" part="a_pers"/>
+            <clip pos="4" part="a_tense"/>
             <clip pos="4" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="4" part="chcontent"/>
@@ -1497,6 +1503,7 @@
             <lit-tag v="NP"/>
             <clip pos="4" part="a_nbr"/>
             <clip pos="4" part="a_pers"/>
+            <clip pos="4" part="a_tense"/>
             <clip pos="4" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="4" part="chcontent"/>
@@ -1642,6 +1649,7 @@
             <lit-tag v="NP"/>
             <clip pos="3" part="a_nbr"/> <!-- agree number -->
             <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_tense"/>
             <clip pos="3" part="PXD"/>
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>
@@ -1658,6 +1666,7 @@
             <lit-tag v="NP"/>
             <clip pos="5" part="a_nbr"/> <!-- agree number -->
             <clip pos="5" part="a_pers"/> <!-- agree person -->
+            <clip pos="5" part="a_tense"/>
             <clip pos="5" part="PXD"/>
             <lit-tag v="acc"/>
             <clip pos="5" part="chcontent"/>
@@ -1748,6 +1757,7 @@
             <lit-tag v="NP"/>
             <clip pos="3" part="a_nbr"/>
             <clip pos="3" part="a_pers"/>
+            <clip pos="3" part="a_tense"/>
             <clip pos="3" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>
@@ -1954,6 +1964,7 @@
             <lit-tag v="NP"/>
             <clip pos="3" part="a_nbr"/>
             <clip pos="3" part="a_pers"/>
+            <clip pos="3" part="a_tense"/>
             <clip pos="3" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>
@@ -2906,6 +2917,7 @@
             <lit-tag v="NP"/>
             <clip pos="4" part="a_nbr"/>
             <clip pos="4" part="a_pers"/>
+            <clip pos="4" part="a_tense"/>
             <clip pos="4" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="4" part="chcontent"/>
@@ -5126,6 +5138,9 @@
     </rule>
 
 
+
+
+
 <rule comment="NEW RULE: NP VP NP AdvP ; agree person and number NP VP, set NP accusative">
     <!-- propagates person and number from NP to VP -->
      <pattern>
@@ -5621,6 +5636,7 @@
             <lit-tag v="NP"/>
             <clip pos="3" part="a_nbr"/> <!-- agree number -->
             <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_tense"/>
             <clip pos="3" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>

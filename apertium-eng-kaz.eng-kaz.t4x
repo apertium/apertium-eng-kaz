@@ -38,6 +38,7 @@
     <def-cat n="nomobject">
        <cat-item tags="n.nom"/>
        <cat-item tags="n.pl.*"/>
+       <cat-item tags="n.sg.px3sp.*"/>
        <cat-item tags="n.*.loc"/> 
        <cat-item tags="np.top"/>
        <cat-item tags="n.*.nom"/>
@@ -187,6 +188,7 @@
            <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
           </when>
         </choose>
+
         <choose>
           <when>
             <test>
@@ -198,6 +200,7 @@
             <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
           </when>
         </choose>
+ 
 <choose>
           <when>
             <test>
@@ -440,6 +443,24 @@
             <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
           </when>
         </choose>
+  <choose>
+     <when>
+        <test>
+          <equal>
+             <clip pos="2" part="nbr" side="sl"/>
+             <lit-tag v="ND"/>
+          </equal>
+        </test>
+        <let>
+           <clip pos="1" part="nbr" side="tl"/>
+           <lit v="sg"/>
+        </let>
+<let>
+           <clip pos="1" part="a_pers" side="tl"/>
+           <lit v="p3"/>
+        </let>
+     </when>
+     </choose>
       
         <out>
           <lu>

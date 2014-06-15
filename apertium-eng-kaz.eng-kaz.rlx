@@ -89,9 +89,9 @@ SELECT N IF (-1 ("<both>"i)) ;
 
 SELECT (cnjcoo) IF (1 (pr)) ; 
 
-SELECT Pr IF (0 ("<like>"i))(1 Unknown) ; 
+SELECT V IF (0 ("<like>"i))(-2 PRN-SUBJ) ; 
 
-SELECT V IF (0 ("<like>"i)) ; 
+SELECT Pr IF (0 ("<like>"i))(1 Unknown) ; 
 
 SELECT (vblex) IF (-1 Adv)(0 ("<offer>"i)) ; 
 
@@ -129,7 +129,7 @@ SELECT (det itg) if (1 ("be"i)) (2 ("call"i)) ;
 
 SELECT A if (1C ("Party"i)) ;
 
-SELECT (det itg) if (1 V)(2 Det) ;
+SELECT (det itg) if (1 V)(2 Det OR N) ;
 
 SELECT AdvItg if (1C V) ;
 
@@ -160,6 +160,8 @@ SELECT (vblex inf) IF (-2 ("what"i)) (-1 ("<to>"));
 SELECT (vblex inf) IF (0 ("do"i)) (-1 ("<to>"));
 
 SELECT Inf IF (0 ("<will>")) (1 ADV-NOT);
+
+SELECT Inf IF (-1 ("<will>"));
 
 SELECT V-HAVE IF (1 PrcPast);
 
@@ -212,6 +214,8 @@ SELECT CS IF (-1 V)(1 N OR PRN-SUBJ);
 SELECT Inf IF (-1* V-DO BARRIER SENT) (NOT 1 Det);
 
 REMOVE Inf IF (NOT 0 ("will"i) ) (1C ADV-NOT) (2 Inf);
+
+SELECT (det qnt) IF (-1 Pr)(1 N)(2 FIN);
 
 SELECT Adv IF (1 N)(2 FIN);
 

@@ -26,6 +26,7 @@ LIST VerbalNoun = (vblex subs) ;
 LIST PPRS = (vblex pprs); 
 LIST PrcPast = pp ; 
 LIST AdvItg = (adv itg) ; 
+LIST Unknown = ("\*.*"r);
 
 LIST Interr = itg ; 
 LIST Subj = subj ; 
@@ -190,7 +191,7 @@ SELECT N IF (1 (vbser pres));
 
 SELECT N IF (-2 N)(-1 (cnjcoo));
 
-REMOVE N IF (0 V-FIN) (0 N) (0 N OR V-FIN) ((NOT 1* V-FIN BARRIER CLB) OR (NOT -1C* V-FIN BARRIER CLB));
+REMOVE N IF (0 V-FIN) (0 N) (0 N OR V-FIN) ((NOT 1* V-FIN BARRIER CLB) OR (NOT -1C* V-FIN BARRIER CLB)) (NOT -1* Det BARRIER (*) - Unknown);
 
 REMOVE A IF (0 A OR Adv) (NOT 1 N) (NOT -1* Cop BARRIER CLB) ;
 

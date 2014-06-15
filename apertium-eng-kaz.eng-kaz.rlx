@@ -89,7 +89,11 @@ SELECT N IF (-1 ("<both>"i)) ;
 
 SELECT (cnjcoo) IF (1 (pr)) ; 
 
+SELECT Pr IF (0 ("<like>"i))(1 Unknown) ; 
+
 SELECT V IF (0 ("<like>"i)) ; 
+
+SELECT (vblex) IF (-1 Adv)(0 ("<offer>"i)) ; 
 
 SELECT Inf IF (-2* ("<to>"i))(-1 ("<or>"i)) ; 
 
@@ -119,9 +123,13 @@ SELECT A if (0 ("pay"i))(1 N) ;
 
 SELECT N if (-1 Pr) ;
 
+SELECT (det qnt) if (1 A) ;
+
 SELECT (det itg) if (1 ("be"i)) (2 ("call"i)) ;
 
 SELECT A if (1C ("Party"i)) ;
+
+SELECT (det itg) if (1 V)(2 Det) ;
 
 SELECT AdvItg if (1C V) ;
 

@@ -190,6 +190,7 @@
 <e><p><l>toward<s n="pr"/></l><r>қарай<s n="post"/></r></p></e>
 <e><p><l>alongside<s n="pr"/></l><r>жан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>unlike<s n="pr"/></l><r>емес<s n="post"/></r></p></e>
+<e><p><l>like<s n="pr"/></l><r>сияқты<s n="post"/></r></p></e>
 <e><p><l>upon<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>onto<s n="pr"/></l><r>қарай<s n="post"/></r></p></e>
 <e><p><l>plus<s n="pr"/></l><r>қосымша<s n="post"/></r></p></e>
@@ -3248,7 +3249,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>birth<s n="n"/></l><r>туғызу<s n="n"/></r></p></e>
 <e><p><l>youth<s n="n"/></l><r>жастық<s n="n"/></r></p></e>
 <e><p><l>Israeli<s n="n"/></l><r>Израильдік<s n="n"/></r></p></e>
-<e><p><l>soundtrack<s n="n"/></l><r>кинофильмдік<b/>ән<s n="n"/></r></p></e>
+<e><p><l>movie<b/>soundtrack<s n="n"/></l><r>кинофильмдік<b/>ән<s n="n"/></r></p></e>
 <e><p><l>block<s n="n"/></l><r>блок<s n="n"/></r></p></e>
 <e><p><l>stock<s n="n"/></l><r>бұйым<s n="n"/></r></p></e>
 <e><p><l>creek<s n="n"/></l><r>айлақ<s n="n"/></r></p></e>

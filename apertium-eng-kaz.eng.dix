@@ -53504,6 +53504,8 @@
 
                             <e lm="last" i=""><i>last</i><par n="expensive__adj"/></e>
 
+                            <e lm="last" i=""><i>last</i><par n="house__n"/></e>
+
                             <e lm="large" i=""><i>large</i><par n="nice/__adj"/></e>
 
                             <e lm="lasting" i=""><i>lasting</i><par n="expensive__adj"/></e>
@@ -55383,6 +55385,7 @@
                             <e lm="have" i=""><i>ha</i><par n="ha/ve__vbhaver"/></e>
 
                             <e lm="do" i=""><i>d</i><par n="d/o__vaux"/></e>
+F
 
                             <e lm="can" i=""><i>c</i><par n="c/an__vbmod"/></e>
 
@@ -56345,6 +56348,8 @@
                             <e lm="cut" i=""><i>cut</i><par n="cut__vblex"/></e>
 
                             <e lm="do" i=""><i>d</i><par n="d/o__vblex"/></e>
+
+                            <e lm="out-do" i=""><i>out-d</i><par n="d/o__vblex"/></e>
 
                             <e lm="die" i=""><i>d</i><par n="d/ie__vblex"/></e>
 

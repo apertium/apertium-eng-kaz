@@ -81,6 +81,8 @@ SECTION
 
 REMOVE V-FIN IF (-1C V-FIN);  # Careful: would kill "The man who _came_ _wrote_ a book"
 
+SELECT (vblex pp) IF (-1 ("have"i)) ; 
+
 REMOVE N IF (0 ("<is>"i)) ; 
 
 SELECT N IF (0 ("<sound>"i))(1 ("<to>"i))(2 ("<tell>"i)) ; 
@@ -119,6 +121,8 @@ SELECT (vblex ger) if (0 ("beginning"i))(NOT 1 V) ;
 
 SELECT Rel if (-1 N) ;
 
+SELECT V if (0 ("cost"i)) (-1 Adv);
+
 SELECT A if (0 ("pay"i))(1 N) ;
 
 SELECT N if (-1 Pr) ;
@@ -129,7 +133,7 @@ SELECT (det itg) if (1 ("be"i)) (2 ("call"i)) ;
 
 SELECT A if (1C ("Party"i)) ;
 
-SELECT (det itg) if (1 V)(2 Det OR N) ;
+SELECT (det itg) if (1 V OR Adv)(2 Det OR N OR V) ;
 
 SELECT AdvItg if (1C V) ;
 

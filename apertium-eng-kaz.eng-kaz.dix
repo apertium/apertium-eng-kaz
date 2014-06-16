@@ -12,6 +12,7 @@
     <sdef n="tv"  c="Переходный"/>
     <sdef n="caus"/>
     <sdef n="mf"/>
+    <sdef n="mon"/>
     <sdef n="acr"/>
     <sdef n="aa"/>
     <sdef n="px"/>
@@ -1579,6 +1580,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>nourishment<s n="n"/></l><r>қорек<s n="n"/></r></p></e>
     <e><p><l>now<s n="n"/></l><r>қазір<s n="n"/></r></p></e>
     <e><p><l>oblast<s n="n"/></l><r>облыс<s n="n"/></r></p></e>
+    <e><p><l>last<s n="n"/></l><r>соңғы<s n="n"/></r></p></e>
     <e><p><l>obligation<s n="n"/></l><r>міндет<s n="n"/></r></p></e>
     <e><p><l>occupation<s n="n"/></l><r>кәсіп<s n="n"/></r></p></e>
     <e><p><l>occurance<s n="n"/></l><r>кез<s n="n"/></r></p></e>
@@ -4266,7 +4268,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>billion<s n="num"/><s n="sg"/></l><r>миллиард<s n="num"/></r></p></e>
 <e><p><l>million<s n="num"/><s n="sg"/></l><r>миллион<s n="num"/></r></p></e>
 
-
+   <e><p><l>$<s n="num"/><s n="mon"/></l><r>$<s n="num"/></r></p></e>
 
     <e><p><l>C<s n="num"/><s n="mf"/><s n="sg"/></l><r>C<s n="num"/></r></p></e>
     <e><p><l>DC<s n="num"/><s n="mf"/><s n="sg"/></l><r>DC<s n="num"/></r></p></e>
@@ -5515,6 +5517,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e><p><l>identity<s n="vblex"/></l><r>идентификацияла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>do<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>out-do<s n="vblex"/></l><r>асыра<b/>жаса<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>do<s n="vblex"/></l><r>істе<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>exchange<s n="vblex"/></l><r>айырбаста<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>inform<s n="vblex"/></l><r>хабарла<s n="v"/><s n="tv"/></r></p></e>

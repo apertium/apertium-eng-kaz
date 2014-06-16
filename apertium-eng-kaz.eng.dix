@@ -19103,7 +19103,7 @@
 
                             <e lm="anointing" i=""><i>anointing</i><par n="house__n"/></e>
 
-                            <!--<e lm="another" i=""><i>another</i><par n="another__det"/></e>-->
+                            <e lm="another" i=""><i>another</i><par n="expensive__adj"/></e>
 
                             <e lm="another" i=""><i>another</i><par n="everyone__prn"/></e>
 
@@ -58925,6 +58925,7 @@ F
                             <e lm="God willing" i=""><i>God<b/>willing</i><par n="maybe__adv"/></e>
 
                             <e lm="together" i=""><i>together</i><par n="maybe__adv"/></e>
+
 
                             <e lm="audaciously" i=""><i>audaciously</i><par n="maybe__adv"/></e>
 

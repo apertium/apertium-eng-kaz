@@ -9,7 +9,7 @@
       <cat-item tags="vblex.past"/>
     </def-cat>   
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
-      <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
+      <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->      <cat-item lemma="be" tags="vbser.inf"/>
 
       <cat-item tags="vbmod.ger"/>
     </def-cat>
@@ -248,6 +248,7 @@
     <def-cat n="obj-pron">
        <cat-item tags="prn.obj.*"/>
        <cat-item tags="prn.tn.*"/>
+       <cat-item tags="prn.subj.p3.nt.sg"/>
     </def-cat>
   <def-cat n="pron-neg">
       <cat-item tags="prn.*"/>
@@ -365,13 +366,16 @@
  <attr-item tags="prn.dem"/>
  <attr-item tags="prn.itg"/>
 <attr-item tags="prn.qnt"/>
- <attr-item tags="prn.dem.*"/> 
- <attr-item tags="prn.*"/>   
+      <attr-item tags="prn.qnt.*"/>
+      <attr-item tags="prn.ind"/>
+ <attr-item tags="prn.*"/> 
+      <attr-item tags="prn.pers"/>  
 </def-attr>
     <def-attr n="a_kaz_perspron"> 
       <attr-item tags="prn.pers"/>
       <attr-item tags="prn.ind"/>
       <attr-item tags="prn.qnt"/>
+      <attr-item tags="prn.qnt.*"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -456,6 +460,7 @@
       <list-item v="enjoy"/>
       <list-item v="start"/>
       <list-item v="love"/>
+      <list-item v="stop"/>
       <list-item v="finish"/>
     </def-list>
     <def-list n="negative_pron"> <!-- Verbs that can take verb-ing as object -->
@@ -1406,7 +1411,7 @@
            <var n="obj-pron_lu"/>
            <concat>
              <clip pos="1" side="tl" part="lem"/> 
-               <clip pos="1" side="tl" part="a_kaz_perspron"/>
+               <clip pos="1" side="tl" part="a_pron"/>
                <clip pos="1" side="sl" part="a_pers"/>
 
                <var n="number"/> 
@@ -1889,6 +1894,42 @@
   </action>
 </rule>
 
+
+
+<rule comment="NEW RULE: unknown noun2">  <!-- football player-->
+  <pattern>
+    <pattern-item n="unknown"/>
+ <pattern-item n="nom"/>
+  </pattern>
+  <action>
+
+    <out>
+    <chunk name="noun">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="2" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+     <clip pos="1" side="tl" part="whole"/> 
+   
+    </lu>
+   
+<b pos="1"/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="2" side="tl" part="lem"/> 
+               <clip pos="2" side="tl" part="a_nom"/>
+               <lit-tag v="2"/> <!-- number -->
+               <!-- no need to link person -->
+                <lit-tag v="px3sp"/><!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 <rule comment="NEW RULE: noun1 noun2">  <!-- football player-->
   <pattern>
@@ -3556,7 +3597,7 @@
   <pattern>
 
     <pattern-item n="vaux-may"/>
-    <pattern-item n="pers-verb"/>  
+    <pattern-item n="approx-inf-verb"/>  
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
@@ -11070,6 +11111,20 @@ this would have to be changed -->
      <let><var n="formality"/><lit v=""/></let>
      </otherwise>
   </choose>
+<choose>
+    <when>
+     <test>  
+       <equal>
+          <clip pos="1" side="sl" part="a_possessive"/>
+          <lit-tag v="px3sp"/>
+       </equal>
+     </test>
+     <let><var n="possessive"/><lit-tag v="px3sp"/></let>
+    </when>
+     <otherwise>
+     <let><var n="possessive"/><lit-tag v="PXD"/></let>
+     </otherwise>
+  </choose>
   <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
    <out>
    <chunk name="obj-pron">
@@ -11077,13 +11132,13 @@ this would have to be changed -->
     <tag><lit-tag v="NP"/></tag>
     <tag><var n="number"/></tag>
     <tag><clip pos="1" side="sl" part="a_pers"/></tag> <!-- Formality 2nd will be set in .t4x -->
-    <tag><lit-tag v="PXD"/></tag>
+    <tag><var n="possessive"/></tag>
     <tag><lit-tag v="CD"/></tag>
      
     </tags>
     <lu>
       <clip pos="1" side="tl" part="lem"/>
-      <clip pos="1" side="tl" part="a_kaz_perspron"/>
+      <clip pos="1" side="tl" part="a_pron"/>
       <clip pos="1" side="tl" part="a_pers"/>
       <lit-tag v="2"/> <!-- number -->
       <lit-tag v="4"/> <!-- possession -->
@@ -11151,6 +11206,71 @@ this would have to be changed -->
     </lu>
   </chunk>
   </out>
+ </action>
+</rule>
+
+<rule comment="RULE: prep - which - ol">
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="det-which"/>
+  </pattern>
+  <action>
+  <call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
+        <with-param pos="2"/>
+     </call-macro>
+ <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+        <out> <!-- with postposition -->
+          <chunk name="prep-which">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="2" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+            <b pos="1"/>
+                   <lu>
+     	  <clip pos="2" side="tl" part="lem"/>
+    	  <clip pos="2" side="tl" part="a_kaz_perspron"/>
+     	  <clip pos="2" side="tl" part="a_pers"/>
+    	  <lit-tag v="sg"/> <!-- number -->
+    	  <lit-tag v="4"/> <!-- possession -->
+     	  <lit-tag v="5"/> <!-- case --> 
+    		</lu>
+            
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise> <!-- without postposition -->
+        <out>
+          <chunk name="prep-nom">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="2" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+            <b pos="1"/>
+             <lu>
+     	  <clip pos="2" side="tl" part="lem"/>
+    	  <clip pos="2" side="tl" part="a_kaz_perspron"/>
+     	  <clip pos="2" side="tl" part="a_pers"/>
+    	  <lit-tag v="sg"/> <!-- number -->
+    	  <lit-tag v="4"/> <!-- possession -->
+     	  <lit-tag v="5"/> <!-- case --> 
+    		</lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
  </action>
 </rule>
  
@@ -12045,6 +12165,45 @@ this would have to be changed -->
 </out>
   </action>
 </rule>
+
+
+<rule comment="NEW RULE: pseudo+to+inf"> <!--to play -->
+  <pattern>
+    <pattern-item n="adjec"/>
+    <pattern-item n="to"/>
+    <pattern-item n="inf-verb"/> 
+   </pattern>
+  <action>
+<call-macro n="build-adjec-lu"><with-param pos="1"/></call-macro> 
+<out>
+  <chunk name="NP_to_inf">  
+      <tags>
+       <tag><lit-tag v="NP_to_inf"/></tag>
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="ND"/></tag> 
+        <tag><lit-tag v="ger"/></tag> 
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="dat"/></tag>
+      </tags>
+            
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="4"/>
+         <lit-tag v="5"/>
+         <lit-tag v="6"/>
+        </lu>
+<b pos="1"/>
+  <lu>
+      <var n="adjec_lu"/>
+	
+        </lu>
+    
+      </chunk>
+</out>
+  </action>
+</rule>
+
 
 <rule comment="NEW RULE: pseudo+to+inf"> <!--to play -->
   <pattern>

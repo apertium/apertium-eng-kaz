@@ -121,6 +121,8 @@ SELECT (vblex ger) if (0 ("beginning"i))(NOT 1 V) ;
 
 SELECT Rel if (-1 N) ;
 
+SELECT Inf IF (-1 ADV-NOT)(-2 VAUX-CAN);
+
 SELECT V if (0 ("cost"i)) (-1 Adv);
 
 SELECT A if (0 ("pay"i))(1 N) ;
@@ -132,6 +134,8 @@ SELECT (det qnt) if (1 A) ;
 SELECT (det itg) if (1 ("be"i)) (2 ("call"i)) ;
 
 SELECT A if (1C ("Party"i)) ;
+
+SELECT (det itg) if (-1 Pr)(0 ("which"i)) ;
 
 SELECT (det itg) if (1 V OR Adv)(2 Det OR N OR V) ;
 
@@ -186,8 +190,6 @@ REMOVE Inf IF (0 N OR Inf) (1 ("to"i)) (2 Inf);
 SELECT V IF  (-1 Subj OR N)(1 ("to"i)) (2 Inf);
 
 SELECT N IF (-1C NUM);
-
-SELECT Inf IF (-1 ADV-NOT)(-2 VAUX-CAN);
 
 SELECT N IF (-1 ("Baltic"i));
 

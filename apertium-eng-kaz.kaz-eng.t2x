@@ -6,6 +6,11 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+ <def-cat n="PP">
+      <cat-item tags="PP"/>
+      <cat-item tags="PP.*"/>
+    </def-cat>
+
 
     <def-cat n="SENT">
       <cat-item tags="SENT"/>

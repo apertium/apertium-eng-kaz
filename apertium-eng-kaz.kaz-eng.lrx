@@ -14,8 +14,8 @@
   </rule>
 <rule>
           
-      <match lemma="жер" tags="n.attr.*"/><select lemma="earth" tags="n.attr"/></match>
-        <match lemma="планета" tags="n.px3sp.*.*">
+      <match lemma="жер" tags="n.attr.*"><select lemma="earth" tags="n.attr"/></match>
+        <match lemma="планета" tags="n.px3sp.*.*"/>
   </rule>
 
 <rule>

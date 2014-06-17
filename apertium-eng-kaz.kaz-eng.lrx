@@ -6,6 +6,18 @@
     </or>
     <match lemma="жер"><select lemma="place"/></match>
   </rule>
+
+ <rule>
+          
+      <match lemma="қазақ" tags="n.attr.*"/>
+        <match lemma="жер" tags="n.px3sp.nom.*"><select lemma="land" tags="n.*"/></match>
+  </rule>
+<rule>
+          
+      <match lemma="жер" tags="n.attr.*"/><select lemma="earth" tags="n.attr"/></match>
+        <match lemma="планета" tags="n.px3sp.*.*">
+  </rule>
+
 <rule>
 
   <match lemma="Ол" tags="prn.pers.p3.sg.nom"><select lemma="she" tags="prn.subj.p3.f.*"/></match>
@@ -67,5 +79,7 @@
   </rule>
 
 
+
+ 
 
 </rules>

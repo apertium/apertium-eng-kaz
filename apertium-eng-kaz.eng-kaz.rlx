@@ -89,6 +89,8 @@ SELECT N IF (0 ("<sound>"i))(1 ("<to>"i))(2 ("<tell>"i)) ;
 
 SELECT N IF (-1 ("<both>"i)) ; 
 
+SELECT (prn tn mf) IF (0 ("<most>"i))(1 N) ; 
+
 SELECT (cnjcoo) IF (1 (pr)) ; 
 
 SELECT V IF (0 ("<like>"i))(-2 PRN-SUBJ) ; 
@@ -168,6 +170,8 @@ SELECT (vblex inf) IF (-2 ("what"i)) (-1 ("<to>"));
 SELECT (vblex inf) IF (0 ("do"i)) (-1 ("<to>"));
 
 SELECT Inf IF (0 ("<will>")) (1 ADV-NOT);
+
+SELECT Inf IF (-2 ("<will>")) (-1 Adv);
 
 SELECT Inf IF (-1 ("<will>"));
 

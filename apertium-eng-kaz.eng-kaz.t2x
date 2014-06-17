@@ -2556,6 +2556,7 @@
             <lit-tag v="NP"/>
             <clip pos="4" part="a_nbr"/> <!-- agree number -->
             <clip pos="4" part="a_pers"/> <!-- agree person -->
+            <clip pos="4" part="a_tense"/> 
             <var n="possessive"/>
             <lit-tag v="nom"/>
             <clip pos="4" part="chcontent"/>
@@ -2896,7 +2897,7 @@
      </action>
     </rule>
 
-<rule comment="NEW RULE:  NP PP PP PP ">
+<rule comment="NEW RULE:  NP PP PP">
      <pattern>
        <pattern-item n="NP"/>
        <pattern-item n="PP"/>
@@ -2924,9 +2925,9 @@
   <chunk>
             <clip pos="1" part="lem"/>
             <lit-tag v="NP"/>
-	<lit-tag v="sg"/>
+            <clip pos="1" part="a_nbr"/>
 	<lit-tag v="p3"/>
-	<lit-tag v="aor"/>
+            <clip pos="1" part="a_tense"/>
             <clip pos="1" part="a_possessive"/>
             <clip pos="1" part="a_cas"/>
             <clip pos="1" part="chcontent"/>

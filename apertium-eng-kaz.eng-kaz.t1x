@@ -3350,7 +3350,22 @@
 </rule>
 
 
+<rule comment="NEW RULE: will +adv + verb"> <!-- will verb -->
+<!-- superblank management needs to be corrected -->
+  <pattern>
+    <pattern-item n="vaux-will"/>
+    <pattern-item n="adv"/>
+    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+   </pattern>
+  <action>
 
+        <out><b pos="1"/>         <lu> <clip pos="2" side="tl" part="whole"/></lu></out>
+    <let><var n="tense"/><lit-tag v="aor"/></let>
+    <call-macro n="NEW-gen-simple-verb">
+         <with-param pos="3"/> 
+    </call-macro>   
+  </action>
+</rule>
 
 
 

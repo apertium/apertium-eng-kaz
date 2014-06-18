@@ -12063,7 +12063,7 @@ this would have to be changed -->
   </pattern>
   <action>
     <out>
-    <chunk name="adv">
+    <chunk name="adv-adj">
     <tags>
     <tag><lit-tag v="AdjP"/></tag>
     </tags>
@@ -12082,6 +12082,37 @@ this would have to be changed -->
 </rule>
 
 
+<rule comment="NEW RULE:det adj">    <!--less successful-->
+  <pattern>
+ <pattern-item n="det"/>
+    <pattern-item n="adjec"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="det-adj">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag>
+ <tag><lit-tag v="subst"/></tag>
+ <tag><lit-tag v="CD"/></tag>
+    </tags>
+	<b pos="1"/>
+     <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_det"/>
+      <clip pos="1" side="tl" part="a_dem"/>
+    </lu>
+	<b/>
+    <lu>
+      <clip pos="2" side="tl" part="lem"/>
+        <lit-tag v="adj"/>
+        <lit-tag v="2"/>
+        <lit-tag v="3"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
 <rule comment="NEW RULE:adv adj">    <!--very large-->
   <pattern>
  <pattern-item n="det"/>
@@ -12090,7 +12121,7 @@ this would have to be changed -->
   </pattern>
   <action>
     <out>
-    <chunk name="adv">
+    <chunk name="det-adv-adj">
     <tags>
     <tag><lit-tag v="AdjP"/></tag>
     </tags>

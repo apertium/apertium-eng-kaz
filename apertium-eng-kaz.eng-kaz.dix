@@ -1583,6 +1583,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>now<s n="n"/></l><r>қазір<s n="n"/></r></p></e>
     <e><p><l>oblast<s n="n"/></l><r>облыс<s n="n"/></r></p></e>
     <e><p><l>last<s n="n"/></l><r>соңғы<s n="n"/></r></p></e>
+    <e><p><l>first<s n="adj"/></l><r>бірінші<s n="adj"/></r></p></e>
     <e><p><l>obligation<s n="n"/></l><r>міндет<s n="n"/></r></p></e>
     <e><p><l>occupation<s n="n"/></l><r>кәсіп<s n="n"/></r></p></e>
     <e><p><l>occurance<s n="n"/></l><r>кез<s n="n"/></r></p></e>

@@ -840,6 +840,7 @@
 <test>
 
 <and>
+             <equal>  <clip pos="3" part="a_tns"/><lit-tag v="pres"/></equal>
              <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
             <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
 </and>

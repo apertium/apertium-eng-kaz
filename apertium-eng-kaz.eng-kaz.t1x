@@ -4498,7 +4498,7 @@
 </rule>
 
 
-<rule comment="NEW RULE: be + verb-pp"> <!--Pres and Past passive -->
+<rule comment="NEW RULE: be + adv + verb-pp"> <!--Pres and Past passive -->
 <!-- superblank management to be corrected -->
   <pattern>
     <pattern-item n="pers-verb-to-be"/>
@@ -4516,16 +4516,35 @@
           </equal>
         </test>
         <let><var n="tense"/><lit-tag v="aor"/></let>
-           <out><b pos="1"/>
+           <out>
+      <chunk name="pers-verb-pass">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag>
+      </tags>
 <lu>
-             <clip pos="2" side="sl" part="whole"/>
+             <clip pos="2" side="tl" part="whole"/>
 </lu>
-</out>
-      <call-macro n="NEW-gen-simple-verb-pass">
-         <with-param pos="3"/> 
-     </call-macro>
+<b pos="1"/>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="pass"/>
+             <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+        </out>
 
-      </when>
+</when>
 
       <when>
          <test>
@@ -4535,19 +4554,40 @@
           </equal>
         </test>
         <let><var n="tense"/><lit-tag v="ifi"/></let> 
-   <out><b pos="1"/><lu>
-             <clip pos="2" side="sl" part="whole"/>
-</lu></out>
-     <call-macro n="NEW-gen-simple-verb-pass">
-         <with-param pos="3"/> 
-     </call-macro>
+      <out>
+      <chunk name="pers-verb-pass">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag>
+      </tags>
+<lu>
+             <clip pos="2" side="tl" part="whole"/>
+</lu>
+<b pos="1"/>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="pass"/>
+             <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+        </out>
 
       </when>
 
       <otherwise>
         <let><var n="tense"/><lit-tag v="aor"/></let>
    <out><b pos="1"/><lu>
-             <clip pos="2" side="sl" part="whole"/>
+             <clip pos="2" side="tl" part="whole"/>
 </lu></out>
        <call-macro n="NEW-gen-simple-verb-pass">
          <with-param pos="3"/> 
@@ -6396,6 +6436,98 @@
                <clip pos="4" side="tl" part="lem"/> 
                <clip pos="4" side="tl" part="a_nom"/>
                <lit-tag v="sg"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: prep adj noun1 noun2"> 
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+     <call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
+        <with-param pos="3"/>
+      </call-macro>
+<call-macro n="build-adjec-lu"><with-param pos="2"/></call-macro> 
+ 
+     <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+        <out> <!-- with postposition -->
+          <chunk name="prep-adj-nom12post">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="3" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+            <b pos="1"/>
+            <lu>  
+               <var n="adjec_lu"/>
+            </lu>
+<b/>
+ <lu>  <!-- build in situ for the time being -->
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <clip pos="3" side="tl" part="a_nbr"/> 
+               <lit-tag v="nom"/> 
+          
+            </lu>
+ <b pos="2"/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="4" side="tl" part="lem"/> 
+               <clip pos="4" side="tl" part="a_nom"/>
+                <clip pos="4" side="tl" part="a_nbr"/>  <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="px3sp"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+            <b pos="3"/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise> <!-- without postposition -->
+        <out>
+          <chunk name="prep-adj-nom12">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="4" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="4"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+            <b pos="1"/>
+ <lu>  
+               <var n="adjec_lu"/>
+            </lu>
+ <b pos="2"/>
+ <lu>  <!-- build in situ for the time being -->
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <clip pos="3" side="tl" part="a_nbr"/> 
+               <lit-tag v="nom"/> 
+          
+            </lu>
+<b pos="3"/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="4" side="tl" part="lem"/> 
+               <clip pos="4" side="tl" part="a_nom"/>
+<clip pos="4" side="tl" part="a_nbr"/> 
                <!-- no need to link person -->
                <lit-tag v="4"/> <!-- for possessive, just in case -->
                <lit-tag v="5"/> <!-- for case -->
@@ -11130,6 +11262,20 @@ this would have to be changed -->
     <when>
      <test>  
        <equal>
+          <clip pos="1" side="sl" part="a_dem"/>
+          <lit-tag v="dem"/>
+       </equal>
+     </test>
+     <let><var n="subj-pron_lu"/><lit-tag v="p3"/></let>
+    </when>
+     <otherwise>
+     <let><var n="subj-pron_lu"/><clip pos="1" side="sl" part="a_pers"/></let>
+     </otherwise>
+  </choose>
+<choose>
+    <when>
+     <test>  
+       <equal>
           <clip pos="1" side="sl" part="a_possessive"/>
           <lit-tag v="px3sp"/>
        </equal>
@@ -11146,7 +11292,7 @@ this would have to be changed -->
    <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><var n="number"/></tag>
-    <tag><clip pos="1" side="sl" part="a_pers"/></tag> <!-- Formality 2nd will be set in .t4x -->
+    <tag><var n="subj-pron_lu"/></tag> <!-- Formality 2nd will be set in .t4x -->
     <tag><var n="possessive"/></tag>
     <tag><lit-tag v="CD"/></tag>
      

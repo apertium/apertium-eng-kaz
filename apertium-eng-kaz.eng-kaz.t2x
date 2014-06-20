@@ -1686,7 +1686,7 @@
     </rule>
 
 <rule comment="NEW RULE: Rel VP NP THAN NP PP THAN NP_to_inf">
-    <!--the book which I read -->
+
      <pattern>
        <pattern-item n="Rel"/>
        <pattern-item n="VP"/>
@@ -6522,6 +6522,65 @@
      </action>
     </rule>
 
+<rule comment="RULE: VP PP → PP VP">
+    <!-- Just reorders VP and PP1 PP2 -->
+     <pattern>
+       <pattern-item n="VP"/>
+       <pattern-item n="PP"/>
+     </pattern>
+     <action>
+      <out>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>   
+      </out>
+     </action>
+    </rule>
+
+
+<rule comment="RULE: Rel VP PP → PP VP-gpr_impf">
+    <!-- that do nppeal to the big studios -->
+     <pattern>
+       <pattern-item n="Rel"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="PP"/>
+     </pattern>
+     <action>
+      <out>
+          <b pos="1"/>
+           <chunk>
+            <clip pos="3" part="lem"/>  
+            <lit-tag v="PP"/>
+            <clip pos="3" part="a_nbr"/> <!-- agree number -->
+            <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_possessive"/>
+            <lit-tag v="loc"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+       <chunk>
+            <clip pos="2" part="lem"/>
+            <lit-tag v="VP"/>
+            
+            <lit-tag v="gpr_impf"/>
+            <clip pos="2" part="a_possessive"/> 
+            <clip pos="2" part="a_pass"/>
+            <clip pos="2" part="a_neg"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>  
+      </out>
+     </action>
+    </rule>
+
 <rule comment="NEW RULE: NP VP_psmod NP1 NP2 → NP2 NP1acc VP">
     <!-- Just reorders verb and NP1 accusative -->
      <pattern>
@@ -6558,7 +6617,7 @@
           </chunk> 
  <b/>
 <chunk>
-           <chunk>
+
             <clip pos="2" part="lem"/>
             <lit-tag v="VP"/>
             <clip pos="1" part="a_nbr"/> <!-- agree number -->
@@ -6569,7 +6628,7 @@
             <clip pos="2" part="a_neg"/>
             <clip pos="2" part="chcontent"/>
           </chunk> 
-          </chunk> 
+
       </out>
      </action>
     </rule>

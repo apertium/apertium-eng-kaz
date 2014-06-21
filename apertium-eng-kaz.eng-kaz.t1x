@@ -3358,20 +3358,35 @@
     <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
    </pattern>
   <action>
-
-        <out><b pos="1"/>         <lu> <clip pos="2" side="tl" part="whole"/></lu></out>
-    <let><var n="tense"/><lit-tag v="aor"/></let>
-    <call-macro n="NEW-gen-simple-verb">
-         <with-param pos="3"/> 
-    </call-macro>   
+        <out>
+<chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="aor"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+         <b pos="1"/>
+        <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>  
+  <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+  </out>
   </action>
 </rule>
-
-
-
-
-
-
 
 
 
@@ -3392,6 +3407,7 @@
 </rule>
 
 
+
 <rule comment="NEW RULE: would + verb"> <!-- will verb -->
 <!-- superblank management needs to be corrected -->
   <pattern>
@@ -3410,9 +3426,54 @@
         <tag><lit-tag v="NXD"/></tag> <!-- negative -->
       </tags>
             <b pos="1"/>
+
         <lu>
           <clip pos="2" side="tl" part="lem"/>
 	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="gpr_impf"/>
+    	
+        </lu>
+        <b/> 
+	<lu>
+            <lit v="е"/>
+        <lit-tag v="cop"/>
+          <lit-tag v="4"/>
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+       </chunk>
+  </out> 
+  </action>
+</rule>
+
+
+<rule comment="NEW RULE: would + adv + verb"> <!-- will +adv verb -->
+<!-- superblank management needs to be corrected -->
+  <pattern>
+    <pattern-item n="vaux-would"/>
+    <pattern-item n="adv"/>
+    <pattern-item n="approx-inf-verb"/> 
+   </pattern>
+  <action>
+       <out>
+      <chunk name="pers-verb">  
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+  <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>  
+
+       <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
 	<lit-tag v="gpr_impf"/>
     	
         </lu>
@@ -6538,7 +6599,6 @@
     </choose>
   </action>
 </rule>
-
 
 <rule comment="NEW RULE: prep noun1 noun2"> 
   <pattern>

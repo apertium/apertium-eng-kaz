@@ -171,7 +171,7 @@ SELECT (vblex inf) IF (0 ("do"i)) (-1 ("<to>"));
 
 SELECT Inf IF (0 ("<will>")) (1 ADV-NOT);
 
-SELECT Inf IF (-2 ("<will>")) (-1 Adv);
+SELECT Inf IF (-2 ("<will>")) (-1 Adv OR (preadv));
 
 SELECT Inf IF (-1 ("<will>"));
 

@@ -12412,6 +12412,46 @@ this would have to be changed -->
          <lit-tag v="5"/>
          <lit-tag v="6"/>
         </lu>
+<b/>
+
+    
+      </chunk>
+</out>
+  </action>
+</rule>
+
+
+<rule comment="NEW RULE: pseudo+to+inf"> <!--to play -->
+  <pattern>
+    <pattern-item n="adv-itg"/>
+    <pattern-item n="to"/>
+    <pattern-item n="inf-verb"/> 
+   </pattern>
+  <action>
+<out>
+  <chunk name="what-NP_to_inf">  
+      <tags>
+       <tag><lit-tag v="NP_to_inf"/></tag>
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="ND"/></tag> 
+        <tag><lit-tag v="ger"/></tag> 
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="CD"/></tag>
+      </tags>
+<b pos ="1"/>
+<lu>
+          <clip pos="1" side="tl" part="whole"/>
+	
+        </lu>
+<b pos ="2"/>
+            
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="4"/>
+         <lit-tag v="5"/>
+         <lit-tag v="6"/>
+        </lu>
     
       </chunk>
 </out>

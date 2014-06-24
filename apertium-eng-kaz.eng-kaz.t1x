@@ -415,6 +415,7 @@
     <def-attr n="a_dem">  <!-- demonstrative tag -->
       <attr-item tags="dem"/>
       <attr-item tags="qnt"/>
+      <attr-item tags="ind"/>
     </def-attr>
     <def-attr n="a_pos">  <!-- possessive tag -->
       <attr-item tags="pos"/>
@@ -861,6 +862,18 @@
               <equal caseless="yes">
                 <clip pos="1" side="sl" part="lem"/>
                 <lit v="in"/>
+              </equal>
+            </test>
+            <let>
+               <var n="case"/>
+               <lit-tag v="loc"/>
+            </let>
+       </when> 
+ <when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="per"/>
               </equal>
             </test>
             <let>

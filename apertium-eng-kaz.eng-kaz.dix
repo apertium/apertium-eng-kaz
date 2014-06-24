@@ -233,7 +233,7 @@
 <e><p><l>during<s n="pr"/></l><r>бойы<s n="n"/></r></p></e>
 <e><p><l>among<s n="pr"/></l><r>ара<s n="n"/></r></p></e>
 <e><p><l>into<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
-<e><p><l>per<s n="pr"/></l><r>үшін<s n="n"/></r></p></e>
+<e><p><l>per<s n="pr"/></l><r></r></p></e>
 <e><p><l>over<s n="pr"/></l><r>over<s n="n"/></r></p></e>
 <e><p><l>against<s n="pr"/></l><r>қарсы<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 
@@ -410,6 +410,7 @@
 <e><p><l>digestion<s n="n"/></l><r>ас<b/>қорыту<s n="n"/></r></p></e>
 <e><p><l>exercise<s n="n"/></l><r>жаттығу<s n="n"/></r></p></e>
 <e><p><l>o'clock<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
+<e><p><l>kilometre<s n="n"/></l><r>километр<s n="n"/></r></p></e>
 
 
 
@@ -2526,7 +2527,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>path<s n="n"/></l><r>жол<s n="n"/></r></p></e>
 <e><p><l>lack<s n="n"/></l><r>жоқшылық<s n="n"/></r></p></e>
 <e><p><l>network<s n="n"/></l><r>желі<s n="n"/></r></p></e>
-<e><p><l>local<s n="n"/></l><r>жергілікті<s n="n"/></r></p></e>
+<e><p><l>local<s n="n"/></l><r>жергілікті<b/>адам<s n="n"/></r></p></e>
 <e><p><l>deal<s n="n"/></l><r>іс<s n="n"/></r></p></e>
 <e><p><l>official<s n="n"/></l><r>лауазымды<s n="n"/></r></p></e>
 <e><p><l>trial<s n="n"/></l><r>сынақ<s n="n"/></r></p></e>
@@ -3174,6 +3175,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>submarine<s n="n"/></l><r>субмарина<s n="n"/></r></p></e>
 <e><p><l>magazine<s n="n"/></l><r>журнал<s n="n"/></r></p></e>
 <e><p><l>tone<s n="n"/></l><r>сарын<s n="n"/></r></p></e>
+<e><p><l>tornado<s n="n"/></l><r>торнадо<s n="n"/></r></p></e>
 <e><p><l>landscape<s n="n"/></l><r>ландшафт<s n="n"/></r></p></e>
 <e><p><l>pope<s n="n"/></l><r>римдік<b/>әке<s n="n"/></r></p></e>
 <e><p><l>software<s n="n"/></l><r>бағдарламалық<b/>қамсыздандыру<s n="n"/></r></p></e>

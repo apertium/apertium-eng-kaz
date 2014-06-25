@@ -411,6 +411,7 @@
 <e><p><l>exercise<s n="n"/></l><r>жаттығу<s n="n"/></r></p></e>
 <e><p><l>o'clock<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
 <e><p><l>kilometre<s n="n"/></l><r>километр<s n="n"/></r></p></e>
+<e><p><l>chess<s n="n"/></l><r>шахмат<s n="n"/></r></p></e>
 
 
 
@@ -5861,7 +5862,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>assert<s n="vblex"/></l><r>мәлімде<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>assure<s n="vblex"/></l><r>сендір<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>attach<s n="vblex"/></l><r>бекіт<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>attack<s n="vblex"/></l><r>соқ<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>attack<s n="vblex"/></l><r>ұр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>attempt<s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>attend<s n="vblex"/></l><r>қара<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>attract<s n="vblex"/></l><r>тарт<s n="v"/><s n="tv"/></r></p></e>

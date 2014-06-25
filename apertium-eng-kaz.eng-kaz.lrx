@@ -14,6 +14,8 @@
     <match lemma="state" tags="n.*"><select lemma="мемлекет" tags="n.*"/></match>
   </rule>
 
+
+
   <rule>
     <match lemma="number" tags="n.*"><select lemma="сан" tags="n.*"/></match>
   </rule>
@@ -92,6 +94,14 @@
     <match lemma="beautiful" tags="adj"><select lemma="әдемі" tags="adj"/></match>
 
     <match lemma="girl" tags="n.*"/>
+
+  </rule>
+
+<rule>
+
+    <match lemma="old" tags="adj.sint"><select lemma="кәрі" tags="adj"/></match>
+
+    <match lemma="woman" tags="n.*"><select lemma="әйел" tags="n.*"/></match>
 
   </rule>
 

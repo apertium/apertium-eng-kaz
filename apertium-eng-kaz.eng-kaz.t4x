@@ -43,7 +43,7 @@
        <cat-item tags="np.top"/>
        <cat-item tags="n.*.nom"/>
        <cat-item tags="adj"/>
-
+       <cat-item tags="post"/>
        <cat-item tags="adj.nom"/>
        <cat-item tags="adj.subst"/>
        <cat-item tags="np.*"/>
@@ -81,6 +81,10 @@
 <def-attr n="pron">
       <attr-item tags="itg"/>
       <attr-item tags="qnt"/>
+    </def-attr>
+
+<def-attr n="a_post">
+      <attr-item tags="post"/>
     </def-attr>
     <def-attr n="a_pers">
       <attr-item tags="p1"/>
@@ -466,14 +470,35 @@
         </let>
      </when>
      </choose>
-      
+
+<choose>
+     <when>
+        <test>
+          <equal>
+             <clip pos="1" part="a_post" side="sl"/>
+             <lit-tag v="post"/>
+          </equal>
+        </test>
+        <out>
+          <lu>
+           <clip pos="1" side="tl" part="whole"/>
+         
+          </lu>
+
+        </out>
+     </when>
+
+      <otherwise>
         <out>
           <lu>
            <clip pos="1" side="tl" part="whole"/>
            <lit v="+"/>
            <clip pos="2" side="tl" part="whole"/>
           </lu>
+
         </out>
+      </otherwise>
+     </choose>
       </action>  
     </rule>
 

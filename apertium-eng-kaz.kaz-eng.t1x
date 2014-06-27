@@ -117,6 +117,10 @@
       <cat-item tags="prn.pers.*.*.gen"/> 
     </def-cat>
       
+<def-cat n="v-ger">
+      <cat-item tags="vblex.ger.nom"/> 
+    </def-cat>
+
 <def-cat n="p-ins">
       <cat-item tags="prn.pers.*.*.ins"/> 
     </def-cat>
@@ -2034,11 +2038,15 @@
               <tag><var n="sntype"/></tag>
             </tags>
             <lu>
+
               <clip pos="1" side="tl" part="lemh"/>
+             <lit-tag v="pr"/>
+
               <clip pos="1" side="tl" part="a_nom"/>
 <clip pos="1" side="tl" part="a_pos"/>
-              <var n="number"/>
+             
               <clip pos="1" side="tl" part="lemq"/>
+
             </lu>
             <b/>
                      </chunk>
@@ -3406,6 +3414,40 @@
       </action>
     </rule>
 
+
+<rule comment="RULE: ger">   
+      <pattern>
+        <pattern-item n="v-ger"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+        <out>
+          <chunk name="v-ger" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="2"/>
+             <lit-tag v="3"/>
+             <lit-tag v="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
 

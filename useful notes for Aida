@@ -272,3 +272,54 @@ cat texts/business_movie.eng.txt  | apertium -d . eng-kaz > /tmp/business_movie.
 
 
 echo "gets all of the money that will be needed to pay for the actors and the equipment. " | apertium -d. eng-kaz
+
+pertium: spectre360 * 55029: /branches/papers/codeswitch-cltw-2014/: codeswitch.pdf, codeswitch_camera_ready.tex: some fixes
+* selimcan (~selimcan@89.232.118.17) has joined #apertium
+<spectie> wb selimcan !
+<selimcan> Hey spectie !
+<selimcan> Hi everyone
+* onny (~onny@anon-38-20.vpn.ipredator.se) has joined #apertium
+* beknazar has quit (Ping timeout: 240 seconds)
+<spectie> :)
+<begiak> apertium: spectre360 * 55030: /branches/papers/codeswitch-cltw-2014/: codeswitch.pdf, codeswitch_camera_ready.tex: update
+* v21 has quit (Ping timeout: 264 seconds)
+<Aida> spectie, should I continue to add vocabulary?
+<spectie> yes, but we need to talk about testvoc too
+<Aida> ok, how to do testvoc?
+<spectie> go into the directory dev/testvoc
+<spectie> type:
+<spectie> bash testvoc.sh eng-kaz
+<spectie> it should give you a printout
+<spectie> of the number of @ and # errors
+<spectie> there should be no @ errors as the dictionary is trimmed
+<spectie> if you do:
+<spectie>  
+<spectie> cat /tmp/eng-kaz.testvoc  | grep '> *#'
+<spectie> you will see all the # errors
+<Aida> yes, no @
+<spectie> so, some of them are probably because you are missing "default" rules
+<spectie> e.g. a rule that matches a word out of context
+<begiak> apertium: selimcan * 55031: /nursery/apertium-tat-rus/texts/: text2.tat.txt (+), text2.rus.txt (+), text2.posted.txt (+): add another 500 word text
+* jacobEo (~Jacob@94.144.63.98) has joined #apertium
+* sirex has quit (Quit: Leaving.)
+<spectie> Aida, did you get it ?
+<Aida> yes
+<Aida> is it checking from corpora?
+<spectie> no
+<spectie> it expands the english dictionary
+<spectie> and runs every lexical unit through the translator
+<Aida> why I getting #?
+<spectie> because in some cases you don't have rules that deal with single words ?
+* rm_ (0e8b5206@gateway/web/freenode/ip.14.139.82.6) has joined #apertium
+<spectie> maybe some words aren't in kaz.lexc too
+<Aida> for some verbs
+* rm_ is now known as r
+* tenebr050 has quit (Ping timeout: 264 seconds)
+* r is now known as Guest39784
+* Guest39784 is now known as raveesh_
+<spectie> Aida, yes
+* Sereni (~sereni@92.255.165.122) has joined #apertium
+<spectie> Aida,
+cat /tmp/eng-kaz.testvoc  | grep '> *#' > /tmp/kaz-words0
+cat /tmp/eng-kaz.testvoc  | grep '> *#' | cut -f2 -d'#' | cut -f1 -d'\' | apertium-destxt | lt-proc ~/Source/apertium-kaz/kaz.automorf.bin  > /tmp/kaz-words
+paste /tmp/kaz-words /tmp/kaz-words0  | grep '\*'

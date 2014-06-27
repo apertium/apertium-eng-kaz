@@ -158,6 +158,8 @@
     <e r="LR"><p><l>to<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>with<s n="pr"/></l><r></r></p></e>
     <e r="LR"><p><l>at<s n="pr"/></l><r></r></p></e>
+    <e r="LR"><p><l>per<s n="pr"/></l><r></r></p></e>
+
 
 
     <e><p><l>but<s n="pr"/></l><r>алайда<s n="cnjcoo"/></r></p></e>
@@ -233,7 +235,7 @@
 <e><p><l>during<s n="pr"/></l><r>бойы<s n="n"/></r></p></e>
 <e><p><l>among<s n="pr"/></l><r>ара<s n="n"/></r></p></e>
 <e><p><l>into<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
-<e><p><l>per<s n="pr"/></l><r></r></p></e>
+
 <e><p><l>over<s n="pr"/></l><r>over<s n="n"/></r></p></e>
 <e><p><l>against<s n="pr"/></l><r>қарсы<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 
@@ -5209,7 +5211,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>residential<s n="adj"/></l><r>тұрғын<s n="adj"/></r></p></e>
 <e><p><l>essential<s n="adj"/></l><r>байыпты<s n="adj"/></r></p></e>
 <e><p><l>influential<s n="adj"/></l><r>ықпалды<s n="adj"/></r></p></e>
-<e><p><l>formal<s n="adj"/></l><r>формалды<s n="adj"/></r></p></e>
+<e><p><l>formal<s n="adj"/></l><r>формальды<s n="adj"/></r></p></e>
 <e><p><l>terminal<s n="adj"/></l><r>терминалды<s n="adj"/></r></p></e>
 <e><p><l>professional<s n="adj"/></l><r>кәсіби<s n="adj"/></r></p></e>
 <e><p><l>educational<s n="adj"/></l><r>білімді<s n="adj"/></r></p></e>

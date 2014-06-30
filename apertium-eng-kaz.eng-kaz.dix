@@ -12,6 +12,7 @@
     <sdef n="tv"  c="Переходный"/>
     <sdef n="caus"/>
     <sdef n="mf"/>
+    <sdef n="sup"/>
     <sdef n="mon"/>
     <sdef n="acr"/>
     <sdef n="aa"/>
@@ -4389,6 +4390,27 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>slightly<s n="adv"/></l><r>азғантай<s n="adv"/></r></p></e>
     <e><p><l>also<s n="adv"/></l><r>тағы<s n="adv"/></r></p></e>
     <e><p><l>so<s n="adv"/></l><r>солай<s n="adv"/></r></p></e>
+<e><p><l>abnormally<s n="adv"/></l><r>аномальді<s n="adv"/></r></p></e>
+<e><p><l>aboard<s n="adv"/></l><r>бортта<s n="adv"/></r></p></e>
+<e><p><l>abreast<s n="cnjadv"/></l><r>қатарлап<s n="adv"/></r></p></e>
+<e><p><l>abruptly<s n="adv"/></l><r>шұғыл<s n="adv"/></r></p></e>
+<e><p><l>absolutely<s n="adv"/></l><r>абсолютті<s n="adv"/></r></p></e>
+<e><p><l>abundantly<s n="adv"/></l><r>мол<s n="adv"/></r></p></e>
+<e><p><l>academically<s n="adv"/></l><r>академиялы<s n="adv"/></r></p></e>
+<e><p><l>accidentally<s n="adv"/></l><r>кездейсоқ<s n="adv"/></r></p></e>
+<e><p><l>accordingly<s n="adv"/></l><r>сәйкесінше<s n="adv"/></r></p></e>
+<e><p><l>accurately<s n="adv"/></l><r>дәл<s n="adv"/></r></p></e>
+<e><p><l>actively<s n="adv"/></l><r>белсене<s n="adv"/></r></p></e>
+<e><p><l>acutely<s n="adv"/></l><r>өткір<s n="adv"/></r></p></e>
+<e><p><l>adamantly<s n="adv"/></l><r>қайтпай<s n="adv"/></r></p></e>
+<e><p><l>adequately<s n="adv"/></l><r>сәйкесінше<s n="adv"/></r></p></e>
+<e><p><l>administratively<s n="adv"/></l><r>әкімшілікті<s n="adv"/></r></p></e>
+<e><p><l>admittedly<s n="adv"/></l><r>жалпы<b/>ризалықпен<s n="adv"/></r></p></e>
+<e><p><l>adversely<s n="adv"/></l><r>қастықпен<s n="adv"/></r></p></e>
+<e><p><l>aesthetically<s n="adv"/></l><r>эстетикалы<s n="adv"/></r></p></e>
+<e><p><l>afar<s n="adv"/></l><r>алыста<s n="adv"/></r></p></e>
+<e><p><l>affectionately<s n="adv"/></l><r>нәзік<s n="adv"/></r></p></e>
+<e><p><l>aggressively<s n="adv"/></l><r>агрессивті<s n="adv"/></r></p></e>
 
 <e><p><l>highly<s n="adv"/></l><r>қатты<s n="adv"/></r></p></e>
 	 <!-- isn't тағы a postadv? -->
@@ -5354,6 +5376,116 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>easy<s n="adj"/><s n="sint"/></l><r>оңай<s n="adj"/></r></p></e>
 <e><p><l>guilty<s n="adj"/><s n="sint"/></l><r>айыпты<s n="adj"/></r></p></e>
 <e><p><l>heavy<s n="adj"/><s n="sint"/></l><r>қиын<s n="adj"/></r></p></e>
+<e><p><l>acute<s n="adj"/></l><r>өткір<s n="adj"/></r></p></e>
+<e><p><l>akin<s n="adj"/></l><r>ұқсас<s n="adj"/></r></p></e>
+<e><p><l>algerian<s n="adj"/></l><r>алжирлік<s n="adj"/></r></p></e>
+<e><p><l>alluring<s n="adj"/></l><r>тартымды<s n="adj"/></r></p></e>
+<e><p><l>alluvial<s n="adj"/></l><r>аллювиальді<s n="adj"/></r></p></e>
+<e><p><l>almighty<s n="adj"/></l><r>керемет<s n="adj"/></r></p></e>
+<e><p><l>aloof<s n="adj"/></l><r>бөлек<s n="adj"/></r></p></e>
+<e><p><l>alphabetical<s n="adj"/></l><r>алфавитті<s n="adj"/></r></p></e>
+<e><p><l>alphabetic<s n="adj"/></l><r>әліппелі<s n="adj"/></r></p></e>
+<e><p><l>alpine<s n="adj"/></l><r>альпілік<s n="adj"/></r></p></e>
+<e><p><l>altitudinal<s n="adj"/></l><r>биік<s n="adj"/></r></p></e>
+<e><p><l>ambient<s n="adj"/></l><r>төңіректегі<s n="adj"/></r></p></e>
+<e><p><l>ambiguous<s n="adj"/></l><r>көпмағыналы<s n="adj"/></r></p></e>
+<e><p><l>ambivalent<s n="adj"/></l><r>жартыкеш<s n="adj"/></r></p></e>
+<e><p><l>amenable<s n="adj"/></l><r>жауапты<s n="adj"/></r></p></e>
+<e><p><l>amicable<s n="adj"/></l><r>жылы<s n="adj"/></r></p></e>
+<e><p><l>amicus<s n="adj"/></l><r>кеңесті<s n="adj"/></r></p></e>
+<e><p><l>amorphous<s n="adj"/></l><r>тұлғасыз<s n="adj"/></r></p></e>
+<e><p><l>amphibious<s n="adj"/></l><r>жүзетін<s n="adj"/></r></p></e>
+<e><p><l>anachronistic<s n="adj"/></l><r>анохроникалық<s n="adj"/></r></p></e>
+<e><p><l>analogous<s n="adj"/></l><r>тәрізді<s n="adj"/></r></p></e>
+<e><p><l>analytical<s n="adj"/></l><r>талдамды<s n="adj"/></r></p></e>
+<e><p><l>ancestral<s n="adj"/></l><r>туыс<s n="adj"/></r></p></e>
+<e><p><l>ancillary<s n="adj"/></l><r>көмекші<s n="adj"/></r></p></e>
+<e><p><l>angolan<s n="adj"/></l><r>ангольді<s n="adj"/></r></p></e>
+<e><p><l>anonymous<s n="adj"/></l><r>аноним<s n="adj"/></r></p></e>
+<e><p><l>answerable<s n="adj"/></l><r>жауапты<s n="adj"/></r></p></e>
+<e><p><l>antagonistic<s n="adj"/></l><r>антагонистік<s n="adj"/></r></p></e>
+<e><p><l>antarctic<s n="adj"/></l><r>антарктикалық<s n="adj"/></r></p></e>
+<e><p><l>anthropological<s n="adj"/></l><r>антропологиялық<s n="adj"/></r></p></e>
+<e><p><l>antiaircraft<s n="adj"/></l><r>зенитті<s n="adj"/></r></p></e>
+<e><p><l>antimissile<s n="adj"/></l><r>ракетаға<b/>қарсы<s n="adj"/></r></p></e>
+<e><p><l>antiquated<s n="adj"/></l><r>ескірген<s n="adj"/></r></p></e>
+<e><p><l>antiracist<s n="adj"/></l><r>антинәсілшіл<s n="adj"/></r></p></e>
+<e><p><l>antistatic<s n="adj"/></l><r>антистатикалы<s n="adj"/></r></p></e>
+<e><p><l>antitank<s n="adj"/></l><r>танкке<b/>қарсы<s n="adj"/></r></p></e>
+<e><p><l>apathetic<s n="adj"/></l><r>селқос<s n="adj"/></r></p></e>
+<e><p><l>apocalyptic<s n="adj"/></l><r>апокалипстік<s n="adj"/></r></p></e>
+<e><p><l>apologetic<s n="adj"/></l><r>апологиялық<s n="adj"/></r></p></e>
+<e><p><l>applicable<s n="adj"/></l><r>қолданыстағы<s n="adj"/></r></p></e>
+<e><p><l>approachable<s n="adj"/></l><r>жетімді<s n="adj"/></r></p></e>
+<e><p><l>aquatic<s n="adj"/></l><r>сулы<s n="adj"/></r></p></e>
+<e><p><l>arable<s n="adj"/></l><r>айдалған<s n="adj"/></r></p></e>
+<e><p><l>arbitrary<s n="adj"/></l><r>кездейсоқ<s n="adj"/></r></p></e>
+<e><p><l>archaeological<s n="adj"/></l><r>археологиялық<s n="adj"/></r></p></e>
+<e><p><l>archaic<s n="adj"/></l><r>архаика<s n="adj"/></r></p></e>
+<e><p><l>archival<s n="adj"/></l><r>архивтік<s n="adj"/></r></p></e>
+<e><p><l>ardent<s n="adj"/></l><r>ыстық<s n="adj"/></r></p></e>
+<e><p><l>arduous<s n="adj"/></l><r>қатал<s n="adj"/></r></p></e>
+<e><p><l>argentine<s n="adj"/></l><r>аргетиналық<s n="adj"/></r></p></e>
+<e><p><l>arguable<s n="adj"/></l><r>даулы<s n="adj"/></r></p></e>
+<e><p><l>argumentative<s n="adj"/></l><r>даулы<s n="adj"/></r></p></e>
+<e><p><l>arid<s n="adj"/></l><r>аридтік<s n="adj"/></r></p></e>
+<e><p><l>aristocratic<s n="adj"/></l><r>аристократтық<s n="adj"/></r></p></e>
+<e><p><l>aristotelian<s n="adj"/></l><r>аристотельдік<s n="adj"/></r></p></e>
+<e><p><l>armoured<s n="adj"/></l><r>бронды<s n="adj"/></r></p></e>
+<e><p><l>arrogant<s n="adj"/></l><r>тәкаппар<s n="adj"/></r></p></e>
+<e><p><l>artificial<s n="adj"/></l><r>жасанды<s n="adj"/></r></p></e>
+<e><p><l>asleep<s n="adj"/></l><r>ұйықтайтын<s n="adj"/></r></p></e>
+<e><p><l>assorted<s n="adj"/></l><r>түрлі<s n="adj"/></r></p></e>
+<e><p><l>astronomical<s n="adj"/></l><r>астрономиялық<s n="adj"/></r></p></e>
+<e><p><l>astute<s n="adj"/></l><r>зерек<s n="adj"/></r></p></e>
+<e><p><l>asymmetric<s n="adj"/></l><r>асимметриялық<s n="adj"/></r></p></e>
+<e><p><l>athenian<s n="adj"/></l><r>афиналық<s n="adj"/></r></p></e>
+<e><p><l>atmospheric<s n="adj"/></l><r>атмосфералық<s n="adj"/></r></p></e>
+<e><p><l>atomic<s n="adj"/></l><r>атомды<s n="adj"/></r></p></e>
+<e><p><l>attainable<s n="adj"/></l><r>жетімді<s n="adj"/></r></p></e>
+<e><p><l>atypical<s n="adj"/></l><r>типті<b/>емес<s n="adj"/></r></p></e>
+<e><p><l>audible<s n="adj"/></l><r>естейтін<s n="adj"/></r></p></e>
+<e><p><l>audiovisual<s n="adj"/></l><r>аудиовизуальдық<s n="adj"/></r></p></e>
+<e><p><l>auspicious<s n="adj"/></l><r>қолайлы<s n="adj"/></r></p></e>
+<e><p><l>authoritarian<s n="adj"/></l><r>авторитарлық<s n="adj"/></r></p></e>
+<e><p><l>authoritative<s n="adj"/></l><r>абыройлы<s n="adj"/></r></p></e>
+<e><p><l>autobiographical<s n="adj"/></l><r>өмірбаяндық<s n="adj"/></r></p></e>
+<e><p><l>autochthonous<s n="adj"/></l><r>тұрғылықты<s n="adj"/></r></p></e>
+<e><p><l>autocratic<s n="adj"/></l><r>патшалық<s n="adj"/></r></p></e>
+<e><p><l>avid<s n="adj"/><s n="sint"/></l><r>жебір<s n="adj"/></r></p></e>
+<e><p><l>avoidable<s n="adj"/></l><r>құтылымды<s n="adj"/></r></p></e>
+<e><p><l>bacteriological<s n="adj"/></l><r>бактериологиялық<s n="adj"/></r></p></e>
+<e><p><l>ballistic<s n="adj"/></l><r>баллистикалық<s n="adj"/></r></p></e>
+<e><p><l>barbaric<s n="adj"/></l><r>варварлық<s n="adj"/></r></p></e>
+<e><p><l>barbarous<s n="adj"/></l><r>мәжуси<s n="adj"/></r></p></e>
+<e><p><l>bearable<s n="adj"/></l><r>шыдалатын<s n="adj"/></r></p></e>
+<e><p><l>behavioural<s n="adj"/></l><r>мінез-құлықты<s n="adj"/></r></p></e>
+<e><p><l>beige<s n="adj"/></l><r>сарғыш<s n="adj"/></r></p></e>
+<e><p><l>benevolent<s n="adj"/></l><r>мейірбан<s n="adj"/></r></p></e>
+<e><p><l>benign<s n="adj"/></l><r>мейірлі<s n="adj"/></r></p></e>
+<e><p><l>biblical<s n="adj"/></l><r>таурат<s n="adj"/></r></p></e>
+<e><p><l>bicameral<s n="adj"/></l><r>қоспалаталы<s n="adj"/></r></p></e>
+<e><p><l>biennial<s n="adj"/></l><r>екіжылдық<s n="adj"/></r></p></e>
+<e><p><l>bilingual<s n="adj"/></l><r>екітілді<s n="adj"/></r></p></e>
+<e><p><l>biochemical<s n="adj"/></l><r>биохимиялық<s n="adj"/></r></p></e>
+<e><p><l>biodegradable<s n="adj"/></l><r>бүлінетін<s n="adj"/></r></p></e>
+<e><p><l>biographical<s n="adj"/></l><r>ғұмырнамалық<s n="adj"/></r></p></e>
+<e><p><l>biotic<s n="adj"/></l><r>биотиялық<s n="adj"/></r></p></e>
+<e><p><l>bipolar<s n="adj"/></l><r>биполярлы<s n="adj"/></r></p></e>
+<e><p><l>bituminous<s n="adj"/></l><r>битумды<s n="adj"/></r></p></e>
+<e><p><l>bizarre<s n="adj"/></l><r>оғаш<s n="adj"/></r></p></e>
+<e><p><l>blatant<s n="adj"/></l><r>айғайшыл<s n="adj"/></r></p></e>
+<e><p><l>blazing<s n="adj"/></l><r>жарқыл<s n="adj"/></r></p></e>
+<e><p><l>bloated<s n="adj"/></l><r>томпитын<s n="adj"/></r></p></e>
+<e><p><l>bloodless<s n="adj"/></l><r>қансыз<s n="adj"/></r></p></e>
+<e><p><l>bloody<s n="adj"/><s n="sint"/></l><r>қанды<s n="adj"/></r></p></e>
+<e><p><l>bloody<s n="adj"/><s n="sint"/><s n="sup"/></l><r>қанды<s n="adj"/></r></p></e>
+<e><p><l>blunt<s n="adj"/><s n="sint"/></l><r>тік<s n="adj"/></r></p></e>
+<e><p><l>bombarded<s n="adj"/></l><r>лақтырылған<s n="adj"/></r></p></e>
+<e><p><l>bordering<s n="adj"/></l><r>шектеулі<s n="adj"/></r></p></e>
+<e><p><l>botanical<s n="adj"/></l><r>ботаникалық<s n="adj"/></r></p></e>
+<e><p><l>boundless<s n="adj"/></l><r>шексіз<s n="adj"/></r></p></e>
+<e><p><l>brittle<s n="adj"/><s n="sint"/></l><r>сынғыш<s n="adj"/></r></p></e>
 
 <!-- Order numbers-->
  <e><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>бір<s n="num"/><s n="ord"/></r></p></e> 

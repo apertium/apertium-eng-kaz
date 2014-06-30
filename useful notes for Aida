@@ -200,7 +200,7 @@ http://pastebin.com/raw.php?i=P4kMvuSG
 
 cat newdix.txt | egrep "<l>"| awk 'BEGIN{FS="<l>"} {print $2}'| apertium -d. eng-kaz|egrep "#"|awk 'BEGIN{FS="#"} {print $2}'
 
-cat newd.txt | egrep "<l>"| awk 'BEGIN{FS="<l>"} {print $2}'| apertium -d. eng-kaz|egrep "#"|awk 'BEGIN{FS="#"} {print ""$2":"$2" N1 ; !\"Use/MT\""}'
+cat newdix.txt | egrep "<l>"| awk 'BEGIN{FS="<l>"} {print $2}'| apertium -d. eng-kaz|egrep "#"|awk 'BEGIN{FS="#"} {print ""$2":"$2" ADV ; !\"Use/MT\""}'
 
  cat newd.txt | egrep "<l>"| awk 'BEGIN{FS="<l>"} {print $2}'| apertium -d. eng-kaz|egrep "#"
 

@@ -1,31 +1,209 @@
-<e><p><l>developmental<s n="adj"/></l><r>тәжірибелі<s n="adj"/></r></p></e>
-<e><p><l>dialectic<s n="adj"/></l><r>диалектикалық<s n="adj"/></r></p></e>
-<e><p><l>dictatorial<s n="adj"/></l><r>диктаторлық<s n="adj"/></r></p></e>
-<e><p><l>dietary<s n="adj"/></l><r>емдәмлі<s n="adj"/></r></p></e>
-<e><p><l>dilapidated<s n="adj"/></l><r>тозған<s n="adj"/></r></p></e>
-<e><p><l>diligent<s n="adj"/></l><r>ықыласты<s n="adj"/></r></p></e>
-<e><p><l>dimensional<s n="adj"/></l><r>кеңестік<s n="adj"/></r></p></e>
-<e><p><l>disadvantaged<s n="adj"/></l><r>тиімсіз<s n="adj"/></r></p></e>
-<e><p><l>disastrous<s n="adj"/></l><r>мүшкіл<s n="adj"/></r></p></e>
-<e><p><l>disciplinary<s n="adj"/></l><r>тәртіптік<s n="adj"/></r></p></e>
-<e><p><l>disconcerting<s n="adj"/></l><r>қысылған<s n="adj"/></r></p></e>
-<e><p><l>discreet<s n="adj"/></l><r>ақылман<s n="adj"/></r></p></e>
-<e><p><l>discretionary<s n="adj"/></l><r>дискрециялық<s n="adj"/></r></p></e>
-<e><p><l>discriminatory<s n="adj"/></l><r>дискриминациялық<s n="adj"/></r></p></e>
-<e><p><l>disgruntled<s n="adj"/></l><r>ашуланған<s n="adj"/></r></p></e>
-<e><p><l>dishonest<s n="adj"/></l><r>алақол<s n="adj"/></r></p></e>
-<e><p><l>disinterested<s n="adj"/></l><r>енжар<s n="adj"/></r></p></e>
-<e><p><l>disloyal<s n="adj"/></l><r>қиянатшыл<s n="adj"/></r></p></e>
-<e><p><l>disproportionate<s n="adj"/></l><r>диспропорциялық<s n="adj"/></r></p></e>
-<e><p><l>disputed<s n="adj"/></l><r>талданған<s n="adj"/></r></p></e>
-<e><p><l>disrespectful<s n="adj"/></l><r>емесбейілді<s n="adj"/></r></p></e>
-<e><p><l>dissatisfied<s n="adj"/></l><r>емесразы<s n="adj"/></r></p></e>
-<e><p><l>dissimilar<s n="adj"/></l><r>әркелкі<s n="adj"/></r></p></e>
-<e><p><l>distant<s n="adj"/></l><r>оғаш<s n="adj"/></r></p></e>
-<e><p><l>distributional<s n="adj"/></l><r>бөлінген<s n="adj"/></r></p></e>
-<e><p><l>disused<s n="adj"/></l><r>қолданыстағы<s n="adj"/></r></p></e>
-<e><p><l>divergent<s n="adj"/></l><r>тарайтын<s n="adj"/></r></p></e>
-<e><p><l>divine<s n="adj"/></l><r>тәңірлік<s n="adj"/></r></p></e>
-<e><p><l>divisive<s n="adj"/></l><r>талдағыш<s n="adj"/></r></p></e>
-<e><p><l>dogmatic<s n="adj"/></l><r>догматикалық<s n="adj"/></r></p></e>
-<e><p><l>dominican<s n="adj"/></l><r>доминикандық<s n="adj"/></r></p></e>
+<e><p><l>brownish<l></l><r>қоңыр<l></r></p></e>
+<e><p><l>brutal<l></l><r>жеркенішті<l></r></p></e>
+<e><p><l>budgetary<l></l><r>бюджеттік<l></r></p></e>
+<e><p><l>bulletproof<l></l><r>оқ<b/>тимейтін<l></r></p></e>
+<e><p><l>bureaucratic<l></l><r>бюрократтық<l></r></p></e>
+<e><p><l>byzantine<l></l><r>византиялық<l></r></p></e>
+<e><p><l>cadastral<l></l><r>кадастрлық<l></r></p></e>
+<e><p><l>calm<l><s n="sint"/><s n="comp"/></l><r>байсалды<l></r></p></e>
+<e><p><l>candid<l></l><r>ақкөңіл<l></r></p></e>
+<e><p><l>canonical<l></l><r>канондық<l></r></p></e>
+<e><p><l>cantonal<l></l><r>кантоналдық<l></r></p></e>
+<e><p><l>cardiac<l></l><r>жүректік<l></r></p></e>
+<e><p><l>cardiovascular<l></l><r>жүректі-тамырлық<l></r></p></e>
+<e><p><l>careless<l></l><r>салақ<l></r></p></e>
+<e><p><l>carnivorous<l></l><r>азулы<l></r></p></e>
+<e><p><l>casual<l></l><r>көлденең<l></r></p></e>
+<e><p><l>catalytic<l></l><r>каталитикалық<l></r></p></e>
+<e><p><l>catastrophic<l></l><r>апатты<l></r></p></e>
+<e><p><l>categorical<l></l><r>қатаңдық<l></r></p></e>
+<e><p><l>cathartic<l></l><r>тазартатын<l></r></p></e>
+<e><p><l>causal<l></l><r>себептес<l></r></p></e>
+<e><p><l>cautious<l></l><r>абай<l></r></p></e>
+<e><p><l>cavernous<l></l><r>каверналы<l></r></p></e>
+<e><p><l>celestial<l></l><r>аспандық<l></r></p></e>
+<e><p><l>cellular<l></l><r>жасушалық<l></r></p></e>
+<e><p><l>celtic<l></l><r>кельттік<l></r></p></e>
+<e><p><l>centrifugal<l></l><r>центрифугалық<l></r></p></e>
+<e><p><l>cephalic<l></l><r>басты<l></r></p></e>
+<e><p><l>ceramic<l></l><r>керамикалық<l></r></p></e>
+<e><p><l>cerebral<l></l><r>мидық<l></r></p></e>
+<e><p><l>cervical<l></l><r>желкелік<l></r></p></e>
+<e><p><l>chaotic<l></l><r>астан-кестен<b/>болған<l></r></p></e>
+<e><p><l>charismatic<l></l><r>харизматикалық<l></r></p></e>
+<e><p><l>charitable<l></l><r>жомарт<l></r></p></e>
+<e><p><l>charming<l></l><r>таң<b/>қалдырарлық<l></r></p></e>
+<e><p><l>charred<l></l><r>жанған<l></r></p></e>
+<e><p><l>cheerful<l></l><r>тың<l></r></p></e>
+<e><p><l>choreographic<l></l><r>хореографиялық<l></r></p></e>
+<e><p><l>chromatic<l></l><r>хроматикалық<l></r></p></e>
+<e><p><l>chronic<l></l><r>созылмалы<l></r></p></e>
+<e><p><l>chronological<l></l><r>хронологиялық<l></r></p></e>
+<e><p><l>cinematic<l></l><r>кинематиялық<l></r></p></e>
+<e><p><l>cinematographic<l></l><r>кинематографиялық<l></r></p></e>
+<e><p><l>circular<l></l><r>домалақ<l></r></p></e>
+<e><p><l>circumstantial<l></l><r>тыңғылықты<l></r></p></e>
+<e><p><l>civic<l></l><r>азаматтық<l></r></p></e>
+<e><p><l>cleansing<l></l><r>таза<l></r></p></e>
+<e><p><l>clever<l><s n="sint"/></l><r>ақылды<l></r></p></e>
+<e><p><l>climatic<l></l><r>климаттық<l></r></p></e>
+<e><p><l>clumsy<l><s n="sint"/></l><r>икемсіздік<l></r></p></e>
+<e><p><l>cluttered<l></l><r>үйілген<l></r></p></e>
+<e><p><l>coarse<l><s n="sint"/></l><r>дөрекі<l></r></p></e>
+<e><p><l>cochlear<l></l><r>кохлеарлық<l></r></p></e>
+<e><p><l>coercive<l></l><r>coercive<l></r></p></e>
+<e><p><l>cognitive<l></l><r>танымдық<l></r></p></e>
+<e><p><l>coherent<l></l><r>дәйекті<l></r></p></e>
+<e><p><l>coincidental<l></l><r>түйіскен<l></r></p></e>
+<e><p><l>collateral<l></l><r>қосымша<l></r></p></e>
+<e><p><l>collective<l></l><r>ұжымдық<l></r></p></e>
+<e><p><l>collegiate<l></l><r>университеттік<l></r></p></e>
+<e><p><l>colossal<l></l><r>зор<l></r></p></e>
+<e><p><l>colourful<l></l><r>көркемдік<l></r></p></e>
+<e><p><l>colourless<l></l><r>түссіз<l></r></p></e>
+<e><p><l>comfortable<l></l><r>ыңғайлы<l></r></p></e>
+<e><p><l>communal<l></l><r>коммуналдық<l></r></p></e>
+<e><p><l>comparative<l></l><r>салыстырмалы<l></r></p></e>
+<e><p><l>compartmentalized<l></l><r>бытыраңқы<l></r></p></e>
+<e><p><l>compassionate<l></l><r>рақымшыл<l></r></p></e>
+<e><p><l>compatible<l></l><r>құрылымды<l></r></p></e>
+<e><p><l>compensatory<l></l><r>өтемақылық<l></r></p></e>
+<e><p><l>competent<l></l><r>құзырлы<l></r></p></e>
+<e><p><l>complementary<l></l><r>қосымша<l></r></p></e>
+<e><p><l>comprehensible<l></l><r>түсінікті<l></r></p></e>
+<e><p><l>compulsive<l></l><r>еріксіз<l></r></p></e>
+<e><p><l>compulsory<l></l><r>тындырымды<l></r></p></e>
+<e><p><l>computational<l></l><r>есептеуші<l></r></p></e>
+<e><p><l>conceivable<l></l><r>мүмкіншілік<l></r></p></e>
+<e><p><l>conceptual<l></l><r>концептуалды<l></r></p></e>
+<e><p><l>concerted<l></l><r>келісілген<l></r></p></e>
+<e><p><l>conciliatory<l></l><r>мәмілешіл<l></r></p></e>
+<e><p><l>concise<l></l><r>қысқа<l></r></p></e>
+<e><p><l>conclusive<l></l><r>ақырғы<l></r></p></e>
+<e><p><l>concomitant<l></l><r>ілеспелі<l></r></p></e>
+<e><p><l>concurrent<l></l><r>қарсылас<l></r></p></e>
+<e><p><l>conditional<l></l><r>шартты<l></r></p></e>
+<e><p><l>confederal<l></l><r>конфедеральді<l></r></p></e>
+<e><p><l>confidential<l></l><r>оңаша<l></r></p></e>
+<e><p><l>confident<l></l><r>сенімді<l></r></p></e>
+<e><p><l>congenital<l></l><r>туа<b/>біткен<l></r></p></e>
+<e><p><l>congruent<l></l><r>лайық<l></r></p></e>
+<e><p><l>coniferous<l></l><r>қылқан<l></r></p></e>
+<e><p><l>conscientious<l></l><r>ұжданды<l></r></p></e>
+<e><p><l>consequential<l></l><r>логикалық<l></r></p></e>
+<e><p><l>consequent<l></l><r>дәйекті<l></r></p></e>
+<e><p><l>consistent<l></l><r>дәйекті<l></r></p></e>
+<e><p><l>conspiratorial<l></l><r>қаскүнем<l></r></p></e>
+<e><p><l>constitutive<l></l><r>құрылтай<l></r></p></e>
+<e><p><l>constructive<l></l><r>сындарлы<l></r></p></e>
+<e><p><l>consular<l></l><r>консулдік<l></r></p></e>
+<e><p><l>consultative<l></l><r>консультациялық<l></r></p></e>
+<e><p><l>contagious<l></l><r>жұқпалы<l></r></p></e>
+<e><p><l>contemptible<l></l><r>сұқсыр<l></r></p></e>
+<e><p><l>contentious<l></l><r>мінші<l></r></p></e>
+<e><p><l>contextual<l></l><r>контексті<l></r></p></e>
+<e><p><l>contiguous<l></l><r>шектес<l></r></p></e>
+<e><p><l>continental<l></l><r>континентті<l></r></p></e>
+<e><p><l>contractual<l></l><r>келісім<l></r></p></e>
+<e><p><l>contradictory<l></l><r>үйлесімсіз<l></r></p></e>
+<e><p><l>contrary<l></l><r>қарсы<l></r></p></e>
+<e><p><l>controllable<l></l><r>басқарушы<l></r></p></e>
+<e><p><l>convenient<l></l><r>ыңғайлы<l></r></p></e>
+<e><p><l>convergent<l></l><r>үйлесімді<l></r></p></e>
+<e><p><l>conversational<l></l><r>әңгіме<l></r></p></e>
+<e><p><l>convertible<l></l><r>айырбасталымды<l></r></p></e>
+<e><p><l>cool<l><s n="sint"/><s n="sup"/></l><r>салқын<l></r></p></e>
+<e><p><l>cordial<l></l><r>жүректі<l></r></p></e>
+<e><p><l>coronary<l></l><r>коронарлық<l></r></p></e>
+<e><p><l>corporal<l></l><r>денелі<l></r></p></e>
+<e><p><l>correlated<l></l><r>корреляцияланған<l></r></p></e>
+<e><p><l>cosmic<l></l><r>космостық<l></r></p></e>
+<e><p><l>costly<l><s n="sint"/></l><r>қымбат<l></r></p></e>
+<e><p><l>costly<l><s n="sint"/><s n="comp"/></l><r>қымбаттырақ<l></r></p></e>
+<e><p><l>costly<l><s n="sint"/><s n="sup"/></l><r>ең<b/>қымбат<l></r></p></e>
+<e><p><l>cosy<l><s n="sint"/></l><r>сырылған<l></r></p></e>
+<e><p><l>countless<l></l><r>сансыз<l></r></p></e>
+<e><p><l>courageous<l></l><r>ер<l></r></p></e>
+<e><p><l>cowardly<l></l><r>қорқақ<l></r></p></e>
+<e><p><l>credible<l></l><r>ықтимал<l></r></p></e>
+<e><p><l>crooked<l></l><r>қисық<l></r></p></e>
+<e><p><l>cuban<l></l><r>кубалық<l></r></p></e>
+<e><p><l>cubic<l></l><r>кубтық<l></r></p></e>
+<e><p><l>culinary<l></l><r>аспаздық<l></r></p></e>
+<e><p><l>cultured<l></l><r>мәдениетті<l></r></p></e>
+<e><p><l>cumbersome<l></l><r>ебдейсіз<l></r></p></e>
+<e><p><l>cumulative<l></l><r>кумулятивті<l></r></p></e>
+<e><p><l>curious<l></l><r>әуес<l></r></p></e>
+<e><p><l>customary<l></l><r>әдеттегі<l></r></p></e>
+<e><p><l>cynical<l></l><r>арсыздық<l></r></p></e>
+<e><p><l>cyrillic<l></l><r>кириллица<l></r></p></e>
+<e><p><l>dairy<l></l><r>сүтті<l></r></p></e>
+<e><p><l>damp<l><s n="sint"/></l><r>ылғалды<l></r></p></e>
+<e><p><l>deadly<l><s n="sint"/></l><r>өлі<l></r></p></e>
+<e><p><l>deadly<l><s n="sint"/><s n="sup"/></l><r>өлі<l></r></p></e>
+<e><p><l>deafening<l></l><r> құлақ<b/>тұндыратын<l></r></p></e>
+<e><p><l>deaf<l><s n="sint"/></l><r>мылқау<l></r></p></e>
+<e><p><l>debatable<l></l><r>даулы<l></r></p></e>
+<e><p><l>decayed<l></l><r>даулы<l></r></p></e>
+<e><p><l>deceitful<l></l><r>құлдырайтын<l></r></p></e>
+<e><p><l>decent<l></l><r>қу<l></r></p></e>
+<e><p><l>deceptive<l></l><r>әжептәуір<l></r></p></e>
+<e><p><l>decisive<l></l><r>айла-қулы<l></r></p></e>
+<e><p><l>declarative<l></l><r>шешуші<l></r></p></e>
+<e><p><l>declaratory<l></l><r>сипаттауыш<l></r></p></e>
+<e><p><l>decorative<l></l><r>декоративті<l></r></p></e>
+<e><p><l>deductible<l></l><r>декоративтік<l></r></p></e>
+<e><p><l>defective<l></l><r>бүлінген<l></r></p></e>
+<e><p><l>defiant<l></l><r>мінді<l></r></p></e>
+<e><p><l>deficient<l></l><r>шақырушы<l></r></p></e>
+<e><p><l>definite<l></l><r>анықталған<l></r></p></e>
+<e><p><l>definitive<l></l><r>тағайындалған<l></r></p></e>
+<e><p><l>deft<l><s n="sint"/></l><r>ақырғы<l></r></p></e>
+<e><p><l>defunct<l></l><r>айлакер<l></r></p></e>
+<e><p><l>deliberate<l></l><r>марқұм<l></r></p></e>
+<e><p><l>delicious<l></l><r>қасақана<l></r></p></e>
+<e><p><l>delighted<l></l><r>тамаша<l></r></p></e>
+<e><p><l>delinquent<l></l><r>кінәлі<l></r></p></e>
+<e><p><l>demographic<l></l><r>құқықбұзушылық<l></r></p></e>
+<e><p><l>dense<l><s n="sint"/></l><r>демографиялық<l></r></p></e>
+<e><p><l>dental<l></l><r>тығыз<l></r></p></e>
+<e><p><l>deontological<l></l><r>деонтологиялық<l></r></p></e>
+<e><p><l>deplorable<l></l><r>өкінішті<l></r></p></e>
+<e><p><l>depository<l></l><r>қойма<l></r></p></e>
+<e><p><l>descriptive<l></l><r>суреттемелі<l></r></p></e>
+<e><p><l>desirable<l></l><r>тілеулі<l></r></p></e>
+<e><p><l>desperate<l></l><r>өткір<l></r></p></e>
+<e><p><l>despicable<l></l><r>сұқсыр<l></r></p></e>
+<e><p><l>destined<l></l><r>арнаулы<l></r></p></e>
+<e><p><l>destructive<l></l><r>қиратушы<l></r></p></e>
+<e><p><l>developmental<l></l><r>тәжірибелі<l></r></p></e>
+<e><p><l>dialectic<l></l><r>диалектикалық<l></r></p></e>
+<e><p><l>dictatorial<l></l><r>диктаторлық<l></r></p></e>
+<e><p><l>dietary<l></l><r>емдәмлі<l></r></p></e>
+<e><p><l>dilapidated<l></l><r>тозған<l></r></p></e>
+<e><p><l>diligent<l></l><r>ықыласты<l></r></p></e>
+<e><p><l>dimensional<l></l><r>кеңестік<l></r></p></e>
+<e><p><l>disadvantaged<l></l><r>тиімсіз<l></r></p></e>
+<e><p><l>disastrous<l></l><r>мүшкіл<l></r></p></e>
+<e><p><l>disciplinary<l></l><r>тәртіптік<l></r></p></e>
+<e><p><l>disconcerting<l></l><r>қысылған<l></r></p></e>
+<e><p><l>discreet<l></l><r>ақылман<l></r></p></e>
+<e><p><l>discretionary<l></l><r>дискрециялық<l></r></p></e>
+<e><p><l>discriminatory<l></l><r>дискриминациялық<l></r></p></e>
+<e><p><l>disgruntled<l></l><r>ашуланған<l></r></p></e>
+<e><p><l>dishonest<l></l><r>алақол<l></r></p></e>
+<e><p><l>disinterested<l></l><r>енжар<l></r></p></e>
+<e><p><l>disloyal<l></l><r>қиянатшыл<l></r></p></e>
+<e><p><l>disproportionate<l></l><r>диспропорциялық<l></r></p></e>
+<e><p><l>disputed<l></l><r>талданған<l></r></p></e>
+<e><p><l>disrespectful<l></l><r>емесбейілді<l></r></p></e>
+<e><p><l>dissatisfied<l></l><r>емесразы<l></r></p></e>
+<e><p><l>dissimilar<l></l><r>әркелкі<l></r></p></e>
+<e><p><l>distant<l></l><r>оғаш<l></r></p></e>
+<e><p><l>distributional<l></l><r>бөлінген<l></r></p></e>
+<e><p><l>disused<l></l><r>қолданыстағы<l></r></p></e>
+<e><p><l>divergent<l></l><r>тарайтын<l></r></p></e>
+<e><p><l>divine<l></l><r>тәңірлік<l></r></p></e>
+<e><p><l>divisive<l></l><r>талдағыш<l></r></p></e>
+<e><p><l>dogmatic<l></l><r>догматикалық<l></r></p></e>
+<e><p><l>dominican<l></l><r>доминикандық<l></r></p></e>

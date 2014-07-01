@@ -5630,7 +5630,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>damp<s n="adj"/><s n="sint"/></l><r>ылғалды<s n="adj"/></r></p></e>
 <e><p><l>deadly<s n="adj"/><s n="sint"/></l><r>өлі<s n="adj"/></r></p></e>
 <e><p><l>deadly<s n="adj"/><s n="sint"/><s n="sup"/></l><r>өлі<s n="adj"/></r></p></e>
-<e><p><l>deafening<s n="adj"/></l><r> құлақ<b/>тұндыратын<s n="adj"/></r></p></e>
+<e><p><l>deafening<s n="adj"/></l><r>құлақ<b/>тұндыратын<s n="adj"/></r></p></e>
 <e><p><l>deaf<s n="adj"/><s n="sint"/></l><r>мылқау<s n="adj"/></r></p></e>
 <e><p><l>debatable<s n="adj"/></l><r>даулы<s n="adj"/></r></p></e>
 <e><p><l>decayed<s n="adj"/></l><r>даулы<s n="adj"/></r></p></e>

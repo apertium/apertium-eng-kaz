@@ -197,6 +197,7 @@ http://pastebin.com/raw.php?i=P4kMvuSG
 
  cat newdix.txt|awk '{print "<e><p><l>" $1 "<s n=\"adj\"/></l><r>" $2 "<s n=\"adj\"/></r></p></e>"}'>newd.txt
 
+ cat unk.txt|awk '{print "<e><p><l>" $1 "<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/></l><r>" $2 "<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/></r></p></e>"}'>newdix.txt
 
 cat newdix.txt | egrep "<l>"| awk 'BEGIN{FS="<l>"} {print $2}'| apertium -d. eng-kaz|egrep "#"|awk 'BEGIN{FS="#"} {print $2}'
 

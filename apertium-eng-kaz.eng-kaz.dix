@@ -4917,6 +4917,49 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>mostly<s n="adv"/></l><r>көбінесе<s n="adv"/></r></p></e>
 <e><p><l>newly<s n="adv"/></l><r>қайтадан<s n="adv"/></r></p></e>
 
+<e><p><l>amazingly<s n="adv"/></l><r>таңқаларлық<s n="adv"/></r></p></e>
+<e><p><l>automatically<s n="adv"/></l><r>автоматша<s n="adv"/></r></p></e>
+<e><p><l>besides<s n="adv"/></l><r>басқа<s n="adv"/></r></p></e>
+<e><p><l>certainly<s n="adv"/></l><r>әрине<s n="adv"/></r></p></e>
+<e><p><l>constantly<s n="adv"/></l><r>ылғи<s n="adv"/></r></p></e>
+<e><p><l>conversely<s n="adv"/></l><r>керісінше<s n="adv"/></r></p></e>
+<e><p><l>deeply<s n="adv"/></l><r>терең<s n="adv"/></r></p></e>
+<e><p><l>differently<s n="adv"/></l><r>жаңаша<s n="adv"/></r></p></e>
+<e><p><l>equally<s n="adv"/></l><r>бірдей<s n="adv"/></r></p></e>
+<e><p><l>ethnically<s n="adv"/></l><r>этникалы<s n="adv"/></r></p></e>
+<e><p><l>everywhere<s n="adv"/></l><r>барлық<b/>жерде<s n="adv"/></r></p></e>
+<e><p><l>fiercely<s n="adv"/></l><r>өткір<s n="adv"/></r></p></e>
+<e><p><l>financially<s n="adv"/></l><r>материалдық<s n="adv"/></r></p></e>
+<e><p><l>firmly<s n="adv"/></l><r>қатты<s n="adv"/></r></p></e>
+<e><p><l>flatly<s n="adv"/></l><r>табанды<s n="adv"/></r></p></e>
+<e><p><l>forth<s n="adv"/></l><r>алға<s n="adv"/></r></p></e>
+<e><p><l>frankly<s n="adv"/></l><r>ашық<s n="adv"/></r></p></e>
+<e><p><l>hastily<s n="adv"/></l><r>байқаусызда<s n="adv"/></r></p></e>
+<e><p><l>independently<s n="adv"/></l><r>өздігінен-өзі<s n="adv"/></r></p></e>
+<e><p><l>internally<s n="adv"/></l><r>ішкі<s n="adv"/></r></p></e>
+<e><p><l>ironically<s n="adv"/></l><r>кекетінді<s n="adv"/></r></p></e>
+<e><p><l>jointly<s n="adv"/></l><r>бірлескен<s n="adv"/></r></p></e>
+<e><p><l>massively<s n="adv"/></l><r>тоқпақтай<s n="adv"/></r></p></e>
+<e><p><l>mostly<s n="adv"/></l><r>басты<b/>бөлігімен<s n="adv"/></r></p></e>
+<e><p><l>mutually<s n="adv"/></l><r>өзара<s n="adv"/></r></p></e>
+<e><p><l>nevertheless<s n="adv"/></l><r>алайда<s n="adv"/></r></p></e>
+<e><p><l>nowadays<s n="adv"/></l><r>осы<b/>уақытта<s n="adv"/></r></p></e>
+<e><p><l>obviously<s n="adv"/></l><r>айқын<s n="adv"/></r></p></e>
+<e><p><l>perfectly<s n="adv"/></l><r>әбден<s n="adv"/></r></p></e>
+<e><p><l>personally<s n="adv"/></l><r>ауызекі<s n="adv"/></r></p></e>
+<e><p><l>politically<s n="adv"/></l><r>саяси<s n="adv"/></r></p></e>
+<e><p><l>positively<s n="adv"/></l><r>салмақты<s n="adv"/></r></p></e>
+<e><p><l>potentially<s n="adv"/></l><r>әлеуетті<s n="adv"/></r></p></e>
+<e><p><l>prematurely<s n="adv"/></l><r>күні<b/>бұрын<s n="adv"/></r></p></e>
+<e><p><l>provisionally<s n="adv"/></l><r>уақытша<s n="adv"/></r></p></e>
+<e><p><l>repeatedly<s n="adv"/></l><r>қайталай<s n="adv"/></r></p></e>
+<e><p><l>seemingly<s n="adv"/></l><r>көріністі<s n="adv"/></r></p></e>
+<e><p><l>sincerely<s n="adv"/></l><r>ашық<s n="adv"/></r></p></e>
+<e><p><l>terribly<s n="adv"/></l><r>масқара<s n="adv"/></r></p></e>
+<e><p><l>undoubtedly<s n="adv"/></l><r>әлбетте<s n="adv"/></r></p></e>
+<e><p><l>unfortunately<s n="adv"/></l><r>өкінішті<s n="adv"/></r></p></e>
+<e><p><l>visibly<s n="adv"/></l><r>елеулі<s n="adv"/></r></p></e>
+
 <!--Adverbs like pronouns -->
 
  <e><p><l>on<s n="adv"/></l><r>үстінде<s n="adv"/></r></p></e> 
@@ -6306,6 +6349,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>inconvenient<s n="adj"/></l><r>ыңғайсыз<s n="adj"/></r></p></e>
 <e><p><l>incredible<s n="adj"/></l><r>нанғысыз<s n="adj"/></r></p></e>
 <e><p><l>incremental<s n="adj"/></l><r>өсетін<s n="adj"/></r></p></e>
+
 <!-- Order numbers-->
  <e><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>бір<s n="num"/><s n="ord"/></r></p></e> 
  <e><p><l>second<s n="det"/><s n="ord"/><s n="sp"/></l><r>екі<s n="num"/><s n="ord"/></r></p></e>     

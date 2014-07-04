@@ -1,310 +1,42 @@
-<e><p><l>bench<l></l><r>отырғыш<l></r></p></e>
-<e><p><l>betrayal<l></l><r>азғындаушылық<l></r></p></e>
-<e><p><l>bin<l></l><r>бункер<l></r></p></e>
-<e><p><l>blockade<l></l><r>қамал<l></r></p></e>
-<e><p><l>bond<l></l><r>міндеттеме<l></r></p></e>
-<e><p><l>boom<l></l><r>дүбір<l></r></p></e>
-<e><p><l>boulevard<l></l><r>гүлзар<l></r></p></e>
-<e><p><l>breaststroke<l></l><r>брасс<l></r></p></e>
-<e><p><l>campaigner<l></l><r>науқаншы<l></r></p></e>
-<e><p><l>cancellation<l></l><r>болдырмау<l></r></p></e>
-<e><p><l>candidacy<l></l><r>кандидатура<l></r></p></e>
-<e><p><l>canton<l></l><r>кантон<l></r></p></e>
-<e><p><l>capsule<l></l><r>капсула<l></r></p></e>
-<e><p><l>cartel<l></l><r>картель<l></r></p></e>
-<e><p><l>cashier<l></l><r>кассир<l></r></p></e>
-<e><p><l>catalyst<l></l><r>катализатор<l></r></p></e>
-<e><p><l>celebration<l></l><r>мейрам<l></r></p></e>
-<e><p><l>certification<l></l><r>сертификаттау<l></r></p></e>
-<e><p><l>CIA<l></l><r>AББ<s n="abbr"/></r></p></e>
-<e><p><l>circulation<l></l><r>айналым<l></r></p></e>
-<e><p><l>citizenship<l></l><r>азаматтық<l></r></p></e>
-<e><p><l>civilisation<l></l><r>өркениет<l></r></p></e>
-<e><p><l>clause<l></l><r>сөйлем<l></r></p></e>
-<e><p><l>clay<l></l><r>балшық<l></r></p></e>
-<e><p><l>closure<l></l><r>тоқтату<l></r></p></e>
-<e><p><l>CNN<l></l><r>ЖКТ<s n="abbr"/></r></p></e>
-<e><p><l>cohabitation<l></l><r>селбес<l></r></p></e>
-<e><p><l>columnist<l></l><r>шолушы<l></r></p></e>
-<e><p><l>commerce<l></l><r>сауда<l></r></p></e>
-<e><p><l>commercialism<l></l><r>саудалық<b/>рух<l></r></p></e>
-<e><p><l>communism<l></l><r>коммунизм<l></r></p></e>
-<e><p><l>compatriot<l></l><r>отандас<l></r></p></e>
-<e><p><l>compensation<l></l><r>өтем<l></r></p></e>
-<e><p><l>competitor<l></l><r>қарсылас<l></r></p></e>
-<e><p><l>complainant<l></l><r>қуушы<l></r></p></e>
-<e><p><l>complaint<l></l><r>арыз<l></r></p></e>
-<e><p><l>complicity<l></l><r>астасу<l></r></p></e>
-<e><p><l>condolence<l></l><r>тілектестік<l></r></p></e>
-<e><p><l>confrontation<l></l><r>конфронтация<l></r></p></e>
-<e><p><l>conglomerate<l></l><r>конгломерат<l></r></p></e>
-<e><p><l>consensus<l></l><r>ынтымақ<l></r></p></e>
-<e><p><l>consequence<l></l><r>салдар<l></r></p></e>
-<e><p><l>conspiracy<l></l><r>конспирация<l></r></p></e>
-<e><p><l>constituent<l></l><r>құрылтай<l></r></p></e>
-<e><p><l>constitutionality<l></l><r>конституциялық<l></r></p></e>
-<e><p><l>consultation<l></l><r>кеңес<l></r></p></e>
-<e><p><l>continent<l></l><r>континент<l></r></p></e>
-<e><p><l>continuity<l></l><r>толассыздық<l></r></p></e>
-<e><p><l>convoy<l></l><r>конвой<l></r></p></e>
-<e><p><l>coordinator<l></l><r>координатор<l></r></p></e>
-<e><p><l>corridor<l></l><r>дәліз<l></r></p></e>
-<e><p><l>coup<l></l><r>сәтті<b/>жүріс<l></r></p></e>
-<e><p><l>courage<l></l><r>өжеттік<l></r></p></e>
-<e><p><l>credibility<l></l><r>сенім<l></r></p></e>
-<e><p><l>creditor<l></l><r>несиегер<l></r></p></e>
-<e><p><l>culmination<l></l><r>шарықтау<b/>шегі<l></r></p></e>
-<e><p><l>custody<l></l><r>қамқорлық<l></r></p></e>
-<e><p><l>deadlock<l></l><r>тұйық<l></r></p></e>
-<e><p><l>decency<l></l><r>кісілік<l></r></p></e>
-<e><p><l>dedication<l></l><r>атақ<b/>беру<l></r></p></e>
-<e><p><l>demonstrator<l></l><r>шеруші<l></r></p></e>
-<e><p><l>deployment<l></l><r>ұңғылау<l></r></p></e>
-<e><p><l>destination<l></l><r>мақсат<b/>жер<l></r></p></e>
-<e><p><l>detachment<l></l><r>аулақтану<l></r></p></e>
-<e><p><l>determination<l></l><r>ұйғарым<l></r></p></e>
-<e><p><l>detonator<l></l><r>детонатор<l></r></p></e>
-<e><p><l>diary<l></l><r>күнделік<l></r></p></e>
-<e><p><l>dictatorship<l></l><r>диктатура<l></r></p></e>
-<e><p><l>dimension<l></l><r>өлшеу<l></r></p></e>
-<e><p><l>diplomacy<l></l><r>дипломатия<l></r></p></e>
-<e><p><l>directive<l></l><r>директива<l></r></p></e>
-<e><p><l>disagreement<l></l><r>келіспеушілік<l></r></p></e>
-<e><p><l>disappointment<l></l><r>түңіліс<l></r></p></e>
-<e><p><l>disclosure<l></l><r>жариялау<l></r></p></e>
-<e><p><l>discontent<l></l><r>наразылық<l></r></p></e>
-<e><p><l>discrimination<l></l><r>кемсіту<l></r></p></e>
-<e><p><l>diversity<l></l><r>түрлілік<l></r></p></e>
-<e><p><l>dividend<l></l><r>жарнакіріс<l></r></p></e>
-<e><p><l>documentation<l></l><r>құжаттама<l></r></p></e>
-<e><p><l>drawing<l></l><r>сурет<l></r></p></e>
-<e><p><l>dysfunction<l></l><r>дисфункция<l></r></p></e>
-<e><p><l>efficiency<l></l><r>тиімділік<l></r></p></e>
-<e><p><l>electorate<l></l><r>электорат<l></r></p></e>
-<e><p><l>elf<l></l><r>эльф<l></r></p></e>
-<e><p><l>elimination<l></l><r>жою<l></r></p></e>
-<e><p><l>elite<l></l><r>элита<l></r></p></e>
-<e><p><l>embassy<l></l><r>елшілік<l></r></p></e>
-<e><p><l>emotion<l></l><r>эмоция<l></r></p></e>
-<e><p><l>enclave<l></l><r>анклав<l></r></p></e>
-<e><p><l>encouragement<l></l><r>көтермелеу<l></r></p></e>
-<e><p><l>enforcement<l></l><r>қысымдау<l></r></p></e>
-<e><p><l>enhancement<l></l><r>жақсарту<l></r></p></e>
-<e><p><l>enterprise<l></l><r>кәсіпорын<l></r></p></e>
-<e><p><l>environmentalist<l></l><r>эколог<l></r></p></e>
-<e><p><l>epilogue<l></l><r>эпилог<l></r></p></e>
-<e><p><l>equality<l></l><r>абатшылық<l></r></p></e>
-<e><p><l>euro<l></l><r>евро<l></r></p></e>
-<e><p><l>evaluation<l></l><r>сарапшылық<l></r></p></e>
-<e><p><l>evasion<l></l><r>тайқу<l></r></p></e>
-<e><p><l>excavation<l></l><r>қазба<l></r></p></e>
-<e><p><l>execution<l></l><r>орындалу<l></r></p></e>
-<e><p><l>expenditure<l></l><r>шығын<l></r></p></e>
-<e><p><l>explosion<l></l><r>атылыс<l></r></p></e>
-<e><p><l>explosive<l></l><r>қопарылғыш<b/>зат<l></r></p></e>
-<e><p><l>exporter<l></l><r>экспорттауш<l></r></p></e>
-<e><p><l>facade<l></l><r>қасбет<l></r></p></e>
-<e><p><l>faction<l></l><r>фракция<l></r></p></e>
-<e><p><l>finding<l></l><r>кездестіру<l></r></p></e>
-<e><p><l>flotilla<l></l><r>флотилия<l></r></p></e>
-<e><p><l>follower<l></l><r>ізбасар<l></r></p></e>
-<e><p><l>footwear<l></l><r>аяқ<b/>киім<l></r></p></e>
-<e><p><l>formulation<l></l><r>тұжырымдау<l></r></p></e>
-<e><p><l>fountain<l></l><r>субұрқақ<l></r></p></e>
-<e><p><l>gap<l></l><r>олқылық<l></r></p></e>
-<e><p><l>generator<l></l><r>генератор<l></r></p></e>
-<e><p><l>gesture<l></l><r>ым<l></r></p></e>
-<e><p><l>giant<l></l><r>гигант<l></r></p></e>
-<e><p><l>globe<l></l><r>глобус<l></r></p></e>
-<e><p><l>goalkeeper<l></l><r>қақпашы<l></r></p></e>
-<e><p><l>guardian<l></l><r>қамқор<l></r></p></e>
-<e><p><l>guideline<l></l><r>директива<l></r></p></e>
-<e><p><l>haven<l></l><r>гавань<l></r></p></e>
-<e><p><l>hostage<l></l><r>кепіл<l></r></p></e>
-<e><p><l>hostility<l></l><r>жаулық<l></r></p></e>
-<e><p><l>hunger<l></l><r>аштық<l></r></p></e>
-<e><p><l>iconography<l></l><r>иконография<l></r></p></e>
-<e><p><l>impetus<l></l><r>түрткі<l></r></p></e>
-<e><p><l>improvement<l></l><r>жетілдіру<l></r></p></e>
-<e><p><l>incompetence<l></l><r>біліксіздік<l></r></p></e>
-<e><p><l>incubator<l></l><r>жетілдіргіш<l></r></p></e>
-<e><p><l>indication<l></l><r>нұсқаулық<l></r></p></e>
-<e><p><l>influx<l></l><r>influx<l></r></p></e>
-<e><p><l>inquiry<l></l><r>сұраныс<l></r></p></e>
-<e><p><l>insight<l></l><r>зеректік<l></r></p></e>
-<e><p><l>installation<l></l><r>қондырғы<l></r></p></e>
-<e><p><l>integrity<l></l><r>тұтастық<l></r></p></e>
-<e><p><l>intellectual<l></l><r>зияткерлік<l></r></p></e>
-<e><p><l>intervention<l></l><r>қабаттасушылық<l></r></p></e>
-<e><p><l>invitation<l></l><r>шақыру<l></r></p></e>
-<e><p><l>irresponsibility<l></l><r>жауапкерсіздік<l></r></p></e>
-<e><p><l>irrigation<l></l><r>суландыру<l></r></p></e>
-<e><p><l>Islamist<l></l><r>Исламист<l></r></p></e>
-<e><p><l>jet<l></l><r>жіңішке<b/>ағыс<l></r></p></e>
-<e><p><l>killer<l></l><r>өлтіргіш<l></r></p></e>
-<e><p><l>labeling<l></l><r>маркетинг<l></r></p></e>
-<e><p><l>laser<l></l><r>лазер<l></r></p></e>
-<e><p><l>lawsuit<l></l><r>соттың<b/>үдерісі<l></r></p></e>
-<e><p><l>lecture<l></l><r>дәріс<l></r></p></e>
-<e><p><l>legacy<l></l><r>мирас<l></r></p></e>
-<e><p><l>legality<l></l><r>заңдылық<l></r></p></e>
-<e><p><l>liberalisation<l></l><r>бағаны<b/>ырықтандыру<l></r></p></e>
-<e><p><l>liberty<l></l><r>еркіндік<l></r></p></e>
-<e><p><l>lifting<l></l><r>өрлеу<l></r></p></e>
-<e><p><l>logo<l></l><r>фирмалық<b/>белгі<l></r></p></e>
-<e><p><l>loyalty<l></l><r>ниеттестік<l></r></p></e>
-<e><p><l>magnet<l></l><r>магнит<l></r></p></e>
-<e><p><l>maker<l></l><r>жасаушы<l></r></p></e>
-<e><p><l>manual<l></l><r>басшылық<l></r></p></e>
-<e><p><l>manuscript<l></l><r>қолжазба<l></r></p></e>
-<e><p><l>march<l></l><r>наурыз<l></r></p></e>
-<e><p><l>meadow<l></l><r>шалғын<l></r></p></e>
-<e><p><l>mediator<l></l><r>дәнекер<l></r></p></e>
-<e><p><l>meltdown<l></l><r>балқу<l></r></p></e>
-<e><p><l>milestone<l></l><r>тоғыс<l></r></p></e>
-<e><p><l>militant<l></l><r>жаугер<l></r></p></e>
-<e><p><l>missile<l></l><r>зымыран<l></r></p></e>
-<e><p><l>mobilisation<l></l><r>мобилизация<l></r></p></e>
-<e><p><l>modification<l></l><r>өзгерту<l></r></p></e>
-<e><p><l>mosaic<l></l><r>мозаика<l></r></p></e>
-<e><p><l>mosque<l></l><r>мешіт<l></r></p></e>
-<e><p><l>mud<l></l><r>кір<l></r></p></e>
-<e><p><l>multinational<l></l><r>көпұлттық<l></r></p></e>
-<e><p><l>murderer<l></l><r>өлтіргіш<l></r></p></e>
-<e><p><l>narcotic<l></l><r>наркотик<l></r></p></e>
-<e><p><l>negotiator<l></l><r>дәнекер<l></r></p></e>
-<e><p><l>neighbourhood<l></l><r>аймақ<l></r></p></e>
-<e><p><l>normality<l></l><r>бірқалыптылық<l></r></p></e>
-<e><p><l>norm<l></l><r>шама<l></r></p></e>
-<e><p><l>observer<l></l><r>байқаушы<l></r></p></e>
-<e><p><l>obstacle<l></l><r>бөгет<l></r></p></e>
-<e><p><l>offset<l></l><r>ауытқушылық<l></r></p></e>
-<e><p><l>optimism<l></l><r>оптимизм<l></r></p></e>
-<e><p><l>organiser<l></l><r>ұйымдастырушы<l></r></p></e>
-<e><p><l>outburst<l></l><r>атылыс<l></r></p></e>
-<e><p><l>outcome<l></l><r>нәтиже<l></r></p></e>
-<e><p><l>outcry<l></l><r>наразылық<l></r></p></e>
-<e><p><l>outlook<l></l><r>көрініс<l></r></p></e>
-<e><p><l>outskirts<l></l><r>шеттер<l></r></p></e>
-<e><p><l>pace<l></l><r>шапшаңдық<l></r></p></e>
-<e><p><l>parameter<l></l><r>параметр<l></r></p></e>
-<e><p><l>payroll<l></l><r>төлем<b/>тізімдеме<l></r></p></e>
-<e><p><l>peoples<l></l><r>халыктар<l></r></p></e>
-<e><p><l>photo<l></l><r>фото<l></r></p></e>
-<e><p><l>plaque<l></l><r>қабырғаның<b/>тәрелкесі<l></r></p></e>
-<e><p><l>plenary<l></l><r>пленарлық<b/>сессия<l></r></p></e>
-<e><p><l>plenty<l></l><r>молшылық<l></r></p></e>
-<e><p><l>portal<l></l><r>портал<l></r></p></e>
-<e><p><l>poster<l></l><r>жариялама<l></r></p></e>
-<e><p><l>precedence<l></l><r>үстемдік<l></r></p></e>
-<e><p><l>precedent<l></l><r>прецендент<l></r></p></e>
-<e><p><l>prediction<l></l><r>сәуегейлік<l></r></p></e>
-<e><p><l>premise<l></l><r>алғышарт<l></r></p></e>
-<e><p><l>presentation<l></l><r>презентация<l></r></p></e>
-<e><p><l>preservation<l></l><r>сақтау<l></r></p></e>
-<e><p><l>procedure<l></l><r>рәсім<l></r></p></e>
-<e><p><l>professionalism<l></l><r>профессионализм<l></r></p></e>
-<e><p><l>profession<l></l><r>кәсіп<l></r></p></e>
-<e><p><l>prominence<l></l><r>үздік<b/>жағдай<l></r></p></e>
-<e><p><l>proportion<l></l><r>пропорция<l></r></p></e>
-<e><p><l>prosperity<l></l><r>көркею<l></r></p></e>
-<e><p><l>protectorate<l></l><r>протекторат<l></r></p></e>
-<e><p><l>protester<l></l><r>протестант<l></r></p></e>
-<e><p><l>quadruple<l></l><r>төртке<b/>бүктелген<l></r></p></e>
-<e><p><l>qualification<l></l><r>біліктілік<l></r></p></e>
-<e><p><l>qualifier<l></l><r>анықтағыш<l></r></p></e>
-<e><p><l>quantity<l></l><r>сан<l></r></p></e>
-<e><p><l>quartet<l></l><r>квартет<l></r></p></e>
-<e><p><l>quest<l></l><r>ізденіс<l></r></p></e>
-<e><p><l>quintet<l></l><r>квинтет<l></r></p></e>
-<e><p><l>radical<l></l><r>радикал<l></r></p></e>
-<e><p><l>raid<l></l><r>шапқыншылық<l></r></p></e>
-<e><p><l>rally<l></l><r>жандандыру<l></r></p></e>
-<e><p><l>ramification<l></l><r>айырылыс<l></r></p></e>
-<e><p><l>recession<l></l><r>құлдырау<l></r></p></e>
-<e><p><l>reciprocity<l></l><r>алыс-беріс<l></r></p></e>
-<e><p><l>reconciliation<l></l><r>мәміле<l></r></p></e>
-<e><p><l>rector<l></l><r>ректор<l></r></p></e>
-<e><p><l>reflection<l></l><r>шағылыс<l></r></p></e>
-<e><p><l>refugee<l></l><r>босқын<l></r></p></e>
-<e><p><l>refusal<l></l><r>бас<b/>тарту<l></r></p></e>
-<e><p><l>registration<l></l><r>тіркелу<l></r></p></e>
-<e><p><l>reminder<l></l><r>құлаққағыс<l></r></p></e>
-<e><p><l>removal<l></l><r>ауыспалылық<l></r></p></e>
-<e><p><l>resignation<l></l><r>отставка<l></r></p></e>
-<e><p><l>respondent<l></l><r>елегіш<l></r></p></e>
-<e><p><l>retaliation<l></l><r>кек<b/>алу<l></r></p></e>
-<e><p><l>rug<l></l><r>кілем<l></r></p></e>
-<e><p><l>sake<l></l><r>аш<b/>көздік<l></r></p></e>
-<e><p><l>salary<l></l><r>қызметақы<l></r></p></e>
-<e><p><l>scepticism<l></l><r>сенбеушілік<l></r></p></e>
-<e><p><l>scope<l></l><r>өріс<l></r></p></e>
-<e><p><l>scorer<l></l><r>таңбалағыш<l></r></p></e>
-<e><p><l>scrutiny<l></l><r>ықыласты<b/>қарау<l></r></p></e>
-<e><p><l>sculpture<l></l><r>мүсін<l></r></p></e>
-<e><p><l>seizure<l></l><r>алым<l></r></p></e>
-<e><p><l>semester<l></l><r>семестр<l></r></p></e>
-<e><p><l>semifinal<l></l><r>жартылай<b/>финал<l></r></p></e>
-<e><p><l>setback<l></l><r>кідіріс<l></r></p></e>
-<e><p><l>shaft<l></l><r>тоғын<l></r></p></e>
-<e><p><l>shark<l></l><r>акула<l></r></p></e>
-<e><p><l>sideline<l></l><r>бүйір<b/>сызық<l></r></p></e>
-<e><p><l>sight<l></l><r>көрініс<l></r></p></e>
-<e><p><l>silence<l></l><r>үнсіздік<l></r></p></e>
-<e><p><l>skier<l></l><r>шаңғышы<l></r></p></e>
-<e><p><l>slogan<l></l><r>ұран<l></r></p></e>
-<e><p><l>sophistication<l></l><r>нәзіктенушілік<l></r></p></e>
-<e><p><l>sovereignty<l></l><r>егемендік<l></r></p></e>
-<e><p><l>speaker<l></l><r>спикер<l></r></p></e>
-<e><p><l>speculation<l></l><r>жорамал<l></r></p></e>
-<e><p><l>sphere<l></l><r>шеңбер<l></r></p></e>
-<e><p><l>spokesperson<l></l><r>баяндамашы<l></r></p></e>
-<e><p><l>stake<l></l><r>сыбаға<l></r></p></e>
-<e><p><l>stalemate<l></l><r>шарасыз<b/>жағдай<l></r></p></e>
-<e><p><l>statute<l></l><r>статут<l></r></p></e>
-<e><p><l>strife<l></l><r>күрес<l></r></p></e>
-<e><p><l>subsidy<l></l><r>жәрдемақы<l></r></p></e>
-<e><p><l>supermarket<l></l><r>супермаркет<l></r></p></e>
-<e><p><l>supervision<l></l><r>қадағалау<l></r></p></e>
-<e><p><l>supplement<l></l><r>толықтырма<l></r></p></e>
-<e><p><l>surveillance<l></l><r>қадағалау<l></r></p></e>
-<e><p><l>sympathy<l></l><r>тілектестік<l></r></p></e>
-<e><p><l>syntagma<l></l><r>синтагма<l></r></p></e>
-<e><p><l>tablet<l></l><r>блокнот<l></r></p></e>
-<e><p><l>takeover<l></l><r>төңкеріс<l></r></p></e>
-<e><p><l>teenager<l></l><r>жасөспірім<l></r></p></e>
-<e><p><l>teen<l></l><r>қапа<l></r></p></e>
-<e><p><l>telegraph<l></l><r>телеграф<l></r></p></e>
-<e><p><l>tension<l></l><r>кернеу<l></r></p></e>
-<e><p><l>terrorist<l></l><r>терроршы<l></r></p></e>
-<e><p><l>third<l></l><r>үшінші<l></r></p></e>
-<e><p><l>timetable<l></l><r>уақыт<b/>кестесі<l></r></p></e>
-<e><p><l>tolerance<l></l><r>толеранттылық<l></r></p></e>
-<e><p><l>tractor<l></l><r>трактор<l></r></p></e>
-<e><p><l>trafficker<l></l><r>сатушы<l></r></p></e>
-<e><p><l>transaction<l></l><r>транзакция<l></r></p></e>
-<e><p><l>transparency<l></l><r>ашықтық<l></r></p></e>
-<e><p><l>trend<l></l><r>үрдіс<l></r></p></e>
-<e><p><l>truck<l></l><r>жүк<b/>машинасы<l></r></p></e>
-<e><p><l>tyranny<l></l><r>зомбылық<l></r></p></e>
-<e><p><l>uncertainty<l></l><r>қорғаншақтық<l></r></p></e>
-<e><p><l>Unesco<l></l><r>ЮНЕСКО<s n="abbr"/></r></p></e>
-<e><p><l>unrest<l></l><r>абыржу<l></r></p></e>
-<e><p><l>VAT<l></l><r>ҚҚС<s n="abbr"/></r></p></e>
-<e><p><l>vendor<l></l><r>сатушы<l></r></p></e>
-<e><p><l>verdict<l></l><r>үкім<l></r></p></e>
-<e><p><l>verification<l></l><r>верификация<l></r></p></e>
-<e><p><l>veteran<l></l><r>ардагер<l></r></p></e>
-<e><p><l>vigour<l></l><r>күш<l></r></p></e>
-<e><p><l>violation<l></l><r>бұзушылық<l></r></p></e>
-<e><p><l>violin<l></l><r>скрипка<l></r></p></e>
-<e><p><l>volunteer<l></l><r>сарбаз<l></r></p></e>
-<e><p><l>voucher<l></l><r>кепіл<l></r></p></e>
-<e><p><l>vuvuzela<l></l><r>вувузела<l></r></p></e>
-<e><p><l>wallet<l></l><r>қапшық<l></r></p></e>
-<e><p><l>weakness<l></l><r>әлсіздік<l></r></p></e>
-<e><p><l>welfare<l></l><r>әл-ауқат<l></r></p></e>
-<e><p><l>withdrawal<l></l><r>жасырыну<l></r></p></e>
-<e><p><l>workforce<l></l><r>жұмыс<b/>күші<l></r></p></e>
-<e><p><l>workshop<l></l><r>семинар<l></r></p></e>
-<e><p><l>yoke<l></l><r>ажырғы<l></r></p></e>
+amazingly	таңқаларлық
+automatically	автоматша
+besides	басқа
+certainly	әрине
+constantly	ылғи
+conversely	сырттың<b/>жағынан
+deeply	терең
+differently	жаңаша
+equally	бірдей
+ethnically	этникалық
+everywhere	барлық<b/>жерде
+fiercely	өткір
+financially	материалдық
+firmly	нып-нық
+flatly	табанды
+forth	алға
+frankly	ашық
+hastily	байқаусызда
+independently	өздігінен-өзі
+internally	ішкі
+ironically	кекетінді
+jointly	бірлескен
+massively	тоқпақтай
+mostly	ша<b/>үлкен<b/>бөлікке
+mutually	өзара
+nevertheless	алайда
+nowadays	в<b/>осы<b/>уақытты
+obviously	айқын
+perfectly	әбден
+personally	ауызекі
+politically	саяси
+positively	салмақты
+potentially	әлеуетті
+prematurely	күні<b/>бұрын
+provisionally	уақытша
+repeatedly	қайыра
+seemingly	на<b/>көріністі
+sincerely	ашық
+terribly	кереметтей
+undoubtedly	әлбетте
+unfortunately	өкінішке
+visibly	білем

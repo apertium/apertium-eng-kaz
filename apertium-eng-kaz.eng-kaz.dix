@@ -248,7 +248,8 @@
 
     <!-- MLF 20120702 The following postpositions use dative case -->
     <e><p><l>intended<b/>for<s n="pr"/></l><r>арналған<s n="post"/><s n="Rdat"/></r></p></e>
-<e><p><l>from<b/>below<s n="pr"/></l><r>астынан<s n="post"/><s n="Rdat"/></r></p></e>
+<e><p><l>from<b/>below<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="abl"/></r></p></e>
+
  <e><p><l>similarly<b/>to<s n="pr"/></l><r>секілді<s n="post"/><s n="Rdat"/></r></p></e>
     <e><p><l>towards<s n="pr"/></l><r>қарай<s n="post"/><s n="Rdat"/></r></p></e>
 
@@ -256,6 +257,11 @@
 
 <e><p><l>about<b/>with<s n="pr"/></l><r>туралы<s n="post"/><s n="Rins"/></r></p></e>
   <e><p><l>about<s n="pr"/></l><r>туралы<s n="post"/><s n="Rnom"/></r></p></e> 
+
+<e><p><l>amid<s n="pr"/></l><r>ара<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+
+    <e r="LR"><p><l>without<s n="pr"/></l><r></r></p></e>
+
 
     <!-- This one will be tricky -->
     <!-- MLF 20120702 removed to consider it later
@@ -4220,6 +4226,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Broadway<s n="np"/><s n="loc"/><s n="sg"/></l><r>Бродвей<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Jersey<s n="np"/><s n="loc"/><s n="sg"/></l><r>Джерси<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kentucky<s n="np"/><s n="loc"/><s n="sg"/></l><r>Кентукки<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Budapest<s n="np"/><s n="loc"/><s n="sg"/></l><r>Будапешт<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Damascus<s n="np"/><s n="loc"/><s n="sg"/></l><r>Дамаск<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Gaza<s n="np"/><s n="loc"/><s n="sg"/></l><r>Газа<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Thessaloniki<s n="np"/><s n="loc"/><s n="sg"/></l><r>Салоники<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Travnik<s n="np"/><s n="loc"/><s n="sg"/></l><r>Травник<s n="np"/><s n="top"/></r></p></e>
 
 
 
@@ -4237,7 +4248,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>Microsoft<s n="np"/><s n="al"/><s n="sg"/></l><r>Майкрософт<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Trust<s n="np"/><s n="al"/><s n="sg"/></l><r>Траст<s n="np"/><s n="org"/></r></p></e>
 
+<e><p><l>Koran<s n="np"/><s n="al"/><s n="sg"/></l><r>Қоран<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>NGO<s n="np"/><s n="al"/><s n="sg"/></l><r>NGO<s n="np"/><s n="org"/></r></p></e>
 
+<e><p><l>SFOR<s n="np"/><s n="al"/><s n="sg"/></l><r>SFOR<s n="np"/><s n="org"/></r></p></e>
 
 
 <e><p><l>BBC<s n="n"/><s n="acr"/></l><r>ББС<s n="abbr"/></r></p></e>
@@ -4646,7 +4660,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e><p><l>billion<s n="num"/><s n="sg"/></l><r>миллиард<s n="num"/></r></p></e>
 <e><p><l>million<s n="num"/><s n="sg"/></l><r>миллион<s n="num"/></r></p></e>
-
+<e><p><l>billion<s n="num"/><s n="pl"/></l><r>миллиард<s n="num"/></r></p></e>
    <e><p><l>$<s n="num"/><s n="mon"/></l><r>$<s n="num"/></r></p></e>
 
     <e><p><l>C<s n="num"/><s n="mf"/><s n="sg"/></l><r>C<s n="num"/></r></p></e>
@@ -4725,7 +4739,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>everyday<s n="adv"/></l><r>күнде<s n="adv"/></r></p></e>
     <e><p><l>as<s n="preadv"/></l><r>ретінде<s n="post"/></r></p></e>
     <e><p><l>very<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
-
+<e><p><l>quite<s n="preadv"/></l><r>әбден<s n="adv"/></r></p></e>
     <e><p><l>more<s n="preadv"/></l><r>көбірек<s n="adv"/></r></p></e>
     <e><p><l>really<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
     <e><p><l>really<s n="adv"/></l><r>өте<s n="adv"/></r></p></e>
@@ -4782,6 +4796,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 	 <!-- isn't тағы a postadv? -->
     <e><p><l>around<s n="adv"/></l><r>төңірегінде<s n="adv"/></r></p></e>
     <e><p><l>no<s n="ij"/></l><r>жоқ<s n="ij"/></r></p></e> 
+<e><p><l>bye<s n="ij"/></l><r>қош<s n="ij"/></r></p></e>
  <e><p><l>please<s n="ij"/></l><r>өтінем<s n="ij"/></r></p></e> 
  <e><p><l>right<s n="ij"/></l><r>дұрыс<s n="ij"/></r></p></e> 
  <e><p><l>oh<s n="ij"/></l><r>ау<s n="ij"/></r></p></e> 
@@ -5013,6 +5028,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>undoubtedly<s n="adv"/></l><r>әлбетте<s n="adv"/></r></p></e>
 <e><p><l>unfortunately<s n="adv"/></l><r>өкінішті<s n="adv"/></r></p></e>
 <e><p><l>visibly<s n="adv"/></l><r>елеулі<s n="adv"/></r></p></e>
+<e><p><l>everywhere<s n="adv"/></l><r>әр<b/>жерде<s n="adv"/></r></p></e>
 
 <!--Adverbs like pronouns -->
 

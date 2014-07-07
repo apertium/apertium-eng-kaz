@@ -326,4 +326,4 @@ pertium: spectre360 * 55029: /branches/papers/codeswitch-cltw-2014/: codeswitch.
 <spectie> Aida,
 cat /tmp/eng-kaz.testvoc  | grep '> *#' > /tmp/kaz-words0
 cat /tmp/eng-kaz.testvoc  | grep '> *#' | cut -f2 -d'#' | cut -f1 -d'\' | apertium-destxt | lt-proc ~/Source/apertium-kaz/kaz.automorf.bin  > /tmp/kaz-words
-paste /tmp/kaz-words /tmp/kaz-words0  | grep '\*'
+paste /tmp/kaz-words /tmp/kaz-words0  | grep '\*'| sort -u 

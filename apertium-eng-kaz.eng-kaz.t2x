@@ -3880,7 +3880,6 @@
             <clip pos="3" part="a_nbr"/> 
             <clip pos="3" part="a_pers"/> 
             <clip pos="3" part="a_possessive"/>
-             <lit-tag v="nom"/>
             <clip pos="3" part="chcontent"/>         
             
           </chunk>

@@ -403,7 +403,29 @@
         </let>
      </when>
      </choose>
-     <choose>
+    <choose>
+     <when>
+        <test>
+
+<and>
+          <equal>
+             <clip pos="1" part="case" side="sl"/>
+             <lit-tag v="nom"/>
+          </equal>
+ <equal>
+             <clip pos="1" part="adj" side="sl"/>
+             <lit-tag v="adj"/>
+          </equal>
+</and>
+        </test>
+        <let>
+           <clip pos="1" part="case" side="tl"/>
+           <lit v=""/>
+        </let>
+     </when>
+
+     </choose>     
+ <choose>
      <when>
         <test>
           <equal>

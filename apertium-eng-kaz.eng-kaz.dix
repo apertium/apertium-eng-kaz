@@ -2647,7 +2647,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>cost<s n="n"/></l><r>құн<s n="n"/></r></p></e>
 <e><p><l>boost<s n="n"/></l><r>жоғарылату<s n="n"/></r></p></e>
 <e><p><l>analyst<s n="n"/></l><r>талдаушы<s n="n"/></r></p></e>
-<e><p><l>Yugoslav<s n="n"/></l><r>Югославия<s n="n"/></r></p></e>
+<e><p><l>Yugoslav<s n="n"/></l><r>Югослав<s n="n"/></r></p></e>
 <e><p><l>review<s n="n"/></l><r>қайталау<s n="n"/></r></p></e>
 <e><p><l>Friday<s n="n"/></l><r>Жұма<s n="n"/></r></p></e>
 <e><p><l>Monday<s n="n"/></l><r>Дүйсенбі<s n="n"/></r></p></e>
@@ -3325,7 +3325,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Mexican<s n="n"/></l><r>Мексика<s n="n"/></r></p></e>
 <e><p><l>Korean<s n="n"/></l><r>Кореялық<s n="n"/></r></p></e>
 <e><p><l>musician<s n="n"/></l><r>музыкант<s n="n"/></r></p></e>
-<e><p><l>Canadian<s n="n"/></l><r>Канадалық<s n="n"/></r></p></e>
+<e><p><l>Canadian<s n="n"/></l><r>Канадиан<s n="n"/></r></p></e>
 <e><p><l>Indian<s n="n"/></l><r>Үнділік<s n="n"/></r></p></e>
 <e><p><l>Norwegian<s n="n"/></l><r>Норвегиялық<s n="n"/></r></p></e>
 <e><p><l>Australian<s n="n"/></l><r>Австралиялық<s n="n"/></r></p></e>

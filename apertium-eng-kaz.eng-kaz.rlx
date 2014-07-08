@@ -69,7 +69,7 @@ SET V-HAVE = (vbhaver) ;
 
 SET V-PRES = (vblex pres) ; 
 
-SET V-MOD = ("must"i) | ("should"i) | ("will"i) | ("can"i) | ("need# to"i)  ; 
+SET V-MOD = ("must"i) | ("should"i) | ("will"i) | ("can"i) | ("need# to"i) | ("want# to"i) | ("may"i) ; 
 
 LIST PRN-SUBJ  = (prn subj) ;
 
@@ -92,6 +92,8 @@ SELECT N IF (-1 ("<both>"i)) ;
 SELECT (prn tn mf) IF (0 ("<most>"i))(1 N) ; 
 
 SELECT (cnjcoo) IF (1 (pr)) ; 
+
+SELECT V IF (0 ("<like>"i))(1 (vblex ger)) ; 
 
 SELECT V IF (0 ("<like>"i))(-2 PRN-SUBJ) ; 
 

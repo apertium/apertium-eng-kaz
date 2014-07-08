@@ -2847,110 +2847,6 @@
 </rule>
 
 
-<rule comment="NEW RULE: be + verb-ing "> 
-  <pattern> 
-    <pattern-item n="pers-verb-to-be"/>
-    <pattern-item n="adv"/>  
-    <pattern-item n="verb-ing"/>  
-   </pattern>
-  <action>
-<choose>
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="pres"/>
-          </equal>
-        </test>
-            
-        <out>
-
-      <chunk name="pers-verb">  
-      <tags>
-        <tag><lit-tag v="VP"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
-      </tags>
-            <b pos="1"/>
- <lu>
-      <clip pos="2" side="tl" part="whole"/>
-     </lu>
-            <b pos="2"/>
-        <lu>
-          <clip pos="3" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-	<lit-tag v="prc_perf"/>
-    	
-        </lu>
-        <b/> 
-	<lu>
-          <lit v="жат"/>  
- 	<lit-tag v="vaux"/>
- 	<lit-tag v="6"/>
-	 <lit-tag v="4"/>
-	  <lit-tag v="3"/>
-          <lit-tag v="2"/>
- 	
- 	        </lu>
-      </chunk>
-  </out>
-       
-  </when> 
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="past"/>
-          </equal>
-        </test>
-        <out>
-      <chunk name="pers-verb">
-            <tags>
-        <tag><lit-tag v="VP"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
-      </tags>
-            <b pos="1"/>
-<lu>
-      <clip pos="2" side="tl" part="whole"/>
-     </lu>
-            <b pos="2"/>
-        <lu>
-          <clip pos="2" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-	<lit-tag v="prc_perf"/>
-            </lu>
-        <b/> 
-	<lu>
-          <lit v="отыр"/> <!--I was not playing - Мен ойнап отырмадым  -->
- 	<lit-tag v="vaux"/>
- 	  <lit-tag v="6"/>
-          <lit-tag v="4"/>
-          <lit-tag v="5"/>
-          <lit-tag v="3"/>
-          <lit-tag v="2"/>
-          <lit-tag v="7"/>
-</lu>
-          </chunk>
-        </out>
-      </when>
-      <otherwise>
-        <let><var n="tense"/><lit-tag v="aor"/></let> 
-      <out><b pos="1"/></out>  
-      <call-macro n="NEW-gen-simple-verb-neg">
-         <with-param pos="2"/>  
-     </call-macro>
-      </otherwise> 
-    </choose>
-      </action>
-</rule>
-
 
 <rule comment="NEW RULE: be + verb-ing "> 
   <pattern> 
@@ -3143,6 +3039,110 @@
       <out><b pos="1"/><b pos="2"/></out>
       <call-macro n="NEW-gen-simple-verb-neg">
          <with-param pos="3"/>  
+     </call-macro>
+      </otherwise> 
+    </choose>
+      </action>
+</rule>
+
+<rule comment="NEW RULE: be + verb-ing "> 
+  <pattern> 
+    <pattern-item n="pers-verb-to-be"/>
+    <pattern-item n="adv"/>  
+    <pattern-item n="verb-ing"/>  
+   </pattern>
+  <action>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+            
+        <out>
+
+      <chunk name="pers-verb">  
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+ <lu>
+      <clip pos="2" side="tl" part="whole"/>
+     </lu>
+            <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="prc_perf"/>
+    	
+        </lu>
+        <b/> 
+	<lu>
+          <lit v="жат"/>  
+ 	<lit-tag v="vaux"/>
+ 	<lit-tag v="6"/>
+	 <lit-tag v="4"/>
+	  <lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	
+ 	        </lu>
+      </chunk>
+  </out>
+       
+  </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <out>
+      <chunk name="pers-verb">
+            <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+<lu>
+      <clip pos="2" side="tl" part="whole"/>
+     </lu>
+            <b pos="2"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="prc_perf"/>
+            </lu>
+        <b/> 
+	<lu>
+          <lit v="отыр"/> <!--I was not playing - Мен ойнап отырмадым  -->
+ 	<lit-tag v="vaux"/>
+ 	  <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+</lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let> 
+      <out><b pos="1"/></out>  
+      <call-macro n="NEW-gen-simple-verb-neg">
+         <with-param pos="2"/>  
      </call-macro>
       </otherwise> 
     </choose>
@@ -3363,43 +3363,7 @@
 </rule>
 
 
-<rule comment="NEW RULE: will +adv + verb"> <!-- will verb -->
-<!-- superblank management needs to be corrected -->
-  <pattern>
-    <pattern-item n="vaux-will"/>
-    <pattern-item n="adv"/>
-    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
-   </pattern>
-  <action>
-        <out>
-<chunk name="pers-verb">
-      <tags>
-        <tag><lit-tag v="VP"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="aor"/></tag>  <!-- tense/conditionality -->
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
-      </tags>
-         <b pos="1"/>
-        <lu>
-      <clip pos="2" side="tl" part="whole"/>
-            </lu>
-            <b pos="2"/>  
-  <lu>
-          <clip pos="3" side="tl" part="lem"/>
-	  <clip pos="3" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="6"/>
-          <lit-tag v="4"/>
-          <lit-tag v="5"/>
-          <lit-tag v="3"/>
-          <lit-tag v="2"/>
-          <lit-tag v="7"/>
-        </lu>
-      </chunk>
-  </out>
-  </action>
-</rule>
+
 
 
 
@@ -3560,6 +3524,44 @@
   </action>
 </rule>
 
+
+<rule comment="NEW RULE: will +adv + verb"> <!-- will verb -->
+<!-- superblank management needs to be corrected -->
+  <pattern>
+    <pattern-item n="vaux-will"/>
+    <pattern-item n="adv"/>
+    <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
+   </pattern>
+  <action>
+        <out>
+<chunk name="pers-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="aor"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+         <b pos="1"/>
+        <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>  
+  <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+  </out>
+  </action>
+</rule>
 
 <rule comment="NEW RULE: must + infinitive"> <!--must verb -->
   <pattern>

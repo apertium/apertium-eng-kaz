@@ -105,6 +105,8 @@ SELECT Inf IF (-2* ("<to>"i))(-1 ("<or>"i)) ;
 
 SELECT N IF (0 ("<names>"i))(-1 Pr) ; 
 
+SELECT (vbmod past) IF (0 (vbmod past)) (1 (vblex inf)) ; 
+
 SELECT (vblex pp) IF (0 ("<hit>"i)) (-1 ("<is>"i)) ; 
 
 SELECT (vblex sep pp) IF (-1 (vbser past)) ; 

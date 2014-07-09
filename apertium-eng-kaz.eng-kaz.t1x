@@ -2007,7 +2007,7 @@
         <out>
       <chunk name="VP_want_to">
       <tags>
-        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="VP_wantto"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
@@ -2038,6 +2038,7 @@
   </when> 
       <when>
         <test>
+
           <equal>
              <clip pos="1" side="sl" part="a_tense"/>
              <lit-tag v="past"/>
@@ -2046,7 +2047,7 @@
         <out>
       <chunk name="VP_want_to">
         <tags>
-        <tag><lit-tag v="VP_want_to_inf"/></tag>
+        <tag><lit-tag v="VP_wantto"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
         <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->

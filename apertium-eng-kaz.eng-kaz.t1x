@@ -328,6 +328,7 @@
      <def-attr n="a_num">
       <attr-item tags="num"/>
       <attr-item tags="num.ord"/>
+      <attr-item tags="num.ord.nom"/>
       <attr-item tags="num.coll"/>
     </def-attr>
 

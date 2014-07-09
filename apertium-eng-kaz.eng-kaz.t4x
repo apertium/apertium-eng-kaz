@@ -80,6 +80,7 @@
     </def-attr>
 <def-attr n="pron">
       <attr-item tags="itg"/>
+      <attr-item tags="ind"/>
       <attr-item tags="qnt"/>
     </def-attr>
 
@@ -551,6 +552,13 @@
       <action>
 
         <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="pron"/><lit-tag v="ind"/></equal></test>
+            <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
+            <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+          </when>
+        </choose>
+ <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal></test>
             <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>

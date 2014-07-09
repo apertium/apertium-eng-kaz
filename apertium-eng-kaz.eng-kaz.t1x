@@ -330,6 +330,10 @@
       <attr-item tags="num.ord"/>
       <attr-item tags="num.coll"/>
     </def-attr>
+
+ <def-attr n="a_obj_pr">
+      <attr-item tags="ind"/>
+    </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="f"/>
       <attr-item tags="m"/>
@@ -11352,8 +11356,39 @@ this would have to be changed -->
     <when>
      <test>  
        <equal>
+          <clip pos="1" side="sl" part="a_obj_pr"/>
+          <lit-tag v="ind"/>
+       </equal>
+     </test>
+     <let><var n="case"/><lit-tag v="nom"/></let>
+     <let><var n="number"/><lit-tag v="sg"/></let>
+     <let><var n="subj-pron_lu"/><lit-tag v="p3"/></let>
+    </when>
+     <otherwise>
+     <let><var n="case"/><lit-tag v="5"/></let>
+     </otherwise>
+  </choose>
+
+<choose>
+    <when>
+     <test>  
+       <equal>
           <clip pos="1" side="sl" part="a_possessive"/>
           <lit-tag v="px3sp"/>
+       </equal>
+     </test>
+     <let><var n="possessive"/><lit-tag v="px3sp"/></let>
+    </when>
+     <otherwise>
+     <let><var n="possessive"/><lit-tag v="PXD"/></let>
+     </otherwise>
+  </choose>
+<choose>
+    <when>
+     <test>  
+       <equal>
+          <clip pos="1" side="sl" part="a_pron"/>
+          <lit-tag v="prn.ind"/>
        </equal>
      </test>
      <let><var n="possessive"/><lit-tag v="px3sp"/></let>
@@ -11379,7 +11414,7 @@ this would have to be changed -->
       <clip pos="1" side="tl" part="a_pers"/>
       <lit-tag v="2"/> <!-- number -->
       <lit-tag v="4"/> <!-- possession -->
-      <lit-tag v="5"/> <!-- case --> 
+     <var n="case"/> <!-- case --> 
     </lu>
   </chunk>
   </out>

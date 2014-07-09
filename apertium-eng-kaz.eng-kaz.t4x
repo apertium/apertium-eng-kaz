@@ -142,6 +142,11 @@
       <attr-item tags="Rnom"/>
     </def-attr>
 
+<def-attr n="a_num">
+      <attr-item tags="ord"/>
+     
+    </def-attr>
+
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -726,10 +731,17 @@
         </choose>
 <choose>
           <when>
+            <test><equal><clip pos="1" side="sl" part="a_num"/><lit-tag v="ord"/></equal></test>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
+<choose>
+          <when>
             <test><equal><clip pos="1" side="sl" part="a_nom"/><lit-tag v="np.cog"/></equal></test>
             <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
           </when>
         </choose>
+
        <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>

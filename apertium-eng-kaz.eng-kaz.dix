@@ -229,22 +229,22 @@
     <e><p><l>along<s n="pr"/></l><r>бой<s n="n"/><s n="PXD"/><s n="ins"/></r></p></e>
 
 <e><p><l>despite<s n="pr"/></l><r>қарамастан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
-<e><p><l>facing<s n="pr"/></l><r>тартыс<s n="n"/></r></p></e>
-<e><p><l>regarding<s n="pr"/></l><r>туралы<s n="n"/></r></p></e>
-<e><p><l>according<s n="pr"/></l><r>сәйкесінше<s n="n"/></r></p></e>
-<e><p><l>concerning<s n="pr"/></l><r>туралы<s n="n"/></r></p></e>
-<e><p><l>during<s n="pr"/></l><r>бойы<s n="n"/></r></p></e>
-<e><p><l>among<s n="pr"/></l><r>ара<s n="n"/></r></p></e>
+<e><p><l>facing<s n="pr"/></l><r>жөнінде<s n="post"/></r></p></e>
+<e><p><l>regarding<s n="pr"/></l><r>туралы<s n="post"/></r></p></e>
+<e><p><l>according<s n="pr"/></l><r>сәйкес<s n="post"/></r></p></e>
+<e><p><l>concerning<s n="pr"/></l><r>туралы<s n="post"/></r></p></e>
+<e><p><l>during<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e><p><l>among<s n="pr"/></l><r>ара<s n="n"/><s n="px3sp"/><s n="loc"/></r></p></e>
 <e><p><l>into<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 
 <e><p><l>over<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="ins"/></r></p></e>
 <e><p><l>over<s n="pr"/></l><r>арт<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>over<s n="pr"/></l><r>әрі<s n="post"/></r></p></e>
-<e><p><l>against<s n="pr"/></l><r>қарсы<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e><p><l>against<s n="pr"/></l><r>қарсы<s n="post"/></r></p></e>
 
 
     <!-- MLF 20120702 The following postpositions use ablative case -->
-    <e><p><l>after<s n="pr"/></l><r>кейін<s n="post"/><s n="Rabl"/></r></p></e>
+    <e><p><l>after<s n="pr"/></l><r>кейін<s n="post"/></r></p></e>
     <e><p><l>since<s n="pr"/></l><r>бері<s n="post"/><s n="Rabl"/></r></p></e>
 
     <!-- MLF 20120702 The following postpositions use dative case -->
@@ -1322,7 +1322,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>baggage<s n="n"/></l><r>жүк<s n="n"/></r></p></e>
     <e><p><l>bag<s n="n"/></l><r>қап<s n="n"/></r></p></e>
     <e><p><l>bark<s n="n"/></l><r>қабык<s n="n"/></r></p></e>
-    <e><p><l>beat<s n="n"/></l><r>соғ<s n="n"/></r></p></e>
+    <e><p><l>beat<s n="n"/></l><r>соқ<s n="n"/></r></p></e>
     <e><p><l>beetroot<s n="n"/></l><r>қызылша<s n="n"/></r></p></e>
     <e><p><l>beet<s n="n"/></l><r>қызылша<s n="n"/></r></p></e>
     <e><p><l>biscuit<s n="n"/></l><r>печенье<s n="n"/></r></p></e>
@@ -1531,7 +1531,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>keeper<s n="n"/></l><r>бақылаушы<s n="n"/></r></p></e>
     <e><p><l>khan<s n="n"/></l><r>хан<s n="n"/></r></p></e>
     <e><p><l>kid<s n="n"/></l><r>лақ<s n="n"/></r></p></e>
-    <e><p><l>knock<s n="n"/></l><r>соғ<s n="n"/></r></p></e>
+    <e><p><l>knock<s n="n"/></l><r>соқ<s n="n"/></r></p></e>
     <e><p><l>Kyrgyz<s n="n"/></l><r>қырғыз<s n="n"/></r></p></e>
     <e><p><l>labour<s n="n"/></l><r>еңбек<s n="n"/></r></p></e>
     <e><p><l>lacquer<s n="n"/></l><r>лақ<s n="n"/></r></p></e>
@@ -2030,7 +2030,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>rainstorm<s n="n"/></l><r>нөсер<s n="n"/></r></p></e>
 <e><p><l>scarf<s n="n"/></l><r>бөкебай<s n="n"/></r></p></e>
 <e><p><l>stream<s n="n"/></l><r>тасқын<s n="n"/></r></p></e>
-<e><p><l>toothpaste<s n="n"/></l><r>тістің<s n="n"/></r></p></e>
+<e><p><l>toothpaste<s n="n"/></l><r>тіс<b/>паста<s n="n"/></r></p></e>
 <e><p><l>twig<s n="n"/></l><r>шыбық<s n="n"/></r></p></e>
 <e><p><l>volleyball<s n="n"/></l><r>волейбол<s n="n"/></r></p></e>
 <e><p><l>wood<s n="n"/></l><r>сүрек<s n="n"/></r></p></e>
@@ -3091,7 +3091,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>aircraft<s n="n"/></l><r>авиация<s n="n"/></r></p></e>
 <e><p><l>grant<s n="n"/></l><r>грант<s n="n"/></r></p></e>
 <e><p><l>northeast<s n="n"/></l><r>солтүстік-шығыс<s n="n"/></r></p></e>
-<e><p><l>northwest<s n="n"/></l><r>солтүстіктің-батыс<s n="n"/></r></p></e>
+<e><p><l>northwest<s n="n"/></l><r>солтүстік-батыс<s n="n"/></r></p></e>
 <e><p><l>southwest<s n="n"/></l><r>оңтүстік-батыс<s n="n"/></r></p></e>
 <e><p><l>trust<s n="n"/></l><r>сенім<s n="n"/></r></p></e>
 <e><p><l>jay<s n="n"/></l><r>жорғаторғай<s n="n"/></r></p></e>
@@ -3240,7 +3240,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>fishing<s n="n"/></l><r>балық<b/>аулау<s n="n"/></r></p></e>
 <e><p><l>clothing<s n="n"/></l><r>киім<s n="n"/></r></p></e>
 <e><p><l>programming<s n="n"/></l><r>программалау<s n="n"/></r></p></e>
-<e><p><l>farming<s n="n"/></l><r>ауыл<b/>шаруашылығы<s n="n"/></r></p></e>
+<e><p><l>farming<s n="n"/></l><r>ауыл<b/>шаруашылық<s n="n"/></r></p></e>
 <e><p><l>forming<s n="n"/></l><r>қалпылау<s n="n"/></r></p></e>
 <e><p><l>shopping<s n="n"/></l><r>сатып<b/>алу<s n="n"/></r></p></e>
 <e><p><l>engineering<s n="n"/></l><r>ғимарат<s n="n"/></r></p></e>
@@ -4968,7 +4968,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>quickly<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
  <e><p><l>fast<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
     <e><p><l>more<b/>and<b/>more<s n="adv"/></l><r>көбірек<s n="adv"/></r></p></e>
-    <e><p><l>most<s n="adv"/></l><r>көбісі<s n="n"/></r></p></e>
+    <e><p><l>most<s n="adv"/></l><r>ең<s n="adv"/></r></p></e>
 <e><p><l>quick<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
 <e><p><l>quite<s n="adv"/></l><r>жеткілікті<s n="adv"/></r></p></e>
     <e><p><l>never<s n="adv"/></l><r>ешқашан<s n="adv"/></r></p></e> <!-- with or without space ? -->

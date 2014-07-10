@@ -82,6 +82,7 @@
       <attr-item tags="itg"/>
       <attr-item tags="ind"/>
       <attr-item tags="qnt"/>
+      <attr-item tags="recip"/>
     </def-attr>
 
 <def-attr n="a_post">
@@ -674,7 +675,14 @@
         </choose>
         <choose>
           <when>
-            <test><equal><clip pos="1" side="sl" part="poss"/><lit-tag v="PXD"/></equal></test>
+            <test>
+<and>
+<equal><clip pos="1" side="sl" part="poss"/><lit-tag v="PXD"/></equal>
+           <not><equal><clip pos="1" side="sl" part="pron"/><lit-tag v="recip"/></equal></not>
+
+</and>
+</test>
+
             <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
           </when>
         </choose>
@@ -733,6 +741,13 @@
           <when>
             <test><equal><clip pos="1" side="sl" part="a_num"/><lit-tag v="ord"/></equal></test>
             <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
+<choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="pron"/><lit-tag v="recip"/></equal></test>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="acc"/></let>
+            <let><clip pos="1" side="tl" part="poss"/><lit-tag v="px3sp"/></let>
           </when>
         </choose>
 <choose>

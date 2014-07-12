@@ -686,7 +686,18 @@
             <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
           </when>
         </choose>
-    
+    <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_comp"/><lit-tag v="sup"/></equal></test>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
+<choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_comp"/><lit-tag v="sup"/></equal></test>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
    <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal></test>

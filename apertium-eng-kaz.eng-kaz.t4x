@@ -144,6 +144,8 @@
       <attr-item tags="abl"/>
       <attr-item tags="CD"/>
       <attr-item tags="Rnom"/>
+      <attr-item tags="Rdat"/>
+      <attr-item tags="Rabl"/>
     </def-attr>
 
 <def-attr n="a_num">
@@ -625,6 +627,17 @@
             <test><equal><clip pos="1" side="sl" part="adj_sint"/><lit-tag v="sint"/></equal></test>
             <let><clip pos="1" side="tl" part="adj_sint"/><lit v=""/></let>
           </when>
+        </choose>
+<choose>
+     <when>
+        <test>
+          <equal>
+             <clip pos="1" part="a_post" side="sl"/>
+             <lit-tag v="post"/>
+          </equal>
+        </test>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
+ </when>
         </choose>
 <choose>
           <when>

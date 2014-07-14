@@ -5031,11 +5031,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Guy<s n="np"/><s n="ant"/><s n="m"/></l><r>Гай<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Alberto<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Альберто<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Anatoly<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Анатолий<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>Angela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Анжела<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
-<e><p><l>Anuar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ануар<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Angela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ангела<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Anuar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Әнуар<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
 
-
+<e><p><l>Ahmadinejad<s n="np"/><s n="cog"/></l><r>Ахмединежад<s n="np"/><s n="cog"/></r></p></e>
   <e><p><l>Nazarbayev<s n="np"/><s n="cog"/></l><r>Назарбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
   <e><p><l>Gorbachev<s n="np"/><s n="cog"/></l><r>Горбачев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
  <e><p><l>Kostunica<s n="np"/><s n="cog"/><s n="sg"/></l><r>Костуника<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

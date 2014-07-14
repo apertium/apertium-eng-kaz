@@ -274,6 +274,9 @@ cat texts/movie.eng.txt  | apertium -d . eng-kaz > /tmp/movie.eng-kaz.txt
 cat texts/business_movie.eng.txt  | apertium -d . eng-kaz > /tmp/business_movie.eng-kaz.txt
 ../apertium-eval-translator/apertium-eval-translator.pl -t /tmp/business_movie.eng-kaz.txt -r texts/business_movie.kaz.txt
 
+cat ../akorda/akorda.true.en |apertium -d. eng-kaz > translatedVersion.txt
+../apertium-eval-translator/apertium-eval-translator.pl -t translatedVersion.txt -r ../akorda/akorda.true.kz 
+
 
 echo "gets all of the money that will be needed to pay for the actors and the equipment. " | apertium -d. eng-kaz
 

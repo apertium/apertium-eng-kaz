@@ -4456,7 +4456,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>tonne<s n="n"/></l><r>тонна<s n="n"/></r></p></e>
 <e><p><l>tragedy<s n="n"/></l><r>зұлмат<s n="n"/></r></p></e>
 <e><p><l>turnover<s n="n"/></l><r>айланыс<s n="n"/></r></p></e>
-<e><p><l>USSR<s n="n"/></l><r>СССР<s n="n"/></r></p></e>
+<e><p><l>USSR<s n="n"/><s n="acr"/></l><r>КСРО<s n="abbr"/></r></p></e>
 <e><p><l>utilisation<s n="n"/></l><r>игерушілік<s n="n"/></r></p></e>
 <e><p><l>vector<s n="n"/></l><r>бағыттауыш<s n="n"/></r></p></e>
 
@@ -7039,6 +7039,61 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>valuable<s n="adj"/></l><r>құнды<s n="adj"/></r></p></e>
 <e><p><l>vital<s n="adj"/></l><r>өмірлік<s n="adj"/></r></p></e>
 <e><p><l>vocational<s n="adj"/></l><r>кәсіби<s n="adj"/></r></p></e>
+<e><p><l>ecuadorian<s n="adj"/></l><r>эквадориялық<s n="adj"/></r></p></e>
+<e><p><l>fraternal<s n="adj"/></l><r>туысқандық<s n="adj"/></r></p></e>
+<e><p><l>indonesian<s n="adj"/></l><r>индонезиялық<s n="adj"/></r></p></e>
+<e><p><l>informational<s n="adj"/></l><r>ақпараттық<s n="adj"/></r></p></e>
+<e><p><l>innovative<s n="adj"/></l><r>инновациялық<s n="adj"/></r></p></e>
+<e><p><l>insuperable<s n="adj"/></l><r>еңсерілмес<s n="adj"/></r></p></e>
+<e><p><l>intense<s n="adj"/></l><r>жіті<s n="adj"/></r></p></e>
+<e><p><l>interim<s n="adj"/></l><r>уақытылы<s n="adj"/></r></p></e>
+<e><p><l>latent<s n="adj"/></l><r>жасырын<s n="adj"/></r></p></e>
+<e><p><l>malaysian<s n="adj"/></l><r>малазийлік<s n="adj"/></r></p></e>
+<e><p><l>managerial<s n="adj"/></l><r>директорлық<s n="adj"/></r></p></e>
+<e><p><l>mandatory<s n="adj"/></l><r>тындырымды<s n="adj"/></r></p></e>
+<e><p><l>mathematical<s n="adj"/></l><r>математикалық<s n="adj"/></r></p></e>
+<e><p><l>metallurgical<s n="adj"/></l><r>металлургиялық<s n="adj"/></r></p></e>
+<e><p><l>monetary<s n="adj"/></l><r>ақшалық<s n="adj"/></r></p></e>
+<e><p><l>monthly<s n="adj"/></l><r>айлық<s n="adj"/></r></p></e>
+<e><p><l>nominal<s n="adj"/></l><r>номинальді<s n="adj"/></r></p></e>
+<e><p><l>observable<s n="adj"/></l><r>белгілі<s n="adj"/></r></p></e>
+<e><p><l>onomastic<s n="adj"/></l><r>oномастикалық<s n="adj"/></r></p></e>
+<e><p><l>operatic<s n="adj"/></l><r>опералық<s n="adj"/></r></p></e>
+<e><p><l>optical<s n="adj"/></l><r>оптикалық<s n="adj"/></r></p></e>
+<e><p><l>organisational<s n="adj"/></l><r>ұйымдық<s n="adj"/></r></p></e>
+<e><p><l>paramount<s n="adj"/></l><r>басты<s n="adj"/></r></p></e>
+<e><p><l>patriotic<s n="adj"/></l><r>отаншылдық<s n="adj"/></r></p></e>
+<e><p><l>petty<s n="adj"/><s n="sint"/></l><r>аз<s n="adj"/></r></p></e>
+<e><p><l>plenipotentiary<s n="adj"/></l><r>өкілетті<s n="adj"/></r></p></e>
+<e><p><l>predominant<s n="adj"/></l><r>басымды<s n="adj"/></r></p></e>
+<e><p><l>priceless<s n="adj"/></l><r>бағасыз<s n="adj"/></r></p></e>
+<e><p><l>prosperous<s n="adj"/></l><r>қадамды<s n="adj"/></r></p></e>
+<e><p><l>raw<s n="adj"/><s n="sint"/></l><r>шикі<s n="adj"/></r></p></e>
+<e><p><l>remarkable<s n="adj"/></l><r>керемет<s n="adj"/></r></p></e>
+<e><p><l>rigorous<s n="adj"/></l><r>жауыз<s n="adj"/></r></p></e>
+<e><p><l>ripe<s n="adj"/></l><r>есейген<s n="adj"/></r></p></e>
+<e><p><l>ruthless<s n="adj"/></l><r>рақымсыз<s n="adj"/></r></p></e>
+<e><p><l>sacred<s n="adj"/></l><r>киелі<s n="adj"/></r></p></e>
+<e><p><l>sincere<s n="adj"/><s n="sint"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>situational<s n="adj"/></l><r>жағдайлық<s n="adj"/></r></p></e>
+<e><p><l>skilled<s n="adj"/></l><r>білікті<s n="adj"/></r></p></e>
+<e><p><l>socioeconomic<s n="adj"/></l><r>әлеуметтік-экономикалық<s n="adj"/></r></p></e>
+<e><p><l>solemn<s n="adj"/></l><r>мерекелік<s n="adj"/></r></p></e>
+<e><p><l>sunny<s n="adj"/><s n="sint"/></l><r>шуақты<s n="adj"/></r></p></e>
+<e><p><l>symphonic<s n="adj"/></l><r>симфониялық<s n="adj"/></r></p></e>
+<e><p><l>systematic<s n="adj"/></l><r>жүйелік<s n="adj"/></r></p></e>
+<e><p><l>tangible<s n="adj"/></l><r>сезінетін<s n="adj"/></r></p></e>
+<e><p><l>technological<s n="adj"/></l><r>технологиялық<s n="adj"/></r></p></e>
+<e><p><l>thoughtless<s n="adj"/></l><r>жайбарақат<s n="adj"/></r></p></e>
+<e><p><l>thriving<s n="adj"/></l><r>көркейетін<s n="adj"/></r></p></e>
+<e><p><l>timely<s n="adj"/></l><r>уақтылы<s n="adj"/></r></p></e>
+<e><p><l>tragic<s n="adj"/></l><r>трагедиялық<s n="adj"/></r></p></e>
+<e><p><l>transnational<s n="adj"/></l><r>ұлтаралық<s n="adj"/></r></p></e>
+<e><p><l>transparent<s n="adj"/></l><r>мөлдір<s n="adj"/></r></p></e>
+<e><p><l>unexpected<s n="adj"/></l><r>күтпеген<s n="adj"/></r></p></e>
+<e><p><l>vivid<s n="adj"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>wise<s n="adj"/><s n="sint"/></l><r>дана<s n="adj"/></r></p></e>
+<e><p><l>worthy<s n="adj"/></l><r>абзал<s n="adj"/></r></p></e>
 
 <!-- Order numbers-->
  <e><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>бір<s n="num"/><s n="ord"/></r></p></e> 

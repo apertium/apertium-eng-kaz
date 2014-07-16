@@ -11315,7 +11315,40 @@ this would have to be changed -->
 </rule>
 
 
-
+<!-- rule for "Ol" as "bul"-->
+<rule comment="NEW RULE: subj-pron-it">
+  <pattern>
+    <pattern-item n="it-pron"/>
+  </pattern>
+  <action>
+<!--<call-macro n="change-case">   change case  "I"
+<with-param pos="1"/>
+  </call-macro> -->
+         <let><var n="number"/><lit-tag v="sg"/></let> <!-- choosing singular in the absence of information -->
+   
+    <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
+  <out>
+   <chunk name="it-pron" case="caseFirstWord">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><var n="number"/></tag>
+    <tag><clip pos="1" side="sl" part="a_pers"/></tag> <!-- Formality 2nd will be set in .t4x -->
+    <tag><lit-tag v="PXD"/></tag>
+    <tag><lit-tag v="CD"/></tag>
+     
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_pron"/>
+      <lit-tag v="3"/> <!-- number -->
+      <lit-tag v="2"/> <!-- number -->
+      <lit-tag v="4"/> <!-- possession -->
+      <lit-tag v="5"/> <!-- case -->
+    </lu>
+  </chunk>
+  </out>
+ </action>
+</rule>
 
 <rule comment="RULE: obj-pron">
   <pattern>
@@ -11562,40 +11595,7 @@ this would have to be changed -->
  
 
 
-<!-- rule for "Ol" as "bul"-->
-<rule comment="NEW RULE: subj-pron-it">
-  <pattern>
-    <pattern-item n="it-pron"/>
-  </pattern>
-  <action>
-<!--<call-macro n="change-case">   change case  "I"
-<with-param pos="1"/>
-  </call-macro> -->
-         <let><var n="number"/><lit-tag v="sg"/></let> <!-- choosing singular in the absence of information -->
-   
-    <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
-  <out>
-   <chunk name="it-pron" case="caseFirstWord">
-    <tags>
-    <tag><lit-tag v="NP"/></tag>
-    <tag><var n="number"/></tag>
-    <tag><clip pos="1" side="sl" part="a_pers"/></tag> <!-- Formality 2nd will be set in .t4x -->
-    <tag><lit-tag v="PXD"/></tag>
-    <tag><lit-tag v="CD"/></tag>
-     
-    </tags>
-    <lu>
-      <clip pos="1" side="tl" part="lem"/>
-      <clip pos="1" side="tl" part="a_pron"/>
-      <lit-tag v="3"/> <!-- number -->
-      <lit-tag v="2"/> <!-- number -->
-      <lit-tag v="4"/> <!-- possession -->
-      <lit-tag v="5"/> <!-- case -->
-    </lu>
-  </chunk>
-  </out>
- </action>
-</rule>
+
 
 
 

@@ -4267,11 +4267,14 @@
        <tag><lit-tag v="VPQ"/></tag>
        <tag> <var n="tense"/>  </tag>
       </tags>
-      <lu>
-     <!-- <lit v="ма"/>
-      <lit-tag v="qst"/>-->
+      <!-- <lu>
+     <lit v="ма"/>
+      <lit-tag v="qst"/>
        <lit-tag v="2"/> 
-       </lu>
+ </lu>
+-->
+<b/>
+      
      </chunk>
 </out> 
  

@@ -5932,8 +5932,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>industrial<s n="adj"/></l><r>индустриялық<s n="adj"/></r></p></e>
 <e><p><l>potential<s n="adj"/></l><r>әлует<s n="adj"/></r></p></e>
 <e><p><l>American<s n="adj"/></l><r>Американдық<s n="adj"/></r></p></e>
-<e><p><l>Asian<s n="adj"/></l><r>Азиялық<s n="adj"/></r></p></e>
-<e><p><l>asian<s n="adj"/></l><r>aзиялық<s n="adj"/></r></p></e>
+<e><p><l>Asian<s n="adj"/></l><r>азиялық<s n="adj"/></r></p></e>
 <e><p><l>revised<s n="adj"/></l><r>жөндеулі<s n="adj"/></r></p></e>
 <e><p><l>last<s n="adj"/></l><r>ақырғы<b/>рет<s n="adj"/></r></p></e>
 <e><p><l>Central<s n="adj"/></l><r>Орталық<s n="adj"/></r></p></e>
@@ -5977,7 +5976,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e><p><l>specific<s n="adj"/></l><r>өзгеше<s n="adj"/></r></p></e>
 <e><p><l>strategic<s n="adj"/></l><r>стратегиялық<s n="adj"/></r></p></e>
-<e><p><l>islamic<s n="adj"/></l><r>исламдық<s n="adj"/></r></p></e>
+<e><p><l>islamic<s n="adj"/></l><r>исламшыл<s n="adj"/></r></p></e>
 <e><p><l>olympic<s n="adj"/></l><r>олимпиадалық<s n="adj"/></r></p></e>
 <e><p><l>adriatic<s n="adj"/></l><r>адриатикалық<s n="adj"/></r></p></e>
 <e><p><l>diplomatic<s n="adj"/></l><r>мәмілегерлі<s n="adj"/></r></p></e>
@@ -6199,7 +6198,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>missing<s n="adj"/></l><r>болмаған<s n="adj"/></r></p></e>
 <e><p><l>resulting<s n="adj"/></l><r>нәтижелі<s n="adj"/></r></p></e>
 <e><p><l>wrong<s n="adj"/></l><r>қателі<s n="adj"/></r></p></e>
-<e><p><l>dutch<s n="adj"/></l><r>голландиялық <s n="adj"/></r></p></e>
+<e><p><l>dutch<s n="adj"/></l><r>голландиялық<s n="adj"/></r></p></e>
 <e><p><l>swedish<s n="adj"/></l><r>шведтік<s n="adj"/></r></p></e>
 <e><p><l>danish<s n="adj"/></l><r>даниялық<s n="adj"/></r></p></e>
 <e><p><l>spanish<s n="adj"/></l><r>испаниялық<s n="adj"/></r></p></e>
@@ -6294,7 +6293,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>iranian<s n="adj"/></l><r>ирандық<s n="adj"/></r></p></e>
 <e><p><l>ukrainian<s n="adj"/></l><r>украиндық<s n="adj"/></r></p></e>
 <e><p><l>hungarian<s n="adj"/></l><r>венгрлік<s n="adj"/></r></p></e>
-<e><p><l>victorian<s n="adj"/></l><r>викторияндық<s n="adj"/></r></p></e>
+<e><p><l>victorian<s n="adj"/></l><r>викториандық<s n="adj"/></r></p></e>
 <e><p><l>austrian<s n="adj"/></l><r>аустриялық<s n="adj"/></r></p></e>
 <e><p><l>egyptian<s n="adj"/></l><r>мысырлық<s n="adj"/></r></p></e>
 <e><p><l>christian<s n="adj"/></l><r>христиандық<s n="adj"/></r></p></e>
@@ -6359,7 +6358,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>contemporary<s n="adj"/></l><r>замандас<s n="adj"/></r></p></e>
 <e><p><l>elementary<s n="adj"/></l><r>элементарлық<s n="adj"/></r></p></e>
 <e><p><l>documentary<s n="adj"/></l><r>деректі<s n="adj"/></r></p></e>
-<e><p><l>mine<s n="adj"/><s n="pos"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="px"/></r></p></e>
+<e><p><l>mine<s n="adj"/><s n="pos"/></l><r>миналық<s n="adj"/></r></p></e>
 <e><p><l>pay<s n="adj"/><s n="sint"/></l><r>ақылы<s n="adj"/></r></p></e>
 <e><p><l>broad<s n="adj"/><s n="sint"/></l><r>жаядай<s n="adj"/></r></p></e>
 <e><p><l>wild<s n="adj"/><s n="sint"/></l><r>жабайы<s n="adj"/></r></p></e>
@@ -7071,7 +7070,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>intense<s n="adj"/></l><r>жіті<s n="adj"/></r></p></e>
 <e><p><l>interim<s n="adj"/></l><r>уақытылы<s n="adj"/></r></p></e>
 <e><p><l>latent<s n="adj"/></l><r>жасырын<s n="adj"/></r></p></e>
-<e><p><l>malaysian<s n="adj"/></l><r>малазийлік<s n="adj"/></r></p></e>
+<e><p><l>malaysian<s n="adj"/></l><r>малайзийлік<s n="adj"/></r></p></e>
 <e><p><l>managerial<s n="adj"/></l><r>директорлық<s n="adj"/></r></p></e>
 <e><p><l>mandatory<s n="adj"/></l><r>тындырымды<s n="adj"/></r></p></e>
 <e><p><l>mathematical<s n="adj"/></l><r>математикалық<s n="adj"/></r></p></e>

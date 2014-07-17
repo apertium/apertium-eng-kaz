@@ -119,7 +119,7 @@
 
     <e r="RL"><p><l></l><r>ма<s n="qst"/></r></p></e>
     <e r="RL"><p><l>and<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
-    <e r="RL"><p><l>be<s n="vbser"/></l><r>е<s n="cop"/></r></p></e>
+  <!--  <e r="RL"><p><l>be<s n="vbser"/></l><r>е<s n="cop"/></r></p></e>-->
  
 <e><p><l>the<b/>same<s n="det"/><s n="ind"/></l><r>бірдей<s n="adj"/></r></p></e>
 <e r="LR"><p><l>the<b/>most<s n="det"/><s n="qnt"/><s n="sp"/></l><r></r></p></e>
@@ -7274,10 +7274,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e r="RL"><p><l></l><r>тұр<s n="vaux"/></r></p></e>
     <e r="RL"><p><l></l><r>отыр<s n="vaux"/></r></p></e>
     <e r="RL"><p><l></l><r>бол<s n="vaux"/></r></p></e>
-    <e r="RL"><p><l>be<s n="vbser"/></l><r>бол<s n="vaux"/></r></p></e>
+    <e r="RL"><p><l></l><r>бол<s n="vaux"/></r></p></e>
 
-    <e r="LR"><p><l>be<s n="vbser"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>be<s n="vblex"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
+    <e r="LR"><p><l>be<s n="vbser"/></l><r></r></p></e>
+
 
 
 <e><p><l>ask<s n="vblex"/></l><r>сұра<s n="v"/><s n="tv"/></r></p></e>

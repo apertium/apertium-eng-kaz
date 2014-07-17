@@ -23,6 +23,12 @@
        <cat-item lemma="е" tags="cop.p1.pl"/>
         <cat-item lemma="e" tags="cop.p2.pl"/>
        <cat-item lemma="е" tags="cop.p3.pl"/>
+    <cat-item lemma="е" tags="cop.past.p1.sg"/>
+       <cat-item lemma="е" tags="cop.past.p2.sg"/>
+       <cat-item lemma="е" tags="cop.past.p3.sg"/>
+       <cat-item lemma="е" tags="cop.past.p1.pl"/>
+        <cat-item lemma="e" tags="cop.past.p2.pl"/>
+       <cat-item lemma="е" tags="cop.past.p3.pl"/>
     </def-cat>
 
   <def-cat n="qst">
@@ -464,6 +470,12 @@
           <when>
             <test><equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal></test>
             <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+          </when>
+        </choose>
+  <choose>
+          <when>
+            <test><equal><clip pos="2" side="sl" part="tense"/><lit-tag v="past"/></equal></test>
+            <let><clip pos="2" side="tl" part="tense"/><lit v=""/></let>
           </when>
         </choose>
   <choose>

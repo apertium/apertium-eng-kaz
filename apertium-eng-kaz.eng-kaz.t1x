@@ -9,7 +9,8 @@
       <cat-item tags="vblex.past"/>
     </def-cat>   
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
-      <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->      <cat-item lemma="be" tags="vbser.inf"/>
+      <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->      
+
 
       <cat-item tags="vbmod.ger"/>
     </def-cat>
@@ -80,7 +81,6 @@
 
  <def-cat n="NP_verb-ing"> <!-- for ger like NP, I like playing-->
       <cat-item tags="vblex.ger"/>
-      <cat-item tags="vbser.ger"/>
    </def-cat>   
 
 <def-cat n="subs-ing"> <!-- for ger like NP, I like playing-->
@@ -90,7 +90,7 @@
    </def-cat> 
 <def-cat n="verb-pp"> <!-- present perfect tense -->
       <cat-item tags="vblex.pp"/>
-<cat-item tags="vbser.pp"/>
+
 <cat-item tags="vbhaver.pp"/>
 <cat-item tags="vblex.sep.pp"/>
 <cat-item tags="vblex.sep.inf"/>
@@ -158,7 +158,11 @@
 
 <def-cat n="be"> <!-- needed? -->
  <cat-item lemma="be" tags="vbser.inf"/>
-</def-cat>     
+</def-cat>  
+
+<def-cat n="be-vblex"> <!-- needed? -->
+ <cat-item lemma="be" tags="vbser.*"/>
+</def-cat>    
  <def-cat n="noun">
        <cat-item tags="n.*"/>
       <cat-item tags="np.al"/>
@@ -311,6 +315,7 @@
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
       <attr-item tags="inf"/>
+      <attr-item tags="pp"/>
     </def-attr> 
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -2346,6 +2351,7 @@
 <lu>
          <lit v="е"/>
         <lit-tag v="cop"/>
+<lit-tag v="past"/>
         <lit-tag v="3"/>
          <lit-tag v="2"/>
        </lu>
@@ -3867,11 +3873,12 @@
        <tag><lit-tag v="VPQ"/></tag>
        <tag> <var n="tense"/>  </tag>
       </tags>
-      <lu>
-   <!--  <lit v="ма"/>
-      <lit-tag v="qst"/>-->
+    <!--   <lu>
+    <lit v="ма"/>
+      <lit-tag v="qst"/>
        <lit-tag v="2"/> 
-       </lu>
+       </lu>-->
+<b/>
      </chunk>
 </out> 
   </action>
@@ -12443,13 +12450,71 @@ this would have to be changed -->
 
 <rule comment="NEW RULE: be"> 
   <pattern>
-    <pattern-item n="be"/>
+    <pattern-item n="be-vblex"/>
   </pattern>
   <action>
-     <let><var n="tense"/><lit-tag v="aor"/></let> 
-      <call-macro n="NEW-gen-simple-verb">
-         <with-param pos="1"/> 
-     </call-macro>
+<choose>
+  <when>
+        <test>
+
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="inf"/>
+          </equal>
+
+        </test>
+        <let><var n="tense"/><lit-tag v="aor"/></let> 
+</when>
+  <when>
+        <test>
+
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pp"/>
+          </equal>
+
+        </test>
+        <let><var n="tense"/><lit-tag v="past"/></let> 
+</when>
+  <when>
+        <test>
+
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="ger"/>
+          </equal>
+
+        </test>
+        <let><var n="tense"/><lit-tag v="ger"/></let> 
+</when>
+<otherwise>
+     <let><var n="tense"/><lit-tag v="aor"/></let>
+</otherwise>
+</choose>
+     <out>
+      <chunk name="be-verb">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag><!-- negative -->
+        <tag><lit-tag v="CD"/></tag> 
+      </tags>
+        <lu>
+
+          <lit v="бол"/>
+          <lit-tag v="vaux"/>
+          <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+        </out>
  
   </action>
 </rule>

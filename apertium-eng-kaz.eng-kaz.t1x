@@ -11,8 +11,6 @@
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->      
 
-
-      <cat-item tags="vbmod.ger"/>
     </def-cat>
   <def-cat n="inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
@@ -54,6 +52,19 @@
       <cat-item lemma="'s" tags="gen"/>
     </def-cat>
 
+<def-cat n="vbmod"> <!-- have -->
+      <cat-item lemma="have# to" tags="vbmod.*"/>
+      <cat-item lemma="want# to" tags="vbmod.*"/>
+      <cat-item lemma="need# to" tags="vbmod.*"/>
+      <cat-item lemma="can" tags="vaux.*"/>
+      <cat-item lemma="should" tags="vaux.inf"/>
+      <cat-item lemma="shall" tags="vaux.inf"/>
+      <cat-item lemma="must" tags="vaux.inf"/>
+      <cat-item lemma="might" tags="vaux.inf"/>
+      <cat-item lemma="may" tags="vaux.inf"/>
+      <cat-item lemma="would" tags="vaux.past"/>
+      <cat-item lemma="will" tags="vaux.inf"/>
+    </def-cat>
 
  <def-cat n="vaux-can"> 
       <cat-item lemma="can" tags="vaux.pres"/>
@@ -2351,7 +2362,7 @@
 <lu>
          <lit v="е"/>
         <lit-tag v="cop"/>
-<lit-tag v="past"/>
+       <lit-tag v="past"/>
         <lit-tag v="3"/>
          <lit-tag v="2"/>
        </lu>
@@ -12839,11 +12850,27 @@ this would have to be changed -->
     <lu>
      <lit v="үшін"/>
          <lit-tag v="post"/>
-
     </lu>
       </chunk>
 </out>
   </action>
+</rule>
+
+
+<rule comment="NEW RULE: vbmod-s"> <!--for cleaning # with want to, have to, need to -->
+  <pattern>
+    <pattern-item n="vbmod"/>
+  </pattern>
+<action>
+        <out>
+      <chunk name="VP_vbmod">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+          </tags>
+       <b/>
+      </chunk>
+        </out>
+      </action>
 </rule>
 
   </section-rules>

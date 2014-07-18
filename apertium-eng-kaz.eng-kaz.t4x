@@ -818,12 +818,7 @@
             <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
           </when>
         </choose>
-<choose>
-          <when>
-            <test><equal><clip pos="1" side="sl" part="unknown"/><lit-tag v=""/></equal></test>
-            <let><clip pos="1" side="tl" part="tense"/><lit v=""/></let>
-          </when>
-        </choose>
+
 
        <out>
           <lu>

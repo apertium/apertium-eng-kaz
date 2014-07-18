@@ -384,10 +384,12 @@
       <attr-item tags="prn.neg"/>
  <attr-item tags="prn.ind"/>
    <attr-item tags="prn.dem.*"/>
+      <attr-item tags="prn.ref.p3"/>
 
  <attr-item tags="prn.dem"/>
  <attr-item tags="prn.itg"/>
 <attr-item tags="prn.qnt"/>
+<attr-item tags="prn.qnt.px3sp"/>
       <attr-item tags="prn.qnt.*"/>
       <attr-item tags="prn.ind"/>
  <attr-item tags="prn.*"/> 
@@ -11473,7 +11475,6 @@ this would have to be changed -->
     <tag><var n="number"/></tag>
     <tag><var n="subj-pron_lu"/></tag> <!-- Formality 2nd will be set in .t4x -->
     <tag><var n="possessive"/></tag>
-    <tag><lit-tag v="CD"/></tag>
      
     </tags>
     <lu>

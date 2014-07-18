@@ -135,7 +135,7 @@
    
  <e r="LR"><p><l>that<s n="cnjsub"/></l><r></r></p></e>
     <e><p><l>each<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>әр<s n="prn"/><s n="ind"/></r></p></e>
- <e><p><l>most<s n="prn"/><s n="tn"/><s n="mf"/></l><r>көбі<s n="prn"/><s n="qnt"/></r></p></e>
+ <e><p><l>most<s n="prn"/><s n="tn"/><s n="mf"/></l><r>көп<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
  <e><p><l>another<s n="prn"/><s n="tn"/><s n="m"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>another<s n="det"/><s n="ind"/></l><r>қайсыбір<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="det"/><s n="qnt"/></r></p></e>
@@ -7181,14 +7181,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>anything<s n="prn"/><s n="tn"/><s n="m"/></l><r>еш<b/>нәрсе<s n="prn"/><s n="neg"/></r></p></e>
  <e><p><l>much<s n="det"/><s n="qnt"/><s n="sg"/></l><r>көбірек<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>less<s n="det"/><s n="qnt"/><s n="sg"/></l><r>азырақ<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>itself<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
- <e><p><l>herself<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
-<e><p><l>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
+    <e><p><l>itself<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
+ <e><p><l>herself<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
+<e><p><l>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
 
 <e><p><l>anything<s n="prn"/><s n="tn"/><s n="m"/></l><r>бір<b/>нәрсе<s n="prn"/><s n="ind"/></r></p></e>
 
 <e><p><l>nothing<s n="prn"/><s n="tn"/><s n="m"/></l><r>ешнәрсе<s n="prn"/><s n="neg"/></r></p></e>
-    <e><p><l>both<s n="prn"/><s n="tn"/><s n="mf"/></l><r>екеу<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>both<s n="prn"/><s n="tn"/><s n="mf"/></l><r>екеу<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
     <e><p><l>both<s n="cnjcoo"/></l><r>екеуі<s n="cnjcoo"/></r></p></e>
  <e><p><l>nobody<s n="prn"/><s n="tn"/><s n="m"/></l><r>ешкім<s n="prn"/><s n="neg"/></r></p></e>
  <e><p><l>no<b/>one<s n="prn"/><s n="tn"/><s n="m"/></l><r>ешкім<s n="prn"/><s n="neg"/></r></p></e>
@@ -7196,14 +7196,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>several<s n="det"/><s n="ind"/><s n="pl"/></l><r>бірқатар<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>various<s n="det"/><s n="ind"/><s n="pl"/></l><r>әр<b/>түрлі<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e><p><l>several<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>бірнеше<s n="prn"/><s n="qnt"/></r></p></e>
+    <e><p><l>several<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>бірқатар<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>others<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>басқалар<s n="prn"/><s n="ind"/><s n="pl"/></r></p></e>
-    <e><p><l>few<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>бірнеше<s n="prn"/><s n="qnt"/></r></p></e>
-    <e><p><l>few<s n="det"/><s n="qnt"/><s n="pl"/></l><r>бірнеше<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>few<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>бірқатар<s n="prn"/><s n="qnt"/></r></p></e>
+    <e><p><l>few<s n="det"/><s n="qnt"/><s n="pl"/></l><r>бірқатар<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>someone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>many<s n="det"/><s n="qnt"/><s n="pl"/></l><r>көптеген<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>anyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>everyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәрі<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
+    <e><p><l>everyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәр<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
 <e><p><l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>ешбір<s n="prn"/><s n="neg"/></r></p></e>
     <e><p><l>one<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
 
@@ -7219,7 +7219,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>any<s n="det"/><s n="ind"/><s n="sp"/></l><r>кейбір<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>whose<s n="rel"/><s n="aa"/><s n="mf"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="px"/></r></p></e>
     <e><p><l>whose<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="px"/></r></p></e>
-    <e><p><l>either<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>әр<s n="prn"/></r></p></e>
+    <e><p><l>either<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>әр<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>any<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>кей<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>whose<s n="det"/><s n="itg"/><s n="sp"/></l><r>кім<s n="det"/><s n="itg"/><s n="sp"/></r></p></e>
 <!-- Changes MLF 20120710 to ease transfer of possessive determiners -->

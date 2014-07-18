@@ -89,6 +89,7 @@
 <def-attr n="pron">
       <attr-item tags="itg"/>
       <attr-item tags="ind"/>
+      <attr-item tags="ref"/>
       <attr-item tags="qnt"/>
       <attr-item tags="recip"/>
     </def-attr>
@@ -672,7 +673,7 @@
 </test>
 
             <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
-            <let><clip pos="1" side="tl" part="poss"/><lit-tag v="nom"/></let>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
           </when>
         </choose>
 <choose>
@@ -681,7 +682,7 @@
 		<equal><clip pos="1" side="sl" part="pron"/><lit-tag v="qnt"/></equal>
 </test>
 
-            <let><clip pos="1" side="tl" part="poss"/><lit-tag v="px3sp.nom"/></let>
+            <let><clip pos="1" side="tl" part="poss"/><lit-tag v="px3sp"/></let>
           </when>
         </choose>
 <choose>
@@ -698,10 +699,17 @@
                      <clip pos="1" side="sl" part="nbr"/>
                      <lit-tag v="ND"/>
                  </equal>
+<and>
                  <equal>
                      <clip pos="1" side="sl" part="nbr"/>
                      <lit-tag v="sg"/>
-                 </equal>          
+                 </equal>  
+<not>
+  <equal>
+                     <clip pos="1" side="sl" part="pron"/>
+                     <lit-tag v="ref"/>
+                 </equal> </not>
+</and>        
                </or>
              </test>
             <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
@@ -728,11 +736,21 @@
           </when>
         </choose>
 
+
    <choose>
           <when>
-            <test><equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal></test>
+<test>
+<and>
+<equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+           <not><equal><clip pos="1" side="sl" part="pron"/><lit-tag v="ref"/></equal></not>
+
+</and>
+            </test>
             <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
           </when>
+<otherwise>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+</otherwise>
         </choose>
         <choose>
           <when>

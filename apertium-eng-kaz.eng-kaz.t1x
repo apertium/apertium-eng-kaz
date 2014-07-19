@@ -263,6 +263,7 @@
     <def-cat n="obj-pron">
        <cat-item tags="prn.obj.*"/>
        <cat-item tags="prn.tn.*"/>
+       <cat-item tags="prn.pos.*"/>
        <cat-item tags="prn.subj.p3.nt.sg"/>
     </def-cat>
   <def-cat n="pron-neg">
@@ -341,6 +342,9 @@
     <def-attr n="a_adjec">
        <attr-item tags="adj"/>
     </def-attr>
+ <def-attr n="a_subst">
+       <attr-item tags="subst"/>
+    </def-attr>
      <def-attr n="a_num">
       <attr-item tags="num"/>
       <attr-item tags="num.ord"/>
@@ -389,10 +393,12 @@
  <attr-item tags="prn.dem"/>
  <attr-item tags="prn.itg"/>
 <attr-item tags="prn.qnt"/>
+<attr-item tags="prn.pos"/>
       <attr-item tags="prn.qnt.*"/>
       <attr-item tags="prn.ind"/>
  <attr-item tags="prn.*"/> 
       <attr-item tags="prn.pers"/>  
+      <attr-item tags="prn.pers.*.*.px"/>  
 </def-attr>
     <def-attr n="a_kaz_perspron"> 
       <attr-item tags="prn.pers"/>
@@ -467,7 +473,9 @@
     <def-var n="adjec_lu"/> <!-- adjective, ready for lu -->
 <def-var n="subj-pron_lu"/> <!-- complete noun in prep X rules, ready for lu -->
 <def-var n="obj-pron_lu"/>
+<def-var n="pos"/>
 <def-var n="pron_lu"/>
+<def-var n="comp_lu"/>
 <def-var n="num_lu"/>    
 <def-var n="noun_lu_with_poss"/> <!-- same, with possessive -->
     <def-var n="np-poss"/> <!-- possessive for noun_lu_with_poss -->
@@ -11392,6 +11400,20 @@ this would have to be changed -->
          </let>
        </otherwise>
   </choose>
+<choose>
+    <when>
+      <test>
+       <equal>
+         <clip pos="1" side="sl" part="a_pron"/>
+         <lit-tag v="prn.pos"/>
+       </equal>
+      </test>
+       <let><var n="pos"/><lit-tag v="px"/></let> <!-- choosing for менікі -->
+    </when>
+       <otherwise>
+          <let><var n="pos"/><lit v=""/></let> 
+       </otherwise>
+  </choose>
   <choose>
     <when>
      <test>  
@@ -11409,6 +11431,23 @@ this would have to be changed -->
 <choose>
     <when>
      <test>  
+<or>
+       <equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="both"/>
+       </equal>
+ <equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="most"/>
+       </equal>
+</or>
+     </test>
+     <let><var n="number"/><lit v=""/></let>
+    </when>
+      </choose>
+<choose>
+    <when>
+     <test>  
        <equal>
           <clip pos="1" side="sl" part="a_dem"/>
           <lit-tag v="dem"/>
@@ -11422,6 +11461,7 @@ this would have to be changed -->
   </choose>
 <choose>
     <when>
+
      <test>  
        <equal>
           <clip pos="1" side="sl" part="a_obj_pr"/>
@@ -11480,6 +11520,7 @@ this would have to be changed -->
       <clip pos="1" side="tl" part="a_pron"/>
       <clip pos="1" side="tl" part="a_pers"/>
       <lit-tag v="2"/> <!-- number -->
+ 	<var n="pos"/> 
       <lit-tag v="4"/> <!-- possession -->
      <var n="case"/> <!-- case --> 
     </lu>
@@ -11942,6 +11983,22 @@ this would have to be changed -->
     <pattern-item n="non-sup-adjec"/>
   </pattern>
   <action>
+<!--<choose>
+    <when>
+      <test>
+       <equal>
+         <clip pos="1" side="sl" part="a_adjec"/>
+         <lit-tag v="subst"/>
+       </equal>
+      </test>
+       <let><var n="comp_lu"/><lit v=""/></let> 
+    </when>
+       <otherwise>
+         <let>
+           <var n="comp_lu"/>       <lit-tag v="comp"/>
+         </let>
+       </otherwise>
+  </choose>-->
     <out>
     <chunk name="comp-adjec">
     <tags>
@@ -11952,7 +12009,7 @@ this would have to be changed -->
     <lu>
        <clip pos="2" part="lem" side="tl"/>
        <lit-tag v="adj"/>
-       <lit-tag v="comp"/>
+<var n="comp_lu"/>
          <lit-tag v="2"/> 
      </lu>
     </chunk>
@@ -11991,6 +12048,22 @@ this would have to be changed -->
     <pattern-item n="comp-adjec"/>
   </pattern>
   <action>
+<choose>
+    <when>
+      <test>
+       <equal>
+         <clip pos="1" side="sl" part="a_subst"/>
+         <lit-tag v="subst"/>
+       </equal>
+      </test>
+       <let><var n="comp_lu"/><lit v=""/></let> 
+    </when>
+       <otherwise>
+         <let>
+           <var n="comp_lu"/>       <lit-tag v="comp"/>
+         </let>
+       </otherwise>
+  </choose>
     <out>
     <chunk name="comp-adjec">
     <tags>
@@ -12000,7 +12073,7 @@ this would have to be changed -->
     <lu>
        <clip pos="1" part="lem" side="tl"/>
        <lit-tag v="adj"/>
-       <lit-tag v="comp"/>
+	<var n="comp_lu"/>
          
      </lu>
     </chunk>

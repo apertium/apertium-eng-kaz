@@ -83,8 +83,6 @@ REMOVE V-FIN IF (-1C V-FIN);  # Careful: would kill "The man who _came_ _wrote_ 
 
 SELECT (vblex pp) IF (-1 ("have"i)) ; 
 
-SELECT A IF (0 A) ; 
-
 REMOVE N IF (0 ("<is>"i)) ; 
 
 SELECT N IF (0 ("<sound>"i))(1 ("<to>"i))(2 ("<tell>"i)) ; 

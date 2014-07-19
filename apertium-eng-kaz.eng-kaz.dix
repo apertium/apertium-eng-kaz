@@ -135,7 +135,7 @@
    
  <e r="LR"><p><l>that<s n="cnjsub"/></l><r></r></p></e>
     <e><p><l>each<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>әр<s n="prn"/><s n="ind"/></r></p></e>
- <e><p><l>most<s n="prn"/><s n="tn"/><s n="mf"/></l><r>көп<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
+ <e><p><l>most<s n="prn"/><s n="tn"/><s n="mf"/></l><r>көбі<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
  <e><p><l>another<s n="prn"/><s n="tn"/><s n="m"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>another<s n="det"/><s n="ind"/></l><r>қайсыбір<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="det"/><s n="qnt"/></r></p></e>
@@ -5685,7 +5685,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>against<s n="adj"/><s n="sint"/></l><r>қарсы<s n="adj"/></r></p></e>
    <e><p><l>angry<s n="adj"/><s n="sint"/></l><r>ашуқор<s n="adj"/></r></p></e>
       <e><p><l>awake<s n="adj"/></l><r>сергек<s n="adj"/></r></p></e>
-     <e><p><l>dead<s n="adj"/></l><r>өлі<s n="adj"/></r></p></e>
+     <e><p><l>dead<s n="adj"/></l><r>өлі<s n="adj"/><s n="subst"/></r></p></e>
  <e><p><l>dear<s n="adj"/></l><r>құрметті<s n="adj"/></r></p></e>
 <e><p><l>deep<s n="adj"/><s n="sint"/></l><r>терең<s n="adj"/></r></p></e>
 <e><p><l>broken<s n="adj"/></l><r>сынған<s n="adj"/></r></p></e>
@@ -6627,7 +6627,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>cyrillic<s n="adj"/></l><r>кириллица<s n="adj"/></r></p></e>
 <e><p><l>dairy<s n="adj"/></l><r>сүтті<s n="adj"/></r></p></e>
 <e><p><l>damp<s n="adj"/><s n="sint"/></l><r>ылғалды<s n="adj"/></r></p></e>
-<e><p><l>deadly<s n="adj"/><s n="sint"/></l><r>өлі<s n="adj"/></r></p></e>
+<e><p><l>deadly<s n="adj"/><s n="sint"/></l><r>өлі<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>deadly<s n="adj"/><s n="sint"/><s n="comp"/></l><r>өлі<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>deadly<s n="adj"/><s n="sint"/><s n="sup"/></l><r>өлі<s n="adj"/></r></p></e>
 <e><p><l>deafening<s n="adj"/></l><r>құлақ<b/>тұндыратын<s n="adj"/></r></p></e>
 <e><p><l>deaf<s n="adj"/><s n="sint"/></l><r>мылқау<s n="adj"/></r></p></e>
@@ -7205,7 +7206,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>anyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>everyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәрі<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
 <e><p><l>none<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></l><r>ешбір<s n="prn"/><s n="neg"/></r></p></e>
-    <e><p><l>one<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>one<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
 
 
     <!-- interesting translation -->
@@ -7217,7 +7218,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>mine<s n="prn"/><s n="pos"/><s n="mf"/><s n="sp"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="px"/></r></p></e>
  <e><p><l>such<s n="det"/><s n="ind"/><s n="sp"/></l><r>сондай<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>any<s n="det"/><s n="ind"/><s n="sp"/></l><r>кейбір<s n="det"/><s n="ind"/></r></p></e>
-    <e><p><l>whose<s n="rel"/><s n="aa"/><s n="mf"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="px"/></r></p></e>
+    <e><p><l>whose<s n="rel"/><s n="aa"/><s n="mf"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="nom"/></r></p></e>
     <e><p><l>whose<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/><s n="px"/></r></p></e>
     <e><p><l>either<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>әр<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>any<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>кей<s n="prn"/><s n="ind"/></r></p></e>

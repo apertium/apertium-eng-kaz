@@ -583,7 +583,12 @@
 
         <choose>
           <when>
-            <test><equal><clip pos="1" side="sl" part="pron"/><lit-tag v="ind"/></equal></test>
+            <test>
+<and>
+<equal><clip pos="1" side="sl" part="pron"/><lit-tag v="ind"/></equal>
+<not><equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal></not>
+</and>
+</test>
             <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
             <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
           </when>

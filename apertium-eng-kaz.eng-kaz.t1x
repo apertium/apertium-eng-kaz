@@ -389,7 +389,6 @@
  <attr-item tags="prn.dem"/>
  <attr-item tags="prn.itg"/>
 <attr-item tags="prn.qnt"/>
-<attr-item tags="prn.qnt.px3sp"/>
       <attr-item tags="prn.qnt.*"/>
       <attr-item tags="prn.ind"/>
  <attr-item tags="prn.*"/> 
@@ -399,7 +398,6 @@
       <attr-item tags="prn.pers"/>
       <attr-item tags="prn.ind"/>
       <attr-item tags="prn.qnt"/>
-      <attr-item tags="prn.qnt.*"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
@@ -11431,7 +11429,7 @@ this would have to be changed -->
        </equal>
      </test>
      <let><var n="case"/><lit-tag v="nom"/></let>
-     <let><var n="number"/><lit-tag v="sg"/></let>
+     <let><var n="number"/><clip pos="1" side="sl" part="a_nbr"/></let>
      <let><var n="subj-pron_lu"/><lit-tag v="p3"/></let>
     </when>
      <otherwise>
@@ -11453,7 +11451,7 @@ this would have to be changed -->
      <let><var n="possessive"/><lit-tag v="PXD"/></let>
      </otherwise>
   </choose>
-<choose>
+<!--<choose>
     <when>
      <test>  
        <equal>
@@ -11466,7 +11464,7 @@ this would have to be changed -->
      <otherwise>
      <let><var n="possessive"/><lit-tag v="PXD"/></let>
      </otherwise>
-  </choose>
+  </choose>-->
   <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
    <out>
    <chunk name="obj-pron">

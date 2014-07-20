@@ -2148,6 +2148,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>calculator<s n="n"/></l><r>калькулятор<s n="n"/></r></p></e>
 <e><p><l>carpenter<s n="n"/></l><r>ұста<s n="n"/></r></p></e>
 <e><p><l>cemetery<s n="n"/></l><r>мола<s n="n"/></r></p></e>
+<e><p><l>cemetery<s n="n"/></l><r>зират<s n="n"/></r></p></e>
 <e><p><l>channel<s n="n"/></l><r>арна<s n="n"/></r></p></e>
 <e><p><l>creator<s n="n"/></l><r>құрушы<s n="n"/></r></p></e>
 <e><p><l>creature<s n="n"/></l><r>жанды<b/>зат<s n="n"/></r></p></e>
@@ -8274,6 +8275,61 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>withdraw<s n="vblex"/></l><r>аулақта<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>witness<s n="vblex"/></l><r>куә<b/>бол<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>wrap<s n="vblex"/></l><r>қапта<s n="v"/><s n="tv"/></r></p></e>
+
+<e><p><l>assess<s n="vblex"/></l><r>бағала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>brief<s n="vblex"/></l><r>қысқарт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>broaden<s n="vblex"/></l><r>кеңейт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>calculate<s n="vblex"/></l><r>есепте<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>chair<s n="vblex"/></l><r>басқар<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>clarify<s n="vblex"/></l><r>жарықтандыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>coincide<s n="vblex"/></l><r>келіс<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>complain<s n="vblex"/></l><r>шағымдан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>concentrate<s n="vblex"/></l><r>топта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>confess<s n="vblex"/></l><r>мойында<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>convey<s n="vblex"/></l><r>көшір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cooperate<s n="vblex"/></l><r>бірге<b/>істе<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>coordinate<s n="vblex"/></l><r>үйлестір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>devastate<s n="vblex"/></l><r>талқанда<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>discharge<s n="vblex"/></l><r>атқар<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>elaborate<s n="vblex"/></l><r>өндір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>embark<s n="vblex"/></l><r>кемеге<b/>отыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>emphasize<s n="vblex"/></l><r>атап<b/>көрсет<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>endure<s n="vblex"/></l><r>шыда<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>enlarge<s n="vblex"/></l><r>көбейт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>enrich<s n="vblex"/></l><r>құнарландыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>evaluate<s n="vblex"/></l><r>бағала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>evoke<s n="vblex"/></l><r>шақырт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>exemplify<s n="vblex"/></l><r>мысал<b/>келтір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>extract<s n="vblex"/></l><r>шығар<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>frame<s n="vblex"/></l><r>бөл<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>greet<s n="vblex"/></l><r>амандас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>grieve<s n="vblex"/></l><r>қайғыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>guarantee<s n="vblex"/></l><r>кепілдік<b/>бер<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>handle<s n="vblex"/></l><r>басқар<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>hasten<s n="vblex"/></l><r>асық<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>instruct<s n="vblex"/></l><r>оқыт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>interrelate<s n="vblex"/></l><r>өзара<b/>әрекет<b/>жаса<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>lease<s n="vblex"/></l><r>жалда<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>mourn<s n="vblex"/></l><r>жоқта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>owe<s n="vblex"/></l><r>қарыз<b/>бол<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>perish<s n="vblex"/></l><r>өл<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>price<s n="vblex"/></l><r>бағала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>reflect<s n="vblex"/></l><r>толған<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>reform<s n="vblex"/></l><r>реформала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>relieve<s n="vblex"/></l><r>жеңілдет<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>rely<s n="vblex"/></l><r>сен<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>remember<s n="vblex"/></l><r>есте<b/>сақта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>remind<s n="vblex"/></l><r>ескерт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>simplify<s n="vblex"/></l><r>ықшамда<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>swear<s n="vblex"/></l><r>ант<b/>бер<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>symbolise<s n="vblex"/></l><r>кейіпте<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>thank<s n="vblex"/></l><r>алғыс<b/>білдір<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>tighten<s n="vblex"/></l><r>тарт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>toughen<s n="vblex"/></l><r>қатты<b/>ет<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>tune<s n="vblex"/></l><r>күйіне<b/>келтір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>undergo<s n="vblex"/></l><r>сына<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>underline<s n="vblex"/></l><r>астын<b/>сыз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>unveil<s n="vblex"/></l><r>ескерткіш<b/>қой<s n="v"/><s n="tv"/></r></p></e>
 
 <e><p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>
 

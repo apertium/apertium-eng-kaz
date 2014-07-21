@@ -69,6 +69,12 @@
       <cat-item tags="vaux.neg.past.*"/> 
       </def-cat>
 
+<def-cat n="v-can">
+
+      <cat-item tags="vaux.*"/> 
+      <cat-item tags="vaux.pres"/>
+    </def-cat>
+
 
     <def-cat n="v-neg-pot">
       <cat-item lemma="ал" tags="v.tv.neg.aor.*"/>
@@ -617,6 +623,91 @@
     </rule>
 
 
+
+<rule comment="RULE: V-CAN"> <!---->
+      <pattern>
+        <pattern-item n="v-can"/>
+     <pattern-item n="v-pot"/>
+      </pattern>
+      <action>
+       
+        <call-macro n="conv-temps1">
+          <with-param pos="2"/>
+        </call-macro>
+
+        <choose><!-- choosing correct to be-->
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="past"/></equal>
+                     </and>
+                      </test>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v="p3"/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v="sg"/></let>
+
+                </when>
+           </choose>
+
+        <out>
+          <chunk name="verb-can" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="2" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="can"/>
+              <lit-tag v="vaux"/>
+              <lit-tag v="2"/>
+                            
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+                           <lit-tag v="ger"/> <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
 <rule comment="RULE: VP-cop-had"> <!--Mende kitap bar edi-->
       <pattern>
         <pattern-item n="bar"/>
@@ -980,6 +1071,10 @@
         </call-macro>
       </action>
     </rule>
+
+
+
+
 
 
 <rule comment="RULE: verb-need"> <!--Magan kitap kerek-->
@@ -3238,8 +3333,6 @@
       </action>
     </rule>
 
-
-
  <rule comment="RULE: V-ING VAUX"> <!--for present and past continuous-->
       <pattern>
         <pattern-item n="v-ing"/>
@@ -3889,6 +3982,13 @@
         </call-macro>
       </action>
     </rule>
+
+
+
+ 
+
+
+
 
 
   </section-rules>

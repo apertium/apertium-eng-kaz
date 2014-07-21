@@ -1540,7 +1540,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>homeland<s n="n"/></l><r>атамекен<s n="n"/></r></p></e>
     <e><p><l>home<s n="n"/></l><r>мекен<s n="n"/></r></p></e>
     <e><p><l>set<s n="n"/></l><r>жиын<s n="n"/></r></p></e>
-<!--<e><p><l>house<s n="n"/></l><r>үй<s n="n"/></r></p></e>-->
     <e><p><l>home<s n="n"/></l><r>үй<s n="n"/></r></p></e>
     <e><p><l>honor<s n="n"/></l><r>абырой<s n="n"/></r></p></e>
     <e><p><l>honor<s n="n"/></l><r>мәртебе<s n="n"/></r></p></e>
@@ -7433,6 +7432,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e><p><l>make<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>need<s n="vblex"/></l><r>қажет<b/>бол<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>need<s n="vblex"/></l><r>керек<s n="vaux"/><s n="pres"/></r></p></e>
 <e><p><l>offer<s n="vblex"/></l><r>ұсын<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>open<s n="vblex"/></l><r>аш<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>play<s n="vblex"/></l><r>ойна<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check iv/tv -->

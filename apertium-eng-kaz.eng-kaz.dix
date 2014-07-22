@@ -4666,6 +4666,50 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>dynamism<s n="n"/></l><r>динамизм<s n="n"/></r></p></e>
 <e><p><l>dynamite<s n="n"/></l><r>қопарғыш<s n="n"/></r></p></e>
 <e><p><l>dystrophy<s n="n"/></l><r>дистрофия<s n="n"/></r></p></e>
+<e><p><l>eagerness<s n="n"/></l><r>ынта<s n="n"/></r></p></e>
+<e><p><l>earnings<s n="n"/></l><r>кіріс<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>earthenware<s n="n"/></l><r>керамика<s n="n"/></r></p></e>
+<e><p><l>ECB<s n="n"/></l><r>ОЕБ<s n="abbr"/></r></p></e>
+<e><p><l>echelon<s n="n"/></l><r>эшелон<s n="n"/></r></p></e>
+<e><p><l>eclipse<s n="n"/></l><r>тұтылу<s n="n"/></r></p></e>
+<e><p><l>ecology<s n="n"/></l><r>экология<s n="n"/></r></p></e>
+<e><p><l>economist<s n="n"/></l><r>экономист<s n="n"/></r></p></e>
+<e><p><l>ecosystem<s n="n"/></l><r>экожүйе<s n="n"/></r></p></e>
+<e><p><l>ecotourism<s n="n"/></l><r>экотуризм<s n="n"/></r></p></e>
+<e><p><l>ecstasy<s n="n"/></l><r>экстаз<s n="n"/></r></p></e>
+<e><p><l>edict<s n="n"/></l><r>жарлық<s n="n"/></r></p></e>
+<e><p><l>edifice<s n="n"/></l><r>ғимарат<s n="n"/></r></p></e>
+<e><p><l>editorial<s n="n"/></l><r>редакциялық<b/>мақала<s n="n"/></r></p></e>
+<e><p><l>educator<s n="n"/></l><r>педагог<s n="n"/></r></p></e>
+<e><p><l>eel<s n="n"/></l><r>безеу<s n="n"/></r></p></e>
+<e><p><l>efficacy<s n="n"/></l><r>тиімділік<s n="n"/></r></p></e>
+<e><p><l>eggplant<s n="n"/></l><r>баялды<s n="n"/></r></p></e>
+<e><p><l>Egyptologist<s n="n"/></l><r>Египтолог<s n="n"/></r></p></e>
+<e><p><l>eighties<s n="n"/></l><r>сексен<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>electrode<s n="n"/></l><r>электрод<s n="n"/></r></p></e>
+<e><p><l>electron<s n="n"/></l><r>электрон<s n="n"/></r></p></e>
+<e><p><l>elegance<s n="n"/></l><r>сырбаздық<s n="n"/></r></p></e>
+<e><p><l>elevator<s n="n"/></l><r>лифт<s n="n"/></r></p></e>
+<e><p><l>eligibility<s n="n"/></l><r>жарамдылық<s n="n"/></r></p></e>
+<e><p><l>elixir<s n="n"/></l><r>эликсир<s n="n"/></r></p></e>
+<e><p><l>elk<s n="n"/></l><r>бұлан<s n="n"/></r></p></e>
+<e><p><l>eloquence<s n="n"/></l><r>шешендік<s n="n"/></r></p></e>
+<e><p><l>email<s n="n"/></l><r>электрондық<b/>пошта<s n="n"/></r></p></e>
+<e><p><l>emancipation<s n="n"/></l><r>эмансипация<s n="n"/></r></p></e>
+<e><p><l>embargo<s n="n"/></l><r>эмбарго<s n="n"/></r></p></e>
+<e><p><l>embarrassment<s n="n"/></l><r>қиналыс<s n="n"/></r></p></e>
+<e><p><l>emblem<s n="n"/></l><r>эмблема<s n="n"/></r></p></e>
+<e><p><l>embroidery<s n="n"/></l><r>кестелеу<s n="n"/></r></p></e>
+<e><p><l>embryo<s n="n"/></l><r>тұқым<s n="n"/></r></p></e>
+<e><p><l>emerald<s n="n"/></l><r>зүбәржат<s n="n"/></r></p></e>
+<e><p><l>emigrant<s n="n"/></l><r>эмигрант<s n="n"/></r></p></e>
+<e><p><l>eminence<s n="n"/></l><r>биіктік<s n="n"/></r></p></e>
+<e><p><l>emirate<s n="n"/></l><r>эмират<s n="n"/></r></p></e>
+<e><p><l>emir<s n="n"/></l><r>әмір<s n="n"/></r></p></e>
+<e><p><l>emission<s n="n"/></l><r>эмиссия<s n="n"/></r></p></e>
+<e><p><l>empathy<s n="n"/></l><r>тілектестік<s n="n"/></r></p></e>
+<e><p><l>empress<s n="n"/></l><r>император<s n="n"/></r></p></e>
+<e><p><l>encyclopaedia<s n="n"/></l><r>энциклопедия<s n="n"/></r></p></e>
 <!--ProPER NOUNS -->
 
 

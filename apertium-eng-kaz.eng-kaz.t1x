@@ -1959,7 +1959,7 @@
   <action>
 
     <out>
-    <chunk name="noun">
+    <chunk name="unk-noun">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="2" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -10761,13 +10761,24 @@ this would have to be changed -->
   <call-macro n="NEW-build-noun-lu-2-4-5">
        <with-param pos="1"/>
   </call-macro> 
+<choose>
+<when>
+    <test>
+<equal><clip pos="1" side="sl" part="a_possessive"/><lit-tag v="px3sp"/></equal>
+</test>
+<let> <var n="possessive"/><clip pos="1" side="sl" part="a_possessive"/></let>
+</when>
+<otherwise>
+<let> <var n="possessive"/><lit-tag v="PXD"/></let>
+</otherwise>
+</choose>
     <out>
     <chunk name="noun">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="1" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
     <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
-    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><var n="possessive"/></tag> <!-- possessor placeholder -->
     <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
     </tags>
     <lu>

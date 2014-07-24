@@ -338,6 +338,8 @@
       <attr-item tags="np.org"/>
       <attr-item tags="abbr"/>
       <attr-item tags="np.cog.m"/>
+      <attr-item tags="np.cog.mf"/>
+      <attr-item tags="np.cog.f"/>
     </def-attr>
     <def-attr n="a_adjec">
        <attr-item tags="adj"/>

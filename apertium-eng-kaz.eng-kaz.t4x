@@ -171,6 +171,9 @@
 <def-attr n="subst">
       <attr-item tags="subst"/>
     </def-attr>
+<def-attr n="sep">
+      <attr-item tags="sep"/>
+    </def-attr>
 
     <def-attr n="tense">
       <attr-item tags="ger_impf"/>
@@ -180,6 +183,8 @@
            <attr-item tags="ifi"/>
            <attr-item tags="aor"/>
            <attr-item tags="ger"/>
+           <attr-item tags="subs"/>
+           <attr-item tags="pprs"/>
     </def-attr>
        
  <def-attr n="unknown">
@@ -220,6 +225,37 @@
              </test>
             <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
            <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+          </when>
+        </choose>
+
+
+
+<!--<choose>
+          <when>
+            <test>
+<or>
+                 <equal>
+                     <clip pos="1" side="sl" part="tense"/><lit-tag v="subs"/>
+                  </equal>
+<equal>
+                     <clip pos="1" side="sl" part="tense"/><lit-tag v="pprs"/>
+                  </equal>
+</or>
+             </test>
+            <let><clip pos="1" side="tl" part="tense"/><lit-tag v="ger"/></let>
+          </when>
+        </choose>
+-->
+
+ <choose>
+          <when>
+            <test>
+                 <equal>
+                     <clip pos="1" side="sl" part="sep"/>
+                     <lit-tag v="sep"/>
+                 </equal>
+             </test>
+            <let><clip pos="1" side="tl" part="sep"/><lit v=""/></let>
           </when>
         </choose>
 

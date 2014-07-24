@@ -5,8 +5,11 @@
   <section-def-cats>
     <def-cat n="pers-verb"> <!-- past and present tense -->
       <cat-item tags="vblex.pres.*"/>
+      <cat-item tags="vblex.sep.pres.*"/>
       <cat-item tags="vblex.pres"/>
       <cat-item tags="vblex.past"/>
+ <cat-item tags="vblex.sep.pres"/>
+      <cat-item tags="vblex.sep.past"/>
     </def-cat>   
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->      
@@ -92,12 +95,14 @@
 
  <def-cat n="NP_verb-ing"> <!-- for ger like NP, I like playing-->
       <cat-item tags="vblex.ger"/>
+      <cat-item tags="vblex.sep.ger"/>
    </def-cat>   
 
 <def-cat n="subs-ing"> <!-- for ger like NP, I like playing-->
       <cat-item tags="vblex.subs"/>
       <cat-item tags="vblex.pprs"/>
-      <cat-item tags="vblex.ger"/>
+      <cat-item tags="vblex.sep.pprs"/>
+      <cat-item tags="vblex.sep.subs"/>
    </def-cat> 
 <def-cat n="verb-pp"> <!-- present perfect tense -->
       <cat-item tags="vblex.pp"/>
@@ -12941,6 +12946,34 @@ this would have to be changed -->
   </action>
 </rule>
 
+
+<rule comment="NEW RULE: subs-ing "> 
+  <pattern>
+    <pattern-item n="subs-ing"/>
+  </pattern>
+  <action>
+ 
+    <out>
+    <chunk name="subs">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><lit-tag v="sg"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+     <clip pos="1" side="tl" part="lem"/>
+     <clip pos="1" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="gpr_impf"/>
+          <lit-tag v="subst"/>
+          <lit-tag v="nom"/>
+     </lu>
+	
+    </chunk>
+    </out>
+      </action>
+</rule>
 
 <rule comment="NEW RULE: vbmod-s"> <!--for cleaning # with want to, have to, need to -->
   <pattern>

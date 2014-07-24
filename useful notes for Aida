@@ -330,3 +330,11 @@ pertium: spectre360 * 55029: /branches/papers/codeswitch-cltw-2014/: codeswitch.
 cat /tmp/eng-kaz.testvoc  | grep '> *#' > /tmp/kaz-words0
 cat /tmp/eng-kaz.testvoc  | grep '> *#' | cut -f2 -d'#' | cut -f1 -d'\' | apertium-destxt | lt-proc ~/Source/apertium-kaz/kaz.automorf.bin  > /tmp/kaz-words
 paste /tmp/kaz-words /tmp/kaz-words0  | grep '\*'| sort -u 
+
+
+
+ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz/dev/testvoc$ cat /tmp/eng-kaz.testvoc  | grep '> *#' > unkwords.txt
+ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz/dev/testvoc$ cat unkwords.txt| egrep "<np><ant><m>"| sort -u > unknown.txt
+ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz/dev/testvoc$ cat unkwords.txt| egrep "<np><ant><f>"| sort -u > unknown.txt
+ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz/dev/testvoc$ cat unknown.txt | egrep "#"| awk 'BEGIN{FS="#"} {print $2}'> unkwords.txt
+ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz/dev/testvoc$ bash testvoc.sh eng-kaz

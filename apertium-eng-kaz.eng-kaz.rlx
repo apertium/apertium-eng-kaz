@@ -93,7 +93,11 @@ SELECT (prn tn mf) IF (0 ("<most>"i))(1 N) ;
 
 SELECT (cnjcoo) IF (1 (pr)) ; 
 
+SELECT A IF (0 ("<good>"i))(1 Pr)(-1 (vbser)) ; 
+
 SELECT V IF (0 ("<like>"i))(1 (vblex ger)) ; 
+
+SELECT V IF (0 ("<lives>"i))(1 Adv)(-1 ("that"i)) ; 
 
 SELECT V IF (0 ("<like>"i))(-2 PRN-SUBJ) ; 
 

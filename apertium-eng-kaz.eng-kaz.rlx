@@ -97,7 +97,7 @@ SELECT A IF (0 ("<good>"i))(1 Pr)(-1 (vbser)) ;
 
 SELECT V IF (0 ("<like>"i))(1 (vblex ger)) ; 
 
-SELECT V IF (0 ("<lives>"i))(1 Adv)(-1 ("that"i)) ; 
+SELECT V IF (0 ("<livessvn ci>"i))(1 Adv)(-1 ("that"i)) ; 
 
 SELECT V IF (0 ("<like>"i))(-2 PRN-SUBJ) ; 
 

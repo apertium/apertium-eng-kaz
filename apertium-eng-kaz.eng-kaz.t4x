@@ -799,6 +799,17 @@
             <let><clip pos="1" side="tl" part="poss"/><lit-tag v="px2sg.frm"/></let>
           </when>
         </choose>
+ <choose>
+          <when>
+            <test>
+<and>
+<equal><clip pos="1" side="sl" part="poss"/><lit-tag v="px3sp"/></equal>
+<equal><clip pos="1" side="sl" part="a_nom"/><lit-tag v="n.pl"/></equal>
+</and>
+</test> 
+            <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
+          </when>
+        </choose>
 <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="a_nom"/><lit-tag v="abbr"/></equal></test>

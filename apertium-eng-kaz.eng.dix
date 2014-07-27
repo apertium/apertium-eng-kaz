@@ -39606,6 +39606,10 @@
 
                             <e lm="Kennedy" i=""><i>Kennedy</i><par n="Smith__np"/></e>
 
+                            <e lm="Kostanay" i=""><i>Kostanay</i><par n="Barcelona__np"/></e>
+
+                            <e lm="Kairat" i=""><i>Kairat</i><par n="Mark__np"/></e>
+
                             <e lm="Korea" i=""><i>Korea</i><par n="Barcelona__np"/></e>
 
                             <e lm="Korea" i=""><p><l>Koreas</l><r>Korea</r></p><par n="United_States__np"/></e>
@@ -39774,7 +39778,7 @@
 
                             <e lm="Nicaragua" i=""><i>Nicaragua</i><par n="Barcelona__np"/></e>
                             <e lm="Nazarbayev" i=""><i>Nazarbayev</i><par n="Smith__np"/></e>
-
+                            <e lm="Nuraly" i=""><i>Nuraly</i><par n="Mark__np"/></e>
 
                             <e lm="Nice" i=""><i>Nice</i><par n="Barcelona__np"/></e>
 
@@ -39893,6 +39897,10 @@
                             <e lm="Sachs" i=""><i>Sachs</i><par n="Smith__np"/></e>
 
                             <e lm="Schächter" i=""><i>Schächter</i><par n="Smith__np"/></e>
+
+                            <e lm="Saduakasov" i=""><i>Saduakasov</i><par n="Smith__np"/></e>
+
+			    <e lm="Kozhamzharov" i=""><i>Kozhamzharov</i><par n="Smith__np"/></e>
 
                             <e lm="Camus" i=""><i>Camus</i><par n="Smith__np"/></e>
 
@@ -40501,6 +40509,8 @@
                             <e lm="aeroplane" i=""><i>aeroplane</i><par n="house__n"/></e>
 
                             <e lm="airport" i=""><i>airport</i><par n="house__n"/></e>
+
+                            <e lm="Akim" i=""><i>Akim</i><par n="house__n"/></e>
 
                             <e lm="alarm" i=""><i>alarm</i><par n="house__n"/></e>
 
@@ -42953,6 +42963,8 @@
                             <e lm="daughter" i=""><i>daughter</i><par n="house__n"/></e>
 
                             <e lm="day" i=""><i>day</i><par n="house__n"/></e>
+
+                            <e lm="Decree" i=""><i>Decree</i><par n="house__n"/></e>
 
                             <e lm="Valentine's day" i=""><i>Valentine's<b/>day</i><par n="house__n"/></e>
 

@@ -4913,7 +4913,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>fragility<s n="n"/></l><r>морттық<s n="n"/></r></p></e>
 <e><p><l>fragmentation<s n="n"/></l><r>фрагменттеу<s n="n"/></r></p></e>
 <e><p><l>fragment<s n="n"/></l><r>үзінді<s n="n"/></r></p></e>
-<e><p><l>frankness<s n="n"/></l><r>ашықтық<s n="n"/></r></p></e>
+<e><p><l>Akim<s n="n"/></l><r>Әкім<s n="n"/></r></p></e>
+<e><p><l>Decree<s n="n"/></l><r>жарлық<s n="n"/></r></p></e>
+
 <!--ProPER NOUNS -->
 
 
@@ -5178,6 +5180,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Indiana<s n="np"/><s n="loc"/><s n="sg"/></l><r>Индиана<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Louisiana<s n="np"/><s n="loc"/><s n="sg"/></l><r>Луизиана<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Vienna<s n="np"/><s n="loc"/><s n="sg"/></l><r>Вена<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Kostanay<s n="np"/><s n="loc"/><s n="sg"/></l><r>Қостанай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Barcelona<s n="np"/><s n="loc"/><s n="sg"/></l><r>Барселона<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Arizona<s n="np"/><s n="loc"/><s n="sg"/></l><r>Аризона<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>USA<s n="np"/><s n="loc"/><s n="sg"/></l><r>АҚШ<s n="abbr"/></r></p></e>
@@ -5497,6 +5500,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Frank<s n="np"/><s n="ant"/><s n="m"/></l><r>Фрэнк<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Clark<s n="np"/><s n="ant"/><s n="m"/></l><r>Кларк<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Mark<s n="np"/><s n="ant"/><s n="m"/></l><r>Марк<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Nuraly<s n="np"/><s n="ant"/><s n="m"/></l><r>Нұралы<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Kairat<s n="np"/><s n="ant"/><s n="m"/></l><r>Қайрат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Al<s n="np"/><s n="ant"/><s n="m"/></l><r>Аль<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Michael<s n="np"/><s n="ant"/><s n="m"/></l><r>Майкл<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Daniel<s n="np"/><s n="ant"/><s n="m"/></l><r>Даниил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -5639,6 +5644,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Pena<s n="np"/><s n="cog"/></l><r>Пена<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Ahmadinejad<s n="np"/><s n="cog"/></l><r>Ахмединежад<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
   <e><p><l>Nazarbayev<s n="np"/><s n="cog"/></l><r>Назарбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+  <e><p><l>Kozhamzharov<s n="np"/><s n="cog"/></l><r>Қожамжаров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Saduakasov<s n="np"/><s n="cog"/></l><r>Сәдуақасов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
   <e><p><l>Gorbachev<s n="np"/><s n="cog"/></l><r>Горбачев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
  <e><p><l>Kostunica<s n="np"/><s n="cog"/><s n="sg"/></l><r>Костуника<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Milosevic<s n="np"/><s n="cog"/><s n="sg"/></l><r>Милосевиц<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

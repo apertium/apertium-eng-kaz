@@ -12,6 +12,7 @@
     <sdef n="tv"  c="Переходный"/>
     <sdef n="caus"/>
     <sdef n="mf"/>
+    <sdef n="pat"/>
     <sdef n="sep"/>
     <sdef n="pass"/>
     <sdef n="pp"/>
@@ -4913,7 +4914,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>fragility<s n="n"/></l><r>морттық<s n="n"/></r></p></e>
 <e><p><l>fragmentation<s n="n"/></l><r>фрагменттеу<s n="n"/></r></p></e>
 <e><p><l>fragment<s n="n"/></l><r>үзінді<s n="n"/></r></p></e>
-<e><p><l>Akim<s n="n"/></l><r>Әкім<s n="n"/></r></p></e>
+<e><p><l>Akim<s n="n"/></l><r>әкім<s n="n"/></r></p></e>
 <e><p><l>Decree<s n="n"/></l><r>жарлық<s n="n"/></r></p></e>
 
 <!--ProPER NOUNS -->
@@ -5182,6 +5183,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Vienna<s n="np"/><s n="loc"/><s n="sg"/></l><r>Вена<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kostanay<s n="np"/><s n="loc"/><s n="sg"/></l><r>Қостанай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Barcelona<s n="np"/><s n="loc"/><s n="sg"/></l><r>Барселона<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Akmola<s n="np"/><s n="loc"/><s n="sg"/></l><r>Ақмола<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Akorda<s n="np"/><s n="loc"/><s n="sg"/></l><r>Ақорда<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Arizona<s n="np"/><s n="loc"/><s n="sg"/></l><r>Аризона<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>USA<s n="np"/><s n="loc"/><s n="sg"/></l><r>АҚШ<s n="abbr"/></r></p></e>
 <e><p><l>Atlanta<s n="np"/><s n="loc"/><s n="sg"/></l><r>Атланта<s n="np"/><s n="top"/></r></p></e>
@@ -5632,6 +5635,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Guy<s n="np"/><s n="ant"/><s n="m"/></l><r>Гай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Alberto<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Альберто<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Anatoly<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Анатолий<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Gabidulla<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ғабидолла<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Domingo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Доминго<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Filippo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Филиппо<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Angela<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ангела<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -5645,6 +5649,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Ahmadinejad<s n="np"/><s n="cog"/></l><r>Ахмединежад<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
   <e><p><l>Nazarbayev<s n="np"/><s n="cog"/></l><r>Назарбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
   <e><p><l>Kozhamzharov<s n="np"/><s n="cog"/></l><r>Қожамжаров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+ <e><p><l>Perneshovich<s n="np"/><s n="cog"/></l><r>Пернешұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Saduakasov<s n="np"/><s n="cog"/></l><r>Сәдуақасов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
   <e><p><l>Gorbachev<s n="np"/><s n="cog"/></l><r>Горбачев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
  <e><p><l>Kostunica<s n="np"/><s n="cog"/><s n="sg"/></l><r>Костуника<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -5687,11 +5692,12 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Karzai<s n="np"/><s n="cog"/></l><r>Карзай<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Lieberman<s n="np"/><s n="cog"/></l><r>Либерман<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Messi<s n="np"/><s n="cog"/></l><r>Месси<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Rakhmatullayevich<s n="np"/><s n="cog"/></l><r>Рахметоллаұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Nobel<s n="np"/><s n="cog"/></l><r>Нобель<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Putin<s n="np"/><s n="cog"/></l><r>Путин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Sarkozy<s n="np"/><s n="cog"/></l><r>Саркози<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Yang<s n="np"/><s n="cog"/></l><r>Янг<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-
+<e><p><l>Abdrakhimov<s n="np"/><s n="cog"/></l><r>Әбдірахымов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
    <!-- Раздел: Имя Числительное -->
 

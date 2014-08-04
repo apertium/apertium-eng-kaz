@@ -4196,7 +4196,101 @@
       </action>
 </rule>
 
+<rule comment="NEW RULE: have + not + been + verb-pp"> <!--Present Perfect Passive Negative A book has not been written ,Past perfect-->
+  <pattern>
+    <pattern-item n="vaux-have"/>
+ <pattern-item n="not"/>
+    <pattern-item n="been"/> <!--past participle -->
+ <pattern-item n="verb-pp"/>
+    </pattern>
+  <action>    
+   <call-macro n="default-nbr-pers"/>
+    <choose>
 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="past"/></let> 
+    <out>
+      <chunk name="pers-verb">
+       <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag>
+        <tag><lit-tag v="past"/></tag>  
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="neg"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+      <b pos="2"/>
+      <b pos="3"/>
+       <lu>
+      <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="pass"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b/> 
+        <lu>
+         <lit v="бол"/>
+ 	<lit-tag v="vaux"/>
+            <lit-tag v="6"/>
+          <lit-tag v="4"/>
+	<lit-tag v="3"/>
+          <lit-tag v="2"/>
+	
+        </lu>
+      </chunk>
+        </out>
+      </when>
+
+      <when>
+         <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="ifi"/></let> 
+    <out>
+      <chunk name="pers-verb">
+       <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag>
+        <tag><lit-tag v="past"/></tag>  
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="neg"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+      <b pos="2"/>
+      <b pos="3"/>
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+ <lit-tag v="pass"/>
+          <lit-tag v="6"/>
+          <lit-tag v="4"/>
+	<lit-tag v="3"/>
+          <lit-tag v="2"/>
+	        </lu>
+      </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+           <out><b pos="1"/><b pos="2"/><b pos="3"/></out>
+      <call-macro n="NEW-gen-simple-verb">
+         <with-param pos="2"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
+  </action>
+</rule>
 
 <rule comment="NEW RULE: can + be + infinitive "> <!--this can be go-->
   <pattern> <!-- generalize it for "could" with a tense selector -->
@@ -4630,6 +4724,56 @@
 </rule>
 
 
+
+<rule comment="NEW RULE: be + not + verb-pp"> <!--Pres and Past passive -->
+<!-- superblank management to be corrected -->
+  <pattern>
+    <pattern-item n="pers-verb-to-be"/>
+<pattern-item n="not"/>
+    <pattern-item n="verb-pp"/> <!--past participle -->
+   </pattern>
+  <action>    
+   <call-macro n="default-nbr-pers"/>
+    <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="aor"/></let> 
+           <out><b pos="1"/><b pos="2"/></out>
+     <call-macro n="NEW-gen-simple-verb-pass-neg">
+         <with-param pos="3"/> 
+     </call-macro>
+
+      </when>
+
+      <when>
+         <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="ifi"/></let> 
+           <out><b pos="1"/><b pos="2"/></out>
+     <call-macro n="NEW-gen-simple-verb-pass-neg">
+         <with-param pos="3"/> 
+     </call-macro>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+           <out><b pos="1"/><b pos="2"/></out>
+      <call-macro n="NEW-gen-simple-verb-pass-neg">
+         <with-param pos="3"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
+  </action>
+</rule>
+
 <rule comment="NEW RULE: be + adv + verb-pp"> <!--Pres and Past passive -->
 <!-- superblank management to be corrected -->
   <pattern>
@@ -4730,56 +4874,6 @@
   </action>
 </rule>
 
-<rule comment="NEW RULE: be + not + verb-pp"> <!--Pres and Past passive -->
-<!-- superblank management to be corrected -->
-  <pattern>
-    <pattern-item n="pers-verb-to-be"/>
-<pattern-item n="not"/>
-    <pattern-item n="verb-pp"/> <!--past participle -->
-   </pattern>
-  <action>    
-   <call-macro n="default-nbr-pers"/>
-    <choose>
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="pres"/>
-          </equal>
-        </test>
-        <let><var n="tense"/><lit-tag v="aor"/></let> 
-           <out><b pos="1"/><b pos="2"/></out>
-     <call-macro n="NEW-gen-simple-verb-pass-neg">
-         <with-param pos="3"/> 
-     </call-macro>
-
-      </when>
-
-      <when>
-         <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="past"/>
-          </equal>
-        </test>
-        <let><var n="tense"/><lit-tag v="ifi"/></let> 
-           <out><b pos="1"/><b pos="2"/></out>
-     <call-macro n="NEW-gen-simple-verb-pass-neg">
-         <with-param pos="3"/> 
-     </call-macro>
-      </when>
-      <otherwise>
-        <let><var n="tense"/><lit-tag v="aor"/></let>
-           <out><b pos="1"/><b pos="2"/></out>
-      <call-macro n="NEW-gen-simple-verb-pass-neg">
-         <with-param pos="3"/> 
-     </call-macro>
-      </otherwise> 
-    </choose>
-  </action>
-</rule>
-
-
 <rule comment="NEW RULE: have + been + verb-pp"> <!--Present Perfect Passive A books has been written  Кітап жазылып болған,Past perfect Кітап жазылған-->
 <!-- not sure about the "past" part of this rule" -->
   <pattern>
@@ -4873,203 +4967,11 @@
 </rule>
 
 
-<rule comment="NEW RULE: have + been + verb-pp"> 
-  <pattern>
-    <pattern-item n="vaux-have"/>
- <pattern-item n="adv"/>
-    <pattern-item n="been"/> <!--past participle -->
- <pattern-item n="verb-pp"/>
-    </pattern>
-  <action>    
-   <call-macro n="default-nbr-pers"/>
-    <choose>
-
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="pres"/>
-          </equal>
-        </test>
-        <let><var n="tense"/><lit-tag v="past"/></let> 
-    <out>
-      <chunk name="have-adv-be-pp">
-      <tags>
-        <tag><lit-tag v="VP"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag>
-        <tag><lit-tag v="past"/></tag>  
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
-      </tags>
-      <b pos="1"/>
-  <lu>
-      <clip pos="2" side="tl" part="whole"/>
-	        </lu>
-      <b pos="2"/>
-       <lu>
-      <clip pos="4" side="tl" part="lem"/>
-	  <clip pos="4" side="tl" part="a_kaz_verb"/>
-	  <lit-tag v="pass"/>
-          <lit-tag v="prc_perf"/>
-        </lu>
-        <b/>
-        <lu>
-         <lit v="бол"/>
- 	<lit-tag v="vaux"/>
-          <lit-tag v="4"/>
-	<lit-tag v="3"/>
-          <lit-tag v="2"/>
-	
-        </lu>
-      </chunk>
-        </out>
-      </when>
-
-      <when>
-         <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="past"/>
-          </equal>
-        </test>
-        <let><var n="tense"/><lit-tag v="ifi"/></let> 
-    <out>
-      <chunk name="had-adv-be-pp">
-      <tags>
-        <tag><lit-tag v="VP"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag>
-        <tag><lit-tag v="past"/></tag>  
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
-      </tags>
-      <b pos="1"/>
-       <lu>
-      <clip pos="2" side="tl" part="whole"/>
-	        </lu>
-      <b pos="2"/>
-        <lu>
-          <clip pos="4" side="tl" part="lem"/>
-	  <clip pos="4" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="pass"/>
-          <lit-tag v="4"/>
-          <lit-tag v="3"/>	
-          <lit-tag v="2"/>
-        </lu>
-      </chunk>
-        </out>
-      </when>
-      <otherwise>
-        <let><var n="tense"/><lit-tag v="aor"/></let>
-   <out><b pos="1"/>  <lu>
-      <clip pos="2" side="tl" part="lem"/>
-	        </lu>
-      <b pos="2"/></out>
-      <call-macro n="NEW-gen-simple-verb">
-         <with-param pos="3"/> 
-     </call-macro>
-      </otherwise> 
-    </choose>
-  </action>
-</rule>
 
 
-<rule comment="NEW RULE: have + not + been + verb-pp"> <!--Present Perfect Passive Negative A books has not been written ,Past perfect-->
-  <pattern>
-    <pattern-item n="vaux-have"/>
- <pattern-item n="not"/>
-    <pattern-item n="verb-pp"/> <!--past participle -->
- <pattern-item n="verb-pp"/>
-    </pattern>
-  <action>    
-   <call-macro n="default-nbr-pers"/>
-    <choose>
 
-      <when>
-        <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="pres"/>
-          </equal>
-        </test>
-        <let><var n="tense"/><lit-tag v="past"/></let> 
-    <out>
-      <chunk name="pers-verb">
-       <tags>
-        <tag><lit-tag v="VP"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag>
-        <tag><lit-tag v="past"/></tag>  
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="neg"/></tag> <!-- negative -->
-      </tags>
-      <b pos="1"/>
-      <b pos="2"/>
-      <b pos="3"/>
-       <lu>
-      <clip pos="4" side="tl" part="lem"/>
-	  <clip pos="4" side="tl" part="a_kaz_verb"/>
-	<lit-tag v="pass"/>
-          <lit-tag v="prc_perf"/>
-        </lu>
-        <b/> 
-        <lu>
-         <lit v="бол"/>
- 	<lit-tag v="vaux"/>
-            <lit-tag v="6"/>
-          <lit-tag v="4"/>
-	<lit-tag v="3"/>
-          <lit-tag v="2"/>
-	
-        </lu>
-      </chunk>
-        </out>
-      </when>
 
-      <when>
-         <test>
-          <equal>
-             <clip pos="1" side="sl" part="a_tense"/>
-             <lit-tag v="past"/>
-          </equal>
-        </test>
-        <let><var n="tense"/><lit-tag v="ifi"/></let> 
-    <out>
-      <chunk name="pers-verb">
-       <tags>
-        <tag><lit-tag v="VP"/></tag>
-        <tag><lit-tag v="ND"/></tag> <!-- number -->
-        <tag><lit-tag v="PD"/></tag>
-        <tag><lit-tag v="past"/></tag>  
-        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
-        <tag><lit-tag v="neg"/></tag> <!-- negative -->
-      </tags>
-            <b pos="1"/>
-      <b pos="2"/>
-      <b pos="3"/>
-        <lu>
-          <clip pos="4" side="tl" part="lem"/>
-	  <clip pos="4" side="tl" part="a_kaz_verb"/>
- <lit-tag v="pass"/>
-          <lit-tag v="6"/>
-          <lit-tag v="4"/>
-	<lit-tag v="3"/>
-          <lit-tag v="2"/>
-	        </lu>
-      </chunk>
-        </out>
-      </when>
-      <otherwise>
-        <let><var n="tense"/><lit-tag v="aor"/></let>
-           <out><b pos="1"/><b pos="2"/><b pos="3"/></out>
-      <call-macro n="NEW-gen-simple-verb">
-         <with-param pos="2"/> 
-     </call-macro>
-      </otherwise> 
-    </choose>
-  </action>
-</rule>
+
 
 <rule comment="NEW RULE: will + be + verb-pp"> <!--Future1 Passive A books will be written  Кітап жазылады-->
 <!-- superblank management not correct yet -->
@@ -11768,6 +11670,107 @@ this would have to be changed -->
     </chunk>
     </out>
 
+  </action>
+</rule>
+
+<rule comment="NEW RULE: have + been + verb-pp"> 
+  <pattern>
+    <pattern-item n="vaux-have"/>
+ <pattern-item n="adv"/>
+    <pattern-item n="been"/> <!--past participle -->
+ <pattern-item n="verb-pp"/>
+    </pattern>
+  <action>    
+   <call-macro n="default-nbr-pers"/>
+    <choose>
+
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="past"/></let> 
+    <out>
+      <chunk name="have-adv-be-pp">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag>
+        <tag><lit-tag v="past"/></tag>  
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+  <lu>
+      <clip pos="2" side="tl" part="whole"/>
+	        </lu>
+      <b pos="2"/>
+       <lu>
+      <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+	  <lit-tag v="pass"/>
+          <lit-tag v="prc_perf"/>
+        </lu>
+        <b/>
+        <lu>
+         <lit v="бол"/>
+ 	<lit-tag v="vaux"/>
+          <lit-tag v="4"/>
+	<lit-tag v="3"/>
+          <lit-tag v="2"/>
+	
+        </lu>
+      </chunk>
+        </out>
+      </when>
+
+      <when>
+         <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="ifi"/></let> 
+    <out>
+      <chunk name="had-adv-be-pp">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag>
+        <tag><lit-tag v="past"/></tag>  
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+       <lu>
+      <clip pos="2" side="tl" part="whole"/>
+	        </lu>
+      <b pos="2"/>
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="pass"/>
+          <lit-tag v="4"/>
+          <lit-tag v="3"/>	
+          <lit-tag v="2"/>
+        </lu>
+      </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+   <out><b pos="1"/>  <lu>
+      <clip pos="2" side="tl" part="lem"/>
+	        </lu>
+      <b pos="2"/></out>
+      <call-macro n="NEW-gen-simple-verb">
+         <with-param pos="3"/> 
+     </call-macro>
+      </otherwise> 
+    </choose>
   </action>
 </rule>
 

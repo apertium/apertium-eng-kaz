@@ -6804,6 +6804,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>zombie<s n="n"/></l><r>зомби<s n="n"/></r></p></e>
 <e><p><l>zoology<s n="n"/></l><r>зоология<s n="n"/></r></p></e>
 <e><p><l>zoo<s n="n"/></l><r>хайуанаттар<b/>саябақ<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>Tu<s n="np"/><s n="al"/><s n="sg"/></l><r>Ту<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Kyzyl<s n="np"/><s n="al"/><s n="sg"/></l><r>Қызыл<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Eurasian<s n="n"/></l><r>еуразиялық<s n="n"/></r></p></e>
 
 <!--ProPER NOUNS -->
 
@@ -6812,6 +6815,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>England<s n="np"/><s n="loc"/><s n="sg"/></l><r>Ұлыбритания<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>France<s n="np"/><s n="loc"/><s n="sg"/></l><r>Франция<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="loc"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Kyzylorda<s n="np"/><s n="loc"/><s n="sg"/></l><r>Қызылорда<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Zhambyl<s n="np"/><s n="loc"/><s n="sg"/></l><r>Жамбыл<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Bashkortostan<s n="np"/><s n="loc"/><s n="sg"/></l><r>Башқұртстан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Karaganda<s n="np"/><s n="loc"/><s n="sg"/></l><r>Қарағанды<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Kostanai<s n="np"/><s n="loc"/><s n="sg"/></l><r>Қостанай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Asia<s n="np"/><s n="loc"/><s n="sg"/></l><r>Азия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Astana<s n="np"/><s n="loc"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>China<s n="np"/><s n="loc"/><s n="sg"/></l><r>Қытай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -7532,6 +7540,28 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Evelyn<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Эвелин<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Anuar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Әнуар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Kosman<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Қосман<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+<e><p><l>Abish<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбіш<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abzal<s n="np"/><s n="ant"/><s n="m"/></l><r>Абзал<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Adylbek<s n="np"/><s n="ant"/><s n="m"/></l><r>Әділбек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Aiman<s n="np"/><s n="ant"/><s n="f"/></l><r>Айман<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Amangeldy<s n="np"/><s n="ant"/><s n="m"/></l><r>Амангелді<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Amanzhol<s n="np"/><s n="ant"/><s n="m"/></l><r>Аманжол<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Arystan<s n="np"/><s n="ant"/><s n="m"/></l><r>Арыстан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Aslan<s n="np"/><s n="ant"/><s n="m"/></l><r>Аслан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Baurzhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Бауыржан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Daulet<s n="np"/><s n="ant"/><s n="m"/></l><r>Дәулет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Dilma<s n="np"/><s n="ant"/><s n="m"/></l><r>Ділма<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Kulyash<s n="np"/><s n="ant"/><s n="f"/></l><r>Күләш<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Mukhtar<s n="np"/><s n="ant"/><s n="m"/></l><r>Мұхтар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Nurgali<s n="np"/><s n="ant"/><s n="m"/></l><r>Нұрғалы<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Nurlan<s n="np"/><s n="ant"/><s n="m"/></l><r>Нұрлан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Serik<s n="np"/><s n="ant"/><s n="m"/></l><r>Серік<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Vladimir<s n="np"/><s n="ant"/><s n="m"/></l><r>Владимир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Zeman<s n="np"/><s n="ant"/><s n="m"/></l><r>Земан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+
+
 <e><p><l>Chavez<s n="np"/><s n="cog"/></l><r>Чавез<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
 <e><p><l>Thatcher<s n="np"/><s n="cog"/></l><r>Тэтчер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -7596,6 +7626,44 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e><p><l>Baiseitova<s n="np"/><s n="cog"/></l><r>Бәйсейітов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Quixote<s n="np"/><s n="cog"/></l><r>Кихот<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+
+<e><p><l>Abdishev<s n="np"/><s n="cog"/></l><r>Әбдішев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Akatovich<s n="np"/><s n="cog"/></l><r>Ақатұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Akhmetov<s n="np"/><s n="cog"/></l><r>Ахметов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Aldabergenov<s n="np"/><s n="cog"/></l><r>Алдабергенов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Andris<s n="np"/><s n="cog"/></l><r>Андрис<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Basbayeva<s n="np"/><s n="cog"/></l><r>Басбаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Berdymukhamedov<s n="np"/><s n="cog"/></l><r>Бердімұхаммедов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Bouchez<s n="np"/><s n="cog"/></l><r>Боучез<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Daulbayev<s n="np"/><s n="cog"/></l><r>Дауылбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dauletbekovich<s n="np"/><s n="cog"/></l><r>Дәулетбекұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Gatauov<s n="np"/><s n="cog"/></l><r>Гатауов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Guterres<s n="np"/><s n="cog"/></l><r>Гутеррес<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Kalibekovich<s n="np"/><s n="cog"/></l><r>Қалібекұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kenzhetayevich<s n="np"/><s n="cog"/></l><r>Кенжетайұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kusherbaev<s n="np"/><s n="cog"/></l><r>Көшербаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Nigmatullin<s n="np"/><s n="cog"/></l><r>Нигматуллин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Marchenko<s n="np"/><s n="cog"/></l><r>Марченко<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Milos<s n="np"/><s n="cog"/></l><r>Милос<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Mussakhodzhayeva<s n="np"/><s n="cog"/></l><r>Мұсаходжаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Musin<s n="np"/><s n="cog"/></l><r>Мусин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Mynbayev<s n="np"/><s n="cog"/></l><r>Мыңбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Nukenovich<s n="np"/><s n="cog"/></l><r>Нөкенұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Nurpeisov<s n="np"/><s n="cog"/></l><r>Нұрпейісов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ospanbayeva<s n="np"/><s n="cog"/></l><r>Оспанбаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Ryskulbekovich<s n="np"/><s n="cog"/></l><r>Рысқұлбекұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Rubinov<s n="np"/><s n="cog"/></l><r>Рубинов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Rousseff<s n="np"/><s n="cog"/></l><r>Руссефф<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Rustemova<s n="np"/><s n="cog"/></l><r>Рүстемов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Sadykulov<s n="np"/><s n="cog"/></l><r>Садықұлов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Satybaldyuly<s n="np"/><s n="cog"/></l><r>Сатыбалдыұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Smagulovich<s n="np"/><s n="cog"/></l><r>Смағұлұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tazhin<s n="np"/><s n="cog"/></l><r>Тәжін<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Teregulov<s n="np"/><s n="cog"/></l><r>Тереғұлов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tuleukhanovich<s n="np"/><s n="cog"/></l><r>Тілеуханұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tuiteyevich<s n="np"/><s n="cog"/></l><r>Түйтеұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhanburchinova<s n="np"/><s n="cog"/></l><r>Жанбурчинов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Zhankuliyev<s n="np"/><s n="cog"/></l><r>Жанқұлиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
    <!-- Раздел: Имя Числительное -->
 
@@ -8810,6 +8878,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>successful<s n="adj"/></l><r>табысты<s n="adj"/></r></p></e>
 <e><p><l>muslim<s n="adj"/></l><r>мұсылмандық<s n="adj"/></r></p></e>
 <e><p><l>european<s n="adj"/></l><r>еуропалық<s n="adj"/></r></p></e>
+<e><p><l>eurasian<s n="adj"/></l><r>еуразиялық<s n="adj"/></r></p></e>
 <e><p><l>serbian<s n="adj"/></l><r>сербиялық<s n="adj"/></r></p></e>
 <e><p><l>italian<s n="adj"/></l><r>итальяндық<s n="adj"/></r></p></e>
 <e><p><l>albanian<s n="adj"/></l><r>албаниялық<s n="adj"/></r></p></e>

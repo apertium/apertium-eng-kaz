@@ -40204,6 +40204,8 @@
 
                             <e lm="European" i=""><i>European</i><par n="house__n"/></e>
 
+                            <e lm="Eurasian" i=""><i>Eurasian</i><par n="house__n"/></e>
+
                             <e lm="French" i=""><i>French</i><par n="politics__n"/></e>
 
                             <e lm="Friday" i=""><i>Friday</i><par n="house__n"/></e>
@@ -51687,6 +51689,8 @@
                             <e lm="English" i=""><p><l>English</l><r>english</r></p><par n="expensive__adj"/></e>
 
                             <e lm="European" i=""><p><l>European</l><r>european</r></p><par n="expensive__adj"/></e>
+
+   <e lm="Eurasian" i=""><p><l>Eurasian</l><r>eurasian</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Falangist" i=""><p><l>Falangist</l><r>falangist</r></p><par n="expensive__adj"/></e>
 
@@ -78021,6 +78025,76 @@ F
                             <e lm="Adilbek Jaxybekov" i=""><i>Adilbek<b/>Jaxybekov</i><par n="Mark__np"/></e>
 
                             <e lm="Jaxybekov" i=""><i>Jaxybekov</i><par n="Smith__np"/></e>
+
+
+<e lm="Abdishev" i=""><i>Abdishev</i><par n="Smith__np"/></e>
+<e lm="Akatovich" i=""><i>Akatovich</i><par n="Smith__np"/></e>
+<e lm="Akhmetov" i=""><i>Akhmetov</i><par n="Smith__np"/></e>
+<e lm="Aldabergenov" i=""><i>Aldabergenov</i><par n="Smith__np"/></e>
+<e lm="Andris" i=""><i>Andris</i><par n="Smith__np"/></e>
+<e lm="Basbayeva" i=""><i>Basbayeva</i><par n="Smith__np"/></e>
+<e lm="Berdymukhamedov" i=""><i>Berdymukhamedov</i><par n="Smith__np"/></e>
+<e lm="Bouchez" i=""><i>Bouchez</i><par n="Smith__np"/></e>
+<e lm="Daulbayev" i=""><i>Daulbayev</i><par n="Smith__np"/></e>
+<e lm="Dauletbekovich" i=""><i>Dauletbekovich</i><par n="Smith__np"/></e>
+<e lm="Gatauov" i=""><i>Gatauov</i><par n="Smith__np"/></e>
+<e lm="Guterres" i=""><i>Guterres</i><par n="Smith__np"/></e>
+<e lm="Kalibekovich" i=""><i>Kalibekovich</i><par n="Smith__np"/></e>
+<e lm="Kenzhetayevich" i=""><i>Kenzhetayevich</i><par n="Smith__np"/></e>
+<e lm="Kusherbaev" i=""><i>Kusherbaev</i><par n="Smith__np"/></e>
+<e lm="Nigmatullin" i=""><i>Nigmatullin</i><par n="Smith__np"/></e>
+<e lm="Marchenko" i=""><i>Marchenko</i><par n="Smith__np"/></e>
+<e lm="Milos" i=""><i>Milos</i><par n="Smith__np"/></e>
+<e lm="Mussakhodzhayeva" i=""><i>Mussakhodzhayeva</i><par n="Smith__np"/></e>
+<e lm="Musin" i=""><i>Musin</i><par n="Smith__np"/></e>
+<e lm="Mynbayev" i=""><i>Mynbayev</i><par n="Smith__np"/></e>
+<e lm="Nukenovich" i=""><i>Nukenovich</i><par n="Smith__np"/></e>
+<e lm="Nurpeisov" i=""><i>Nurpeisov</i><par n="Smith__np"/></e>
+<e lm="Ospanbayeva" i=""><i>Ospanbayeva</i><par n="Smith__np"/></e>
+<e lm="Ryskulbekovich" i=""><i>Ryskulbekovich</i><par n="Smith__np"/></e>
+<e lm="Rubinov" i=""><i>Rubinov</i><par n="Smith__np"/></e>
+<e lm="Rousseff" i=""><i>Rousseff</i><par n="Smith__np"/></e>
+<e lm="Rustemova" i=""><i>Rustemova</i><par n="Smith__np"/></e>
+<e lm="Sadykulov" i=""><i>Sadykulov</i><par n="Smith__np"/></e>
+<e lm="Satybaldyuly" i=""><i>Satybaldyuly</i><par n="Smith__np"/></e>
+<e lm="Smagulovich" i=""><i>Smagulovich</i><par n="Smith__np"/></e>
+<e lm="Tazhin" i=""><i>Tazhin</i><par n="Smith__np"/></e>
+<e lm="Teregulov" i=""><i>Teregulov</i><par n="Smith__np"/></e>
+<e lm="Tuleukhanovich" i=""><i>Tuleukhanovich</i><par n="Smith__np"/></e>
+<e lm="Tuiteyevich" i=""><i>Tuiteyevich</i><par n="Smith__np"/></e>
+<e lm="Zhanburchinova" i=""><i>Zhanburchinova</i><par n="Smith__np"/></e>
+<e lm="Zhankuliyev" i=""><i>Zhankuliyev</i><par n="Smith__np"/></e>
+
+
+<e lm="Kyzylorda" i=""><i>Kyzylorda</i><par n="Barcelona__np"/></e>
+<e lm="Karaganda" i=""><i>Karaganda</i><par n="Barcelona__np"/></e>
+<e lm="Kostanai" i=""><i>Kostanai</i><par n="Barcelona__np"/></e>
+<e lm="Zhambyl" i=""><i>Zhambyl</i><par n="Barcelona__np"/></e>
+<e lm="Bashkortostan" i=""><i>Bashkortostan</i><par n="Barcelona__np"/></e>
+
+
+<e lm="Abish" i=""><i>Abish</i><par n="Mark__np"/></e>
+<e lm="Abzal" i=""><i>Abzal</i><par n="Mark__np"/></e>
+<e lm="Adylbek" i=""><i>Adylbek</i><par n="Mark__np"/></e>
+<e lm="Aiman" i=""><i>Aiman</i><par n="Mary__np"/></e>
+<e lm="Amangeldy" i=""><i>Amangeldy</i><par n="Mark__np"/></e>
+<e lm="Amanzhol" i=""><i>Amanzhol</i><par n="Mark__np"/></e>
+<e lm="Arystan" i=""><i>Arystan</i><par n="Mark__np"/></e>
+<e lm="Aslan" i=""><i>Aslan</i><par n="Mark__np"/></e>
+<e lm="Baurzhan" i=""><i>Baurzhan</i><par n="Mark__np"/></e>
+<e lm="Daulet" i=""><i>Daulet</i><par n="Mark__np"/></e>
+<e lm="Dilma" i=""><i>Dilma</i><par n="Mary__np"/></e>
+<e lm="Kulyash" i=""><i>Kulyash</i><par n="Mary__np"/></e>
+<e lm="Mukhtar" i=""><i>Mukhtar</i><par n="Mark__np"/></e>
+<e lm="Nurgali" i=""><i>Nurgali</i><par n="Mark__np"/></e>
+<e lm="Nurlan" i=""><i>Nurlan</i><par n="Mark__np"/></e>
+<e lm="Serik" i=""><i>Serik</i><par n="Mark__np"/></e>
+<e lm="Vladimir" i=""><i>Vladimir</i><par n="Mark__np"/></e>
+<e lm="Zeman" i=""><i>Zeman</i><par n="Mark__np"/></e>
+
+<e lm="Tu" i=""><i>Tu</i><par n="Linux__np"/></e>
+<e lm="Kyzyl" i=""><i>Kyzyl</i><par n="Linux__np"/></e>
+
 
                             <e lm="Airbus" i=""><i>Airbus</i><par n="Linux__np"/></e>
 

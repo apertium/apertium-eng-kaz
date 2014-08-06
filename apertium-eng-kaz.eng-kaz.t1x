@@ -346,6 +346,7 @@
       <attr-item tags="np.pat.m"/>
       <attr-item tags="np.cog.mf"/>
       <attr-item tags="np.cog.f"/>
+      <attr-item tags="np.al"/>
     </def-attr>
     <def-attr n="a_adjec">
        <attr-item tags="adj"/>

@@ -74025,7 +74025,9 @@ F
 
                             <e lm="artificially" i=""><i>artificially</i><par n="maybe__adv"/></e>
 
-                            <e lm="Timbuktu" i=""><i>Timbuktu</i><par n="Barcelona__np"/></e>
+                            
+                            <e lm="behalf" i=""><i>behalf</i><par n="maybe__adv"/></e>
+<e lm="Timbuktu" i=""><i>Timbuktu</i><par n="Barcelona__np"/></e>
 
                             <e lm="parachute" i=""><i>parachute</i><par n="house__n"/></e>
 
@@ -78071,6 +78073,8 @@ F
 <e lm="Kostanai" i=""><i>Kostanai</i><par n="Barcelona__np"/></e>
 <e lm="Zhambyl" i=""><i>Zhambyl</i><par n="Barcelona__np"/></e>
 <e lm="Bashkortostan" i=""><i>Bashkortostan</i><par n="Barcelona__np"/></e>
+<e lm="Barajas" i=""><i>Barajas</i><par n="Barcelona__np"/></e>
+
 
 
 <e lm="Abish" i=""><i>Abish</i><par n="Mark__np"/></e>
@@ -78088,9 +78092,11 @@ F
 <e lm="Mukhtar" i=""><i>Mukhtar</i><par n="Mark__np"/></e>
 <e lm="Nurgali" i=""><i>Nurgali</i><par n="Mark__np"/></e>
 <e lm="Nurlan" i=""><i>Nurlan</i><par n="Mark__np"/></e>
+<e lm="Raso" i=""><i>Raso</i><par n="Mark__np"/></e>
 <e lm="Serik" i=""><i>Serik</i><par n="Mark__np"/></e>
 <e lm="Vladimir" i=""><i>Vladimir</i><par n="Mark__np"/></e>
 <e lm="Zeman" i=""><i>Zeman</i><par n="Mark__np"/></e>
+<e lm="Urena-Raso" i=""><i>Urena-Raso</i><par n="Mark__np"/></e>
 
 <e lm="Tu" i=""><i>Tu</i><par n="Linux__np"/></e>
 <e lm="Kyzyl" i=""><i>Kyzyl</i><par n="Linux__np"/></e>
@@ -78113,6 +78119,8 @@ F
                             <e lm="ISAF" i=""><i>ISAF</i><par n="Linux__np"/></e>
 
                             <e lm="OSCE" i=""><i>OSCE</i><par n="Linux__np"/></e>
+
+                            <e lm="SCAT" i=""><i>SCAT</i><par n="Linux__np"/></e>
 
                             
 
@@ -79354,6 +79362,8 @@ F
                             <e lm="royal decree" i=""><i>royal<b/>decree</i><par n="house__n"/></e>
 
                             <e lm="BOE" i=""><i>BOE</i><par n="BBC__n"/></e>
+
+                            <e lm="CEO" i=""><i>CEO</i><par n="BBC__n"/></e>
 
                             <e lm="OJEU" i=""><i>OJEU</i><par n="BBC__n"/></e>
 

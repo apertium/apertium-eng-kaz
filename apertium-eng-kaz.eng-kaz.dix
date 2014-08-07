@@ -6818,6 +6818,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Kyzylorda<s n="np"/><s n="loc"/><s n="sg"/></l><r>Қызылорда<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Zhambyl<s n="np"/><s n="loc"/><s n="sg"/></l><r>Жамбыл<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Bashkortostan<s n="np"/><s n="loc"/><s n="sg"/></l><r>Башқұртстан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Barajas<s n="np"/><s n="loc"/><s n="sg"/></l><r>Барахас<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Karaganda<s n="np"/><s n="loc"/><s n="sg"/></l><r>Қарағанды<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Kostanai<s n="np"/><s n="loc"/><s n="sg"/></l><r>Қостанай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Asia<s n="np"/><s n="loc"/><s n="sg"/></l><r>Азия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -7166,8 +7167,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e><p><l>SFOR<s n="np"/><s n="al"/><s n="sg"/></l><r>SFOR<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Airbus<s n="np"/><s n="al"/><s n="sg"/></l><r>Airbus<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>SCAT<s n="np"/><s n="al"/><s n="sg"/></l><r>SCAT<s n="np"/><s n="org"/></r></p></e>
 
 
+<e><p><l>CEO<s n="n"/><s n="acr"/></l><r>бас<b/>директор<s n="n"/></r></p></e>
 <e><p><l>BBC<s n="n"/><s n="acr"/></l><r>ББС<s n="abbr"/></r></p></e>
     <e><p><l>PKK<s n="n"/><s n="acr"/></l><r>PKK<s n="abbr"/></r></p></e>
     <e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="abbr"/></r></p></e>
@@ -7360,6 +7363,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Alain<s n="np"/><s n="ant"/><s n="m"/></l><r>Алайн<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Alanis<s n="np"/><s n="ant"/><s n="f"/></l><r>Аланис<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Alan<s n="np"/><s n="ant"/><s n="m"/></l><r>Алан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Urena-Raso<s n="np"/><s n="ant"/><s n="m"/></l><r>Урена-Расо<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Raso<s n="np"/><s n="ant"/><s n="m"/></l><r>Расо<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 <e><p><l>Dakota<s n="np"/><s n="ant"/><s n="m"/></l><r>Дакота<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Bob<s n="np"/><s n="ant"/><s n="m"/></l><r>Боб<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -8190,6 +8195,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>wrongly<s n="adv"/></l><r>қателі<s n="adv"/></r></p></e>
 
 <e><p><l>highly<s n="adv"/></l><r>қатты<s n="adv"/></r></p></e>
+<e><p><l>behalf<s n="adv"/></l><r>атынан<s n="adv"/></r></p></e>
 	 <!-- isn't тағы a postadv? -->
     <e><p><l>around<s n="adv"/></l><r>төңірегінде<s n="adv"/></r></p></e>
     <e><p><l>no<s n="ij"/></l><r>жоқ<s n="ij"/></r></p></e> 

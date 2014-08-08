@@ -69825,6 +69825,10 @@ F
 
                             <e lm="sorrel" i=""><i>sorrel</i><par n="house__n"/></e>
 
+                            <e lm="sorrow" i=""><i>sorrow</i><par n="house__n"/></e>
+
+<e lm="sorrow" i=""><i>sorrow</i><par n="accept__vblex"/></e>
+
                             <e lm="sorter" i=""><i>sorter</i><par n="house__n"/></e>
 
                             <e lm="soundproofing" i=""><i>soundproofing</i><par n="house__n"/></e>
@@ -76715,7 +76719,9 @@ F
 
                             <e lm="homotopic" i=""><i>homotopic</i><par n="expensive__adj"/></e>
 
-                            <e lm="horned" i=""><i>horned</i><par n="expensive__adj"/></e>
+<e lm="horned" i=""><i>horned</i><par n="expensive__adj"/></e>
+
+                            <e lm="honored" i=""><i>honored</i><par n="expensive__adj"/></e>
 
                             <e lm="humiferous" i=""><i>humiferous</i><par n="expensive__adj"/></e>
 
@@ -78087,7 +78093,7 @@ F
 <e lm="Aslan" i=""><i>Aslan</i><par n="Mark__np"/></e>
 <e lm="Baurzhan" i=""><i>Baurzhan</i><par n="Mark__np"/></e>
 <e lm="Daulet" i=""><i>Daulet</i><par n="Mark__np"/></e>
-<e lm="Dilma" i=""><i>Dilma</i><par n="Mary__np"/></e>
+<e lm="Dilma" i=""><i>Dilma</i><par n="Mark__np"/></e>
 <e lm="Kulyash" i=""><i>Kulyash</i><par n="Mary__np"/></e>
 <e lm="Mukhtar" i=""><i>Mukhtar</i><par n="Mark__np"/></e>
 <e lm="Nurgali" i=""><i>Nurgali</i><par n="Mark__np"/></e>
@@ -78121,6 +78127,12 @@ F
                             <e lm="OSCE" i=""><i>OSCE</i><par n="Linux__np"/></e>
 
                             <e lm="SCAT" i=""><i>SCAT</i><par n="Linux__np"/></e>
+
+                            
+<e lm="SAS" i=""><i>SAS</i><par n="Linux__np"/></e>
+<e lm="JSC" i=""><i>JSC</i><par n="Linux__np"/></e>
+<e lm="MAXAM" i=""><i>MAXAM</i><par n="Linux__np"/></e>
+<e lm="OHL" i=""><i>OHL</i><par n="Linux__np"/></e>
 
                             
 

@@ -10614,7 +10614,7 @@ this would have to be changed -->
 </rule>
 
 
-<rule comment="NEW RULE: sup-adjec + nom">  
+<rule comment="NEW RULE: sup-adjec unknown nom">  
   <pattern>
     <pattern-item n="the"/>
     <pattern-item n="sup-adjec"/>
@@ -11674,7 +11674,7 @@ this would have to be changed -->
   </action>
 </rule>
 
-<rule comment="NEW RULE: have + been + verb-pp"> 
+<rule comment="NEW RULE: have + adv + been + verb-pp"> 
   <pattern>
     <pattern-item n="vaux-have"/>
  <pattern-item n="adv"/>
@@ -12660,7 +12660,7 @@ this would have to be changed -->
 </rule>
 
 
-<rule comment="NEW RULE: pseudo+to+inf"> <!--to play -->
+<rule comment="NEW RULE: adv-itg to inf-verb"> <!--to play -->
   <pattern>
     <pattern-item n="adv-itg"/>
     <pattern-item n="to"/>
@@ -12698,7 +12698,7 @@ this would have to be changed -->
 </rule>
 
 
-<rule comment="NEW RULE: pseudo+to+inf"> <!--to play -->
+<rule comment="NEW RULE: adjec to inf-verb"> <!--to play -->
   <pattern>
     <pattern-item n="adjec"/>
     <pattern-item n="to"/>
@@ -12776,7 +12776,7 @@ this would have to be changed -->
   </action>
 </rule>
 
-<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play -->
+<rule comment="NEW RULE: det nom to vblex-have"> <!--I like to play -->
   <pattern>
     <pattern-item n="det"/>
     <pattern-item n="nom"/>
@@ -12898,7 +12898,7 @@ this would have to be changed -->
   </action>
 </rule>
 
-<rule comment="NEW RULE: pseudo+to+inf"> <!--I like to play games or find -->
+<rule comment="NEW RULE: to inf nom cnjcoo in"> <!--I like to play games or find -->
   <pattern>
     <pattern-item n="to"/>
     <pattern-item n="approx-inf-verb"/> 

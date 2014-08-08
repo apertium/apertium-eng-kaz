@@ -6394,6 +6394,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>solstice<s n="n"/></l><r>күн<b/>тоқырау<s n="n"/></r></p></e>
 <e><p><l>Somali<s n="n"/></l><r>Сомалилық<s n="n"/></r></p></e>
 <e><p><l>sonata<s n="n"/></l><r>соната<s n="n"/></r></p></e>
+<e><p><l>sorrow<s n="n"/></l><r>қайғы<s n="n"/></r></p></e>
 <e><p><l>sortie<s n="n"/></l><r>ұшу<s n="n"/></r></p></e>
 <e><p><l>sovereign<s n="n"/></l><r>монарх<s n="n"/></r></p></e>
 <e><p><l>sow<s n="n"/></l><r>мегежін<s n="n"/></r></p></e>
@@ -7154,6 +7155,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Chevron<s n="np"/><s n="al"/></l><r>Шеврон<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Tengiz<s n="np"/><s n="al"/></l><r>Тенгиз<s n="np"/><s n="org"/></r></p></e>
   <e><p><l>OSCE<s n="np"/><s n="al"/><s n="sg"/></l><r>ЕҚЫҰ<s n="abbr"/></r></p></e>
+  <e><p><l>MAXAM<s n="np"/><s n="al"/><s n="sg"/></l><r>Максам<s n="abbr"/></r></p></e>
+  <e><p><l>JSE<s n="np"/><s n="al"/><s n="sg"/></l><r>АҚ<s n="abbr"/></r></p></e>
+  <e><p><l>OHL<s n="np"/><s n="al"/><s n="sg"/></l><r>OHL<s n="abbr"/></r></p></e>
 <e><p><l>EADS<s n="np"/><s n="al"/><s n="sg"/></l><r>ЕАҚК<s n="abbr"/></r></p></e>
     <e><p><l>Reuters<s n="np"/><s n="al"/><s n="sg"/></l><r>Реутерс<s n="np"/><s n="org"/></r></p></e>
  <e><p><l>Harvard<s n="np"/><s n="al"/><s n="sg"/></l><r>Гарвард<s n="np"/><s n="org"/></r></p></e>
@@ -9768,6 +9772,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>hierarchical<s n="adj"/></l><r>иерархиялық<s n="adj"/></r></p></e>
 <e><p><l>highland<s n="adj"/></l><r>жон<s n="adj"/></r></p></e>
 <e><p><l>honest<s n="adj"/></l><r>адал<s n="adj"/></r></p></e>
+<e><p><l>honored<s n="adj"/></l><r>еңбегі<b/>сіңген<s n="adj"/></r></p></e>
 <e><p><l>honourable<s n="adj"/></l><r>мәртебелі<s n="adj"/></r></p></e>
 <e><p><l>hooded<s n="adj"/></l><r>жабық<s n="adj"/></r></p></e>
 <e><p><l>hopeful<s n="adj"/></l><r>сенімді<s n="adj"/></r></p></e>
@@ -10933,7 +10938,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>emigrate<s n="vblex"/></l><r>көш<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>repatriate<s n="vblex"/></l><r>отанға<b/>қайта<b/>орал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>stream<s n="vblex"/></l><r>жібер<s n="v"/><s n="tv"/></r></p></e>
-
+<e><p><l>sorrow<s n="vblex"/></l><r>қайғыр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>demand<s n="vblex"/></l><r>сұран<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>fund<s n="vblex"/></l><r>жина<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>regard<s n="vblex"/></l><r>қабылда<s n="v"/><s n="tv"/></r></p></e>

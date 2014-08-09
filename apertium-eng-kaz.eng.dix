@@ -15518,6 +15518,8 @@
 
                             <e lm="effectively" i=""><i>effectively</i><par n="maybe__adv"/></e>
 
+                            <e lm="efficiently" i=""><i>efficiently</i><par n="maybe__adv"/></e>
+
                             <e lm="effortlessly" i=""><i>effortlessly</i><par n="maybe__adv"/></e>
 
                             <e lm="either" i=""><i>either</i><par n="maybe__adv"/></e>
@@ -42756,7 +42758,9 @@
 
                             <e lm="cosmopolitism" i=""><i>cosmopolitism</i><par n="house__n"/></e>
 
-                            <e lm="cosmos" i=""><i>cosmos</i><par n="east__n"/></e>
+                          <e lm="Cosmodrome" i=""><p><l>Cosmodrome</l><r>cosmodrome</r></p><par n="house__n"/></e>
+
+                            <e lm="solitude" i=""><i>solitude</i><par n="house__n"/></e>
 
                             <e lm="cost" i=""><i>cost</i><par n="house__n"/></e>
 
@@ -49048,6 +49052,8 @@
 
                             <e lm="sea" i=""><i>sea</i><par n="house__n"/></e>
 
+                            <e lm="seaport" i=""><i>seaport</i><par n="house__n"/></e>
+
                             <e lm="seal" i=""><i>seal</i><par n="house__n"/></e>
 
                             <e lm="search" i=""><i>search</i><par n="access__n"/></e>
@@ -52073,6 +52079,8 @@
                             <e lm="aerodynamic" i=""><i>aerodynamic</i><par n="expensive__adj"/></e>
 
                             <e lm="aeronautical" i=""><i>aeronautical</i><par n="expensive__adj"/></e>
+
+<e lm="Aeronautic" i=""><i>Aeronautic</i><par n="expensive__adj"/></e>
 
                             <e lm="aerospace" i=""><i>aerospace</i><par n="expensive__adj"/></e>
 
@@ -61015,7 +61023,7 @@ F
 
                             <e lm="in" i=""><i>in</i><par n="at__pr"/></e>
 
-                            <e lm="in accordance with" i=""><i>in<b/>accordance<b/>with</i><par n="at__pr"/></e>
+                            <e lm="in accordance" i=""><i>in<b/>accordance</i><par n="at__pr"/></e>
 
                             <e lm="apart from" i=""><i>apart<b/>from</i><par n="at__pr"/></e>
 
@@ -74049,6 +74057,8 @@ F
 
                             <e lm="Harvard" i=""><i>Harvard</i><par n="Linux__np"/></e>
 
+      			    <e lm="Altyn Kyran" i=""><i>Altyn<b/>Kyran</i><par n="Linux__np"/></e>
+
                             <e lm="iterative" i=""><i>iterative</i><par n="expensive__adj"/></e>
 
                             <e lm="enclave" i=""><i>enclave</i><par n="house__n"/></e>
@@ -78080,6 +78090,8 @@ F
 <e lm="Zhambyl" i=""><i>Zhambyl</i><par n="Barcelona__np"/></e>
 <e lm="Bashkortostan" i=""><i>Bashkortostan</i><par n="Barcelona__np"/></e>
 <e lm="Barajas" i=""><i>Barajas</i><par n="Barcelona__np"/></e>
+<e lm="Baikonur" i=""><i>Baikonur</i><par n="Barcelona__np"/></e>
+<e lm="Kyzyl Tu" i=""><i>Kyzyl<b/>Tu</i><par n="Barcelona__np"/></e>
 
 
 
@@ -78104,8 +78116,8 @@ F
 <e lm="Zeman" i=""><i>Zeman</i><par n="Mark__np"/></e>
 <e lm="Urena-Raso" i=""><i>Urena-Raso</i><par n="Mark__np"/></e>
 
-<e lm="Tu" i=""><i>Tu</i><par n="Linux__np"/></e>
-<e lm="Kyzyl" i=""><i>Kyzyl</i><par n="Linux__np"/></e>
+
+
 
 
                             <e lm="Airbus" i=""><i>Airbus</i><par n="Linux__np"/></e>

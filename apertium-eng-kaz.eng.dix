@@ -23771,6 +23771,8 @@
 
                             <e lm="fifth" i=""><i>fifth</i><par n="second__det"/></e>
 
+                            <e lm="Vth" i=""><i>Vth</i><par n="second__det"/></e>
+
                             <e lm="sixth" i=""><i>sixth</i><par n="second__det"/></e>
 
                             <e lm="seventh" i=""><i>seventh</i><par n="second__det"/></e>
@@ -39835,6 +39837,8 @@
 
                             <e lm="Nursultan" i=""><i>Nursultan</i><par n="Mark__np"/></e>
 
+                            <e lm="Nursyultan" i=""><i>Nursyultan</i><par n="Mark__np"/></e>
+
                             <e lm="Obama" i=""><i>Obama</i><par n="Smith__np"/></e>
 
                             <e lm="O'Grady" i=""><i>O'Grady</i><par n="Smith__np"/></e>
@@ -47421,6 +47425,8 @@
                             <e lm="parking" i=""><i>parking</i><par n="house__n"/></e>
 
                             <e lm="parliament" i=""><i>parliament</i><par n="house__n"/></e>
+
+                            <e lm="majilis" i=""><i>majilis</i><par n="house__n"/></e>
 
                             <e lm="parliamentarism" i=""><i>parliamentarism</i><par n="house__n"/></e>
 
@@ -56748,6 +56754,8 @@ F
                             <e lm="effect" i=""><i>effect</i><par n="accept__vblex"/></e>
 
                             <e lm="elaborate" i=""><i>elaborat</i><par n="liv/e__vblex"/></e>
+
+                            <e lm="elaboration" i=""><i>elaboration</i><par n="house__n"/></e>
 
                             <e lm="elect" i=""><i>elect</i><par n="accept__vblex"/></e>
 
@@ -69804,6 +69812,8 @@ F
 
                             <e lm="sociologism" i=""><i>sociologism</i><par n="house__n"/></e>
 
+                            <e lm="socio-economic" i=""><i>socio-economic</i><par n="expensive__adj"/></e>
+
                             <e lm="socket" i=""><i>socket</i><par n="house__n"/></e>
 
                             <e lm="solenoid" i=""><i>solenoid</i><par n="house__n"/></e>
@@ -72795,6 +72805,7 @@ F
                             <e lm="antepenultimate" i=""><i>antepenultimate</i><par n="expensive__adj"/></e>
 
                             <e lm="viceroy" i=""><i>viceroy</i><par n="house__n"/></e>
+                            <e lm="convocation" i=""><i>convocation</i><par n="house__n"/></e>
 
                             <e lm="convoy" i=""><i>convoy</i><par n="house__n"/></e>
 
@@ -77725,6 +77736,8 @@ F
 
                             <e lm="St. Petersburg" i=""><i>St.<b/>Petersburg</i><par n="Barcelona__np"/></e>
 
+                            <e lm="Petersburg" i=""><i>Petersburg</i><par n="Barcelona__np"/></e>
+
                             <e lm="Thessaloniki" i=""><i>Thessaloniki</i><par n="Barcelona__np"/></e>
 
                             <e lm="New Delhi" i=""><i>New<b/>Delhi</i><par n="Barcelona__np"/></e>
@@ -78078,9 +78091,11 @@ F
 <e lm="Mussakhodzhayeva" i=""><i>Mussakhodzhayeva</i><par n="Smith__np"/></e>
 <e lm="Musin" i=""><i>Musin</i><par n="Smith__np"/></e>
 <e lm="Mynbayev" i=""><i>Mynbayev</i><par n="Smith__np"/></e>
+<e lm="Nazarbyev" i=""><i>Nazarbyev</i><par n="Smith__np"/></e>
 <e lm="Nukenovich" i=""><i>Nukenovich</i><par n="Smith__np"/></e>
 <e lm="Nukenov" i=""><i>Nukenov</i><par n="Smith__np"/></e>
 <e lm="Nurpeisov" i=""><i>Nurpeisov</i><par n="Smith__np"/></e>
+<e lm="Ospanov" i=""><i>Ospanov</i><par n="Smith__np"/></e>
 <e lm="Ospanbayeva" i=""><i>Ospanbayeva</i><par n="Smith__np"/></e>
 <e lm="Ryskulbekovich" i=""><i>Ryskulbekovich</i><par n="Smith__np"/></e>
 <e lm="Rubinov" i=""><i>Rubinov</i><par n="Smith__np"/></e>
@@ -78136,6 +78151,8 @@ F
 
 
                             <e lm="Airbus" i=""><i>Airbus</i><par n="Linux__np"/></e>
+
+                            <e lm="Syrbar" i=""><i>Syrbar</i><par n="Linux__np"/></e>
 
                             <e lm="Airbus Military" i=""><i>Airbus<b/>Military</i><par n="Linux__np"/></e>
 
@@ -79671,7 +79688,11 @@ F
 
                             <e lm="antiaircraft" i=""><i>antiaircraft</i><par n="expensive__adj"/></e>
 
+                            <e lm="anti-monopoly" i=""><i>anti-monopoly</i><par n="expensive__adj"/></e>
+
                             <e lm="anti-aircraft" i=""><i>anti-aircraft</i><par n="expensive__adj"/></e>
+
+                            <e lm="agro-industrial" i=""><i>agro-industrial</i><par n="expensive__adj"/></e>
 
                             <e lm="air-to-air" i=""><i>air-to-air</i><par n="expensive__adj"/></e>
 
@@ -83564,6 +83585,8 @@ F
                             <e lm="Aenor" i=""><i>Aenor</i><par n="Linux__np"/></e>
 
                             <e lm="web hosting" i=""><i>web<b/>hosting</i><par n="house__n"/></e>
+
+                            <e lm="hosting" i=""><i>hosting</i><par n="house__n"/></e>
 
                             <e lm="web application" i=""><i>web<b/>application</i><par n="house__n"/></e>
 

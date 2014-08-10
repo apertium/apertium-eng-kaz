@@ -17994,9 +17994,13 @@
 
                             <e lm="stock exchange" i=""><i>stock<b/>exchange</i><par n="house__n"/></e>
 
+                            <e lm="upbringing" i=""><i>upbringing</i><par n="house__n"/></e>
+
                             <e lm="stock market" i=""><i>stock<b/>market</i><par n="house__n"/></e>
 
                             <e lm="NASDAQ" i=""><i>NASDAQ</i><par n="BBC__n"/></e>
+
+                            <e lm="KZT" i=""><i>KZT</i><par n="BBC__n"/></e>
 
                             <e lm="EPP-ED" i=""><i>EPP-ED</i><par n="BBC__n"/></e>
 
@@ -41405,6 +41409,8 @@
 
                             <e lm="bloodshed" i=""><i>bloodshed</i><par n="house__n"/></e>
 
+                            <e lm="blossom" i=""><i>blossom</i><par n="house__n"/></e>
+
                             <e lm="blouse" i=""><i>blouse</i><par n="house__n"/></e>
 
                             <e lm="blow" i=""><i>blow</i><par n="house__n"/></e>
@@ -42092,6 +42098,8 @@
                             <e lm="cigarette" i=""><i>cigarette</i><par n="house__n"/></e>
 
                             <e lm="cinema" i=""><i>cinema</i><par n="house__n"/></e>
+
+                            <e lm="cinematography" i=""><i>cinematography</i><par n="house__n"/></e>
 
                             <e lm="cinnamon" i=""><i>cinnamon</i><par n="house__n"/></e>
 
@@ -78060,6 +78068,7 @@ F
 <e lm="Dauletbekovich" i=""><i>Dauletbekovich</i><par n="Smith__np"/></e>
 <e lm="Gatauov" i=""><i>Gatauov</i><par n="Smith__np"/></e>
 <e lm="Guterres" i=""><i>Guterres</i><par n="Smith__np"/></e>
+<e lm="Kabikenov" i=""><i>Kabikenov</i><par n="Smith__np"/></e>
 <e lm="Kalibekovich" i=""><i>Kalibekovich</i><par n="Smith__np"/></e>
 <e lm="Kenzhetayevich" i=""><i>Kenzhetayevich</i><par n="Smith__np"/></e>
 <e lm="Kusherbaev" i=""><i>Kusherbaev</i><par n="Smith__np"/></e>

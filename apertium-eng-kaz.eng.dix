@@ -42759,7 +42759,9 @@
 
                             <e lm="cosmopolitism" i=""><i>cosmopolitism</i><par n="house__n"/></e>
 
-                          <e lm="Cosmodrome" i=""><p><l>Cosmodrome</l><r>cosmodrome</r></p><par n="house__n"/></e>
+                            <e lm="cosmopolitism" i=""><i>cosmopolitism</i><par n="house__n"/></e>
+
+                          <e lm="Cosmodrome" i=""><i>Cosmodrome</i><par n="house__n"/></e>
 
                             <e lm="solitude" i=""><i>solitude</i><par n="house__n"/></e>
 
@@ -78068,6 +78070,7 @@ F
 <e lm="Musin" i=""><i>Musin</i><par n="Smith__np"/></e>
 <e lm="Mynbayev" i=""><i>Mynbayev</i><par n="Smith__np"/></e>
 <e lm="Nukenovich" i=""><i>Nukenovich</i><par n="Smith__np"/></e>
+<e lm="Nukenov" i=""><i>Nukenov</i><par n="Smith__np"/></e>
 <e lm="Nurpeisov" i=""><i>Nurpeisov</i><par n="Smith__np"/></e>
 <e lm="Ospanbayeva" i=""><i>Ospanbayeva</i><par n="Smith__np"/></e>
 <e lm="Ryskulbekovich" i=""><i>Ryskulbekovich</i><par n="Smith__np"/></e>
@@ -78083,6 +78086,7 @@ F
 <e lm="Tuiteyevich" i=""><i>Tuiteyevich</i><par n="Smith__np"/></e>
 <e lm="Zhanburchinova" i=""><i>Zhanburchinova</i><par n="Smith__np"/></e>
 <e lm="Zhankuliyev" i=""><i>Zhankuliyev</i><par n="Smith__np"/></e>
+<e lm="Zhumabayev" i=""><i>Zhumabayev</i><par n="Smith__np"/></e>
 
 
 <e lm="Kyzylorda" i=""><i>Kyzylorda</i><par n="Barcelona__np"/></e>
@@ -78093,6 +78097,7 @@ F
 <e lm="Barajas" i=""><i>Barajas</i><par n="Barcelona__np"/></e>
 <e lm="Baikonur" i=""><i>Baikonur</i><par n="Barcelona__np"/></e>
 <e lm="Kyzyl Tu" i=""><i>Kyzyl<b/>Tu</i><par n="Barcelona__np"/></e>
+<e lm="Yekaterinburg" i=""><i>Yekaterinburg</i><par n="Barcelona__np"/></e>
 
 
 

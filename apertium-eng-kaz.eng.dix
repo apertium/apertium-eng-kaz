@@ -49559,6 +49559,8 @@
 
                             <e lm="sow" i=""><i>sow</i><par n="house__n"/></e>
 
+                            <e lm="sowing" i=""><i>sowing</i><par n="house__n"/></e>
+
                             <e r="LR" i=""><i>soya</i><par n="house__n"/></e>
 
                             <e r="LR" i=""><p><l>soy</l><r>soya</r></p><par n="house__n"/></e>
@@ -53926,6 +53928,8 @@
 
                             <e lm="neighbouring" i=""><i>neighbouring</i><par n="expensive__adj"/></e>
 
+                            <e lm="neighboring" i=""><i>neighboring</i><par n="expensive__adj"/></e>
+
                             <e lm="nervous" i=""><i>nervous</i><par n="expensive__adj"/></e>
 
                             <e lm="net" i=""><i>net</i><par n="expensive__adj"/></e>
@@ -54053,6 +54057,8 @@
                             <e lm="optimistic" i=""><i>optimistic</i><par n="expensive__adj"/></e>
 
                             <e lm="optimum" i=""><i>optimum</i><par n="expensive__adj"/></e>
+
+                            <e lm="optimal" i=""><i>optimal</i><par n="expensive__adj"/></e>
 
                             <e lm="optional" i=""><i>optional</i><par n="expensive__adj"/></e>
 
@@ -73147,6 +73153,8 @@ F
 
                             <e lm="carpel" i=""><i>carpel</i><par n="house__n"/></e>
 
+                            <e lm="capita" i=""><i>capita</i><par n="house__n"/></e>
+
                             <e lm="meters above sea level" i=""><i>metres<b/>above<b/>sea<b/>level</i><par n="personnel__n"/></e>
 
     
@@ -73171,6 +73179,8 @@ F
                             <e lm="fertilization" i=""><i>fertili</i><par n="globali/sation__n"/></e>
 
                             <e lm="adaptative" i=""><i>adaptative</i><par n="expensive__adj"/></e>
+
+                            <e lm="interethnic" i=""><i>interethnic</i><par n="expensive__adj"/></e>
 
                             <e lm="interrelationship" i=""><i>interrelationship</i><par n="house__n"/></e>
 
@@ -74080,6 +74090,8 @@ F
                             <e lm="Harvard" i=""><i>Harvard</i><par n="Linux__np"/></e>
 
       			    <e lm="Altyn Kyran" i=""><i>Altyn<b/>Kyran</i><par n="Linux__np"/></e>
+
+      			    <e lm="Akku" i=""><i>Akku</i><par n="Linux__np"/></e>
 
                             <e lm="iterative" i=""><i>iterative</i><par n="expensive__adj"/></e>
 
@@ -78081,6 +78093,7 @@ F
 <e lm="Dauletbekovich" i=""><i>Dauletbekovich</i><par n="Smith__np"/></e>
 <e lm="Gatauov" i=""><i>Gatauov</i><par n="Smith__np"/></e>
 <e lm="Guterres" i=""><i>Guterres</i><par n="Smith__np"/></e>
+
 <e lm="Kabikenov" i=""><i>Kabikenov</i><par n="Smith__np"/></e>
 <e lm="Kalibekovich" i=""><i>Kalibekovich</i><par n="Smith__np"/></e>
 <e lm="Kenzhetayevich" i=""><i>Kenzhetayevich</i><par n="Smith__np"/></e>
@@ -78108,6 +78121,8 @@ F
 <e lm="Teregulov" i=""><i>Teregulov</i><par n="Smith__np"/></e>
 <e lm="Tuleukhanovich" i=""><i>Tuleukhanovich</i><par n="Smith__np"/></e>
 <e lm="Tuiteyevich" i=""><i>Tuiteyevich</i><par n="Smith__np"/></e>
+<e lm="Tlendiyev" i=""><i>Tlendiyev</i><par n="Smith__np"/></e>
+<e lm="Tulebayev" i=""><i>Tulebayev</i><par n="Smith__np"/></e>
 <e lm="Zhanburchinova" i=""><i>Zhanburchinova</i><par n="Smith__np"/></e>
 <e lm="Zhankuliyev" i=""><i>Zhankuliyev</i><par n="Smith__np"/></e>
 <e lm="Zhumabayev" i=""><i>Zhumabayev</i><par n="Smith__np"/></e>
@@ -78134,11 +78149,16 @@ F
 <e lm="Arystan" i=""><i>Arystan</i><par n="Mark__np"/></e>
 <e lm="Aslan" i=""><i>Aslan</i><par n="Mark__np"/></e>
 <e lm="Baurzhan" i=""><i>Baurzhan</i><par n="Mark__np"/></e>
+<e lm="Birzhan" i=""><i>Birzhan</i><par n="Mark__np"/></e>
 <e lm="Daulet" i=""><i>Daulet</i><par n="Mark__np"/></e>
 <e lm="Dilma" i=""><i>Dilma</i><par n="Mark__np"/></e>
+<e lm="Gurbanguly" i=""><i>Gurbanguly</i><par n="Mark__np"/></e>
+<e lm="Hassanal" i=""><i>Hassanal</i><par n="Mark__np"/></e>
 <e lm="Kulyash" i=""><i>Kulyash</i><par n="Mary__np"/></e>
+<e lm="Mukan" i=""><i>Mukan</i><par n="Mark__np"/></e>
 <e lm="Mukhtar" i=""><i>Mukhtar</i><par n="Mark__np"/></e>
 <e lm="Nurgali" i=""><i>Nurgali</i><par n="Mark__np"/></e>
+<e lm="Nurgisa" i=""><i>Nurgisa</i><par n="Mark__np"/></e>
 <e lm="Nurlan" i=""><i>Nurlan</i><par n="Mark__np"/></e>
 <e lm="Raso" i=""><i>Raso</i><par n="Mark__np"/></e>
 <e lm="Serik" i=""><i>Serik</i><par n="Mark__np"/></e>
@@ -81397,6 +81417,8 @@ F
 
                             <e lm="keypad" i=""><i>keypad</i><par n="house__n"/></e>
 
+                            <e lm="kuy" i=""><i>kuy</i><par n="house__n"/></e>
+
                             <e lm="numeric key-pad" i=""><i>numeric<b/>key-pad</i><par n="house__n"/></e>
 
                             <e lm="numeric key pad" i=""><i>numeric<b/>key<b/>pad</i><par n="house__n"/></e>
@@ -83587,6 +83609,8 @@ F
                             <e lm="web hosting" i=""><i>web<b/>hosting</i><par n="house__n"/></e>
 
                             <e lm="hosting" i=""><i>hosting</i><par n="house__n"/></e>
+
+                            <e lm="instability" i=""><i>instability</i><par n="house__n"/></e>
 
                             <e lm="web application" i=""><i>web<b/>application</i><par n="house__n"/></e>
 

@@ -7328,6 +7328,35 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Sylvain<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Сильвэйн<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Vicente<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Висенте<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
+<e><p><l>Yerkegali<s n="np"/><s n="ant"/><s n="m"/></l><r>Еркеғали<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Askhat<s n="np"/><s n="ant"/><s n="m"/></l><r>Асхат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Bakhytzhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Бақытжан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Gabidolla<s n="np"/><s n="ant"/><s n="m"/></l><r>Ғабидолла<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Yerlan<s n="np"/><s n="ant"/><s n="m"/></l><r>Ерлан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Krymbek<s n="np"/><s n="ant"/><s n="m"/></l><r>Қырымбек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Arystanbek<s n="np"/><s n="ant"/><s n="m"/></l><r>Арыстанбек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Rzakhul<s n="np"/><s n="ant"/><s n="m"/></l><r>Рзақұл<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Grigory<s n="np"/><s n="ant"/><s n="m"/></l><r>Григорий<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Kassym<s n="np"/><s n="ant"/><s n="m"/></l><r>Қасым<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Zhomart<s n="np"/><s n="ant"/><s n="m"/></l><r>Жомарт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Marat<s n="np"/><s n="ant"/><s n="m"/></l><r>Марат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Xi<s n="np"/><s n="ant"/><s n="m"/></l><r>Си<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Kanat<s n="np"/><s n="ant"/><s n="m"/></l><r>Қанат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Kurgat<s n="np"/><s n="ant"/><s n="m"/></l><r>Кургат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abdi<s n="np"/><s n="ant"/><s n="m"/></l><r>Абди<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Darko<s n="np"/><s n="ant"/><s n="m"/></l><r>Дарко<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Hamish<s n="np"/><s n="ant"/><s n="m"/></l><r>Хэмиш<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Boupha<s n="np"/><s n="ant"/><s n="m"/></l><r>Буфа<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Thieng<s n="np"/><s n="ant"/><s n="m"/></l><r>Тхиенг<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abdizhamil<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбдіжәміл<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Aurelia<s n="np"/><s n="ant"/><s n="m"/></l><r>Аурелия<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Bakhyt<s n="np"/><s n="ant"/><s n="m"/></l><r>Бақыт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Akhmetzhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахметжан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Ansar<s n="np"/><s n="ant"/><s n="m"/></l><r>Аңсар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Temir<s n="np"/><s n="ant"/><s n="m"/></l><r>Темір<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Sauat<s n="np"/><s n="ant"/><s n="m"/></l><r>Сауат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+
 
 
 <e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Ана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>

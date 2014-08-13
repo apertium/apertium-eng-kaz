@@ -51711,6 +51711,8 @@
                             <e lm="Egyptian" i=""><p><l>Egyptian</l><r>egyptian</r></p><par n="expensive__adj"/></e>
                           <e lm="Kazakh" i=""><p><l>Kazakh</l><r>kazakh</r></p><par n="expensive__adj"/></e>
 
+<e lm="Turkmen" i=""><p><l>Turkmen</l><r>turkmen</r></p><par n="expensive__adj"/></e>
+
                             <e lm="English" i=""><p><l>English</l><r>english</r></p><par n="expensive__adj"/></e>
 
                             <e lm="European" i=""><p><l>European</l><r>european</r></p><par n="expensive__adj"/></e>
@@ -78156,7 +78158,9 @@ F
 <e lm="Zhurgenov" i=""><i>Zhurgenov</i><par n="Smith__np"/></e>
 <e lm="Jinping" i=""><i>Jinping</i><par n="Smith__np"/></e>
 <e lm="Bilisbekov" i=""><i>Bilisbekov</i><par n="Smith__np"/></e>
-<e lm="Berzins" i=""><i>Berzins</i><par n="Smith__np"/></e>
+<e lm="Berzins" i=""><i>Berzins</i><par n="Smith__np"/></e>Jeremić
+<e lm="Jeremić" i=""><i>Jeremić</i><par n="Smith__np"/></e>
+
 
 
 
@@ -78170,6 +78174,9 @@ F
 <e lm="Kyzyl Tu" i=""><i>Kyzyl<b/>Tu</i><par n="Barcelona__np"/></e>
 <e lm="Turkmenistan" i=""><i>Turkmenistan</i><par n="Barcelona__np"/></e>
 <e lm="Yekaterinburg" i=""><i>Yekaterinburg</i><par n="Barcelona__np"/></e>
+
+<e lm="Caspian" i=""><i>Caspian</i><par n="expensive__adj"/></e>
+<e lm="Transcaucasia" i=""><i>Transcaucasia</i><par n="Barcelona__np"/></e>
 
 
 
@@ -78229,8 +78236,11 @@ F
 
 
 
+                            <e lm="Serkhetyaka" i=""><i>Serkhetyaka</i><par n="Linux__np"/></e>
 
-                            <e lm="Airbus" i=""><i>Airbus</i><par n="Linux__np"/></e>
+   <e lm="Bereket" i=""><i>Bereket</i><par n="Linux__np"/></e>
+                            
+<e lm="Airbus" i=""><i>Airbus</i><par n="Linux__np"/></e>
 
                             <e lm="Syrbar" i=""><i>Syrbar</i><par n="Linux__np"/></e>
 

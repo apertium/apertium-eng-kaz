@@ -40651,6 +40651,8 @@
 
                             <e lm="amount" i=""><i>amount</i><par n="house__n"/></e>
 
+                            <e lm="amounting" i=""><i>amounting</i><par n="house__n"/></e>
+
                             <e lm="amphibian" i=""><i>amphibian</i><par n="house__n"/></e>
 
                             <e lm="amphitheatre" i=""><i>amphitheat</i><par n="cent/re__n"/></e>
@@ -59009,6 +59011,9 @@ F
                             <e lm="very" i=""><i>very</i><par n="very__preadv"/></e>
 
                             <e lm="God willing" i=""><i>God<b/>willing</i><par n="maybe__adv"/></e>
+
+
+ <e lm="underway" i=""><i>underway</i><par n="maybe__adv"/></e>
 
                             <e lm="together" i=""><i>together</i><par n="maybe__adv"/></e>
 

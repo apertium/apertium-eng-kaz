@@ -7678,6 +7678,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Zeman<s n="np"/><s n="ant"/><s n="m"/></l><r>Земан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Mukan<s n="np"/><s n="ant"/><s n="m"/></l><r>Мұқан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Hassanal<s n="np"/><s n="ant"/><s n="m"/></l><r>Хассанал<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Hedkvist<s n="np"/><s n="ant"/><s n="f"/></l><r>Хедквист<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 <e><p><l>Chavez<s n="np"/><s n="cog"/></l><r>Чавез<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
@@ -7748,6 +7749,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Zhaksylykov<s n="np"/><s n="cog"/></l><r>Жақсылықов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Zhasuzakov<s n="np"/><s n="cog"/></l><r>Жасұзақов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Zhumabayev<s n="np"/><s n="cog"/></l><r>Жұмабаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Petersen<s n="np"/><s n="cog"/></l><r>Петерсон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
 <e><p><l>Najib<s n="np"/><s n="cog"/><s n="mf"/></l><r>Наиб<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Razak<s n="np"/><s n="cog"/><s n="mf"/></l><r>Разак<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -8389,11 +8391,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
     <e><p><l>of<b/>course<s n="adv"/></l><r>әрине<s n="adv"/></r></p></e>
     <e><p><l>of<b/>course<s n="adv"/></l><r>әлбетте<s n="ij"/></r></p></e> <!-- This is an interjection -->
+    <e><p><l>systemic<s n="adv"/></l><r>жүйелі<s n="adv"/></r></p></e>
+    <e><p><l>wellbeing<s n="adv"/></l><r>жақсы<s n="adv"/></r></p></e>
     <e><p><l>well<s n="adv"/></l><r>жақсы<s n="adv"/></r></p></e>
     <e><p><l>still<s n="adv"/></l><r>әлі<b/>де<b/>болса<s n="adv"/></r></p></e>
     <e><p><l>there<s n="adv"/></l><r>анда<s n="adv"/></r></p></e>
 <e><p><l>here<s n="adv"/></l><r>мында<s n="adv"/></r></p></e>
 <e><p><l>late<s n="adv"/></l><r>кеш<s n="adv"/></r></p></e>
+<e><p><l>fourthly<s n="adv"/></l><r>төртіншіден<s n="adv"/></r></p></e>
 
 <e><p><l>so<s n="preadv"/></l><r>олай<s n="adv"/></r></p></e>
 <e><p><l>rather<s n="preadv"/></l><r>тезірек<s n="adv"/></r></p></e>

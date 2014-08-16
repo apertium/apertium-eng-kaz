@@ -6590,7 +6590,7 @@
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
         <out> <!-- with postposition -->
-          <chunk name="prep-nom12">
+          <chunk name="prep-post-nom12">
             <tags>
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="2" part="a_nbr" side="sl"/></tag> <!-- number -->
@@ -6629,7 +6629,7 @@
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="3" part="a_nbr" side="sl"/></tag> <!-- number -->
                 <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
-                <tag><lit-tag v="4"/></tag> <!-- just in case -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
                 <tag><var n="case"/></tag>       
             </tags>
             <b pos="1"/>
@@ -10677,7 +10677,7 @@ this would have to be changed -->
     <test>
 <equal><clip pos="1" side="sl" part="a_possessive"/><lit-tag v="px3sp"/></equal>
 </test>
-<let> <var n="possessive"/><clip pos="1" side="sl" part="a_possessive"/></let>
+<let> <var n="possessive"/><lit-tag v="px3sp"/><!--<clip pos="1" side="sl" part="a_possessive"/>--></let>
 </when>
 <otherwise>
 <let> <var n="possessive"/><lit-tag v="PXD"/></let>
@@ -10706,8 +10706,7 @@ this would have to be changed -->
     <pattern-item n="unknown"/>
   </pattern>
   <action>
-
-  
+ 
     <out>
     <chunk name="noun">
     <tags>

@@ -1721,7 +1721,7 @@
             <clip pos="3" part="a_nbr"/> <!-- agree number -->
             <clip pos="3" part="a_pers"/> <!-- agree person -->
             <clip pos="3" part="a_tense"/>
-            <clip pos="3" part="PXD"/>
+            <clip pos="3" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>
           </chunk>
@@ -1738,7 +1738,7 @@
             <clip pos="5" part="a_nbr"/> <!-- agree number -->
             <clip pos="5" part="a_pers"/> <!-- agree person -->
             <clip pos="5" part="a_tense"/>
-            <clip pos="5" part="PXD"/>
+            <clip pos="5" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="5" part="chcontent"/>
           </chunk>
@@ -2418,6 +2418,7 @@
             <clip pos="3" part="a_nbr"/>
             <clip pos="3" part="a_pers"/>
             <lit-tag v="ger"/>
+            <clip pos="3" part="a_possessive"/> 
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>
           </chunk>
@@ -2681,7 +2682,7 @@
             <clip pos="3" part="a_nbr"/> <!-- agree number -->
             <clip pos="3" part="a_pers"/> <!-- agree person -->
             <clip pos="3" part="a_tense"/>
-            <clip pos="3" part="PXD"/>
+            <clip pos="3" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>
         
@@ -2744,7 +2745,7 @@
             <clip pos="3" part="a_nbr"/> <!-- agree number -->
             <clip pos="3" part="a_pers"/> <!-- agree person -->
             <clip pos="3" part="a_tense"/>
-            <clip pos="3" part="PXD"/>
+            <clip pos="3" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>
         
@@ -2756,7 +2757,7 @@
             <clip pos="5" part="a_nbr"/> <!-- agree number -->
             <clip pos="5" part="a_pers"/> <!-- agree person -->
             <clip pos="5" part="a_tense"/>
-            <clip pos="5" part="PXD"/>
+            <clip pos="5" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="5" part="chcontent"/>
         
@@ -2774,7 +2775,7 @@
             <clip pos="7" part="a_nbr"/> <!-- agree number -->
             <clip pos="7" part="a_pers"/> <!-- agree person -->
             <clip pos="7" part="a_tense"/>
-            <clip pos="7" part="PXD"/>
+            <clip pos="7" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="7" part="chcontent"/>
         
@@ -2950,7 +2951,7 @@
             <lit-tag v="NP"/>
             <clip pos="3" part="a_nbr"/> <!-- agree number -->
             <clip pos="3" part="a_pers"/> <!-- agree person -->
-            <clip pos="3" part="PXD"/>
+            <clip pos="3" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>
           </chunk>

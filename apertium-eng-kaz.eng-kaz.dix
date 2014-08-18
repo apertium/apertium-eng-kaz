@@ -4132,6 +4132,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>cardboard<s n="n"/></l><r>картон<s n="n"/></r></p></e>
 <e><p><l>cardinal<s n="n"/></l><r>кардиналдық<s n="n"/></r></p></e>
 <e><p><l>cardiologist<s n="n"/></l><r>кардиолог<s n="n"/></r></p></e>
+<e><p><l>cargo<s n="n"/></l><r>жүк<s n="n"/></r></p></e>
 <e><p><l>caricaturist<s n="n"/></l><r>карикатурист<s n="n"/></r></p></e>
 <e><p><l>carnation<s n="n"/></l><r>қалампыр<s n="n"/></r></p></e>
 <e><p><l>carnival<s n="n"/></l><r>карнавал<s n="n"/></r></p></e>
@@ -4810,6 +4811,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>ether<s n="n"/></l><r>эфир<s n="n"/></r></p></e>
 <e><p><l>ethnicity<s n="n"/></l><r>этникалық<b/>мүлік<s n="n"/></r></p></e>
 <e><p><l>ethnography<s n="n"/></l><r>этнография<s n="n"/></r></p></e>
+<e><p><l>ethnopolicy<s n="n"/></l><r>этнополитика<s n="n"/></r></p></e>
 <e><p><l>etymology<s n="n"/></l><r>этимология<s n="n"/></r></p></e>
 <e><p><l>euphemism<s n="n"/></l><r>эвфемизм<s n="n"/></r></p></e>
 <e><p><l>euphoria<s n="n"/></l><r>тоқмейілсу<s n="n"/></r></p></e>
@@ -6669,6 +6671,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>transformation<s n="n"/></l><r>айналдыру<s n="n"/></r></p></e>
 <e><p><l>transformer<s n="n"/></l><r>трансформатор<s n="n"/></r></p></e>
 <e><p><l>transfusion<s n="n"/></l><r>құю<s n="n"/></r></p></e>
+<e><p><l>transit<s n="n"/></l><r>транзит<s n="n"/></r></p></e>
 <e><p><l>transmitter<s n="n"/></l><r>жіберуші<s n="n"/></r></p></e>
 <e><p><l>transplantation<s n="n"/></l><r>трансплантация<s n="n"/></r></p></e>
 <e><p><l>trapezoid<s n="n"/></l><r>трапеция<s n="n"/></r></p></e>
@@ -9507,6 +9510,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>avid<s n="adj"/><s n="sint"/></l><r>жебір<s n="adj"/></r></p></e>
 <e><p><l>avoidable<s n="adj"/></l><r>құтылымды<s n="adj"/></r></p></e>
 <e><p><l>bacteriological<s n="adj"/></l><r>бактериологиялық<s n="adj"/></r></p></e>
+<e><p><l>backbone<s n="adj"/></l><r>магистральдік<s n="adj"/></r></p></e>
 <e><p><l>ballistic<s n="adj"/></l><r>баллистикалық<s n="adj"/></r></p></e>
 <e><p><l>barbaric<s n="adj"/></l><r>варварлық<s n="adj"/></r></p></e>
 <e><p><l>barbarous<s n="adj"/></l><r>мәжуси<s n="adj"/></r></p></e>
@@ -10053,6 +10057,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>indispensable<s n="adj"/></l><r>тындырымды<s n="adj"/></r></p></e>
 <e><p><l>inhuman<s n="adj"/></l><r>адамгершіліксіз<s n="adj"/></r></p></e>
 <e><p><l>institutional<s n="adj"/></l><r>институционалды<s n="adj"/></r></p></e>
+<e><p><l>inter<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
 <e><p><l>interethnic<s n="adj"/></l><r>ұлтаралық<s n="adj"/></r></p></e>
 <e><p><l>intensive<s n="adj"/></l><r>жіті<s n="adj"/></r></p></e>
 <e><p><l>invaluable<s n="adj"/></l><r>құнсыз<s n="adj"/></r></p></e>
@@ -10227,6 +10232,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>intermediate<s n="adj"/></l><r>кезеңді<s n="adj"/></r></p></e>
 <e><p><l>intermittent<s n="adj"/></l><r>безгек<s n="adj"/></r></p></e>
 <e><p><l>interpersonal<s n="adj"/></l><r>тұлғаралық<s n="adj"/></r></p></e>
+<e><p><l>interreligious<s n="adj"/></l><r>ұлтаралық<s n="adj"/></r></p></e>
+<e><p><l>interstate<s n="adj"/></l><r>еларалық<s n="adj"/></r></p></e>
 <e><p><l>intestinal<s n="adj"/></l><r>ішекті<s n="adj"/></r></p></e>
 <e><p><l>intimate<s n="adj"/></l><r>жақын<s n="adj"/></r></p></e>
 <e><p><l>intolerable<s n="adj"/></l><r>шыдамсыз<s n="adj"/></r></p></e>
@@ -10291,6 +10298,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>lively<s n="adj"/><s n="sint"/></l><r>жанды<s n="adj"/></r></p></e>
 <e><p><l>lofty<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>
 <e><p><l>logistical<s n="adj"/></l><r>логистикалық<s n="adj"/></r></p></e>
+<e><p><l>logistic<s n="adj"/></l><r>логистикалық<s n="adj"/></r></p></e>
 <e><p><l>lonely<s n="adj"/><s n="sint"/></l><r>оқшау<s n="adj"/></r></p></e>
 <e><p><l>lone<s n="adj"/></l><r>оңаша<s n="adj"/></r></p></e>
 <e><p><l>longitudinal<s n="adj"/></l><r>бойлық<s n="adj"/></r></p></e>

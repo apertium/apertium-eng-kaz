@@ -50450,6 +50450,8 @@
 
                             <e lm="transition" i=""><i>transition</i><par n="house__n"/></e>
 
+ <e lm="transit" i=""><i>transit</i><par n="house__n"/></e>
+
                             <e lm="translation" i=""><i>translation</i><par n="house__n"/></e>
 
                             <e lm="translator" i=""><i>translator</i><par n="house__n"/></e>
@@ -52285,6 +52287,8 @@
 
                             <e lm="independence-minded" i=""><i>independence-minded</i><par n="expensive__adj"/></e>
 
+<e lm="backbone" i=""><i>backbone</i><par n="expensive__adj"/></e>
+
                             <e lm="beneficial" i=""><i>beneficial</i><par n="expensive__adj"/></e>
 
                             <e lm="biblical" i=""><i>biblical</i><par n="expensive__adj"/></e>
@@ -53671,6 +53675,8 @@
                             <e lm="logical" i=""><i>logical</i><par n="expensive__adj"/></e>
 
                             <e lm="logistical" i=""><i>logistical</i><par n="expensive__adj"/></e>
+
+<e lm="logistic" i=""><i>logistic</i><par n="expensive__adj"/></e>
 
                             <e lm="lonely" i=""><i>lonel</i><par n="happ/y__adj"/></e>
 
@@ -65201,11 +65207,15 @@ F
 
                             <e lm="ethnological" i=""><i>ethnological</i><par n="expensive__adj"/></e>
 
+<e lm="ethnopolicy" i=""><i>ethnopolicy</i><par n="bab/y__n"/></e>
+
                             <e lm="ethology" i=""><i>etholog</i><par n="bab/y__n"/></e>
 
                             <e lm="ethyl" i=""><i>ethyl</i><par n="house__n"/></e>
 
-                            <e lm="ethylamine" i=""><i>ethylamine</i><par n="house__n"/></e>
+                            <e lm="cargo" i=""><i>cargo</i><par n="house__n"/></e>                            
+
+<e lm="ethylamine" i=""><i>ethylamine</i><par n="house__n"/></e>
 
                             <e lm="etiology" i=""><i>etiolog</i><par n="bab/y__n"/></e>
 
@@ -66592,6 +66602,8 @@ F
                             <e lm="intellectualism" i=""><i>intellectualism</i><par n="house__n"/></e>
 
                             <e lm="intellectually" i=""><i>intellectually</i><par n="maybe__adv"/></e>
+
+<e lm="inter" i=""><i>inter</i><par n="expensive__adj"/></e>
 
                             <e lm="intelligently" i=""><i>intelligently</i><par n="maybe__adv"/></e>
 
@@ -73194,6 +73206,10 @@ F
                             <e lm="adaptative" i=""><i>adaptative</i><par n="expensive__adj"/></e>
 
                             <e lm="interethnic" i=""><i>interethnic</i><par n="expensive__adj"/></e>
+
+ <e lm="interreligious" i=""><i>interreligious</i><par n="expensive__adj"/></e>
+ <e lm="interstate" i=""><i>interstate</i><par n="expensive__adj"/></e>
+
 
                             <e lm="interrelationship" i=""><i>interrelationship</i><par n="house__n"/></e>
 

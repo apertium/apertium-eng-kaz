@@ -3016,7 +3016,7 @@
         </test>
             
         <out>
-      <chunk name="pers-verb">
+      <chunk name="pers-verb-neg-ing">
       <tags>
         <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -3059,7 +3059,7 @@
           </equal>
         </test>
         <out>
-      <chunk name="pers-verb">
+      <chunk name="past-verb-neg-ing">
             <tags>
         <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->

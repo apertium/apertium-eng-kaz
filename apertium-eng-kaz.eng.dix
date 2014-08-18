@@ -42579,6 +42579,12 @@
 
                             <e lm="conservatoire" i=""><i>conservatoire</i><par n="house__n"/></e>
 
+<e lm="conservatory" i=""><i>conservatory</i><par n="house__n"/></e>
+
+<e lm="collegium" i=""><i>collegium</i><par n="house__n"/></e>
+
+<e lm="casualty" i=""><i>casualty</i><par n="house__n"/></e>
+
                             <e lm="consideration" i=""><i>consideration</i><par n="house__n"/></e>
 
                             <e lm="consistency" i=""><i>consistenc</i><par n="bab/y__n"/></e>
@@ -51206,6 +51212,8 @@
                             <e lm="FPÖ" i=""><i>FPÖ</i><par n="house__n"/></e>
 
                             <e lm="public prosecutor" i=""><i>public<b/>prosecutor</i><par n="house__n"/></e>
+
+<e lm="prosecutor" i=""><i>prosecutor</i><par n="house__n"/></e>
 
                             <e lm="Gibraltarian" i=""><i>Gibraltarian</i><par n="house__n"/></e>
 
@@ -68861,6 +68869,8 @@ F
 
                             <e lm="preschool" i=""><i>preschool</i><par n="expensive__adj"/></e>
 
+<e lm="preschool" i=""><i>preschool</i><par n="house__n"/></e>
+
                             <e lm="presentable" i=""><i>presentable</i><par n="expensive__adj"/></e>
 
                             <e lm="pressing" i=""><i>pressing</i><par n="house__n"/></e>
@@ -70018,6 +70028,8 @@ F
                             <e lm="stabilize" i=""><i>stabili</i><par n="organi/ze__vblex"/></e>
 
                             <e lm="stabilizer" i=""><i>stabilizer</i><par n="house__n"/></e>
+
+<e lm="stance" i=""><i>stance</i><par n="house__n"/></e>
 
                             <e lm="stabling" i=""><i>stabling</i><par n="house__n"/></e>
 
@@ -74119,6 +74131,8 @@ F
                             <e lm="Harvard" i=""><i>Harvard</i><par n="Linux__np"/></e>
 
       			    <e lm="Altyn Kyran" i=""><i>Altyn<b/>Kyran</i><par n="Linux__np"/></e>
+
+<e lm="Nauryz" i=""><i>Nauryz</i><par n="Linux__np"/></e>
 
       			    <e lm="Akku" i=""><i>Akku</i><par n="Linux__np"/></e>
 

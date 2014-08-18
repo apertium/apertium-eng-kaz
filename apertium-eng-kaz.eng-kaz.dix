@@ -1352,7 +1352,13 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>video<s n="n"/></l><r>видео<s n="n"/></r></p></e>
 <e><p><l>Africa<s n="np"/><s n="loc"/><s n="sg"/></l><r>Африка<s n="n"/></r></p></e>
 <e><p><l>substance<s n="n"/></l><r>субстанция<s n="n"/></r></p></e>
+<e><p><l>stance<s n="n"/></l><r>позиция<s n="n"/></r></p></e>
+<e><p><l>preschool<s n="n"/></l><r>мектепке<b/>дейінгі<b/>мекеме<s n="n"/></r></p></e>
 <e><p><l>concert<s n="n"/></l><r>концерт<s n="n"/></r></p></e>
+<e><p><l>prosecutor<s n="n"/></l><r>прокурор<s n="n"/></r></p></e>
+<e><p><l>сonservatory<s n="n"/></l><r>консерватория<s n="n"/></r></p></e>
+<e><p><l>сollegium<s n="n"/></l><r>коллегия<s n="n"/></r></p></e>
+<e><p><l>casualtу<s n="n"/></l><r>құрбан<s n="n"/></r></p></e>
 <e><p><l>show<s n="n"/></l><r>шоу<s n="n"/></r></p></e>
 <e><p><l>man<s n="n"/></l><r>ер<s n="n"/></r></p></e>
 <e><p><l>motorcycle<s n="n"/></l><r>мотоцикл<s n="n"/></r></p></e>
@@ -6862,6 +6868,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>zoo<s n="n"/></l><r>хайуанаттар<b/>саябақ<s n="n"/><s n="px3sp"/></r></p></e>
 
 <e><p><l>Altyn<b/>Kyran<s n="np"/><s n="al"/><s n="sg"/></l><r>Алтын<b/>Қыран<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Nauryz<s n="np"/><s n="al"/><s n="sg"/></l><r>наурыз<s n="n"/></r></p></e>
 <e><p><l>Yenbek<b/>Yeri<s n="np"/><s n="al"/><s n="sg"/></l><r>Еңбек<b/>Ер<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>Akku<s n="np"/><s n="al"/><s n="sg"/></l><r>Аққу<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>Eurasian<s n="n"/></l><r>еуразиялық<s n="n"/></r></p></e>

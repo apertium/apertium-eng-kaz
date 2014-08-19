@@ -10504,6 +10504,437 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>pious<s n="adj"/></l><r>шарапатты<s n="adj"/></r></p></e>
 <e><p><l>pitiful<s n="adj"/></l><r>аянышты<s n="adj"/></r></p></e>
 
+<e><p><l>plain<s n="adj"/><s n="sint"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>plausible<s n="adj"/></l><r>қисынды<s n="adj"/></r></p></e>
+<e><p><l>pleasant<s n="adj"/></l><r>сүйкімді<s n="adj"/></r></p></e>
+<e><p><l>plebiscitary<s n="adj"/></l><r>плебисцитті<s n="adj"/></r></p></e>
+<e><p><l>poetic<s n="adj"/></l><r>ақындық<s n="adj"/></r></p></e>
+<e><p><l>poignant<s n="adj"/></l><r>өткір<s n="adj"/></r></p></e>
+<e><p><l>poised<s n="adj"/></l><r>теңдестірілген<s n="adj"/></r></p></e>
+<e><p><l>poisonous<s n="adj"/></l><r>улы<s n="adj"/></r></p></e>
+<e><p><l>polar<s n="adj"/></l><r>полярлық<s n="adj"/></r></p></e>
+<e><p><l>polemic<s n="adj"/></l><r>пікірталастық<s n="adj"/></r></p></e>
+<e><p><l>polite<s n="adj"/></l><r>сыпайы<s n="adj"/></r></p></e>
+<e><p><l>polyphonic<s n="adj"/></l><r>полифониялық<s n="adj"/></r></p></e>
+<e><p><l>polytheistic<s n="adj"/></l><r>политеистиялық<s n="adj"/></r></p></e>
+<e><p><l>populist<s n="adj"/></l><r>популист<s n="adj"/></r></p></e>
+<e><p><l>populous<s n="adj"/></l><r>ақар-шақар<s n="adj"/></r></p></e>
+<e><p><l>porous<s n="adj"/></l><r>болпылдақ<s n="adj"/></r></p></e>
+<e><p><l>portable<s n="adj"/></l><r>ықшамды<s n="adj"/></r></p></e>
+<e><p><l>postal<s n="adj"/></l><r>пошталық<s n="adj"/></r></p></e>
+<e><p><l>posthumous<s n="adj"/></l><r>өлгеннен<b/>кейінгі<s n="adj"/></r></p></e>
+<e><p><l>postmodern<s n="adj"/></l><r>постмодерн<s n="adj"/></r></p></e>
+<e><p><l>postwar<s n="adj"/></l><r>соғыстан<b/>кейінгі<s n="adj"/></r></p></e>
+<e><p><l>potable<s n="adj"/></l><r>ішетін<s n="adj"/></r></p></e>
+<e><p><l>powerless<s n="adj"/></l><r>әлсіз<s n="adj"/></r></p></e>
+<e><p><l>pragmatic<s n="adj"/></l><r>прагматикалық<s n="adj"/></r></p></e>
+<e><p><l>precarious<s n="adj"/></l><r>көлденең<s n="adj"/></r></p></e>
+<e><p><l>precious<s n="adj"/></l><r>қымбат<s n="adj"/></r></p></e>
+<e><p><l>precise<s n="adj"/></l><r>тиянақты<s n="adj"/></r></p></e>
+<e><p><l>predictable<s n="adj"/></l><r>болжанатын<s n="adj"/></r></p></e>
+<e><p><l>preferable<s n="adj"/></l><r>ұнамды<s n="adj"/></r></p></e>
+<e><p><l>preferential<s n="adj"/></l><r>ұнайтын<s n="adj"/></r></p></e>
+<e><p><l>pregnant<s n="adj"/></l><r>екіқабат<s n="adj"/></r></p></e>
+<e><p><l>prehistoric<s n="adj"/></l><r>тарихалды<s n="adj"/></r></p></e>
+<e><p><l>preparatory<s n="adj"/></l><r>дайындайтын<s n="adj"/></r></p></e>
+<e><p><l>prestigious<s n="adj"/></l><r>абыройлы<s n="adj"/></r></p></e>
+<e><p><l>preventable<s n="adj"/></l><r>ескертпелі<s n="adj"/></r></p></e>
+<e><p><l>preventive<s n="adj"/></l><r>кішіпейіл<s n="adj"/></r></p></e>
+<e><p><l>prickly<s n="adj"/><s n="sint"/></l><r>қадалғыш<s n="adj"/></r></p></e>
+<e><p><l>primitive<s n="adj"/></l><r>қарабайыр<s n="adj"/></r></p></e>
+<e><p><l>privileged<s n="adj"/></l><r>пұрсатты<s n="adj"/></r></p></e>
+<e><p><l>probing<s n="adj"/></l><r>зерттеулі<s n="adj"/></r></p></e>
+<e><p><l>problematic<s n="adj"/></l><r>мәселелік<s n="adj"/></r></p></e>
+<e><p><l>procedural<s n="adj"/></l><r>процедуралық<s n="adj"/></r></p></e>
+<e><p><l>prodigious<s n="adj"/></l><r>тамаша<s n="adj"/></r></p></e>
+<e><p><l>productive<s n="adj"/></l><r>өндіргіш<s n="adj"/></r></p></e>
+<e><p><l>profitable<s n="adj"/></l><r>табысты<s n="adj"/></r></p></e>
+<e><p><l>profound<s n="adj"/></l><r>терең<s n="adj"/></r></p></e>
+<e><p><l>progressive<s n="adj"/></l><r>озық<s n="adj"/></r></p></e>
+<e><p><l>prolific<s n="adj"/></l><r>шұрайлы<s n="adj"/></r></p></e>
+<e><p><l>promissory<s n="adj"/></l><r>қорытындылаушы<b/><b/><b/>уәде<s n="adj"/></r></p></e>
+<e><p><l>proportional<s n="adj"/></l><r>пропорционал<s n="adj"/></r></p></e>
+<e><p><l>proportionate<s n="adj"/></l><r>пропорционал<s n="adj"/></r></p></e>
+<e><p><l>proprietary<s n="adj"/></l><r>жеке<s n="adj"/></r></p></e>
+<e><p><l>prospective<s n="adj"/></l><r>мөлшерлі<s n="adj"/></r></p></e>
+<e><p><l>protectionist<s n="adj"/></l><r>протекционистік<s n="adj"/></r></p></e>
+<e><p><l>protective<s n="adj"/></l><r>қорғаныстық<s n="adj"/></r></p></e>
+<e><p><l>provable<s n="adj"/></l><r>дәлелдік<s n="adj"/></r></p></e>
+<e><p><l>proverbial<s n="adj"/></l><r>әйгілі<s n="adj"/></r></p></e>
+<e><p><l>provisional<s n="adj"/></l><r>мезгілдік<s n="adj"/></r></p></e>
+<e><p><l>prudential<s n="adj"/></l><r>ақылдылықпен<s n="adj"/></r></p></e>
+<e><p><l>psychiatric<s n="adj"/></l><r>психиатриялық<s n="adj"/></r></p></e>
+<e><p><l>psychoactive<s n="adj"/></l><r>психоактивті<s n="adj"/></r></p></e>
+<e><p><l>psychological<s n="adj"/></l><r>психологиялық<s n="adj"/></r></p></e>
+<e><p><l>psychosocial<s n="adj"/></l><r>психосоциологиялық<s n="adj"/></r></p></e>
+<e><p><l>psychosomatic<s n="adj"/></l><r>психосоматикалық<s n="adj"/></r></p></e>
+<e><p><l>punctual<s n="adj"/></l><r>уақытылы<s n="adj"/></r></p></e>
+<e><p><l>punishable<s n="adj"/></l><r>жазалайтын<s n="adj"/></r></p></e>
+<e><p><l>pure<s n="adj"/><s n="sint"/></l><r>таза<s n="adj"/></r></p></e>
+<e><p><l>purposeless<s n="adj"/></l><r>мақсатсыз<s n="adj"/></r></p></e>
+<e><p><l>pyramidal<s n="adj"/></l><r>пирамидалық<s n="adj"/></r></p></e>
+<e><p><l>quaint<s n="adj"/><s n="sint"/></l><r>оғаш<s n="adj"/></r></p></e>
+<e><p><l>qualitative<s n="adj"/></l><r>нарықты<s n="adj"/></r></p></e>
+<e><p><l>quantifiable<s n="adj"/></l><r>өлшемді<s n="adj"/></r></p></e>
+<e><p><l>quantitative<s n="adj"/></l><r>сандық<s n="adj"/></r></p></e>
+<e><p><l>quarterly<s n="adj"/></l><r>тоқсандық<s n="adj"/></r></p></e>
+<e><p><l>questionable<s n="adj"/></l><r>күдікті<s n="adj"/></r></p></e>
+<e><p><l>quick<s n="adj"/><s n="sint"/></l><r>тез<s n="adj"/></r></p></e>
+<e><p><l>racist<s n="adj"/></l><r>нәсілшіл<s n="adj"/></r></p></e>
+<e><p><l>radioactive<s n="adj"/></l><r>радиоактивті<s n="adj"/></r></p></e>
+<e><p><l>rainy<s n="adj"/><s n="sint"/></l><r>жауынды<s n="adj"/></r></p></e>
+<e><p><l>random<s n="adj"/></l><r>көлденең<s n="adj"/></r></p></e>
+<e><p><l>rational<s n="adj"/></l><r>тиімді<s n="adj"/></r></p></e>
+<e><p><l>reactive<s n="adj"/></l><r>реактивті<s n="adj"/></r></p></e>
+<e><p><l>realistic<s n="adj"/></l><r>шыншыл<s n="adj"/></r></p></e>
+<e><p><l>rebellious<s n="adj"/></l><r>бүлік<b/>салғыш<s n="adj"/></r></p></e>
+<e><p><l>reciprocal<s n="adj"/></l><r>өзара<s n="adj"/></r></p></e>
+<e><p><l>reckless<s n="adj"/></l><r>құмар<s n="adj"/></r></p></e>
+<e><p><l>recognizable<s n="adj"/></l><r>танылатын<s n="adj"/></r></p></e>
+<e><p><l>recorder<s n="adj"/></l><r>тіркегіш<s n="adj"/></r></p></e>
+<e><p><l>recreational<s n="adj"/></l><r>ойын-сауық<s n="adj"/></r></p></e>
+<e><p><l>rectangular<s n="adj"/></l><r>тіктөртбұрышт<s n="adj"/></r></p></e>
+<e><p><l>recurrent<s n="adj"/></l><r>реккурентті<s n="adj"/></r></p></e>
+<e><p><l>recyclable<s n="adj"/></l><r>қайта<b/>өнделетін<s n="adj"/></r></p></e>
+<e><p><l>reddish<s n="adj"/></l><r>қызылдау<s n="adj"/></r></p></e>
+<e><p><l>redundant<s n="adj"/></l><r>артық<s n="adj"/></r></p></e>
+<e><p><l>reflective<s n="adj"/></l><r>ойланған<s n="adj"/></r></p></e>
+<e><p><l>reformist<s n="adj"/></l><r>реформашыл<s n="adj"/></r></p></e>
+<e><p><l>refundable<s n="adj"/></l><r>қайталама<s n="adj"/></r></p></e>
+<e><p><l>regrettable<s n="adj"/></l><r>өкінішті<s n="adj"/></r></p></e>
+<e><p><l>regulatory<s n="adj"/></l><r>реттелген<s n="adj"/></r></p></e>
+<e><p><l>relational<s n="adj"/></l><r>реляциялық<s n="adj"/></r></p></e>
+<e><p><l>relentless<s n="adj"/></l><r>рақымсыз<s n="adj"/></r></p></e>
+<e><p><l>reliable<s n="adj"/></l><r>сенімді<s n="adj"/></r></p></e>
+<e><p><l>remedial<s n="adj"/></l><r>шипалы<s n="adj"/></r></p></e>
+<e><p><l>renal<s n="adj"/></l><r>бүйректік<s n="adj"/></r></p></e>
+<e><p><l>renewable<s n="adj"/></l><r>жаңартылмалы<s n="adj"/></r></p></e>
+<e><p><l>repetitive<s n="adj"/></l><r>қайталанбалы<s n="adj"/></r></p></e>
+<e><p><l>reproductive<s n="adj"/></l><r>өнделетін<s n="adj"/></r></p></e>
+<e><p><l>residual<s n="adj"/></l><r>қалдық<s n="adj"/></r></p></e>
+<e><p><l>resistant<s n="adj"/></l><r>берік<s n="adj"/></r></p></e>
+<e><p><l>respectful<s n="adj"/></l><r>бейілді<s n="adj"/></r></p></e>
+<e><p><l>respiratory<s n="adj"/></l><r>тыныстық<s n="adj"/></r></p></e>
+<e><p><l>restless<s n="adj"/></l><r>тынымсыз<s n="adj"/></r></p></e>
+<e><p><l>resultant<s n="adj"/></l><r>нәтижелік<s n="adj"/></r></p></e>
+<e><p><l>retroactive<s n="adj"/></l><r>retroactive<s n="adj"/></r></p></e>
+<e><p><l>retrograde<s n="adj"/></l><r>ретроград<s n="adj"/></r></p></e>
+<e><p><l>retrospective<s n="adj"/></l><r>кері<b/>күш<s n="adj"/></r></p></e>
+<e><p><l>reusable<s n="adj"/></l><r>қайта<b/>қолданатын<s n="adj"/></r></p></e>
+<e><p><l>reversible<s n="adj"/></l><r>айналымды<s n="adj"/></r></p></e>
+<e><p><l>revisionist<s n="adj"/></l><r>ревизионист<s n="adj"/></r></p></e>
+<e><p><l>rhetorical<s n="adj"/></l><r>риторикалық<s n="adj"/></r></p></e>
+<e><p><l>rhythmic<s n="adj"/></l><r>ырғақты<s n="adj"/></r></p></e>
+<e><p><l>ridiculous<s n="adj"/></l><r>күлкілі<s n="adj"/></r></p></e>
+<e><p><l>risky<s n="adj"/><s n="sint"/></l><r>қатерлі<s n="adj"/></r></p></e>
+<e><p><l>ritualistic<s n="adj"/></l><r>дәстүрлік<s n="adj"/></r></p></e>
+<e><p><l>robed<s n="adj"/></l><r>киімшең<s n="adj"/></r></p></e>
+<e><p><l>robotic<s n="adj"/></l><r>роботтық<s n="adj"/></r></p></e>
+<e><p><l>rocky<s n="adj"/><s n="sint"/></l><r>жартасты<s n="adj"/></r></p></e>
+<e><p><l>romantic<s n="adj"/></l><r>романтикалық<s n="adj"/></r></p></e>
+<e><p><l>rosy<s n="adj"/><s n="sint"/></l><r>қызғылт<s n="adj"/></r></p></e>
+<e><p><l>rotary<s n="adj"/></l><r>айналымды<s n="adj"/></r></p></e>
+<e><p><l>rotational<s n="adj"/></l><r>ротациялық<s n="adj"/></r></p></e>
+<e><p><l>rudimentary<s n="adj"/></l><r>рудиментарлық<s n="adj"/></r></p></e>
+<e><p><l>rugged<s n="adj"/></l><r>берік<s n="adj"/></r></p></e>
+<e><p><l>sabbatical<s n="adj"/></l><r>шығармашылық<b/>демалыс<s n="adj"/></r></p></e>
+<e><p><l>salaried<s n="adj"/></l><r>штаттық<s n="adj"/></r></p></e>
+<e><p><l>salient<s n="adj"/></l><r>баяндамашы<s n="adj"/></r></p></e>
+<e><p><l>salty<s n="adj"/><s n="sint"/></l><r>ащы<s n="adj"/></r></p></e>
+<e><p><l>sandy<s n="adj"/><s n="sint"/></l><r>құмды<s n="adj"/></r></p></e>
+<e><p><l>sanitary<s n="adj"/></l><r>санитарлық<s n="adj"/></r></p></e>
+<e><p><l>satirical<s n="adj"/></l><r>сатиралық<s n="adj"/></r></p></e>
+<e><p><l>saturated<s n="adj"/></l><r>қанық<s n="adj"/></r></p></e>
+<e><p><l>scarce<s n="adj"/></l><r>жетімсіз<s n="adj"/></r></p></e>
+<e><p><l>scathing<s n="adj"/></l><r>жұтатын<s n="adj"/></r></p></e>
+<e><p><l>scenic<s n="adj"/></l><r>сцениялық<s n="adj"/></r></p></e>
+<e><p><l>schematic<s n="adj"/></l><r>жүйелік<s n="adj"/></r></p></e>
+<e><p><l>scholarly<s n="adj"/></l><r>академиялық<s n="adj"/></r></p></e>
+<e><p><l>scorching<s n="adj"/></l><r>ыстық<s n="adj"/></r></p></e>
+<e><p><l>sculptural<s n="adj"/></l><r>мүсіндік<s n="adj"/></r></p></e>
+<e><p><l>secondhand<s n="adj"/></l><r>ұсталынған<s n="adj"/></r></p></e>
+<e><p><l>sectarian<s n="adj"/></l><r>сектандық<s n="adj"/></r></p></e>
+<e><p><l>sectorial<s n="adj"/></l><r>секторлық<s n="adj"/></r></p></e>
+<e><p><l>seismic<s n="adj"/></l><r>сейсмикалық<s n="adj"/></r></p></e>
+<e><p><l>selfish<s n="adj"/></l><r>өзімшіл<s n="adj"/></r></p></e>
+<e><p><l>selfless<s n="adj"/></l><r>қайсар<s n="adj"/></r></p></e>
+<e><p><l>semiannual<s n="adj"/></l><r>жартыжылдық<s n="adj"/></r></p></e>
+<e><p><l>seminal<s n="adj"/></l><r>тұқымды<s n="adj"/></r></p></e>
+<e><p><l>senegalese<s n="adj"/></l><r>сенегалдық<s n="adj"/></r></p></e>
+<e><p><l>sensationalistic<s n="adj"/></l><r>сенсациялық<s n="adj"/></r></p></e>
+<e><p><l>sensible<s n="adj"/></l><r>ақылман<s n="adj"/></r></p></e>
+<e><p><l>sensitive<s n="adj"/></l><r>сезімтал<s n="adj"/></r></p></e>
+<e><p><l>sentimental<s n="adj"/></l><r>сентименталдық<s n="adj"/></r></p></e>
+<e><p><l>shabby<s n="adj"/><s n="sint"/></l><r>көнетоз<s n="adj"/></r></p></e>
+<e><p><l>shady<s n="adj"/><s n="sint"/></l><r>көлеңкелі<s n="adj"/></r></p></e>
+<e><p><l>shallow<s n="adj"/><s n="sint"/></l><r>ұсақ<s n="adj"/></r></p></e>
+<e><p><l>shameful<s n="adj"/></l><r>ұятты<s n="adj"/></r></p></e>
+<e><p><l>shameless<s n="adj"/></l><r>арсыз<s n="adj"/></r></p></e>
+<e><p><l>shiny<s n="adj"/><s n="sint"/></l><r>жылтырақ<s n="adj"/></r></p></e>
+<e><p><l>shoddy<s n="adj"/><s n="sint"/></l><r>жасанды<s n="adj"/></r></p></e>
+<e><p><l>shy<s n="adj"/><s n="sint"/></l><r>ұялшақ<s n="adj"/></r></p></e>
+<e><p><l>sick<s n="adj"/><s n="sint"/></l><r>ауру<s n="adj"/></r></p></e>
+<e><p><l>silent<s n="adj"/></l><r>жым-жырт<s n="adj"/></r></p></e>
+<e><p><l>silly<s n="adj"/><s n="sint"/></l><r>ақылсыз<s n="adj"/></r></p></e>
+<e><p><l>simplistic<s n="adj"/></l><r>оңайлатылған<s n="adj"/></r></p></e>
+<e><p><l>simultaneous<s n="adj"/></l><r>бірмезгілдік<s n="adj"/></r></p></e>
+<e><p><l>sinister<s n="adj"/></l><r>ашуқор<s n="adj"/></r></p></e>
+<e><p><l>skeptical<s n="adj"/></l><r>сенбеушілік<s n="adj"/></r></p></e>
+<e><p><l>skillful<s n="adj"/></l><r>білікті<s n="adj"/></r></p></e>
+<e><p><l>slavic<s n="adj"/></l><r>славяндық<s n="adj"/></r></p></e>
+<e><p><l>sleepless<s n="adj"/></l><r>ұйқысыз<s n="adj"/></r></p></e>
+<e><p><l>slender<s n="adj"/></l><r>пішінді<s n="adj"/></r></p></e>
+<e><p><l>sliding<s n="adj"/></l><r>сырғитын<s n="adj"/></r></p></e>
+<e><p><l>slight<s n="adj"/></l><r>жеңіл<s n="adj"/></r></p></e>
+<e><p><l>slim<s n="adj"/><s n="sint"/></l><r>жіңішке<s n="adj"/></r></p></e>
+<e><p><l>slippery<s n="adj"/></l><r>тайғақ<s n="adj"/></r></p></e>
+<e><p><l>slovakian<s n="adj"/></l><r>словакиалық<s n="adj"/></r></p></e>
+<e><p><l>smart<s n="adj"/><s n="sint"/></l><r>ақылды<s n="adj"/></r></p></e>
+<e><p><l>sober<s n="adj"/><s n="sint"/></l><r>айыққан<s n="adj"/></r></p></e>
+<e><p><l>societal<s n="adj"/></l><r>әлеуметтік<s n="adj"/></r></p></e>
+<e><p><l>sociological<s n="adj"/></l><r>социологиялық<s n="adj"/></r></p></e>
+<e><p><l>solitary<s n="adj"/></l><r>оңаша<s n="adj"/></r></p></e>
+<e><p><l>soluble<s n="adj"/></l><r>еритін<s n="adj"/></r></p></e>
+<e><p><l>sophisticated<s n="adj"/></l><r>бұрмаланған<s n="adj"/></r></p></e>
+<e><p><l>sour<s n="adj"/><s n="sint"/></l><r>қышқыл<s n="adj"/></r></p></e>
+<e><p><l>sparse<s n="adj"/></l><r>айдақ-жайдақ<s n="adj"/></r></p></e>
+<e><p><l>spartan<s n="adj"/></l><r>спарталық<s n="adj"/></r></p></e>
+<e><p><l>spatial<s n="adj"/></l><r>кеңестік<s n="adj"/></r></p></e>
+<e><p><l>speculative<s n="adj"/></l><r>саудагерлік<s n="adj"/></r></p></e>
+<e><p><l>speechless<s n="adj"/></l><r>жым-жырт<s n="adj"/></r></p></e>
+<e><p><l>spicy<s n="adj"/><s n="sint"/></l><r>татымды<s n="adj"/></r></p></e>
+<e><p><l>spiky<s n="adj"/><s n="sint"/></l><r>шошақ<s n="adj"/></r></p></e>
+<e><p><l>spinal<s n="adj"/></l><r>арқалық<s n="adj"/></r></p></e>
+<e><p><l>splendid<s n="adj"/></l><r>өте<b/>жақсы<s n="adj"/></r></p></e>
+<e><p><l>spontaneous<s n="adj"/></l><r>спонтанды<s n="adj"/></r></p></e>
+<e><p><l>sporadic<s n="adj"/></l><r>кездейсоқ<s n="adj"/></r></p></e>
+<e><p><l>squalid<s n="adj"/></l><r>ушыққан<s n="adj"/></r></p></e>
+<e><p><l>staggered<s n="adj"/></l><r>тербелген<s n="adj"/></r></p></e>
+<e><p><l>stark<s n="adj"/></l><r>әбден<s n="adj"/></r></p></e>
+<e><p><l>static<s n="adj"/></l><r>статикалық<s n="adj"/></r></p></e>
+<e><p><l>statistical<s n="adj"/></l><r>статистикалық<s n="adj"/></r></p></e>
+<e><p><l>statutory<s n="adj"/></l><r>заңды<s n="adj"/></r></p></e>
+<e><p><l>steep<s n="adj"/><s n="sint"/></l><r>тік<s n="adj"/></r></p></e>
+<e><p><l>stellar<s n="adj"/></l><r>жұлдызды<s n="adj"/></r></p></e>
+<e><p><l>sticky<s n="adj"/></l><r>жабысқақ<s n="adj"/></r></p></e>
+<e><p><l>stillborn<s n="adj"/></l><r>өлі<b/>туылған<s n="adj"/></r></p></e>
+<e><p><l>stingy<s n="adj"/><s n="sint"/></l><r>сараң<s n="adj"/></r></p></e>
+<e><p><l>stocky<s n="adj"/><s n="sint"/></l><r>түбірлік<s n="adj"/></r></p></e>
+<e><p><l>straightforward<s n="adj"/></l><r>тура<s n="adj"/></r></p></e>
+<e><p><l>stray<s n="adj"/></l><r>ауытқитын<s n="adj"/></r></p></e>
+<e><p><l>strenuous<s n="adj"/></l><r>шиеленісті<s n="adj"/></r></p></e>
+<e><p><l>stressful<s n="adj"/></l><r>шиеленісті<s n="adj"/></r></p></e>
+<e><p><l>strident<s n="adj"/></l><r>шиқылдақ<s n="adj"/></r></p></e>
+<e><p><l>structural<s n="adj"/></l><r>құрылымды<s n="adj"/></r></p></e>
+<e><p><l>stubborn<s n="adj"/></l><r>қыңыр<s n="adj"/></r></p></e>
+<e><p><l>stupid<s n="adj"/></l><r>ақылсыз<s n="adj"/></r></p></e>
+<e><p><l>stylized<s n="adj"/></l><r>стильдік<s n="adj"/></r></p></e>
+<e><p><l>subjective<s n="adj"/></l><r>субъективті<s n="adj"/></r></p></e>
+<e><p><l>sublime<s n="adj"/></l><r>зәулім<s n="adj"/></r></p></e>
+<e><p><l>subliminal<s n="adj"/></l><r>аңдаусыздық<s n="adj"/></r></p></e>
+<e><p><l>subterranean<s n="adj"/></l><r>жерасты<s n="adj"/></r></p></e>
+<e><p><l>subtle<s n="adj"/><s n="sint"/></l><r>нәзік<s n="adj"/></r></p></e>
+<e><p><l>suburban<s n="adj"/></l><r>қала<b/>маңдық<s n="adj"/></r></p></e>
+<e><p><l>succinct<s n="adj"/></l><r>қысаң<s n="adj"/></r></p></e>
+<e><p><l>suggestive<s n="adj"/></l><r>ойдағыдай<s n="adj"/></r></p></e>
+<e><p><l>suicidal<s n="adj"/></l><r>суицидтік<s n="adj"/></r></p></e>
+<e><p><l>superb<s n="adj"/></l><r>тамаша<s n="adj"/></r></p></e>
+<e><p><l>superficial<s n="adj"/></l><r>аттамалы<s n="adj"/></r></p></e>
+<e><p><l>supernatural<s n="adj"/></l><r>ғажайып<s n="adj"/></r></p></e>
+<e><p><l>superstitious<s n="adj"/></l><r>діндар<s n="adj"/></r></p></e>
+<e><p><l>supervisory<s n="adj"/></l><r>бақыланатын<s n="adj"/></r></p></e>
+<e><p><l>supplementary<s n="adj"/></l><r>қосымша<s n="adj"/></r></p></e>
+<e><p><l>sure<s n="adj"/><s n="sint"/></l><r>сенімді<s n="adj"/></r></p></e>
+<e><p><l>surgical<s n="adj"/></l><r>хирургиялық<s n="adj"/></r></p></e>
+<e><p><l>susceptible<s n="adj"/></l><r>ұғымтал<s n="adj"/></r></p></e>
+<e><p><l>swift<s n="adj"/><s n="sint"/></l><r>тез<s n="adj"/></r></p></e>
+<e><p><l>symmetrical<s n="adj"/></l><r>симметриялық<s n="adj"/></r></p></e>
+<e><p><l>sympathetic<s n="adj"/></l><r>жауап<s n="adj"/></r></p></e>
+<e><p><l>synchronous<s n="adj"/></l><r>синхронды<s n="adj"/></r></p></e>
+<e><p><l>synergetic<s n="adj"/></l><r>синергетикалық<s n="adj"/></r></p></e>
+<e><p><l>synonymous<s n="adj"/></l><r>синонимдік<s n="adj"/></r></p></e>
+<e><p><l>synthetic<s n="adj"/></l><r>синтетикалық<s n="adj"/></r></p></e>
+<e><p><l>tabloid<s n="adj"/></l><r>таблоидтік<s n="adj"/></r></p></e>
+<e><p><l>tabular<s n="adj"/></l><r>кестелік<s n="adj"/></r></p></e>
+<e><p><l>tacit<s n="adj"/></l><r>үндемес<s n="adj"/></r></p></e>
+<e><p><l>tactical<s n="adj"/></l><r>тактикалық<s n="adj"/></r></p></e>
+<e><p><l>tangled<s n="adj"/></l><r>шатақ<s n="adj"/></r></p></e>
+<e><p><l>tarnished<s n="adj"/></l><r>бедерсіз<s n="adj"/></r></p></e>
+<e><p><l>tectonic<s n="adj"/></l><r>тектоникалық<s n="adj"/></r></p></e>
+<e><p><l>tedious<s n="adj"/></l><r>қапырық<s n="adj"/></r></p></e>
+<e><p><l>teenage<s n="adj"/></l><r>жасөспірім<s n="adj"/></r></p></e>
+<e><p><l>telegraphic<s n="adj"/></l><r>телеграф<s n="adj"/></r></p></e>
+<e><p><l>telematic<s n="adj"/></l><r>телематикалық<s n="adj"/></r></p></e>
+<e><p><l>tenuous<s n="adj"/></l><r>аз<s n="adj"/></r></p></e>
+<e><p><l>terrestrial<s n="adj"/></l><r>жерлік<s n="adj"/></r></p></e>
+<e><p><l>terrible<s n="adj"/></l><r>трагедиялық<s n="adj"/></r></p></e>
+<e><p><l>textile<s n="adj"/></l><r>маталық<s n="adj"/></r></p></e>
+<e><p><l>textual<s n="adj"/></l><r>мәтіндік<s n="adj"/></r></p></e>
+<e><p><l>thankful<s n="adj"/></l><r>игілікті<s n="adj"/></r></p></e>
+<e><p><l>theatrical<s n="adj"/></l><r>театрлық<s n="adj"/></r></p></e>
+<e><p><l>thematic<s n="adj"/></l><r>тематикалық<s n="adj"/></r></p></e>
+<e><p><l>theological<s n="adj"/></l><r>теологиялақ<s n="adj"/></r></p></e>
+<e><p><l>theoretical<s n="adj"/></l><r>қағидалы<s n="adj"/></r></p></e>
+<e><p><l>thermoelectric<s n="adj"/></l><r>термоэлектриялық<s n="adj"/></r></p></e>
+<e><p><l>thorough<s n="adj"/></l><r>ұқыпты<s n="adj"/></r></p></e>
+<e><p><l>thoughtful<s n="adj"/></l><r>байыпты<s n="adj"/></r></p></e>
+<e><p><l>threadbare<s n="adj"/></l><r>ескірген<s n="adj"/></r></p></e>
+<e><p><l>thyroid<s n="adj"/></l><r>тироидті<s n="adj"/></r></p></e>
+<e><p><l>tidy<s n="adj"/><s n="sint"/></l><r>мұнтаздық<s n="adj"/></r></p></e>
+<e><p><l>timeless<s n="adj"/></l><r>бейсауат<s n="adj"/></r></p></e>
+<e><p><l>tiny<s n="adj"/><s n="sint"/></l><r>кішкентай<s n="adj"/></r></p></e>
+<e><p><l>tireless<s n="adj"/></l><r>шаршамайтын<s n="adj"/></r></p></e>
+<e><p><l>toothed<s n="adj"/></l><r>тісті<s n="adj"/></r></p></e>
+<e><p><l>torrential<s n="adj"/></l><r>төкпе<s n="adj"/></r></p></e>
+<e><p><l>totalitarian<s n="adj"/></l><r>тоталитарлы<s n="adj"/></r></p></e>
+<e><p><l>toxic<s n="adj"/></l><r>улы<s n="adj"/></r></p></e>
+<e><p><l>trailing<s n="adj"/></l><r>ауыспалы<s n="adj"/></r></p></e>
+<e><p><l>transatlantic<s n="adj"/></l><r>трансатлантикалық<s n="adj"/></r></p></e>
+<e><p><l>transcendental<s n="adj"/></l><r>трансценденттік<s n="adj"/></r></p></e>
+<e><p><l>transformational<s n="adj"/></l><r>трансформациялық<s n="adj"/></r></p></e>
+<e><p><l>transformative<s n="adj"/></l><r>еліккіш<s n="adj"/></r></p></e>
+<e><p><l>transient<s n="adj"/></l><r>ауыспалы<s n="adj"/></r></p></e>
+<e><p><l>transitory<s n="adj"/></l><r>өткінші<s n="adj"/></r></p></e>
+<e><p><l>translucent<s n="adj"/></l><r>жарықтандыратын<s n="adj"/></r></p></e>
+<e><p><l>transversal<s n="adj"/></l><r>көлденең<s n="adj"/></r></p></e>
+<e><p><l>traumatic<s n="adj"/></l><r>травматикалық<s n="adj"/></r></p></e>
+<e><p><l>treacherous<s n="adj"/></l><r>опасыз<s n="adj"/></r></p></e>
+<e><p><l>treatable<s n="adj"/></l><r>дауалы<s n="adj"/></r></p></e>
+<e><p><l>tremendous<s n="adj"/></l><r>алып<s n="adj"/></r></p></e>
+<e><p><l>triangular<s n="adj"/></l><r>үшбұрыштық<s n="adj"/></r></p></e>
+<e><p><l>tribal<s n="adj"/></l><r>рулық<s n="adj"/></r></p></e>
+<e><p><l>tricky<s n="adj"/><s n="sint"/></l><r>қу<s n="adj"/></r></p></e>
+<e><p><l>tricolour<s n="adj"/></l><r>үштүсті<s n="adj"/></r></p></e>
+<e><p><l>trite<s n="adj"/><s n="sint"/></l><r>ескірген<s n="adj"/></r></p></e>
+<e><p><l>trivial<s n="adj"/></l><r>езбе<s n="adj"/></r></p></e>
+<e><p><l>trojan<s n="adj"/></l><r>трояндық<s n="adj"/></r></p></e>
+<e><p><l>troubled<s n="adj"/></l><r>алаңдайтын<s n="adj"/></r></p></e>
+<e><p><l>trustworthy<s n="adj"/></l><r>сенімді<s n="adj"/></r></p></e>
+<e><p><l>truthful<s n="adj"/></l><r>шынайы<s n="adj"/></r></p></e>
+<e><p><l>twofold<s n="adj"/></l><r>екі<b/>есе<s n="adj"/></r></p></e>
+<e><p><l>ultimate<s n="adj"/></l><r>ақырғы<s n="adj"/></r></p></e>
+<e><p><l>ultraviolet<s n="adj"/></l><r>ультракөгілдір<s n="adj"/></r></p></e>
+<e><p><l>umbilical<s n="adj"/></l><r>кіндік<s n="adj"/></r></p></e>
+<e><p><l>unaffected<s n="adj"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>unambiguous<s n="adj"/></l><r>бірмәнді<s n="adj"/></r></p></e>
+<e><p><l>unanimous<s n="adj"/></l><r>бірауызды<s n="adj"/></r></p></e>
+<e><p><l>unarmed<s n="adj"/></l><r>қарусыз<s n="adj"/></r></p></e>
+<e><p><l>unauthorised<s n="adj"/></l><r>тіркелмеген<s n="adj"/></r></p></e>
+<e><p><l>unavailable<s n="adj"/></l><r>жетімсіз<s n="adj"/></r></p></e>
+<e><p><l>unavoidable<s n="adj"/></l><r>шарасыз<s n="adj"/></r></p></e>
+<e><p><l>unaware<s n="adj"/></l><r>білмейтін<s n="adj"/></r></p></e>
+<e><p><l>unbalanced<s n="adj"/></l><r>арпыл-тарпыл<s n="adj"/></r></p></e>
+<e><p><l>unbeatable<s n="adj"/></l><r>жеңілмейтін<s n="adj"/></r></p></e>
+<e><p><l>uncertain<s n="adj"/></l><r>анықталмаған<s n="adj"/></r></p></e>
+<e><p><l>unchanged<s n="adj"/></l><r>әрдайым<s n="adj"/></r></p></e>
+<e><p><l>uncomfortable<s n="adj"/></l><r>ыңғайсыз<s n="adj"/></r></p></e>
+<e><p><l>unconstitutional<s n="adj"/></l><r>заңсыз<s n="adj"/></r></p></e>
+<e><p><l>uncontrolled<s n="adj"/></l><r>қадағалаусыз<s n="adj"/></r></p></e>
+<e><p><l>uncultured<s n="adj"/></l><r>мәдениетсіз<s n="adj"/></r></p></e>
+<e><p><l>undecided<s n="adj"/></l><r>шешімсіз<s n="adj"/></r></p></e>
+<e><p><l>underdeveloped<s n="adj"/></l><r>дамытудағы<s n="adj"/></r></p></e>
+<e><p><l>underlying<s n="adj"/></l><r>негіздегі<s n="adj"/></r></p></e>
+<e><p><l>underwater<s n="adj"/></l><r>су<b/>астында<s n="adj"/></r></p></e>
+<e><p><l>undesirable<s n="adj"/></l><r>тілеусіз<s n="adj"/></r></p></e>
+<e><p><l>undisciplined<s n="adj"/></l><r>тәртіпсіз<s n="adj"/></r></p></e>
+<e><p><l>undoubted<s n="adj"/></l><r>анық<s n="adj"/></r></p></e>
+<e><p><l>undue<s n="adj"/></l><r>бейсауат<s n="adj"/></r></p></e>
+<e><p><l>uneconomic<s n="adj"/></l><r>үнемсіз<s n="adj"/></r></p></e>
+<e><p><l>uneducated<s n="adj"/></l><r>білімсіз<s n="adj"/></r></p></e>
+<e><p><l>unencumbered<s n="adj"/></l><r>сарқылмаған<s n="adj"/></r></p></e>
+<e><p><l>unequal<s n="adj"/></l><r>теңсіз<s n="adj"/></r></p></e>
+<e><p><l>uneven<s n="adj"/></l><r>алағат<s n="adj"/></r></p></e>
+<e><p><l>unexplained<s n="adj"/></l><r>түсіндірілмеген<s n="adj"/></r></p></e>
+<e><p><l>unfair<s n="adj"/></l><r>әділетсіз<s n="adj"/></r></p></e>
+<e><p><l>unfeasible<s n="adj"/></l><r>іске<b/>аспайтын<s n="adj"/></r></p></e>
+<e><p><l>unfettered<s n="adj"/></l><r>шексіз<s n="adj"/></r></p></e>
+<e><p><l>unfinished<s n="adj"/></l><r>бас-аяқсыз<s n="adj"/></r></p></e>
+<e><p><l>unforeseen<s n="adj"/></l><r>болжанбаған<s n="adj"/></r></p></e>
+<e><p><l>unforgettable<s n="adj"/></l><r>ұмытылмас<s n="adj"/></r></p></e>
+<e><p><l>unforgivable<s n="adj"/></l><r>кешірілмейтін<s n="adj"/></r></p></e>
+<e><p><l>unfounded<s n="adj"/></l><r>қисынсыз<s n="adj"/></r></p></e>
+<e><p><l>unhappy<s n="adj"/><s n="sint"/></l><r>бақытсыз<s n="adj"/></r></p></e>
+<e><p><l>unilateral<s n="adj"/></l><r>біржақты<s n="adj"/></r></p></e>
+<e><p><l>unimportant<s n="adj"/></l><r>маңызсыз<s n="adj"/></r></p></e>
+<e><p><l>uninhabited<s n="adj"/></l><r>жансыз<s n="adj"/></r></p></e>
+<e><p><l>unitary<s n="adj"/></l><r>біртұтас<s n="adj"/></r></p></e>
+<e><p><l>unlucky<s n="adj"/><s n="sint"/></l><r>сәтсіз<s n="adj"/></r></p></e>
+<e><p><l>unmovable<s n="adj"/></l><r>жылжымайтын<s n="adj"/></r></p></e>
+<e><p><l>unnatural<s n="adj"/></l><r>жасанды<s n="adj"/></r></p></e>
+<e><p><l>unnecessary<s n="adj"/></l><r>керексіз<s n="adj"/></r></p></e>
+<e><p><l>unnoticed<s n="adj"/></l><r>байқалмайтын<s n="adj"/></r></p></e>
+<e><p><l>unofficial<s n="adj"/></l><r>бейресми<s n="adj"/></r></p></e>
+<e><p><l>unpaved<s n="adj"/></l><r>сыртсыз<s n="adj"/></r></p></e>
+<e><p><l>unpleasant<s n="adj"/></l><r>сүйкімсіз<s n="adj"/></r></p></e>
+<e><p><l>unpredictable<s n="adj"/></l><r>болжанбайтын<s n="adj"/></r></p></e>
+<e><p><l>unprotected<s n="adj"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>unpublished<s n="adj"/></l><r>жарияланбаған<s n="adj"/></r></p></e>
+<e><p><l>unrealistic<s n="adj"/></l><r>шын<b/>емес<s n="adj"/></r></p></e>
+<e><p><l>unreal<s n="adj"/></l><r>өтірік<s n="adj"/></r></p></e>
+<e><p><l>unrelated<s n="adj"/></l><r>байлаусыз<s n="adj"/></r></p></e>
+<e><p><l>unresolved<s n="adj"/></l><r>шешілмеген<s n="adj"/></r></p></e>
+<e><p><l>unsatisfactory<s n="adj"/></l><r>жарытымсыз<s n="adj"/></r></p></e>
+<e><p><l>unsatisfied<s n="adj"/></l><r>қанағаттанбаған<s n="adj"/></r></p></e>
+<e><p><l>unseen<s n="adj"/></l><r>көзге<b/>түспейтін<s n="adj"/></r></p></e>
+<e><p><l>unsolvable<s n="adj"/></l><r>шешімсіз<s n="adj"/></r></p></e>
+<e><p><l>unsolved<s n="adj"/></l><r>шешілмеген<s n="adj"/></r></p></e>
+<e><p><l>unstable<s n="adj"/></l><r>төзімсіз<s n="adj"/></r></p></e>
+<e><p><l>unsuitable<s n="adj"/></l><r>қолайсыз<s n="adj"/></r></p></e>
+<e><p><l>unsuited<s n="adj"/></l><r>қолайсыз<s n="adj"/></r></p></e>
+<e><p><l>unsure<s n="adj"/></l><r>сенімсіз<s n="adj"/></r></p></e>
+<e><p><l>unsuspecting<s n="adj"/></l><r>секемді<s n="adj"/></r></p></e>
+<e><p><l>unsustainable<s n="adj"/></l><r>жарамайтын<s n="adj"/></r></p></e>
+<e><p><l>unthinkable<s n="adj"/></l><r>ойламайтын<s n="adj"/></r></p></e>
+<e><p><l>unwanted<s n="adj"/></l><r>қажетсіз<s n="adj"/></r></p></e>
+<e><p><l>unwilling<s n="adj"/></l><r>ұнамсыз<s n="adj"/></r></p></e>
+<e><p><l>upright<s n="adj"/></l><r>тіке<s n="adj"/></r></p></e>
+<e><p><l>usable<s n="adj"/></l><r>қолданымды<s n="adj"/></r></p></e>
+<e><p><l>useless<s n="adj"/></l><r>пайдасыз<s n="adj"/></r></p></e>
+<e><p><l>uterine<s n="adj"/></l><r>құрсақ<s n="adj"/></r></p></e>
+<e><p><l>utmost<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
+<e><p><l>utopian<s n="adj"/></l><r>утопиялық<s n="adj"/></r></p></e>
+<e><p><l>vacant<s n="adj"/></l><r>вакантты<s n="adj"/></r></p></e>
+<e><p><l>vague<s n="adj"/><s n="sint"/></l><r>мөлшерсіз<s n="adj"/></r></p></e>
+<e><p><l>vain<s n="adj"/></l><r>пайдасыз<s n="adj"/></r></p></e>
+<e><p><l>vascular<s n="adj"/></l><r>тамырлы<s n="adj"/></r></p></e>
+<e><p><l>vehement<s n="adj"/></l><r>жалынды<s n="adj"/></r></p></e>
+<e><p><l>vehicular<s n="adj"/></l><r>тасымалды<s n="adj"/></r></p></e>
+<e><p><l>vengeful<s n="adj"/></l><r>кекшіл<s n="adj"/></r></p></e>
+<e><p><l>verbal<s n="adj"/></l><r>ауызекі<s n="adj"/></r></p></e>
+<e><p><l>versatile<s n="adj"/></l><r>көпжақты<s n="adj"/></r></p></e>
+<e><p><l>veterinary<s n="adj"/></l><r>ветеринарлық<s n="adj"/></r></p></e>
+<e><p><l>viable<s n="adj"/></l><r>жасампаз<s n="adj"/></r></p></e>
+<e><p><l>vibrant<s n="adj"/></l><r>тербелетін<s n="adj"/></r></p></e>
+<e><p><l>vicious<s n="adj"/></l><r>әдепсіз<s n="adj"/></r></p></e>
+<e><p><l>victorious<s n="adj"/></l><r>жеңімпаздық<s n="adj"/></r></p></e>
+<e><p><l>vigorous<s n="adj"/></l><r>қайратты<s n="adj"/></r></p></e>
+<e><p><l>vindictive<s n="adj"/></l><r>кекшіл<s n="adj"/></r></p></e>
+<e><p><l>virtual<s n="adj"/></l><r>виртуалды<s n="adj"/></r></p></e>
+<e><p><l>volatile<s n="adj"/></l><r>өткінші<s n="adj"/></r></p></e>
+<e><p><l>volcanic<s n="adj"/></l><r>вулкандық<s n="adj"/></r></p></e>
+<e><p><l>voluntary<s n="adj"/></l><r>ерікті<s n="adj"/></r></p></e>
+<e><p><l>vulnerable<s n="adj"/></l><r>мұқатты<s n="adj"/></r></p></e>
+<e><p><l>wanton<s n="adj"/></l><r>жауапкерсіз<s n="adj"/></r></p></e>
+<e><p><l>warring<s n="adj"/></l><r>қайшы<s n="adj"/></r></p></e>
+<e><p><l>wary<s n="adj"/><s n="sint"/></l><r>абай<s n="adj"/></r></p></e>
+<e><p><l>wasteful<s n="adj"/></l><r>ысырапты<s n="adj"/></r></p></e>
+<e><p><l>waterproof<s n="adj"/></l><r>су<b/>өтпейтін<s n="adj"/></r></p></e>
+<e><p><l>wayward<s n="adj"/></l><r>бойлауық<s n="adj"/></r></p></e>
+<e><p><l>weak<s n="adj"/><s n="sint"/></l><r>әлсіз<s n="adj"/></r></p></e>
+<e><p><l>weird<s n="adj"/><s n="sint"/></l><r>оғаш<s n="adj"/></r></p></e>
+<e><p><l>wholehearted<s n="adj"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>wilful<s n="adj"/></l><r>мақсатты<s n="adj"/></r></p></e>
+<e><p><l>windy<s n="adj"/><s n="sint"/></l><r>желді<s n="adj"/></r></p></e>
+<e><p><l>wintry<s n="adj"/><s n="sint"/></l><r>қысқы<s n="adj"/></r></p></e>
+<e><p><l>wireless<s n="adj"/></l><r>радиолық<s n="adj"/></r></p></e>
+<e><p><l>withered<s n="adj"/></l><r>кепкен<s n="adj"/></r></p></e>
+<e><p><l>wonderful<s n="adj"/></l><r>тамаша<s n="adj"/></r></p></e>
+<e><p><l>workable<s n="adj"/></l><r>шынайы<s n="adj"/></r></p></e>
+<e><p><l>worrisome<s n="adj"/></l><r>тынымсыз<s n="adj"/></r></p></e>
+<e><p><l>worthwhile<s n="adj"/></l><r>тұрарлық<s n="adj"/></r></p></e>
+<e><p><l>wry<s n="adj"/><s n="sint"/></l><r>қисық<s n="adj"/></r></p></e>
+<e><p><l>yearly<s n="adj"/></l><r>жылдық<s n="adj"/></r></p></e>
+<e><p><l>zonal<s n="adj"/></l><r>аймақтық<s n="adj"/></r></p></e>
 <!-- Order numbers-->
  <e><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>бір<s n="num"/><s n="ord"/></r></p></e> 
  <e><p><l>second<s n="det"/><s n="ord"/><s n="sp"/></l><r>екі<s n="num"/><s n="ord"/></r></p></e>     

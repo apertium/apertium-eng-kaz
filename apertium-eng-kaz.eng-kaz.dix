@@ -12159,6 +12159,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>assemble<s n="vblex"/></l><r>құрастыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>assimilate<s n="vblex"/></l><r>ассимиляцияла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>assuage<s n="vblex"/></l><r>тынышталдыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>astonish<s n="vblex"/></l><r>таңғалдыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>attain<s n="vblex"/></l><r>жет<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>attenuate<s n="vblex"/></l><r>мамықта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>attest<s n="vblex"/></l><r>раста<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>audit<s n="vblex"/></l><r>есепте<s n="v"/><s n="tv"/></r></p></e>
 
 <e><p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>
 

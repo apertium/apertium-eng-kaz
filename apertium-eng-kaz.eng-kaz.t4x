@@ -854,6 +854,15 @@
         </choose>
 <choose>
           <when>
+            <test>
+
+<equal><clip pos="1" side="sl" part="subst"/><lit-tag v="subst"/></equal>
+</test>
+            <let><clip pos="1" side="tl" part="a_comp"/><lit v=""/></let>
+          </when>
+        </choose>
+<choose>
+          <when>
             <test><equal><clip pos="1" side="sl" part="lem"/><lit v="төтенше"/></equal></test>
             <let><clip pos="1" side="tl" part="subst"/><lit v=""/></let>
             <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>

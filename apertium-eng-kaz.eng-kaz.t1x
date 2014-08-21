@@ -238,6 +238,13 @@
       <cat-item tags="adj.sint.comp.*"/>-->
     </def-cat>
 
+<def-cat n="subst-adjec">
+      <cat-item tags="adj.comp"/>
+      <cat-item tags="adj.sup"/>
+      <cat-item lemma="dumb" tags="adj.sint.comp"/>
+      
+    </def-cat>
+
 
     <def-cat n="the-most">
       <cat-item lemma="the most" tags="det.qnt.sp"/>
@@ -12037,6 +12044,45 @@ this would have to be changed -->
        <clip pos="2" part="lem" side="tl"/>
        <lit-tag v="adj"/>
 <var n="comp_lu"/>
+         <lit-tag v="2"/> 
+     </lu>
+    </chunk>
+    </out>
+  </action>      
+</rule>
+
+<rule comment="NEW RULE: more adjec">   <!-- more beautiful, for sint adj comp -->
+  <pattern>
+   
+    <pattern-item n="subst-adjec"/>
+  </pattern>
+  <action>
+<!--<choose>
+    <when>
+      <test>
+       <equal>
+         <clip pos="1" side="sl" part="a_adjec"/>
+         <lit-tag v="subst"/>
+       </equal>
+      </test>
+       <let><var n="comp_lu"/><lit v=""/></let> 
+    </when>
+       <otherwise>
+         <let>
+           <var n="comp_lu"/>       <lit-tag v="comp"/>
+         </let>
+       </otherwise>
+  </choose>-->
+    <out>
+    <chunk name="comp-subst-adjec">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
+ <tag><lit-tag v="nom"/></tag>
+    </tags>
+       <lu>
+       <clip pos="1" part="lem" side="tl"/>
+       <lit-tag v="adj"/>
+       <lit-tag v="subst"/>
          <lit-tag v="2"/> 
      </lu>
     </chunk>

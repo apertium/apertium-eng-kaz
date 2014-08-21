@@ -10327,7 +10327,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>deadly<s n="adj"/><s n="sint"/><s n="comp"/></l><r>өлі<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>deadly<s n="adj"/><s n="sint"/><s n="sup"/></l><r>өлі<s n="adj"/></r></p></e>
 <e><p><l>deafening<s n="adj"/></l><r>құлақ<b/>тұндыратын<s n="adj"/></r></p></e>
-<e><p><l>deaf<s n="adj"/><s n="sint"/></l><r>мылқау<s n="adj"/></r></p></e>
+<e><p><l>deaf<s n="adj"/><s n="sint"/></l><r>мылқау<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>debatable<s n="adj"/></l><r>даулы<s n="adj"/></r></p></e>
 <e><p><l>decayed<s n="adj"/></l><r>даулы<s n="adj"/></r></p></e>
 <e><p><l>deceitful<s n="adj"/></l><r>құлдырайтын<s n="adj"/></r></p></e>
@@ -10400,7 +10400,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>drastic<s n="adj"/></l><r>мықты<s n="adj"/></r></p></e>
 <e><p><l>dreadful<s n="adj"/></l><r>трагедиялық<s n="adj"/></r></p></e>
 <e><p><l>drinkable<s n="adj"/></l><r>сусындық<s n="adj"/></r></p></e>
-<e><p><l>dumb<s n="adj"/><s n="sint"/></l><r>мылқау<s n="adj"/></r></p></e>
+<e><p><l>dumb<s n="adj"/><s n="sint"/></l><r>мылқау<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>durable<s n="adj"/></l><r>ұзақ<s n="adj"/></r></p></e>
 <e><p><l>dynamic<s n="adj"/></l><r>динамикалық<s n="adj"/></r></p></e>
 <e><p><l>eager<s n="adj"/></l><r>асығатын<s n="adj"/></r></p></e>
@@ -10418,7 +10418,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>electrolytic<s n="adj"/></l><r>электролиттік<s n="adj"/></r></p></e>
 <e><p><l>electromagnetic<s n="adj"/></l><r>электромагнитті<s n="adj"/></r></p></e>
 <e><p><l>elegant<s n="adj"/></l><r>нәзік<s n="adj"/></r></p></e>
-<e><p><l>elemental<s n="adj"/></l><r>мылқау<s n="adj"/></r></p></e>
+<e><p><l>elemental<s n="adj"/></l><r>мылқау<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>elitist<s n="adj"/></l><r>элитарлық<s n="adj"/></r></p></e>
 <e><p><l>elusive<s n="adj"/></l><r>ұстатпайтын<s n="adj"/></r></p></e>
 <e><p><l>embattled<s n="adj"/></l><r>келтірілген<s n="adj"/></r></p></e>

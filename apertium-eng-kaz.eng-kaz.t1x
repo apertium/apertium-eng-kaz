@@ -398,6 +398,8 @@
  <attr-item tags="prn.ind"/>
    <attr-item tags="prn.dem.*"/>
       <attr-item tags="prn.ref.p3"/>
+      <attr-item tags="prn.ref.p2"/>
+      <attr-item tags="prn.ref.p1"/>
 
  <attr-item tags="prn.dem"/>
  <attr-item tags="prn.itg"/>

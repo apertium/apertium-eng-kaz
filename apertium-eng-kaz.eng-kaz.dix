@@ -131,14 +131,14 @@
  <e><p><l>which<s n="prn"/><s n="itg"/></l><r>қайсы<s n="det"/><s n="itg"/></r></p></e>
 
 
-<e><p><l>anybody<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
-<e><p><l>everybody<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәр<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
-<e><p><l>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
-<e><p><l>one<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
+<e><p><l>anybody<s n="prn"/><s n="tn"/><s n="m"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
+<!--<e><p><l>everybody<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәрі<s n="prn"/><s n="qnt"/></r></p></e>-->
+<e><p><l>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
+<!--<e><p><l>one<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>-->
 <e><p><l>ourselves<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p1"/><s n="pl"/></r></p></e>
-<e><p><l>somebody<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
-<e><p><l>whoever<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>whoever<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
-<e><p><l>yourself<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/><s n="frm"/></r></p></e>
+<e><p><l>somebody<s n="prn"/><s n="tn"/><s n="m"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
+<e><p><l>whoever<s n="prn"/><s n="tn"/><s n="m"/></l><r>әркім<s n="prn"/><s n="qnt"/></r></p></e>
+<e><p><l>yourself<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/><s n="frm"/></r></p></e>
 <e><p><l>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p2"/><s n="pl"/></r></p></e>
 
  <e r="LR"><p><l>not<s n="det"/><s n="ind"/></l><r></r></p></e>
@@ -9986,7 +9986,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>hideous<s n="adj"/></l><r>жеркенішті<s n="adj"/></r></p></e>
 <e><p><l>hierarchical<s n="adj"/></l><r>иерархиялық<s n="adj"/></r></p></e>
 <e><p><l>highland<s n="adj"/></l><r>жон<s n="adj"/></r></p></e>
-<e><p><l>honest<s n="adj"/></l><r>адал<s n="adj"/></r></p></e>
+<!--<e><p><l>honest<s n="adj"/></l><r>адал<s n="adj"/></r></p></e>-->
 <e><p><l>honored<s n="adj"/></l><r>еңбегі<b/>сіңген<s n="adj"/></r></p></e>
 <e><p><l>honourable<s n="adj"/></l><r>мәртебелі<s n="adj"/></r></p></e>
 <e><p><l>hooded<s n="adj"/></l><r>жабық<s n="adj"/></r></p></e>
@@ -10969,7 +10969,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>seventeenth<s n="det"/><s n="ord"/><s n="sp"/></l><r>он<b/>жеті<s n="num"/><s n="ord"/></r></p></e> 
  <e><p><l>eighteenth<s n="det"/><s n="ord"/><s n="sp"/></l><r>он<b/>сегіз<s n="num"/><s n="ord"/></r></p></e>    
  <e><p><l>ninteenth<s n="det"/><s n="ord"/><s n="sp"/></l><r>он<b/>тоғыз<s n="num"/><s n="ord"/></r></p></e> 
- <e><p><l>twentieth<s n="det"/><s n="ord"/><s n="sp"/></l><r>жиырма<s n="num"/><s n="ord"/><s n="nom"/></r></p></e> 
+ <e><p><l>twentieth<s n="det"/><s n="ord"/><s n="sp"/></l><r>жиырма<s n="num"/><s n="ord"/><s n="subst"/></r></p></e> 
  <e><p><l>thirtieth<s n="det"/><s n="ord"/><s n="sp"/></l><r>отыз<s n="num"/><s n="ord"/></r></p></e> 
  <e><p><l>fortieth<s n="det"/><s n="ord"/><s n="sp"/></l><r>қырық<s n="num"/><s n="ord"/></r></p></e> 
 <e><p><l>fiftieth<s n="det"/><s n="ord"/><s n="sp"/></l><r>елу<s n="num"/><s n="ord"/></r></p></e> 

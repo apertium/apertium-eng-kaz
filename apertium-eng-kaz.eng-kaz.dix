@@ -130,6 +130,17 @@
     <e><p><l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>қай<s n="prn"/><s n="ind"/></r></p></e>
  <e><p><l>which<s n="prn"/><s n="itg"/></l><r>қайсы<s n="det"/><s n="itg"/></r></p></e>
 
+
+<e><p><l>anybody<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
+<e><p><l>everybody<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәр<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
+<e><p><l>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
+<e><p><l>one<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
+<e><p><l>ourselves<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p1"/><s n="pl"/></r></p></e>
+<e><p><l>somebody<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
+<e><p><l>whoever<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>whoever<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>yourself<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/><s n="frm"/></r></p></e>
+<e><p><l>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/><s n="p2"/><s n="pl"/></r></p></e>
+
  <e r="LR"><p><l>not<s n="det"/><s n="ind"/></l><r></r></p></e>
     <e r="LR"><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r></r></p></e>
     <e r="LR"><p><l>the<s n="det"/><s n="def"/><s n="sp"/></l><r></r></p></e>
@@ -147,6 +158,8 @@
     <e><p><l>every<s n="det"/><s n="ind"/><s n="sg"/></l><r>әр<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>enough<s n="det"/><s n="qnt"/><s n="sp"/></l><r>жетерлік<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>another<s n="adj"/></l><r>басқа<s n="adj"/></r></p></e>
+
+
 <!-- MLF 201207010 has commented this one out
     <e><p><l>that<s n="det"/><s n="dem"/></l><r>бұл<s n="det"/><s n="dem"/></r></p></e>
 -->

@@ -350,6 +350,7 @@
     </def-attr>
     <def-attr n="a_adjec">
        <attr-item tags="adj"/>
+
     </def-attr>
  <def-attr n="a_subst">
        <attr-item tags="subst"/>
@@ -358,6 +359,8 @@
       <attr-item tags="num"/>
       <attr-item tags="num.ord"/>
       <attr-item tags="num.ord.nom"/>
+      <attr-item tags="num.ord.subst"/>
+      <attr-item tags="num.ord.subst.nom"/>
       <attr-item tags="num.coll"/>
     </def-attr>
 

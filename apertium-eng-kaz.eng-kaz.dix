@@ -8778,7 +8778,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Hedkvist<s n="np"/><s n="ant"/><s n="f"/></l><r>Хедквист<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 <e><p><l>Chavez<s n="np"/><s n="cog"/></l><r>Чавез<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-
+<e><p><l>Sosa<s n="np"/><s n="cog"/></l><r>Соза<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Thatcher<s n="np"/><s n="cog"/></l><r>Тэтчер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Pena<s n="np"/><s n="cog"/></l><r>Пена<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Ahmadinejad<s n="np"/><s n="cog"/></l><r>Ахмединежад<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

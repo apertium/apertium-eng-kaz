@@ -12057,32 +12057,38 @@ this would have to be changed -->
     <pattern-item n="subst-adjec"/>
   </pattern>
   <action>
-<!--<choose>
+<choose>
     <when>
       <test>
        <equal>
-         <clip pos="1" side="sl" part="a_adjec"/>
-         <lit-tag v="subst"/>
+         <clip pos="1" side="sl" part="lem"/>
+         <lit v="aware"/>
        </equal>
       </test>
        <let><var n="comp_lu"/><lit v=""/></let> 
+<let>
+           <var n="case"/>       <lit v=""/>
+         </let>
     </when>
        <otherwise>
          <let>
-           <var n="comp_lu"/>       <lit-tag v="comp"/>
+           <var n="comp_lu"/>       <lit-tag v="subst"/>
+         </let>
+ <let>
+           <var n="case"/>       <lit-tag v="nom"/>
          </let>
        </otherwise>
-  </choose>-->
+  </choose>
     <out>
     <chunk name="comp-subst-adjec">
     <tags>
     <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
- <tag><lit-tag v="nom"/></tag>
+ <tag> <var n="case"/></tag>
     </tags>
        <lu>
        <clip pos="1" part="lem" side="tl"/>
        <lit-tag v="adj"/>
-       <lit-tag v="subst"/>
+ <var n="comp_lu"/>
          <lit-tag v="2"/> 
      </lu>
     </chunk>

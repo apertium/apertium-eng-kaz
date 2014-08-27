@@ -9,6 +9,7 @@
 
     <def-cat n="perspron">
       <cat-item tags="prn.pers.*"/>
+      <cat-item tags="prn.ref.*"/>
     </def-cat>
     <def-cat n="v">
       <cat-item tags="vaux.*"/>      

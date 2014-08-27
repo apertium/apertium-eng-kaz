@@ -7379,6 +7379,59 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Serkhetyaka<s n="np"/><s n="al"/><s n="sg"/></l><r>Серхетяка<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Bereket<s n="np"/><s n="al"/><s n="sg"/></l><r>Берекет<s n="np"/><s n="org"/></r></p></e>
 
+<e><p><l>Althea<s n="np"/><s n="al"/></l><r>Althea<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>ANP<s n="np"/><s n="al"/><s n="sg"/></l><r>ANP<s n="abbr"/></r></p></e>
+<e><p><l>Atalanta<s n="np"/><s n="al"/></l><r>Аталанта<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Autodesk<s n="np"/><s n="al"/></l><r>Autodesk<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Avia<s n="np"/><s n="al"/></l><r>Авиа<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Beatles<s n="np"/><s n="al"/><s n="pl"/></l><r>Beatles<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Boeing<s n="np"/><s n="al"/></l><r>Боинг<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>CAM<s n="np"/><s n="al"/></l><r>CAM<s n="abbr"/></r></p></e>
+<e><p><l>Efe<s n="np"/><s n="al"/></l><r>Efe<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Endesa<s n="np"/><s n="al"/></l><r>Endesa<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>EPO<s n="np"/><s n="al"/></l><r>EPO<s n="abbr"/></r></p></e>
+<e><p><l>Ericsson<s n="np"/><s n="al"/></l><r>Ericsson<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>EUFOR<s n="np"/><s n="al"/></l><r>СЕС<s n="abbr"/></r></p></e>
+<e><p><l>Facebook<s n="np"/><s n="al"/></l><r>Facebook<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Friendfeed<s n="np"/><s n="al"/></l><r>Friendfeed<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>FSB<s n="np"/><s n="al"/></l><r>ФҚҚ<s n="abbr"/></r></p></e>
+<e><p><l>Google<s n="np"/><s n="al"/></l><r>Google<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Greenpeace<s n="np"/><s n="al"/></l><r>Гринпис<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>HRH<s n="np"/><s n="al"/></l><r>HRH<s n="abbr"/></r></p></e>
+<e><p><l>Iberdrola<s n="np"/><s n="al"/></l><r>Iberdrola<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Icarus<s n="np"/><s n="al"/></l><r>Икар<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>IED<s n="np"/><s n="al"/></l><r>СВУ<s n="abbr"/></r></p></e>
+<e><p><l>IFOR<s n="np"/><s n="al"/></l><r>СВС<s n="abbr"/></r></p></e>
+<e><p><l>IME<s n="np"/><s n="al"/></l><r>IME<s n="abbr"/></r></p></e>
+<e><p><l>INTA<s n="np"/><s n="al"/></l><r>ИНТА<s n="abbr"/></r></p></e>
+<e><p><l>iPad<s n="np"/><s n="al"/></l><r>Ipad<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>iPhone<s n="np"/><s n="al"/></l><r>iPhone<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>iPod<s n="np"/><s n="al"/></l><r>iPod<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>ISAF<s n="np"/><s n="al"/></l><r>ИСАФ<s n="abbr"/></r></p></e>
+<e><p><l>Javascript<s n="np"/><s n="al"/></l><r>Javascript<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Linux<s n="np"/><s n="al"/></l><r>Linux<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Louvre<s n="np"/><s n="al"/></l><r>Лувр<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Metallica<s n="np"/><s n="al"/></l><r>Metallica<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Mozilla<s n="np"/><s n="al"/></l><r>Mozilla<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>MySpace<s n="np"/><s n="al"/></l><r>MySpace<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>NDS<s n="np"/><s n="al"/></l><r>NDS<s n="abbr"/></r></p></e>
+<e><p><l>Nike<s n="np"/><s n="al"/></l><r>Nike<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Nokia<s n="np"/><s n="al"/></l><r>Nokia<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>OMLT<s n="np"/><s n="al"/></l><r>OMLT<s n="abbr"/></r></p></e>
+<e><p><l>Passover<s n="np"/><s n="al"/></l><r>Пасха<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Quichotte<s n="np"/><s n="al"/></l><r>Кихот<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Quran<s n="np"/><s n="al"/></l><r>Қоран<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Solis<s n="np"/><s n="al"/></l><r>Солис<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Twitter<s n="np"/><s n="al"/></l><r>Twitter<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>UNIFIL<s n="np"/><s n="al"/></l><r>ВСООНЛ<s n="abbr"/></r></p></e>
+<e><p><l>UNPROFOR<s n="np"/><s n="al"/></l><r>СООНО<s n="abbr"/></r></p></e>
+<e><p><l>UTC<s n="np"/><s n="al"/></l><r>UTC<s n="abbr"/></r></p></e>
+<e><p><l>Villareal<s n="np"/><s n="al"/></l><r>Вильярреал<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Wikipedia<s n="np"/><s n="al"/></l><r>Википедия<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Wordpress<s n="np"/><s n="al"/></l><r>Wordpress<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>YouTube<s n="np"/><s n="al"/></l><r>YouTube<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Zurich<s n="np"/><s n="al"/></l><r>Цюрих<s n="np"/><s n="org"/></r></p></e>
+
 <e><p><l>CEO<s n="n"/><s n="acr"/></l><r>бас<b/>директор<s n="n"/></r></p></e>
 <e><p><l>BBC<s n="n"/><s n="acr"/></l><r>ББС<s n="abbr"/></r></p></e>
 <e><p><l>KZT<s n="n"/><s n="acr"/></l><r>теңге<s n="n"/></r></p></e>

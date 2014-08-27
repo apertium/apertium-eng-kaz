@@ -52,18 +52,19 @@
   </rule>
 
  
-<rule> 
-    <match lemma="anything" tags="prn.*"><select lemma="бір нәрсе" tags="prn.*"/></match>    
-  </rule>
+
  <rule> 
   
    
 <match lemma="not" tags="adv"/>
 <match lemma="*" tags="vblex.*"/>
-<match lemma="anything" tags="prn.*"><select lemma="еш нәрсе" tags="prn.*"/></match>    
+<match lemma="anything" tags="prn.*"><select lemma="ешнәрсе" tags="prn.*"/></match>    
   
 
    
+  </rule>
+<rule> 
+    <match lemma="anything" tags="prn.*"><select lemma="бір нәрсе" tags="prn.*"/></match>    
   </rule>
 
 <rule>

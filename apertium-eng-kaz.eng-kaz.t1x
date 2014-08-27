@@ -11312,11 +11312,68 @@ this would have to be changed -->
  </action>
 </rule>
 
+
+
+<!--
+<rule comment="NEW RULE: pron-dem">
+  <pattern>
+
+<pattern-item n="pron-neg"/>
+  </pattern>
+    <action>
+<call-macro n="build-pron-lu"><with-param pos="1"/></call-macro> 
+<choose>
+
+  <when>
+        <test>
+          <in caseless="yes">
+      <clip pos="1" side="sl" part="lem"/>
+      <list n="negative_pron"/>
+   </in>
+        </test>
+    <out>
+    <chunk name="pron">
+    <tags>
+    <tag><lit-tag v="NP_pron_neg"/></tag>
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+    <tag><lit-tag v="p3"/></tag>
+    <tag><lit-tag v="PXD"/></tag>
+    <tag><lit-tag v="CD"/></tag>
+    </tags>
+    <lu>
+      <var n="pron_lu"/>
+     </lu>
+    </chunk>
+
+</out>
+</when>
+<otherwise>
+ <out>
+    <chunk name="pron">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+    <tag><lit-tag v="p3"/></tag>
+    <tag><lit-tag v="PXD"/></tag>
+    <tag><lit-tag v="CD"/></tag>
+    </tags>
+    <lu>
+      <var n="pron_lu"/>
+     </lu>
+    </chunk>
+    </out>
+</otherwise>
+</choose>
+  </action>
+</rule>
+-->
+
 <rule comment="RULE: obj-pron">
   <pattern>
     <pattern-item n="obj-pron"/>
   </pattern>
   <action>
+<call-macro n="build-pron-lu"><with-param pos="1"/></call-macro> 
   <choose>
     <when>
       <test>
@@ -11439,6 +11496,38 @@ this would have to be changed -->
      </otherwise>
   </choose>-->
   <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
+<choose>
+
+  <when>
+        <test>
+<or>
+          <in caseless="yes">
+      <clip pos="1" side="sl" part="lem"/>
+      <list n="negative_pron"/>
+   </in>
+ <equal>
+          <clip pos="1" side="tl" part="lem"/>
+          <lit v="ешнәрсе"/>
+       </equal>
+</or>
+        </test>
+    <out>
+    <chunk name="pron">
+    <tags>
+    <tag><lit-tag v="NP_pron_neg"/></tag>
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+    <tag><lit-tag v="p3"/></tag>
+    <tag><lit-tag v="PXD"/></tag>
+    <tag><lit-tag v="CD"/></tag>
+    </tags>
+    <lu>
+      <var n="pron_lu"/>
+     </lu>
+    </chunk>
+
+</out>
+</when>
+<otherwise>
    <out>
    <chunk name="obj-pron">
    <tags>
@@ -11459,6 +11548,8 @@ this would have to be changed -->
     </lu>
   </chunk>
   </out>
+</otherwise>
+</choose>
  </action>
 </rule>
  
@@ -11788,57 +11879,7 @@ this would have to be changed -->
 
 
 
-<rule comment="NEW RULE: pron-dem">
-  <pattern>
 
-<pattern-item n="pron-neg"/>
-  </pattern>
-    <action>
-<call-macro n="build-pron-lu"><with-param pos="1"/></call-macro> 
-<choose>
-
-  <when>
-        <test>
-          <in caseless="yes">
-      <clip pos="1" side="sl" part="lem"/>
-      <list n="negative_pron"/>
-   </in>
-        </test>
-    <out>
-    <chunk name="pron">
-    <tags>
-    <tag><lit-tag v="NP_pron_neg"/></tag>
-    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
-    <tag><lit-tag v="p3"/></tag>
-    <tag><lit-tag v="PXD"/></tag>
-    <tag><lit-tag v="CD"/></tag>
-    </tags>
-    <lu>
-      <var n="pron_lu"/>
-     </lu>
-    </chunk>
-
-</out>
-</when>
-<otherwise>
- <out>
-    <chunk name="pron">
-    <tags>
-    <tag><lit-tag v="NP"/></tag>
-    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
-    <tag><lit-tag v="p3"/></tag>
-    <tag><lit-tag v="PXD"/></tag>
-    <tag><lit-tag v="CD"/></tag>
-    </tags>
-    <lu>
-      <var n="pron_lu"/>
-     </lu>
-    </chunk>
-    </out>
-</otherwise>
-</choose>
-  </action>
-</rule>
 
 
 

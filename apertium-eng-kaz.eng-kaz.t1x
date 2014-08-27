@@ -12074,8 +12074,11 @@ this would have to be changed -->
          </let>
        </otherwise>
   </choose>-->
+<let>
+           <var n="comp_lu"/>       <lit-tag v="comp"/>
+         </let>
     <out>
-    <chunk name="comp-adjec">
+    <chunk name="more-comp-adjec">
     <tags>
     <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
  <tag><lit-tag v="CD"/></tag>
@@ -12084,7 +12087,7 @@ this would have to be changed -->
     <lu>
        <clip pos="2" part="lem" side="tl"/>
        <lit-tag v="adj"/>
-<var n="comp_lu"/>
+      <var n="comp_lu"/>
          <lit-tag v="2"/> 
      </lu>
     </chunk>

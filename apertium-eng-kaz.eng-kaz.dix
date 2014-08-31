@@ -13643,7 +13643,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>attenuate<s n="vblex"/></l><r>мамықта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>attest<s n="vblex"/></l><r>раста<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>audit<s n="vblex"/></l><r>есепте<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>augment<s n="vblex"/></l><r>кеңет<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>augment<s n="vblex"/></l><r>кеңейт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>authenticate<s n="vblex"/></l><r>көз<b/>жеткіз<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>authorise<s n="vblex"/></l><r>авторластыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>automate<s n="vblex"/></l><r>автоматтандыр<s n="v"/><s n="tv"/></r></p></e>

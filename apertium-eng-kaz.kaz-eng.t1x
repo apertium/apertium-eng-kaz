@@ -276,6 +276,11 @@
 <attr-item tags="PD"/>
     </def-attr>
 
+<def-attr n="a_eng_verb"> 
+      <attr-item tags="v.tv"/>
+      <attr-item tags="v.iv"/>
+    </def-attr>
+
 <def-attr n="a_eng_perspron">
        <attr-item tags="prn.subj"/>
     </def-attr>
@@ -301,6 +306,16 @@
  <def-var n="case"/>
  <def-var n="mf"/>
   </section-def-vars>
+
+<section-def-lists>
+    <def-list n="pseudo_modal_verbs">  
+      <list-item v="жатыр"/>
+      <list-item v="отыр"/>
+      <list-item v="тұр"/>
+      <list-item v="ж"/>
+     
+    </def-list>
+</section-def-lists>
   <section-def-macros>
 
 
@@ -308,6 +323,66 @@
           <let><var n="sntype"/><lit v=""/></let>
           <let><var n="number"/><lit v=""/></let>
     </def-macro>
+
+
+
+<def-macro n="NEW-modal-verb" npar="1">  <!--жатыр,тұр,отыр,жүр -->
+<choose>
+<when>
+<test>
+   <in caseless="yes">
+      <clip pos="1" side="sl" part="lem"/>
+      <list n="pseudo_modal_verbs"/>
+   </in>
+</test>
+<out>
+      <chunk name="modal-verb">
+      <tags>
+        <tag><lit-tag v="SV_psmod"/></tag> 
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="a_tns"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lem"/>
+	  <clip pos="1" side="tl" part="a_eng_verb"/>
+          <lit-tag v="6"/>
+          <lit-tag v="4"/>
+
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+        </lu>
+      </chunk>
+</out>
+</when>
+
+<otherwise>
+<out>
+      <chunk name="modal-verb">
+      <tags>
+        <tag><lit-tag v="SV"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="a_tns"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="a_pos"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag><!-- negative -->
+        <tag><lit-tag v="CD"/></tag> 
+      </tags>
+        <lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_eng_verb"/>
+          <lit-tag v="1"/>
+          <lit-tag v="2"/>
+         
+        </lu>
+      </chunk>
+        </out>
+</otherwise>
+</choose>
+</def-macro>
+
 
 
 
@@ -704,49 +779,7 @@
         <call-macro n="conv-temps1">
           <with-param pos="2"/>
         </call-macro>
-
-        <choose><!-- choosing correct to be-->
-               <when>
-                   <test>
-                   
-                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                      </test>
-                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
-                </when>
-<when>
-                   <test>
-                   <and>
-                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                     </and>
-                      </test>
-                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
-                </when>
-<when>
-                   <test>
-                   <and>
-                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
-                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                     </and>
-                      </test>
-                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
-                </when>
-<when>
-                   <test>
-                   <and>
-                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
-                       <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="past"/></equal>
-                     </and>
-                      </test>
-           <let><clip pos="2" side="tl" part="a_pers"/><lit v="p3"/></let>
-                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v="sg"/></let>
-
-                </when>
-           </choose>
+ 
 
         <out>
           <chunk name="verb-can" case="caseFirstWord">
@@ -3347,8 +3380,9 @@
           <with-param pos="2"/>
         </call-macro>
 
-        <choose><!-- choosing correct to be-->
-               <when>
+        <choose><!-- choosing correct to be--> 
+
+<when>
                    <test>
                    
                        <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>

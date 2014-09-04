@@ -402,6 +402,23 @@
             <let><clip pos="1" side="tl" part="a_pers_num"/><lit-tag v="p2.pl.frm"/></let>
           </when>
         </choose>
+ <choose>
+          <when>
+            <test>
+<and>
+                 <equal>
+                     <clip pos="1" side="sl" part="nbr"/>
+                     <lit-tag v="ND"/>
+                 </equal>
+<equal>
+                     <clip pos="1" side="sl" part="pron"/>
+                     <lit-tag v="ref"/>
+                 </equal>
+</and>
+             </test>
+            <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
+          </when>
+        </choose>
         <choose>
           <when>
             <test>
@@ -413,6 +430,7 @@
             <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
           </when>
         </choose>
+
   	<choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="poss"/><lit-tag v="px2sg"/></equal></test>  <!-- if we generate no formality, add it -->
@@ -737,18 +755,11 @@
                      <clip pos="1" side="sl" part="nbr"/>
                      <lit-tag v="ND"/>
                  </equal>
-<and>
                  <equal>
                      <clip pos="1" side="sl" part="nbr"/>
                      <lit-tag v="sg"/>
                  </equal>  
-<not>
-  <equal>
-                     <clip pos="1" side="sl" part="pron"/>
-                     <lit-tag v="ref"/>
-                 </equal> </not>
-</and>        
-               </or>
+                </or>
              </test>
             <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
           </when>

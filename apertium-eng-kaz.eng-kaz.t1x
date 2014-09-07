@@ -1155,7 +1155,7 @@
                         <lit-tag v="n"/>
 			
                         <!-- <lit-tag v="px3sp"/>  -->
-                        <var n="possessive"/>
+                   <!-- remove    <var n="possessive"/>-->
                         
                         
                 <clip part="a_cas" side="tl" pos="1"/> 
@@ -5246,7 +5246,7 @@
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
         <out> <!-- with postposition -->
-          <chunk name="in-contrast-prep-nom">
+          <chunk name="in-contrast-prep-nom-post">
             <tags>
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="4" part="a_nbr" side="sl"/></tag> <!-- number -->
@@ -5276,7 +5276,7 @@
       </when>
       <otherwise> <!-- without postposition -->
         <out>
-          <chunk name="prep-nom">
+          <chunk name="in-contrast-prep-nom">
             <tags>
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="4" part="a_nbr" side="sl"/></tag> <!-- number -->
@@ -5328,7 +5328,7 @@
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
         <out> <!-- with postposition -->
-          <chunk name="prep-nom">
+          <chunk name="prep-nom-post">
             <tags>
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="2" part="a_nbr" side="sl"/></tag> <!-- number -->
@@ -11671,7 +11671,7 @@ this would have to be changed -->
       </when>
       <otherwise> <!-- without postposition -->
         <out>
-          <chunk name="prep-nom">
+          <chunk name="prep-det-which">
             <tags>
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="2" part="a_nbr" side="sl"/></tag> <!-- number -->

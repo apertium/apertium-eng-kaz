@@ -229,12 +229,12 @@
 <!-- MLF 20120702 they will not be marked as Pgen as they are always nouns -->
    
 <e><p><l>amongst<s n="pr"/></l><r>ара<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
-    <e><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
-    <e r="RL"><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="px3sp"/><s n="loc"/></r></p></e>
+    <e><p><l>under<s n="pr"/></l><r>асты<s n="n"/><s n="loc"/></r></p></e>
+    <e r="RL"><p><l>under<s n="pr"/></l><r>асты<s n="n"/><s n="loc"/></r></p></e>
     <e><p><l>between<s n="pr"/></l><r>ара<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
  <e><p><l>out<s n="pr"/></l><r>сырт<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
-    <e><p><l>below<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
-    <e><p><l>behind<s n="pr"/></l><r>арт<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+    <e><p><l>below<s n="pr"/></l><r>асты<s n="n"/><s n="loc"/></r></p></e>
+    <e><p><l>behind<s n="pr"/></l><r>арты<s n="n"/><s n="loc"/></r></p></e>
 <e><p><l>till<s n="pr"/></l><r>дейін<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>inside<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>outside<s n="pr"/></l><r>сырт<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -274,7 +274,7 @@
 
     <!-- MLF 20120702 The following postpositions use dative case -->
     <e><p><l>intended<b/>for<s n="pr"/></l><r>арналған<s n="post"/><s n="Rdat"/></r></p></e>
-<e><p><l>from<b/>below<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="abl"/></r></p></e>
+<e><p><l>from<b/>below<s n="pr"/></l><r>асты<s n="n"/><s n="abl"/></r></p></e>
 
  <e><p><l>similarly<b/>to<s n="pr"/></l><r>секілді<s n="post"/><s n="Rdat"/></r></p></e>
     <e><p><l>towards<s n="pr"/></l><r>қарай<s n="post"/><s n="Rdat"/></r></p></e>

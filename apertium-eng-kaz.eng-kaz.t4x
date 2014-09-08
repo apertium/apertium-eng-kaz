@@ -24,6 +24,12 @@
        <cat-item lemma="е" tags="cop.aor.p1.pl"/>
         <cat-item lemma="e" tags="cop.aor.p2.pl"/>
        <cat-item lemma="е" tags="cop.aor.p3.pl"/>
+<cat-item lemma="е" tags="cop.aor.evid.p1.sg"/>
+       <cat-item lemma="е" tags="cop.aor.evid.p2.sg"/>
+       <cat-item lemma="е" tags="cop.aor.evid.p3.sg"/>
+       <cat-item lemma="е" tags="cop.aor.evid.p1.pl"/>
+        <cat-item lemma="e" tags="cop.aor.evid.p2.pl"/>
+       <cat-item lemma="е" tags="cop.aor.evid.p3.pl"/>
     <cat-item lemma="е" tags="cop.past.p1.sg"/>
        <cat-item lemma="е" tags="cop.past.p2.sg"/>
        <cat-item lemma="е" tags="cop.past.p3.sg"/>
@@ -74,6 +80,12 @@
     <def-attr n="a_neg">
       <attr-item tags="neg"/>
       <attr-item tags="NXD"/>
+    </def-attr>
+<def-attr n="a_cop">
+      <attr-item tags="cop"/>
+    </def-attr>
+<def-attr n="a_evid">
+      <attr-item tags="evid"/>
     </def-attr>
 
 <def-attr n="adj_sint">
@@ -475,6 +487,20 @@
         </test>
         <let>
            <clip pos="1" part="nbr" side="tl"/>
+           <lit v=""/>
+        </let>
+     </when>
+     </choose>
+ <choose>
+     <when>
+        <test>
+          <equal>
+             <clip pos="2" part="a_cop" side="sl"/>
+             <lit-tag v="cop"/>
+          </equal>
+        </test>
+        <let>
+           <clip pos="2" part="a_evid" side="tl"/>
            <lit v=""/>
         </let>
      </when>
@@ -928,6 +954,7 @@
             <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
           </when>
         </choose>
+
 
 
        <out>

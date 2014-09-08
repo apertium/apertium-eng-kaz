@@ -2385,14 +2385,14 @@
         <tag><lit-tag v="VP_be"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="aor"/></tag>  <!-- tense/conditionality -->
         <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
         <tag><lit-tag v="NXD"/></tag> <!-- negative -->
      </tags>
 <lu>
          <lit v="е"/>
         <lit-tag v="cop"/>
-       <lit-tag v="past"/>
+       <lit-tag v="4"/>
         <lit-tag v="3"/>
          <lit-tag v="2"/>
        </lu>

@@ -18,12 +18,12 @@
     </def-cat>
  
     <def-cat n="shortcop">
-       <cat-item lemma="е" tags="cop.p1.sg"/>
-       <cat-item lemma="е" tags="cop.p2.sg"/>
-       <cat-item lemma="е" tags="cop.p3.sg"/>
-       <cat-item lemma="е" tags="cop.p1.pl"/>
-        <cat-item lemma="e" tags="cop.p2.pl"/>
-       <cat-item lemma="е" tags="cop.p3.pl"/>
+       <cat-item lemma="е" tags="cop.aor.p1.sg"/>
+       <cat-item lemma="е" tags="cop.aor.p2.sg"/>
+       <cat-item lemma="е" tags="cop.aor.p3.sg"/>
+       <cat-item lemma="е" tags="cop.aor.p1.pl"/>
+        <cat-item lemma="e" tags="cop.aor.p2.pl"/>
+       <cat-item lemma="е" tags="cop.aor.p3.pl"/>
     <cat-item lemma="е" tags="cop.past.p1.sg"/>
        <cat-item lemma="е" tags="cop.past.p2.sg"/>
        <cat-item lemma="е" tags="cop.past.p3.sg"/>

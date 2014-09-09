@@ -315,8 +315,8 @@
       <list-item v="жатыр"/>
       <list-item v="отыр"/>
       <list-item v="тұр"/>
-      <list-item v="ж"/>
-     
+      <list-item v="жүр"/>
+     <list-item v="ал"/>
     </def-list>
 </section-def-lists>
   <section-def-macros>
@@ -707,7 +707,65 @@
       </action>
     </rule>
 
+<rule comment="RULE: NUM years  NOM"> <!--7  zhastamyn-->
+      <pattern>
+        <pattern-item n="num"/>
+       
+<pattern-item n="years_old"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="num-nom-years" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
 
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+           
+<lu>
+              <clip pos="2" side="tl" part="whole"/>
+<var n="number"/>
+
+             
+            </lu>
+<b/>
+<lu>
+              <!--<clip pos="3" side="tl" part="whole"/>-->
+             <lit v="old"/>
+              <lit-tag v="adj"/>
+              <lit-tag v="sint"/>
+                            
+            </lu>
+<b/>
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 <rule comment="RULE: VP-cop-past"> <!--Mende kitap bar-->
       <pattern>
@@ -2317,55 +2375,6 @@
               <clip pos="4" side="tl" part="whole"/>
               <var n="number"/>
             </lu>
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
-
-<rule comment="RULE: NUM years  NOM"> <!--7  zhastamyn-->
-      <pattern>
-        <pattern-item n="num"/>
-        <pattern-item n="nom"/>
-<pattern-item n="years_old"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="2"/>
-        </call-macro>
- <call-macro n="remove-poss">
-          <with-param pos="2"/>
-        </call-macro>
- <choose>
-                 <when>
-                   <test>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
-                  </test>
-                  <let><var n="number"/><lit-tag v="sg"/></let>
-                </when>
-                <otherwise>
-                  <let><var n="number"/><lit-tag v="pl"/></let>
-                </otherwise>
-              </choose>
-        <out>
-          <chunk name="num-nom-years" case="caseFirstWord">
-            <tags>
-              <tag><var n="sntype"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-             
-            </lu>
-            <b pos="1"/>
-           
-<lu>
-              <clip pos="2" side="tl" part="whole"/>
-             <var n="number"/>
-            </lu>
-<b/>
-            
           </chunk>
         </out>
         <call-macro n="reset-vars1">

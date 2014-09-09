@@ -56,7 +56,9 @@
 <match lemma="арт" tags="n.PXD.loc"><select lemma="behind" tags="pr"/></match>
   </rule>
 
-
+<rule>
+<match lemma="жас" tags="adj.subst.loc.*"></match>
+  </rule>
   
 
 <rule>

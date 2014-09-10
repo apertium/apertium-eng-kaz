@@ -419,7 +419,8 @@
       <attr-item tags="prn.ind"/>
  <attr-item tags="prn.*"/> 
       <attr-item tags="prn.pers"/>  
-      <attr-item tags="prn.pers.*.*.px"/>  
+      <attr-item tags="prn.pers.*.*.gen"/>  
+      <attr-item tags="prn.pers.*.*.gen.subst"/>  
 </def-attr>
     <def-attr n="a_kaz_perspron"> 
       <attr-item tags="prn.pers"/>
@@ -1155,7 +1156,7 @@
                         <lit-tag v="n"/>
 			
                         <!-- <lit-tag v="px3sp"/>  -->
-                   <!-- remove    <var n="possessive"/>-->
+                     <var n="possessive"/>
                         
                         
                 <clip part="a_cas" side="tl" pos="1"/> 
@@ -11400,7 +11401,7 @@ this would have to be changed -->
          <lit-tag v="prn.pos"/>
        </equal>
       </test>
-       <let><var n="pos"/><lit-tag v="px"/></let> <!-- choosing for менікі -->
+       <let><var n="pos"/><lit-tag v="gen.subst"/></let> <!-- choosing for менікі -->
     </when>
        <otherwise>
           <let><var n="pos"/><lit v=""/></let> 

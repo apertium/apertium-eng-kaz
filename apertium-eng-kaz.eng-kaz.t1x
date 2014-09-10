@@ -1379,6 +1379,9 @@
 
 
 
+
+
+
 <!-- The build-noun-lu will not be used when all prep X rules are converted -->
 <def-macro n="build-noun-lu" npar="1"> 
      <let>
@@ -2395,7 +2398,7 @@
 <lu>
          <lit v="е"/>
         <lit-tag v="cop"/>
-       <lit-tag v="4"/>
+       <lit-tag v="aor"/>
        <lit-tag v="evid"/>
         <lit-tag v="3"/>
          <lit-tag v="2"/>

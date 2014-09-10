@@ -709,8 +709,7 @@
 
 <rule comment="RULE: NUM years  NOM"> <!--7  zhastamyn-->
       <pattern>
-        <pattern-item n="num"/>
-       
+        <pattern-item n="num"/> 
 <pattern-item n="years_old"/>
       </pattern>
       <action>
@@ -751,7 +750,7 @@
             </lu>
 <b/>
 <lu>
-              <!--<clip pos="3" side="tl" part="whole"/>-->
+              
              <lit v="old"/>
               <lit-tag v="adj"/>
               <lit-tag v="sint"/>

@@ -57,7 +57,7 @@
   </rule>
 
 <rule>
-<match lemma="жас" tags="adj.subst.loc.*"></match>
+<match lemma="жас" tags="adj.*.loc.*"></match>
   </rule>
   
 

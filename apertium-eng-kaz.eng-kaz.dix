@@ -13751,6 +13751,55 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>consent<s n="vblex"/></l><r>келіс<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>conserve<s n="vblex"/></l><r>сақта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>consign<s n="vblex"/></l><r>тағайында<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>consolidate<s n="vblex"/></l><r>біріктір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>conspire<s n="vblex"/></l><r>келіс<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>constitute<s n="vblex"/></l><r>тағайында<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>constrain<s n="vblex"/></l><r>қина<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>consume<s n="vblex"/></l><r>тамақтан<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>contaminate<s n="vblex"/></l><r>ласта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>contemplate<s n="vblex"/></l><r>ойла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>contend<s n="vblex"/></l><r>күрес<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>contradict<s n="vblex"/></l><r>қарсылас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>contrast<s n="vblex"/></l><r>қарсылас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>contravene<s n="vblex"/></l><r>бұз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>converge<s n="vblex"/></l><r>үйлес<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>converse<s n="vblex"/></l><r>сөйлес<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>cool<s n="vblex"/></l><r>тоңазыт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cope<s n="vblex"/></l><r>бас<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>corner<s n="vblex"/></l><r>қинал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>corroborate<s n="vblex"/></l><r>раста<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>corrode<s n="vblex"/></l><r>же<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>corrupt<s n="vblex"/></l><r>бүлдір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>counsel<s n="vblex"/></l><r>кеңес<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>counterbalance<s n="vblex"/></l><r>теңестір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>court<s n="vblex"/></l><r>сотта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>creep<s n="vblex"/></l><r>еңбекте<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>crimp<s n="vblex"/></l><r>бұйрала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cripple<s n="vblex"/></l><r>бұз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>crowd<s n="vblex"/></l><r>топтан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>cruise<s n="vblex"/></l><r>саяхатта<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>crystallise<s n="vblex"/></l><r>қат<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>culminate<s n="vblex"/></l><r>шарықта<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>cultivate<s n="vblex"/></l><r>дамыт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cure<s n="vblex"/></l><r>емде<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>curse<s n="vblex"/></l><r>ұрыстыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>curtail<s n="vblex"/></l><r>қысқарт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cushion<s n="vblex"/></l><r>үнде<s n="v"/><s n="iv"/><s n="neg"/></r></p></e>
+<e><p><l>dampen<s n="vblex"/></l><r>ылғалдан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>dare<s n="vblex"/></l><r>батылдан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>darken<s n="vblex"/></l><r>қарала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>daunt<s n="vblex"/></l><r>қорқыт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>dazzle<s n="vblex"/></l><r>жарықтандыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>deaden<s n="vblex"/></l><r>босат<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>debit<s n="vblex"/></l><r>кіріске<b/>енгіз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>debunk<s n="vblex"/></l><r>әшкереле<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decant<s n="vblex"/></l><r>сүз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decentralise<s n="vblex"/></l><r>децентрализацияла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decimate<s n="vblex"/></l><r>талқанда<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decode<s n="vblex"/></l><r>шифрын<b/>аш<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decompose<s n="vblex"/></l><r>бөл<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decorate<s n="vblex"/></l><r>жайнат<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decouple<s n="vblex"/></l><r>ажырат<s n="v"/><s n="tv"/></r></p></e>
 
 <e><p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>
 

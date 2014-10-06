@@ -2222,7 +2222,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>creator<s n="n"/></l><r>құрушы<s n="n"/></r></p></e>
 <e><p><l>creature<s n="n"/></l><r>жанды<b/>зат<s n="n"/></r></p></e>
 <e><p><l>panda<s n="n"/></l><r>панда<s n="n"/></r></p></e>
-
+<e><p><l>cockroach<s n="n"/></l><r>тарақан<s n="n"/></r></p></e>
 <e><p><l>friction<s n="n"/></l><r>қажалыс<s n="n"/></r></p></e>
 <e><p><l>fuel<s n="n"/></l><r>отын<s n="n"/></r></p></e>
 <e><p><l>guitar<s n="n"/></l><r>гитара<s n="n"/></r></p></e>

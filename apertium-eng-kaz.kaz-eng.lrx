@@ -57,7 +57,9 @@
   </rule>
 
 <rule>
-<match lemma="жас" tags="adj.*.loc.*"></match>
+<match lemma="жас" tags="n.*.loc.*"><select lemma="year" tags="n.pl"/>
+<select lemma="old" tags="adj.sint"/>
+</match>
   </rule>
   
 

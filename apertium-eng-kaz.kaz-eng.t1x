@@ -666,7 +666,7 @@
         <out>
           <chunk name="num-nom-years" case="caseFirstWord">
             <tags>
-              <tag><var n="sntype"/></tag>
+              <tag><lit-tag v="SN"/></tag>
 
             </tags>
             <lu>
@@ -674,13 +674,10 @@
              
             </lu>
             <b pos="1"/>
-           
-
-<lu>
+          <lu>
               
-             <lit v="years"/>
-<lit-tag v="n"/>
-             
+             <lit v="year"/>
+		<lit-tag v="n"/>
               <lit-tag v="pl"/>
                             
             </lu>

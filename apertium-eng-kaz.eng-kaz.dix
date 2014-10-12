@@ -669,6 +669,7 @@
 awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v ":$" | apertium -d ../apertium-eng-kaz/ eng-kaz | less | grep "@" | fgrep -v " " | fgrep -v "," | fgrep -v "~"  | grep "@[A-Za-z]\+$" | sed 's/@//g' | awk 'BEGIN {FS=":"} {print "<e><p><l>"$2"<s n=\"n\"/></l><r>"$1"<s n=\"n\"/></r></p></e>"}' | sort >/tmp/en-kk.dict
 
 -->
+<e><p><l>Kaaba<s n="n"/></l><r>Қағба<s n="n"/></r></p></e>
 <e><p><l>amount<s n="n"/></l><r>сан<s n="n"/></r></p></e>
 <e><p><l>ability<s n="n"/></l><r>зейін<s n="n"/></r></p></e>
 <e><p><l>ability<s n="n"/></l><r>мүмкіндік<s n="n"/></r></p></e>
@@ -3434,6 +3435,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>patrol<s n="n"/></l><r>күзет<s n="n"/></r></p></e>
 <e><p><l>dam<s n="n"/></l><r>тоған<s n="n"/></r></p></e>
 <e><p><l>program<s n="n"/></l><r>бағдарлама<s n="n"/></r></p></e>
+<e><p><l>Mecca<s n="n"/></l><r>Мекке<s n="n"/></r></p></e>
 <e><p><l>poem<s n="n"/></l><r>дастан<s n="n"/></r></p></e>
 <e><p><l>kingdom<s n="n"/></l><r>хандық<s n="n"/></r></p></e>
 <e><p><l>uniform<s n="n"/></l><r>униформа<s n="n"/></r></p></e>
@@ -5776,6 +5778,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>notion<s n="n"/></l><r>ұғым<s n="n"/></r></p></e>
 <e><p><l>notoriety<s n="n"/></l><r>жаман<s n="n"/></r></p></e>
 <e><p><l>noun<s n="n"/></l><r>зат<b/>есім<s n="n"/></r></p></e>
+<e><p><l>Мессa<s n="n"/></l><r>Мекке<s n="n"/></r></p></e>
+
 <e><p><l>novelist<s n="n"/></l><r>романист<s n="n"/></r></p></e>
 <e><p><l>novelty<s n="n"/></l><r>жаңалық<s n="n"/></r></p></e>
 <e><p><l>novice<s n="n"/></l><r>бастаушы<s n="n"/></r></p></e>
@@ -12911,6 +12915,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 
 <!--new verbs -->
+<e><p><l>pray<s n="vblex"/></l><r>сыйын<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>accept<s n="vblex"/></l><r>қабылда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>ache<s n="vblex"/></l><r>ауыр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>acknowledge<s n="vblex"/></l><r>мойында<s n="v"/><s n="tv"/></r></p></e>

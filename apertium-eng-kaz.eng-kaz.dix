@@ -391,8 +391,8 @@
     <e><p><l>year<s n="n"/></l><r>жас<s n="n"/></r></p></e>
 <e><p><l>year<s n="n"/></l><r>ұзақтық<s n="n"/></r></p></e>
     <e><p><l>year-old<s n="n"/></l><r>жас<s n="n"/></r></p></e>
-<e r="RL"><p><l></l><r>жас<s n="adj"/></r></p></e>
-
+<!--<e r="RL"><p><l></l><r>жас<s n="adj"/></r></p></e>-->
+<e r="RL"><p><l>years-old</l><r>жа<s n="n"/></r></p></e>
     <e><p><l>hand<s n="n"/></l><r>қол<s n="n"/></r></p></e>
     <e><p><l>time<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
 <e><p><l>minute<s n="n"/></l><r>минут<s n="n"/></r></p></e>
@@ -8294,6 +8294,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e><p><l>Ahmed<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмед<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Aida<s n="np"/><s n="ant"/><s n="f"/></l><r>Аида<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Aidana<s n="np"/><s n="ant"/><s n="f"/></l><r>Айдана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Sherlock<s n="np"/><s n="ant"/><s n="f"/></l><r>Шерлок<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aimée<s n="np"/><s n="ant"/><s n="f"/></l><r>Аимии<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Akemi<s n="np"/><s n="ant"/><s n="f"/></l><r>Акеми<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Akira<s n="np"/><s n="ant"/><s n="f"/></l><r>Акира<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -9024,6 +9026,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Abdrakhimov<s n="np"/><s n="cog"/></l><r>Әбдірахымов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Abdenov<s n="np"/><s n="cog"/></l><r>Әбденов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
+<e><p><l>Holmes<s n="np"/><s n="cog"/></l><r>Холмс<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Dyuisenova<s n="np"/><s n="cog"/></l><r>Дүйсенов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Tulebayev<s n="np"/><s n="cog"/></l><r>Төлебаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tlendiyev<s n="np"/><s n="cog"/></l><r>Тілендиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

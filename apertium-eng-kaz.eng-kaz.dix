@@ -8295,7 +8295,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Ahmed<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмед<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Aida<s n="np"/><s n="ant"/><s n="f"/></l><r>Аида<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aidana<s n="np"/><s n="ant"/><s n="f"/></l><r>Айдана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Sherlock<s n="np"/><s n="ant"/><s n="f"/></l><r>Шерлок<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
 <e><p><l>Aimée<s n="np"/><s n="ant"/><s n="f"/></l><r>Аимии<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Akemi<s n="np"/><s n="ant"/><s n="f"/></l><r>Акеми<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Akira<s n="np"/><s n="ant"/><s n="f"/></l><r>Акира<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -8316,6 +8316,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Donald<s n="np"/><s n="ant"/><s n="m"/></l><r>Дональд<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Richard<s n="np"/><s n="ant"/><s n="m"/></l><r>Ричард<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Bernard<s n="np"/><s n="ant"/><s n="m"/></l><r>Бернард<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Sherlock<s n="np"/><s n="ant"/><s n="m"/></l><r>Шерлок<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Edward<s n="np"/><s n="ant"/><s n="m"/></l><r>Эдвард<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Howard<s n="np"/><s n="ant"/><s n="m"/></l><r>Говард<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Lawrence<s n="np"/><s n="ant"/><s n="m"/></l><r>Лоренс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -9162,6 +9163,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Coen<s n="np"/><s n="cog"/></l><r>Коэн<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Cohen<s n="np"/><s n="cog"/></l><r>Коэн<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Coll<s n="np"/><s n="cog"/></l><r>Колл<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Conan<s n="np"/><s n="cog"/></l><r>Конан<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Connolly<s n="np"/><s n="cog"/></l><r>Коннолли<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Contreras<s n="np"/><s n="cog"/></l><r>Контрерас<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Cowen<s n="np"/><s n="cog"/></l><r>Коуэн<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>

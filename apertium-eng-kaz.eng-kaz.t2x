@@ -7243,6 +7243,7 @@
             <lit-tag v="NP"/>
             <clip pos="2" part="a_nbr"/>
             <clip pos="2" part="a_pers"/>
+            <clip pos="2" part="a_tense"/>
             <clip pos="2" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="2" part="chcontent"/>

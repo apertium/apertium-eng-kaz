@@ -197,6 +197,7 @@
            <attr-item tags="ifi"/>
            <attr-item tags="aor"/>
            <attr-item tags="ger"/>
+           <attr-item tags="fut"/>
            <attr-item tags="subs"/>
            <attr-item tags="pprs"/>
     </def-attr>
@@ -325,6 +326,18 @@
 <test>
 <and>
             <equal><clip pos="1" side="sl" part="tense"/><lit-tag v="past"/></equal>
+           <equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal>
+</and>
+</test>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
+          </when>
+
+        </choose>
+<choose>
+          <when>
+<test>
+<and>
+            <equal><clip pos="1" side="sl" part="tense"/><lit-tag v="fut"/></equal>
            <equal><clip pos="1" side="sl" part="case"/><lit-tag v="CD"/></equal>
 </and>
 </test>

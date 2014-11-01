@@ -49408,8 +49408,7 @@
 
                             <e lm="size" i=""><i>size</i><par n="house__n"/></e>
                             
-                            <e lm="Kaaba" i=""><i>Kaaba</i><par n="house__n"/></e>
-                            <e lm="Mecca" i=""><i>Mecca</i><par n="house__n"/></e>
+                                              
 
                             <e lm="sky" i=""><i>sk</i><par n="bab/y__n"/></e>
 
@@ -74140,6 +74139,8 @@ F
                             <e lm="Clement" i=""><i>Clement</i><par n="Mark__np"/></e>
 
                             <e lm="Harvard" i=""><i>Harvard</i><par n="Linux__np"/></e>
+
+ <e lm="Kaaba" i=""><i>Kaaba</i><par n="Linux__np"/></e>
 
       			    <e lm="Altyn Kyran" i=""><i>Altyn<b/>Kyran</i><par n="Linux__np"/></e>
 

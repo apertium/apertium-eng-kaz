@@ -3330,7 +3330,7 @@
   </action>
 </rule>
 
-<rule comment="NEW RULE: will + not + have + verb-pp"> <!--I will have пщ - Мен бармармын ?? -->
+<rule comment="NEW RULE: will + not + have + verb-pp"> <!--I  пщ - Мен бармармын ?? -->
 <!-- superblank management not corrected -->
   <pattern>
 <pattern-item n="vaux-will"/>
@@ -5780,15 +5780,31 @@
         <with-param pos="2"/>
      </call-macro>
       <call-macro n="build-obj-pron-lu"><with-param pos="2"/></call-macro>
+<choose>
+  <when> 
+    <test>
+<or>
+<equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+ <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+ <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+</or>
+</test>
+<let><var n="subj-pron_lu"/><clip pos="2" side="sl" part="a_pers"/></let>
+</when>
+<otherwise>
+<let><var n="subj-pron_lu"/><lit-tag v="p3"/></let>
+</otherwise>
+
+</choose>
     <choose>
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
         <out> <!-- with postposition -->
-          <chunk name="prep-obj-pron">
-            <tags>
+          <chunk name="prep-obj-pron-post">
+            <tags><tag><var n="number"/> </tag>
                 <tag><var n="pptag"/></tag>
-                <tag><clip pos="2" part="a_nbr" side="sl"/></tag> <!-- number -->
-                <tag><lit-tag v="p3"/></tag> <!-- is it OK? -->
+              <!--<clip pos="2" part="a_nbr" side="sl"/></tag>  number -->
+                <tag><var n="subj-pron_lu"/></tag> <!-- is it OK? -->
                 <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
                 <tag><var n="case"/></tag>   
             </tags>
@@ -10729,10 +10745,10 @@ this would have to be changed -->
   <action>
  
     <out>
-    <chunk name="noun">
+    <chunk name="unk-noun">
     <tags>
     <tag><lit-tag v="NP"/></tag>
-    <tag><clip pos="1" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="sg"/></tag> <!-- number placeholder -->
     <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
     <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
     <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->

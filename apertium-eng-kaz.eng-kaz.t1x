@@ -19,6 +19,7 @@
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
 
       <cat-item tags="vbser.inf"/>
+
     </def-cat>
     <def-cat n="vaux-will"> <!-- future -->
       <cat-item lemma="will" tags="vaux.inf"/>

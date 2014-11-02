@@ -12599,7 +12599,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e r="RL"><p><l></l><r>бол<s n="vaux"/></r></p></e>
     <e r="RL"><p><l></l><r>бол<s n="vaux"/></r></p></e>
 
-    <e r="LR"><p><l>be<s n="vbser"/></l><r></r></p></e>
+    <e r="LR"><p><l>be<s n="vbser"/><s n="inf"/></l><r></r></p></e>
+
 
 
 
@@ -12644,6 +12645,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>finish<s n="vblex"/></l><r>біт<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
 <e><p><l>fire<s n="vblex"/></l><r>жақ<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>happen<s n="vblex"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>be<s n="vblex"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>hold<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>show<s n="vblex"/></l><r>көрсет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>fold<s n="vblex"/></l><r>жұм<s n="v"/><s n="tv"/></r></p></e>
@@ -13545,7 +13547,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>perceive<s n="vblex"/></l><r>қабылда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>persist<s n="vblex"/></l><r>сақтал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>persuade<s n="vblex"/></l><r>көз<b/>жеткіз<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>please<s n="vblex"/></l><r>ұна<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>please<s n="vblex"/></l><r>ұнат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>populate<s n="vblex"/></l><r>өсір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>pose<s n="vblex"/></l><r>көрсет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>possess<s n="vblex"/></l><r>ие<b/>бол<s n="v"/><s n="iv"/></r></p></e>

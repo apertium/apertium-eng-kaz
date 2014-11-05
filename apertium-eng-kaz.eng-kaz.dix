@@ -1634,7 +1634,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>judge<s n="n"/></l><r>би<s n="n"/></r></p></e>
     <e><p><l>Kalmyk<s n="n"/></l><r>калмак<s n="n"/></r></p></e>
     <e><p><l>Kazakh<s n="n"/></l><r>қазақ<s n="n"/></r></p></e>
-    <e><p><l>kazakh<s n="n"/></l><r>қазақ<s n="n"/></r></p></e>
+    <e><p><l>kazakh<s n="n"/></l><r>қазақша<s n="n"/></r></p></e>
     <e><p><l>kangaroo<s n="n"/></l><r>кенгуру<s n="n"/></r></p></e>
     <e><p><l>keeper<s n="n"/></l><r>бақылаушы<s n="n"/></r></p></e>
     <e><p><l>khan<s n="n"/></l><r>хан<s n="n"/></r></p></e>
@@ -8082,6 +8082,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Xavi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Хави<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Yair<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Яир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Yamal<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ямал<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Yersultan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ерсұлтан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Yoav<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Йоав<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Yves<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Ив<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Zarif<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Зариф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>

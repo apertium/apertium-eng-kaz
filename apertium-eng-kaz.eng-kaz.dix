@@ -9366,10 +9366,20 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>XII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XII<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>XVIII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XVIII<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>XVII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XVII<s n="num"/><s n="ord"/></r></p></e>
-<e><p><l>XXII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXII<s n="num"/><s n="ord"/></r></p></e>
-<e><p><l>XXI<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXI<s n="num"/><s n="ord"/></r></p></e>
-<e><p><l>XXIX<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXIX<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>XX<s n="num"/><s n="mf"/><s n="sg"/></l><r>XX<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XXI<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXI<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XXII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXII<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XXIII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXIII<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XXIV<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXIV<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XXV<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXV<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XXVI<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXVI<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XXVII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXVII<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XXVIII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXVIII<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XXIX<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXIX<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XXX<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXX<s n="num"/><s n="ord"/></r></p></e>
+
+
+
 
 
  <e><p><l>twelve<s n="num"/><s n="sp"/></l><r>он<b/>екі<s n="num"/><s n="sp"/></r></p></e>

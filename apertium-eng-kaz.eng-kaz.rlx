@@ -91,6 +91,8 @@ SELECT N IF (-1 ("<both>"i)) ;
 
 SELECT (prn tn mf) IF (0 ("<most>"i))(1 N) ; 
 
+SELECT (prn) IF (0 ("<mine>"i)) ; 
+
 SELECT (cnjcoo) IF (1 (pr)) ; 
 
 SELECT A IF (0 ("<good>"i))(1 Pr)(-1 (vbser)) ; 

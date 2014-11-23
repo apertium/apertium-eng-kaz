@@ -378,6 +378,7 @@
       <attr-item tags="ind"/>
       <attr-item tags="itg"/>
       <attr-item tags="qnt"/>
+      <attr-item tags="neg"/>
     </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="f"/>
@@ -11532,6 +11533,7 @@ this would have to be changed -->
      <let><var n="formality"/><lit v=""/></let>
      </otherwise>
   </choose>
+
 <choose>
     <when>
      <test>  
@@ -11580,6 +11582,10 @@ this would have to be changed -->
           <clip pos="1" side="sl" part="a_obj_pr"/>
           <lit-tag v="qnt"/>
        </equal>
+ <equal>
+          <clip pos="1" side="sl" part="a_obj_pr"/>
+          <lit-tag v="neg"/>
+       </equal>
 </or> 
      </test>
      <let><var n="case"/><lit-tag v="nom"/></let>
@@ -11590,7 +11596,19 @@ this would have to be changed -->
      <let><var n="case"/><lit-tag v="5"/></let>
      </otherwise>
   </choose>
-
+ <choose>
+    <when>
+     <test>  
+       <equal>
+          <clip pos="1" side="sl" part="a_pers"/>
+          <lit-tag v="p1"/>
+       </equal>
+     </test>
+    
+     <let><var n="case"/><lit-tag v="nom"/></let>
+    </when>
+  
+  </choose>
 <choose>
     <when>
      <test>  

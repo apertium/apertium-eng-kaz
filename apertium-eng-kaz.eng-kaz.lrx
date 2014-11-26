@@ -45,6 +45,12 @@
     
   </rule>
 
+  <rule>
+
+    <match lemma="be" tags="vbser.pp"><select lemma="бол" tags="v.*"/></match>
+    
+  </rule>
+
 <rule>
     <match lemma="boot" tags="n.*"><select lemma="жүксалғыш" tags="n.*"/></match>
     <match lemma="of" tags="pr"/>

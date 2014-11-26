@@ -107,7 +107,7 @@
    </def-cat> 
 <def-cat n="verb-pp"> <!-- present perfect tense -->
       <cat-item tags="vblex.pp"/>
-
+ <cat-item lemma="be" tags="vbser.pp"/>
 <cat-item tags="vbhaver.pp"/>
 <cat-item tags="vblex.sep.pp"/>
 <cat-item tags="vblex.sep.inf"/>
@@ -178,7 +178,8 @@
 </def-cat>  
 
 <def-cat n="be-vblex"> <!-- needed? -->
- <cat-item lemma="be" tags="vbser.*"/>
+ <cat-item lemma="be" tags="vbser.pres"/>
+ <cat-item lemma="be" tags="vbser.past"/>
 </def-cat>    
  <def-cat n="noun">
        <cat-item tags="n.*"/>
@@ -407,6 +408,7 @@
     <def-attr n="a_kaz_verb"> 
       <attr-item tags="v.tv"/>
       <attr-item tags="v.iv"/>
+
     </def-attr>
   <def-attr n="a_pron"> 
       <attr-item tags="prn"/>
@@ -4501,7 +4503,7 @@
   <action>
    <let><var n="tense"/><lit-tag v="past"/></let>
   
-   <out> <chunk name="VP_q">  
+   <out> <chunk name="VP_qhave">  
       <tags>
        <tag><lit-tag v="VPQ"/></tag>
        <tag> <var n="tense"/>  </tag>

@@ -12599,6 +12599,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e r="RL"><p><l></l><r>бол<s n="vaux"/></r></p></e>
     <e r="RL"><p><l></l><r>бол<s n="vaux"/></r></p></e>
 
+
+    <e r="LR"><p><l>be<s n="vbser"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
     <e r="LR"><p><l>be<s n="vbser"/></l><r></r></p></e>
 
 

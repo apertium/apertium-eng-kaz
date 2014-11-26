@@ -834,7 +834,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>good<s n="n"/></l><r>товар<s n="n"/></r></p></e>
 <e><p><l>goose<s n="n"/></l><r>қаз<s n="n"/></r></p></e>
 <e><p><l>gold<s n="n"/></l><r>алтын<s n="n"/></r></p></e>
-<e><p><l>government<s n="n"/></l><r>үкім<s n="n"/></r></p></e>
+<e><p><l>government<s n="n"/></l><r>үкімет<s n="n"/></r></p></e>
 <e><p><l>governor<s n="n"/></l><r>әкім<s n="n"/></r></p></e>
 <e><p><l>grace<s n="n"/></l><r>мейірім<s n="n"/></r></p></e>
 <e><p><l>grain<s n="n"/></l><r>астық<s n="n"/></r></p></e>

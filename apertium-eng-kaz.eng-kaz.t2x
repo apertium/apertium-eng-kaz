@@ -1247,7 +1247,7 @@
     </rule>
 
 
-<rule comment="NEW RULE: DO NP VP NP">
+<rule comment="NEW RULE: DO NP VP NP Q_m">
     <!-- Do I write a book Мен кітап жазамын ба?-->
      <pattern>
        <pattern-item n="VP_ques"/>

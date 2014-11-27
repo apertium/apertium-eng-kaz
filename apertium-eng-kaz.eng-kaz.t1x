@@ -2332,10 +2332,11 @@
 
 
 
+<!--Is/Was?-->
 
-
- <!--
-<rule comment="NEW RULE: Is/Was?">Is/Was? 
+ 
+<rule comment="NEW RULE: Is/Was?">
+ 
 
   <pattern>
     <pattern-item n="pers-verb-to-be"/>
@@ -2370,16 +2371,17 @@
        <tag><lit-tag v="VPQ"/></tag>
        <tag> <var n="tense"/>  </tag>
       </tags>
-      <lu>
+<!--      <lu>
       <lit v="ма"/>
       <lit-tag v="qst"/>
        <lit-tag v="2"/> 
-       </lu>
+       </lu>-->
+<b/>
      </chunk>
 </out> 
   </action>
 </rule>
--->
+
 
 
 <rule comment="NEW RULE: to be noun"> <!--I am a doctor - ^Мен/мен<post>/мен<prn><pers><p1><sg><nom>$ ^дәрігермін/дәрігер<n><nom>+е<cop><p1><sg>$^./.<sent>$

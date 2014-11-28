@@ -1754,8 +1754,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>poison<s n="n"/></l><r>зәр<s n="n"/></r></p></e>
     <e><p><l>pole<s n="n"/></l><r>бағана<s n="n"/></r></p></e>
     <e><p><l>portion<s n="n"/></l><r>бөлек<s n="n"/></r></p></e>
-    <e><p><l>possesions<s n="n"/></l><r>дүние<s n="n"/></r></p></e>
-    <e><p><l>possesions<s n="n"/></l><r>мүлік<s n="n"/></r></p></e>
+    <e><p><l>possession<s n="n"/></l><r>дүние<s n="n"/></r></p></e>
+    <e><p><l>possession<s n="n"/></l><r>мүлік<s n="n"/></r></p></e>
     <e><p><l>post<s n="n"/></l><r>бағана<s n="n"/></r></p></e>
     <e><p><l>powder<s n="n"/></l><r>шаң<s n="n"/></r></p></e>
     <e><p><l>praise<s n="n"/></l><r>мадақ<s n="n"/></r></p></e>

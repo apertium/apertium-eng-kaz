@@ -2334,7 +2334,7 @@
 
 <!--Is/Was?-->
 
- 
+ <!--
 <rule comment="NEW RULE: Is/Was?">
  
 
@@ -2371,17 +2371,17 @@
        <tag><lit-tag v="VPQ"/></tag>
        <tag> <var n="tense"/>  </tag>
       </tags>
-<!--      <lu>
+      <lu>
       <lit v="ма"/>
       <lit-tag v="qst"/>
        <lit-tag v="2"/> 
-       </lu>-->
+       </lu>
 <b/>
      </chunk>
 </out> 
   </action>
 </rule>
-
+-->
 
 
 <rule comment="NEW RULE: to be noun"> <!--I am a doctor - ^Мен/мен<post>/мен<prn><pers><p1><sg><nom>$ ^дәрігермін/дәрігер<n><nom>+е<cop><p1><sg>$^./.<sent>$
@@ -4494,7 +4494,22 @@
       </action>
 </rule>
 
+<!--prs perfect verb -->
+<!--<rule comment="NEW RULE: have + been"> 
 
+  <pattern>
+    <pattern-item n="vaux-have"/>
+    <pattern-item n="been"/> 
+   </pattern>
+  <action>
+   <let><var n="tense"/><lit-tag v="past"/></let>
+   <out><b pos="1"/></out>
+    <call-macro n="NEW-gen-simple-verb">
+         <with-param pos="2"/> 
+    </call-macro>   
+  </action>
+</rule>
+-->
 
 
 <rule comment="NEW RULE: have?"> <!--have? -->

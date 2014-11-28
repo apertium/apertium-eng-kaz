@@ -1,12 +1,12 @@
 <rules>
-  <rule>
+  <rule> <!-- to solve something that CG couldn't? -->
     <match lemma="I" tags="prn.*"><select lemma="Мен" tags="prn.*"/></match>
   </rule>
-  <rule>
+  <rule> <!-- leftover example -->
     <match lemma="dog" tags="n.*"><select lemma="ит" tags="n.*"/></match>
   </rule>
 
-  <rule>
+  <rule> <!-- probably does not belong here? -->
     <match lemma="residence" tags="n.*"><select lemma="мекен" tags="n.*"/></match>
   </rule>
 
@@ -37,6 +37,7 @@
     <match lemma="the" tags="det.*"/>
     <match lemma="president" tags="n.*"/>
   </rule>
+
 
 
   <rule>
@@ -140,4 +141,11 @@
     <match lemma="that" tags="det.*"><select lemma="осы" tags="det.*"/></match>
     <match lemma="time" tags="n.*"><select lemma="уақыт" tags="n.*"/></match>
      </rule>
+
+  <rule> <!-- default translation -->
+    <match lemma="possession" tags="n.pl"><select lemma="дүние" tags="n.*"/></match>
+  </rule>
+
+
+
 </rules>

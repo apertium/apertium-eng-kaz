@@ -177,9 +177,15 @@
  <cat-item lemma="be" tags="vbser.inf"/>
 </def-cat>  
 
-<def-cat n="be-vblex"> <!-- needed? -->
+<def-cat n="be-vblex"> <!-- CHECKneeded? -->
  <cat-item lemma="be" tags="vbser.pres"/>
  <cat-item lemma="be" tags="vbser.past"/>
+ <cat-item lemma="be" tags="vbser.inf"/>
+ <cat-item lemma="be" tags="vbser.ger"/>
+ <cat-item lemma="be" tags="vbser.pprs"/>
+ <cat-item lemma="be" tags="vbser.subs"/>
+ <cat-item lemma="be" tags="vbser.pp"/>
+
 </def-cat>    
  <def-cat n="noun">
        <cat-item tags="n.*"/>

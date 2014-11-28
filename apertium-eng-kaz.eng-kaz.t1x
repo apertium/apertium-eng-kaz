@@ -2955,6 +2955,7 @@
         <tag><lit-tag v="pres"/></tag>  <!-- tense/conditionality -->
         <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
         <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="CD"/></tag> <!-- negative -->
       </tags>
             <b pos="1"/>
         <lu>
@@ -2971,6 +2972,7 @@
 	 <lit-tag v="4"/>
 	  <lit-tag v="3"/>
           <lit-tag v="2"/>
+          <lit-tag v="7"/>
  	
  	        </lu>
       </chunk>
@@ -2993,6 +2995,7 @@
         <tag><lit-tag v="ifi"/></tag>  <!-- tense/conditionality -->
         <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
         <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="CD"/></tag> <!-- negative -->
       </tags>
             <b pos="1"/>
         <lu>

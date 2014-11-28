@@ -146,6 +146,16 @@
     <match lemma="possession" tags="n.pl"><select lemma="дүние" tags="n.*"/></match>
   </rule>
 
+  <rule>  <!-- not completely sure about this -->
+    <match lemma="in" tags="pr"/>  
+    <match tags="det.pos.*"/>
+    <match lemma="possession" tags="n.sg"><select lemma="иеленушілік" tags="n.*"/></match>
+  </rule>
+
+
+ 
+
+
 
 
 </rules>

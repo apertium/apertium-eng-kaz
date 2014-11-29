@@ -198,6 +198,15 @@
  <cat-item tags="n.*"/>
  <cat-item tags="adv"/>
  </def-cat>
+
+ <def-cat n="n-pr1">
+
+ <cat-item tags="n.*"/>
+ <cat-item tags="adv.*"/>
+ </def-cat>
+    
+
+
     <def-cat n="nom-gen">
       <cat-item tags="n.gen"/>
     </def-cat>
@@ -209,6 +218,8 @@
       <cat-item tags="prn.pers.*.*.nom"/>
        <cat-item tags="prn.pers.*.*.dat"/>
 <cat-item tags="prn.pers.*.*.loc"/>
+<cat-item tags="prn.pers.*.*.ins"/>
+
     </def-cat>
 
 
@@ -1608,6 +1619,37 @@
       </action>
     </rule>
 
+<rule comment="RULE: ADv">
+      <pattern>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+        <!--<let><var n="number"/><lit v=""/></let>
+        <choose>
+ 
+          <when>
+             <test>
+                <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="n.attr"/></equal>
+             </test>
+             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
+             <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
+          </when> 
+        </choose>-->
+        <out>
+          <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-ADVP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 <rule comment="RULE: VP-cop-past"> 
       <pattern>
@@ -1889,11 +1931,12 @@
             <tags>
               <tag><lit-tag v="PP"/></tag>
               <tag><var n="number"/></tag>
-              <tag><lit-tag v="PD"/></tag>
+             
             </tags>
             <lu>
               <clip pos="3" side="tl" part="lem"/>
-             <lit-tag v="pr"/>
+
+<lit-tag v="pr"/>
 
             </lu>
             <b pos="1"/>
@@ -1918,10 +1961,70 @@
         </call-macro>
       </action>
     </rule>
+<!--
+<rule comment="RULE: Adj NOM adv"> 
+      <pattern>
+
+       <pattern-item n="adj"/>
+<pattern-item n="nom"/>
+        <pattern-item n="n-pr1"/>
+
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+ <choose>
+                <when>
+                   <test>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit v=""/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="adj-n-adv1" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PP"/></tag>
+              <tag><var n="number"/></tag>
+             
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
 
 
+            </lu>
+            <b pos="1"/>
+<lu>
+              <clip pos="1" side="tl" part="whole"/>
+          <lit-tag v="2"/>
 
-<rule comment="RULE: Pro-ins"> <!-- menimen -->
+            </lu>
+<b/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <lit-tag v="2"/>
+
+            </lu>
+
+ 
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>-->
+
+<!--
+<rule comment="RULE: Pro-ins"> 
       <pattern>
 
         <pattern-item n="p-ins"/>
@@ -2024,18 +2127,15 @@
               <clip pos="1" side="sl" part="a_pers"/>
               <var n="mf"/> 
              <var n="number"/>
-            <!-- <lit-tag v="3"/>
-             <lit-tag v="4"/>
-             <lit-tag v="5"/>
-             <lit-tag v="6"/>
-             <lit-tag v="7"/>-->
+            
+            
  </lu>
   <b/>            
           </chunk>
         </out>
         
       </action>
-    </rule> 
+    </rule> -->
 
 <rule comment="RULE: Pronoun-GenP NOM">
       <pattern>

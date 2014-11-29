@@ -14,22 +14,23 @@
   </rule>
 <rule>
           
-      <match lemma="жер" tags="n.attr.*"><select lemma="earth" tags="n.attr"/></match>
-        <match lemma="планета" tags="n.px3sp.*.*"/>
+      <match lemma="жер" tags="n.attr.*"><select lemma="place" tags="n.*"/></match>
+       
   </rule>
-
+<!--
 <rule>
 
   <match lemma="Ол" tags="prn.pers.p3.sg.nom"><select lemma="she" tags="prn.subj.p3.f.*"/></match>
 
 <match lemma="қыз" tags="n.*"/>
-  </rule>
+  </rule>-->
 
 <rule>
 <match lemma="Ол" tags="prn.pers.p3.sg.nom"><select lemma="she" tags="prn.subj.p3.f.*"/></match>
 <match lemma="әдемі" tags="adj"><select lemma="beautiful" tags="adj"/></match>
 <match lemma="қыз" tags="n.*"/>
 </rule>
+
 <rule>
 
 <match lemma="әдемі" tags="adj"><select lemma="beautiful" tags="adj"/></match>
@@ -39,17 +40,12 @@
 <match lemma="оның" tags="prn.pers.p3.sg.gen"><select lemma="his" tags="det.pos.sp"/></match>
   </rule>
 
-
-
-
 <rule>
-  
 <match lemma="онымен" tags="prn.pers.p3.sg.ins"><select lemma="him" tags="prn.obj.p3.m.sg"/></match>
   </rule>
 
 <rule>
-  
-<match lemma="бар" tags="v.iv.imp.*.*"><select lemma="have" tags="vblex.pres"/></match>
+  <match lemma="бар" tags="v.iv.imp.*.*"><select lemma="have" tags="vblex.pres"/></match>
   </rule>
 
 <rule>
@@ -61,8 +57,7 @@
 <select lemma="old" tags="adj.sint"/>
 </match>
   </rule>
-  
-
+ 
 <rule>
   <match lemma="Ол" tags="prn.pers.p3.sg.nom"><select lemma="she" tags="prn.subj.p3.f.*"/></match>
 <match lemma="әдемі" tags="adj"><select lemma="beautiful" tags="adj"/></match>
@@ -70,12 +65,10 @@
   </rule>
 
 <rule>
-  
-<match lemma="үст" tags="n.px3sp.loc"><select lemma="on" tags="pr"/></match>
+  <match lemma="үст" tags="n.px3sp.loc"><select lemma="on" tags="pr"/></match>
   </rule>
 <rule>
-  
-<match lemma="аст" tags="n.px3sp.loc"><select lemma="under" tags="pr"/></match>
+  <match lemma="аст" tags="n.px3sp.loc"><select lemma="under" tags="pr"/></match>
   </rule>
 
 <rule>
@@ -86,7 +79,6 @@
   <match lemma="үй" tags="n.*"><select lemma="home" tags="n.*"/></match>
 <match lemma="*" tags="v.*"/>
   </rule>
-
 
 <rule>
 <match lemma="үй" tags="n.*"><select lemma="house" tags="n.*"/></match>

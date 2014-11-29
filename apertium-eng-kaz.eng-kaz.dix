@@ -12471,7 +12471,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 
     <!--<e><p><l>i<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>-->
-    <e><p><l>i<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>I<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>I<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>we<s n="prn"/></l><r>біз<s n="prn"/><s n="pers"/></r></p></e>
   <e><p><l>you<s n="prn"/><s n="subj"/></l><r>сіз<s n="prn"/><s n="pers"/></r></p></e>
@@ -12487,7 +12487,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
   
  <e><p><l>who<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>кім<s n="prn"/><s n="itg"/></r></p></e>
 
-  <e><p><l>i<s n="prn"/><s n="obj"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
+  <e><p><l>I<s n="prn"/><s n="obj"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>we<s n="prn"/><s n="obj"/></l><r>біз<s n="prn"/><s n="pers"/></r></p></e>
 <e><p><l>she<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/></r></p></e>
   <e><p><l>he<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/></l><r>ол<s n="prn"/><s n="pers"/><s n="p3"/></r></p></e>

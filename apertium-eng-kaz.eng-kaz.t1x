@@ -193,7 +193,7 @@
       <cat-item tags="np.al.*"/>
       <cat-item tags="np.cog"/>
       <cat-item tags="np.cog.*"/>
-
+      <cat-item tags="np.unk"/>
       <cat-item tags="np.ant.*"/>
     </def-cat>
    
@@ -205,7 +205,7 @@
       <cat-item tags="np.cog"/>
       <cat-item tags="np.cog.*"/>
       <cat-item tags="np.*"/>
-
+      <cat-item tags="np.unk"/>
       <cat-item tags="np.ant.*"/>
       <cat-item tags="np.top.*"/>
     </def-cat>
@@ -358,6 +358,7 @@
       <attr-item tags="np.ant.f"/>
       <attr-item tags="np.top"/>
       <attr-item tags="np.org"/>
+      <attr-item tags="np.unk"/>
       <attr-item tags="abbr"/>
       <attr-item tags="np.cog.m"/>
       <attr-item tags="np.pat.m"/>

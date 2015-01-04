@@ -9280,7 +9280,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>most<s n="adv"/></l><r>ең<s n="adv"/></r></p></e>
 <e><p><l>quick<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
 <e><p><l>quite<s n="adv"/></l><r>жеткілікті<s n="adv"/></r></p></e>
-    <e><p><l>never<s n="adv"/></l><r>ешқашан<s n="adv"/></r></p></e> <!-- with or without space ? -->
+   
     <e><p><l>never<s n="adv"/></l><r>ешқашан<s n="adv"/></r></p></e>
     <e><p><l>probably<s n="adv"/></l><r>мүмкін<s n="adj"/></r></p></e> <!-- maybe with advl tag?-->
     <e><p><l>everywhere<s n="adv"/></l><r>барлық<b/>жерде<s n="adv"/></r></p></e>
@@ -9895,7 +9895,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>subsequently<s n="adv"/></l><r>ақырында<s n="adv"/></r></p></e>
 <e><p><l>partly<s n="adv"/></l><r>жарым-жартылай<s n="adv"/></r></p></e>
 <e><p><l>shortly<s n="adv"/></l><r>тез<b/>арада<s n="adv"/></r></p></e>
-<e><p><l>mostly<s n="adv"/></l><r>көбінесе<s n="adv"/></r></p></e>
 <e><p><l>newly<s n="adv"/></l><r>қайтадан<s n="adv"/></r></p></e>
 <e><p><l>anxiously<s n="adv"/></l><r>қорқынышты<s n="adv"/></r></p></e>
 <e><p><l>basically<s n="adv"/></l><r>негізгінде<s n="adv"/></r></p></e>
@@ -9930,7 +9929,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>differently<s n="adv"/></l><r>жаңаша<s n="adv"/></r></p></e>
 <e><p><l>equally<s n="adv"/></l><r>бірдей<s n="adv"/></r></p></e>
 <e><p><l>ethnically<s n="adv"/></l><r>этникалы<s n="adv"/></r></p></e>
-<e><p><l>everywhere<s n="adv"/></l><r>барлық<b/>жерде<s n="adv"/></r></p></e>
 <e><p><l>fiercely<s n="adv"/></l><r>өткір<s n="adv"/></r></p></e>
 <e><p><l>financially<s n="adv"/></l><r>материалдық<s n="adv"/></r></p></e>
 <e><p><l>firmly<s n="adv"/></l><r>қатты<s n="adv"/></r></p></e>

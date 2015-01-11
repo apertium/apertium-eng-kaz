@@ -152,6 +152,17 @@
       <cat-item lemma="year" tags="n.pl"/>
      </def-cat>
 
+ <def-cat n="np-ant"> 
+      <cat-item tags="np.ant"/>
+      <cat-item tags="np.ant.*"/>
+
+   </def-cat> 
+
+ <def-cat n="np-cog"> 
+      <cat-item tags="np.cog"/>
+      <cat-item tags="np.cog.*"/>
+
+   </def-cat>
 
 <!--     
 <def-cat n="be">
@@ -1695,6 +1706,53 @@
     </choose>
       </action>
 </rule>
+
+<!--
+
+<rule comment="NEW RULE: name noun-cog">  
+  <pattern>
+    <pattern-item n="np-ant"/>
+    <pattern-item n="np-cog"/>
+  </pattern>
+  <action>
+
+  <call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+  </call-macro> 
+<choose>
+<when>
+    <test>
+<equal><clip pos="1" side="sl" part="a_possessive"/><lit-tag v="px3sp"/></equal>
+</test>
+<let> <var n="possessive"/><lit-tag v="px3sp"/></let>
+</when>
+<otherwise>
+<let> <var n="possessive"/><lit-tag v="PXD"/></let>
+</otherwise>
+</choose>
+    <out>
+    <chunk name="np-ant-cog">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+    <tag><lit-tag v="p3"/></tag>
+    <tag><var n="possessive"/></tag>
+    <tag><lit-tag v="CD"/></tag> 
+    </tags>
+    <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+<b/>
+  <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+-->
+
 
 <rule comment="NEW RULE: need to + infinitive"> <!--need to verb -->
   <pattern>

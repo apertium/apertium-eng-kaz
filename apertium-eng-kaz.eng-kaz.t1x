@@ -202,10 +202,11 @@
        <cat-item tags="n.*"/>
       <cat-item tags="np.al"/>
       <cat-item tags="np.al.*"/>
-      <cat-item tags="np.cog"/>
-      <cat-item tags="np.cog.*"/>
+   <!--   <cat-item tags="np.cog"/>
+      <cat-item tags="np.cog.*"/>-->
       <cat-item tags="np.unk"/>
       <cat-item tags="np.ant.*"/>
+      <cat-item tags="np.top"/>
     </def-cat>
    
     <def-cat n="nom">
@@ -1707,7 +1708,6 @@
       </action>
 </rule>
 
-<!--
 
 <rule comment="NEW RULE: name noun-cog">  
   <pattern>
@@ -1718,7 +1718,7 @@
 
   <call-macro n="NEW-build-noun-lu-2-4-5">
        <with-param pos="1"/>
-       <with-param pos="2"/>
+
   </call-macro> 
 <choose>
 <when>
@@ -1744,14 +1744,17 @@
       <var n="NEW-noun_lu"/>
     </lu>
 <b/>
-  <lu>
-      <var n="NEW-noun_lu"/>
+   <lu>
+     <clip pos="2" side="tl" part="lem"/> 
+     <clip pos="2" side="tl" part="a_nom"/>
+     <clip pos="2" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
     </lu>
     </chunk>
     </out>
   </action>
 </rule>
--->
+
 
 
 <rule comment="NEW RULE: need to + infinitive"> <!--need to verb -->
@@ -2088,7 +2091,7 @@
 <rule comment="NEW RULE: noun1 noun2">  <!-- football player-->
   <pattern>
     <pattern-item n="nom"/>
- <pattern-item n="nom"/>
+ <pattern-item n="noun"/>
   </pattern>
   <action>
 
@@ -5493,7 +5496,7 @@
 <rule comment="NEW RULE: prep noun"> 
   <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="nom"/>
+    <pattern-item n="noun"/>
   </pattern>
   <action>
 <!--
@@ -6908,6 +6911,96 @@
     </choose>
   </action>
 </rule>
+
+
+
+
+<rule comment="NEW RULE: prep noun1 noun2"> 
+  <pattern>
+    <pattern-item n="prep"/>
+    <pattern-item n="noun"/>
+    <pattern-item n="np-ant"/>
+    <pattern-item n="np-cog"/>
+  </pattern>
+  <action>
+     <call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
+        <with-param pos="2"/>
+      </call-macro>
+ 
+     <choose>
+      <when>  
+       <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+        <out> <!-- with postposition -->
+          <chunk name="prep-post-nom12">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="2" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+            <b pos="1"/>
+        <lu>  <!-- build in situ for the time being -->
+               <clip pos="2" side="tl" part="lem"/> 
+               <clip pos="2" side="tl" part="a_nom"/>
+               <clip pos="2" side="tl" part="a_nbr"/> 
+               <lit-tag v="nom"/> 
+          
+            </lu>
+ <b pos="2"/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <lit-tag v="sg"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="px3sp"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise> <!-- without postposition -->
+        <out>
+          <chunk name="prep-nom12">
+            <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="3" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>       
+            </tags>
+            <b pos="1"/>
+ 
+
+ <lu>  <!-- build in situ for the time being -->
+               <clip pos="2" side="tl" part="lem"/> 
+               <clip pos="2" side="tl" part="a_nom"/>
+               <clip pos="2" side="tl" part="a_nbr"/> 
+               <lit-tag v="nom"/> 
+          
+            </lu>
+ <b pos="2"/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <lit-tag v="sg"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+  </action>
+</rule>
+
+
 
 <rule comment="NEW RULE: prep noun1 noun2"> 
   <pattern>

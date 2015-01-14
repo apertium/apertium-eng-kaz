@@ -926,7 +926,7 @@
       </action>
     </rule>
     
-
+<!--
     <rule comment="REGLA: SN-GEN SN-POST">
       <pattern>
         <pattern-item n="SN-GEN"/>
@@ -1040,7 +1040,7 @@
       </action>
     </rule>
 
-<!--
+
     <rule comment="REGLA: SN-GEN">
       <pattern>
         <pattern-item n="SN-GEN"/>
@@ -1066,7 +1066,7 @@
         </call-macro>
       </action>
     </rule>
--->
+
     <rule comment="REGLA: SN-ADVP">
       <pattern>
         <pattern-item n="SN-ADVP"/>
@@ -1088,6 +1088,7 @@
         </call-macro>
       </action>
     </rule>
+-->
 
   </section-rules>
 </interchunk>

@@ -2980,7 +2980,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: V-ING V-NEG-POT">
+    <rule comment="RULE: V-ING V-NEG-POT">
       <pattern>
         <pattern-item n="v-ing"/>
         <pattern-item n="v-neg-pot"/>
@@ -2994,7 +2994,7 @@
           <with-param pos="2"/>
         </call-macro>
         <out>
-          <chunk name="v" case="caseFirstWord">
+          <chunk name="v-neg" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="sl" part="a_tns"/></tag>
@@ -3309,7 +3309,7 @@
     </rule>
 
 
-    <rule comment="REGLA: V-ADV V-ING VAUX">
+    <rule comment="RULE: V-ADV V-ING VAUX">
       <pattern>
         <pattern-item n="v-adv"/>
         <pattern-item n="v-ing"/>
@@ -3328,7 +3328,7 @@
           <with-param pos="3"/>
         </call-macro>
         <out>
-          <chunk name="v" case="caseFirstWord">
+          <chunk name="v-adv/ing" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="3" side="tl" part="a_tns"/></tag>
@@ -3379,7 +3379,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <chunk name="v" case="caseFirstWord">
+          <chunk name="v-ger-past" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
             </tags>
@@ -3407,7 +3407,7 @@
           <lit-tag v="ger"/>
         </let>
         <out>
-          <chunk name="v" case="caseFirstWord">
+          <chunk name="v-adv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
             </tags>
@@ -3646,7 +3646,7 @@
         </call-macro>
 
         <out>
-          <chunk name="v" case="caseFirstWord">
+          <chunk name="v-neg-pr" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="a_tns"/></tag>
@@ -3875,7 +3875,7 @@
 
 
 
-    <rule comment="REGLA: V-IMP">
+    <rule comment="RULE: V-IMP">
       <pattern>
         <pattern-item n="v-imp"/>
       </pattern>
@@ -3885,7 +3885,7 @@
           <lit-tag v="inf"/>
         </let>
         <out>
-          <chunk name="v" case="caseFirstWord">
+          <chunk name="v-imp" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
             </tags>

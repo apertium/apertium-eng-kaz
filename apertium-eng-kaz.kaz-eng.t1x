@@ -219,6 +219,7 @@
        <cat-item tags="prn.pers.*.*.dat"/>
 <cat-item tags="prn.pers.*.*.loc"/>
 <cat-item tags="prn.pers.*.*.ins"/>
+<cat-item tags="prn.pers.*.*.acc"/>
 
     </def-cat>
 
@@ -3984,8 +3985,6 @@
         </call-macro>
  </action>
 </rule>
-
-
 
 
 

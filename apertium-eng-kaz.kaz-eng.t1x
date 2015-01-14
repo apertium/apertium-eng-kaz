@@ -2399,7 +2399,7 @@
  
 
  
-  <rule comment="REGLA: ADJ NOM-GEN LOC-ATTR"> 
+  <rule comment="RULE: ADJ NOM-GEN LOC-ATTR"> 
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="nom-gen"/>
@@ -2452,7 +2452,7 @@
     </rule>
 
 
-  <rule comment="REGLA: ADJ ADJ DET-IND NOM">
+  <rule comment="RULE: ADJ ADJ DET-IND NOM">
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="adj"/>
@@ -2496,7 +2496,7 @@
     </rule>
 
 
-  <rule comment="REGLA: ADJ DET-IND NOM">
+  <rule comment="RULE: ADJ DET-IND NOM">
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="det"/>
@@ -2581,7 +2581,7 @@
       </action>
     </rule>
 
-  <rule comment="REGLA: DET-IND NOM">
+  <rule comment="RULE: DET-IND NOM">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
@@ -2898,7 +2898,7 @@
 
 
 
-  <rule comment="REGLA: ADJ ADJ NOM">
+  <rule comment="RULE: ADJ ADJ NOM">
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="adj"/>
@@ -2939,7 +2939,7 @@
 
 
 
-    <rule comment="REGLA: COP-FIN">
+    <rule comment="RULE: COP-FIN">
       <pattern>
         <pattern-item n="cop-fin"/>
       </pattern>
@@ -3328,7 +3328,7 @@
           <with-param pos="3"/>
         </call-macro>
         <out>
-          <chunk name="v-adv/ing" case="caseFirstWord">
+          <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="3" side="tl" part="a_tns"/></tag>
@@ -3366,7 +3366,7 @@
    
 
 
-    <rule comment="REGLA: V-GER-PAST">
+    <rule comment="RULE: V-GER-PAST">
       <pattern>
         <pattern-item n="v-ger-past"/>
       </pattern>
@@ -3379,7 +3379,7 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <chunk name="v-ger-past" case="caseFirstWord">
+          <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
             </tags>
@@ -3397,7 +3397,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: V-ADV">
+    <rule comment="RULE: V-ADV">
       <pattern>
         <pattern-item n="v-adv"/>
       </pattern>
@@ -3646,7 +3646,7 @@
         </call-macro>
 
         <out>
-          <chunk name="v-neg-pr" case="caseFirstWord">
+          <chunk name="v-neg-fin" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="1" side="tl" part="a_tns"/></tag>
@@ -3885,7 +3885,7 @@
           <lit-tag v="inf"/>
         </let>
         <out>
-          <chunk name="v-imp" case="caseFirstWord">
+          <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
             </tags>
@@ -3988,7 +3988,7 @@
 
 
 
-    <rule comment="REGLA: SENT">
+    <rule comment="RULE: SENT">
       <pattern>
         <pattern-item n="sent"/>
       </pattern>

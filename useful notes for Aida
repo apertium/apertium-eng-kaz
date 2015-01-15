@@ -339,5 +339,14 @@ ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz/dev/testvoc$ cat unkword
 ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz/dev/testvoc$ cat unknown.txt | egrep "#"| awk 'BEGIN{FS="#"} {print $2}'> unkwords.txt
 ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz/dev/testvoc$ bash testvoc.sh eng-kaz
 
-cat texts/kazakhstan1.kaz.txt | apertium -d ~/Source/apertium-kaz/ kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$'^C sort -f | uniq -c | sort -gr  
+cat texts/kazakhstan1.kaz.txt | apertium -d ~/Source/apertium-kaz/ kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$'^C sort -f | uniq -c | sort -gr
+
+
+rus-kaz
+
+cat verb.txt | awk '$3=="0" && $4=="1"   <p><l>$2<s n=\"v\"/><s n=\"tv\"/></l>        <r>$1<s n=\"vblex\"/><s n=\"impf\"/><s n=\"tv\"/></r></p><par n=\"impf__verb\"/></e>
+
+cat verb.txt | awk '$3=="1" && $4=="1"   <p><l>$2<s n=\"v\"/><s n=\"tv\"/></l>        <r>$1<s n=\"vblex\"/><s n=\"perf\"/><s n=\"tv\"/></r></p><par n=\"perf__verb\"/></e>
+
+ cat unk.txt|awk '{print "<e><p><l>" $1 "<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/></l><r>" $2 "<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/></r></p></e>"}'>newdix.txt  
 

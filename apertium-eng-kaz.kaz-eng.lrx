@@ -89,6 +89,12 @@
   </rule>
 
 
- 
+  <rule>
+    <or>
+      <match lemma="институт" tags="n.loc"/>
+      <match lemma="университет" tags="n.loc"/>
+    </or>
+    <match lemma="оқы" tags="v.*"><select lemma="study" tags="vblex.*"/></match>
+  </rule>
 
 </rules>

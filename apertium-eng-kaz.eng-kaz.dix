@@ -3809,6 +3809,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>stake<s n="n"/></l><r>сыбаға<s n="n"/></r></p></e>
 <e><p><l>stalemate<s n="n"/></l><r>шарасыз<b/>жағдай<s n="n"/></r></p></e>
 <e><p><l>statute<s n="n"/></l><r>статут<s n="n"/></r></p></e>
+<e><p><l>institute<s n="n"/></l><r>институт<s n="n"/></r></p></e>
 <e><p><l>strife<s n="n"/></l><r>күрес<s n="n"/></r></p></e>
 <e><p><l>subsidy<s n="n"/></l><r>жәрдемақы<s n="n"/></r></p></e>
 <e><p><l>supermarket<s n="n"/></l><r>супермаркет<s n="n"/></r></p></e>

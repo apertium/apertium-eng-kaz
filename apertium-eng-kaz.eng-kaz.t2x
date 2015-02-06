@@ -185,6 +185,10 @@
       <attr-item tags="SupP"/>
       <attr-item tags="IF"/>
     </def-attr>
+ <def-attr n="a_np">
+     <attr-item tags="np.ant.f"/>
+     
+    </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -243,6 +247,7 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="POST"/>
+ <def-var n="case"/>
     <def-var n="Coma"/>
     <def-var n="possessive"/>
     <def-var n="possessive1"/>
@@ -259,6 +264,30 @@
         <lit v=""/>
       </let>
     </def-macro>
+
+
+
+<def-macro n="build-case-ant" npar="1">
+<choose> 
+<when>
+   <test>
+     
+          <equal><clip pos="1"  part="a_np"/><lit-tag  v="np.ant.f"/></equal>
+     
+    </test>      
+          <let><var  n="case"/><lit-tag v="dat"/></let>
+</when>
+  <otherwise>
+          <let>
+            <var n="case"/><lit-tag v="acc"/>
+          </let>
+        </otherwise>
+</choose>
+
+</def-macro>
+
+
+
 
 
 <def-macro n="build-possessive" npar="1">
@@ -6579,6 +6608,9 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="build-case-ant">
+        <with-param pos="3"/>
+     </call-macro>
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -6594,7 +6626,7 @@
             <clip pos="3" part="a_pers"/> <!-- agree person -->
             <clip pos="3" part="a_tense"/>
             <clip pos="3" part="a_possessive"/>
-            <lit-tag v="acc"/>
+            <var n="case"/>
             <clip pos="3" part="chcontent"/>
           </chunk>
           <b/>

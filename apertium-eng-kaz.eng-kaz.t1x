@@ -12463,9 +12463,7 @@ this would have to be changed -->
     <pattern-item n="subj-pron"/>
   </pattern>
   <action>
-<!--<call-macro n="change-case">   change case  "I"
-<with-param pos="1"/>
-  </call-macro> -->
+ 
   <choose>
     <when>
       <test>

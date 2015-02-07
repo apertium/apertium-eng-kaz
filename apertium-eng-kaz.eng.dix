@@ -57054,6 +57054,8 @@ F
 
                             <e lm="focus" i=""><i>focus</i><par n="approach__vblex"/></e>
 
+                            <e lm="focus" i=""><i>focus</i><par n="approach__vblex"/></e>
+
                             <e lm="fold" i=""><i>fold</i><par n="accept__vblex"/></e>
 
                             <e lm="follow" i=""><i>follow</i><par n="accept__vblex"/></e>
@@ -58092,6 +58094,8 @@ F
                             <e lm="remove" i=""><i>remov</i><par n="liv/e__vblex"/></e>
 
                             <e lm="rename" i=""><i>renam</i><par n="liv/e__vblex"/></e>
+
+                            <e lm="refocus" i=""><i>refocus</i><par n="liv/e__vblex"/></e>
 
                             <e lm="renew" i=""><i>renew</i><par n="accept__vblex"/></e>
 
@@ -66828,6 +66832,7 @@ F
                             <e lm="jelly" i=""><i>jell</i><par n="bab/y__n"/></e>
 
                             <e lm="jet" i=""><i>jet</i><par n="house__n"/></e>
+                            <e lm="jeweler" i=""><i>jeweler</i><par n="house__n"/></e>
 
                             <e lm="jewelery" i=""><i>jeweler</i><par n="bab/y__n"/></e>
 

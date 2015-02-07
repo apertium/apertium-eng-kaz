@@ -5394,6 +5394,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>margin<s n="n"/></l><r>бүйір<s n="n"/></r></p></e>
 <e><p><l>marijuana<s n="n"/></l><r>марихуана<s n="n"/></r></p></e>
 <e><p><l>marker<s n="n"/></l><r>таңбалағыш<s n="n"/></r></p></e>
+<e><p><l>jeweler<s n="n"/></l><r>зергер<s n="n"/></r></p></e>
 <e><p><l>marrow<s n="n"/></l><r>жілік<s n="n"/></r></p></e>
 <e><p><l>marshal<s n="n"/></l><r>маршал<s n="n"/></r></p></e>
 <e><p><l>marsh<s n="n"/></l><r>ми<s n="n"/></r></p></e>
@@ -12967,6 +12968,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>stress<s n="vblex"/></l><r>бас<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>discuss<s n="vblex"/></l><r>талқыла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>focus<s n="vblex"/></l><r>жинал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>refocus<s n="vblex"/></l><r>қайта<b/>жинал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>impact<s n="vblex"/></l><r>әсер<b/>ет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>contract<s n="vblex"/></l><r>қорыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>reject<s n="vblex"/></l><r>қабылда<s n="v"/><s n="tv"/><s n="neg"/></r></p></e>

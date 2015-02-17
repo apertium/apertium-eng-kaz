@@ -297,7 +297,7 @@
 <e><p><l>name<s n="n"/></l><r>ат<s n="n"/></r></p></e>
     
     <e><p><l>rating<s n="n"/></l><r>рейтинг<s n="n"/></r></p></e>
-    <e><p><l>risk<s n="n"/></l><r>тәуекелдік<s n="n"/></r></p></e>
+    <e><p><l>risk<s n="n"/></l><r>тәуекелділік<s n="n"/></r></p></e>
     <e><p><l>bank<s n="n"/></l><r>банк<s n="n"/></r></p></e>
     <e><p><l>market<s n="n"/></l><r>нарық<s n="n"/></r></p></e>
     <e><p><l>dog<s n="n"/></l><r>ит<s n="n"/></r></p></e>
@@ -777,7 +777,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>extent<s n="n"/></l><r>ая<s n="n"/></r></p></e>
 <e><p><l>eyelash<s n="n"/></l><r>кірпік<s n="n"/></r></p></e>
 <e><p><l>faculty<s n="n"/></l><r>факультет<s n="n"/></r></p></e>
-<e><p><l>family<s n="n"/></l><r>отбас<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>family<s n="n"/></l><r>отбасы<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>famine<s n="n"/></l><r>ашаршылық<s n="n"/></r></p></e>
 <e><p><l>farmer<s n="n"/></l><r>диқан<s n="n"/></r></p></e>
 <e><p><l>fate<s n="n"/></l><r>тағдыр<s n="n"/></r></p></e>
@@ -4862,7 +4862,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>gastronomy<s n="n"/></l><r>гастрономия<s n="n"/></r></p></e>
 <e><p><l>gateway<s n="n"/></l><r>кіре<b/>беріс<s n="n"/></r></p></e>
 <e><p><l>gathering<s n="n"/></l><r>жиын<s n="n"/></r></p></e>
-<e><p><l>gay<s n="n"/></l><r>көңілді<s n="n"/></r></p></e>
+<e><p><l>gay<s n="n"/></l><r>гей<s n="n"/></r></p></e>
 <e><p><l>gazelle<s n="n"/></l><r>қарақұйрық<s n="n"/></r></p></e>
 <e><p><l>gazette<s n="n"/></l><r>бюллетень<s n="n"/></r></p></e>
 <e><p><l>gear<s n="n"/></l><r>тетік<s n="n"/></r></p></e>
@@ -10285,7 +10285,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>American<s n="adj"/></l><r>Американдық<s n="adj"/></r></p></e>
 <e><p><l>Asian<s n="adj"/></l><r>азиялық<s n="adj"/></r></p></e>
 <e><p><l>revised<s n="adj"/></l><r>жөндеулі<s n="adj"/></r></p></e>
-<e><p><l>last<s n="adj"/></l><r>ақырғы<b/>рет<s n="adj"/></r></p></e>
+<e><p><l>last<s n="adj"/></l><r>ақырғы<s n="adj"/></r></p></e>
 <e><p><l>Central<s n="adj"/></l><r>Орталық<s n="adj"/></r></p></e>
 <e><p><l>governmental<s n="adj"/></l><r>үкіметтік<s n="adj"/></r></p></e>
 <e><p><l>effective<s n="adj"/></l><r>тиімді<s n="adj"/></r></p></e>

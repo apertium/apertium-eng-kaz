@@ -56,6 +56,9 @@ dev/unknown-words-from-news-commentary-v8-20130619.txt -text
 texts/business_movie.eng.txt -text
 texts/business_movie.kaz.txt -text svneol=unset#application/octet-stream
 texts/eng.chunks.txt -text
+texts/eng.txt -text
+texts/kaz-ref.txt -text svneol=unset#application/octet-stream
+texts/kaz.txt -text svneol=unset#application/octet-stream
 texts/kazakhstan1.eng.SL -text
 texts/kazakhstan1.eng.txt -text
 texts/kazakhstan1.kaz.TL -text svneol=unset#application/octet-stream

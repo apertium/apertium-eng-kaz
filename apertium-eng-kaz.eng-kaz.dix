@@ -11407,6 +11407,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>theocratic<s n="adj"/></l><r>теократиялық<s n="adj"/></r></p></e>
 <e><p><l>therapeutic<s n="adj"/></l><r>терапевтикалық<s n="adj"/></r></p></e>
 <e><p><l>thermal<s n="adj"/></l><r>жылы<s n="adj"/></r></p></e>
+<e><p><l>tired<s n="adj"/></l><r>шаршаңқы<s n="adj"/></r></p></e>
 <e><p><l>topical<s n="adj"/></l><r>көкейкесті<s n="adj"/></r></p></e>
 <e><p><l>tough<s n="adj"/></l><r>қатал<s n="adj"/></r></p></e>
 <e><p><l>turbulent<s n="adj"/></l><r>құтырған<s n="adj"/></r></p></e>
@@ -13619,6 +13620,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>decompose<s n="vblex"/></l><r>бөл<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>decorate<s n="vblex"/></l><r>жайнат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>decouple<s n="vblex"/></l><r>ажырат<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>imitate<s n="vblex"/></l><r>елікте<s n="v"/><s n="tv"/></r></p></e>
 
 <e><p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>
 

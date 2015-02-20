@@ -245,9 +245,12 @@ sudo head -1000 corpora/eng.crp.txt | apertium -d ~/Source/apertium-eng-kaz/eng-
 <spectre> echo need to | lt-proc .deps/eng.automorf.bin
 
 
-$ cg-comp ~/Source/apertium-eng-kaz/merge-analyses.cg ~/Source/apertium-eng-kaz/merge-analyses.bin
+$ cg-comp ~/Source/apertium-kaz-rus/merge-analyses.cg ~/Source/apertium-kaz-rus/merge-analyses.bin
 
 chmod +x /home/ubuntu/Source/apertium-eng-kaz/pasten.py
+
+
+chmod +x /home/ubuntu/Source/apertium-kaz-rus/pasten.py
 
 
 <Aida> your list is over
@@ -349,4 +352,7 @@ cat verb.txt | awk '$3=="0" && $4=="1"   <p><l>$2<s n=\"v\"/><s n=\"tv\"/></l>  
 cat verb.txt | awk '$3=="1" && $4=="1"   <p><l>$2<s n=\"v\"/><s n=\"tv\"/></l>        <r>$1<s n=\"vblex\"/><s n=\"perf\"/><s n=\"tv\"/></r></p><par n=\"perf__verb\"/></e>
 
  cat unk.txt|awk '{print "<e><p><l>" $1 "<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/></l><r>" $2 "<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/></r></p></e>"}'>newdix.txt  
+
+
+head -1000 texts/rus.txt | apertium -d ~/Source/apertium-kaz-rus/ rus-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/Source/apertium-rus/rus.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt | grep -v '\/.*\/.*\/.*\/' | cut -f4 -d'/' | cut -f1 -d'$' | sed 's/<\([a-z0-9A-Z]\+\)>/<s n="\1"\/>/g'
 

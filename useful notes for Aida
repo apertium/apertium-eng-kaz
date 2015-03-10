@@ -247,7 +247,7 @@ sudo head -1000 corpora/eng.crp.txt | apertium -d ~/Source/apertium-eng-kaz/eng-
 
 $ cg-comp ~/Source/apertium-kaz-rus/merge-analyses.cg ~/Source/apertium-kaz-rus/merge-analyses.bin
 
-chmod +x /home/ubuntu/Source/apertium-eng-kaz/pasten.py
+chmod +x /home/apertium/apertium/apertium-kaz-rus/pasten.py
 
 
 chmod +x /home/ubuntu/Source/apertium-kaz-rus/pasten.py

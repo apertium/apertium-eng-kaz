@@ -58,6 +58,11 @@
       <cat-item tags="SV-cop-past.*"/>
     </def-cat>
 
+<def-cat n="THAN">
+      <cat-item tags="THAN"/>
+      <cat-item tags="THAN.*"/>
+</def-cat>
+
 <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
@@ -638,6 +643,48 @@
         </out>
       </action>
     </rule>      
+
+<rule comment="REGLA: SN SN PP and PP SV Men mektepke baqsha arkyly zhane sayabaq arkyly bardym">
+    
+      
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SN"/>
+ <pattern-item n="PP"/>
+<pattern-item n="THAN"/>
+        <pattern-item n="PP"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+	    <clip pos="1" part="whole"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="6" part="whole"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+	 <b/>
+  <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+	 <b/>
+<chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>      
+
+
 
 <rule comment="RULE:  PP SV">  <!--Men baqwa arkyly baramyn -->
       <pattern>

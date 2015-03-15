@@ -235,7 +235,9 @@
 <def-cat n="qst">
       <cat-item tags="qst"/>
     </def-cat>
-
+ <def-cat n="cnjcoo">
+       <cat-item tags="cnjcoo"/>
+    </def-cat>
 
 
 
@@ -317,6 +319,15 @@
       <attr-item tags="tv"/>
     </def-attr>
 
+<def-attr n="a_cnjsub">
+       <attr-item tags="cnjsub"/>
+       <attr-item tags="adv"/>
+    </def-attr>
+ <def-attr n="a_cnjcoo">
+       <attr-item tags="post"/>
+       <attr-item tags="cnjcoo"/>
+    </def-attr>
+
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
@@ -328,6 +339,7 @@
  <def-var n="formality"/> 
  <def-var n="case"/>
  <def-var n="mf"/>
+ <def-var n="cnjcoo_lu"/> <!-- for THAN --> 
   </section-def-vars>
 
 <section-def-lists>
@@ -347,7 +359,15 @@
           <let><var n="number"/><lit v=""/></let>
     </def-macro>
 
-
+<def-macro n="build-cnjcoo-lu" npar="1"> 
+     <let>
+           <var n="cnjcoo_lu"/>
+           <concat>
+             <clip pos="1" side="tl" part="lem"/> 
+             <clip pos="1" side="tl" part="a_cnjcoo"/>
+           </concat>  
+        </let>
+</def-macro>
 
 <def-macro n="NEW-modal-verb" npar="1">  <!--жатыр,тұр,отыр,жүр -->
 <choose>
@@ -2733,7 +2753,25 @@
       </action>
     </rule>
 
-
+<rule comment="RULE: cnjcoo">  
+  <pattern>
+    <pattern-item n="cnjcoo"/>
+  </pattern>
+  <action>
+   <call-macro n="build-cnjcoo-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="than">
+    <tags>
+  <tag><lit-tag v="THAN"/></tag>
+    <tag><lit-tag v="post"/></tag>
+    </tags>
+    <lu>
+      <var n="cnjcoo_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 
 

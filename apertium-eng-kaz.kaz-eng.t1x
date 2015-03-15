@@ -232,6 +232,13 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+<def-cat n="qst">
+      <cat-item tags="qst"/>
+    </def-cat>
+
+
+
+
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_verb">
@@ -4193,6 +4200,24 @@
     </rule>
 
 
+<rule comment="">
+      <pattern>
+        <pattern-item n="qst"/>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="qst">
+            <tags>
+              <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
  
 

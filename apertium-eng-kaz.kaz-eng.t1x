@@ -1680,6 +1680,36 @@
       </action>
     </rule>
 
+
+<rule comment="RULE: Adv adj">
+      <pattern>
+        <pattern-item n="adv"/>
+ <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        
+        <out>
+          <chunk name="Adv_Adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-ADVP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            
+            </lu>
+          
+<b/>
+ <lu>
+              <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_adjec"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
 <rule comment="RULE: VP-cop-past"> 
       <pattern>
         <pattern-item n="bol-neg"/>
@@ -4328,9 +4358,5 @@
     </rule>-->
 
 
-
-
-
-
-  </section-rules>
+ </section-rules>
 </transfer>

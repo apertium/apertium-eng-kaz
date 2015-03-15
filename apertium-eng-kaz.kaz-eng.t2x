@@ -564,6 +564,9 @@
     </rule>
     
 
+
+
+
 <rule comment="RULE: SN PP SV">  <!--Men baqwa arkyly baramyn -->
       <pattern>
         <pattern-item n="SN"/>
@@ -685,6 +688,33 @@
     </rule>      
 
 
+<rule comment="REGLA: PP PP SV">
+    
+      
+      <pattern>
+        <pattern-item n="PP"/>
+
+        <pattern-item n="PP"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+	    <clip pos="3" part="whole"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+	  </out>
+      </action>
+    </rule>      
+
+
 
 <rule comment="RULE:  PP SV">  <!--Men baqwa arkyly baramyn -->
       <pattern>
@@ -732,6 +762,52 @@
       </action>
     </rule>
 
+
+<rule comment="RULE:  PP SV">  <!--Men baqwa arkyly baramyn -->
+      <pattern>
+       
+ <pattern-item n="PP"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+      
+ <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+<let>     <clip pos="2" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
+</when>
+</choose>
+ 
+        <out>
+         
+          <b pos="1"/>
+          
+          <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+         <b/>
+        <var n="PREP"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
 

@@ -189,6 +189,7 @@ generalisation/phrase-extraction/transfer-tools-scripts/preprocess_en_en-es.sh -
 generalisation/phrase-extraction/transfer-tools-scripts/preprocess_en_en-fr.sh -text
 generalisation/phrase-extraction/transfer-tools-scripts/preprocess_en_es-en.sh -text
 generalisation/phrase-extraction/transfer-tools-scripts/preprocess_en_fr-en.sh -text
+generalisation/phrase-extraction/transfer-tools-scripts/preprocess_eng_eng-kaz.sh -text
 generalisation/phrase-extraction/transfer-tools-scripts/preprocess_es_ca-es.sh -text
 generalisation/phrase-extraction/transfer-tools-scripts/preprocess_es_en-es.sh -text
 generalisation/phrase-extraction/transfer-tools-scripts/preprocess_es_es-ca.sh -text

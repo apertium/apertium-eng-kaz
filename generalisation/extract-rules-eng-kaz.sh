@@ -6,23 +6,23 @@ CURDIR=`dirname $MYFULLPATH`
 #shflags
 . $CURDIR/rule-generalisation/shflags
 
-DEFINE_string 'source_language' 'eng' 'source language language' 's'
+DEFINE_string 'source_language' 'eng' 'source language' 's'
 DEFINE_string 'target_language' 'kaz' 'target language' 't'
-DEFINE_string 'corpus' ' ~/Source/apertium-eng-kaz/texts' 'prefix of files containing parallel corpus (suffixes are .SL and .TL)' 'c'
-DEFINE_string 'giza_dir' '/home/ubuntu/giza-pp/GIZA++-v2' 'Giza++ directory' 'g'
-DEFINE_string 'data_dir' '/home/ubuntu/Source/apertium-eng-kaz' 'Directory where the source and compiled Apertium dictionaries can be found (default: /usr/local/share/apertium/apertium-SL-TL/)' 'd'
-DEFINE_string 'apertium_prefix' '/home/ubuntu/Source/apertium-eng-kaz' 'Prefix where Apertium was installed (default: /usr/local/)' 'u'
+DEFINE_string 'corpus' 'home/apertium/apertium-testing/apertium-eng-kaz/texts' 'prefix of files containing parallel corpus (suffixes are .SL and .TL)' 'c'
+DEFINE_string 'giza_dir' '/home/apertium/giza-pp/GIZA++' 'Giza++ directory' 'g'
+DEFINE_string 'data_dir' '/home/apertium/apertium-testing/apertium-eng-kaz' 'Directory where the source and compiled Apertium dictionaries can be found (default: /usr/local/share/apertium/apertium-SL-TL/)' 'd'
+DEFINE_string 'apertium_prefix' '/home/apertium/apertium-testing/apertium-eng-kaz' 'Prefix where Apertium was installed (default: /usr/local/)' 'u'
 ######################
 # (optional)
 # Temporary directory where all the the files will be stored
 # If not set, the script will create a new temporary directory under /tmp
 ######################
-DEFINE_string 'tmp_dir' ' ~/Source/apertium-eng-kazNEW' 'temporary directory' 'm'
+DEFINE_string 'tmp_dir' ' ~/apertium-testing/apertium-eng-kazNEW' 'temporary directory' 'm'
 DEFINE_boolean 'segment_by_marker' 'false' 'Segment SL corpus according to marker hypothesis' 'y'
 DEFINE_string 'filtering_thresholds' '0 0.05 1' 'Thresholds for filtering alignment templates. Format is start step end, as in the seq command. A single threshold can also be defined' 'f'
 DEFINE_string 'theta_threshold' '2' 'Number of bilphrases a GAT must reproduce' 'w'
-DEFINE_string 'test_corpus' '~/Source/apertium-eng-kazNEW/texts/' 'evaluation corpus prefix (suffixes are .SL and .TL)' 'e'
-DEFINE_string 'dev_corpus' '~/Source/apertium-eng-kazNEW/dev-texts/' 'development corpus prefix (suffixes are .SL and .TL). It is used to choose the most appropriate threshold' 'v'
+DEFINE_string 'test_corpus' '~/apertium-testing/apertium-eng-kazNEW/texts/' 'evaluation corpus prefix (suffixes are .SL and .TL)' 'e'
+DEFINE_string 'dev_corpus' '~/apertium-testing/apertium-eng-kazNEW/dev-texts/' 'development corpus prefix (suffixes are .SL and .TL). It is used to choose the most appropriate threshold' 'v'
 
 DEFINE_boolean 'transfer_tools_1' 'false' 'Use transfer tools 1.0' 'o'
 DEFINE_boolean 'only_extract_bilingual_phrases' 'false' 'only extract bilingual phrases' 'x'
@@ -96,10 +96,10 @@ if [ "${FLAGS_zens_extraction}" == "${FLAGS_TRUE}" ]; then
 fi
 
 if [ "${FLAGS_data_dir}" == "" ]; then
-  DATADIR="/home/ubuntu/apertium-$SL-$TL/"
+  DATADIR="/home/apertium/apertium-$SL-$TL/"
 else
   DATADIR="${FLAGS_data_dir}"
-  DATADIR2="/home/ubuntu/Source/apertium-$TL/"
+  DATADIR2="/home/apertium/apertium-testing/apertium-$TL/"
 fi
 
 APERTIUMPREFIX=${FLAGS_apertium_prefix}
@@ -185,7 +185,7 @@ else
 fi
 
 echo "Checking whether needed GIZA++ executables are found in GIZA++ dir: " 1>&2
-for myfile in plain2snt.out snt2plain.out "../mkcls-v2/mkcls" GIZA++ ; do
+for myfile in plain2snt.out snt2plain.out "../mkcls/mkcls" GIZA++ ; do
   if [ -e "$GIZADIR/$myfile" ]; then
     echo "$myfile OK" 1>&2
   else

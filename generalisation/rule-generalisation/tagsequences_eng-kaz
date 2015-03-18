@@ -4,8 +4,7 @@ det:determinertype,numberat
 n:ntype,numberat
 np:nptype,gender,numberat
 num:numtype,numberat
-predet:gender,numberat
-prn:prntype,isprnref,person,gender,numberat
+prn:prntype,person, gender,numberat
 rel:reltype,gender,numberat
 vaux:verbtime,person,numberat
 vbdo:verbtime,person,numberat

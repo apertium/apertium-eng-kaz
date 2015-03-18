@@ -1,7 +1,7 @@
 adjtype:comp,sup:adj
 isadjsint:sint:adj
 determinertype:def,ind,dem,itg,ord,pos,qnt:det
-ntype:acr
+ntype:n, acr
 nptype:loc,ant,al,cog,top
 numtype:ord,year:num
 isprnref:ref:prn

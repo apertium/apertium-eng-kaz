@@ -12,3 +12,4 @@ isvbpron:pron,sep
 gender:m,f,mf,nt
 numberat:sg,pl,sp,ND
 person:p1,p2,p3,PD
+possessive:px3sp,px1sg,px2sg,px1pl,px2pl,px3pl

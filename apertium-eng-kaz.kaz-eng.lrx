@@ -6,7 +6,9 @@
     </or>
     <match lemma="жер"><select lemma="place"/></match>
   </rule>
-
+<rule>
+<match lemma="ата" tags="n.*"><select lemma="grandfather" tags="n.*"/></match>
+  </rule>
  <rule>
           
       <match lemma="қазақ" tags="n.attr.*"/>
@@ -83,6 +85,8 @@
 <rule>
 <match lemma="үй" tags="n.*"><select lemma="house" tags="n.*"/></match>
   </rule>
+
+
 
 <rule>
 <match lemma="арқылы" tags="post"><select lemma="through" tags="pr"/></match>

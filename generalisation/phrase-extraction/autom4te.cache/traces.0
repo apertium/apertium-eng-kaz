@@ -86,6 +86,34 @@ else
 	$3
 fi[]dnl
 ])
+m4trace:/usr/share/aclocal/pkg.m4:169: -1- AC_DEFUN([PKG_INSTALLDIR], [m4_pushdef([pkg_default], [m4_default([$1], ['${libdir}/pkgconfig'])])
+m4_pushdef([pkg_description],
+    [pkg-config installation directory @<:@]pkg_default[@:>@])
+AC_ARG_WITH([pkgconfigdir],
+    [AS_HELP_STRING([--with-pkgconfigdir], pkg_description)],,
+    [with_pkgconfigdir=]pkg_default)
+AC_SUBST([pkgconfigdir], [$with_pkgconfigdir])
+m4_popdef([pkg_default])
+m4_popdef([pkg_description])
+])
+m4trace:/usr/share/aclocal/pkg.m4:189: -1- AC_DEFUN([PKG_NOARCH_INSTALLDIR], [m4_pushdef([pkg_default], [m4_default([$1], ['${datadir}/pkgconfig'])])
+m4_pushdef([pkg_description],
+    [pkg-config arch-independent installation directory @<:@]pkg_default[@:>@])
+AC_ARG_WITH([noarch-pkgconfigdir],
+    [AS_HELP_STRING([--with-noarch-pkgconfigdir], pkg_description)],,
+    [with_noarch_pkgconfigdir=]pkg_default)
+AC_SUBST([noarch_pkgconfigdir], [$with_noarch_pkgconfigdir])
+m4_popdef([pkg_default])
+m4_popdef([pkg_description])
+])
+m4trace:/usr/share/aclocal/pkg.m4:206: -1- AC_DEFUN([PKG_CHECK_VAR], [AC_REQUIRE([PKG_PROG_PKG_CONFIG])dnl
+AC_ARG_VAR([$1], [value of $3 for $2, overriding pkg-config])dnl
+
+_PKG_CONFIG([$1], [variable="][$3]["], [$2])
+AS_VAR_COPY([$1], [pkg_cv_][$1])
+
+AS_VAR_IF([$1], [""], [$5], [$4])dnl
+])
 m4trace:/usr/share/aclocal-1.14/amversion.m4:14: -1- AC_DEFUN([AM_AUTOMAKE_VERSION], [am__api_version='1.14'
 dnl Some users find AM_AUTOMAKE_VERSION and mistake it for a way to
 dnl require some minimum version.  Point them to the right macro.
@@ -96,10 +124,9 @@ m4trace:/usr/share/aclocal-1.14/amversion.m4:33: -1- AC_DEFUN([AM_SET_CURRENT_AU
 m4_ifndef([AC_AUTOCONF_VERSION],
   [m4_copy([m4_PACKAGE_VERSION], [AC_AUTOCONF_VERSION])])dnl
 _AM_AUTOCONF_VERSION(m4_defn([AC_AUTOCONF_VERSION]))])
-m4trace:/usr/share/aclocal-1.14/auxdir.m4:47: -1- AC_DEFUN([AM_AUX_DIR_EXPAND], [dnl Rely on autoconf to set up CDPATH properly.
-AC_PREREQ([2.50])dnl
-# expand $ac_aux_dir to an absolute path
-am_aux_dir=`cd $ac_aux_dir && pwd`
+m4trace:/usr/share/aclocal-1.14/auxdir.m4:47: -1- AC_DEFUN([AM_AUX_DIR_EXPAND], [AC_REQUIRE([AC_CONFIG_AUX_DIR_DEFAULT])dnl
+# Expand $ac_aux_dir to an absolute path.
+am_aux_dir=`cd "$ac_aux_dir" && pwd`
 ])
 m4trace:/usr/share/aclocal-1.14/cond.m4:12: -1- AC_DEFUN([AM_CONDITIONAL], [AC_PREREQ([2.52])dnl
  m4_if([$1], [TRUE],  [AC_FATAL([$0: invalid condition: $1])],
@@ -462,8 +489,9 @@ to "yes", and re-run configure.
 END
     AC_MSG_ERROR([Your 'rm' program is bad, sorry.])
   fi
-fi])
-m4trace:/usr/share/aclocal-1.14/init.m4:182: -1- AC_DEFUN([_AC_AM_CONFIG_HEADER_HOOK], [# Compute $1's index in $config_headers.
+fi
+])
+m4trace:/usr/share/aclocal-1.14/init.m4:183: -1- AC_DEFUN([_AC_AM_CONFIG_HEADER_HOOK], [# Compute $1's index in $config_headers.
 _am_arg=$1
 _am_stamp_count=1
 for _am_header in $config_headers :; do
@@ -1043,29 +1071,29 @@ m4trace:configure.ac:151: -1- PKG_CHECK_EXISTS([dnl
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
 m4trace:configure.ac:151: -1- _PKG_SHORT_ERRORS_SUPPORTED
 m4trace:configure.ac:154: -1- PKG_CHECK_MODULES([LTTOOLBOX], [dnl
-  lttoolbox-3.2 >= required_lttoolbox_version])
+  lttoolbox >= required_lttoolbox_version])
 m4trace:configure.ac:154: -1- m4_pattern_allow([^LTTOOLBOX_CFLAGS$])
 m4trace:configure.ac:154: -1- m4_pattern_allow([^LTTOOLBOX_LIBS$])
 m4trace:configure.ac:154: -1- PKG_CHECK_EXISTS([dnl
-  lttoolbox-3.2 >= required_lttoolbox_version], [pkg_cv_[]LTTOOLBOX_CFLAGS=`$PKG_CONFIG --[]cflags "dnl
-  lttoolbox-3.2 >= required_lttoolbox_version" 2>/dev/null`
+  lttoolbox >= required_lttoolbox_version], [pkg_cv_[]LTTOOLBOX_CFLAGS=`$PKG_CONFIG --[]cflags "dnl
+  lttoolbox >= required_lttoolbox_version" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
 m4trace:configure.ac:154: -1- PKG_CHECK_EXISTS([dnl
-  lttoolbox-3.2 >= required_lttoolbox_version], [pkg_cv_[]LTTOOLBOX_LIBS=`$PKG_CONFIG --[]libs "dnl
-  lttoolbox-3.2 >= required_lttoolbox_version" 2>/dev/null`
+  lttoolbox >= required_lttoolbox_version], [pkg_cv_[]LTTOOLBOX_LIBS=`$PKG_CONFIG --[]libs "dnl
+  lttoolbox >= required_lttoolbox_version" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
 m4trace:configure.ac:154: -1- _PKG_SHORT_ERRORS_SUPPORTED
 m4trace:configure.ac:157: -1- PKG_CHECK_MODULES([APERTIUM], [dnl
-  apertium-3.2 >= required_apertium_version])
+  apertium >= required_apertium_version])
 m4trace:configure.ac:157: -1- m4_pattern_allow([^APERTIUM_CFLAGS$])
 m4trace:configure.ac:157: -1- m4_pattern_allow([^APERTIUM_LIBS$])
 m4trace:configure.ac:157: -1- PKG_CHECK_EXISTS([dnl
-  apertium-3.2 >= required_apertium_version], [pkg_cv_[]APERTIUM_CFLAGS=`$PKG_CONFIG --[]cflags "dnl
-  apertium-3.2 >= required_apertium_version" 2>/dev/null`
+  apertium >= required_apertium_version], [pkg_cv_[]APERTIUM_CFLAGS=`$PKG_CONFIG --[]cflags "dnl
+  apertium >= required_apertium_version" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
 m4trace:configure.ac:157: -1- PKG_CHECK_EXISTS([dnl
-  apertium-3.2 >= required_apertium_version], [pkg_cv_[]APERTIUM_LIBS=`$PKG_CONFIG --[]libs "dnl
-  apertium-3.2 >= required_apertium_version" 2>/dev/null`
+  apertium >= required_apertium_version], [pkg_cv_[]APERTIUM_LIBS=`$PKG_CONFIG --[]libs "dnl
+  apertium >= required_apertium_version" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
 m4trace:configure.ac:157: -1- _PKG_SHORT_ERRORS_SUPPORTED
 m4trace:configure.ac:160: -1- m4_pattern_allow([^XMLLINT$])

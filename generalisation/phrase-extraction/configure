@@ -2396,8 +2396,8 @@ test "$program_suffix" != NONE &&
 ac_script='s/[\\$]/&&/g;s/;s,x,x,$//'
 program_transform_name=`$as_echo "$program_transform_name" | sed "$ac_script"`
 
-# expand $ac_aux_dir to an absolute path
-am_aux_dir=`cd $ac_aux_dir && pwd`
+# Expand $ac_aux_dir to an absolute path.
+am_aux_dir=`cd "$ac_aux_dir" && pwd`
 
 if test x"${MISSING+set}" != xset; then
   case $am_aux_dir in
@@ -2794,6 +2794,7 @@ END
     as_fn_error $? "Your 'rm' program is bad, sorry." "$LINENO" 5
   fi
 fi
+
 
 # Checks for programs.
 
@@ -4565,12 +4566,12 @@ if test -n "$LTTOOLBOX_CFLAGS"; then
     pkg_cv_LTTOOLBOX_CFLAGS="$LTTOOLBOX_CFLAGS"
  elif test -n "$PKG_CONFIG"; then
     if test -n "$PKG_CONFIG" && \
-    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"  lttoolbox-3.2 >= 3.2\""; } >&5
-  ($PKG_CONFIG --exists --print-errors "  lttoolbox-3.2 >= 3.2") 2>&5
+    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"  lttoolbox >= 3.2\""; } >&5
+  ($PKG_CONFIG --exists --print-errors "  lttoolbox >= 3.2") 2>&5
   ac_status=$?
   $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
   test $ac_status = 0; }; then
-  pkg_cv_LTTOOLBOX_CFLAGS=`$PKG_CONFIG --cflags "  lttoolbox-3.2 >= 3.2" 2>/dev/null`
+  pkg_cv_LTTOOLBOX_CFLAGS=`$PKG_CONFIG --cflags "  lttoolbox >= 3.2" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes
 else
   pkg_failed=yes
@@ -4582,12 +4583,12 @@ if test -n "$LTTOOLBOX_LIBS"; then
     pkg_cv_LTTOOLBOX_LIBS="$LTTOOLBOX_LIBS"
  elif test -n "$PKG_CONFIG"; then
     if test -n "$PKG_CONFIG" && \
-    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"  lttoolbox-3.2 >= 3.2\""; } >&5
-  ($PKG_CONFIG --exists --print-errors "  lttoolbox-3.2 >= 3.2") 2>&5
+    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"  lttoolbox >= 3.2\""; } >&5
+  ($PKG_CONFIG --exists --print-errors "  lttoolbox >= 3.2") 2>&5
   ac_status=$?
   $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
   test $ac_status = 0; }; then
-  pkg_cv_LTTOOLBOX_LIBS=`$PKG_CONFIG --libs "  lttoolbox-3.2 >= 3.2" 2>/dev/null`
+  pkg_cv_LTTOOLBOX_LIBS=`$PKG_CONFIG --libs "  lttoolbox >= 3.2" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes
 else
   pkg_failed=yes
@@ -4608,14 +4609,14 @@ else
         _pkg_short_errors_supported=no
 fi
         if test $_pkg_short_errors_supported = yes; then
-	        LTTOOLBOX_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors --cflags --libs "  lttoolbox-3.2 >= 3.2" 2>&1`
+	        LTTOOLBOX_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors --cflags --libs "  lttoolbox >= 3.2" 2>&1`
         else
-	        LTTOOLBOX_PKG_ERRORS=`$PKG_CONFIG --print-errors --cflags --libs "  lttoolbox-3.2 >= 3.2" 2>&1`
+	        LTTOOLBOX_PKG_ERRORS=`$PKG_CONFIG --print-errors --cflags --libs "  lttoolbox >= 3.2" 2>&1`
         fi
 	# Put the nasty error message in config.log where it belongs
 	echo "$LTTOOLBOX_PKG_ERRORS" >&5
 
-	as_fn_error $? "Package requirements (  lttoolbox-3.2 >= 3.2) were not met:
+	as_fn_error $? "Package requirements (  lttoolbox >= 3.2) were not met:
 
 $LTTOOLBOX_PKG_ERRORS
 
@@ -4657,12 +4658,12 @@ if test -n "$APERTIUM_CFLAGS"; then
     pkg_cv_APERTIUM_CFLAGS="$APERTIUM_CFLAGS"
  elif test -n "$PKG_CONFIG"; then
     if test -n "$PKG_CONFIG" && \
-    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"  apertium-3.2 >= 3.2\""; } >&5
-  ($PKG_CONFIG --exists --print-errors "  apertium-3.2 >= 3.2") 2>&5
+    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"  apertium >= 3.2\""; } >&5
+  ($PKG_CONFIG --exists --print-errors "  apertium >= 3.2") 2>&5
   ac_status=$?
   $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
   test $ac_status = 0; }; then
-  pkg_cv_APERTIUM_CFLAGS=`$PKG_CONFIG --cflags "  apertium-3.2 >= 3.2" 2>/dev/null`
+  pkg_cv_APERTIUM_CFLAGS=`$PKG_CONFIG --cflags "  apertium >= 3.2" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes
 else
   pkg_failed=yes
@@ -4674,12 +4675,12 @@ if test -n "$APERTIUM_LIBS"; then
     pkg_cv_APERTIUM_LIBS="$APERTIUM_LIBS"
  elif test -n "$PKG_CONFIG"; then
     if test -n "$PKG_CONFIG" && \
-    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"  apertium-3.2 >= 3.2\""; } >&5
-  ($PKG_CONFIG --exists --print-errors "  apertium-3.2 >= 3.2") 2>&5
+    { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"  apertium >= 3.2\""; } >&5
+  ($PKG_CONFIG --exists --print-errors "  apertium >= 3.2") 2>&5
   ac_status=$?
   $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
   test $ac_status = 0; }; then
-  pkg_cv_APERTIUM_LIBS=`$PKG_CONFIG --libs "  apertium-3.2 >= 3.2" 2>/dev/null`
+  pkg_cv_APERTIUM_LIBS=`$PKG_CONFIG --libs "  apertium >= 3.2" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes
 else
   pkg_failed=yes
@@ -4700,14 +4701,14 @@ else
         _pkg_short_errors_supported=no
 fi
         if test $_pkg_short_errors_supported = yes; then
-	        APERTIUM_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors --cflags --libs "  apertium-3.2 >= 3.2" 2>&1`
+	        APERTIUM_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors --cflags --libs "  apertium >= 3.2" 2>&1`
         else
-	        APERTIUM_PKG_ERRORS=`$PKG_CONFIG --print-errors --cflags --libs "  apertium-3.2 >= 3.2" 2>&1`
+	        APERTIUM_PKG_ERRORS=`$PKG_CONFIG --print-errors --cflags --libs "  apertium >= 3.2" 2>&1`
         fi
 	# Put the nasty error message in config.log where it belongs
 	echo "$APERTIUM_PKG_ERRORS" >&5
 
-	as_fn_error $? "Package requirements (  apertium-3.2 >= 3.2) were not met:
+	as_fn_error $? "Package requirements (  apertium >= 3.2) were not met:
 
 $APERTIUM_PKG_ERRORS
 

@@ -1,0 +1,1 @@
+/home/apertium/apertium-testing/apertium-eng-kaz/generalisation-dev/phrase-extraction/transfer-tools-scripts/preprocess_fr_fr-en.sh

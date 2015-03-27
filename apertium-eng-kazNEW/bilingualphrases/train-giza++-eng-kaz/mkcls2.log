@@ -1,0 +1,11 @@
+WARNING: StatVar.cc
+
+***** 1 runs. (algorithm:TA)*****
+;KategProblem:cats: 50   words: 266
+
+start-costs: MEAN: 2219.12 (2219.12-2219.12)  SIGMA:1.40647e-05   
+  end-costs: MEAN: 2109.95 (2109.95-2109.95)  SIGMA:1.13643e-05   
+   start-pp: MEAN: 114.524 (114.524-114.524)  SIGMA:0   
+     end-pp: MEAN: 87.1703 (87.1703-87.1703)  SIGMA:2.25987e-07   
+ iterations: MEAN: 50076 (50076-50076)  SIGMA:0   
+       time: MEAN: 2.204 (2.204-2.204)  SIGMA:1.56673e-08   

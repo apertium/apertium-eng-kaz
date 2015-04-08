@@ -2440,8 +2440,12 @@
               <tag><var n="sntype"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
-              <var n="number"/>
+<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <lit-tag v="sg"/>
+              <clip pos="1" side="tl" part="lemq"/>
+  
+            <!-- <var n="number"/>-->
             </lu>
           </chunk>
         </out>

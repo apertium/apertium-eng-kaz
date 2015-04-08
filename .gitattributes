@@ -1328,6 +1328,7 @@ generalisation/test/consumer-eroski.test.es -text
 generalisation/test/result-f-0.80.gz -text
 generalisation/test/train.ca -text
 generalisation/test/train.es -text
+/kaz-cover.sh -text
 /kaz-eng.prob -text svneol=unset#unset
 /kazakhnouns.txt -text svneol=unset#application/octet-stream
 /list_nouns.txt -text

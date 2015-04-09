@@ -125,7 +125,10 @@
 <def-cat n="gen">
       <cat-item tags="prn.pers.*.*.gen"/> 
     </def-cat>
-      
+      <def-cat n="gen_nom">
+      <cat-item tags="prn.pers.*.*.gen"/> 
+<cat-item tags="n.*"/>
+    </def-cat>
 <def-cat n="v-ger">
       <cat-item tags="vblex.ger.nom"/> 
     </def-cat>
@@ -2456,7 +2459,48 @@
     </rule>
 
 
+<!--<rule comment="RULE: myNOM">
+      <pattern>
+ <pattern-item n="gen_nom"/>
+        
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
 
+        <out>
+          <chunk name="nommy" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+<lu>
+              
+              <lit-tag v="my"/>
+	
+             
+            
+</lu>
+<b/>
+
+            <lu>
+<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <lit-tag v="sg"/>
+              <clip pos="1" side="tl" part="lemq"/>
+  
+            
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>-->
 
 
 

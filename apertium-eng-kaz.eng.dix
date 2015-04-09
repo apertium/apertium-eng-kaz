@@ -50314,6 +50314,8 @@
                             <e lm="oncoming traffic" i=""><i>oncoming<b/>traffic</i><par n="house__n"/></e>
 
                             <e lm="tie" i=""><i>tie</i><par n="house__n"/></e>
+<e lm="necktie" i=""><i>necktie</i><par n="house__n"/></e>
+
 
                             <e lm="tiger" i=""><i>tiger</i><par n="house__n"/></e>
 
@@ -82404,6 +82406,7 @@ F
                             <e lm="bicuspid" i=""><i>bicuspid</i><par n="expensive__adj"/></e>
 
                             <e lm="valve" i=""><i>valve</i><par n="house__n"/></e>
+ <e lm="golf" i=""><i>golf</i><par n="house__n"/></e>
 
                             <e lm="overview" i=""><i>overview</i><par n="house__n"/></e>
 

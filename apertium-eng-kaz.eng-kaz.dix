@@ -2154,6 +2154,20 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>writer<s n="n"/></l><r>автор<s n="n"/></r></p></e>
 <e><p><l>windsurfer<s n="n"/></l><r>виндсерфер<s n="n"/></r></p></e>
 
+
+<!--words from corpora Aidana-->
+<e><p><l>geography<s n="n"/></l><r>география<s n="n"/></r></p></e>
+<e><p><l>jungle<s n="n"/></l><r>джунгли<s n="n"/></r></p></e>
+<e><p><l>famous<s n="adj"/></l><r>атақты<s n="adj"/></r></p></e>
+<e><p><l>opinion<s n="n"/></l><r>көзқарас<s n="n"/></r></p></e>
+<e><p><l>golf<s n="n"/></l><r>гольф<s n="n"/></r></p></e>
+<e><p><l>necktie<s n="n"/></l><r>галстук<s n="n"/></r></p></e>
+<e><p><l>mile<s n="n"/></l><r>шақырым<s n="n"/></r></p></e>
+<e><p><l>state<s n="n"/></l><r>жайт<s n="n"/></r></p></e>
+<e><p><l>because<s n="cnjadv"/></l><r>өйткені<s n="cnjsub"/></r></p></e>
+<e><p><l>nation<s n="n"/></l><r>жұрт<s n="n"/></r></p></e>
+<e><p><l>thing<s n="n"/></l><r>нәрсе<s n="n"/></r></p></e>
+
 <!--100 new nouns-->
 <e><p><l>diamond<s n="n"/></l><r>алмас<s n="n"/></r></p></e>
 <e><p><l>monopolist<s n="n"/></l><r>алпауыт<s n="n"/></r></p></e>

@@ -12,6 +12,9 @@
       <cat-item tags="NP_to_inf.*"/>
 
     </def-cat>
+<def-cat n="any">
+    <cat-item tags="*"/>
+  </def-cat>
 <def-cat n="NP_to_have">
       <cat-item tags="NP_to_have"/>
       <cat-item tags="NP_to_have.*"/>
@@ -7357,6 +7360,25 @@
             <clip pos="1" part="a_neg"/>
             <clip pos="1" part="chcontent"/>
           </chunk> 
+      </out>
+     </action>
+    </rule>
+
+<rule comment="NEW RULE: , for new chunks">
+
+     <pattern>
+       <pattern-item n="any"/>
+
+     </pattern>
+     <action>
+      <out>
+          <chunk>
+       
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+         
       </out>
      </action>
     </rule>

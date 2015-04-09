@@ -40301,7 +40301,7 @@
 
                             <e lm="wednesday" i=""><i>wednesday</i><par n="house__n"/></e>
      <e lm="saturday" i=""><i>saturday</i><par n="house__n"/></e>
-     <e lm="friday" i=""><i>fridday</i><par n="house__n"/></e>
+     <e lm="friday" i=""><i>friday</i><par n="house__n"/></e>
 
 
                             <e lm="sunday" i=""><i>sunday</i><par n="house__n"/></e>
@@ -42146,11 +42146,15 @@
 
                             <e lm="citizen" i=""><i>citizen</i><par n="house__n"/></e>
 
+                            <e lm="citizien" i=""><i>citizien</i><par n="house__n"/></e>
+
                             <e lm="citizenship" i=""><i>citizenship</i><par n="house__n"/></e>
 
                             <e lm="citrus" i=""><i>citrus</i><par n="access__n"/></e>
 
                             <e lm="city council" i=""><i>city<b/>council</i><par n="house__n"/></e>
+
+                            <e lm="citron" i=""><i>citron</i><par n="house__n"/></e>
 
                             <e lm="civilian" i=""><i>civilian</i><par n="house__n"/></e>
 
@@ -42598,11 +42602,11 @@
 
                             <e lm="conservatoire" i=""><i>conservatoire</i><par n="house__n"/></e>
 
-<e lm="conservatory" i=""><i>conservatory</i><par n="house__n"/></e>
+<e lm="conservatory" i=""><i>conservator</i><par n="bab/y__n"/></e>
 
 <e lm="collegium" i=""><i>collegium</i><par n="house__n"/></e>
 
-<e lm="casualty" i=""><i>casualty</i><par n="house__n"/></e>
+<e lm="casualty" i=""><i>casualt</i><par n="bab/y__n"/></e>
 
                             <e lm="consideration" i=""><i>consideration</i><par n="house__n"/></e>
 
@@ -44128,7 +44132,7 @@
 
                             <e lm="exile" i=""><i>exile</i><par n="house__n"/></e>
 
-                            <e lm="existence" i=""><i>existence</i><par n="house__n"/></e>
+                            <e lm="existense" i=""><i>existense</i><par n="house__n"/></e>
 
                             <e lm="exit" i=""><i>exit</i><par n="house__n"/></e>
 
@@ -46301,6 +46305,9 @@
 
                             <e lm="machination" i=""><i>machination</i><par n="house__n"/></e>
 
+			    <e lm="macaroni" i=""><i>macaroni</i><par n="house__n"/></e>
+
+
                             <e lm="machine" i=""><i>machine</i><par n="house__n"/></e>
 
                             <e lm="machinery" i=""><i>machiner</i><par n="bab/y__n"/></e>
@@ -47206,6 +47213,8 @@
                             <e lm="olive" i=""><i>olive</i><par n="house__n"/></e>
 
                             <e lm="omission" i=""><i>omission</i><par n="house__n"/></e>
+
+                            <e lm="omelet" i=""><i>omelet</i><par n="house__n"/></e>
 
                             <e lm="onion" i=""><i>onion</i><par n="house__n"/></e>
 
@@ -50451,6 +50460,7 @@
 
                             <e lm="train" i=""><i>train</i><par n="house__n"/></e>
 
+                            <e lm="traitor" i=""><i>traitor</i><par n="house__n"/></e>
                             <e lm="trainer" i=""><i>trainer</i><par n="house__n"/></e>
 
                             <e lm="training" i=""><i>training</i><par n="house__n"/></e>
@@ -50771,6 +50781,8 @@
                             <e lm="vampire" i=""><i>vampire</i><par n="house__n"/></e>
 
                             <e lm="van" i=""><i>van</i><par n="house__n"/></e>
+
+                            <e lm="vanila" i=""><i>vanila</i><par n="house__n"/></e>
 
                             <e lm="vandalism" i=""><i>vandalism</i><par n="house__n"/></e>
 
@@ -63982,6 +63994,8 @@ F
 
                             <e lm="cogeneration" i=""><i>cogeneration</i><par n="house__n"/></e>
 
+			    <e lm="cognac" i=""><i>cognac</i><par n="house__n"/></e>
+
                             <e lm="colchicum" i=""><i>colchicum</i><par n="house__n"/></e>
 
                             <e lm="cold-short" i=""><i>cold-short</i><par n="expensive__adj"/></e>
@@ -65329,6 +65343,8 @@ F
                             <e lm="exhaustible" i=""><i>exhaustible</i><par n="expensive__adj"/></e>
 
                             <e lm="existentialism" i=""><i>existentialism</i><par n="house__n"/></e>
+
+ 			    <e lm="existence" i=""><i>existence</i><par n="house__n"/></e>
 
                             <e lm="exocentric" i=""><i>exocentric</i><par n="expensive__adj"/></e>
 
@@ -81196,6 +81212,8 @@ F
                             <e lm="apprehensive" i=""><i>apprehensive</i><par n="expensive__adj"/></e>
 
                             <e lm="apprenticeship" i=""><i>apprenticeship</i><par n="house__n"/></e>
+
+<e lm="apprentice" i=""><i>apprentice</i><par n="house__n"/></e>
 
                             <e lm="approachable" i=""><i>approachable</i><par n="expensive__adj"/></e>
 

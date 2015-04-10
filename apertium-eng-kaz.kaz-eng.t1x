@@ -158,6 +158,14 @@
  <cat-item lemma="жоқ" tags="adj"/>
       <cat-item lemma="жоқ" tags="adj.*"/>
     </def-cat>
+
+<def-cat n="degen">
+ <cat-item lemma="де" tags="v.tv.gpr_past.*"/>
+ <cat-item lemma="де" tags="v.tv.gpr_past"/>
+     
+    </def-cat>
+
+
 <def-cat n="kerek">
  <cat-item lemma="керек" tags="n"/>
       <cat-item lemma="керек" tags="n.*"/>
@@ -2421,6 +2429,44 @@
         </call-macro>
       </action>
     </rule>
+
+<rule comment="RULE: degen + NOM">
+      <pattern>
+        <pattern-item n="degen"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="degen-nom" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+ 
+
+
 
 
 

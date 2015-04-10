@@ -33,6 +33,15 @@
 <match lemma="қыз" tags="n.*"/>
 </rule>
 
+
+<rule>
+          <match lemma="кітап" tags="n.gen"/>
+      <match lemma="бет" tags="n.*.*"><select lemma="page" tags="n.*"/></match>
+       
+  </rule>
+
+
+
 <rule>
 
 <match lemma="әдемі" tags="adj"><select lemma="beautiful" tags="adj"/></match>

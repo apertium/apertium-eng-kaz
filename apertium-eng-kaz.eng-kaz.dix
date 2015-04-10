@@ -1371,7 +1371,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>anger<s n="n"/></l><r>ашу<s n="n"/></r></p></e>
     <e><p><l>angle<s n="n"/></l><r>бұрыш<s n="n"/></r></p></e>
     <e><p><l>anguish<s n="n"/></l><r>бейнет<s n="n"/></r></p></e>
-    <e><p><l>appearence<s n="n"/></l><r>бейне<s n="n"/></r></p></e>
+    <e><p><l>appearance<s n="n"/></l><r>бейне<s n="n"/></r></p></e>
     <e><p><l>apprentice<s n="n"/></l><r>шәкірт<s n="n"/></r></p></e>
     <e><p><l>Arab<s n="n"/></l><r>араб<s n="n"/></r></p></e>
     <e><p><l>architect<s n="n"/></l><r>сәулетші<s n="n"/></r></p></e>
@@ -1393,7 +1393,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>biscuit<s n="n"/></l><r>печенье<s n="n"/></r></p></e>
     <e><p><l>bishop<s n="n"/></l><r>піл<s n="n"/></r></p></e>
     <e><p><l>blind<s n="n"/></l><r>соқыр<s n="n"/></r></p></e>
-    <e><p><l>bonuquet<s n="n"/></l><r>шоқ<s n="n"/></r></p></e>
+    <e><p><l>bouquet<s n="n"/></l><r>шоқ<s n="n"/></r></p></e>
     <e><p><l>boundary<s n="n"/></l><r>шекара<s n="n"/></r></p></e>
     <e><p><l>bowl<s n="n"/></l><r>астау<s n="n"/></r></p></e>
     <e><p><l>bride<s n="n"/></l><r>келін<s n="n"/></r></p></e>

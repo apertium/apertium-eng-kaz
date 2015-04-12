@@ -35,9 +35,8 @@
 
 
 <rule>
-          <match lemma="кітап" tags="n.gen"/>
-      <match lemma="бет" tags="n.*.*"><select lemma="page" tags="n.*"/></match>
-       
+      <match lemma="кітап" tags="n.gen"/>
+      <match lemma="бет" tags="n.*.*"><select lemma="page" tags="n.*"/></match>     
   </rule>
 
 

@@ -162,6 +162,8 @@
 <def-cat n="degen">
  <cat-item lemma="де" tags="v.tv.gpr_past.*"/>
  <cat-item lemma="де" tags="v.tv.gpr_past"/>
+ <cat-item lemma="де" tags="v.tv.ger_past.*"/>
+  <cat-item lemma="де" tags="v.tv.ger_past"/>
      
     </def-cat>
 
@@ -2504,10 +2506,10 @@
       </action>
     </rule>
 
-
-<!--<rule comment="RULE: myNOM">
+<!--
+<rule comment="RULE: myNOM">
       <pattern>
- <pattern-item n="gen_nom"/>
+ <pattern-item n="nom"/>
         
       </pattern>
       <action>
@@ -2522,13 +2524,20 @@
           <chunk name="nommy" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
+ 		<tag><lit-tag v="det"/></tag>
+              <tag><lit-tag v="a_pos"/></tag>
+ 	<tag><lit-tag v="a_cas"/></tag>
+              <tag><var n="num1"/></tag>
+
             </tags>
-<lu>
-              
-              <lit-tag v="my"/>
-	
-             
-            
+
+          <lit v="my"/>  
+ 	
+ 	<lit-tag v="2"/>
+	 <lit-tag v="3"/>
+	<lit-tag v="4"/>
+	<lit-tag v="5"/> 
+ 		                 
 </lu>
 <b/>
 
@@ -2537,8 +2546,7 @@
               <clip pos="1" side="tl" part="a_nom"/>
               <lit-tag v="sg"/>
               <clip pos="1" side="tl" part="lemq"/>
-  
-            
+             
             </lu>
           </chunk>
         </out>
@@ -2546,8 +2554,8 @@
           <with-param pos="1"/>
         </call-macro>
       </action>
-    </rule>-->
-
+    </rule>
+-->
 
 
  

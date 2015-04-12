@@ -41205,6 +41205,8 @@
 
                             <e lm="banquet" i=""><i>banquet</i><par n="house__n"/></e>
 
+<e lm="baobab" i=""><i>baobab</i><par n="house__n"/></e>
+
                             <e lm="baptism" i=""><i>baptism</i><par n="house__n"/></e>
 
                             <e lm="barrage" i=""><i>barrage</i><par n="house__n"/></e>
@@ -41270,6 +41272,7 @@
                             <e lm="bean" i=""><i>bean</i><par n="house__n"/></e>
 
                             <e lm="beard" i=""><i>beard</i><par n="house__n"/></e>
+
 
                             <e lm="beat" i=""><i>beat</i><par n="house__n"/></e>
 
@@ -44264,6 +44267,8 @@
                             <e lm="fainting" i=""><i>fainting</i><par n="house__n"/></e>
 
                             <e lm="fairy" i=""><i>fair</i><par n="bab/y__n"/></e>
+
+ <e lm="fairy-tail" i=""><i>fairy-tail</i><par n="house__n"/></e>
 
                             <e lm="fair" i=""><i>fair</i><par n="house__n"/></e>
 
@@ -49303,6 +49308,7 @@
                             <e lm="sharpness" i=""><i>sharpness</i><par n="access__n"/></e>
 
                             <e lm="shed" i=""><i>shed</i><par n="house__n"/></e>
+<e lm="sheep" i=""><i>sheep</i><par n="house__n"/></e>
 
                             <e lm="sheep" i=""><i>sheep</i><par n="politics__n"/></e>
 
@@ -62053,6 +62059,7 @@ F
 
                             <e lm="girlfriend" i=""><i>girlfriend</i><par n="house__n"/></e>
 
+ <e lm="franc" i=""><i>franc</i><par n="house__n"/></e>
 
 
                             <e lm="Abidjan" i=""><i>Abidjan</i><par n="Barcelona__np"/></e>
@@ -69459,6 +69466,8 @@ F
                             <e lm="ridicule" i=""><i>ridicul</i><par n="liv/e__vblex"/></e>
 
                             <e lm="riding" i=""><i>riding</i><par n="house__n"/></e>
+
+ <e lm="riding hood" i=""><i>horse<b/>riding<b/>hood</i><par n="house__n"/></e>
 
                             <e lm="rifle" i=""><i>rifle</i><par n="house__n"/></e>
 

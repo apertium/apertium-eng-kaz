@@ -1434,7 +1434,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>condition<s n="n"/></l><r>күй<s n="n"/></r></p></e>
     <e><p><l>condition<s n="n"/></l><r>хал<s n="n"/></r></p></e>
     <e><p><l>condition<s n="n"/></l><r>жағдай<s n="n"/></r></p></e>
-    <e><p><l>conscienceness<s n="n"/></l><r>сана<s n="n"/></r></p></e>
+    <e><p><l>consciousness<s n="n"/></l><r>сана<s n="n"/></r></p></e>
     <e><p><l>conscience<s n="n"/></l><r>ұждан<s n="n"/></r></p></e>
     <e><p><l>contents<s n="n"/></l><r>құрам<s n="n"/></r></p></e>
     <e><p><l>Contents<s n="n"/></l><r>мазмұн<s n="n"/></r></p></e>
@@ -1442,7 +1442,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>conversation<s n="n"/></l><r>сұхбат<s n="n"/></r></p></e>
     <e><p><l>cookie<s n="n"/></l><r>печенье<s n="n"/></r></p></e>
     <e><p><l>Cosmodrome<s n="n"/></l><r>Ғарыш<b/>айлақ<s n="n"/><s n="px3sp"/></r></p></e>
-    <e><p><l>сosmodrome<s n="n"/></l><r>ғарыш<b/>айлақ<s n="n"/><s n="px3sp"/></r></p></e>
+
   <e><p><l>Cossack<s n="n"/></l><r>казак<s n="n"/></r></p></e>
     <e><p><l>cossack<s n="n"/></l><r>казак<s n="n"/></r></p></e>
     <e><p><l>cord<s n="n"/></l><r>арқан<s n="n"/></r></p></e>

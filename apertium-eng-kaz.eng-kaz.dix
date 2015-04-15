@@ -1545,7 +1545,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>hiccups<s n="n"/></l><r>ықылық<s n="n"/></r></p></e>
     <e><p><l>hill<s n="n"/></l><r>төбе<s n="n"/></r></p></e>
     <e><p><l>hinderance<s n="n"/></l><r>кедергі<s n="n"/></r></p></e>
-    <e><p><l>Hinduism<s n="n"/></l><r>индуизм<s n="n"/></r></p></e>
+    <e><p><l>hinduism<s n="n"/></l><r>индуизм<s n="n"/></r></p></e>
     <e><p><l>holiday<s n="n"/></l><r>мейрам<s n="n"/></r></p></e>
     <e><p><l>homeland<s n="n"/></l><r>атамекен<s n="n"/></r></p></e>
     <e><p><l>home<s n="n"/></l><r>мекен<s n="n"/></r></p></e>

@@ -15189,6 +15189,8 @@
 
                             <e lm="after this manner" i=""><i>after<b/>this<b/>manner</i><par n="maybe__adv"/></e>
 
+<e lm="after that" i=""><i>after<b/>that</i><par n="maybe__adv"/></e>
+
                             <e lm="afterwards" i=""><i>afterwards</i><par n="maybe__adv"/></e>
 
                             <e lm="again" i=""><i>again</i><par n="maybe__adv"/></e>
@@ -57687,7 +57689,7 @@ F
 
                             <e lm="mount" i=""><i>mount</i><par n="accept__vblex"/></e>
 
-                            <e lm="move" i=""><i>mov</i><par n="liv/e__vblex"/></e>
+                            <e lm="move" i=""><i>move</i><par n="liv/e__vblex"/></e>
 
                             <e lm="multiply" i=""><i>multipl</i><par n="appl/y__vblex"/></e>
 
@@ -73594,6 +73596,7 @@ F
                             <e lm="stepsister" i=""><i>stepsister</i><par n="house__n"/></e>
 
                             <e lm="half brother" i=""><i>half<b/>brother</i><par n="house__n"/></e>
+<e lm="little brother" i=""><i>little<b/>brother</i><par n="house__n"/></e>
 
                             <e lm="half sister" i=""><i>half<b/>sister</i><par n="house__n"/></e>
 
@@ -78383,6 +78386,7 @@ F
 <e lm="Arystan" i=""><i>Arystan</i><par n="Mark__np"/></e>
 <e lm="Aslan" i=""><i>Aslan</i><par n="Mark__np"/></e>
 <e lm="Baurzhan" i=""><i>Baurzhan</i><par n="Mark__np"/></e>
+<e lm="Bapy" i=""><i>Baпы</i><par n="Mark__np"/></e>
 <e lm="Birzhan" i=""><i>Birzhan</i><par n="Mark__np"/></e>
 <e lm="Daulet" i=""><i>Daulet</i><par n="Mark__np"/></e>
 <e lm="Dilma" i=""><i>Dilma</i><par n="Mark__np"/></e>

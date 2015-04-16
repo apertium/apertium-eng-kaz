@@ -2183,7 +2183,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>bouquet<s n="n"/></l><r>гүлшоқ<s n="n"/></r></p></e>
 <e><p><l>witch<s n="n"/></l><r>мыстан<b/>кемпір<s n="n"/></r></p></e>
 <e><p><l>tinderbox<s n="n"/></l><r>оттық<s n="n"/></r></p></e>
-
+<e><p><l>little<b/>brother<s n="n"/></l><r>іні<s n="n"/></r></p></e>
+<e><p><l>after<b/>that<s n="pr"/></l><r>содан<b/>кейін<s n="post"/></r></p></e>
+<e><p><l>move<s n="vblex"/></l><r>қозға<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>swallow<s n="vblex"/></l><r>жұт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>chew<s n="vblex"/></l><r>шайна<s n="v"/><s n="tv"/></r></p></e>
 
 <!--words from corpora Nurbolat-->
 <e><p><l>Zhanbusunov<s n="n"/></l><r>Жанбусунов<s n="n"/></r></p></e>
@@ -8803,6 +8807,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Arystan<s n="np"/><s n="ant"/><s n="m"/></l><r>Арыстан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Aslan<s n="np"/><s n="ant"/><s n="m"/></l><r>Аслан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Baurzhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Бауыржан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Bapy<s n="np"/><s n="ant"/><s n="m"/></l><r>Бапы<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Birzhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Біржан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Daulet<s n="np"/><s n="ant"/><s n="m"/></l><r>Дәулет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Dilma<s n="np"/><s n="ant"/><s n="m"/></l><r>Ділма<s n="np"/><s n="ant"/><s n="m"/></r></p></e>

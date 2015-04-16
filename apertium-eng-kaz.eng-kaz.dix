@@ -2171,7 +2171,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>first<s n="adj"/></l><r>тұңғыш<s n="adj"/></r></p></e>
 <e><p><l>prey<s n="n"/></l><r>жемтік<s n="n"/></r></p></e>
 <e><p><l>hat<s n="n"/></l><r>қалпақ<s n="n"/></r></p></e>
-<e><p><l>failure<s n="n"/></l><r>месел<s n="n"/></r></p></e>
+<e><p><l>failure<s n="n"/></l><r>сәтсіздік<s n="n"/></r></p></e>
 <e><p><l>sheep<s n="n"/></l><r>қошақан<s n="n"/></r></p></e>
 <e><p><l>ram<s n="n"/></l><r>қошқар<s n="n"/></r></p></e>
 <e><p><l>weigh<s n="n"/></l><r>салмақ<s n="n"/></r></p></e>
@@ -2188,6 +2188,20 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>move<s n="vblex"/></l><r>қозға<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>swallow<s n="vblex"/></l><r>жұт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>chew<s n="vblex"/></l><r>шайна<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>masterpiece<s n="n"/></l><r>өнер<b/>туындысы<s n="n"/></r></p></e>
+<e><p><l>always<s n="adv"/></l><r>үнемі<s n="adv"/></r></p></e>
+<e><p><l>explain<s n="vblex"/></l><r>түсіндір<s n="v"/><s n="tv"/></r></p></e>
+ <e><p><l>anything<s n="prn"/><s n="tn"/><s n="m"/></l><r>ештеңе<s n="prn"/><s n="neg"/></r></p></e>
+<e><p><l>all<s n="adj"/></l><r>түгел<s n="adj"/></r></p></e>
+<e><p><l>over<s n="adv"/></l><r>жуық<s n="adj"/></r></p></e>
+<e><p><l>get<b/>lose<s n="vblex"/></l><r>адас<s n="v"/><s n="iv"/></r></p></e>
+ <e><p><l>great<s n="adj"/><s n="sint"/></l><r>ұлағатты<s n="adj"/></r></p></e>    
+<e><p><l>then<s n="cnjadv"/></l><r>сондықтан<s n="cnjadv"/></r></p></e>
+<e><p><l>clear-sighted<s n="adj"/></l><r>парасатты<s n="adj"/></r></p></e> 
+<e><p><l>bridge<s n="n"/></l><r>бридж<s n="n"/></r></p></e>
+<e><p><l>queen<s n="n"/></l><r>патшайым<s n="n"/></r></p></e>
+
+  
 
 <!--words from corpora Nurbolat-->
 <e><p><l>Zhanbusunov<s n="n"/></l><r>Жанбусунов<s n="n"/></r></p></e>
@@ -8805,6 +8819,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Amangeldy<s n="np"/><s n="ant"/><s n="m"/></l><r>Амангелді<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Amanzhol<s n="np"/><s n="ant"/><s n="m"/></l><r>Аманжол<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Arystan<s n="np"/><s n="ant"/><s n="m"/></l><r>Арыстан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Er<b/>Tostik<s n="np"/><s n="ant"/><s n="m"/></l><r>Ер<b/>Төстік<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Aslan<s n="np"/><s n="ant"/><s n="m"/></l><r>Аслан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Baurzhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Бауыржан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Bapy<s n="np"/><s n="ant"/><s n="m"/></l><r>Бапы<s n="np"/><s n="ant"/><s n="m"/></r></p></e>

@@ -21849,6 +21849,8 @@
 
                             <e lm="particular request" i=""><i>particular<b/>request</i><par n="house__n"/></e>
 
+ <e lm="feet" i=""><i>feet</i><par n="house__n"/></e>
+
                             <e lm="with particular attention to" i=""><i>with<b/>particular<b/>attention<b/>to</i><par n="after__cnjadv"/></e>
 
                             <e lm="with particular reference to" i=""><i>with<b/>particular<b/>reference<b/>to</i><par n="after__cnjadv"/></e>
@@ -72855,6 +72857,8 @@ F
 
                             <e lm="grandmaster" i=""><i>grandmaster</i><par n="house__n"/></e>
 
+             <e lm="masterpiece" i=""><i>masterpiece</i><par n="house__n"/></e>
+
                             <e lm="grand" i=""><i>grand</i><par n="long/__adj"/></e>
 
                             <e lm="inexorably" i=""><i>inexorably</i><par n="maybe__adv"/></e>
@@ -76627,6 +76631,7 @@ F
                             <e lm="civilizing" i=""><i>civilizing</i><par n="expensive__adj"/></e>
 
                             <e lm="clear-cut" i=""><i>clear-cut</i><par n="expensive__adj"/></e>
+<e lm="clear-sighted" i=""><i>clear-sighted</i><par n="expensive__adj"/></e>
 
                             <e lm="colonizing" i=""><i>coloni</i><par n="z_s"/><i>ing</i><par n="expensive__adj"/></e>
 
@@ -78393,6 +78398,7 @@ F
 <e lm="Gurbanguly" i=""><i>Gurbanguly</i><par n="Mark__np"/></e>
 <e lm="Hassanal" i=""><i>Hassanal</i><par n="Mark__np"/></e>
 <e lm="Hedkvist" i=""><i>Hedkvist</i><par n="Mary__np"/></e>
+<e lm="Er Tostiik" i=""><i>Er<b/>Tostik</i><par n="Mark__np"/></e>
 <e lm="Kulyash" i=""><i>Kulyash</i><par n="Mary__np"/></e>
 <e lm="Mukan" i=""><i>Mukan</i><par n="Mark__np"/></e>
 <e lm="Mukhtar" i=""><i>Mukhtar</i><par n="Mark__np"/></e>
@@ -83323,6 +83329,8 @@ F
                             <e lm="get obsessed" i=""><i>g</i><par n="g/et__vblex"/><p><l><b/>obsessed</l><r><g><b/>obsessed</g></r></p></e>
 
                             <e lm="get obsessed with" i=""><i>g</i><par n="g/et__vblex"/><p><l><b/>obsessed<b/>with</l><r><g><b/>obsessed<b/>with</g></r></p></e>
+
+ <e lm="get lose" i=""><i>g</i><par n="g/et__vblex"/><p><l><b/>lose</l><r><g><b/>obsessed</g></r></p></e>
 
                             <e lm="nickname" i=""><i>nicknam</i><par n="liv/e__vblex"/></e>
 

@@ -234,9 +234,14 @@
 
     <def-cat n="nom">
       <cat-item tags="n.*"/>
-      <cat-item tags="np.ant.*"/>
+     <!-- <cat-item tags="np.ant.*"/>-->
     </def-cat>
 
+    <def-cat n="ant">
+          <cat-item tags="np.ant.*.*"/>
+	<cat-item tags="np.top.*.*"/>
+
+    </def-cat>
 
 
 
@@ -2590,14 +2595,6 @@
       </action>
     </rule>
 
-
- 
-
-
-
-
-
-
 <rule comment="RULE: NOM">
       <pattern>
         <pattern-item n="nom"/>
@@ -2610,18 +2607,29 @@
           <with-param pos="1"/>
         </call-macro>
 
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
             </tags>
             <lu>
-<clip pos="1" side="tl" part="lemh"/>
+	<clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
-              <lit-tag v="sg"/>
+            <!--  <lit-tag v="sg"/>-->
               <clip pos="1" side="tl" part="lemq"/>
   
-            <!-- <var n="number"/>-->
+             <var n="number"/>
             </lu>
           </chunk>
         </out>
@@ -2632,9 +2640,48 @@
     </rule>
 
 
-
+<rule comment="RULE: NOM ant">
+      <pattern>
+        <pattern-item n="ant"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
  
-  <rule comment="RULE: ADJ NOM-GEN LOC-ATTR"> 
+        <out>
+          <chunk name="ant" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+		<!--<tag><lit-tag v="a_pos"/></tag>
+	<tag><lit-tag v="a_cas"/></tag>-->
+            </tags>
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+	
+ 	<lit-tag v="ant"/>
+             <clip pos="1" side="tl" part="a_mf"/>
+	
+              <clip pos="1" side="tl" part="lemq"/>
+  
+             <var n="number"/>
+<lit-tag v="2"/>
+<lit-tag v="3"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+   <rule comment="RULE: ADJ NOM-GEN LOC-ATTR"> 
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="nom-gen"/>

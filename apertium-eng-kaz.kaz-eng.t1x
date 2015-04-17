@@ -239,7 +239,7 @@
 
     <def-cat n="ant">
           <cat-item tags="np.ant.*.*"/>
-	<cat-item tags="np.top.*.*"/>
+	<cat-item tags="np.loc.*.*"/>
 
     </def-cat>
 
@@ -2640,7 +2640,7 @@
     </rule>
 
 
-<rule comment="RULE: NOM ant">
+<rule comment="RULE: NOM-ant"> <!--for ant,loc-->
       <pattern>
         <pattern-item n="ant"/>
       </pattern>
@@ -2652,12 +2652,36 @@
           <with-param pos="1"/>
         </call-macro>
  
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nom"/>
+<lit-tag v="ant"/></equal>
+                  </test>
+                             </when>
+
+	</choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nom"/>
+
+
+<lit-tag v="top"/></equal>
+                  </test>
+                 
+
+
+                </when>
+
+	</choose>
+
+
         <out>
           <chunk name="ant" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
-		<!--<tag><lit-tag v="a_pos"/></tag>
-	<tag><lit-tag v="a_cas"/></tag>-->
+		
             </tags>
             <lu>
 	<clip pos="1" side="tl" part="lemh"/>
@@ -2666,10 +2690,8 @@
  	<lit-tag v="ant"/>
              <clip pos="1" side="tl" part="a_mf"/>
 	
-              <clip pos="1" side="tl" part="lemq"/>
-  
-            <!-- <var n="number"/>-->
-<lit-tag v="sg"/>
+              <clip pos="1" side="tl" part="lemq"/>          
+	<lit-tag v="sg"/>
 
             </lu>
           </chunk>

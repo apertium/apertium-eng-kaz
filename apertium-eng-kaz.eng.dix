@@ -45419,6 +45419,7 @@
 
                             <e lm="impatience" i=""><i>impatience</i><par n="house__n"/></e>
 
+ <e lm="patience" i=""><i>patience</i><par n="house__n"/></e>
                             <e lm="imperialism" i=""><i>imperialism</i><par n="house__n"/></e>
 
                             <e lm="impetus" i=""><i>impetus</i><par n="access__n"/></e>
@@ -46521,6 +46522,7 @@
                             <e lm="matron" i=""><i>matron</i><par n="house__n"/></e>
 
                             <e lm="matter" i=""><i>matter</i><par n="house__n"/></e>
+ <e lm="mattress" i=""><i>mattress</i><par n="house__n"/></e>
 
                             <e lm="mattress" i=""><i>mattress</i><par n="access__n"/></e>
 
@@ -61126,6 +61128,8 @@ F
                             <e lm="against" i=""><i>against</i><par n="at__pr"/></e>
 
                             <e lm="along" i=""><i>along</i><par n="at__pr"/></e>
+
+ <e lm="along the way" i=""><i>along<b/>the<b/>way</i><par n="at__pr"/></e>
 
                             <e lm="along with" i=""><i>along<b/>with</i><par n="at__pr"/></e>
 
@@ -78456,7 +78460,7 @@ F
 <e lm="Ansar" i=""><i>Ansar</i><par n="Mark__np"/></e>
 <e lm="Temir" i=""><i>Temir</i><par n="Mark__np"/></e>
 <e lm="Sauat" i=""><i>Sauat</i><par n="Mark__np"/></e>
-
+<e lm="Sarsenbay" i=""><i>Sarsenbay</i><par n="Mark__np"/></e>
 
 
 
@@ -81736,6 +81740,7 @@ F
                             <e lm="minimize" i=""><i>minimi</i><par n="organi/ze__vblex"/></e>
 
                             <e lm="sunlight" i=""><i>sunlight</i><par n="house__n"/></e>
+ <e lm="sunrise" i=""><i>sunrise</i><par n="house__n"/></e>
 
                             <e lm="in the sunlight" i=""><i>in<b/>the<b/>sunlight</i><par n="maybe__adv"/></e>
 

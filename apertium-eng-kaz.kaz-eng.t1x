@@ -240,6 +240,7 @@
     <def-cat n="ant">
           <cat-item tags="np.ant.*.*"/>
 	<cat-item tags="np.loc.*.*"/>
+<cat-item tags="np.loc.sg.*"/>
 
     </def-cat>
 

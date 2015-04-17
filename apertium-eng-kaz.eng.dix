@@ -19428,6 +19428,8 @@
 
                             <e lm="autocratic" i=""><i>autocratic</i><par n="expensive__adj"/></e>
 
+                            <e lm="autodrome" i=""><i>autodrome</i><par n="house__n"/></e>
+
                             <e lm="autoecology" i=""><i>autoecolog</i><par n="bab/y__n"/></e>
 
                             <e lm="autogamy" i=""><i>autogam</i><par n="bab/y__n"/></e>
@@ -22405,6 +22407,8 @@
 
                             <e lm="desktop wallpaper" i=""><i>desktop<b/>wallpaper</i><par n="house__n"/></e>
 
+                            <e lm="wallpaper"       i=""><i>wallpaper</i><par n="house__n"/></e>
+
                             <e lm="thorough investigation" i=""><i>thorough<b/>investigation</i><par n="house__n"/></e>
 
                             <e lm="thorough clean" i=""><i>thorough<b/>clean</i><par n="house__n"/></e>
@@ -23996,7 +24000,8 @@
                             <e lm="Ahylin" i=""><i>Ahylin</i><par n="Mary__np"/></e>
 
                             <e lm="Aida" i=""><i>Aida</i><par n="Mary__np"/></e>
- <e lm="Aidana" i=""><i>Aidana</i><par n="Mary__np"/></e>
+
+                            <e lm="Aidana" i=""><i>Aidana</i><par n="Mary__np"/></e>
 
 
                             <e lm="Ailsa" i=""><i>Ailsa</i><par n="Mary__np"/></e>
@@ -26590,6 +26595,8 @@
                             <e lm="Shanir" i=""><i>Shanir</i><par n="Mary__np"/></e>
 
                             <e lm="Shannen" i=""><i>Shannen</i><par n="Mary__np"/></e>
+
+                            <e lm="Shakhnoza" i=""><i>Shakhnoza</i><par n="Mary__np"/></e>
 
                             <e lm="Sharí" i=""><i>Sharí</i><par n="Mary__np"/></e>
 
@@ -35463,7 +35470,8 @@
                             <e lm="Shayne" i=""><i>Shayne</i><par n="Mark__np"/></e>
 
                             <e lm="Shea" i=""><i>Shea</i><par n="Mark__np"/></e>
- <e lm="Sherlock" i=""><i>Sherlock</i><par n="Mark__np"/></e>
+
+                            <e lm="Sherlock" i=""><i>Sherlock</i><par n="Mark__np"/></e>
 
                             <e lm="Sheldon" i=""><i>Sheldon</i><par n="Mark__np"/></e>
 
@@ -37896,7 +37904,8 @@
                             <e lm="O'Neill" i=""><i>O'Neill</i><par n="Smith__np"/></e>
 
                             <e lm="Doyle" i=""><i>Doyle</i><par n="Smith__np"/></e>
-<e lm="Conan" i=""><i>Conan</i><par n="Smith__np"/></e>
+
+                            <e lm="Conan" i=""><i>Conan</i><par n="Smith__np"/></e>
 
                             <e lm="McCarthy" i=""><i>McCarthy</i><par n="Smith__np"/></e>
 
@@ -39847,6 +39856,8 @@
                             <e lm="Núria" i=""><i>Núria</i><par n="Mary__np"/></e>
 
                             <e lm="Nursultan" i=""><i>Nursultan</i><par n="Mark__np"/></e>
+ 
+                            <e lm="Yersultan" i=""><i>Yersultan</i><par n="Mark__np"/></e>
 
                             <e lm="Nursyultan" i=""><i>Nursyultan</i><par n="Mark__np"/></e>
 
@@ -41684,7 +41695,7 @@
 
                             <e lm="calf" i=""><i>calf</i><par n="house__n"/></e>
 
-<e lm="cuckoo" i=""><i>cuckoo</i><par n="house__n"/></e>
+                            <e lm="cuckoo" i=""><i>cuckoo</i><par n="house__n"/></e>
 
                             <e lm="calcination" i=""><i>calcination</i><par n="house__n"/></e>
 
@@ -43844,6 +43855,8 @@
 
                             <e lm="egg" i=""><i>egg</i><par n="house__n"/></e>
 
+                            <e lm="ego" i=""><i>ego</i><par n="house__n"/></e>
+
                             <e lm="scrambled egg" i=""><i>scrambled<b/>egg</i><par n="house__n"/></e>
 
                             <e lm="eggplant" i=""><i>eggplant</i><par n="house__n"/></e>
@@ -44845,8 +44858,8 @@
                             <e lm="goddess" i=""><i>goddess</i><par n="access__n"/></e>
 
                             <e lm="godfather" i=""><i>godfather</i><par n="house__n"/></e>
-                            <e lm="forefather" i=""><i>forefather</i><par n="house__n"/></e>
 
+                            <e lm="forefather" i=""><i>forefather</i><par n="house__n"/></e>
 
                             <e lm="gold" i=""><i>gold</i><par n="house__n"/></e>
 
@@ -46357,7 +46370,7 @@
 
                             <e lm="machination" i=""><i>machination</i><par n="house__n"/></e>
 
-			    <e lm="macaroni" i=""><i>macaroni</i><par n="house__n"/></e>
+			                <e lm="macaroni" i=""><i>macaroni</i><par n="house__n"/></e>
 
 
                             <e lm="machine" i=""><i>machine</i><par n="house__n"/></e>
@@ -46909,6 +46922,7 @@
 
                             <e r="RL" i=""><i>mum</i><par n="house__n"/></e>
 
+                            <e lm="mum" i=""><i>mum</i><par n="house__n"/></e>
     
                             <e lm="mummy" i=""><i>mumm</i><par n="bab/y__n"/></e>
 
@@ -49482,9 +49496,7 @@
 
                             <e lm="situation" i=""><i>situation</i><par n="house__n"/></e>
 
-                            <e lm="size" i=""><i>size</i><par n="house__n"/></e>
-                            
-                                              
+                            <e lm="size" i=""><i>size</i><par n="house__n"/></e>                                                                  
 
                             <e lm="sky" i=""><i>sk</i><par n="bab/y__n"/></e>
 
@@ -50376,7 +50388,8 @@
                             <e lm="oncoming traffic" i=""><i>oncoming<b/>traffic</i><par n="house__n"/></e>
 
                             <e lm="tie" i=""><i>tie</i><par n="house__n"/></e>
-<e lm="necktie" i=""><i>necktie</i><par n="house__n"/></e>
+                           
+                            <e lm="necktie" i=""><i>necktie</i><par n="house__n"/></e>
 
 
                             <e lm="tiger" i=""><i>tiger</i><par n="house__n"/></e>
@@ -50514,6 +50527,7 @@
                             <e lm="train" i=""><i>train</i><par n="house__n"/></e>
 
                             <e lm="traitor" i=""><i>traitor</i><par n="house__n"/></e>
+                           
                             <e lm="trainer" i=""><i>trainer</i><par n="house__n"/></e>
 
                             <e lm="training" i=""><i>training</i><par n="house__n"/></e>
@@ -52464,6 +52478,8 @@
                             <e lm="capital" i=""><i>capital</i><par n="expensive__adj"/></e>
 
                             <e lm="capitalist" i=""><i>capitalist</i><par n="expensive__adj"/></e>
+
+                            <e lm="capitalistic" i=""><i>capitalistic</i><par n="expensive__adj"/></e>
 
                             <e lm="cardiac" i=""><i>cardiac</i><par n="expensive__adj"/></e>
 
@@ -55607,10 +55623,7 @@ F
 
                             <e lm="might" i=""><i>might</i><par n="will/__vbmod"/></e>
 
-
                             <e lm="be" i=""><par n="/be__vbser"/></e>
-
-                         
 
 
                             <e r="LR" i=""><i>as<b/></i><par n="prsubj_nul__prn"/><i><b/></i><par n="/go_nul__vblex"/><i><b/>along</i><par n="after__cnjadv"/></e>
@@ -60951,8 +60964,9 @@ F
                             <e lm="all" i=""><i>all</i><par n="all__prn"/></e>
 
                             <e lm="another" i=""><i>another</i><par n="everyone__prn"/></e>
+                            
                             <e lm="other" i=""><i>other</i><par n="everyone__prn"/></e>
-
+  
                             <e lm="other" i=""><i>other</i><par n="expensive__adj"/></e>
 
                             <e lm="another one" i=""><i>another<b/>one</i><par n="everyone__prn"/></e>
@@ -61498,6 +61512,8 @@ F
                             <e lm="John XXII" i=""><i>John<b/>XXII</i><par n="Mark__np"/></e>
 
                             <e lm="John XXIII" i=""><i>John<b/>XXIII</i><par n="Mark__np"/></e>
+
+                           <e lm="John XXIV" i=""><i>John<b/>XXIV</i><par n="Mark__np"/></e>
 
                             <e lm="Clement I" i=""><i>Clement<b/>I</i><par n="Mark__np"/></e>
 
@@ -71316,6 +71332,8 @@ F
 
                             <e lm="zoom" i=""><i>zoom</i><par n="house__n"/></e>
 
+                            <e lm="zoopark" i=""><i>zoopark</i><par n="house__n"/></e>
+
                             <e lm="zygomatic" i=""><i>zygomatic</i><par n="expensive__adj"/></e>
 
                             <e lm="zygote" i=""><i>zygote</i><par n="house__n"/></e>
@@ -73621,7 +73639,8 @@ F
                             <e lm="congresswoman" i=""><i>congresswom</i><par n="m/an__n"/></e>
 
                             <e lm="sunflower" i=""><i>sunflower</i><par n="house__n"/></e>
-
+                            <e lm="chamomile" i=""><i>chamomile</i><par n="house__n"/></e>
+        
                             <e lm="death threat" i=""><i>death<b/>threat</i><par n="house__n"/></e>
 
                             <e lm="greasy" i=""><i>greas</i><par n="happ/y__adj"/></e>
@@ -80927,11 +80946,17 @@ F
 
                             <e lm="ailing" i=""><i>ailing</i><par n="expensive__adj"/></e>
 
+                            <e lm="airclub" i=""><i>airclub</i><par n="house__n"/></e>
+
                             <e lm="airlift" i=""><i>airlift</i><par n="house__n"/></e>
+
+                             <e lm="airmail" i=""><i>airmail</i><par n="house__n"/></e>
+
+                             <e lm="airsport" i=""><i>airsport</i><par n="house__n"/></e>
 
                             <e lm="shuttle service" i=""><i>shuttle<b/>service</i><par n="house__n"/></e>
 
-                            <e lm="airman" i=""><i>airm</i><par n="m/an__n"/></e>
+                            <e lm="airman" i=""><i>airman</i><par n="m/an__n"/></e>
 
                             <e lm="airwoman" i=""><i>airwom</i><par n="m/an__n"/></e>
 

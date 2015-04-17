@@ -2668,9 +2668,9 @@
 	
               <clip pos="1" side="tl" part="lemq"/>
   
-             <var n="number"/>
-<lit-tag v="2"/>
-<lit-tag v="3"/>
+            <!-- <var n="number"/>-->
+<lit-tag v="sg"/>
+
             </lu>
           </chunk>
         </out>

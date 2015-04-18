@@ -1722,19 +1722,18 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>first<s n="adj"/></l><r>бірінші<s n="adj"/></r></p></e>
     <e><p><l>obligation<s n="n"/></l><r>міндет<s n="n"/></r></p></e>
     <e><p><l>occupation<s n="n"/></l><r>кәсіп<s n="n"/></r></p></e>
-    <e><p><l>occurance<s n="n"/></l><r>кез<s n="n"/></r></p></e>
+    <e><p><l>occurrence<s n="n"/></l><r>оқиға<s n="n"/></r></p></e>
     <e><p><l>ocean<s n="n"/></l><r>мұхит<s n="n"/></r></p></e>
     <e><p><l>offer<s n="n"/></l><r>ұсыныс<s n="n"/></r></p></e>
 
-    <e><p><l>opponet<s n="n"/></l><r>қарсылас<s n="n"/></r></p></e>
+    <e><p><l>opponent<s n="n"/></l><r>қарсылас<s n="n"/></r></p></e>
     <e><p><l>order<s n="n"/></l><r>рет<s n="n"/></r></p></e>
-    <e><p><l>ordinaryhorse<s n="n"/></l><r>қарабайыр<s n="n"/></r></p></e>
     <e><p><l>organ<s n="n"/></l><r>ағза<s n="n"/></r></p></e>
     <e><p><l>owner<s n="n"/></l><r>иеленуші<s n="n"/></r></p></e>
     <e><p><l>ox<s n="n"/></l><r>өгіз<s n="n"/></r></p></e>
     <e><p><l>paint<s n="n"/></l><r>бояу<s n="n"/></r></p></e>
     <e><p><l>pair<s n="n"/></l><r>пар<s n="n"/></r></p></e>
-    <e><p><l>parlament<s n="n"/></l><r>парламент<s n="n"/></r></p></e>
+    <e><p><l>parliament<s n="n"/></l><r>парламент<s n="n"/></r></p></e>
     <e><p><l>partnership<s n="n"/></l><r>серіктестік<s n="n"/></r></p></e>
     <e><p><l>partner<s n="n"/></l><r>серіктес<s n="n"/></r></p></e>
     <e><p><l>part<s n="n"/></l><r>бөлік<s n="n"/></r></p></e>
@@ -1754,7 +1753,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>person<s n="n"/></l><r>тұлға<s n="n"/></r></p></e>
     <e><p><l>picture<s n="n"/></l><r>сүрет<s n="n"/></r></p></e>
     <e><p><l>pilot<s n="n"/></l><r>ұшқыш<s n="n"/></r></p></e>
-    <e><p><l>pitchdarkness<s n="n"/></l><r>түнек<s n="n"/></r></p></e>
+    <e><p><l>pitch<b/>darkness<s n="n"/></l><r>түнек<s n="n"/></r></p></e>
     <e><p><l>place<s n="n"/></l><r>жай<s n="n"/></r></p></e>
    
  <e><p><l>plain<s n="n"/></l><r>жазық<s n="n"/></r></p></e>

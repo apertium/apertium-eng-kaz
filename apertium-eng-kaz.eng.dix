@@ -43140,6 +43140,8 @@
 
                             <e lm="darkness" i=""><i>darkness</i><par n="access__n"/></e>
 
+                            <e lm="pitch darkness" i=""><i>pitch<b/>darkness</i><par n="access__n"/></e>
+
                             <e lm="dash" i=""><i>dash</i><par n="house__n"/></e>
 
                             <e lm="data" i=""><i>data</i><par n="politics__n"/></e>
@@ -47520,6 +47522,8 @@
 
                             <e lm="oxide" i=""><i>oxide</i><par n="house__n"/></e>
 
+                            <e lm="ox" i=""><i>ox</i><par n="house__n"/></e>
+
                             <e lm="oxygen" i=""><i>oxygen</i><par n="house__n"/></e>
 
                             <e lm="ozone" i=""><i>ozone</i><par n="house__n"/></e>
@@ -47992,6 +47996,8 @@
 
                             <e lm="plug" i=""><i>plug</i><par n="house__n"/></e>
 
+                            <e lm="plunder" i=""><i>plunder</i><par n="house__n"/></e>
+
                             <e lm="plum" i=""><i>plum</i><par n="house__n"/></e>
 
                             <e lm="plural" i=""><i>plural</i><par n="house__n"/></e>
@@ -48151,7 +48157,10 @@
 
                             <e lm="precedent" i=""><i>precedent</i><par n="house__n"/></e>
 
-                            <e lm="precipitation" i=""><i>precipitation</i><par n="house__n"/></e>
+				<e lm="precipice" i=""><i>precipice</i><par n="house__n"/></e>
+
+
+                           <e lm="precipitation" i=""><i>precipitation</i><par n="house__n"/></e>
 
                             <e lm="precocity" i=""><i>precocit</i><par n="bab/y__n"/></e>
 
@@ -48334,6 +48343,10 @@
                             <e lm="profiteer" i=""><i>profiteer</i><par n="house__n"/></e>
 
 			    <e lm="progenitor" i=""><i>progenitor</i><par n="house__n"/></e>
+
+                            <e lm="progeny" i=""><i>progeny</i><par n="house__n"/></e>
+
+                            <e lm="prophecy" i=""><i>prophecy</i><par n="house__n"/></e>
 
                             <e lm="prognosis" i=""><i>prognos</i><par n="analys/is__n"/></e>
 
@@ -48522,6 +48535,8 @@
                             <e lm="pâté" i=""><i>pâté</i><par n="house__n"/></e>
 
                             <e lm="quadrant" i=""><i>quadrant</i><par n="house__n"/></e>
+
+                            <e lm="qymyz" i=""><i>qymyz</i><par n="house__n"/></e>
 
                             <e lm="qualification" i=""><i>qualification</i><par n="house__n"/></e>
 

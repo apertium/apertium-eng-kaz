@@ -40282,6 +40282,8 @@
 
                             <e lm="Israeli" i=""><i>Israeli</i><par n="house__n"/></e>
 
+                            <e lm="Israelite" i=""><i>Israelite</i><par n="house__n"/></e>
+
                             <e lm="Italian" i=""><i>Italian</i><par n="house__n"/></e>
 
                             <e lm="Japanese" i=""><i>Japanese</i><par n="politics__n"/></e>
@@ -40291,6 +40293,8 @@
 
                             <e lm="Kyrgyz" i=""><i>Kyrgyz</i><par n="politics__n"/></e>
                             <e lm="kyrgyz" i=""><i>kyrgyz</i><par n="politics__n"/></e>
+                            <e lm="Kalmyk" i=""><i>Kalmyk</i><par n="house__n"/></e>
+                            <e lm="khan" i=""><i>khan</i><par n="house__n"/></e>
 
                             <e lm="Kazakh" i=""><i>Kazakh</i><par n="house__n"/></e>
                             <e lm="kazakh" i=""><i>kazakh</i><par n="house__n"/></e>
@@ -45549,6 +45553,8 @@
 
                             <e lm="inclination" i=""><i>inclination</i><par n="house__n"/></e>
 
+ <e lm="incline" i=""><i>incline</i><par n="house__n"/></e>
+
                             <e lm="inclusion" i=""><i>inclusion</i><par n="house__n"/></e>
 
                             <e lm="income" i=""><i>income</i><par n="house__n"/></e>
@@ -45674,6 +45680,9 @@
                             <e lm="inoculation" i=""><i>inoculation</i><par n="house__n"/></e>
 
                             <e lm="input" i=""><i>input</i><par n="house__n"/></e>
+
+<e lm="inpulse" i=""><i>inpulse</i><par n="house__n"/></e>
+
 
                             <e lm="inquiry" i=""><i>inquir</i><par n="bab/y__n"/></e>
 
@@ -45963,6 +45972,8 @@
 
                             <e lm="jewel" i=""><i>jewel</i><par n="house__n"/></e>
 
+                            <e lm="Jew" i=""><i>Jew</i><par n="house__n"/></e>
+
                             <e r="LR" i=""><i>jeweller</i><par n="bab/y__n"/></e>
 
                             <e r="LR" i=""><p><l>jewelr</l><r>jeweller</r></p><par n="bab/y__n"/></e>
@@ -46113,6 +46124,8 @@
 
                             <e lm="lack" i=""><i>lack</i><par n="house__n"/></e>
 
+                            <e lm="lacquer" i=""><i>lacquer</i><par n="house__n"/></e>
+
                             <e lm="lactation" i=""><i>lactation</i><par n="house__n"/></e>
 
                             <e lm="lady" i=""><i>lad</i><par n="bab/y__n"/></e>
@@ -46186,6 +46199,8 @@
                             <e lm="leak" i=""><i>leak</i><par n="house__n"/></e>
 
                             <e lm="leap" i=""><i>leap</i><par n="house__n"/></e>
+
+                            <e lm="leaven" i=""><i>leaven</i><par n="house__n"/></e>
 
                             <e lm="learning" i=""><i>learning</i><par n="house__n"/></e>
 

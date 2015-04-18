@@ -1366,6 +1366,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>tax<s n="n"/></l><r>салық<s n="n"/></r></p></e>
 <e><p><l>tendency<s n="n"/></l><r>тенденция<s n="n"/></r></p></e>
 <e><p><l>test<s n="n"/></l><r>тест<s n="n"/></r></p></e>
+<e><p><l>test-tube<s n="n"/></l><r>түтік<s n="n"/></r></p></e>
 <e><p><l>theory<s n="n"/></l><r>теория<s n="n"/></r></p></e>
 <e><p><l>thunder<s n="n"/></l><r>боран<s n="n"/></r></p></e>
 <e><p><l>tire<s n="n"/></l><r>дөңгелек<s n="n"/></r></p></e>
@@ -1958,11 +1959,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>nobleness<s n="n"/></l><r>абзалдық<s n="n"/></r></p></e>
 <e><p><l>subscription<s n="n"/></l><r>абонемент<s n="n"/></r></p></e>
 <e><p><l>subscriber<s n="n"/></l><r>абонент<s n="n"/></r></p></e> 
-<e><p><l>abstract<s n="n"/></l><r>абстрактілік<s n="n"/></r></p></e>
+<e><p><l>abstract<s n="n"/></l><r>абстракт<s n="n"/></r></p></e>
 <e><p><l>confusion<s n="n"/></l><r>абыржушылық<s n="n"/></r></p></e>
 <e><p><l>абырой<s n="n"/></l><r>абырой<s n="n"/></r></p></e> 
 <e><p><l>aviation<s n="n"/></l><r>авиация<s n="n"/></r></p></e>
-<e><p><l>bus<b/> station<s n="n"/></l><r>автобекет<s n="n"/></r></p></e>
+<e><p><l>auto<b/>station<s n="n"/></l><r>автобекет<s n="n"/></r></p></e>
 <e><p><l>autobuilding<s n="n"/></l><r>автоқұрылыс<s n="n"/></r></p></e>
 <e><p><l>autodrome<s n="n"/></l><r>автодром<s n="n"/></r></p></e>
 <e><p><l>automobilist<s n="n"/></l><r>автомобильші<s n="n"/></r></p></e>
@@ -2189,8 +2190,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>flock<s n="n"/></l><r>түбіт<s n="n"/></r></p></e>
 <e><p><l>frame<s n="n"/></l><r>рама<s n="n"/></r></p></e>
 <e><p><l>furniture<s n="n"/></l><r>жиһаз<s n="n"/></r></p></e>
-
-
+<e><p><l>gallop<s n="n"/></l><r>шабыс<s n="n"/></r></p></e>
 <e><p><l>ghost<s n="n"/></l><r>елес<s n="n"/></r></p></e>
 <e><p><l>giraffe<s n="n"/></l><r>керік<s n="n"/></r></p></e>
 <e><p><l>hope<s n="n"/></l><r>сенім<s n="n"/></r></p></e>
@@ -2269,6 +2269,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>wrist<s n="n"/></l><r>білезік<s n="n"/></r></p></e>
 <e><p><l>writer<s n="n"/></l><r>автор<s n="n"/></r></p></e>
 <e><p><l>windsurfer<s n="n"/></l><r>виндсерфер<s n="n"/></r></p></e>
+<e><p><l>windsurfer<s n="n"/></l><r>виндсэрфер<s n="n"/></r></p></e>
 
 
 <!--words from corpora Aidana-->
@@ -2450,6 +2451,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>backet<s n="n"/></l><r>науша<s n="n"/></r></p></e>
 <e><p><l>backpack<s n="n"/></l><r>арқа<b/>қоржын<s n="n"/></r></p></e>
 <e><p><l>bagel<s n="n"/></l><r>тоқаш<s n="n"/></r></p></e>
+<e><p><l>bait<s n="n"/></l><r>қармақ<s n="n"/></r></p></e>
 <e><p><l>bait<s n="n"/></l><r>қармақ<b/>жем<s n="n"/></r></p></e>
 <e><p><l>baize<s n="n"/></l><r>байка<s n="n"/></r></p></e>
 <e><p><l>balm<s n="n"/></l><r>бальзам<s n="n"/></r></p></e>
@@ -2834,6 +2836,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>management<s n="n"/></l><r>басқарма<s n="n"/></r></p></e>
 <e><p><l>enlargement<s n="n"/></l><r>аумақтау<s n="n"/></r></p></e>
 <e><p><l>involvement<s n="n"/></l><r>тарту<s n="n"/></r></p></e>
+<e><p><l>movement<s n="n"/></l><r>қимыл<s n="n"/></r></p></e>
 <e><p><l>movement<s n="n"/></l><r>қозғалыс<s n="n"/></r></p></e>
 <e><p><l>establishment<s n="n"/></l><r>мекеме<s n="n"/></r></p></e>
 <e><p><l>equipment<s n="n"/></l><r>жабдық<s n="n"/></r></p></e>
@@ -10736,6 +10739,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>absent<s n="adj"/></l><r>болмаған<s n="adj"/></r></p></e>
 <e><p><l>absorbent<s n="adj"/></l><r>абсорбент<s n="adj"/></r></p></e>
 <e><p><l>abstract<s n="adj"/></l><r>абстрактілі<s n="adj"/></r></p></e>
+<e><p><l>abstract<s n="adj"/></l><r>абстрактілік<s n="adj"/></r></p></e>
 <e><p><l>absurd<s n="adj"/></l><r>абсурдтық<s n="adj"/></r></p></e>
 <e><p><l>abundant<s n="adj"/></l><r>мол<s n="adj"/></r></p></e>
 <e><p><l>abusive<s n="adj"/></l><r>қорлаған<s n="adj"/></r></p></e>

@@ -39,6 +39,10 @@
       <match lemma="бет" tags="n.*.*"><select lemma="page" tags="n.*"/></match>     
   </rule>
 
+<rule>
+      <match lemma="су" tags="n.gen"/>
+      <match lemma="бет" tags="n.*.*"><select lemma="surface" tags="n.*"/></match>     
+  </rule>
 
 
 <rule>

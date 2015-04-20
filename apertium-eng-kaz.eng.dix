@@ -41194,6 +41194,7 @@
                             <e lm="cock" i=""><i>cock</i><par n="house__n"/></e>
 
                             <e lm="radish" i=""><i>radish</i><par n="access__n"/></e>
+			    <e lm="feet" i=""><i>feet</i><par n="access__n"/></e>
 
                             <e lm="shank" i=""><i>shank</i><par n="house__n"/></e>
 
@@ -59452,6 +59453,7 @@ F
                             <e lm="badly" i=""><i>badly</i><par n="maybe__adv"/></e>
 
                             <e lm="barely" i=""><i>barely</i><par n="maybe__adv"/></e>
+<e lm="barely" i=""><i>barely</i><par n="maybe__adv"/></e>
 
                             <e r="RL" i=""><i>based<b/>on<b/>facts</i><par n="maybe__adv"/></e>
 
@@ -73000,6 +73002,11 @@ F
                             <e lm="checkmate" i=""><i>checkmate</i><par n="house__n"/></e>
 
                             <e lm="rook" i=""><i>rook</i><par n="house__n"/></e>
+ <e lm="radish" i=""><i>radish</i><par n="house__n"/></e>
+ <e lm="harvest" i=""><i>harvest</i><par n="house__n"/></e>
+<e lm="field" i=""><i>field</i><par n="house__n"/></e>
+<e lm="arable" i=""><i>arable</i><par n="house__n"/></e>
+			<e lm="lilliput" i=""><i>lilliput</i><par n="house__n"/></e>
 
                             <e lm="pawn" i=""><i>pawn</i><par n="house__n"/></e>
 
@@ -78464,6 +78471,7 @@ F
 <e lm="Tlendiyev" i=""><i>Tlendiyev</i><par n="Smith__np"/></e>
 <e lm="Tulebayev" i=""><i>Tulebayev</i><par n="Smith__np"/></e>
 <e lm="Zhanburchinova" i=""><i>Zhanburchinova</i><par n="Smith__np"/></e>
+<e lm="Zhanbussunov" i=""><i>Zhanbussunov</i><par n="Smith__np"/></e>
 <e lm="Zhankuliyev" i=""><i>Zhankuliyev</i><par n="Smith__np"/></e>
 <e lm="Zhumabayev" i=""><i>Zhumabayev</i><par n="Smith__np"/></e>
 <e lm="Nurtayev" i=""><i>Nurtayev</i><par n="Smith__np"/></e>
@@ -78558,6 +78566,7 @@ F
 <e lm="Nurgali" i=""><i>Nurgali</i><par n="Mark__np"/></e>
 <e lm="Nurgisa" i=""><i>Nurgisa</i><par n="Mark__np"/></e>
 <e lm="Nurlan" i=""><i>Nurlan</i><par n="Mark__np"/></e>
+<e lm="Nurbolat" i=""><i>Nurbolat</i><par n="Mark__np"/></e>
 <e lm="Raso" i=""><i>Raso</i><par n="Mark__np"/></e>
 <e lm="Serik" i=""><i>Serik</i><par n="Mark__np"/></e>
 <e lm="Vladimir" i=""><i>Vladimir</i><par n="Mark__np"/></e>

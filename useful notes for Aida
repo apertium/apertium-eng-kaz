@@ -199,6 +199,13 @@ http://pastebin.com/raw.php?i=P4kMvuSG
 
  cat unk.txt|awk '{print "<e><p><l>" $1 "<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/></l><r>" $2 "<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/></r></p></e>"}'>newdix.txt
 
+<e lm="reductionism" i=""><i>reductionism</i><par n="house__n"/></e>
+
+awk '{print "<e lm=\""$1"\"i=\"\"><i>" $1 "</i><par n=\"house__n\"/></e>"}'>newdix.txt
+
+
+
+
 cat newdix.txt | egrep "<l>"| awk 'BEGIN{FS="<l>"} {print $2}'| apertium -d. eng-kaz|egrep "#"|awk 'BEGIN{FS="#"} {print $2}'
 
 cat newdix.txt | egrep "<l>"| awk 'BEGIN{FS="<l>"} {print $2}'| apertium -d. eng-kaz|egrep "#"|awk 'BEGIN{FS="#"} {print ""$2":"$2" ADV ; !\"Use/MT\""}'

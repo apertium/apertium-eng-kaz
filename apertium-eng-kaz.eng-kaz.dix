@@ -2321,11 +2321,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>cake<s n="n"/></l><r>бәліш<s n="n"/></r></p></e>
 <e><p><l>along<b/>the<b/>way<s n="pr"/></l><r>жол-жөнекей<s n="adv"/></r></p></e>
 <e><p><l>mattress<s n="n"/></l><r>матрас<s n="n"/></r></p></e>
+<e><p><l>Aldar<b/>Kose<s n="np"/><s n="ant"/><s n="m"/></l><r>Алдар<b/>Көсе<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>fur<b/>coat<s n="n"/></l><r>ішік<s n="n"/><s n="nom"/></r></p></e>
+
 
  
 
 <!--words from corpora Nurbolat-->
-<e><p><l>Zhanbusunov<s n="n"/></l><r>Жанбусунов<s n="n"/></r></p></e>
+<e><p><l>Zhanbusunov<s n="np"/><s n="cog"/></l><r>Жанбусунов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>radish<s n="n"/></l><r>шалғы<s n="n"/></r></p></e>
 <e><p><l>harvest<s n="n"/></l><r>орақ<s n="n"/></r></p></e>
 <e><p><l>field<s n="n"/></l><r>егінжай<s n="n"/></r></p></e>

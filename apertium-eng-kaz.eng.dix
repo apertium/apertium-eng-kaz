@@ -42396,6 +42396,8 @@
                             <e lm="coast" i=""><i>coast</i><par n="house__n"/></e>
 
                             <e lm="coat" i=""><i>coat</i><par n="house__n"/></e>
+ <e lm="fur coat" i=""><i>fur<b/>coat</i><par n="house__n"/></e>
+
 
                             <e lm="raincoat" i=""><i>raincoat</i><par n="house__n"/></e>
 
@@ -78742,6 +78744,7 @@ F
 <e lm="Hassanal" i=""><i>Hassanal</i><par n="Mark__np"/></e>
 <e lm="Hedkvist" i=""><i>Hedkvist</i><par n="Mary__np"/></e>
 <e lm="Er Tostiik" i=""><i>Er<b/>Tostik</i><par n="Mark__np"/></e>
+<e lm="Aldar Kose" i=""><i>Aldar<b/>Kose</i><par n="Mark__np"/></e>
 <e lm="Kulyash" i=""><i>Kulyash</i><par n="Mary__np"/></e>
 <e lm="Mukan" i=""><i>Mukan</i><par n="Mark__np"/></e>
 <e lm="Mukhtar" i=""><i>Mukhtar</i><par n="Mark__np"/></e>

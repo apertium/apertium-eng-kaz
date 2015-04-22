@@ -233,8 +233,8 @@
           </def-cat>
 
     <def-cat n="nom">
-      <cat-item tags="n.*"/>
-     <!-- <cat-item tags="np.ant.*"/>-->
+      <cat-item tags="n.*.*"/>
+     
     </def-cat>
 
     <def-cat n="ant">
@@ -242,6 +242,11 @@
 	<cat-item tags="np.loc.*.*"/>
 <cat-item tags="np.loc.sg.*"/>
 
+    </def-cat>
+
+    <def-cat n="cog">
+      <cat-item tags="np.cog.*"/>
+     
     </def-cat>
 
 
@@ -2608,6 +2613,7 @@
           <with-param pos="1"/>
         </call-macro>
 
+
  <choose>
                  <when>
                    <test>
@@ -2702,6 +2708,70 @@
         </call-macro>
       </action>
     </rule>
+
+
+<rule comment="RULE: NOM-cog"> <!--for cog-->
+      <pattern>
+        <pattern-item n="cog"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ 
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nom"/>
+<lit-tag v="cog"/></equal>
+                  </test>
+                             </when>
+
+	</choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nom"/>
+
+
+<lit-tag v="top"/></equal>
+                  </test>
+                 
+
+
+                </when>
+
+	</choose>
+
+
+        <out>
+          <chunk name="cog" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+		
+            </tags>
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+	
+ 	<lit-tag v="cog"/>
+             <clip pos="1" side="tl" part="a_mf"/>
+	
+              <clip pos="1" side="tl" part="lemq"/>          
+	<lit-tag v="sg"/>
+
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 
    <rule comment="RULE: ADJ NOM-GEN LOC-ATTR"> 

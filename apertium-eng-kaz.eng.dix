@@ -3814,6 +3814,42 @@
 
     </pardef>
 
+<pardef n="Ova__np">
+
+                            <e i="">
+      <p>
+        <l/>
+        <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+  <e i="">
+      <p>
+        <l>a</l>
+        <r><s n="np"/><s n="cog"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>s</l>
+        <r><s n="np"/><s n="cog"/><s n="pl"/></r>
+      </p>
+    </e>
+
+
+                            <e r="LR" i="">
+      <p>
+        <l>s'</l>
+        <r><s n="np"/><s n="cog"/><s n="pl"/><j/>'s<s n="gen"/></r>
+      </p>
+    </e>
+
+
+    </pardef>
+
+
     <pardef n="Bush__np">
 
                             <e i="">
@@ -39080,11 +39116,11 @@
 
 <e lm="Zhaksylykov" i=""><i>Zhaksylykov</i><par n="Smith__np"/></e>
 
-<e lm="Zhasuzakov" i=""><i>Zhasuzakov</i><par n="Smith__np"/></e>
+<e lm="Zhasuzakov" i=""><i>Zhasuzakov</i><par n="Ova__np"/></e>
 
 <e lm="Quixote" i=""><i>Quixote</i><par n="Smith__np"/></e>
 
-<e lm="Baiseitova" i=""><i>Baiseitova</i><par n="Smith__np"/></e>
+<e lm="Baiseitova" i=""><i>Baiseitov</i><par n="Ova__np"/></e>
 
 
 

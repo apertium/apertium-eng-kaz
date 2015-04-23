@@ -7,6 +7,13 @@
       <cat-item tags="NP.*"/>
       <cat-item tags="NP_to_inf.*"/>
     </def-cat>
+ <def-cat n="NPPP">
+      <cat-item tags="NP"/>
+      <cat-item tags="NP.*"/>
+      <cat-item tags="NP_to_inf.*"/>
+  <cat-item tags="PP"/>
+      <cat-item tags="PP.*"/>
+    </def-cat>
 <def-cat n="NP_to_inf">
       <cat-item tags="NP_to_inf"/>
       <cat-item tags="NP_to_inf.*"/>
@@ -1485,13 +1492,14 @@
     <!--Егер мен барсам -->
      <pattern>
        <pattern-item n="IF"/>
-       <pattern-item n="NP"/>
+       <pattern-item n="NPPP"/>
        <pattern-item n="VP"/>
      </pattern>
      <action>
 <call-macro n="change-case">   
 <with-param pos="2"/>
   </call-macro>
+   <let><clip pos="3" part="a_tense"/><lit-tag v="gna_cond"/></let>
            <out>
           <chunk>
             <clip pos="1" part="lem"/>

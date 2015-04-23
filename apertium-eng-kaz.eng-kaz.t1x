@@ -324,6 +324,7 @@
     </def-cat>
  <def-cat n="if-cnjadv">
        <cat-item lemma="if" tags="cnjadv"/>
+
 <cat-item lemma="when" tags="cnjadv"/>
     </def-cat>
 
@@ -13076,7 +13077,25 @@ this would have to be changed -->
 </rule>
 
 
-
+<rule comment="NEW RULE: cnjadv">  
+  <pattern>
+    <pattern-item n="if-cnjadv"/>
+  </pattern>
+  <action>
+   <call-macro n="build-cnjadv-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="if">
+    <tags>
+  <tag><lit-tag v="IF"/></tag>
+    <tag><lit-tag v="cnjsub"/></tag>
+    </tags>
+    <lu>
+      <var n="cnjadv_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 <rule comment="NEW RULE: adv">  
   <pattern>
@@ -13255,25 +13274,7 @@ this would have to be changed -->
   </action>
 </rule>
 
-<rule comment="NEW RULE: cnjadv">  
-  <pattern>
-    <pattern-item n="if-cnjadv"/>
-  </pattern>
-  <action>
-   <call-macro n="build-cnjadv-lu"><with-param pos="1"/></call-macro> 
-    <out>
-    <chunk name="if">
-    <tags>
-  <tag><lit-tag v="IF"/></tag>
-    <tag><lit-tag v="cnjsub"/></tag>
-    </tags>
-    <lu>
-      <var n="cnjadv_lu"/>
-     </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
+
 
 
 <rule comment="NEW RULE: cnjcoo">  

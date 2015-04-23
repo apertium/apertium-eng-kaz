@@ -2271,6 +2271,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 
 <!--words from corpora Aidana-->
+<e><p><l>once<s n="adv"/></l><r>бірде<s n="adv"/></r></p></e>
 <e><p><l>geography<s n="n"/></l><r>география<s n="n"/></r></p></e>
 <e><p><l>jungle<s n="n"/></l><r>джунгли<s n="n"/></r></p></e>
 <e><p><l>magnificent<s n="adj"/></l><r>атақты<s n="adj"/></r></p></e>
@@ -2323,9 +2324,12 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>mattress<s n="n"/></l><r>матрас<s n="n"/></r></p></e>
 <e><p><l>Aldar<b/>Kose<s n="np"/><s n="ant"/><s n="m"/></l><r>Алдар<b/>Көсе<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>fur<b/>coat<s n="n"/></l><r>ішік<s n="n"/><s n="nom"/></r></p></e>
-
-
- 
+<e><p><l>flow<s n="vblex"/></l><r>арала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>close<b/>at<b/>hand<s n="adv"/></l><r>қоян-қолтық<b/>аралас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>really<s n="adv"/></l><r>шынайы<s n="adj"/></r></p></e>
+<e><p><l>blink<s n="vblex"/></l><r>уқала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>frighten<s n="vblex"/></l><r>қорқыныш<b/>тудыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>like<b/>this<s n="adv"/></l><r>мынадай<s n="adj"/></r></p></e> 
 
 <!--words from corpora Nurbolat-->
 <e><p><l>Zhanbusunov<s n="np"/><s n="cog"/></l><r>Жанбусунов<s n="np"/><s n="cog"/></r></p></e>
@@ -10108,7 +10112,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>beyond<s n="adv"/></l><r>арасында<s n="adv"/></r></p></e>
 <e><p><l>twice<s n="adv"/></l><r>екі<b/>ретті<s n="adv"/></r></p></e>
 <e><p><l>hence<s n="adv"/></l><r>демек<s n="ij"/></r></p></e>
-<e><p><l>once<s n="adv"/></l><r>бірде<s n="adv"/></r></p></e>
 <e><p><l>alongside<s n="adv"/></l><r>жанында<s n="adv"/></r></p></e>
 <e><p><l>worldwide<s n="adv"/></l><r>арада<s n="adv"/></r></p></e>
 <e><p><l>meanwhile<s n="adv"/></l><r>сол<b/>уақытта<s n="adv"/></r></p></e>
@@ -13254,6 +13257,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>resolve<s n="vblex"/></l><r>шеш<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>involve<s n="vblex"/></l><r>қос<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>improve<s n="vblex"/></l><r>жақсарт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>improve<s n="vblex"/></l><r>жақсар<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>approach<s n="vblex"/></l><r>алқымда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>launch<s n="vblex"/></l><r>асқындыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>establish<s n="vblex"/></l><r>тағайында<s n="v"/><s n="tv"/></r></p></e>

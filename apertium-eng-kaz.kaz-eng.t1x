@@ -1539,7 +1539,37 @@
     </rule>
 
 
-
+<rule comment="RULE: ADv">
+      <pattern>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+        <!--<let><var n="number"/><lit v=""/></let>-->
+        <choose>
+ 
+          <when>
+             <test>
+                <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="n.attr"/></equal>
+             </test>
+             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
+             <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
+          </when> 
+        </choose>
+        <out>
+          <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-ADVP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
 
@@ -1658,7 +1688,7 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
-        <!--<let><var n="number"/><lit v=""/></let>
+        <!--<let><var n="number"/><lit v=""/></let>-->
         <choose>
  
           <when>
@@ -1670,7 +1700,7 @@
                <with-param pos="1"/>
              </call-macro>
           </when> 
-        </choose>-->
+        </choose>
         <out>
           <chunk name="adj" case="caseFirstWord">
             <tags>
@@ -1685,37 +1715,7 @@
       </action>
     </rule>
 
-<rule comment="RULE: ADv">
-      <pattern>
-        <pattern-item n="adv"/>
-      </pattern>
-      <action>
-        <!--<let><var n="number"/><lit v=""/></let>
-        <choose>
- 
-          <when>
-             <test>
-                <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="n.attr"/></equal>
-             </test>
-             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
-             <call-macro n="conv-number1">
-               <with-param pos="1"/>
-             </call-macro>
-          </when> 
-        </choose>-->
-        <out>
-          <chunk name="adv" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN-ADVP"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
+
 
 
 <rule comment="RULE: Adv adj">

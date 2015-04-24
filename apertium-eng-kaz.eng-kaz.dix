@@ -3003,7 +3003,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>airfield<s n="n"/></l><r>аэродром<s n="n"/></r></p></e>
 <e><p><l>airliner<s n="n"/></l><r>авиалайнер<s n="n"/></r></p></e>
 <e><p><l>airline<s n="n"/></l><r>авиажелі<s n="n"/></r></p></e>
-<e><p><l>airman<s n="n"/></l><r>авиатор<s n="n"/></r></p></e>
+<e><p><l>airman<s n="n"/><s n="sg"/></l><r>авиатор<s n="n"/></r></p></e>
 <e><p><l>airmail<s n="n"/></l><r>авиапочта<s n="n"/></r></p></e>
 <e><p><l>airsport<s n="n"/></l><r>авиаспорт<s n="n"/></r></p></e>
 <e><p><l>airship<s n="n"/></l><r>әуе<b/>кеме<s n="n"/></r></p></e>
@@ -6656,8 +6656,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>sting<s n="n"/></l><r>бізгек<s n="n"/></r></p></e>
 <e><p><l>stipulation<s n="n"/></l><r>шарт<s n="n"/></r></p></e>
 <e><p><l>stockholder<s n="n"/></l><r>акционер<s n="n"/></r></p></e>
-<e><p><l>bus stop<s n="n"/></l><r>аялдама<s n="n"/></r></p></e>
+<e><p><l>bus<b/>stop<s n="n"/></l><r>аялдама<s n="n"/></r></p></e>
 <e><p><l>stopper<s n="n"/></l><r>тығындау<s n="n"/></r></p></e>
+<e><p><l>stoppage<s n="n"/></l><r>аялдама<s n="n"/></r></p></e>
 <e><p><l>strand<s n="n"/></l><r>отырыс<s n="n"/></r></p></e>
 <e><p><l>strategist<s n="n"/></l><r>стратег<s n="n"/></r></p></e>
 <e><p><l>stratum<s n="n"/></l><r>формация<s n="n"/></r></p></e>

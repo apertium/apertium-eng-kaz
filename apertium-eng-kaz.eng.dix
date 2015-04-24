@@ -22129,6 +22129,12 @@
 
                             <e lm="bullfighting world" i=""><i>bullfighting<b/>world</i><par n="house__n"/></e>
 
+                            <e lm="bullfinch" i=""><i>bullfinch</i><par n="house__n"/></e>
+
+                            <e lm="bureaucrat" i=""><i>bureaucrat</i><par n="house__n"/></e>
+
+                            <e lm="bustling" i=""><i>bustling</i><par n="house__n"/></e>
+
                             <e lm="gossip shop" i=""><i>gossip<b/>shop</i><par n="house__n"/></e>
 
                             <e lm="own eye" i=""><i>own<b/>eye</i><par n="house__n"/></e>
@@ -41847,9 +41853,13 @@
 
                             <e lm="candle" i=""><i>candle</i><par n="house__n"/></e>
 
+                            <e lm="candlestick" i=""><i>candlestick</i><par n="house__n"/></e>
+
                             <e lm="cane" i=""><i>cane</i><par n="house__n"/></e>
 
                             <e lm="cannibalism" i=""><i>cannibalism</i><par n="house__n"/></e>
+
+                            <e lm="caraway" i=""><i>caraway</i><par n="house__n"/></e>
 
                             <e lm="voyeurism" i=""><i>voyeurism</i><par n="house__n"/></e>
 
@@ -41924,6 +41934,8 @@
 			    <e lm="carelessness" i=""><i>carelessness</i><par n="house__n"/></e>
 
                             <e lm="career" i=""><i>career</i><par n="house__n"/></e>
+
+                            <e lm="careerist" i=""><i>careerist</i><par n="house__n"/></e>
 
                             <e lm="carer" i=""><i>carer</i><par n="house__n"/></e>
 
@@ -44432,6 +44444,8 @@
                             <e lm="farce" i=""><i>farce</i><par n="house__n"/></e>
 
                             <e lm="farm" i=""><i>farm</i><par n="house__n"/></e>
+
+                            <e lm="farmer" i=""><i>farmer</i><par n="house__n"/></e>
 
                             <e lm="farmer" i=""><i>farmer</i><par n="house__n"/></e>
 
@@ -46990,6 +47004,8 @@
 
                             <e lm="mosque" i=""><i>mosque</i><par n="house__n"/></e>
 
+                            <e lm="most" i=""><i>most</i><par n="house__n"/></e>
+
                             <e lm="mother" i=""><i>mother</i><par n="house__n"/></e>
 
                             <e lm="motherhood" i=""><i>motherhood</i><par n="house__n"/></e>
@@ -47055,6 +47071,8 @@
                             <e lm="multiple" i=""><i>multiple</i><par n="house__n"/></e>
 
                             <e lm="multiplicity" i=""><i>multiplicit</i><par n="bab/y__n"/></e>
+
+                            <e lm="multitude" i=""><i>multitude</i><par n="house__n"/></e>
 
                             <e r="LR" i=""><i>mum</i><par n="house__n"/></e>
 
@@ -49784,6 +49802,8 @@
 
                             <e lm="sky" i=""><i>sk</i><par n="bab/y__n"/></e>
 
+                            <e lm="skate" i=""><i>skate</i><par n="house__n"/></e>
+
                             <e lm="skater" i=""><i>skater</i><par n="house__n"/></e>
 
                             <e lm="skating" i=""><i>skating</i><par n="house__n"/></e>
@@ -50291,6 +50311,8 @@
 
                             <e lm="successor" i=""><i>successor</i><par n="house__n"/></e>
 
+                            <e lm="such" i=""><i>such</i><par n="house__n"/></e>
+
                             <e lm="suffering" i=""><i>suffering</i><par n="house__n"/></e>
 
                             <e lm="suffix" i=""><i>suffi</i><par n="appendi/x__n"/></e>
@@ -50420,6 +50442,8 @@
                             <e lm="sword" i=""><i>sword</i><par n="house__n"/></e>
 
                             <e lm="symbol" i=""><i>symbol</i><par n="house__n"/></e>
+                           
+			    <e lm="syrup" i=""><i>syrup</i><par n="house__n"/></e>
 
                             <e lm="symbolism" i=""><i>symbolism</i><par n="house__n"/></e>
 
@@ -51415,9 +51439,9 @@
 
                             <e lm="steering wheel" i=""><i>steering<b/>wheel</i><par n="house__n"/></e>
 
-                            <e lm="while" i=""><i>while</i><par n="house__n"/></e>
+                            <e lm="which" i=""><i>which</i><par n="house__n"/></e>
 
-                            <e lm="whim" i=""><i>whim</i><par n="house__n"/></e>
+                            <e lm="while" i=""><i>while</i><par n="house__n"/></e>
 
                             <e lm="whim" i=""><i>whim</i><par n="house__n"/></e>
 
@@ -62445,6 +62469,8 @@ F
 
                             <e lm="Antònia" i=""><i>Antònia</i><par n="Mary__np"/></e>
 
+                            <e lm="Antigua and Barbuda" i=""><i>Antigua<b/>and<b/>Barbuda</i><par n="Mary__np"/></e>
+
                             <e lm="Apache" i=""><i>Apache</i><par n="house__n"/></e>
 
                             <e lm="Apia" i=""><i>Apia</i><par n="Barcelona__np"/></e>
@@ -63985,6 +64011,8 @@ F
 
                             <e lm="cafe" i=""><i>cafe</i><par n="house__n"/></e>
 
+                            <e lm="cafeteria" i=""><i>cafeteria</i><par n="house__n"/></e>
+
                             <e lm="cagily" i=""><i>cagily</i><par n="maybe__adv"/></e>
 
                             <e lm="calcaneum" i=""><i>calcaneum</i><par n="house__n"/></e>
@@ -64014,6 +64042,8 @@ F
                             <e lm="camomile" i=""><i>camomile</i><par n="house__n"/></e>
 
                             <e lm="camphor" i=""><i>camphor</i><par n="house__n"/></e>
+
+                            <e lm="canary" i=""><i>canary</i><par n="house__n"/></e>
 
                             <e lm="can" i=""><i>can</i><par n="house__n"/></e>
 
@@ -80515,7 +80545,7 @@ F
 
                             <e lm="podcast" i=""><i>podcast</i><par n="house__n"/></e>
 
-                            <e lm="Olympics" i=""><i>Olympics</i><par n="politics__n"/></e>
+                            <e lm="Olympics" i=""><i>Olympics</i><par n="house__n"/></e>
 
                             <e lm="browse" i=""><i>brows</i><par n="liv/e__vblex"/></e>
 

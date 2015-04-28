@@ -1150,6 +1150,7 @@ texts/business_movie.eng.txt -text
 texts/business_movie.kaz.txt -text svneol=unset#application/octet-stream
 texts/eng.chunks.txt -text
 texts/eng.txt -text
+texts/hanzada.kaz.txt -text svneol=unset#application/octet-stream
 texts/kaz-ref.txt -text svneol=unset#application/octet-stream
 texts/kaz.txt -text svneol=unset#application/octet-stream
 texts/kazakhstan1.eng.SL -text
@@ -1158,6 +1159,7 @@ texts/kazakhstan1.kaz.TL -text svneol=unset#application/octet-stream
 texts/kazakhstan1.kaz.txt -text svneol=unset#application/octet-stream
 texts/movie.eng.txt -text
 texts/movie.kaz.txt -text svneol=unset#application/octet-stream
+texts/prince.eng.txt -text
 texts/story1.eng.txt -text
 texts/story1.kaz.txt -text svneol=unset#application/octet-stream
 texts/texts.eng -text

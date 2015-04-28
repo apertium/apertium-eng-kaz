@@ -52159,7 +52159,36 @@
 
                             <e lm="English" i=""><p><l>English</l><r>english</r></p><par n="expensive__adj"/></e>
 
-                            <e lm="European" i=""><p><l>European</l><r>european</r></p><par n="expensive__adj"/></e>
+<e lm="muslim" i=""><i>muslim</i><par n="expensive__adj"/></e>
+<e lm="eurasian" i=""><i>eurasian</i><par n="expensive__adj"/></e>
+<e lm="european" i=""><i>european</i><par n="expensive__adj"/></e>
+<e lm="italian" i=""><i>italian</i><par n="expensive__adj"/></e>
+<e lm="serbian" i=""><i>serbian</i><par n="expensive__adj"/></e>
+<e lm="bulgarian" i=""><i>bulgarian</i><par n="expensive__adj"/></e>
+<e lm="albanian" i=""><i>albanian</i><par n="expensive__adj"/></e>
+<e lm="balkan" i=""><i>balkan</i><par n="expensive__adj"/></e>
+<e lm="croatian" i=""><i>croatian</i><par n="expensive__adj"/></e>
+<e lm="cypriot" i=""><i>cypriot</i><par n="expensive__adj"/></e>
+<e lm="orthodox" i=""><i>orthodox</i><par n="expensive__adj"/></e>
+<e lm="yugoslav" i=""><i>yugoslav</i><par n="expensive__adj"/></e>
+<e lm="african" i=""><i>african</i><par n="expensive__adj"/></e>
+<e lm="catholic" i=""><i>catholic</i><par n="expensive__adj"/></e>
+<e lm="hispanic" i=""><i>hispanic</i><par n="expensive__adj"/></e>
+<e lm="portuguese" i=""><i>portuguese</i><par n="expensive__adj"/></e>
+<e lm="japanese" i=""><i>japanese</i><par n="expensive__adj"/></e>
+<e lm="swedish" i=""><i>swedish</i><par n="expensive__adj"/></e>
+<e lm="dutch" i=""><i>dutch</i><par n="expensive__adj"/></e>
+<e lm="spanish" i=""><i>spanish</i><par n="expensive__adj"/></e>
+<e lm="danish" i=""><i>danish</i><par n="expensive__adj"/></e>
+<e lm="irish" i=""><i>irish</i><par n="expensive__adj"/></e>
+<e lm="finnish" i=""><i>finnish</i><par n="expensive__adj"/></e>
+<e lm="jewish" i=""><i>jewish</i><par n="expensive__adj"/></e>
+<e lm="scottish" i=""><i>scottish</i><par n="expensive__adj"/></e>
+<e lm="israeli" i=""><i>israeli</i><par n="expensive__adj"/></e>
+<e lm="welsh" i=""><i>welsh</i><par n="expensive__adj"/></e>
+
+
+                            <e lm="european" i=""><p><l>european</l><r>European</r></p><par n="expensive__adj"/></e>
 
    <e lm="Eurasian" i=""><p><l>Eurasian</l><r>eurasian</r></p><par n="expensive__adj"/></e>
 

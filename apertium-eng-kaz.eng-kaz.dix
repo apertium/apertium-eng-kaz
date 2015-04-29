@@ -5260,7 +5260,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>IBM<s n="n"/></l><r>IBM<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>iceberg<s n="n"/></l><r>айсберг<s n="n"/></r></p></e>
 <e><p><l>icon<s n="n"/></l><r>икона<s n="n"/></r></p></e>
-<e><p><l>ICU<s n="n"/></l><r>ICU<s n="abbr"/></r></p></e>
+<e><p><l>ICU<s n="abbr"/></l><r>ICU<s n="abbr"/></r></p></e>
 <e><p><l>idealisation<s n="n"/></l><r>идеализация<s n="n"/></r></p></e>
 <e><p><l>idealist<s n="n"/></l><r>идеалист<s n="n"/></r></p></e>
 <e><p><l>ideal<s n="n"/></l><r>арман<s n="n"/></r></p></e>
@@ -5268,7 +5268,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>identifier<s n="n"/></l><r>идентификатор<s n="n"/></r></p></e>
 <e><p><l>ideologist<s n="n"/></l><r>идеолог<s n="n"/></r></p></e>
 <e><p><l>ideology<s n="n"/></l><r>рауаят<s n="n"/></r></p></e>
-<e><p><l>IDF<s n="n"/></l><r>IDF<s n="abbr"/></r></p></e>
+<e><p><l>IDF<s n="abbr"/></l><r>IDF<s n="abbr"/></r></p></e>
 <e><p><l>idiom<s n="n"/></l><r>идиома<s n="n"/></r></p></e>
 <e><p><l>idol<s n="n"/></l><r>пұт<s n="n"/></r></p></e>
 <e><p><l>idyll<s n="n"/></l><r>мүлгу<s n="n"/></r></p></e>

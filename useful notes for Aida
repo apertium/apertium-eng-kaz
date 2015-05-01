@@ -195,7 +195,7 @@ http://pastebin.com/raw.php?i=P4kMvuSG
 
 
 
- cat newdix.txt|awk '{print "<e><p><l>" $1 "<s n=\"adj\"/></l><r>" $2 "<s n=\"adj\"/></r></p></e>"}'>newd.txt
+ cat nn.txt|awk '{print "<e><p><l>" $1 "<s n=\"adj\"/></l><r>" $2 "<s n=\"adj\"/></r></p></e>"}'>newd.txt
 
  cat unk.txt|awk '{print "<e><p><l>" $1 "<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/></l><r>" $2 "<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/></r></p></e>"}'>newdix.txt
 
@@ -215,7 +215,7 @@ cat newdix.txt | egrep "<l>"| awk 'BEGIN{FS="<l>"} {print $2}'| apertium -d. eng
 
 $ cat eng.crp.txt | apertium -d ~/source/apertium/incubator/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr
 
- head -1000 texts/prince.eng.txt | apertium -d ~/apertium-testing/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc ~/apertium-testing/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*'
+ head -1000 texts/corpus4355.en | apertium -d ~/apertium-testing/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc ~/apertium-testing/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*'
 
 <spectie> this will give the words that are not in eng-kaz bidix, but _are_ in the english analyser
 <spectie> then we can use CG to merge analyses
@@ -226,7 +226,7 @@ $ cat eng.crp.txt | apertium -d ~/source/apertium/incubator/apertium-eng-kaz/ en
 <spectie> a short CG file to merge some analyses
 <spectie> $ cg-comp /tmp/merge-analyses.cg /tmp/merge-analyses.bin
 <spectie> Sections: 1, Rules: 12, Sets: 26, Tags: 23
-<spectie> $ cat corpora/eng.crp.txt | apertium -d ~/Source/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/Source/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt
+<spectie> $ cat texts/corpus4355.en | apertium -d ~/apertium-testing/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/apertium-testing/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt
 <spectie> then you can run it like this
 <spectie> if you want to remove ambiguous words (easier), you can do:
 <spectie> $ head -1000 corpora/eng.crp.txt | apertium -d ~/Source/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/Source/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt | grep -v '\/.*\/.*\/.*\/'
@@ -372,4 +372,7 @@ cat verb.txt | awk '$3=="1" && $4=="1"   <p><l>$2<s n=\"v\"/><s n=\"tv\"/></l>  
 
 
 head -1000 texts/rus.txt | apertium -d ~/Source/apertium-kaz-rus/ rus-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/Source/apertium-rus/rus.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt | grep -v '\/.*\/.*\/.*\/' | cut -f4 -d'/' | cut -f1 -d'$' | sed 's/<\([a-z0-9A-Z]\+\)>/<s n="\1"\/>/g'
+
+
+cat texts/corpus4355.en | apertium -d ~/apertium-testing/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/apertium-testing/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc /tmp/merge-analyses.bin  | apertium-retxt| grep -v '\/.*\/.*\/.*\/'| cut -f4 -d'/' | cut -f1 -d'$' | sed 's/<\([a-z0-9A-Z]\+\)>/<s n="\1"\/>/g'
 

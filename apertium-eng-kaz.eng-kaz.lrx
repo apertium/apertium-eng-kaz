@@ -14,7 +14,11 @@
     <match lemma="state" tags="n.*"><select lemma="мемлекет" tags="n.*"/></match>
   </rule>
 
-
+  <rule>
+    <match lemma="number" tags="n.*"><select lemma="нөмір" tags="n.*"/></match>
+    <match lemma="*" tags="num.*"/>
+   
+  </rule>
 
   <rule>
     <match lemma="number" tags="n.*"><select lemma="сан" tags="n.*"/></match>

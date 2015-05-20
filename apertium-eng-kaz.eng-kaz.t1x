@@ -11676,8 +11676,9 @@ this would have to be changed -->
   </action>
 </rule>
 
-
-<rule comment="NEW RULE: prep language"> 
+<rule comment="NEW RULE: prep language">  <!-- This rule is wrong: not all adjectives
+are languages, not all prepositions are used with languages, and the macro needs two arguments and it segfaults
+sometimes. MLF 20150520 patches it but it should be removed!! -->
   <pattern>
     <pattern-item n="prep"/>
     <pattern-item n="language"/>
@@ -11690,6 +11691,7 @@ this would have to be changed -->
     -->
     <call-macro n="choose_case_and_postposition2">
       <with-param pos="1"/>
+      <with-param pos="2"/>  <!-- MLF 20150520, patch to (hopefully) avoid segfault -->
     </call-macro>
     <!--
         <call-macro n="build-noun-lu"><with-param pos="2"/></call-macro>
@@ -11755,7 +11757,6 @@ this would have to be changed -->
     </choose>
   </action>
 </rule>
-
  
 
 <rule comment="NEW RULE: prep adjec noun"> 

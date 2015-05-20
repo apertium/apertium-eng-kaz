@@ -35,8 +35,8 @@
       <cat-item lemma="must" tags="vaux.inf"/>
     </def-cat>
 
-<def-cat n="language"> <!--Turkic -->
-      <cat-item tags="adj"/>
+<def-cat n="language"> <!--Turkic --> <!-- Have to check again, for which phrase I did it-  Aida-->
+      <cat-item lemma="Kazakh" tags="n.sg"/>
     </def-cat>
 <def-cat n="vaux-may"> <!-- must -->
       <cat-item lemma="may" tags="vaux.*"/>
@@ -11676,6 +11676,8 @@ this would have to be changed -->
   </action>
 </rule>
 
+
+
 <rule comment="NEW RULE: prep language">  <!-- This rule is wrong: not all adjectives
 are languages, not all prepositions are used with languages, and the macro needs two arguments and it segfaults
 sometimes. MLF 20150520 patches it but it should be removed!! -->
@@ -11720,13 +11722,9 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
               <lit-tag v="2"/> <!-- number -->
               <!-- no need to link person -->
               <lit-tag v="4"/> <!-- for possessive, just in case -->
-              <lit-tag v="5"/> <!-- for case -->
+              <lit-tag v="loc"/> <!-- for case -->
             </lu>
-            <b/>
-            <lu>  
-              <var n="postposition_lu"/>
-            </lu>
-          </chunk>
+                     </chunk>
         </out>
       </when>
       <otherwise> <!-- without postposition -->

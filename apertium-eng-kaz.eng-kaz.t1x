@@ -37,6 +37,7 @@
 
 <def-cat n="language"> <!--Turkic --> <!-- Have to check again, for which phrase I did it-  Aida-->
       <cat-item lemma="Kazakh" tags="n.sg"/>
+<cat-item lemma="portuguese" tags="adj"/>
     </def-cat>
 <def-cat n="vaux-may"> <!-- must -->
       <cat-item lemma="may" tags="vaux.*"/>
@@ -11708,7 +11709,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
               <tag><var n="pptag"/></tag>
               <tag><lit-tag v="sg"/></tag> <!-- number -->
               <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
-              <tag><lit-tag v="px3sp"/></tag> <!-- just in case -->
+              <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
               <tag><var n="case"/></tag>       
             </tags>
             <b pos="1"/>

@@ -5749,6 +5749,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>metope<s n="n"/></l><r>метоп<s n="n"/></r></p></e>
 <e><p><l>metrology<s n="n"/></l><r>метрология<s n="n"/></r></p></e>
 <e><p><l>metropolis<s n="n"/></l><r>метрополис<s n="n"/></r></p></e>
+<e><p><l>metro<s n="n"/></l><r>метро<s n="n"/></r></p></e>
 <e><p><l>microbe<s n="n"/></l><r>микроб<s n="n"/></r></p></e>
 <e><p><l>microbiology<s n="n"/></l><r>микробиология<s n="n"/></r></p></e>
 <e><p><l>microclimate<s n="n"/></l><r>микроклимат<s n="n"/></r></p></e>
@@ -7221,6 +7222,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>England<s n="np"/><s n="top"/><s n="sg"/></l><r>Ұлыбритания<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>France<s n="np"/><s n="top"/><s n="sg"/></l><r>Франция<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Shymkent<s n="np"/><s n="top"/><s n="sg"/></l><r>Шымкент<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Mecca<s n="np"/><s n="top"/><s n="sg"/></l><r>Мекке<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Petersburg<s n="np"/><s n="top"/><s n="sg"/></l><r>Петербург<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Kyzyl<b/>Tu<s n="np"/><s n="top"/><s n="sg"/></l><r>Қызылту<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -7235,6 +7237,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>China<s n="np"/><s n="top"/><s n="sg"/></l><r>Қытай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Kazakhstan<s n="np"/><s n="top"/><s n="sg"/></l><r>Қазақстан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Kazan<s n="np"/><s n="top"/><s n="sg"/></l><r>Қазан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Turkmenistan<s n="np"/><s n="top"/><s n="sg"/></l><r>Түрікменстан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Russia<s n="np"/><s n="top"/><s n="sg"/></l><r>Ресей<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Turkey<s n="np"/><s n="top"/><s n="sg"/></l><r>Түркия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>

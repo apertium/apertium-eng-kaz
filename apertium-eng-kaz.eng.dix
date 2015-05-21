@@ -37912,6 +37912,10 @@
 
                             <e lm="Almaty" i=""><i>Almaty</i><par n="Barcelona__np"/></e> 
 
+                            <e lm="Kazan" i=""><i>Kazan</i><par n="Barcelona__np"/></e> 
+                            
+                            <e lm="Shymkent" i=""><i>Shymkent</i><par n="Barcelona__np"/></e> 
+
                             <e lm="America" i=""><i>America</i><par n="Barcelona__np"/></e>
 
                             <e lm="Amsterdam" i=""><i>Amsterdam</i><par n="Barcelona__np"/></e>
@@ -43543,6 +43547,8 @@
                             <e lm="diet" i=""><i>diet</i><par n="house__n"/></e>
 
                             <e lm="difference" i=""><i>difference</i><par n="house__n"/></e>
+   
+                            <e lm="dictation" i=""><i>dictation</i><par n="house__n"/></e>
 
                             <e lm="differential" i=""><i>differential</i><par n="house__n"/></e>
 
@@ -63902,6 +63908,8 @@ F
 
                             <e lm="borate" i=""><i>borate</i><par n="house__n"/></e>
 
+                            <e lm="metro" i=""><i>metro</i><par n="house__n"/></e>
+                            
                             <e r="RL" i=""><i>border</i><par n="expensive__adj"/></e>
 
                             <e lm="border" i=""><i>border</i><par n="house__n"/></e>

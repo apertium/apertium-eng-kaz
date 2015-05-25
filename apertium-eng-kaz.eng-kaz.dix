@@ -8609,6 +8609,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Ahmad<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмад<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 <e><p><l>Ahmed<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмед<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Assem<s n="np"/><s n="ant"/><s n="f"/></l><r>Асем<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Asem<s n="np"/><s n="ant"/><s n="f"/></l><r>Асем<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Saule<s n="np"/><s n="ant"/><s n="f"/></l><r>Сауле<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aida<s n="np"/><s n="ant"/><s n="f"/></l><r>Аида<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aidana<s n="np"/><s n="ant"/><s n="f"/></l><r>Айдана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Nurbolat<s n="np"/><s n="ant"/><s n="m"/></l><r>Нұрболат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>

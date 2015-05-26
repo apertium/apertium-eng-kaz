@@ -11597,7 +11597,7 @@ this would have to be changed -->
 </or>
 </test>
     <out>
-    <chunk name="detdem-adjec-nom">
+    <chunk name="detdem-adjec-nom"  case="caseFirstWord">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -11629,7 +11629,7 @@ this would have to be changed -->
        <with-param pos="1"/>
     </call-macro>
     <out>
-    <chunk name="detpos-adjec-nom">
+    <chunk name="detpos-adjec-nom" case="caseFirstWord">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -11654,7 +11654,7 @@ this would have to be changed -->
 
   <otherwise>
     <out>
-    <chunk name="detart-adjec-nom">
+    <chunk name="detart-adjec-nom"  case="caseFirstWord">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->

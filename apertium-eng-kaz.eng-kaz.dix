@@ -2226,7 +2226,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>acoustics<s n="n"/></l><r>акустика<s n="n"/></r></p></e>
 <e><p><l>action<s n="n"/></l><r>әрекет<s n="n"/></r></p></e>
 <e><p><l>aftermath<s n="n"/></l><r>салдар<s n="n"/></r></p></e>
-<e><p><l>afternoon<s n="n"/></l><r>түс<b/>уақыты<s n="n"/></r></p></e>
+<e><p><l>afternoon<s n="n"/></l><r>күн<s n="n"/></r></p></e>
 <e><p><l>appliance<s n="n"/></l><r>тұрмыстық<b/>жабдық<s n="n"/></r></p></e>
 <e><p><l>beginner<s n="n"/></l><r>бастаушы<s n="n"/></r></p></e>
 <e><p><l>believe<s n="n"/></l><r>сенім<s n="n"/></r></p></e>

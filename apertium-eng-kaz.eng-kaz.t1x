@@ -11176,7 +11176,7 @@ this would have to be changed -->
 </or>
 </test>
     <out>
-    <chunk name="detdem-nom">
+    <chunk name="detdem-nom"  case="caseFirstWord">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="2" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -11203,7 +11203,7 @@ this would have to be changed -->
        <with-param pos="1"/>
     </call-macro>
     <out>
-    <chunk name="detpos-nom">
+    <chunk name="detpos-nom" case="caseFirstWord">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="2" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -11240,7 +11240,9 @@ this would have to be changed -->
 <!--    <b pos="1"/> -->
      <var n="preblank-1"/>
      <lu>  
+     <get-case-from pos="1">
       <var n="NEW-noun_lu"/>
+     </get-case-from>
      </lu>
     </chunk>
     </out>
@@ -11597,7 +11599,7 @@ this would have to be changed -->
 </or>
 </test>
     <out>
-    <chunk name="detdem-adjec-nom"  case="caseFirstWord">
+    <chunk name="detdem-adjec-nom" case="caseFirstWord">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -11663,8 +11665,10 @@ this would have to be changed -->
     <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
     </tags>
     <b pos="1"/>
- <lu>  
+ <lu> 
+      <get-case-from pos="1"> 
       <var n="adjec_lu"/>
+      </get-case-from>
      </lu>
 <b pos="2"/>
     <lu>  

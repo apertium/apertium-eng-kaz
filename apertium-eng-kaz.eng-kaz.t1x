@@ -12501,7 +12501,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   </choose>
   <call-macro n="initialize_case_to_nominative"/> <!-- will set it to nominative -->
   <out>
-   <chunk name="subj-pron" case="caseFirstWord">
+   <chunk name="subj-pron">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><var n="number"/></tag>

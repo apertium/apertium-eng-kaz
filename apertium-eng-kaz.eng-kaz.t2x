@@ -296,10 +296,31 @@
 
 </def-macro>
 
+<def-macro n="change-case-upper" npar="1">  <!--change case to upper for first word-->
 
+       <modify-case>
+        <clip pos="1" part="lem"/>
+          <lit v="Aa"/>
+        </modify-case>
+             <let>
+        <clip pos="1"  part="lem"/>
+		<lit v="Aa"/>
+	      </let>
+      
+</def-macro>
 
+<def-macro n="change-case-lower" npar="1">  <!--change case to lower for other word-->
 
-
+       <modify-case>
+        <clip pos="1" part="lem"/>
+          <lit v="aa"/>
+        </modify-case>
+             <let>
+        <clip pos="1"  part="lem"/>
+		<lit v="aa"/>
+	      </let>
+      
+</def-macro>
 <def-macro n="build-possessive" npar="1">
 <choose> 
 <when>
@@ -355,39 +376,7 @@
 
 </def-macro>
 
-<def-macro n="change-case" npar="1">  <!--change case to lower for p1 sg "I" -->
-<choose>
-  <when>
-       <test>
-         <equal>
-           
-           <clip pos="1"  part="a_pers"/>
-            <lit-tag v="p1"/>
-          
-           </equal>
-          </test>
-       <modify-case>
-        <clip pos="1"  part="lem"/>
-          <lit v="aa"/>
-        </modify-case>
-             <let>
-		 <clip pos="1"  part="lem"/>
-		<lit v="aa"/>
-	      </let>
-       </when>
-  <otherwise> 
-  <modify-case>
-        <clip pos="1"  part="lem"/>
-          <lit v="aa"/>
-        </modify-case>
-	      <let>
-		 <clip pos="1"  part="lem"/>
-		<lit v="aa"/>
-	      </let>
-	    </otherwise>
-</choose>
 
-</def-macro>
 
   </section-def-macros>
   <section-rules>
@@ -716,6 +705,12 @@
        <pattern-item n="VP"/>
          </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="2"/>
+  </call-macro> 
            <out>
            <chunk>
             <clip pos="2" part="lem"/>
@@ -937,6 +932,10 @@
        <pattern-item n="VP"/>
          </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="3"/>
+  </call-macro> 
+
            <out>
           <chunk>
             <clip pos="3" part="lem"/>
@@ -979,6 +978,10 @@
 
          </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="3"/>
+  </call-macro> 
+
            <out>
           <chunk>
             <clip pos="3" part="lem"/>
@@ -1131,7 +1134,12 @@
 
        <pattern-item n="PP"/>
          </pattern>
+
+
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="3"/>
+  </call-macro> 
            <out>
           <chunk>
             <clip pos="3" part="lem"/>
@@ -1194,6 +1202,10 @@
        <pattern-item n="PP"/>
          </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="3"/>
+  </call-macro> 
+
            <out>
           <chunk>
             <clip pos="3" part="lem"/>
@@ -1243,6 +1255,10 @@
        <pattern-item n="Q_m"/>
          </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+
            <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -1296,6 +1312,10 @@
        <pattern-item n="Q_m"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+
            <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -1362,7 +1382,12 @@
        <pattern-item n="PP"/>
        <pattern-item n="Q_m"/>
      </pattern>
+
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+ 
            <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -1433,7 +1458,12 @@
        <pattern-item n="PP"/>
        <pattern-item n="Q_m"/>
      </pattern>
+
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+
            <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -1496,7 +1526,7 @@
        <pattern-item n="VP"/>
      </pattern>
      <action>
-<call-macro n="change-case">   
+<call-macro n="change-case-lower">   
 <with-param pos="2"/>
   </call-macro>
    <let><clip pos="3" part="a_tense"/><lit-tag v="gna_cond"/></let>
@@ -1696,6 +1726,12 @@
        <pattern-item n="VP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="3"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
            <out>
           <chunk>
             <clip pos="3" part="lem"/>
@@ -1812,6 +1848,10 @@
        <pattern-item n="VP_must_inf"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
      <call-macro n="build-possessive">
         <with-param pos="1"/> 
      </call-macro>
@@ -1879,6 +1919,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+ 
      <call-macro n="build-possessive">
         <with-param pos="1"/> 
      </call-macro>
@@ -1927,6 +1971,10 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
      <call-macro n="build-possessive">
         <with-param pos="1"/> 
      </call-macro>
@@ -2015,6 +2063,10 @@
      <call-macro n="build-possessive">
         <with-param pos="1"/> 
      </call-macro>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -2050,6 +2102,10 @@
        <pattern-item n="VP_should_inf"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
      <call-macro n="build-possessive">
         <with-param pos="1"/> 
      </call-macro>
@@ -2086,6 +2142,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
      <call-macro n="build-possessive">
         <with-param pos="1"/> 
      </call-macro>
@@ -2134,6 +2194,10 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
      <call-macro n="build-possessive">
         <with-param pos="1"/> 
      </call-macro>
@@ -2180,6 +2244,10 @@
      <call-macro n="build-possessive">
         <with-param pos="1"/> 
      </call-macro>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -2213,6 +2281,9 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
      <call-macro n="build-possessive">
         <with-param pos="1"/> 
      </call-macro>
@@ -2260,6 +2331,9 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
      <call-macro n="build-possessive">
         <with-param pos="1"/> 
      </call-macro>
@@ -2304,6 +2378,12 @@
        <pattern-item n="VP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="2"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -2333,6 +2413,9 @@
        <pattern-item n="VP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -2369,6 +2452,9 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -2407,6 +2493,12 @@
        <pattern-item n="VP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -2444,6 +2536,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -2487,6 +2583,12 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -2537,6 +2639,10 @@
        <pattern-item n="NP_to_inf"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
  <chunk>
             <clip pos="1" part="lem"/>
@@ -2593,7 +2699,12 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
+
+
  <chunk>
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
@@ -2641,6 +2752,10 @@
        <pattern-item n="VP_must_inf"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+ 
       <out>
  <chunk>
             <clip pos="1" part="lem"/>
@@ -2707,6 +2822,10 @@
  <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -2766,7 +2885,10 @@
        <pattern-item n="NP_to_inf"/>
      </pattern>
      <action>
-    
+    <call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+ 
  <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
@@ -2862,7 +2984,10 @@
        <pattern-item n="GenP"/>
      </pattern>
      <action>
-    
+    <call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
  <call-macro n="build-possessive">
         <with-param pos="8"/> 
      </call-macro>
@@ -2973,7 +3098,10 @@
        <pattern-item n="GenP"/>
      </pattern>
      <action>
-    
+    <call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
  <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
@@ -3035,7 +3163,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
-    
+    <call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
  <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
@@ -3084,6 +3215,10 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
  <chunk>
             <clip pos="1" part="lem"/>
@@ -3134,6 +3269,12 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="3"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
  <chunk>
             <clip pos="3" part="lem"/>
@@ -3173,6 +3314,12 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
          <!--   <let><clip pos="1" part="a_tense"/><lit-tag v="aor"/></let>-->
       <out>
 <chunk>
@@ -3215,6 +3362,10 @@
        <pattern-item n="AdjP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+ 
       <out>
  <chunk>
             <clip pos="1" part="lem"/>
@@ -3274,6 +3425,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+ 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
             <let><clip pos="4" part="a_tense"/><lit-tag v="ger"/></let>
       <out>
 <chunk>
@@ -3334,6 +3489,10 @@
        <pattern-item n="NP_to_inf"/>
      </pattern>
      <action>
+
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
  <chunk>
             <clip pos="2" part="lem"/>
@@ -3381,6 +3540,12 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -3431,6 +3596,12 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -3486,6 +3657,10 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -3524,6 +3699,12 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -3568,6 +3749,12 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -3612,6 +3799,12 @@
        <pattern-item n="AdvP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -3687,6 +3880,10 @@
        <pattern-item n="AdvP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -3725,6 +3922,12 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
   <chunk>
             <clip pos="2" part="lem"/>
@@ -3771,6 +3974,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
            <clip pos="1" part="lem"/>  
@@ -3811,6 +4018,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
            <clip pos="1" part="lem"/>  
@@ -3853,6 +4064,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
 <choose>
           <when>
             <test>
@@ -3906,6 +4121,10 @@
        <pattern-item n="AdjP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
            <clip pos="1" part="lem"/>  
@@ -3948,6 +4167,10 @@
        <pattern-item n="AdjP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
            <clip pos="1" part="lem"/>  
@@ -3989,6 +4212,9 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -4034,6 +4260,9 @@
        <pattern-item n="AdjP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -4078,6 +4307,7 @@
        <pattern-item n="GenP"/>
      </pattern>
      <action>
+
 <call-macro n="build-possessive">
         <with-param pos="2"/> 
      </call-macro>
@@ -4260,6 +4490,12 @@
 
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
 <choose>
           <when>
             <test>
@@ -4308,6 +4544,12 @@
 
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
 <choose>
           <when>
             <test>
@@ -4362,6 +4604,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
 <choose>
           <when>
             <test>
@@ -4424,6 +4670,9 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -4576,6 +4825,9 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -4639,6 +4891,9 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -4701,6 +4956,9 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -4764,6 +5022,9 @@
        <pattern-item n="AdvP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -4846,6 +5107,9 @@
        <pattern-item n="AdjP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -4943,6 +5207,12 @@
 
      <action>
 
+<call-macro n="change-case-upper">  
+<with-param pos="5"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
       
  <chunk>
@@ -5006,6 +5276,9 @@
      </pattern>
 
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
       
@@ -5046,6 +5319,9 @@
      </pattern>
 
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
       
@@ -5107,7 +5383,12 @@
      </pattern>
 
      <action>
-
+<call-macro n="change-case-upper">  
+<with-param pos="5"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
       
  <chunk>
@@ -5171,7 +5452,12 @@
      </pattern>
 
      <action>
-
+<call-macro n="change-case-upper">  
+<with-param pos="5"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
       
  <chunk>
@@ -5235,7 +5521,12 @@
      </pattern>
 
      <action>
-
+<call-macro n="change-case-upper">  
+<with-param pos="5"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
       
  <chunk>
@@ -5301,6 +5592,9 @@
      </pattern>
 
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -5346,6 +5640,9 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -5391,6 +5688,9 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -5436,6 +5736,9 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -5482,6 +5785,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
            <clip pos="1" part="lem"/>  
@@ -5528,6 +5835,9 @@
  <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 
       <out>
           <chunk>
@@ -5588,7 +5898,10 @@
        <pattern-item n="VP2"/>
  <pattern-item n="NP"/>
      </pattern>
-     <action>
+     <action><call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
  <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
@@ -5664,6 +5977,10 @@
  <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -5724,6 +6041,10 @@
       
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
            <clip pos="1" part="lem"/>  
@@ -5761,6 +6082,10 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -5813,6 +6138,10 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -5866,6 +6195,10 @@
        <pattern-item n="AdvP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
+
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -5921,6 +6254,9 @@
 <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -5985,6 +6321,9 @@
 <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -6036,6 +6375,9 @@
        <pattern-item n="GenP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
   <call-macro n="build-possessive">
         <with-param pos="1"/>
      </call-macro>
@@ -6109,6 +6451,9 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
@@ -6202,10 +6547,16 @@
 <call-macro n="build-possessive">
         <with-param pos="2"/> 
      </call-macro>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
  <chunk>
             <clip pos="2" part="lem"/>  
-            <lit-tag v="NP"/>
+            <lit-tag v="GenP"/>
             <clip pos="2" part="a_nbr"/> <!-- agree number -->
             <clip pos="2" part="a_pers"/> <!-- agree person -->
             <clip pos="2" part="a_tense"/>
@@ -6259,6 +6610,9 @@
 <call-macro n="build-possessive">
         <with-param pos="3"/> 
      </call-macro>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -6324,6 +6678,9 @@
        <pattern-item n="NP_neg"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -6396,6 +6753,9 @@
        <pattern-item n="AdvP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -6434,6 +6794,9 @@
        <pattern-item n="bir-bir"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 <call-macro n="build-possessive">
         <with-param pos="1"/>
      </call-macro>
@@ -6479,6 +6842,9 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 <call-macro n="build-possessive">
         <with-param pos="1"/>
      </call-macro>
@@ -6531,6 +6897,12 @@
        <pattern-item n="NP"/>
        </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
           <let> <clip pos="3" part="a_tense"/><lit-tag v="past"/></let>
       <out>
               
@@ -6619,6 +6991,9 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 <call-macro n="build-case-ant">
         <with-param pos="3"/>
      </call-macro>
@@ -6665,6 +7040,9 @@
        <pattern-item n="SENT"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -6725,6 +7103,12 @@
        <pattern-item n="GenP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
 <call-macro n="build-possessive">
         <with-param pos="3"/>
      </call-macro>
@@ -6784,6 +7168,9 @@
        <pattern-item n="GenP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 <call-macro n="build-possessive">
         <with-param pos="3"/>
      </call-macro>
@@ -6837,7 +7224,9 @@
        <pattern-item n="NP"/>
      </pattern>
      <action>
-
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -6887,6 +7276,9 @@
        <pattern-item n="AdvP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -6933,6 +7325,12 @@
        <pattern-item n="GenP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="3"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
 <call-macro n="build-possessive">
         <with-param pos="2"/>
      </call-macro>
@@ -6978,7 +7376,9 @@
        <pattern-item n="GenP"/>
      </pattern>
      <action>
-
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
 <let><var n="possessive1"/><var n="possessive"/></let>
      <call-macro n="build-possessive">
         <with-param pos="3"/>
@@ -7140,6 +7540,9 @@
         <pattern-item n="NP2"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
       
           <chunk>
@@ -7190,6 +7593,9 @@
             <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -7220,6 +7626,9 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -7266,6 +7675,9 @@
        <pattern-item n="PP"/>
      </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="1"/>
+  </call-macro> 
       <out>
           <chunk>
             <clip pos="1" part="lem"/>

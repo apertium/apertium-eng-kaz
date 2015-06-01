@@ -365,6 +365,8 @@ ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz/dev/testvoc$ bash testvo
 
 cat texts/kazakhstan1.kaz.txt | apertium -d ~/Source/apertium-kaz/ kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$'^C sort -f | uniq -c | sort -gr
 
+bitextor -u http://www.primeminister.kz/ -d ~/apertium-testing/    -v en-kk.dic eng kaz
+
 
 rus-kaz
 

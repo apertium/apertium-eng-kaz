@@ -7607,6 +7607,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Vienna<s n="np"/><s n="top"/><s n="sg"/></l><r>Вена<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kostanay<s n="np"/><s n="top"/><s n="sg"/></l><r>Қостанай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Barcelona<s n="np"/><s n="top"/><s n="sg"/></l><r>Барселона<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Oral<s n="np"/><s n="top"/></l><r>Орал<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Mangistau<s n="np"/><s n="top"/><s n="sg"/></l><r>Маңғыстау<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Brunei<s n="np"/><s n="top"/><s n="sg"/></l><r>Бруней<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Lianyungang<s n="np"/><s n="top"/><s n="sg"/></l><r>Ляньюньган<s n="np"/><s n="top"/></r></p></e>

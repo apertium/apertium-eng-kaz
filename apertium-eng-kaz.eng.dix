@@ -3697,7 +3697,12 @@
         <r><s n="np"/><s n="top"/><s n="sg"/></r>
       </p>
     </e>
-
+  <e r="RL" i="">
+      <p>
+        <l/>
+        <r><s n="np"/><s n="top"/><s n="attr"/></r>
+      </p>
+    </e>
 
     </pardef>
 
@@ -37853,6 +37858,8 @@
                             <e lm="Adrià" i=""><i>Adrià</i><par n="Mark__np"/></e>
 
                             <e lm="Elche" i=""><i>Elche</i><par n="Barcelona__np"/></e>
+
+                            <e lm="Oral" i=""><i>Oral</i><par n="Barcelona__np"/></e>
 
                             <e lm="Afghanistan" i=""><i>Afghanistan</i><par n="Barcelona__np"/></e>
 

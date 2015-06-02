@@ -1,6 +1,6 @@
 DIX=/home/apertium/apertium-testing/apertium-eng-kaz/apertium-eng-kaz.eng.dix
 BIN=/home/apertium/apertium-testing/apertium-eng-kaz/eng-kaz.automorf.bin
-cat /home/apertium/apertium-testing/apertium-eng-kaz/texts/prince.eng.txt | cut -f2 | grep -v '>(' | sed 's/&lt;/</g' | sed 's/&gt;/>/g' | apertium-destxt | lt-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/eng.coverage.txt
+cat /home/apertium/apertium-testing/apertium-eng-kaz/texts/corpus4355.en | cut -f2 | grep -v '>(' | sed 's/&lt;/</g' | sed 's/&gt;/>/g' | apertium-destxt | lt-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/eng.coverage.txt
 
 EDICT=`cat $DIX | grep '<e lm' | wc -l`;
 EPAR=`cat $DIX | grep '<pardef n' | wc -l`;

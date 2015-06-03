@@ -11002,6 +11002,35 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>visibly<s n="adv"/></l><r>елеулі<s n="adv"/></r></p></e>
 <e><p><l>everywhere<s n="adv"/></l><r>әр<b/>жерде<s n="adv"/></r></p></e>
 
+
+
+<e><p><l>wherein<s n="adv"/></l><r>онда<s n="adv"/></r></p></e>
+<e><p><l>thither<s n="adv"/></l><r>осында<s n="adv"/></r></p></e>
+<e><p><l>conveniently<s n="adv"/></l><r>ыңғайлы<s n="adv"/></r></p></e>
+<e><p><l>whither<s n="adv"/></l><r>қайда<s n="adv"/></r></p></e>
+<e><p><l>perpetually<s n="adv"/></l><r>тұрақты<s n="adv"/></r></p></e>
+<e><p><l>thrice<s n="adv"/></l><r>үш<b/>рет<s n="adv"/></r></p></e>
+<e><p><l>downward<s n="adv"/></l><r>төмен<b/>қарай<s n="adv"/></r></p></e>
+<e><p><l>westward<s n="adv"/></l><r>батысқа<b/>қарай<s n="adv"/></r></p></e>
+<e><p><l>strangely<s n="adv"/></l><r>біртүрлі<s n="adv"/></r></p></e>
+<e><p><l>earnestly<s n="adv"/></l><r>шын<b/>жүректен<s n="adv"/></r></p></e>
+<e><p><l>upward<s n="adv"/></l><r>жоғары<b/>қарай<s n="adv"/></r></p></e>
+<e><p><l>uppermost<s n="adv"/></l><r>маңыздысы<s n="adv"/></r></p></e>
+<e><p><l>southward<s n="adv"/></l><r>оңтүстікке<b/>қарай<s n="adv"/></r></p></e>
+<e><p><l>manifestly<s n="adv"/></l><r>айқын<b/>түрде<s n="adv"/></r></p></e>
+<e><p><l>faithfully<s n="adv"/></l><r>адал<s n="adv"/></r></p></e>
+<e><p><l>endless<s n="adv"/></l><r>шексіз<s n="adv"/></r></p></e>
+<e><p><l>magnificently<s n="adv"/></l><r>тамаша<s n="adv"/></r></p></e>
+<e><p><l>intellectually<s n="adv"/></l><r>интеллектуалды<s n="adv"/></r></p></e>
+<e><p><l>horizontally<s n="adv"/></l><r>көлденең<s n="adv"/></r></p></e>
+<e><p><l>curiously<s n="adv"/></l><r>қызықты<s n="adv"/></r></p></e>
+<e><p><l>civilly<s n="adv"/></l><r>сыпайы<s n="adv"/></r></p></e>
+<e><p><l>circularly<s n="adv"/></l><r>циркулярлы<s n="adv"/></r></p></e>
+<e><p><l>casually<s n="adv"/></l><r>немқұрайлы<s n="adv"/></r></p></e>
+<e><p><l>astride<s n="adv"/></l><r>салт<s n="adv"/></r></p></e>
+<e><p><l>aloft<s n="adv"/></l><r>жоғары<b/>қарай<s n="adv"/></r></p></e>
+<e><p><l>admirably<s n="adv"/></l><r>тамаша<s n="adv"/></r></p></e>
+
 <!--Adverbs like pronouns -->
 
  <e><p><l>on<s n="adv"/></l><r>үстінде<s n="adv"/></r></p></e> 

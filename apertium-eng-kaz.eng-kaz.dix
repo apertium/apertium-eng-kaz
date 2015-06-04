@@ -13317,6 +13317,19 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>wry<s n="adj"/><s n="sint"/></l><r>қисық<s n="adj"/></r></p></e>
 <e><p><l>yearly<s n="adj"/></l><r>жылдық<s n="adj"/></r></p></e>
 <e><p><l>zonal<s n="adj"/></l><r>аймақтық<s n="adj"/></r></p></e>
+
+<e><p><l>delightful<s n="adj"/></l><r>тамаша<s n="adj"/></r></p></e>
+<e><p><l>vulgar<s n="adj"/></l><r>тұрпайы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>motionless<s n="adj"/></l><r>жылжымайтын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>lilac<s n="adj"/></l><r>ақшыл<b/>көк<s n="adj"/></r></p></e>
+<e><p><l>wicked<s n="adj"/><s n="sint"/></l><r>ашулы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>neat<s n="adj"/><s n="sint"/></l><r>ұқыпты<s n="adj"/></r></p></e>
+<e><p><l>jaunty<s n="adj"/><s n="sint"/></l><r>пысық<s n="adj"/></r></p></e>
+<e><p><l>gracious<s n="adj"/></l><r>қайырымды<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>comely<s n="adj"/><s n="sint"/></l><r>сүйкімді<s n="adj"/></r></p></e>
+<e><p><l>childish<s n="adj"/></l><r>жеңілтек<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>brainless<s n="adj"/></l><r>мисыз<s n="adj"/><s n="subst"/></r></p></e>
+
 <!-- Order numbers-->
  <e><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>бір<s n="num"/><s n="ord"/></r></p></e> 
  <e><p><l>second<s n="det"/><s n="ord"/><s n="sp"/></l><r>екі<s n="num"/><s n="ord"/></r></p></e>     

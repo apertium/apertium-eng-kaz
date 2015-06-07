@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/home/apertium/apertium-testing/apertium-eng-kaz/generalisation-dev/rule-generalisation/computeSupersetsOfKeySegments.py", line 6, in <module>
-    from beamSearchLib import RuleApplicationHypothesis,RuleList,ParallelSentence
-  File "/home/apertium/apertium-testing/apertium-eng-kaz/generalisation-dev/rule-generalisation/beamSearchLib.py", line 16, in <module>
-    import sys,numpy
-ImportError: No module named numpy

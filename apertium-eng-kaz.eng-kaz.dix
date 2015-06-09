@@ -11049,7 +11049,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <!-- Раздел: Имя Прилагательное -->
 
 
-
+<e><p><l>abominable<s n="adj"/></l><r>сойқан<s n="adj"/></r></p></e>
+<e><p><l>abortive<s n="adj"/></l><r>сәтсіз<s n="adj"/></r></p></e>
+<e><p><l>adventitious<s n="adj"/></l><r>кездейсоқ<s n="adj"/></r></p></e>
+<e><p><l>aforesaid<s n="adj"/></l><r>жоғарыда<b/>айтылған<s n="adj"/></r></p></e>
+<e><p><l>amiable<s n="adj"/></l><r>жағымды<s n="adj"/></r></p></e>
+<e><p><l>anterior<s n="adj"/></l><r>алдыңғы<s n="adj"/></r></p></e>
+<e><p><l>aqueous<s n="adj"/></l><r>сулы<s n="adj"/></r></p></e>
+<e><p><l>barefoot<s n="adj"/></l><r>жалаңаяқ<s n="adj"/></r></p></e>
 
     <e r="RL"><p><l>existing<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e r="RL"><p><l>should<s n="adj"/></l><r>жөн<s n="adj"/></r></p></e>

@@ -46,6 +46,25 @@ dev/text-to-recycle-for-article.rtf -text
 dev/transfer-rehaul-notes.tex -text
 dev/unknown-words-from-news-commentary-v8-20130619.txt -text
 /eng-kaz.prob -text svneol=unset#unset
+experimentsAidana/akorda.eng-kaz.eng -text
+experimentsAidana/akorda.eng-kaz.kaz -text svneol=unset#application/octet-stream
+experimentsAidana/align-corpus.sh -text
+experimentsAidana/data.eng-kaz/akorda.candidates.eng-kaz -text
+experimentsAidana/data.eng-kaz/akorda.clean-biltrans.eng-kaz -text
+experimentsAidana/data.eng-kaz/akorda.lex.eng-kaz -text
+experimentsAidana/data.eng-kaz/akorda.lines -text
+experimentsAidana/data.eng-kaz/akorda.phrases.eng-kaz -text
+experimentsAidana/data.eng-kaz/akorda.phrasetable.eng-kaz -text
+experimentsAidana/data.eng-kaz/akorda.tag-trim.eng -text
+experimentsAidana/data.eng-kaz/akorda.tag-trim.kaz -text
+experimentsAidana/data.eng-kaz/akorda.tagged-clean.eng -text
+experimentsAidana/data.eng-kaz/akorda.tagged-clean.kaz -text
+experimentsAidana/data.eng-kaz/akorda.tagged.eng -text
+experimentsAidana/data.eng-kaz/akorda.tagged.kaz -text
+experimentsAidana/data.eng-kaz/global-defaults.eng-kaz.bin -text svneol=unset#unset
+experimentsAidana/data.eng-kaz/global-defaults.eng-kaz.lrx -text
+experimentsAidana/setup-corpus.sh -text
+experimentsAidana/setup-data.sh -text
 /first_diag.txt -text
 /kaz-cover.sh -text
 /kaz-eng.prob -text svneol=unset#unset

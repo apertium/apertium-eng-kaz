@@ -1,0 +1,35 @@
+<rules>
+  <rule><match lemma="themselves" tags="prn.ref.p3.mf.pl"><select lemma="өз" tags="prn.ref.px3pl.mf"/></match></rule>
+  <rule><match lemma="everywhere" tags="adv"><select lemma="әр жерде" tags="adv"/></match></rule>
+  <rule><match lemma="China" tags="np.top.sg"><select lemma="Қытай" tags="np.top"/></match></rule>
+  <rule><match lemma="then" tags="cnjadv"><select lemma="сосын" tags="adv"/></match></rule>
+  <rule><match lemma="Turkmenistan" tags="np.top.sg"><select lemma="Түрікменстан" tags="np.top"/></match></rule>
+  <rule><match lemma="Akorda" tags="np.top.sg"><select lemma="Ақорда" tags="np.top"/></match></rule>
+  <rule><match lemma="elsewhere" tags="adv"><select lemma="біржақта" tags="adv"/></match></rule>
+  <rule><match lemma="mostly" tags="adv"><select lemma="көбінесе" tags="adv"/></match></rule>
+  <rule><match lemma="Turkey" tags="np.top.sg"><select lemma="Түркия" tags="np.top"/></match></rule>
+  <rule><match lemma="through" tags="pr"><select lemma="арқылы" tags="post"/></match></rule>
+  <rule><match lemma="but" tags="cnjcoo"><select lemma="бірақ" tags="cnjcoo"/></match></rule>
+  <rule><match lemma="of course" tags="adv"><select lemma="әлбетте" tags="ij"/></match></rule>
+  <rule><match lemma="France" tags="np.top.sg"><select lemma="Франция" tags="np.top"/></match></rule>
+  <rule><match lemma="yet" tags="cnjadv"><select lemma="әуелі" tags="adv"/></match></rule>
+  <rule><match lemma="always" tags="adv"><select lemma="үнемі" tags="adv"/></match></rule>
+  <rule><match lemma="you" tags="prn.obj.*"><select lemma="сіз" tags="prn.pers.*"/></match></rule>
+  <rule><match lemma="barely" tags="adv"><select lemma="әрең" tags="adv"/></match></rule>
+  <rule><match lemma="what" tags="adv.itg"><select lemma="не" tags="adv.itg"/></match></rule>
+  <rule><match lemma="Zhanbussunov" tags="np.cog.*"><select lemma="Жанбусунов" tags="np.cog.m.*"/></match></rule>
+  <rule><match lemma="that" tags="det.dem.*"><select lemma="анау" tags="det.dem.*"/></match></rule>
+  <rule><match lemma="you" tags="prn.subj.*"><select lemma="сіз" tags="prn.pers.*"/></match></rule>
+  <rule><match lemma="AC/DC" tags="np.al.sg"><select lemma="@AC" tags=""/></match></rule>
+  <rule><match lemma="now" tags="adv"><select lemma="енді" tags="adv"/></match></rule>
+  <rule><match lemma="carefully" tags="adv"><select lemma="ақырын" tags="adv"/></match></rule>
+  <rule><match lemma="because" tags="cnjadv"><select lemma="себебі" tags="cnjsub"/></match></rule>
+  <rule><match lemma="how" tags="adv.itg"><select lemma="қанша" tags="prn.itg"/></match></rule>
+  <rule><match lemma="quite" tags="preadv"><select lemma="әбден" tags="adv"/></match></rule>
+  <rule><match lemma="Akmola" tags="np.top.sg"><select lemma="Ақмола" tags="np.top"/></match></rule>
+  <rule><match lemma="be" tags="vbser.*"><select lemma="" tags="*"/></match></rule>
+  <rule><match lemma="Russia" tags="np.top.sg"><select lemma="Ресей" tags="np.top"/></match></rule>
+  <rule><match lemma="anything" tags="prn.tn.m.*"><select lemma="бір нәрсе" tags="prn.ind.*"/></match></rule>
+  <rule><match lemma="Brazil" tags="np.top.sg"><select lemma="Бразилия" tags="np.top"/></match></rule>
+  <rule><match lemma="yet" tags="adv"><select lemma="әуелі" tags="adv"/></match></rule>
+</rules>

@@ -46412,6 +46412,8 @@
 
                             <e lm="geostrophic" i=""><i>geostrophic</i><par n="expensive__adj"/></e>
 
+  <e lm="curve" i=""><i>curve</i><par n="expensive__adj"/></e>
+
                             <e lm="fertiliser" i=""><i>fertiliser</i><par n="expensive__adj"/></e>
 
                             <e lm="intermediate" i=""><i>intermediate</i><par n="expensive__adj"/></e>
@@ -51102,6 +51104,14 @@
 
                             <e lm="taste" i=""><i>taste</i><par n="house__n"/></e>
 
+                            <e lm="taste" i=""><i>taste</i><par n="expensive__adj"/></e>
+
+                            <e lm="ajar" i=""><i>ajar</i><par n="expensive__adj"/></e>
+
+                            <e lm="angelic" i=""><i>angelic</i><par n="expensive__adj"/></e>
+
+                            <e lm="ample" i=""><i>ample</i><par n="expensive__adj"/></e>
+
                             <e lm="tax" i=""><i>tax</i><par n="access__n"/></e>
 
                             <e lm="income tax" i=""><i>income<b/>tax</i><par n="access__n"/></e>
@@ -52748,6 +52758,81 @@
 <e lm="scottish" i=""><i>scottish</i><par n="expensive__adj"/></e>
 <e lm="israeli" i=""><i>israeli</i><par n="expensive__adj"/></e>
 <e lm="welsh" i=""><i>welsh</i><par n="expensive__adj"/></e>
+<e lm="awesome" i=""><i>awesome</i><par n="expensive__adj"/></e>
+<e lm="baggy" i=""><i>baggy</i><par n="expensive__adj"/></e>
+<e lm="babyish" i=""><i>babyish</i><par n="expensive__adj"/></e>
+<e lm="sized" i=""><i>sized</i><par n="expensive__adj"/></e>
+<e lm="blaring" i=""><i>blaring</i><par n="expensive__adj"/></e>
+<e lm="bland" i=""><i>bland</i><par n="expensive__adj"/></e>
+<e lm="blissful" i=""><i>blissful</i><par n="expensive__adj"/></e>
+<e lm="bogus" i=""><i>bogus</i><par n="expensive__adj"/></e>
+<e lm="bony" i=""><i>bony</i><par n="expensive__adj"/></e>
+<e lm="bossy" i=""><i>bossy</i><par n="expensive__adj"/></e>
+<e lm="bountiful" i=""><i>bountiful</i><par n="expensive__adj"/></e>
+<e lm="bouncy" i=""><i>bouncy</i><par n="expensive__adj"/></e>
+<e lm="breakable" i=""><i>breakable</i><par n="expensive__adj"/></e>
+<e lm="brisk" i=""><i>brisk</i><par n="expensive__adj"/></e>
+<e lm="buoyant" i=""><i>buoyant</i><par n="expensive__adj"/></e>
+<e lm="bumpy" i=""><i>bumpy</i><par n="expensive__adj"/></e>
+<e lm="burly" i=""><i>burly</i><par n="expensive__adj"/></e>
+<e lm="burdensome" i=""><i>burdensome</i><par n="expensive__adj"/></e>
+<e lm="buttery" i=""><i>buttery</i><par n="expensive__adj"/></e>
+<e lm="greek" i=""><i>greek</i><par n="expensive__adj"/></e>
+<e lm="english" i=""><i>english</i><par n="expensive__adj"/></e>
+<e lm="kyrgyz" i=""><i>kyrgyz</i><par n="expensive__adj"/></e>
+<e lm="turkmen" i=""><i>turkmen</i><par n="expensive__adj"/></e>
+<e lm="turkic" i=""><i>turkic</i><par n="expensive__adj"/></e>
+<e lm="british" i=""><i>british</i><par n="expensive__adj"/></e>
+<e lm="baltic" i=""><i>baltic</i><par n="expensive__adj"/></e>
+<e lm="islamic" i=""><i>islamic</i><par n="expensive__adj"/></e>
+<e lm="adriatic" i=""><i>adriatic</i><par n="expensive__adj"/></e>
+<e lm="mexican" i=""><i>mexican</i><par n="expensive__adj"/></e>
+<e lm="korean" i=""><i>korean</i><par n="expensive__adj"/></e>
+<e lm="mediterranean" i=""><i>mediterranean</i><par n="expensive__adj"/></e>
+<e lm="indian" i=""><i>indian</i><par n="expensive__adj"/></e>
+<e lm="canadian" i=""><i>canadian</i><par n="expensive__adj"/></e>
+<e lm="belgian" i=""><i>belgian</i><par n="expensive__adj"/></e>
+<e lm="norwegian" i=""><i>norwegian</i><par n="expensive__adj"/></e>
+<e lm="brazilian" i=""><i>brazilian</i><par n="expensive__adj"/></e>
+<e lm="australian" i=""><i>australian</i><par n="expensive__adj"/></e>
+<e lm="ukrainian" i=""><i>ukrainian</i><par n="expensive__adj"/></e>
+<e lm="iranian" i=""><i>iranian</i><par n="expensive__adj"/></e>
+<e lm="victorian" i=""><i>victorian</i><par n="expensive__adj"/></e>
+<e lm="hungarian" i=""><i>hungarian</i><par n="expensive__adj"/></e>
+<e lm="egyptian" i=""><i>egyptian</i><par n="expensive__adj"/></e>
+<e lm="austrian" i=""><i>austrian</i><par n="expensive__adj"/></e>
+<e lm="swiss" i=""><i>swiss</i><par n="expensive__adj"/></e>
+<e lm="protestant" i=""><i>protestant</i><par n="expensive__adj"/></e>
+<e lm="buddhist" i=""><i>buddhist</i><par n="expensive__adj"/></e>
+<e lm="hebrew" i=""><i>hebrew</i><par n="expensive__adj"/></e>
+<e lm="algerian" i=""><i>algerian</i><par n="expensive__adj"/></e>
+<e lm="antarctic" i=""><i>antarctic</i><par n="expensive__adj"/></e>
+<e lm="argentine" i=""><i>argentine</i><par n="expensive__adj"/></e>
+<e lm="aristotelian" i=""><i>aristotelian</i><par n="expensive__adj"/></e>
+<e lm="athenian" i=""><i>athenian</i><par n="expensive__adj"/></e>
+<e lm="byzantine" i=""><i>byzantine</i><par n="expensive__adj"/></e>
+<e lm="cuban" i=""><i>cuban</i><par n="expensive__adj"/></e>
+<e lm="cyrillic" i=""><i>cyrillic</i><par n="expensive__adj"/></e>
+<e lm="doric" i=""><i>doric</i><par n="expensive__adj"/></e>
+<e lm="ethiopian" i=""><i>ethiopian</i><par n="expensive__adj"/></e>
+<e lm="gaelic" i=""><i>gaelic</i><par n="expensive__adj"/></e>
+<e lm="gothic" i=""><i>gothic</i><par n="expensive__adj"/></e>
+<e lm="hellenic" i=""><i>hellenic</i><par n="expensive__adj"/></e>
+<e lm="iberian" i=""><i>iberian</i><par n="expensive__adj"/></e>
+<e lm="iraqi" i=""><i>iraqi</i><par n="expensive__adj"/></e>
+<e lm="indonesian" i=""><i>indonesian</i><par n="expensive__adj"/></e>
+<e lm="malaysian" i=""><i>malaysian</i><par n="expensive__adj"/></e>
+<e lm="jordanian" i=""><i>jordanian</i><par n="expensive__adj"/></e>
+<e lm="kuwaiti" i=""><i>kuwaiti</i><par n="expensive__adj"/></e>
+<e lm="liberian" i=""><i>liberian</i><par n="expensive__adj"/></e>
+<e lm="naive" i=""><i>naive</i><par n="expensive__adj"/></e>
+<e lm="nato" i=""><i>nato</i><par n="expensive__adj"/></e>
+<e lm="senegalese" i=""><i>senegalese</i><par n="expensive__adj"/></e>
+<e lm="slavic" i=""><i>slavic</i><par n="expensive__adj"/></e>
+<e lm="slovakian" i=""><i>slovakian</i><par n="expensive__adj"/></e>
+<e lm="bite-sized" i=""><i>bite-sized</i><par n="expensive__adj"/></e>
+<e lm="bubbly" i=""><i>bubbly</i><par n="expensive__adj"/></e>
+<e lm="naive" i=""><i>naive</i><par n="expensive__adj"/></e>
 
 
                             <e lm="european" i=""><p><l>european</l><r>European</r></p><par n="expensive__adj"/></e>

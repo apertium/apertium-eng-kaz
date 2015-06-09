@@ -11167,7 +11167,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
      <e><p><l>full<s n="adj"/></l><r>толымды<s n="adj"/></r></p></e>      
     <e><p><l>great<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>      
     <e><p><l>high<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>      
-   <e><p><l>hollow<s n="adj"/><s n="sint"/></l><r>толығымен<s n="adj"/></r></p></e>  
+   <e><p><l>hollow<s n="adj"/></l><r>толығымен<s n="adj"/></r></p></e>  
 <e><p><l>young<s n="adj"/><s n="sint"/></l><r>жас<s n="adj"/></r></p></e>
  
    <e><p><l>important<s n="adj"/></l><r>маңызды<s n="adj"/></r></p></e> 
@@ -12779,7 +12779,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>mystic<s n="adj"/></l><r>мистикалық<s n="adj"/></r></p></e>
 <e><p><l>mythical<s n="adj"/></l><r>қиялдық<s n="adj"/></r></p></e>
 <e><p><l>naïve<s n="adj"/><s n="sint"/></l><r>аңқау<s n="adj"/></r></p></e>
-<e><p><l>naive<s n="adj"/><s n="sint"/></l><r>аңқау<s n="adj"/></r></p></e>
+<e><p><l>naive<s n="adj"/></l><r>аңқау<s n="adj"/></r></p></e>
 <e><p><l>naked<s n="adj"/></l><r>ашық<s n="adj"/></r></p></e>
 <e><p><l>nasty<s n="adj"/><s n="sint"/></l><r>жеркенішті<s n="adj"/></r></p></e>
 <e><p><l>natal<s n="adj"/></l><r>туған<s n="adj"/></r></p></e>

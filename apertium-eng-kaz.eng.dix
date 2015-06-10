@@ -52727,6 +52727,10 @@
                             <e lm="Egyptian" i=""><p><l>Egyptian</l><r>egyptian</r></p><par n="expensive__adj"/></e>
                           <e lm="Kazakh" i=""><p><l>Kazakh</l><r>kazakh</r></p><par n="expensive__adj"/></e>
 
+<e lm="Kazakhstani" i=""><p><l>kazakhstani</l><r>Kazakhstani</r></p><par n="expensive__adj"/></e>
+
+<e lm="Bolivarian" i=""><p><l>Bolivarian</l><r>bolivarian</r></p><par n="expensive__adj"/></e>
+
 <e lm="Turkmen" i=""><p><l>Turkmen</l><r>turkmen</r></p><par n="expensive__adj"/></e>
 
                             <e lm="English" i=""><p><l>English</l><r>english</r></p><par n="expensive__adj"/></e>
@@ -52825,7 +52829,6 @@
 <e lm="jordanian" i=""><i>jordanian</i><par n="expensive__adj"/></e>
 <e lm="kuwaiti" i=""><i>kuwaiti</i><par n="expensive__adj"/></e>
 <e lm="liberian" i=""><i>liberian</i><par n="expensive__adj"/></e>
-<e lm="naive" i=""><i>naive</i><par n="expensive__adj"/></e>
 <e lm="nato" i=""><i>nato</i><par n="expensive__adj"/></e>
 <e lm="senegalese" i=""><i>senegalese</i><par n="expensive__adj"/></e>
 <e lm="slavic" i=""><i>slavic</i><par n="expensive__adj"/></e>
@@ -79440,7 +79443,7 @@ F
 <e lm="Brunei" i=""><i>Brunei</i><par n="Barcelona__np"/></e>
 <e lm="KazMunaiGas" i=""><i>KazMunaiGas</i><par n="Linux__np"/></e>
 <e lm="CCTV" i=""><i>CCTV</i><par n="BBC__n"/></e>
-<e lm="Kazakhstanis" i=""><i>Kazakhstanis</i><par n="expensive__adj"/></e>
+
 <e lm="Tun" i=""><i>Tun</i><par n="Mark__np"/></e>
 <e lm="Najib" i=""><i>Najib</i><par n="Smith__np"/></e>
 <e lm="Razak" i=""><i>Razak</i><par n="Smith__np"/></e>
@@ -85430,7 +85433,7 @@ F
                             <e i=""><par n="anys"/></e>
 
 
-<!-- testing only -->
+<!-- testing only 
 <e>
       <re>[A-Z][a-z]+</re>
       <p>
@@ -85438,7 +85441,7 @@ F
         <r><s n="np"/><s n="unk"/></r>
       </p>
 </e>
-
+-->
  
   </section>
 

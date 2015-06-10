@@ -68,6 +68,7 @@
   <def-cat n="ind">
       <cat-item tags="det.ind.*"/>
       <cat-item tags="prn.ind.*"/>
+      <cat-item tags="prn.def.*"/>
     </def-cat>
    
     <def-cat n="default">
@@ -103,6 +104,7 @@
       <attr-item tags="itg"/>
       <attr-item tags="ind"/>
       <attr-item tags="ref"/>
+      <attr-item tags="def"/>
       <attr-item tags="qnt"/>
       <attr-item tags="recip"/>
     </def-attr>

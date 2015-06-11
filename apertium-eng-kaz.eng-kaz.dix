@@ -2707,7 +2707,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>presidency<s n="n"/></l><r>президенттік<s n="n"/></r></p></e>
 <e><p><l>potential<s n="n"/></l><r>потенциал<s n="n"/></r></p></e>
 <e><p><l>American<s n="n"/></l><r>Американ<s n="n"/></r></p></e>
-<e><p><l>Asian<s n="n"/></l><r>азиялық<s n="n"/><s n="subst"/></r></p></e>
+<e><p><l>Asian<s n="n"/></l><r>Азиялық<s n="n"/></r></p></e>
 <e><p><l>practice<s n="n"/></l><r>тәжірибе<s n="n"/></r></p></e>
 <e><p><l>forward<s n="n"/></l><r>шабуылшы<s n="n"/></r></p></e>
 <e><p><l>control<s n="n"/></l><r>бақылау<s n="n"/></r></p></e>
@@ -11350,7 +11350,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>broken<s n="adj"/></l><r>сынған<s n="adj"/></r></p></e>
 <e><p><l>bronze<s n="adj"/></l><r>қола<s n="adj"/></r></p></e>
 <e><p><l>bruised<s n="adj"/></l><r>соғылған<s n="adj"/></r></p></e>
-<e><p><l>bubbly<s n="adj"/></l><r>көпіршу<s n="adj"/></r></p></e>
+<e><p><l>bubbly<s n="adj"/></l><r>көпіршікті<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>bulky<s n="adj"/></l><r>абажадай<s n="adj"/></r></p></e>
 <e><p><l>bumpy<s n="adj"/></l><r>соқпалы<s n="adj"/></r></p></e>
 <e><p><l>buoyant<s n="adj"/></l><r>қалқымалы<s n="adj"/></r></p></e>
@@ -11372,7 +11372,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>industrial<s n="adj"/></l><r>индустриялық<s n="adj"/></r></p></e>
 <e><p><l>potential<s n="adj"/></l><r>әлует<s n="adj"/></r></p></e>
 <e><p><l>American<s n="adj"/></l><r>Американдық<s n="adj"/></r></p></e>
-<e><p><l>Asian<s n="adj"/></l><r>азиялық<s n="adj"/></r></p></e>
+<e><p><l>Asian<s n="adj"/></l><r>азиялық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>revised<s n="adj"/></l><r>жөндеулі<s n="adj"/></r></p></e>
 <e><p><l>last<s n="adj"/></l><r>ақырғы<s n="adj"/></r></p></e>
 <e><p><l>Central<s n="adj"/></l><r>орталық<s n="adj"/></r></p></e>

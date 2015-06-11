@@ -52664,7 +52664,7 @@
 
                             <e lm="Argentinian" i=""><p><l>Argentinian</l><r>argentinian</r></p><par n="expensive__adj"/></e>
 
-                            <e lm="Asian" i=""><p><l>Asian</l><r>asian</r></p><par n="expensive__adj"/></e>
+                            <e lm="Asian" i=""><p><l>asian</l><r>Asian</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Australian" i=""><p><l>Australian</l><r>australian</r></p><par n="expensive__adj"/></e>
 
@@ -52839,6 +52839,10 @@
 
 
                             <e lm="european" i=""><p><l>european</l><r>European</r></p><par n="expensive__adj"/></e>
+
+
+
+   <e lm="aeronautic" i=""><p><l>aeronautic</l><r>Aeronautic</r></p><par n="expensive__adj"/></e>
 
    <e lm="Eurasian" i=""><p><l>Eurasian</l><r>eurasian</r></p><par n="expensive__adj"/></e>
 
@@ -53224,7 +53228,7 @@
 
                             <e lm="aeronautical" i=""><i>aeronautical</i><par n="expensive__adj"/></e>
 
-<e lm="Aeronautic" i=""><i>Aeronautic</i><par n="expensive__adj"/></e>
+
 
                             <e lm="aerospace" i=""><i>aerospace</i><par n="expensive__adj"/></e>
 

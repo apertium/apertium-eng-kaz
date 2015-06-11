@@ -52841,8 +52841,10 @@
                             <e lm="european" i=""><p><l>european</l><r>European</r></p><par n="expensive__adj"/></e>
 
 
-
    <e lm="aeronautic" i=""><p><l>aeronautic</l><r>Aeronautic</r></p><par n="expensive__adj"/></e>
+
+ <e lm="Gregorian" i=""><p><l>Gregorian</l><r>gregorian</r></p><par n="expensive__adj"/></e>
+ <e lm="Galilean" i=""><p><l>Galilean</l><r>galilean</r></p><par n="expensive__adj"/></e>
 
    <e lm="Eurasian" i=""><p><l>Eurasian</l><r>eurasian</r></p><par n="expensive__adj"/></e>
 
@@ -74974,7 +74976,7 @@ F
 
                             <e lm="Ganymede" i=""><i>Ganymede</i><par n="Linux__np"/></e>
 
-                            <e lm="Galilean" i=""><i>Galilean</i><par n="expensive__adj"/></e>
+                            
 
                             <e lm="orbital" i=""><i>orbital</i><par n="expensive__adj"/></e>
 
@@ -75519,7 +75521,7 @@ F
 
                             <e lm="Julian" i=""><i>Julian</i><par n="expensive__adj"/></e>
 
-                            <e lm="Gregorian" i=""><i>Gregorian</i><par n="expensive__adj"/></e>
+                            
 
                             <e lm="heliocentric" i=""><i>heliocentric</i><par n="expensive__adj"/></e>
 

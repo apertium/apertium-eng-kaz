@@ -11653,7 +11653,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>spanish<s n="adj"/></l><r>испаниялық<s n="adj"/></r></p></e>
 <e><p><l>finnish<s n="adj"/></l><r>финдік<s n="adj"/></r></p></e>
 <e><p><l>parish<s n="adj"/></l><r>шіркеулік<s n="adj"/></r></p></e>
-<e><p><l>irish<s n="adj"/></l><r>ирландиялық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>Irish<s n="adj"/></l><r>ирландиялық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>scottish<s n="adj"/></l><r>шотландиялық<s n="adj"/></r></p></e>
 <e><p><l>jewish<s n="adj"/></l><r>иудейлік<s n="adj"/></r></p></e>
 <e><p><l>welsh<s n="adj"/></l><r>валлийлік<s n="adj"/></r></p></e>

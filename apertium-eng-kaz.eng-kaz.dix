@@ -271,7 +271,7 @@
 
 
     <!-- MLF 20120702 The following postpositions use ablative case -->
-    <e><p><l>after<s n="pr"/></l><r>кейін<s n="post"/></r></p></e>
+    <e><p><l>after<s n="pr"/></l><r>кейін<s n="post"/><s n="Rabl"/></r></p></e>
     <e><p><l>since<s n="pr"/></l><r>бері<s n="post"/><s n="Rabl"/></r></p></e>
 
     <!-- MLF 20120702 The following postpositions use dative case -->

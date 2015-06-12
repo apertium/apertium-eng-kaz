@@ -109,6 +109,8 @@ SELECT Inf IF (-2* ("<to>"i))(-1 ("<or>"i)) ;
 
 SELECT N IF (0 ("<names>"i))(-1 Pr) ; 
 
+REMOVE (np unk) IF (0 A OR N);
+
 SELECT Inf IF
        (-1 ("<don't>"i) OR ("<doesn't>"i) OR ("<didn't>"i))
     #   (-1/0 V-DO-AUX)

@@ -50996,6 +50996,7 @@
 
                             <e lm="quixotic" i=""><i>quixotic</i><par n="expensive__adj"/></e>
 
+
                             <e lm="swine" i=""><i>swine</i><par n="expensive__adj"/></e>
 
                             <e lm="blurred" i=""><i>blurred</i><par n="expensive__adj"/></e>
@@ -52665,6 +52666,9 @@
                             <e lm="Argentinian" i=""><p><l>Argentinian</l><r>argentinian</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Asian" i=""><p><l>asian</l><r>Asian</r></p><par n="expensive__adj"/></e>
+
+<e lm="Asian" i=""><p><l>Asian</l><r>asian</r></p><par n="expensive__adj"/></e>
+
 
                             <e lm="Australian" i=""><p><l>Australian</l><r>australian</r></p><par n="expensive__adj"/></e>
 

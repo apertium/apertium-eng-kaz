@@ -13338,6 +13338,60 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>childish<s n="adj"/></l><r>жеңілтек<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>brainless<s n="adj"/></l><r>мисыз<s n="adj"/><s n="subst"/></r></p></e>
 
+<e><p><l>asiatic<s n="adj"/></l><r>азиялық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>blameless<s n="adj"/></l><r>мінсіз<s n="adj"/></r></p></e>
+<e><p><l>bottomless<s n="adj"/></l><r>түпсіз<s n="adj"/></r></p></e>
+<e><p><l>bounded<s n="adj"/></l><r>шектелген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>canine<s n="adj"/></l><r>азу<s n="adj"/></r></p></e>
+<e><p><l>castrated<s n="adj"/></l><r>піштірілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>cavalier<s n="adj"/></l><r>дөрекі<s n="adj"/></r></p></e>
+<e><p><l>concave<s n="adj"/></l><r>ойыс<s n="adj"/></r></p></e>
+<e><p><l>cornish<s n="adj"/></l><r>корнуолдық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>crimson<s n="adj"/></l><r>күрең<s n="adj"/></r></p></e>
+<e><p><l>degenerate<s n="adj"/></l><r>азған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>desirous<s n="adj"/></l><r>зауықты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>determinate<s n="adj"/></l><r>белгілі<s n="adj"/></r></p></e>
+<e><p><l>diurnal<s n="adj"/></l><r>тәуліктік<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>expressive<s n="adj"/></l><r>мәнерлі<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>fetid<s n="adj"/></l><r>сасық<s n="adj"/></r></p></e>
+<e><p><l>hairy<s n="adj"/></l><r>жүнді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>ignominious<s n="adj"/></l><r>сұмдық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>immoderate<s n="adj"/></l><r>өлшеусіз<s n="adj"/></r></p></e>
+<e><p><l>indulgent<s n="adj"/></l><r>мейірімді<s n="adj"/></r></p></e>
+<e><p><l>ingenious<s n="adj"/></l><r>тапқыр<s n="adj"/></r></p></e>
+<e><p><l>inimitable<s n="adj"/></l><r>қайталанбас<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>insolent<s n="adj"/></l><r>дөкір<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>lewd<s n="adj"/></l><r>ұятсыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>libidinous<s n="adj"/></l><r>сезімтал<s n="adj"/></r></p></e>
+<e><p><l>mean<s n="adj"/></l><r>сараң<s n="adj"/></r></p></e>
+<e><p><l>mellow<s n="adj"/></l><r>дәмді<s n="adj"/></r></p></e>
+<e><p><l>mortal<s n="adj"/></l><r>өлетін<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>moving<s n="adj"/></l><r>қозғалатын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>nimble<s n="adj"/></l><r>пысық<s n="adj"/></r></p></e>
+<e><p><l>numberless<s n="adj"/></l><r>сансыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>ornamental<s n="adj"/></l><r>сәнді<s n="adj"/></r></p></e>
+<e><p><l>perpetual<s n="adj"/></l><r>мәңгілік<s n="adj"/></r></p></e>
+<e><p><l>ponderous<s n="adj"/></l><r>ауыр<s n="adj"/></r></p></e>
+<e><p><l>posterior<s n="adj"/></l><r>артқы<s n="adj"/></r></p></e>
+<e><p><l>profane<s n="adj"/></l><r>пенделік<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>quadrangular<s n="adj"/></l><r>төртбұрышты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>quadruped<s n="adj"/></l><r>төрт<b/>аяқты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>rancid<s n="adj"/></l><r>жиренішті<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>ravenous<s n="adj"/></l><r>жыртқыш<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>repulsive<s n="adj"/></l><r>жиіркенішті<s n="adj"/></r></p></e>
+<e><p><l>serviceable<s n="adj"/></l><r>жиренішті<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>studious<s n="adj"/></l><r>ынталы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>submissive<s n="adj"/></l><r>бағынышты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>taut<s n="adj"/></l><r>қатты<b/>керілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>tolerable<s n="adj"/></l><r>жарамды<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unintelligible<s n="adj"/></l><r>түсініксіз<s n="adj"/></r></p></e>
+<e><p><l>unrecognizable<s n="adj"/></l><r>танымастай<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>venerable<s n="adj"/></l><r>қадірлі<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>vile<s n="adj"/></l><r>оңбаған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>viscous<s n="adj"/></l><r>тұтқыр<s n="adj"/></r></p></e>
+<e><p><l>woody<s n="adj"/></l><r>орманды<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>zealous<s n="adj"/></l><r>құлшынысты<s n="adj"/><s n="subst"/></r></p></e>
+
 <!-- Order numbers-->
  <e><p><l>first<s n="det"/><s n="ord"/><s n="sp"/></l><r>бір<s n="num"/><s n="ord"/></r></p></e> 
  <e><p><l>second<s n="det"/><s n="ord"/><s n="sp"/></l><r>екі<s n="num"/><s n="ord"/></r></p></e>     

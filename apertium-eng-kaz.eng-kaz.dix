@@ -8992,6 +8992,13 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Merkel<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Меркель<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Sara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Сара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Tamara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Тамара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+
+<e><p><l>Lilian<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Лилиан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Franca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Франка<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+
+
 <e><p><l>Chok<s n="np"/><s n="ant"/><s n="m"/></l><r>Чок<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Askar<s n="np"/><s n="ant"/><s n="m"/></l><r>Асқар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Kurmangazy<s n="np"/><s n="ant"/><s n="m"/></l><r>Құрманғазы<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -9809,6 +9816,16 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Hedkvist<s n="np"/><s n="ant"/><s n="f"/></l><r>Хедквист<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 
+<e><p><l>Grosvenor<s n="np"/><s n="ant"/><s n="m"/></l><r>Гросвенор<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Augustus<s n="np"/><s n="ant"/><s n="m"/></l><r>Август<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Hannibal<s n="np"/><s n="ant"/><s n="m"/></l><r>Ганнибал<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Ferdinando<s n="np"/><s n="ant"/><s n="m"/></l><r>Фердинандо<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Epicurus<s n="np"/><s n="ant"/><s n="m"/></l><r>Эпикур<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Cicero<s n="np"/><s n="ant"/><s n="m"/></l><r>Цицерон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+
+<e><p><l>Agnew<s n="np"/><s n="cog"/></l><r>Агню<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Descartes<s n="np"/><s n="cog"/></l><r>Декарт<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
 
 <e><p><l>Chavez<s n="np"/><s n="cog"/></l><r>Чавез<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>

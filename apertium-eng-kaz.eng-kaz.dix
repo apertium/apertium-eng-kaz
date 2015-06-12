@@ -243,7 +243,7 @@
     <e><p><l>outside<s n="pr"/></l><r>жан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>next<b/>to<s n="pr"/></l><r>жан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>beside<s n="pr"/></l><r>жан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
-    <e><p><l>instead<b/>of<s n="pr"/></l><r>орн<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+    <e><p><l>instead<b/>of<s n="pr"/></l><r>орын<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>on<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
     <e><p><l>on<b/>top<b/>of<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
   <e><p><l>on<b/>over<b/>of<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -256,10 +256,10 @@
 
 <e><p><l>despite<s n="pr"/></l><r>қарамастан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>facing<s n="pr"/></l><r>жөнінде<s n="post"/></r></p></e>
-<e><p><l>regarding<s n="pr"/></l><r>туралы<s n="post"/></r></p></e>
-<e><p><l>according<s n="pr"/></l><r>сәйкес<s n="post"/></r></p></e>
-<e><p><l>in<b/>accordance<s n="pr"/></l><r>сәйкес<s n="post"/></r></p></e>
-<e><p><l>concerning<s n="pr"/></l><r>туралы<s n="post"/></r></p></e>
+<e><p><l>regarding<s n="pr"/></l><r>туралы<s n="post"/><s n="Rnom"/></r></p></e>
+<e><p><l>according<s n="pr"/></l><r>сәйкес<s n="post"/><s n="Rdat"/></r></p></e>
+<e><p><l>in<b/>accordance<s n="pr"/></l><r>сәйкес<s n="post"/><s n="Rdat"/></r></p></e>
+<e><p><l>concerning<s n="pr"/></l><r>туралы<s n="post"/><s n="Rnom"/></r></p></e>
 <e><p><l>during<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>among<s n="pr"/></l><r>ара<s n="n"/><s n="px3sp"/><s n="loc"/></r></p></e>
 <e><p><l>into<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -283,7 +283,7 @@
 
     <!-- MLF 20120702 The following postpositions use instrumental case -->
 
-<e><p><l>about<b/>with<s n="pr"/></l><r>туралы<s n="post"/><s n="Rins"/></r></p></e>
+<e><p><l>about<b/>with<s n="pr"/></l><r>туралы<s n="post"/><s n="Rnom"/></r></p></e>
   <e><p><l>about<s n="pr"/></l><r>туралы<s n="post"/><s n="Rnom"/></r></p></e> 
 
 <e><p><l>amid<s n="pr"/></l><r>ара<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>

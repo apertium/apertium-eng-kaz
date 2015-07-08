@@ -14932,6 +14932,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>weigh<s n="vblex"/></l><r>тарт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>whistle<s n="vblex"/></l><r>ысқыр<s n="v"/><s n="tv"/></r></p></e>
 
+<e><p><l>nail<s n="vblex"/></l><r>шегеле<s n="v"/><s n="tv"/></r></p></e>
 
 <e><p><l>that<b/>is<s n="ij"/></l><r>демек<s n="ij"/></r></p></e>
 

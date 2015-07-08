@@ -1,4 +1,4 @@
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+	DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
 
 SETS
@@ -78,6 +78,28 @@ SET CLB = SENT | V-FIN | Subj ; # 'Subj' is risky, e.g. coordination
 SET PERSON = 1p | 2p | 3p ;
 
 SECTION
+
+# z_z
+# Если
+# до слова стоит "to",
+# после слова стоит артикль, или начечие, 
+# то слово - инфинитив
+
+SELECT Inf IF
+	(-1 ("to"))
+	(1 Det OR Adv) 
+;
+# Почему-то не работает, если поставить это правило в конец.
+
+# z_z
+# Если
+# после слова стоит артикль, или начечие, 
+# то слово - глагол
+SELECT V IF
+	(1 Det OR Adv) 
+;
+
+
 
 REMOVE V-FIN IF (-1C V-FIN);  # Careful: would kill "The man who _came_ _wrote_ a book"
 

@@ -4174,7 +4174,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>bitumen<s n="n"/></l><r>асфальт<s n="n"/></r></p></e>
 <e><p><l>blackmail<s n="n"/></l><r>бопса<s n="n"/></r></p></e>
 <e><p><l>blackout<s n="n"/></l><r>рұқсат<s n="n"/></r></p></e>
-<e><p><l>black<s n="n"/></l><r>қара<s n="n"/></r></p></e>
+<e><p><l>black<s n="n"/></l><r>қараңғылық<s n="n"/></r></p></e>
 <e><p><l>blank<s n="n"/></l><r>бос<s n="n"/></r></p></e>
 <e><p><l>stroke<s n="n"/></l><r>соққы<s n="n"/></r></p></e>
 <e><p><l>bleeding<s n="n"/></l><r>қанау<s n="n"/></r></p></e>
@@ -11650,7 +11650,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>unique<s n="adj"/></l><r>бірегей<s n="adj"/></r></p></e>
 <e><p><l>defensive<s n="adj"/></l><r>қорғаныстық<s n="adj"/></r></p></e>
 <e><p><l>offensive<s n="adj"/></l><r>шабуылдық<s n="adj"/></r></p></e>
-<e><p><l>comprehensive<s n="adj"/></l><r>қырлы<s n="adj"/></r></p></e>
+<e><p><l>comprehensive<s n="adj"/></l><r>қырлы<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>extensive<s n="adj"/></l><r>аумақты<s n="adj"/></r></p></e>
 <e><p><l>massive<s n="adj"/></l><r>тоқпақтай<s n="adj"/></r></p></e>
 <e><p><l>exclusive<s n="adj"/></l><r>ерекше<s n="adj"/></r></p></e>

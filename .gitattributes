@@ -74,6 +74,9 @@ experimentsAidana/setup-data.sh -text
 mteval/bleug.txt -text
 mteval/bleus.txt -text
 mteval/bleutr.txt -text
+mteval/corp-en.xml -text
+mteval/corp-kaz-ref.xml -text
+mteval/corp-kz.xml -text
 mteval/en.txt -text
 mteval/en.xml -text
 mteval/eng.txt -text

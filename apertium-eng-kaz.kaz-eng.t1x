@@ -53,6 +53,13 @@
 <def-cat n="v-wouldLike">
       <cat-item tags="v.*.fut_plan.*.*"/>
          </def-cat>
+<def-cat n="v-cond">
+      <cat-item tags="v.*.prc_cond.*.*"/>
+<cat-item tags="v.*.prc_cond.*.*.*"/>
+	<cat-item tags="v.*.gna_cond.*.*"/>
+<cat-item tags="v.*.coop.*.*.*"/>
+
+         </def-cat>
 <def-cat n="v-fut">
       <cat-item tags="v.*.fut.*"/>
          </def-cat>
@@ -2381,6 +2388,51 @@
         </call-macro>
       </action>
     </rule>
+
+    <rule comment="RULE: шартты рай:V-cond">   <!-- If I play-->
+      <pattern>
+        <pattern-item n="v-cond"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="conditional" case="caseFirstWord">
+                       <tags>  <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+    
+<lu>
+              <lit v="If"/>
+             <lit-tag v="cnjadv"/>
+             
+ </lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="2"/>
+             <lit-tag v="3"/>
+             <lit-tag v="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+
 
 <!--
 <rule comment="RULE: Adj NOM adv"> 

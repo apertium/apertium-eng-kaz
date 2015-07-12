@@ -25,6 +25,10 @@
       <cat-item lemma="will" tags="vaux.inf"/>
     </def-cat>
 
+  <def-cat n="like"> <!--look like -->
+      <cat-item lemma="like" tags="vblex.inf"/>
+    </def-cat>
+
   <def-cat n="v-look"> <!--look like -->
       <cat-item lemma="look" tags="vblex.*"/>
     </def-cat>
@@ -3541,6 +3545,41 @@
 
 
 
+
+<rule comment="NEW RULE: would + like to play"> <!-- will verb -->
+<!-- superblank management needs to be corrected -->
+  <pattern>
+    <pattern-item n="vaux-would"/>
+    <pattern-item n="like"/>
+    <pattern-item n="to"/>
+    <pattern-item n="approx-inf-verb"/> 
+   </pattern>
+  <action>
+       <out>
+      <chunk name="would-like">  
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="fut_plan"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+
+        <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+	                <lit-tag v="fut_plan"/>
+         <lit-tag v="3"/>
+         <lit-tag v="2"/>
+       </lu>
+       </chunk>
+  </out> 
+  </action>
+</rule>
+
+
 <rule comment="NEW RULE: would + verb"> <!-- will verb -->
 <!-- superblank management needs to be corrected -->
   <pattern>
@@ -3578,6 +3617,10 @@
   </out> 
   </action>
 </rule>
+
+
+
+
 
 
 <rule comment="NEW RULE: would + adv + verb"> <!-- will +adv verb -->

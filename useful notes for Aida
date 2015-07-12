@@ -210,6 +210,9 @@ cat nn. txt | awk '{print "<e lm=\""$1"\" i=\"\"><i>" $1 "</i><par n=\"expensive
 
 
 
+bitextor -L ~/apertium-testing/logs/ -x -u http://www.kaznu.kz -d ~/apertium-testing/ak/    -v en-kk.dic en kk
+
+
 cat newdix.txt | egrep "<l>"| awk 'BEGIN{FS="<l>"} {print $2}'| apertium -d. eng-kaz|egrep "#"|awk 'BEGIN{FS="#"} {print $2}'
 
 cat newdix.txt | egrep "<l>"| awk 'BEGIN{FS="<l>"} {print $2}'| apertium -d. eng-kaz|egrep "#"|awk 'BEGIN{FS="#"} {print ""$2":"$2" ADV ; !\"Use/MT\""}'

@@ -720,7 +720,7 @@
       </action>
     </rule>
     
-  <rule comment="REGLA: SN SN PP SV -> SN SN SV PP">
+  <rule comment="RULE: SN SN PP SV -> SN SN SV PP">
     
       
       <pattern>

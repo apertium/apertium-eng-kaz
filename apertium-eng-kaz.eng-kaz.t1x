@@ -12366,7 +12366,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
       <lit-tag v="2"/> <!-- number -->
  	<var n="pos"/> 
       <lit-tag v="4"/> 
-     <var n="case"/> <!-- case --> 
+           <lit-tag v="5"/>  <!-- case --> 
     </lu>
   </chunk>
   </out>

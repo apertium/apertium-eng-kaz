@@ -30,6 +30,7 @@
     </def-cat>
 <def-cat n="vblex">
       <cat-item tags="vblex.past.*"/>
+<cat-item tags="vblex.pres.*"/>
     </def-cat>
     <def-cat n="v-ing">
       <cat-item tags="v.*.gna9"/>
@@ -58,6 +59,8 @@
 <cat-item tags="v.*.prc_cond.*.*.*"/>
 	<cat-item tags="v.*.gna_cond.*.*"/>
 <cat-item tags="v.*.coop.*.*.*"/>
+<cat-item tags="v.tv.coop.prc_impf"/>
+
 
          </def-cat>
 <def-cat n="v-fut">
@@ -1037,7 +1040,7 @@
 <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <lit-tag v="pp"/>
+              <lit-tag v="pres"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
 <b/>

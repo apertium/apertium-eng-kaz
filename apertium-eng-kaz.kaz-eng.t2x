@@ -1258,10 +1258,10 @@
         <out>
 <chunk>
             <lit v="If"/>
-            <lit-tag  v="cnjcoo"/>
+            <lit-tag  v="cnjadv"/>
             <lit v="{"/>
                   <lit v="^If"/>
-                  <lit-tag  v="cnjcoo"/>
+                  <lit-tag  v="cnjadv"/>
             <lit v="$}"/>
           </chunk>
           <b pos="1"/>

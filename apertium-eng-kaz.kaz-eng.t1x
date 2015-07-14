@@ -2405,7 +2405,7 @@
         </call-macro>
         <out>
           <chunk name="conditional" case="caseFirstWord">
-                       <tags>  <tag><lit-tag v="SV"/></tag>
+                       <tags>  <tag><lit-tag v="SV-COND"/></tag>
               <tag><clip pos="1" side="tl" part="a_tns"/></tag>
               <tag><clip pos="1" side="tl" part="a_pers"/></tag>
               <tag><clip pos="1" side="tl" part="a_nbr"/></tag>

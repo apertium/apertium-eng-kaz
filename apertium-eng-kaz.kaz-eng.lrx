@@ -106,4 +106,16 @@
   <match lemma="бет" tags="n.*.*"><select lemma="surface" tags="n.*"/></match>     
  </rule>
  -->
+<rule>
+ 
+   <match lemma="интернет" tags="n.*"/>
+      <match lemma="жарнама" tags="n.*"><select lemma="banner" tags="n.*"/></match>
+
+ </rule>
+ 
+<rule>
+  <match lemma="жарнама" tags="n.*"><select lemma="advertisement" tags="n.*"/></match>
+ </rule>
+ 
+
 </rules>

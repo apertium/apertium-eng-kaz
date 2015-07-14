@@ -21,6 +21,9 @@
   <def-cat n="SN-PREP">
       <cat-item tags="SN.LOC.*.px3sp.*"/>
     </def-cat>
+<def-cat n="SV-COND">
+      <cat-item tags="SV.*.prc_cond.*"/>
+ </def-cat>
     <def-cat n="SN-POST">
       <cat-item lemma="post" tags="SN.*"/>
     </def-cat>
@@ -34,6 +37,10 @@
 <def-cat n="SV-kerek">
       <cat-item tags="SV-kerek"/>
       <cat-item tags="SV-kerek.*"/>
+    </def-cat>
+<def-cat n="SV-cond">
+      <cat-item tags="SV-cond"/>
+      <cat-item tags="SV-cond.*"/>
     </def-cat>
 <def-cat n="SV-kerek-past">
       <cat-item tags="SV-kerek-past"/>
@@ -123,11 +130,15 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="PREP"/>
+ <def-var n="IF"/>
   </section-def-vars>
   <section-def-macros>
 
     <def-macro n="reset-case1" npar="1">
           <let><var n="PREP"/><lit v=""/></let>
+    </def-macro>
+<def-macro n="reset-cond1" npar="1">
+          <let><var n="IF"/><lit v=""/></let>
     </def-macro>
 
     <def-macro n="set-prep1" npar="1"> 
@@ -237,6 +248,7 @@
             <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
+ <var n="PREP"/>
           <chunk>
            <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
@@ -248,6 +260,9 @@
         </call-macro>
       </action>
     </rule>
+
+
+
 
 
 
@@ -1181,6 +1196,97 @@
       </action>
     </rule>
     
+
+<rule comment="RULE: SN SV-cond"> <!--мен ойнасам If I play--> 
+      <pattern>
+        <pattern-item n="SN"/>
+         <pattern-item n="SV-COND"/>
+      </pattern>
+      <action>
+       <choose>
+<when>
+<test>
+
+<and>
+
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="sg"/></equal>
+</and>
+    
+   </test>
+<let>     <clip pos="3" part="a_pers"/><lit-tag v="p3"/> </let>
+  <let>         <clip pos="3" part="a_nbr"/><lit-tag v="sg"/></let>
+</when>
+<otherwise>
+<let>     <clip pos="3" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="3" part="a_nbr"/><lit v=""/></let>
+</otherwise>
+</choose>
+ <choose>
+<when>
+<test>
+
+<and>
+            
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="sg"/></equal>
+</and>
+    
+   </test>
+<let>     <clip pos="3" part="a_pers"/><lit-tag v="p3"/> </let>
+  <let>         <clip pos="3" part="a_nbr"/><lit-tag v="sg"/></let>
+</when>
+<otherwise>
+<let>     <clip pos="3" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="3" part="a_nbr"/><lit v=""/></let>
+</otherwise>
+</choose>
+ <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="3" part="a_tns"/><lit-tag v="pres"/></equal>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+<let>     <clip pos="3" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="3" part="a_nbr"/><lit v=""/></let>
+</when>
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <chunk>
+           <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+         <b/>
+        <var n="IF"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk> 
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+
 <!--
     <rule comment="REGLA: SN-GEN SN-POST">
       <pattern>

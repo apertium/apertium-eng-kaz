@@ -14,6 +14,10 @@
     <match lemma="state" tags="n.*"><select lemma="мемлекет" tags="n.*"/></match>
   </rule>
 
+<rule>
+    <match lemma="ceremony" tags="n.*"><select lemma="салтанат" tags="n.*"/></match>
+  </rule>
+
   <rule>
     <match lemma="number" tags="n.*"><select lemma="нөмір" tags="n.*"/></match>
     <match lemma="*" tags="num.*"/>

@@ -116,8 +116,12 @@
     <def-cat n="adj">
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
-     
-    </def-cat>
+         </def-cat>
+ <def-cat n="prn">
+      <cat-item tags="prn"/>
+      <cat-item tags="prn.*.*"/>
+         </def-cat>
+
       <def-cat n="num">
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
@@ -164,6 +168,9 @@
     </def-cat>
 <def-cat n="bol">
       <cat-item lemma="бол" tags="v.*.ifi.*"/>
+    </def-cat>
+<def-cat n="kel">
+      <cat-item lemma="кел" tags="v.*.aor.*.*"/>
     </def-cat>
 <def-cat n="bar">
  <cat-item lemma="бар" tags="adj"/>
@@ -251,6 +258,12 @@
       <cat-item tags="n.*.*"/>
      
     </def-cat>
+
+ <def-cat n="want">
+      <cat-item tags="v.*.prc_vol.*.*"/>
+     
+    </def-cat>
+
 
     <def-cat n="ant">
           <cat-item tags="np.ant.*.*"/>
@@ -2941,6 +2954,69 @@
     </rule>
 
 
+
+<rule comment="RULE: қалау рай I want to + verb">
+      <pattern>
+<pattern-item n="want"/>
+ <pattern-item n="kel"/>
+        
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+ <choose>
+               <when>
+                   <test>
+                     <or>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                     </or> 
+                   </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+         <out>
+          <chunk name="wantto" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+
+            </tags>
+<lu>
+          <lit v="want to"/>  
+	 	<lit-tag v="vbmod"/>
+	<lit-tag v="pres"/>
+	
+</lu>
+<b/>
+
+            <lu>
+<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+             
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+
+
+
 <rule comment="RULE: degen + NOM">
       <pattern>
         <pattern-item n="degen"/>
@@ -3025,6 +3101,55 @@
       </action>
     </rule>
 
+
+<rule comment="RULE: PRN">
+      <pattern>
+        <pattern-item n="prn"/>
+      </pattern>
+<action>
+             
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+ <choose>
+                 <when>
+                   <test>
+
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="pronoun" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+            <!--  <clip pos="1" side="tl" part="a_nom"/>-->
+ <clip pos="1" side="tl" part="a_cas"/>
+            <!--  <lit-tag v="sg"/>-->
+              <clip pos="1" side="tl" part="lemq"/>
+  	
+             <lit-tag v="prn"/>
+	<lit-tag v="dem"/>
+	<lit-tag v="nom"/> 
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 <rule comment="RULE: NOM-ant"> <!--for ant,loc-->
       <pattern>

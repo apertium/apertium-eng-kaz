@@ -116,6 +116,23 @@
 <rule>
   <match lemma="жарнама" tags="n.*"><select lemma="advertisement" tags="n.*"/></match>
  </rule>
- 
+
+ <rule>
+  <or>
+   <match lemma="қаңтар" tags="n.*"/>
+  <match lemma="ақпан" tags="n.*"/>
+<match lemma="наурыз" tags="n.*"/>
+<match lemma="сәуір" tags="n.*"/>
+<match lemma="мамыр" tags="n.*"/>
+<match lemma="маусым" tags="n.*"/>
+<match lemma="шілде" tags="n.*"/>
+<match lemma="тамыз" tags="n.*"/>
+<match lemma="қыркүйек" tags="n.*"/>
+<match lemma="қазан" tags="n.*"/>
+<match lemma="қараша" tags="n.*"/>
+<match lemma="желтоқсан" tags="n.*"/>
+  </or>
+   <match lemma="ай" tags="n.px3sp.*"><select lemma="month" tags="n.*"/></match>
+ </rule>
 
 </rules>

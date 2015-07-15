@@ -119,7 +119,7 @@
          </def-cat>
  <def-cat n="prn">
       <cat-item tags="prn"/>
-      <cat-item tags="prn.*.*"/>
+      <cat-item tags="prn.dem.*"/>
          </def-cat>
 
       <def-cat n="num">
@@ -2986,9 +2986,13 @@
          <out>
           <chunk name="wantto" case="caseFirstWord">
             <tags>
-              <tag><var n="sntype"/></tag>
-
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="sl" part="a_tns"/></tag>
+              <tag><clip pos="2" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
             </tags>
+
+            
 <lu>
           <lit v="want to"/>  
 	 	<lit-tag v="vbmod"/>

@@ -7702,7 +7702,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Adai<s n="np"/><s n="top"/><s n="sg"/></l><r>Адай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Adyraspantobeh<s n="np"/><s n="top"/><s n="sg"/></l><r>Адыраспантөбе<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aiyrtau<s n="np"/><s n="top"/><s n="sg"/></l><r>Айыртау<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
-<e><p><l>Ai<s n="np"/><s n="top"/><s n="sg"/></l><r>Ай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aibas<s n="np"/><s n="top"/><s n="sg"/></l><r>Айбас<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aibas-Khaibas<s n="np"/><s n="top"/><s n="sg"/></l><r>Айбас-Қайбас<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aighyz<s n="np"/><s n="top"/><s n="sg"/></l><r>Айғыз<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -11198,7 +11197,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>young<s n="adj"/><s n="sint"/></l><r>жас<s n="adj"/></r></p></e>
  
    <e><p><l>important<s n="adj"/></l><r>маңызды<s n="adj"/></r></p></e> 
-<e><p><l>low<s n="adj"/><s n="sint"/></l><r>аласа<s n="adj"/></r></p></e>      
+     
    <e><p><l>special<s n="adj"/></l><r>ерекше<s n="adj"/></r></p></e>      
         <e><p><l>ill<s n="adj"/></l><r>ауру<s n="adj"/></r></p></e>
    <e><p><l>long<s n="adj"/><s n="sint"/></l><r>ұзақ<s n="adj"/></r></p></e>  

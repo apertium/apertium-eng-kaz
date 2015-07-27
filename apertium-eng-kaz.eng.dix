@@ -18178,6 +18178,8 @@
 
                             <e lm="tempting" i=""><i>tempting</i><par n="expensive__adj"/></e>
 
+                            <e lm="fore" i=""><i>fore</i><par n="expensive__adj"/></e>
+
                             <e lm="bellicose" i=""><i>bellicose</i><par n="expensive__adj"/></e>
 
                             <e lm="self-imposed" i=""><i>self-imposed</i><par n="expensive__adj"/></e>
@@ -39689,6 +39691,28 @@
 
 <e lm="Baiseitova" i=""><i>Baiseitov</i><par n="Ova__np"/></e>
 
+<e lm="grown-up" i=""><p><l>grown-up</l><r>grown-ups</r></p><par n="house__n"/></e>
+<e lm="henry" i=""><p><l>henry</l><r>Henry</r></p><par n="Mark__np"/></e>
+<e lm="basil" i=""><p><l>basil</l><r>Basil</r></p><par n="Mark__np"/></e>
+<e lm="harry" i=""><p><l>harry</l><r>Harry</r></p><par n="Mark__np"/></e>
+<e lm="dorian" i=""><p><l>dorian</l><r>Dorian</r></p><par n="Mark__np"/></e>
+<e lm="hallward" i=""><p><l>hallward</l><r>Hallward</r></p><par n="Mark__np"/></e>
+<e lm="sauran" i=""><p><l>sauran</l><r>Sauran</r></p><par n="Mark__np"/></e>
+<e lm="dauren" i=""><p><l>dauren</l><r>Dauren</r></p><par n="Mark__np"/></e>
+<e lm="lilian" i=""><p><l>lilian</l><r>Lilian</r></p><par n="Mary__np"/></e>
+<e lm="vitalik" i=""><p><l>vitalik</l><r>Vitalik</r></p><par n="Mark__np"/></e>
+<e lm="nick" i=""><p><l>nick</l><r>Nick</r></p><par n="Mark__np"/></e>
+<e lm="kuzya" i=""><p><l>kuzya</l><r>Kuzya</r></p><par n="Mark__np"/></e>
+<e lm="igor" i=""><p><l>igor</l><r>Igor</r></p><par n="Mark__np"/></e>
+<e lm="polovtsian" i=""><p><l>polovtsian</l><r>polovtsian</r></p><par n="house__n"/></e>
+<e lm="england" i=""><p><l>england</l><r>england</r></p><par n="house__n"/></e>
+<e lm="blefuscu" i=""><p><l>blefuscu</l><r>blefuscu</r></p><par n="house__n"/></e>
+<e lm="glumdalclitch" i=""><p><l>glumdalclitch</l><r>glumdalclitch</r></p><par n="house__n"/></e>
+<e lm="yahoos" i=""><p><l>yahoos</l><r>Yahoos</r></p><par n="Linux__np"/></e>
+<e lm="yahoo" i=""><p><l>yahoo</l><r>Yahoo</r></p><par n="Linux__np"/></e>
+<e lm="houyhnhnms" i=""><p><l>houyhnhnm</l><r>houyhnhnm</r></p><par n="house__n"/></e>
+
+
 
 
                             <e lm="Artur" i=""><i>Artur</i><par n="Mark__np"/></e>
@@ -50992,6 +51016,8 @@
 
                             <e lm="swimming pool" i=""><i>swimming<b/>pool</i><par n="house__n"/></e>
 
+                            <e lm="countenance" i=""><i>countenance</i><par n="house__n"/></e>
+
                             <e lm="swine" i=""><i>swine</i><par n="house__n"/></e>
 
                             <e lm="quixotic" i=""><i>quixotic</i><par n="expensive__adj"/></e>
@@ -51000,6 +51026,8 @@
                             <e lm="swine" i=""><i>swine</i><par n="expensive__adj"/></e>
 
                             <e lm="blurred" i=""><i>blurred</i><par n="expensive__adj"/></e>
+
+                            <e lm="fastened" i=""><i>fastened</i><par n="expensive__adj"/></e>
 
                             <e lm="swine flu" i=""><i>swine<b/>flu</i><par n="east__n"/></e>
 
@@ -58116,6 +58144,8 @@ F
 
                             <e lm="fear" i=""><i>fear</i><par n="accept__vblex"/></e>
 
+                            <e lm="forbear" i=""><i>forbear</i><par n="accept__vblex"/></e>
+
                             <e lm="feature" i=""><i>featur</i><par n="liv/e__vblex"/></e>
 
                             <e lm="ferment" i=""><i>ferment</i><par n="accept__vblex"/></e>
@@ -60181,6 +60211,8 @@ F
  <e lm="underway" i=""><i>underway</i><par n="maybe__adv"/></e>
 
                             <e lm="together" i=""><i>together</i><par n="maybe__adv"/></e>
+
+                            <e lm="altogether" i=""><i>altogether</i><par n="maybe__adv"/></e>
 
 
                             <e lm="audaciously" i=""><i>audaciously</i><par n="maybe__adv"/></e>
@@ -76063,6 +76095,9 @@ F
                             <e lm="MRI" i=""><i>MRI</i><par n="BBC__n"/></e>
 
                             <e lm="whenever" i=""><i>whenever</i><par n="that__cnjsub"/></e>
+
+ <e lm="whereof" i=""><i>whereof</i><par n="where__adv"/></e>
+ <e lm="whence" i=""><i>whence</i><par n="where__adv"/></e>
 
                             <e lm="biochemistry" i=""><i>biochemistr</i><par n="bab/y__n"/></e>
 

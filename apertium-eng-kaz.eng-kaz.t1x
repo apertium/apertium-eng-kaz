@@ -407,6 +407,11 @@
       <attr-item tags="qnt"/>
       <attr-item tags="neg"/>
     </def-attr>
+ <def-attr n="a_det_pron_adv">
+      <attr-item tags="det"/>
+      <attr-item tags="prn"/>
+      <attr-item tags="adv"/>
+    </def-attr>
     <def-attr n="a_gen">
       <attr-item tags="f"/>
       <attr-item tags="m"/>
@@ -445,6 +450,7 @@
 
  <attr-item tags="prn.dem"/>
  <attr-item tags="prn.itg"/>
+ <attr-item tags="prn.itg.sim"/>
 <attr-item tags="prn.qnt"/>
 <attr-item tags="prn.pos"/>
       <attr-item tags="prn.qnt.*"/>
@@ -511,6 +517,7 @@
     <def-var n="possessive"/>
     <def-var n="plural"/>
     <def-var n="case"/>
+    <def-var n="bolmasyn"/>
   <def-var n="caseFirstWord"/>
     <def-var n="tense"/>
     <def-var n="verb-pers"/> <!-- State variable -->
@@ -12270,6 +12277,9 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     
      <let><var n="case"/><lit-tag v="nom"/></let>
     </when>
+<otherwise>
+     <let><var n="case"/><lit-tag v="5"/></let>
+</otherwise>
   
   </choose>
 <choose>
@@ -12300,6 +12310,50 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
            </when>
      <otherwise>
      <let><var n="possessive"/><lit-tag v="PXD"/></let>
+     </otherwise>
+  </choose>
+
+<choose>
+    <when>
+     <test>  
+
+       <equal>
+          <clip pos="1" side="sl" part="a_pron"/>
+          <lit-tag v="prn.pos"/>
+       </equal>
+
+     </test>
+     
+     <let><var n="number"/><clip pos="1" side="tl" part="a_nbr"/></let>
+           </when>
+    
+  </choose>
+<choose>
+    <when>
+     <test>  
+
+       <equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="whatever"/>
+       </equal>
+
+     </test>
+     
+     <let><var n="case"/><clip pos="1" side="tl" part="a_cas"/></let>
+ <let><var n="bolmasyn"/> <!-- ready for lu -->
+                      <concat>
+
+                        <lit v="бол"/>
+			<lit-tag v="vaux"/>
+			<lit-tag v="neg"/>
+			<lit-tag v="opt"/>
+			<lit-tag v="p3"/>
+                       	<lit-tag v="sg"/>
+                      </concat>
+             </let>
+           </when>
+       <otherwise>
+     <let><var n="bolmasyn"/><lit v=""/></let>
      </otherwise>
   </choose>
 <!--<choose>
@@ -12366,8 +12420,14 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
       <lit-tag v="2"/> <!-- number -->
  	<var n="pos"/> 
       <lit-tag v="4"/> 
-           <lit-tag v="5"/>  <!-- case --> 
+          <var n="case"/> <!-- case --> 
     </lu>
+<b/>
+    <lu>
+ 	<var n="bolmasyn"/> 
+     </lu>
+
+
   </chunk>
   </out>
 </otherwise>
@@ -13110,13 +13170,38 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   </pattern>
   <action>
  <call-macro n="change-case"><with-param pos="1"/></call-macro> 
+<choose>
+<when>
+<test>
+
+<and>
+ <equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="how"/>
+       </equal>
+ <equal>
+          <clip pos="1" side="sl" part="a_obj_pr"/>
+          <lit-tag v="itg"/>
+       </equal>
+</and>
+</test>
+     <let><var n="case"/><lit-tag v="nom"/></let>
+</when>
+<otherwise>
+     <let><var n="case"/><lit v=""/></let>
+</otherwise>
+</choose>
     <out>
     <chunk name="adv-itg">
     <tags>
     <tag><lit-tag v="QAdvP"/></tag>
     </tags>
     <lu>
-      <clip pos="1" side="tl" part="whole"/>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_det_pron_adv"/>
+
+   <lit-tag v="itg"/>
+      <var n="case"/>
      </lu>
     </chunk>
     </out>

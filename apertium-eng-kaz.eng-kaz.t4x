@@ -895,6 +895,20 @@
 
           </when>
         </choose>
+
+<choose>
+          <when>
+            <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+
+<equal><clip pos="1" side="sl" part="subst"/><lit-tag v="subst"/></equal>
+</and>
+</test>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let>
+
+          </when>
+        </choose>
 <choose>
           <when>
             <test>

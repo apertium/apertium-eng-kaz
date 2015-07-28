@@ -11728,6 +11728,84 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>nazi<s n="adj"/></l><r>фашистік<s n="adj"/></r></p></e>
 <e><p><l>stock<s n="adj"/></l><r>фондтық<s n="adj"/></r></p></e>
 <e><p><l>frank<s n="adj"/></l><r>ашық<s n="adj"/></r></p></e>
+<e><p><l>abated<s n="adj"/></l><r>әлсіреген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>abstracted<s n="adj"/></l><r>жойылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>acquitted<s n="adj"/></l><r>ақталған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>allotted<s n="adj"/></l><r>бөлінген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>allured<s n="adj"/></l><r>қызыққан<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>apprised<s n="adj"/></l><r>хабардар<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>appropriated<s n="adj"/></l><r>берілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>astounded<s n="adj"/></l><r>таңырқаған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>awaked<s n="adj"/></l><r>оянған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>barred<s n="adj"/></l><r>тыйым<b/>салынған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>behaved<s n="adj"/></l><r>тәрбиленген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>bewildered<s n="adj"/></l><r>ұялған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>biassed<s n="adj"/></l><r>әуесқой<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>brained<s n="adj"/></l><r>милы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>buckled<s n="adj"/></l><r>бекітілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>carved<s n="adj"/></l><r>оюлы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>cashiered<s n="adj"/></l><r>төмендетілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>censured<s n="adj"/></l><r>сотталған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>choked<s n="adj"/></l><r>алқынған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>clipped<s n="adj"/></l><r>кесілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>commended<s n="adj"/></l><r>мақтанған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>complied<s n="adj"/></l><r>келісілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>comprehended<s n="adj"/></l><r>байыпты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>compromised<s n="adj"/></l><r>қатерлі<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>conceited<s n="adj"/></l><r>паң<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>confided<s n="adj"/></l><r>сенімді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>confounded<s n="adj"/></l><r>шектен<b/>шыққан<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>crammed<s n="adj"/></l><r>толы<s n="adj"/></r></p></e>
+<e><p><l>culled<s n="adj"/></l><r>кесілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>curled<s n="adj"/></l><r>бұйра<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>dashed<s n="adj"/></l><r>сызықталған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>deafened<s n="adj"/></l><r>құлақ<b/>тұндыратын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>debased<s n="adj"/></l><r>кемсінген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>debauched<s n="adj"/></l><r>масқара<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>degenerated<s n="adj"/></l><r>азған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>dejected<s n="adj"/></l><r>ыдыраған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>despatched<s n="adj"/></l><r>жіберілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>dimmed<s n="adj"/></l><r>сұрланған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>discarded<s n="adj"/></l><r>жойылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>discoloured<s n="adj"/></l><r>оңған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>discomposed<s n="adj"/></l><r>обесцвеченные<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>discontented<s n="adj"/></l><r>ренжіген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>diseased<s n="adj"/></l><r>ауру<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>disengaged<s n="adj"/></l><r>бос<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>disheartened<s n="adj"/></l><r>мұңайған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>dismounted<s n="adj"/></l><r>жаяу<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>dispatched<s n="adj"/></l><r>жіберілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>dispirited<s n="adj"/></l><r>күйінген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>distressed<s n="adj"/></l><r>қапалы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>domed<s n="adj"/></l><r>күмбезді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>doted<s n="adj"/></l><r>құмарланған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>dripped<s n="adj"/></l><r>тамған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>drooped<s n="adj"/></l><r>құлаған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>ebbed<s n="adj"/></l><r>тынған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>elapsed<s n="adj"/></l><r>өткен<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>eluded<s n="adj"/></l><r>қашқан<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>embroiled<s n="adj"/></l><r>шиеленіскен<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>emptied<s n="adj"/></l><r>босатылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>enacted<s n="adj"/></l><r>қабылданған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>enclosed<s n="adj"/></l><r>тұйық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>encrusted<s n="adj"/></l><r>безендірілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>endued<s n="adj"/></l><r>безендірілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>engrossed<s n="adj"/></l><r>үлестірілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>enjoined<s n="adj"/></l><r>тағылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>enlivened<s n="adj"/></l><r>жандандырылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>ennobled<s n="adj"/></l><r>ізгіленген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>ensconced<s n="adj"/></l><r>жайғасқан<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>espied<s n="adj"/></l><r>қаралған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>exalted<s n="adj"/></l><r>көтеріңкі<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>expedited<s n="adj"/></l><r>жедел<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>famished<s n="adj"/></l><r>аш<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>fatigued<s n="adj"/></l><r>шаршаған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>feathered<s n="adj"/></l><r>қанатты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>felled<s n="adj"/></l><r>қиратылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>fettered<s n="adj"/></l><r>шыңдаулы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>flourished<s n="adj"/></l><r>гүлденген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>footed<s n="adj"/></l><r>аяқты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>clenched<s n="adj"/></l><r>қысылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>biological<s n="adj"/></l><r>биологиялық<s n="adj"/></r></p></e>
 <e><p><l>mechanical<s n="adj"/></l><r>механикалық<s n="adj"/></r></p></e>
 <e><p><l>clinical<s n="adj"/></l><r>клиникалық<s n="adj"/></r></p></e>

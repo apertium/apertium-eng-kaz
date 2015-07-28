@@ -18013,10 +18013,11 @@
                             <e lm="E.H. Sukarra" i=""><i>E.H.<b/>Sukarra</i><par n="Linux__np"/></e>
 
                             <e lm="breadwinner" i=""><i>breadwinner</i><par n="house__n"/></e>
-<e lm="chairmanship" i=""><i>chairmanship</i><par n="house__n"/></e>
+			    <e lm="chairmanship" i=""><i>chairmanship</i><par n="house__n"/></e>
+  			    <e lm="kangaroo" i=""><i>kangaroo</i><par n="house__n"/></e>
 
-<e lm="kangaroo" i=""><i>kangaroo</i><par n="house__n"/></e>
-<e lm="keeper" i=""><i>keeper</i><par n="house__n"/></e>
+			    <e lm="keeper" i=""><i>keeper</i><par n="house__n"/></e>
+
                             <e lm="Jacobite" i=""><i>Jacobite</i><par n="house__n"/></e>
 
                             <e lm="solar cooker" i=""><i>solar<b/>cooker</i><par n="house__n"/></e>

@@ -13143,7 +13143,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   <action>
  <call-macro n="change-case"><with-param pos="1"/></call-macro> 
     <out>
-    <chunk name="adv-itg">
+    <chunk name="adv-itg+nom">
     <tags>
     <tag><lit-tag v="QAdvP"/></tag>
     </tags>

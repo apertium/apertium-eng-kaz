@@ -11869,6 +11869,29 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>retail<s n="adj"/></l><r>бөлшекті<b/>сауда<s n="adj"/></r></p></e>
 <e><p><l>patrol<s n="adj"/></l><r>шолғыншы<s n="adj"/></r></p></e>
 <e><p><l>useful<s n="adj"/></l><r>пайдалы<s n="adj"/></r></p></e>
+<e><p><l>forementioned<s n="adj"/></l><r>алдында<b/>айтылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>freckled<s n="adj"/></l><r>секпілді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>frizzled<s n="adj"/></l><r>қуырылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>furred<s n="adj"/></l><r>ақ<b/>үлпек<b/>басқан<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>grooved<s n="adj"/></l><r>науалы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>grounded<s n="adj"/></l><r>жерге<b/>тұйықталған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>guarded<s n="adj"/></l><r>қорғалатын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>haired<s n="adj"/></l><r>шашты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>hardened<s n="adj"/></l><r>шыңдалған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>hauled<s n="adj"/></l><r>сүйреп<b/>жүретін<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>hearted<s n="adj"/></l><r>жүректі<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>hollowed<s n="adj"/></l><r>шұңғыл<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>honed<s n="adj"/></l><r>қайралған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>hooked<s n="adj"/></l><r>имек<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>hooped<s n="adj"/></l><r>ирек<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>hugged<s n="adj"/></l><r>құшақталған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>hushed<s n="adj"/></l><r>үндемеген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>illcoloured<s n="adj"/></l><r>жағымсыз<b/>түсті<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>illcontrived<s n="adj"/></l><r>ақылсыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>impaired<s n="adj"/></l><r>әлсіреген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>indisposed<s n="adj"/></l><r>ауру<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>infused<s n="adj"/></l><r>тұндырылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>instigated<s n="adj"/></l><r>ұрындырған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>powerful<s n="adj"/></l><r>мықты<s n="adj"/></r></p></e>
 <e><p><l>uniform<s n="adj"/></l><r>униформды<s n="adj"/></r></p></e>
 <e><p><l>minimum<s n="adj"/></l><r>минимум<s n="adj"/></r></p></e>

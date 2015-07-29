@@ -11888,6 +11888,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>hushed<s n="adj"/></l><r>үндемеген<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>illcoloured<s n="adj"/></l><r>жағымсыз<b/>түсті<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>illcontrived<s n="adj"/></l><r>ақылсыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>interchanged<s n="adj"/></l><r>алмасқан<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>intermingled<s n="adj"/></l><r>араласқан<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>inured<s n="adj"/></l><r>шыңдалған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>impaired<s n="adj"/></l><r>әлсіреген<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>indisposed<s n="adj"/></l><r>ауру<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>infused<s n="adj"/></l><r>тұндырылған<s n="adj"/><s n="subst"/></r></p></e>

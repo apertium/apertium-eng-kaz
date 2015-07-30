@@ -55576,36 +55576,26 @@
 <e lm="kindled" i=""><i>kindled</i><par n="expensive__adj"/></e>
 <e lm="knotted" i=""><i>knotted</i><par n="expensive__adj"/></e>
 <e lm="laded" i=""><i>laded</i><par n="expensive__adj"/></e>
-<e lm="lamed" i=""><i>lamed</i><par n="expensive__adj"/></e>
+<e lm="lame" i=""><i>lame</i><par n="expensive__adj"/></e>
 <e lm="lamented" i=""><i>lamented</i><par n="expensive__adj"/></e>
 <e lm="latticed" i=""><i>latticed</i><par n="expensive__adj"/></e>
 <e lm="ledges" i=""><i>ledges</i><par n="expensive__adj"/></e>
 <e lm="lifted" i=""><i>lifted</i><par n="expensive__adj"/></e>
 <e lm="loaded" i=""><i>loaded</i><par n="expensive__adj"/></e>
-<e lm="longed" i=""><i>longed</i><par n="expensive__adj"/></e>
 <e lm="loosened" i=""><i>loosened</i><par n="expensive__adj"/></e>
 <e lm="maimed" i=""><i>maimed</i><par n="expensive__adj"/></e>
 <e lm="manned" i=""><i>manned</i><par n="expensive__adj"/></e>
-<e lm="meditating" i=""><i>meditating</i><par n="expensive__adj"/></e>
-<e lm="metamorphosed" i=""><i>metamorphosed</i><par n="expensive__adj"/></e>
-<e lm="mimicked" i=""><i>mimicked</i><par n="expensive__adj"/></e>
 <e lm="mirrored" i=""><i>mirrored</i><par n="expensive__adj"/></e>
-<e lm="miscarried" i=""><i>miscarried</i><par n="expensive__adj"/></e>
 <e lm="misled" i=""><i>misled</i><par n="expensive__adj"/></e>
 <e lm="misrepresented" i=""><i>misrepresented</i><par n="expensive__adj"/></e>
 <e lm="moved" i=""><i>moved</i><par n="expensive__adj"/></e>
 <e lm="muddied" i=""><i>muddied</i><par n="expensive__adj"/></e>
-<e lm="murmured" i=""><i>murmured</i><par n="expensive__adj"/></e>
-<e lm="nakedness" i=""><i>nakedness</i><par n="expensive__adj"/></e>
 <e lm="natured" i=""><i>natured</i><par n="expensive__adj"/></e>
 <e lm="needless" i=""><i>needless</i><par n="expensive__adj"/></e>
-<e lm="neighed" i=""><i>neighed</i><par n="expensive__adj"/></e>
 <e lm="occasioned" i=""><i>occasioned</i><par n="expensive__adj"/></e>
 <e lm="opinionated" i=""><i>opinionated</i><par n="expensive__adj"/></e>
 <e lm="opposed" i=""><i>opposed</i><par n="expensive__adj"/></e>
 <e lm="oppressed" i=""><i>oppressed</i><par n="expensive__adj"/></e>
-<e lm="outed" i=""><i>outed</i><par n="expensive__adj"/></e>
-<e lm="overmatched" i=""><i>overmatched</i><par n="expensive__adj"/></e>
 <e lm="overstocked" i=""><i>overstocked</i><par n="expensive__adj"/></e>
 <e lm="overturned" i=""><i>overturned</i><par n="expensive__adj"/></e>
 <e lm="paced" i=""><i>paced</i><par n="expensive__adj"/></e>
@@ -57484,7 +57474,28 @@ F
 
                             <e lm="transliterate" i=""><i>transliterat</i><par n="liv/e__vblex"/></e>
 
-                            <e lm="triumph" i=""><i>triumph</i><par n="accept__vblex"/></e>
+
+
+<e lm="founder" i=""><i>founder</i><par n="accept__vblex"/></e>
+<e lm="fright" i=""><i>fright</i><par n="accept__vblex"/></e>
+<e lm="gasp" i=""><i>gasp</i><par n="accept__vblex"/></e>
+<e lm="grumble" i=""><i>grumble</i><par n="liv/e__vblex"/></e>
+<e lm="heed" i=""><i>heed</i><par n="accept__vblex"/></e>
+<e lm="hoist" i=""><i>hoist</i><par n="accept__vblex"/></e>
+<e lm="hop" i=""><i>hop</i><par n="step__vblex"/></e>
+<e lm="inquire" i=""><i>inquire</i><par n="liv/e__vblex"/></e>
+<e lm="intercede" i=""><i>intercede</i><par n="liv/e__vblex"/></e>
+<e lm="journey" i=""><i>journey</i><par n="accept__vblex"/></e>
+<e lm="longe" i=""><i>longe</i><par n="liv/e__vblex"/></e>
+<e lm="meditate" i=""><i>meditate</i><par n="liv/e__vblex"/></e>
+<e lm="metamorphose" i=""><i>metamorphose</i><par n="liv/e__vblex"/></e>
+<e lm="mimick" i=""><i>mimick</i><par n="accept__vblex"/></e>
+<e lm="miscarrу" i=""><i>miscarrу</i><par n="appl/y__vblex"/></e>
+<e lm="murmur" i=""><i>murmur</i><par n="accept__vblex"/></e>
+<e lm="neigh" i=""><i>neigh</i><par n="accept__vblex"/></e>
+<e lm="overmatch" i=""><i>overmatch</i><par n="accept__vblex"/></e>                            
+
+<e lm="triumph" i=""><i>triumph</i><par n="accept__vblex"/></e>
 
                             <e lm="start" i=""><i>start</i><par n="accept__vblex"/></e>
 

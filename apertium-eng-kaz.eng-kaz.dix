@@ -11937,6 +11937,40 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>pulsed<s n="adj"/></l><r>импульстік<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>quickened<s n="adj"/></l><r>жеделдетілген<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>quilted<s n="adj"/></l><r>сырылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>reared<s n="adj"/></l><r>тәрбиелі<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>reclined<s n="adj"/></l><r>шалқайған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>recompensed<s n="adj"/></l><r>өтемді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>reed<s n="adj"/></l><r>қамысты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>refined<s n="adj"/></l><r>тазартылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>refreshed<s n="adj"/></l><r>сергіген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>rejoiced<s n="adj"/></l><r>көңілді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>rendered<s n="adj"/></l><r>қызмет<b/>көрсетілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>repealed<s n="adj"/></l><r>жойылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>resumed<s n="adj"/></l><r>қалпына<b/>келтірілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>ripened<s n="adj"/></l><r>піскен<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>rooted<s n="adj"/></l><r>тамыр<b/>жайған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>routed<s n="adj"/></l><r>бағытталатын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>saddled<s n="adj"/></l><r>ауыртпалы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>scalded<s n="adj"/></l><r>жидітілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>screwed<s n="adj"/></l><r>мас<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>secluded<s n="adj"/></l><r>оңаша<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>shaped<s n="adj"/></l><r>формалы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>sharppointed<s n="adj"/></l><r>үшкір<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>sheathed<s n="adj"/></l><r>қабықшалы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>sighted<s n="adj"/></l><r>көретін<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>singed<s n="adj"/></l><r>үйтілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>sledge<s n="adj"/></l><r>апатты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>smothered<s n="adj"/></l><r>басыңқы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>sowed<s n="adj"/></l><r>егілетін<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>speedy<s n="adj"/></l><r>жедел<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>splashed<s n="adj"/></l><r>шашыраған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>squashed<s n="adj"/></l><r>басылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>startled<s n="adj"/></l><r>қорыққан<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>starved<s n="adj"/></l><r>аш<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>stitched<s n="adj"/></l><r>тігілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>stooped<s n="adj"/></l><r>еңкейген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>stumbled<s n="adj"/></l><r>сүрінген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>swelled<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
 <e><p><l>powerful<s n="adj"/></l><r>мықты<s n="adj"/></r></p></e>
 <e><p><l>uniform<s n="adj"/></l><r>униформды<s n="adj"/></r></p></e>
 <e><p><l>minimum<s n="adj"/></l><r>минимум<s n="adj"/></r></p></e>

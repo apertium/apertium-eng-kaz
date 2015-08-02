@@ -1069,10 +1069,6 @@
 
 
 
-
-
-
-
 <rule comment="RULE: NUM years  NOM"> <!--7  zhastamyn-->
       <pattern>
         <pattern-item n="num"/> 

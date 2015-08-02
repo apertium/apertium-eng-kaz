@@ -135,4 +135,16 @@
    <match lemma="ай" tags="n.px3sp.*"><select lemma="month" tags="n.*"/></match>
  </rule>
 
+<rule>
+  <match lemma="Сіз" tags="prn.pers.p2.*.*.gen"><select lemma="You" tags="prn.subj.p2.*.*"/></match>
+  <match lemma="*" tags="v.*.prc_vol.*.*"/>
+ </rule>
+
+
+<rule>
+  <match lemma="мен" tags="prn.pers.*"><select lemma="I" tags="prn.subj"/></match>
+  <match lemma="*" tags="v.*.prc_vol.*"/>
+ 
+ </rule>
+
 </rules>

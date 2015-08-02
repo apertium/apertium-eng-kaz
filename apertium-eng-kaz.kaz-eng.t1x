@@ -2989,10 +2989,15 @@
             </tags>
 
             
+            
 <lu>
-          <lit v="want to"/>  
-	 	<lit-tag v="vbmod"/>
-	<lit-tag v="pres"/>
+          <lit v="want"/>  
+<lit-tag v="vbmod"/>
+	<lit-tag v="inf"/>
+                      <lit v="#"/>  
+<b/>
+          <lit v="to"/>  
+	
 	
 </lu>
 <b/>

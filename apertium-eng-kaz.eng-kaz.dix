@@ -11970,6 +11970,37 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>stitched<s n="adj"/></l><r>тігілген<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>stooped<s n="adj"/></l><r>еңкейген<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>stumbled<s n="adj"/></l><r>сүрінген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>tainted<s n="adj"/></l><r>бұзылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>trussed<s n="adj"/></l><r>байланған<b/>па<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unacquainted<s n="adj"/></l><r>бейтаныс<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unbraced<s n="adj"/></l><r>бос<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unbuttoned<s n="adj"/></l><r>ағытылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>uncharted<s n="adj"/></l><r>зерттелмеген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unconcerned<s n="adj"/></l><r>қамсыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>uncovered<s n="adj"/></l><r>жабылмаған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>undisturbed<s n="adj"/></l><r>байсалды<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unlocked<s n="adj"/></l><r>ашылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unmoved<s n="adj"/></l><r>жылжымайтын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unperceived<s n="adj"/></l><r>аңдаусыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unqualified<s n="adj"/></l><r>біліксіз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unrecognized<s n="adj"/></l><r>танылмаған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unskilled<s n="adj"/></l><r>біліксіз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unused<s n="adj"/></l><r>пайдаланылмаған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unversed<s n="adj"/></l><r>тәжірибесіз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>vanquished<s n="adj"/></l><r>жеңілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>vaulted<s n="adj"/></l><r>күмбезді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>veiled<s n="adj"/></l><r>бүркемелі<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>versed<s n="adj"/></l><r>тәжірибелі<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>vexed<s n="adj"/></l><r>күйінген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>vindicated<s n="adj"/></l><r>ақталған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>voided<s n="adj"/></l><r>күшін<b/>жойған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>walled<s n="adj"/></l><r>қабырғамен<b/>қоршалған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>wattled<s n="adj"/></l><r>өрілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>wedged<s n="adj"/></l><r>сына<b/>тәрізді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>whipped<s n="adj"/></l><r>көпсітілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>winged<s n="adj"/></l><r>қанатты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>wretched<s n="adj"/></l><r>бақытсыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>wronged<s n="adj"/></l><r>қарабет<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>swelled<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
 <e><p><l>powerful<s n="adj"/></l><r>мықты<s n="adj"/></r></p></e>
 <e><p><l>uniform<s n="adj"/></l><r>униформды<s n="adj"/></r></p></e>

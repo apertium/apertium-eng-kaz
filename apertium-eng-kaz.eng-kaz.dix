@@ -1271,6 +1271,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>false<s n="n"/></l><r>өтірік<s n="n"/></r></p></e>
 <e><p><l>fear<s n="n"/></l><r>қорқыныш<s n="n"/></r></p></e>
 <e><p><l>female<s n="n"/></l><r>әйел<s n="n"/></r></p></e>
+<e><p><l>female<s n="n"/></l><r>ұрғашы<s n="n"/></r></p></e>
 <e><p><l>fiction<s n="n"/></l><r>қиял<s n="n"/></r></p></e>
 <e><p><l>fire<s n="n"/></l><r>от<s n="n"/></r></p></e>
 <e><p><l>flight<s n="n"/></l><r>ұшу<s n="n"/></r></p></e>
@@ -2060,6 +2061,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>mobile<b/>phone<s n="n"/></l><r>ұялы<b/>телефон<s n="n"/></r></p></e>
 <e><p><l>milk<s n="n"/></l><r>сүт<s n="n"/></r></p></e>
 <e><p><l>morning<s n="n"/></l><r>таң<s n="n"/></r></p></e>
+<e><p><l>morning<s n="n"/></l><r>таңертең<s n="n"/></r></p></e>
 <e><p><l>name<s n="n"/></l><r>ат<s n="n"/></r></p></e>
 <e><p><l>pencil<s n="n"/></l><r>қарындаш<s n="n"/></r></p></e>
 <e><p><l>plant<s n="n"/></l><r>қондырғы<s n="n"/></r></p></e>
@@ -3368,6 +3370,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>weekend<s n="n"/></l><r>демалыс<b/>күндер<s n="n"/></r></p></e>
 <e><p><l>round<s n="n"/></l><r>раунд<s n="n"/></r></p></e>
 <e><p><l>ground<s n="n"/></l><r>жер<s n="n"/></r></p></e>
+<e><p><l>ground<s n="n"/></l><r>топырақ<s n="n"/></r></p></e>
 <e><p><l>underground<s n="n"/></l><r>жасырын<s n="n"/></r></p></e>
 <e><p><l>god<s n="n"/></l><r>құдай<s n="n"/></r></p></e>
 <e><p><l>childhood<s n="n"/></l><r>балалық<s n="n"/></r></p></e>
@@ -8337,6 +8340,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>glumdalclitch<s n="n"/></l><r>глюмдальклич<s n="n"/></r></p></e>
 <e><p><l>houyhnhnm<s n="n"/></l><r>гуигнгнм<s n="n"/></r></p></e>
 <e><p><l>Yahoo<s n="np"/><s n="al"/></l><r>yahoo<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>yahoo<s n="n"/></l><r>еху<s n="n"/></r></p></e>
 
 
     <!-- Раздел: Имя Собственное -->
@@ -10358,6 +10362,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>left<s n="adv"/></l><r>солға<s n="adv"/></r></p></e>
     <e><p><l>afternoon<s n="adv"/></l><r>түсте<s n="adv"/></r></p></e>
      <e><p><l>only<s n="adv"/></l><r>ғана<s n="adv"/></r></p></e>
+<e r="RL"><p><l></l><r>ғана<s n="postadv"/></r></p></e>
+ 
      <e><p><l>like<b/>this<s n="adv"/></l><r>осы<b/>сияқты<s n="adv"/></r></p></e>
     <e><p><l>everyday<s n="adv"/></l><r>күнде<s n="adv"/></r></p></e>
     <e><p><l>as<s n="preadv"/></l><r>ретінде<s n="post"/></r></p></e>
@@ -11315,6 +11321,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>actual<s n="adj"/></l><r>шын<b/>мәнісінде<s n="adj"/></r></p></e>
 <e><p><l>adept<s n="adj"/></l><r>білімдар<s n="adj"/></r></p></e>
 <e><p><l>admirable<s n="adj"/></l><r>керемет<s n="adj"/></r></p></e>
+<e><p><l>admirable<s n="adj"/></l><r>таңғажайып<s n="adj"/></r></p></e>
 <e><p><l>admired<s n="adj"/></l><r>таңданған<s n="adj"/></r></p></e>
 <e><p><l>adolescent<s n="adj"/></l><r>жас<s n="adj"/></r></p></e>
 <e><p><l>adorable<s n="adj"/></l><r>қастерлі<s n="adj"/></r></p></e>
@@ -13932,6 +13939,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>put<s n="vblex"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>record<s n="vblex"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>run<s n="vblex"/></l><r>жүгір<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>run<s n="vblex"/></l><r>жүгірт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>say<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>pay<s n="vblex"/></l><r>төле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>search<g><b/>for</g><s n="vblex"/></l><r>ізде<s n="v"/><s n="tv"/></r></p></e>
@@ -13957,6 +13965,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>think<s n="vblex"/></l><r>ойлан<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>train<s n="vblex"/></l><r>жаттықтыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>train#<b/>up<s n="vblex"/></l><r>жетілдір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>turn<s n="vblex"/></l><r>бұр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>take<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>touch<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>

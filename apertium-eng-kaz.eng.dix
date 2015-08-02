@@ -39711,6 +39711,8 @@
 <e lm="glumdalclitch" i=""><p><l>glumdalclitch</l><r>glumdalclitch</r></p><par n="house__n"/></e>
 <e lm="yahoos" i=""><p><l>yahoos</l><r>Yahoos</r></p><par n="Linux__np"/></e>
 <e lm="yahoo" i=""><p><l>yahoo</l><r>Yahoo</r></p><par n="Linux__np"/></e>
+ <e lm="yahoo" i=""><i>yahoo</i><par n="house__n"/></e>
+<e lm="yahoos" i=""><i>yahoos</i><par n="house__n"/></e>
 <e lm="houyhnhnms" i=""><p><l>houyhnhnm</l><r>houyhnhnm</r></p><par n="house__n"/></e>
 
 
@@ -60147,6 +60149,7 @@ F
 
                             <e lm="train" i=""><i>train</i><par n="accept__vblex"/></e>
 
+
                             <e lm="rain" i=""><i>rain</i><par n="accept__vblex"/></e>
 
                             <e lm="transact" i=""><i>transact</i><par n="accept__vblex"/></e>
@@ -60188,7 +60191,7 @@ F
                             <e lm="turn out" i=""><i>turn</i><par n="accept__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
 
                             <e lm="turn up" i=""><i>turn</i><par n="accept__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
-
+ <e lm="train up" i=""><i>train</i><par n="accept__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>
                             <e lm="twist" i=""><i>twist</i><par n="accept__vblex"/></e>
 
                             <e lm="type" i=""><i>typ</i><par n="liv/e__vblex"/></e>

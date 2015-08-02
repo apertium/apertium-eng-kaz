@@ -2992,9 +2992,9 @@
             
 <lu>
           <lit v="want"/>  
-<lit-tag v="vbmod"/>
+        <lit-tag v="vbmod"/>
 	<lit-tag v="inf"/>
-                      <lit v="#"/>  
+        <lit v="#"/>  
 <b/>
           <lit v="to"/>  
 	

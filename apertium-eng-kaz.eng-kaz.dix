@@ -2286,7 +2286,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>windsurfer<s n="n"/></l><r>виндсэрфер<s n="n"/></r></p></e>
 
 
-<!--words from corpora Aidana-->
+<!--words from corpora 4355-->
+<e><p><l>disheartened<s n="adj"/></l><r>месел<b/>қайтар<s n="v"/></r></p></e>
+<e r="RL"><p><l></l><r>-ақ<s n="postadv"/></r></p></e>
+ <e><p><l>so<s n="adv"/></l><r>осылайша<s n="adv"/></r></p></e>
 <e><p><l>once<s n="adv"/></l><r>бірде<s n="adv"/></r></p></e>
 <e><p><l>geography<s n="n"/></l><r>география<s n="n"/></r></p></e>
 <e><p><l>jungle<s n="n"/></l><r>джунгли<s n="n"/></r></p></e>
@@ -2320,7 +2323,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>digest<s n="vblex"/></l><r>ас<b/>қорыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>swallow<s n="vblex"/></l><r>жұт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>chew<s n="vblex"/></l><r>шайна<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>masterpiece<s n="n"/></l><r>өнер<b/>туындысы<s n="n"/></r></p></e>
+<e><p><l>masterpiece<s n="n"/></l><r>өнер<b/>туынды<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>always<s n="adv"/></l><r>үнемі<s n="adv"/></r></p></e>
 <e><p><l>explain<s n="vblex"/></l><r>түсіндір<s n="v"/><s n="tv"/></r></p></e>
  <e><p><l>anything<s n="prn"/><s n="tn"/><s n="m"/></l><r>ештеңе<s n="prn"/><s n="neg"/></r></p></e>
@@ -2352,8 +2355,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>arithmetic<s n="n"/></l><r>есеп-қисап<s n="n"/></r></p></e>
 <e><p><l>congress<s n="n"/></l><r>конгресс<s n="n"/></r></p></e>
 <e><p><l>dictator<s n="n"/></l><r>сұлтаны<s n="n"/></r></p></e>
-
-
+<e><p><l>form<s n="n"/></l><r>пішін<s n="n"/></r></p></e>
+<e><p><l>deeply<s n="adv"/></l><r>сан<b/>сақ<s n="adv"/><s n="loc"/></r></p></e>
 
 
 
@@ -2739,6 +2742,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>demand<s n="n"/></l><r>сұрақ<s n="n"/></r></p></e>
 <e><p><l>thousand<s n="n"/></l><r>мың<s n="n"/></r></p></e>
 <e><p><l>fund<s n="n"/></l><r>фонд<s n="n"/></r></p></e>
+<e><p><l>hardiness<s n="n"/></l><r>батылдық<s n="n"/></r></p></e>
 <e><p><l>standard<s n="n"/></l><r>қалып<s n="n"/></r></p></e>
 <e><p><l>award<s n="n"/></l><r>сыйлық<s n="n"/></r></p></e>
 <e><p><l>justice<s n="n"/></l><r>әділдік<s n="n"/></r></p></e>

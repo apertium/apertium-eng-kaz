@@ -14711,6 +14711,31 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>design<s n="vblex"/></l><r>жобала<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>resign<s n="vblex"/></l><r>отставкаға<b/>кет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>assign<s n="vblex"/></l><r>тағайында<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cradle<s n="vblex"/></l><r>жу<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>daub<s n="vblex"/></l><r>балшықта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decipher<s n="vblex"/></l><r>қабылда<s n="v"/><s n="tv"/><s n="neg"/></r></p></e>
+<e><p><l>descry<s n="vblex"/></l><r>байқа<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>discourse<s n="vblex"/></l><r>пайымда<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>ensue<s n="vblex"/></l><r>туында<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>entreat<s n="vblex"/></l><r>жалын<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>equal<s n="vblex"/></l><r>түзел<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>excel<s n="vblex"/></l><r>артыл<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>expostulate<s n="vblex"/></l><r>қарсылас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>fast<s n="vblex"/></l><r>бекіт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>fetch<s n="vblex"/></l><r>ұна<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>flank<s n="vblex"/></l><r>жалғас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>flap<s n="vblex"/></l><r>бұлға<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>flit<s n="vblex"/></l><r>елбеле<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>founder<s n="vblex"/></l><r>ақсап<b/>қал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>fright<s n="vblex"/></l><r>қорқыт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>gasp<s n="vblex"/></l><r>тұншық<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>grumble<s n="vblex"/></l><r>ұрыс<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>heed<s n="vblex"/></l><r>үңіле<b/>қара<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>hoist<s n="vblex"/></l><r>көтер<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>hop<s n="vblex"/></l><r>секір<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>inquire<s n="vblex"/></l><r>сұра<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>intercede<s n="vblex"/></l><r>өтін<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>journey<s n="vblex"/></l><r>саяхатта<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>assignment<s n="n"/></l><r>тапсырма<s n="n"/></r></p></e>
 <e><p><l>obtain<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>contain<s n="vblex"/></l><r>қамты<s n="v"/><s n="tv"/></r></p></e>

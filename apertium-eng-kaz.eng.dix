@@ -16588,6 +16588,8 @@
 
                             <e lm="there and then" i=""><i>there<b/>and<b/>then</i><par n="maybe__adv"/></e>
 
+ <e lm="and that" i=""><i>and<b/>that</i><par n="after__cnjadv"/></e>
+
                             <e lm="thereafter" i=""><i>thereafter</i><par n="maybe__adv"/></e>
 
                             <e lm="thereby" i=""><i>thereby</i><par n="maybe__adv"/></e>
@@ -17096,6 +17098,7 @@
                             <e lm="whatever" i=""><i>whatever</i><par n="everyone__prn"/></e>
 
                             <e lm="whoever" i=""><i>whoever</i><par n="everyone__prn"/></e>
+ <e lm="whoever" i=""><i>whoever</i><par n="other__det"/></e>
 
                             <e lm="which" i=""><i>which</i><par n="what__prn"/></e>
 

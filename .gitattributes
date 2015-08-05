@@ -138,8 +138,8 @@ mteval/wrapper.sh -text
 /regression-tests.sh -text
 texts/business_movie.eng.txt -text
 texts/business_movie.kaz.txt -text svneol=unset#application/octet-stream
-texts/corpus[!!-~]Lab[!!-~]IIS[!!-~](5809).en -text
-texts/corpus[!!-~]Lab[!!-~]IIS[!!-~](5809).kz -text svneol=unset#application/octet-stream
+texts/corpus[!!-~]Lab[!!-~]IIS[!!-~](5925).en -text
+texts/corpus[!!-~]Lab[!!-~]IIS[!!-~](5925).kz -text svneol=unset#application/octet-stream
 texts/corpus-ref1.kz -text
 texts/eng.chunks.txt -text
 texts/eng.txt -text

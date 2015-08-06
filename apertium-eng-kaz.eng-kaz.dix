@@ -635,6 +635,7 @@
 <e><p><l>scissors<s n="n"/></l><r>қайшы<s n="n"/></r></p></e>
 <e><p><l>screw<s n="n"/></l><r>бұранда<s n="n"/></r></p></e>
 <e><p><l>seed<s n="n"/></l><r>дән<s n="n"/></r></p></e>
+<e><p><l>seed<s n="n"/></l><r>ұрық<s n="n"/></r></p></e>
 <e><p><l>sheep<s n="n"/></l><r>қой<s n="n"/></r></p></e>
 <e><p><l>shoe<s n="n"/></l><r>аяқ-киім<s n="n"/></r></p></e>
 <e><p><l>skin<s n="n"/></l><r>тері<s n="n"/></r></p></e>
@@ -1396,6 +1397,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>trick<s n="n"/></l><r>фокус<s n="n"/></r></p></e>
 <e><p><l>trouble<s n="n"/></l><r>қиыншылық<s n="n"/></r></p></e>
 <e><p><l>true<s n="n"/></l><r>шындық<s n="n"/></r></p></e>
+<e><p><l>true<s n="n"/></l><r>рас<s n="n"/></r></p></e>
 <e><p><l>unit<s n="n"/></l><r>бірлік<s n="n"/></r></p></e>
 <e><p><l>wall<s n="n"/></l><r>қабырға<s n="n"/></r></p></e>
 <e><p><l>way<s n="n"/></l><r>жол<s n="n"/></r></p></e>
@@ -1458,7 +1460,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>beetroot<s n="n"/></l><r>қызылша<s n="n"/></r></p></e>
     <e><p><l>beet<s n="n"/></l><r>қызылша<s n="n"/></r></p></e>
     <e><p><l>biscuit<s n="n"/></l><r>печенье<s n="n"/></r></p></e>
-    <e><p><l>bishop<s n="n"/></l><r>піл<s n="n"/></r></p></e>
+    <e><p><l>bishop<s n="n"/></l><r>епископ<s n="n"/></r></p></e>
     <e><p><l>blind<s n="n"/></l><r>соқыр<s n="n"/></r></p></e>
     <e><p><l>bouquet<s n="n"/></l><r>шоқ<s n="n"/></r></p></e>
     <e><p><l>boundary<s n="n"/></l><r>шекара<s n="n"/></r></p></e>
@@ -2157,6 +2159,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>birthday<s n="n"/></l><r>туған<s n="n"/></r></p></e>
 <e><p><l>brush<s n="n"/></l><r>шөтке<s n="n"/></r></p></e>
 <e><p><l>bush<s n="n"/></l><r>түп<s n="n"/></r></p></e>
+<e><p><l>bush<s n="n"/></l><r>бұта<s n="n"/></r></p></e>
 <e><p><l>cast<s n="n"/></l><r>келтір-<s n="n"/></r></p></e>
 <e><p><l>cave<s n="n"/></l><r>үңгір<s n="n"/></r></p></e>
 <e><p><l>cent<s n="n"/></l><r>цент<s n="n"/></r></p></e>
@@ -2293,15 +2296,22 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 
 <!--words from corpora 4355-->
+<e><p><l>abruptly<s n="adv"/></l><r>кенеттен<s n="adv"/></r></p></e>
+<e><p><l>Mars<s n="np"/><s n="al"/></l><r>Марс<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Jupiter<s n="np"/><s n="al"/></l><r>Юпитер<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Venus<s n="np"/><s n="al"/></l><r>Шолпан<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>disheartened<s n="adj"/></l><r>месел<b/>қайтар<s n="v"/></r></p></e>
 <e r="RL"><p><l></l><r>-ақ<s n="postadv"/></r></p></e>
 <e r="RL"><p><l></l><r>ғой<s n="mod_ass"/></r></p></e>
  <e><p><l>so<s n="adv"/></l><r>осылайша<s n="adv"/></r></p></e>
 <e><p><l>once<s n="adv"/></l><r>бірде<s n="adv"/></r></p></e>
 <e><p><l>geography<s n="n"/></l><r>география<s n="n"/></r></p></e>
+<e><p><l>forbearance<s n="n"/></l><r>төзімділік<s n="n"/></r></p></e>
 <e><p><l>jungle<s n="n"/></l><r>джунгли<s n="n"/></r></p></e>
 <e><p><l>magnificent<s n="adj"/></l><r>атақты<s n="adj"/></r></p></e>
 <e><p><l>opinion<s n="n"/></l><r>көзқарас<s n="n"/></r></p></e>
+<e><p><l>earliest<b/>youth<s n="adv"/></l><r>балауса<b/>шақ<s n="n"/></r></p></e>
+<e><p><l>herb<s n="n"/></l><r>үйір<s n="n"/></r></p></e>
 <e><p><l>golf<s n="n"/></l><r>гольф<s n="n"/></r></p></e>
 <e><p><l>necktie<s n="n"/></l><r>галстук<s n="n"/></r></p></e>
 <e><p><l>mile<s n="n"/></l><r>шақырым<s n="n"/></r></p></e>
@@ -2352,11 +2362,13 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>along<b/>the<b/>way<s n="pr"/></l><r>жол-жөнекей<s n="adv"/></r></p></e>
 <e><p><l>mattress<s n="n"/></l><r>матрас<s n="n"/></r></p></e>
 <e><p><l>Aldar<b/>Kose<s n="np"/><s n="ant"/><s n="m"/></l><r>Алдар<b/>Көсе<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Shalkuyryk<s n="np"/><s n="ant"/><s n="m"/></l><r>Шалқұйрық<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>fur<b/>coat<s n="n"/></l><r>ішік<s n="n"/><s n="nom"/></r></p></e>
 <e><p><l>flow<s n="vblex"/></l><r>арала<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>close<b/>at<b/>hand<s n="adv"/></l><r>қоян-қолтық<b/>аралас<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>really<s n="adv"/></l><r>шынайы<s n="adj"/></r></p></e>
 <e><p><l>blink<s n="vblex"/></l><r>уқала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>scare<s n="vblex"/></l><r>сескен<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>frighten<s n="vblex"/></l><r>қорқыныш<b/>тудыр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>like<b/>this<s n="adv"/></l><r>мынадай<s n="adj"/></r></p></e> 
 <e><p><l>thousand<s n="n"/></l><r>мыңдаған<s n="det"/><s n="qnt"/></r></p></e>
@@ -2366,6 +2378,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>dictator<s n="n"/></l><r>сұлтаны<s n="n"/></r></p></e>
 <e><p><l>form<s n="n"/></l><r>пішін<s n="n"/></r></p></e>
 <e><p><l>deeply<s n="adv"/></l><r>сан<b/>сақ<s n="adv"/><s n="loc"/></r></p></e>
+<e><p><l>radish<s n="n"/></l><r>шалғам<s n="n"/></r></p></e>
 
 
 
@@ -10340,6 +10353,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>but<s n="cnjcoo"/></l><r>бірақ<s n="cnjcoo"/></r></p></e>
     <e><p><l>or<s n="cnjcoo"/></l><r>немесе<s n="cnjcoo"/></r></p></e>
     <e><p><l>then<s n="cnjadv"/></l><r>сосын<s n="adv"/></r></p></e>
+ <e><p><l>then<s n="cnjadv"/></l><r>сонда<s n="cnjadv"/></r></p></e>
  <e><p><l>neither<s n="cnjcoo"/></l><r>не<s n="cnjcoo"/></r></p></e>
     <e><p><l>nor<s n="cnjcoo"/></l><r>не<s n="cnjcoo"/></r></p></e>
     <e><p><l>although<s n="cnjadv"/></l><r>алайда<s n="adv"/></r></p></e>
@@ -10380,6 +10394,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e r="RL"><p><l></l><r>ғана<s n="postadv"/></r></p></e>
  
      <e><p><l>like<b/>this<s n="adv"/></l><r>осы<b/>сияқты<s n="adv"/></r></p></e>
+  <e><p><l>like<b/>that<s n="adv"/></l><r>осы<s n="prn"/><s n="dem"/><s n="sim"/></r></p></e>
     <e><p><l>everyday<s n="adv"/></l><r>күнде<s n="adv"/></r></p></e>
     <e><p><l>as<s n="preadv"/></l><r>ретінде<s n="post"/></r></p></e>
     <e><p><l>very<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
@@ -10756,6 +10771,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>subtly<s n="adv"/></l><r>жіңішке<s n="adv"/></r></p></e>
 <e><p><l>successively<s n="adv"/></l><r>жүйелі<s n="adv"/></r></p></e>
 <e><p><l>suddenly<s n="adv"/></l><r>аяқасты<s n="adv"/></r></p></e>
+
 <e><p><l>sufficiently<s n="adv"/></l><r>біраз<s n="adv"/></r></p></e>
 <e><p><l>superbly<s n="adv"/></l><r>тамаша<s n="adv"/></r></p></e>
 <e><p><l>supposedly<s n="adv"/></l><r>долбарлы<s n="adv"/></r></p></e>
@@ -10828,6 +10844,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>oh<s n="ij"/></l><r>ау<s n="ij"/></r></p></e> 
  <e><p><l>yes<s n="ij"/></l><r>иә<s n="ij"/></r></p></e> <!-- This is an interjection -->
 <e><p><l>ah<s n="ij"/></l><r>аһ<s n="ij"/></r></p></e>
+<e r="RL"><p><l>ah<s n="ij"/></l><r>о<s n="ij"/></r></p></e>
 <e><p><l>bah<s n="ij"/></l><r>бах<s n="ij"/></r></p></e>
 <e><p><l>bingo<s n="ij"/></l><r>бәрекелді<s n="ij"/></r></p></e>
 <e><p><l>hello<s n="ij"/></l><r>сәлем<s n="ij"/></r></p></e>
@@ -11179,6 +11196,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>mini<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
     <e><p><l>happy<s n="adj"/><s n="sint"/></l><r>бақытты<s n="adj"/></r></p></e>
     <e><p><l>glad<s n="adj"/></l><r>қуанышты<s n="adj"/></r></p></e> <!-- wrong in eng.dix -->
+ <e><p><l>glad<s n="adj"/></l><r>риза<s n="adj"/></r></p></e>
 <e><p><l>square<s n="adj"/></l><r>шаршы<s n="adj"/></r></p></e>
 <e><p><l>official<s n="adj"/></l><r>ресми<s n="adj"/></r></p></e>
  <e><p><l>interesting<s n="adj"/></l><r>қызықты<s n="adj"/></r></p></e>
@@ -11246,7 +11264,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
   <e><p><l>equal<s n="adj"/></l><r>бірдей<s n="adj"/></r></p></e>      
   <e><p><l>fat<s n="adj"/><s n="sint"/></l><r>толық<s n="adj"/></r></p></e>      
   <e><p><l>fertile<s n="adj"/></l><r>шұрайлы<s n="adj"/></r></p></e>      
- 
+  <e><p><l>fertile<s n="adj"/></l><r>құнарлы<s n="adj"/></r></p></e>
      <e><p><l>firm<s n="adj"/><s n="sint"/></l><r>берік<s n="adj"/></r></p></e>
     <e><p><l>tender<s n="adj"/><s n="sint"/></l><r>нәзік<s n="adj"/></r></p></e>
     <e><p><l>fair<s n="adj"/><s n="sint"/></l><r>арлы<s n="adj"/></r></p></e>
@@ -14250,6 +14268,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>repel<s n="vblex"/></l><r>қу<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>reproach<s n="vblex"/></l><r>азарла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>resemble<s n="vblex"/></l><r>ескерт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>resemble<s n="vblex"/></l><r>ұқса<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>rid<s n="vblex"/></l><r>серпілт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>row<s n="vblex"/></l><r>ұрыстыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>scream<s n="vblex"/></l><r>айқайла<s n="v"/><s n="iv"/></r></p></e>

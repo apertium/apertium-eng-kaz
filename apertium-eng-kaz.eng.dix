@@ -14849,6 +14849,8 @@
 
                             <e lm="watch" i=""><i>watch</i><par n="approach__vblex"/></e>
 
+ <e lm="scare" i=""><i>scare</i><par n="approach__vblex"/></e>
+
                             <e lm="watch after" i=""><i>watch</i><par n="approach__vblex"/><p><l><b/>after</l><r><g><b/>after</g></r></p></e>
 
                             <e lm="snap" i=""><i>snap</i><par n="step__vblex"/></e>
@@ -21880,6 +21882,8 @@
                             <e lm="from specifics to generals" i=""><i>from<b/>specifics<b/>to<b/>generals</i><par n="after__cnjadv"/></e>
 
                             <e lm="home address" i=""><i>home<b/>address</i><par n="access__n"/></e>
+<e lm="herb" i=""><i>herb</i><par n="house__n"/></e>
+
 
                             <e lm="private organization" i=""><i>private<b/>organi</i><par n="globali/sation__n"/></e>
 
@@ -43322,7 +43326,7 @@
 
                             <e lm="congregation" i=""><i>congregation</i><par n="house__n"/></e>
 
-                            <e lm="congress" i=""><i>congress</i><par n="access__n"/></e>
+                            <e lm="congress" i=""><i>congress</i><par n="house__n"/></e>
 
                             <e lm="conjecture" i=""><i>conjecture</i><par n="house__n"/></e>
 
@@ -61330,6 +61334,7 @@ F
                             <e r="RL" i=""><i>like<b/>that</i><par n="maybe__adv"/></e>
 
                             <e lm="like this" i=""><i>like<b/>this</i><par n="maybe__adv"/></e>
+<e lm="like that" i=""><i>like<b/>that</i><par n="maybe__adv"/></e>
 
                             <e lm="likely" i=""><i>likely</i><par n="maybe__adv"/></e>
 
@@ -76969,6 +76974,8 @@ F
 
                             <e lm="at the earliest opportunity" i=""><i>at<b/>the<b/>earliest<b/>opportunity</i><par n="maybe__adv"/></e>
 
+  <e lm="earliest youth" i=""><i>earliest<b/>youth</i><par n="maybe__adv"/></e>
+
                             <e lm="in sight" i=""><i>in<b/>sight</i><par n="maybe__adv"/></e>
 
                             <e lm="at half-mast" i=""><i>at<b/>half-mast</i><par n="maybe__adv"/></e>
@@ -79872,6 +79879,7 @@ F
 <e lm="Hedkvist" i=""><i>Hedkvist</i><par n="Mary__np"/></e>
 <e lm="Er Tostiik" i=""><i>Er<b/>Tostik</i><par n="Mark__np"/></e>
 <e lm="Aldar Kose" i=""><i>Aldar<b/>Kose</i><par n="Mark__np"/></e>
+<e lm="Shalkuyryk" i=""><i>Shalkuyryk</i><par n="Mark__np"/></e>
 <e lm="Kulyash" i=""><i>Kulyash</i><par n="Mary__np"/></e>
 <e lm="Mukan" i=""><i>Mukan</i><par n="Mark__np"/></e>
 <e lm="Mukhtar" i=""><i>Mukhtar</i><par n="Mark__np"/></e>

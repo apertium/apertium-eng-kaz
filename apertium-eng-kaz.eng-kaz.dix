@@ -15486,7 +15486,20 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>roar<s n="vblex"/></l><r>ақыр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>roast<s n="vblex"/></l><r>қуыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>rob<s n="vblex"/></l><r>тона<s n="v"/><s n="tv"/></r></p></e>
-
+<e><p><l>tassel<s n="vblex"/></l><r>қада<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>tickle<s n="vblex"/></l><r>қытықта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>toss<s n="vblex"/></l><r>лақтыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>trample<s n="vblex"/></l><r>тапта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>treble<s n="vblex"/></l><r>үш<b/>есе<b/>көбейт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>trot<s n="vblex"/></l><r>жортақта<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>undeceive<s n="vblex"/></l><r>көзін<b/>аш<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>unharness<s n="vblex"/></l><r>доғар<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>unship<s n="vblex"/></l><r>жинастыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>venture<s n="vblex"/></l><r>қауіп<b/>төндір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>wake<s n="vblex"/></l><r>оян<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>weed<s n="vblex"/></l><r>шөпте<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>wink<s n="vblex"/></l><r>көз<b/>қыс<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>winter<s n="vblex"/></l><r>қыста<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>satisfy<s n="vblex"/></l><r>қанағаттандыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>flower<s n="vblex"/></l><r>гүлден<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>astound<s n="vblex"/></l><r>таң<b/>қалдыр<s n="v"/><s n="tv"/></r></p></e>

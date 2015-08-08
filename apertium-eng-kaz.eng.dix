@@ -50636,6 +50636,8 @@
 
                             <e lm="corrector" i=""><i>corrector</i><par n="expensive__adj"/></e>
 
+<e lm="roundabout" i=""><i>roundabout</i><par n="expensive__adj"/></e>
+
                             <e lm="sperm" i=""><i>sperm</i><par n="house__n"/></e>
 
                             <e lm="spermatozoid" i=""><i>spermatozoid</i><par n="house__n"/></e>
@@ -83301,6 +83303,7 @@ F
 
                             <e lm="uncharacteristic" i=""><i>uncharacteristic</i><par n="expensive__adj"/></e>
 
+ <e lm="characteristic" i=""><i>characteristic</i><par n="house__n"/></e>
                             <e lm="stoppage time" i=""><i>stoppage<b/>time</i><par n="house__n"/></e>
 
                             <e lm="stoppage-time" i=""><i>stoppage-time</i><par n="house__n"/></e>

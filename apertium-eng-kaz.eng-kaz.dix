@@ -2303,9 +2303,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>disheartened<s n="adj"/></l><r>месел<b/>қайтар<s n="v"/></r></p></e>
 <e r="RL"><p><l></l><r>-ақ<s n="postadv"/></r></p></e>
 <e r="RL"><p><l></l><r>ғой<s n="mod_ass"/></r></p></e>
+<e r="RL"><p><l></l><r>тән<s n="adj"/></r></p></e>
  <e><p><l>so<s n="adv"/></l><r>осылайша<s n="adv"/></r></p></e>
 <e><p><l>once<s n="adv"/></l><r>бірде<s n="adv"/></r></p></e>
 <e><p><l>geography<s n="n"/></l><r>география<s n="n"/></r></p></e>
+<e><p><l>characteristic<s n="n"/></l><r>қасиет<s n="n"/></r></p></e>
 <e><p><l>forbearance<s n="n"/></l><r>төзімділік<s n="n"/></r></p></e>
 <e><p><l>jungle<s n="n"/></l><r>джунгли<s n="n"/></r></p></e>
 <e><p><l>magnificent<s n="adj"/></l><r>атақты<s n="adj"/></r></p></e>
@@ -6555,6 +6557,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>sensationalism<s n="n"/></l><r>сенсуализм<s n="n"/></r></p></e>
 <e><p><l>sensibility<s n="n"/></l><r>шыдамсыздық<s n="n"/></r></p></e>
 <e><p><l>sensitivity<s n="n"/></l><r>шыдамсыздық<s n="n"/></r></p></e>
+<e><p><l>sensitivity<s n="n"/></l><r>сезімталдық<s n="n"/></r></p></e>
 <e><p><l>sensor<s n="n"/></l><r>бергіш<s n="n"/></r></p></e>
 <e><p><l>sequel<s n="n"/></l><r>жалғасым<s n="n"/></r></p></e>
 <e><p><l>serenity<s n="n"/></l><r>ашықтық<s n="n"/></r></p></e>
@@ -7158,6 +7161,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>sauce<s n="n"/></l><r>тұздық<s n="n"/></r></p></e>
 <e><p><l>saliva<s n="n"/></l><r>сілекей<s n="n"/></r></p></e>
 <e><p><l>roundabout<s n="n"/></l><r>бұрыс<s n="n"/></r></p></e>
+<e><p><l>roundabout<s n="adj"/></l><r>айналмалы<s n="adj"/></r></p></e>
 <e><p><l>refinement<s n="n"/></l><r>нәзіктік<s n="n"/></r></p></e>
 <e><p><l>raven<s n="n"/></l><r>құзғын<s n="n"/></r></p></e>
 <e><p><l>pudding<s n="n"/></l><r>пудинг<s n="n"/></r></p></e>
@@ -10842,6 +10846,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>please<s n="ij"/></l><r>өтінем<s n="ij"/></r></p></e> 
  <e><p><l>right<s n="ij"/></l><r>дұрыс<s n="ij"/></r></p></e> 
  <e><p><l>oh<s n="ij"/></l><r>ау<s n="ij"/></r></p></e> 
+<e><p><l>oh<s n="ij"/></l><r>ох<s n="ij"/></r></p></e>
  <e><p><l>yes<s n="ij"/></l><r>иә<s n="ij"/></r></p></e> <!-- This is an interjection -->
 <e><p><l>ah<s n="ij"/></l><r>аһ<s n="ij"/></r></p></e>
 <e r="RL"><p><l>ah<s n="ij"/></l><r>о<s n="ij"/></r></p></e>
@@ -11229,6 +11234,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
       <e><p><l>awake<s n="adj"/></l><r>сергек<s n="adj"/></r></p></e>
      <e><p><l>dead<s n="adj"/></l><r>өлі<s n="adj"/><s n="subst"/></r></p></e>
  <e><p><l>dear<s n="adj"/></l><r>құрметті<s n="adj"/></r></p></e>
+<e><p><l>dear<s n="adj"/></l><r>қымбатты<s n="adj"/></r></p></e>
 <e><p><l>deep<s n="adj"/><s n="sint"/></l><r>терең<s n="adj"/></r></p></e>
 <e><p><l>broken<s n="adj"/></l><r>сынған<s n="adj"/></r></p></e>
 <e><p><l>certain<s n="adj"/></l><r>сенімді<s n="adj"/></r></p></e>
@@ -13842,6 +13848,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>other<s n="prn"/><s n="tn"/><s n="m"/></l><r>басқа<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>other<s n="adj"/></l><r>басқа<s n="adj"/></r></p></e>
  <e><p><l>this<s n="det"/><s n="dem"/></l><r>мынау<s n="det"/><s n="dem"/></r></p></e>
+ <e><p><l>this<s n="det"/><s n="dem"/></l><r>мына<s n="prn"/><s n="dem"/></r></p></e>
 
 
     <e><p><l>that<s n="prn"/><s n="tn"/><s n="mf"/></l><r>бұл<s n="prn"/><s n="dem"/><s n="nom"/></r></p></e>
@@ -13938,6 +13945,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>gain<s n="vblex"/></l><r>жет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>lend<s n="vblex"/></l><r>қарызға<b/>бер<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>take<s n="vblex"/></l><r>апарып<b/>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>get<b/>out<s n="vblex"/></l><r>шық<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>give<s n="vblex"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>go<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>

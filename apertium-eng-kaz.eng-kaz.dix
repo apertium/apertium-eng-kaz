@@ -321,6 +321,7 @@
     <e><p><l>child<s n="n"/></l><r>бала<s n="n"/></r></p></e>
     <e><p><l>weather<s n="n"/></l><r>ауа<b/>райы<s n="n"/></r></p></e>
     <e><p><l>house<s n="n"/></l><r>үй<s n="n"/></r></p></e>
+<e><p><l>nomad<b/>house<s n="n"/></l><r>киіз<b/>үй<s n="n"/></r></p></e>
     <e><p><l>hoax<s n="n"/></l><r>мистификация<s n="n"/></r></p></e>
     <e><p><l>boy<s n="n"/></l><r>ұл<s n="n"/></r></p></e>
     <e><p><l>girl<s n="n"/></l><r>қыз<s n="n"/></r></p></e>
@@ -2294,13 +2295,13 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>windsurfer<s n="n"/></l><r>виндсерфер<s n="n"/></r></p></e>
 <e><p><l>windsurfer<s n="n"/></l><r>виндсэрфер<s n="n"/></r></p></e>
 
-
 <!--words from corpora 4355-->
 <e><p><l>abruptly<s n="adv"/></l><r>кенеттен<s n="adv"/></r></p></e>
 <e><p><l>Mars<s n="np"/><s n="al"/></l><r>Марс<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>Jupiter<s n="np"/><s n="al"/></l><r>Юпитер<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>Venus<s n="np"/><s n="al"/></l><r>Шолпан<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>disheartened<s n="adj"/></l><r>месел<b/>қайтар<s n="v"/></r></p></e>
+<e><p><l>fast<s n="adv"/></l><r>шапшаң<s n="adv"/></r></p></e>
 <e r="RL"><p><l></l><r>-ақ<s n="postadv"/></r></p></e>
 <e r="RL"><p><l></l><r>ғой<s n="mod_ass"/></r></p></e>
 <e r="RL"><p><l></l><r>тән<s n="adj"/></r></p></e>
@@ -2335,10 +2336,12 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>hood<s n="n"/></l><r>телпек<s n="n"/></r></p></e>
 <e><p><l>bouquet<s n="n"/></l><r>гүлшоқ<s n="n"/></r></p></e>
 <e><p><l>witch<s n="n"/></l><r>мыстан<b/>кемпір<s n="n"/></r></p></e>
+<e><p><l>logger<s n="n"/></l><r>отыншы<s n="n"/></r></p></e>
 <e><p><l>tinderbox<s n="n"/></l><r>оттық<s n="n"/></r></p></e>
 <e><p><l>little<b/>brother<s n="n"/></l><r>іні<s n="n"/></r></p></e>
 <e><p><l>after<b/>that<s n="pr"/></l><r>содан<b/>кейін<s n="post"/></r></p></e>
 <e><p><l>move<s n="vblex"/></l><r>қозға<s n="v"/><s n="tv"/></r></p></e>
+<e r="RL"><p><l>gather<s n="vblex"/></l><r>тер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>digest<s n="vblex"/></l><r>ас<b/>қорыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>swallow<s n="vblex"/></l><r>жұт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>chew<s n="vblex"/></l><r>шайна<s n="v"/><s n="tv"/></r></p></e>

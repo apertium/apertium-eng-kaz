@@ -23689,6 +23689,8 @@
 
                             <e lm="shelter" i=""><i>shelter</i><par n="accept__vblex"/></e>
 
+ <e lm="guard" i=""><i>guard</i><par n="accept__vblex"/></e>
+
                             <e lm="become brutalised" i=""><i>bec</i><par n="bec/ome__vblex"/><p><l><b/>brutalised</l><r><g><b/>brutalised</g></r></p></e>
 
                             <e lm="stun" i=""><i>stun</i><par n="plan__vblex"/></e>
@@ -41945,6 +41947,8 @@
 
                             <e lm="dinar" i=""><i>dinar</i><par n="house__n"/></e>
 
+ <e lm="she-wolf" i=""><i>she-wolf</i><par n="house__n"/></e>
+
                             <e lm="bride" i=""><i>bride</i><par n="house__n"/></e>
 
                             <e lm="bridesmaid" i=""><i>bridesmaid</i><par n="house__n"/></e>
@@ -52175,6 +52179,8 @@
 
                             <e lm="wind" i=""><i>wind</i><par n="house__n"/></e>
 
+ <e lm="well" i=""><i>well</i><par n="house__n"/></e>
+
                             <e lm="window" i=""><i>window</i><par n="house__n"/></e>
 
                             <e lm="windscreen" i=""><i>windscreen</i><par n="house__n"/></e>
@@ -52631,6 +52637,12 @@
 
     
                             <e lm="good morning" i=""><i>good<b/>morning</i><par n="hello__ij"/></e>
+
+ <e lm="good evening" i=""><i>good<b/>evening</i><par n="hello__ij"/></e>
+
+ <e lm="good afternoon" i=""><i>good<b/>afternoon</i><par n="hello__ij"/></e>
+
+<e lm="good night" i=""><i>good<b/>night</i><par n="hello__ij"/></e>
 
                             <e lm="adios" i=""><i>adios</i><par n="hello__ij"/></e>
 
@@ -79968,7 +79980,10 @@ F
 <e lm="Hedkvist" i=""><i>Hedkvist</i><par n="Mary__np"/></e>
 <e lm="Er Tostiik" i=""><i>Er<b/>Tostik</i><par n="Mark__np"/></e>
 <e lm="Aldar Kose" i=""><i>Aldar<b/>Kose</i><par n="Mark__np"/></e>
+<e lm="Mamai" i=""><i>Mamai</i><par n="Mark__np"/></e>
 <e lm="Shalkuyryk" i=""><i>Shalkuyryk</i><par n="Mark__np"/></e>
+<e lm="Zhai-Dakker" i=""><i>Zhai-Dakker</i><par n="Mark__np"/></e>
+<e lm="Kubazhon" i=""><i>Kubazhon</i><par n="Mark__np"/></e>
 <e lm="Kulyash" i=""><i>Kulyash</i><par n="Mary__np"/></e>
 <e lm="Mukan" i=""><i>Mukan</i><par n="Mark__np"/></e>
 <e lm="Mukhtar" i=""><i>Mukhtar</i><par n="Mark__np"/></e>

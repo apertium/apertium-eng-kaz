@@ -8389,6 +8389,84 @@
 
     </pardef>
 
+
+
+
+ <pardef n="d/are__vblex">
+
+                            <e i="">
+      <p>
+        <l>are</l>
+        <r>are<s n="vblex"/><s n="inf"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>are</l>
+        <r>are<s n="vblex"/><s n="pres"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>ares</l>
+        <r>are<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>urst</l>
+        <r>are<s n="vblex"/><s n="past"/></r>
+      </p>
+    </e>
+
+                       <e i="">
+      <p>
+        <l>ared</l>
+        <r>are<s n="vblex"/><s n="past"/></r>
+      </p>
+    </e>
+
+                            <e i="">
+
+      <p>
+        <l>ared</l>
+        <r>are<s n="vblex"/><s n="pp"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>aring</l>
+        <r>are<s n="vblex"/><s n="ger"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>aring</l>
+        <r>are<s n="vblex"/><s n="pprs"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>aring</l>
+        <r>are<s n="vblex"/><s n="subs"/></r>
+      </p>
+    </e>
+
+
+    </pardef>
+
     <pardef n="f/ight__vblex">
 
                             <e i="">
@@ -57567,6 +57645,7 @@ F
 
                             <e lm="burst" i=""><i>burst</i><par n="cost__vblex"/></e>
 
+
                             <e lm="burst into" i=""><i>burst</i><par n="cost__vblex"/><p><l><b/>into</l><r><g><b/>into</g></r></p></e>
 
                             <e lm="come out" i=""><i>c</i><par n="bec/ome__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
@@ -58631,6 +58710,8 @@ F
                             <e lm="guide" i=""><i>guid</i><par n="liv/e__vblex"/></e>
 
                             <e lm="hold" i=""><i>h</i><par n="h/old__vblex"/></e>
+
+                            <e lm="behold" i=""><i>beh</i><par n="h/old__vblex"/></e>
 
                             <e lm="hang" i=""><i>h</i><par n="h/ang__vblex"/></e>
 
@@ -61000,6 +61081,8 @@ F
                             <e lm="first" i=""><i>first</i><par n="maybe__adv"/></e>
 
 <e lm="first" i=""><i>first</i><par n="expensive__adj"/></e>
+
+<e lm="lying" i=""><i>lying</i><par n="expensive__adj"/></e>
 
                             <e lm="first and foremost" i=""><i>first<b/>and<b/>foremost</i><par n="maybe__adv"/></e>
 

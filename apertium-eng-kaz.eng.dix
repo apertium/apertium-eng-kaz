@@ -52644,6 +52644,8 @@
 
 <e lm="good night" i=""><i>good<b/>night</i><par n="hello__ij"/></e>
 
+ <e lm="alas and alack" i=""><i>alas<b/>and<b/>alack</i><par n="hello__ij"/></e>
+
                             <e lm="adios" i=""><i>adios</i><par n="hello__ij"/></e>
 
                             <e lm="bah" i=""><i>bah</i><par n="hello__ij"/></e>
@@ -53242,6 +53244,8 @@
 
 
                             <e lm="majesty" i=""><i>majest</i><par n="bab/y__n"/></e>
+
+  <e lm="lady" i=""><i>lad</i><par n="bab/y__n"/></e>
 
                             <e lm="Your Majesty" i=""><i>Your<b/>Majest</i><par n="bab/y__n"/></e>
 

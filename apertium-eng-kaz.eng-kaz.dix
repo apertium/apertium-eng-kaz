@@ -2301,6 +2301,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>good<b/>evening<s n="ij"/></l><r>қайырлы<b/>күн<s n="ij"/></r></p></e>
 <e><p><l>good<b/>morning<s n="ij"/></l><r>қайырлы<b/>таң<s n="ij"/></r></p></e>
 <e><p><l>good<b/>night<s n="ij"/></l><r>қайырлы<b/>түн<s n="ij"/></r></p></e>
+<e><p><l>alas<b/>and<b/>alack<s n="ij"/></l><r>әттеген-ай<s n="ij"/></r></p></e>
 <e><p><l>guard<s n="vblex"/></l><r>күзет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>she-wolf<s n="n"/></l><r>қалыңдық-қасқыр<s n="n"/></r></p></e>
 <e><p><l>horse<s n="n"/></l><r>сәйгүлік<s n="n"/></r></p></e>
@@ -3643,6 +3644,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>invasion<s n="n"/></l><r>басып<b/>кіру<s n="n"/></r></p></e>
 <e><p><l>vision<s n="n"/></l><r>көру<s n="n"/></r></p></e>
 <e><p><l>television<s n="n"/></l><r>теледидарлама<s n="n"/></r></p></e>
+<e><p><l>lady<s n="n"/></l><r>леди<s n="n"/></r></p></e>
 <e><p><l>extension<s n="n"/></l><r>жалғасу<s n="n"/></r></p></e>
 <e><p><l>version<s n="n"/></l><r>болжам<s n="n"/></r></p></e>
 <e><p><l>conversion<s n="n"/></l><r>конверсия<s n="n"/></r></p></e>
@@ -3749,6 +3751,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>viewer<s n="n"/></l><r>тамашалаушы<s n="n"/></r></p></e>
 <e><p><l>layer<s n="n"/></l><r>қабат<s n="n"/></r></p></e>
 <e><p><l>Mr.<s n="n"/></l><r>Мистер<s n="n"/></r></p></e>
+<e><p><l>Mr.<s n="n"/></l><r>мистер<s n="n"/></r></p></e>
 <e><p><l>junior<s n="n"/></l><r>кіші<s n="n"/></r></p></e>
 <e><p><l>minor<s n="n"/></l><r>аз<s n="n"/></r></p></e>
 <e><p><l>emperor<s n="n"/></l><r>император<s n="n"/></r></p></e>

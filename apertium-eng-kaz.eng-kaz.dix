@@ -2310,7 +2310,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Mars<s n="np"/><s n="al"/></l><r>Марс<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>Jupiter<s n="np"/><s n="al"/></l><r>Юпитер<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>Venus<s n="np"/><s n="al"/></l><r>Шолпан<s n="np"/><s n="al"/></r></p></e>
-<e><p><l>disheartened<s n="adj"/></l><r>месел<b/>қайтар<s n="v"/></r></p></e>
+
 <e><p><l>fast<s n="adv"/></l><r>шапшаң<s n="adv"/></r></p></e>
 <e r="RL"><p><l></l><r>-ақ<s n="postadv"/></r></p></e>
 <e r="RL"><p><l></l><r>ғой<s n="mod_ass"/></r></p></e>
@@ -15062,7 +15062,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>long<s n="vblex"/></l><r>аңса<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>meditate<s n="vblex"/></l><r>медитацияға<b/>түс<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>metamorphose<s n="vblex"/></l><r>өзгер<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>mimick<s n="vblex"/></l><r>елікте<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>mimick<s n="vblex"/></l><r>елікте<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>miscarrу<s n="vblex"/></l><r>сәтсіздікке<b/>ұшыра<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>murmur<s n="vblex"/></l><r>міңгірле<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>neigh<s n="vblex"/></l><r>кісіне<s n="v"/><s n="iv"/></r></p></e>

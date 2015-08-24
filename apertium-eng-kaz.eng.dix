@@ -22336,6 +22336,8 @@
 
                             <e lm="market basket" i=""><i>market<b/>basket</i><par n="house__n"/></e>
 
+<e lm="sketch" i=""><i>sketch</i><par n="house__n"/></e>
+
                             <e lm="charge card" i=""><i>charge<b/>card</i><par n="house__n"/></e>
 
                             <e lm="clause of a sale and purchase agreement" i=""><i>clause</i><par n="house__n"/><p><l><b/>of<b/>a<b/>sale<b/>and<b/>purchase<b/>agreement</l><r><g><b/>of<b/>a<b/>sale<b/>and<b/>purchase<b/>agreement</g></r></p></e>
@@ -34669,6 +34671,8 @@
 
                             <e lm="Grayson" i=""><i>Grayson</i><par n="Mark__np"/></e>
 
+ <e lm="Gray" i=""><i>Gray</i><par n="Mark__np"/></e>
+
                             <e lm="Gregory" i=""><i>Gregory</i><par n="Mark__np"/></e>
 
                             <e lm="Greyson" i=""><i>Greyson</i><par n="Mark__np"/></e>
@@ -42518,6 +42522,7 @@
 
                             <e lm="summer camp" i=""><i>summer<b/>camp</i><par n="house__n"/></e>
 
+<e lm="summer day" i=""><i>summer<b/>day</i><par n="house__n"/></e>
                             <e lm="prison camp" i=""><i>prison<b/>camp</i><par n="house__n"/></e>
 
                             <e lm="refugee camp" i=""><i>refugee<b/>camp</i><par n="house__n"/></e>
@@ -44784,6 +44789,8 @@
 
                             <e lm="engineer" i=""><i>engineer</i><par n="house__n"/></e>
 
+<e lm="auctioneer" i=""><i>auctioneer</i><par n="house__n"/></e>
+
                             <e lm="engineering" i=""><i>engineering</i><par n="house__n"/></e>
 
                             <e lm="enjoyment" i=""><i>enjoyment</i><par n="house__n"/></e>
@@ -45606,6 +45613,10 @@
 
                             <e lm="gentleman" i=""><i>gentlem</i><par n="m/an__n"/></e>
 
+<e lm="old gentleman" i=""><i>old<b/>gentlem</i><par n="m/an__n"/></e>
+
+<e lm="young man" i=""><i>young<b/>m</i><par n="m/an__n"/></e>
+
                             <e lm="geography" i=""><i>geograph</i><par n="bab/y__n"/></e>
 
                             <e lm="geometry" i=""><i>geometr</i><par n="bab/y__n"/></e>
@@ -45759,6 +45770,9 @@
                             <e lm="graphics" i=""><i>graphics</i><par n="alms__n"/></e>
 
                             <e lm="graphite" i=""><i>graphite</i><par n="house__n"/></e>
+
+ <e lm="grasshopper" i=""><i>grasshopper</i><par n="house__n"/></e>
+
 
                             <e lm="grass" i=""><i>grass</i><par n="access__n"/></e>
 
@@ -50878,6 +50892,8 @@
 
                             <e lm="stock" i=""><i>stock</i><par n="house__n"/></e>
 
+<e lm="stockbroker" i=""><i>stockbroker</i><par n="house__n"/></e>
+
                             <e lm="stockholder" i=""><i>stockholder</i><par n="house__n"/></e>
 
                             <e lm="stolidness" i=""><i>stolidness</i><par n="access__n"/></e>
@@ -55067,6 +55083,7 @@
 
                             <e lm="metaphysical" i=""><i>metaphysical</i><par n="expensive__adj"/></e>
 
+<e lm="metaphysics" i=""><i>metaphysics</i><par n="expensive__adj"/></e>
                             <e lm="meteoric" i=""><i>meteoric</i><par n="expensive__adj"/></e>
 
                             <e lm="methodical" i=""><i>methodical</i><par n="expensive__adj"/></e>
@@ -62851,6 +62868,8 @@ F
 
                             <e lm="Rafa" i=""><i>Rafa</i><par n="Mark__np"/></e>
 
+  <e lm="Southwark" i=""><i>Southwark</i><par n="Mark__np"/></e>
+
                             <e lm="Ramon" i=""><i>Ramon</i><par n="Mark__np"/></e>
 
                             <e lm="Salbatore" i=""><i>Salbatore</i><par n="Mark__np"/></e>
@@ -65848,6 +65867,7 @@ F
 
                             <e lm="cowboy" i=""><i>cowboy</i><par n="house__n"/></e>
 
+ <e lm="charming boy" i=""><i>charming<b/>boy</i><par n="house__n"/></e>
                             <e lm="cowshed" i=""><i>cowshed</i><par n="house__n"/></e>
 
                             <e lm="coxa" i=""><i>coxa</i><par n="house__n"/></e>
@@ -70776,6 +70796,8 @@ F
 
                             <e lm="radicle" i=""><i>radicle</i><par n="house__n"/></e>
 
+ <e lm="ribbon" i=""><i>ribbon</i><par n="house__n"/></e>
+
                             <e lm="radiocommunication" i=""><i>radiocommunication</i><par n="house__n"/></e>
 
                             <e lm="radiographic" i=""><i>radiographic</i><par n="expensive__adj"/></e>
@@ -71617,6 +71639,8 @@ F
                             <e lm="spill" i=""><i>spill</i><par n="house__n"/></e>
 
                             <e lm="oil spill" i=""><i>oil<b/>spill</i><par n="house__n"/></e>
+
+
 
                             <e lm="crude oil spill" i=""><i>crude<b/>oil<b/>spill</i><par n="house__n"/></e>
 
@@ -72518,6 +72542,8 @@ F
                             <e lm="unsatisfactory" i=""><i>unsatisfactory</i><par n="expensive__adj"/></e>
 
                             <e lm="unscrew" i=""><i>unscrew</i><par n="accept__vblex"/></e>
+
+ <e lm="chirrup" i=""><i>chirrup</i><par n="accept__vblex"/></e>
 
                             <e lm="unsolvable" i=""><i>unsolvable</i><par n="expensive__adj"/></e>
 
@@ -77019,6 +77045,9 @@ F
 
 
                             <e lm="hair salon" i=""><i>hair<b/>salon</i><par n="house__n"/></e>
+
+
+                            <e lm="salon" i=""><i>salon</i><par n="house__n"/></e>
 
                             <e lm="hairdressing salon" i=""><i>hairdressing<b/>salon</i><par n="house__n"/></e>
 
@@ -82085,6 +82114,8 @@ F
                             <e lm="evanescent" i=""><i>evanescent</i><par n="expensive__adj"/></e>
 
                             <e lm="lifeless" i=""><i>lifeless</i><par n="expensive__adj"/></e>
+
+  <e lm="lifelong" i=""><i>lifelong</i><par n="expensive__adj"/></e>
 
                             <e lm="yearning" i=""><i>yearning</i><par n="house__n"/></e>
 

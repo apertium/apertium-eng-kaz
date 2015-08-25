@@ -9866,6 +9866,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Rosanna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Розанна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Rosaria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Розария<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Rosa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Роза<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Rauza<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Роза<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Rosemary<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Розмарин<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Rovena<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Ровена<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Roxana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Роксана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -10092,6 +10093,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Berzins<s n="np"/><s n="cog"/></l><r>Берзиньш<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
 
+
+<e><p><l>Nurahmetov<s n="np"/><s n="cog"/></l><r>Нұрахметов<s n="np"/><s n="cog"/></r></p></e>
 
 <e><p><l>Baiseitov<s n="np"/><s n="cog"/></l><r>Бәйсейітов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Quixote<s n="np"/><s n="cog"/></l><r>Кихот<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

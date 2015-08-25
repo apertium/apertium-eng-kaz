@@ -11259,6 +11259,30 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>anterior<s n="adj"/></l><r>алдыңғы<s n="adj"/></r></p></e>
 <e><p><l>aqueous<s n="adj"/></l><r>сулы<s n="adj"/></r></p></e>
 <e><p><l>barefoot<s n="adj"/></l><r>жалаңаяқ<s n="adj"/></r></p></e>
+<e><p><l>aerodynamic<s n="adj"/></l><r>аэродинамикалық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>anaerobic<s n="adj"/></l><r>анаэробты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>bibliographic<s n="adj"/></l><r>библиографиялық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>cosmological<s n="adj"/></l><r>космологиялық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>crystalline<s n="adj"/></l><r>кристалдық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>electromechanical<s n="adj"/></l><r>электромеханикалық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>extenuated<s n="adj"/></l><r>жіңішке<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>fastened<s n="adj"/></l><r>бекітілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>howled<s n="adj"/></l><r>сарнаған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>intuitive<s n="adj"/></l><r>сезімтал<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>methodical<s n="adj"/></l><r>әдістемелік<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>microbial<s n="adj"/></l><r>микробтық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>morphological<s n="adj"/></l><r>морфологиялық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>olfactory<s n="adj"/></l><r>иіс<b/>сезгіш<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>photoelectric<s n="adj"/></l><r>фотоэлектрлік<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>polymeric<s n="adj"/></l><r>полимерлік<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>polyvalent<s n="adj"/></l><r>поливалентті<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>ragged<s n="adj"/></l><r>жыртық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>rammed<s n="adj"/></l><r>тапталған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>ranked<s n="adj"/></l><r>сапталған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>syntactic<s n="adj"/></l><r>синтаксистік<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>thermoplastic<s n="adj"/></l><r>термопластикалық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>tonic<s n="adj"/></l><r>сергітетін<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unreadable<s n="adj"/></l><r>оқылмайтын<s n="adj"/><s n="subst"/></r></p></e>
 
     <e r="RL"><p><l>existing<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e r="RL"><p><l>should<s n="adj"/></l><r>жөн<s n="adj"/></r></p></e>

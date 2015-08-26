@@ -267,6 +267,7 @@
 
     <def-cat n="ant">
           <cat-item tags="np.ant.*.*"/>
+<cat-item tags="np.top.*.*"/>
 	<cat-item tags="np.loc.*.*"/>
 <cat-item tags="np.loc.sg.*"/>
 
@@ -3219,6 +3220,7 @@
     </rule>
 
 
+
 <rule comment="RULE: NOM-cog"> <!--for cog-->
       <pattern>
         <pattern-item n="cog"/>
@@ -3245,12 +3247,9 @@
                    <test>
                        <equal><clip pos="1" side="sl" part="a_nom"/>
 
-
 <lit-tag v="top"/></equal>
                   </test>
-                 
-
-
+ 
                 </when>
 
 	</choose>
@@ -3270,8 +3269,9 @@
              <clip pos="1" side="tl" part="a_mf"/>
 	
               <clip pos="1" side="tl" part="lemq"/>          
-	<lit-tag v="sg"/>
-
+	<lit-tag v="mf"/>
+      <!--  <lit-tag v="2"/> 
+	<lit-tag v="3"/> -->
             </lu>
           </chunk>
         </out>

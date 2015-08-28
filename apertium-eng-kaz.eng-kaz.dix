@@ -11809,6 +11809,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>necessary<s n="adj"/></l><r>қажетті<s n="adj"/></r></p></e>
 <e><p><l>parliamentary<s n="adj"/></l><r>парламенттік<s n="adj"/></r></p></e>
 <e><p><l>abdominal<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
+<e><p><l>weary<s n="adj"/><s n="sint"/></l><r>шаршаған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>tame<s n="adj"/></l><r>қол<s n="adj"/></r></p></e>
 <e><p><l>aberrant<s n="adj"/></l><r>аномалды<s n="adj"/></r></p></e>
 <e><p><l>abject<s n="adj"/></l><r>аянышты<s n="adj"/></r></p></e>
 <e><p><l>abnormal<s n="adj"/></l><r>есуас<s n="adj"/></r></p></e>
@@ -14289,6 +14291,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>administer<s n="vblex"/></l><r>басқар<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>administrate<s n="vblex"/></l><r>басқар<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>adore<s n="vblex"/></l><r>құрметте<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>weary<s n="vblex"/></l><r>шарша<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>tame<s n="vblex"/></l><r>асыра<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>adorn<s n="vblex"/></l><r>жайна<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>advance<s n="vblex"/></l><r>жылжы<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>advertise<s n="vblex"/></l><r>жарияла<s n="v"/><s n="tv"/></r></p></e>

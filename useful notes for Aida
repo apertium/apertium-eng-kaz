@@ -195,7 +195,7 @@ http://pastebin.com/raw.php?i=P4kMvuSG
 
 
 
- cat nn.txt|awk '{print "<e><p><l>" $1 "<s n=\"adj\"/></l><r>" $2 "<s n=\"adj\"/></r></p></e>"}'>newd.txt
+ cat nn.txt|awk '{print "<e><p><l>" $1 "<s n=\"adj\"/></l><r>" $2 "<s n=\"adj\"/><s n=\"subst\"/></r></p></e>"}'>newd.txt
 
  cat nn.txt|awk '{print "<e><p><l>" $1 "<s n=\"n\"/></l><r>" $2 "<s n=\"n\"/></r></p></e>"}'>newd.txt
 
@@ -387,6 +387,9 @@ ubuntu@ubuntu-virtual-machine:~/Source/apertium-eng-kaz/dev/testvoc$ bash testvo
 cat texts/kazakhstan1.kaz.txt | apertium -d ~/Source/apertium-kaz/ kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$'^C sort -f | uniq -c | sort -gr
 
 bitextor -u http://www.primeminister.kz/ -d ~/apertium-testing/    -v en-kk.dic eng kaz
+
+
+at adj.txt|grep "\"n\""|awk 'BEGIN {FS="l>"} {print $2}'| cut -f1 -d '<'|apertium -d. eng-kaz|grep "#"| awk 'BEGIN {FS="#"} {print $2":"$2" ADV ; ! "}'|sort -u 
 
 
 rus-kaz

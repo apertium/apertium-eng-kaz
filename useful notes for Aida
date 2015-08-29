@@ -389,7 +389,7 @@ cat texts/kazakhstan1.kaz.txt | apertium -d ~/Source/apertium-kaz/ kaz-morph | s
 bitextor -u http://www.primeminister.kz/ -d ~/apertium-testing/    -v en-kk.dic eng kaz
 
 
-at adj.txt|grep "\"n\""|awk 'BEGIN {FS="l>"} {print $2}'| cut -f1 -d '<'|apertium -d. eng-kaz|grep "#"| awk 'BEGIN {FS="#"} {print $2":"$2" ADV ; ! "}'|sort -u 
+cat adj.txt|grep "\"n\""|awk 'BEGIN {FS="l>"} {print $2}'| cut -f1 -d '<'|apertium -d. eng-kaz|grep "#"| awk 'BEGIN {FS="#"} {print $2":"$2" ADV ; ! "}'|sort -u 
 
 
 rus-kaz

@@ -40,6 +40,7 @@
 <def-cat n="v-gerund">
     <cat-item tags="v.tv.ger.*.*"/>
 <cat-item tags="v.*.ger.*.*"/>
+<cat-item tags="v.tv.ger.px1sg.nom"/>
     </def-cat>
 
 <def-cat n="v-gerund-neg">
@@ -287,6 +288,11 @@
       <cat-item tags="n.px3sp.*"/>
  <cat-item tags="n.px3sg.*"/>
  <cat-item tags="n.px1pl.*"/>
+          </def-cat>
+
+<def-cat n="ger2">
+ <cat-item tags="v.tv.ger.*.nom"/>
+ 
           </def-cat>
 
     <def-cat n="nom">
@@ -1040,6 +1046,74 @@
 
 <section-rules>
 
+<!--must be corrected, have wrong "inf"-->
+<rule comment="RULE: VP-may"> <!--Men koruim mumkin-->
+      <pattern>
+<pattern-item n="v-gerund"/>
+        <pattern-item n="mumkin"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+        <out>
+          <chunk name="may/mumkin" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV"/></tag>
+
+ <tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>
+
+</tags>
+<lu>
+              <lit v="may"/>
+              <lit-tag v="vaux"/>
+              <lit-tag v="inf"/>
+     
+</lu>
+<b/>
+ <lu>
+<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+	
+              <lit-tag v="inf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
 <rule comment="RULE: Verb:мақсатты келер шақ"> <!--translation: I would like to+verb(play)-->
       <pattern>
         <pattern-item n="v-wouldLike"/>
@@ -1419,72 +1493,6 @@
       </action>
     </rule>
 
-<!--must be corrected, have wrong "inf"-->
-<rule comment="RULE: VP-may"> <!--Men koruim mumkin-->
-      <pattern>
-<pattern-item n="nom1"/>
-        <pattern-item n="mumkin"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
-        </call-macro>
- <choose>
-               <when>
-                   <test>
-                   
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-
-                </when>
-<when>
-                   <test>
-                   <and>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                     </and>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                </when>
-
-           </choose>
-        <out>
-          <chunk name="may/mumkin" case="caseFirstWord">
-            <tags>
-              <tag> <lit-tag v="SV"/></tag>
-
- <tag> <lit-tag v="PD"/></tag>
- <tag> <lit-tag v="ND"/></tag>
-
-</tags>
-<lu>
-              <lit v="may"/>
-              <lit-tag v="vaux"/>
-              <lit-tag v="inf"/>
-     
-</lu>
-<b/>
- <lu>
-<clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-<lit-tag v="vblex"/>
-              <lit-tag v="inf"/>
-              <clip pos="1" side="tl" part="lemq"/>
-                 </lu>
-
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
 
 
 
@@ -3163,12 +3171,11 @@
       </action>
     </rule>
 
-
+<!--must be correct the generation of "prn"
 <rule comment="RULE: myNOM">
       <pattern>
  <pattern-item n="nom1"/>
-        
-      </pattern>
+              </pattern>
       <action>
         <call-macro n="conv-case1">
           <with-param pos="1"/>
@@ -3272,7 +3279,7 @@
         </call-macro>
       </action>
     </rule>
-
+-->
 
 
 <rule comment="RULE: қалау рай I want to + verb">
@@ -3340,11 +3347,6 @@
         </call-macro>
       </action>
     </rule>
-
-
-
-
-
 
 <rule comment="RULE: degen + NOM">
       <pattern>

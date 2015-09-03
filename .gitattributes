@@ -27,6 +27,7 @@ Errors/trn[!!-~]kaz-eng -text
 /apertium-eng-kaz.kaz-eng.t3x -text
 /apertium-eng-kazGener.tar.gz -text
 /autogen.sh -text
+/bibl-cover.sh -text
 /configure.ac -text
 /correct-tests.sh -text
 /cover.sh -text

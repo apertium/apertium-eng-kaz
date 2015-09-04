@@ -38137,6 +38137,7 @@
 <e lm="Aspara" i=""><i>Aspara</i><par n="Barcelona__np"/></e>
 <e lm="Aspizhab" i=""><i>Aspizhab</i><par n="Barcelona__np"/></e>
 <e lm="Astana" i=""><i>Astana</i><par n="Barcelona__np"/></e>
+<e lm="Lorbrwlgrwd" i=""><i>Lorbrwlgrwd</i><par n="Barcelona__np"/></e>
 <e lm="Astrakhan" i=""><i>Astrakhan</i><par n="Barcelona__np"/></e>
 <e lm="Asubulak" i=""><i>Asubulak</i><par n="Barcelona__np"/></e>
 <e lm="Asy" i=""><i>Asy</i><par n="Barcelona__np"/></e>
@@ -41932,6 +41933,11 @@
                             <e lm="cock" i=""><i>cock</i><par n="house__n"/></e>
 
                             <e lm="radish" i=""><i>radish</i><par n="access__n"/></e>
+
+<e lm="capital" i=""><i>capital</i><par n="access__n"/></e>
+
+			    <e lm="miles" i=""><i>miles</i><par n="access__n"/></e>
+
 			    <e lm="feet" i=""><i>feet</i><par n="access__n"/></e>
 
                             <e lm="shank" i=""><i>shank</i><par n="house__n"/></e>
@@ -56779,6 +56785,8 @@
 
                             <e lm="wild" i=""><i>wild</i><par n="long/__adj"/></e>
 
+<e lm="primeval" i=""><i>primeval</i><par n="long/__adj"/></e>
+
                             <e lm="wise" i=""><i>wise</i><par n="nice/__adj"/></e>
 
                             <e lm="witless" i=""><i>witless</i><par n="expensive__adj"/></e>
@@ -69703,6 +69711,8 @@ F
                             <e lm="optometry" i=""><i>optometr</i><par n="bab/y__n"/></e>
 
                             <e lm="oracle" i=""><i>oracle</i><par n="house__n"/></e>
+
+<e lm="constrictor" i=""><i>constrictor</i><par n="house__n"/></e>
 
                             <e lm="orangutan" i=""><i>orangutan</i><par n="house__n"/></e>
 

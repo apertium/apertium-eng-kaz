@@ -2481,6 +2481,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>arable<s n="n"/></l><r>егістік<s n="n"/></r></p></e>
 <e><p><l>lilliput<s n="n"/></l><r>лилипут<s n="n"/></r></p></e>
 
+<e><p><l>or<s n="cnjcoo"/></l><r>болмаса<s n="cnjcoo"/></r></p></e>
+<e><p><l>or<s n="cnjcoo"/></l><r>я<b/>болмаса<s n="cnjcoo"/></r></p></e>
+<e><p><l>capital<s n="n"/></l><r>астана<s n="n"/></r></p></e>
+<e><p><l>Lorbrwlgrwd<s n="np"/><s n="top"/><s n="sg"/></l><r>Лoрбрульгруд<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>miles<s n="n"/></l><r>миль<s n="n"/></r></p></e>
+<e><p><l>primeval<s n="adj"/><s n="sint"/></l><r>жабайы<s n="adj"/></r></p></e>
+<e><p><l>constrictor<s n="n"/></l><r>жылан<s n="n"/></r></p></e>
+
 
 
 <!--100 new nouns-->
@@ -12472,6 +12480,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>pay<s n="adj"/><s n="sint"/></l><r>ақылы<s n="adj"/></r></p></e>
 <e><p><l>broad<s n="adj"/><s n="sint"/></l><r>жаядай<s n="adj"/></r></p></e>
 <e><p><l>wild<s n="adj"/><s n="sint"/></l><r>жабайы<s n="adj"/></r></p></e>
+
 <e><p><l>grand<s n="adj"/><s n="sint"/></l><r>жойқын<s n="adj"/></r></p></e>
 <e><p><l>fine<s n="adj"/><s n="sint"/></l><r>жақсы<s n="adj"/></r></p></e>
 <e><p><l>rare<s n="adj"/><s n="sint"/></l><r>ылғи<s n="adj"/></r></p></e>

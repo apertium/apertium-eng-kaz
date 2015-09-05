@@ -11591,7 +11591,55 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>bright<s n="adj"/><s n="sint"/></l><r>ашық<s n="adj"/></r></p></e>
 <e><p><l>capitalistic<s n="adj"/></l><r>капиталистік<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>chemical<s n="adj"/></l><r>химиялық<s n="adj"/></r></p></e>
-
+<e><p><l>abashed<s n="adj"/></l><r>ұялған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>blasphemous<s n="adj"/></l><r>күпіршілік<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>bloodstained<s n="adj"/></l><r>қанмен<b/>былғаныш<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>braided<s n="adj"/></l><r>өрілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>crumbly<s n="adj"/></l><r>үгілгіш<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>docile<s n="adj"/></l><r>момын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>downhearted<s n="adj"/></l><r>енжар<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>edible<s n="adj"/></l><r>жейтін<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>epileptic<s n="adj"/></l><r>қояншық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>exulting<s n="adj"/></l><r>мәз-мәйрам<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>fearsome<s n="adj"/></l><r>қорқынышты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>flaky<s n="adj"/></l><r>қабыршақты<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>fleeting<s n="adj"/></l><r>өткінші<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>fragrant<s n="adj"/></l><r>хош<b/>иісті<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>glassy<s n="adj"/></l><r>шыны<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>handmade<s n="adj"/></l><r>қолмен<b/>жасалынған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>haughty<s n="adj"/></l><r>тәкаппар<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>horned<s n="adj"/></l><r>мүйізді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>impetuous<s n="adj"/></l><r>қарқынды<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>irreverent<s n="adj"/></l><r>дәлелсіз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>knotty<s n="adj"/></l><r>түйінді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>lifeless<s n="adj"/></l><r>жансыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>lovable<s n="adj"/></l><r>сүйікті<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>melodious<s n="adj"/></l><r>әуезді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>mute<s n="adj"/></l><r>мылқау<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>presumptuous<s n="adj"/></l><r>менменсінген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>priestly<s n="adj"/></l><r>діни<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>radiant<s n="adj"/></l><r>жарқын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>resentful<s n="adj"/></l><r>өкпелі<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>resinous<s n="adj"/></l><r>шайырлы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>roving<s n="adj"/></l><r>кезбе<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>scornful<s n="adj"/></l><r>жеркенішті<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>seductive<s n="adj"/></l><r>еліктіретін<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>sensual<s n="adj"/></l><r>сезімді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>showy<s n="adj"/></l><r>атаулы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>shrewd<s n="adj"/></l><r>елгезек<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>skinny<s n="adj"/></l><r>арық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>spotless<s n="adj"/></l><r>мұнтаздай<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>tasteless<s n="adj"/></l><r>дәмсіз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>thankless<s n="adj"/></l><r>рахметі<b/>жоқ<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>tyrannical<s n="adj"/></l><r>қатыгез<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>uncut<s n="adj"/></l><r>кесілмеген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unintentional<s n="adj"/></l><r>байқаусыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unripe<s n="adj"/></l><r>жетілмеген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unworthy<s n="adj"/></l><r>лайықсыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>voracious<s n="adj"/></l><r>тойымсыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>widowed<s n="adj"/></l><r>жесір<b/>қалған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>worshipper<s n="adj"/></l><r>табынатын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>yellowish<s n="adj"/></l><r>сарғыш<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>violent<s n="adj"/></l><r>күшті<s n="adj"/></r></p></e>
 <e><p><l>delicate<s n="adj"/></l><r>сыпайы<s n="adj"/></r></p></e>
 <e><p><l>different<s n="adj"/></l><r>әр<b/>түрлі<s n="adj"/></r></p></e>
@@ -11605,7 +11653,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>public<s n="adj"/></l><r>қоғамдық<s n="adj"/></r></p></e>  
 <e><p><l>good<s n="adj"/></l><r>жақсы<s n="adj"/></r></p></e> 
 <e><p><l>best<s n="adj"/></l><r>таңдаулы<s n="adj"/></r></p></e>      
-<e><p><l>bad<s n="adj"/></l><r>жаман<s n="adj"/></r></p></e>  
+<e><p><l>bad<s n="adj"/><s n="sint"/></l><r>жаман<s n="adj"/></r></p></e>  
 <e><p><l>movement<s n="adj"/></l><r>жылжымалы<s n="adj"/></r></p></e> 
 <e><p><l>centre<s n="adj"/></l><r>орталық<s n="adj"/></r></p></e> 
 <e><p><l>central<s n="adj"/></l><r>орталық<s n="adj"/></r></p></e> 

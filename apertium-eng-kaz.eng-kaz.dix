@@ -15579,6 +15579,16 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>divorce<s n="vblex"/></l><r>неке<b/>бұз<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>drain<s n="vblex"/></l><r>құрғат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>drench<s n="vblex"/></l><r>төгіл<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>drug<s n="vblex"/></l><r>бәсеңдет<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>dye<s n="vblex"/></l><r>боя<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>embalm<s n="vblex"/></l><r>бальзамда<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>embarrass<s n="vblex"/></l><r>ұялт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>empower<s n="vblex"/></l><r>мүмкіндіктерін<b/>кеңейт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>energise<s n="vblex"/></l><r>қуаттандыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>envy<s n="vblex"/></l><r>күнде<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>equalise<s n="vblex"/></l><r>теңестір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>escort<s n="vblex"/></l><r>алып<b/>жүр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>exasperate<s n="vblex"/></l><r>тітіркендір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>relieve<s n="vblex"/></l><r>жеңілдет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>rely<s n="vblex"/></l><r>сен<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>remember<s n="vblex"/></l><r>есте<b/>сақта<s n="v"/><s n="tv"/></r></p></e>

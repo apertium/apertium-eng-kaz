@@ -137,6 +137,7 @@ mteval/wrapper.sh -text
 /notnoun.txt -text
 /pasten.py -text
 /regression-tests.sh -text
+/rules -text
 texts/New[!!-~]World[!!-~]Bible[!!-~](32358).eng -text
 texts/New[!!-~]World[!!-~]Bible[!!-~](32358).kaz -text svneol=unset#application/octet-stream
 texts/business_movie.eng.txt -text

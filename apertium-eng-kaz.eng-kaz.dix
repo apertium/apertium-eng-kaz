@@ -2488,7 +2488,11 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>miles<s n="n"/></l><r>миль<s n="n"/></r></p></e>
 <e><p><l>primeval<s n="adj"/><s n="sint"/></l><r>жабайы<s n="adj"/></r></p></e>
 <e><p><l>constrictor<s n="n"/></l><r>жылан<s n="n"/></r></p></e>
-
+<e><p><l>tiresome<s n="adj"/><s n="sint"/></l><r>ежіктеп<s n="adj"/></r></p></e>
+<e><p><l>habitation<s n="n"/></l><r>мекен<s n="n"/></r></p></e>
+<e><p><l>thunderstruck<s n="vblex"/></l><r>таңырқа<s n="v"/></r></p></e>
+<e><p><l>stare<s n="vblex"/></l><r>таңғала<s n="v"/></r></p></e>
+<e><p><l>uncertainly<s n="adj"/></l><r>сенімсіз<s n="adj"/></r></p></e>
 
 
 <!--100 new nouns-->

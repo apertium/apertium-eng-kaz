@@ -47868,6 +47868,8 @@
 
                             <e lm="nation" i=""><i>nation</i><par n="house__n"/></e>
 
+                            <e lm="habitation" i=""><i>habitation</i><par n="house__n"/></e>
+
                             <e lm="nationalism" i=""><i>nationalism</i><par n="house__n"/></e>
 
                             <e lm="nationalist" i=""><i>nationalist</i><par n="house__n"/></e>
@@ -56665,6 +56667,8 @@
 
                             <e lm="unsure" i=""><i>unsure</i><par n="expensive__adj"/></e>
 
+ <e lm="uncertainly" i=""><i>uncertainly</i><par n="expensive__adj"/></e>
+
                             <e lm="untransferable" i=""><i>untransferable</i><par n="expensive__adj"/></e>
 
                             <e lm="unusual" i=""><i>unusual</i><par n="expensive__adj"/></e>
@@ -56778,6 +56782,8 @@
                             <e lm="wet" i=""><i>wet</i><par n="hot/__adj"/></e>
 
                             <e lm="white" i=""><i>white</i><par n="nice/__adj"/></e>
+
+<e lm="tiresome" i=""><i>tiresome</i><par n="nice/__adj"/></e>
 
                             <e lm="whole" i=""><i>whole</i><par n="expensive__adj"/></e>
 
@@ -59100,6 +59106,9 @@ F
                             <e lm="lodge" i=""><i>lodg</i><par n="liv/e__vblex"/></e>
 
                             <e lm="look" i=""><i>look</i><par n="accept__vblex"/></e>
+
+<e lm="thunderstruck" i=""><i>thunderstruck</i><par n="accept__vblex"/></e>
+<e lm="stare" i=""><i>stare</i><par n="accept__vblex"/></e>
 				<e lm="waste" i=""><i>waste</i><par n="accept__vblex"/></e>
 
 

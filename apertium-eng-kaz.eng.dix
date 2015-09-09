@@ -18634,7 +18634,8 @@
 
                             <e lm="India" i=""><i>India</i><par n="Barcelona__np"/></e>
 
-                            <e lm="kazakhstan" i=""><i>Kazakhstan</i><par n="Barcelona__np"/></e>
+
+ 			    <e lm="Kazakhstan" i=""><p><l>kazakhstan</l><r>Kazakhstan</r></p><par n="Barcelona__np"/></e>
 
                             <e lm="Baltic" i=""><i>Baltic</i><par n="Barcelona__np"/></e>
 

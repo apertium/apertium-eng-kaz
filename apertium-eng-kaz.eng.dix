@@ -18637,6 +18637,12 @@
 
  			    <e lm="Kazakhstan" i=""><p><l>kazakhstan</l><r>Kazakhstan</r></p><par n="Barcelona__np"/></e>
 
+    <e lm="Kyrgyzstan" i=""><p><l>kyrgyzstan</l><r>Kyrgyzstan</r></p><par n="Barcelona__np"/></e>
+
+    <e lm="Tajikistan" i=""><p><l>tajikistan</l><r>Tajikistan</r></p><par n="Barcelona__np"/></e>
+
+    <e lm="Turkmenistan" i=""><p><l>turkmenistan</l><r>Turkmenistan</r></p><par n="Barcelona__np"/></e>
+
                             <e lm="Baltic" i=""><i>Baltic</i><par n="Barcelona__np"/></e>
 
                             <e lm="Kurdistan" i=""><i>Kurdistan</i><par n="Barcelona__np"/></e>
@@ -18790,8 +18796,6 @@
                             <e lm="United Kingdom" i=""><i>United<b/>Kingdom</i><par n="Barcelona__np"/></e>
 
                             <e lm="Uranus" i=""><i>Uranus</i><par n="Mars__np"/></e>
-
-                            <e lm="Uzbekistan" i=""><i>Uzbekistan</i><par n="Barcelona__np"/></e>
 
                             <e lm="Wagnerism" i=""><i>Wagnerism</i><par n="house__n"/></e>
 
@@ -39799,6 +39803,12 @@
 
 <e lm="Baiseitov" i=""><i>Baiseitov</i><par n="Ova__np"/></e>
 
+<e lm="Gumilyov" i=""><p><l>gumilyov</l><r>Gumilyov</r></p><par n="Ova__np"/></e>
+
+<e lm="Satpayev" i=""><p><l>satpayev</l><r>Satpayev</r></p><par n="Ova__np"/></e>
+
+<e lm="Mukhamedzhanov" i=""><p><l>mukhamedzhanov</l><r>Mukhamedzhanov</r></p><par n="Ova__np"/></e>
+
 <e lm="grown-up" i=""><p><l>grown-up</l><r>grown-ups</r></p><par n="house__n"/></e>
 <e lm="henry" i=""><p><l>henry</l><r>Henry</r></p><par n="Mark__np"/></e>
 <e lm="basil" i=""><p><l>basil</l><r>Basil</r></p><par n="Mark__np"/></e>
@@ -39817,6 +39827,10 @@
 <e lm="blefuscu" i=""><p><l>blefuscu</l><r>blefuscu</r></p><par n="house__n"/></e>
 <e lm="glumdalclitch" i=""><p><l>glumdalclitch</l><r>glumdalclitch</r></p><par n="house__n"/></e>
 <e lm="yahoos" i=""><p><l>yahoos</l><r>Yahoos</r></p><par n="Linux__np"/></e>
+<e lm="Erasmus" i=""><p><l>erasmus</l><r>Erasmus</r></p><par n="Linux__np"/></e>
+<e lm="KASPOST" i=""><p><l>kazpost</l><r>KASPOST</r></p><par n="BBC__n"/></e>
+<e lm="KIMEP" i=""><p><l>kimep</l><r>KIMEP</r></p><par n="BBC__n"/></e>
+<e lm="Mundus" i=""><p><l>mundus</l><r>Mundus</r></p><par n="Linux__np"/></e>
 <e lm="yahoo" i=""><p><l>yahoo</l><r>Yahoo</r></p><par n="Linux__np"/></e>
  <e lm="yahoo" i=""><i>yahoo</i><par n="house__n"/></e>
 <e lm="yahoos" i=""><i>yahoos</i><par n="house__n"/></e>
@@ -52669,6 +52683,8 @@
                             <e lm="UEFA" i=""><i>UEFA</i><par n="BBC__n"/></e>
 
                             <e lm="EU" i=""><i>EU</i><par n="BBC__n"/></e>
+
+                            <e lm="ENU" i=""><i>ENU</i><par n="BBC__n"/></e>
 
                             <e lm="UN" i=""><i>UN</i><par n="BBC__n"/></e>
 

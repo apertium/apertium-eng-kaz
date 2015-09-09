@@ -142,6 +142,8 @@ texts/New[!!-~]World[!!-~]Bible[!!-~](32358).eng -text
 texts/New[!!-~]World[!!-~]Bible[!!-~](32358).kaz -text svneol=unset#application/octet-stream
 texts/business_movie.eng.txt -text
 texts/business_movie.kaz.txt -text svneol=unset#application/octet-stream
+texts/corp_sorted.eng -text
+texts/corp_sorted.kaz -text
 texts/corpus[!!-~]Lab[!!-~]IIS[!!-~](5925).en -text
 texts/corpus[!!-~]Lab[!!-~]IIS[!!-~](5925).kz -text svneol=unset#application/octet-stream
 texts/corpus-ref1.kz -text

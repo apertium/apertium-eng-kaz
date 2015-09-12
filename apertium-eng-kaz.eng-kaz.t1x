@@ -389,6 +389,13 @@
        <attr-item tags="adj"/>
 
     </def-attr>
+ <def-attr n="a_gender">
+       <attr-item tags="mf"/>
+       <attr-item tags="m"/>
+       <attr-item tags="f"/>
+
+    </def-attr>
+
  <def-attr n="a_subst">
        <attr-item tags="subst"/>
     </def-attr>
@@ -445,6 +452,7 @@
       <attr-item tags="prn"/>
       <attr-item tags="prn.neg"/>
  <attr-item tags="prn.ind"/>
+ <attr-item tags="prn.obj"/>
    <attr-item tags="prn.dem.*"/>
       <attr-item tags="prn.ref"/>
 
@@ -12188,6 +12196,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
           <let><var n="pos"/><lit v=""/></let> 
        </otherwise>
   </choose>
+
   <choose>
     <when>
      <test>  
@@ -12370,7 +12379,48 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
      <let><var n="possessive"/><lit-tag v="PXD"/></let>
      </otherwise>
   </choose>-->
-
+<choose>
+    <when>
+      <test>
+<and>
+       <equal>
+         <clip pos="1" side="sl" part="a_pron"/>
+         <lit-tag v="prn.obj"/>
+       </equal>
+<or>
+<equal>
+         <clip pos="1" side="sl" part="a_pers"/>
+         <lit-tag v="p1"/>
+       </equal>
+<equal>
+         <clip pos="1" side="sl" part="a_pers"/>
+         <lit-tag v="p3"/>
+       </equal>
+<equal>
+         <clip pos="1" side="sl" part="a_pers"/>
+         <lit-tag v="p2"/>
+       </equal>
+</or>
+<or>
+<equal>
+         <clip pos="1" side="sl" part="a_gender"/>
+         <lit-tag v="m"/>
+       </equal>
+<equal>
+         <clip pos="1" side="sl" part="a_gender"/>
+         <lit-tag v="mf"/>
+       </equal>
+<equal>
+         <clip pos="1" side="sl" part="a_gender"/>
+         <lit-tag v="f"/>
+       </equal>
+</or>
+</and>
+      </test>
+       <let>    <var n="case"/><lit-tag v="dat"/></let> 
+    </when>
+       
+  </choose>
 <choose>
 
   <when>

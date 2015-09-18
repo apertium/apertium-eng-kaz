@@ -1135,7 +1135,7 @@
  <choose>
 <when>
 <test>
-
+																			
 <and>
             
              <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>

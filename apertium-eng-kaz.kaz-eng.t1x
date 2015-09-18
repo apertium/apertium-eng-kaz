@@ -11,6 +11,17 @@
             <cat-item tags="vaux.neg.ifi.*"/>
          </def-cat>
 
+<def-cat n="np-ant"> 
+      <cat-item tags="np.ant"/>
+      <cat-item tags="np.ant.*"/>
+
+   </def-cat> 
+
+ <def-cat n="np-cog"> 
+      <cat-item tags="np.cog"/>
+      <cat-item tags="np.cog.*"/>
+
+   </def-cat>
 
     <def-cat n="vaux">
       <cat-item tags="vaux.*"/>
@@ -440,6 +451,7 @@
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
+<def-var n="NEW-noun_lu"/>
 <def-var n="num1"/>
     <def-var n="sntype"/>
     <def-var n="current_verb"/>
@@ -473,6 +485,20 @@
           <let><var n="sntype"/><lit v=""/></let>
           <let><var n="number"/><lit v=""/></let>
     </def-macro>
+
+<def-macro n="NEW-build-noun-lu-2-4-5" npar="1"> 
+     <let>
+           <var n="NEW-noun_lu"/>
+           <concat>
+               <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_nom"/>
+               <lit-tag v="2"/> 
+		<lit-tag v="3"/> 
+               <lit-tag v="4"/> <!-- for possessive -->
+             <!--  <lit-tag v="5"/>--> 
+           </concat>  
+        </let>
+</def-macro>
 
 <def-macro n="build-cnjcoo-lu" npar="1"> 
      <let>
@@ -2112,7 +2138,53 @@
       </action>
     </rule>
 
+<rule comment="NEW RULE: name noun-cog">  <!--must be corrected to "f". rule works to m-->
+  <pattern>
+    <pattern-item n="np-ant"/>
+    <pattern-item n="np-cog"/>
+  </pattern>
+  <action>
 
+  <call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="1"/>
+
+  </call-macro> 
+<choose>
+<when>
+    <test>
+<equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px3sp"/></equal>
+</test>
+<let> <var n="a_pos"/><lit-tag v="px3sp"/></let>
+</when>
+<otherwise>
+<let> <var n="a_pos"/><lit-tag v="PXD"/></let>
+</otherwise>
+</choose>
+    <out>
+    <chunk name="np-ant-cog">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="ant"/></tag>
+<tag><clip pos="1" side="sl" part="a_mf"/></tag>
+    <tag><lit-tag v="sg"/></tag>
+    
+    </tags>
+    <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+<b/>
+   <lu>
+     <clip pos="2" side="tl" part="lem"/> 
+     <clip pos="2" side="tl" part="a_nom"/>
+	<lit-tag v="2"/>
+     <clip pos="2" side="tl" part="a_nbr"/>
+     <lit-tag v="3"/>
+     <lit-tag v="4"/>
+    </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 
 
@@ -2357,6 +2429,7 @@
         </out>
       </action>
     </rule>
+
 
 <rule comment="RULE: Adv comp_adj">
       <pattern>

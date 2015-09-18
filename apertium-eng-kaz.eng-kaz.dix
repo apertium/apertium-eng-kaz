@@ -639,6 +639,7 @@
 <e><p><l>seed<s n="n"/></l><r>дән<s n="n"/></r></p></e>
 <e><p><l>seed<s n="n"/></l><r>ұрық<s n="n"/></r></p></e>
 <e><p><l>sheep<s n="n"/></l><r>қой<s n="n"/></r></p></e>
+
 <e><p><l>shoe<s n="n"/></l><r>аяқ-киім<s n="n"/></r></p></e>
 <e><p><l>skin<s n="n"/></l><r>тері<s n="n"/></r></p></e>
 <e><p><l>sock<s n="n"/></l><r>шұлғы<s n="n"/></r></p></e>
@@ -2377,7 +2378,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>prey<s n="n"/></l><r>жемтік<s n="n"/></r></p></e>
 <e><p><l>hat<s n="n"/></l><r>қалпақ<s n="n"/></r></p></e>
 <e><p><l>failure<s n="n"/></l><r>сәтсіздік<s n="n"/></r></p></e>
-<e><p><l>sheep<s n="n"/></l><r>қошақан<s n="n"/></r></p></e>
 <e><p><l>ram<s n="n"/></l><r>қошқар<s n="n"/></r></p></e>
 <e><p><l>weigh<s n="n"/></l><r>салмақ<s n="n"/></r></p></e>
 <e><p><l>franc<s n="n"/></l><r>франк<s n="n"/></r></p></e>
@@ -2493,6 +2493,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>thunderstruck<s n="vblex"/></l><r>таңырқа<s n="v"/></r></p></e>
 <e><p><l>stare<s n="vblex"/></l><r>таңғала<s n="v"/></r></p></e>
 <e><p><l>uncertainly<s n="adj"/></l><r>сенімсіз<s n="adj"/></r></p></e>
+<e><p><l>outside<s n="adj"/></l><r>сыртқы<b/>кейпі<s n="adj"/></r></p></e>
+<e><p><l>lamb<s n="n"/></l><r>қошақан<s n="n"/></r></p></e>
 
 
 <!--100 new nouns-->

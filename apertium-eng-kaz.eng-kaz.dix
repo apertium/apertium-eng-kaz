@@ -944,6 +944,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>marmot<s n="n"/></l><r>суыр<s n="n"/></r></p></e>
 <e><p><l>meat<s n="n"/></l><r>ет<s n="n"/></r></p></e>
 <e><p><l>medicine<s n="n"/></l><r>дәрі<s n="n"/></r></p></e>
+<e><p><l>medicine<s n="n"/></l><r>медицина<s n="n"/></r></p></e>
 <e><p><l>member<s n="n"/></l><r>мүше<s n="n"/></r></p></e>
 <e><p><l>member<s n="n"/></l><r>қатысушы<s n="n"/></r></p></e>
 <e><p><l>memory<s n="n"/></l><r>ес<s n="n"/></r></p></e>
@@ -8666,6 +8667,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <e><p><l>CEO<s n="n"/><s n="acr"/></l><r>бас<b/>директор<s n="n"/></r></p></e>
 <e><p><l>BBC<s n="n"/><s n="acr"/></l><r>ББС<s n="abbr"/></r></p></e>
+<e><p><l>BIN<s n="n"/><s n="acr"/></l><r>БСН<s n="abbr"/></r></p></e>
+<e><p><l>IIC<s n="n"/><s n="acr"/></l><r>ЖСК<s n="abbr"/></r></p></e>
+
 <e><p><l>KZT<s n="n"/><s n="acr"/></l><r>теңге<s n="n"/></r></p></e>
     <e><p><l>PKK<s n="n"/><s n="acr"/></l><r>PKK<s n="abbr"/></r></p></e>
     <e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="abbr"/></r></p></e>
@@ -11210,6 +11214,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>oh<s n="ij"/></l><r>ох<s n="ij"/></r></p></e>
  <e><p><l>yes<s n="ij"/></l><r>иә<s n="ij"/></r></p></e> <!-- This is an interjection -->
 <e><p><l>ah<s n="ij"/></l><r>аһ<s n="ij"/></r></p></e>
+<e><p><l>uh<s n="ij"/></l><r>ух<s n="ij"/></r></p></e>
 <e r="RL"><p><l>ah<s n="ij"/></l><r>о<s n="ij"/></r></p></e>
 <e><p><l>bah<s n="ij"/></l><r>бах<s n="ij"/></r></p></e>
 <e><p><l>bingo<s n="ij"/></l><r>бәрекелді<s n="ij"/></r></p></e>

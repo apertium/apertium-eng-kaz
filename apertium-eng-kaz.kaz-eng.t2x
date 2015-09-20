@@ -764,8 +764,7 @@
     </rule>      
 
 <rule comment="REGLA: SN SN PP and PP SV Men mektepke baqsha arkyly zhane sayabaq arkyly bardym">
-    
-      
+         
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="SN"/>

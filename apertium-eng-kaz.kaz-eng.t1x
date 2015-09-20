@@ -227,7 +227,7 @@
  <cat-item lemma="де" tags="v.tv.gpr_past"/>
  <cat-item lemma="де" tags="v.tv.ger_past.*"/>
   <cat-item lemma="де" tags="v.tv.ger_past"/>
-     
+      <cat-item lemma="де" tags="v.tv.*.*.*"/>
     </def-cat>
 
 <def-cat n="v-prc_perf">
@@ -308,7 +308,7 @@
 
     <def-cat n="nom">
       <cat-item tags="n.*.*"/>
-     
+     <cat-item tags="n.acr"/>
     </def-cat>
 
  <def-cat n="want">
@@ -3658,18 +3658,19 @@
             <tags>
               <tag><var n="sntype"/></tag>
 		
+    <tag><lit-tag v="sg"/></tag>
             </tags>
             <lu>
 	<clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
 	
  	<lit-tag v="cog"/>
-             <clip pos="1" side="tl" part="a_mf"/>
+             <!--<clip pos="1" side="tl" part="a_mf"/>-->
 	
               <clip pos="1" side="tl" part="lemq"/>          
-	<lit-tag v="mf"/>
-      <!--  <lit-tag v="2"/> 
-	<lit-tag v="3"/> -->
+	
+        <lit-tag v="3"/> 
+	<!--<lit-tag v="3"/> -->
             </lu>
           </chunk>
         </out>
@@ -3839,6 +3840,7 @@
         </call-macro>
       </action>
     </rule>
+
 <rule comment="RULE: NUM  NOM"> <!--7  kyz-->
       <pattern>
         <pattern-item n="num"/>
@@ -3886,6 +3888,7 @@
         </call-macro>
       </action>
     </rule>
+
 
   <rule comment="RULE: DET-IND NOM">
       <pattern>

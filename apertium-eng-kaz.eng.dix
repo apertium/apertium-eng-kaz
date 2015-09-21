@@ -19801,6 +19801,9 @@
 
                             <e lm="binomial" i=""><i>binomial</i><par n="expensive__adj"/></e>
 
+<e lm="sickly" i=""><i>sickly</i><par n="expensive__adj"/></e>
+
+<e lm="queer" i=""><i>queer</i><par n="expensive__adj"/></e>
                             <e lm="binomial" i=""><i>binomial</i><par n="house__n"/></e>
 
                             <e lm="bioaccumulation" i=""><i>bioaccumulation</i><par n="house__n"/></e>
@@ -42120,6 +42123,10 @@
 
                             <e lm="beam" i=""><i>beam</i><par n="house__n"/></e>
 
+ <e lm="gleam" i=""><i>gleam</i><par n="house__n"/></e>
+
+<e lm="reverie" i=""><i>reverie</i><par n="house__n"/></e>
+
                             <e lm="bean" i=""><i>bean</i><par n="house__n"/></e>
 
                             <e lm="beard" i=""><i>beard</i><par n="house__n"/></e>
@@ -58555,6 +58562,8 @@ F
 
                             <e lm="expect" i=""><i>expect</i><par n="accept__vblex"/></e>
 
+<e lm="acquaintance" i=""><i>acquaintance</i><par n="accept__vblex"/></e>
+
                             <e lm="expel" i=""><i>expel</i><par n="control__vblex"/></e>
 
                             <e lm="experience" i=""><i>experienc</i><par n="liv/e__vblex"/></e>
@@ -58732,6 +58741,7 @@ F
 
                             <e lm="give" i=""><i>g</i><par n="g/ive__vblex"/></e>
 
+
                             <e lm="get" i=""><i>g</i><par n="g/et__vblex"/></e>
 
                             <e lm="get hold of" i=""><i>g</i><par n="g/et__vblex"/><p><l><b/>hold<b/>of</l><r><g><b/>hold<b/>of</g></r></p></e>
@@ -58769,6 +58779,7 @@ F
                             <e lm="gloss" i=""><i>gloss</i><par n="approach__vblex"/></e>
 
                             <e lm="go" i=""><par n="/go__vblex"/></e>
+
 
                             <e lm="govern" i=""><i>govern</i><par n="accept__vblex"/></e>
 
@@ -62532,6 +62543,8 @@ F
                             <e lm="anyone" i=""><i>anyone</i><par n="everyone__prn"/></e>
 
                             <e lm="anything" i=""><i>anything</i><par n="everyone__prn"/></e>
+
+ <e lm="anywhere" i=""><i>anywhere</i><par n="everyone__prn"/></e>
 
                            <e lm="both" i=""><i>both</i><par n="both__prn"/></e>
 

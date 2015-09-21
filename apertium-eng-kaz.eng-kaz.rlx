@@ -41,6 +41,8 @@ LIST 1p = p1 ;
 LIST 2p = p2 ;
 LIST 3p = p3 ;
 
+LIST EOS = (<<<) ;
+
 LIST FIN = pres past pri ; 
 
 LIST SENT = sent ; 
@@ -77,6 +79,7 @@ SET CLB = SENT | V-FIN | Subj ; # 'Subj' is risky, e.g. coordination
 
 SET PERSON = 1p | 2p | 3p ;
 
+
 SECTION
 
 # z_z
@@ -110,6 +113,8 @@ REMOVE N IF (0 ("<is>"i)) ;
 SELECT N IF (0 ("<sound>"i))(1 ("<to>"i))(2 ("<tell>"i)) ; 
 
 SELECT N IF (-1 ("<both>"i)) ; 
+
+SELECT NUM IF (0 ("<I>"i))(1 EOS) ; 
 
 SELECT (prn tn mf) IF (0 ("<most>"i))(1 N) ; 
 

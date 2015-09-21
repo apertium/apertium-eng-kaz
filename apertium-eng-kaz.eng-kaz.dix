@@ -301,6 +301,7 @@
 <e><p><l>fewer<s n="det"/><s n="qnt"/><s n="pl"/></l><r>бірқатар<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 <e><p><l>whenever<s n="cnjsub"/></l><r>қашан<b/>да<s n="cnjsub"/></r></p></e>
 <e><p><l>fairly<s n="preadv"/></l><r>әділетті<s n="adv"/></r></p></e>
+<e><p><l>overly<s n="preadv"/></l><r>тым<s n="adv"/></r></p></e>
 
 
     <!-- This one will be tricky -->
@@ -10643,6 +10644,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>billion<s n="num"/><s n="pl"/></l><r>миллиард<s n="num"/></r></p></e>
    <e><p><l>$<s n="num"/><s n="mon"/></l><r>$<s n="num"/></r></p></e>
 
+    <e><p><l>I<s n="num"/><s n="mf"/><s n="sg"/></l><r>I<s n="num"/><s n="ord"/></r></p></e>
     <e><p><l>C<s n="num"/><s n="mf"/><s n="sg"/></l><r>C<s n="num"/><s n="ord"/></r></p></e>
     <e><p><l>DC<s n="num"/><s n="mf"/><s n="sg"/></l><r>DC<s n="num"/><s n="ord"/></r></p></e>
     <e><p><l>D<s n="num"/><s n="mf"/><s n="sg"/></l><r>D<s n="num"/><s n="ord"/></r></p></e>
@@ -14182,6 +14184,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
  <e><p><l>eighth<s n="det"/><s n="ord"/><s n="sp"/></l><r>сегіз<s n="num"/><s n="ord"/></r></p></e>    
  <e><p><l>ninth<s n="det"/><s n="ord"/><s n="sp"/></l><r>тоғыз<s n="num"/><s n="ord"/></r></p></e> 
  <e><p><l>tenth<s n="det"/><s n="ord"/><s n="sp"/></l><r>он<s n="num"/><s n="ord"/></r></p></e>
+ <e><p><l>hundredth<s n="det"/><s n="ord"/><s n="sp"/></l><r>жүз<s n="num"/><s n="ord"/></r></p></e>
+ <e><p><l>thousandth<s n="det"/><s n="ord"/><s n="sp"/></l><r>мың<s n="num"/><s n="ord"/></r></p></e>
  <e><p><l>eleventh<s n="det"/><s n="ord"/><s n="sp"/></l><r>он<b/>бір<s n="num"/><s n="ord"/></r></p></e> 
  <e><p><l>twelfth<s n="det"/><s n="ord"/><s n="sp"/></l><r>он<b/>екі<s n="num"/><s n="ord"/></r></p></e>
  <e><p><l>thirteenth<s n="det"/><s n="ord"/><s n="sp"/></l><r>он<b/>үш<s n="num"/><s n="ord"/></r></p></e> 

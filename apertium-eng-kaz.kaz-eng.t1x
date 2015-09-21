@@ -155,9 +155,12 @@
       <cat-item tags="prn.dem.*"/>
          </def-cat>
 
+
       <def-cat n="num">
       <cat-item tags="num"/>
+<cat-item tags="det.ord.*"/>
       <cat-item tags="num.*"/>
+<cat-item tags="num.*.*"/>
 </def-cat>
 
 
@@ -182,7 +185,7 @@
 <cat-item tags="n.*"/>
     </def-cat>
 <def-cat n="v-ger">
-      <cat-item tags="vblex.ger.nom"/> 
+      <cat-item tags="v.iv.ger.nom"/> 
     </def-cat>
 
 <def-cat n="p-ins">
@@ -234,6 +237,10 @@
 <cat-item tags="v.tv.prc_perf"/>
  <cat-item tags="v.tv.prc_perf.*"/> 
 <cat-item tags="v.*.prc_perf"/>   
+    </def-cat>
+
+<def-cat n="tarau">
+      <cat-item lemma="тарау" tags="n.*"/>
     </def-cat>
 
 
@@ -453,6 +460,7 @@
     <def-var n="number"/>
 <def-var n="NEW-noun_lu"/>
 <def-var n="num1"/>
+<def-var n="num_lu"/>
     <def-var n="sntype"/>
     <def-var n="current_verb"/>
    <def-var n="adjec_lu"/>
@@ -496,6 +504,17 @@
 		<lit-tag v="3"/> 
                <lit-tag v="4"/> <!-- for possessive -->
              <!--  <lit-tag v="5"/>--> 
+           </concat>  
+        </let>
+</def-macro>
+
+
+<def-macro n="build-num-lu" npar="1"> 
+     <let>
+           <var n="num_lu"/>
+           <concat>
+             <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_num"/>
            </concat>  
         </let>
 </def-macro>
@@ -1139,6 +1158,93 @@
       </action>
     </rule>
 
+<rule comment="RULE: ger">   
+      <pattern>
+        <pattern-item n="v-ger"/>
+      </pattern>
+      <action>
+        
+
+
+        <out>
+          <chunk name="v-ger" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+<lu>
+              <lit v="to"/>
+             <lit-tag v="pr"/>
+         
+ </lu>
+  <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+            <lit-tag v="pres"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+<rule comment="NEW RULE: num">  
+  <pattern>
+    <pattern-item n="num"/>
+  </pattern>
+  <action>
+   <call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="num">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    </tags>
+    <lu>
+      <var n="num_lu"/>
+<lit-tag v="num"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+
+<rule comment="NEW RULE: chapter num">  
+  <pattern>
+    <pattern-item n="num"/>
+	<pattern-item n="tarau"/>
+  </pattern>
+  <action>
+   <call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="num-chapter">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+	<tag><clip pos="1" side="sl" part="a_mf"/></tag>
+    <tag><lit-tag v="sg"/></tag>
+    </tags>
+<lu>
+	<clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              
+             <lit-tag v="sg"/>
+
+            </lu>
+<b/>
+    <lu>
+      <var n="num_lu"/>
+      <lit-tag v="num"/>
+	<lit-tag v="2"/> 
+      <lit-tag v="3"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 <rule comment="RULE: Verb:мақсатты келер шақ"> <!--translation: I would like to+verb(play)-->
       <pattern>
@@ -2398,6 +2504,9 @@
     </rule>
 
 
+
+
+
   <rule comment="RULE: ADJ">
       <pattern>
         <pattern-item n="adj"/>
@@ -3243,6 +3352,11 @@
         </call-macro>
       </action>
     </rule>
+
+
+
+
+
 
 <!--must be correct the generation of "prn"
 <rule comment="RULE: myNOM">
@@ -5117,39 +5231,7 @@
     </rule>
 
 
-<rule comment="RULE: ger">   
-      <pattern>
-        <pattern-item n="v-ger"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-temps1">
-          <with-param pos="1"/>
-        </call-macro>
-  <call-macro n="conv-vpron">
-          <with-param pos="1"/>
-        </call-macro>
 
-
-        <out>
-          <chunk name="v-ger" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-             <lit-tag v="2"/>
-             <lit-tag v="3"/>
-             <lit-tag v="4"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
 
 
 

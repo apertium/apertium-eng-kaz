@@ -14,14 +14,25 @@
 <def-cat n="np-ant"> 
       <cat-item tags="np.ant"/>
       <cat-item tags="np.ant.*"/>
-
    </def-cat> 
 
  <def-cat n="np-cog"> 
       <cat-item tags="np.cog"/>
       <cat-item tags="np.cog.*"/>
-
    </def-cat>
+
+<def-cat n="noun">
+       <cat-item tags="n.*"/>
+ <cat-item tags="n.*.*"/>
+      <cat-item tags="np.al"/>
+      <cat-item tags="np.al.*"/>
+   <!--   <cat-item tags="np.cog"/>
+      <cat-item tags="np.cog.*"/>-->
+      <cat-item tags="np.unk"/>
+      <cat-item tags="np.ant.*"/>
+      <cat-item tags="np.top"/>
+      <cat-item tags="np.loc.*"/>
+    </def-cat>
 
     <def-cat n="vaux">
       <cat-item tags="vaux.*"/>
@@ -314,8 +325,18 @@
           </def-cat>
 
     <def-cat n="nom">
-      <cat-item tags="n.*.*"/>
-     <cat-item tags="n.acr"/>
+      <cat-item tags="n.*"/>
+    <cat-item tags="abbr"/>
+    </def-cat>
+
+<def-cat n="n">
+      <cat-item tags="n.*.dat"/>
+     
+    </def-cat>
+
+<def-cat n="n-gen">
+     <cat-item tags="n.gen"/>
+     <cat-item tags="n.*.gen"/>
     </def-cat>
 
  <def-cat n="want">
@@ -1090,6 +1111,121 @@
   
 
 <section-rules>
+
+<rule comment="RULE: NOM in dat">
+      <pattern>
+        <pattern-item n="n"/>
+      </pattern>
+<action>
+        
+      
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+
+
+        <out>
+          <chunk name="noun-dat" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+<lu>
+              <lit v="to"/>
+             <lit-tag v="pr"/>
+         
+ </lu>
+  <b/>
+
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+            <!--  <lit-tag v="sg"/>-->
+              <clip pos="1" side="tl" part="lemq"/>
+  
+             <var n="number"/>
+
+            </lu>
+          </chunk>
+        </out>
+
+
+ 
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    
+    </rule>
+
+
+<rule comment="RULE: Noun in gen">
+      <pattern>
+        <pattern-item n="n-gen"/>
+      </pattern>
+<action>
+        
+      
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+
+<out>
+          <chunk name="noun-gen" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PP"/></tag>
+            </tags>
+<lu>
+              <lit v="of"/>
+             <lit-tag v="pr"/>
+         
+ </lu>
+  <b/>
+
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+            
+              <clip pos="1" side="tl" part="lemq"/>
+  
+             <var n="number"/>
+
+            </lu>
+          </chunk>
+        </out>
+ <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    
+    </rule>
 
 <!--must be corrected, have wrong "inf"-->
 <rule comment="RULE: VP-may"> <!--Men koruim mumkin-->
@@ -3358,6 +3494,11 @@
 
 
 
+
+
+
+
+
 <!--must be correct the generation of "prn"
 <rule comment="RULE: myNOM">
       <pattern>
@@ -3568,14 +3709,14 @@
       </action>
     </rule>
 
+
+
 <rule comment="RULE: NOM">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
 <action>
-        <call-macro n="choose_case_and_postposition2">
-          <with-param pos="1"/>
-        </call-macro>
+        
       
         <call-macro n="conv-case1">
           <with-param pos="1"/>
@@ -3598,18 +3739,21 @@
                   <let><var n="number"/><lit-tag v="sg"/></let>
                 </otherwise>
               </choose>
+
+
         <out>
-          <chunk name="nom" case="caseFirstWord">
+          <chunk name="noun-sg/pl" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
             </tags>
             <lu>
 	<clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
-            <!--  <lit-tag v="sg"/>-->
+            
               <clip pos="1" side="tl" part="lemq"/>
   
              <var n="number"/>
+
             </lu>
           </chunk>
         </out>
@@ -3618,6 +3762,9 @@
         </call-macro>
       </action>
     </rule>
+
+
+
 
 
 <rule comment="RULE: PRN">

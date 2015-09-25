@@ -7589,6 +7589,69 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>simile<s n="n"/></l><r>салыстырылым<s n="n"/></r></p></e>
 
 
+<!--news commentary -->
+
+<e><p><l>abnormality<s n="n"/></l><r>аномалия<s n="n"/></r></p></e>
+<e><p><l>abolitionist<s n="n"/></l><r>аболиционист<s n="n"/></r></p></e>
+<e><p><l>abrogation<s n="n"/></l><r>болдырмау<s n="n"/></r></p></e>
+<e><p><l>absolution<s n="n"/></l><r>ақтау<s n="n"/></r></p></e>
+<e><p><l>accountancy<s n="n"/></l><r>бухгалтерлік<s n="n"/></r></p></e>
+<e><p><l>accretion<s n="n"/></l><r>аккреции<s n="n"/></r></p></e>
+<e><p><l>acetate<s n="n"/></l><r>ацетат<s n="n"/></r></p></e>
+<e><p><l>acme<s n="n"/></l><r>төбе<s n="n"/></r></p></e>
+<e><p><l>acupuncture<s n="n"/></l><r>инемен<b/>емдеу<s n="n"/></r></p></e>
+<e><p><l>adjudicator<s n="n"/></l><r>комиссар<s n="n"/></r></p></e>
+<e><p><l>adolescence<s n="n"/></l><r>жастық<b/>шақ<s n="n"/></r></p></e>
+<e><p><l>adrenalin<s n="n"/></l><r>адреналин<s n="n"/></r></p></e>
+<e><p><l>adulation<s n="n"/></l><r>табынушылық<s n="n"/></r></p></e>
+<e><p><l>advisability<s n="n"/></l><r>орындылық<s n="n"/></r></p></e>
+<e><p><l>aftertaste<s n="n"/></l><r>тұнба<s n="n"/></r></p></e>
+<e><p><l>agnosticism<s n="n"/></l><r>агностицизм<s n="n"/></r></p></e>
+<e><p><l>agnostic<s n="n"/></l><r>агностик<s n="n"/></r></p></e>
+<e><p><l>agriculturalist<s n="n"/></l><r>агроном<s n="n"/></r></p></e>
+<e><p><l>airman<s n="n"/></l><r>ұшқыш<s n="n"/></r></p></e>
+<e><p><l>alarmist<s n="n"/></l><r>байбаламшы<s n="n"/></r></p></e>
+<e><p><l>albatross<s n="n"/></l><r>альбатрос<s n="n"/></r></p></e>
+<e><p><l>allele<s n="n"/></l><r>аллель<s n="n"/></r></p></e>
+<e><p><l>alligator<s n="n"/></l><r>аллигатор<s n="n"/></r></p></e>
+<e><p><l>altruist<s n="n"/></l><r>альтруист<s n="n"/></r></p></e>
+<e><p><l>amen<s n="n"/></l><r>аумин<s n="n"/></r></p></e>
+<e><p><l>ammonia<s n="n"/></l><r>аммиак<s n="n"/></r></p></e>
+<e><p><l>amnesia<s n="n"/></l><r>амнезия<s n="n"/></r></p></e>
+<e><p><l>amplification<s n="n"/></l><r>күшейту<s n="n"/></r></p></e>
+<e><p><l>amputation<s n="n"/></l><r>кесіп<b/>алып<b/>тастау<s n="n"/></r></p></e>
+<e><p><l>anaemic<s n="n"/></l><r>қаназдық<s n="n"/></r></p></e>
+<e><p><l>anchovy<s n="n"/></l><r>анчоус<s n="n"/></r></p></e>
+<e><p><l>angina<s n="n"/></l><r>стенокардия<s n="n"/></r></p></e>
+<e><p><l>annals<s n="n"/></l><r>шежіре<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>anorexia<s n="n"/></l><r>анорексия<s n="n"/></r></p></e>
+<e><p><l>antagonist<s n="n"/></l><r>антагонист<s n="n"/></r></p></e>
+<e><p><l>anthrax<s n="n"/></l><r>сібір<b/>жара<s n="n"/></r></p></e>
+<e><p><l>antithesis<s n="n"/></l><r>антитеза<s n="n"/></r></p></e>
+<e><p><l>aphorism<s n="n"/></l><r>афоризм<s n="n"/></r></p></e>
+<e><p><l>apologia<s n="n"/></l><r>апология<s n="n"/></r></p></e>
+<e><p><l>apotheosis<s n="n"/></l><r>апофеоз<s n="n"/></r></p></e>
+<e><p><l>archetype<s n="n"/></l><r>архетип<s n="n"/></r></p></e>
+<e><p><l>architrave<s n="n"/></l><r>архитрав<s n="n"/></r></p></e>
+<e><p><l>ardour<s n="n"/></l><r>қызығушылық<s n="n"/></r></p></e>
+<e><p><l>argumentation<s n="n"/></l><r>дәлел<s n="n"/></r></p></e>
+<e><p><l>aristocracy<s n="n"/></l><r>ақсүйек<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>armchair<s n="n"/></l><r>кресло<s n="n"/></r></p></e>
+<e><p><l>arrhythmia<s n="n"/></l><r>аритмия<s n="n"/></r></p></e>
+<e><p><l>articulation<s n="n"/></l><r>артикуляция<s n="n"/></r></p></e>
+<e><p><l>artifice<s n="n"/></l><r>айлакерлік<s n="n"/></r></p></e>
+<e><p><l>artificiality<s n="n"/></l><r>жасандылық<s n="n"/></r></p></e>
+<e><p><l>asphyxiation<s n="n"/></l><r>тұншықтыру<s n="n"/></r></p></e>
+<e><p><l>assembler<s n="n"/></l><r>ассемблер<s n="n"/></r></p></e>
+<e><p><l>atomisation<s n="n"/></l><r>тозаңдану<s n="n"/></r></p></e>
+<e><p><l>atrophy<s n="n"/></l><r>атрофия<s n="n"/></r></p></e>
+<e><p><l>attribution<s n="n"/></l><r>атрибуция<s n="n"/></r></p></e>
+<e><p><l>authorship<s n="n"/></l><r>авторлық<s n="n"/></r></p></e>
+<e><p><l>avocado<s n="n"/></l><r>авокадо<s n="n"/></r></p></e>
+<e><p><l>axiom<s n="n"/></l><r>аксиома<s n="n"/></r></p></e>
+<e><p><l>ayatollah<s n="n"/></l><r>аятолла<s n="n"/></r></p></e>
+
+
 <!--ProPER NOUNS -->
 
 

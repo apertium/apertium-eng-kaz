@@ -7651,7 +7651,71 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>axiom<s n="n"/></l><r>аксиома<s n="n"/></r></p></e>
 <e><p><l>ayatollah<s n="n"/></l><r>аятолла<s n="n"/></r></p></e>
 
-
+<e><p><l>backside<s n="n"/></l><r>артқы<b/>жақ<s n="n"/></r></p></e>
+<e><p><l>bandwidth<s n="n"/></l><r>өткізушілік<b/>қабілет<s n="n"/></r></p></e>
+<e><p><l>barbershop<s n="n"/></l><r>шаштараз<s n="n"/></r></p></e>
+<e><p><l>barrack<s n="n"/></l><r>барак<s n="n"/></r></p></e>
+<e><p><l>belligerency<s n="n"/></l><r>соғыс<b/>жағдай<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>benignity<s n="n"/></l><r>адалдылық<s n="n"/></r></p></e>
+<e><p><l>beryllium<s n="n"/></l><r>бериллий<s n="n"/></r></p></e>
+<e><p><l>bestiality<s n="n"/></l><r>зоофилия<s n="n"/></r></p></e>
+<e><p><l>bicameralism<s n="n"/></l><r>қосбөлмелі<b/>жүйе<s n="n"/></r></p></e>
+<e><p><l>bile<s n="n"/></l><r>өт<s n="n"/></r></p></e>
+<e><p><l>biome<s n="n"/></l><r>биома<s n="n"/></r></p></e>
+<e><p><l>biopsy<s n="n"/></l><r>биопсия<s n="n"/></r></p></e>
+<e><p><l>blackboard<s n="n"/></l><r>тақта<s n="n"/></r></p></e>
+<e><p><l>blackmailer<s n="n"/></l><r>шантажист<s n="n"/></r></p></e>
+<e><p><l>bloodletting<s n="n"/></l><r>қан<b/>ағыту <s n="n"/></r></p></e>
+<e><p><l>bloodsucker<s n="n"/></l><r>қанішкіш<s n="n"/></r></p></e>
+<e><p><l>bodybuilder<s n="n"/></l><r>культурист<s n="n"/></r></p></e>
+<e><p><l>bonding<s n="n"/></l><r>желімдік<s n="n"/></r></p></e>
+<e><p><l>boredom<s n="n"/></l><r>зерігу<s n="n"/></r></p></e>
+<e><p><l>botch<s n="n"/></l><r>еңбекақы<s n="n"/></r></p></e>
+<e><p><l>bra<s n="n"/></l><r>көкірекше<s n="n"/></r></p></e>
+<e><p><l>brimstone<s n="n"/></l><r>күкірт<s n="n"/></r></p></e>
+<e><p><l>broaching<s n="n"/></l><r>тігетіг<s n="n"/></r></p></e>
+<e><p><l>bromide<s n="n"/></l><r>бромид<s n="n"/></r></p></e>
+<e><p><l>bromine<s n="n"/></l><r>бром<s n="n"/></r></p></e>
+<e><p><l>bureaucratisation<s n="n"/></l><r>бюрократтану<s n="n"/></r></p></e>
+<e><p><l>cacique<s n="n"/></l><r>кацик<s n="n"/></r></p></e>
+<e><p><l>caffeine<s n="n"/></l><r>кофеин<s n="n"/></r></p></e>
+<e><p><l>calculus<s n="n"/></l><r>есептеу<s n="n"/></r></p></e>
+<e><p><l>captaincy<s n="n"/></l><r>капитан<b/>атақ<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>carbohydrate<s n="n"/></l><r>көмірсу<s n="n"/></r></p></e>
+<e><p><l>carcinoma<s n="n"/></l><r>карцинома<s n="n"/></r></p></e>
+<e><p><l>carpentry<s n="n"/></l><r>ағаш<b/>шеберлік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>caste<s n="n"/></l><r>каста<s n="n"/></r></p></e>
+<e><p><l>catchword<s n="n"/></l><r>ұран<s n="n"/></r></p></e>
+<e><p><l>catechism<s n="n"/></l><r>катехизм<s n="n"/></r></p></e>
+<e><p><l>causality<s n="n"/></l><r>себеп<s n="n"/></r></p></e>
+<e><p><l>centralism<s n="n"/></l><r>централизм<s n="n"/></r></p></e>
+<e><p><l>centrifugation<s n="n"/></l><r>центрифугалау<s n="n"/></r></p></e>
+<e><p><l>cerebellum<s n="n"/></l><r>ми<s n="n"/></r></p></e>
+<e><p><l>cerium<s n="n"/></l><r>церий<s n="n"/></r></p></e>
+<e><p><l>chalice<s n="n"/></l><r>тостаған<s n="n"/></r></p></e>
+<e><p><l>chassis<s n="n"/></l><r>шасси<s n="n"/></r></p></e>
+<e><p><l>chauffeur<s n="n"/></l><r>жүргізуші<s n="n"/></r></p></e>
+<e><p><l>chequebook<s n="n"/></l><r>чек<b/>кітапша<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>chlorine<s n="n"/></l><r>хлор<s n="n"/></r></p></e>
+<e><p><l>chlorofluorocarbon<s n="n"/></l><r>хлорфторкөмірсу<s n="n"/></r></p></e>
+<e><p><l>chromosome<s n="n"/></l><r>хромосома<s n="n"/></r></p></e>
+<e><p><l>climatology<s n="n"/></l><r>климатология<s n="n"/></r></p></e>
+<e><p><l>clot<s n="n"/></l><r>ұйыған<s n="n"/></r></p></e>
+<e><p><l>clumsiness<s n="n"/></l><r>неуклюжесть<s n="n"/></r></p></e>
+<e><p><l>cobalt<s n="n"/></l><r>кобальт<s n="n"/></r></p></e>
+<e><p><l>cocoa<s n="n"/></l><r>какао<s n="n"/></r></p></e>
+<e><p><l>coconut<s n="n"/></l><r>кокос<s n="n"/></r></p></e>
+<e><p><l>codex<s n="n"/></l><r>кодекс<s n="n"/></r></p></e>
+<e><p><l>codicil<s n="n"/></l><r>кодициль<s n="n"/></r></p></e>
+<e><p><l>coding<s n="n"/></l><r>кодтау<s n="n"/></r></p></e>
+<e><p><l>coeducation<s n="n"/></l><r>бірлескен<b/>оқыту<s n="n"/></r></p></e>
+<e><p><l>cogeneration<s n="n"/></l><r>когенерация<s n="n"/></r></p></e>
+<e><p><l>collectivisation<s n="n"/></l><r>ұжымдастыру<s n="n"/></r></p></e>
+<e><p><l>colloquium<s n="n"/></l><r>коллоквиум<s n="n"/></r></p></e>
+<e><p><l>colonialism<s n="n"/></l><r>отаршылдық<s n="n"/></r></p></e>
+<e><p><l>colonialist<s n="n"/></l><r>отарлық<s n="n"/></r></p></e>
+<e><p><l>colonisation<s n="n"/></l><r>отарлау<s n="n"/></r></p></e>
+<e><p><l>colouring<s n="n"/></l><r>бояғыш<s n="n"/></r></p></e>
 <!--ProPER NOUNS -->
 
 

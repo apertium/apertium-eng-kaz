@@ -132,6 +132,7 @@ mteval/wrapper.sh -text
 /new-regression-tests.sh -text
 /newadj.txt -text
 /newadv.txt -text
+/newd.txt -text
 /newpr.txt -text
 /newverb.txt -text
 /notnoun.txt -text

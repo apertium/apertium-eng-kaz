@@ -2505,6 +2505,32 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>anywhere<s n="prn"/><s n="tn"/><s n="m"/></l><r>қайда<b/>болса<b/>сонда<s n="prn"/><s n="ind"/></r></p></e>
 
 
+<!--corpora  - LabIIS (5925).eng-->
+<!--Words from line 3000-->
+
+<!--noun-->
+<e><p><l>dominion<s n="n"/></l><r>үстемдік<s n="n"/></r></p></e>
+<e><p><l>fallings<s n="n"/></l><r>төмендету<s n="n"/></r></p></e>
+<e><p><l>obliquity<s n="n"/></l><r>ауытқу<s n="n"/></r></p></e>
+<e><p><l>risings<s n="n"/></l><r>көтеру<s n="n"/></r></p></e>
+<!--end of noun-->
+
+<!--adjective-->
+<e><p><l>oblique<s n="adj"/></l><r>қиғаш<s n="adj"/></r></p></e>
+<!--end of adjective-->
+
+<!--adverb-->
+<e><p><l>obliquely<s n="adv"/></l><r>қиғаштай<s n="adv"/></r></p></e>
+<!--end of adverb-->
+
+<!--num-->
+<e><p><l>E<s n="num"/><s n="mf"/><s n="sg"/></l><r>E<s n="num"/><s n="ord"/></r></p></e>
+<!--end of num-->
+
+<!--end of corpora  - LabIIS (5925).eng-->
+
+
+
 <!--100 new nouns-->
 <e><p><l>diamond<s n="n"/></l><r>алмас<s n="n"/></r></p></e>
 <e><p><l>monopolist<s n="n"/></l><r>алпауыт<s n="n"/></r></p></e>

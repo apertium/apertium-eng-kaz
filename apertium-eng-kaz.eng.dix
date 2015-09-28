@@ -16010,6 +16010,8 @@
 
                             <e lm="initially" i=""><i>initially</i><par n="maybe__adv"/></e>
 
+                            <e r="LR" lm="innermost" i=""><i>innermost</i><par n="maybe__adv"/></e>
+
                             <e lm="inside" i=""><i>inside</i><par n="maybe__adv"/></e>
 
                             <e lm="inside and out" i=""><i>inside<b/>and<b/>out</i><par n="maybe__adv"/></e>
@@ -16325,6 +16327,8 @@
                             <e lm="out there" i=""><i>out<b/>there</i><par n="maybe__adv"/></e>
 
                             <e lm="outright" i=""><i>outright</i><par n="maybe__adv"/></e>
+
+                            <e r="LR" lm="outermost" i=""><i>outermost</i><par n="maybe__adv"/></e>
 
                             <e lm="outside" i=""><i>outside</i><par n="maybe__adv"/></e>
 
@@ -44371,6 +44375,8 @@
 
                             <e lm="dean" i=""><i>dean</i><par n="house__n"/></e>
 
+                            <e lm="dearth" i=""><i>dearth</i><par n="house__n"/></e>
+
                             <e lm="death" i=""><i>death</i><par n="house__n"/></e>
 
                             <e lm="debate" i=""><i>debate</i><par n="house__n"/></e>
@@ -45386,6 +45392,8 @@
                             <e lm="evocation" i=""><i>evocation</i><par n="house__n"/></e>
 
                             <e lm="evolution" i=""><i>evolution</i><par n="house__n"/></e>
+
+                            <e lm="exactness" i=""><i>exactness</i><par n="house__n"/></e>
 
                             <e lm="exaggeration" i=""><i>exaggeration</i><par n="house__n"/></e>
 
@@ -47596,6 +47604,8 @@
 
                             <e lm="load" i=""><i>load</i><par n="house__n"/></e>
 
+                            <e lm="loadstone" i=""><i>loadstone</i><par n="house__n"/></e>
+
                             <e lm="loan" i=""><i>loan</i><par n="house__n"/></e>
 
                             <e lm="localism" i=""><i>localism</i><par n="house__n"/></e>
@@ -48278,6 +48288,8 @@
                             <e lm="mutation" i=""><i>mutation</i><par n="house__n"/></e>
 
                             <e lm="mutilation" i=""><i>mutilation</i><par n="house__n"/></e>
+
+                            <e lm="mutiny" i=""><i>mutiny</i><par n="house__n"/></e>
 
                             <e lm="muzzle" i=""><i>muzzle</i><par n="house__n"/></e>
 
@@ -51790,6 +51802,8 @@
                             <e lm="tens" i=""><p><l>tens</l><r>ten</r></p><par n="alms__n"/></e>
 
                             <e lm="tension" i=""><i>tension</i><par n="house__n"/></e>
+
+                            <e r="LR" lm="tenure" i=""><i>tenure</i><par n="house__n"/></e>
 
                             <e lm="tentacle" i=""><i>tentacle</i><par n="house__n"/></e>
 
@@ -55757,7 +55771,7 @@
 
                             <e lm="objective" i=""><i>objective</i><par n="expensive__adj"/></e>
 
-			    <e lm="oblique" i=""><i>oblique</i><par n="expensive__adj"/></e>
+			    <e lm="oblique" i=""><i>oblique</i><par n="house__n"/></e>
 
                             <e lm="obscene" i=""><i>obscene</i><par n="expensive__adj"/></e>
 
@@ -55930,6 +55944,8 @@
                             <e lm="perfect" i=""><i>perfect</i><par n="expensive__adj"/></e>
 
                             <e lm="periodic" i=""><i>periodic</i><par n="expensive__adj"/></e>
+
+                            <e lm="periodical" i=""><i>periodical</i><par n="expensive__adj"/></e>
 
                             <e lm="peripheral" i=""><i>peripheral</i><par n="expensive__adj"/></e>
 
@@ -58893,6 +58909,8 @@ F
                             <e lm="enrol" i=""><i>enrol</i><par n="control__vblex"/></e>
 
                             <e lm="enrol" i=""><i>enrol</i><par n="control__vblex"/></e>
+
+                            <e lm="ensue" i=""><i>ensue</i><par n="accept__vblex"/></e>
 
                             <e lm="ensure" i=""><i>ensur</i><par n="liv/e__vblex"/></e>
 

@@ -2472,6 +2472,14 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>poor<s n="adj"/></l><r>байғұс<s n="adj"/></r></p></e>
 <e><p><l>Southwark<s n="np"/><s n="ant"/><s n="m"/></l><r>Саутуорк<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
+<e><p><l>kindle<s n="vblex"/></l><r>тұтандыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>shoo<s n="vblex"/></l><r>қуғында<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>release<s n="vblex"/></l><r>баянда<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>authority<s n="n"/></l><r>өкілеттілік<s n="n"/></r></p></e>
+<e><p><l>supporter<s n="n"/></l><r>жақтас<s n="n"/></r></p></e>
+<e><p><l>foreigner<s n="adj"/></l><r>жатжерлік<s n="adj"/></r></p></e>
+<e><p><l>chaos<s n="n"/></l><r>аласапыран<s n="n"/></r></p></e>
+
 
 <!--words from corpora Nurbolat-->
 <e><p><l>Zhanbusunov<s n="np"/><s n="cog"/></l><r>Жанбусунов<s n="np"/><s n="cog"/></r></p></e>

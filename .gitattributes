@@ -10,8 +10,6 @@ Errors/trn[!!-~]kaz-eng -text
 /NEWS -text
 /README -text
 /TODO -text
-/adjadd1.txt -text
-/apertium-eng-kaz-old.tar.gz -text
 /apertium-eng-kaz.eng-kaz.dix -text
 /apertium-eng-kaz.eng-kaz.lrx -text
 /apertium-eng-kaz.eng-kaz.rlx -text
@@ -25,7 +23,6 @@ Errors/trn[!!-~]kaz-eng -text
 /apertium-eng-kaz.kaz-eng.t1x -text
 /apertium-eng-kaz.kaz-eng.t2x -text
 /apertium-eng-kaz.kaz-eng.t3x -text
-/apertium-eng-kazGener.tar.gz -text
 /autogen.sh -text
 /bibl-cover.sh -text
 /configure.ac -text
@@ -36,11 +33,9 @@ dev/apertium-eng-kaz.kaz-eng.t1x -text
 dev/apertium-eng-kaz.kaz.lexc.orig -text
 dev/article-for-comp-proc-turk-lang.fodt -text
 dev/bidix-entries-nouns-from-gloss.txt -text
-dev/eng.hitparade.10000.txt -text
 dev/lexcdiff.py -text
 dev/new-bidix.wikipedia.dix -text
 dev/news.en -text
-dev/proposal.odt -text
 dev/testvoc/inconsistency-summary.sh -text
 dev/testvoc/inconsistency.sh -text
 dev/testvoc/testvoc-summary.eng-kaz.txt -text
@@ -68,11 +63,8 @@ experimentsAidana/data.eng-kaz/global-defaults.eng-kaz.bin -text svneol=unset#un
 experimentsAidana/data.eng-kaz/global-defaults.eng-kaz.lrx -text
 experimentsAidana/setup-corpus.sh -text
 experimentsAidana/setup-data.sh -text
-/first_diag.txt -text
 /kaz-cover.sh -text
 /kaz-eng.prob -text svneol=unset#unset
-/kazakhnouns.txt -text svneol=unset#application/octet-stream
-/list_nouns.txt -text
 /modes.xml -text
 mteval/bleug.txt -text
 mteval/bleus.txt -text
@@ -130,11 +122,6 @@ mteval/text/kaz1.txt -text svneol=unset#application/octet-stream
 mteval/wrap.awk -text
 mteval/wrapper.sh -text
 /new-regression-tests.sh -text
-/newadj.txt -text
-/newadv.txt -text
-/newd.txt -text
-/newpr.txt -text
-/newverb.txt -text
 /notnoun.txt -text
 /pasten.py -text
 /regression-tests.sh -text
@@ -142,6 +129,3 @@ mteval/wrapper.sh -text
 /useful[!!-~]notes[!!-~]for[!!-~]Aida -text
 /wiki-correct-tests.sh -text
 /wiki-tests.sh -text
-/words[!!-~]with[!!-~]# -text
-/Радиан -text
-/Футбол -text

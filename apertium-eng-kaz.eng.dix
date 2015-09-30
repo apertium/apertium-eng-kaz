@@ -44492,6 +44492,8 @@
 
                             <e lm="demeanour" i=""><i>demean</i><par n="col/our__n"/></e>
 
+                            <e lm="demesne" i=""><i>demesne</i><par n="house__n"/></e>
+
                             <e lm="demise" i=""><i>demise</i><par n="house__n"/></e>
 
                             <e lm="democracy" i=""><i>democrac</i><par n="bab/y__n"/></e>
@@ -46077,6 +46079,8 @@
 
                             <e lm="gentleman" i=""><i>gentlem</i><par n="m/an__n"/></e>
 
+                            <e lm="gentleness" i=""><i>gentleness</i><par n="house__n"/></e>
+
 <e lm="old gentleman" i=""><i>old<b/>gentlem</i><par n="m/an__n"/></e>
 
 <e lm="young man" i=""><i>young<b/>m</i><par n="m/an__n"/></e>
@@ -46557,6 +46561,8 @@
                             <e lm="horror" i=""><i>horror</i><par n="house__n"/></e>
 
                             <e lm="horse" i=""><i>horse</i><par n="house__n"/></e>
+
+                            <e lm="hospitably" i=""><i>hospitably</i><par n="house__n"/></e>
 
                             <e lm="hospital" i=""><i>hospital</i><par n="house__n"/></e>
 
@@ -48344,6 +48350,8 @@
                             <e lm="navigation" i=""><i>navigation</i><par n="house__n"/></e>
 
                             <e lm="navigator" i=""><i>navigator</i><par n="house__n"/></e>
+
+                            <e lm="necessity" i=""><i>necessity</i><par n="house__n"/></e>
 
                             <e lm="neck" i=""><i>neck</i><par n="house__n"/></e>
 
@@ -51220,6 +51228,8 @@
 
                             <e lm="spine" i=""><i>spine</i><par n="house__n"/></e>
 
+                            <e lm="spire" i=""><i>spire</i><par n="house__n"/></e>
+
                             <e lm="spirit" i=""><i>spirit</i><par n="house__n"/></e>
 
                             <e lm="spirit level" i=""><i>spirit<b/>level</i><par n="house__n"/></e>
@@ -53843,6 +53853,8 @@
 
                             <e lm="adaptable" i=""><i>adaptable</i><par n="expensive__adj"/></e>
 
+                            <e lm="adamantine" i=""><i>adamantine</i><par n="expensive__adj"/></e>
+
                             <e lm="additional" i=""><i>additional</i><par n="expensive__adj"/></e>
 
                             <e lm="adjacent" i=""><i>adjacent</i><par n="expensive__adj"/></e>
@@ -54028,6 +54040,8 @@
                             <e lm="available" i=""><i>available</i><par n="expensive__adj"/></e>
 
                             <e lm="average" i=""><i>average</i><par n="expensive__adj"/></e>
+
+                            <e lm="averse" i=""><i>averse</i><par n="expensive__adj"/></e>
 
                             <e lm="awake" i=""><i>awake</i><par n="expensive__adj"/></e>
 
@@ -55773,11 +55787,15 @@
 
 			    <e lm="oblique" i=""><i>oblique</i><par n="house__n"/></e>
 
+			    <e lm="oblique" i=""><i>oblique</i><par n="expensive__adj"/></e>
+
                             <e lm="obscene" i=""><i>obscene</i><par n="expensive__adj"/></e>
 
                             <e lm="obscure" i=""><i>obscure</i><par n="expensive__adj"/></e>
 
                             <e lm="obsessive" i=""><i>obsessive</i><par n="expensive__adj"/></e>
+
+                            <e r="LR" lm="odious" i=""><i>odious</i><par n="expensive__adj"/></e>
 
                             <e lm="compulsive" i=""><i>compulsive</i><par n="expensive__adj"/></e>
 
@@ -57242,6 +57260,8 @@
                             <e lm="wealthy" i=""><i>wealth</i><par n="happ/y__adj"/></e>
 
                             <e lm="weekly" i=""><i>weekly</i><par n="expensive__adj"/></e>
+
+                            <e lm="weighty" i=""><i>weighty</i><par n="expensive__adj"/></e>
 
                             <e lm="weird" i=""><i>weird</i><par n="long/__adj"/></e>
 
@@ -58895,6 +58915,8 @@ F
                             <e lm="encourage" i=""><i>encourag</i><par n="liv/e__vblex"/></e>
 
                             <e lm="end" i=""><i>end</i><par n="accept__vblex"/></e>
+
+                            <e lm="endanger" i=""><i>endanger</i><par n="accept__vblex"/></e>
 
                             <e lm="endorse" i=""><i>endors</i><par n="liv/e__vblex"/></e>
 
@@ -70054,6 +70076,8 @@ F
 
                             <e lm="obstetrics" i=""><i>obstetrics</i><par n="politics__n"/></e>
 
+                            <e lm="obstinate" i=""><i>obstinate</i><par n="house__n"/></e>
+
                             <e lm="obstinately" i=""><i>obstinately</i><par n="maybe__adv"/></e>
 
                             <e lm="obstruent" i=""><i>obstruent</i><par n="expensive__adj"/></e>
@@ -78552,6 +78576,7 @@ F
 <e lm="flank" i=""><i>flank</i><par n="accept__vblex"/></e>
 <e lm="flap" i=""><i>flap</i><par n="step__vblex"/></e>
 <e lm="flit" i=""><i>flit</i><par n="fit__vblex"/></e>
+<e r="LR" lm="render" i=""><i>render</i><par n="accept__vblex"/></e>
 
 
                             <e lm="infer" i=""><i>infer</i><par n="occur__vblex"/></e>

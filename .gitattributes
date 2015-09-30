@@ -139,31 +139,6 @@ mteval/wrapper.sh -text
 /pasten.py -text
 /regression-tests.sh -text
 /rules -text
-texts/New[!!-~]World[!!-~]Bible[!!-~](32358).eng -text
-texts/New[!!-~]World[!!-~]Bible[!!-~](32358).kaz -text svneol=unset#application/octet-stream
-texts/business_movie.eng.txt -text
-texts/business_movie.kaz.txt -text svneol=unset#application/octet-stream
-texts/corp_sorted.eng -text
-texts/corp_sorted.kaz -text
-texts/corpus[!!-~]Lab[!!-~]IIS[!!-~](5925).en -text
-texts/corpus[!!-~]Lab[!!-~]IIS[!!-~](5925).kz -text svneol=unset#application/octet-stream
-texts/corpus-ref1.kz -text
-texts/eng.chunks.txt -text
-texts/eng.txt -text
-texts/hanzada.kaz.txt -text svneol=unset#application/octet-stream
-texts/kaz-ref.txt -text svneol=unset#application/octet-stream
-texts/kaz.txt -text svneol=unset#application/octet-stream
-texts/kazakhstan1.eng.SL -text
-texts/kazakhstan1.eng.txt -text
-texts/kazakhstan1.kaz.TL -text svneol=unset#application/octet-stream
-texts/kazakhstan1.kaz.txt -text svneol=unset#application/octet-stream
-texts/movie.eng.txt -text
-texts/movie.kaz.txt -text svneol=unset#application/octet-stream
-texts/prince.eng.txt -text
-texts/story1.eng.txt -text
-texts/story1.kaz.txt -text svneol=unset#application/octet-stream
-texts/texts.eng -text
-texts/texts.kaz -text svneol=unset#application/octet-stream
 /useful[!!-~]notes[!!-~]for[!!-~]Aida -text
 /wiki-correct-tests.sh -text
 /wiki-tests.sh -text

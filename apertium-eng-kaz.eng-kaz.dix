@@ -7774,6 +7774,44 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>colonialist<s n="n"/></l><r>отарлық<s n="n"/></r></p></e>
 <e><p><l>colonisation<s n="n"/></l><r>отарлау<s n="n"/></r></p></e>
 <e><p><l>colouring<s n="n"/></l><r>бояғыш<s n="n"/></r></p></e>
+
+<e><p><l>dandy<s n="n"/></l><r>денди<s n="n"/></r></p></e>
+<e><p><l>decadence<s n="n"/></l><r>декаданс<s n="n"/></r></p></e>
+<e><p><l>decapitation<s n="n"/></l><r>бас<b/>шабу<s n="n"/></r></p></e>
+<e><p><l>decolonisation<s n="n"/></l><r>деколонизация<s n="n"/></r></p></e>
+<e><p><l>decorum<s n="n"/></l><r>этикет<s n="n"/></r></p></e>
+<e><p><l>decoy<s n="n"/></l><r>қармақ<b/>жем<s n="n"/></r></p></e>
+<e><p><l>defecation<s n="n"/></l><r>дефекация<s n="n"/></r></p></e>
+<e><p><l>defoliant<s n="n"/></l><r>дефолиант<s n="n"/></r></p></e>
+<e><p><l>deindustrialisation<s n="n"/></l><r>деиндустриализация<s n="n"/></r></p></e>
+<e><p><l>deposition<s n="n"/></l><r>салым<s n="n"/></r></p></e>
+<e><p><l>desalinisation<s n="n"/></l><r>тұщыландыру<s n="n"/></r></p></e>
+<e><p><l>desertion<s n="n"/></l><r>дезертирлік<s n="n"/></r></p></e>
+<e><p><l>despotism<s n="n"/></l><r>деспотизм<s n="n"/></r></p></e>
+<e><p><l>determinism<s n="n"/></l><r>детерминизм<s n="n"/></r></p></e>
+<e><p><l>deuterium<s n="n"/></l><r>дейтерий<s n="n"/></r></p></e>
+<e><p><l>diffraction<s n="n"/></l><r>дифракция<s n="n"/></r></p></e>
+<e><p><l>digester<s n="n"/></l><r>автоклав<s n="n"/></r></p></e>
+<e><p><l>dilution<s n="n"/></l><r>ажырастыру<s n="n"/></r></p></e>
+<e><p><l>diode<s n="n"/></l><r>диод<s n="n"/></r></p></e>
+<e><p><l>disinheritance<s n="n"/></l><r>мұрасыз<b/>қалдыру<s n="n"/></r></p></e>
+<e><p><l>disjunction<s n="n"/></l><r>дизъюнкция<s n="n"/></r></p></e>
+<e><p><l>dispensary<s n="n"/></l><r>диспансер<s n="n"/></r></p></e>
+<e><p><l>dispensation<s n="n"/></l><r>рұқсат<s n="n"/></r></p></e>
+<e><p><l>dissidence<s n="n"/></l><r>жарылу<s n="n"/></r></p></e>
+<e><p><l>dissimulation<s n="n"/></l><r>екіжүзділік<s n="n"/></r></p></e>
+<e><p><l>dissipation<s n="n"/></l><r>таралу<s n="n"/></r></p></e>
+<e><p><l>divinity<s n="n"/></l><r>құдірет<s n="n"/></r></p></e>
+<e><p><l>dogmatism<s n="n"/></l><r>догматизм<s n="n"/></r></p></e>
+<e><p><l>domestication<s n="n"/></l><r>жуасу<s n="n"/></r></p></e>
+<e><p><l>domiciliation<s n="n"/></l><r>домицилийлеу<s n="n"/></r></p></e>
+<e><p><l>dopamine<s n="n"/></l><r>допамин<s n="n"/></r></p></e>
+<e><p><l>dosage<s n="n"/></l><r>дозировка<s n="n"/></r></p></e>
+<e><p><l>dramatisation<s n="n"/></l><r>инсценировка<s n="n"/></r></p></e>
+<e><p><l>droplet<s n="n"/></l><r>капелька<s n="n"/></r></p></e>
+<e><p><l>duplicity<s n="n"/></l><r>двуличность<s n="n"/></r></p></e>
+<e><p><l>dynast<s n="n"/></l><r>правитель<s n="n"/></r></p></e>
+<e><p><l>dyslexia<s n="n"/></l><r>дислексия<s n="n"/></r></p></e>
 <!--ProPER NOUNS -->
 
 

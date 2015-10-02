@@ -535,6 +535,8 @@
 <def-var n="NEW-noun_lu"/>
 <def-var n="num1"/>
 <def-var n="num_lu"/>
+<def-var n="nbr"/>
+<def-var n="pers"/>
     <def-var n="sntype"/>
     <def-var n="current_verb"/>
    <def-var n="adjec_lu"/>
@@ -693,91 +695,78 @@
           <when> 
             <test>
               <equal caseless="yes">
-                <clip pos="1" side="sl" part="lem"/>
+                <clip pos="1" side="sl" part="a_cas"/>
                 <lit-tag v="loc"/>
               </equal>
             </test>
-            <let>
-               <var n="case"/>
-               <lit v="in"/>
-            </let>
+            <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                       <lit v="in"/>
+                        <lit-tag v="pr"/>          
+                      </concat>
+             </let>
        </when> 
 
 <when> 
             <test>
               <equal caseless="yes">
-                <clip pos="1" side="sl" part="lem"/>
+                <clip pos="1" side="sl" part="a_cas"/>
                 <lit-tag v="abl"/>
               </equal>
             </test>
-            <let>
-               <var n="case"/>
-               <lit v="of"/>
-            </let>
+            <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                       <lit v="from"/>
+                        <lit-tag v="pr"/>          
+                      </concat>
+             </let>
        </when> 
 <when> 
             <test>
               <equal caseless="yes">
-                <clip pos="1" side="sl" part="lem"/>
+                <clip pos="1" side="sl" part="a_cas"/>
                 <lit-tag v="dat"/>
               </equal>
             </test>
-            <let>
-               <var n="case"/>
-               <lit v="into"/>
-            </let>
+            <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                       <lit v="to"/>
+                        <lit-tag v="pr"/>          
+                      </concat>
+             </let>
        </when> 
 <when> 
             <test>
               <equal caseless="yes">
-                <clip pos="1" side="sl" part="lem"/>
+                <clip pos="1" side="sl" part="a_cas"/>
                 <lit-tag v="gen"/>
               </equal>
             </test>
-            <let>
-               <var n="case"/>
-               <lit v="among"/>
-            </let>
+            <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                       <lit v="of"/>
+                        <lit-tag v="pr"/>          
+                      </concat>
+             </let>
        </when> 
 
-      <when>   <!-- at and in have the same translation: locative -->
+     
+  <when>   <!-- at and in have the same translation: locative -->
         <test>
           <equal caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <lit-tag v="loc"/>
+            <clip pos="1" side="sl" part="a_cas"/>
+            <lit-tag v="ins"/>
           </equal>
         </test>
-        <let>
-          <var n="case"/>
-          <lit v="at"/>
-        </let>
+       <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                       <lit v="with"/>
+                        <lit-tag v="pr"/>          
+                      </concat>
+             </let>
     </when> 
-  
-           <when> 
-             <test>
-               <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
-                  <lit-tag v="abl"/>
-               </equal>
-             </test>
-             <let>
-                <var n="case"/>
-                <lit v="from"/>
-             </let>
+           
 
-       </when>    
-<when> 
-             <test>
-               <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
-                  <lit-tag v="abl"/>
-               </equal>
-             </test>
-             <let>
-                <var n="case"/>
-                <lit v="after"/>
-             </let>
-       </when>  
 <!--<when> 
              <test>
                <equal caseless="yes">
@@ -794,7 +783,7 @@
           <when> 
             <test>
               <equal caseless="yes">
-                <clip pos="1" side="sl" part="lem"/>
+                <clip pos="1" side="sl" part="a_cas"/>
                 <lit-tag v="dat"/>
               </equal>
             </test>
@@ -807,7 +796,7 @@
            <when> 
              <test>
                 <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
+                  <clip pos="1" side="sl" part="a_cas"/>
                   <lit-tag v="ins"/>
                 </equal>
              </test>
@@ -820,7 +809,7 @@
            <when> 
              <test>
                 <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
+                  <clip pos="1" side="sl" part="a_cas"/>
                   <lit-tag v="gen"/>
                  </equal>
               </test>
@@ -1274,64 +1263,6 @@
     </out>
       </action>
 </rule>
-
-
-<rule comment="RULE: Noun in gen">
-      <pattern>
-        <pattern-item n="n-gen"/>
-      </pattern>
-<action>
-        
-      
-        <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
-        </call-macro>
- <choose>
-                 <when>
-                   <test>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                  </test>
-                  <let><var n="number"/><lit-tag v="pl"/></let>
-                </when>
-                <otherwise>
-                  <let><var n="number"/><lit-tag v="sg"/></let>
-                </otherwise>
-              </choose>
-
-<out>
-          <chunk name="noun-gen" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="PP"/></tag>
-            </tags>
-<lu>
-              <lit v="of"/>
-             <lit-tag v="pr"/>
-         
- </lu>
-  <b/>
-
-            <lu>
-	<clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-            
-              <clip pos="1" side="tl" part="lemq"/>
-  
-             <var n="number"/>
-
-            </lu>
-          </chunk>
-        </out>
- <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    
-    </rule>
-
-
 
 
 
@@ -4102,7 +4033,9 @@
       </pattern>
 <action>
         
-      
+      <call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="conv-case1">
           <with-param pos="1"/>
         </call-macro>
@@ -4131,7 +4064,12 @@
             <tags>
               <tag><var n="sntype"/></tag>
             </tags>
+
             <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+<lu>
 	<clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
             
@@ -5746,14 +5684,18 @@
                 </when>
 <when>
                    <test>
-                   <and>
-                       <equal><clip pos="3" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
-                       <equal><clip pos="3" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                     </and>
+                   <!--<and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>-->
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                    <!-- </and>-->
                       </test>
-                 <let><clip pos="3" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="3" side="tl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+<let><var n="number"/><lit-tag v="pl"/></let>
+<let><var n="nbr"/><lit v=""/></let>
+<let><var n="pers"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
+
 <when>
                    <test>
                    <and>
@@ -5776,6 +5718,9 @@
                 </when>
                 <otherwise>
                   <let><var n="number"/><lit-tag v="sg"/></let>
+
+<let><var n="nbr"/><lit-tag v="4"/></let>
+<let><var n="pers"/><lit-tag v="3"/></let>
                 </otherwise>
               </choose>
 
@@ -5786,7 +5731,7 @@
               <tag><lit-tag v="SV-passive"/></tag>
               <tag><clip pos="3" side="tl" part="a_tns"/></tag>
               <tag><clip pos="3" side="tl" part="a_pers"/></tag>
-              <tag><clip pos="3" side="tl" part="a_nbr"/></tag>
+              <tag><var n="number"/></tag>
             </tags>
 <lu>
               <clip pos="1" side="tl" part="lem"/>
@@ -5801,8 +5746,9 @@
               <lit-tag v="vbser"/>
 
               <lit-tag v="2"/>
-              <lit-tag v="3"/>
-              <lit-tag v="4"/>
+
+<var n="pers"/>
+            <var n="nbr"/>
             </lu>
             <b/>
 <lu>

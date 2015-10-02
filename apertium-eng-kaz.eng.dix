@@ -41643,6 +41643,8 @@
 
                             <e lm="acidity" i=""><i>acidit</i><par n="bab/y__n"/></e>
 
+                            <e lm="acknowledgment" i=""><i>acknowledgment</i><par n="house__n"/></e>
+
                             <e lm="acp" i=""><i>acp</i><par n="house__n"/></e>
 
                             <e lm="acoustics" i=""><i>acoustics</i><par n="politics__n"/></e>
@@ -44632,6 +44634,8 @@
 
                             <e lm="detoxication" i=""><i>detoxication</i><par n="house__n"/></e>
 
+                            <e lm="detractor" i=""><i>detractor</i><par n="house__n"/></e>
+
                             <e lm="devaluation" i=""><i>devaluation</i><par n="house__n"/></e>
 
                             <e lm="devastation" i=""><i>devastation</i><par n="house__n"/></e>
@@ -45768,6 +45772,8 @@
                             <e lm="flame" i=""><i>flame</i><par n="house__n"/></e>
 
                             <e lm="flap" i=""><i>flap</i><par n="house__n"/></e>
+
+                            <e lm="flapper" i=""><i>flapper</i><par n="house__n"/></e>
 
                             <e lm="flat" i=""><i>flat</i><par n="house__n"/></e>
 
@@ -47323,6 +47329,8 @@
                             <e lm="Amazonian rainforest" i=""><i>Amazonian<b/>rainforest</i><par n="house__n"/></e>
 
                             <e lm="kinship" i=""><i>kinship</i><par n="house__n"/></e>
+
+                            <e lm="kinsman" i=""><i>kinsman</i><par n="house__n"/></e>
 
                             <e lm="kiosk" i=""><i>kiosk</i><par n="house__n"/></e>
 
@@ -52032,6 +52040,8 @@
 
                             <e lm="trader" i=""><i>trader</i><par n="house__n"/></e>
 
+                            <e r="LR" lm="tradesmen" i=""><i>tradesmen</i><par n="house__n"/></e>
+
                             <e lm="trade route" i=""><i>trade<b/>route</i><par n="house__n"/></e>
 
                             <e lm="trading" i=""><i>trading</i><par n="east__n"/></e>
@@ -54499,6 +54509,8 @@
 
                             <e lm="disabled" i=""><i>disabled</i><par n="expensive__adj"/></e>
 
+                            <e lm="disagreeable" i=""><i>disagreeable</i><par n="expensive__adj"/></e>
+
                             <e lm="disappointing" i=""><i>disappointing</i><par n="expensive__adj"/></e>
 
                             <e lm="disastrous" i=""><i>disastrous</i><par n="expensive__adj"/></e>
@@ -55115,6 +55127,8 @@
                             <e lm="illicit" i=""><i>illicit</i><par n="expensive__adj"/></e>
 
                             <e lm="illiterate" i=""><i>illiterate</i><par n="expensive__adj"/></e>
+
+                            <e lm="illustrious" i=""><i>illustrious</i><par n="expensive__adj"/></e>
 
                             <e lm="imaginary" i=""><i>imaginary</i><par n="expensive__adj"/></e>
 
@@ -58642,6 +58656,8 @@ F
 
                             <e lm="denounce" i=""><i>denounc</i><par n="liv/e__vblex"/></e>
 
+                            <e lm="depart" i=""><i>depart</i><par n="accept__vblex"/></e>
+
                             <e lm="depend" i=""><i>depend</i><par n="accept__vblex"/></e>
 
                             <e lm="depict" i=""><i>depict</i><par n="accept__vblex"/></e>
@@ -59434,6 +59450,8 @@ F
                             <e lm="intend" i=""><i>intend</i><par n="accept__vblex"/></e>
 
                             <e lm="intensify" i=""><i>intensif</i><par n="appl/y__vblex"/></e>
+
+                            <e lm="intercede" i=""><i>intercede</i><par n="accept__vblex"/></e>
 
                             <e lm="intercept" i=""><i>intercept</i><par n="accept__vblex"/></e>
 
@@ -71142,6 +71160,8 @@ F
 
                             <e lm="proper" i=""><i>proper</i><par n="expensive__adj"/></e>
 
+                            <e lm="proposition" i=""><i>proposition</i><par n="house__n"/></e>
+
                             <e lm="propositional" i=""><i>propositional</i><par n="expensive__adj"/></e>
 
                             <e lm="propylaeum" i=""><i>propylaeum</i><par n="house__n"/></e>
@@ -71163,6 +71183,8 @@ F
                             <e lm="prostration" i=""><i>prostration</i><par n="house__n"/></e>
 
                             <e lm="prostyle" i=""><i>prostyle</i><par n="expensive__adj"/></e>
+
+                            <e lm="protector" i=""><i>protector</i><par n="house__n"/></e>
 
                             <e lm="proteinuria" i=""><i>proteinuria</i><par n="house__n"/></e>
 

@@ -114,10 +114,19 @@ SELECT N IF (0 ("<sound>"i))(1 ("<to>"i))(2 ("<tell>"i)) ;
 
 SELECT N IF (-1 ("<both>"i)) ; 
 
+#for selecting "when" as cnjadv, if before come "adv - once"
+
+SELECT (cnjadv) IF (-1 Adv) ; 
+
+
+#
+
 #for selecting name if it come before cog
 
 SELECT (np ant) IF (1 (np cog)) ; 
 
+
+##
 SELECT NUM IF (0 ("<I>"i))(1 EOS) ; 
 
 SELECT (prn tn mf) IF (0 ("<most>"i))(1 N) ; 

@@ -330,8 +330,14 @@
  <def-cat n="if-cnjadv">
        <cat-item lemma="if" tags="cnjadv"/>
 
-<cat-item lemma="when" tags="cnjadv"/>
+
     </def-cat>
+ <def-cat n="when-cnjadv">
+
+<cat-item lemma="when" tags="cnjadv"/>
+
+    </def-cat>
+
 
  
 
@@ -345,7 +351,7 @@
     </def-cat>
 
   <def-cat n="adv-itg">
-      <cat-item tags="adv.itg"/>
+      <cat-item lemma="when" tags="adv.itg"/>
       
     </def-cat>
 
@@ -13160,6 +13166,32 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   </action>
 </rule>
 
+
+<!--
+<rule comment="NEW RULE:adv adv">  
+  <pattern>
+ <pattern-item n="adv"/>
+    <pattern-item n="adv-itg"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="adv-when">
+    <tags>
+    <tag><lit-tag v="AdvP-when"/></tag>
+    </tags>
+	<b pos="1"/>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+     </lu>
+	<b/>
+
+    </chunk>
+    </out>
+  </action>
+</rule>-->
+
+
+
 <rule comment="NEW RULE:adv adv">  
   <pattern>
  <pattern-item n="preadv"/>
@@ -13266,7 +13298,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <pattern-item n="if-cnjadv"/>
   </pattern>
   <action>
-   <call-macro n="build-cnjadv-lu"><with-param pos="1"/></call-macro> 
+  <call-macro n="build-cnjadv-lu"><with-param pos="1"/></call-macro> 
     <out>
     <chunk name="if">
     <tags>
@@ -13274,8 +13306,27 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <tag><lit-tag v="cnjsub"/></tag>
     </tags>
     <lu>
-      <var n="cnjadv_lu"/>
+               <var n="cnjadv_lu"/>
      </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: cnjadv">  
+  <pattern>
+    <pattern-item n="when-cnjadv"/>
+  </pattern>
+  <action>
+  <call-macro n="build-cnjadv-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="if">
+    <tags>
+  <tag><lit-tag v="IF"/></tag>
+    </tags>
+    
+<b/>
+     
     </chunk>
     </out>
   </action>
@@ -13456,6 +13507,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     </out>
   </action>
 </rule>
+
 <rule comment="NEW RULE: num">  
   <pattern>
     <pattern-item n="num"/>

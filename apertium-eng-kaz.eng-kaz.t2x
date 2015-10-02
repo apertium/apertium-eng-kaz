@@ -1614,6 +1614,10 @@
     </rule>
 
 
+
+
+
+
 <rule comment="NEW RULE: if NP VP NP PP ">
     <!--Егер мен кітап жазсам -->
      <pattern>

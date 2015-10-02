@@ -1614,6 +1614,53 @@
     </rule>
 
 
+<rule comment="NEW RULE: if NP VP NP">
+    <!--when i was six years old -->
+     <pattern>
+       <pattern-item n="IF"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP_past_be"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+           <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk> 
+      <b pos="1"/>
+      <b pos="2"/>
+      <b pos="3"/>
+           <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+
+           <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk> 
+           <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <lit-tag v="VP"/>
+
+             <lit-tag v="ger_past"/>
+
+            <clip pos="3" part="a_possessive"/> 
+            <clip pos="3" part="a_neg"/>
+             <lit-tag v="loc"/>
+            <clip pos="3" part="chcontent"/>
+
+         </chunk> 
+      </out>
+     </action>
+    </rule>
+
 
 
 

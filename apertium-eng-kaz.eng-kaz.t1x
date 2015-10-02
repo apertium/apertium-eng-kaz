@@ -1739,13 +1739,13 @@
   <action>
 
   <call-macro n="NEW-build-noun-lu-2-4-5">
-       <with-param pos="1"/>
+       <with-param pos="2"/>
 
   </call-macro> 
 <choose>
 <when>
     <test>
-<equal><clip pos="1" side="sl" part="a_possessive"/><lit-tag v="px3sp"/></equal>
+<equal><clip pos="2" side="sl" part="a_possessive"/><lit-tag v="px3sp"/></equal>
 </test>
 <let> <var n="possessive"/><lit-tag v="px3sp"/></let>
 </when>
@@ -1757,21 +1757,23 @@
     <chunk name="np-ant-cog">
     <tags>
     <tag><lit-tag v="NP"/></tag>
-    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+    <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
     <tag><lit-tag v="p3"/></tag>
     <tag><var n="possessive"/></tag>
     <tag><lit-tag v="CD"/></tag> 
     </tags>
-    <lu>
-      <var n="NEW-noun_lu"/>
-    </lu>
-<b/>
+   
    <lu>
-     <clip pos="2" side="tl" part="lem"/> 
-     <clip pos="2" side="tl" part="a_nom"/>
-     <clip pos="2" side="tl" part="a_nbr"/>
+     <clip pos="1" side="tl" part="lem"/> 
+     <clip pos="1" side="tl" part="a_nom"/>
+     <clip pos="1" side="tl" part="a_nbr"/>
      <lit-tag v="nom"/>
     </lu>
+<b/>
+ <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+
     </chunk>
     </out>
   </action>
@@ -13436,7 +13438,24 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   </action>
 </rule>
 
-
+<rule comment="NEW RULE: Rel which">  
+  <pattern>
+    <pattern-item n="rel"/>
+  </pattern>
+  <action>
+      <let> <clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let> 
+    <out>
+    <chunk name="rel">
+    <tags>
+  <tag><lit-tag v="Rel"/></tag>
+    </tags>
+    <lu>
+ <clip pos="1" side="tl" part="whole"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 <rule comment="NEW RULE: num">  
   <pattern>
     <pattern-item n="num"/>
@@ -13479,24 +13498,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   </action>
 </rule>
 
-<rule comment="NEW RULE: Rel which">  
-  <pattern>
-    <pattern-item n="rel"/>
-  </pattern>
-  <action>
-      <let> <clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let> 
-    <out>
-    <chunk name="rel">
-    <tags>
-  <tag><lit-tag v="Rel"/></tag>
-    </tags>
-    <lu>
- <clip pos="1" side="tl" part="whole"/>
-     </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
+
 
 <rule comment="NEW RULE:adv adj">    <!--very large-->
   <pattern>

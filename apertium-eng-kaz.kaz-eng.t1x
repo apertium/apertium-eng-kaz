@@ -5585,65 +5585,66 @@
 
 <rule comment="RULE: V-be+ pp"> <!--is written-->
       <pattern>
-	<pattern-item n="nom"/>
+	
         <pattern-item n="v-passive"/>
       </pattern>
       <action>
   
-         <let><clip pos="3" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
+         <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
 <choose><!-- choosing correct to be--> 
 
 <when>
                    <test>
                    
-                       <equal><clip pos="3" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
                       </test>
-                 <let><clip pos="3" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="3" side="tl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
 <when>
                    <test>
                    <and>
-                       <equal><clip pos="3" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="3" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
                      </and>
                       </test>
-                 <let><clip pos="3" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="3" side="tl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
+
 <when>
                    <test>
                    
                        <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
                     
                       </test>
-                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
 <let><var n="number"/><lit-tag v="pl"/></let>
 <let><var n="nbr"/><lit v=""/></let>
 <let><var n="pers"/><lit v=""/></let>
-           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
 
 <when>
                    <test>
                    <and>
-                       <equal><clip pos="3" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="3" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
-                       <equal><clip pos="3" side="sl" part="a_tns"/><lit-tag v="past"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="past"/></equal>
                      </and>
                       </test>
-           <let><clip pos="3" side="tl" part="a_pers"/><lit v="p3"/></let>
-                 <let><clip pos="3" side="tl" part="a_nbr"/><lit v="sg"/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v="p3"/></let>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v="sg"/></let>
 
                 </when>
           
- 
+ <!--
                  <when>
                    <test>
                        <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
                   </test>
                   <let><var n="number"/><lit-tag v="pl"/></let>
-                </when>
+                </when>-->
                 <otherwise>
                   <let><var n="number"/><lit-tag v="sg"/></let>
 
@@ -5657,17 +5658,18 @@
           <chunk name="pres-pass" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV-passive"/></tag>
-              <tag><clip pos="2" side="tl" part="a_tns"/></tag>
-              <tag><clip pos="2" side="tl" part="a_pers"/></tag>
-              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
             </tags>
+<!--
 <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_nom"/>
               
 <var n="number"/>
             </lu>
-<b/>
+<b/>-->
             <lu>
               <lit v="be"/>
               <lit-tag v="vbser"/>
@@ -5678,10 +5680,10 @@
             </lu>
             <b/>
             <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
               <lit-tag v="pp"/>
-              <clip pos="2" side="tl" part="lemq"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>

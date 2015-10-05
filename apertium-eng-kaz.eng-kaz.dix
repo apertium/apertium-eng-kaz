@@ -7393,6 +7393,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>zombie<s n="n"/></l><r>зомби<s n="n"/></r></p></e>
 <e><p><l>zoology<s n="n"/></l><r>зоология<s n="n"/></r></p></e>
 <e><p><l>zoo<s n="n"/></l><r>хайуанаттар<b/>саябақ<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>zoo<s n="n"/></l><r>зоо<s n="n"/></r></p></e>
 
 
 <e><p><l>majesty<s n="n"/></l><r>айбын<s n="n"/></r></p></e>

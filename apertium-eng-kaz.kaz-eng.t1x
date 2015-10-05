@@ -25,6 +25,9 @@
        <cat-item tags="n.*"/>
  <cat-item tags="n.*.*"/>
       <cat-item tags="np.al"/>
+<cat-item tags="abbr.*"/>
+<cat-item tags="n.acr.*"/>
+<cat-item tags="abbr"/>
       <cat-item tags="np.al.*"/>
    <!--   <cat-item tags="np.cog"/>
       <cat-item tags="np.cog.*"/>-->

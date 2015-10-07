@@ -2518,23 +2518,35 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <!--noun-->
 <e><p><l>acknowledgment<s n="n"/></l><r>құрмет<s n="n"/></r></p></e>
+<e><p><l>beggary<s n="n"/></l><r>кедейлік<s n="n"/></r></p></e>
+<e><p><l>bigness<s n="n"/></l><r>аумақ<s n="n"/></r></p></e>
+<e><p><l>cabal<s n="n"/></l><r>қастық<s n="n"/></r></p></e>
+<e><p><l>censure<s n="n"/></l><r>айыптау<s n="n"/></r></p></e>
+<e><p><l>chariot<s n="n"/></l><r>арба<s n="n"/></r></p></e>
+<e><p><l>cornground<s n="n"/></l><r>егістік<s n="n"/></r></p></e>
+<e><p><l>countryman<s n="n"/></l><r>отандас<s n="n"/></r></p></e>
 <e><p><l>dearth<s n="n"/></l><r>аштық<s n="n"/></r></p></e>
 <e><p><l>demesne<s n="n"/></l><r>меншік<s n="n"/></r></p></e>
 <e><p><l>detractor<s n="n"/></l><r>жала<b/>жабушы<s n="n"/></r></p></e>
+<e><p><l>domestic<s n="n"/></l><r>қызметші<s n="n"/></r></p></e>
 <e><p><l>dominion<s n="n"/></l><r>үстемдік<s n="n"/></r></p></e>
 <e><p><l>exactness<s n="n"/></l><r>дәлдік<s n="n"/></r></p></e>
+<e><p><l>excellency<s n="n"/></l><r>мәртебелі<s n="n"/></r></p></e>
 <e><p><l>fallings<s n="n"/></l><r>төмендету<s n="n"/></r></p></e>
 <e><p><l>flapper<s n="n"/></l><r>торсылдатқыш<s n="n"/></r></p></e>
 <e><p><l>gentleness<s n="n"/></l><r>жұмсақтық<s n="n"/></r></p></e>
+<e><p><l>grandee<s n="n"/></l><r>бекзат<s n="n"/></r></p></e>
 <e><p><l>hospitably<s n="n"/></l><r>қонақ-жайлылық<s n="n"/></r></p></e>
 <e><p><l>kinsman<s n="n"/></l><r>туысқан<s n="n"/></r></p></e>
 <e><p><l>loadstone<s n="n"/></l><r>магнит<s n="n"/></r></p></e>
+<e><p><l>misery<s n="n"/></l><r>қайыршылық<s n="n"/></r></p></e>
 <e><p><l>mutiny<s n="n"/></l><r>бүлік<s n="n"/></r></p></e>
 <e><p><l>necessity<s n="n"/></l><r>қажеттілік<s n="n"/></r></p></e>
 <e><p><l>obliquity<s n="n"/></l><r>ауытқу<s n="n"/></r></p></e>
 <e><p><l>obstinate<s n="n"/></l><r>қарсылық<s n="n"/></r></p></e>
 <e><p><l>proposition<s n="n"/></l><r>теорема<s n="n"/></r></p></e>
 <e><p><l>protector<s n="n"/></l><r>жарылқаушы<s n="n"/></r></p></e>
+<e r="LR"><p><l>rags<s n="n"/></l><r>>жалба-жұлба<s n="n"/></r></p></e>
 <e><p><l>risings<s n="n"/></l><r>көтеру<s n="n"/></r></p></e>
 <e r="LR"><p><l>tradesmen<s n="n"/></l><r>саудагерлер<s n="n"/></r></p></e>
 <e r="LR"><p><l>tenure<s n="n"/></l><r>жер<b/>иелену<s n="n"/></r></p></e>
@@ -2552,11 +2564,15 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <!--adjective-->
 <e><p><l>adamantine<s n="adj"/></l><r>алмас<b/>негізді<s n="adj"/></r></p></e>
 <e><p><l>averse<s n="adj"/></l><r>ынтасыз<s n="adj"/></r></p></e>
+<e><p><l>clad<s n="adj"/></l><r>киінген<s n="adj"/></r></p></e>
 <e><p><l>disagreeable<s n="adj"/></l><r>жағымсыз<s n="adj"/></r></p></e>
 <e><p><l>illustrious<s n="adj"/></l><r>қадірменді<s n="adj"/></r></p></e>
 <e><p><l>oblique<s n="adj"/></l><r>қиғаш<s n="adj"/></r></p></e>
 <e r="LR"><p><l>odious<s n="adj"/></l><r>мейлінше<b/>жаман<s n="adj"/></r></p></e>
 <e><p><l>periodical<s n="adj"/></l><r>мерзімді<s n="adj"/></r></p></e>
+<e><p><l>ruinous<s n="adj"/></l><r>қираған<s n="adj"/></r></p></e>
+<e><p><l>unaccountable<s n="adj"/></l><r>түсініксіз<s n="adj"/></r></p></e>
+<e><p><l>unhappily<s n="adj"/></l><r>күтімсіз<s n="adj"/></r></p></e>
 <e><p><l>weighty<s n="adj"/></l><r>маңызды<s n="adj"/></r></p></e>
 <!--end of adjective-->
 

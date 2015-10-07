@@ -42568,6 +42568,8 @@
 
                             <e lm="beetroot" i=""><i>beetroot</i><par n="house__n"/></e>
 
+                            <e lm="beggary" i=""><i>beggary</i><par n="house__n"/></e>
+
                             <e lm="begging" i=""><i>begging</i><par n="house__n"/></e>
 
                             <e lm="beginning" i=""><i>beginning</i><par n="house__n"/></e>
@@ -42621,6 +42623,8 @@
                             <e lm="bid" i=""><i>bid</i><par n="house__n"/></e>
 
                             <e lm="bidding" i=""><i>bidding</i><par n="house__n"/></e>
+
+                            <e lm="bigness" i=""><i>bigness</i><par n="house__n"/></e>
 
                             <e lm="bike" i=""><i>bike</i><par n="house__n"/></e>
 
@@ -42934,6 +42938,8 @@
 
                             <e lm="buyer" i=""><i>buyer</i><par n="house__n"/></e>
 
+                            <e lm="cabal" i=""><i>cabal</i><par n="house__n"/></e>
+
                             <e lm="cabbage" i=""><i>cabbage</i><par n="house__n"/></e>
 
                             <e lm="cabinet" i=""><i>cabinet</i><par n="house__n"/></e>
@@ -43201,6 +43207,8 @@
 
                             <e lm="censorship" i=""><i>censorship</i><par n="house__n"/></e>
 
+                            <e lm="censure" i=""><i>censure</i><par n="house__n"/></e>
+
                             <e lm="cent" i=""><i>cent</i><par n="house__n"/></e>
 
                             <e lm="centimetre" i=""><i>centimet</i><par n="cent/re__n"/></e>
@@ -43278,6 +43286,8 @@
                             <e lm="charge" i=""><i>charge</i><par n="house__n"/></e>
 
                             <e lm="charisma" i=""><i>charisma</i><par n="house__n"/></e>
+
+                            <e lm="chariot" i=""><i>chariot</i><par n="house__n"/></e>
 
                             <e lm="charity" i=""><i>charit</i><par n="bab/y__n"/></e>
 
@@ -44081,6 +44091,8 @@
 
                             <e lm="corner" i=""><i>corner</i><par n="house__n"/></e>
 
+                            <e lm="cornground" i=""><i>cornground</i><par n="house__n"/></e>
+
                             <e lm="cornice" i=""><i>cornice</i><par n="house__n"/></e>
 
                             <e lm="coronation" i=""><i>coronation</i><par n="house__n"/></e>
@@ -44148,6 +44160,8 @@
                             <e lm="counterweight" i=""><i>counterweight</i><par n="house__n"/></e>
 
                             <e lm="country" i=""><i>countr</i><par n="bab/y__n"/></e>
+
+                            <e lm="countryman" i=""><i>countryman</i><par n="house__n"/></e>
 
                             <e lm="countryside" i=""><i>countryside</i><par n="house__n"/></e>
 
@@ -44926,6 +44940,8 @@
 
                             <e lm="domain" i=""><i>domain</i><par n="house__n"/></e>
 
+                            <e lm="domestic" i=""><i>domestic</i><par n="house__n"/></e>
+
                             <e lm="domestication" i=""><i>domestication</i><par n="house__n"/></e>
 
                             <e lm="domicile" i=""><i>domicile</i><par n="house__n"/></e>
@@ -45418,6 +45434,8 @@
                             <e lm="excavation" i=""><i>excavation</i><par n="house__n"/></e>
 
                             <e lm="excellence" i=""><i>excellence</i><par n="house__n"/></e>
+
+                            <e lm="excellency" i=""><i>excellency</i><par n="house__n"/></e>
 
                             <e lm="exception" i=""><i>exception</i><par n="house__n"/></e>
 
@@ -46208,6 +46226,8 @@
                             <e lm="granddaughter" i=""><i>granddaughter</i><par n="house__n"/></e>
 
                             <e lm="granddad" i=""><i>granddad</i><par n="house__n"/></e>
+
+                            <e lm="grandee" i=""><i>grandee</i><par n="house__n"/></e>
 
                             <e lm="grandpa" i=""><i>grandpa</i><par n="house__n"/></e>
 
@@ -48078,6 +48098,8 @@
                             <e lm="mirage" i=""><i>mirage</i><par n="house__n"/></e>
 
                             <e lm="mirror" i=""><i>mirror</i><par n="house__n"/></e>
+
+                            <e lm="misery" i=""><i>misery</i><par n="house__n"/></e>
 
                             <e lm="miscellanea" i=""><i>miscellanea</i><par n="house__n"/></e>
 
@@ -49968,6 +49990,8 @@
                             <e lm="radiology" i=""><i>radiolog</i><par n="bab/y__n"/></e>
 
                             <e lm="radiotherapy" i=""><i>radiotherap</i><par n="bab/y__n"/></e>
+
+                            <e r="LR" lm="rags" i=""><i>rags</i><par n="house__n"/></e>
 
                             <e lm="rage" i=""><i>rage</i><par n="house__n"/></e>
 
@@ -54215,6 +54239,8 @@
 
                             <e lm="civil" i=""><i>civil</i><par n="common/__adj"/></e>
 
+                            <e lm="clad" i=""><i>clad</i><par n="expensive__adj"/></e>
+
                             <e lm="classical" i=""><i>classical</i><par n="expensive__adj"/></e>
 
                             <e lm="clean" i=""><i>clean</i><par n="long/__adj"/></e>
@@ -56588,6 +56614,8 @@
 
                             <e lm="rugged" i=""><i>rugged</i><par n="expensive__adj"/></e>
 
+                            <e lm="ruinous" i=""><i>ruinous</i><par n="expensive__adj"/></e>
+
                             <e lm="rural" i=""><i>rural</i><par n="expensive__adj"/></e>
 
                             <e lm="ruthless" i=""><i>ruthless</i><par n="expensive__adj"/></e>
@@ -57065,6 +57093,8 @@
 
                             <e lm="unacceptable" i=""><i>unacceptable</i><par n="expensive__adj"/></e>
 
+                            <e lm="unaccountable" i=""><i>unaccountable</i><par n="expensive__adj"/></e>
+
                             <e lm="unambiguous" i=""><i>unambiguous</i><par n="expensive__adj"/></e>
 
                             <e lm="unanimous" i=""><i>unanimous</i><par n="expensive__adj"/></e>
@@ -57110,6 +57140,8 @@
                             <e lm="unforgivable" i=""><i>unforgivable</i><par n="expensive__adj"/></e>
 
                             <e lm="dissatisfied" i=""><i>dissatisfied</i><par n="expensive__adj"/></e>
+
+                            <e lm="unhappily" i=""><i>unhappily</i><par n="expensive__adj"/></e>
 
                             <e lm="unhappy" i=""><i>unhapp</i><par n="happ/y__adj"/></e>
 

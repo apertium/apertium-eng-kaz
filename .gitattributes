@@ -63,6 +63,7 @@ experimentsAidana/data.eng-kaz/global-defaults.eng-kaz.bin -text svneol=unset#un
 experimentsAidana/data.eng-kaz/global-defaults.eng-kaz.lrx -text
 experimentsAidana/setup-corpus.sh -text
 experimentsAidana/setup-data.sh -text
+/instructions -text
 /kaz-cover.sh -text
 /kaz-eng.prob -text svneol=unset#unset
 /modes.xml -text

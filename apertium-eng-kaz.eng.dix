@@ -40738,6 +40738,10 @@
 
                             <e lm="Google" i=""><i>Google</i><par n="Linux__np"/></e>
 
+                            <e lm="Warner" i=""><i>Warner</i><par n="Linux__np"/></e>
+
+                            <e lm="Columbia" i=""><i>Columbia</i><par n="Linux__np"/></e>
+
                             <e lm="Aer Lingus" i=""><i>Aer<b/>Lingus</i><par n="Linux__np"/></e>
 
                             <e lm="Google Summer of Code" i=""><i>Google<b/>Summer<b/>of<b/>Code</i><par n="Linux__np"/></e>
@@ -44829,6 +44833,8 @@
                             <e lm="disinfection" i=""><i>disinfection</i><par n="house__n"/></e>
 
                             <e lm="disintegration" i=""><i>disintegration</i><par n="house__n"/></e>
+
+                            <e lm="blockbuster" i=""><i>blockbuster</i><par n="house__n"/></e>
 
                             <e lm="disk" i=""><i>disk</i><par n="house__n"/></e>
 
@@ -53087,6 +53093,8 @@
 
     
                             <e lm="BBC" i=""><i>BBC</i><par n="BBC__n"/></e>
+
+                            <e lm="BBC" i=""><i>MGM</i><par n="BBC__n"/></e>
 
  <e lm="BIN" i=""><i>BIN</i><par n="BBC__n"/></e>
  <e lm="IIC" i=""><i>IIC</i><par n="BBC__n"/></e>

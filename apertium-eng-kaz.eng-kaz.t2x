@@ -7853,7 +7853,6 @@
      </pattern>
      <action>
       <out>
-          <chunk>
             <chunk>
             <clip pos="2" part="lem"/>
             <lit-tag v="NP"/>
@@ -7863,7 +7862,6 @@
             <clip pos="2" part="a_possessive"/>
             <lit-tag v="acc"/>
             <clip pos="2" part="chcontent"/>
-          </chunk>
           </chunk>
           <b pos="1"/>
           <chunk>

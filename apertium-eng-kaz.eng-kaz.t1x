@@ -5567,7 +5567,7 @@
 <rule comment="NEW RULE: prep noun"> 
   <pattern>
     <pattern-item n="prep"/>
-    <pattern-item n="noun"/>
+    <pattern-item n="nom"/>
   </pattern>
   <action>
 <!--

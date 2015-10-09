@@ -23386,6 +23386,8 @@
 
                             <e lm="distressedly" i=""><i>distressedly</i><par n="maybe__adv"/></e>
 
+                            <e lm="obliquely" i=""><i>obliquely</i><par n="maybe__adv"/></e>
+
                             <e lm="apocryphally" i=""><i>apocryphally</i><par n="maybe__adv"/></e>
 
                             <e lm="empowerly" i=""><i>empowerly</i><par n="maybe__adv"/></e>
@@ -41633,6 +41635,8 @@
 
                             <e lm="accumulation" i=""><i>accumulation</i><par n="house__n"/></e>
 
+                            <e lm="scintillation" i=""><i>scintillation</i><par n="house__n"/></e>
+
                             <e lm="accuracy" i=""><i>accurac</i><par n="bab/y__n"/></e>
 
                             <e lm="ace" i=""><i>ace</i><par n="house__n"/></e>
@@ -49431,6 +49435,8 @@
 
                             <e lm="policeman" i=""><i>policem</i><par n="m/an__n"/></e>
 
+                            <e lm="seaman" i=""><i>seam</i><par n="m/an__n"/></e>
+
                             <e lm="policewoman" i=""><i>policewom</i><par n="m/an__n"/></e>
 
                             <e lm="security forces" i=""><i>security<b/>forces</i><par n="alms__n"/></e>
@@ -50699,6 +50705,8 @@
                             <e lm="sea" i=""><i>sea</i><par n="house__n"/></e>
 
                             <e lm="seaport" i=""><i>seaport</i><par n="house__n"/></e>
+    
+                            <e lm="sunbeam" i=""><i>sunbeam</i><par n="house__n"/></e>
 
                             <e lm="seal" i=""><i>seal</i><par n="house__n"/></e>
 
@@ -55620,8 +55628,10 @@
 
                             <e lm="metaphysical" i=""><i>metaphysical</i><par n="expensive__adj"/></e>
 
-<e lm="metaphysics" i=""><i>metaphysics</i><par n="expensive__adj"/></e>
+
+                           
                             <e lm="meteoric" i=""><i>meteoric</i><par n="expensive__adj"/></e>
+ <e lm="dosimetric" i=""><i>dosimetric</i><par n="expensive__adj"/></e>
 
                             <e lm="methodical" i=""><i>methodical</i><par n="expensive__adj"/></e>
 
@@ -55826,6 +55836,8 @@
                             <e lm="nutritious" i=""><i>nutritious</i><par n="expensive__adj"/></e>
 
                             <e lm="objective" i=""><i>objective</i><par n="expensive__adj"/></e>
+                   
+                            <e lm="oblique" i=""><i>oblique</i><par n="expensive__adj"/></e>
 
 			    <e lm="oblique" i=""><i>oblique</i><par n="house__n"/></e>
 
@@ -67016,6 +67028,8 @@ F
                             <e lm="dome" i=""><i>dome</i><par n="house__n"/></e>
 
                             <e lm="domination" i=""><i>domination</i><par n="house__n"/></e>
+
+                            <e lm="dominion" i=""><i>dominion</i><par n="house__n"/></e>
 
                             <e lm="donation" i=""><i>donation</i><par n="house__n"/></e>
 
@@ -78622,7 +78636,7 @@ F
 <e lm="decipher" i=""><i>decipher</i><par n="accept__vblex"/></e>
 <e lm="descry" i=""><i>descry</i><par n="appl/y__vblex"/></e>
 <e lm="discourse" i=""><i>discourse</i><par n="accept__vblex"/></e>
-<e lm="ensue" i=""><i>ensue</i><par n="liv/e__vblex"/></e>
+<e lm="ensue" i=""><i>ensu</i><par n="liv/e__vblex"/></e>
 <e lm="entreat" i=""><i>entreat</i><par n="accept__vblex"/></e>
 <e lm="equal" i=""><i>equal</i><par n="control__vblex"/></e>
 <e lm="excel" i=""><i>excel</i><par n="control__vblex"/></e>
@@ -82049,6 +82063,7 @@ F
                             <e lm="poetry reading" i=""><i>poetry<b/>reading</i><par n="house__n"/></e>
 
                             <e lm="radiophysics" i=""><i>radiophysics</i><par n="expensive__adj"/></e>
+<e lm="metaphysics" i=""><i>metaphysics</i><par n="expensive__adj"/></e>
 
                             <e lm="radiophysics" i=""><i>radiophysics</i><par n="politics__n"/></e>
 

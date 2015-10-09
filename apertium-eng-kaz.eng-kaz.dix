@@ -1078,6 +1078,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>scorpion<s n="n"/></l><r>шаян<s n="n"/></r></p></e>
 <e><p><l>sea<s n="n"/></l><r>теңіз<s n="n"/></r></p></e>
 <e><p><l>seaport<s n="n"/></l><r>теңіз<b/>порт<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>sunbeam<s n="n"/></l><r>күн<b/>сәуле<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>secret<s n="n"/></l><r>сыр<s n="n"/></r></p></e>
 <e><p><l>security<s n="n"/></l><r>күзет<s n="n"/></r></p></e>
 <e><p><l>sermon<s n="n"/></l><r>уағыз<s n="n"/></r></p></e>
@@ -1425,6 +1426,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>motorcycle<s n="n"/></l><r>мотоцикл<s n="n"/></r></p></e>
 <e><p><l>bicycle<s n="n"/></l><r>велосипед<s n="n"/></r></p></e>
 <e><p><l>policeman<s n="n"/></l><r>полицей<s n="n"/></r></p></e>
+<e><p><l>seaman<s n="n"/></l><r>теңізші<s n="n"/></r></p></e>
 
 
 
@@ -2447,6 +2449,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>principle<s n="n"/></l><r>қағидат<s n="n"/></r></p></e>
 <e><p><l>stockbroker<s n="n"/></l><r>биржа<b/>маклер<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>metaphysics<s n="adj"/></l><r>метафизикалық<s n="adj"/></r></p></e>
+<e><p><l>dosimetric<s n="adj"/></l><r>дозиметрикалық<s n="adj"/></r></p></e>
 <e><p><l>idea<s n="n"/></l><r>идея<s n="n"/></r></p></e>
 <e><p><l>picture<s n="n"/></l><r>картина<s n="n"/></r></p></e>
 <e><p><l>medal<s n="n"/></l><r>медаль<s n="n"/></r></p></e>
@@ -3037,6 +3040,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>mission<s n="n"/></l><r>миссия<s n="n"/></r></p></e>
 <e><p><l>delegation<s n="n"/></l><r>делегация<s n="n"/></r></p></e>
 <e><p><l>investigation<s n="n"/></l><r>тергеу<s n="n"/></r></p></e>
+
 <e><p><l>association<s n="n"/></l><r>ассоциация<s n="n"/></r></p></e>
 <e><p><l>negotiation<s n="n"/></l><r>келіссөздер<s n="n"/></r></p></e>
 <e><p><l>inflation<s n="n"/></l><r>инфляция<s n="n"/></r></p></e>
@@ -3173,6 +3177,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>accounting<s n="n"/></l><r>бухгалтерлік<b/>есеп<s n="n"/></r></p></e>
 <e><p><l>accreditation<s n="n"/></l><r>аккредитация<s n="n"/></r></p></e>
 <e><p><l>accumulation<s n="n"/></l><r>жинақтау<s n="n"/></r></p></e>
+<e><p><l>scintillation<s n="n"/></l><r>жарқырау<s n="n"/></r></p></e>
 <e><p><l>accuracy<s n="n"/></l><r>дәлме-дәлділік<s n="n"/></r></p></e>
 <e><p><l>accuser<s n="n"/></l><r>айыптаушы<s n="n"/></r></p></e>
 <e><p><l>ace<s n="n"/></l><r>туз<s n="n"/></r></p></e>
@@ -4155,6 +4160,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>diversity<s n="n"/></l><r>түрлілік<s n="n"/></r></p></e>
 <e><p><l>dividend<s n="n"/></l><r>жарнакіріс<s n="n"/></r></p></e>
 <e><p><l>documentation<s n="n"/></l><r>құжаттама<s n="n"/></r></p></e>
+<e><p><l>dominion<s n="n"/></l><r>үстемдік<s n="n"/></r></p></e>
 <e><p><l>drawing<s n="n"/></l><r>сурет<s n="n"/></r></p></e>
 <e><p><l>dysfunction<s n="n"/></l><r>дисфункция<s n="n"/></r></p></e>
 <e><p><l>efficiency<s n="n"/></l><r>тиімділік<s n="n"/></r></p></e>
@@ -12134,6 +12140,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>annually<s n="adv"/></l><r>жыл<b/>сайын<s n="adv"/></r></p></e>
 <e><p><l>usually<s n="adv"/></l><r>әдетте<s n="adv"/></r></p></e>
 <e><p><l>successfully<s n="adv"/></l><r>ойдағыдай<s n="adv"/></r></p></e>
+<e><p><l>obliquely<s n="adv"/></l><r>қисық<s n="adv"/></r></p></e>
 <e><p><l>mainly<s n="adv"/></l><r>ең<b/>басты<s n="adv"/></r></p></e>
 <e><p><l>commonly<s n="adv"/></l><r>әдетте<s n="adv"/></r></p></e>
 <e><p><l>simply<s n="adv"/></l><r>жайдан-жай<s n="adv"/></r></p></e>
@@ -12343,6 +12350,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>beautiful<s n="adj"/></l><r>көрікті<s n="adj"/></r></p></e>
 <e><p><l>beautiful<s n="adj"/></l><r>керемет<s n="adj"/></r></p></e>
     <e><p><l>illegal<s n="adj"/></l><r>заңсыз<s n="adj"/></r></p></e>
+<e><p><l>oblique<s n="adj"/></l><r>қисық<s n="adj"/></r></p></e>
     <e><p><l>lucky<s n="adj"/><s n="sint"/></l><r>сәтті<s n="adj"/></r></p></e>
     <e><p><l>old<s n="adj"/><s n="sint"/></l><r>ескі<s n="adj"/></r></p></e>
     <e><p><l>old<s n="adj"/><s n="sint"/></l><r>кәрі<s n="adj"/></r></p></e>

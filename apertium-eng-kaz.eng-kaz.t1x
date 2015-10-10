@@ -514,6 +514,7 @@
     </def-attr>
     <def-attr n="a_det">  <!-- determiner tag -->
       <attr-item tags="det"/>
+      <attr-item tags="prn"/>
     </def-attr>
     <def-attr n="a_dem">  <!-- demonstrative tag -->
       <attr-item tags="dem"/>
@@ -4944,6 +4945,159 @@
 </rule>
 
 
+
+
+<rule comment="NEW RULE: be + verb-pp"> <!--are designed to have -->
+<!-- superblank management to be corrected -->
+  <pattern>
+    <pattern-item n="pers-verb-to-be"/>
+    <pattern-item n="verb-pp"/> <!--past participle -->
+    <pattern-item n="to"/>
+    <pattern-item n="inf-verb"/> 
+   </pattern>
+  <action>    
+   <call-macro n="default-nbr-pers"/>
+    <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+         <out>
+      <chunk name="pers-verb-pass-to-inf">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="sg"/></tag> <!-- number -->
+        <tag><lit-tag v="p3"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag>
+      </tags>
+ <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+                  <lit-tag v="nom"/>
+        </lu>
+<b pos="1"/>
+<lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+
+    </lu>
+<b pos="2"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="pass"/>
+             <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+        </out>
+
+      </when>
+
+      <when>
+         <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <let><var n="tense"/><lit-tag v="ifi"/></let> 
+      <out>
+      <chunk name="pers-verb-pass-to-inf">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag>
+      </tags>
+     <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+                 <lit-tag v="nom"/>
+        </lu>
+<b pos="1"/>
+<lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+
+    </lu>
+<b pos="2"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="pass"/>
+             <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+        </out>
+      </when>
+
+      <otherwise>
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+       <out>
+      <chunk name="pers-verb-pass-to-inf">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag>
+      </tags>
+       <lu>
+          <clip pos="4" side="tl" part="lem"/>
+	  <clip pos="4" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+        </lu>
+<b pos="1"/>
+<lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+
+    </lu>
+<b pos="2"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="pass"/>
+             <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+        </out>
+
+      </otherwise> 
+    </choose>
+  </action>
+</rule>
+
+
+
+
 <rule comment="NEW RULE: be + verb-pp"> <!--Pres and Past passive -->
 <!-- superblank management to be corrected -->
   <pattern>
@@ -4994,6 +5148,9 @@
     </choose>
   </action>
 </rule>
+
+
+
 
 
 
@@ -8927,7 +9084,7 @@
          <when> <!-- Demonstrative, postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-noun">
+             <chunk name="prep-detdem-noun-post">
              <tags>
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="3" part="a_nbr" side="sl"/></tag> <!-- number -->
@@ -9018,7 +9175,7 @@
          <when> <!-- Demonstrative, no postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-noun">
+             <chunk name="prep-detdem-noun-nopost">
           <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -9031,6 +9188,7 @@
              <clip pos="2" side="tl" part="lem"/>
              <clip pos="2" side="tl" part="a_det"/>
              <clip pos="2" side="tl" part="a_dem"/>
+<lit-tag v="nom"/>
              </lu>
              <b pos="2"/>
              <lu>  
@@ -9094,7 +9252,7 @@
 </rule>
 
 
-<rule comment="NEW RULE: predet prep det noun">  
+<rule comment="NEW RULE: det prep det noun">  
 <!-- all of the money -->	
   <pattern>
     <pattern-item n="det"/>
@@ -9117,7 +9275,7 @@
          <when> <!-- Demonstrative, postposition -->
            <test><equal><clip pos="3" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-noun">
+             <chunk name="det-prep-det-noun-post">
              <tags>
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="4" part="a_nbr" side="sl"/></tag> <!-- number -->
@@ -9158,7 +9316,7 @@
               <with-param pos="3"/>
            </call-macro>
            <out>
-            <chunk name="prep-detpos-noun">
+            <chunk name="det-prep-det-noun-postposs">
             <tags>
                  <tag><var n="pptag"/></tag>
                  <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -9191,7 +9349,7 @@
 
        <otherwise> <!-- no possessive or demonstrative, postposition -->
         <out>
-          <chunk name="det-prep-detart-noun">
+          <chunk name="det-prep-det-noun-postnoposs">
           <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -9226,7 +9384,7 @@
          <when> <!-- Demonstrative, no postposition -->
            <test><equal><clip pos="3" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="det-prep-detdem-noun">
+             <chunk name="det-prep-det-noun-nopost">
           <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -9262,7 +9420,7 @@
               <with-param pos="3"/>
            </call-macro>
            <out>
-            <chunk name="det-prep-detpos-noun">
+            <chunk name="det-prep-det-noun-postposs">
            <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -9291,7 +9449,7 @@
 
           <otherwise> <!-- No possessive, no demonstrative -->
            <out>
-             <chunk name="det-prep-detart-noun">
+             <chunk name="det-prep-det-noun-noposs-nodem">
            <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -10367,7 +10525,7 @@
          <when> <!-- Demonstrative, postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-noun">
+             <chunk name="prep-det-adjec-noun-dempost">
              <tags>
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="4" part="a_nbr" side="sl"/></tag> <!-- number -->
@@ -10403,7 +10561,7 @@
               <with-param pos="2"/>
            </call-macro>
            <out>
-            <chunk name="prep-detpos-noun">
+            <chunk name="prep-det-adjec-noun-postposs">
             <tags>
                  <tag><var n="pptag"/></tag>
                  <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -10435,7 +10593,7 @@
        <otherwise> <!-- no possessive or demonstrative, postposition -->
 
         <out>
-          <chunk name="prep-detart-noun">
+          <chunk name="prep-det-adjec-noun-postnoposs">
           <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -10468,7 +10626,7 @@
          <when> <!-- Demonstrative, no postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-noun">
+             <chunk name="prep-det-adjec-noun-nopost">
           <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -10500,7 +10658,7 @@
               <with-param pos="2"/>
            </call-macro>
            <out>
-            <chunk name="prep-detpos-noun">
+            <chunk name="prep-det-adjec-noun-postposs">
            <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -10527,7 +10685,7 @@
 
           <otherwise> <!-- No possessive, no demonstrative -->
            <out>
-           <chunk name="prep-detart-noun">
+           <chunk name="prep-det-adjec-noun-nopossnodem">
            <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -12240,6 +12398,8 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
      <let><var n="number"/><lit v=""/></let>
     </when>
       </choose>
+
+
 <choose>
     <when>
      <test>  
@@ -12327,9 +12487,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
      <let><var n="possessive"/><clip pos="1" side="sl" part="a_possessive"/></let>
      <let><var n="number"/><lit-tag v="ND"/></let>
            </when>
-     <otherwise>
-     <let><var n="possessive"/><lit-tag v="PXD"/></let>
-     </otherwise>
+   
   </choose>
 
 <choose>
@@ -12431,6 +12589,22 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     </when>
        
   </choose>
+
+
+<choose>
+    <when>
+     <test>  
+       <equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="many"/>
+       </equal>
+
+     </test>
+     <let><var n="possessive"/> <clip pos="1" side="tl" part="a_possessive"/></let>
+     <let><var n="case"/> <lit-tag v="nom"/></let>
+     <let><var n="number"/>          <lit v=""/></let>
+    </when>
+      </choose>
 <choose>
 
   <when>
@@ -12467,7 +12641,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
    <chunk name="obj-pron">
    <tags>
     <tag><lit-tag v="NP"/></tag>
-    <tag><var n="number"/></tag>
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
     <tag><var n="subj-pron_lu"/></tag> <!-- Formality 2nd will be set in .t4x -->
     <tag><var n="possessive"/></tag>
     <tag><lit-tag v="CD"/></tag>
@@ -12477,7 +12651,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_pron"/>
       <clip pos="1" side="tl" part="a_pers"/>
-      <lit-tag v="2"/> <!-- number -->
+<var n="number"/>
  	<var n="pos"/> 
       <lit-tag v="4"/> 
           <var n="case"/> <!-- case --> 

@@ -6016,7 +6016,9 @@
             <clip pos="3" part="lem"/>  
             <lit-tag v="NP_obj"/>
             <clip pos="3" part="a_nbr"/> <!-- agree number -->
+
             <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_possessive"/> 
               <lit-tag v="gen"/>
           
             <clip pos="3" part="chcontent"/>

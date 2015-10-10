@@ -35685,6 +35685,8 @@
 
                             <e lm="Sherlock" i=""><i>Sherlock</i><par n="Mark__np"/></e>
 
+                            <e lm="Moriarty" i=""><i>Moriarty</i><par n="Mark__np"/></e>
+
                             <e lm="Sheldon" i=""><i>Sheldon</i><par n="Mark__np"/></e>
 
                             <e lm="Shemar" i=""><i>Shemar</i><par n="Mark__np"/></e>
@@ -40781,6 +40783,8 @@
                             <e lm="Holland" i=""><i>Holland</i><par n="Barcelona__np"/></e>
 
                             <e lm="Hollywood" i=""><i>Hollywood</i><par n="Barcelona__np"/></e>
+
+                            <e lm="Trafalgar" i=""><i>Trafalgar</i><par n="Barcelona__np"/></e>
 
                             <e lm="Hong Kong" i=""><i>Hong<b/>Kong</i><par n="Barcelona__np"/></e>
 
@@ -47652,6 +47656,10 @@
 
                             <e lm="loadstone" i=""><i>loadstone</i><par n="house__n"/></e>
 
+                            <e lm="mainstream" i=""><i>mainstream</i><par n="house__n"/></e>
+
+                            <e lm="baddie" i=""><i>baddie</i><par n="house__n"/></e>
+
                             <e lm="loan" i=""><i>loan</i><par n="house__n"/></e>
 
                             <e lm="localism" i=""><i>localism</i><par n="house__n"/></e>
@@ -53093,6 +53101,8 @@
 
     
                             <e lm="BBC" i=""><i>BBC</i><par n="BBC__n"/></e>
+
+                            <e lm="CGI" i=""><i>CGI</i><par n="BBC__n"/></e>
 
                             <e lm="BBC" i=""><i>MGM</i><par n="BBC__n"/></e>
 
@@ -61266,6 +61276,8 @@ F
                             <e lm="abundantly" i=""><i>abundantly</i><par n="maybe__adv"/></e>
 
                             <e lm="accidentally" i=""><i>accidentally</i><par n="maybe__adv"/></e>
+
+                            <e lm="hopefully" i=""><i>hopefully</i><par n="maybe__adv"/></e>
 
                             <e lm="actively" i=""><i>actively</i><par n="maybe__adv"/></e>
 

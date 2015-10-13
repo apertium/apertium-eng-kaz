@@ -49148,6 +49148,8 @@
                             <e lm="peasant" i=""><i>peasant</i><par n="house__n"/></e>
 
                             <e lm="peat" i=""><i>peat</i><par n="house__n"/></e>
+	
+			    <e lm="dung" i=""><i>dung</i><par n="house__n"/></e>
 
                             <e lm="pedagogy" i=""><i>pedagog</i><par n="bab/y__n"/></e>
 
@@ -50722,6 +50724,8 @@
                             <e lm="seaport" i=""><i>seaport</i><par n="house__n"/></e>
     
                             <e lm="sunbeam" i=""><i>sunbeam</i><par n="house__n"/></e>
+
+			   <e lm="silkworm" i=""><i>silkworm</i><par n="house__n"/></e>
 
                             <e lm="seal" i=""><i>seal</i><par n="house__n"/></e>
 
@@ -52821,6 +52825,8 @@
                             <e lm="yacht" i=""><i>yacht</i><par n="house__n"/></e>
 
                             <e lm="yard" i=""><i>yard</i><par n="house__n"/></e>
+
+			   <e lm="pillow" i=""><i>pillow</i><par n="house__n"/></e>
 
                             <e lm="year" i=""><i>year</i><par n="house__n"/></e>
 
@@ -55546,6 +55552,8 @@
                             <e lm="lumbar" i=""><i>lumbar</i><par n="expensive__adj"/></e>
 
                             <e lm="luminous" i=""><i>luminous</i><par n="expensive__adj"/></e>
+
+			   <e lm="glutinous" i=""><i>glutinous</i><par n="expensive__adj"/></e>
 
                             <e lm="lunar" i=""><i>lunar</i><par n="expensive__adj"/></e>
 
@@ -59489,6 +59497,8 @@ F
                             <e lm="inject" i=""><i>inject</i><par n="accept__vblex"/></e>
 
                             <e lm="injure" i=""><i>injur</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="manure" i=""><i>manur</i><par n="liv/e__vblex"/></e>
 
                             <e lm="insert" i=""><i>insert</i><par n="accept__vblex"/></e>
 
@@ -66232,6 +66242,8 @@ F
 
                             <e lm="colon" i=""><i>colon</i><par n="house__n"/></e>
 
+			    <e lm="hue" i=""><i>hue</i><par n="house__n"/></e>
+
                             <e lm="colonizable" i=""><i>colonizable</i><par n="expensive__adj"/></e>
 
                             <e lm="colonnade" i=""><i>colonnade</i><par n="house__n"/></e>
@@ -67567,6 +67579,8 @@ F
                             <e lm="existentialism" i=""><i>existentialism</i><par n="house__n"/></e>
 
  			    <e lm="existence" i=""><i>existence</i><par n="house__n"/></e>
+
+			     <e lm="consistence" i=""><i>consistence</i><par n="house__n"/></e>
 
                             <e lm="exocentric" i=""><i>exocentric</i><par n="expensive__adj"/></e>
 

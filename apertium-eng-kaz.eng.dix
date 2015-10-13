@@ -71910,6 +71910,8 @@ F
 
                             <e lm="screening" i=""><i>screening</i><par n="house__n"/></e>
 
+			    <e lm="scumming" i=""><i>scumming</i><par n="house__n"/></e>
+
                             <e lm="scrollwork" i=""><i>scrollwork</i><par n="house__n"/></e>
 
                             <e lm="scrotum" i=""><i>scrotum</i><par n="house__n"/></e>
@@ -72355,6 +72357,8 @@ F
                             <e lm="stator" i=""><i>stator</i><par n="house__n"/></e>
 
                             <e lm="stature" i=""><i>stature</i><par n="house__n"/></e>
+
+			    <e lm="ordure" i=""><i>ordure</i><par n="house__n"/></e>
 
                             <e lm="statvolt" i=""><i>statvolt</i><par n="house__n"/></e>
 
@@ -73849,6 +73853,8 @@ F
                             <e lm="turbulent" i=""><i>turbulent</i><par n="expensive__adj"/></e>
 
                             <e lm="sustainability" i=""><i>sustainabilit</i><par n="bab/y__n"/></e>
+		
+			    <e lm="malleability" i=""><i>malleabilit</i><par n="bab/y__n"/></e>
 
                             <e lm="zoological" i=""><i>zoological</i><par n="expensive__adj"/></e>
 
@@ -74166,6 +74172,8 @@ F
                             <e lm="marchioness" i=""><i>marchioness</i><par n="bass__n"/></e>
 
                             <e lm="marquise" i=""><i>marquise</i><par n="house__n"/></e>
+
+			    <e lm="treatise" i=""><i>treatise</i><par n="house__n"/></e>
 
                             <e lm="ice cream parlour" i=""><i>ice<b/>cream<b/>parl</i><par n="col/our__n"/></e>
 
@@ -74712,6 +74720,8 @@ F
                             <e lm="indubitably" i=""><i>indubitably</i><par n="maybe__adv"/></e>
 
                             <e lm="inequity" i=""><i>inequit</i><par n="bab/y__n"/></e>
+
+			   <e lm="ingenuity" i=""><i>ingenuit</i><par n="bab/y__n"/></e>
 
                             <e lm="ingestion" i=""><i>ingestion</i><par n="house__n"/></e>
 
@@ -75930,6 +75940,8 @@ F
 
                             <e lm="duck" i=""><i>duck</i><par n="house__n"/></e>
 
+			   <e lm="hog" i=""><i>hog</i><par n="house__n"/></e>
+
                             <e lm="spur" i=""><i>spur</i><par n="house__n"/></e>
 
                             <e lm="Shaw" i=""><i>Shaw</i><par n="Smith__np"/></e>
@@ -76926,6 +76938,8 @@ F
                             <e lm="lining" i=""><i>lining</i><par n="house__n"/></e>
 
                             <e lm="puncture" i=""><i>puncture</i><par n="house__n"/></e>
+
+			    <e lm="tincture" i=""><i>tincture</i><par n="house__n"/></e>
 
                             <e lm="particle accelerator" i=""><i>particle<b/>accelerator</i><par n="house__n"/></e>
 

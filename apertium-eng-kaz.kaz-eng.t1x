@@ -10,6 +10,9 @@
  <def-cat n="vaux-neg-past">
             <cat-item tags="vaux.neg.ifi.*"/>
          </def-cat>
+ <def-cat n="quest">
+      <cat-item tags="sent" lemma="?"/>
+    </def-cat>
 
 <def-cat n="np-ant"> 
       <cat-item tags="np.ant"/>
@@ -32,9 +35,10 @@
    <!--   <cat-item tags="np.cog"/>
       <cat-item tags="np.cog.*"/>-->
       <cat-item tags="np.unk"/>
-      <!--<cat-item tags="np.ant.*"/>
+      <!--<cat-item tags="np.ant.*"/>-->
       <cat-item tags="np.top"/>
-      <cat-item tags="np.loc.*"/>-->
+<cat-item tags="np.top.*"/>
+      <!--<cat-item tags="np.loc.*"/>-->
     </def-cat>
 
     <def-cat n="vaux">
@@ -190,6 +194,7 @@
 
  <def-cat n="prn">
       <cat-item tags="prn"/>
+
       <cat-item tags="prn.dem.*"/>
          </def-cat>
 
@@ -238,8 +243,9 @@
       <cat-item tags="prn.pers.*.*.ins"/> 
     </def-cat>
 <def-cat n="adv">
+ <cat-item tags="n.px3sp.loc"/>
     <cat-item tags="adv"/>
-    <cat-item tags="adv.*"/>
+   <cat-item tags="adv.itg"/>
     <cat-item tags="cnjadv"/>
 </def-cat>
 
@@ -345,8 +351,8 @@
  <def-cat n="nom-pr">
 <cat-item tags="pr"/>
 <cat-item tags="pr.*"/>
- <cat-item tags="n.*"/>
- <cat-item tags="adv"/>
+ 
+ 
  </def-cat>
 
  <def-cat n="n-pr1">
@@ -397,7 +403,7 @@
 
     <def-cat n="ant">
           <cat-item tags="np.ant.*.*"/>
-<cat-item tags="np.top.*.*"/>
+
 	<cat-item tags="np.loc.*.*"/>
 <cat-item tags="np.loc.sg.*"/>
 
@@ -539,6 +545,8 @@
    <def-var n="adjec_lu"/>
 <def-var n="comp_lu"/>
 <def-var n="noun_lu"/>
+<def-var n="verb-pers"/> <!-- State variable -->
+    <def-var n="verb-nbr"/> <!-- State variable -->
  <def-var n="formality"/> 
  <def-var n="case"/>
  <def-var n="mf"/>
@@ -1339,7 +1347,7 @@
         <out>
           <chunk name="v-ger" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="SV-ger"/></tag>
             </tags>
 <lu>
               <lit v="to"/>
@@ -2786,7 +2794,7 @@
 
 
 
-<rule comment="RULE: NOM post">
+<rule comment="RULE: NOM adv">
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="adv"/>
@@ -2811,9 +2819,9 @@
                 </otherwise>
               </choose>
         <out>
-          <chunk name="nom-pr" case="caseFirstWord">
+          <chunk name="n-pr" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="PP"/></tag>
+              <tag><lit-tag v="AdvP"/></tag>
                <tag><var n="number"/></tag>
               <tag><lit-tag v="PD"/></tag>
             </tags>
@@ -4116,17 +4124,20 @@
           <chunk name="pronoun" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
+	<tag><clip pos="1" side="sl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
             </tags>
             <lu>
 	<clip pos="1" side="tl" part="lemh"/>
-            <!--  <clip pos="1" side="tl" part="a_nom"/>-->
- <clip pos="1" side="tl" part="a_cas"/>
-            <!--  <lit-tag v="sg"/>-->
-              <clip pos="1" side="tl" part="lemq"/>
+            <lit-tag v="prn"/>
+	<lit-tag v="tn"/>
+<lit-tag v="mf"/>
+<lit-tag v="3"/>
+               <clip pos="1" side="tl" part="lemq"/>
   	
-             <lit-tag v="prn"/>
-	<lit-tag v="dem"/>
-	<lit-tag v="nom"/> 
+             
+	
             </lu>
           </chunk>
         </out>
@@ -7322,6 +7333,33 @@
         </call-macro>
       </action>
     </rule>-->
+
+<rule comment="RULE: Quest">
+      <pattern>
+        <pattern-item n="quest"/>
+      </pattern>
+      <action>
+        <let> 
+          <var n="verb-pers"/>
+          <lit-tag v="p3"/>
+        </let>
+        <let>
+          <var n="verb-nbr"/>
+          <lit-tag v="sg"/>
+        </let>
+        <out>
+          <chunk name="sent" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="Q_mark"/></tag>
+             
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
  </section-rules>

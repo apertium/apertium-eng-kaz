@@ -46559,6 +46559,7 @@
                             <e lm="home" i=""><i>home</i><par n="house__n"/></e>
 
                             <e lm="homeland" i=""><i>homeland</i><par n="house__n"/></e>
+ <e lm="motherland" i=""><i>motherland</i><par n="house__n"/></e>
 
                             <e lm="homestead" i=""><i>homestead</i><par n="house__n"/></e>
 
@@ -79595,7 +79596,7 @@ F
                             <e lm="psychosomatic" i=""><i>psychosomatic</i><par n="expensive__adj"/></e>
 
                             <e lm="psychotechnical" i=""><i>psychotechnical</i><par n="expensive__adj"/></e>
-
+<e lm="geotechnical" i=""><i>geotechnical</i><par n="expensive__adj"/></e>
                             <e lm="punctilious" i=""><i>punctilious</i><par n="expensive__adj"/></e>
 
                             <e lm="purposeful" i=""><i>purposeful</i><par n="expensive__adj"/></e>
@@ -81336,6 +81337,7 @@ F
                             <e lm="Kila" i=""><i>Kila</i><par n="Linux__np"/></e>
 
                             <e lm="Donal" i=""><i>Donal</i><par n="Mark__np"/></e>
+ <e lm="Donets" i=""><i>Donets</i><par n="Mark__np"/></e>
 
                             <e lm="O'Kelly" i=""><i>O'Kelly</i><par n="Smith__np"/></e>
 

@@ -889,6 +889,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>history<s n="n"/></l><r>тарих<s n="n"/></r></p></e>
 <e><p><l>hole<s n="n"/></l><r>тесік<s n="n"/></r></p></e>
 <e><p><l>homeland<s n="n"/></l><r>отан<s n="n"/></r></p></e>
+<e><p><l>motherland<s n="n"/></l><r>отан<s n="n"/></r></p></e>
 <e><p><l>honey<s n="n"/></l><r>бал<s n="n"/></r></p></e>
 <e><p><l>hook<s n="n"/></l><r>ілгек<s n="n"/></r></p></e>
 <e><p><l>horse<s n="n"/></l><r>жылқы<s n="n"/></r></p></e>
@@ -6088,6 +6089,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>multilingualism<s n="n"/></l><r>мультилингуализм<s n="n"/></r></p></e>
 <e><p><l>multiplexer<s n="n"/></l><r>мультиплексор<s n="n"/></r></p></e>
 <e><p><l>muscovite<s n="n"/></l><r>мәскеулік<s n="n"/></r></p></e>
+<e><p><l>muscovite<s n="adj"/></l><r>мәскеулік<s n="adj"/></r></p></e>
 <e><p><l>muse<s n="n"/></l><r>муза<s n="n"/></r></p></e>
 <e><p><l>mushroom<s n="n"/></l><r>саңырауқұлақ<s n="n"/></r></p></e>
 <e><p><l>mussel<s n="n"/></l><r>мидия<s n="n"/></r></p></e>
@@ -8283,6 +8285,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Armenia<s n="np"/><s n="top"/><s n="sg"/></l><r>Армения<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Aruba<s n="np"/><s n="top"/><s n="sg"/></l><r>Аруба<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Australia<s n="np"/><s n="top"/><s n="sg"/></l><r>Аустралия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>England<s n="np"/><s n="top"/><s n="sg"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Austria<s n="np"/><s n="top"/><s n="sg"/></l><r>Австрия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Azerbaijan<s n="np"/><s n="top"/><s n="sg"/></l><r>Әзірбайжан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Bahamas<s n="np"/><s n="top"/><s n="sg"/></l><r>Багамалар<s n="np"/><s n="top"/></r></p></e>
@@ -10144,6 +10147,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>Dayton<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Дэйтон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ivo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Иво<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Igor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Игор<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Igor<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Игорь<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Boris<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Борис<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Aaron<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Аарон<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
@@ -10610,6 +10614,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Alfred<s n="np"/><s n="ant"/><s n="m"/></l><r>Альфред<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>David<s n="np"/><s n="ant"/><s n="m"/></l><r>Дэвид<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Donald<s n="np"/><s n="ant"/><s n="m"/></l><r>Дональд<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Donets<s n="np"/><s n="ant"/><s n="m"/></l><r>Донец<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Richard<s n="np"/><s n="ant"/><s n="m"/></l><r>Ричард<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Bernard<s n="np"/><s n="ant"/><s n="m"/></l><r>Бернард<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Sherlock<s n="np"/><s n="ant"/><s n="m"/></l><r>Шерлок<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -12204,6 +12209,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>symbolically<s n="adv"/></l><r>символикалы<s n="adv"/></r></p></e>
 <e><p><l>systematically<s n="adv"/></l><r>әрдайым<s n="adv"/></r></p></e>
 <e><p><l>technically<s n="adv"/></l><r>техникалық<s n="adv"/></r></p></e>
+<e><p><l>geotechnical<s n="adj"/></l><r>геотехникалық<s n="adj"/></r></p></e>
 <e><p><l>technologically<s n="adv"/></l><r>технологиялық<s n="adv"/></r></p></e>
 <e><p><l>temporarily<s n="adv"/></l><r>уақытша<s n="adv"/></r></p></e>
 <e><p><l>territorially<s n="adv"/></l><r>аумақтық<s n="adv"/></r></p></e>
@@ -14781,6 +14787,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>provisional<s n="adj"/></l><r>мезгілдік<s n="adj"/></r></p></e>
 <e><p><l>prudential<s n="adj"/></l><r>ақылдылықпен<s n="adj"/></r></p></e>
 <e><p><l>psychiatric<s n="adj"/></l><r>психиатриялық<s n="adj"/></r></p></e>
+<e><p><l>mental<s n="adj"/></l><r>психикалық<s n="adj"/></r></p></e>
 <e><p><l>psychoactive<s n="adj"/></l><r>психоактивті<s n="adj"/></r></p></e>
 <e><p><l>psychological<s n="adj"/></l><r>психологиялық<s n="adj"/></r></p></e>
 <e><p><l>psychosocial<s n="adj"/></l><r>психосоциологиялық<s n="adj"/></r></p></e>

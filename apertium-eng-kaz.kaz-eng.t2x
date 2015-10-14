@@ -248,10 +248,8 @@
 <when>
 <test>
 
-<and>
-             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+
             <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
-</and>
     
    </test>
 <let>     <clip pos="2" part="a_pers"/><lit v=""/> </let>
@@ -455,15 +453,15 @@
        <choose>
 <when>
 <test>
-
+ <!--
 <and>
-             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
             <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
-</and>
-    
+</and>-->
+                <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
    </test>
-<let>     <clip pos="2" part="a_pers"/><lit v="p3"/> </let>
-  <let>         <clip pos="2" part="a_nbr"/><lit v="pl"/></let>
+<let>     <clip pos="2" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
 </when>
 </choose>
         <out>

@@ -4068,6 +4068,7 @@
           <chunk name="noun-sg/pl" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
+              <tag>             <var n="number"/></tag>
             </tags>
 
             <lu>
@@ -4080,7 +4081,7 @@
             
               <clip pos="1" side="tl" part="lemq"/>
   
-             <var n="number"/>
+              <lit-tag v="3"/>
 
             </lu>
           </chunk>
@@ -5364,7 +5365,8 @@
         </call-macro>
       </action>
     </rule>
-<rule comment="RULE: V-be+ pp"> <!--is not written-->
+<rule comment="RULE: V-be+ pp"> 
+<!--is not written-->
       <pattern>
 	<pattern-item n="nom"/>
         <pattern-item n="v-passive-neg"/>
@@ -5595,7 +5597,7 @@
     </rule>
 
 
-<!--ALL PASSIVE must be correceted in genereating correct to be and some of genereating 's' in noun-->
+<!--ALL PASSIVE must be corrected in genereating correct to be and some of genereating 's' in noun-->
 
 <rule comment="RULE: V-be+ pp"> <!--is written-->
       <pattern>

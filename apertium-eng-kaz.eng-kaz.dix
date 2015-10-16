@@ -2530,6 +2530,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>beggary<s n="n"/></l><r>кедейлік<s n="n"/></r></p></e>
 <e><p><l>bigness<s n="n"/></l><r>аумақ<s n="n"/></r></p></e>
 <e><p><l>cabal<s n="n"/></l><r>қастық<s n="n"/></r></p></e>
+<e><p><l>caprice<s n="n"/></l><r>қыңырлық<s n="n"/></r></p></e>
 <e><p><l>censure<s n="n"/></l><r>айыптау<s n="n"/></r></p></e>
 <e><p><l>chariot<s n="n"/></l><r>арба<s n="n"/></r></p></e>
 <e><p><l>cornground<s n="n"/></l><r>егістік<s n="n"/></r></p></e>
@@ -2537,6 +2538,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>dearth<s n="n"/></l><r>аштық<s n="n"/></r></p></e>
 <e><p><l>demesne<s n="n"/></l><r>меншік<s n="n"/></r></p></e>
 <e><p><l>detractor<s n="n"/></l><r>жала<b/>жабушы<s n="n"/></r></p></e>
+<e><p><l>displeasure<s n="n"/></l><r>реніш<s n="n"/></r></p></e>
+<e><p><l>diversion<s n="n"/></l><r>сауық<s n="n"/></r></p></e>
 <e><p><l>domestic<s n="n"/></l><r>қызметші<s n="n"/></r></p></e>
 <e><p><l>dominion<s n="n"/></l><r>үстемдік<s n="n"/></r></p></e>
 <e><p><l>exactness<s n="n"/></l><r>дәлдік<s n="n"/></r></p></e>
@@ -2544,7 +2547,9 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>fallings<s n="n"/></l><r>төмендету<s n="n"/></r></p></e>
 <e><p><l>flapper<s n="n"/></l><r>торсылдатқыш<s n="n"/></r></p></e>
 <e><p><l>gentleness<s n="n"/></l><r>жұмсақтық<s n="n"/></r></p></e>
+<e><p><l>gentry<s n="n"/></l><r>орташа<b/>дәулетті<s n="n"/></r></p></e>
 <e><p><l>grandee<s n="n"/></l><r>бекзат<s n="n"/></r></p></e>
+<e><p><l>grove<s n="n"/></l><r>тоғай<s n="n"/></r></p></e>
 <e><p><l>hospitably<s n="n"/></l><r>қонақ-жайлылық<s n="n"/></r></p></e>
 <e><p><l>kinsman<s n="n"/></l><r>туысқан<s n="n"/></r></p></e>
 <e><p><l>loadstone<s n="n"/></l><r>магнит<s n="n"/></r></p></e>
@@ -2553,20 +2558,31 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>necessity<s n="n"/></l><r>қажеттілік<s n="n"/></r></p></e>
 <e><p><l>obliquity<s n="n"/></l><r>ауытқу<s n="n"/></r></p></e>
 <e><p><l>obstinate<s n="n"/></l><r>қарсылық<s n="n"/></r></p></e>
+<e><p><l>particular<s n="n"/></l><r>жеке<s n="n"/></r></p></e>
+<e><p><l>particular<s n="n"/></l><r>мән-жай<s n="n"/></r></p></e>
+<e><p><l>phial<s n="n"/></l><r>құты<s n="n"/></r></p></e>
 <e><p><l>proposition<s n="n"/></l><r>теорема<s n="n"/></r></p></e>
 <e><p><l>protector<s n="n"/></l><r>жарылқаушы<s n="n"/></r></p></e>
 <e r="LR"><p><l>rags<s n="n"/></l><r>>жалба-жұлба<s n="n"/></r></p></e>
+<e><p><l>repository<s n="n"/></l><r>қойма<s n="n"/></r></p></e>
+<e><p><l>ridge<s n="n"/></l><r>тау<b/>жота<s n="n"/></r></p></e>
 <e><p><l>risings<s n="n"/></l><r>көтеру<s n="n"/></r></p></e>
+<e><p><l>sloth<s n="n"/></l><r>жалқаулық<s n="n"/></r></p></e>
+<e><p><l>smattering<s n="n"/></l><r>шалағай<s n="n"/></r></p></e>
+<e><p><l>spire<s n="n"/></l><r>шоқы<s n="n"/></r></p></e>
 <e r="LR"><p><l>tradesmen<s n="n"/></l><r>саудагерлер<s n="n"/></r></p></e>
 <e r="LR"><p><l>tenure<s n="n"/></l><r>жер<b/>иелену<s n="n"/></r></p></e>
-<e><p><l>spire<s n="n"/></l><r>шоқы<s n="n"/></r></p></e>
 <!--end of noun-->
 
 <!--verb-->
+<e><p><l>conjure<s n="vblex"/></l><r>сиқырла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>depart<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>endanger<s n="vblex"/></l><r>қауіп-қатерге<b/>ұшыра<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>ensue<s n="vblex"/></l><r>орындал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>intercede<s n="vblex"/></l><r>сұра<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>miscarry<s n="vblex"/></l><r>күйре<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>prosecute<s n="vblex"/></l><r>ізге<b/>түс<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>rail<s n="vblex"/></l><r>келемеж<b/>ет<s n="v"/><s n="tv"/></r></p></e>
 <e r="LR"><p><l>render<s n="vblex"/></l><r>орында<s n="v"/><s n="tv"/></r></p></e>
 <!--end of verb-->
 
@@ -2575,17 +2591,23 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>averse<s n="adj"/></l><r>ынтасыз<s n="adj"/></r></p></e>
 <e><p><l>clad<s n="adj"/></l><r>киінген<s n="adj"/></r></p></e>
 <e><p><l>disagreeable<s n="adj"/></l><r>жағымсыз<s n="adj"/></r></p></e>
+<e><p><l>enterprising<s n="adj"/></l><r>іскер<s n="adj"/></r></p></e>
 <e><p><l>illustrious<s n="adj"/></l><r>қадірменді<s n="adj"/></r></p></e>
+<e><p><l>meagre<s n="adj"/></l><r>арық<s n="adj"/></r></p></e>
+<e><p><l>melancholy<s n="adj"/></l><r>мұңды<s n="adj"/></r></p></e>
+<e><p><l>miserably<s n="adj"/></l><r>бейшара<s n="adj"/></r></p></e>
 <e><p><l>oblique<s n="adj"/></l><r>қиғаш<s n="adj"/></r></p></e>
 <e r="LR"><p><l>odious<s n="adj"/></l><r>мейлінше<b/>жаман<s n="adj"/></r></p></e>
 <e><p><l>periodical<s n="adj"/></l><r>мерзімді<s n="adj"/></r></p></e>
 <e><p><l>ruinous<s n="adj"/></l><r>қираған<s n="adj"/></r></p></e>
+<e><p><l>sooty<s n="adj"/></l><r>ыс<b/>басқан<s n="adj"/></r></p></e>
 <e><p><l>unaccountable<s n="adj"/></l><r>түсініксіз<s n="adj"/></r></p></e>
 <e><p><l>unhappily<s n="adj"/></l><r>күтімсіз<s n="adj"/></r></p></e>
 <e><p><l>weighty<s n="adj"/></l><r>маңызды<s n="adj"/></r></p></e>
 <!--end of adjective-->
 
 <!--adverb-->
+<e><p><l>hermetically<s n="adv"/></l><r>герметикалық<s n="adv"/></r></p></e>
 <e r="LR"><p><l>innermost<s n="adv"/></l><r>ең<b/>жақын<s n="adv"/></r></p></e>
 <e><p><l>obliquely<s n="adv"/></l><r>қиғаштай<s n="adv"/></r></p></e>
 <e r="LR"><p><l>outermost<s n="adv"/></l><r>ең<b/>алыс<s n="adv"/></r></p></e>

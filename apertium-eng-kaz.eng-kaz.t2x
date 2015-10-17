@@ -371,6 +371,9 @@
     </test>      
           <let><var  n="possessive"/><lit-tag v="px3sp"/></let>
 </when>
+<otherwise>
+          <let><var  n="possessive"/><lit-tag v="PXD"/></let>
+</otherwise>
 
 </choose>
 

@@ -410,3 +410,61 @@ cat ~/apertium-testing/apertium-rus/texts/murmansk.raw.txt | apertium -d. ~/aper
 
 cat texts/corpus4355.en | apertium -d ~/apertium-testing/apertium-eng-kaz/ eng-kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]' | apertium-destxt | lt-proc -w ~/apertium-testing/apertium-eng-kaz/.deps/eng.automorf.bin | grep -v '\*' | cg-proc merge-analyses.bin  | apertium-retxt| grep -v '\/.*\/.*\/.*\/'| cut -f4 -d'/' | cut -f1 -d'$' | sed 's/<\([a-z0-9A-Z]\+\)>/<s n="\1"\/>/g'
 
+
+
+
+
+Denkowski & Lavie (AMTA 2012):
+measured BLEU before and after postediting: result? Cannot distinguish!!
+
+Afternoon
+We will install mteval and prepare files so that they can be evaluated with it.
+
+We used the files in http://is.gd/MTeval
+Plain-text files are tokenized.
+
+Tokenizer: 
+http://www.statmt.org/wmt09/scripts.tgz
+
+
+Generate XML files for mteval:
+
+sh wrapper.sh en es en es es-ref apertium zzz
+
+[this converts .txt files into .xml files for mteval]
+
+Running mteva
+
+./mteval-v13a.pl -s en.xml -t es.xml -r es-ref.xml -b
+
+Note: a "shebang" tells a Unix file where the interpreter is: #!/usr/bin/perl would call the perl interpreter to process this file.
+
+The job:
+(1) prepare an eng file (eng.txt)
+(2) translate with apertium-eng-kaz (kaz.txt)
+(3) prepare a reference Kazakh translation (kazr.txt)
+(4) convert to XML using wrapper (changing names accordingly)
+(5) run mteval
+
+Separate sentences one by line:
+
+cat test.txt | sed 's/[.][ ]*/.\n/g' >test1.txt
+
+Basic Unix stuff: 
+>   → sends standard output  to a file
+cat → sends standard input or a file to standard output
+sed → stream editor
+http://www.unixguide.net/unix/sedoneliner.shtml
+
+
+Can't locate XML/Twig.pm in @INC (@INC contains: /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at ./mteval-v13a.pl line 7.
+BEGIN failed--compilation aborted at ./mteval-v13a.pl line 7.
+SOLUTION? →
+sudo cpan 
+[...]
+> install XML::Twig
+> exit
+
+
+bash: ./mteval-v13a.pl: Permission denied
+SOLUTION: → chmod +x mteval-v13a.pl

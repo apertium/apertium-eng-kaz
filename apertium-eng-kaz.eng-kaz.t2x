@@ -597,6 +597,12 @@
      <pattern-item n="GenP"/>
   </pattern>
      <action>
+<call-macro n="change-case-upper">  
+<with-param pos="3"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
      <call-macro n="build-possessive">
         <with-param pos="2"/>
      </call-macro>
@@ -648,6 +654,13 @@
      <pattern-item n="GenP"/>
   </pattern>
      <action>
+
+<call-macro n="change-case-lower">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro>
      <call-macro n="build-possessive">
         <with-param pos="2"/>
      </call-macro>

@@ -11392,7 +11392,28 @@ this would have to be changed -->
     
 
 <!-- *** -->
+<choose>
+  <when> <!-- Demonstrative -->
+    <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
 
+<or>
+ <equal><clip pos="1" side="sl" part="lem"/><lit v="This"/></equal>
+ <equal><clip pos="1" side="sl" part="lem"/><lit v="this"/></equal>
+</or>
+</and>
+</test>
+<let>
+<var n="case"/><lit-tag v="nom"/>
+</let>
+</when>
+<otherwise>
+<let>
+<var n="case"/><lit v=""/>
+</let>
+</otherwise>
+</choose>
 <choose>
   <when> <!-- Demonstrative -->
     <test>
@@ -11401,6 +11422,7 @@ this would have to be changed -->
  <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
 </or>
 </test>
+
     <out>
     <chunk name="detdem-nom"  case="caseFirstWord">
     <tags>
@@ -11414,6 +11436,7 @@ this would have to be changed -->
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_det"/>
       <clip pos="1" side="tl" part="a_dem"/>
+<var n="case"/>
     </lu>
     <b pos="1"/>
     <lu>  
@@ -12668,6 +12691,26 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 </choose>
  </action>
 </rule>
+
+
+<rule comment="NEW RULE: adv">  
+  <pattern>
+    <pattern-item n="adv"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="adv">
+    <tags>
+    <tag><lit-tag v="AdvP"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
  
 
 <rule comment="RULE: which - ol">
@@ -13508,23 +13551,6 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   </action>
 </rule>
 
-<rule comment="NEW RULE: adv">  
-  <pattern>
-    <pattern-item n="adv"/>
-  </pattern>
-  <action>
-    <out>
-    <chunk name="adv">
-    <tags>
-    <tag><lit-tag v="AdvP"/></tag>
-    </tags>
-    <lu>
-      <clip pos="1" side="tl" part="whole"/>
-     </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
 
 
 
@@ -13924,7 +13950,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
        <tag><lit-tag v="NP_to_inf"/></tag>
         <tag><lit-tag v="PD"/></tag> 
         <tag><lit-tag v="ND"/></tag> 
-        <tag><lit-tag v="ger_past"/></tag> 
+        <tag><lit-tag v="ger"/></tag> 
         <tag><lit-tag v="PXD"/></tag> 
         <tag><lit-tag v="CD"/></tag>
       </tags>
@@ -13932,7 +13958,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
         <lu>
           <clip pos="2" side="tl" part="lem"/>
 	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-         <lit-tag v="4"/>
+<lit-tag v="ger"/>
          <lit-tag v="5"/>
          <lit-tag v="6"/>
         </lu>

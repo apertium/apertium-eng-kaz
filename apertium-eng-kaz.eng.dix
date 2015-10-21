@@ -15350,6 +15350,8 @@
 
                             <e lm="alone" i=""><i>alone</i><par n="maybe__adv"/></e>
 
+                            <e lm="aloud" i=""><i>aloud</i><par n="maybe__adv"/></e>
+
                             <e lm="already" i=""><i>already</i><par n="maybe__adv"/></e>
 
                             <e lm="alright" i=""><i>alright</i><par n="maybe__adv"/></e>
@@ -41753,6 +41755,8 @@
 
                             <e lm="advancement" i=""><i>advancement</i><par n="house__n"/></e>
 
+                            <e lm="advancer" i=""><i>advancer</i><par n="house__n"/></e>
+
                             <e lm="advantage" i=""><i>advantage</i><par n="house__n"/></e>
 
                             <e lm="adventure" i=""><i>adventure</i><par n="house__n"/></e>
@@ -42748,6 +42752,8 @@
 
                             <e lm="boat" i=""><i>boat</i><par n="house__n"/></e>
 
+                            <e lm="bodily" i=""><i>bodil</i><par n="bab/y__n"/></e>
+
                             <e lm="body" i=""><i>bod</i><par n="bab/y__n"/></e>
 
                             <e lm="bodyguard" i=""><i>bodyguard</i><par n="house__n"/></e>
@@ -42840,7 +42846,7 @@
 
                             <e lm="bread" i=""><i>bread</i><par n="house__n"/></e>
 
-                            <e lm="bread" i=""><i>bread</i><par n="house__n"/></e>
+                            <e lm="breadth" i=""><i>breadth</i><par n="access__n"/></e>
 
                             <e lm="break" i=""><i>break</i><par n="house__n"/></e>
 
@@ -42859,6 +42865,8 @@
                             <e lm="breed" i=""><i>breed</i><par n="house__n"/></e>
 
                             <e lm="breeze" i=""><i>breeze</i><par n="house__n"/></e>
+
+			    <e lm="brevity" i=""><i>brevit</i><par n="bab/y__n"/></e>
 
                             <e lm="brewery" i=""><i>brewer</i><par n="bab/y__n"/></e>
 
@@ -43248,6 +43256,8 @@
                             <e lm="certificate" i=""><i>certificate</i><par n="house__n"/></e>
 
                             <e lm="certification" i=""><i>certification</i><par n="house__n"/></e>
+
+                            <e lm="chaff" i=""><i>chaff</i><par n="access__n"/></e>
 
                             <e lm="chain" i=""><i>chain</i><par n="house__n"/></e>
 
@@ -44036,6 +44046,8 @@
                             <e lm="contrast" i=""><i>contrast</i><par n="house__n"/></e>
 
                             <e lm="contribution" i=""><i>contribution</i><par n="house__n"/></e>
+
+                            <e lm="contrivance" i=""><i>contrivance</i><par n="house__n"/></e>
 
                             <e lm="control" i=""><i>control</i><par n="house__n"/></e>
 
@@ -48416,7 +48428,7 @@
 
                             <e lm="navigator" i=""><i>navigator</i><par n="house__n"/></e>
 
-                            <e lm="necessity" i=""><i>necessity</i><par n="house__n"/></e>
+                            <e lm="necessity" i=""><i>necessit</i><par n="bab/y__n"/></e>
 
                             <e lm="neck" i=""><i>neck</i><par n="house__n"/></e>
 
@@ -48489,6 +48501,8 @@
                             <e lm="nightmare" i=""><i>nightmare</i><par n="house__n"/></e>
 
                             <e lm="nitrate" i=""><i>nitrate</i><par n="house__n"/></e>
+
+                            <e lm="nitre" i=""><i>nitre</i><par n="house__n"/></e>
 
                             <e lm="nitrite" i=""><i>nitrite</i><par n="house__n"/></e>
 
@@ -50617,6 +50631,8 @@
 
                             <e lm="salt" i=""><i>salt</i><par n="house__n"/></e>
 
+                            <e lm="salutation" i=""><i>salutation</i><par n="house__n"/></e>
+
                             <e lm="salvation" i=""><i>salvation</i><par n="house__n"/></e>
 
                             <e lm="sample" i=""><i>sample</i><par n="house__n"/></e>
@@ -51624,6 +51640,8 @@
                             <e lm="summit" i=""><i>summit</i><par n="house__n"/></e>
 
                             <e lm="sun" i=""><i>sun</i><par n="house__n"/></e>
+
+                            <e lm="superfice" i=""><i>superfice</i><par n="house__n"/></e>
 
                             <e lm="superiority" i=""><i>superiorit</i><par n="bab/y__n"/></e>
 
@@ -55467,6 +55485,8 @@
 
                             <e lm="labour" i=""><i>labour</i><par n="expensive__adj"/></e>
 
+                            <e lm="lank" i=""><i>lank</i><par n="expensive__adj"/></e>
+
                             <e lm="last" i=""><i>last</i><par n="expensive__adj"/></e>
 
                             <e lm="last" i=""><i>last</i><par n="house__n"/></e>
@@ -55881,6 +55901,8 @@
                             <e lm="novel" i=""><i>novel</i><par n="expensive__adj"/></e>
 
                             <e lm="novelistic" i=""><i>novelistic</i><par n="expensive__adj"/></e>
+
+                            <e lm="noxious" i=""><i>noxious</i><par n="expensive__adj"/></e>
 
                             <e lm="nuclear" i=""><i>nuclear</i><par n="expensive__adj"/></e>
 
@@ -56492,6 +56514,8 @@
                             <e lm="provincial" i=""><i>provincial</i><par n="expensive__adj"/></e>
 
                             <e lm="provisional" i=""><i>provisional</i><par n="expensive__adj"/></e>
+
+                            <e lm="prudent" i=""><i>prudent</i><par n="expensive__adj"/></e>
 
                             <e lm="psychiatric" i=""><i>psychiatric</i><par n="expensive__adj"/></e>
 
@@ -58421,6 +58445,8 @@ F
 
                             <e lm="claim" i=""><i>claim</i><par n="accept__vblex"/></e>
 
+                            <e lm="clap" i=""><i>clap</i><par n="accept__vblex"/></e>
+
                             <e lm="clarify" i=""><i>clarif</i><par n="appl/y__vblex"/></e>
 
                             <e lm="classify" i=""><i>classif</i><par n="appl/y__vblex"/></e>
@@ -58488,6 +58514,8 @@ F
                             <e lm="comport" i=""><i>comport</i><par n="accept__vblex"/></e>
 
                             <e lm="compose" i=""><i>compos</i><par n="liv/e__vblex"/></e>
+
+                            <e lm="comprehend" i=""><i>comprehend</i><par n="accept__vblex"/></e>
 
                             <e lm="comprise" i=""><i>compris</i><par n="liv/e__vblex"/></e>
 
@@ -59894,11 +59922,13 @@ F
 
                             <e lm="open" i=""><i>open</i><par n="accept__vblex"/></e>
 
-                            <e lm="reopen" i=""><i>reopen</i><par n="accept__vblex"/></e>
-
                             <e lm="reconcile" i=""><i>reconcil</i><par n="liv/e__vblex"/></e>
 
                             <e lm="renegotiate" i=""><i>renegotiat</i><par n="liv/e__vblex"/></e>
+
+                            <e lm="reopen" i=""><i>reopen</i><par n="accept__vblex"/></e>
+
+                            <e lm="replenish" i=""><i>replenish</i><par n="accept__vblex"/></e>
 
                             <e lm="resupply" i=""><i>resuppl</i><par n="appl/y__vblex"/></e>
 
@@ -59973,6 +60003,8 @@ F
                             <e lm="penetrate" i=""><i>penetrat</i><par n="liv/e__vblex"/></e>
 
                             <e lm="perceive" i=""><i>perceiv</i><par n="liv/e__vblex"/></e>
+
+                            <e lm="percolate" i=""><i>percolate</i><par n="accept__vblex"/></e>
 
                             <e lm="perfect" i=""><i>perfect</i><par n="accept__vblex"/></e>
 
@@ -70874,6 +70906,8 @@ F
                             <e lm="phraseology" i=""><i>phraseolog</i><par n="bab/y__n"/></e>
 
                             <e lm="phreatic" i=""><i>phreatic</i><par n="expensive__adj"/></e>
+
+                            <e lm="physician" i=""><i>physician</i><par n="house__n"/></e>
 
                             <e lm="physicist" i=""><i>physicist</i><par n="house__n"/></e>
 

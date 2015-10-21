@@ -12482,7 +12482,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>recently<s n="adv"/></l><r>жақында<s n="adv"/></r></p></e>
 <e><p><l>currently<s n="adv"/></l><r>ағымда<s n="adv"/></r></p></e>
 <e><p><l>mostly<s n="adv"/></l><r>көбінесе<s n="adv"/></r></p></e>
-
+<e><p><l>woes<s n="adj"/></l><r>қырсық<s n="adj"/></r></p></e>
 
 <e><p><l>allegedly<s n="adv"/></l><r>секілді<s n="adv"/></r></p></e>
 <e><p><l>completely<s n="adv"/></l><r>толықтай<s n="adv"/></r></p></e>

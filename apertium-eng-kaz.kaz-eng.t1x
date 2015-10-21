@@ -43,6 +43,7 @@
 
     <def-cat n="vaux">
       <cat-item tags="vaux.*"/>
+ <cat-item tags="vaux.*.*.*"/>
     </def-cat>
 <def-cat n="vaux-neg">
       <cat-item tags="vaux.neg.*.*.*"/>
@@ -123,9 +124,10 @@
       <cat-item tags="v.*.fut_plan.*.*"/>
          </def-cat>
 <def-cat n="v-cond">
-      <cat-item tags="v.*.prc_cond.*.*"/>
+<cat-item tags="v.*.prc_cond.*.*"/>
 <cat-item tags="v.*.prc_cond.*.*.*"/>
 	<cat-item tags="v.*.gna_cond.*.*"/>
+<cat-item tags="v.*.gna_cond.*.*.*"/>
 <cat-item tags="v.*.coop.*.*.*"/>
 <cat-item tags="v.tv.coop.prc_impf"/>
 
@@ -197,7 +199,10 @@
 
       <cat-item tags="prn.dem.*"/>
          </def-cat>
-
+<def-cat n="num-cas">
+      <cat-item tags="num.subst.abl"/>
+<cat-item tags="num.*.*"/>
+</def-cat>
 
       <def-cat n="num">
       <cat-item tags="num"/>
@@ -1414,21 +1419,15 @@
   </pattern>
   <action>
    <call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
-
     <out>
     <chunk name="num">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
-<tag><var n="sntype"/></tag>
+    <tag><lit-tag v="SN-NUM"/></tag>
     </tags>
     <lu>
       <var n="num_lu"/>
 <lit-tag v="num"/>
-
-              <clip pos="1" side="tl" part="a_cas"/>
-            
-              <clip pos="1" side="tl" part="lemq"/>
-  
+<lit-tag v="sp"/>
      </lu>
     </chunk>
     </out>
@@ -4488,6 +4487,62 @@
         </call-macro>
       </action>
     </rule>
+
+<!--
+<rule comment="RULE: time"> 
+      <pattern>
+        <pattern-item n="num-cas"/>
+ 	<pattern-item n="num"/>
+        
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+
+
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="time" case="caseFirstWord">
+            <tags>
+	<tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="a_nbr"/></tag> 
+      <tag><lit-tag v="a_pos"/></tag> 
+    <tag><lit-tag v="a_case"/></tag> 
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+           
+<lu>
+              <clip pos="2" side="tl" part="whole"/>
+             
+            </lu>
+<b/>
+            
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>-->
 
 
 <rule comment="RULE: NUM  NOM NOM"> <!--7 okushy kyz-->

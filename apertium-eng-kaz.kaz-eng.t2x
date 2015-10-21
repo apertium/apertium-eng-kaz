@@ -91,6 +91,10 @@
       <cat-item tags="SV-pass"/>
       <cat-item tags="SV-pass.*"/>
     </def-cat>
+<def-cat n="SN-NUM">
+      <cat-item tags="SN-NUM"/>
+      <cat-item tags="SN-NUM.*"/>
+    </def-cat>
     <def-cat n="SN-ADVP">
       <cat-item tags="SN.LOC"/>
       <cat-item tags="SN.ABL"/>
@@ -1079,7 +1083,36 @@
           </chunk>
         </out>
       </action>
+    </rule> 
+
+  <rule comment="RULE: SN-NUM1 SN_NUM2 -> SN_MUM2 SV SN-NUM2">
+    
+      
+      <pattern>
+        <pattern-item n="SN-NUM"/>
+        <pattern-item n="SN-NUM"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+	    <clip pos="2" part="whole"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+	  <b/>
+         
+        </out>
+      </action>
     </rule>      
+
+     
 
 <rule comment="REGLA: SN SN PP and PP SV Men mektepke baqsha arkyly zhane sayabaq arkyly bardym">
          

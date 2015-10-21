@@ -4953,6 +4953,85 @@
 
     </pardef>
 
+
+<pardef n="d/are__vblex">
+
+                            <e i="">
+      <p>
+        <l>are</l>
+        <r>are<s n="vblex"/><s n="inf"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>are</l>
+        <r>are<s n="vblex"/><s n="pres"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>ares</l>
+        <r>are<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>urst</l>
+        <r>are<s n="vblex"/><s n="past"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>ared</l>
+        <r>are<s n="vblex"/><s n="past"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>ared</l>
+        <r>are<s n="vblex"/><s n="pp"/></r>
+      </p>
+    </e>
+
+                            <e i="">
+      <p>
+        <l>aring</l>
+        <r>are<s n="vblex"/><s n="ger"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>aring</l>
+        <r>are<s n="vblex"/><s n="pprs"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>aring</l>
+        <r>are<s n="vblex"/><s n="subs"/></r>
+      </p>
+    </e>
+
+
+    </pardef>
+
+
+
+
     <pardef n="spoil__vblex">
 
                             <e i="">
@@ -49126,6 +49205,8 @@
                             <e lm="password" i=""><i>password</i><par n="house__n"/></e>
 
                             <e lm="past" i=""><i>past</i><par n="house__n"/></e>
+			    
+			    <e lm="past" i=""><i>past</i><par n="accept__vblex"/></e>
 
                             <e lm="pasteurisation" i=""><i>pasteuri</i><par n="globali/sation__n"/></e>
 
@@ -49359,6 +49440,8 @@
                             <e lm="piglet" i=""><i>piglet</i><par n="house__n"/></e>
 
                             <e lm="pigeon" i=""><i>pigeon</i><par n="house__n"/></e>
+
+                            <e lm="dov" i=""><i>dov</i><par n="house__n"/></e>
 
                             <e lm="pile" i=""><i>pile</i><par n="house__n"/></e>
 
@@ -58703,9 +58786,7 @@ F
 
                             <e lm="dance" i=""><i>danc</i><par n="liv/e__vblex"/></e>
 
-                            <e lm="dare" i=""><i>dar</i><par n="liv/e__vblex"/></e>
-
-                            <e lm="dare" i=""><i>dar</i><par n="liv/e__vblex"/></e>
+                            <e lm="dare" i=""><i>d</i><par n="d/are__vblex"/></e>
 
                             <e lm="darken" i=""><i>darken</i><par n="accept__vblex"/></e>
 
@@ -60666,6 +60747,8 @@ F
                             <e lm="smell" i=""><i>smel</i><par n="spel/l__vblex"/></e>
 
                             <e lm="smile" i=""><i>smil</i><par n="liv/e__vblex"/></e>
+
+<e lm="shrug" i=""><i>shrug</i><par n="liv/e__vblex"/></e>
 
                             <e lm="smoke" i=""><i>smok</i><par n="liv/e__vblex"/></e>
 

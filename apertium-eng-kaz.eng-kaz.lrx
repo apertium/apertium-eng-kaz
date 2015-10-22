@@ -161,6 +161,13 @@
   </rule>
 
 
+<rule>
+    <match lemma="the" tags="det.*"/>
+    <match lemma="time" tags="n.*"><select lemma="уақыт" tags="n.*"/></match>
+    <match lemma="*" tags="num.*"/>  
+     </rule>
+
+
  
 
 

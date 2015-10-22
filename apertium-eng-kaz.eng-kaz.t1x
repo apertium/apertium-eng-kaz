@@ -29,6 +29,12 @@
       <cat-item lemma="like" tags="vblex.inf"/>
     </def-cat>
 
+
+  <def-cat n="past"> <!--ten past six -->
+      <cat-item lemma="past" tags="vblex.pres"/>
+    </def-cat>
+
+
   <def-cat n="v-look"> <!--look like -->
       <cat-item lemma="look" tags="vblex.*"/>
     </def-cat>
@@ -3026,6 +3032,57 @@
      </call-macro>
       </otherwise> 
     </choose>
+  </action>
+</rule>
+
+
+
+<rule comment="NEW RULE: num past num"> 
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="past"/>
+    <pattern-item n="num"/>
+  </pattern>
+  <action>
+     <call-macro n="default-nbr-pers"/>
+    
+        <let><var n="tense"/><lit-tag v="aor"/></let>
+
+     <out>
+  <chunk name="num-past-num">  
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="sg"/></tag> <!-- number -->
+        <tag><lit-tag v="p3"/></tag> <!-- person -->
+        <tag><lit-tag v="aor"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+        <tag><lit-tag v="CD"/></tag> <!-- negative -->
+      </tags>
+ <lu>
+           <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_num"/>
+	<lit-tag v="subst"/>
+	<lit-tag v="abl"/>
+	
+        </lu>
+            <b pos="1"/>
+ <lu>
+           <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_num"/>
+
+        </lu>
+            <b pos="2"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="ifi"/>
+	<lit-tag v="3"/>
+	<lit-tag v="2"/>
+    	
+        </lu>
+</chunk>
+     </out>
   </action>
 </rule>
 

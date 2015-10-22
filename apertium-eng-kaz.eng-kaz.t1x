@@ -13629,6 +13629,51 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 
 
 
+
+<rule comment="NEW RULE:time for play"> <!-- time for play-->  
+  <pattern>
+
+    <pattern-item n="time"/>
+    <pattern-item n="prep"/>
+    <pattern-item n="approx-inf-verb"/>
+  </pattern>
+  <action>
+ <call-macro n="change-case"><with-param pos="1"/></call-macro> 
+ <call-macro n="NEW-build-noun-lu-2-4-5">
+      <with-param pos="1"/>
+    </call-macro>
+     <let><var n="possessive"/><lit-tag v="px3sp"/></let>
+    <out>
+    <chunk name="time-for-play">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+  <tag><clip pos="1" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><var n="possessive"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+ <b pos="1"/>
+
+<lu>
+   <clip pos="3" side="tl" part="lem"/>
+   <clip pos="3" side="tl" part="a_kaz_verb"/>
+<lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+     </lu>    
+ <b pos="2"/>
+
+<lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+
+
+
 <rule comment="NEW RULE: adv-itg"> <!-- when/where/why-->  
   <pattern>
     <pattern-item n="adv-itg"/>

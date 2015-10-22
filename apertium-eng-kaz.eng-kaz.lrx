@@ -173,6 +173,15 @@
 
      </rule>
 
+
+<rule>
+<or>
+    <match lemma="time" tags="n.*"><select lemma="уақыт" tags="n.*"/></match>
+    <match lemma="time" tags="n.*"><select lemma="мезгіл" tags="n.*"/></match>
+</or>
+    <match lemma="*" tags="pr"/>
+     </rule>
+
 <rule>
     <match lemma="*" tags="num.*"/>  
     <match lemma="time" tags="n.*"><select lemma="рет" tags="n.*"/></match>

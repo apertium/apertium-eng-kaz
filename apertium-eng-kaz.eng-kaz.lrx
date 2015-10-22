@@ -167,6 +167,12 @@
     <match lemma="*" tags="num.*"/>  
      </rule>
 
+<rule>
+    <match lemma="*" tags="num.*"/>  
+    <match lemma="time" tags="n.*"><select lemma="рет" tags="n.*"/></match>
+
+     </rule>
+
 
  
 

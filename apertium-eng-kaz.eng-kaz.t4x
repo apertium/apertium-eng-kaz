@@ -881,7 +881,7 @@
             <let><clip pos="1" side="tl" part="poss"/><lit-tag v="px2sg.frm"/></let>
           </when>
         </choose>
- <choose>
+<!-- <choose>
           <when>
             <test>
 <and>
@@ -891,7 +891,7 @@
 </test> 
             <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
           </when>
-        </choose>
+        </choose>-->
 <choose>
           <when>
             <test>

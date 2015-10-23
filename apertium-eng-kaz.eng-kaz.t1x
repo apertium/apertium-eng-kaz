@@ -13,7 +13,7 @@
     </def-cat>   
     <def-cat n="approx-inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->      
-
+      <cat-item lemma="be" tags="vbser.inf"/>
     </def-cat>
   <def-cat n="inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
@@ -3680,6 +3680,14 @@
     <pattern-item n="approx-inf-verb"/> <!-- MLF 20120618 this to catch tagger errors, should be solved there not here! -->
    </pattern>
   <action>
+<!--<choose>
+<when>
+<test>
+<equal>
+          <clip pos="2" side="sl" part="lem"/><lit v="be"/>
+</equal>
+</test>
+<let><clip pos="2" side="sl" part="lem"/><lit v="be"/>-->
 
         <out><b pos="1"/></out>
     <let><var n="tense"/><lit-tag v="aor"/></let>
@@ -13998,6 +14006,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <tags>
     <tag><lit-tag v="AdjP"/></tag>
  <tag><lit-tag v="subst"/></tag>
+ <tag><lit-tag v="PXD"/></tag>
  <tag><lit-tag v="CD"/></tag>
     </tags>
 	<b pos="1"/>
@@ -14012,6 +14021,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
         <lit-tag v="adj"/>
         <lit-tag v="2"/>
         <lit-tag v="3"/>
+        <lit-tag v="4"/>
      </lu>
     </chunk>
     </out>

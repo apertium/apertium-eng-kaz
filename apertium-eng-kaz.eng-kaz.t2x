@@ -4847,6 +4847,7 @@
             <clip pos="3" part="a_nbr"/> <!-- agree number -->
             <clip pos="3" part="a_pers"/> <!-- agree person -->
             <clip pos="3" part="a_adj"/>
+            <clip pos="3" part="a_possessive"/>
              <lit-tag v="dat"/>
             <clip pos="3" part="chcontent"/>         
           </chunk>

@@ -189,6 +189,20 @@
      </rule>
 
 
+<rule>
+    <match lemma="the" tags="det.*"/>  
+    <match lemma="first" tags="adj"><select lemma="бірінші" tags="adj"/></match>
+
+     </rule>
+
+
+<rule>
+    <match lemma="will" tags="vaux.*"/>  
+    <match lemma="be" tags="vbser.inf"><select lemma="бол" tags="v.iv.inf"/></match>
+
+     </rule>
+
+
  
 
 

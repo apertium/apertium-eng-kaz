@@ -203,6 +203,21 @@
      </rule>
 
 
+<rule>
+    <match lemma="can" tags="vaux.*"/>  
+    <match lemma="not" tags="adv"/>  
+    <match lemma="be" tags="vbser.inf"><select lemma="бол" tags="v.iv.inf"/></match>
+
+     </rule>
+
+
+<rule>
+    <match lemma="," tags="cm"/>  
+
+    <match lemma="be" tags="vbser.inf"><select lemma="бол" tags="v.iv.inf"/></match>
+
+     </rule>
+
  
 
 

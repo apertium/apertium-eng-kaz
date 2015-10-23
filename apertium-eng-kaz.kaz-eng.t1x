@@ -349,8 +349,7 @@
       <cat-item tags="post.*"/>
       <cat-item tags="post.Rnom"/>
       <cat-item tags="post.Rnom.*"/>
-      <cat-item tags="n.*.loc"/>
-      <cat-item tags="n.*.loc.*"/>
+     
     </def-cat>
 
  <def-cat n="nom-pr">

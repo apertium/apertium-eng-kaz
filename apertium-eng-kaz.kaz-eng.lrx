@@ -30,6 +30,13 @@
   <match lemma="бет" tags="n.*.*"><select lemma="surface" tags="n.*"/></match>     
  </rule>
 
+
+ <rule>
+  
+  <match lemma="Наурыз" tags="np."><select lemma="Nauryz" tags="np.*.*.*"/></match> 
+<match lemma="мейрам" tags="n.*.*"/>    
+ </rule>
+
  <rule>
   <match lemma="әдемі" tags="adj"><select lemma="beautiful" tags="adj"/></match>
  </rule>
@@ -134,6 +141,9 @@
   </or>
    <match lemma="ай" tags="n.px3sp.*"><select lemma="month" tags="n.*"/></match>
  </rule>
+
+
+
 
 <rule>
   <match lemma="Сіз" tags="prn.pers.p2.*.*.gen"><select lemma="You" tags="prn.subj.p2.*.*"/></match>

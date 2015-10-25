@@ -42,6 +42,11 @@
       <cat-item tags="SV-cop"/>
       <cat-item tags="SV-cop.*"/>
     </def-cat>
+    <def-cat n="Qst">
+      <cat-item tags="Qst"/>
+      <cat-item tags="Qst.*"/>
+    </def-cat>
+ 
 <def-cat n="SV-ger">
       <cat-item tags="SV-ger"/>
       <cat-item tags="SV-ger.*"/>
@@ -433,11 +438,11 @@
 
             <clip pos="2" part="lem"/>
             <lit-tag v="SN"/>             
-<lit-tag v="pl"/>
+<lit-tag v="nom"/>
 
             <clip pos="2" part="a_pers"/> 
             <clip pos="2" part="a_possessive"/>
-             <lit-tag v="nom"/>
+             <lit-tag v="pl"/>
             <clip pos="2" part="chcontent"/> 
           </chunk>
         </out>
@@ -557,6 +562,48 @@
         </call-macro>
       </action>
     </rule>
+
+
+<rule comment="RULE: SN QST ">  <!--атыңыз кім? -->
+      <pattern>
+        <pattern-item n="SN"/>
+    
+        <pattern-item n="Qst"/>
+      </pattern>
+     <action>
+       <choose>
+<when>
+<test>
+
+                 <equal> <clip pos="1" part="a_pers"/><lit v=""/>
+
+ 
+</equal>
+   </test>
+<let>    <clip pos="2" part="a_nbr"/><lit-tag v="pl"/>   </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
+</when>
+</choose>
+        <out>
+                 <chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+ <var n="PREP"/>
+          <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 
 <rule comment="RULE: AdvP SV">  <!-- -->

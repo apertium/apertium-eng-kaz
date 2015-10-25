@@ -24,6 +24,11 @@
       <cat-item tags="np.cog.*"/>
    </def-cat>
 
+<def-cat n="itg"> 
+      <cat-item tags="det.itg"/>
+      <cat-item tags="det.itg.*"/>
+   </def-cat>
+
 <def-cat n="nom">
        <cat-item tags="n.*"/>
  <cat-item tags="n.*.*"/>
@@ -214,6 +219,7 @@
 
  <def-cat n="cop">
       <cat-item tags="cop.*"/>
+<cat-item tags="cop.*.*.*"/>
     </def-cat>
 <def-cat n="cop-neg">
       <cat-item tags="cop.neg.*"/>
@@ -1163,65 +1169,6 @@
 
 <section-rules>
 
-<rule comment="RULE: NOM in dat">
-      <pattern>
-        <pattern-item n="n"/>
-      </pattern>
-<action>
-        
-      
-        <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
-        </call-macro>
- <choose>
-                 <when>
-                   <test>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                  </test>
-                  <let><var n="number"/><lit-tag v="pl"/></let>
-                </when>
-                <otherwise>
-                  <let><var n="number"/><lit-tag v="sg"/></let>
-                </otherwise>
-              </choose>
-
-
-        <out>
-          <chunk name="noun-dat" case="caseFirstWord">
-            <tags>
-              <tag><var n="sntype"/></tag>
-            </tags>
-<lu>
-              <lit v="to"/>
-             <lit-tag v="pr"/>
-         
- </lu>
-  <b/>
-
-            <lu>
-	<clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-            <!--  <lit-tag v="sg"/>-->
-              <clip pos="1" side="tl" part="lemq"/>
-  
-             <var n="number"/>
-
-            </lu>
-          </chunk>
-        </out>
-
-
- 
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    
-    </rule>
-
 <rule comment="NEW RULE: adjec noun1 noun2">   <!-- for "good football players"-->
   <pattern>
     <pattern-item n="adj"/>
@@ -1408,6 +1355,81 @@
         </call-macro>
       </action>
     </rule>
+
+<rule comment="RULE: what is + noun"> <!--Атыңыз кім? -->
+      <pattern>
+
+<pattern-item n="itg"/>
+
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<let>    
+<clip pos="1" side="tl" part="a_pos"/><lit v=""/>   
+</let> 
+
+ <choose><!-- choosing correct to be-->
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+          
+<out>
+          <chunk name="quest" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="Qst"/></tag>
+<!--<tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>-->
+
+              
+            </tags>
+
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+
+<lit-tag v="adv"/>
+<lit-tag v="itg"/>        
+              
+            </lu>
+<b/>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="p3"/>
+              <lit-tag v="sg"/>
+              
+</lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 
 
@@ -4073,7 +4095,7 @@
           <chunk name="noun-sg/pl" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
-              <tag>             <var n="number"/></tag>
+              <tag>  <var n="number"/></tag>
             </tags>
 
             <lu>
@@ -4398,6 +4420,9 @@
     </out>
   </action>
 </rule>
+
+
+
 
 
 

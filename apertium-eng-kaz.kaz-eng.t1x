@@ -211,12 +211,14 @@
 
       <def-cat n="num">
       <cat-item tags="num"/>
-<cat-item tags="det.ord.*"/>
+
       <cat-item tags="num.*"/>
 <cat-item tags="num.*.*"/>
 </def-cat>
-
-
+<def-cat n="num-ord">
+<cat-item tags="num.ord"/>
+<cat-item tags="num.ord.*"/>
+</def-cat>
  <def-cat n="cop">
       <cat-item tags="cop.*"/>
 <cat-item tags="cop.*.*.*"/>
@@ -366,7 +368,7 @@
  </def-cat>
 
  <def-cat n="n-pr1">
- <cat-item tags="n.*"/>
+ 
  <cat-item tags="adv.*"/>
  </def-cat>
     
@@ -766,7 +768,7 @@
        </when> 
 
      
-  <when>   <!-- at and in have the same translation: locative -->
+  <when>   
         <test>
           <equal caseless="yes">
             <clip pos="1" side="sl" part="a_cas"/>
@@ -780,22 +782,7 @@
                       </concat>
              </let>
     </when> 
-           
-
-<!--<when> 
-             <test>
-               <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem"/>
-                  <lit v="nom"/>
-               </equal>
-             </test>
-             <let>
-                <var n="case"/>
-                <lit-tag v="throughout"/>
-             </let>
-       </when>    -->
-
-          <when> 
+                  <when> 
             <test>
               <equal caseless="yes">
                 <clip pos="1" side="sl" part="a_cas"/>
@@ -841,7 +828,7 @@
            <otherwise>
               <let>
                 <var n="case"/>
-                <lit-tag v="ins"/> <!-- Choice when we don't know the translation of the preposition, can be improved -->
+                <lit-tag v="ins"/> 
               </let>
               <let>
                 <var n="pptag"/>
@@ -849,7 +836,7 @@
               </let>
             </otherwise>
     </choose>
-      </when> <!-- End of solutions without postpositions -->
+      </when> 
 
       <when>  <!--- Now, with postpositions -->
         <test>
@@ -3018,7 +3005,7 @@
  <lu>
               <clip pos="2" side="tl" part="lem"/>
             <clip pos="2" side="tl" part="a_adjec"/>
- 	 <lit-tag v="sint"/>
+ 	<!-- <lit-tag v="sint"/>-->
             </lu>
           </chunk>
         </out>
@@ -3606,7 +3593,8 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="2" side="tl" part="lem"/>
+	<clip pos="2" side="tl" part="a_nom"/>
               <var n="number"/>
             </lu>
           </chunk>
@@ -3739,7 +3727,57 @@
       </action>
     </rule>
 
+<rule comment="RULE: NUM  NOM"> <!--бірінші үй-->
+      <pattern>
+        <pattern-item n="num-ord"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+<!-- <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>-->
+        <out>
+          <chunk name="ordnum-nom" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
 
+             <lit-tag v="det"/>
+<lit-tag v="ord"/>
+<lit-tag v="sp"/>
+            </lu>
+            <b pos="1"/>
+           
+<lu>
+              <clip pos="2" side="tl" part="lem"/>
+	<clip pos="2" side="tl" part="a_nom"/>
+             <lit-tag v="sg"/>
+            </lu>
+<b/>
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
   
@@ -4499,7 +4537,8 @@
             <b pos="1"/>
            
 <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="2" side="tl" part="lem"/>
+	<clip pos="2" side="tl" part="a_nom"/>
              <var n="number"/>
             </lu>
 <b/>
@@ -4512,61 +4551,8 @@
       </action>
     </rule>
 
-<!--
-<rule comment="RULE: time"> 
-      <pattern>
-        <pattern-item n="num-cas"/>
- 	<pattern-item n="num"/>
-        
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="2"/>
-        </call-macro>
- <call-macro n="remove-poss">
-          <with-param pos="2"/>
-        </call-macro>
 
 
- <choose>
-                 <when>
-                   <test>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
-                  </test>
-                  <let><var n="number"/><lit-tag v="sg"/></let>
-                </when>
-                <otherwise>
-                  <let><var n="number"/><lit-tag v="pl"/></let>
-                </otherwise>
-              </choose>
-        <out>
-          <chunk name="time" case="caseFirstWord">
-            <tags>
-	<tag><lit-tag v="SN"/></tag>
-    <tag><lit-tag v="a_nbr"/></tag> 
-      <tag><lit-tag v="a_pos"/></tag> 
-    <tag><lit-tag v="a_case"/></tag> 
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-             
-            </lu>
-            <b pos="1"/>
-           
-<lu>
-              <clip pos="2" side="tl" part="whole"/>
-             
-            </lu>
-<b/>
-            
-
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>-->
 
 
 <rule comment="RULE: NUM  NOM NOM"> <!--7 okushy kyz-->
@@ -6459,14 +6445,15 @@
       </action>
     </rule>
 
-<rule comment="RULE: V-was+not+ pp"> <!--Book was not written Кітап жазылмады-->
+<!--
+<rule comment="RULE: V-was+not+ pp">Book was not written Кітап жазылмады
       <pattern>
-<pattern-item n="nom"/>
+
         <pattern-item n="v-past_passive-neg"/>
       </pattern>
 <action>
           <let><clip pos="2" side="tl" part="a_tns"/><lit-tag v="past"/></let>
-<choose><!-- choosing correct to be--> 
+<choose> 
 
 <when>
                    <test>
@@ -6569,35 +6556,37 @@
           <with-param pos="1"/>
         </call-macro>
       </action>
-    </rule>
+    </rule>-->
 
-<rule comment="RULE: V-was+ pp"> <!--Book was written Кітап жазылды-->
+
+<!--
+<rule comment="RULE: V-was+ pp"> Book was written Кітап жазылды
       <pattern>
-<pattern-item n="nom"/>
+
         <pattern-item n="v-past_passive"/>
       </pattern>
       <action>
          
-           <let><clip pos="2" side="tl" part="a_tns"/><lit-tag v="past"/></let>
-<choose><!-- choosing correct to be--> 
+           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="past"/></let>
+<choose> 
 
 <when>
                    <test>
                    
-                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
                       </test>
-                 <let><clip pos="3" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="3" side="tl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
 <when>
                    <test>
                    <and>
-                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
                      </and>
                       </test>
-                 <let><clip pos="3" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="3" side="tl" part="a_pers"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
 <when>
                    <test>
@@ -6615,23 +6604,16 @@
 <when>
                    <test>
                    <and>
-                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
-                       <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="past"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="past"/></equal>
                      </and>
                       </test>
-           <let><clip pos="3" side="tl" part="a_pers"/><lit v="p3"/></let>
-                 <let><clip pos="3" side="tl" part="a_nbr"/><lit v="sg"/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v="p3"/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v="sg"/></let>
 
                 </when>
-          
- 
-                 <when>
-                   <test>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                  </test>
-                  <let><var n="number"/><lit-tag v="pl"/></let>
-                </when>
+                          
                 <otherwise>
                   <let><var n="number"/><lit-tag v="sg"/></let>
 
@@ -6650,13 +6632,7 @@
               <tag><clip pos="2" side="tl" part="a_pers"/></tag>
               <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
             </tags>
-<lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-             <var n="number"/>
 
-            </lu>
-<b/>
             <lu>
               <lit v="be"/>
               <lit-tag v="vbser"/>
@@ -6678,7 +6654,7 @@
           <with-param pos="1"/>
         </call-macro>
       </action>
-    </rule>
+    </rule>-->
 
 
 <rule comment="RULE: V-will+be+verb(pp)"> <!--will be written-->

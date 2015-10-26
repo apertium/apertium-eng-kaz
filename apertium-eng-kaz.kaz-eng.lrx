@@ -14,6 +14,9 @@
   <match lemma="қыз" tags="n.*"/>
  </rule>
 
+
+
+
  <rule>
   <match lemma="Ол" tags="prn.pers.p3.sg.nom"><select lemma="she" tags="prn.subj.p3.f.*"/></match>
   <match lemma="әдемі" tags="adj"><select lemma="beautiful" tags="adj"/></match>

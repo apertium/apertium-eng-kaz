@@ -43754,6 +43754,8 @@
 
                             <e lm="collision" i=""><i>collision</i><par n="house__n"/></e>
 
+			    <e lm="declension" i=""><i>declension</i><par n="house__n"/></e>
+
                             <e lm="colloquium" i=""><i>colloqui</i><par n="maxim/um__n"/></e>
 
                             <e lm="colonel" i=""><i>colonel</i><par n="house__n"/></e>
@@ -45178,6 +45180,8 @@
                             <e lm="dynamism" i=""><i>dynamism</i><par n="house__n"/></e>
 
                             <e lm="dynamite" i=""><i>dynamite</i><par n="house__n"/></e>
+
+			    <e lm="scribe" i=""><i>scribe</i><par n="house__n"/></e>
 
                             <e lm="dynasty" i=""><i>dynast</i><par n="bab/y__n"/></e>
 
@@ -66821,6 +66825,8 @@ F
                             <e lm="decanter" i=""><i>decanter</i><par n="house__n"/></e>
 
                             <e lm="decasyllable" i=""><i>decasyllable</i><par n="house__n"/></e>
+
+			    <e lm="polysyllable" i=""><i>polysyllable</i><par n="house__n"/></e>
 
                             <e lm="decease" i=""><i>decease</i><par n="house__n"/></e>
 

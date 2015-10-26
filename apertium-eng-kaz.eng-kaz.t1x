@@ -105,6 +105,15 @@
       <cat-item tags="vbser.past"/>
  <!-- <cat-item tags="vbser.pp"/> --> <!-- I think this does not belong here -->
     </def-cat>
+<def-cat n="is-verb-to-be"> <!-- past and present tense -->
+      <cat-item lemma="be" tags="vbser.pres"/>
+
+ <cat-item lemma="be" tags="vbser.pres.*"/>
+      <cat-item lemma="be" tags="vbser.pres.*"/>
+      <cat-item lemma="be" tags="vbser.past.*"/>
+      <cat-item lemma="be" tags="vbser.past"/>
+ <!-- <cat-item tags="vbser.pp"/> --> <!-- I think this does not belong here -->
+    </def-cat>
     <def-cat n="verb-ing"> <!--playing -->
       <cat-item tags="vblex.ger"/>
       <cat-item tags="vbmod.ger"/> 
@@ -364,6 +373,7 @@
   <def-cat n="adv-itg">
       <cat-item lemma="when" tags="adv.itg"/>
       <cat-item lemma="when" tags="adv.itg"/>
+      <cat-item lemma="where" tags="adv.itg"/>
       
     </def-cat>
 
@@ -1662,6 +1672,68 @@
 
 
 <section-rules>
+<rule comment="NEW RULE: adv-itg-is-nom?"> <!-- when/where/why is James?-->  
+  <pattern>
+    <pattern-item n="adv-itg"/>
+    <pattern-item n="is-verb-to-be"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="quest"/>
+  </pattern>
+  <action>
+ <call-macro n="change-case"><with-param pos="1"/></call-macro> 
+<call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="3"/>
+  </call-macro> 
+<choose>
+<when>
+<test>
+
+<and>
+ <equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="how"/>
+       </equal>
+ <equal>
+          <clip pos="1" side="sl" part="a_obj_pr"/>
+          <lit-tag v="itg"/>
+       </equal>
+</and>
+</test>
+     <let><var n="case"/><lit-tag v="nom"/></let>
+</when>
+<otherwise>
+     <let><var n="case"/><lit v=""/></let>
+</otherwise>
+</choose>
+    <out>
+    <chunk name="where-is-nom">
+    <tags>
+    <tag><lit-tag v="QAdvP"/></tag>
+     <tag><lit-tag v="p3"/></tag> 
+        <tag><lit-tag v="ND"/></tag> 
+       
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="CD"/></tag>
+    </tags>
+<lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+<b/>
+    <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_det_pron_adv"/>
+
+   <lit-tag v="itg"/>
+      <var n="case"/>
+     </lu>
+<b/>
+<lu>
+      <clip pos="4" side="tl" part="whole"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 
 <rule comment="NEW RULE: need to + infinitive"> <!--need to verb -->
@@ -13725,6 +13797,8 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     </out>
   </action>
 </rule>
+
+
 
 
 <rule comment="NEW RULE: cnjadv">  

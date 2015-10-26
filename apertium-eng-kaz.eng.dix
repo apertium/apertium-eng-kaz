@@ -47033,6 +47033,8 @@
 
                             <e lm="ingredient" i=""><i>ingredient</i><par n="house__n"/></e>
 
+			    <e lm="expedient" i=""><i>expedient</i><par n="house__n"/></e>
+
                             <e lm="inhabitant" i=""><i>inhabitant</i><par n="house__n"/></e>
 
                             <e lm="inhalation" i=""><i>inhalation</i><par n="house__n"/></e>
@@ -48729,6 +48731,8 @@
 
                             <e lm="observation" i=""><i>observation</i><par n="house__n"/></e>
 
+			    <e lm="diminution" i=""><i>diminution</i><par n="house__n"/></e>
+
                             <e lm="observatory" i=""><i>observator</i><par n="bab/y__n"/></e>
 
                             <e lm="observer" i=""><i>observer</i><par n="house__n"/></e>
@@ -49125,6 +49129,8 @@
                             <e lm="panorama" i=""><i>panorama</i><par n="house__n"/></e>
 
                             <e lm="panther" i=""><i>panther</i><par n="house__n"/></e>
+
+			    <e lm="wafer" i=""><i>wafer</i><par n="house__n"/></e>
 
                             <e lm="pants" i=""><i>pants</i><par n="alms__n"/></e>
 
@@ -50933,6 +50939,8 @@
                             <e lm="selfishness" i=""><i>selfishness</i><par n="access__n"/></e>
 
                             <e lm="seller" i=""><i>seller</i><par n="house__n"/></e>
+
+			    <e lm="pedlar" i=""><i>pedlar</i><par n="house__n"/></e>
 
                             <e lm="semaphore" i=""><i>semaphore</i><par n="house__n"/></e>
 
@@ -52792,6 +52800,8 @@
                             <e lm="watchtower" i=""><i>watchtower</i><par n="house__n"/></e>
 
                             <e lm="water" i=""><i>water</i><par n="house__n"/></e>
+
+			    <e lm="bolus" i=""><i>bolus</i><par n="house__n"/></e>
 
                             <e lm="running water" i=""><i>running<b/>water</i><par n="east__n"/></e>
 
@@ -54935,6 +54945,8 @@
 
                             <e lm="exquisite" i=""><i>exquisite</i><par n="expensive__adj"/></e>
 
+			    <e lm="requisite" i=""><i>requisite</i><par n="expensive__adj"/></e>
+
                             <e lm="extensible" i=""><i>extensible</i><par n="expensive__adj"/></e>
 
                             <e lm="extensive" i=""><i>extensive</i><par n="expensive__adj"/></e>
@@ -55094,6 +55106,8 @@
                             <e lm="fortunate" i=""><i>fortunate</i><par n="expensive__adj"/></e>
 
                             <e lm="foster" i=""><i>foster</i><par n="expensive__adj"/></e>
+
+			    <e lm="utter" i=""><i>utter</i><par n="expensive__adj"/></e>
 
                             <e lm="foundational" i=""><i>foundational</i><par n="expensive__adj"/></e>
 
@@ -55399,6 +55413,8 @@
                             <e lm="increasing" i=""><i>increasing</i><par n="expensive__adj"/></e>
 
                             <e lm="incredible" i=""><i>incredible</i><par n="expensive__adj"/></e>
+
+			    <e lm="irreconcilable" i=""><i>irreconcilable</i><par n="expensive__adj"/></e>
 
                             <e lm="indecent" i=""><i>indecent</i><par n="expensive__adj"/></e>
 
@@ -56985,6 +57001,8 @@
                             <e lm="spiky" i=""><i>spik</i><par n="happ/y__adj"/></e>
 
                             <e lm="spiritual" i=""><i>spiritual</i><par n="expensive__adj"/></e>
+
+			    <e lm="effectual" i=""><i>effectual</i><par n="expensive__adj"/></e>
 
                             <e lm="splendid" i=""><i>splendid</i><par n="expensive__adj"/></e>
 
@@ -61166,7 +61184,9 @@ F
                             <e lm="waste" i=""><i>wast</i><par n="liv/e__vblex"/></e>
 
                             <e lm="watch" i=""><i>watch</i><par n="approach__vblex"/></e>
-
+		
+			    <e lm="resum" i=""><i>resum</i><par n="liv/e__vblex"/></e>
+			
                             <e lm="watch after" i=""><i>watch</i><par n="approach__vblex"/><p><l><b/>after</l><r><g><b/>after</g></r></p></e>
 
                             <e lm="snap" i=""><i>snap</i><par n="step__vblex"/></e>
@@ -68940,6 +68960,8 @@ F
                             <e lm="incompletely" i=""><i>incompletely</i><par n="maybe__adv"/></e>
 
                             <e lm="inconceivable" i=""><i>inconceivable</i><par n="expensive__adj"/></e>
+
+			    <e lm="imaginable" i=""><i>imaginable</i><par n="expensive__adj"/></e>
 
                             <e lm="incongruence" i=""><i>incongruence</i><par n="house__n"/></e>
 

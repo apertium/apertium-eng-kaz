@@ -12439,6 +12439,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>ah<s n="ij"/></l><r>аһ<s n="ij"/></r></p></e>
 <e><p><l>uh<s n="ij"/></l><r>ух<s n="ij"/></r></p></e>
 <e r="RL"><p><l>ah<s n="ij"/></l><r>о<s n="ij"/></r></p></e>
+<e r="RL"><p><l></l><r>бұл<s n="prn"/><s n="dem"/><s n="adv"/></r></p></e>
 <e><p><l>bah<s n="ij"/></l><r>бах<s n="ij"/></r></p></e>
 <e><p><l>bingo<s n="ij"/></l><r>бәрекелді<s n="ij"/></r></p></e>
 <e><p><l>hello<s n="ij"/></l><r>сәлем<s n="ij"/></r></p></e>
@@ -15575,7 +15576,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 
  <e r="RL"><p><l></l><r>де<s n="v"/><s n="tv"/></r></p></e>
-
+<e r="RL"><p><l>speak<s n="vblex"/></l><r>де<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>ask<s n="vblex"/></l><r>сұра<s n="v"/><s n="tv"/></r></p></e>
 
 <e><p><l>past<s n="vblex"/></l><r>кет<s n="v"/><s n="tv"/></r></p></e>

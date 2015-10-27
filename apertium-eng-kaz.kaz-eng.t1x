@@ -122,6 +122,7 @@
     <def-cat n="v-fin">
       <cat-item tags="v.*.aor.*"/>
       <cat-item tags="v.*.ifi.*"/>
+<cat-item tags="v.*.ifi.*.*"/>
       <cat-item tags="vaux.*.aor.*"/> <!-- include auxiliaries for now -->
       <cat-item tags="vaux.*.ifi.*"/>
     </def-cat>
@@ -202,7 +203,7 @@
  <def-cat n="prn">
       <cat-item tags="prn"/>
 
-      <cat-item tags="prn.dem.*"/>
+      <cat-item tags="prn.dem"/>
          </def-cat>
 <def-cat n="num-cas">
       <cat-item tags="num.subst.abl"/>
@@ -1160,6 +1161,7 @@
   
 
 <section-rules>
+
 
 <rule comment="NEW RULE: adjec noun1 noun2">   <!-- for "good football players"-->
   <pattern>
@@ -2810,6 +2812,14 @@
         </out>
       </action>
     </rule>
+
+
+
+
+
+
+
+
 
 
 
@@ -6245,42 +6255,7 @@
     </rule>
 
 
-    <rule comment="RULE: V-FIN">   <!-- present simple past simple-->
-      <pattern>
-        <pattern-item n="v-fin"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-temps1">
-          <with-param pos="1"/>
-        </call-macro>
-  <call-macro n="conv-vpron">
-          <with-param pos="1"/>
-        </call-macro>
-
-
-        <out>
-          <chunk name="pres-verb" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
-              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
-              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-             <lit-tag v="2"/>
-             <lit-tag v="3"/>
-             <lit-tag v="4"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
+   
 
 <!--
 <rule comment="RULE: V-was+not+ pp">Book was not written Кітап жазылмады
@@ -7495,6 +7470,43 @@
             
               <clip pos="1" side="tl" part="lemq"/>
                 <lit-tag v="3"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+ <rule comment="RULE: V-FIN">   <!-- present simple past simple-->
+      <pattern>
+        <pattern-item n="v-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+        <out>
+          <chunk name="pres-verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="2"/>
+             <lit-tag v="3"/>
+             <lit-tag v="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>

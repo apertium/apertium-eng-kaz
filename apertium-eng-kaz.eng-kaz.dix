@@ -718,6 +718,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>apron<s n="n"/></l><r>алжапқыш<s n="n"/></r></p></e>
 <e><p><l>area<s n="n"/></l><r>алаң<s n="n"/></r></p></e>
 <e><p><l>area<s n="n"/></l><r>аумақ<s n="n"/></r></p></e>
+<e><p><l>area<s n="n"/></l><r>аймақ<s n="n"/></r></p></e>
 <e><p><l>area<s n="n"/></l><r>сектор<s n="n"/></r></p></e>
 <e><p><l>area<s n="n"/></l><r>мекен<s n="n"/></r></p></e>
 <e><p><l>area<s n="n"/></l><r>аудан<s n="n"/></r></p></e>
@@ -840,6 +841,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>feast<s n="n"/></l><r>той<s n="n"/></r></p></e>
 <e><p><l>feeling<s n="n"/></l><r>сезім<s n="n"/></r></p></e>
 <e><p><l>field<s n="n"/></l><r>дала<s n="n"/></r></p></e>
+<e><p><l>field<s n="n"/></l><r>сала<s n="n"/></r></p></e>
 <e><p><l>fig<s n="n"/></l><r>інжір<s n="n"/></r></p></e>
 <e><p><l>final<s n="n"/></l><r>финал<s n="n"/></r></p></e>
 <e><p><l>finger<s n="n"/></l><r>саусақ<s n="n"/></r></p></e>

@@ -141,6 +141,29 @@
    
   </rule>
 
+ <rule>
+    <match lemma="mountainous" tags="adj"/>
+    <match lemma="area" tags="n.*"><select lemma="аймақ" tags="n.*"/></match>
+
+  </rule>
+
+<rule>
+    <match lemma="picture" tags="n.*"/>
+    <match lemma="of" tags="pr"/>
+    <match lemma="artist" tags="n.*"><select lemma="суретші" tags="n.*"/></match>
+    
+
+  </rule>
+
+<rule>
+    <match lemma="in" tags="pr"/>
+    <match lemma="the" tags="det.*.*"/>
+    <match lemma="field" tags="n.*"><select lemma="сала" tags="n.*"/></match>
+    <match lemma="of" tags="pr"/>
+
+  </rule>
+
+
   <rule>
     <match lemma="sky" tags="n.*"><select lemma="аспан" tags="n.*"/></match>
   </rule>

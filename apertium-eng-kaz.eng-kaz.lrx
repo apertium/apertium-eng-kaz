@@ -218,7 +218,16 @@
 
      </rule>
 
- 
+ <rule>
+<or>
+    <match lemma="that" tags="*"/>  
+    <match lemma="," tags="cm"/>  
+    <match lemma="you" tags="*"/>  
+</or>
+
+    <match lemma="be" tags="vbser.inf"><select lemma="бол" tags="v.iv.inf"/></match>
+
+     </rule>
 
 
 

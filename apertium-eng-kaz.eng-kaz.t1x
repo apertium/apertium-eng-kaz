@@ -76,7 +76,7 @@
       <cat-item lemma="have# to" tags="vbmod.*"/>
       <cat-item lemma="want# to" tags="vbmod.*"/>
       <cat-item lemma="need# to" tags="vbmod.*"/>
-      <cat-item lemma="can" tags="vaux.*"/>
+    <!--  <cat-item lemma="can" tags="vaux.*"/>-->
       <cat-item lemma="should" tags="vaux.inf"/>
       <cat-item lemma="shall" tags="vaux.inf"/>
       <cat-item lemma="must" tags="vaux.inf"/>
@@ -14598,6 +14598,79 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
       </action>
 </rule>
 
+
+<rule comment="NEW RULE: can/could? + infinitive "> <!--could you play-->
+  <pattern> 
+    <pattern-item n="vaux-can"/>
+
+   </pattern>
+  <action>
+    <call-macro n="default-nbr-pers"/>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="pres"/>
+          </equal>
+        </test>
+            
+        <out>
+      <chunk name="can?">
+      <tags>
+        <tag><lit-tag v="VPQ_can"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+
+           
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="aor"/>
+	  <lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	
+ 	        </lu>
+      </chunk>
+  </out>
+       
+  </when> 
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="a_tense"/>
+             <lit-tag v="past"/>
+          </equal>
+        </test>
+        <out>
+      <chunk name="could">
+            <tags>
+        <tag><lit-tag v="VPQ_can"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+
+        
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="ifi"/>
+	<lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	</lu>
+          </chunk>
+        </out>
+      </when>
+    </choose>
+      </action>
+</rule>
   </section-rules>
 </transfer>
 

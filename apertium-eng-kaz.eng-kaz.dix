@@ -11959,6 +11959,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>seriously<s n="adv"/></l><r>қатты<s n="adv"/></r></p></e>
     <e><p><l>eventually<s n="adv"/></l><r>ең<b/>ақырында<s n="adv"/></r></p></e>
     <e><p><l>mentally<s n="adv"/></l><r>ойша<s n="adv"/></r></p></e>
+    <e><p><l>middle<s n="adv"/></l><r>орта<s n="adv"/></r></p></e>
     <e><p><l>hopefully<s n="adv"/></l><r>үмітпен<s n="adv"/></r></p></e>
     <e><p><l>not<s n="adv"/></l><r>емес<s n="adv"/></r></p></e>
     <e><p><l>frantically<s n="adv"/></l><r>қаһарлы<s n="adv"/></r></p></e>

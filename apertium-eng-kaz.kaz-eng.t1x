@@ -257,7 +257,7 @@
       <cat-item tags="prn.pers.*.*.ins"/> 
     </def-cat>
 <def-cat n="adv">
- <cat-item tags="n.px3sp.loc"/>
+ 
     <cat-item tags="adv"/>
    <cat-item tags="adv.itg"/>
     <cat-item tags="cnjadv"/>
@@ -2834,6 +2834,9 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<call-macro n="choose_case_and_postposition2">
           <with-param pos="1"/>
         </call-macro>
 <choose>
@@ -7309,7 +7312,7 @@
       </action>
     </rule>
 
-
+<!--
 <rule comment="RULE: myNOM">
       <pattern>
  <pattern-item n="nom1"/>
@@ -7419,7 +7422,7 @@
           <with-param pos="1"/>
         </call-macro>
       </action>
-    </rule>
+    </rule> -->
 
 <rule comment="RULE: NOM">
       <pattern>

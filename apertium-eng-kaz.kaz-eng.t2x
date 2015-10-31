@@ -18,6 +18,10 @@
       <cat-item tags="QAdvP"/>
       <cat-item tags="QAdvP.*"/>
     </def-cat>
+ <def-cat n="SV-vaux">
+      <cat-item tags="SV-vaux"/>
+      <cat-item tags="SV-vaux.*"/>
+    </def-cat>
 
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
@@ -1003,6 +1007,50 @@
     </rule>
     
 
+<rule comment="RULE: SN SN ">  <!-- -->
+      <pattern>
+        <pattern-item n="SN"/>
+ <pattern-item n="SN"/>
+       
+      </pattern>
+      <action>
+      
+ <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+
+</when>
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+         
+        <var n="PREP"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 <rule comment="RULE: AdjP SV-pass">  
       <pattern>
@@ -1152,10 +1200,12 @@
         </call-macro>
       </action>
     </rule>
+
+
+  
     
   <rule comment="RULE: SN SN PP SV -> SN SN SV PP">
-    
-      
+          
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="SN"/>
@@ -1550,6 +1600,53 @@
         </call-macro>
       </action>
     </rule>
+
+<rule comment="RULE: SN PP SV-vaux -> SN SV-vaux PP">    
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="PP"/>
+        <pattern-item n="SV-vaux"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+	   
+<clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+	  
+        </out>
+      </action>
+    </rule> 
+
+<rule comment="RULE: PP SV-vaux -> SV-vaux PP">    
+      <pattern>
+         <pattern-item n="PP"/>
+        <pattern-item n="SV-vaux"/>
+      </pattern>
+      <action>
+        <out>
+
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+	  <b/>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+	  
+        </out>
+      </action>
+    </rule> 
 
 
 

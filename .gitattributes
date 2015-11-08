@@ -40,12 +40,6 @@ dev/testvoc/inconsistency-summary.sh -text
 dev/testvoc/inconsistency.sh -text
 dev/testvoc/testvoc-summary.eng-kaz.txt -text
 dev/testvoc/testvoc.sh -text
-dev/testvoc1/inconsistency-summary.sh -text
-dev/testvoc1/inconsistency.sh -text
-dev/testvoc1/testvoc-summary..txt -text
-dev/testvoc1/testvoc-summary.eng-kaz.txt -text
-dev/testvoc1/testvoc-summary.kaz-eng.txt -text
-dev/testvoc1/testvoc.sh -text
 dev/testvoc2/inconsistency-summary.sh -text
 dev/testvoc2/inconsistency.sh -text
 dev/testvoc2/lite/inconsistency.sh -text

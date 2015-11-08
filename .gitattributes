@@ -6,6 +6,7 @@ Errors/crp[!!-~]eng-kaz -text
 Errors/crp[!!-~]kaz-eng -text
 Errors/trn[!!-~]eng-kaz -text svneol=unset#application/octet-stream
 Errors/trn[!!-~]kaz-eng -text
+/ISSUES.txt -text
 /Makefile.am -text
 /NEWS -text
 /README -text

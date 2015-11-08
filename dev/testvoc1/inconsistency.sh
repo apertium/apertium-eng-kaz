@@ -6,7 +6,7 @@ SED=sed
 
 if [[ $DIR = "kaz-eng" ]]; then
 
-lt-expand /home/apertium/apertium-testing/apertium-kaz/apertium-kaz.kaz.lexc | grep -v '<prn><enc>' | grep -v 'REGEX' | grep -v ':<:' | $SED 's/:>:/%/g' | $SED 's/:/%/g' | cut -f2 -d'%' |  $SED 's/^/^/g' | $SED 's/$/$ ^.<sent>$/g' | apertium-pretransfer | lt-proc -b ../../kaz-eng.autobil.bin | grep -v '/@' | cut -f1 -d'/' | $SED 's/$/$ ^.<sent>$/g' | tee $TMPDIR/$DIR.tmp_testvoc1.txt |\
+lt-expand /home/apertium/apertium-testing/apertium-eng-kaz/apertium-eng-kaz.eng-kaz.dix  | grep -v '<prn><enc>' | grep -v 'REGEX' | grep -v ':<:' | $SED 's/:>:/%/g' | $SED 's/:/%/g' | cut -f2 -d'%' |  $SED 's/^/^/g' | $SED 's/$/$ ^.<sent>$/g' | apertium-pretransfer | lt-proc -b ../../kaz-eng.autobil.bin | grep -v '/@' | cut -f1 -d'/' | $SED 's/$/$ ^.<sent>$/g' | tee $TMPDIR/$DIR.tmp_testvoc1.txt |\
         apertium-pretransfer|\
 	lt-proc -b ../../kaz-eng.autobil.bin | tee $TMPDIR/$DIR.tmp_testvoc2.txt |\
         apertium-transfer -b ../../apertium-eng-kaz.kaz-eng.t1x  ../../kaz-eng.t1x.bin |\

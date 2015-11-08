@@ -139,6 +139,8 @@
       <cat-item tags="vaux.*.aor.*"/> <!-- include auxiliaries for now -->
       <cat-item tags="vaux.*.ifi.*"/>
     </def-cat>
+
+
 <def-cat n="v-wouldLike">
       <cat-item tags="v.*.fut_plan.*.*"/>
          </def-cat>
@@ -282,6 +284,12 @@
 <def-cat n="bol-neg">
       <cat-item lemma="бол" tags="v.*.neg.ifi.*"/>
     </def-cat>
+<def-cat n="ma">
+      <cat-item lemma="ма" tags="qst"/>
+<cat-item lemma="мe" tags="qst"/>
+<cat-item lemma="ба" tags="qst"/>
+<cat-item lemma="бе" tags="qst"/>
+         </def-cat>
 <def-cat n="bol">
       <cat-item lemma="бол" tags="v.*.ifi.*"/>
     </def-cat>
@@ -7841,6 +7849,53 @@
         </out>
       </action>
     </rule>
+
+
+ <rule comment="RULE: V-FIN">   <!-- present simple past simple-->
+      <pattern>
+        <pattern-item n="v-fin"/>
+	<pattern-item n="ma"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+        <out>
+          <chunk name="past_verb+qst" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+<lu>
+<lit v="do"/>
+<lit-tag v="vbdo"/>
+<lit-tag v="past"/>
+</lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="2"/>
+             <lit-tag v="3"/>
+             <lit-tag v="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 <!--
 <rule comment="RULE: myNOM">

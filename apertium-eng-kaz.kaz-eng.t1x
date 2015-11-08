@@ -414,7 +414,7 @@
 
 <def-cat n="n">
  
-      <cat-item tags="prn.*"/>
+      
       <cat-item tags="adj.subst"/>
       <cat-item tags="adj.subst.*"/>
       <cat-item tags="adj.comp.subst"/>

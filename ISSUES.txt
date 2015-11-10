@@ -67,7 +67,14 @@ cnjsub	0	0	0	0	100
 ===============================================
 
 
-	
+kaz-eng:
+Problems when translating words (all POS) with many (more than 3) affixes. Not all of them get translated
+Articles are not generated
+
+Some past tenses are not translated corectly
+
+eng-kaz:
+Many multiword lexical units are not translated corectly	
 
 
 

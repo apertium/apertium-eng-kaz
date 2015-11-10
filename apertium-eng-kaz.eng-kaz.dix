@@ -1364,6 +1364,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>prose<s n="n"/></l><r>қарасөз<s n="n"/></r></p></e>
 <e><p><l>protest<s n="n"/></l><r>қарсылық<s n="n"/></r></p></e>
 <e><p><l>rain<s n="n"/></l><r>жаңбыр<s n="n"/></r></p></e>
+<e><p><l>dew<s n="n"/></l><r>шық<s n="n"/></r></p></e>
 <e><p><l>range<s n="n"/></l><r>таңдама<s n="n"/></r></p></e>
 <e><p><l>rate<s n="n"/></l><r>жылдамдық<s n="n"/></r></p></e>
 <e><p><l>ray<s n="n"/></l><r>сәуле<s n="n"/></r></p></e>
@@ -1472,6 +1473,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>attentiveness<s n="n"/></l><r>ықылас<s n="n"/></r></p></e>
     <e><p><l>August<s n="n"/></l><r>тамыз<s n="n"/></r></p></e>
     <e><p><l>author<s n="n"/></l><r>жазушы<s n="n"/></r></p></e>
+    <e><p><l>naturalist<s n="n"/></l><r>табиғаттанушы<s n="n"/></r></p></e>
     <e><p><l>autograph<s n="n"/></l><r>қолтаңба<s n="n"/></r></p></e>
     <e><p><l>back<s n="n"/></l><r>арқа<s n="n"/></r></p></e>
     <e><p><l>baggage<s n="n"/></l><r>жүк<s n="n"/></r></p></e>
@@ -1667,6 +1669,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
     <e><p><l>honour<s n="n"/></l><r>намыс<s n="n"/></r></p></e>
     <e><p><l>honour<s n="n"/></l><r>қадір<s n="n"/></r></p></e>
     <e><p><l>hoof<s n="n"/></l><r>тұяқ<s n="n"/></r></p></e>
+    <e><p><l>hoop<s n="n"/></l><r>шеңбер<s n="n"/></r></p></e>	
     <e><p><l>hope<s n="n"/></l><r>үміт<s n="n"/></r></p></e>
     <e><p><l>horn<s n="n"/></l><r>мүйіз<s n="n"/></r></p></e>
     <e><p><l>husband<s n="n"/></l><r>күйеу<s n="n"/></r></p></e>

@@ -42364,6 +42364,8 @@
 
                             <e lm="author" i=""><i>author</i><par n="house__n"/></e>
 
+			    <e lm="naturalist" i=""><i>naturalist</i><par n="house__n"/></e>
+
                             <e lm="authority" i=""><i>authorit</i><par n="bab/y__n"/></e>
 
                             <e lm="authoritarianism" i=""><i>authoritarianism</i><par n="house__n"/></e>
@@ -46633,6 +46635,8 @@
 
  <e lm="hoof" i=""><i>hoof</i><par n="house__n"/></e>
 
+	 <e lm="hoop" i=""><i>hoop</i><par n="house__n"/></e>
+
 <e lm="hiccups" i=""><i>hiccups</i><par n="house__n"/></e>
 
                             <e lm="hinduism" i=""><i>hinduism</i><par n="house__n"/></e>
@@ -50148,6 +50152,8 @@
                             <e lm="railway" i=""><i>railway</i><par n="house__n"/></e>
 
                             <e lm="rain" i=""><i>rain</i><par n="house__n"/></e>
+
+			    <e lm="dew" i=""><i>dew</i><par n="house__n"/></e>			    
 
                             <e lm="rally" i=""><i>rall</i><par n="bab/y__n"/></e>
 

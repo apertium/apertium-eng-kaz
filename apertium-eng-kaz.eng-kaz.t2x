@@ -119,7 +119,7 @@
 
 <def-cat n="VP_should_inf">
       <cat-item tags="VP_should_inf.*"/>
-
+      <cat-item tags="VP_should_inf"/>
     </def-cat>
 <def-cat n="VP_wantto">
       <cat-item tags="VP_wantto.*"/>
@@ -1542,6 +1542,8 @@
     </rule>
 
 
+
+
 <rule comment="NEW RULE: QADVP Can NP VP PP">
     <!-- what Can I write  Мен жаза аламын ба?-->
      <pattern>
@@ -2663,6 +2665,75 @@
 
 
 
+<rule comment="NEW RULE: VP_should_inf NP VP?">
+    <!--  should I go?-->
+     <pattern>
+       <pattern-item n="VP_should_inf"/>
+       <pattern-item n="NP"/>
+       <pattern-item n="VP"/>
+       <pattern-item n="Q_m"/>
+     </pattern>
+     <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="2"/>
+  </call-macro> 
+
+     <call-macro n="build-possessive">
+        <with-param pos="2"/> 
+     </call-macro>
+      <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <lit-tag v="GenP"/>
+            <clip pos="2" part="a_nbr"/>
+            <clip pos="2" part="a_pers"/>
+            <clip pos="2" part="a_possessive"/>
+            <lit-tag v="gen"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <lit-tag v="VP"/>
+            <clip pos="2" part="a_nbr"/> <!-- agree number -->
+            <clip pos="2" part="a_pers"/> <!-- agree person -->
+            <lit-tag v="ger_past"/>
+            <var n="possessive"/> 
+
+            <clip pos="3" part="a_neg"/>
+           <lit-tag v="nom"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk> 
+          <b pos="2"/>
+<chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+<chunk>
+          <lit v="ques"/>
+            <lit-tag  v="qst"/>
+            <lit v="{"/>
+                  <lit v="^ма"/>
+                  <lit-tag  v="qst"/>
+            <lit v="$}"/> 
+    
+            </chunk>
+<b/>
+<chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b/>
+      </out>
+     </action>
+    </rule>
+
 
 <rule comment="NEW RULE: NP VP_should_inf">
     <!-- MenING barGANYM jon I should go-->
@@ -2702,6 +2773,11 @@
       </out>
      </action>
     </rule>
+
+
+
+
+
 
 <rule comment="NEW RULE: NP VP_should_inf NP">
     <!-- MenING |NP| korgenym jon I should go-->

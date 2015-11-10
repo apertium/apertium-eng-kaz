@@ -77,7 +77,7 @@
       <cat-item lemma="want# to" tags="vbmod.*"/>
       <cat-item lemma="need# to" tags="vbmod.*"/>
     <!--  <cat-item lemma="can" tags="vaux.*"/>-->
-      <cat-item lemma="should" tags="vaux.inf"/>
+ <!--  <cat-item lemma="should" tags="vaux.inf"/>-->
       <cat-item lemma="shall" tags="vaux.inf"/>
       <cat-item lemma="must" tags="vaux.inf"/>
       <cat-item lemma="might" tags="vaux.inf"/>
@@ -91,7 +91,7 @@
       <cat-item lemma="can" tags="vaux.past"/>
       <cat-item lemma="can" tags="vaux.*"/>
     </def-cat>
-<def-cat n="vaux-should"> <!-- future -->
+<def-cat n="vaux-should"> 
       <cat-item lemma="should" tags="vaux.inf"/>
     </def-cat>
 
@@ -14597,6 +14597,34 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
         </out>
       </action>
 </rule>
+
+
+<rule comment="NEW RULE: should ...?"> <!--should?-->
+  <pattern>
+    
+   <pattern-item n="vaux-should"/>
+
+  </pattern>
+  <action>
+ 
+    <call-macro n="default-nbr-pers"/>
+        <out>
+      <chunk name="should-inf_q">
+      <tags>
+        <tag><lit-tag v="VP_should_inf"/></tag>
+      </tags>
+      <b pos="1"/>
+<lu>
+          <lit v="жөн"/>
+          <lit-tag v="adj"/>	
+        </lu>
+          </chunk>
+  </out>
+      
+  </action>
+
+</rule>
+
 
 
 <rule comment="NEW RULE: can/could? + infinitive "> <!--could you play-->

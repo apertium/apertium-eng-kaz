@@ -665,6 +665,25 @@
       </action>  
     </rule>
 
+
+<rule comment="questions"> <!-- for Barasyn ma/ba/be? -->
+      <pattern>
+        <pattern-item n="nomobject"/>
+        <pattern-item n="qst"/>
+      </pattern>
+      <action>
+ 
+
+        <out>
+          <lu>
+           <clip pos="1" side="tl" part="whole"/>
+           <lit v="+"/>
+           <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>  
+    </rule>
+
    
 
 <rule comment="ind">  <!-- remove pl from "some" as бірнеше-->

@@ -57,6 +57,8 @@ SET English-sg = ("English"i) ;
 
 SET VAUX-CAN = ("can"i) ;
 
+SET VAUX-SHOULD = ("should"i) ;
+
 SET VAUX-WILL = ("will"i) ;
 
 SET VAUX-WOULD = ("would"i) ;
@@ -92,6 +94,12 @@ SELECT Inf IF
 	(-1 ("to"))
 	(1 Det OR Adv) 
 ;
+#should <inf> not np unk
+SELECT (vaux inf) IF
+	(0 VAUX-SHOULD)
+	(1* ("?")) 
+;
+
 # Почему-то не работает, если поставить это правило в конец.
 
 #five time a week

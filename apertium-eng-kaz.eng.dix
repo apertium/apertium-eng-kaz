@@ -16909,6 +16909,8 @@
                             <e lm="which" i=""><i>which</i><par n="where__adv"/></e>
                             <e lm="what" i=""><i>what</i><par n="where__adv"/></e>
 
+                            <e lm="whatsoever" i=""><i>whatsoever</i><par n="maybe__adv"/></e>
+
                             <e lm="when" i=""><i>when</i><par n="where__adv"/></e>
 
                             <e lm="where" i=""><i>where</i><par n="where__adv"/></e>
@@ -43844,6 +43846,8 @@
 
                             <e lm="communication" i=""><i>communication</i><par n="house__n"/></e>
 
+                            <e lm="communicativeness" i=""><i>communicativeness</i><par n="access__n"/></e>
+
                             <e lm="communicator" i=""><i>communicator</i><par n="house__n"/></e>
 
                             <e lm="communiqué" i=""><i>communiqué</i><par n="house__n"/></e>
@@ -46696,6 +46700,8 @@
 
                             <e lm="honour" i=""><i>hon</i><par n="o_ou"/><i>r</i><par n="house__n"/></e>
 
+                            <e lm="honourably" i=""><i>honourably</i><par n="bab/y__n"/></e>
+
                             <e lm="colouring" i=""><i>col</i><par n="o_ou"/><i>ring</i><par n="house__n"/></e>
 
                             <e lm="hook" i=""><i>hook</i><par n="house__n"/></e>
@@ -47835,6 +47841,8 @@
                             <e lm="lunch" i=""><i>lunch</i><par n="house__n"/></e>
 
                             <e lm="lung" i=""><i>lung</i><par n="house__n"/></e>
+
+                            <e lm="lunge" i=""><i>lunge</i><par n="house__n"/></e>
 
                             <e lm="lust" i=""><i>lust</i><par n="house__n"/></e>
 
@@ -55937,6 +55945,8 @@
 
                             <e lm="naughty" i=""><i>naught</i><par n="happ/y__adj"/></e>
 
+                            <e r="LR" lm="nauseous" i=""><i>nauseous</i><par n="expensive__adj"/></e>
+
                             <e lm="nautical" i=""><i>nautical</i><par n="expensive__adj"/></e>
 
                             <e lm="naval" i=""><i>naval</i><par n="expensive__adj"/></e>
@@ -57419,6 +57429,8 @@
 
                             <e lm="upper" i=""><i>upper</i><par n="expensive__adj"/></e>
 
+                            <e lm="upside down" i=""><i>upside<b/>down</i><par n="expensive__adj"/></e>
+
                             <e lm="upward" i=""><i>upward</i><par n="common/__adj"/></e>
 
                             <e lm="urban" i=""><i>urban</i><par n="expensive__adj"/></e>
@@ -57484,6 +57496,8 @@
                             <e lm="viscous" i=""><i>viscous</i><par n="expensive__adj"/></e>
 
                             <e lm="visible" i=""><i>visible</i><par n="expensive__adj"/></e>
+
+                            <e lm="visionary" i=""><i>visionary</i><par n="expensive__adj"/></e>
 
                             <e lm="visual" i=""><i>visual</i><par n="expensive__adj"/></e>
 
@@ -70901,6 +70915,8 @@ F
                             <e lm="persuasion" i=""><i>persuasion</i><par n="house__n"/></e>
 
                             <e lm="persuasively" i=""><i>persuasively</i><par n="maybe__adv"/></e>
+
+                            <e lm="perverseness" i=""><i>perverseness</i><par n="access__n"/></e>
 
                             <e lm="petalite" i=""><i>petalite</i><par n="house__n"/></e>
 

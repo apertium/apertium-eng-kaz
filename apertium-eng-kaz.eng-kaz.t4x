@@ -191,6 +191,10 @@
       <attr-item tags="sep"/>
     </def-attr>
 
+<def-attr n="form2">
+      <attr-item tags="frm.frm"/>
+    </def-attr>
+
     <def-attr n="tense">
       <attr-item tags="ger_impf"/>
       <attr-item tags="ger_past"/>
@@ -223,11 +227,26 @@
     <action>
       <choose><!--formality patch-->
           <when>
-            <test><equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal></test>  <!-- if we generate no formality, add it -->
+
+            <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+<not><equal><clip pos="1" side="sl" part="poss"/><lit-tag v="px2sg"/></equal></not>
+</and>
+</test>  <!-- if we generate no formality, add it -->
             <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p2.frm"/></let>
           </when>
  	</choose>
        <choose>
+          <when>
+            <test>
+<equal><clip pos="1" side="sl" part="form2"/><lit-tag v="frm.frm"/></equal>
+
+</test>  <!-- if we generate no formality, add it -->
+            <let><clip pos="1" side="tl" part="form2"/><lit-tag v="frm"/></let>
+          </when>
+        </choose>
+<choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="poss"/><lit-tag v="px2sg"/></equal></test>  <!-- if we generate no formality, add it -->
             <let><clip pos="1" side="tl" part="poss"/><lit-tag v="px2sg.frm"/></let>

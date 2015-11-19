@@ -42004,6 +42004,8 @@
 
                             <e lm="ambassador" i=""><i>ambassador</i><par n="house__n"/></e>
 
+			    <e lm="proprietor" i=""><i>proprietor</i><par n="house__n"/></e>
+
                             <e lm="ambiguity" i=""><i>ambiguit</i><par n="bab/y__n"/></e>
 
                             <e lm="ambition" i=""><i>ambition</i><par n="house__n"/></e>
@@ -42865,6 +42867,10 @@
 
                             <e lm="book" i=""><i>book</i><par n="house__n"/></e>
 
+			    <e lm="brood" i=""><i>brood</i><par n="house__n"/></e>
+
+			    <e lm="merchant" i=""><i>merchant</i><par n="house__n"/></e>
+
                             <e lm="boost" i=""><i>boost</i><par n="house__n"/></e>
 
                             <e lm="boot" i=""><i>boot</i><par n="house__n"/></e>
@@ -43087,7 +43093,9 @@
 
                             <e lm="camera" i=""><i>camera</i><par n="house__n"/></e>
 
-                            <e lm="cameraman" i=""><i>cameraman</i><par n="house__n"/></e>
+                            <e lm="cameraman" i=""><i>cameram</i><par n="m/an__n"/></e>
+
+			    <e lm="merchantman" i=""><i>merchantm</i><par n="m/an__n"/></e>
 
                             <e lm="camp" i=""><i>camp</i><par n="house__n"/></e>
 
@@ -48934,7 +48942,7 @@
 <e lm="bugle" i=""><i>bugle</i><par n="house__n"/></e>
 <e lm="bullfinch" i=""><i>bullfinch</i><par n="house__n"/></e>
 <e lm="bulge" i=""><i>bulge</i><par n="house__n"/></e>
-<e lm="businessman" i=""><i>businessman</i><par n="house__n"/></e>
+<e lm="businessman" i=""><i>businessm</i><par n="m/an__n"/></e>
 <e lm="bureaucrat" i=""><i>bureaucrat</i><par n="house__n"/></e>
 <e lm="butler" i=""><i>butler</i><par n="house__n"/></e>
 <e lm="cadger" i=""><i>cadger</i><par n="house__n"/></e>
@@ -56966,6 +56974,8 @@
 
                             <e lm="smart" i=""><i>smart</i><par n="long/__adj"/></e>
 
+			    <e lm="stout" i=""><i>stout</i><par n="long/__adj"/></e>
+
                             <e lm="smooth" i=""><i>smooth</i><par n="long/__adj"/></e>
 
                             <e lm="sober" i=""><i>sober</i><par n="long/__adj"/></e>
@@ -59969,6 +59979,8 @@ F
                             <e lm="moderate" i=""><i>moderat</i><par n="liv/e__vblex"/></e>
 
                             <e lm="modify" i=""><i>modif</i><par n="appl/y__vblex"/></e>
+
+			    <e lm="signify" i=""><i>signif</i><par n="appl/y__vblex"/></e>
 
                             <e lm="monitor" i=""><i>monitor</i><par n="accept__vblex"/></e>
 
@@ -75274,6 +75286,8 @@ F
                             <e lm="grandmaster" i=""><i>grandmaster</i><par n="house__n"/></e>
 
              <e lm="masterpiece" i=""><i>masterpiece</i><par n="house__n"/></e>
+
+			    <e lm="calenture" i=""><i>calenture</i><par n="house__n"/></e>
 
                             <e lm="grand" i=""><i>grand</i><par n="long/__adj"/></e>
 

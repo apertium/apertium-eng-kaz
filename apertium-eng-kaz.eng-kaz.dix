@@ -2546,6 +2546,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <!--noun-->
 <e><p><l>acknowledgment<s n="n"/></l><r>құрмет<s n="n"/></r></p></e>
 <e><p><l>advancer<s n="n"/></l><r>оқымысты<s n="n"/></r></p></e>
+<e><p><l>apothecary<s n="n"/></l><r>дәріханашы<s n="n"/></r></p></e>
 <e><p><l>beggary<s n="n"/></l><r>кедейлік<s n="n"/></r></p></e>
 <e><p><l>bigness<s n="n"/></l><r>аумақ<s n="n"/></r></p></e>
 <e><p><l>bodily<s n="n"/></l><r>дене<s n="n"/></r></p></e>
@@ -2560,26 +2561,33 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>contrivance<s n="n"/></l><r>тапқырлық<s n="n"/></r></p></e>
 <e><p><l>cornground<s n="n"/></l><r>егістік<s n="n"/></r></p></e>
 <e><p><l>countryman<s n="n"/></l><r>отандас<s n="n"/></r></p></e>
+<e><p><l>crudeness<s n="n"/></l><r>дөрекілік<s n="n"/></r></p></e>
 <e><p><l>dearth<s n="n"/></l><r>аштық<s n="n"/></r></p></e>
+<e><p><l>delirium<s n="n"/></l><r>сандырақтау<s n="n"/></r></p></e>
 <e><p><l>demesne<s n="n"/></l><r>меншік<s n="n"/></r></p></e>
 <e><p><l>detractor<s n="n"/></l><r>жала<b/>жабушы<s n="n"/></r></p></e>
 <e><p><l>displeasure<s n="n"/></l><r>реніш<s n="n"/></r></p></e>
 <e><p><l>diversion<s n="n"/></l><r>сауық<s n="n"/></r></p></e>
 <e><p><l>domestic<s n="n"/></l><r>қызметші<s n="n"/></r></p></e>
 <e><p><l>dominion<s n="n"/></l><r>үстемдік<s n="n"/></r></p></e>
+<e><p><l>eructation<s n="n"/></l><r>кекірік<s n="n"/></r></p></e>
 <e><p><l>exactness<s n="n"/></l><r>дәлдік<s n="n"/></r></p></e>
 <e><p><l>excellency<s n="n"/></l><r>мәртебелі<s n="n"/></r></p></e>
 <e><p><l>fallings<s n="n"/></l><r>төмендету<s n="n"/></r></p></e>
 <e><p><l>flapper<s n="n"/></l><r>торсылдатқыш<s n="n"/></r></p></e>
+<e><p><l>flatus<s n="n"/></l><r>желдену<s n="n"/></r></p></e>
 <e><p><l>gentleness<s n="n"/></l><r>жұмсақтық<s n="n"/></r></p></e>
 <e><p><l>gentry<s n="n"/></l><r>орташа<b/>дәулетті<s n="n"/></r></p></e>
 <e><p><l>grandee<s n="n"/></l><r>бекзат<s n="n"/></r></p></e>
 <e><p><l>grove<s n="n"/></l><r>тоғай<s n="n"/></r></p></e>
 <e><p><l>honourably<s n="n"/></l><r>ризашылық<s n="n"/></r></p></e>
 <e><p><l>hospitably<s n="n"/></l><r>қонақ-жайлылық<s n="n"/></r></p></e>
+<e><p><l>infirmity<s n="n"/></l><r>әлсіздік<s n="n"/></r></p></e>
 <e><p><l>kinsman<s n="n"/></l><r>туысқан<s n="n"/></r></p></e>
+<e><p><l>licentiousness<s n="n"/></l><r>азғындық<s n="n"/></r></p></e>
 <e><p><l>loadstone<s n="n"/></l><r>магнит<s n="n"/></r></p></e>
 <e><p><l>lunge<s n="n"/></l><r>арқан<s n="n"/></r></p></e>
+<e><p><l>malady<s n="n"/></l><r>сырқат<s n="n"/></r></p></e>
 <e><p><l>misery<s n="n"/></l><r>қайыршылық<s n="n"/></r></p></e>
 <e><p><l>mutiny<s n="n"/></l><r>бүлік<s n="n"/></r></p></e>
 <e><p><l>necessity<s n="n"/></l><r>қажеттілік<s n="n"/></r></p></e>
@@ -2594,6 +2602,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>proposition<s n="n"/></l><r>теорема<s n="n"/></r></p></e>
 <e><p><l>protector<s n="n"/></l><r>жарылқаушы<s n="n"/></r></p></e>
 <e r="LR"><p><l>rags<s n="n"/></l><r>>жалба-жұлба<s n="n"/></r></p></e>
+<e><p><l>reasoner<s n="n"/></l><r>философ<s n="n"/></r></p></e>
 <e><p><l>repository<s n="n"/></l><r>қойма<s n="n"/></r></p></e>
 <e><p><l>ridge<s n="n"/></l><r>тау<b/>жота<s n="n"/></r></p></e>
 <e><p><l>risings<s n="n"/></l><r>көтеру<s n="n"/></r></p></e>
@@ -2604,6 +2613,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>superfice<s n="n"/></l><r>бет<s n="n"/></r></p></e>
 <e r="LR"><p><l>tradesmen<s n="n"/></l><r>саудагерлер<s n="n"/></r></p></e>
 <e r="LR"><p><l>tenure<s n="n"/></l><r>жер<b/>иелену<s n="n"/></r></p></e>
+<e r="LR"><p><l>vertigos<s n="n"/></l><r>бас<b/>айналу<s n="n"/></r></p></e>
 <!--end of noun-->
 
 <!--verb-->
@@ -2628,8 +2638,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>clad<s n="adj"/></l><r>киінген<s n="adj"/></r></p></e>
 <e><p><l>disagreeable<s n="adj"/></l><r>жағымсыз<s n="adj"/></r></p></e>
 <e><p><l>enterprising<s n="adj"/></l><r>іскер<s n="adj"/></r></p></e>
+<e><p><l>frothy<s n="adj"/></l><r>көбікті<s n="adj"/></r></p></e>
 <e><p><l>illustrious<s n="adj"/></l><r>қадірменді<s n="adj"/></r></p></e>
 <e><p><l>lank<s n="adj"/></l><r>солғын<s n="adj"/></r></p></e>
+<e><p><l>lenitive<s n="adj"/></l><r>жеңілдететін<s n="adj"/></r></p></e>
 <e><p><l>meagre<s n="adj"/></l><r>арық<s n="adj"/></r></p></e>
 <e><p><l>melancholy<s n="adj"/></l><r>мұңды<s n="adj"/></r></p></e>
 <e><p><l>miserably<s n="adj"/></l><r>бейшара<s n="adj"/></r></p></e>
@@ -2637,9 +2649,12 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>noxious<s n="adj"/></l><r>зиянды<s n="adj"/></r></p></e>
 <e><p><l>oblique<s n="adj"/></l><r>қиғаш<s n="adj"/></r></p></e>
 <e r="LR"><p><l>odious<s n="adj"/></l><r>мейлінше<b/>жаман<s n="adj"/></r></p></e>
+<e><p><l>peccant<s n="adj"/></l><r>күнәлі<s n="adj"/></r></p></e>
 <e><p><l>periodical<s n="adj"/></l><r>мерзімді<s n="adj"/></r></p></e>
 <e><p><l>prudent<s n="adj"/></l><r>зерек<s n="adj"/></r></p></e>
+<e><p><l>purulent<s n="adj"/></l><r>іріңді<s n="adj"/></r></p></e>
 <e><p><l>ruinous<s n="adj"/></l><r>қираған<s n="adj"/></r></p></e>
+<e><p><l>scrofulous<s n="adj"/></l><r>шірік<s n="adj"/></r></p></e>
 <e><p><l>sooty<s n="adj"/></l><r>ыс<b/>басқан<s n="adj"/></r></p></e>
 <e><p><l>unaccountable<s n="adj"/></l><r>түсініксіз<s n="adj"/></r></p></e>
 <e><p><l>unhappily<s n="adj"/></l><r>күтімсіз<s n="adj"/></r></p></e>
@@ -2652,6 +2667,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>aloud<s n="adv"/></l><r>дауыстап<s n="adv"/></r></p></e>
 <e><p><l>hermetically<s n="adv"/></l><r>герметикалық<s n="adv"/></r></p></e>
 <e r="LR"><p><l>innermost<s n="adv"/></l><r>ең<b/>жақын<s n="adv"/></r></p></e>
+<e><p><l>maturely<s n="adv"/></l><r>толған<s n="adv"/></r></p></e>
 <e><p><l>obliquely<s n="adv"/></l><r>қиғаштай<s n="adv"/></r></p></e>
 <e r="LR"><p><l>outermost<s n="adv"/></l><r>ең<b/>алыс<s n="adv"/></r></p></e>
 <e><p><l>whatsoever<s n="adv"/></l><r>жалпы<s n="adv"/></r></p></e>

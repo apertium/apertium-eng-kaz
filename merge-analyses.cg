@@ -1,0 +1,14 @@
+SECTION
+ 
+SUBSTITUTE (n sg) (n) (n) (0C (n sg) OR (vblex));
+SUBSTITUTE (n pl) (n) (n) (0C (n pl) OR (vblex));
+SUBSTITUTE (pl) (*) (n) (0C (n pl));
+SUBSTITUTE (sg) (*) (np) (0C (np cog));
+SUBSTITUTE (ger) (*) (vblex) ;
+SUBSTITUTE (pprs) (*) (vblex) ;
+SUBSTITUTE (inf) (*) (vblex) ;
+SUBSTITUTE (subs) (*) (vblex) ;
+SUBSTITUTE (pres) (*) (vblex) ;
+SUBSTITUTE (past) (*) (vblex) ;
+SUBSTITUTE (pp) (*) (vblex) ;
+SUBSTITUTE (p3 sg) (*) (vblex) ;

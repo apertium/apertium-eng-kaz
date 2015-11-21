@@ -59,6 +59,8 @@ dev/unknown-words-from-news-commentary-v8-20130619.txt -text
 /instructions -text
 /kaz-cover.sh -text
 /kaz-eng.prob -text svneol=unset#unset
+/merge-analyses.bin -text
+/merge-analyses.cg -text
 /modes.xml -text
 mteval/bleug.txt -text
 mteval/bleus.txt -text

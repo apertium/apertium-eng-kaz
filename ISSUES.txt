@@ -77,6 +77,72 @@ eng-kaz:
 Many multiword lexical units are not translated corectly	
 
 
+#Coverage for the english corpus (corpus Lab IIS (5925).en) compiling with eng-kaz.automorf.bin
+apertium@apvb:~/coverage/apertium-cleanstream/apertium-eng-kaz$ cat texts/corp.en | sh corpus-stat.sh
+Number of tokenised words in the corpus: 183577
+Number of known words in the corpus: 179032
+Coverage: 	97.5 %
+Top unknown words in the corpus:
+     81 ^enu/*enu$
+     56 ^kz/*kz$
+     52 ^ext/*ext$
+     46 ^N/*N$
+     36 ^middle/*middle$
+     34 ^apos/*apos$
+     31 ^pcs/*pcs$
+     30 ^s/*s$
+     26 ^kz/*kz$/
+     22 ^kzhttp/*kzhttp$
 
+#Coverage for the kazakh corpus (corpus Lab IIS (5925).kz) compiling with eng-kaz.automorf.bin
+apertium@apvb:~/coverage/apertium-cleanstream/apertium-eng-kaz$ cat texts/corp.kz | sh corpus-stat.sh
+Number of tokenised words in the corpus: 24540
+Number of known words in the corpus: 23911
+Coverage: 	97.4 %
+Top unknown words in the corpus:
+    141 ^i/*i$
+     81 ^enu/*enu$
+     49 ^kz/*kz$
+     26 ^kz/*kz$/
+     24 ^kzhttp/*kzhttp$
+     15 ^com/*com$
+     13 ^kimep/*kimep$
+     12 ^gmail/*gmail$
+     10 ^apos/*apos$
+      9 ^oms/*oms$
+
+#Coverage for the english corpus (corpus Lab IIS (5925).en) compiling with kaz-eng.automorf.bin
+apertium@apvb:~/coverage/apertium-cleanstream/apertium-eng-kaz$ cat texts/corp.en | sh corpus-stat-kaz.sh
+Number of tokenised words in the corpus: 185672
+Number of known words in the corpus: 39625
+Coverage: 	21.3 %
+Top unknown words in the corpus:
+   8614 ^the/*the$
+   7118 ^of/*of$
+   5201 ^and/*and$
+   4449 ^to/*to$
+   3233 ^a/*a$
+   2765 ^in/*in$
+   1669 ^my/*my$
+   1528 ^that/*that$
+   1500 ^was/*was$
+   1348 ^for/*for$
+
+#Coverage for the kazakh corpus (corpus Lab IIS (5925).kz) compiling with kaz-eng.automorf.bin
+apertium@apvb:~/coverage/apertium-cleanstream/apertium-eng-kaz$ cat texts/corp.kz | sh corpus-stat-kaz.sh
+Number of tokenised words in the corpus: 132687
+Number of known words in the corpus: 112892
+Coverage: 	85.1 %
+Top unknown words in the corpus:
+    272 ^бойынша/*бойынша$
+     97 ^әлгі/*әлгі$
+     96 ^барынша/*барынша$
+     85 ^Қазпочта/*Қазпочта$
+     82 ^еш/*еш$
+     82 ^mail/*mail$
+     81 ^enu/*enu$
+     77 ^пошта/*пошта$
+     76 ^яки/*яки$
+     76 ^үстіне/*үстіне$
 	
 

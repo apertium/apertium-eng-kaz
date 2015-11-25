@@ -9079,6 +9079,28 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>defraudation<s n="n"/></l><r>қулық<s n="n"/></r></p></e>
 <e><p><l>defoliation<s n="n"/></l><r>қоңыр<b/>күз<s n="n"/></r></p></e>
 <e><p><l>dehumidifier<s n="n"/></l><r>кептіргіш<s n="n"/></r></p></e>
+<e><p><l>delation<s n="n"/></l><r>шағым<s n="n"/></r></p></e>
+<e><p><l>dehydrogenation<s n="n"/></l><r>сутексіздендіру<s n="n"/></r></p></e>
+<e><p><l>Delator<s n="n"/></l><r>шағымданушы<s n="n"/></r></p></e>
+<e><p><l>delegate<s n="n"/></l><r>делегат<s n="n"/></r></p></e>
+<e><p><l>delicatessen<s n="n"/></l><r>жеңсік<s n="n"/></r></p></e>
+<e><p><l>delimiter<s n="n"/></l><r>бөлгіш<s n="n"/></r></p></e>
+<e><p><l>Deltoid<s n="n"/></l><r>Дельта<b/>тәрізді<s n="n"/></r></p></e>
+<e><p><l>demisemiquaver<s n="n"/></l><r>отыз<b/>екінші<b/>нота<s n="n"/></r></p></e>
+<e><p><l>demodulator<s n="n"/></l><r>демодулятор<s n="n"/></r></p></e>
+<e><p><l>demodulation<s n="n"/></l><r>демодуляция<s n="n"/></r></p></e>
+<e><p><l>denitrification<s n="n"/></l><r>денитрификация<s n="n"/></r></p></e>
+<e><p><l>denouncer<s n="n"/></l><r>айыптаушы<s n="n"/></r></p></e>
+<e><p><l>denotation<s n="n"/></l><r>белгілеу<s n="n"/></r></p></e>
+<e><p><l>denticle<s n="n"/></l><r>кішкене<b/>тіс<s n="n"/></r></p></e>
+<e><p><l>dent<s n="n"/></l><r>майысқан<b/>жер<s n="n"/></r></p></e>
+<e><p><l>dentition<s n="n"/></l><r>тіс<s n="n"/></r></p></e>
+<e><p><l>dentine<s n="n"/></l><r>дентин<s n="n"/></r></p></e>
+<e><p><l>deodorant<s n="n"/></l><r>дезодорант<s n="n"/></r></p></e>
+<e><p><l>denudation<s n="n"/></l><r>денудация<s n="n"/></r></p></e>
+<e><p><l>depilation<s n="n"/></l><r>депиляция<s n="n"/></r></p></e>
+<e><p><l>depravation<s n="n"/></l><r>бұзу<s n="n"/></r></p></e>
+<e><p><l>deputation<s n="n"/></l><r>депутация<s n="n"/></r></p></e>
 <!--ProPER NOUNS -->
 
 

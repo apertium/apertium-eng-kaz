@@ -13,7 +13,24 @@ for Kazakh missed:
 	- Pronouns: өзің, өзіміз, өздері, әрқайда, әрқалай, әрқайсысы, әлдеқандай, дәнеме, ешқайсысы, ешқалай,
 
 2 Not clean testvoc
+cd dev/testvoc/
+sudo apt-get install apcalc ----орнатасыңдар
+скрипты жіберу:
 
+bash testvoc.sh eng-kaz
+
+
+қателерді шығару:
+
+cat /tmp/eng-kaz.testvoc  | grep '> *#'|grep "<n>"
+
+apertium@apvb:~/apertium-testing/apertium-eng-kaz/dev/testvoc$ cat /tmp/eng-kaz.testvoc  | grep '> *#'|grep "<n>"|cut -f3 -d '^'|cut -f2 -d '/'|cut -f1 -d '<'|sort -u
+
+
+
+cat /tmp/eng-kaz.testvoc  | grep '> *#' > /tmp/kaz-words0
+cat /tmp/eng-kaz.testvoc  | grep '> *#' | cut -f2 -d'#' | cut -f1 -d'\' | apertium-destxt | lt-proc ~/apertium-testing/apertium-kaz/kaz.automorf.bin  > /tmp/kaz-words
+paste /tmp/kaz-words /tmp/kaz-words0  | grep '\*'| sort -u 
 eng-kaz:
 
 Sun Nov  8 12:18:57 CET 2015

@@ -60,6 +60,9 @@ guio	1	 1	0	0	100
 cm	1	 1	0	0	100
 ===============================================
 
+apertium-eng-kaz/dev/testvoc2/lite -> bash testvoc.sh kaz-eng
+
+
 kaz-eng:
 
 Sun Nov  8 13:37:13 CET 2015

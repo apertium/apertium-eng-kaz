@@ -16834,7 +16834,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>avow<s n="vblex"/></l><r>мойында<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>awake<s n="vblex"/></l><r>оят<s n="v"/><s n="tv"/></r></p></e>
 
-<e><p><l>babble<s n="vblex"/></l><r>былдырла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>babble<s n="vblex"/></l><r>былдырлат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>back<s n="vblex"/></l><r>шегін<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>bake<s n="vblex"/></l><r>пісір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>balance<s n="vblex"/></l><r>теңестір<s n="v"/><s n="tv"/></r></p></e>
@@ -17716,7 +17716,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>secrete<s n="vblex"/></l><r>ерекшеле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>sense<s n="vblex"/></l><r>сез<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>shatter<s n="vblex"/></l><r>күл-талқанын<b/>шығар<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>shimmer<s n="vblex"/></l><r>жылтыр<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>shimmer<s n="vblex"/></l><r>жылтыра<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>shoe<s n="vblex"/></l><r>киін<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>shrink<s n="vblex"/></l><r>қысқар<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>shroud<s n="vblex"/></l><r>орат<s n="v"/><s n="tv"/></r></p></e>

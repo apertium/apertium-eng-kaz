@@ -9101,6 +9101,35 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>depilation<s n="n"/></l><r>депиляция<s n="n"/></r></p></e>
 <e><p><l>depravation<s n="n"/></l><r>бұзу<s n="n"/></r></p></e>
 <e><p><l>deputation<s n="n"/></l><r>депутация<s n="n"/></r></p></e>
+<e><p><l>descriptor<s n="n"/></l><r>дескриптор<s n="n"/></r></p></e>
+<e><p><l>desiccant<s n="n"/></l><r>құрғатқыш<s n="n"/></r></p></e>
+<e><p><l>desiccation<s n="n"/></l><r>ақаба<s n="n"/></r></p></e>
+<e><p><l>desinvestment<s n="n"/></l><r>инвестиция<b/>қысқарту<s n="n"/></r></p></e>
+<e><p><l>desktop<s n="n"/></l><r>жұмыс<b/>үстел<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>desorption<s n="n"/></l><r>десорбция<s n="n"/></r></p></e>
+<e><p><l>desquamation<s n="n"/></l><r>десквамация<s n="n"/></r></p></e>
+<e><p><l>detoxication<s n="n"/></l><r>детоксикация<s n="n"/></r></p></e>
+<e><p><l>detritivore<s n="n"/></l><r>детритофаг<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>deviationism<s n="n"/></l><r>девиатонизм<s n="n"/></r></p></e>
+<e><p><l>dextrose<s n="n"/></l><r>декстроза<s n="n"/></r></p></e>
+<e><p><l>dialectalism<s n="n"/></l><r>диалектизм<s n="n"/></r></p></e>
+<e><p><l>diamagnetism<s n="n"/></l><r>диамагнетизм<s n="n"/></r></p></e>
+<e><p><l>diastole<s n="n"/></l><r>диастола<s n="n"/></r></p></e>
+<e><p><l>diarrhea<s n="n"/></l><r>іш<b/>өту<s n="n"/></r></p></e>
+<e><p><l>dicotyledon<s n="n"/></l><r>дикотиледон<s n="n"/></r></p></e>
+<e><p><l>dichromat<s n="n"/></l><r>дихромат<s n="n"/></r></p></e>
+<e><p><l>diction<s n="n"/></l><r>дикция<s n="n"/></r></p></e>
+<e><p><l>diencephalon<s n="n"/></l><r>аралық<b/>ми<s n="n"/></r></p></e>
+<e><p><l>diffuser<s n="n"/></l><r>диффузор<s n="n"/></r></p></e>
+<e><p><l>diffusionism<s n="n"/></l><r>диффузионизм<s n="n"/></r></p></e>
+<e><p><l>digitigrade<s n="n"/></l><r>саусақяқтылар<s n="n"/></r></p></e>
+<e><p><l>dilatation<s n="n"/></l><r>кеңейту<s n="n"/></r></p></e>
+<e><p><l>digraph<s n="n"/></l><r>диграф<s n="n"/></r></p></e>
+<e><p><l>diluent<s n="n"/></l><r>еріткіш<s n="n"/></r></p></e>
+<e><p><l>dimethylformamide<s n="n"/></l><r>диметилформамид<s n="n"/></r></p></e>
+<e><p><l>dimer<s n="n"/></l><r>димер<s n="n"/></r></p></e>
+<e><p><l>dimorphism<s n="n"/></l><r>диморфизм<s n="n"/></r></p></e>
+<e><p><l>diorite<s n="n"/></l><r>диорит<s n="n"/></r></p></e>
 <!--ProPER NOUNS -->
 
 

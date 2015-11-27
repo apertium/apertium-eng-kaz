@@ -9151,6 +9151,24 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>dimer<s n="n"/></l><r>димер<s n="n"/></r></p></e>
 <e><p><l>dimorphism<s n="n"/></l><r>диморфизм<s n="n"/></r></p></e>
 <e><p><l>diorite<s n="n"/></l><r>диорит<s n="n"/></r></p></e>
+<e><p><l>eardrum<s n="n"/></l><r>дабыл<b/>жарғақ<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>earplug<s n="n"/></l><r>құлақ<b/>бітеуіш<s n="n"/></r></p></e>
+<e><p><l>eavesdropper<s n="n"/></l><r>тыңшы<s n="n"/></r></p></e>
+<e><p><l>ebb<s n="n"/></l><r>су<b/>қайту<s n="n"/></r></p></e>
+<e><p><l>echidna<s n="n"/></l><r>ехидна<s n="n"/></r></p></e>
+<e><p><l>Echinoderm<s n="n"/></l><r>тікен<b/>терілілер<s n="n"/></r></p></e>
+<e><p><l>eclecticism<s n="n"/></l><r>эклектика<s n="n"/></r></p></e>
+<e><p><l>ecliptic<s n="n"/></l><r>эклиптик<s n="n"/></r></p></e>
+<e><p><l>eco-ectoderm<s n="n"/></l><r>эко-эктодерма<s n="n"/></r></p></e>
+<e><p><l>edema<s n="n"/></l><r>ісіну<s n="n"/></r></p></e>
+<e><p><l>ectoplasm<s n="n"/></l><r>эктоплазма<s n="n"/></r></p></e>
+<e><p><l>effector<s n="n"/></l><r>эффектор<s n="n"/></r></p></e>
+<e><p><l>efflorescence<s n="n"/></l><r>гүлдеу<s n="n"/></r></p></e>
+<e><p><l>effervescence<s n="n"/></l><r>қайнау<s n="n"/></r></p></e>
+<e><p><l>effluent<s n="n"/></l><r>ағын<b/>су<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>egocentrism<s n="n"/></l><r>эгоорталық<s n="n"/></r></p></e>
+<e><p><l>einsteinium<s n="n"/></l><r>эйнштейний<s n="n"/></r></p></e>
+<e><p><l>e-ejaculation<s n="n"/></l><r>электронная<b/>эякуляция<s n="n"/></r></p></e>
 <!--ProPER NOUNS -->
 
 

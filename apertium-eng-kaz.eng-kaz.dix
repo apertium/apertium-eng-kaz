@@ -2503,6 +2503,27 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>supporter<s n="n"/></l><r>жақтас<s n="n"/></r></p></e>
 <e><p><l>foreigner<s n="adj"/></l><r>жатжерлік<s n="adj"/></r></p></e>
 <e><p><l>chaos<s n="n"/></l><r>аласапыран<s n="n"/></r></p></e>
+<e><p><l>diorama<s n="n"/></l><r>диорама<s n="n"/></r></p></e>
+<e><p><l>diphosphate<s n="n"/></l><r>дифосфат<s n="n"/></r></p></e>
+<e><p><l>dioxin<s n="n"/></l><r>диоксин<s n="n"/></r></p></e>
+<e><p><l>Diphthong<s n="n"/></l><r>Дифтонг<s n="n"/></r></p></e>
+<e><p><l>dipole<s n="n"/></l><r>диполь<s n="n"/></r></p></e>
+<e><p><l>dipper<s n="n"/></l><r>шөміш<s n="n"/></r></p></e>
+<e><p><l>dipteron<s n="n"/></l><r>диптерон<s n="n"/></r></p></e>
+<e><p><l>disarticulation<s n="n"/></l><r>экзартикуляция<s n="n"/></r></p></e>
+<e><p><l>discoloration<s n="n"/></l><r>түссіздік<s n="n"/></r></p></e>
+<e><p><l>disembarkment<s n="n"/></l><r>түсіру<s n="n"/></r></p></e>
+<e><p><l>disforestation<s n="n"/></l><r>орман<b/>құртылу<s n="n"/></r></p></e>
+<e><p><l>diskette<s n="n"/></l><r>дискета<s n="n"/></r></p></e>
+<e><p><l>dispatcher<s n="n"/></l><r>диспетчер<s n="n"/></r></p></e>
+<e><p><l>disquisition<s n="n"/></l><r>тергеу<s n="n"/></r></p></e>
+<e><p><l>dissection<s n="n"/></l><r>шабу<s n="n"/></r></p></e>
+<e><p><l>dissaccharide<s n="n"/></l><r>дисахарид<s n="n"/></r></p></e>
+<e><p><l>dissimilation<s n="n"/></l><r>диссимиляция<s n="n"/></r></p></e>
+<e><p><l>dissociation<s n="n"/></l><r>диссоциациялану<s n="n"/></r></p></e>
+<e><p><l>distillation<s n="n"/></l><r>айдау<s n="n"/></r></p></e>
+<e><p><l>distention<s n="n"/></l><r>созылу<s n="n"/></r></p></e>
+<e><p><l>dithyramb<s n="n"/></l><r>дифирамб<s n="n"/></r></p></e>
 
 
 <!--words from corpora Nurbolat-->

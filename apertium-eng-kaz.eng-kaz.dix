@@ -2617,6 +2617,36 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>granddad<s n="n"/></l><r>ата<s n="n"/></r></p></e>
 
 
+<e><p><l>gnathion<s n="n"/></l><r>иектік<b/>нүкте<s n="n"/></r></p></e>
+<e><p><l>glycoprotein<s n="n"/></l><r>гликопротеин<s n="n"/></r></p></e>
+<e><p><l>gnomon<s n="n"/></l><r>гномон<s n="n"/></r></p></e>
+<e><p><l>goblin<s n="n"/></l><r>гоблин<s n="n"/></r></p></e>
+<e><p><l>godson<s n="n"/></l><r>кіндік<b/>бала<s n="n"/></r></p></e>
+<e><p><l>godmother<s n="n"/></l><r>кіндік<b/>ана<s n="n"/></r></p></e>
+<e><p><l>goitre<s n="n"/></l><r>зоб<s n="n"/></r></p></e>
+<e><p><l>goldsmithing<s n="n"/></l><r>алтын<b/>сатушы<s n="n"/></r></p></e>
+<e><p><l>gonad<s n="n"/></l><r>гонада<s n="n"/></r></p></e>
+<e><p><l>gonion<s n="n"/></l><r>гонион<s n="n"/></r></p></e>
+<e><p><l>goniometer<s n="n"/></l><r>бұрыш<b/>өлшеуіш<s n="n"/></r></p></e>
+<e><p><l>Granodiorite<s n="n"/></l><r>гранодиорит<s n="n"/></r></p></e>
+<e><p><l>granulation<s n="n"/></l><r>түйіршіктеу<s n="n"/></r></p></e>
+<e><p><l>granulocyte<s n="n"/></l><r>гранулоцит<s n="n"/></r></p></e>
+<e><p><l>granuloma<s n="n"/></l><r>гранулема<s n="n"/></r></p></e>
+<e><p><l>grater<s n="n"/></l><r>үккіш<s n="n"/></r></p></e>
+<e><p><l>grazier<s n="n"/></l><r>малшы<s n="n"/></r></p></e>
+<e><p><l>greengrocer<s n="n"/></l><r>көк<b/>сатушы<s n="n"/></r></p></e>
+<e><p><l>gregale<s n="n"/></l><r>грегал<s n="n"/></r></p></e>
+<e><p><l>griffin<s n="n"/></l><r>гриф<s n="n"/></r></p></e>
+<e><p><l>grille<s n="n"/></l><r>тор<s n="n"/></r></p></e>
+<e><p><l>groin<s n="n"/></l><r>шап<s n="n"/></r></p></e>
+<e><p><l>grisaille<s n="n"/></l><r>гризайль<s n="n"/></r></p></e>
+<e><p><l>groundhog<s n="n"/></l><r>суыр<s n="n"/></r></p></e>
+<e><p><l>grub<s n="n"/></l><r>балаңқұрт<s n="n"/></r></p></e>
+<e><p><l>Guanine<s n="n"/></l><r>гуанин<s n="n"/></r></p></e>
+<e><p><l>guava<s n="n"/></l><r>гуайява<s n="n"/></r></p></e>
+<e><p><l>Guffaw<s n="n"/></l><r>Гогот<s n="n"/></r></p></e>
+<e><p><l>gymnosperm<s n="n"/></l><r>ашық<b/>тұқымды<s n="adj"/></r></p></e>
+
 <!--words from corpora Nurbolat-->
 <e><p><l>Zhanbusunov<s n="np"/><s n="cog"/></l><r>Жанбусунов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>radish<s n="n"/></l><r>шалғы<s n="n"/></r></p></e>

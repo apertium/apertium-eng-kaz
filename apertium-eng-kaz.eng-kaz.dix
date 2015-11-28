@@ -2460,7 +2460,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>during<b/>the<b/>day<s n="adv"/></l><r>күндіз<s n="adv"/></r></p></e>
 <e><p><l>arithmetic<s n="n"/></l><r>есеп-қисап<s n="n"/></r></p></e>
 <e><p><l>congress<s n="n"/></l><r>конгресс<s n="n"/></r></p></e>
-<e><p><l>dictator<s n="n"/></l><r>сұлтаны<s n="n"/></r></p></e>
+<e><p><l>dictator<s n="n"/></l><r>сұлтан<s n="n"/></r></p></e>
 <e><p><l>form<s n="n"/></l><r>пішін<s n="n"/></r></p></e>
 <e><p><l>evening<b/>coat<s n="n"/></l><r>фрак<s n="n"/></r></p></e>
 <e><p><l>tie<s n="n"/></l><r>мойынтақ<s n="n"/></r></p></e>
@@ -2583,7 +2583,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>gentilic<s n="n"/></l><r>орын<b/>тұрғыны<s n="n"/></r></p></e>
 <e><p><l>geolocation<s n="n"/></l><r>геолокация<s n="n"/></r></p></e>
 <e><p><l>geoid<s n="n"/></l><r>геоид<s n="n"/></r></p></e>
-<e><p><l>geophyte<s n="n"/></l><r>geophyte<s n="n"/></r></p></e>
+<e><p><l>geophyte<s n="n"/></l><r>геофит<s n="n"/></r></p></e>
 <e><p><l>geometer<s n="n"/></l><r>геометрия<s n="n"/></r></p></e>
 <e><p><l>geosynonym<s n="n"/></l><r>геосиноним<s n="n"/></r></p></e>
 <e><p><l>georeferencing<s n="n"/></l><r>байланыстыру<s n="n"/></r></p></e>
@@ -2713,7 +2713,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>physician<s n="n"/></l><r>дәрігер<s n="n"/></r></p></e>
 <e><p><l>proposition<s n="n"/></l><r>теорема<s n="n"/></r></p></e>
 <e><p><l>protector<s n="n"/></l><r>жарылқаушы<s n="n"/></r></p></e>
-<e r="LR"><p><l>rags<s n="n"/></l><r>>жалба-жұлба<s n="n"/></r></p></e>
+<e r="LR"><p><l>rags<s n="n"/></l><r>жалба-жұлба<s n="n"/></r></p></e>
 <e><p><l>reasoner<s n="n"/></l><r>философ<s n="n"/></r></p></e>
 <e><p><l>repository<s n="n"/></l><r>қойма<s n="n"/></r></p></e>
 <e><p><l>ridge<s n="n"/></l><r>тау<b/>жота<s n="n"/></r></p></e>
@@ -2746,6 +2746,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 
 <!--adjective-->
 <e><p><l>adamantine<s n="adj"/></l><r>алмас<b/>негізді<s n="adj"/></r></p></e>
+<e><p><l>abstersive<s n="adj"/></l><r>іш<b/>тазартатын<s n="adj"/></r></p></e>
+<e><p><l>aperitive<s n="adj"/></l><r>іш<b/>жүргізетін<s n="adj"/></r></p></e>
 <e><p><l>averse<s n="adj"/></l><r>ынтасыз<s n="adj"/></r></p></e>
 <e><p><l>clad<s n="adj"/></l><r>киінген<s n="adj"/></r></p></e>
 <e><p><l>disagreeable<s n="adj"/></l><r>жағымсыз<s n="adj"/></r></p></e>
@@ -4386,7 +4388,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>expenditure<s n="n"/></l><r>шығын<s n="n"/></r></p></e>
 <e><p><l>explosion<s n="n"/></l><r>атылыс<s n="n"/></r></p></e>
 <e><p><l>explosive<s n="n"/></l><r>қопарылғыш<b/>зат<s n="n"/></r></p></e>
-<e><p><l>exporter<s n="n"/></l><r>экспорттауш<s n="n"/></r></p></e>
+<e><p><l>exporter<s n="n"/></l><r>экспорттаушы<s n="n"/></r></p></e>
 <e><p><l>facade<s n="n"/></l><r>қасбет<s n="n"/></r></p></e>
 <e><p><l>faction<s n="n"/></l><r>фракция<s n="n"/></r></p></e>
 <e><p><l>finding<s n="n"/></l><r>кездестіру<s n="n"/></r></p></e>
@@ -7881,7 +7883,6 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>tube<s n="n"/></l><r>түтік<s n="n"/></r></p></e>
 
 <e><p><l>Altyn<b/>Kyran<s n="np"/><s n="al"/><s n="sg"/></l><r>Алтын<b/>Қыран<s n="np"/><s n="al"/></r></p></e>
-<e><p><l>Nauryz<s n="np"/><s n="al"/><s n="sg"/></l><r>наурыз<s n="n"/></r></p></e>
 <e><p><l>Nauryz<s n="np"/><s n="al"/><s n="sg"/></l><r>Наурыз<s n="np"/></r></p></e>
 <e><p><l>Yenbek<b/>Yeri<s n="np"/><s n="al"/><s n="sg"/></l><r>Еңбек<b/>Ер<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>Akku<s n="np"/><s n="al"/><s n="sg"/></l><r>Аққу<s n="np"/><s n="al"/></r></p></e>

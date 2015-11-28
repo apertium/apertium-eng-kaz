@@ -11,7 +11,6 @@
     <sdef n="nom" c="Nominative"/> 
      <sdef n="attr" c="Location in kaz.lexc"/> 
     <sdef n="ant" c="Anthroponym"/> 
-    <sdef n="ant" c="Anthroponym"/> 
     <sdef n="al" c="Other (altre)"/> 
     <sdef n="cog" c="Cognomen (family name)"/> 
     <sdef n="atn" c="Atonic"/> 
@@ -8471,81 +8470,6 @@
 
 
 
- <pardef n="d/are__vblex">
-
-                            <e i="">
-      <p>
-        <l>are</l>
-        <r>are<s n="vblex"/><s n="inf"/></r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>are</l>
-        <r>are<s n="vblex"/><s n="pres"/></r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>ares</l>
-        <r>are<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>urst</l>
-        <r>are<s n="vblex"/><s n="past"/></r>
-      </p>
-    </e>
-
-                       <e i="">
-      <p>
-        <l>ared</l>
-        <r>are<s n="vblex"/><s n="past"/></r>
-      </p>
-    </e>
-
-                            <e i="">
-
-      <p>
-        <l>ared</l>
-        <r>are<s n="vblex"/><s n="pp"/></r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>aring</l>
-        <r>are<s n="vblex"/><s n="ger"/></r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>aring</l>
-        <r>are<s n="vblex"/><s n="pprs"/></r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>aring</l>
-        <r>are<s n="vblex"/><s n="subs"/></r>
-      </p>
-    </e>
-
-
-    </pardef>
-
     <pardef n="f/ight__vblex">
 
                             <e i="">
@@ -9100,76 +9024,6 @@
       <p>
         <l>they</l>
         <r>prn</r>
-      </p>
-    </e>
-
-
-    </pardef>
-
-
-
-    <pardef n="/go_nul__vblex">
-
-                            <e i="">
-      <p>
-        <l>go</l>
-        <r>go</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>go</l>
-        <r>go</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>goes</l>
-        <r>go</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>went</l>
-        <r>go</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>gone</l>
-        <r>go</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>going</l>
-        <r>go</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>going</l>
-        <r>go</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>going</l>
-        <r>go</r>
       </p>
     </e>
 
@@ -13169,81 +13023,6 @@
 
     </pardef>
 
-    <pardef n="prsubj_nul__prn">
-
-                            <e i="">
-      <p>
-        <l>I</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>you</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-
-                            <e i="yes">
-      <p>
-        <l>you<b/>all</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-
-                            <e r="LR" i="">
-      <p>
-        <l>y'all</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>he</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>she</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>it</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>we</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-
-                            <e i="">
-      <p>
-        <l>they</l>
-        <r>prn</r>
-      </p>
-    </e>
-
-
-    </pardef>
 
 
     <pardef n="prsubj__prn">
@@ -57807,7 +57586,6 @@
                             <e lm="have" i=""><i>ha</i><par n="ha/ve__vbhaver"/></e>
 
                             <e lm="do" i=""><i>d</i><par n="d/o__vaux"/></e>
-F
 
                             <e lm="can" i=""><i>c</i><par n="c/an__vbmod"/></e>
 
@@ -80857,7 +80635,7 @@ F
 <e lm="Zhurgenov" i=""><i>Zhurgenov</i><par n="Smith__np"/></e>
 <e lm="Jinping" i=""><i>Jinping</i><par n="Smith__np"/></e>
 <e lm="Bilisbekov" i=""><i>Bilisbekov</i><par n="Smith__np"/></e>
-<e lm="Berzins" i=""><i>Berzins</i><par n="Smith__np"/></e>Jeremić
+<e lm="Berzins" i=""><i>Berzins</i><par n="Smith__np"/></e>
 <e lm="Jeremić" i=""><i>Jeremić</i><par n="Smith__np"/></e>
 
 

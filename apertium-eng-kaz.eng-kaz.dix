@@ -9389,8 +9389,8 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>extrusion<s n="n"/></l><r>экструзиялық<s n="n"/></r></p></e>
 <e><p><l>exudation<s n="n"/></l><r>экссудация<s n="n"/></r></p></e>
 
-<e><p><l>fabulation<s n="n"/></l><r>аңыз<b/>әңгіме<s n="n"/></r></p></e>
-<e><p><l>fabulist<s n="n"/></l><r>аңыз<b/>әңгімеші<s n="n"/></r></p></e>
+<e><p><l>fabulation<s n="n"/></l><r>аңыз-әңгіме<s n="n"/></r></p></e>
+<e><p><l>fabulist<s n="n"/></l><r>аңыз-әңгімеші<s n="n"/></r></p></e>
 <e><p><l>fake<s n="n"/></l><r>жалғандық<s n="n"/></r></p></e>
 <e><p><l>Faraday<s n="n"/></l><r>фарадей<s n="n"/></r></p></e>
 <e><p><l>farad<s n="n"/></l><r>фарад<s n="n"/></r></p></e>

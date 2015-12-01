@@ -29,6 +29,28 @@
  </rule>
 
  <rule>
+  <match lemma="минут" tags="n.*"/>
+  <match lemma="кетті" tags="v.*.*"><select lemma="past" tags="vblex.*"/></match>     
+ </rule>
+
+ <!--<rule>
+  <match lemma="он" tags="num.*"/>
+  <match lemma="минут" tags="n"/>
+  <match lemma="кетті" tags="v.*.*"><select lemma="past" tags="vblex.*"/></match>     
+ </rule>-->
+
+ <!--<rule>
+  <match lemma="сағат" tags="n.*"/>
+  <match lemma="тура" tags="n.num"><select lemma="o'clock" tags="n.*"/></match>  
+<match lemma="*" tags="num.*"/>   
+ </rule>-->
+
+ <rule>
+  <match lemma="сағат" tags="n.*"><select lemma="time" tags="n.*"/></match>
+  <match lemma="*" tags="num.*"/>
+ </rule>
+
+ <rule>
   <match lemma="су" tags="n.*"/>
   <match lemma="бет" tags="n.*.*"><select lemma="surface" tags="n.*"/></match>     
  </rule>

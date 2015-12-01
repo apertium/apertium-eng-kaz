@@ -416,7 +416,7 @@
 <e r="RL"><p><l>years-old</l><r>жас<s n="n"/></r></p></e>
     <e><p><l>hand<s n="n"/></l><r>қол<s n="n"/></r></p></e>
     <e><p><l>time<s n="n"/></l><r>уақыт<s n="n"/></r></p></e>
-    <e><p><l>time<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
+    <e r="RL"><p><l>time<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
 <e><p><l>minute<s n="n"/></l><r>минут<s n="n"/></r></p></e>
  <e><p><l>second<s n="n"/></l><r>секунд<s n="n"/></r></p></e>
 <e><p><l>clan<s n="n"/></l><r>ру<s n="n"/></r></p></e>
@@ -573,7 +573,7 @@
 <e><p><l>chin<s n="n"/></l><r>иек<s n="n"/></r></p></e>
 <e><p><l>church<s n="n"/></l><r>шіркеу<s n="n"/></r></p></e>
 <e><p><l>circle<s n="n"/></l><r>дөңгелек<s n="n"/></r></p></e>
-<e><p><l>clock<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
+<!--<e><p><l>clock<s n="n"/></l><r>сағат<s n="n"/></r></p></e>-->
 <e><p><l>collar<s n="n"/></l><r>қамыт<s n="n"/></r></p></e>
 <e><p><l>comb<s n="n"/></l><r>жота<s n="n"/></r></p></e>
 <e><p><l>comrade<s n="n"/></l><r>жолдас<s n="n"/></r></p></e>

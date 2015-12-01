@@ -15,9 +15,8 @@
       <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->      
       <cat-item lemma="be" tags="vbser.inf"/>
     </def-cat>
-  <def-cat n="inf-verb"> <!-- infinitive and present where infinitive should have been found (tagger error) -->
-      <cat-item tags="vblex.inf"/> <!-- This may be dangerous and should be treated at tagger level -->
-
+  <def-cat n="inf-verb"> 
+      <cat-item tags="vblex.inf"/>
       <cat-item tags="vbser.inf"/>
 
     </def-cat>
@@ -1331,7 +1330,7 @@
 
 <otherwise>
 <out>
-      <chunk name="pers-verb">
+      <chunk name="pers-verb111">
       <tags>
         <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -5659,7 +5658,7 @@
         </test>
         <let><var n="tense"/><lit-tag v="pres"/></let>
         <out>
-      <chunk name="pers-verb">
+      <chunk name="pers-verb-passive">
       <tags>
         <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -5755,7 +5754,7 @@
         </test>
         <let><var n="tense"/><lit-tag v="pres"/></let>
         <out>
-      <chunk name="pers-verb">
+      <chunk name="pers-verb-passive">
       <tags>
         <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -5795,7 +5794,7 @@
         </test>
         <let><var n="tense"/><lit-tag v="past"/></let>
         <out>
-      <chunk name="pers-verb">
+      <chunk name="pers-verb-being">
      <tags>
         <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -14128,32 +14127,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   </action>
 </rule>
 
-<rule comment="NEW RULE: infinitive - verb"> 
-  <pattern>
-    <pattern-item n="approx-inf-verb"/>
-  </pattern>
-  <action>
-     <let><var n="tense"/><lit-tag v="aor"/></let> 
-      <call-macro n="NEW-gen-simple-verb">
-         <with-param pos="1"/> 
-     </call-macro>
- 
-  </action>
-</rule>
 
-
-<rule comment="NEW RULE: vbser- verb"> 
-  <pattern>
-    <pattern-item n="verb-pp"/>
-  </pattern>
-  <action>
-     <let><var n="tense"/><lit-tag v="past"/></let> 
-      <call-macro n="NEW-gen-simple-verb">
-         <with-param pos="1"/> 
-     </call-macro>
- 
-  </action>
-</rule>
 
 
 <rule comment="NEW RULE: be"> 
@@ -14226,6 +14200,37 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
  
   </action>
 </rule>
+
+
+
+<!-- vbser solve-->
+<rule comment="NEW RULE: infinitive - verb"> 
+  <pattern>
+    <pattern-item n="approx-inf-verb"/>
+  </pattern>
+  <action>
+     <let><var n="tense"/><lit-tag v="aor"/></let> 
+      <call-macro n="NEW-gen-simple-verb">
+         <with-param pos="1"/> 
+     </call-macro>
+ 
+  </action>
+</rule>
+
+
+<rule comment="NEW RULE: vbser- verb"> 
+  <pattern>
+    <pattern-item n="verb-pp"/>
+  </pattern>
+  <action>
+     <let><var n="tense"/><lit-tag v="past"/></let> 
+      <call-macro n="NEW-gen-simple-verb">
+         <with-param pos="1"/> 
+     </call-macro>
+ 
+  </action>
+</rule>
+
 
 
 

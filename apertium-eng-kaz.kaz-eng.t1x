@@ -13,6 +13,32 @@
       <cat-item tags="num.itg"/>
     </def-cat>
 
+<def-cat n="mod_ass">
+      <cat-item tags="mod_ass"/>
+      <cat-item tags="mod_ass.*"/>
+         </def-cat>
+
+<def-cat n="v-subst">
+      <cat-item tags="v.tv.gpr_fut.subst.*.*.gen.subst.nom"/>
+	<cat-item tags="v.*.gpr_fut.subst.*.*.gen.subst.nom"/>
+      
+         </def-cat>
+
+<def-cat n="n-post">
+<cat-item  tags="n"/>
+      <cat-item lemma="сіз" tags="post"/>
+     
+    </def-cat>
+<def-cat n="postadv">
+      <cat-item tags="postadv"/>
+      <cat-item tags="postadv.*"/>
+         </def-cat>
+<def-cat n="ger_perf">
+      <cat-item tags="v.*.neg.ger_perf*.*.frm.*"/>
+	<cat-item tags="v.*.neg.ger_perf*.*.*.*"/>
+      <cat-item tags="v.tv.neg.ger_perf.*.px2sg.frm.*"/>
+         </def-cat>
+
 <def-cat n="thousand-etc">
       <cat-item lemma="мың" tags="n.nom"/>
 <cat-item lemma="мың" tags="num"/>
@@ -135,6 +161,7 @@
     <def-cat n="v-fin">
       <cat-item tags="v.*.aor.*"/>
       <cat-item tags="v.*.ifi.*"/>
+
 <cat-item tags="v.*.ifi.*.*"/>
       <cat-item tags="vaux.*.aor.*"/> <!-- include auxiliaries for now -->
       <cat-item tags="vaux.*.ifi.*"/>
@@ -323,6 +350,13 @@
 <def-cat n="zhok">
  <cat-item lemma="жоқ" tags="adj"/>
       <cat-item lemma="жоқ" tags="adj.*"/>
+    </def-cat>
+
+<def-cat n="v-opt">
+ <cat-item tags="v.*.opt.*.*"/>
+    </def-cat>
+<def-cat n="v-impf">
+ <cat-item tags="v.*.prc_impf"/>
     </def-cat>
 
 <def-cat n="degen">
@@ -1428,6 +1462,47 @@
   
 
 <section-rules>
+ <rule comment="RULE: subst verb">   <!--шақырмағандықтарыңызбен -->
+      <pattern>
+        <pattern-item n="ger_perf"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+        <out>
+          <chunk name="unk-translation_of_neg-verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+<tag><clip pos="1" side="tl" part="a_cas"/></tag>
+            </tags>
+<lu>
+<lit v="not"/>
+<lit-tag v="adv"/>
+</lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="pres"/>
+            
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 <rule comment="RULE: adv ADJ ADJ NOM">
       <pattern>
@@ -3351,7 +3426,37 @@
     </rule>
 
 
-
+<rule comment="RULE: postADv">
+      <pattern>
+        <pattern-item n="postadv"/>
+      </pattern>
+      <action>
+        <!--<let><var n="number"/><lit v=""/></let>-->
+        <choose>
+ 
+          <when>
+             <test>
+                <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="n.attr"/></equal>
+             </test>
+             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
+             <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
+          </when> 
+        </choose>
+        <out>
+          <chunk name="postadv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-ADVP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
 
@@ -3496,6 +3601,39 @@
         </choose>
         <out>
           <chunk name="adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="AdjP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_adjec"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+ <rule comment="RULE: ADJ mod_ass">
+      <pattern>
+        <pattern-item n="adj"/>
+	<pattern-item n="mod_ass"/>
+      </pattern>
+      <action>
+        <!--<let><var n="number"/><lit v=""/></let>-->
+        <choose>
+ 
+          <when>
+             <test>
+                <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="n.attr"/></equal>
+             </test>
+             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
+             <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
+          </when> 
+        </choose>
+        <out>
+          <chunk name="adj-mod_ass" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="AdjP"/></tag>
             </tags>
@@ -7520,7 +7658,97 @@
 </rule>
 
 
+<rule comment="RULE: pers-pron">
+  <pattern>
+    <pattern-item n="pers-pron1"/>
+<pattern-item n="mod_ass"/>
+  </pattern>
+  <action>
+  <choose>
+    <when>
+      <test>
+       <equal>
+         <clip pos="1" side="sl" part="a_pers"/>
+         <lit-tag v="p2"/>
+       </equal>
+      </test>
+       <let><var n="number"/><lit-tag v="sp"/></let> 
+    </when>
 
+       <otherwise>
+         <let>
+           <var n="number"/><clip pos="1" side="sl" part="a_nbr"/>
+         </let>
+       </otherwise>
+  </choose>
+  <choose>
+    <when>
+      <test>
+     
+<and>
+<equal>
+         <clip pos="1" side="sl" part="a_pers"/>
+         <lit-tag v="p3"/>
+</equal>
+<equal>
+<clip pos="1" side="sl" part="a_nbr"/>
+         <lit-tag v="sg"/>
+</equal>
+
+<not><equal><clip pos="1" side="sl" part="a_mf"/><lit-tag v="f"/></equal></not>
+</and>
+      
+      </test>
+      <let>
+          <clip pos="1" side="tl" part="lem"/>
+          <lit v="He"/>
+        </let>
+<let>
+          <clip pos="1" side="tl" part="a_nbr"/>
+          <lit-tag v="p3"/>
+        </let>
+    </when>
+       
+  </choose> 
+ <call-macro n="conv-to-subj">
+          <with-param pos="1"/>
+        </call-macro>
+ <call-macro n="conv-mfpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+ 
+  <out>
+   <chunk name="pron-mod_ass">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    <tag><var n="sntype"/></tag>
+    <tag><clip pos="1" side="sl" part="a_pers"/></tag>
+    <tag><var n="mf"/></tag> 
+    <tag><var n="number"/></tag>
+
+    </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+    <lu>
+<clip pos="1" side="tl" part="lem"/>
+
+     <lit-tag v="2"/> 
+      <lit-tag v="3"/> 
+      <lit-tag v="4"/> 
+      <lit-tag v="5"/> 
+      <lit-tag v="6"/> 
+ 
+    </lu>
+  </chunk>
+  </out>
+<call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+ </action>
+</rule>
 
     <rule comment="RULE: SENT">
       <pattern>
@@ -8013,6 +8241,63 @@
 -->
 
 
+<rule comment="RULE: NOM+post">
+      <pattern>
+        <pattern-item n="n-post"/>
+      </pattern>
+<action>
+        
+      <call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+    
+    
+
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+
+
+        <out>
+          <chunk name="noun-without" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+              <tag>  <var n="number"/></tag>
+            </tags>
+
+            <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+<lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+            
+              <clip pos="1" side="tl" part="lemq"/>
+                <lit-tag v="3"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
  
 
 
@@ -8114,6 +8399,125 @@
       </action>
     </rule>
 
+
+ <rule comment="RULE: V-opt will invite">  
+      <pattern>
+        <pattern-item n="v-opt"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+        <out>
+          <chunk name="v-opt" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+<lu>
+              <lit v="will"/>
+              <lit-tag v="vaux"/>
+	<lit-tag v="inf"/>
+</lu>
+<b/>
+
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="inf"/>
+            <!-- <lit-tag v="3"/>
+             <lit-tag v="4"/>-->
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+<rule comment="RULE: V ">  <!--for ^шақыр<v><tv><prc_impf>$ ^-ақ<postadv>$^.<sent>$-->
+      <pattern>
+        <pattern-item n="v-impf"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+        <out>
+          <chunk name="v-impf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+
+
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="pres"/>
+            
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+ <rule comment="RULE: subst verb">   <!--"шақырарларымдікін-ақ -->
+      <pattern>
+        <pattern-item n="v-subst"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+        <out>
+          <chunk name="unk-translation_of_verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="pres"/>
+             
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
 

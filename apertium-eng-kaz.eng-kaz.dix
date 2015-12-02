@@ -10590,6 +10590,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>CCTV<s n="np"/><s n="acr"/></l><r>CCTV<s n="abbr"/></r></p></e>
 <e><p><l>KazMunaiGas<s n="np"/><s n="al"/></l><r>Қазмұнайгаз<s n="abbr"/></r></p></e>
 <e><p><l>Chevron<s n="np"/><s n="al"/></l><r>Шеврон<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Chevron<s n="np"/><s n="al"/></l><r>Шеврон<s n="np"/><s n="unk"/></r></p></e>
 <e><p><l>Tengiz<s n="np"/><s n="al"/></l><r>Тенгиз<s n="np"/><s n="org"/></r></p></e>
   <e><p><l>OSCE<s n="np"/><s n="al"/><s n="sg"/></l><r>ЕҚЫҰ<s n="abbr"/></r></p></e>
 <e><p><l>KIMEP<s n="np"/><s n="acr"/></l><r>КИМЭП<s n="abbr"/></r></p></e>
@@ -11967,6 +11968,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Aida<s n="np"/><s n="ant"/><s n="f"/></l><r>Аида<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aidana<s n="np"/><s n="ant"/><s n="f"/></l><r>Айдана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Nurbolat<s n="np"/><s n="ant"/><s n="m"/></l><r>Нұрболат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Yersultan<s n="np"/><s n="ant"/><s n="m"/></l><r>Ерсұлтан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 <e><p><l>Aimée<s n="np"/><s n="ant"/><s n="f"/></l><r>Аимии<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Akemi<s n="np"/><s n="ant"/><s n="f"/></l><r>Акеми<s n="np"/><s n="ant"/><s n="f"/></r></p></e>

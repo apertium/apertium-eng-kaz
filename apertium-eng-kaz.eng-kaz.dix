@@ -9515,10 +9515,10 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>hyaloplasm<s n="n"/></l><r>гиалоплазма<s n="n"/></r></p></e>
 <e><p><l>hyalite<s n="n"/></l><r>гиалит<s n="n"/></r></p></e>
 <e><p><l>hydratation<s n="n"/></l><r>гидратация<s n="n"/></r></p></e>
-<e><p><l>hybridoma<s n="n"/></l><r>гибридомд<s n="n"/></r></p></e>
+<e><p><l>hybridoma<s n="n"/></l><r>гибридом<s n="n"/></r></p></e>
 <e><p><l>hydride<s n="n"/></l><r>гидрид<s n="n"/></r></p></e>
 <e><p><l>hydrazine<s n="n"/></l><r>гидразин<s n="n"/></r></p></e>
-<e><p><l>hydrophobia<s n="n"/></l><r>судан<b/>қорқу<s n="n"/></r></p></e>
+<e><p><l>hydrophobia<s n="n"/></l><r>судан<b/>қорқыныш<s n="n"/></r></p></e>
 <e><p><l>hydroxide<s n="n"/></l><r>гидроксид<s n="n"/></r></p></e>
 <e><p><l>hydroplane<s n="n"/></l><r>гидроплан<s n="n"/></r></p></e>
 <e><p><l>hygrometer<s n="n"/></l><r>гигрометр<s n="n"/></r></p></e>

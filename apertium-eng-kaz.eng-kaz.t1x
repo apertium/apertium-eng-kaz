@@ -12669,11 +12669,17 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   </choose>
  <choose>
     <when>
-     <test>  
+     <test> 
+<or> 
        <equal>
           <clip pos="1" side="sl" part="a_pers"/>
           <lit-tag v="p1"/>
        </equal>
+ <equal>
+          <clip pos="1" side="sl" part="a_pers"/>
+          <lit-tag v="p2"/>
+       </equal>
+</or>
      </test>
     
      <let><var n="case"/><lit-tag v="nom"/></let>
@@ -12683,6 +12689,8 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 </otherwise>
   
   </choose>
+
+
 <choose>
     <when>
      <test>  

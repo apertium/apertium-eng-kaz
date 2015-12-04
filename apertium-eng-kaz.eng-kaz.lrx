@@ -10,6 +10,12 @@
     <match lemma="residence" tags="n.*"><select lemma="мекен" tags="n.*"/></match>
   </rule>
 
+
+  <rule>
+    <match lemma="this" tags="det.*"><select lemma="мына" tags="prn.*"/></match>
+  </rule>
+
+
   <rule>
     <match lemma="state" tags="n.*"><select lemma="мемлекет" tags="n.*"/></match>
   </rule>

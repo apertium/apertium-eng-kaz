@@ -11,9 +11,6 @@
   </rule>
 
 
-  <rule>
-    <match lemma="this" tags="det.*"><select lemma="мына" tags="prn.*"/></match>
-  </rule>
 
 
   <rule>

@@ -2646,7 +2646,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>Guanine<s n="n"/></l><r>гуанин<s n="n"/></r></p></e>
 <e><p><l>guava<s n="n"/></l><r>гуайява<s n="n"/></r></p></e>
 <e><p><l>Guffaw<s n="n"/></l><r>Гогот<s n="n"/></r></p></e>
-<e><p><l>gymnosperm<s n="n"/></l><r>ашық<b/>тұқымды<s n="adj"/></r></p></e>
+<e><p><l>gymnosperm<s n="n"/></l><r>ашық<b/>тұқымды<s n="n"/><s n="pl"/></r></p></e>
 
 <!--words from corpora Nurbolat-->
 <e><p><l>Zhanbusunov<s n="np"/><s n="cog"/></l><r>Жанбусунов<s n="np"/><s n="cog"/></r></p></e>
@@ -9590,7 +9590,7 @@ awk 'BEGIN{FS="[:\"]"} /N1 ;/ {print $1 ":" $3}' apertium-kaz.kaz.lexc | grep -v
 <e><p><l>interfluve<s n="n"/></l><r>өзенаралық<s n="n"/></r></p></e>
 <e><p><l>interjection<s n="n"/></l><r>одағай<s n="n"/></r></p></e>
 <e><p><l>interlingua<s n="n"/></l><r>тіларалық<s n="n"/></r></p></e>
-<e><p><l>intermittence<s n="n"/></l><r>үзіліc<s n="n"/></r></p></e>
+<e><p><l>intermittence<s n="n"/></l><r>үзіліс<s n="n"/></r></p></e>
 <e><p><l>interpellation<s n="n"/></l><r>сұраныс<s n="n"/></r></p></e>
 <e><p><l>interpolation<s n="n"/></l><r>интерполяция<s n="n"/></r></p></e>
 <e><p><l>interrelationship<s n="n"/></l><r>өзара<b/>сәйкестік<s n="n"/></r></p></e>

@@ -21,10 +21,14 @@
 <def-cat n="v-subst">
       <cat-item tags="v.tv.gpr_fut.subst.*.*.gen.subst.nom"/>
 	<cat-item tags="v.*.gpr_fut.subst.*.*.gen.subst.nom"/>
-      
+      <cat-item tags="v.*.gpr_fut.subst.*.loc"/>
+<cat-item tags="v.*.gpr_fut.subst.*.*.loc.attr"/>
+<cat-item tags="v.*.gpr_fut.subst.*.*.abl"/>
+<cat-item tags="v.*.gpr_fut.subst.*.*.acc"/>
+<cat-item tags="v.*.gpr_fut.subst.*.*.*"/>
          </def-cat>
 
-<def-cat n="n-post">
+<def-cat n="n-syz">
 <cat-item  tags="n"/>
       <cat-item lemma="сіз" tags="post"/>
      
@@ -409,7 +413,7 @@
       <cat-item tags="n.px3sp.*"/>
     </def-cat>
     <def-cat n="nom-post">
-      <cat-item tags="post"/>
+      <!--<cat-item tags="post"/>-->
       <cat-item tags="post.*"/>
       <cat-item tags="post.Rnom"/>
       <cat-item tags="post.Rnom.*"/>
@@ -8243,7 +8247,7 @@
 
 <rule comment="RULE: NOM+post">
       <pattern>
-        <pattern-item n="n-post"/>
+        <pattern-item n="n-syz"/>
       </pattern>
 <action>
         
@@ -8276,12 +8280,13 @@
         <out>
           <chunk name="noun-without" case="caseFirstWord">
             <tags>
+	<tag><lit-tag v="SN"/></tag>
               <tag><var n="sntype"/></tag>
               <tag>  <var n="number"/></tag>
             </tags>
-
-            <lu>
-<var n="postposition_lu"/>
+<lu>
+ <lit v="without"/>
+ <lit-tag v="pr"/>
 </lu>
 <b/>
 <lu>
@@ -8289,7 +8294,7 @@
               <clip pos="1" side="tl" part="a_nom"/>
             
               <clip pos="1" side="tl" part="lemq"/>
-                <lit-tag v="3"/>
+                <lit-tag v="2"/>
             </lu>
           </chunk>
         </out>

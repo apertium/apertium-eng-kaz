@@ -13422,25 +13422,27 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <pattern-item n="non-sup-adjec"/>
   </pattern>
   <action>
-<!--<choose>
+
+<choose>
     <when>
       <test>
        <equal>
-         <clip pos="1" side="sl" part="a_adjec"/>
+         <clip pos="2" side="sl" part="a_subst"/>
          <lit-tag v="subst"/>
        </equal>
       </test>
        <let><var n="comp_lu"/><lit v=""/></let> 
+       <let><var n="case"/><lit v=""/></let> 
     </when>
        <otherwise>
          <let>
            <var n="comp_lu"/>       <lit-tag v="comp"/>
+
          </let>
+       <let><var n="case"/><lit-tag v="2"/></let> 
        </otherwise>
-  </choose>-->
-<let>
-           <var n="comp_lu"/>       <lit-tag v="comp"/>
-         </let>
+  </choose>
+
     <out>
     <chunk name="more-comp-adjec">
     <tags>
@@ -13452,7 +13454,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
        <clip pos="2" part="lem" side="tl"/>
        <lit-tag v="adj"/>
       <var n="comp_lu"/>
-         <lit-tag v="2"/> 
+      <var n="case"/>
      </lu>
     </chunk>
     </out>
@@ -13469,24 +13471,46 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <when>
       <test>
        <equal>
+         <clip pos="1" side="sl" part="a_subst"/>
+         <lit-tag v="subst"/>
+       </equal>
+      </test>
+       <let><var n="comp_lu"/><lit v=""/></let> 
+       <let><var n="case"/><lit v=""/></let> 
+    </when>
+       <otherwise>
+         <let>
+           <var n="comp_lu"/>       <lit-tag v="comp"/>
+
+         </let>
+       <let><var n="case"/><lit-tag v="2"/></let> 
+ <let>
+           <var n="case"/>       <lit-tag v="nom"/>
+         </let>
+       </otherwise>
+  </choose>
+<choose>
+    <when>
+      <test>
+<or>
+       <equal>
          <clip pos="1" side="sl" part="lem"/>
          <lit v="aware"/>
        </equal>
+ <equal>
+         <clip pos="1" side="tl" part="lem"/>
+         <lit v="риза"/>
+       </equal>
+</or>
       </test>
        <let><var n="comp_lu"/><lit v=""/></let> 
 <let>
            <var n="case"/>       <lit v=""/>
          </let>
     </when>
-       <otherwise>
-         <let>
-           <var n="comp_lu"/>       <lit-tag v="subst"/>
-         </let>
- <let>
-           <var n="case"/>       <lit-tag v="nom"/>
-         </let>
-       </otherwise>
+     
   </choose>
+
     <out>
     <chunk name="comp-subst-adjec">
     <tags>

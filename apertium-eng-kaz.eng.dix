@@ -41531,6 +41531,10 @@
 
                             <e lm="acrobat" i=""><i>acrobat</i><par n="house__n"/></e>
 
+			    <e lm="acromegaly" i=""><i>acromegal</i><par n="bab/y__n"/></e>
+
+		 	    <e lm="acropolis" i=""><i>acropolis</i><par n="house__n"/></e>
+
                             <e lm="act" i=""><i>act</i><par n="house__n"/></e>
 
                             <e lm="act of God" i=""><i>act</i><par n="house__n"/><p><l><b/>of<b/>God</l><r><g><b/>of<b/>God</g></r></p></e>
@@ -42040,6 +42044,8 @@
                             <e lm="ashtray" i=""><i>ashtray</i><par n="house__n"/></e>
 
                             <e lm="asp" i=""><i>asp</i><par n="house__n"/></e>
+
+			    <e lm="asparagus" i=""><i>asparagus</i><par n="house__n"/></e>
 
 			    <e lm="aspect" i=""><i>aspect</i><par n="house__n"/></e>
 
@@ -42969,6 +42975,8 @@
 
                             <e lm="caravan" i=""><i>caravan</i><par n="house__n"/></e>
 
+			    <e lm="caravanserai" i=""><i>caravanserai</i><par n="house__n"/></e>
+
                             <e lm="carbon" i=""><i>carbon</i><par n="house__n"/></e>
 
                             <e lm="carboy" i=""><i>carboy</i><par n="house__n"/></e>
@@ -43082,6 +43090,7 @@
                             <e lm="cause" i=""><i>cause</i><par n="house__n"/></e>
 
                             <e lm="cave" i=""><i>cave</i><par n="house__n"/></e>
+			    <e lm="cavern" i=""><i>cavern</i><par n="house__n"/></e>
 
                             <e lm="cavity" i=""><i>cavit</i><par n="bab/y__n"/></e>
 
@@ -44956,6 +44965,8 @@
 
                             <e lm="dump" i=""><i>dump</i><par n="house__n"/></e>
 
+                            <e lm="dumping" i=""><i>dumping</i><par n="house__n"/></e>
+
                             <e lm="dune" i=""><i>dune</i><par n="house__n"/></e>
 
                             <e lm="duplicate" i=""><i>duplicate</i><par n="house__n"/></e>
@@ -45577,6 +45588,8 @@
 
                             <e lm="father" i=""><i>father</i><par n="house__n"/></e>
 
+                            <e lm="fax" i=""><i>fax</i><par n="access__n"/></e>
+
                             <e lm="fault" i=""><i>fault</i><par n="house__n"/></e>
 
                             <e lm="fauna" i=""><i>fauna</i><par n="house__n"/></e>
@@ -45867,6 +45880,9 @@
 
                             <e lm="freezer" i=""><i>freezer</i><par n="house__n"/></e>
 
+                            <e lm="freight" i=""><i>freight</i><par n="house__n"/></e>
+
+
                             <e lm="frequency" i=""><i>frequenc</i><par n="bab/y__n"/></e>
 
                             <e lm="fresco" i=""><i>fresco</i><par n="archipelago__n"/></e>
@@ -46123,9 +46139,13 @@
 
                             <e lm="gossip" i=""><i>gossip</i><par n="house__n"/></e>
 
+                            <e lm="gossipmonger" i=""><i>gossipmonger</i><par n="house__n"/></e>
+
                             <e lm="government" i=""><i>government</i><par n="house__n"/></e>
 
                             <e lm="governor" i=""><i>governor</i><par n="house__n"/></e>
+
+                            <e lm="gown" i=""><i>gown</i><par n="house__n"/></e>
 
                             <e lm="grace" i=""><i>grace</i><par n="house__n"/></e>
 
@@ -46452,7 +46472,7 @@
 
                             <e lm="historian" i=""><i>historian</i><par n="house__n"/></e>
 
-                            <e lm="hit" i=""><i>hit</i><par n="house__n"/></e>
+                            <e lm="hit" i=""><i>hit</i><par n="access__n"/></e>
 
                             <e lm="hockey" i=""><i>hockey</i><par n="house__n"/></e>
 
@@ -46610,6 +46630,8 @@
                             <e lm="ice" i=""><i>ice</i><par n="house__n"/></e>
 
                             <e lm="iceberg" i=""><i>iceberg</i><par n="house__n"/></e>
+
+                            <e lm="icicle" i=""><i>icicle</i><par n="house__n"/></e>
 
                             <e lm="icon" i=""><i>icon</i><par n="house__n"/></e>
 
@@ -47593,6 +47615,8 @@
 
                             <e lm="locomotive" i=""><i>locomotive</i><par n="house__n"/></e>
 
+                            <e lm="logarithm" i=""><i>logarithm</i><par n="house__n"/></e>
+
                             <e lm="loge" i=""><i>loge</i><par n="house__n"/></e>
 
                             <e lm="logic" i=""><i>logic</i><par n="house__n"/></e>
@@ -47735,6 +47759,10 @@
                             <e lm="mane" i=""><i>mane</i><par n="house__n"/></e>
 
                             <e lm="mania" i=""><i>mania</i><par n="house__n"/></e>
+
+                            <e lm="manicure" i=""><i>manicure</i><par n="house__n"/></e>
+
+                            <e lm="manifesto" i=""><i>manifesto</i><par n="house__n"/></e>
 
                             <e lm="manipulation" i=""><i>manipulation</i><par n="house__n"/></e>
 
@@ -48161,6 +48189,8 @@
                             <e lm="most" i=""><i>most</i><par n="house__n"/></e>
 
                             <e lm="mother" i=""><i>mother</i><par n="house__n"/></e>
+
+                            <e lm="motherboard" i=""><i>motherboard</i><par n="house__n"/></e>
 
                             <e lm="motherhood" i=""><i>motherhood</i><par n="house__n"/></e>
 
@@ -49077,6 +49107,8 @@
 
                             <e lm="pear" i=""><i>pear</i><par n="house__n"/></e>
 
+                            <e lm="pearl" i=""><i>pearl</i><par n="house__n"/></e>
+
                             <e lm="peasant" i=""><i>peasant</i><par n="house__n"/></e>
 
                             <e lm="peat" i=""><i>peat</i><par n="house__n"/></e>
@@ -49409,6 +49441,8 @@
                             <e lm="polygon" i=""><i>polygon</i><par n="house__n"/></e>
 
                             <e lm="polysemy" i=""><i>polysem</i><par n="bab/y__n"/></e>
+
+                            <e lm="pomade" i=""><i>pomade</i><par n="house__n"/></e>
 
                             <e lm="pomegranate" i=""><i>pomegranate</i><par n="house__n"/></e>
 
@@ -49882,9 +49916,17 @@
 
                             <e lm="pyramid" i=""><i>pyramid</i><par n="house__n"/></e>
 
+                            <e lm="pyrite" i=""><i>pyrite</i><par n="house__n"/></e>
+
                             <e lm="pyromaniac" i=""><i>pyromaniac</i><par n="house__n"/></e>
 
+                            <e lm="pyrometer" i=""><i>pyromaniac</i><par n="house__n"/></e>
+
+                            <e lm="pyrotechnics" i=""><i>pyrotechnics</i><par n="house__n"/></e>
+
                             <e lm="pyrotechnics" i=""><i>pyrotechnics</i><par n="politics__n"/></e>
+
+                            <e lm="pythagoras" i=""><i>pythagoras</i><par n="house__n"/></e>
 
                             <e lm="python" i=""><i>python</i><par n="house__n"/></e>
 
@@ -50472,6 +50514,8 @@
 
     
                             <e lm="rubella" i=""><i>rubella</i><par n="house__n"/></e>
+
+                            <e lm="ruby" i=""><i>rub</i><par n="bab/y__n"/></e>
 
                             <e lm="rucksack" i=""><i>rucksack</i><par n="house__n"/></e>
 
@@ -51299,6 +51343,8 @@
 
                             <e lm="peal" i=""><i>peal</i><par n="house__n"/></e>
 
+                            <e lm="staccato" i=""><i>staccato</i><par n="house__n"/></e>
+
                             <e lm="stadium" i=""><i>stadium</i><par n="house__n"/></e>
 
                             <e lm="staff" i=""><i>staff</i><par n="staff__n"/></e>
@@ -51438,6 +51484,8 @@
                             <e lm="stretch" i=""><i>stretch</i><par n="access__n"/></e>
 
                             <e lm="strike" i=""><i>strike</i><par n="house__n"/></e>
+
+                            <e lm="strikethrough" i=""><i>strikethrough</i><par n="house__n"/></e>
 
                             <e lm="string" i=""><i>string</i><par n="house__n"/></e>
 
@@ -51973,6 +52021,8 @@
 
                             <e lm="tone" i=""><i>tone</i><par n="house__n"/></e>
 
+                            <e lm="toner" i=""><i>toner</i><par n="house__n"/></e>
+
                             <e lm="tongue" i=""><i>tongue</i><par n="house__n"/></e>
 
                             <e lm="tonnage" i=""><i>tonnage</i><par n="house__n"/></e>
@@ -51984,6 +52034,8 @@
                             <e lm="toothpick" i=""><i>toothpick</i><par n="house__n"/></e>
 
                             <e lm="top" i=""><i>top</i><par n="house__n"/></e>
+
+                            <e lm="topaz" i=""><i>topaz</i><par n="house__n"/></e>
 
                             <e lm="topic" i=""><i>topic</i><par n="house__n"/></e>
 
@@ -52004,6 +52056,8 @@
                             <e lm="totalitarianism" i=""><i>totalitarianism</i><par n="house__n"/></e>
 
                             <e lm="touch" i=""><i>touch</i><par n="access__n"/></e>
+
+                            <e lm="touchpad" i=""><i>touchpad</i><par n="house__n"/></e>
 
                             <e lm="tour" i=""><i>tour</i><par n="house__n"/></e>
 
@@ -52245,6 +52299,8 @@
 
                             <e lm="turtle" i=""><i>turtle</i><par n="house__n"/></e>
 
+                            <e lm="turquoise" i=""><i>turquoise</i><par n="house__n"/></e>
+
                             <e lm="tuxedo" i=""><i>tuxedo</i><par n="house__n"/></e>
 
                             <e lm="twin" i=""><i>twin</i><par n="house__n"/></e>
@@ -52348,6 +52404,8 @@
 
                             <e lm="urn" i=""><i>urn</i><par n="house__n"/></e>
 
+                            <e lm="urology" i=""><i>urolog</i><par n="bab/y__n"/></e>
+
                             <e lm="usage" i=""><i>usage</i><par n="house__n"/></e>
 
                             <e lm="use" i=""><i>use</i><par n="house__n"/></e>
@@ -52359,6 +52417,8 @@
                             <e lm="utility" i=""><i>utilit</i><par n="bab/y__n"/></e>
 
                             <e lm="utilisation" i=""><i>utili</i><par n="globali/sation__n"/></e>
+
+                            <e lm="utilitarianism" i=""><i>utilitarianism</i><par n="house__n"/></e>
 
                             <e lm="utopia" i=""><i>utopia</i><par n="house__n"/></e>
 
@@ -52712,6 +52772,8 @@
 
                             <e lm="wine" i=""><i>wine</i><par n="house__n"/></e>
 
+                            <e lm="wineglass" i=""><i>wineglass</i><par n="house__n"/></e>
+
                             <e lm="wing" i=""><i>wing</i><par n="house__n"/></e>
 
                             <e lm="wink" i=""><i>wink</i><par n="house__n"/></e>
@@ -52807,6 +52869,8 @@
                             <e lm="zebra" i=""><i>zebra</i><par n="zebra__n"/></e>
 
                             <e lm="zinc" i=""><i>zinc</i><par n="house__n"/></e>
+
+                            <e lm="zoom" i=""><i>zoom</i><par n="house__n"/></e>
 
                             <e lm="zone" i=""><i>zone</i><par n="house__n"/></e>
 
@@ -65809,6 +65873,10 @@
 
                             <e lm="cabriolet" i=""><i>cabriolet</i><par n="house__n"/></e>
 
+			    <e lm="cache" i=""><i>cache</i><par n="access__n"/></e>
+
+			    <e lm="caching" i=""><i>caching</i><par n="house__n"/></e>
+
                             <e lm="cachexia" i=""><i>cachexia</i><par n="house__n"/></e>
 
                             <e lm="cacique" i=""><i>cacique</i><par n="house__n"/></e>
@@ -66630,9 +66698,15 @@
 
                             <e lm="cutwater" i=""><i>cutwater</i><par n="house__n"/></e>
 
+                            <e lm="cyclohexane" i=""><i>cyclohexane</i><par n="house__n"/></e>
+
                             <e lm="cycloid" i=""><i>cycloid</i><par n="house__n"/></e>
 
+                            <e lm="cyclone" i=""><i>cyclone</i><par n="house__n"/></e>
+
                             <e lm="cyclonic" i=""><i>cyclonic</i><par n="expensive__adj"/></e>
+
+                            <e lm="cyclops" i=""><i>cyclops</i><par n="house__n"/></e>
 
                             <e lm="cyclothymia" i=""><i>cyclothymia</i><par n="house__n"/></e>
 
@@ -66643,6 +66717,8 @@
                             <e lm="cymbal" i=""><i>cymbal</i><par n="house__n"/></e>
 
                             <e lm="cysteine" i=""><i>cysteine</i><par n="house__n"/></e>
+
+                            <e lm="cystitis" i=""><i>cystitis</i><par n="house__n"/></e>
 
                             <e lm="cystoscopy" i=""><i>cystoscop</i><par n="bab/y__n"/></e>
 
@@ -69222,6 +69298,8 @@
 
                             <e lm="lacustrine" i=""><i>lacustrine</i><par n="expensive__adj"/></e>
 
+                            <e lm="lair" i=""><i>lair</i><par n="house__n"/></e>
+
                             <e lm="lambda" i=""><i>lambda</i><par n="house__n"/></e>
 
                             <e lm="lamellibranch" i=""><i>lamellibranch</i><par n="access__n"/></e>
@@ -69241,6 +69319,8 @@
                             <e lm="larch" i=""><i>larch</i><par n="access__n"/></e>
 
                             <e lm="lard" i=""><i>lard</i><par n="house__n"/></e>
+
+                            <e lm="larynx" i=""><i>larynx</i><par n="house__n"/></e>
 
                             <e lm="larghetto" i=""><i>larghetto</i><par n="maybe__adv"/></e>
 
@@ -69974,6 +70054,8 @@
 
                             <e lm="musk" i=""><i>musk</i><par n="house__n"/></e>
 
+                            <e lm="muskrat" i=""><i>muskrat</i><par n="house__n"/></e>
+
                             <e lm="mutualism" i=""><i>mutualism</i><par n="house__n"/></e>
 
                             <e lm="mutuality" i=""><i>mutualit</i><par n="bab/y__n"/></e>
@@ -70310,6 +70392,8 @@
                             <e lm="ontology" i=""><i>ontolog</i><par n="bab/y__n"/></e>
 
                             <e lm="ontological" i=""><i>ontological</i><par n="expensive__adj"/></e>
+
+                            <e lm="onyx" i=""><i>onyx</i><par n="house__n"/></e>
 
                             <e lm="oocyte" i=""><i>oocyte</i><par n="house__n"/></e>
 
@@ -73442,6 +73526,8 @@
                             <e lm="wilting" i=""><i>wilting</i><par n="house__n"/></e>
 
                             <e lm="wilting" i=""><i>wilting</i><par n="house__n"/></e>
+
+                            <e lm="windpipe" i=""><i>windpipe</i><par n="house__n"/></e>
 
                             <e lm="windward" i=""><i>windward</i><par n="house__n"/></e>
 
@@ -82218,6 +82304,8 @@
 
                             <e lm="berry" i=""><i>berr</i><par n="bab/y__n"/></e>
 
+			    <e lm="beryl" i=""><i>beryl</i><par n="house__n"/></e>
+
                             <e lm="brass" i=""><i>brass</i><par n="access__n"/></e>
 
                             <e lm="cart" i=""><i>cart</i><par n="house__n"/></e>
@@ -82588,6 +82676,8 @@
                             <e lm="boo" i=""><i>boo</i><par n="accept__vblex"/></e>
 
                             <e lm="boo" i=""><i>boo</i><par n="hello__ij"/></e>
+
+                            <e lm="lobby" i=""><i>lobb</i><par n="bab/y__n"/></e>
 
                             <e lm="lobbying" i=""><i>lobbying</i><par n="house__n"/></e>
 

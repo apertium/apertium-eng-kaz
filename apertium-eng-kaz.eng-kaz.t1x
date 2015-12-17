@@ -8327,7 +8327,7 @@
          <when> <!-- Demonstrative, postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-num-adjec-noun">
+             <chunk name="prep-detdem-num-adjec-noun1">
              <tags>
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="5" part="a_nbr" side="sl"/></tag> <!-- number -->
@@ -8460,7 +8460,7 @@
          <when> <!-- Demonstrative, no postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-num-adjec-noun">
+             <chunk name="prep-detdem-num-adjec-noun2">
           <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="6" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -8704,7 +8704,7 @@
          <when> <!-- Demonstrative, no postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-num-adjec-noun">
+             <chunk name="prep-detdem-num-adjec-noun3">
           <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="5" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -8842,11 +8842,11 @@
              <clip pos="3" side="tl" part="a_nbr"/>
              <lit-tag v="nom"/>
              </lu>
-<b/>
+       <b pos="2"/>
               <lu>  
                  <var n="NEW-noun_lu"/>
               </lu>
-            <b/>
+       <b pos="3"/>
             <lu>  
                <var n="postposition_lu"/>
             </lu>
@@ -8875,11 +8875,11 @@
              <clip pos="3" side="tl" part="a_nbr"/>
              <lit-tag v="nom"/>
              </lu>
-<b/>
+       <b pos="2"/>
               <lu>  
                  <var n="NEW-noun_lu"/>
               </lu>
-            <b/>
+       <b pos="3"/>
             <lu>  
                <var n="postposition_lu"/>
             </lu>
@@ -8899,18 +8899,18 @@
              <tag><var n="case"/></tag> <!-- case placeholder -->
          </tags>  
              <b pos="1"/>
-             <b pos="2"/>
+
                 <lu>
              <clip pos="3" side="tl" part="lem"/>
              <clip pos="3" side="tl" part="a_nom"/>
              <clip pos="3" side="tl" part="a_nbr"/>
              <lit-tag v="nom"/>
              </lu>
-<b/>
+       <b pos="2"/>
               <lu>  
                  <var n="NEW-noun_lu"/>
               </lu>
-            <b/>
+       <b pos="3"/>
             <lu>  
                <var n="postposition_lu"/>
             </lu>
@@ -8926,7 +8926,7 @@
          <when> <!-- Demonstrative, no postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-num-adjec-noun">
+             <chunk name="prep-det-noun1-noun24">
           <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="4" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -8947,7 +8947,7 @@
              <clip pos="3" side="tl" part="a_nbr"/>
              <lit-tag v="nom"/>
              </lu>
-<b/>
+         <b pos="3"/>
               <lu>  
                  <var n="NEW-noun_lu"/>
               </lu>
@@ -8973,14 +8973,14 @@
               <lu>
                 <clip pos="2" side="tl" part="whole"/>
               </lu>
-               
+                <b pos="2"/>      
            <lu>
              <clip pos="3" side="tl" part="lem"/>
              <clip pos="3" side="tl" part="a_nom"/>
              <clip pos="3" side="tl" part="a_nbr"/>
              <lit-tag v="nom"/>
              </lu>
-<b/>
+       <b pos="3"/>
               <lu>  
                  <var n="NEW-noun_lu"/>
               </lu>
@@ -9007,7 +9007,7 @@
              <clip pos="3" side="tl" part="a_nbr"/>
              <lit-tag v="nom"/>
              </lu>
-<b/>
+       <b pos="3"/>
               <lu>  
                  <var n="NEW-noun_lu"/>
               </lu>
@@ -9050,7 +9050,7 @@
          <when> <!-- Demonstrative, postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-num-adjec-noun">
+             <chunk name="prep-detdem-num-adjec-noun5">
              <tags>
                 <tag><var n="pptag"/></tag>
                 <tag><clip pos="5" part="a_nbr" side="sl"/></tag> <!-- number -->
@@ -9162,7 +9162,7 @@
          <when> <!-- Demonstrative, no postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
-             <chunk name="prep-detdem-num-adjec-noun">
+             <chunk name="prep-detdem-num-adjec-noun6">
           <tags>
              <tag><var n="pptag"/></tag>
              <tag><clip pos="5" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->

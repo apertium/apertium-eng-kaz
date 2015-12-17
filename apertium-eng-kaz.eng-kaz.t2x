@@ -3213,7 +3213,7 @@
       </out>
      </action>
     </rule>
-
+<!--осы ереже емес-->
 <rule comment="NEW RULE: NP PP VP">
      <pattern>
        <pattern-item n="NP"/>
@@ -3241,8 +3241,8 @@
           <chunk>
             <clip pos="3" part="lem"/>
             <lit-tag v="VP"/>
-            <clip pos="1" part="a_nbr"/> <!-- agree number -->
-            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_nbr"/> 
+            <clip pos="1" part="a_pers"/> 
             <clip pos="3" part="a_tense"/>
             <clip pos="3" part="a_possessive"/> 
             <clip pos="3" part="a_pass"/>
@@ -8504,7 +8504,7 @@
     </rule>
 
 
-<rule comment="NEW RULE: NP PP -> PP NP"> <!-- man from Kazakhstan, Kazakhstannan -->
+<rule comment="NEW RULE: NP PP -> PP NP"> <!-- Osy erezhe emes man from Kazakhstan, Kazakhstannan -->
      <pattern>
        <pattern-item n="NP"/>
             <pattern-item n="PP"/>

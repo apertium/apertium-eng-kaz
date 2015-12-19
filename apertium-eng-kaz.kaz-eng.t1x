@@ -21,11 +21,72 @@
 <def-cat n="v-subst">
       <cat-item tags="v.tv.gpr_fut.subst.*.*.gen.subst.nom"/>
 	<cat-item tags="v.*.gpr_fut.subst.*.*.gen.subst.nom"/>
-      <cat-item tags="v.*.gpr_fut.subst.*.loc"/>
-<cat-item tags="v.*.gpr_fut.subst.*.*.loc.attr"/>
-<cat-item tags="v.*.gpr_fut.subst.*.*.abl"/>
-<cat-item tags="v.*.gpr_fut.subst.*.*.acc"/>
+      <cat-item tags="v.*.gpr_fut.subst.*.*"/>
+<cat-item tags="v.*.gpr_fut.subst.*.*.*.attr"/>
 <cat-item tags="v.*.gpr_fut.subst.*.*.*"/>
+<cat-item tags="v.*.gpr_fut.subst.*.*.*"/>
+<cat-item tags="v.*.gpr_impf.subst.*.*.subst.*"/>
+<cat-item tags="v.*.gpr_impf.subst.*.*.*"/>
+<cat-item tags="v.*.gpr_pot.*"/>
+<cat-item tags="v.*.gpr_pot.*.*"/>
+<cat-item tags="v.*.gpr_pot.*.*"/>
+<cat-item tags="v.*.gpr_pot.*.*.*"/>
+<cat-item tags="v.*.gpr_pot.*.*.*.*"/>
+<cat-item tags="v.*.gpr_ppot.*"/>
+<cat-item tags="v.*.gpr_ppot.*.*"/>
+<cat-item tags="v.*.gpr_ppot.*.*"/>
+<cat-item tags="v.*.gpr_ppot.*.*.*"/>
+<cat-item tags="v.*.gpr_ppot.*.*.*.*"/>
+<cat-item tags="v.*.ger_past.*"/>
+<cat-item tags="v.*.ger_past.*.*"/>
+<cat-item tags="v.*.ger_past.*.*.*"/>
+<cat-item tags="v.*.ger_past.*.*.*.*"/>
+<cat-item tags="v.*.ger_past.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_fut.*"/>
+<cat-item tags="v.*.ger_fut.*.*"/>
+<cat-item tags="v.*.ger_fut.*.*.*"/>
+<cat-item tags="v.*.ger_fut.*.*.*.*"/>
+<cat-item tags="v.*.ger_fut.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_perf.*"/>
+<cat-item tags="v.*.ger_perf.*.*"/>
+<cat-item tags="v.*.ger_perf.*.*.*"/>
+<cat-item tags="v.*.ger_perf.*.*.*.*"/>
+<cat-item tags="v.*.ger_perf.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_impf.*"/>
+<cat-item tags="v.*.ger_impf.*.*"/>
+<cat-item tags="v.*.ger_impf.*.*.*"/>
+<cat-item tags="v.*.ger_impf.*.*.*.*"/>
+<cat-item tags="v.*.ger_impf.*.*.*.*.*"/>
+<cat-item tags="v.*.coop.*"/>
+<cat-item tags="v.*.coop.*.*"/>
+<cat-item tags="v.*.coop.*.*.*"/>
+<cat-item tags="v.*.coop.*.*.*.*"/>
+<cat-item tags="v.*.coop.*.*.*.*.*"/>
+<cat-item tags="v.*.gpr_past.*"/>
+<cat-item tags="v.*.gpr_past.*.*"/>
+<cat-item tags="v.*.gpr_past.*.*.*"/>
+<cat-item tags="v.*.gpr_past.*.*.*.*"/>
+<cat-item tags="v.*.gpr_past.*.*.*.*.*"/>
+<cat-item tags="v.*.gpr_impf.*"/>
+<cat-item tags="v.*.gpr_impf.*.*"/>
+<cat-item tags="v.*.gpr_impf.*.*.*"/>
+<cat-item tags="v.*.gpr_impf.*.*.*.*"/>
+<cat-item tags="v.*.gpr_impf.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_abs.*"/>
+<cat-item tags="v.*.ger_abs.*.*"/>
+<cat-item tags="v.*.ger_abs.*.*.*"/>
+<cat-item tags="v.*.ger_abs.*.*.*.*"/>
+<cat-item tags="v.*.ger_abs.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_ppot.*"/>
+<cat-item tags="v.*.ger_ppot.*.*"/>
+<cat-item tags="v.*.ger_ppot.*.*.*"/>
+<cat-item tags="v.*.ger_ppot.*.*.*.*"/>
+<cat-item tags="v.*.ger_ppot.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_pot.*"/>
+<cat-item tags="v.*.ger_pot.*.*"/>
+<cat-item tags="v.*.ger_pot.*.*.*"/>
+<cat-item tags="v.*.ger_pot.*.*.*.*"/>
+<cat-item tags="v.*.ger_pot.*.*.*.*.*"/>
          </def-cat>
 
 <def-cat n="n-syz">
@@ -142,6 +203,9 @@
 <def-cat n="v-gerund">
     <cat-item tags="v.tv.ger.*.*"/>
 <cat-item tags="v.*.ger.*.*"/>
+<cat-item tags="v.*.ger.*"/>
+<cat-item tags="v.*.ger.*.*.*"/>
+<cat-item tags="v.*.ger.*.*.*"/>
 <cat-item tags="v.tv.ger.px1sg.nom"/>
     </def-cat>
 
@@ -180,8 +244,8 @@
 <cat-item tags="v.*.prc_cond.*.*.*"/>
 	<cat-item tags="v.*.gna_cond.*.*"/>
 <cat-item tags="v.*.gna_cond.*.*.*"/>
-<cat-item tags="v.*.coop.*.*.*"/>
-<cat-item tags="v.tv.coop.prc_impf"/>
+<!--<cat-item tags="v.*.coop.*.*.*"/>
+<cat-item tags="v.tv.coop.prc_impf"/>-->
 
 
          </def-cat>

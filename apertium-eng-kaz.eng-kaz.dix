@@ -10922,9 +10922,9 @@
 <e><p><l>zoology<s n="n"/></l><r>зоология<s n="n"/></r></p></e>
 <e><p><l>zoom<s n="n"/></l><r>зум<s n="n"/></r></p></e>
 <e><p><l>zoom<s n="n"/></l><r>ұлғайту<s n="n"/></r></p></e>
-<e><p><l>zoopark<s n="n"/></l><r>хайуанаттар<b/>саябақ<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>zoopark<s n="n"/></l><r>хайуанаттар<b/>саябағы<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>zoo<s n="n"/></l><r>зоо<s n="n"/></r></p></e>
-<e><p><l>zoo<s n="n"/></l><r>хайуанаттар<b/>саябақ<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>zoo<s n="n"/></l><r>хайуанаттар<b/>саябағы<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>zygote<s n="n"/></l><r>зигота<s n="n"/></r></p></e>
 <e r="LR"><p><l>rags<s n="n"/></l><r>жалба-жұлба<s n="n"/></r></p></e>
 <e r="LR"><p><l>tenure<s n="n"/></l><r>жер<b/>иелену<s n="n"/></r></p></e>
@@ -15124,7 +15124,7 @@
 <e><p><l>soon<b/>afterward<s n="adv"/></l><r>көп<b/>ұзамай<s n="adv"/></r></p></e>
 <e><p><l>sooner<s n="adv"/></l><r>тезірек<s n="adv"/></r></p></e>
 <e><p><l>southeast<s n="adv"/></l><r>оңтүстік<s n="adv"/></r></p></e>
-<e><p><l>southward<s n="adv"/></l><r>оңтүстікке<b/>қарай<s n="adv"/></r></p></e>
+<e><p><l>southward<s n="adv"/></l><r>оңтүстікке<s n="adv"/></r></p></e>
 <e><p><l>southwards<s n="adv"/></l><r>оңтүстікке<s n="adv"/></r></p></e>
 <e><p><l>southwest<s n="adv"/></l><r>оңтүстік-батыс<s n="adv"/></r></p></e>
 <e><p><l>sparingly<s n="adv"/></l><r>үнемді<s n="adv"/></r></p></e>
@@ -19855,7 +19855,7 @@
 <e><p><l>swallow<s n="vblex"/></l><r>жұт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>swamp<s n="vblex"/></l><r>суар<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>sway<s n="vblex"/></l><r>шайқал<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>swear<s n="vblex"/></l><r>ант<b/>бер<s n="v"/><s n="tv"/></r></p></e>
+<!--after tagger<e><p><l>swear<s n="vblex"/></l><r>ант<b/>бер<s n="v"/><s n="tv"/></r></p></e>-->
 <e><p><l>sweep<s n="vblex"/></l><r>сыпыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>swerve<s n="vblex"/></l><r>ауып<b/>кет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>swim<s n="vblex"/></l><r>жүз<s n="v"/><s n="iv"/></r></p></e>
@@ -19979,7 +19979,7 @@
 <e><p><l>visit<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>vomit<s n="vblex"/></l><r>құс<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>vote<s n="vblex"/></l><r>дауыс<b/>бер<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>vow<s n="vblex"/></l><r>ант<b/>бер<s n="v"/><s n="tv"/></r></p></e>
+<!--after tagger <e><p><l>vow<s n="vblex"/></l><r>ант<b/>бер<s n="v"/><s n="tv"/></r></p></e>-->
 <e><p><l>wade<s n="vblex"/></l><r>өт<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>wait<s n="vblex"/></l><r>күт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>wake<s n="vblex"/></l><r>оян<s n="v"/><s n="iv"/></r></p></e>

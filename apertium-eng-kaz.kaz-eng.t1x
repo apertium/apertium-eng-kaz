@@ -18,7 +18,7 @@
       <cat-item tags="mod_ass.*"/>
          </def-cat>
 
-<def-cat n="v-subst">
+<def-cat n="verb-subst">
       <cat-item tags="v.tv.gpr_fut.subst.*.*.gen.subst.nom"/>
 	<cat-item tags="v.*.gpr_fut.subst.*.*.gen.subst.nom"/>
       <cat-item tags="v.*.gpr_fut.subst.*.*"/>
@@ -28,67 +28,117 @@
 <cat-item tags="v.*.gpr_fut.subst.*.*.*"/>
 <cat-item tags="v.*.gpr_impf.subst.*.*.subst.*"/>
 <cat-item tags="v.*.gpr_impf.subst.*.*.*"/>
+<cat-item tags="v.*.gpr_pot"/>
 <cat-item tags="v.*.gpr_pot.*"/>
 <cat-item tags="v.*.gpr_pot.*.*"/>
 <cat-item tags="v.*.gpr_pot.*.*"/>
 <cat-item tags="v.*.gpr_pot.*.*.*"/>
 <cat-item tags="v.*.gpr_pot.*.*.*.*"/>
+<cat-item tags="v.*.gpr_ppot"/>
 <cat-item tags="v.*.gpr_ppot.*"/>
 <cat-item tags="v.*.gpr_ppot.*.*"/>
 <cat-item tags="v.*.gpr_ppot.*.*"/>
 <cat-item tags="v.*.gpr_ppot.*.*.*"/>
 <cat-item tags="v.*.gpr_ppot.*.*.*.*"/>
+<cat-item tags="v.*.ger_past"/>
 <cat-item tags="v.*.ger_past.*"/>
 <cat-item tags="v.*.ger_past.*.*"/>
 <cat-item tags="v.*.ger_past.*.*.*"/>
 <cat-item tags="v.*.ger_past.*.*.*.*"/>
 <cat-item tags="v.*.ger_past.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_fut"/>
 <cat-item tags="v.*.ger_fut.*"/>
 <cat-item tags="v.*.ger_fut.*.*"/>
 <cat-item tags="v.*.ger_fut.*.*.*"/>
 <cat-item tags="v.*.ger_fut.*.*.*.*"/>
 <cat-item tags="v.*.ger_fut.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_perf"/>
 <cat-item tags="v.*.ger_perf.*"/>
 <cat-item tags="v.*.ger_perf.*.*"/>
 <cat-item tags="v.*.ger_perf.*.*.*"/>
 <cat-item tags="v.*.ger_perf.*.*.*.*"/>
 <cat-item tags="v.*.ger_perf.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_impf"/>
 <cat-item tags="v.*.ger_impf.*"/>
 <cat-item tags="v.*.ger_impf.*.*"/>
 <cat-item tags="v.*.ger_impf.*.*.*"/>
 <cat-item tags="v.*.ger_impf.*.*.*.*"/>
 <cat-item tags="v.*.ger_impf.*.*.*.*.*"/>
+<cat-item tags="v.*.coop"/>
 <cat-item tags="v.*.coop.*"/>
 <cat-item tags="v.*.coop.*.*"/>
 <cat-item tags="v.*.coop.*.*.*"/>
 <cat-item tags="v.*.coop.*.*.*.*"/>
 <cat-item tags="v.*.coop.*.*.*.*.*"/>
 <cat-item tags="v.*.gpr_past.*"/>
+<cat-item tags="v.*.gpr_past"/>
 <cat-item tags="v.*.gpr_past.*.*"/>
 <cat-item tags="v.*.gpr_past.*.*.*"/>
 <cat-item tags="v.*.gpr_past.*.*.*.*"/>
 <cat-item tags="v.*.gpr_past.*.*.*.*.*"/>
+<cat-item tags="v.*.gpr_impf"/>
 <cat-item tags="v.*.gpr_impf.*"/>
 <cat-item tags="v.*.gpr_impf.*.*"/>
 <cat-item tags="v.*.gpr_impf.*.*.*"/>
 <cat-item tags="v.*.gpr_impf.*.*.*.*"/>
 <cat-item tags="v.*.gpr_impf.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_abs"/>
 <cat-item tags="v.*.ger_abs.*"/>
 <cat-item tags="v.*.ger_abs.*.*"/>
 <cat-item tags="v.*.ger_abs.*.*.*"/>
 <cat-item tags="v.*.ger_abs.*.*.*.*"/>
 <cat-item tags="v.*.ger_abs.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_ppot"/>
 <cat-item tags="v.*.ger_ppot.*"/>
 <cat-item tags="v.*.ger_ppot.*.*"/>
 <cat-item tags="v.*.ger_ppot.*.*.*"/>
 <cat-item tags="v.*.ger_ppot.*.*.*.*"/>
 <cat-item tags="v.*.ger_ppot.*.*.*.*.*"/>
+<cat-item tags="v.*.ger_pot"/>
 <cat-item tags="v.*.ger_pot.*"/>
 <cat-item tags="v.*.ger_pot.*.*"/>
 <cat-item tags="v.*.ger_pot.*.*.*"/>
 <cat-item tags="v.*.ger_pot.*.*.*.*"/>
 <cat-item tags="v.*.ger_pot.*.*.*.*.*"/>
+<cat-item tags="v.*.gna_perf"/>
+<cat-item tags="v.*.gna_perf.*"/>
+<cat-item tags="v.*.gna_after"/>
+<cat-item tags="v.*.prc_plan"/>
+<cat-item tags="v.*.pih.*.*"/>
+<cat-item tags="v.*.gna_until"/>
+
+
+
          </def-cat>
+
+<def-cat n="subst-adj">
+      <cat-item tags="adj.comp.subst.*"/>
+ <cat-item tags="adj.comp.subst.*.*"/>
+ <cat-item tags="adj.comp.subst.*.*.*"/>
+<cat-item tags="adj.comp.subst.*.*.*.*"/>
+<cat-item tags="adj.comp.subst.*.*.*.*.*"/>
+<cat-item tags="adj.subst.*"/>
+<cat-item tags="adj.subst.*.*"/>
+<cat-item tags="adj.subst.*.*.*"/>	
+<cat-item tags="adj.adv"/>
+</def-cat>
+
+<def-cat n="verb-subst-neg">
+      <cat-item tags="v.*.neg.ger_past.*"/>
+<cat-item tags="v.*.neg.ger_perf"/>
+<cat-item tags="v.*.neg.prc_perf"/>
+<cat-item tags="v.*.neg.ger_perf.*"/>
+<cat-item tags="v.*.neg.prc_perf.*"/>
+<cat-item tags="v.*.neg.pih.*.*"/>
+<cat-item tags="v.*.neg.gpr_fut.subst"/>
+<cat-item tags="v.*.neg.gpr_ppot"/>
+<cat-item tags="v.*.neg.ger_abs"/>
+<cat-item tags="v.*.neg.gpr_pot"/>
+<cat-item tags="v.*.neg.gpr_impf"/>
+
+
+         </def-cat>
+
 
 <def-cat n="n-syz">
 <cat-item  tags="n"/>
@@ -213,6 +263,7 @@
 <def-cat n="v-gerund-neg">
     <cat-item tags="v.tv.neg.ger.*.*"/>
 <cat-item tags="v.*.neg.ger.*.*"/>
+<cat-item tags="v.*.neg.ger.*"/>
     </def-cat>
     <def-cat n="v-ing">
       <cat-item tags="v.*.gna9"/>
@@ -238,8 +289,15 @@
 
 
 <def-cat n="v-wouldLike">
-      <cat-item tags="v.*.fut_plan.*.*"/>
+<cat-item tags="v.*.fut_plan.*.*"/>
+<cat-item tags="v.*.prc_fplan"/>
          </def-cat>
+<def-cat n="v-wouldLike-neg">
+<cat-item tags="v.*.neg.fut_plan.*.*"/>
+<cat-item tags="v.*.neg.prc_fplan"/>
+<cat-item tags="v.*.neg.fut_plan.*.*"/>
+         </def-cat>
+
 <def-cat n="v-cond">
 <cat-item tags="v.*.prc_cond.*.*"/>
 <cat-item tags="v.*.prc_cond.*.*.*"/>
@@ -294,6 +352,9 @@
 
     <def-cat n="v-imp">
       <cat-item tags="v.*.imp.*"/>
+    </def-cat>
+<def-cat n="neg-ger">
+      <cat-item tags="v.*.neg.ger.*"/>
     </def-cat>
     <def-cat n="det">
       <cat-item tags="det.ind"/>
@@ -355,12 +416,15 @@
 <def-cat n="v-ger">
       <cat-item tags="v.iv.ger.nom"/> 
  <cat-item tags="v.tv.ger.nom"/>
- 
+  <cat-item tags="v.*.ger.dat"/>
+   <cat-item tags="v.*.ger.loc"/>
+  <cat-item tags="v.*.ger.*.acc"/>
+<cat-item tags="v.*.ger.gen.subst.nom"/>
     </def-cat>
 
 <def-cat n="v-gerund-ing">
       <cat-item tags="v.*.ger.*"/> 
-
+<cat-item tags="v.*.ger.loc.attr"/>
     </def-cat>
 
 
@@ -437,9 +501,9 @@
     </def-cat>
 
 <def-cat n="v-prc_perf">
-<cat-item tags="v.tv.prc_perf"/>
- <cat-item tags="v.tv.prc_perf.*"/> 
-<cat-item tags="v.*.prc_perf"/>   
+<cat-item tags="v.*.prc_perf"/>
+ <cat-item tags="v.*.prc_perf.*"/> 
+  
     </def-cat>
 
 <def-cat n="tarau">
@@ -524,12 +588,8 @@
 
 
 <def-cat n="n">
- 
-      
-      <cat-item tags="adj.subst"/>
-      <cat-item tags="adj.subst.*"/>
-      <cat-item tags="adj.comp.subst"/>
-      <cat-item tags="adj.comp.subst.*"/>
+       
+     
       <cat-item tags="adv.subst"/>
       <cat-item tags="adv.subst.*"/>
     </def-cat>
@@ -1896,6 +1956,74 @@
 </rule>
 
 
+<rule comment="RULE: Verb:шақырмақ емес"> <!--translation: I would not like to+verb(invite)-->
+      <pattern>
+        <pattern-item n="v-wouldLike-neg"/>
+ 
+      </pattern>
+      <action>
+          <choose>
+               <when>
+                   <test>
+                     <or>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                     </or> 
+                   </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+
+
+        <out>
+          <chunk name="verb-would-neg" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="would"/>
+             <lit-tag v="vaux"/>
+             <lit-tag v="past"/>
+ </lu>
+  <b/>
+<lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>
+              
+            </lu>
+            <b/>
+<lu>
+              <lit v="like"/>
+              <lit-tag v="vblex"/>
+              <lit-tag v="inf"/>
+            </lu>
+            <b/>
+            
+ <lu>
+              <lit v="to"/>
+             <lit-tag v="pr"/>
+         
+ </lu>
+  <b/>
+<lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="pres"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+<b/>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 <!--must be corrected, have wrong "inf"-->
 <rule comment="RULE: VP-may"> <!--Men koruim mumkin-->
@@ -2225,6 +2353,9 @@
         </call-macro>
       </action>
     </rule>
+
+
+
 
 <rule comment="NEW RULE: adjec+comp">   <!-- bigger, for adj comp -->
   <pattern>
@@ -3682,6 +3813,46 @@
       </action>
     </rule>
 
+ <rule comment="RULE: subst_adj">
+      <pattern>
+        <pattern-item n="subst-adj"/>
+      </pattern>
+
+      <action>
+        <!--<let><var n="number"/><lit v=""/></let>-->
+        <choose>
+ 
+          <when>
+             <test>
+                <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="n.attr"/></equal>
+             </test>
+             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
+             <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
+<call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
+          </when> 
+        </choose>
+        <out>
+          <chunk name="adj-subst" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="AdjP"/></tag>
+            </tags>
+<lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_adjec"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
  <rule comment="RULE: ADJ mod_ass">
       <pattern>
         <pattern-item n="adj"/>
@@ -4646,6 +4817,73 @@
         </call-macro>
       </action>
     </rule>
+
+<rule comment="RULE: шақыр+ғы+сы I want to + verb">
+      <pattern>
+<pattern-item n="want"/>
+ 
+        
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+ <choose>
+               <when>
+                   <test>
+                     <or>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                     </or> 
+                   </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+         <out>
+          <chunk name="kalau-rai" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="sl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+            </tags>
+
+            
+            
+<lu>
+          <lit v="want"/>  
+        <lit-tag v="vbmod"/>
+	<lit-tag v="inf"/>
+        <lit v="#"/>  
+<b/>
+          <lit v="to"/>  
+	
+	
+</lu>
+<b/>
+
+            <lu>
+<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="inf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+             
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 <rule comment="RULE: қалау рай I want+ed to + verb">
       <pattern>
@@ -7478,6 +7716,42 @@
       </action>
     </rule>
 
+ <rule comment="RULE: for negative gerund">
+      <pattern>
+        <pattern-item n="v-gerund-neg"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_tns"/>
+	
+          <lit-tag v="inf"/>
+        </let>
+        <out>
+          <chunk name="simpleV-neg" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+	
+            </tags>
+<lu>
+ <lit v="not"/>
+              <lit-tag v="adv"/> 
+</lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_tns"/>
+	      <!--<clip pos="1" side="tl" part="a_transitivity"/>-->
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 <rule comment="RULE: V-future-in-negative"> <!--negative future perfect I will not have played Мен ойнамаспын-->
       <pattern>
@@ -8555,7 +8829,7 @@
 
  <rule comment="RULE: subst verb">   <!--"шақырарларымдікін-ақ -->
       <pattern>
-        <pattern-item n="v-subst"/>
+        <pattern-item n="verb-subst"/>
       </pattern>
       <action>
         <call-macro n="conv-temps1">
@@ -8590,6 +8864,46 @@
     </rule>
 
 
+<rule comment="RULE: subst verb">   <!--"шақырарларымдікін-ақ -->
+      <pattern>
+        <pattern-item n="verb-subst-neg"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+        <out>
+          <chunk name="unk-neg_translation_of_verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+<lu>
+<lit v="not"/>
+<lit-tag v="adv"/>
+</lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="pres"/>
+             
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
  </section-rules>
 </transfer>

@@ -418,6 +418,7 @@
  <cat-item tags="v.tv.ger.nom"/>
   <cat-item tags="v.*.ger.dat"/>
    <cat-item tags="v.*.ger.loc"/>
+   <cat-item tags="v.*.ger.*.attr"/>
   <cat-item tags="v.*.ger.*.acc"/>
 <cat-item tags="v.*.ger.gen.subst.nom"/>
     </def-cat>
@@ -425,6 +426,9 @@
 <def-cat n="v-gerund-ing">
       <cat-item tags="v.*.ger.*"/> 
 <cat-item tags="v.*.ger.loc.attr"/>
+   <cat-item tags="v.*.ger.abl"/>
+   <cat-item tags="v.*.ger.acc"/>
+<cat-item tags="v.*.ger.*.*"/>
     </def-cat>
 
 

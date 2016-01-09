@@ -104,8 +104,10 @@
 <cat-item tags="v.*.gna_perf.*"/>
 <cat-item tags="v.*.gna_after"/>
 <cat-item tags="v.*.prc_plan"/>
+<cat-item tags="v.*.prc_perf"/>
 <cat-item tags="v.*.pih.*.*"/>
 <cat-item tags="v.*.gna_until"/>
+<cat-item tags="v.*.ger.sim"/>
 
 
 
@@ -135,6 +137,7 @@
 <cat-item tags="v.*.neg.ger_abs"/>
 <cat-item tags="v.*.neg.gpr_pot"/>
 <cat-item tags="v.*.neg.gpr_impf"/>
+<cat-item tags="v.*.neg.ger"/>
 
 
          </def-cat>
@@ -227,6 +230,8 @@
     </def-cat>
  <def-cat n="v-past">
       <cat-item tags="v.*.past.*"/>
+<cat-item tags="v.*.past.evid.*"/>
+<cat-item tags="v.*.past.evid.*.*"/>
     </def-cat>
 <def-cat n="v-passive">
       <cat-item tags="v.*.pass.*.*.*"/>
@@ -417,6 +422,9 @@
       <cat-item tags="v.iv.ger.nom"/> 
  <cat-item tags="v.tv.ger.nom"/>
   <cat-item tags="v.*.ger.dat"/>
+<cat-item tags="v.*.ger.*"/>
+<cat-item tags="v.*.ger.*.*"/>
+<cat-item tags="v.*.ger.*.*.*"/>
    <cat-item tags="v.*.ger.loc"/>
    <cat-item tags="v.*.ger.*.attr"/>
   <cat-item tags="v.*.ger.*.acc"/>
@@ -6057,7 +6065,7 @@
 
 
         <out>
-          <chunk name="verb-presperf" case="caseFirstWord">
+          <chunk name="verb-presperf-neg" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
             
@@ -6068,8 +6076,8 @@
               <lit v="have"/>
               <lit-tag v="vbhaver"/>
               <lit-tag v="pres"/>
-              <lit-tag v="2"/>
-              <lit-tag v="3"/>
+            <!--  <lit-tag v="2"/>
+              <lit-tag v="3"/>-->
             </lu>
             <b/>
 <lu>
@@ -7665,8 +7673,8 @@
               <lit v="have"/>
               <lit-tag v="vbhaver"/>
               <lit-tag v="2"/>
-              <lit-tag v="3"/>
-              <lit-tag v="4"/>
+              <!--<lit-tag v="3"/>
+              <lit-tag v="4"/>-->
             </lu>
             <b/>
             <lu>

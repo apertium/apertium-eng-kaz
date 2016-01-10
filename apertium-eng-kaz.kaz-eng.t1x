@@ -776,6 +776,11 @@
       <attr-item tags="v.iv"/>
     </def-attr>
 
+<def-attr n="a_num_sp"> 
+      <attr-item tags="sp"/>
+
+    </def-attr>
+
 <def-attr n="a_eng_perspron">
        <attr-item tags="prn.subj"/>
     </def-attr>
@@ -2474,13 +2479,93 @@
 
 
 
+<rule comment="RULE: NUM-ord "> <!--бірінші -->
+      <pattern>
+        <pattern-item n="num-ord"/>
 
+      </pattern>
+      <action>
+      
+<!-- <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>-->
+        <out>
+          <chunk name="ordnum" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+
+             <lit-tag v="det"/>
+<lit-tag v="ord"/>
+<lit-tag v="sp"/>
+            </lu>
+          
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+<rule comment="RULE: NUM-ord "> <!--бірінші -->
+      <pattern>
+        <pattern-item n="num-ord"/>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+      
+<!-- <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>-->
+        <out>
+          <chunk name="ordnum-cop" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+
+             <lit-tag v="det"/>
+<lit-tag v="ord"/>
+<lit-tag v="sp"/>
+            </lu>
+          
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 <rule comment="NEW RULE: num">  
   <pattern>
     <pattern-item n="num"/>
   </pattern>
   <action>
+ 
+
    <call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
     <out>
     <chunk name="num">
@@ -2490,7 +2575,33 @@
     <lu>
       <var n="num_lu"/>
 <lit-tag v="num"/>
-<lit-tag v="sp"/>
+              <clip pos="1" side="tl" part="a_num_sp"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: num+cop">  
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="cop"/>
+  </pattern>
+  <action>
+ 
+
+   <call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
+    <out>
+    <chunk name="num">
+    <tags>
+    <tag><lit-tag v="SN-NUM"/></tag>
+    </tags>
+    <lu>
+      <var n="num_lu"/>
+<lit-tag v="num"/>
+              <clip pos="1" side="tl" part="a_num_sp"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
      </lu>
     </chunk>
     </out>
@@ -5001,6 +5112,7 @@
   
 
   
+
 
 
 

@@ -528,6 +528,10 @@
       <cat-item lemma="тарау" tags="n.*"/>
     </def-cat>
 
+<def-cat n="prn-pers-adv">
+      <cat-item tags="prn.pers.p1.sg.adv"/>
+    </def-cat>
+
 
 <def-cat n="kerek">
  <cat-item lemma="керек" tags="n"/>
@@ -950,6 +954,7 @@
                   <let><var n="number"/><lit-tag v="sg"/></let>
           <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p1"/></let>
                   <let><var n="mf"/><lit-tag v="mf"/></let>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="myself"/></let>
          
         </when>
         <when>
@@ -960,6 +965,20 @@
                   <let><var n="number"/><lit-tag v="sg"/></let>
           <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p2"/></let>
                   <let><var n="mf"/><lit-tag v="mf"/></let>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="yourself"/></let>
+
+         
+        </when>
+ <when>
+          <test>
+
+            <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px2sg"/></equal>
+         </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+          <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p2"/></let>
+                  <let><var n="mf"/><lit-tag v="mf"/></let>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="yourself"/></let>
+
          
         </when>
         <when>
@@ -970,6 +989,7 @@
                   <let><var n="number"/><lit-tag v="sg"/></let>
           <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
                   <let><var n="mf"/><lit-tag v="m"/></let>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="himself"/></let>
          
         </when>
        <when>
@@ -980,6 +1000,7 @@
                   <let><var n="number"/><lit-tag v="pl"/></let>
           <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
                   <let><var n="mf"/><lit-tag v="mf"/></let>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="themselves"/></let>
          
         </when>
   <when>
@@ -990,6 +1011,7 @@
                   <let><var n="number"/><lit-tag v="pl"/></let>
           <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
                   <let><var n="mf"/><lit-tag v="mf"/></let>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="themselves"/></let>
          
         </when>
  <when>
@@ -1000,6 +1022,7 @@
                   <let><var n="number"/><lit-tag v="pl"/></let>
           <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p1"/></let>
                   <let><var n="mf"/><lit-tag v="mf"/></let>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="ourselves"/></let>
          
         </when>
         <when>
@@ -1010,6 +1033,7 @@
                   <let><var n="number"/><lit-tag v="pl"/></let>
           <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p2"/></let>
                   <let><var n="mf"/><lit-tag v="mf"/></let>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="yourselves"/></let>
          
         </when>
       </choose>
@@ -1972,6 +1996,69 @@
 
 
 
+<rule comment="RULE: Ozderine+cop"> <!--ozderine -->
+      <pattern>
+        <pattern-item n="prn-ref"/>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+  <call-macro n="convert-poss-to-pers">
+          <with-param pos="1"/>
+        </call-macro>
+
+           <choose>
+                 <when>
+                   <test>
+<and>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_pers"/>
+                      <lit-tag v="p3"/>
+                     </equal>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_nbr"/>
+                    <lit-tag v="sg"/>
+</equal>
+</and>
+                  </test>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="himself"/></let>
+                  <let><var n="mf"/><lit-tag v="m"/></let>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+
+               
+              </choose>
+<out>
+          <chunk name="prn-ref-cop" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><var n="mf"/></tag>
+              <tag> <var n="number"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+<clip pos="1" side="tl" part="a_nom"/>
+<lit-tag v="2"/>
+<lit-tag v="3"/>
+<lit-tag v="4"/>
+
+            </lu>
+          
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
   <rule comment="RULE:  VAUX">
       <pattern>
@@ -4644,6 +4731,77 @@
     </rule>
 
 
+
+
+
+
+<rule comment="RULE: Meninwe"> <!--prn-pers-adv -->
+      <pattern>
+        <pattern-item n="prn-pers-adv"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+  <call-macro n="convert-poss-to-pers">
+          <with-param pos="1"/>
+        </call-macro>
+
+           <choose>
+                 <when>
+                   <test>
+<and>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_pers"/>
+                      <lit-tag v="p3"/>
+                     </equal>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_nbr"/>
+                    <lit-tag v="sg"/>
+</equal>
+</and>
+                  </test>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="himself"/></let>
+                  <let><var n="mf"/><lit-tag v="m"/></let>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+
+               
+              </choose>
+<out>
+          <chunk name="prn-pers-adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+<lu>
+<lit v="by"/>
+<lit-tag v="pr"/>
+            </lu>
+<b/>
+            <lu>
+<lit v="myself"/>
+<lit-tag v="prn"/>
+<lit-tag v="ref"/>
+<lit-tag v="p1"/>
+<lit-tag v="mf"/>
+<lit-tag v="sg"/>
+
+            </lu>
+          
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
 <rule comment="RULE: Ozderine"> <!--ozderine -->
       <pattern>
         <pattern-item n="prn-ref"/>
@@ -4706,6 +4864,14 @@
         </call-macro>
       </action>
     </rule>
+
+
+
+
+
+
+
+
 
 
 
@@ -8130,6 +8296,102 @@
  
   <out>
    <chunk name="obj-pron">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    <tag><var n="sntype"/></tag>
+    <tag><clip pos="1" side="sl" part="a_pers"/></tag>
+    <tag><var n="mf"/></tag> 
+    <tag><var n="number"/></tag>
+
+    </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+    <lu>
+<clip pos="1" side="tl" part="lem"/>
+
+     <lit-tag v="prn"/> 
+      <lit-tag v="obj"/> 
+      <lit-tag v="4"/> 
+      <lit-tag v="5"/> 
+      <lit-tag v="6"/> 
+ 
+    </lu>
+  </chunk>
+  </out>
+<call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+ </action>
+</rule>
+
+
+
+<rule comment="RULE: pers-pron + cop">
+  <pattern>
+    <pattern-item n="pers-pron"/>
+    <pattern-item n="cop"/>
+  </pattern>
+  <action>
+  <choose>
+    <when>
+      <test>
+       <equal>
+         <clip pos="1" side="sl" part="a_pers"/>
+         <lit-tag v="p2"/>
+       </equal>
+      </test>
+       <let><var n="number"/><lit-tag v="sp"/></let> 
+    </when>
+
+       <otherwise>
+         <let>
+           <var n="number"/><clip pos="1" side="sl" part="a_nbr"/>
+         </let>
+       </otherwise>
+  </choose>
+  <choose>
+    <when>
+      <test>
+     
+<and>
+<equal>
+         <clip pos="1" side="sl" part="a_pers"/>
+         <lit-tag v="p3"/>
+</equal>
+<equal>
+<clip pos="1" side="sl" part="a_nbr"/>
+         <lit-tag v="sg"/>
+</equal>
+
+<not><equal><clip pos="1" side="sl" part="a_mf"/><lit-tag v="f"/></equal></not>
+</and>
+      
+      </test>
+      <let>
+          <clip pos="1" side="tl" part="lem"/>
+          <lit v="He"/>
+        </let>
+<let>
+          <clip pos="1" side="tl" part="a_nbr"/>
+          <lit-tag v="p3"/>
+        </let>
+    </when>
+       
+  </choose> 
+ <call-macro n="conv-to-subj">
+          <with-param pos="1"/>
+        </call-macro>
+ <call-macro n="conv-mfpron">
+          <with-param pos="1"/>
+        </call-macro>
+<call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
+ 
+  <out>
+   <chunk name="obj-pron-cop">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     <tag><var n="sntype"/></tag>

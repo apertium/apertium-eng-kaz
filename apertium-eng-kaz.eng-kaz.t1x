@@ -412,6 +412,7 @@
       <attr-item tags="np.org"/>
       <attr-item tags="np.unk"/>
       <attr-item tags="abbr"/>
+      <attr-item tags="np.cog"/>
       <attr-item tags="np.cog.m"/>
       <attr-item tags="np.pat.m"/>
       <attr-item tags="np.cog.mf"/>
@@ -2267,7 +2268,7 @@
   <action>
 
     <out>
-    <chunk name="noun">
+    <chunk name="nom-noun">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="2" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -11862,7 +11863,7 @@ this would have to be changed -->
   </pattern>
   <action>
 
-  <call-macro n="NEW-build-noun-lu-2-4-5">
+  <call-macro n="NEW-build-noun-lu-2-4-5-sg">
        <with-param pos="1"/>
   </call-macro> 
 <choose>

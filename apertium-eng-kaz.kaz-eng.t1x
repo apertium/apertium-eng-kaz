@@ -138,16 +138,12 @@
 <cat-item tags="v.*.neg.gpr_pot"/>
 <cat-item tags="v.*.neg.gpr_impf"/>
 <cat-item tags="v.*.neg.ger"/>
-
-
-         </def-cat>
-
+ </def-cat>
 
 <def-cat n="n-syz">
 <cat-item  tags="n"/>
       <cat-item lemma="сіз" tags="post"/>
-     
-    </def-cat>
+   </def-cat>
 <def-cat n="postadv">
       <cat-item tags="postadv"/>
       <cat-item tags="postadv.*"/>
@@ -310,8 +306,6 @@
 <cat-item tags="v.*.gna_cond.*.*.*"/>
 <!--<cat-item tags="v.*.coop.*.*.*"/>
 <cat-item tags="v.tv.coop.prc_impf"/>-->
-
-
          </def-cat>
 <def-cat n="v-fut">
       <cat-item tags="v.*.fut.*"/>
@@ -370,8 +364,10 @@
     <def-cat n="adj">
       <cat-item tags="adj"/>
       <cat-item tags="adj.sint"/>
+<cat-item tags="adj.advl"/>
       <cat-item tags="adj.*"/>
-         </def-cat>
+       
+  </def-cat>
 <def-cat n="comp-adjec">
       <cat-item tags="adj.comp"/>
       <cat-item tags="adj.comp.*"/>
@@ -379,13 +375,12 @@
 
  <def-cat n="prn">
       <cat-item tags="prn"/>
-
-      <cat-item tags="prn.dem"/>
+    <cat-item tags="prn.dem"/>
          </def-cat>
-
 
  <def-cat n="prn-ref">
       <cat-item tags="prn.ref.*"/>
+<cat-item tags="prn.ref.*.*"/>
          </def-cat>
 
 <def-cat n="num-cas">
@@ -568,19 +563,15 @@
       <cat-item tags="post.*"/>
       <cat-item tags="post.Rnom"/>
       <cat-item tags="post.Rnom.*"/>
-     
-    </def-cat>
+         </def-cat>
 
  <def-cat n="nom-pr">
 <cat-item tags="pr"/>
 <cat-item tags="pr.*"/>
- 
- 
  </def-cat>
 
  <def-cat n="n-pr1">
- 
- <cat-item tags="adv.*"/>
+  <cat-item tags="adv.*"/>
  </def-cat>
     
     <def-cat n="nom-gen">
@@ -599,14 +590,11 @@
 <def-cat n="nom-px3sp">
        <cat-item tags="n.px3sp.nom"/>
  <cat-item tags="n.px3sp.*"/>
- 
-          </def-cat>
+           </def-cat>
 
 <def-cat n="ger2">
  <cat-item tags="v.tv.ger.*.nom"/>
- 
-          </def-cat>
-
+           </def-cat>
 
 
 <def-cat n="n">
@@ -638,15 +626,10 @@
 
     <def-cat n="cog">
       <cat-item tags="np.cog.*"/>
-     
-    </def-cat>
-
-
+      </def-cat>
 
  <def-cat n="pers-pron">
-      
-       <cat-item tags="prn.pers.*.*.dat"/>
-
+<cat-item tags="prn.pers.*.*.dat"/>
 <cat-item tags="prn.pers.*.*.ins"/>
 <cat-item tags="prn.pers.*.*.acc"/>
 <cat-item tags="prn.pers.*.*.abl"/>
@@ -672,8 +655,7 @@
  <def-cat n="cnjcoo">
        <cat-item tags="cnjcoo"/>
     </def-cat>
-
-    
+ 
 
 
   </section-def-cats>
@@ -1863,9 +1845,9 @@
     </rule>
 
 
-
+<!--
     <rule comment="RULE: N">
-      <!--
+      
       INPUT:  ^мәктәп<n><attr>/школьный<adj><m><an><sg><nom>$
       OUTPUT: ^adj<AdjP>{^школьный<adj><m><an><sg><nom>$}$
       INPUT:  ^мәктәп<n><nom>/школа<n><f><nn><nom>$
@@ -1878,7 +1860,7 @@
       OUTPUT: ^n<SN><dat>{^хороший<adj><m><an><sg><2>$}$
       INPUT:  ^ул<prn><dem><gen><@ADVL→>/он<prn><pers><p3><m><sg><gen><@ADVL→>$
       OUTPUT: ^n<SN><gen><@ADVL→>{^он<prn><pers><p3><m><sg><2>$}$
-      -->
+      
       <pattern>
         <pattern-item n="n"/>
       </pattern>
@@ -1892,7 +1874,7 @@
 	      </and>
 	    </test>
             <out>
-              <chunk name="adj">
+              <chunk name="n">
                 <tags>
                   <tag><lit-tag v="AdjP"/></tag>
                 </tags>
@@ -1965,9 +1947,8 @@
                     <lu>
 		      <clip pos="1" side="tl" part="lem"/>
 		      <clip pos="1" side="tl" part="a_nom"/>
-		      <clip pos="1" side="tl" part="a_gender"/>
-		      <clip pos="1" side="tl" part="a_anim"/>
-		      <clip pos="1" side="tl" part="a_nbr"/>
+		      <clip pos="1" side="tl" part="a_mf"/>
+		       <clip pos="1" side="tl" part="a_nbr"/>
 		      <clip pos="1" side="tl" part="a_case" link-to="2"/>
 		      <clip pos="1" side="tl" part="lemq"/>
                     </lu>
@@ -1992,7 +1973,7 @@
           </otherwise>
         </choose>
       </action>
-    </rule>
+    </rule>-->
 
 
 
@@ -3989,6 +3970,9 @@
              <call-macro n="conv-number1">
                <with-param pos="1"/>
              </call-macro>
+<call-macro n="choose_case_and_postposition2">
+               <with-param pos="1"/>
+             </call-macro>
           </when> 
         </choose>
         <out>
@@ -3996,9 +3980,14 @@
             <tags>
               <tag><lit-tag v="AdjP"/></tag>
             </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_adjec"/>
+<lit-tag v="sint"/>
             </lu>
           </chunk>
         </out>
@@ -4019,12 +4008,13 @@
                 <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="n.attr"/></equal>
              </test>
              <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
-             <call-macro n="conv-number1">
-               <with-param pos="1"/>
-             </call-macro>
 <call-macro n="choose_case_and_postposition2">
           <with-param pos="1"/>
         </call-macro>
+             <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
+
           </when> 
         </choose>
         <out>
@@ -4039,6 +4029,7 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_adjec"/>
+	<lit-tag v="sint"/>
             </lu>
           </chunk>
         </out>
@@ -4072,7 +4063,9 @@
             <lu>
               <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_adjec"/>
-            </lu>
+	<lit-tag v="sint"/>
+<lit-tag v="comp"/>           
+ </lu>
           </chunk>
         </out>
       </action>
@@ -6029,8 +6022,15 @@
             <tags>
               <tag><var n="sntype"/></tag>
             </tags>
+<lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+             <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_adjec"/>
+<lit-tag v="sint"/>
+            
             </lu>
             <b pos="1"/>
             <lu>

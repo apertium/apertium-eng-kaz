@@ -654,7 +654,7 @@
 
  <def-cat n="pers-pron1">
       <cat-item tags="prn.pers.*.*.nom"/>
-      <cat-item tags="prn.pers.*.*.loc"/>
+     <!-- <cat-item tags="prn.pers.*.*.loc"/>-->
     </def-cat>
 
 

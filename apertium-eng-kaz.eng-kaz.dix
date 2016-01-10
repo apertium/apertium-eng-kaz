@@ -18027,10 +18027,13 @@
 <e><p><l>ourselves<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/><s n="px1sg"/></r></p></e>
 <e><p><l>yourself<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/></l><r>өз<s n="prn"/><s n="ref"/><s n="px2sg"/><s n="frm"/></r></p></e>
 <e><p><l>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/><s n="px2pl"/></r></p></e>
+
+<e r="RL"><p><l>yourselves<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
+
 <e><p><l>herself<s n="prn"/><s n="ref"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/><s n="px3sp"/></r></p></e>
 <e><p><l>himself<s n="prn"/><s n="ref"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/><s n="px3sp"/></r></p></e>
 <e><p><l>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>өз<s n="det"/><s n="ref"/></r></p></e>
-<e><p><l>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/><s n="px3pl"/><s n="mf"/></r></p></e>
+<e><p><l>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>өз<s n="prn"/><s n="ref"/><s n="px3pl"/></r></p></e>
 <e><p><l>itself<s n="prn"/><s n="ref"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>өз<s n="prn"/><s n="ref"/><s n="px3sp"/></r></p></e>
 <e r="RL"><p><l>I<s n="prn"/><s n="subj"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="gen"/></r></p></e>
 <e><p><l>you<s n="prn"/><s n="subj"/></l><r>сіз<s n="prn"/><s n="pers"/></r></p></e>

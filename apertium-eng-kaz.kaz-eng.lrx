@@ -160,6 +160,10 @@
  </rule>
 
 <rule>
+          <match lemma="әскери" tags="adj"><select lemma="military" tags="adj"/></match>
+ </rule>
+
+<rule>
      <match lemma="жастық" tags="n.*"><select lemma="pillow" tags="n.*"/></match>
  </rule>
 <rule>

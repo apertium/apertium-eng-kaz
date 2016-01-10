@@ -362,12 +362,13 @@
     </def-cat>
 
     <def-cat n="adj">
-      <cat-item tags="adj"/>
+     <cat-item tags="adj"/>
       <cat-item tags="adj.sint"/>
 <cat-item tags="adj.advl"/>
       <cat-item tags="adj.*"/>
        
   </def-cat>
+
 <def-cat n="comp-adjec">
       <cat-item tags="adj.comp"/>
       <cat-item tags="adj.comp.*"/>
@@ -2347,12 +2348,12 @@
             <tags>
               <tag><lit-tag v="SV-ger"/></tag>
             </tags>
-<lu>
+<!--<lu>
               <lit v="to"/>
              <lit-tag v="pr"/>
          
  </lu>
-  <b/>
+  <b/>-->
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
@@ -4127,9 +4128,7 @@
       </action>
     </rule>
 
-
-
-
+ 
 
   <rule comment="RULE: ADJ">
       <pattern>

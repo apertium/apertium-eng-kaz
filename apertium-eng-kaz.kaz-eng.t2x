@@ -22,7 +22,10 @@
       <cat-item tags="SV-vaux"/>
       <cat-item tags="SV-vaux.*"/>
     </def-cat>
-
+<def-cat n="SN-cop">
+      <cat-item tags="SN-cop"/>
+      <cat-item tags="SN-cop.*"/>
+    </def-cat>
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
     </def-cat>
@@ -1046,6 +1049,7 @@
     </rule>
     
 
+    
 <rule comment="RULE: SN SN ">  <!-- -->
       <pattern>
         <pattern-item n="SN"/>
@@ -1090,6 +1094,47 @@
       </action>
     </rule>
 
+<rule comment="RULE: SN SN-cop ">  <!-- -->
+      <pattern>
+        <pattern-item n="SN"/>
+ <pattern-item n="SN-cop"/>
+       
+      </pattern>
+      <action>
+      
+ <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+
+</when>
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+            <var n="PREP"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 <rule comment="RULE: AdjP SV-pass">  
       <pattern>

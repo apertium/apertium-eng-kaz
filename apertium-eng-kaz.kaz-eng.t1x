@@ -2119,8 +2119,8 @@
 <out>
           <chunk name="noun-cop" case="caseFirstWord">
 <tags>
-<tag><var n="sntype"/></tag>
-                          
+<tag><lit-tag v="SN-cop"/></tag>
+   <tag><clip pos="1" side="sl" part="a_cas"/></tag>       
 <tag>  <var n="number"/></tag>
             </tags>
 

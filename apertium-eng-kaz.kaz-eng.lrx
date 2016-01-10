@@ -142,7 +142,28 @@
 <rule>
     <match lemma="интернет" tags="n.*"/>
       <match lemma="жарнама" tags="n.*"><select lemma="banner" tags="n.*"/></match>
+ </rule>
 
+<rule>
+    <match lemma="скрипка" tags="n.*"/>
+      <match lemma="аспап" tags="n.*.*"><select lemma="instrument" tags="n.*"/></match>
+ </rule>
+
+<rule>
+    <match lemma="Бостандық" tags="np.top.*"/>
+      <match lemma="аудан" tags="n.*.*"><select lemma="district" tags="n.*"/></match>
+ </rule>
+
+<rule>
+          <match lemma="ақпарат" tags="n.*"><select lemma="press" tags="n.*"/></match>
+<match lemma="орталық" tags="n.*.*"/>
+ </rule>
+
+<rule>
+     <match lemma="жастық" tags="n.*"><select lemma="pillow" tags="n.*"/></match>
+ </rule>
+<rule>
+     <match lemma="айдаһар" tags="n.*"><select lemma="dragon" tags="n.*"/></match>
  </rule>
  
 <rule>
@@ -167,8 +188,9 @@
    <match lemma="ай" tags="n.px3sp.*"><select lemma="month" tags="n.*"/></match>
  </rule>
 
-
-
+<rule>
+  <match lemma="шақыр" tags="v.tv.*.*"><select lemma="invite" tags="vblex.*"/></match>
+ </rule>
 
 <rule>
   <match lemma="Сіз" tags="prn.pers.p2.*.*.gen"><select lemma="You" tags="prn.subj.p2.*.*"/></match>

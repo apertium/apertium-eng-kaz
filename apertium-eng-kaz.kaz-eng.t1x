@@ -6509,7 +6509,7 @@
           <chunk name="neg-pres-pass" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV-passive"/></tag>
-              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+            <!--  <tag><clip pos="1" side="tl" part="a_tns"/></tag>-->
               <tag><clip pos="1" side="tl" part="a_pers"/></tag>
               <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
             </tags>
@@ -6518,8 +6518,8 @@
               <lit-tag v="vbser"/>
 
               <lit-tag v="pres"/>
+              <lit-tag v="2"/>
               <lit-tag v="3"/>
-              <lit-tag v="4"/>
             </lu>
             <b/>
 <lu>
@@ -6727,25 +6727,17 @@
           <chunk name="pres-pass" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV-passive"/></tag>
-              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+             <!-- <tag><clip pos="1" side="tl" part="a_tns"/></tag>-->
               <tag><clip pos="1" side="tl" part="a_pers"/></tag>
               <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
             </tags>
-<!--
-<lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-              
-<var n="number"/>
-            </lu>
-<b/>-->
+
             <lu>
               <lit v="be"/>
               <lit-tag v="vbser"/>
-
               <lit-tag v="pres"/>
+              <lit-tag v="2"/>
               <lit-tag v="3"/>
-              <lit-tag v="4"/>
             </lu>
             <b/>
             <lu>
@@ -7769,8 +7761,7 @@
               <lit v="have"/>
               <lit-tag v="vbhaver"/>
               <lit-tag v="2"/>
-              <lit-tag v="3"/>
-              <lit-tag v="4"/>
+              
             </lu>
             <b/>
  <lu>

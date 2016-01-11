@@ -85644,7 +85644,8 @@
 
                             <e r="LR" i=""><p><l>specialty</l><r>speciality</r></p><par n="house__n"/></e>
 
-                            <e r="RL" i=""><i>speciality</i><par n="house__n"/></e>
+                            
+<e lm="speciality" i=""><i>specialit</i><par n="bab/y__n"/></e>
 
     
                             <e lm="unfettered" i=""><i>unfettered</i><par n="expensive__adj"/></e>

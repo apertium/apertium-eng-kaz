@@ -14283,7 +14283,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
         <tag><lit-tag v="PXD"/></tag> 
         <tag><lit-tag v="CD"/></tag>
       </tags>
-            
+<b pos="1"/>            
         <lu>
           <clip pos="2" side="tl" part="lem"/>
 	  <clip pos="2" side="tl" part="a_kaz_verb"/>
@@ -14291,7 +14291,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
          <lit-tag v="5"/>
          <lit-tag v="6"/>
         </lu>
-<b/>
+
 
     
       </chunk>
@@ -14476,7 +14476,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <lu>
       <var n="NEW-noun_lu"/>
     </lu>
-   <b/>
+   <b pos ="1"/>
         <lu>
           <clip pos="2" side="tl" part="lem"/>
 	  <clip pos="2" side="tl" part="a_kaz_verb"/>
@@ -14489,6 +14489,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
          <lit-tag v="post"/>
 
     </lu>
+<b pos="2"/>
       </chunk>
 </out>
   </action>

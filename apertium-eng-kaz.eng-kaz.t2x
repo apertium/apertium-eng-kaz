@@ -7990,7 +7990,7 @@
             <clip pos="5" part="tags"/>
             <clip pos="5" part="chcontent"/>
           </chunk>
-          <b/>
+          <b pos ="3"/>
           <chunk>
             <clip pos="2" part="lem"/>  
             <lit-tag v="VP"/>

@@ -171,11 +171,13 @@
 <def-cat n="np-ant"> 
       <cat-item tags="np.ant"/>
       <cat-item tags="np.ant.*"/>
+<cat-item tags="np.ant.*.*"/>
    </def-cat> 
 
  <def-cat n="np-cog"> 
       <cat-item tags="np.cog"/>
       <cat-item tags="np.cog.*"/>
+<cat-item tags="np.cog.*.*"/>
    </def-cat>
 
 <def-cat n="itg"> 
@@ -703,11 +705,12 @@
 
     <def-attr n="a_nom">
       <attr-item tags="n"/>
-      <attr-item tags="np"/>
+      
 
       <attr-item tags="np.top"/>
-      <attr-item tags="np.cog"/>
-      <attr-item tags="prn.pers.p1"/>
+      
+      <attr-item tags="abbr"/>
+<!--<attr-item tags="prn.pers.p1"/>
       <attr-item tags="prn.pers.p2"/>
       <attr-item tags="prn.pers.p3"/>
       <attr-item tags="prn.dem"/>
@@ -722,7 +725,7 @@
       <attr-item tags="det.pos"/>
       <attr-item tags="det.def"/>
       <attr-item tags="det.ref"/>
-      <attr-item tags="num"/>
+      <attr-item tags="num"/>-->
     
     </def-attr>
 
@@ -805,6 +808,12 @@
       <attr-item tags="m"/>
       <attr-item tags="f"/>
     </def-attr>
+<def-attr n="a_np">
+      <attr-item tags="np"/>
+      <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
+    </def-attr>
+
 <def-attr n="a_transitivity">
       <attr-item tags="iv"/>
       <attr-item tags="tv"/>
@@ -1176,11 +1185,25 @@
            <var n="NEW-noun_lu"/>
            <concat>
                <clip pos="1" side="tl" part="lem"/> 
-               <clip pos="1" side="tl" part="a_nom"/>
-               <lit-tag v="2"/> 
-		<lit-tag v="3"/> 
+               <clip pos="1" side="tl" part="a_np"/>
+              <!-- <lit-tag v="2"/> 
+		<lit-tag v="3"/> -->
                <lit-tag v="4"/> <!-- for possessive -->
-             <!--  <lit-tag v="5"/>--> 
+              <lit-tag v="5"/>
+           </concat>  
+        </let>
+</def-macro>
+
+<def-macro n="NEW-build-noun-lu-3-4-5" npar="1"> 
+     <let>
+           <var n="NEW-noun_lu"/>
+           <concat>
+               <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_nom"/>
+              <!-- <lit-tag v="2"/> 
+		<lit-tag v="3"/> -->
+               <lit-tag v="4"/> <!-- for possessive -->
+              <lit-tag v="5"/>
            </concat>  
         </let>
 </def-macro>
@@ -2292,10 +2315,13 @@
  <pattern-item n="nom-px3sp"/>
   </pattern>
   <action>
-<call-macro n="NEW-build-noun-lu-2-4-5">
+<call-macro n="NEW-build-noun-lu-3-4-5">
        <with-param pos="3"/>
   </call-macro> 
 <call-macro n="build-adjec-lu"><with-param pos="1"/></call-macro> 
+<call-macro n="choose_case_and_postposition2">
+          <with-param pos="3"/>
+        </call-macro>
 <choose>
                  <when>
                    <test>
@@ -2311,8 +2337,13 @@
     <chunk name="adjective-noun">
     <tags>
     <tag><lit-tag v="SN"/></tag>
-    
+    <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+<tag><var n="number"/></tag>
     </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
     <lu>
       <var n="adjec_lu"/>
      </lu>
@@ -2320,14 +2351,14 @@
  <lu>
      <clip pos="2" side="tl" part="lem"/> 
      <clip pos="2" side="tl" part="a_nom"/>
-     <clip pos="2" side="tl" part="a_nbr"/>
-     <var n="number"/>
+     <lit-tag v="2"/>
+    
      </lu>
 <b pos="2"/>
 	<lu>
      <clip pos="3" side="tl" part="lem"/> 
      <clip pos="3" side="tl" part="a_nom"/>
-     <clip pos="3" side="tl" part="a_nbr"/>
+     
      <var n="number"/>
      </lu>
 
@@ -3990,23 +4021,26 @@
     <chunk name="np-ant-cog">
     <tags>
     <tag><lit-tag v="SN"/></tag>
-    <tag><lit-tag v="ant"/></tag>
-<tag><clip pos="1" side="sl" part="a_mf"/></tag>
-    <tag><lit-tag v="sg"/></tag>
+    <tag><clip pos="2" side="sl" part="a_np"/></tag>
+<tag><clip pos="2" side="sl" part="a_mf"/></tag>
+   <tag><lit-tag v="sg"/></tag>
     
     </tags>
-    <lu>
+   <lu>
       <var n="NEW-noun_lu"/>
     </lu>
-<b/>
+<b/> 
    <lu>
      <clip pos="2" side="tl" part="lem"/> 
-     <clip pos="2" side="tl" part="a_nom"/>
-	<lit-tag v="2"/>
+     <clip pos="2" side="tl" part="a_np"/>
+	
      <clip pos="2" side="tl" part="a_nbr"/>
-     <lit-tag v="3"/>
-     <lit-tag v="4"/>
+    <!-- <lit-tag v="3"/>
+    <lit-tag v="4"/>-->
+	<lit-tag v="5"/>
     </lu>
+<b/>
+
     </chunk>
     </out>
   </action>
@@ -6377,6 +6411,7 @@
           <chunk name="adj-nom-cop" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
+ <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
             </tags>
 <lu>
 <var n="postposition_lu"/>
@@ -6392,7 +6427,8 @@
             <lu>
               <clip pos="2" side="tl" part="lem"/>
 	<clip pos="2" side="tl" part="a_nom"/>
-              <var n="number"/>
+<var n="number"/>             
+ <lit-tag v="3"/>
             </lu>
           </chunk>
         </out>

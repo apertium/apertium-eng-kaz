@@ -399,9 +399,10 @@
   <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
 </when>
 </choose>
+<!--
  <call-macro n="set-prep1">
           <with-param pos="2"/>
-        </call-macro>
+        </call-macro>-->
         <out>
                  <chunk>
            <clip pos="1" part="lem"/>
@@ -451,9 +452,9 @@
   <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
 </when>
 </choose>
- <call-macro n="set-prep1">
+<!-- <call-macro n="set-prep1">
           <with-param pos="2"/>
-        </call-macro>
+        </call-macro>-->
         <out>
                  <chunk>
            <clip pos="1" part="lem"/>
@@ -725,9 +726,9 @@
   <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
 </when>
 </choose>
- <call-macro n="set-prep1">
+ <!--<call-macro n="set-prep1">
           <with-param pos="2"/>
-        </call-macro>
+        </call-macro>-->
         <out>
                  <chunk>
            <clip pos="1" part="lem"/>
@@ -773,9 +774,9 @@
   <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
 </when>
 </choose>
- <call-macro n="set-prep1">
+ <!--<call-macro n="set-prep1">
           <with-param pos="2"/>
-        </call-macro>
+        </call-macro>-->
         <out>
                  <chunk>
            <clip pos="1" part="lem"/>
@@ -1951,9 +1952,9 @@
         <pattern-item n="SN-PREP"/>
       </pattern>
       <action>
-        <call-macro n="set-prep1">
+      <!--  <call-macro n="set-prep1">
           <with-param pos="2"/>
-        </call-macro>
+        </call-macro>-->
         <out>
           <var n="PREP"/>
           <chunk>
@@ -1980,9 +1981,9 @@
         <pattern-item n="SN-ADVP"/>
       </pattern>
       <action>
-        <call-macro n="set-prep1">
+        <!--<call-macro n="set-prep1">
           <with-param pos="2"/>
-        </call-macro>
+        </call-macro>-->
         <out>
             <var n="PREP"/>
           <chunk>
@@ -2009,9 +2010,9 @@
         <pattern-item n="SN-ADVP"/>
       </pattern>
       <action>
-        <call-macro n="set-prep1">
+      <!--  <call-macro n="set-prep1">
           <with-param pos="2"/>
-        </call-macro>
+        </call-macro>-->
         <out>
             <var n="PREP"/>
           <chunk>
@@ -2064,9 +2065,9 @@
         <pattern-item n="SN-ADVP"/>
       </pattern>
       <action>
-        <call-macro n="set-prep1">
+      <!--  <call-macro n="set-prep1">
           <with-param pos="1"/>
-        </call-macro>
+        </call-macro>-->
         <out>
             <var n="PREP"/>
           <chunk>

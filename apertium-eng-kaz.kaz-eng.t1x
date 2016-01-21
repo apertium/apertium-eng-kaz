@@ -4023,7 +4023,8 @@
     <tag><lit-tag v="SN"/></tag>
     <tag><clip pos="2" side="sl" part="a_np"/></tag>
 <tag><clip pos="2" side="sl" part="a_mf"/></tag>
-   <tag><lit-tag v="sg"/></tag>
+<tag><clip pos="2" side="sl" part="a_cas"/></tag>
+  <tag><clip pos="2" side="sl" part="a_nbr"/></tag> 
     
     </tags>
    <lu>
@@ -4035,8 +4036,8 @@
      <clip pos="2" side="tl" part="a_np"/>
 	
      <clip pos="2" side="tl" part="a_nbr"/>
-    <!-- <lit-tag v="3"/>
-    <lit-tag v="4"/>-->
+     <lit-tag v="3"/>
+    <lit-tag v="4"/>
 	<lit-tag v="5"/>
     </lu>
 <b/>
@@ -4047,7 +4048,56 @@
 </rule>
 
 
+<rule comment="NEW RULE: name noun-cog">  <!--must be corrected to "f". rule works to m-->
+  <pattern>
+    <pattern-item n="np-ant"/>
+    <pattern-item n="np-cog"/>
+<pattern-item n="cop"/>
+  </pattern>
+  <action>
 
+  <call-macro n="NEW-build-noun-lu-2-4-5">
+       <with-param pos="1"/>
+
+  </call-macro> 
+<choose>
+
+<when>
+    <test>
+<equal><clip pos="1" side="sl" part="a_np"/><lit-tag v="np"/></equal>
+</test>
+<let> <var n="a_np"/><lit-tag v="ant"/></let>
+</when>
+
+</choose>
+    <out>
+    <chunk name="np-ant-cog-cop">
+    <tags>
+    <tag><lit-tag v="SN"/></tag>
+    <tag><clip pos="2" side="sl" part="a_np"/></tag>
+<tag><clip pos="2" side="sl" part="a_mf"/></tag>
+  <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+    <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+    </tags>
+   <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+<b/> 
+   <lu>
+     <clip pos="2" side="tl" part="lem"/> 
+     <clip pos="2" side="tl" part="a_np"/>
+	
+     <clip pos="2" side="tl" part="a_nbr"/>
+    <!-- <lit-tag v="3"/>-->
+    <lit-tag v="4"/>
+	<lit-tag v="5"/>
+    </lu>
+<b/>
+
+    </chunk>
+    </out>
+  </action>
+</rule>
 
 
 

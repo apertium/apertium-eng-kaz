@@ -684,7 +684,7 @@
        <cat-item tags="cnjcoo"/>
     </def-cat>
  
-<def-cat n="CAT__adj_">
+<!--<def-cat n="CAT__adj_">
 
    
  <cat-item lemma="советтік" tags="adj.*"/>
@@ -693,7 +693,7 @@
     <cat-item lemma="басқа" tags="adj"/>
 <cat-item lemma="барлық" tags="adj.*"/>
     <cat-item lemma="барлық" tags="adj"/>
-  </def-cat>
+  </def-cat>-->
   <def-cat n="CAT__adv_">
     <cat-item lemma="үстінде" tags="adv.*"/>
     <cat-item lemma="үстінде" tags="adv"/>
@@ -2141,13 +2141,13 @@ If no format information is present it is removed. -->
 
 <section-rules>
 
-<rule>
+<!--<rule>
   <pattern>
     <pattern-item n="CAT__adj_"/>
   </pattern>
   <action>
     <choose>
-      <when><!--15 | Советтік<adj><*isadjsint><*attruse><empty_tag_numberat><*possessive><*case> | the<det><def><sp> | 0:0 | <cnjcoo><empty_tag_numberat>-->
+      <when>
         <test>
         <and>
            <and>
@@ -2182,7 +2182,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule28"/></lu></out></when>
-      <when><!--14 | басқа<adj><empty_tag_isadjsint><subst><*numberat><*possessive><*case> | others<prn><tn><(000possessive><mf><(000numberat> | 0:0 | <cnjcoo><empty_tag_isadjsint><subst>-->
+      <when>
         <test>
         <and>
            <and>
@@ -2231,7 +2231,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule29"/></lu></out></when>
-      <when><!--13 | <adj><empty_tag_isadjsint><*attruse><*numberat><*possessive><*case> | <adj><sint><(000numberat><(000possessive><(000case> | 0:0 | <adj><sint>-->
+      <when>
         <test>
         <and>
            <and>
@@ -2263,7 +2263,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule30"/></lu></out></when>
-      <when><!--12 | бар<adj><*isadjsint><*attruse><empty_tag_numberat><*possessive><*case> | a<det><ind><sg> | 0:0 | <adj><empty_tag_numberat>-->
+      <when>
         <test>
         <and>
            <and>
@@ -2298,7 +2298,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule31"/></lu></out></when>
-      <when><!--11 | барлық<adj><*isadjsint><*attruse><empty_tag_numberat><*possessive><*case> | all<predet><sp> | 0:0 | <adj><empty_tag_numberat>-->
+      <when>
         <test>
         <and>
            <and>
@@ -2332,7 +2332,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule32"/></lu></out></when>
-      <when><!--10 | <adj><*isadjsint><*attruse><*numberat><*possessive><*case> | <adj><(000isadjsint><(000numberat><(000possessive><(000case> | 0:0 | <adj>-->
+      <when>
         <test>
             <begins-with>
               <clip pos="1" side="tl" part="tags" />
@@ -2352,25 +2352,14 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule33"/></lu></out></when>
-      <otherwise><!--Word-for-word translation-->
+      <otherwise>
 
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out><!--isolated word-->
+<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
 <out><lu><lit v="*wordforword9"/></lu></out></otherwise>
     </choose>
   </action>
 </rule>
-<rule>
-<pattern><pattern-item n="any"/></pattern>
-<action>  
-<out><chunk name="any" case="caseFirstWord">
-<tags>             <tag><lit-tag v="LRN"/></tag>       </tags>   
-<lu>
-<clip pos="1" side="tl" part="whole"/>
-</lu>
-</chunk>
-</out> 
-<out><lu><lit v="*isolatedword"/></lu></out></action><!--isolated word-->
-</rule>
+-->
 
 
 <rule>

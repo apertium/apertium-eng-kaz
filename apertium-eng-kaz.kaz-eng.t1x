@@ -2432,24 +2432,7 @@ If no format information is present it is removed. -->
     </choose>
   </action>
 </rule>
-<rule>
-  <pattern>
-    <pattern-item n="CAT__ND_GD"/>
-  </pattern>
-  <action>
-  <call-macro n="f_set_genre_num">
-    <with-param pos="1"/>
-  </call-macro>
-  <out>
-    <lu>
-      <clip pos="1" side="tl" part="whole"/>
-    </lu>
-  </out>
-<out><lu><lit v="*isolatedword"/></lu></out></action><!--isolated word-->
-</rule>
-<rule>
-<pattern><pattern-item n="CAT__HASGENDER_NUMBER"/></pattern><action> <call-macro n="f_genre_num"><with-param pos="1"/></call-macro> <call-macro n="f_set_genre_num"><with-param pos="1"/></call-macro> <out><lu><clip pos="1" side="tl" part="whole"/></lu></out> <out><lu><lit v="*isolatedword"/></lu></out></action><!--isolated word-->
-</rule>
+
 
 <rule comment="RULE: myNOM">
       <pattern>

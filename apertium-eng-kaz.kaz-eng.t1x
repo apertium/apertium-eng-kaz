@@ -10724,14 +10724,14 @@ If no format information is present it is removed. -->
     </rule>
 
 
-<!--automatically generated-->
+<!--automatically generated
 <rule>
   <pattern>
     <pattern-item n="CAT__vaux_"/>
   </pattern>
   <action>
     <choose>
-      <when><!--22 | ал<vaux><*negative><aor><*form><*person><*numberat><*attruse><*possessive><*mode> | can<vaux><(000negative><pres><(000attruse><(000possessive><(000mode> | 0:0 | <aor>-->
+      <when>
         <test>
         <and>
            
@@ -10769,7 +10769,7 @@ If no format information is present it is removed. -->
 
       <otherwise>
 
-<!--Word-for-word translation-->
+
 
 <out>
 	<chunk name="any" case="caseFirstWord">
@@ -10787,7 +10787,7 @@ If no format information is present it is removed. -->
 
 </otherwise>
 
-<!--isolated word-->
+
 
 
     </choose>
@@ -10802,7 +10802,7 @@ If no format information is present it is removed. -->
   </pattern>
   <action>
     <choose>
-      <when><!--21 | <v><tv><empty_tag_issepverb><pass><*negative><aor><*mood><*person><*form><*numberat><*possessive><*attruse><*case> | <vblex><(000negative><pp> | 0:0 | <vblex><empty_tag_isvbpron><empty_tag_verbtype><aor><p3><sg>-->
+      <when>
         <test>
         <and>
            <and>
@@ -10868,7 +10868,7 @@ If no format information is present it is removed. -->
 	</out>
 	</when>
       <when>
-	<!--20 | бол<v><*verbtype><*issepverb><*derivation><*negative><aor><*mood><*person><*form><*numberat><*possessive><*attruse><*case> | be<vbser><inf> | 0:0 | <vblex><empty_tag_isvbpron><aor><p3><sg>-->
+	
         <test>
         <and>
            <and>
@@ -10914,7 +10914,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule3"/></lu></out></when>
-      <when><!--19 | <v><*verbtype><*issepverb><*derivation><*negative><aor><*mood><*person><*form><*numberat><*possessive><*attruse><*case> | <vblex><(000negative><pres><(000person><(000numberat> | 0:0 | <vblex><empty_tag_isvbpron><aor><p3><sg>-->
+      <when>
         <test>
            <and>
             <begins-with>
@@ -10952,7 +10952,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule4"/></lu></out></when>
-      <when><!--18 | <v><*verbtype><*issepverb><*derivation><*negative><ger><*mood><*person><*form><*numberat><*possessive><*attruse><*case> | <vblex><(000negative><inf><(000person><(000numberat> | 0:0 | <vblex><empty_tag_isvbpron><ger><empty_tag_person><empty_tag_numberat>-->
+      <when>
         <test>
            <and>
             <begins-with>
@@ -10990,7 +10990,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule5"/></lu></out></when>
-      <when><!--17 | <v><*verbtype><*issepverb><*derivation><*negative><gpr_past><*mood><*person><*form><*numberat><*possessive><*attruse><*case> | <vblex><(000negative><past><(000person><(000numberat> | 0:0 | <vblex><empty_tag_isvbpron><empty_tag_verbtime><empty_tag_person><empty_tag_numberat>-->
+      <when>
         <test>
            <and>
             <begins-with>
@@ -11028,7 +11028,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule6"/></lu></out></when>
-      <when><!--16 | <v><*verbtype><*issepverb><*derivation><*negative><ifi><*mood><*person><*form><*numberat><*possessive><*attruse><*case> | <vbser><past><(000person><(000numberat> | 0:0 | <vblex><empty_tag_isvbpron><ifi><p3><sg>-->
+      <when>
         <test>
            <and>
             <begins-with>
@@ -11065,9 +11065,9 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule7"/></lu></out></when>
-      <otherwise><!--Word-for-word translation-->
+      <otherwise>
 
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out><!--isolated word-->
+<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
 <out><lu><lit v="*wordforword2"/></lu></out></otherwise>
     </choose>
   </action>
@@ -11079,7 +11079,7 @@ If no format information is present it is removed. -->
   </pattern>
   <action>
     <choose>
-      <when><!--23 | арқылы<post><*posttransfer> | through<pr> | 0:0 | <pr>-->
+      <when><
         <test>
         <and>
             <begins-with>
@@ -11106,9 +11106,9 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule8"/></lu></out></when>
-      <otherwise><!--Word-for-word translation-->
+      <otherwise>
 
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out><!--isolated word-->
+<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
 <out><lu><lit v="*wordforword3"/></lu></out></otherwise>
     </choose>
   </action>
@@ -11121,7 +11121,7 @@ If no format information is present it is removed. -->
   </pattern>
   <action>
     <choose>
-      <when><!--34 | <num><empty_tag_numtype><*attruse><empty_tag_numberat><empty_tag_attruse><*possessive><*case> | <num><(000attruse><sp><(000possessive><(000case> year<n><pl><(000possessive><(000case><(000attruse> | 0:0 0:1 | <num><empty_tag_numtype><sp><empty_tag_attruse>-->
+      <when>
         <test>
         <and>
            <and>
@@ -11148,7 +11148,7 @@ If no format information is present it is removed. -->
             </equal>
         </and>
         </test>
-      <!-- <out>
+      <!- <out>
        <chunk name="__num_" case="caseFirstWord">       <tags>             <tag><lit-tag v="LRN"/></tag>       </tags>          <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <lit-tag v="num"/>
@@ -11170,8 +11170,8 @@ If no format information is present it is removed. -->
           </lu>
       </chunk>
       </out>-->
-<out><lu><lit v="*executedtule9"/></lu></out></when>
-      <when><!--33 | <num><empty_tag_numtype><*attruse><*numberat><empty_tag_attruse><*possessive><*case> | <num><year><(000attruse><(000numberat><(000possessive><(000case> | 0:0 | <num><empty_tag_numtype><empty_tag_attruse>-->
+<!--<out><lu><lit v="*executedtule9"/></lu></out></when>
+      <when>
         <test>
         <and>
            <and>
@@ -11194,7 +11194,7 @@ If no format information is present it is removed. -->
             </equal>
         </and>
         </test>
-     <!--  <out>
+     <! <out>
        <chunk name="__num_" case="caseFirstWord">       <tags>             <tag><lit-tag v="LRN"/></tag>       </tags>          <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <lit-tag v="num"/>
@@ -11207,8 +11207,8 @@ If no format information is present it is removed. -->
           </lu>
       </chunk>
       </out>-->
-<out><lu><lit v="*executedtule10"/></lu></out></when>
-      <when><!--32 | үш<num><*numtype><*attruse><*numberat><subst><*possessive><*case> | for<pr> | 0:0 | <num><subst>-->
+<!--<out><lu><lit v="*executedtule10"/></lu></out></when>
+      <when>
         <test>
         <and>
            <and>
@@ -11241,9 +11241,9 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule11"/></lu></out></when>
-      <otherwise><!--Word-for-word translation-->
+      <otherwise>
 
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out><!--isolated word-->
+<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
 <out><lu><lit v="*wordforword4"/></lu></out></otherwise>
     </choose>
   </action>
@@ -11256,7 +11256,7 @@ If no format information is present it is removed. -->
   </pattern>
   <action>
     <choose>
-      <when><!--2 | <num><empty_tag_numtype><*attruse><*numberat><empty_tag_attruse><*possessive><*case> жыл<n><*numberat><*possessive><*form><*case><*attruse> | in<pr> <num><year><(000attruse><(000numberat><(000possessive><(000case> | 0:1 1:0 | <num><empty_tag_numtype><empty_tag_attruse> <n>-->
+      <when>
         <test>
         <and>
            <and>
@@ -11312,9 +11312,9 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule12"/></lu></out></when>
-      <otherwise><!--Word-for-word translation-->
+      <otherwise>
 
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out><!--isolated word-->
+<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
 <out><lu><lit v="*wordforword5"/></lu></out></otherwise>
     </choose>
   </action>
@@ -11327,7 +11327,7 @@ If no format information is present it is removed. -->
   </pattern>
   <action>
     <choose>
-      <when><!--31 | сырт<n><*numberat><*possessive><*form><*case><*attruse> | out<pr> | 0:0 | <n>-->
+      <when>
         <test>
         <and>
             <begins-with>
@@ -11354,7 +11354,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule13"/></lu></out></when>
-      <when><!--30 | жыл<n><empty_tag_numberat><*possessive><*form><*case><*attruse> | in<pr> | 0:0 | <n><empty_tag_numberat>-->
+      <when>
         <test>
         <and>
            <and>
@@ -11391,7 +11391,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule14"/></lu></out></when>
-      <when><!--29 | рет<n><empty_tag_numberat><*possessive><*form><*case><*attruse> | as<pr> | 0:0 | <n><empty_tag_numberat>-->
+      <when>
         <test>
         <and>
            <and>
@@ -11428,7 +11428,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule15"/></lu></out></when>
-      <when><!--28 | <n><empty_tag_numberat><*possessive><*form><*case><*attruse> | <n><sg><(000form><(000attruse> | 0:0 | <n><pl>-->
+      <when>
         <test>
         <and>
            <and>
@@ -11459,7 +11459,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule16"/></lu></out></when>
-      <when><!--27 | керек<n><empty_tag_numberat><*possessive><*form><*case><*attruse> | need#_to<vbmod><past> | 0:0 | <n><empty_tag_numberat>-->
+      <when>
         <test>
         <and>
            <and>
@@ -11497,7 +11497,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule17"/></lu></out></when>
-      <when><!--26 | әңгіме<n><empty_tag_numberat><*possessive><*form><*case><*attruse> | 's<gen> | 0:0 | <n><empty_tag_numberat>-->
+      <when>
         <test>
         <and>
            <and>
@@ -11534,7 +11534,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule18"/></lu></out></when>
-      <when><!--25 | <n><empty_tag_numberat><*possessive><*form><*case><*attruse> | <n><sg><(000form><(000attruse> | 0:0 | <n><empty_tag_numberat>-->
+      <when>
         <test>
         <and>
            <and>
@@ -11565,7 +11565,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule19"/></lu></out></when>
-      <when><!--24 | <n><*numberat><*possessive><*form><*case><*attruse> | <n><(000numberat><(000possessive><(000form><(000attruse> | 0:0 | <n>-->
+      <when>
         <test>
             <begins-with>
               <clip pos="1" side="tl" part="tags" />
@@ -11585,9 +11585,9 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule20"/></lu></out></when>
-      <otherwise><!--Word-for-word translation-->
+      <otherwise>
 
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out><!--isolated word-->
+<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
 <out><lu><lit v="*wordforword6"/></lu></out></otherwise>
     </choose>
   </action>
@@ -11600,7 +11600,7 @@ If no format information is present it is removed. -->
   </pattern>
   <action>
     <choose>
-      <when><!--3 | <n><empty_tag_numberat><*possessive><*form><*case><*attruse> <n><empty_tag_numberat><*possessive><*form><*case><*attruse> | <n><sg><(000possessive><(000form><(000attruse> <n><pl><(000possessive><(001form><(001attruse> | 0:0 1:1 | <n><empty_tag_numberat> <n><empty_tag_numberat>-->
+      <when>
         <test>
         <and>
            <and>
@@ -11656,9 +11656,9 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule21"/></lu></out></when>
-      <otherwise><!--Word-for-word translation-->
+      <otherwise>
 
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out><!--isolated word-->
+<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
 <out><lu><lit v="*wordforword7"/></lu></out></otherwise>
     </choose>
   </action>
@@ -11670,7 +11670,7 @@ If no format information is present it is removed. -->
   </pattern>
   <action>
     <choose>
-      <when><!--9 | үстінде<adv><*advtype><*attruse> | on<pr> | 0:0 | <adv>-->
+      <when>
         <test>
         <and>
             <begins-with>
@@ -11697,7 +11697,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule22"/></lu></out></when>
-      <when><!--8 | өте<adv><*advtype><*attruse> | very<preadv> | 0:0 | <adv>-->
+      <when>
         <test>
         <and>
             <begins-with>
@@ -11724,7 +11724,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule23"/></lu></out></when>
-      <when><!--7 | анда<adv><*advtype><*attruse> | there<adv><(000advtype><(000attruse> be<vbser><pres><p3><sg> | 0:0 0:1 | <adv>-->
+      <when>
         <test>
         <and>
             <begins-with>
@@ -11762,7 +11762,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule24"/></lu></out></when>
-      <when><!--6 | арқылы<adv><*advtype><*attruse> | by<pr> | 0:0 | <adv>-->
+      <when>
         <test>
         <and>
             <begins-with>
@@ -11789,7 +11789,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule25"/></lu></out></when>
-      <when><!--5 | көбірек<adv><*advtype><*attruse> | more<preadv> | 0:0 | <preadv>-->
+      <when>
         <test>
         <and>
             <begins-with>
@@ -11816,7 +11816,7 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule26"/></lu></out></when>
-      <when><!--4 | <adv><*advtype><*attruse> | <adv><(000advtype><(000attruse> | 0:0 | <adv>-->
+      <when>
         <test>
             <begins-with>
               <clip pos="1" side="tl" part="tags" />
@@ -11834,15 +11834,15 @@ If no format information is present it is removed. -->
       </chunk>
       </out>
 <out><lu><lit v="*executedtule27"/></lu></out></when>
-      <otherwise><!--Word-for-word translation-->
+      <otherwise>
 
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out><!--isolated word-->
+<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
 <out><lu><lit v="*wordforword8"/></lu></out></otherwise>
     </choose>
   </action>
 </rule>
 
-
+-->
 
 
  </section-rules>

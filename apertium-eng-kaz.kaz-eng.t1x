@@ -10696,7 +10696,7 @@ If no format information is present it is removed. -->
     </rule>
 
 
-<!--automatically generated
+<!--automatically generated-->
 <rule>
   <pattern>
     <pattern-item n="CAT__vaux_"/>
@@ -10911,7 +10911,8 @@ If no format information is present it is removed. -->
                </equal>
            </and>
         </test>
-       <out>
+       
+<out>
        <chunk name="__v_" case="caseFirstWord">       <tags>             <tag><lit-tag v="LRN"/></tag>       </tags>          <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <lit-tag v="vblex"/>
@@ -11045,13 +11046,14 @@ If no format information is present it is removed. -->
   </action>
 </rule>
 
+
 <rule>
   <pattern>
     <pattern-item n="CAT__post_"/>
   </pattern>
   <action>
     <choose>
-      <when><
+      <when>
         <test>
         <and>
             <begins-with>
@@ -11086,7 +11088,7 @@ If no format information is present it is removed. -->
   </action>
 </rule>
 
-
+<!--
 <rule>
   <pattern>
     <pattern-item n="CAT__num_"/>
@@ -11430,44 +11432,8 @@ If no format information is present it is removed. -->
           </lu>
       </chunk>
       </out>
-<out><lu><lit v="*executedtule16"/></lu></out></when>
-      <when>
-        <test>
-        <and>
-           <and>
-            <begins-with>
-              <clip pos="1" side="tl" part="tags" />
-              <lit-tag v="n"/>
-            </begins-with>
-               <equal>
-                 <clip pos="1" side="tl" part="learned_numberat"/>
-                 <lit v=""/>
-               </equal>
-           </and>
-            <or>            <equal>
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="керек"/>
-            </equal>
-            <equal>
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="Керек"/>
-            </equal>
-            </or>
-            <equal>
-              <clip pos="1" side="sl" part="learned_numberat" />
-              <lit v=""/>
-            </equal>
-        </and>
-        </test>
-       <out>
-       <chunk name="__n_" case="caseFirstWord">       <tags>             <tag><lit-tag v="LRN"/></tag>       </tags>          <lu>
-            <lit v="need"/>
-            <lit-tag v="vbmod"/>
-            <lit-tag v="past"/>
-            <lit v="# to"/>
-          </lu>
-      </chunk>
-      </out>
+
+
 <out><lu><lit v="*executedtule17"/></lu></out></when>
       <when>
         <test>

@@ -192,9 +192,9 @@
  <cat-item tags="n.*.attr"/>
  <cat-item tags="n.*.*.subst.*"/>
       <cat-item tags="np.al"/>
-<cat-item tags="abbr.*"/>
+
 <cat-item tags="n.acr.*"/>
-<cat-item tags="abbr"/>
+
       <cat-item tags="np.al.*"/>
    <!--   <cat-item tags="np.cog"/>
       <cat-item tags="np.cog.*"/>-->
@@ -773,7 +773,6 @@
 
       <attr-item tags="np.top"/>
       
-      <attr-item tags="abbr"/>
 <!--<attr-item tags="prn.pers.p1"/>
       <attr-item tags="prn.pers.p2"/>
       <attr-item tags="prn.pers.p3"/>

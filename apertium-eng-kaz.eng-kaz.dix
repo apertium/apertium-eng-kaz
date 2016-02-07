@@ -20333,6 +20333,33 @@
 <e><p><l>up<b/>to<s n="vblex"/></l><r>тол<s n="v"/><s n="iv"/></r></p></e>
 
 
+<!--Words from corpus Lab IIS (5925)  -->
+<!--from line 3000>> -->
+
+<!--nouns-->
+<e><p><l>apo<b/>phlegmatics<s n="n"/></l><r>апо<b/>флегматик<s n="n"/></r></p></e>
+<e><p><l>cephalalgics<s n="n"/></l><r>бас<b/>ауруы<s n="n"/></r></p></e>
+<e><p><l>corrosives<s n="n"/></l><r>күйдіргіш<s n="n"/></r></p></e>
+<e><p><l>despatch<s n="n"/></l><r>жөнелту<s n="n"/></r></p></e>
+<e><p><l>icterics<s n="n"/></l><r>сары<b/>ауру<s n="n"/></r></p></e>
+<e><p><l>laxatives<s n="n"/></l><r>iш<b/>жүргізетін<s n="n"/></r></p></e>
+<e><p><l>palliatives<s n="n"/></l><r>жеңілдететін<s n="n"/></r></p></e>
+<e><p><l>petulancy<s n="n"/></l><r>қызбалық<s n="n"/></r></p></e>
+<!--End of nouns-->
+
+<!--verbs -->
+<e><p><l>beget<s n="vblex"/></l><r>тудыр<s n="v"/><s n="tv"/></r></p></e>
+<!--end of verbs -->
+
+<!--adjectives -->
+<e><p><l>corrosive<s n="adj"/></l><r>күйдіргіш<s n="adj"/></r></p></e>
+<e><p><l>laxative<s n="adj"/></l><r>iш<b/>жүргізетін<s n="adj"/></r></p></e>
+<e><p><l>palliative<s n="adj"/></l><r>жеңілдететін<s n="adj"/></r></p></e>
+<!--end of adjectives -->
+
+<!--End of corpus -->
+
+
 
 <e>
       <re>[A-Z][a-z]+</re>

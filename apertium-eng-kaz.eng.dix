@@ -20607,7 +20607,19 @@
 
                             <e lm="ratification" i=""><i>ratification</i><par n="house__n"/></e>
 
-                            <e lm="fans" i=""><i>fans</i><par n="alms__n"/></e>
+                            <e lm="apo phlegmatics" i=""><i>apo<b/>phlegmatics</i><par n="alms__n"/></e>
+
+                            <e lm="icterics" i=""><i>icterics</i><par n="alms__n"/></e>
+
+                            <e lm="cephalalgics" i=""><i>cephalalgics</i><par n="alms__n"/></e>
+
+                            <e lm="corrosives" i=""><i>corrosives</i><par n="alms__n"/></e>
+
+                            <e lm="laxatives" i=""><i>laxatives</i><par n="alms__n"/></e>
+
+                            <e lm="palliatives" i=""><i>palliatives</i><par n="alms__n"/></e>
+ 
+                           <e lm="fans" i=""><i>fans</i><par n="alms__n"/></e>
 
                             <e lm="youngster" i=""><i>youngster</i><par n="house__n"/></e>
 
@@ -44536,6 +44548,8 @@
 
                             <e lm="despair" i=""><i>despair</i><par n="house__n"/></e>
 
+                            <e lm="despatch" i=""><i>despatch</i><par n="access__n"/></e>
+
                             <e lm="despotism" i=""><i>despotism</i><par n="house__n"/></e>
 
                             <e lm="dessert" i=""><i>dessert</i><par n="house__n"/></e>
@@ -49239,6 +49253,8 @@
                             <e lm="petal" i=""><i>petal</i><par n="house__n"/></e>
 
                             <e lm="petrol" i=""><i>petrol</i><par n="house__n"/></e>
+
+                            <e lm="petulancy" i=""><i>petulanc</i><par n="bab/y__n"/></e>
 
                             <e lm="pharaoh" i=""><i>pharaoh</i><par n="house__n"/></e>
 
@@ -54461,6 +54477,8 @@
 
                             <e lm="corresponding" i=""><i>corresponding</i><par n="expensive__adj"/></e>
 
+                            <e lm="corrosive" i=""><i>corrosive</i><par n="expensive__adj"/></e>
+
                             <e lm="cosmetic" i=""><i>cosmetic</i><par n="expensive__adj"/></e>
 
                             <e lm="cosmic" i=""><i>cosmic</i><par n="expensive__adj"/></e>
@@ -55501,6 +55519,8 @@
                             <e lm="latter" i=""><i>latter</i><par n="expensive__adj"/></e>
 
                             <e lm="lawful" i=""><i>lawful</i><par n="expensive__adj"/></e>
+
+                            <e lm="laxative" i=""><i>laxative</i><par n="expensive__adj"/></e>
 
                             <e lm="lean" i=""><i>lean</i><par n="long/__adj"/></e>
 
@@ -58033,6 +58053,8 @@
                             <e lm="begin" i=""><i>beg</i><par n="beg/in__vblex"/></e>
 
                             <e lm="beg" i=""><i>beg</i><par n="plug__vblex"/></e>
+
+                            <e lm="beget" i=""><i>beg</i><par n="forg/et__vblex"/></e>
 
                             <e lm="believe" i=""><i>believ</i><par n="liv/e__vblex"/></e>
 

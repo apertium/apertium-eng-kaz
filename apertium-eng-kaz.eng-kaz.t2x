@@ -528,7 +528,6 @@
           </chunk>
           <b pos="1"/>
           <b pos="2"/>
-          <b pos="3"/>          
           <chunk>
             <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
@@ -4662,7 +4661,6 @@
           </chunk>
           <b pos="1"/>
           <b pos="2"/>
-          <b pos="3"/>
  <chunk>
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>

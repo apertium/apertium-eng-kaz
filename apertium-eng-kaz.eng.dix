@@ -36400,6 +36400,8 @@
 
                             <e lm="Diana" i=""><i>Diana</i><par n="Mary__np"/></e>
 
+			    <e lm="Dina" i=""><i>Dina</i><par n="Mary__np"/></e>
+
                             <e lm="Diane" i=""><i>Diane</i><par n="Mary__np"/></e>
 
                             <e lm="Dianna" i=""><i>Dianna</i><par n="Mary__np"/></e>
@@ -41800,6 +41802,8 @@
 
                             <e lm="amateur" i=""><i>amateur</i><par n="house__n"/></e>
 
+			    <e lm="buff" i=""><i>buff</i><par n="house__n"/></e>
+
                             <e lm="ambassador" i=""><i>ambassador</i><par n="house__n"/></e>
 
 			    <e lm="proprietor" i=""><i>proprietor</i><par n="house__n"/></e>
@@ -44916,6 +44920,8 @@
 
                             <e lm="drainage" i=""><i>drainage</i><par n="house__n"/></e>
 
+			    <e lm="visage" i=""><i>visage</i><par n="house__n"/></e>
+
                             <e lm="drama" i=""><i>drama</i><par n="house__n"/></e>
 
                             <e lm="dramatist" i=""><i>dramatist</i><par n="house__n"/></e>
@@ -46021,6 +46027,8 @@
                             <e lm="gardening" i=""><i>gardening</i><par n="house__n"/></e>
 
                             <e lm="garlic" i=""><i>garlic</i><par n="house__n"/></e>
+
+			    <e lm="garret" i=""><i>garret</i><par n="house__n"/></e>
 
                             <e lm="gas" i=""><i>gas</i><par n="access__n"/></e>
 
@@ -50637,6 +50645,8 @@
                             <e lm="saturation" i=""><i>saturation</i><par n="house__n"/></e>
 
                             <e lm="sauce" i=""><i>sauce</i><par n="house__n"/></e>
+
+			    <e lm="saucer" i=""><i>saucer</i><par n="house__n"/></e>
 
                             <e lm="saver" i=""><i>saver</i><par n="house__n"/></e>
 
@@ -56249,6 +56259,12 @@
 
                             <e lm="present" i=""><i>present</i><par n="expensive__adj"/></e>
 
+			    <e lm="scrupulous" i=""><i>scrupulous</i><par n="expensive__adj"/></e>
+
+			    <e lm="tremulous" i=""><i>tremulous</i><par n="expensive__adj"/></e>
+
+			    <e lm="truculent" i=""><i>truculent</i><par n="expensive__adj"/></e>
+
 <e lm="abated" i=""><i>abated</i><par n="expensive__adj"/></e>
 <e lm="abstracted" i=""><i>abstracted</i><par n="expensive__adj"/></e>
 <e lm="acquitted" i=""><i>acquitted</i><par n="expensive__adj"/></e>
@@ -56823,6 +56839,8 @@
                             <e lm="shameful" i=""><i>shameful</i><par n="expensive__adj"/></e>
 
                             <e lm="sharp" i=""><i>sharp</i><par n="long/__adj"/></e>
+
+			    <e lm="shrill" i=""><i>shrill</i><par n="long/__adj"/></e>
 
                             <e lm="shiny" i=""><i>shin</i><par n="happ/y__adj"/></e>
 
@@ -57971,6 +57989,8 @@
                             <e lm="associate" i=""><i>associat</i><par n="liv/e__vblex"/></e>
 
                             <e lm="assume" i=""><i>assum</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="presume" i=""><i>presum</i><par n="liv/e__vblex"/></e>
 
                             <e lm="attach" i=""><i>attach</i><par n="approach__vblex"/></e>
 
@@ -61469,6 +61489,8 @@
                             <e lm="apparently" i=""><i>apparently</i><par n="maybe__adv"/></e>
 
                             <e lm="apparently" i=""><i>apparently</i><par n="maybe__adv"/></e>
+				
+			    <e lm="circumspectly" i=""><i>circumspectly</i><par n="maybe__adv"/></e>
 
                             <e lm="approximately" i=""><i>approximately</i><par n="maybe__adv"/></e>
 
@@ -66767,6 +66789,8 @@
 
                             <e lm="dactyl" i=""><i>dactyl</i><par n="house__n"/></e>
 
+			    <e lm="daisy" i=""><i>dais</i><par n="bab/y__n"/></e>
+
                             <e lm="daltonism" i=""><i>daltonism</i><par n="house__n"/></e>
 
                             <e lm="dandy" i=""><i>dand</i><par n="bab/y__n"/></e>
@@ -67741,6 +67765,8 @@
                             <e lm="extruder" i=""><i>extruder</i><par n="house__n"/></e>
 
                             <e lm="extrusion" i=""><i>extrusion</i><par n="house__n"/></e>
+
+			    <e lm="extenuation" i=""><i>extenuation</i><par n="house__n"/></e>
 
                             <e lm="exuberance" i=""><i>exuberance</i><par n="house__n"/></e>
 
@@ -78869,6 +78895,8 @@
 
                             <e lm="aggravating" i=""><i>aggravating</i><par n="expensive__adj"/></e>
 
+			    <e lm="howling" i=""><i>howling</i><par n="expensive__adj"/></e>
+
                             <e lm="agreed" i=""><i>agreed</i><par n="expensive__adj"/></e>
 
                             <e lm="Algerian" i=""><p><l>Algerian</l><r>algerian</r></p><par n="expensive__adj"/></e>
@@ -80854,6 +80882,7 @@
 <e lm="Temir" i=""><i>Temir</i><par n="Mark__np"/></e>
 <e lm="Sauat" i=""><i>Sauat</i><par n="Mark__np"/></e>
 <e lm="Sarsenbay" i=""><i>Sarsenbay</i><par n="Mark__np"/></e>
+<e lm="Sarsenbai" i=""><i>Sarsenbai</i><par n="Mark__np"/></e>
 
 
 
@@ -83447,6 +83476,8 @@
                             <e lm="amiably" i=""><i>amiably</i><par n="maybe__adv"/></e>
 
                             <e lm="amidst" i=""><i>amidst</i><par n="at__pr"/></e>
+
+			    <e lm="midst" i=""><i>amidst</i><par n="at__pr"/></e>
 
                             <e lm="ammunition" i=""><i>ammunition</i><par n="house__n"/></e>
 

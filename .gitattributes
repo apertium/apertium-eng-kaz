@@ -2,12 +2,8 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
-Errors/crp[!!-~]eng-kaz -text
-Errors/crp[!!-~]kaz-eng -text
 Errors/eng-kaz_unknown_words -text
 Errors/kaz-eng_unknown_words -text svneol=unset#application/octet-stream
-Errors/trn[!!-~]eng-kaz -text svneol=unset#application/octet-stream
-Errors/trn[!!-~]kaz-eng -text
 /ISSUES.txt -text
 /Makefile.am -text
 /NEWS -text

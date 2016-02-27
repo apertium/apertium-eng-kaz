@@ -11147,7 +11147,7 @@
 <e><p><l>IIC<s n="n"/><s n="acr"/></l><r>ЖСК<s n="abbr"/></r></p></e>
 <e><p><l>KZT<s n="n"/><s n="acr"/></l><r>теңге<s n="n"/></r></p></e>
 <e><p><l>MGM<s n="n"/><s n="acr"/></l><r>MGM<s n="abbr"/></r></p></e>
-<e><p><l>NATO<s n="n"/><s n="acr"/></l><r>НАТО<s n="abbr"/></r></p></e>
+<e><p><l>NATO<s n="n"/><s n="acr"/></l><r>НАТО<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>NBA<s n="n"/><s n="acr"/></l><r>NBA<s n="abbr"/></r></p></e>
 <e><p><l>NBC<s n="n"/><s n="acr"/></l><r>NBC<s n="abbr"/></r></p></e>
 <e><p><l>PC<s n="n"/><s n="acr"/></l><r>ДК<s n="abbr"/></r></p></e>
@@ -11155,7 +11155,7 @@
 <e><p><l>RAF<s n="n"/><s n="acr"/></l><r>RAF<s n="abbr"/></r></p></e>
 <e><p><l>TV<s n="n"/><s n="acr"/></l><r>ТВ<s n="abbr"/></r></p></e>
 <e><p><l>UEFA<s n="n"/><s n="acr"/></l><r>UEFA<s n="abbr"/></r></p></e>
-<e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="abbr"/></r></p></e>
+<e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>USSR<s n="n"/><s n="acr"/></l><r>КСРО<s n="abbr"/></r></p></e>
 <e><p><l>cm<s n="n"/><s n="acr"/></l><r>см<s n="abbr"/></r></p></e>
 <e><p><l>g<s n="n"/><s n="acr"/></l><r>г<s n="abbr"/></r></p></e>
@@ -20017,7 +20017,7 @@
 <e><p><l>install<s n="vblex"/></l><r>орналастыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>instruct<s n="vblex"/></l><r>оқыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>integrate<s n="vblex"/></l><r>біріктір<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>intend<s n="vblex"/></l><r>арнал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>intend<s n="vblex"/></l><r>арна<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>intensify<s n="vblex"/></l><r>қуаттандыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>interact<s n="vblex"/></l><r>өзара<b/>іс-қимылда<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>intercede<s n="vblex"/></l><r>сұран<s n="v"/><s n="iv"/></r></p></e>

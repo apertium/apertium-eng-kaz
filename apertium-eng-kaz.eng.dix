@@ -14543,6 +14543,7 @@
 
                             <e lm="suspect" i=""><i>suspect</i><par n="accept__vblex"/></e>
 
+ <e lm="certify" i=""><i>certify</i><par n="accept__vblex"/></e>
                             <e lm="suspend" i=""><i>suspend</i><par n="accept__vblex"/></e>
 
                             <e lm="sustain" i=""><i>sustain</i><par n="accept__vblex"/></e>
@@ -54045,6 +54046,8 @@
 
                             <e lm="alpine" i=""><i>alpine</i><par n="expensive__adj"/></e>
 
+<e lm="medical" i=""><i>medical</i><par n="expensive__adj"/></e>
+
                             <e lm="alternative" i=""><i>alternative</i><par n="expensive__adj"/></e>
 
                             <e lm="altruistic" i=""><i>altruistic</i><par n="expensive__adj"/></e>
@@ -59929,6 +59932,9 @@
 
                             <e lm="stream" i=""><i>stream</i><par n="accept__vblex"/></e>
                             <e lm="need" i=""><i>need</i><par n="accept__vblex"/></e>
+
+<e lm="suppose" i=""><i>suppose</i><par n="accept__vblex"/></e>
+<e lm="plant" i=""><i>plant</i><par n="accept__vblex"/></e>
 
                             <e lm="neglect" i=""><i>neglect</i><par n="accept__vblex"/></e>
 
@@ -72771,6 +72777,9 @@
                             <e lm="swallow" i=""><i>swallow</i><par n="accept__vblex"/></e>
 
                             <e lm="swarm" i=""><i>swarm</i><par n="house__n"/></e>
+
+<e lm="body" i=""><i>body</i><par n="house__n"/></e>
+<e lm="komissariat" i=""><i>komissariat</i><par n="house__n"/></e>
 
                             <e lm="sway" i=""><i>sway</i><par n="enjoy__vblex"/></e>
 

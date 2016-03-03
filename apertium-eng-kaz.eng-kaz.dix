@@ -9909,6 +9909,8 @@
 <e><p><l>swapping<s n="n"/></l><r>айырбас<s n="n"/></r></p></e>
 <e><p><l>swap<s n="n"/></l><r>орын<b/>алмастыру<s n="n"/></r></p></e>
 <e><p><l>swarm<s n="n"/></l><r>орда<s n="n"/></r></p></e>
+<e><p><l>body<s n="n"/></l><r>орган<s n="n"/></r></p></e>
+<e><p><l>komissariat<s n="n"/></l><r>комиссиариат<s n="n"/></r></p></e>
 <e><p><l>swearword<s n="n"/></l><r>ұрыс<s n="n"/></r></p></e>
 <e><p><l>sweater<s n="n"/></l><r>свитер<s n="n"/></r></p></e>
 <e><p><l>sweatshirt<s n="n"/></l><r>трикотаж<s n="n"/></r></p></e>
@@ -15520,6 +15522,7 @@
 <e><p><l>alphabetic<s n="adj"/></l><r>әліппелі<s n="adj"/></r></p></e>
 <e><p><l>alphanumeric<s n="adj"/></l><r>əріпті-санды<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>alpine<s n="adj"/></l><r>альпілік<s n="adj"/></r></p></e>
+<e><p><l>medical<s n="adj"/></l><r>дәрігерлік<s n="adj"/></r></p></e>
 <e><p><l>altaic<s n="adj"/></l><r>алтайлық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>altitudinal<s n="adj"/></l><r>биік<s n="adj"/></r></p></e>
 <e><p><l>altruistic<s n="adj"/></l><r>альтруистік<s n="adj"/></r></p></e>
@@ -20173,6 +20176,8 @@
 <e><p><l>near<s n="vblex"/></l><r>жақында<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>need<s n="vblex"/></l><r>керек<s n="vaux"/><s n="pres"/></r></p></e>
 <e><p><l>need<s n="vblex"/></l><r>қажет<b/>бол<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>plant<s n="vblex"/></l><r>қамтамасыз<b/>ету<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>suppose<s n="vblex"/></l><r>тиіс<b/>деп<b/>болжау<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>need<s n="vblex"/></l><r>қажет<s n="n"/></r></p></e>
 <e><p><l>neglect<s n="vblex"/></l><r>еле<s n="v"/><s n="tv"/><s n="neg"/></r></p></e>
 <e><p><l>negotiate<s n="vblex"/></l><r>келіс<s n="v"/><s n="iv"/></r></p></e>
@@ -20705,6 +20710,7 @@
 <e><p><l>surround<s n="vblex"/></l><r>қапта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>survive<s n="vblex"/></l><r>тірі<b/>қал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>suspect<s n="vblex"/></l><r>күдіктен<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>certify<s n="vblex"/></l><r>куәландыр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>suspend<s n="vblex"/></l><r>тоқтат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>sustain<s n="vblex"/></l><r>қолда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>swaddle<s n="vblex"/></l><r>құндақта<s n="v"/><s n="tv"/></r></p></e>

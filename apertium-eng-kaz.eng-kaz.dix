@@ -2764,8 +2764,8 @@
 <e><p><l>countryman<s n="n"/></l><r>отандас<s n="n"/></r></p></e>
 <e><p><l>countryside<s n="n"/></l><r>ауылдық<b/>аудан<s n="n"/></r></p></e>
 <e><p><l>country<s n="n"/></l><r>ел<s n="n"/></r></p></e>
-<e><p><l>country<s n="n"/></l><r>ел<s n="n"/></r></p></e>
-<e><p><l>country<s n="n"/></l><r>ел<s n="n"/></r></p></e>
+<e><p><l>country<s n="n"/></l><r>мемлекет<s n="n"/></r></p></e>
+<e><p><l>country<s n="n"/></l><r>ауыл<s n="n"/></r></p></e>
 <e><p><l>county<s n="n"/></l><r>графтық<s n="n"/></r></p></e>
 <e><p><l>coupler<s n="n"/></l><r>байланыс<b/>құрылғы<s n="n"/></r></p></e>
 <e><p><l>couple<s n="n"/></l><r>жұп<s n="n"/></r></p></e>
@@ -6286,7 +6286,7 @@
 <e><p><l>manometer<s n="n"/></l><r>манометр<s n="n"/></r></p></e>
 <e><p><l>mansion<s n="n"/></l><r>жекежай<s n="n"/></r></p></e>
 <e><p><l>man<s n="n"/></l><r>ер<s n="n"/></r></p></e>
-<e><p><l>man<s n="n"/></l><r>ер<s n="n"/></r></p></e>
+<e><p><l>man<s n="n"/></l><r>кісі<s n="n"/></r></p></e>
 <e><p><l>mantissa<s n="n"/></l><r>мантисса<s n="n"/></r></p></e>
 <e><p><l>mantle<s n="n"/></l><r>тұмшалау<s n="n"/></r></p></e>
 <e><p><l>manual<s n="n"/></l><r>басшылық<s n="n"/></r></p></e>
@@ -7773,6 +7773,8 @@
 <e><p><l>place<s n="n"/></l><r>жай<s n="n"/></r></p></e>
 <e><p><l>place<s n="n"/></l><r>жер<s n="n"/></r></p></e>
 <e><p><l>place<s n="n"/></l><r>орын<s n="n"/></r></p></e>
+<e><p><l>place<s n="n"/></l><r>мекен<s n="n"/></r></p></e>
+<e><p><l>place<s n="n"/></l><r>тұрақ<s n="n"/></r></p></e>
 <e><p><l>plagiarism<s n="n"/></l><r>плагиат<s n="n"/></r></p></e>
 <e><p><l>plague<s n="n"/></l><r>оба<s n="n"/></r></p></e>
 <e><p><l>plain<s n="n"/></l><r>жазық<s n="n"/></r></p></e>
@@ -11214,6 +11216,7 @@
 <e><p><l>Christian<s n="np"/><s n="ant"/><s n="f"/></l><r>Кристиана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Condoleezza<s n="np"/><s n="ant"/><s n="f"/></l><r>Кондолиза<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Dakota<s n="np"/><s n="ant"/><s n="f"/></l><r>Дакота<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Dina<s n="np"/><s n="ant"/><s n="f"/></l><r>Дина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Edita<s n="np"/><s n="ant"/><s n="f"/></l><r>Эдита<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Elizabeth<s n="np"/><s n="ant"/><s n="f"/></l><r>Элизабет<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Gin<s n="np"/><s n="ant"/><s n="f"/></l><r>Джин<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11358,7 +11361,6 @@
 <e><p><l>Despina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Деспина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Destiny<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Дэстини<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Diana<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Диана<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e><p><l>Dina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Дина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Dinara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Динара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Saule<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Сәуле<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Dolores<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Долорес<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -15190,6 +15192,8 @@
 <e><p><l>slowly<s n="adv"/></l><r>жай<s n="adv"/></r></p></e>
 <e><p><l>so<s n="adv"/></l><r>осылайша<s n="adv"/></r></p></e>
 <e><p><l>so<s n="adv"/></l><r>солай<s n="adv"/></r></p></e>
+<e><p><l>so<s n="adv"/></l><r>бұлай<s n="adv"/></r></p></e>
+<e><p><l>so<s n="adv"/></l><r>осылай<s n="adv"/></r></p></e>
 <e><p><l>socially<s n="adv"/></l><r>әлеуметтік<s n="adv"/></r></p></e>
 <e><p><l>softly<s n="adv"/></l><r>жұмсақ<s n="adv"/></r></p></e>
 <e><p><l>solely<s n="adv"/></l><r>бірыңғай<s n="adv"/></r></p></e>
@@ -16696,6 +16700,10 @@
 <e><p><l>glycemic<s n="adj"/></l><r>гликемиялық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>golden<s n="adj"/></l><r>алтын<s n="adj"/></r></p></e>
 <e><p><l>good<s n="adj"/><s n="sint"/></l><r>жақсы<s n="adj"/></r></p></e>
+<e><p><l>good<s n="adj"/><s n="sint"/></l><r>сапалы<s n="adj"/></r></p></e>
+<e><p><l>good<s n="adj"/><s n="sint"/></l><r>қабілетті<s n="adj"/></r></p></e>
+<e><p><l>good<s n="adj"/><s n="sint"/></l><r>мейірімді<s n="adj"/></r></p></e>
+<e><p><l>good<s n="adj"/><s n="sint"/></l><r>сапалы<s n="adj"/></r></p></e>
 <e><p><l>gordian<s n="adj"/></l><r>гордийлік<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>gothic<s n="adj"/></l><r>готикалық<s n="adj"/></r></p></e>
 <e><p><l>governmental<s n="adj"/></l><r>үкіметтік<s n="adj"/></r></p></e>
@@ -17238,6 +17246,8 @@
 <e><p><l>literary<s n="adj"/></l><r>әдеби<s n="adj"/></r></p></e>
 <e><p><l>literate<s n="adj"/></l><r>сауатты<s n="adj"/></r></p></e>
 <e><p><l>little<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
+<e><p><l>little<s n="adj"/></l><r>жас<s n="adj"/></r></p></e>
+<e><p><l>little<s n="adj"/></l><r>азғантай<s n="adj"/></r></p></e>
 <e><p><l>littoral<s n="adj"/></l><r>теңіздік<s n="adj"/></r></p></e>
 <e><p><l>loaded<s n="adj"/></l><r>жүктелген<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>local<s n="adj"/></l><r>жергілікті<s n="adj"/></r></p></e>
@@ -18635,6 +18645,10 @@
 <e><p><l>grave<s n="adj"/><s n="sint"/></l><r>маңызды<s n="adj"/></r></p></e>
 <e><p><l>greasy<s n="adj"/><s n="sint"/></l><r>майлылау<s n="adj"/></r></p></e>
 <e><p><l>great<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
+<e><p><l>great<s n="adj"/><s n="sint"/></l><r>ұлы<s n="adj"/></r></p></e>
+<e><p><l>great<s n="adj"/><s n="sint"/></l><r>зор<s n="adj"/></r></p></e>
+<e><p><l>great<s n="adj"/><s n="sint"/></l><r>тамаша<s n="adj"/></r></p></e>
+<e><p><l>great<s n="adj"/><s n="sint"/></l><r>күшті<s n="adj"/></r></p></e>
 <e><p><l>great<s n="adj"/><s n="sint"/></l><r>ұлағатты<s n="adj"/></r></p></e>
 <e><p><l>greedy<s n="adj"/><s n="sint"/></l><r>қызғаншақ<s n="adj"/></r></p></e>
 <e><p><l>green<s n="adj"/><s n="sint"/></l><r>жасыл<s n="adj"/></r></p></e>
@@ -18654,6 +18668,8 @@
 <e><p><l>healthy<s n="adj"/><s n="sint"/></l><r>сау<s n="adj"/></r></p></e>
 <e><p><l>heavy<s n="adj"/><s n="sint"/></l><r>қиын<s n="adj"/></r></p></e>
 <e><p><l>high<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>
+<e><p><l>high<s n="adj"/><s n="sint"/></l><r>жоғарғы<s n="adj"/></r></p></e>
+<e><p><l>high<s n="adj"/><s n="sint"/></l><r>көтеріңкі<s n="adj"/></r></p></e>
 <e><p><l>holy<s n="adj"/><s n="sint"/></l><r>пірәдар<s n="adj"/></r></p></e>
 <e><p><l>hot<s n="adj"/><s n="sint"/></l><r>ыстық<s n="adj"/></r></p></e>
 <e><p><l>humble<s n="adj"/><s n="sint"/></l><r>қарапайым<s n="adj"/><s n="subst"/></r></p></e>
@@ -20265,6 +20281,8 @@
 <e><p><l>pinch<s n="vblex"/></l><r>шымшы<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>pity<s n="vblex"/></l><r>ая<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>place<s n="vblex"/></l><r>орналастыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>place<s n="vblex"/></l><r>қой<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>place<s n="vblex"/></l><r>белгіле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>plan<s n="vblex"/></l><r>жоспарла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>plant<s n="vblex"/></l><r>ек<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>plaster<s n="vblex"/></l><r>сылақта<s n="v"/><s n="tv"/></r></p></e>
@@ -20988,7 +21006,7 @@
 <e><p><l>tear<s n="n"/></l><r>жас<s n="n"/></r></p></e>
 <e><p><l>authoress<s n="n"/></l><r>автор<s n="n"/></r></p></e>
 <e><p><l>life<s n="n"/></l><r>дүние<s n="n"/></r></p></e>
-<e><p><l>thing<s n="n"/></l><r>дүниеs n="n"/></r></p></e>
+<e><p><l>thing<s n="n"/></l><r>дүние<s n="n"/></r></p></e>
 <e><p><l>strong<s n="n"/></l><r>қатты<s n="n"/></r></p></e>
 <e><p><l>firm<s n="n"/></l><r>қатты<s n="n"/></r></p></e>
 <e><p><l>sturdy<s n="n"/></l><r>қатты<s n="n"/></r></p></e>

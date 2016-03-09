@@ -15013,6 +15013,8 @@
 
                             <e lm="more" i=""><i>more</i><par n="very__preadv"/></e>
 
+<e lm="more" i=""><i>more</i><par n="expensive__adj"/></e>
+
                             <e lm="most" i=""><i>most</i><par n="very__preadv"/></e>
 
                             <e lm="pretty" i=""><i>pretty</i><par n="very__preadv"/></e>
@@ -17029,6 +17031,8 @@
                             <e lm="ours" i=""><i>ours</i><par n="mine__prn"/></e>
 
                             <e lm="several" i=""><i>several</i><par n="both__prn"/></e>
+
+ <e lm="several" i=""><i>several</i><par n="expensive__adj"/></e>
 
                             <e lm="some" i=""><i>some</i><par n="both__prn"/></e>
 
@@ -47722,7 +47726,9 @@
                             <e lm="firewoman" i=""><i>firewom</i><par n="m/an__n"/></e>
 
                             <e lm="machination" i=""><i>machination</i><par n="house__n"/></e>
+ <e lm="midst" i=""><i>midst</i><par n="house__n"/></e>
 
+<e lm="noon" i=""><i>noon</i><par n="house__n"/></e>
 			                <e lm="macaroni" i=""><i>macaroni</i><par n="house__n"/></e>
 
 
@@ -52262,6 +52268,8 @@
                             <e lm="trio" i=""><i>trio</i><par n="house__n"/></e>
 
                             <e lm="trip" i=""><i>trip</i><par n="house__n"/></e>
+
+  <e lm="journey" i=""><i>journe</i><par n="bab/y__n"/></e>
 
                             <e lm="triple" i=""><i>triple</i><par n="house__n"/></e>
 
@@ -57515,6 +57523,7 @@
                             <e lm="yielding" i=""><i>yielding</i><par n="expensive__adj"/></e>
 
                             <e lm="young" i=""><i>young</i><par n="long/__adj"/></e>
+<e lm="young" i=""><i>young</i><par n="house__n"/></e>
 
                             <e lm="yours" i=""><i>yours</i><par n="mine__adj"/></e>
 

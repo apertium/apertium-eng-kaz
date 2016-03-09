@@ -20344,6 +20344,8 @@
 
                             <e lm="a lot of" i=""><i>a<b/>lot<b/>of</i><par n="expensive__adj"/></e>
 
+                            <e lm="at least" i=""><i>at<b/>least</i><par n="expensive__adj"/></e>
+
                             <e lm="Muguruza" i=""><i>Muguruza</i><par n="Smith__np"/></e>
 
                             <e lm="Mugartegi" i=""><i>Mugartegi</i><par n="Smith__np"/></e>
@@ -44373,6 +44375,8 @@
                             <e lm="decline" i=""><i>decline</i><par n="house__n"/></e>
 
                             <e lm="decoder" i=""><i>decoder</i><par n="house__n"/></e>
+                            <e lm="scholarship" i=""><i>scholarship</i><par n="house__n"/></e>
+                            <e lm="stipends" i=""><i>stipends</i><par n="house__n"/></e>
 
                             <e lm="decolonisation" i=""><i>decoloni</i><par n="globali/sation__n"/></e>
 
@@ -54897,7 +54901,7 @@
                             <e lm="facial" i=""><i>facial</i><par n="expensive__adj"/></e>
 
                             <e lm="facile" i=""><i>facile</i><par n="expensive__adj"/></e>
-
+                            <e lm="serious" i=""><i>serious</i><par n="expensive__adj"/></e>
                             <e lm="faecal" i=""><i>faecal</i><par n="expensive__adj"/></e>
 
                             <e lm="fair" i=""><i>fair</i><par n="long/__adj"/></e>
@@ -60135,6 +60139,7 @@
 
                             <e lm="play" i=""><i>play</i><par n="accept__vblex"/></e>
 
+                            <e lm="indifference" i=""><i>indifference</i><par n="accept__vblex"/></e>
                             <e lm="please" i=""><i>pleas</i><par n="liv/e__vblex"/></e>
 
                             <e lm="plough" i=""><i>plough</i><par n="accept__vblex"/></e>
@@ -61813,6 +61818,8 @@
                             <e lm="eventually" i=""><i>eventually</i><par n="maybe__adv"/></e>
 
                             <e lm="ever" i=""><i>ever</i><par n="maybe__adv"/></e>
+
+                            <e lm="otherwise" i=""><i>otherwise</i><par n="maybe__adv"/></e>
 
                             <e lm="evermore" i=""><i>evermore</i><par n="maybe__adv"/></e>
 

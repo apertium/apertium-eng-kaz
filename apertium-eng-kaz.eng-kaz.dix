@@ -837,6 +837,8 @@
 <e><p><l>apposition<s n="n"/></l><r>аппозиция<s n="n"/></r></p></e>
 <e><p><l>appraisal<s n="n"/></l><r>сарапшылық<s n="n"/></r></p></e>
 <e><p><l>appreciation<s n="n"/></l><r>сарапшылық<s n="n"/></r></p></e>
+<e><p><l>stipends<s n="n"/></l><r>шәкірт<b/>ақы<s n="n"/></r></p></e>
+<e><p><l>scholarship<s n="n"/></l><r>стипендия<s n="n"/></r></p></e>
 <e><p><l>apprehension<s n="n"/></l><r>именушілік<s n="n"/></r></p></e>
 <e><p><l>apprenticeship<s n="n"/></l><r>оқытушылық<s n="n"/></r></p></e>
 <e><p><l>apprentice<s n="n"/></l><r>шәкірт<s n="n"/></r></p></e>
@@ -4084,6 +4086,7 @@
 <e><p><l>farmyard<s n="n"/></l><r>ферманың<b/>ауласы<s n="n"/></r></p></e>
 <e><p><l>facetious<s n="adj"/></l><r>тірі<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>facile<s n="adj"/></l><r>жеңіл<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>serious<s n="adj"/></l><r>қатаң<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>factitious<s n="adj"/></l><r>жасанды<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>facto<s n="adj"/></l><r>факто<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>factorial<s n="adj"/></l><r>факторлық<s n="adj"/><s n="subst"/></r></p></e>
@@ -14818,6 +14821,7 @@
 <e><p><l>evenly<s n="adv"/></l><r>біркелкі<s n="adv"/></r></p></e>
 <e><p><l>eventually<s n="adv"/></l><r>ең<b/>ақырында<s n="adv"/></r></p></e>
 <e><p><l>ever<s n="adv"/></l><r>әрдайым<s n="adv"/></r></p></e>
+<e><p><l>otherwise<s n="adv"/></l><r>басқаша<s n="adv"/></r></p></e>
 <e><p><l>everyday<s n="adv"/></l><r>күнде<s n="adv"/></r></p></e>
 <e><p><l>everywhere<s n="adv"/></l><r>барлық<b/>жерде<s n="adv"/></r></p></e>
 <e><p><l>everywhere<s n="adv"/></l><r>барлық<b/>жерде<s n="adv"/></r></p></e>
@@ -15367,7 +15371,7 @@
 <e><p><l>abject<s n="adj"/></l><r>аянышты<s n="adj"/></r></p></e>
 <e><p><l>able<s n="adj"/></l><r>алғыр<s n="adj"/></r></p></e>
 <e><p><l>a<b/>lot<b/>of<s n="adj"/></l><r>көп<s n="adj"/></r></p></e>
-<e><p><l>a<b/>lot<b/>of<s n="adj"/></l><r>көп<s n="adj"/></r></p></e>
+<e><p><l>at<b/>least<s n="adj"/></l><r>кем<s n="adj"/></r></p></e>
 <e><p><l>abnormal<s n="adj"/></l><r>есуас<s n="adj"/></r></p></e>
 <e><p><l>abominable<s n="adj"/></l><r>сойқан<s n="adj"/></r></p></e>
 <e><p><l>aboriginal<s n="adj"/></l><r>ежелгі<s n="adj"/></r></p></e>
@@ -16288,6 +16292,7 @@
 <e><p><l>dimmed<s n="adj"/></l><r>сұрланған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>diplomatic<s n="adj"/></l><r>мәмілегерлі<s n="adj"/></r></p></e>
 <e><p><l>direct<s n="adj"/></l><r>тура<s n="adj"/></r></p></e>
+<e><p><l>direct<s n="adj"/></l><r>тікелей<s n="adj"/></r></p></e>
 <e><p><l>disadvantaged<s n="adj"/></l><r>тиімсіз<s n="adj"/></r></p></e>
 <e><p><l>disagreeable<s n="adj"/></l><r>жағымсыз<s n="adj"/></r></p></e>
 <e><p><l>disastrous<s n="adj"/></l><r>мүшкіл<s n="adj"/></r></p></e>
@@ -19404,6 +19409,7 @@
 <e><p><l>combat<s n="vblex"/></l><r>күрес<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>combine<s n="vblex"/></l><r>біріктір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>come<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>indifference<s n="vblex"/></l><r>шеттет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>comfort<s n="vblex"/></l><r>тынышталдыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>command<s n="vblex"/></l><r>бұйыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>commemorate<s n="vblex"/></l><r>тойла<s n="v"/><s n="tv"/></r></p></e>

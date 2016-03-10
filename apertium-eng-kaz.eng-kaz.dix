@@ -6356,6 +6356,9 @@
 <e><p><l>masterpiece<s n="n"/></l><r>өнер<b/>туынды<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>master<s n="n"/></l><r>қожа<s n="n"/></r></p></e>
 <e><p><l>master<s n="n"/></l><r>ұстаз<s n="n"/></r></p></e>
+<e><p><l>master<s n="n"/></l><r>шебер<s n="n"/></r></p></e>
+<e><p><l>master<s n="n"/></l><r>мұғалім<s n="n"/></r></p></e>
+<e><p><l>master<s n="n"/></l><r>магистр<s n="n"/></r></p></e>
 <e><p><l>mastery<s n="n"/></l><r>абыз<s n="n"/></r></p></e>
 <e><p><l>mastication<s n="n"/></l><r>шайнау<s n="n"/></r></p></e>
 <e><p><l>mastocyte<s n="n"/></l><r>лаброцит<s n="n"/></r></p></e>
@@ -7206,6 +7209,8 @@
 <e><p><l>ordeal<s n="n"/></l><r>әурешілік<s n="n"/></r></p></e>
 <e><p><l>order<s n="n"/></l><r>орден<s n="n"/></r></p></e>
 <e><p><l>order<s n="n"/></l><r>рет<s n="n"/></r></p></e>
+<e><p><l>order<s n="n"/></l><r>тапсырыс<s n="n"/></r></p></e>
+<e><p><l>order<s n="n"/></l><r>қатар<s n="n"/></r></p></e>
 <e><p><l>ordinal<s n="n"/></l><r>реттік<b/>сан<b/>есім<s n="n"/></r></p></e>
 <e><p><l>ordination<s n="n"/></l><r>жайлау<s n="n"/></r></p></e>
 <e><p><l>ordure<s n="n"/></l><r>нәжістер<s n="n"/></r></p></e>
@@ -7447,7 +7452,11 @@
 <e><p><l>partner<s n="n"/></l><r>серіктес<s n="n"/></r></p></e>
 <e><p><l>partridge<s n="n"/></l><r>шіл<s n="n"/></r></p></e>
 <e><p><l>part<s n="n"/></l><r>бөлік<s n="n"/></r></p></e>
-<e><p><l>part<s n="n"/></l><r>бөлік<s n="n"/></r></p></e>
+<e><p><l>part<s n="n"/></l><r>рөл<s n="n"/></r></p></e>
+<e><p><l>part<s n="n"/></l><r>партия<s n="n"/></r></p></e>
+<e><p><l>part<s n="n"/></l><r>дене<s n="n"/></r></p></e>
+<e><p><l>part<s n="n"/></l><r>үлес<s n="n"/></r></p></e>
+<e><p><l>order<s n="n"/></l><r>орден<s n="n"/></r></p></e>
 <e><p><l>party<s n="n"/></l><r>партия<s n="n"/></r></p></e>
 <e><p><l>pascal<s n="n"/></l><r>паскаль<s n="n"/></r></p></e>
 <e><p><l>passage<s n="n"/></l><r>сапар<s n="n"/></r></p></e>
@@ -18738,6 +18747,8 @@
 <e><p><l>lymphatic<s n="adj"/></l><r>лимфалық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>lysosomal<s n="adj"/></l><r>лизосомалық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>large<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
+<e><p><l>large<s n="adj"/><s n="sint"/></l><r>кең<s n="adj"/></r></p></e>
+<e><p><l>large<s n="adj"/><s n="sint"/></l><r>ірі<s n="adj"/></r></p></e>
 <e><p><l>late<s n="adj"/><s n="sint"/></l><r>кеш<s n="adj"/></r></p></e>
 <e><p><l>lazy<s n="adj"/><s n="sint"/></l><r>тартыншақ<s n="adj"/></r></p></e>
 <e><p><l>leafy<s n="adj"/><s n="sint"/></l><r>жапырақты<s n="adj"/></r></p></e>
@@ -20790,6 +20801,9 @@
 <e><p><l>thank<s n="vblex"/></l><r>алғыс<b/>білдір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>think<s n="vblex"/></l><r>ойла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>think<s n="vblex"/></l><r>ойлан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>think<s n="vblex"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>think<s n="vblex"/></l><r>есепте<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>think<s n="vblex"/></l><r>сен<s n="v"/><s n="tv"/></r></p></e>
 <e r="LR"><p><l>think<g><b/>that</g><s n="vblex"/></l><r>ойла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>threaten<s n="vblex"/></l><r>қорқыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>throw<s n="vblex"/></l><r>лақтыр<s n="v"/><s n="tv"/></r></p></e>

@@ -15691,6 +15691,8 @@
 
                             <e lm="generally" i=""><i>generally</i><par n="maybe__adv"/></e>
 
+                            <e lm="entirely" i=""><i>entirely</i><par n="maybe__adv"/></e>
+
                             <e lm="gently" i=""><i>gently</i><par n="maybe__adv"/></e>
 
                             <e lm="genuinely" i=""><i>genuinely</i><par n="maybe__adv"/></e>
@@ -46421,7 +46423,7 @@
                             <e lm="hearing" i=""><i>hearing</i><par n="house__n"/></e>
 
                             <e lm="heart" i=""><i>heart</i><par n="house__n"/></e>
-
+                            <e lm="sentiment" i=""><i>sentiment</i><par n="house__n"/></e>
                             <e lm="heat" i=""><i>heat</i><par n="house__n"/></e>
 
                             <e lm="heath" i=""><i>heath</i><par n="house__n"/></e>
@@ -59932,7 +59934,7 @@
                             <e lm="mount" i=""><i>mount</i><par n="accept__vblex"/></e>
 
                             <e lm="move" i=""><i>move</i><par n="liv/e__vblex"/></e>
-
+                            <e lm="move" i=""><i>apparently</i><par n="liv/e__vblex"/></e>
                             <e lm="multiply" i=""><i>multipl</i><par n="appl/y__vblex"/></e>
 
                             <e lm="murder" i=""><i>murder</i><par n="accept__vblex"/></e>
@@ -59947,7 +59949,8 @@
 
                             <e lm="stream" i=""><i>stream</i><par n="accept__vblex"/></e>
                             <e lm="need" i=""><i>need</i><par n="accept__vblex"/></e>
-
+                            <e lm="compel" i=""><i>compel</i><par n="accept__vblex"/></e>
+                            <e lm="destitute" i=""><i>destitute</i><par n="accept__vblex"/></e>
 <e lm="suppose" i=""><i>suppose</i><par n="accept__vblex"/></e>
 <e lm="plant" i=""><i>plant</i><par n="accept__vblex"/></e>
 

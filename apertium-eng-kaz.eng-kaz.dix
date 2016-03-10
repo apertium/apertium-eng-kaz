@@ -4954,7 +4954,7 @@
 <e><p><l>hearing<s n="n"/></l><r>тыңдау<s n="n"/></r></p></e>
 <e><p><l>hearth<s n="n"/></l><r>отан<s n="n"/></r></p></e>
 <e><p><l>heart<s n="n"/></l><r>жүрек<s n="n"/></r></p></e>
-<e><p><l>heart<s n="n"/></l><r>көңіл<s n="n"/></r></p></e>
+<e r="RL"						><p><l>sentiment<s n="n"/></l><r>көңіл<s n="n"/></r></p></e>
 <e><p><l>hearty<s n="n"/></l><r>нәр<s n="n"/></r></p></e>
 <e><p><l>heater<s n="n"/></l><r>қыздырғыш<s n="n"/></r></p></e>
 <e><p><l>heathenism<s n="n"/></l><r>пұтқа<b/>табынушылық<s n="n"/></r></p></e>
@@ -14909,6 +14909,7 @@
 <e><p><l>furiously<s n="adv"/></l><r>сұрапыл<s n="adv"/></r></p></e>
 <e><p><l>furthermore<s n="adv"/></l><r>одан<b/>әрі<s n="post"/></r></p></e>
 <e><p><l>generally<s n="adv"/></l><r>жалпы<s n="adv"/></r></p></e>
+<e><p><l>entirely<s n="adv"/></l><r>түгелдей<s n="adv"/></r></p></e>
 <e><p><l>generously<s n="adv"/></l><r>кең<b/>пейілді<s n="adv"/></r></p></e>
 <e><p><l>genetically<s n="adv"/></l><r>генетикалы<s n="adv"/></r></p></e>
 <e><p><l>gently<s n="adv"/></l><r>нәзік<s n="adv"/></r></p></e>
@@ -18850,6 +18851,7 @@
 <e><p><l>sweet<s n="adj"/><s n="sint"/></l><r>тәтті<s n="adj"/></r></p></e>
 <e><p><l>swift<s n="adj"/><s n="sint"/></l><r>тез<s n="adj"/></r></p></e>
 <e><p><l>tall<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>
+<e><p><l>flat<s n="adj"/><s n="sint"/></l><r>жалпақ<s n="adj"/></r></p></e>
 <e><p><l>tender<s n="adj"/><s n="sint"/></l><r>нәзік<s n="adj"/></r></p></e>
 <e><p><l>tidy<s n="adj"/><s n="sint"/></l><r>мұнтаздық<s n="adj"/></r></p></e>
 <e><p><l>tiny<s n="adj"/><s n="sint"/></l><r>кішкентай<s n="adj"/></r></p></e>
@@ -18978,6 +18980,7 @@
 <e><p><l>each<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>әр<s n="prn"/><s n="ind"/></r></p></e>
 <e><p><l>everybody<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәрі<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
 <e><p><l>everyone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>бәрі<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
+<e><p><l>almost<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>түгелге<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
 <e><p><l>someone<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>біреу<s n="prn"/><s n="ind"/></r></p></e>
 <e><p><l>whatever<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>қандай<s n="prn"/><s n="itg"/><s n="sim"/><s n="nom"/></r></p></e>
 <e><p><l>both<s n="prn"/><s n="tn"/><s n="mf"/></l><r>екеу<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
@@ -20232,6 +20235,7 @@
 <e><p><l>mount<s n="vblex"/></l><r>өс<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>mourn<s n="vblex"/></l><r>жоқта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>move<s n="vblex"/></l><r>жылжы<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>apparently<s n="vblex"/></l><r>мезі<b/>бол<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>move<s n="vblex"/></l><r>қозға<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>multiply<s n="vblex"/></l><r>көбейт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>murder<s n="vblex"/></l><r>өлтір<s n="v"/><s n="tv"/></r></p></e>
@@ -20243,6 +20247,8 @@
 <e><p><l>near<s n="vblex"/></l><r>жақында<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>need<s n="vblex"/></l><r>керек<s n="vaux"/><s n="pres"/></r></p></e>
 <e><p><l>need<s n="vblex"/></l><r>қажет<b/>бол<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>compel<s n="vblex"/></l><r>мәжбүр<b/>бол<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>destitute<s n="vblex"/></l><r>мұқтаж<b/>бол<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>plant<s n="vblex"/></l><r>қамтамасыз<b/>ету<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>suppose<s n="vblex"/></l><r>тиіс<b/>деп<b/>болжау<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>need<s n="vblex"/></l><r>қажет<s n="n"/></r></p></e>

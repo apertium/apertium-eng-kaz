@@ -329,6 +329,9 @@
 <e><p><l>accountant<s n="n"/></l><r>есепші<s n="n"/></r></p></e>
 <e><p><l>accounting<s n="n"/></l><r>бухгалтерлік<b/>есеп<s n="n"/></r></p></e>
 <e><p><l>account<s n="n"/></l><r>есеп<s n="n"/></r></p></e>
+<e><p><l>account<s n="n"/></l><r>шот<s n="n"/></r></p></e>
+<e><p><l>account<s n="n"/></l><r>түсіндірме<s n="n"/></r></p></e>
+<e><p><l>account<s n="n"/></l><r>тіркелгі<s n="n"/></r></p></e>
 <e><p><l>accreditation<s n="n"/></l><r>аккредитация<s n="n"/></r></p></e>
 <e><p><l>accretion<s n="n"/></l><r>аккреции<s n="n"/></r></p></e>
 <e><p><l>acculturation<s n="n"/></l><r>аккультурация<s n="n"/></r></p></e>
@@ -3174,6 +3177,7 @@
 <e><p><l>desinvestment<s n="n"/></l><r>инвестиция<b/>қысқарту<s n="n"/></r></p></e>
 <e><p><l>desire<s n="n"/></l><r>көңіл<s n="n"/></r></p></e>
 <e><p><l>desire<s n="n"/></l><r>тілек<s n="n"/></r></p></e>
+<e><p><l>desire<s n="n"/></l><r>ықылас<s n="n"/></r></p></e>
 <e><p><l>desk<s n="n"/></l><r>үстел<s n="n"/></r></p></e>
 <e><p><l>desktop<s n="n"/></l><r>жұмыс<b/>үстел<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>desolation<s n="n"/></l><r>талқандаушылық<s n="n"/></r></p></e>
@@ -4941,6 +4945,7 @@
 <e><p><l>head<s n="n"/></l><r>бас<s n="n"/></r></p></e>
 <e><p><l>head<s n="n"/></l><r>бастық<s n="n"/></r></p></e>
 <e><p><l>head<s n="n"/></l><r>басшы<s n="n"/></r></p></e>
+<e><p><l>head<s n="n"/></l><r>бастаушы<s n="n"/></r></p></e>
 <e><p><l>headway<s n="n"/></l><r>ілгерілік<s n="n"/></r></p></e>
 <e><p><l>healing<s n="n"/></l><r>емдік<s n="n"/></r></p></e>
 <e><p><l>health<s n="n"/></l><r>ахуал<s n="n"/></r></p></e>
@@ -6240,6 +6245,8 @@
 <e><p><l>mainstream<s n="n"/></l><r>негізгі<b/>ағым<s n="n"/></r></p></e>
 <e><p><l>maintenance<s n="n"/></l><r>сүйеніш<s n="n"/></r></p></e>
 <e><p><l>majesty<s n="n"/></l><r>айбын<s n="n"/></r></p></e>
+<e><p><l>majesty<s n="n"/></l><r>айбындылық<s n="n"/></r></p></e>
+<e><p><l>majesty<s n="n"/></l><r>мәртебелілік<s n="n"/></r></p></e>
 <e><p><l>majilis<s n="n"/></l><r>мәжіліс<s n="n"/></r></p></e>
 <e><p><l>majordomo<s n="n"/></l><r>мажордом<s n="n"/></r></p></e>
 <e><p><l>majority<s n="n"/></l><r>көпшілік<s n="n"/></r></p></e>
@@ -10158,6 +10165,9 @@
 <e><p><l>thimble<s n="n"/></l><r>оймақ<s n="n"/></r></p></e>
 <e><p><l>thing<s n="n"/></l><r>зат<s n="n"/></r></p></e>
 <e><p><l>thing<s n="n"/></l><r>нәрсе<s n="n"/></r></p></e>
+<e><p><l>thing<s n="n"/></l><r>жағдай<s n="n"/></r></p></e>
+<e><p><l>thing<s n="n"/></l><r>іс<s n="n"/></r></p></e>
+<e><p><l>thing<s n="n"/></l><r>мәселе<s n="n"/></r></p></e>
 <e><p><l>thinker<s n="n"/></l><r>ойшыл<s n="n"/></r></p></e>
 <e><p><l>thinness<s n="n"/></l><r>жіңішкелік<s n="n"/></r></p></e>
 <e><p><l>third<s n="n"/></l><r>үшінші<s n="n"/></r></p></e>
@@ -10836,6 +10846,10 @@
 <e><p><l>wave<s n="n"/></l><r>толқын<s n="n"/></r></p></e>
 <e><p><l>wax<s n="n"/></l><r>балауыз<s n="n"/></r></p></e>
 <e><p><l>way<s n="n"/></l><r>жол<s n="n"/></r></p></e>
+<e><p><l>way<s n="n"/></l><r>тәсіл<s n="n"/></r></p></e>
+<e><p><l>way<s n="n"/></l><r>бағыт<s n="n"/></r></p></e>
+<e><p><l>way<s n="n"/></l><r>әдіс<s n="n"/></r></p></e>
+<e><p><l>way<s n="n"/></l><r>сапар<s n="n"/></r></p></e>
 <e><p><l>waystation<s n="n"/></l><r>аралық<b/>аялдама<s n="n"/></r></p></e>
 <e><p><l>weakness<s n="n"/></l><r>әлсіздік<s n="n"/></r></p></e>
 <e><p><l>wealth<s n="n"/></l><r>байлық<s n="n"/></r></p></e>
@@ -10934,6 +10948,9 @@
 <e><p><l>woodworm<s n="n"/></l><r>қабық<b/>құрт<s n="n"/></r></p></e>
 <e><p><l>wool<s n="n"/></l><r>жүн<s n="n"/></r></p></e>
 <e><p><l>word<s n="n"/></l><r>сөз<s n="n"/></r></p></e>
+<e><p><l>word<s n="n"/></l><r>пікір<s n="n"/></r></p></e>
+<e><p><l>word<s n="n"/></l><r>серт<s n="n"/></r></p></e>
+<e><p><l>word<s n="n"/></l><r>уәде<s n="n"/></r></p></e>
 <e><p><l>workbench<s n="n"/></l><r>аспаптық<s n="n"/></r></p></e>
 <e><p><l>workday<s n="n"/></l><r>күнбе-күнгі<s n="n"/></r></p></e>
 <e><p><l>worker<s n="n"/></l><r>жұмысшы<s n="n"/></r></p></e>
@@ -10947,6 +10964,8 @@
 <e><p><l>world<s n="n"/></l><r>дүние<b/>жүзі<s n="n"/></r></p></e>
 <e><p><l>world<s n="n"/></l><r>дүние<s n="n"/></r></p></e>
 <e><p><l>world<s n="n"/></l><r>әлем<s n="n"/></r></p></e>
+<e><p><l>world<s n="n"/></l><r>жұрт<s n="n"/></r></p></e>
+<e><p><l>world<s n="n"/></l><r>қоғам<s n="n"/></r></p></e>
 <e><p><l>worm<s n="n"/></l><r>құрт<s n="n"/></r></p></e>
 <e><p><l>worry<s n="n"/></l><r>қайғы<s n="n"/></r></p></e>
 <e><p><l>worry<s n="n"/></l><r>уайым<s n="n"/></r></p></e>
@@ -18815,6 +18834,7 @@
 <e><p><l>slim<s n="adj"/><s n="sint"/></l><r>жіңішке<s n="adj"/></r></p></e>
 <e><p><l>slow<s n="adj"/><s n="sint"/></l><r>ақырын<s n="adj"/></r></p></e>
 <e><p><l>small<s n="adj"/><s n="sint"/></l><r>кішкентай<s n="adj"/></r></p></e>
+<e><p><l>small<s n="adj"/><s n="sint"/></l><r>ұсақ<s n="adj"/></r></p></e>
 <e><p><l>smart<s n="adj"/><s n="sint"/></l><r>ақылды<s n="adj"/></r></p></e>
 <e><p><l>sober<s n="adj"/><s n="sint"/></l><r>айыққан<s n="adj"/></r></p></e>
 <e><p><l>sour<s n="adj"/><s n="sint"/></l><r>қышқыл<s n="adj"/></r></p></e>

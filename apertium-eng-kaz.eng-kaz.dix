@@ -21086,15 +21086,14 @@
 <e><p><l>source<s n="n"/></l><r>көз<s n="n"/></r></p></e>
 <e><p><l>eyelet<s n="n"/></l><r>көз<s n="n"/></r></p></e>
 <e><p><l>aperture<s n="n"/></l><r>көз<s n="n"/></r></p></e>
-<e><p><l>big<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
-<e><p><l>great<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
-<e><p><l>large<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
-<e><p><l>grand<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
-<e><p><l>more<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
-<e><p><l>tremendous<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
-<e><p><l>formidable<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
-<e><p><l>senior<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
-<e><p><l>gigantic<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>great<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
+<e><p><l>large<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
+<e><p><l>grand<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>more<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
+<e><p><l>tremendous<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
+<e><p><l>formidable<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
+<e><p><l>senior<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
+<e><p><l>gigantic<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
 <e><p><l>іncіdent<s n="n"/></l><r>жағдай<s n="n"/></r></p></e>
 <e><p><l>quality<s n="n"/></l><r>жағдай<s n="n"/></r></p></e>
 <e><p><l>disposition<s n="n"/></l><r>жағдай<s n="n"/></r></p></e>
@@ -21245,7 +21244,7 @@
 <e><p><l>grand<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>take<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>view<s n="n"/></l><r>бет<s n="n"/></r></p></e>
-<e><p><l>more<s n="adj"/></l><r>үлкен<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>more<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
 <e><p><l>man<s n="n"/></l><r>жігіт<s n="n"/></r></p></e>
 <e><p><l>string<s n="n"/></l><r>жіп<s n="n"/></r></p></e>
 <e><p><l>voyage<s n="n"/></l><r>жол<s n="n"/></r></p></e>
@@ -21268,7 +21267,7 @@
 
 <e><p><l>high<s n="adj"/><s n="sint"/></l><r>қатты<s n="adj"/></r></p></e>
 <e><p><l>young<s n="n"/></l><r>жас<s n="n"/></r></p></e>
-<e><p><l>several<s n="adj"/></l><r>түрлі<s n="adj"/></r></p></e>
+<e><p><l>several<s n="adj"/><s n="sint"/></l><r>түрлі<s n="adj"/></r></p></e>
 
 
 

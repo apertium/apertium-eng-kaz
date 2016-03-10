@@ -42740,7 +42740,9 @@
 
                             <e lm="bracelet" i=""><i>bracelet</i><par n="house__n"/></e>
 
-<e lm="brude" i=""><i>brude</i><par n="house__n"/></e>
+<e lm="ramrod" i=""><i>ramrod</i><par n="house__n"/></e>
+
+<e lm="bruden" i=""><i>bruden</i><par n="house__n"/></e>
 
                             <e lm="brain" i=""><i>brain</i><par n="house__n"/></e>
 
@@ -42815,6 +42817,8 @@
                             <e lm="brush" i=""><i>brush</i><par n="access__n"/></e>
 
                             <e lm="brutality" i=""><i>brutalit</i><par n="bab/y__n"/></e>
+
+ <e lm="brute" i=""><i>brute</i><par n="house__n"/></e>
 
                             <e lm="bubble" i=""><i>bubble</i><par n="house__n"/></e>
 
@@ -44814,6 +44818,8 @@
                             <e lm="disposal" i=""><i>disposal</i><par n="house__n"/></e>
 
                             <e lm="disposition" i=""><i>disposition</i><par n="house__n"/></e>
+
+<e lm="chute" i=""><i>chute</i><par n="house__n"/></e>
 
                             <e lm="disproportion" i=""><i>disproportion</i><par n="house__n"/></e>
 
@@ -61122,6 +61128,7 @@
                             <e lm="urge" i=""><i>urg</i><par n="liv/e__vblex"/></e>
 
                             <e lm="use" i=""><i>us</i><par n="liv/e__vblex"/></e>
+ <e lm="peruse" i=""><i>perus</i><par n="liv/e__vblex"/></e>
 
                             <e lm="usurp" i=""><i>usurp</i><par n="accept__vblex"/></e>
 
@@ -64839,6 +64846,15 @@
 
                             <e lm="actress" i=""><i>actress</i><par n="access__n"/></e>
 
+ <e lm="authoress" i=""><i>authoress</i><par n="access__n"/></e>
+
+<e lm="mistress" i=""><i>mistress</i><par n="access__n"/></e>
+
+<e lm="carcass" i=""><i>carcass</i><par n="access__n"/></e>
+<e lm="lex" i=""><i>lex</i><par n="access__n"/></e>
+<e lm="dzhigit" i=""><i>dzhigit</i><par n="house__n"/></e>
+
+<e lm="packthread" i=""><i>packthread</i><par n="house__n"/></e>
                             <e lm="actuarial" i=""><i>actuarial</i><par n="expensive__adj"/></e>
 
                             <e lm="actuator" i=""><i>actuator</i><par n="house__n"/></e>
@@ -70618,7 +70634,9 @@
                             <e lm="overprinting" i=""><i>overprinting</i><par n="house__n"/></e>
 
                             <e lm="oversight" i=""><i>oversight</i><par n="house__n"/></e>
+<e lm="eyesight" i=""><i>eyesight</i><par n="house__n"/></e>
 
+<e lm="eyelet" i=""><i>eyelet</i><par n="house__n"/></e>
                             <e lm="overthrow" i=""><i>overthrow</i><par n="house__n"/></e>
 
                             <e lm="oviduct" i=""><i>oviduct</i><par n="house__n"/></e>
@@ -74777,6 +74795,8 @@
 
                             <e lm="adventurer" i=""><i>adventurer</i><par n="house__n"/></e>
 
+ <e lm="aperture" i=""><i>aperture</i><par n="house__n"/></e>
+ <e lm="claw" i=""><i>claw</i><par n="house__n"/></e>
                             <e lm="adventurous" i=""><i>adventurous</i><par n="expensive__adj"/></e>
 
                             <e lm="adventurously" i=""><i>adventurously</i><par n="maybe__adv"/></e>
@@ -74817,8 +74837,11 @@
 
                             <e lm="northeastern" i=""><i>northeastern</i><par n="expensive__adj"/></e>
 
+ <e lm="stony" i=""><i>stony</i><par n="expensive__adj"/></e>
+ <e lm="sturdy" i=""><i>sturdy</i><par n="expensive__adj"/></e>
                             <e lm="amusement" i=""><i>amusement</i><par n="house__n"/></e>
 
+<e lm="enactment" i=""><i>enactment</i><par n="house__n"/></e>
                             <e lm="rod" i=""><i>rod</i><par n="house__n"/></e>
 
                             <e lm="kettle" i=""><i>kettle</i><par n="house__n"/></e>
@@ -75344,6 +75367,8 @@
 
                             <e lm="offender" i=""><i>offender</i><par n="house__n"/></e>
 
+ <e lm="fender" i=""><i>fender</i><par n="house__n"/></e>
+
                             <e lm="bully" i=""><i>bull</i><par n="bab/y__n"/></e>
 
                             <e lm="embarrassing" i=""><i>embarrassing</i><par n="expensive__adj"/></e>
@@ -75413,6 +75438,7 @@
                             <e lm="fist" i=""><i>fist</i><par n="house__n"/></e>
 
                             <e lm="bacon" i=""><i>bacon</i><par n="house__n"/></e>
+<e lm="acolyte" i=""><i>acolyte</i><par n="house__n"/></e>
 
                             <e lm="New Orleans" i=""><i>New<b/>Orleans</i><par n="Mars__np"/></e>
 

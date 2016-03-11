@@ -332,6 +332,8 @@
 <e><p><l>account<s n="n"/></l><r>шот<s n="n"/></r></p></e>
 <e><p><l>account<s n="n"/></l><r>түсіндірме<s n="n"/></r></p></e>
 <e><p><l>account<s n="n"/></l><r>тіркелгі<s n="n"/></r></p></e>
+<e><p><l>account<s n="n"/></l><r>сипаттама<s n="n"/></r></p></e>
+<e><p><l>account<s n="n"/></l><r>түсінік<s n="n"/></r></p></e>
 <e><p><l>accreditation<s n="n"/></l><r>аккредитация<s n="n"/></r></p></e>
 <e><p><l>accretion<s n="n"/></l><r>аккреции<s n="n"/></r></p></e>
 <e><p><l>acculturation<s n="n"/></l><r>аккультурация<s n="n"/></r></p></e>
@@ -4231,8 +4233,12 @@
 <e><p><l>fiction<s n="n"/></l><r>қиял<s n="n"/></r></p></e>
 <e><p><l>fidelity<s n="n"/></l><r>адалдық<s n="n"/></r></p></e>
 <e><p><l>field<s n="n"/></l><r>дала<s n="n"/></r></p></e>
+<e><p><l>field<s n="n"/></l><r>алаң<s n="n"/></r></p></e>
+<e><p><l>field<s n="n"/></l><r>алқап<s n="n"/></r></p></e>
 <e><p><l>field<s n="n"/></l><r>егінжай<s n="n"/></r></p></e>
 <e><p><l>field<s n="n"/></l><r>сала<s n="n"/></r></p></e>
+<e><p><l>field<s n="n"/></l><r>өріс<s n="n"/></r></p></e>
+<e><p><l>field<s n="n"/></l><r>жолақ<s n="n"/></r></p></e>
 <e><p><l>fifth<s n="n"/></l><r>табан<s n="n"/></r></p></e>
 <e><p><l>fighter<s n="n"/></l><r>күресуші<s n="n"/></r></p></e>
 <e><p><l>fighter<s n="n"/></l><r>соғысушы<s n="n"/></r></p></e>
@@ -4399,6 +4405,11 @@
 <e><p><l>form<s n="n"/></l><r>құрылым<s n="n"/></r></p></e>
 <e><p><l>form<s n="n"/></l><r>пішін<s n="n"/></r></p></e>
 <e><p><l>form<s n="n"/></l><r>түр<s n="n"/></r></p></e>
+<e><p><l>form<s n="n"/></l><r>форма<s n="n"/></r></p></e>
+<e><p><l>form<s n="n"/></l><r>үлгі<s n="n"/></r></p></e>
+<e><p><l>form<s n="n"/></l><r>сауалнама<s n="n"/></r></p></e>
+<e><p><l>form<s n="n"/></l><r>рәсім<s n="n"/></r></p></e>
+<e><p><l>form<s n="n"/></l><r>салтанат<s n="n"/></r></p></e>
 <e><p><l>formula<s n="n"/></l><r>формула<s n="n"/></r></p></e>
 <e><p><l>formulation<s n="n"/></l><r>тұжырымдау<s n="n"/></r></p></e>
 <e><p><l>formulism<s n="n"/></l><r>формулиз<s n="n"/></r></p></e>
@@ -4899,6 +4910,7 @@
 <e><p><l>Handlebar<s n="n"/></l><r>тұтқа<s n="n"/></r></p></e>
 <e><p><l>handshake<s n="n"/></l><r>қол<b/>алысу<s n="n"/></r></p></e>
 <e><p><l>hand<s n="n"/></l><r>қол<s n="n"/></r></p></e>
+<e><p><l>hand<s n="n"/></l><r>қолтаңба<s n="n"/></r></p></e>
 <e><p><l>handwriting<s n="n"/></l><r>қолжазба<s n="n"/></r></p></e>
 <e><p><l>hangar<s n="n"/></l><r>ангар<s n="n"/></r></p></e>
 <e><p><l>hanger<s n="n"/></l><r>иықағаш<s n="n"/></r></p></e>
@@ -7219,6 +7231,7 @@
 <e><p><l>orc<s n="n"/></l><r>орк<s n="n"/></r></p></e>
 <e><p><l>ordeal<s n="n"/></l><r>әурешілік<s n="n"/></r></p></e>
 <e><p><l>order<s n="n"/></l><r>орден<s n="n"/></r></p></e>
+<e><p><l>order<s n="n"/></l><r>жарлық<s n="n"/></r></p></e>
 <e><p><l>order<s n="n"/></l><r>рет<s n="n"/></r></p></e>
 <e><p><l>order<s n="n"/></l><r>тапсырыс<s n="n"/></r></p></e>
 <e><p><l>order<s n="n"/></l><r>қатар<s n="n"/></r></p></e>
@@ -8002,6 +8015,10 @@
 <e><p><l>postproduction<s n="n"/></l><r>постпродакшн<s n="n"/></r></p></e>
 <e><p><l>postscript<s n="n"/></l><r>постскриптум<s n="n"/></r></p></e>
 <e><p><l>post<s n="n"/></l><r>бағана<s n="n"/></r></p></e>
+<e><p><l>post<s n="n"/></l><r>пошта<s n="n"/></r></p></e>
+<e><p><l>post<s n="n"/></l><r>лауазым<s n="n"/></r></p></e>
+<e><p><l>post<s n="n"/></l><r>қызмет<b/>орын<s n="n"/></r></p></e>
+<e><p><l>post<s n="n"/></l><r>күзет<b/>орын<s n="n"/></r></p></e>
 <e><p><l>postulate<s n="n"/></l><r>постулат<s n="n"/></r></p></e>
 <e><p><l>posture<s n="n"/></l><r>жағдай<s n="n"/></r></p></e>
 <e><p><l>potamology<s n="n"/></l><r>потамология<s n="n"/></r></p></e>
@@ -10853,6 +10870,7 @@
 <e><p><l>wave<s n="n"/></l><r>толқын<s n="n"/></r></p></e>
 <e><p><l>wax<s n="n"/></l><r>балауыз<s n="n"/></r></p></e>
 <e><p><l>way<s n="n"/></l><r>жол<s n="n"/></r></p></e>
+<e><p><l>way<s n="n"/></l><r>із<s n="n"/></r></p></e>
 <e><p><l>way<s n="n"/></l><r>тәсіл<s n="n"/></r></p></e>
 <e><p><l>way<s n="n"/></l><r>бағыт<s n="n"/></r></p></e>
 <e><p><l>way<s n="n"/></l><r>әдіс<s n="n"/></r></p></e>
@@ -17247,6 +17265,10 @@
 <e><p><l>kafkaesque<s n="adj"/></l><r>кафкиандық<s n="adj"/></r></p></e>
 <e><p><l>kazakh<s n="adj"/></l><r>қазақ<s n="adj"/></r></p></e>
 <e><p><l>killed<s n="adj"/></l><r>жойылған<s n="adj"/></r></p></e>
+<e><p><l>kind<s n="adj"/></l><r>мейірімді<s n="adj"/></r></p></e>
+<e><p><l>kind<s n="adj"/></l><r>жарқын<s n="adj"/></r></p></e>
+<e><p><l>kind<s n="adj"/></l><r>мейірбан<s n="adj"/></r></p></e>
+<e><p><l>kind<s n="adj"/></l><r>ізетті<s n="adj"/></r></p></e>
 <e><p><l>kindled<s n="adj"/></l><r>лаулаған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>knotted<s n="adj"/></l><r>тоқылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>knotty<s n="adj"/></l><r>түйінді<s n="adj"/><s n="subst"/></r></p></e>
@@ -18842,6 +18864,10 @@
 <e><p><l>slim<s n="adj"/><s n="sint"/></l><r>жіңішке<s n="adj"/></r></p></e>
 <e><p><l>slow<s n="adj"/><s n="sint"/></l><r>ақырын<s n="adj"/></r></p></e>
 <e><p><l>small<s n="adj"/><s n="sint"/></l><r>кішкентай<s n="adj"/></r></p></e>
+<e><p><l>small<s n="adj"/><s n="sint"/></l><r>тар<s n="adj"/></r></p></e>
+<e><p><l>small<s n="adj"/><s n="sint"/></l><r>шағын<s n="adj"/></r></p></e>
+<e><p><l>small<s n="adj"/><s n="sint"/></l><r>жеңіл<s n="adj"/></r></p></e>
+<e><p><l>small<s n="adj"/><s n="sint"/></l><r>аз<s n="adj"/></r></p></e>
 <e><p><l>small<s n="adj"/><s n="sint"/></l><r>ұсақ<s n="adj"/></r></p></e>
 <e><p><l>smart<s n="adj"/><s n="sint"/></l><r>ақылды<s n="adj"/></r></p></e>
 <e><p><l>sober<s n="adj"/><s n="sint"/></l><r>айыққан<s n="adj"/></r></p></e>
@@ -19403,6 +19429,7 @@
 <e><p><l>capture<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>care<s n="vblex"/></l><r>күт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>carry<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>carry<s n="vblex"/></l><r>апар<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>carry<s n="vblex"/></l><r>тас<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>carry<s n="vblex"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>carry<s n="vblex"/></l><r>жина<s n="v"/><s n="tv"/></r></p></e>
@@ -20153,6 +20180,9 @@
 <e><p><l>jump<s n="vblex"/></l><r>секір<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>justify<s n="vblex"/></l><r>адалда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>keep<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>keep<s n="vblex"/></l><r>сақта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>keep<s n="vblex"/></l><r>қорға<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>keep<s n="vblex"/></l><r>бақ<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>ken<s n="vblex"/></l><r>біл<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>kick<s n="vblex"/></l><r>теп<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>kidnap<s n="vblex"/></l><r>бала<b/>ұрла<s n="v"/><s n="tv"/></r></p></e>
@@ -20302,6 +20332,8 @@
 <e><p><l>oblige<s n="vblex"/></l><r>міндетте<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>obscure<s n="vblex"/></l><r>тұнжырат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>observe<s n="vblex"/></l><r>қарастыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>observe<s n="vblex"/></l><r>қара<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>observe<s n="vblex"/></l><r>байқа<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>observe<s n="vblex"/></l><r>бақыла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>observe<s n="vblex"/></l><r>белгіле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>observe<s n="vblex"/></l><r>ұстан<s n="v"/><s n="iv"/></r></p></e>
@@ -20343,6 +20375,9 @@
 <e><p><l>part<s n="vblex"/></l><r>бөлшекте<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>participate<s n="vblex"/></l><r>қатыс<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>pass<s n="vblex"/></l><r>өт<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>pass<s n="vblex"/></l><r>ас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>pass<s n="vblex"/></l><r>тапсыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>pass<s n="vblex"/></l><r>түс<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>past<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>past<s n="vblex"/></l><r>кет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>patch<s n="vblex"/></l><r>түзе<s n="v"/><s n="tv"/></r></p></e>
@@ -20402,6 +20437,8 @@
 <e><p><l>portray<s n="vblex"/></l><r>бейнеле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>pose<s n="vblex"/></l><r>көрсет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>possess<s n="vblex"/></l><r>ие<b/>бол<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>post<s n="vblex"/></l><r>орналастыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>post<s n="vblex"/></l><r>хабарла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>postpone<s n="vblex"/></l><r>бөліп<b/>жина<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>pour<s n="vblex"/></l><r>құй<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>practice<s n="vblex"/></l><r>қолдан<s n="v"/><s n="tv"/></r></p></e>
@@ -20416,7 +20453,11 @@
 <e><p><l>prepare<s n="vblex"/></l><r>дайында<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>prescribe<s n="vblex"/></l><r>бұйрық<b/>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>present<s n="vblex"/></l><r>көрсет<s n="v"/><s n="tv"/></r></p></e>
-<e><p><l>preserve<s n="vblex"/></l><r>сақта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>present<s n="vblex"/></l><r>таныстыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>present<s n="vblex"/></l><r>сыйла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>present<s n="vblex"/></l><r>көрсет<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>present<s n="vblex"/></l><r>ұсын<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>preserve<s n="vblex"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>preside<s n="vblex"/></l><r>төрағалық<b/>ет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>press<s n="vblex"/></l><r>бас<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>pretend<s n="vblex"/></l><r>үміттен<s n="v"/><s n="iv"/></r></p></e>
@@ -20609,6 +20650,9 @@
 <e><p><l>rule<s n="vblex"/></l><r>басқар<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>rumble<s n="vblex"/></l><r>шула<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>run<s n="vblex"/></l><r>жүгір<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>run<s n="vblex"/></l><r>қаш<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>run<s n="vblex"/></l><r>жүргіз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>run<s n="vblex"/></l><r>жарыс<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>run<s n="vblex"/></l><r>жүгірт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>rush<s n="vblex"/></l><r>ұмтыл<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>rust<s n="vblex"/></l><r>таттан<s n="v"/><s n="iv"/></r></p></e>
@@ -20872,6 +20916,8 @@
 <e><p><l>tell<s n="vblex"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>tell<s n="vblex"/></l><r>бұйыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>tell<s n="vblex"/></l><r>хабарла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>tell<s n="vblex"/></l><r>сөйле<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>tell<s n="vblex"/></l><r>сөйлес<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>temper<s n="vblex"/></l><r>азайт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>tempt<s n="vblex"/></l><r>арба<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>tend<s n="vblex"/></l><r>күт<s n="v"/><s n="tv"/></r></p></e>

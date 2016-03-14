@@ -481,6 +481,10 @@
 <e><p><l>agenda<s n="n"/></l><r>күн<b/>тәртібі<s n="n"/></r></p></e>
 <e><p><l>agent<s n="n"/></l><r>агент<s n="n"/></r></p></e>
 <e><p><l>age<s n="n"/></l><r>заман<s n="n"/></r></p></e>
+<e><p><l>age<s n="n"/></l><r>дәуір<s n="n"/></r></p></e>
+<e><p><l>age<s n="n"/></l><r>ғасыр<s n="n"/></r></p></e>
+<e><p><l>age<s n="n"/></l><r>мезгіл<s n="n"/></r></p></e>
+<e><p><l>age<s n="n"/></l><r>мерзім<s n="n"/></r></p></e>
 <e><p><l>agglomerate<s n="n"/></l><r>шоғырын<s n="n"/></r></p></e>
 <e><p><l>agglomeration<s n="n"/></l><r>шоғыр<s n="n"/></r></p></e>
 <e><p><l>agglutination<s n="n"/></l><r>агглютинация<s n="n"/></r></p></e>
@@ -1528,6 +1532,12 @@
 <e><p><l>blunder<s n="n"/></l><r>дөрекі<b/>қате<s n="n"/></r></p></e>
 <e><p><l>blur<s n="n"/></l><r>дақ<s n="n"/></r></p></e>
 <e><p><l>board<s n="n"/></l><r>тақта<s n="n"/></r></p></e>
+<e><p><l>board<s n="n"/></l><r>сахна<s n="n"/></r></p></e>
+<e><p><l>board<s n="n"/></l><r>мекеме<s n="n"/></r></p></e>
+<e><p><l>board<s n="n"/></l><r>үстел<s n="n"/></r></p></e>
+<e><p><l>board<s n="n"/></l><r>өкімет<s n="n"/></r></p></e>
+<e><p><l>board<s n="n"/></l><r>тақтай<s n="n"/></r></p></e>
+<e><p><l>board<s n="n"/></l><r>басқарма<s n="n"/></r></p></e>
 <e><p><l>boa<s n="n"/></l><r>айдаһар<s n="n"/></r></p></e>
 <e><p><l>boat<s n="n"/></l><r>қайық<s n="n"/></r></p></e>
 <e><p><l>boatswain<s n="n"/></l><r>боцман<s n="n"/></r></p></e>
@@ -1592,6 +1602,7 @@
 <e><p><l>bowel<s n="n"/></l><r>ішек<s n="n"/></r></p></e>
 <e><p><l>bowl<s n="n"/></l><r>астау<s n="n"/></r></p></e>
 <e><p><l>box<s n="n"/></l><r>жәшік<s n="n"/></r></p></e>
+<e><p><l>box<s n="n"/></l><r>бокс<s n="n"/></r></p></e>
 <e><p><l>boyfriend<s n="n"/></l><r>дос<s n="n"/></r></p></e>
 <e><p><l>boy<s n="n"/></l><r>ұл<s n="n"/></r></p></e>
 <e><p><l>BP<s n="n"/></l><r>BP<s n="abbr"/></r></p></e>
@@ -2974,6 +2985,9 @@
 <e><p><l>database<s n="n"/></l><r>дерекқор<s n="n"/></r></p></e>
 <e><p><l>Datagram<s n="n"/></l><r>дейтаграмма<s n="n"/></r></p></e>
 <e><p><l>date<s n="n"/></l><r>күн<s n="n"/></r></p></e>
+<e><p><l>date<s n="n"/></l><r>мезгіл<s n="n"/></r></p></e>
+<e><p><l>date<s n="n"/></l><r>мерзім<s n="n"/></r></p></e>
+<e><p><l>date<s n="n"/></l><r>кездесу<s n="n"/></r></p></e>
 <e><p><l>dating<s n="n"/></l><r>даталау<s n="n"/></r></p></e>
 <e><p><l>daughter<s n="n"/></l><r>қызы<s n="n"/></r></p></e>
 <e><p><l>dawn<s n="n"/></l><r>таң<s n="n"/></r></p></e>
@@ -4830,6 +4844,9 @@
 <e><p><l>groundhog<s n="n"/></l><r>суыр<s n="n"/></r></p></e>
 <e><p><l>ground<s n="n"/></l><r>жер<s n="n"/></r></p></e>
 <e><p><l>ground<s n="n"/></l><r>топырақ<s n="n"/></r></p></e>
+<e><p><l>ground<s n="n"/></l><r>негіз<s n="n"/></r></p></e>
+<e><p><l>ground<s n="n"/></l><r>аудан<s n="n"/></r></p></e>
+<e><p><l>ground<s n="n"/></l><r>алаң<s n="n"/></r></p></e>
 <e><p><l>groundwater<s n="n"/></l><r>топырақ<b/>су<s n="n"/></r></p></e>
 <e><p><l>grouping<s n="n"/></l><r>бірігу<s n="n"/></r></p></e>
 <e><p><l>group<s n="n"/></l><r>топ<s n="n"/></r></p></e>
@@ -6028,6 +6045,7 @@
 <e><p><l>lethargy<s n="n"/></l><r>летаргия<s n="n"/></r></p></e>
 <e><p><l>letterhead<s n="n"/></l><r>бланк<s n="n"/></r></p></e>
 <e><p><l>letter<s n="n"/></l><r>хат<s n="n"/></r></p></e>
+<e><p><l>letter<s n="n"/></l><r>әріп<s n="n"/></r></p></e>
 <e><p><l>lettuce<s n="n"/></l><r>салат<s n="n"/></r></p></e>
 <e><p><l>leucine<s n="n"/></l><r>лейцин<s n="n"/></r></p></e>
 <e><p><l>leucocyte<s n="n"/></l><r>лейкоцит<s n="n"/></r></p></e>
@@ -7768,6 +7786,8 @@
 <e><p><l>picture<s n="n"/></l><r>сурет<s n="n"/></r></p></e>
 <e><p><l>picture<s n="n"/></l><r>сүрет<s n="n"/></r></p></e>
 <e><p><l>piece<s n="n"/></l><r>бөлшек<s n="n"/></r></p></e>
+<e><p><l>piece<s n="n"/></l><r>дана<s n="n"/></r></p></e>
+<e><p><l>piece<s n="n"/></l><r>кесек<s n="n"/></r></p></e>
 <e><p><l>piercing<s n="n"/></l><r>пирсинг<s n="n"/></r></p></e>
 <e><p><l>pie<s n="n"/></l><r>қаусырма<s n="n"/></r></p></e>
 <e><p><l>pigeonhole<s n="n"/></l><r>жасырын<b/>орын<s n="n"/></r></p></e>
@@ -10017,6 +10037,7 @@
 <e><p><l>system<s n="n"/></l><r>жүйе<s n="n"/></r></p></e>
 <e><p><l>systole<s n="n"/></l><r>систола<s n="n"/></r></p></e>
 <e><p><l>table<s n="n"/></l><r>үстел<s n="n"/></r></p></e>
+<e><p><l>table<s n="n"/></l><r>кесте<s n="n"/></r></p></e>
 <e><p><l>tablet<s n="n"/></l><r>блокнот<s n="n"/></r></p></e>
 <e><p><l>tableware<s n="n"/></l><r>ыдыс<s n="n"/></r></p></e>
 <e><p><l>tab<s n="n"/></l><r>есепшот<s n="n"/></r></p></e>
@@ -10737,6 +10758,9 @@
 <e><p><l>viewer<s n="n"/></l><r>тамашалаушы<s n="n"/></r></p></e>
 <e><p><l>viewpoint<s n="n"/></l><r>тұрғы<s n="n"/></r></p></e>
 <e><p><l>view<s n="n"/></l><r>көрініс<s n="n"/></r></p></e>
+<e><p><l>view<s n="n"/></l><r>пікір<s n="n"/></r></p></e>
+<e><p><l>view<s n="n"/></l><r>көзқарас<s n="n"/></r></p></e>
+<e><p><l>view<s n="n"/></l><r>пейзаж<s n="n"/></r></p></e>
 <e><p><l>vigour<s n="n"/></l><r>күш<s n="n"/></r></p></e>
 <e><p><l>village<s n="n"/></l><r>ауыл<s n="n"/></r></p></e>
 <e><p><l>village<s n="n"/></l><r>қыстау<s n="n"/></r></p></e>
@@ -10938,6 +10962,7 @@
 <e><p><l>windpipe<s n="n"/></l><r>трахея<s n="n"/></r></p></e>
 <e><p><l>windscreen<s n="n"/></l><r>жел<b/>әйнек<s n="n"/></r></p></e>
 <e><p><l>wind<s n="n"/></l><r>жел<s n="n"/></r></p></e>
+<e><p><l>wind<s n="n"/></l><r>бұрылыс<s n="n"/></r></p></e>
 <e><p><l>windsurfer<s n="n"/></l><r>виндсерфер<s n="n"/></r></p></e>
 <e><p><l>windsurfer<s n="n"/></l><r>виндсэрфер<s n="n"/></r></p></e>
 <e><p><l>windsurfing<s n="n"/></l><r>виндсерфинг<s n="n"/></r></p></e>
@@ -10962,6 +10987,7 @@
 <e><p><l>wit<s n="n"/></l><r>тапқыштық<s n="n"/></r></p></e>
 <e><p><l>wittedness<s n="n"/></l><r>аңғарғыштық<s n="n"/></r></p></e>
 <e><p><l>wizard<s n="n"/></l><r>сиқыршы<s n="n"/></r></p></e>
+<e><p><l>wizard<s n="n"/></l><r>шебер<s n="n"/></r></p></e>
 <e><p><l>wolf<s n="n"/></l><r>қасқыр<s n="n"/></r></p></e>
 <e><p><l>womanhood<s n="n"/></l><r>әйелдік<s n="n"/></r></p></e>
 <e><p><l>woman<s n="n"/></l><r>әйел<s n="n"/></r></p></e>

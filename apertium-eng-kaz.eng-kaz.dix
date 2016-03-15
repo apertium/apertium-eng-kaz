@@ -1202,6 +1202,11 @@
 <e><p><l>background<s n="n"/></l><r>фон<s n="n"/></r></p></e>
 <e><p><l>backorder<s n="n"/></l><r>домен<s n="n"/></r></p></e>
 <e><p><l>backpack<s n="n"/></l><r>арқа<b/>қоржын<s n="n"/></r></p></e>
+<e><p><l>portfolio<s n="n"/></l><r>қоржын<s n="n"/></r></p></e>
+<e><p><l>MCI<s n="n"/></l><r>АЕК<s n="n"/></r></p></e>
+<e><p><l>CAO<s n="n"/></l><r>ӘқБК<s n="n"/></r></p></e>
+<e><p><l>RK<s n="n"/></l><r>ҚР<s n="n"/></r></p></e>
+<e><p><l>PSC<s n="n"/></l><r>ХҚКО<s n="n"/></r></p></e>
 <e><p><l>backrest<s n="n"/></l><r>арқа<s n="n"/></r></p></e>
 <e><p><l>backside<s n="n"/></l><r>артқы<b/>жақ<s n="n"/></r></p></e>
 <e><p><l>back<s n="n"/></l><r>арқа<s n="n"/></r></p></e>
@@ -18692,6 +18697,7 @@
 <e><p><l>angry<s n="adj"/><s n="sint"/></l><r>ашуқор<s n="adj"/></r></p></e>
 <e><p><l>avid<s n="adj"/><s n="sint"/></l><r>жебір<s n="adj"/></r></p></e>
 <e><p><l>bad<s n="adj"/><s n="sint"/></l><r>жаман<s n="adj"/></r></p></e>
+<e r="RL"><p><l>worse<s n="adj"/><s n="sint"/></l><r>бетер<s n="adj"/></r></p></e>
 <e><p><l>based<s n="adj"/><s n="sint"/></l><r>орналасқан<s n="adj"/></r></p></e>
 <e><p><l>big<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>
 <e><p><l>bloody<s n="adj"/><s n="sint"/></l><r>қанды<s n="adj"/></r></p></e>

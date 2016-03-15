@@ -56015,6 +56015,7 @@
                             <e lm="officious" i=""><i>officious</i><par n="expensive__adj"/></e>
 
                             <e lm="old" i=""><i>old</i><par n="long/__adj"/></e>
+                            <e lm="worse" i=""><i>worse</i><par n="long/__adj"/></e>
 
                             <e lm="old-fashioned" i=""><i>old-fashioned</i><par n="expensive__adj"/></e>
 
@@ -75699,6 +75700,16 @@
                             <e lm="laptop" i=""><i>laptop</i><par n="house__n"/></e>
 
                             <e lm="backpack" i=""><i>backpack</i><par n="house__n"/></e>
+
+                            <e lm="portfolio" i=""><i>portfolio</i><par n="house__n"/></e>
+
+                            <e lm="MCI" i=""><i>MCI</i><par n="house__n"/></e>
+
+                            <e lm="CAO" i=""><i>CAO</i><par n="house__n"/></e>
+
+                            <e lm="RK" i=""><i>RK</i><par n="house__n"/></e>
+
+                            <e lm="PSC" i=""><i>PSC</i><par n="house__n"/></e>
 
                             <e lm="heart rate" i=""><i>heart<b/>rate</i><par n="house__n"/></e>
 

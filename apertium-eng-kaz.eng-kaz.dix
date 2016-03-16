@@ -1596,6 +1596,15 @@
 <e><p><l>bottlenose<s n="n"/></l><r>афалин<s n="n"/></r></p></e>
 <e><p><l>bottle<s n="n"/></l><r>бөтелке<s n="n"/></r></p></e>
 <e><p><l>bottom<s n="n"/></l><r>асты<s n="n"/></r></p></e>
+<e><p><l>interval<s n="n"/></l><r>аралық<s n="n"/></r></p></e>
+<e><p><l>harm<s n="n"/></l><r>зақым<s n="n"/></r></p></e>
+<e><p><l>witness<s n="n"/></l><r>куә<s n="n"/></r></p></e>
+<e><p><l>reputation<s n="n"/></l><r>атақ<s n="n"/></r></p></e>
+<e><p><l>so-called<s n="n"/></l><r>аталмыш<s n="n"/></r></p></e>
+<e r="RL"><p><l>emblem<s n="n"/></l><r>елтаңба<s n="n"/></r></p></e>
+<e r="RL"><p><l>emblem<s n="n"/></l><r>герб<s n="n"/></r></p></e>
+<e><p><l>arms<s n="n"/></l><r>елтаңба<s n="n"/></r></p></e>
+<e><p><l>arms<s n="n"/></l><r>герб<s n="n"/></r></p></e>
 <e><p><l>Bouillabaisse<s n="n"/></l><r>Попурри<s n="n"/></r></p></e>
 <e><p><l>boulevard<s n="n"/></l><r>гүлзар<s n="n"/></r></p></e>
 <e><p><l>boundary<s n="n"/></l><r>шекара<s n="n"/></r></p></e>
@@ -4538,6 +4547,7 @@
 <e><p><l>fuss<s n="n"/></l><r>абыр-сабыр<s n="n"/></r></p></e>
 <e><p><l>futility<s n="n"/></l><r>бекерлік<s n="n"/></r></p></e>
 <e><p><l>future<s n="n"/></l><r>болашақ<s n="n"/></r></p></e>
+<e><p><l>future<s n="n"/></l><r>келешек<s n="n"/></r></p></e>
 <e><p><l>futurism<s n="n"/></l><r>футуризм<s n="n"/></r></p></e>
 <e><p><l>fuzzy<s n="n"/></l><r>нақтыланбағандық<s n="n"/></r></p></e>
 <e><p><l>Gadolinium<s n="n"/></l><r>гадолиний<s n="n"/></r></p></e>
@@ -14211,7 +14221,8 @@
 <e><p><l>Karaganda<s n="np"/><s n="top"/><s n="sg"/></l><r>Қарағанды<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Karlsruhe<s n="np"/><s n="top"/><s n="sg"/></l><r>Карлсруэ<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kazakhstan<s n="np"/><s n="top"/><s n="sg"/></l><r>Қазақстан<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Kazakhstan<s n="np"/><s n="top"/><s n="sg"/></l><r>Қазақстан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Kazakhstan<s n="np"/><s n="top"/><s n="sg"/></l><r>қазақстан<s n="np"/><s n="top"/></r></p></e>
+<e r="RL"><p><l>Kazakhstan<s n="np"/><s n="top"/><s n="sg"/></l><r>Қазақстан<s n="np"/><s n="nom"/></r></p></e>
 <e><p><l>Kazan<s n="np"/><s n="top"/><s n="sg"/></l><r>Қазан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Kentucky<s n="np"/><s n="top"/><s n="sg"/></l><r>Кентукки<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kenya<s n="np"/><s n="top"/><s n="sg"/></l><r>Кения<s n="np"/><s n="top"/></r></p></e>
@@ -15642,6 +15653,7 @@
 <e><p><l>ambivalent<s n="adj"/></l><r>жартыкеш<s n="adj"/></r></p></e>
 <e><p><l>amenable<s n="adj"/></l><r>жауапты<s n="adj"/></r></p></e>
 <e><p><l>American<s n="adj"/></l><r>Американдық<s n="adj"/></r></p></e>
+<e><p><l>Kazakhstan<s n="adj"/></l><r>Қазақстандық<s n="adj"/></r></p></e>
 <e><p><l>amiable<s n="adj"/></l><r>жағымды<s n="adj"/></r></p></e>
 <e><p><l>amicable<s n="adj"/></l><r>жылы<s n="adj"/></r></p></e>
 <e><p><l>amicus<s n="adj"/></l><r>кеңесті<s n="adj"/></r></p></e>
@@ -18228,6 +18240,7 @@
 <e><p><l>slender<s n="adj"/></l><r>пішінді<s n="adj"/></r></p></e>
 <e><p><l>sliding<s n="adj"/></l><r>сырғитын<s n="adj"/></r></p></e>
 <e><p><l>slight<s n="adj"/></l><r>жеңіл<s n="adj"/></r></p></e>
+<e><p><l>scriptural<s n="adj"/></l><r>жазбаша<s n="adj"/></r></p></e>
 <e><p><l>slippery<s n="adj"/></l><r>тайғақ<s n="adj"/></r></p></e>
 <e><p><l>slovakian<s n="adj"/></l><r>словакиялық<s n="adj"/></r></p></e>
 <e><p><l>smooth<s n="adj"/></l><r>тегіс<s n="adj"/></r></p></e>
@@ -20753,6 +20766,7 @@
 <e><p><l>shiver<s n="vblex"/></l><r>қалтыра<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>shock<s n="vblex"/></l><r>шошыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>shoe<s n="vblex"/></l><r>киін<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>live<s n="vblex"/></l><r>кеш<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>shoo<s n="vblex"/></l><r>қуғында<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>shorten<s n="vblex"/></l><r>қысқарт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>shout<s n="vblex"/></l><r>айқайла<s n="v"/><s n="iv"/></r></p></e>

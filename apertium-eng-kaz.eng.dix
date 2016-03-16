@@ -42712,6 +42712,20 @@
 
                             <e lm="bottom" i=""><i>bottom</i><par n="house__n"/></e>
 
+                            <e lm="interval" i=""><i>interval</i><par n="house__n"/></e>
+
+                            <e lm="harm" i=""><i>harm</i><par n="house__n"/></e>
+
+                            <e lm="witness" i=""><i>witness</i><par n="house__n"/></e>
+
+                            <e lm="reputation" i=""><i>reputation</i><par n="house__n"/></e>
+
+                            <e lm="so-called" i=""><i>so-called</i><par n="house__n"/></e>
+
+                            <e lm="emblem" i=""><i>emblem</i><par n="house__n"/></e>
+
+                            <e lm="arms" i=""><i>arms</i><par n="house__n"/></e>
+
                             <e lm="boundary" i=""><i>boundar</i><par n="bab/y__n"/></e>
 
                             <e lm="bouquet" i=""><i>bouquet</i><par n="house__n"/></e>
@@ -53437,6 +53451,8 @@
 
                             <e lm="American" i=""><p><l>American</l><r>american</r></p><par n="expensive__adj"/></e>
 
+                            <e lm="Kazakhstan" i=""><p><l>Kazakhstan</l><r>kazakhstan</r></p><par n="expensive__adj"/></e>
+
                             <e lm="Andalusian" i=""><p><l>Andalusian</l><r>andalusian</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Andorran" i=""><p><l>Andorran</l><r>andorran</r></p><par n="expensive__adj"/></e>
@@ -56908,6 +56924,8 @@
 
                             <e lm="slight" i=""><i>slight</i><par n="expensive__adj"/></e>
 
+                            <e lm="scriptural" i=""><i>scriptural</i><par n="expensive__adj"/></e>
+
                             <e lm="slim" i=""><i>slim</i><par n="dim/__adj"/></e>
 
                             <e lm="slippery" i=""><i>slippery</i><par n="expensive__adj"/></e>
@@ -59073,6 +59091,8 @@
                             <e r="LR" i=""><i>dream</i><par n="deal__vblex"/></e>
 
                             <e lm="dress" i=""><i>dress</i><par n="approach__vblex"/></e>
+
+                            <e lm="live" i=""><i>live</i><par n="approach__vblex"/></e>
 
                             <e lm="drop" i=""><i>drop</i><par n="step__vblex"/></e>
 

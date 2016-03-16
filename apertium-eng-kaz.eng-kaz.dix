@@ -2113,6 +2113,10 @@
 <e><p><l>character<s n="n"/></l><r>мінез<s n="n"/></r></p></e>
 <e><p><l>Chard<s n="n"/></l><r>Мангольд<s n="n"/></r></p></e>
 <e><p><l>charge<s n="n"/></l><r>оқтау<s n="n"/></r></p></e>
+<e><p><l>charge<s n="n"/></l><r>бұйрық<s n="n"/></r></p></e>
+<e><p><l>charge<s n="n"/></l><r>баға<s n="n"/></r></p></e>
+<e><p><l>charge<s n="n"/></l><r>төлем<s n="n"/></r></p></e>
+<e><p><l>charge<s n="n"/></l><r>заряд<s n="n"/></r></p></e>
 <e><p><l>chariot<s n="n"/></l><r>арба<s n="n"/></r></p></e>
 <e><p><l>charisma<s n="n"/></l><r>харизма<s n="n"/></r></p></e>
 <e><p><l>charity<s n="n"/></l><r>қайырымдылық<s n="n"/></r></p></e>
@@ -4193,6 +4197,7 @@
 <e><p><l>favourite<s n="n"/></l><r>фаворит<s n="n"/></r></p></e>
 <e><p><l>favouritism<s n="n"/></l><r>фаворитизм<s n="n"/></r></p></e>
 <e><p><l>favour<s n="n"/></l><r>мейір<s n="n"/></r></p></e>
+<e><p><l>favour<s n="n"/></l><r>ықылас<s n="n"/></r></p></e>
 <e><p><l>fav<s n="n"/></l><r>ерке<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>fawn<s n="n"/></l><r>бұғы<b/>бұзау<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>fax<s n="n"/></l><r>факс<s n="n"/></r></p></e>
@@ -5319,6 +5324,10 @@
 <e><p><l>ideal<s n="n"/></l><r>арман<s n="n"/></r></p></e>
 <e><p><l>idea<s n="n"/></l><r>идея<s n="n"/></r></p></e>
 <e><p><l>idea<s n="n"/></l><r>ой<s n="n"/></r></p></e>
+<e><p><l>idea<s n="n"/></l><r>түсінік<s n="n"/></r></p></e>
+<e><p><l>idea<s n="n"/></l><r>қиял<s n="n"/></r></p></e>
+<e><p><l>idea<s n="n"/></l><r>мағлұмат<s n="n"/></r></p></e>
+<e><p><l>idea<s n="n"/></l><r>ұғым<s n="n"/></r></p></e>
 <e><p><l>ideation<s n="n"/></l><r>ой<s n="n"/></r></p></e>
 <e><p><l>identification<s n="n"/></l><r>идентификация<s n="n"/></r></p></e>
 <e><p><l>identifier<s n="n"/></l><r>идентификатор<s n="n"/></r></p></e>
@@ -6377,6 +6386,11 @@
 <e><p><l>marketing<s n="n"/></l><r>маркеттеу<s n="n"/></r></p></e>
 <e><p><l>market<s n="n"/></l><r>нарық<s n="n"/></r></p></e>
 <e><p><l>mark<s n="n"/></l><r>баға<s n="n"/></r></p></e>
+<e><p><l>mark<s n="n"/></l><r>марка<s n="n"/></r></p></e>
+<e><p><l>mark<s n="n"/></l><r>таңба<s n="n"/></r></p></e>
+<e><p><l>mark<s n="n"/></l><r>штамп<s n="n"/></r></p></e>
+<e><p><l>mark<s n="n"/></l><r>нысана<s n="n"/></r></p></e>
+<e><p><l>mark<s n="n"/></l><r>дақ<s n="n"/></r></p></e>
 <e><p><l>mark<s n="n"/></l><r>белгілеу<s n="n"/></r></p></e>
 <e><p><l>marmot<s n="n"/></l><r>суыр<s n="n"/></r></p></e>
 <e><p><l>marquee<s n="n"/></l><r>шатыр<s n="n"/></r></p></e>
@@ -7224,6 +7238,13 @@
 <e><p><l>operand<s n="n"/></l><r>операнд<s n="n"/></r></p></e>
 <e><p><l>opera<s n="n"/></l><r>опера<s n="n"/></r></p></e>
 <e><p><l>operation<s n="n"/></l><r>әрекет<s n="n"/></r></p></e>
+<e><p><l>operation<s n="n"/></l><r>операция<s n="n"/></r></p></e>
+<e><p><l>operation<s n="n"/></l><r>іс<s n="n"/></r></p></e>
+<e><p><l>operation<s n="n"/></l><r>әсер<s n="n"/></r></p></e>
+<e><p><l>operation<s n="n"/></l><r>айналым<s n="n"/></r></p></e>
+<e><p><l>operation<s n="n"/></l><r>қозғалту<s n="n"/></r></p></e>
+<e><p><l>operation<s n="n"/></l><r>жүргізу<s n="n"/></r></p></e>
+<e><p><l>operation<s n="n"/></l><r>іс-қимыл<s n="n"/></r></p></e>
 <e><p><l>operator<s n="n"/></l><r>оператор<s n="n"/></r></p></e>
 <e><p><l>operculum<s n="n"/></l><r>қақпақша<s n="n"/></r></p></e>
 <e><p><l>operetta<s n="n"/></l><r>оперетта<s n="n"/></r></p></e>
@@ -7870,9 +7891,8 @@
 <e><p><l>plant<s n="n"/></l><r>зауыт<s n="n"/></r></p></e>
 <e><p><l>plant<s n="n"/></l><r>кәсіпорын<s n="n"/></r></p></e>
 <e><p><l>plant<s n="n"/></l><r>қондырғы<s n="n"/></r></p></e>
-<e><p><l>plant<s n="n"/></l><r>қондырғы<s n="n"/></r></p></e>
 <e><p><l>plant<s n="n"/></l><r>өсімдік<s n="n"/></r></p></e>
-<e><p><l>plant<s n="n"/></l><r>өсімдік<s n="n"/></r></p></e>
+<e><p><l>plant<s n="n"/></l><r>фабрика<s n="n"/></r></p></e>
 <e><p><l>plaque<s n="n"/></l><r>қабырғаның<b/>тәрелкесі<s n="n"/></r></p></e>
 <e><p><l>plasma<s n="n"/></l><r>плазма<s n="n"/></r></p></e>
 <e><p><l>plasmid<s n="n"/></l><r>плазмид<s n="n"/></r></p></e>
@@ -8253,6 +8273,10 @@
 <e><p><l>propensity<s n="n"/></l><r>икем<s n="n"/></r></p></e>
 <e><p><l>property<s n="n"/></l><r>қасиет<s n="n"/></r></p></e>
 <e><p><l>property<s n="n"/></l><r>меншік<s n="n"/></r></p></e>
+<e><p><l>property<s n="n"/></l><r>сипат<s n="n"/></r></p></e>
+<e><p><l>property<s n="n"/></l><r>мүлік<s n="n"/></r></p></e>
+<e><p><l>property<s n="n"/></l><r>иелік<s n="n"/></r></p></e>
+<e><p><l>property<s n="n"/></l><r>дұние-мүлік<s n="n"/></r></p></e>
 <e><p><l>prophecy<s n="n"/></l><r>көріпкелдік<s n="n"/></r></p></e>
 <e><p><l>prophet<s n="n"/></l><r>пайғамбар<s n="n"/></r></p></e>
 <e><p><l>prophylaxis<s n="n"/></l><r>алдын<b/>алу<s n="n"/></r></p></e>
@@ -9703,6 +9727,10 @@
 <e><p><l>stamping<s n="n"/></l><r>қалыптама<s n="n"/></r></p></e>
 <e><p><l>stamp<s n="n"/></l><r>мөртабан<s n="n"/></r></p></e>
 <e><p><l>stamp<s n="n"/></l><r>таңба<s n="n"/></r></p></e>
+<e><p><l>stamp<s n="n"/></l><r>мөр<s n="n"/></r></p></e>
+<e><p><l>stamp<s n="n"/></l><r>штамп<s n="n"/></r></p></e>
+<e><p><l>stamp<s n="n"/></l><r>марка<s n="n"/></r></p></e>
+<e><p><l>stamp<s n="n"/></l><r>белгі<s n="n"/></r></p></e>
 <e><p><l>stance<s n="n"/></l><r>позиция<s n="n"/></r></p></e>
 <e><p><l>standardisation<s n="n"/></l><r>стандарттау<s n="n"/></r></p></e>
 <e><p><l>standard<s n="n"/></l><r>қалып<s n="n"/></r></p></e>
@@ -20867,6 +20895,9 @@
 <e><p><l>steer<s n="vblex"/></l><r>түзет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>step<s n="vblex"/></l><r>адымда<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>stick<s n="vblex"/></l><r>жабыстыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>stick<s n="vblex"/></l><r>қада<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>stick<s n="vblex"/></l><r>шанш<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>stick<s n="vblex"/></l><r>түйре<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>stiffen<s n="vblex"/></l><r>қатаңда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>stifle<s n="vblex"/></l><r>тұншықтыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>still<s n="vblex"/></l><r>байсалдан<s n="v"/><s n="iv"/></r></p></e>

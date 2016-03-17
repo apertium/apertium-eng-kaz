@@ -1599,6 +1599,17 @@
 <e><p><l>interval<s n="n"/></l><r>аралық<s n="n"/></r></p></e>
 <e><p><l>harm<s n="n"/></l><r>зақым<s n="n"/></r></p></e>
 <e><p><l>witness<s n="n"/></l><r>куә<s n="n"/></r></p></e>
+<e><p><l>compartment<s n="n"/></l><r>учаске<s n="n"/></r></p></e>
+<e><p><l>charter<s n="n"/></l><r>жарғы<s n="n"/></r></p></e>
+<e><p><l>charter<s n="n"/></l><r>жарғы<s n="n"/></r></p></e>
+<e><p><l>resolution<s n="n"/></l><r>қаулы<s n="n"/></r></p></e>
+<e><p><l>sere<s n="n"/></l><r>серия<s n="n"/></r></p></e>
+<e><p><l>sergeant<s n="n"/></l><r>старшина<s n="n"/></r></p></e>
+<e><p><l>petition<s n="n"/></l><r>сұранысхат<s n="n"/></r></p></e>
+<e><p><l>duplicate<s n="n"/></l><r>телнұсқа<s n="n"/></r></p></e>
+<e><p><l>bat<s n="n"/></l><r>сақа<s n="n"/></r></p></e>
+<e><p><l>address<s n="n"/></l><r>мекенжай<s n="n"/></r></p></e>
+<e><p><l>cripple<s n="n"/></l><r>мүгедек<s n="n"/></r></p></e>
 <e><p><l>reputation<s n="n"/></l><r>атақ<s n="n"/></r></p></e>
 <e><p><l>so-called<s n="n"/></l><r>аталмыш<s n="n"/></r></p></e>
 <e r="RL"><p><l>emblem<s n="n"/></l><r>елтаңба<s n="n"/></r></p></e>
@@ -7683,6 +7694,7 @@
 <e><p><l>peritoneum<s n="n"/></l><r>көкшандыр<s n="n"/></r></p></e>
 <e><p><l>perjurer<s n="n"/></l><r>антбұзар<s n="n"/></r></p></e>
 <e><p><l>perjury<s n="n"/></l><r>жалған<b/>куәлік<s n="n"/></r></p></e>
+<e><p><l>regulations<s n="n"/></l><r>әскери<b/>жарғы<s n="n"/></r></p></e>
 <e><p><l>permafrost<s n="n"/></l><r>мәңгілік<b/>мұз<s n="n"/></r></p></e>
 <e><p><l>permanence<s n="n"/></l><r>баян<s n="n"/></r></p></e>
 <e><p><l>permeance<s n="n"/></l><r>магнитті<b/>өткізгіштік<s n="n"/></r></p></e>
@@ -16732,6 +16744,7 @@
 <e><p><l>finnish<s n="adj"/></l><r>финдік<s n="adj"/></r></p></e>
 <e><p><l>first<s n="adj"/></l><r>бірінші<s n="adj"/></r></p></e>
 <e><p><l>first<s n="adj"/></l><r>тұңғыш<s n="adj"/></r></p></e>
+<e><p><l>all<s n="adj"/></l><r>түгел<s n="adj"/></r></p></e>
 <e><p><l>fiscal<s n="adj"/></l><r>фискальді<s n="adj"/></r></p></e>
 <e><p><l>fivefold<s n="adj"/></l><r>бес<b/>еселі<s n="adj"/></r></p></e>
 <e><p><l>flagrant<s n="adj"/></l><r>сорақы<s n="adj"/></r></p></e>
@@ -16788,6 +16801,12 @@
 <e><p><l>futuristic<s n="adj"/></l><r>футуристиялық<s n="adj"/></r></p></e>
 <e><p><l>gaelic<s n="adj"/></l><r>гаэлдық<s n="adj"/></r></p></e>
 <e><p><l>galactic<s n="adj"/></l><r>галактикалық<s n="adj"/></r></p></e>
+
+<e><p><l>classroom<s n="adj"/></l><r>дәрісханалық<s n="adj"/></r></p></e>
+<e><p><l>stamp<s n="adj"/></l><r>елтаңбалық<s n="adj"/></r></p></e>
+<e><p><l>regional<s n="adj"/></l><r>облыстық<s n="adj"/></r></p></e>
+<e><p><l>hour<s n="adj"/></l><r>сағаттық<s n="adj"/></r></p></e>
+
 <e><p><l>galvanic<s n="adj"/></l><r>гальваникалық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>gamopetalous<s n="adj"/></l><r>гамопеталустық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>garbled<s n="adj"/></l><r>бұрмаланған<s n="adj"/><s n="subst"/></r></p></e>
@@ -17197,6 +17216,7 @@
 <e><p><l>instantaneous<s n="adj"/></l><r>лездік<s n="adj"/></r></p></e>
 <e><p><l>instigated<s n="adj"/></l><r>ұрындырған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>institutional<s n="adj"/></l><r>институционалды<s n="adj"/></r></p></e>
+<e><p><l>notarially<s n="adj"/></l><r>нотариалды<s n="adj"/></r></p></e>
 <e><p><l>instrumental<s n="adj"/></l><r>аспапты<s n="adj"/></r></p></e>
 <e><p><l>insufficient<s n="adj"/></l><r>жетімсіз<s n="adj"/></r></p></e>
 <e><p><l>insular<s n="adj"/></l><r>аралдық<s n="adj"/><s n="subst"/></r></p></e>
@@ -20149,6 +20169,7 @@
 <e><p><l>hit<s n="vblex"/></l><r>соқ<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>hoard<s n="vblex"/></l><r>қор<b/>жина<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hoist<s n="vblex"/></l><r>көтер<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>install <s n="vblex"/></l><r>орнат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hold<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hold<s n="vblex"/></l><r>тоқтат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hold<s n="vblex"/></l><r>шыда<s n="v"/><s n="iv"/></r></p></e>
@@ -20176,6 +20197,7 @@
 <e><p><l>imply<s n="vblex"/></l><r>түсін<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>import<s n="vblex"/></l><r>импортта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>impose<s n="vblex"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>quit<s n="vblex"/></l><r>қалдыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>impoverish<s n="vblex"/></l><r>кедейлендір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>impress<s n="vblex"/></l><r>әсер<b/>ет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>imprison<s n="vblex"/></l><r>қама<s n="v"/><s n="tv"/></r></p></e>

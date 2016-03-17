@@ -42718,6 +42718,27 @@
 
                             <e lm="witness" i=""><i>witness</i><par n="house__n"/></e>
 
+                            <e lm="compartment" i=""><i>compartment</i><par n="house__n"/></e>
+
+                            <e lm="address" i=""><i>address</i><par n="house__n"/></e>
+
+                            <e lm="cripple" i=""><i>cripple</i><par n="house__n"/></e>
+
+                            <e lm="regulations" i=""><i>regulations</i><par n="house__n"/></e>
+
+                            <e lm="charter" i=""><i>charter</i><par n="house__n"/></e>
+
+                            <e lm="resolution" i=""><i>resolution</i><par n="house__n"/></e>
+                            <e lm="petition" i=""><i>petition</i><par n="house__n"/></e>
+
+                            <e lm="duplicate" i=""><i>duplicate</i><par n="house__n"/></e>
+
+                            <e lm="sergeant" i=""><i>sergeant</i><par n="house__n"/></e>
+
+                            <e lm="sere" i=""><i>sere</i><par n="house__n"/></e>
+
+                            <e lm="bat" i=""><i>bat</i><par n="house__n"/></e>
+
                             <e lm="reputation" i=""><i>reputation</i><par n="house__n"/></e>
 
                             <e lm="so-called" i=""><i>so-called</i><par n="house__n"/></e>
@@ -55459,6 +55480,8 @@
 
                             <e lm="institutional" i=""><i>institutional</i><par n="expensive__adj"/></e>
 
+                            <e lm="notarially" i=""><i>notarially</i><par n="expensive__adj"/></e>
+
                             <e lm="instrumental" i=""><i>instrumental</i><par n="expensive__adj"/></e>
 
                             <e lm="insufficient" i=""><i>insufficient</i><par n="expensive__adj"/></e>
@@ -58307,6 +58330,7 @@
 <e lm="grumble" i=""><i>grumble</i><par n="liv/e__vblex"/></e>
 <e lm="heed" i=""><i>heed</i><par n="accept__vblex"/></e>
 <e lm="hoist" i=""><i>hoist</i><par n="accept__vblex"/></e>
+<e lm="install" i=""><i>install</i><par n="accept__vblex"/></e>
 <e lm="hop" i=""><i>hop</i><par n="step__vblex"/></e>
 <e lm="inquire" i=""><i>inquire</i><par n="liv/e__vblex"/></e>
 <e lm="intercede" i=""><i>intercede</i><par n="liv/e__vblex"/></e>
@@ -59602,6 +59626,8 @@
                             <e lm="import" i=""><i>import</i><par n="accept__vblex"/></e>
 
                             <e lm="impose" i=""><i>impos</i><par n="liv/e__vblex"/></e>
+
+                            <e lm="quit" i=""><i>quit</i><par n="liv/e__vblex"/></e>
 
                             <e lm="impoverish" i=""><i>impoverish</i><par n="approach__vblex"/></e>
 
@@ -61916,6 +61942,7 @@
                             <e lm="first" i=""><i>first</i><par n="maybe__adv"/></e>
 
 <e lm="first" i=""><i>first</i><par n="expensive__adj"/></e>
+<e lm="all" i=""><i>all</i><par n="expensive__adj"/></e>
 
 <e lm="lying" i=""><i>lying</i><par n="expensive__adj"/></e>
 
@@ -76946,6 +76973,13 @@
                             <e lm="eclipse" i=""><i>eclipse</i><par n="house__n"/></e>
 
                             <e lm="galactic" i=""><i>galactic</i><par n="expensive__adj"/></e>
+
+
+                            <e lm="classroom" i=""><i>classroom</i><par n="expensive__adj"/></e>
+                            <e lm="stamp" i=""><i>stamp</i><par n="expensive__adj"/></e>
+                            <e lm="regional" i=""><i>regional</i><par n="expensive__adj"/></e>
+                            <e lm="hour" i=""><i>hour</i><par n="expensive__adj"/></e>
+
 
                             <e lm="stellar" i=""><i>stellar</i><par n="expensive__adj"/></e>
 

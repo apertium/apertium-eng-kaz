@@ -18,6 +18,7 @@
     <sdef n="pp"/>
     <sdef n="past"/>
     <sdef n="sup"/>
+    <sdef n="emph"/>
     <sdef n="sim"/>
     <sdef n="comp"/>
     <sdef n="mon"/>
@@ -129,6 +130,7 @@
   </sdefs>
   <section id="main" type="standard">
 <e r="RL"><p><l></l><r>лы<s n="post"/></r></p></e>
+<e r="RL"><p><l></l><r>ет<s n="vaux"/></r></p></e>
 <e r="RL"><p><l>by<s n="pr"/></l><r>бойынша<s n="post"/></r></p></e>
 <e r="RL"><p><l></l><r>-ақ<s n="postadv"/></r></p></e>
 <e r="RL"><p><l></l><r>ал<s n="vaux"/></r></p></e>
@@ -139,6 +141,7 @@
 <e r="RL"><p><l></l><r>бұл<s n="prn"/><s n="dem"/><s n="adv"/></r></p></e>
 <e r="RL"><p><l></l><r>да<s n="postadv"/></r></p></e>
 <e r="RL"><p><l></l><r>де<s n="v"/><s n="tv"/></r></p></e>
+<e r="RL"><p><l></l><r>ет<s n="v"/><s n="tv"/></r></p></e>
 <e r="RL"><p><l></l><r>е<s n="cop"/></r></p></e>
 <e r="RL"><p><l></l><r>емес<s n="vaux"/></r></p></e>
 <e r="RL"><p><l></l><r>жат<s n="vaux"/></r></p></e>
@@ -185,6 +188,8 @@
 <e><p><l>as<s n="pr"/></l><r>ретінде<s n="post"/><s n="Rnom"/></r></p></e>
 <e r="LR"><p><l>at<s n="pr"/></l><r></r></p></e>
 <e><p><l>behind<s n="pr"/></l><r>арт<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e r="RL"><p><l></l><r>арт<s n="n"/><s n="px3sp"/><s n="dat"/></r></p></e>
+<e><p><l>behind<s n="pr"/></l><r>арт<s n="n"/><s n="px3sp"/><s n="abl"/></r></p></e>
 <e><p><l>below<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>beside<s n="pr"/></l><r>жан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>between<s n="pr"/></l><r>ара<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -234,6 +239,7 @@
 <e><p><l>toward<s n="pr"/></l><r>қарай<s n="post"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>қарай<s n="post"/><s n="Rdat"/></r></p></e>
 <e r="RL"><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e r="RL"><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="px3sp"/><s n="dat"/></r></p></e>
 <e><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>unlike<s n="pr"/></l><r>басқа<s n="post"/><s n="Rabl"/></r></p></e>
 <e><p><l>until<s n="pr"/></l><r>дейін<s n="post"/></r></p></e>
@@ -5014,7 +5020,7 @@
 <e><p><l>hearing<s n="n"/></l><r>тыңдау<s n="n"/></r></p></e>
 <e><p><l>hearth<s n="n"/></l><r>отан<s n="n"/></r></p></e>
 <e><p><l>heart<s n="n"/></l><r>жүрек<s n="n"/></r></p></e>
-<e r="RL"						><p><l>sentiment<s n="n"/></l><r>көңіл<s n="n"/></r></p></e>
+<e r="RL"><p><l>sentiment<s n="n"/></l><r>көңіл<s n="n"/></r></p></e>
 <e><p><l>hearty<s n="n"/></l><r>нәр<s n="n"/></r></p></e>
 <e><p><l>heater<s n="n"/></l><r>қыздырғыш<s n="n"/></r></p></e>
 <e><p><l>heathenism<s n="n"/></l><r>пұтқа<b/>табынушылық<s n="n"/></r></p></e>
@@ -11152,7 +11158,7 @@
 <e r="LR"><p><l>vertigos<s n="n"/></l><r>бас<b/>айналу<s n="n"/></r></p></e>
 <e r="LR"><p><l>watch<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
 <e r="RL"><p><l>time<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
-
+<e r="RL"><p><l></l><r>шы<s n="emph"/></r></p></e>
 
 
 

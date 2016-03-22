@@ -257,6 +257,11 @@
 <cat-item tags="vblex.pres.*"/>
     </def-cat>
 
+<def-cat n="n-adv">
+      <cat-item lemma="дала" tags="n.loc"/>
+
+    </def-cat>
+
 <def-cat n="v-gerund">
     <cat-item tags="v.tv.ger.*.*"/>
 <cat-item tags="v.*.ger.*.*"/>
@@ -4831,6 +4836,40 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+
+<rule comment="RULE: N-loc - ADVP">
+      <pattern>
+        <pattern-item n="n-adv"/>
+      </pattern>
+      <action>
+        <!--<let><var n="number"/><lit v=""/></let>-->
+        <choose>
+ 
+          <when>
+             <test>
+                <equal><clip pos="1" side="sl" part="a_adj"/>
+<lit-tag v="n.attr"/>
+</equal>
+             </test>
+             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
+             <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
+          </when> 
+        </choose>
+        <out>
+          <chunk name="n-adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-ADVP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 <rule comment="RULE: ADv">
       <pattern>

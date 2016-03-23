@@ -22201,6 +22201,8 @@
 
                             <e lm="do the shopping" i=""><i>d</i><par n="d/o__vblex"/><p><l><b/>the<b/>shopping</l><r><g><b/>the<b/>shopping</g></r></p></e>
 
+
+				<e lm="do this way" i=""><i>d</i><par n="d/o__vblex"/><p><l><b/>this<b/>way</l><r><g><b/>this<b/>way</g></r></p></e>
                             <e lm="have to do the shopping" i=""><i>ha</i><par n="ha/ve__vblex"/><p><l><b/>to<b/>do<b/>the<b/>shopping</l><r><g><b/>to<b/>do<b/>the<b/>shopping</g></r></p></e>
 
                             <e lm="go shopping" i=""><i/><par n="/go__vblex"/><p><l><b/>shopping</l><r><g><b/>shopping</g></r></p></e>
@@ -57575,6 +57577,11 @@
                             <e lm="yielding" i=""><i>yielding</i><par n="expensive__adj"/></e>
 
                             <e lm="young" i=""><i>young</i><par n="long/__adj"/></e>
+
+<e lm="years old" i=""><i>years<b/>old</i><par n="expensive__adj"/></e>
+
+<e lm="existed" i=""><i>existed</i><par n="expensive__adj"/></e>
+
 <e lm="young" i=""><i>young</i><par n="house__n"/></e>
 
                             <e lm="yours" i=""><i>yours</i><par n="mine__adj"/></e>

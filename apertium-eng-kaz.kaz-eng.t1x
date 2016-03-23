@@ -12,6 +12,10 @@
       <cat-item tags="num.ord"/>
       <cat-item tags="num.itg"/>
     </def-cat>
+<def-cat n="birge">
+      <cat-item lemma="бір" tags="num.subst.dat"/>
+     
+    </def-cat>
 
 <def-cat n="mod_ass">
       <cat-item tags="mod_ass"/>
@@ -779,7 +783,7 @@
 
 <def-attr n="a_det">
      
-      <attr-item tags="det.pos.sp"/>
+      <attr-item tags="det.pos"/>
 
     </def-attr>
 
@@ -2044,6 +2048,13 @@ If no format information is present it is removed. -->
                </test>
                <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
                <let><var n="sntype"/><lit-tag v="SN.LOC"/></let>
+ <let><var n="postposition_lu"/>
+ <concat>
+<lit v="in"/>
+<lit-tag v="pr"/>
+           </concat> 
+
+</let>
             </when> 
             <when>
                <test>
@@ -2970,18 +2981,17 @@ If no format information is present it is removed. -->
           <chunk name="noun-cop" case="caseFirstWord">
 <tags>
 <tag><lit-tag v="SN-cop"/></tag>
-   <tag><clip pos="1" side="sl" part="a_cas"/></tag>       
+<tag><clip pos="1" side="sl" part="a_cas"/></tag>       
 <tag>  <var n="number"/></tag>
             </tags>
 
-            <lu>
+           <lu>
 <var n="postposition_lu"/>
 </lu>
 <b/>
 <lu>
 	<clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
-            
               <clip pos="1" side="tl" part="lemq"/>
                 <lit-tag v="3"/>
             </lu>
@@ -5860,6 +5870,7 @@ If no format information is present it is removed. -->
 </and>
                   </test>
                   <let><clip pos="1" side="tl" part="lem"/><lit v="his"/></let>
+                  <let>              <var n="number"/><lit-tag v="sg"/></let>
                 </when>
                
               </choose>
@@ -5874,6 +5885,7 @@ If no format information is present it is removed. -->
             <lu>
               <clip pos="1" side="tl" part="lem"/>
 <clip pos="1" side="tl" part="a_det"/>
+              <var n="number"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -10795,6 +10807,64 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+<rule comment="RULE: NOM">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="birge"/>
+      </pattern>
+<action>
+        
+      <call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+    
+    
+
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+
+
+        <out>
+          <chunk name="noun-sg/pl" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+              <tag>  <var n="number"/></tag>
+            </tags>
+
+            <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+<lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+            
+              <clip pos="1" side="tl" part="lemq"/>
+                <lit-tag v="3"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
  <rule comment="RULE: V-FIN">   <!-- present simple past simple-->

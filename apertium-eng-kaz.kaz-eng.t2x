@@ -734,6 +734,90 @@
       </action>
     </rule>
 
+
+
+<rule comment="RULE: SN SN SV-cop">  <!--We are beautiful girlS -->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SN-NUM"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="SV-cop"/>
+      </pattern>
+      <action>
+       <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+<let>     <clip pos="4" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="4" part="a_nbr"/><lit v=""/></let>
+</when>
+</choose>
+<choose>
+<when>
+<test>
+
+  
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+
+    
+   </test>
+
+  <let>         <clip pos="2" part="a_nbr"/><lit-tag v="pl"/></let>
+</when>
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <chunk>
+           <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+         <b/>
+        <var n="PREP"/>
+          <chunk>
+
+            <clip pos="2" part="lem"/>
+            <lit-tag v="SN"/>             
+<lit-tag v="nom"/>
+
+            <clip pos="2" part="a_pers"/> 
+            <clip pos="2" part="a_possessive"/>
+             <lit-tag v="pl"/>
+            <clip pos="2" part="chcontent"/> 
+          </chunk>
+<b/>
+<chunk>
+
+            <clip pos="3" part="lem"/>
+            <lit-tag v="SN"/>             
+<lit-tag v="nom"/>
+
+            <clip pos="3" part="a_pers"/> 
+            <clip pos="3" part="a_possessive"/>
+             <lit-tag v="pl"/>
+            <clip pos="3" part="chcontent"/> 
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
 <rule comment="RULE: SN SV-passive">  <!--кітап оқылады -->
       <pattern>
         <pattern-item n="SN"/>
@@ -1314,6 +1398,57 @@
             <clip pos="2" part="tags"/>
             <clip pos="2" part="chcontent"/>
           </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+<rule comment="RULE: SN SN-cop ">  <!-- -->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SN"/>
+ <pattern-item n="SN-cop"/>
+       
+      </pattern>
+      <action>
+      
+ <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+
+</when>
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+            <var n="PREP"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+ <chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
         </out>
         <call-macro n="reset-case1">
           <with-param pos="1"/>

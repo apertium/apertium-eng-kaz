@@ -406,6 +406,75 @@
     </rule>
 
 
+<rule comment="RULE: THAN SN-ADVP SN-ADVP SV-cop">  <!-- but yesterday  is too cold-->
+      <pattern>
+	<pattern-item n="THAN"/>
+        <pattern-item n="SN-ADVP"/>
+       <pattern-item n="SN-ADVP"/>
+        <pattern-item n="SV-cop"/>
+      </pattern>
+      <action>
+       <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="4" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="4" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+
+</when>
+</choose>
+<choose>
+<when>
+<test>
+
+  
+            <equal>   <clip pos="4" part="a_nbr"/><lit-tag v="pl"/></equal>
+
+    
+   </test>
+
+  <let>         <clip pos="4" part="a_nbr"/><lit-tag v="pl"/></let>
+</when>
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+<chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+           <chunk>
+           <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b/>
+ 
+          <chunk>
+           <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+        <var n="PREP"/>
+          
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
   <rule comment="RULE: SN SV">  <!--sets pers and number for p3 pl SV -->
       <pattern>

@@ -8,8 +8,12 @@
    <match lemma="жер"><select lemma="place"/></match>
  </rule>
 
+ 
  <rule>
-  <match lemma="күшік" tags="n.*"><select lemma="dog" tags="n.*"/></match>
+  <match lemma="кішкентай" tags="adj"><select lemma="small" tags="adj.*"/></match>
+  <match lemma="*" tags="*"/>
+  <match lemma="күшік" tags="n.*"><select lemma="dog" tags="n.*"/>
+</match>
 
  </rule>  
 

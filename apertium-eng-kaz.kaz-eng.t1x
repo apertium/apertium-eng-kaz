@@ -431,6 +431,11 @@
       <cat-item tags="prn.pers.*.*.gen"/> 
 <cat-item tags="n.*"/>
     </def-cat>
+
+<def-cat n="zhok-ij">
+      <cat-item lemma="жоқ" tags="ij"/> 
+    </def-cat>
+     
 <def-cat n="v-ger">
       <cat-item tags="v.iv.ger.nom"/> 
  <cat-item tags="v.tv.ger.nom"/>
@@ -3917,9 +3922,9 @@ If no format information is present it is removed. -->
               <lit-tag v="vbhaver"/>
               <lit-tag v="pres"/>
 
-            <!--  <lit-tag v="2"/>
+              <lit-tag v="2"/>
               <lit-tag v="3"/>
-<lit-tag v="4"/>-->
+<!--<lit-tag v="4"/>-->
          
 </lu>
 
@@ -6584,7 +6589,20 @@ If no format information is present it is removed. -->
                 </when>
 
 	</choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_cas"/>
 
+
+<lit-tag v="gen"/></equal>
+                  </test>
+                 <let><var n="postposition_lu"/><lit v=""/></let>
+
+
+                </when>
+
+	</choose>
 
         <out>
           <chunk name="np_ant" case="caseFirstWord">
@@ -6617,6 +6635,121 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+<rule comment="RULE: NOM-ant"> <!--for Мэридің күшігі жоқ-->
+      <pattern>
+        <pattern-item n="ant"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="zhok-ij"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+	<call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
+ 
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nom"/>
+<lit-tag v="ant"/></equal>
+                  </test>
+                             </when>
+
+	</choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nom"/>
+
+
+<lit-tag v="top"/></equal>
+                  </test>
+                 
+
+
+                </when>
+
+	</choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_cas"/>
+
+
+<lit-tag v="gen"/></equal>
+                  </test>
+                 <let><var n="postposition_lu"/><lit v=""/></let>
+
+
+                </when>
+
+	</choose>
+
+        <out>
+          <chunk name="ant-noun-zhok" case="caseFirstWord">
+            <tags>
+              
+		<tag><var n="sntype"/></tag> 
+		<tag><var n="number"/></tag>
+		
+            </tags>
+<lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_np"/>
+	
+ 	<!--<lit-tag v="ant"/>-->
+             <clip pos="1" side="tl" part="a_mf"/>
+	<lit-tag v="3"/>
+              <clip pos="1" side="tl" part="lemq"/>          
+	
+
+            </lu>
+<b pos="1"/>
+<lu>
+              <lit v="do"/>
+              <lit-tag v="vbdo"/>
+              <lit-tag v="pres"/>  
+<lit-tag v="p3"/>
+              <lit-tag v="sg"/>                       
+</lu>
+<b/>
+<lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>                      
+</lu>
+<b/>
+
+<lu>
+              <lit v="have"/>
+              <lit-tag v="vbhaver"/>
+              <lit-tag v="pres"/>
+              
+<lit-tag v="4"/>
+              
+</lu>
+<b pos="2"/>
+
+<lu>
+              <clip pos="2" side="tl" part="lem"/>
+	<clip pos="2" side="tl" part="a_nom"/>
+             <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
 <rule comment="RULE: NOM-cog"> <!--for cog-->
@@ -6834,9 +6967,10 @@ If no format information is present it is removed. -->
               <clip pos="1" side="tl" part="whole"/>
             </lu>
             <b pos="2"/>
-            <lu>
-              <clip pos="3" side="tl" part="whole"/>
-              <var n="number"/>
+           <lu>
+              <clip pos="3" side="tl" part="lem"/>
+	<clip pos="3" side="tl" part="a_nom"/>
+             <var n="number"/>
             </lu>
           </chunk>
         </out>
@@ -6845,6 +6979,9 @@ If no format information is present it is removed. -->
         </call-macro>
       </action>
     </rule>
+
+
+
 
 <rule comment="RULE: NUM  NOM"> <!--7  kyz-->
       <pattern>

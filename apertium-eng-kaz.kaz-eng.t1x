@@ -793,6 +793,12 @@
       <attr-item tags="@ADVL→"/>
     </def-attr>
 
+<def-attr n="a_prn">
+      <attr-item tags="prn.ind"/>
+        </def-attr>  
+
+
+
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       
@@ -4816,19 +4822,27 @@ If no format information is present it is removed. -->
                    
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
                       </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                 <let><var n="number"/><lit v=""/></let>
+           <let><var n="pos"/><lit v=""/></let>
 
                 </when>
 <when>
                    <test>
                    <and>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                       <equal><var n="pos"/><lit-tag v="p1"/></equal>
+                       <equal><var n="number"/><lit-tag v="pl"/></equal>
                      </and>
                       </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                 <let><var n="number"/><lit v=""/></let>
+           <let><var n="pos"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px3sp"/></equal>
+                      </test>
+                 <let><var n="number"/><lit-tag v="sg"/></let>
+           <let><var n="pos"/><lit-tag v="p3"/></let>
                 </when>
 
            </choose>
@@ -4837,8 +4851,8 @@ If no format information is present it is removed. -->
             <tags>
               <tag> <lit-tag v="SV-cop"/></tag>
 
- <tag><clip pos="1" side="tl" part="a_pers"/></tag>
- <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+ <tag><var n="pos"/></tag>
+ <tag><var n="number"/></tag>
 
 
 
@@ -6575,6 +6589,16 @@ If no format information is present it is removed. -->
                   <let><var n="number"/><lit-tag v="sg"/></let>
                 </otherwise>
               </choose>
+<choose>
+                 <when>
+                   <test>
+<and>
+                    <not>   <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.ind"/></equal></not>
+<not>   <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></not>
+</and>
+                  </test>
+
+               
         <out>
           <chunk name="pronoun" case="caseFirstWord">
             <tags>
@@ -6597,6 +6621,28 @@ If no format information is present it is removed. -->
             </lu>
           </chunk>
         </out>
+ </when>
+                <otherwise>
+      
+        <out>
+          <chunk name="pronoun-loc" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+	    <tag><clip pos="1" side="sl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+            <lu>
+            <lit v="where"/>
+            <lit-tag v="adv"/>
+	<lit-tag v="itg"/>
+
+	
+            </lu>
+          </chunk>
+        </out>
+                </otherwise>
+              </choose>
         <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>

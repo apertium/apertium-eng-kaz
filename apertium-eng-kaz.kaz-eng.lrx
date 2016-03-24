@@ -38,6 +38,15 @@
 
  </rule>
 
+
+<rule>
+  <match lemma="қайда" tags="adv.*"><select lemma="where" tags="adv.*"/></match>
+ </rule>
+
+<rule>
+  <match lemma="біл" tags="v.*"><select lemma="know" tags="vblex.*"/></match>
+ </rule>
+
 <rule>
   <match lemma="ана" tags="n.*"><select lemma="mother" tags="n.*"/></match>
  </rule>

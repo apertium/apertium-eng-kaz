@@ -4816,26 +4816,7 @@ If no format information is present it is removed. -->
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
- <choose><!-- choosing correct to be-->
-               <when>
-                   <test>
-                   
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                      </test>
-                 <let><var n="number"/><lit v=""/></let>
-           <let><var n="pos"/><lit v=""/></let>
-
-                </when>
-<when>
-                   <test>
-                   <and>
-                       <equal><var n="pos"/><lit-tag v="p1"/></equal>
-                       <equal><var n="number"/><lit-tag v="pl"/></equal>
-                     </and>
-                      </test>
-                 <let><var n="number"/><lit v=""/></let>
-           <let><var n="pos"/><lit v=""/></let>
-                </when>
+<choose>
 <when>
                    <test>
                    
@@ -4843,10 +4824,8 @@ If no format information is present it is removed. -->
                       </test>
                  <let><var n="number"/><lit-tag v="sg"/></let>
            <let><var n="pos"/><lit-tag v="p3"/></let>
-                </when>
 
-           </choose>
-        <out>
+ <out>
           <chunk name="VP-cop" case="caseFirstWord">
             <tags>
               <tag> <lit-tag v="SV-cop"/></tag>
@@ -4868,6 +4847,80 @@ If no format information is present it is removed. -->
 
           </chunk>
         </out>
+</when>
+           <otherwise>
+
+ <choose><!-- choosing correct to be-->
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+ <out>
+          <chunk name="VP-cop" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV-cop"/></tag>
+
+ <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              
+</lu>
+
+          </chunk>
+        </out>
+</when><otherwise>
+ <out>
+          <chunk name="VP-cop" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV-cop"/></tag>
+
+ <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              
+</lu>
+
+          </chunk>
+        </out>
+
+</otherwise>
+</choose>
+</otherwise>
+</choose>
+       
         <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>

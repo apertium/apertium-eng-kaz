@@ -255,8 +255,14 @@
                 </concat>
                </let>
             </when> 
-
+<otherwise>
+<let><var n="PREP"/>            
+                  <lit v=""/>
+                 
+               </let>
+</otherwise>
           </choose>
+
     </def-macro>
   </section-def-macros>
   <section-rules>

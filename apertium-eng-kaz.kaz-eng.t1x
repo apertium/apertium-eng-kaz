@@ -17,6 +17,12 @@
      
     </def-cat>
 
+
+<def-cat n="vaux-can">
+      <cat-item lemma="ал" tags="vaux.*.prc_impf"/>
+     
+    </def-cat>
+
 <def-cat n="mod_ass">
       <cat-item tags="mod_ass"/>
       <cat-item tags="mod_ass.*"/>
@@ -213,6 +219,9 @@
       <cat-item tags="vaux.*"/>
  <cat-item tags="vaux.*.*.*"/>
     </def-cat>
+
+
+
 <def-cat n="vaux-neg">
       <cat-item tags="vaux.neg.*.*.*"/>
     </def-cat>
@@ -5211,20 +5220,38 @@ If no format information is present it is removed. -->
              <call-macro n="conv-number1">
                <with-param pos="1"/>
              </call-macro>
-<call-macro n="choose_case_and_postposition2">
-               <with-param pos="1"/>
-             </call-macro>
+
           </when> 
         </choose>
+
+<choose>
+ 
+          <when>
+             <test>
+                <equal><clip pos="1" side="sl" part="lem"/><lit v="жоқ"/></equal>
+             </test>
         <out>
           <chunk name="adj-cop" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="AdjP"/></tag>
             </tags>
- <lu>
-<var n="postposition_lu"/>
-</lu>
-<b/>
+
+            <lu>
+<lit v="not"/>
+<lit-tag v="adv"/>
+           <!-- <clip pos="1" side="tl" part="a_sint"/>-->
+
+            </lu>
+          </chunk>
+        </out>
+</when>
+          <otherwise>
+        <out>
+          <chunk name="adj-cop" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="AdjP"/></tag>
+            </tags>
+
             <lu>
               <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_adjec"/>
@@ -5233,6 +5260,8 @@ If no format information is present it is removed. -->
             </lu>
           </chunk>
         </out>
+ </otherwise>
+</choose>
       </action>
     </rule>
 
@@ -8949,6 +8978,123 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+
+<rule comment="RULE: V-ING VAUX"> <!--for present and past continuous-->
+      <pattern>
+        <pattern-item n="v-ing"/>
+        <pattern-item n="vaux-can"/>
+        <pattern-item n="vaux"/>
+      </pattern>
+      <action>
+       
+        <call-macro n="conv-temps1">
+          <with-param pos="2"/>
+        </call-macro>
+
+        <choose><!-- choosing correct to be--> 
+
+<when>
+                   <test>
+                   
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="past"/></equal>
+                     </and>
+                      </test>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v="p3"/></let>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v="sg"/></let>
+
+                </when>
+           </choose>
+           <choose>
+<when>
+                   <test>
+                  
+                       <equal><clip pos="2" side="sl" part="learned_negative"/><lit-tag v="neg"/></equal>
+                       
+                    
+                      </test>
+           <let>    <var n="current_verb"/>
+<concat>
+            <lit v="not"/>
+            <lit-tag v="adv"/>
+          </concat>
+          </let>  
+                </when>
+<otherwise>
+<let>    <var n="current_verb"/>
+
+            <lit v=""/>
+
+
+          </let> 
+</otherwise>
+           </choose>
+
+        <out>
+          <chunk name="can-neg-жатыр" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="3" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="2" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <lit v="can"/>
+              <lit-tag v="vaux"/>
+              <lit-tag v="2"/>
+              
+            </lu>
+            <b pos = "1"/>
+            <b pos = "2"/>
+<lu>
+<var n="current_verb"/>
+</lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="pres"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
  <rule comment="RULE: V-ING VAUX"> <!--for present and past continuous-->
       <pattern>
         <pattern-item n="v-ing"/>
@@ -9093,7 +9239,7 @@ If no format information is present it is removed. -->
            </choose>
 
         <out>
-          <chunk name="verb-ing" case="caseFirstWord">
+          <chunk name="verb-ing1" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="3" side="tl" part="a_tns"/></tag>
@@ -10908,15 +11054,26 @@ If no format information is present it is removed. -->
                        <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
                   </test>
                   <let><var n="number"/><lit-tag v="pl"/></let>
+                  <let><var n="case"/><lit-tag v="nom"/></let>
                 </when>
                 <otherwise>
                   <let><var n="number"/><lit-tag v="sg"/></let>
                 </otherwise>
               </choose>
+<choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="lem"/><lit v="аст"/></equal>
+                  </test>
+                 <let><var n="number"/><lit v=""/></let>
+                  <let><var n="postposition_lu"/><lit v=""/></let>
+                </when>
+               
+              </choose>
 
 
         <out>
-          <chunk name="noun-sg/pl" case="caseFirstWord">
+          <chunk name="noun-sg/pl1" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
               <tag>  <var n="number"/></tag>
@@ -11293,6 +11450,10 @@ If no format information is present it is removed. -->
         
       </action>
     </rule>
+
+
+
+
 
 
 <!--automatically generated-->

@@ -46,6 +46,12 @@
 <rule>
   <match lemma="біл" tags="v.*"><select lemma="know" tags="vblex.*"/></match>
  </rule>
+<rule>
+  <match lemma="тап" tags="v.*"><select lemma="find" tags="vblex.*"/></match>
+ </rule>
+<rule>
+  <match lemma="Адам" tags="n.pl.*"><select lemma="People" tags="n.*"/></match>
+ </rule>
 
 <rule>
   <match lemma="ана" tags="n.*"><select lemma="mother" tags="n.*"/></match>

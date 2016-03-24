@@ -589,7 +589,7 @@
     </def-cat>
 
 <def-cat n="loc-prep">
-      <cat-item tags="n.px3sp.*"/>
+      <cat-item lemma="арт" tags="n.px3sp.abl"/>
     </def-cat>
     <def-cat n="post">
       <cat-item tags="post"/>
@@ -1865,6 +1865,11 @@ If no format information is present it is removed. -->
                 <var n="pptag"/>
                 <lit-tag v="PP"/>  
               </let>
+<let><var n="postposition_lu"/> <!-- ready for lu -->
+
+                       <lit v=""/>
+                        
+             </let>
             </otherwise>
     </choose>
       </when> 
@@ -3882,17 +3887,19 @@ If no format information is present it is removed. -->
 <lu>
           <lit v="have"/>  
         <lit-tag v="vbmod"/>
-	<lit-tag v="pres"/>
-        <lit v="#"/>  
+	<lit-tag v="inf"/>
+<lit v="#"/> 
+
 <b/>
-          <lit v="to"/>  
+          <lit v="to"/> 
+
 
 </lu>
 <b/>
 
             <lu>
-<clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_verb"/>
+             <clip pos="1" side="tl" part="lem"/>
+              <lit-tag v="vbser"/>
               <lit-tag v="inf"/>
            <!--   <clip pos="1" side="tl" part="lemq"/>-->
                  </lu>
@@ -6791,7 +6798,7 @@ If no format information is present it is removed. -->
             <tags>
               
 		<tag><var n="sntype"/></tag> 
-		<tag><var n="number"/></tag>
+
 		
             </tags>
 <lu>
@@ -6804,7 +6811,7 @@ If no format information is present it is removed. -->
 	
  	<!--<lit-tag v="ant"/>-->
              <clip pos="1" side="tl" part="a_mf"/>
-	<lit-tag v="3"/>
+	<lit-tag v="sg"/>
               <clip pos="1" side="tl" part="lemq"/>          
 	
 
@@ -10147,10 +10154,7 @@ If no format information is present it is removed. -->
     <tag><var n="number"/></tag>
 
     </tags>
- <lu>
-<var n="postposition_lu"/>
-</lu>
-<b/>
+ 
     <lu>
 <clip pos="1" side="tl" part="lem"/>
 
@@ -11027,6 +11031,31 @@ If no format information is present it is removed. -->
     </rule>
  
 
+<rule comment="RULE: loc-prep"><!-- for single артынан-->
+      <pattern>
+        <pattern-item n="loc-prep"/>
+      </pattern>
+<action>
+        
+        <out>
+          <chunk name="loc-prep" case="caseFirstWord">
+            <tags>
+              <tag>                <lit-tag v="SN-ADVP"/></tag>
+              <tag>  <var n="number"/></tag>
+            </tags>
+
+<lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              
+                <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
 <rule comment="RULE: NOM">
@@ -11098,7 +11127,10 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
-<rule comment="RULE: NOM">
+
+
+
+<rule comment="RULE: NOM birge">
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="birge"/>

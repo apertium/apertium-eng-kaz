@@ -2,6 +2,9 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
+Coding_challenge/eng.txt -text
+Coding_challenge/kaz-tr.txt -text
+Coding_challenge/kaz.txt -text svneol=unset#application/octet-stream
 Errors/eng-kaz_unknown_words -text
 Errors/kaz-eng_unknown_words -text svneol=unset#application/octet-stream
 /ISSUES.txt -text

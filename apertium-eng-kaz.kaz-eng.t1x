@@ -393,6 +393,7 @@
     <cat-item tags="prn.dem"/>
 <cat-item tags="prn.dem.*"/>
 <cat-item tags="prn.ind.*"/>
+<cat-item tags="prn.neg.*"/>
          </def-cat>
 
  <def-cat n="prn-ref">
@@ -6261,7 +6262,7 @@ If no format information is present it is removed. -->
             <lu>
 
               <clip pos="1" side="tl" part="lemh"/>
-             <lit-tag v="pr"/>
+             <!--<lit-tag v="pr"/>-->
 
               <clip pos="1" side="tl" part="a_nom"/>
 <clip pos="1" side="tl" part="a_pos"/>

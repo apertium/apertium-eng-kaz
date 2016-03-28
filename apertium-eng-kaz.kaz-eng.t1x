@@ -28,10 +28,24 @@
       <cat-item tags="mod_ass.*"/>
          </def-cat>
 
+
+
+
+<def-cat n="R-KT">
+<cat-item tags="v.*.ger_past"/>
+<cat-item tags="v.*.ger_past.*"/>
+<cat-item tags="v.*.ger_past.*.*"/>
+<cat-item tags="v.*.ger_past.*.*.*"/>
+<cat-item tags="v.*.ger_past.*.*.*.*"/>
+<cat-item tags="v.*.ger_past.*.*.*.*.*"/>
+         </def-cat>
+
+
+
 <def-cat n="verb-subst">
       <cat-item tags="v.tv.gpr_fut.subst.*.*.gen.subst.nom"/>
 	<cat-item tags="v.*.gpr_fut.subst.*.*.gen.subst.nom"/>
-      <cat-item tags="v.*.gpr_fut.subst.*.*"/>
+<cat-item tags="v.*.gpr_fut.subst.*.*"/>
 <cat-item tags="v.*.gpr_fut.subst.*.*.*.attr"/>
 <cat-item tags="v.*.gpr_fut.subst.*.*.*"/>
 <cat-item tags="v.*.gpr_fut"/>
@@ -50,12 +64,7 @@
 <cat-item tags="v.*.gpr_ppot.*.*"/>
 <cat-item tags="v.*.gpr_ppot.*.*.*"/>
 <cat-item tags="v.*.gpr_ppot.*.*.*.*"/>
-<cat-item tags="v.*.ger_past"/>
-<cat-item tags="v.*.ger_past.*"/>
-<cat-item tags="v.*.ger_past.*.*"/>
-<cat-item tags="v.*.ger_past.*.*.*"/>
-<cat-item tags="v.*.ger_past.*.*.*.*"/>
-<cat-item tags="v.*.ger_past.*.*.*.*.*"/>
+
 <cat-item tags="v.*.ger_fut"/>
 <cat-item tags="v.*.ger_fut.*"/>
 <cat-item tags="v.*.ger_fut.*.*"/>
@@ -1328,63 +1337,99 @@ If no format information is present it is removed. -->
       <choose>
         <when>
           <test><and>
-            <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal>
+            <equal><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></equal>
             <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px1sg"/></equal>
           </and></test>
           <let><var n="possessive"/>
           <concat>
-            <lit v="^my"/>
+            <lit v="my"/>
             <lit-tag v="det"/><lit-tag v="pos"/>
-            <clip pos="1" side="tl" part="a_mf"/>
-            
-            <clip pos="1" side="tl" part="a_nbr"/>
-            <clip pos="1" side="tl" part="a_case"/>
-            <lit v="$ "/>
+             <lit-tag v="sg"/>
+                       
+
           </concat>
           </let>  
         </when>
         <when>
 	  <test><and>
-	    <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal>
-	    <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px1sg"/></equal>
+	    <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+	    <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px1pl"/></equal>
           </and></test>
           <let><var n="possessive"/>
           <concat>
-            <lit v="^my"/>
+            <lit v="our"/>
             <lit-tag v="det"/><lit-tag v="pos"/>
-            <lit-tag v="sp"/>
+            <lit-tag v="pl"/>
                        
-            <lit v="$ "/>
+
           </concat>
           </let>  
         </when>
         <when>
           <test><and>
-            <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal>
+            <equal><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></equal>
+<or>
             <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px2sg"/></equal>
+ <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px2sg.frm"/></equal>
+</or>
           </and></test>
           <let><var n="possessive"/>
           <concat>
-            <lit v="^your"/>
+            <lit v="your"/>
             <lit-tag v="det"/><lit-tag v="pos"/>
-             <lit-tag v="sp"/>         
+             <lit-tag v="sg"/>         
            
-            <lit v="$ "/>
+
           </concat>
           </let>  
         </when>
         <when>
           <test><and>
-            <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal>
-            <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px2sg"/></equal>
+            <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+            <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px3sp"/></equal>
           </and></test>
           <let><var n="possessive"/>
           <concat>
-            <lit v="^your"/>
+            <lit v="their"/>
             <lit-tag v="det"/><lit-tag v="pos"/>
-            <lit-tag v="sp"/>
+            <lit-tag v="pl"/>
             
-            <lit v="$ "/>
+
+          </concat>
+          </let>  
+        </when>
+<when>
+          <test><and>
+            <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+           <or>
+            <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px2sg"/></equal>
+ <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px2sg.frm"/></equal>
+</or>
+          </and></test>
+          <let><var n="possessive"/>
+          <concat>
+            <lit v="your"/>
+            <lit-tag v="det"/><lit-tag v="pos"/>
+            <lit-tag v="sg"/>
+            
+
+          </concat>
+          </let>  
+</when>
+<when>
+          <test>
+            <and>
+            <equal><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></equal>
+            <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px3sp"/></equal>
+</and>
+          </test>
+          <let><var n="possessive"/>
+          <concat>
+            <lit v="his"/>
+            <lit-tag v="prn"/><lit-tag v="pos"/>
+            <lit-tag v="m"/>
+            <lit-tag v="sg"/>
+
           </concat>
           </let>  
         </when>
@@ -11348,6 +11393,47 @@ If no format information is present it is removed. -->
         </call-macro>
       </action>
     </rule>
+
+
+
+ <rule comment="RULE: R-KT">   <!--"барғандарым -->
+      <pattern>
+        <pattern-item n="R-KT"/>
+      </pattern>
+      <action>
+        
+<call-macro n="convert-poss-affix-to-poss-determiner">
+ <with-param pos="1"/>
+        </call-macro>
+
+        <out>
+          <chunk name="R-KT" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+<lu>
+              <var n="possessive"/>
+             
+            </lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="ger"/>
+             
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 
  <rule comment="RULE: subst verb">   <!--"шақырарларымдікін-ақ -->

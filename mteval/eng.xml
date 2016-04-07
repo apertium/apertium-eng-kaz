@@ -1,53 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mteval SYSTEM "mteval-xml-v1.5a.dtd">
 <mteval>
-<refset setid="apertium" srclang="kaz" trglang="eng" sysid="apertium" refid="zz">
+<refset setid="apertium" srclang="kaz" trglang="eng" sysid="zzz" refid="apertium">
 <doc docid="zzz" genre="nw">
-<seg id="1">WHERE IS JAMES?</seg>
-<seg id="2">James and Mary are in the garden. </seg>
-<seg id="3">The weather is nice today, it is very warm. </seg>
-<seg id="4">But yesterday it was very cold! </seg>
-<seg id="5">They could not play outside then. </seg>
-<seg id="6">James and Mary love to play, they always play together in the garden in front of the big house.</seg>
-<seg id="7">James is a little boy and he is six years old.</seg>
-<seg id="8">The little girl is his sister, she is five years old. </seg>
-<seg id="9">James has a small dog, the dog is also in the garden now. </seg>
-<seg id="10">The dog likes to play with the two children. </seg>
-<seg id="11">The dog is very happy now.</seg>
-<seg id="12">Does Mary also have a dog? </seg>
-<seg id="13">No, Mary does not have a dog, she has a cat. But the cat is in the house, the cat is sleeping.</seg>
-<seg id="14">Their mother is inside the house with the cat, she looks through the window and sees James and Mary playing. </seg>
-<seg id="15">James quickly runs to a big old tree, he is hiding from Mary. </seg>
-<seg id="16">Do you know why? </seg>
-<seg id="17">Mary is sitting and has her hands in front of her eyes. </seg>
-<seg id="18">She can't see anything and she is counting. </seg>
-<seg id="19">Why does she do that? </seg>
-<seg id="20">And what is James doing near the tree?</seg>
-<seg id="21">It is a game. </seg>
-<seg id="22">When Mary has finished counting she looks around. </seg>
-<seg id="23">She is searching for James: where did he go? </seg>
-<seg id="24">Did you see him?</seg>
-<seg id="25">Mary does not know where James is. </seg>
-<seg id="26">She asks the dog: "Did you see James?". </seg>
-<seg id="27">But the dog can not speak of course! </seg>
-<seg id="28">So Mary gets no answer to her question. </seg>
-<seg id="29">People never get an answer when they speak to dogs!</seg>
-<seg id="30">Mary looks at her mother behind the window, her mother is laughing. Mary thinks that she has seen where James went: "Tell me where he is!", she says to her mother. </seg>
-<seg id="31">"No Mary, I can't tell you!", she replies. </seg>
-<seg id="32">Although she probably knows where he is, she does not want to tell.</seg>
-<seg id="33">Mary slowly walks through the garden. </seg>
-<seg id="34">She is still trying to find James. </seg>
-<seg id="35">She looks under the table and under the chairs, but James is not there. </seg>
-<seg id="36">She looks everywhere but she can not find James.</seg>
-<seg id="37">Then she hears a sound, it is coming from behind the big old tree. Could that be James? </seg>
-<seg id="38">There is the sound again! </seg>
-<seg id="39">She listens carefully. </seg>
-<seg id="40">It is not a bird or another animal. </seg>
-<seg id="41">She can hear it well now. </seg>
-<seg id="42">It must be James!</seg>
-<seg id="43">Then she also sees a little hand and when she walks closer she also sees his head! </seg>
-<seg id="44">She laughs and says: "I found you!". </seg>
-<seg id="45">They are both happy and go to the house, it is time to eat something and drink some water!</seg>
+<seg id="1">WHERE IS JAMES ?</seg>
+<seg id="2">James and  Mary in garden.</seg>
+<seg id="3">The weather is nice today, warm.</seg>
+<seg id="4">But yesterday it was very cold ! They could not play outside then .</seg>
+<seg id="5">James and Mary love to play , they always play together in the garden in front of the big house .</seg>
+<seg id="6"> James  is six years old little boy.  </seg>
+<seg id="7">Girl  is his sister, she  is five years old.  </seg>
+<seg id="8">James has a small dog , the dog is also in the garden now .</seg>
+<seg id="9">The dog likes to play with the two children .</seg>
+<seg id="10">The dog is very happy now .</seg>
+<seg id="11">Does Mary also have a dog ? </seg>
+<seg id="12">No , Mary does not have a dog , she has a cat .</seg>
+<seg id="13">But the cat is in the house , the cat is sleeping .</seg>
+<seg id="14">Their mother is in the house with the cat , she looks through the window and sees James and Mary playing .</seg>
+<seg id="15">James quickly runs to a big old tree , he is hiding from Mary .</seg>
+<seg id="16">Do you know why ? Mary is sitting and has her hands in front of her eyes .</seg>
+<seg id="17">She can not see anything and she is counting .</seg>
+<seg id="18">Why does she do that ? And what is James doing near the tree ?</seg>
+<seg id="19">It is a game .</seg>
+<seg id="20">When Mary has finished counting she looks around .</seg>
+<seg id="21">She is searching for James : where did he go ? Did you see him ?</seg>
+<seg id="22">Mary does not know where James is .</seg>
+<seg id="23">She asks the dog : " Did you see James? " .</seg>
+<seg id="24">But the dog can not speak of course ! </seg>
+<seg id="25">So Mary gets no answer to her question .</seg>
+<seg id="26">People never get an answer when they speak to dogs !</seg>
+<seg id="27">Mary looks at her mother behind the window , her mother is laughing .</seg>
+<seg id="28">Mary thinks that she has seen where James went : </seg>
+<seg id="29">"where  James, tell !" asks.  </seg>
+<seg id="30">"No,  Mary, can not tell"  she answers.  </seg>
+<seg id="31">Although she probably knows where he is , she does not want to tell .</seg>
+<seg id="32">Mary slowly walks through the garden .</seg>
+<seg id="33">She is still trying to find James .</seg>
+<seg id="34">She looks under the table and under the chairs , but James is not there .</seg>
+<seg id="35">She looks everywhere but she can not find James .</seg>
+<seg id="36">Then she hears a sound , it is coming from behind the big old tree .</seg>
+<seg id="37">Could that be James ? There is the sound again ! She listens carefully .</seg>
+<seg id="38">It is not a bird or another animal .</seg>
+<seg id="39">She can hear it well now .</seg>
+<seg id="40">That  have to be  James is !</seg>
+<seg id="41">Then she also sees a little hand and when she walks closer she also sees his head ! </seg>
+<seg id="42">" You found!" laughs.  </seg>
+<seg id="43">They are both happy and go to the house , it is time to eat something and drink some water !</seg>
 </doc>
 </refset>
 </mteval>

@@ -1,5 +1,13 @@
 <rules>
 
+
+
+
+
+<rule>
+  <match lemma="бар" tags="v.*"><select lemma="go" tags="vblex.*"/></match>
+ </rule>
+
  <rule>
   <or>
    <match lemma="қай" tags="det.*"/>
@@ -44,8 +52,14 @@
  </rule>
 
 <rule>
+  <match lemma="су" tags="adj.*"><select lemma="where" tags="adv.*"/></match>
+ </rule>
+
+<rule>
   <match lemma="біл" tags="v.*"><select lemma="know" tags="vblex.*"/></match>
  </rule>
+
+
 <rule>
   <match lemma="тап" tags="v.*"><select lemma="find" tags="vblex.*"/></match>
  </rule>

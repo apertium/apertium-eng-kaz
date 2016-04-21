@@ -146,6 +146,7 @@
 <e r="RL"><p><l></l><r>емес<s n="vaux"/></r></p></e>
 <e r="RL"><p><l></l><r>жат<s n="vaux"/></r></p></e>
 <e r="RL"><p><l></l><r>жатқан<b/>жоқ<s n="vaux"/><s n="neg"/><s n="pres"/></r></p></e>
+<e><p><l>go<s n="vblex"/></l><r>жүр<s n="v"/><s n="iv"/></r></p></e>
 <e r="RL"><p><l></l><r>жүр<s n="vaux"/></r></p></e>
 <e r="RL"><p><l></l><r>керек<s n="n"/></r></p></e>
 <e r="RL"><p><l></l><r>ма<s n="qst"/></r></p></e>
@@ -20276,7 +20277,6 @@
 <e><p><l>go<s n="vblex"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>go<s n="vblex"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>go<s n="vblex"/></l><r>өт<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>go<s n="vblex"/></l><r>жүр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>gossip<s n="vblex"/></l><r>өсек<b/>соқ<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>govern<s n="vblex"/></l><r>басқар<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>graduate<s n="vblex"/></l><r>оқу<b/>орнын<b/>бітір<s n="v"/><s n="iv"/></r></p></e>

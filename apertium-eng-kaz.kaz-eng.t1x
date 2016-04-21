@@ -450,6 +450,7 @@
 
 <def-cat n="gen">
       <cat-item tags="prn.pers.*.*.gen"/> 
+<cat-item tags="prn.pers.*.*.*.*.gen"/> 
     </def-cat>
       <def-cat n="gen_nom">
       <cat-item tags="prn.pers.*.*.gen"/> 
@@ -803,7 +804,7 @@
 
 <def-attr n="a_det">
      
-      <attr-item tags="det.pos"/>
+      <attr-item tags="det"/>
 
     </def-attr>
 
@@ -3006,9 +3007,12 @@ If no format information is present it is removed. -->
             
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
+<lit-tag v="vblex"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="a_tns"/>
               <clip pos="1" side="tl" part="lemq"/>
+
+
             </lu>
             
           </chunk>
@@ -6029,14 +6033,20 @@ If no format information is present it is removed. -->
           <chunk name="prn-genp-nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
-          <!--    <tag><lit-tag v="det"/></tag>
+
+           <tag><lit-tag v="det"/></tag>
               <tag><lit-tag v="pos"/></tag>
-              <tag><lit-tag v="sg"/></tag>-->
+<tag><lit-tag v="sp"/> </tag>             
+
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>
-<clip pos="1" side="tl" part="a_det"/>
-              <var n="number"/>
+              <clip pos="1" side="tl" part="lemh"/>
+<lit-tag v="2"/>
+ <lit-tag v="3"/>
+<lit-tag v="4"/>
+
+             <!-- <var n="number"/>-->
+<clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -10962,6 +10972,88 @@ If no format information is present it is removed. -->
             </lu>
           </chunk>
         </out>
+      </action>
+    </rule>
+<rule comment="RULE: N of n">
+      <pattern>
+        <pattern-item n="nom"/>
+<pattern-item n="nom-px3sp"/>
+      </pattern>
+<action>
+        
+      <call-macro n="choose_case_and_postposition2">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+
+    
+    
+
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                  <let><var n="case"/><lit-tag v="nom"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+<choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="lem"/><lit v="аст"/></equal>
+                  </test>
+                 <let><var n="number"/><lit v=""/></let>
+                  <let><var n="postposition_lu"/><lit v=""/></let>
+                </when>
+               
+              </choose>
+
+
+        <out>
+          <chunk name="noun-of_noun" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+              <tag>  <var n="number"/></tag>
+            </tags>
+
+            <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+<lu>
+	<clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+            
+              <clip pos="2" side="tl" part="lemq"/>
+                <lit-tag v="3"/>
+            </lu>
+<b/>
+<lu>
+<lit v="of"/>
+<lit-tag v="pr"/>
+</lu>
+<b/>
+<lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+            
+              <clip pos="1" side="tl" part="lemq"/>
+                <lit-tag v="3"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
       </action>
     </rule>
 

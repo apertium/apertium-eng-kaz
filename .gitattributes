@@ -3,6 +3,10 @@
 /COPYING -text
 /ChangeLog -text
 Coding_challenge/eng.txt -text
+Coding_challenge/kaz-12500-cover.sh -text
+Coding_challenge/kaz-akorda-cover.sh -text
+Coding_challenge/kaz-cover.sh -text
+Coding_challenge/kaz-dark-cover.sh -text
 Coding_challenge/kaz-tr.txt -text
 Coding_challenge/kaz.txt -text svneol=unset#application/octet-stream
 Errors/eng-kaz_unknown_words -text

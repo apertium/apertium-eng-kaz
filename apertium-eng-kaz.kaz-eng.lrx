@@ -211,6 +211,24 @@
  </rule>
 
 <rule>
+    
+      <match lemma="жер" tags="n.*"><select lemma="earth" tags="n.*"/></match>
+ </rule>
+
+<rule>
+      <match lemma="күн" tags="n.*"><select lemma="sun" tags="n.*"/></match>
+ 	<match lemma="жер" tags="n.*"><select lemma="earth" tags="n.*"/></match>
+
+</rule>
+
+<rule>
+    
+      <match lemma="күн" tags="n.*"><select lemma="sun" tags="n.*"/></match>
+<match lemma="планета" tags="n.*.*"/>
+<match lemma="*" tags="v.*.*.*.*"/>
+ </rule>
+
+<rule>
     <match lemma="Бостандық" tags="np.top.*"/>
       <match lemma="аудан" tags="n.*.*"><select lemma="district" tags="n.*"/></match>
  </rule>

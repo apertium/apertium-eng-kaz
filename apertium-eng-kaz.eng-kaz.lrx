@@ -10,6 +10,9 @@
     <match lemma="residence" tags="n.*"><select lemma="мекен" tags="n.*"/></match>
   </rule>
 
+<rule> 
+    <match lemma="aunt" tags="n.*"><select lemma="тәте" tags="n.*"/></match>
+  </rule>
 
 
 

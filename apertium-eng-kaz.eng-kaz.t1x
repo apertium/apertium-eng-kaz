@@ -11863,7 +11863,7 @@ this would have to be changed -->
   </pattern>
   <action>
 
-  <call-macro n="NEW-build-noun-lu-2-4-5-sg">
+  <call-macro n="NEW-build-noun-lu-2-4-5">
        <with-param pos="1"/>
   </call-macro> 
 <choose>

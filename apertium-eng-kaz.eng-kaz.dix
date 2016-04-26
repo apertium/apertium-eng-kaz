@@ -16,7 +16,12 @@
     <sdef n="sep"/>
     <sdef n="pass"/>
     <sdef n="pp"/>
-    <sdef n="past"/>
+<sdef n="imp"/> 
+   <sdef n="ger"/>
+<sdef n="past"/>
+ 	<sdef n="coop"/>
+    <sdef n="prc_impf"/>
+ <sdef n="ger_perf"/>
     <sdef n="sup"/>
     <sdef n="emph"/>
     <sdef n="sim"/>
@@ -21539,6 +21544,11 @@
 <e><p><l>various<s n="adj"/><s n="sint"/></l><r>түрлі<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>different<s n="adj"/><s n="sint"/></l><r>түрлі<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>troop<s n="n"/></l><r>қол<s n="n"/></r></p></e>
+
+
+
+
+
 <e><p><l>convention<s n="n"/></l><r>конвенция<s n="n"/></r></p></e>
 <e><p><l>damage<s n="n"/></l><r>зардап<s n="n"/></r></p></e>
 <e><p><l>complex<s n="n"/></l><r>кешен<s n="n"/><s n="px3sp"/></r></p></e>
@@ -21694,6 +21704,149 @@
 <e><p><l>young<s n="n"/></l><r>жас<s n="n"/></r></p></e>
 <e><p><l>several<s n="adj"/><s n="sint"/></l><r>түрлі<s n="adj"/></r></p></e>
 
+
+<e><p><l>reproduce<s n="vblex"/></l><r>жаңғырт<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>that<s n="prn"/><s n="tn"/><s n="mf"/></l><r>сол<s n="prn"/><s n="dem"/></r></p></e>
+<e><p><l>immense<s n="adj"/></l><r>орасан<s n="adv"/></r></p></e>
+<e><p><l>capital<s n="n"/></l><r>елорда<s n="n"/></r></p></e>
+<e><p><l>assembly<s n="n"/></l><r>ассамблея<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>region<s n="n"/></l><r>өңір<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>instruction<s n="n"/></l><r>өкім<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>for<b/>example<s n="n"/></l><r>мәселен<s n="ij"/></r></p></e>
+<e><p><l>kazakhstani<s n="n"/></l><r>қазақстандық<s n="n"/></r></p></e>
+<e><p><l>need<s n="n"/></l><r>қажеттік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>affect<s n="n"/></l><r>зардап<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>g<s n="n"/></l><r>ж<s n="abbr"/></r></p></e>
+<e><p><l>no<s n="n"/></l><r>ешқандай<s n="det"/><s n="neg"/></r></p></e>
+<e r="RL"><p><l></l><r>ә<s n="ij"/></r></p></e>
+<e><p><l>campaign<s n="n"/></l><r>акция<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>energy<s n="n"/></l><r>энергия<s n="n"/></r></p></e>
+<e><p><l>integration<s n="n"/></l><r>ықпалдастық<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>forum<s n="n"/></l><r>форум<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>candidate<s n="n"/></l><r>үміткер<s n="n"/></r></p></e>
+<e><p><l>station<s n="n"/></l><r>станция<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>resource<s n="n"/></l><r>ресурс<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>landfill<s n="n"/></l><r>полигон<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>this<s n="det"/><s n="dem"/></l><r>осынау<s n="det"/><s n="dem"/></r></p></e>
+<e><p><l>absolutely<s n="adv"/></l><r>мүлде<s n="adv"/></r></p></e>
+<e><p><l>interest<s n="vblex"/></l><r>мүдделі<s n="adj"/>+е<s n="cop"/></r></p></e>
+<e><p><l>all<s n="predet"/><s n="sp"/></l><r>күллі<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>confessions<s n="n"/></l><r>конфессия<s n="n"/></r></p></e>
+<e><p><l>community<s n="n"/></l><r>қоғамдастық<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>trade<b/>union<s n="n"/></l><r>кәсіподақ<s n="n"/></r></p></e>
+<e><p><l>association<s n="n"/></l><r>қауымдастық<s n="n"/></r></p></e>
+<e><p><l>integration<s n="n"/></l><r>интеграция<s n="n"/></r></p></e>
+<e r="RL"><p><l></l><r>и<s n="v"/><s n="tv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>wage<s n="n"/></l><r>жалақы<s n="n"/></r></p></e>
+<e><p><l>time<s n="n"/></l><r>есе<s n="n"/></r></p></e>
+<e><p><l>different<s n="adj"/></l><r>әртүрлі<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>emirate<s n="n"/></l><r>әмірлік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>potential<s n="n"/></l><r>әлеует<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>head<b/>of<b/>state<s n="n"/></l><r>елбас<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>develop<s n="vblex"/></l><r>әзірле<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>detail<s n="n"/></l><r>егжей<s n="adv"/></r></p></e>
+<e><p><l>permanently<s n="n"/></l><r>біржола<s n="adv"/></r></p></e>
+<e><p><l>stock exchange<s n="n"/></l><r>биржа<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>most<s n="adv"/></l><r>барынша<s n="adv"/></r></p></e>
+<e><p><l>energy<s n="n"/></l><r>энергия<s n="n"/></r></p></e>
+<e><p><l>energy<s n="n"/></l><r>энергетика<s n="n"/></r></p></e>
+<e><p><l>export<s n="n"/></l><r>экспорт<s n="n"/></r></p></e>
+<e><p><l>bowl<s n="n"/></l><r>шар<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>forum<s n="n"/></l><r>форум<s n="n"/></r></p></e>
+<e><p><l>aspiration<s n="n"/></l><r>ұмтылыс<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>candidate<s n="n"/></l><r>үміткер<s n="n"/></r></p></e>
+<e><p><l>agreement<s n="n"/></l><r>уағдаластық<s n="n"/></r></p></e>
+<e><p><l>prevent<s n="vblex"/></l><r>тый<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>which<s n="adv"/><s n="itg"/></l><r>тын<s n="adj"/><s n="subst"/><s n="px3sp"/></r></p></e>
+<e><p><l>tolerate<s n="vblex"/></l><r>тұт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>understanding<s n="n"/></l><r>түсіністік<s n="n"/></r></p></e>
+<e><p><l>make<s n="vblex"/></l><r>тұрғыз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>terrorism<s n="n"/></l><r>терроризм<s n="n"/></r></p></e>
+<e><p><l>railway<s n="n"/></l><r>теміржол<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>site<s n="n"/></l><r>телім<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>TV<b/>channel<s n="n"/></l><r>телеарна<s n="n"/></r></p></e>
+<e><p><l>peace<s n="n"/></l><r>татулық<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>show<s n="vblex"/></l><r>таныт<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>know<s n="vblex"/></l><r>тан<s n="v"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+<e><p><l>by<s n="pr"/></l><r>таман<s n="post"/></r></p></e>
+<e><p><l>symbol<s n="n"/></l><r>символ<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>resource<s n="n"/></l><r>ресурс<s n="n"/></r></p></e>
+<e><p><l>missile<s n="n"/></l><r>ракета<s n="n"/></r></p></e>
+<e><p><l>landfill<s n="n"/></l><r>полигон<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>debate<s n="n"/></l><r>пікірсайыс<s n="n"/></r></p></e>
+<e><p><l>according to<s n="n"/></l><r>пікірінше<s n="cnjadv"/></r></p></e>
+<e><p><l>petition<s n="n"/></l><r>петиция<s n="n"/></r></p></e>
+<e><p><l>chamber<s n="n"/></l><r>палата<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>locate<s n="vblex"/></l><r>орналас<s n="v"/><s n="iv"/><s n="imp"/></r></p></e>
+<e><p><l>roll<s n="n"/></l><r>орам<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>immigrant<s n="n"/></l><r>оралман<s n="n"/></r></p></e>
+<e><p><l>reap<s n="vblex"/></l><r>ор<s n="v"/><s n="tv"/><s n="imp"/></r></p></e>
+<e><p><l>vicinity<s n="n"/></l><r>өңір<s n="n"/></r></p></e>
+<e><p><l>norm<s n="n"/></l><r>норма<s n="n"/></r></p></e>
+<e><p><l>ideal<s n="n"/></l><r>мұрат<s n="n"/></r></p></e>
+<e><p><l>demand<s n="n"/></l><r>мұқтаждық<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>millions<b/>of<s n="n"/></l><r>миллиондаған<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>acquire<s n="vblex"/></l><r>меңгер<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>learn<s n="vblex"/></l><r>меңгер<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>manage<s n="vblex"/></l><r>меңгер<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>statement<s n="n"/></l><r>мәлімдеме<s n="n"/></r></p></e>
+<e><p><l>importance<s n="n"/></l><r>маңыздылық<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>specialize<s n="vblex"/></l><r>мамандан<s n="v"/><s n="iv"/><s n="ger"/></r></p></e>
+
+<e><p><l>get<b/>rid<s n="vblex"/></l><r>құтыл<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>continent<s n="n"/></l><r>құрлық<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>land<s n="n"/></l><r>құрлық<s n="n"/></r></p></e>
+<e><p><l>mainland<s n="n"/></l><r>құрлық<s n="n"/></r></p></e>
+<e><p><l>suspicion<s n="n"/></l><r>күдік<s n="n"/></r></p></e>
+<e><p><l>persecute<s n="vblex"/></l><r>қудала<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>leader<s n="n"/></l><r>көшбасшы<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>condensate<s n="n"/></l><r>конденсат<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>cut<s n="vblex"/></l><r>қи<s n="v"/><s n="tv"/><s n="pass"/><s n="ger_perf"/><s n="px3sp"/></r></p></e>
+<e><p><l>community<s n="n"/></l><r>қауым<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>category<s n="n"/></l><r>категория<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>pace<s n="n"/></l><r>қарқын<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>need<s n="n"/></l><r>қажеттік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>personnel<s n="n"/></l><r>кадр<s n="n"/></r></p></e>
+<e><p><l>cabinet<s n="n"/></l><r>кабинет<s n="n"/></r></p></e>
+<e><p><l>promote<s n="vblex"/></l><r>ілгерілет<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>search<s n="vblex"/></l><r>іздестір<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>own<s n="vblex"/></l><r>игер<s n="v"/><s n="tv"/><s n="ger"/><s n="attr"/></r></p></e>
+<e><p><l>affect<s n="n"/></l><r>зардап<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>achievement<s n="n"/></l><r>жетістік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>allure<s n="vblex"/></l><r>желіктір<s n="v"/><s n="tv"/><s n="ger"/><s n="px3sp"/></r></p></e>
+<e><p><l>agitate<s n="vblex"/></l><r>желіктір<s n="v"/><s n="tv"/><s n="ger"/><s n="px3sp"/></r></p></e>
+<e><p><l>alter<s n="vblex"/></l><r>жаңар<s n="v"/><s n="iv"/><s n="ger"/></r></p></e>
+<e><p><l>evade<s n="vblex"/></l><r>жалтар<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>no<s n="adv"/></l><r>еш<s n="adv"/></r></p></e>
+<e><p><l>europe<s n="np"/></l><r>еуропа<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>consider<s n="vblex"/></l><r>ескер<s n="v"/><s n="tv"/><s n="prc_impf"/></r></p></e>
+<e><p><l>go<s n="vblex"/></l><r>ерт<s n="v"/><s n="tv"/><s n="coop"/><s n="imp"/></r></p></e>
+<e><p><l>always<s n="adv"/></l><r>әрқашан<s n="adv"/></r></p></e>
+<e><p><l>partnership<s n="n"/></l><r>әріптестік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>emirate<s n="n"/></l><r>әмірлік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>governor's<b/>office<s n="n"/></l><r>әкімдік<s n="n"/></r></p></e>
+<e><p><l>develop<s n="vblex"/></l><r>әзірле<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e r="RL"><p><l></l><r>е<s n="ij"/></r></p></e>
+<e><p><l>adjust<s n="n"/></l><r>дұрыстау<s n="n"/></r></p></e>
+<e><p><l>power<s n="n"/></l><r>держава<s n="n"/></r></p></e>
+<e><p><l>department<s n="n"/></l><r>департамент<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>democratizate<s n="vblex"/></l><r>демократияландыр<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>declaration<s n="n"/></l><r>декларация<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>gene<s n="n"/></l><r>ген<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>today<s n="adv"/></l><r>бүгін<s n="n"/></r></p></e>
+<e><p><l>relatively<s n="adv"/></l><r>біршама<s n="adv"/></r></p></e>
+<e><p><l>independently<s n="adv"/></l><r>бетінше<s n="adv"/></r></p></e>
+<e><p><l>bayterek<s n="n"/></l><r>бәйтерек<s n="n"/></r></p></e>
+<e><p><l>adjust<s n="vblex"/></l><r>бейімде<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>authority<s n="n"/></l><r>бедел<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>all<s n="adj"/></l><r>барша<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>hospital<s n="n"/></l><r>аурухана<s n="n"/></r></p></e>
+<e><p><l>courtyard<s n="n"/></l><r>аула<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>more<b/>than<s n="preadv"/></l><r>астам<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>throw<b/>off<s n="vblex"/></l><r>арыл<s n="v"/><s n="iv"/><s n="ger"/><s n="px3sp"/></r></p></e>
+<e><p><l>ascend<s n="vblex"/></l><r>арт<s n="v"/><s n="iv"/><s n="ger"/><s n="px3sp"/></r></p></e>
+<e><p><l>afore<s n="n"/></l><r>алд<s n="n"/><s n="px1sg"/></r></p></e>
+<e><p><l>first<s n="adv"/></l><r>алғаш<s n="adv"/></r></p></e>
 
 
 <e>

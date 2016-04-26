@@ -222,7 +222,6 @@
 </rule>
 
 <rule>
-    
       <match lemma="күн" tags="n.*"><select lemma="sun" tags="n.*"/></match>
 <match lemma="планета" tags="n.*.*"/>
 <match lemma="*" tags="v.*.*.*.*"/>

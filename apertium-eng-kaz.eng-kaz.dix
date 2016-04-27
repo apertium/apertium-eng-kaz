@@ -358,6 +358,7 @@
 <e><p><l>export<s n="n"/></l><r>экспорт<s n="n"/></r></p></e>
 <e><p><l>epic<s n="n"/></l><r>эпопея<s n="n"/></r></p></e>
 <e><p><l>ethnos<s n="n"/></l><r>этнос<s n="n"/></r></p></e>
+<e><p><l>ethnic<b/>policy<s n="n"/></l><r>этносаясат<s n="n"/></r></p></e>
 
 <!-- -->
 <e><p><l>abacus<s n="n"/></l><r>абакан<s n="n"/></r></p></e>
@@ -1240,6 +1241,7 @@
 <e><p><l>authoritarianism<s n="n"/></l><r>авторитаризм<s n="n"/></r></p></e>
 <e><p><l>authority<s n="n"/></l><r>жетекшілік<s n="n"/></r></p></e>
 <e><p><l>authority<s n="n"/></l><r>өкілеттілік<s n="n"/></r></p></e>
+<e><p><l>power<s n="n"/></l><r>өкілеттік<s n="n"/></r></p></e>
 <e><p><l>authorship<s n="n"/></l><r>авторлық<s n="n"/></r></p></e>
 <e><p><l>author<s n="n"/></l><r>автор<s n="n"/></r></p></e>
 <e><p><l>author<s n="n"/></l><r>жазушы<s n="n"/></r></p></e>
@@ -1973,6 +1975,7 @@
 <e><p><l>camp<s n="n"/></l><r>лагерь<s n="n"/></r></p></e>
 <e><p><l>camp<s n="n"/></l><r>лагерь<s n="n"/></r></p></e>
 <e><p><l>campus<s n="n"/></l><r>университеттік<b/>үй<s n="n"/></r></p></e>
+<e><p><l>campus<s n="n"/></l><r>қалашық<s n="n"/></r></p></e>
 <e><p><l>Canadian<s n="n"/></l><r>Канадиан<s n="n"/></r></p></e>
 <e><p><l>canal<s n="n"/></l><r>канал<s n="n"/></r></p></e>
 <e><p><l>canary<s n="n"/></l><r>канарейка<s n="n"/></r></p></e>
@@ -4105,7 +4108,7 @@
 <e><p><l>excretion<s n="n"/></l><r>сырттқа<b/>шығару<s n="n"/></r></p></e>
 <e><p><l>excursion<s n="n"/></l><r>экскурсия<s n="n"/></r></p></e>
 <e><p><l>execution<s n="n"/></l><r>орындалу<s n="n"/></r></p></e>
-<e><p><l>executive<s n="n"/></l><r>әкімшілік<s n="n"/></r></p></e>
+<e><p><l>administration<s n="n"/></l><r>әкімшілік<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>exemplification<s n="n"/></l><r>суретсипат<s n="n"/></r></p></e>
 <e><p><l>exemption<s n="n"/></l><r>азаттық<s n="n"/></r></p></e>
 <e><p><l>exercise<s n="n"/></l><r>жаттығу<s n="n"/></r></p></e>
@@ -8299,6 +8302,7 @@
 <e><p><l>pretext<s n="n"/></l><r>сылтау<s n="n"/></r></p></e>
 <e><p><l>prevarication<s n="n"/></l><r>жалтақтық<s n="n"/></r></p></e>
 <e><p><l>prevaricator<s n="n"/></l><r>ғаяр<b/>адам<s n="n"/></r></p></e>
+<e><p><l>prevention<s n="n"/></l><r>профилактика<s n="n"/></r></p></e>
 <e><p><l>prevention<s n="n"/></l><r>болғызбау<s n="n"/></r></p></e>
 <e><p><l>preview<s n="n"/></l><r>көру<s n="n"/></r></p></e>
 <e><p><l>prey<s n="n"/></l><r>алапа<s n="n"/></r></p></e>
@@ -11425,6 +11429,7 @@
 <e><p><l>TV<s n="n"/><s n="acr"/></l><r>ТВ<s n="abbr"/></r></p></e>
 <e><p><l>UEFA<s n="n"/><s n="acr"/></l><r>UEFA<s n="abbr"/></r></p></e>
 <e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>CIS<s n="n"/><s n="acr"/></l><r>ТМД<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>USSR<s n="n"/><s n="acr"/></l><r>КСРО<s n="abbr"/></r></p></e>
 <e><p><l>cm<s n="n"/><s n="acr"/></l><r>см<s n="abbr"/></r></p></e>
 <e><p><l>g<s n="n"/><s n="acr"/></l><r>г<s n="abbr"/></r></p></e>
@@ -17294,6 +17299,7 @@
 <e><p><l>influential<s n="adj"/></l><r>ықпалды<s n="adj"/></r></p></e>
 <e><p><l>informal<s n="adj"/></l><r>анайы<s n="adj"/></r></p></e>
 <e><p><l>informational<s n="adj"/></l><r>ақпараттық<s n="adj"/></r></p></e>
+<e><p><l>information<b/>and<b/>propaganda<s n="adj"/></l><r>ақпараттық-насихаттық<s n="adj"/></r></p></e>
 <e><p><l>informative<s n="adj"/></l><r>информациялық<s n="adj"/></r></p></e>
 <e><p><l>infraorbital<s n="adj"/></l><r>көзасты<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>infrared<s n="adj"/></l><r>инфрақызыл<s n="adj"/></r></p></e>
@@ -17372,6 +17378,7 @@
 <e><p><l>intermolecular<s n="adj"/></l><r>молекулааралық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>internal<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
 <e><p><l>international<s n="adj"/></l><r>халықаралық<s n="adj"/></r></p></e>
+<e><p><l>worldwide<s n="adj"/></l><r>дүниежүзілік<s n="adj"/></r></p></e>
 <e><p><l>interosseous<s n="adj"/></l><r>сүйекаралық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>interparadigmatic<s n="adj"/></l><r>парагматикааралық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>interpersonal<s n="adj"/></l><r>тұлғаралық<s n="adj"/></r></p></e>
@@ -21740,6 +21747,7 @@
 <e><p><l>wage<s n="n"/></l><r>жалақы<s n="n"/></r></p></e>
 <e><p><l>time<s n="n"/></l><r>есе<s n="n"/></r></p></e>
 <e><p><l>different<s n="adj"/></l><r>әртүрлі<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>emirate<s n="n"/></l><r>әмірлік<s n="n"/></r></p></e>
 <e><p><l>emirate<s n="n"/></l><r>әмірлік<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>potential<s n="n"/></l><r>әлеует<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>head<b/>of<b/>state<s n="n"/></l><r>елбас<s n="n"/><s n="px3sp"/></r></p></e>
@@ -21846,6 +21854,7 @@
 <e><p><l>throw<b/>off<s n="vblex"/></l><r>арыл<s n="v"/><s n="iv"/><s n="ger"/><s n="px3sp"/></r></p></e>
 <e><p><l>ascend<s n="vblex"/></l><r>арт<s n="v"/><s n="iv"/><s n="ger"/><s n="px3sp"/></r></p></e>
 <e><p><l>afore<s n="n"/></l><r>алд<s n="n"/><s n="px1sg"/></r></p></e>
+<e><p><l>kingdom<s n="n"/></l><r>корольдік<s n="n"/><s n="px1sg"/></r></p></e>
 <e><p><l>first<s n="adv"/></l><r>алғаш<s n="adv"/></r></p></e>
 
 

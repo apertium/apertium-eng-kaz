@@ -1171,6 +1171,7 @@
     <def-var n="verb-nbr"/> <!-- State variable -->
  <def-var n="formality"/> 
  <def-var n="case"/>
+ <def-var n="number1"/>
  <def-var n="mf"/>
  <def-var n="cnjcoo_lu"/> <!-- for THAN --> 
 
@@ -6025,8 +6026,11 @@ If no format information is present it is removed. -->
 </and>
                   </test>
                   <let><clip pos="1" side="tl" part="lem"/><lit v="his"/></let>
-                  <let>              <var n="number"/><lit-tag v="sg"/></let>
+                  <let>              <var n="number1"/><lit-tag v="sg"/></let>
                 </when>
+<otherwise>
+                  <let>              <var n="number1"/><lit-tag v="sp"/></let>
+</otherwise>
                
               </choose>
 <out>
@@ -6036,7 +6040,7 @@ If no format information is present it is removed. -->
 
            <tag><lit-tag v="det"/></tag>
               <tag><lit-tag v="pos"/></tag>
-<tag><lit-tag v="sp"/> </tag>             
+             <tag><var n="number"/> </tag>             
 
             </tags>
             <lu>

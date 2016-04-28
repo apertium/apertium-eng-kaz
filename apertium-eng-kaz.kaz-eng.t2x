@@ -725,12 +725,13 @@
           <chunk>
 
             <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
             <lit-tag v="SN"/>             
 <lit-tag v="nom"/>
 
             <clip pos="2" part="a_pers"/> 
             <clip pos="2" part="a_possessive"/>
-             <lit-tag v="pl"/>
+             <clip pos="2" part="a_nbr"/>
             <clip pos="2" part="chcontent"/> 
           </chunk>
         </out>

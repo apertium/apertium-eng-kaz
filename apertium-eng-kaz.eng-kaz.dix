@@ -11437,6 +11437,8 @@
 <e><p><l>g<s n="n"/><s n="acr"/></l><r>г<s n="abbr"/></r></p></e>
 <e><p><l>http<s n="n"/><s n="acr"/></l><r>http<s n="abbr"/></r></p></e>
 <e><p><l>kg<s n="n"/><s n="acr"/></l><r>кг<s n="abbr"/></r></p></e>
+<e><p><l>billion<s n="n"/><s n="acr"/></l><r>млрд<s n="abbr"/></r></p></e>
+<e><p><l>million<s n="num"/><s n="sg"/></l><r>миллион<s n="abbr"/></r></p></e>
 
 
     <!-- Раздел: Имя Собственное -->
@@ -15696,6 +15698,7 @@
 <e><p><l>additional<s n="adj"/></l><r>қосымша<s n="adj"/></r></p></e>
 <e><p><l>Addled<s n="adj"/></l><r>бұзылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>addressable<s n="adj"/></l><r>адрестелген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>nuclear<s n="adj"/></l><r>ядролық<s n="adj"/></r></p></e>
 <e><p><l>adept<s n="adj"/></l><r>білімдар<s n="adj"/></r></p></e>
 <e><p><l>adequate<s n="adj"/></l><r>адекваттық<s n="adj"/></r></p></e>
 <e><p><l>adhesive<s n="adj"/></l><r>жабысқақ<s n="adj"/></r></p></e>
@@ -21859,6 +21862,36 @@
 <e><p><l>afore<s n="n"/></l><r>алд<s n="n"/><s n="px1sg"/></r></p></e>
 <e><p><l>kingdom<s n="n"/></l><r>корольдік<s n="n"/><s n="px1sg"/></r></p></e>
 <e><p><l>first<s n="adv"/></l><r>алғаш<s n="adv"/></r></p></e>
+<e><p><l>poet<s n="n"/></l><r>ақын<s n="n"/></r></p></e>
+<e><p><l>writer<s n="n"/></l><r>жазушы<s n="n"/></r></p></e>
+<e><p><l>society<s n="n"/></l><r>қоғам<s n="n"/></r></p></e>
+<e><p><l>personality<s n="n"/></l><r>қайраткер<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>family<s n="n"/></l><r>отбасы<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>secretary<s n="n"/></l><r>хатшы<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>organization<s n="n"/></l><r>ұйым<s n="n"/></r></p></e>
+<e><p><l>national<s n="adj"/></l><r>мемлекеттік<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>provided<s n="adj"/></l><r>қамтамасыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>spirituality<s n="n"/></l><r>руханият<s n="n"/></r></p></e>
+<e><p><l>friendship<s n="n"/></l><r>достастық<s n="n"/></r></p></e>
+<e><p><l>commonwealth<s n="n"/></l><r>достастық<s n="n"/></r></p></e>
+<e><p><l>electrolysis<s n="n"/></l><r>электролиз<s n="n"/></r></p></e>
+<e><p><l>criminal<s n="adj"/></l><r>қылмыстық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>dialogue<s n="n"/></l><r>диалог<s n="n"/></r></p></e>
+<e><p><l>public<s n="n"/></l><r>жұртшылық<s n="n"/></r></p></e>
+<e><p><l>prepare<s n="vblex"/></l><r>әзірле<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>lyceum<s n="n"/></l><r>лицей<s n="n"/></r></p></e>
+<e><p><l>send<s n="vblex"/></l><r>жолдан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>cluster<s n="n"/></l><r>кластер<s n="n"/></r></p></e>
+<e><p><l>nationwide<s n="adj"/></l><r>жалпыұлттық<s n="adj"/></r></p></e>
+<e><p><l>global<s n="adj"/></l><r>жаһандық<s n="adj"/></r></p></e>
+<e><p><l>cultural<s n="adj"/></l><r>мәдени<s n="adj"/></r></p></e>
+<e><p><l>patriotism<s n="n"/></l><r>патриотизм<s n="n"/></r></p></e>
+<e><p><l>innovation<s n="n"/></l><r>инновация<s n="n"/></r></p></e>
+<e><p><l>industrialize<s n="vblex"/></l><r>индустрияландыр<s n="v"/><s n="tv"/></r></p></e>
+
+
+
+
 
 
 <e>

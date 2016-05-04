@@ -55,6 +55,19 @@
   <match lemma="су" tags="adj.*"><select lemma="where" tags="adv.*"/></match>
  </rule>
 
+
+<rule>
+  <match lemma="адам" tags="n.*"/>
+  <match lemma="бас" tags="n.*"><select lemma="head" tags="n.*"/></match>
+ </rule>
+
+
+<rule>
+  <match lemma="фильм" tags="n.*"/>
+  <match lemma="бас" tags="n.*"><select lemma="beginning" tags="n.*"/></match>
+ </rule>
+
+
 <rule>
   <match lemma="біл" tags="v.*"><select lemma="know" tags="vblex.*"/></match>
  </rule>

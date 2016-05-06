@@ -48661,6 +48661,8 @@
 
                             <e lm="obligation" i=""><i>obligation</i><par n="house__n"/></e>
 
+ <e lm="obligatory" i=""><i>obligatory</i><par n="expensive__adj"/></e>
+
 			    <e lm="obliquity" i=""><i>obliquity</i><par n="house__n"/></e>
 
                             <e lm="observation" i=""><i>observation</i><par n="house__n"/></e>
@@ -48712,6 +48714,7 @@
                             <e lm="office" i=""><i>office</i><par n="house__n"/></e>
 
                             <e lm="head office" i=""><i>head<b/>office</i><par n="house__n"/></e>
+  <e lm="editorial office" i=""><i>editorial<b/>office</i><par n="house__n"/></e>
 
                             <e lm="officer" i=""><i>officer</i><par n="house__n"/></e>
 

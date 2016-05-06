@@ -2,8 +2,6 @@
 
 
 
-
-
 <rule>
   <match lemma="бар" tags="v.*"><select lemma="go" tags="vblex.*"/></match>
  </rule>
@@ -16,7 +14,14 @@
    <match lemma="жер"><select lemma="place"/></match>
  </rule>
 
- 
+ <rule>
+  <match lemma="кішкентай" tags="adj"><select lemma="small" tags="adj.*"/></match>
+  
+  <match lemma="күшік" tags="n.*"><select lemma="dog" tags="n.*"/>
+</match>
+ </rule>  
+
+
  <rule>
   <match lemma="кішкентай" tags="adj"><select lemma="small" tags="adj.*"/></match>
   <match lemma="*" tags="*"/>
@@ -45,6 +50,8 @@
 
 
  </rule>
+
+
 
 
 <rule>

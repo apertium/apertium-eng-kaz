@@ -42390,6 +42390,7 @@
                             <e lm="bangle" i=""><i>bangle</i><par n="house__n"/></e>
 
                             <e lm="bank" i=""><i>bank</i><par n="house__n"/></e>
+<e lm="banknote" i=""><i>banknote</i><par n="house__n"/></e>
 
                             <e lm="banker" i=""><i>banker</i><par n="house__n"/></e>
 
@@ -43218,6 +43219,7 @@
                             <e lm="chain" i=""><i>chain</i><par n="house__n"/></e>
 
                             <e lm="chair" i=""><i>chair</i><par n="house__n"/></e>
+ <e lm="chairman" i=""><i>chairman</i><par n="house__n"/></e>
 
                             <e lm="chairman" i=""><i>chairm</i><par n="m/an__n"/></e>
 
@@ -47481,7 +47483,9 @@
                             <e lm="launching" i=""><i>launching</i><par n="house__n"/></e>
 
                             <e lm="laurel" i=""><i>laurel</i><par n="house__n"/></e>
+<e lm="laureate" i=""><i>laureate</i><par n="house__n"/></e>
 
+<e lm="prizewinnere" i=""><i>prizewinner</i><par n="house__n"/></e>
                             <e lm="law" i=""><i>law</i><par n="house__n"/></e>
 
                             <e lm="lawfulness" i=""><i>lawfulness</i><par n="access__n"/></e>
@@ -51150,6 +51154,7 @@
                             <e lm="skill" i=""><i>skill</i><par n="house__n"/></e>
 
                             <e lm="skin" i=""><i>skin</i><par n="house__n"/></e>
+ <e lm="skein" i=""><i>skein</i><par n="house__n"/></e>
 
                             <e lm="skirt" i=""><i>skirt</i><par n="house__n"/></e>
 
@@ -55519,6 +55524,9 @@
                             <e lm="internal" i=""><i>internal</i><par n="expensive__adj"/></e>
 
                             <e lm="international" i=""><i>international</i><par n="expensive__adj"/></e>
+
+<e lm="multi-religious" i=""><i>multi-religious</i><par n="expensive__adj"/></e>
+   <e lm="multiconfessional" i=""><i>multiconfessional</i><par n="expensive__adj"/></e>
 
                             <e lm="interpretative" i=""><i>interpretative</i><par n="expensive__adj"/></e>
 

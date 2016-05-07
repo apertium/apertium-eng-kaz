@@ -13941,6 +13941,10 @@
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Kokshetau<s n="np"/><s n="top"/><s n="sg"/></l><r>Көкшетау<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Pavlodar<s n="np"/><s n="top"/><s n="sg"/></l><r>Павлодар<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Semey<s n="np"/><s n="top"/><s n="sg"/></l><r>Семей<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Taraz<s n="np"/><s n="top"/><s n="sg"/></l><r>Тараз<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Altai<s n="np"/><s n="top"/><s n="sg"/></l><r>Алтай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Altybai<s n="np"/><s n="top"/><s n="sg"/></l><r>Алтыбай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Altybaisor<s n="np"/><s n="top"/><s n="sg"/></l><r>Алтыбайсор<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -14033,6 +14037,8 @@
 <e><p><l>Australia<s n="np"/><s n="top"/><s n="sg"/></l><r>Аустралия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Austria<s n="np"/><s n="top"/><s n="sg"/></l><r>Австрия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ayagoz<s n="np"/><s n="top"/><s n="sg"/></l><r>Аягөз<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Makanshy<s n="np"/><s n="top"/><s n="sg"/></l><r>Мақаншы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Urdzhar<s n="np"/><s n="top"/><s n="sg"/></l><r>Ұржар<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Ayakkamyr<s n="np"/><s n="top"/><s n="sg"/></l><r>Аяққамыр<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Ayazkala<s n="np"/><s n="top"/><s n="sg"/></l><r>Аязқала<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Ayushat<s n="np"/><s n="top"/><s n="sg"/></l><r>Аюшат<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -14455,6 +14461,11 @@
 <e><p><l>Karlsruhe<s n="np"/><s n="top"/><s n="sg"/></l><r>Карлсруэ<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kazakhstan<s n="np"/><s n="top"/><s n="sg"/></l><r>Қазақстан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kazakhstan<s n="np"/><s n="top"/><s n="sg"/></l><r>қазақстан<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Kanada<s n="np"/><s n="top"/><s n="sg"/></l><r>Канада<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Egypt<s n="np"/><s n="top"/><s n="sg"/></l><r>Египет<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Great<b/>Britain<s n="np"/><s n="top"/><s n="sg"/></l><r>Ұлыбритания<s n="np"/><s n="top"/></r></p></e>
+
+
 <e r="RL"><p><l>Kazakhstan<s n="np"/><s n="top"/><s n="sg"/></l><r>Қазақстан<s n="np"/><s n="nom"/></r></p></e>
 <e><p><l>Kazan<s n="np"/><s n="top"/><s n="sg"/></l><r>Қазан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Kentucky<s n="np"/><s n="top"/><s n="sg"/></l><r>Кентукки<s n="np"/><s n="top"/></r></p></e>
@@ -21966,6 +21977,7 @@
 <e><p><l>wrapper<s n="n"/></l><r>бандероль<s n="n"/></r></p></e>
 <e><p><l>metal<s n="n"/></l><r>металл<s n="n"/></r></p></e>
 
+<e><p><l>kz<s n="abbr"/></l><r>kz<s n="abbr"/></r></p></e>
 <e><p><l>zh.<s n="abbr"/></l><r>ж.<s n="abbr"/></r></p></e>
 <e><p><l>o.<s n="abbr"/></l><r>о.<s n="abbr"/></r></p></e>
 <e><p><l>B.<s n="abbr"/></l><r>Б.<s n="abbr"/></r></p></e>

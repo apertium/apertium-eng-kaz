@@ -814,6 +814,7 @@
 
 <def-attr n="a_prn">
       <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.dem.adv"/>
         </def-attr>  
 
 
@@ -6738,6 +6739,32 @@ If no format information is present it is removed. -->
                 </otherwise>
               </choose>
 <choose>
+
+                 <when>
+                   <test>
+<and>
+                       <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.dem.adv"/></equal>
+   <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
+</and>
+                  </test>
+
+               
+        <out>
+          <chunk name="pron-bylai" case="caseFirstWord">
+            <tags>
+              <tag>	<lit-tag v="AdvP"/></tag>
+	 </tags>
+            <lu>
+
+            <lit v="like that"/>
+	<lit-tag v="adv"/>
+
+             
+	
+            </lu>
+          </chunk>
+        </out>
+ </when>
                  <when>
                    <test>
 <and>

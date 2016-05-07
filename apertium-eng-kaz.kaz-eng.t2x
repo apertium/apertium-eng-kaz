@@ -308,6 +308,53 @@
     </rule>
 
 
+<rule comment="RULE:  SN-ADVP PP SV">
+      <pattern>
+        
+        <pattern-item n="SN"/>
+<pattern-item n="AdvP"/>
+<pattern-item n="SV"/>
+<pattern-item n="SV"/>
+      </pattern>
+      <action>
+        
+
+        <out>
+           
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+<b pos="2"/>
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+<b/>
+<chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+<b/>
+
+
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
  <rule comment="RULE:  SN-ADVP SV-cop SN">
       <pattern>
         <pattern-item n="SN"/>

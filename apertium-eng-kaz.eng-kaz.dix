@@ -10936,6 +10936,7 @@
 <e><p><l>vehicle<s n="n"/></l><r>автомобиль<s n="n"/></r></p></e>
 <e><p><l>veil<s n="n"/></l><r>тор<s n="n"/></r></p></e>
 <e><p><l>vein<s n="n"/></l><r>көктамыр<s n="n"/></r></p></e>
+<e><p><l>vein<s n="n"/></l><r>вена<s n="n"/></r></p></e>
 <e><p><l>velocimeter<s n="n"/></l><r>велосиметр<s n="n"/></r></p></e>
 <e><p><l>velocipede<s n="n"/></l><r>велосипед<s n="n"/></r></p></e>
 <e><p><l>velocity<s n="n"/></l><r>жылдамдық<s n="n"/></r></p></e>
@@ -13644,6 +13645,8 @@
 <e><p><l>Obama<s n="np"/><s n="cog"/></l><r>Обама<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Ospanbayeva<s n="np"/><s n="cog"/></l><r>Оспанбаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Ospanov<s n="np"/><s n="cog"/></l><r>Оспанов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Karibayeva<s n="np"/><s n="cog"/></l><r>Кәрібаева<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Karibaeva<s n="np"/><s n="cog"/></l><r>Кәрібаева<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Otero<s n="np"/><s n="cog"/></l><r>Отеро<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Pasteur<s n="np"/><s n="cog"/></l><r>Пастер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Pella<s n="np"/><s n="cog"/></l><r>Пелла<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -13937,6 +13940,7 @@
 <e><p><l>Almatu<s n="np"/><s n="top"/><s n="sg"/></l><r>Алмату<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Altai<s n="np"/><s n="top"/><s n="sg"/></l><r>Алтай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Altybai<s n="np"/><s n="top"/><s n="sg"/></l><r>Алтыбай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Altybaisor<s n="np"/><s n="top"/><s n="sg"/></l><r>Алтыбайсор<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -21811,6 +21815,7 @@
 <e><p><l>resource<s n="n"/></l><r>ресурс<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>landfill<s n="n"/></l><r>полигон<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>this<s n="det"/><s n="dem"/></l><r>осынау<s n="det"/><s n="dem"/></r></p></e>
+<e><p><l>this<s n="det"/><s n="dem"/></l><r>осы<s n="prn"/><s n="dem"/></r></p></e>
 <e><p><l>absolutely<s n="adv"/></l><r>мүлде<s n="adv"/></r></p></e>
 <e><p><l>interest<s n="vblex"/></l><r>мүдделі<s n="adj"/>+е<s n="cop"/></r></p></e>
 <e><p><l>all<s n="predet"/><s n="sp"/></l><r>күллі<s n="det"/><s n="qnt"/></r></p></e>
@@ -21962,6 +21967,11 @@
 <e><p><l>metal<s n="n"/></l><r>металл<s n="n"/></r></p></e>
 
 <e><p><l>zh.<s n="abbr"/></l><r>ж.<s n="abbr"/></r></p></e>
+<e><p><l>o.<s n="abbr"/></l><r>о.<s n="abbr"/></r></p></e>
+<e><p><l>B.<s n="abbr"/></l><r>Б.<s n="abbr"/></r></p></e>
+<e><p><l>K.<s n="abbr"/></l><r>К.<s n="abbr"/></r></p></e>
+<e><p><l>S.<s n="abbr"/></l><r>С.<s n="abbr"/></r></p></e>
+<e><p><l>N.<s n="abbr"/></l><r>Н.<s n="abbr"/></r></p></e>
 <e><p><l>community<s n="n"/></l><r>қоғамдастық<s n="n"/></r></p></e>
 <e><p><l>royal<s n="adj"/></l><r>корольдік<s n="adj"/></r></p></e>
 <e><p><l>integration<s n="n"/></l><r>ықпалдастық<s n="n"/></r></p></e>
@@ -22119,9 +22129,78 @@
 <e><p><l>by<b/>cash<s n="adv"/></l><r>ақшалай<s n="adv"/></r></p></e>
 <e><p><l>teenager<s n="n"/></l><r>жеткіншек<s n="n"/></r></p></e>
 <e><p><l>banknote<s n="n"/></l><r>банкнот<s n="n"/></r></p></e>
+<e><p><l>cup<s n="n"/></l><r>кубок<s n="n"/></r></p></e>
+<e><p><l>korean<s n="n"/></l><r>корей<s n="n"/></r></p></e>
+<e><p><l>cooperation<s n="n"/></l><r>кооперация<s n="n"/></r></p></e>
+<e><p><l>resettlement<s n="n"/></l><r>қоныс<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>resettlement<s n="n"/></l><r>қоныс<s n="n"/></r></p></e>
+<e><p><l>attach<s n="vblex"/></l><r>қондыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>combine<s n="n"/></l><r>комбинат<s n="n"/></r></p></e>
+<e><p><l>performance<s n="n"/></l><r>қойылым<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>performance<s n="n"/></l><r>қойылым<s n="n"/></r></p></e>
+<e><p><l>multiply<s n="vblex"/></l><r>көбей<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>propagate<s n="vblex"/></l><r>көбей<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>reproduce<s n="vblex"/></l><r>көбей<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>cut<s n="n"/></l><r>қи<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>snip<s n="n"/></l><r>қи<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>conflict<s n="n"/></l><r>кикілжің<s n="n"/></r></p></e>
+<e><p><l>business<s n="n"/></l><r>кәсіпкерлік<s n="n"/></r></p></e>
+<e><p><l>appropriate<s n="n"/></l><r>керектік<s n="n"/></r></p></e>
 
-
-
+<e><p><l>settlement<s n="n"/></l><r>кент<s n="n"/></r></p></e>
+<e><p><l>goodness<s n="n"/></l><r>кеңпейілділік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>finance<s n="vblex"/></l><r>қаржыландыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>desirable<s n="adj"/></l><r>қалаулы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>epidemy<s n="n"/></l><r>індет<s n="n"/></r></p></e>
+<e><p><l>intelligentsia<s n="n"/></l><r>интеллигенция<s n="n"/></r></p></e>
+<e><p><l>intake<s n="vblex"/></l><r>иір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>willingness<s n="n"/></l><r>әзірлік<s n="n"/></r></p></e>
+<e><p><l>objectivity<s n="n"/></l><r>дұрыстық<s n="n"/></r></p></e>
+<e><p><l>Duma<s n="n"/></l><r>дума<s n="n"/></r></p></e>
+<e><p><l>diplomat<s n="n"/></l><r>дипломат<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>independence<s n="n"/></l><r>дербестік<s n="n"/></r></p></e>
+<e><p><l>deputy<s n="n"/></l><r>депутаттық<s n="n"/></r></p></e>
+<e><p><l>deposit<s n="n"/></l><r>депозит<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>consistency<s n="n"/></l><r>дәйектілік<s n="n"/></r></p></e>
+<e><p><l>wisdom<s n="n"/></l><r>даналық<s n="n"/></r></p></e>
+<e><p><l>industriousness<s n="n"/></l><r>еңбекқорлық<s n="n"/></r></p></e>
+<e><p><l>but<s n="cnjcoo"/></l><r>әйткенмен<s n="cnjadv"/></r></p></e>
+<e><p><l>fuel<s n="n"/></l><r>жанармай<s n="n"/></r></p></e>
+<e><p><l>exchange<b/>rate<s n="n"/></l><r>бағам<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>strength<s n="n"/></l><r>беріктік<s n="n"/></r></p></e>
+<e><p><l>resiliency<s n="n"/></l><r>бекемдік<s n="n"/></r></p></e>
+<e><p><l>authority<s n="n"/></l><r>бедел<s n="n"/></r></p></e>
+<e><p><l>report<s n="n"/></l><r>баяндама<s n="n"/></r></p></e>
+<e><p><l>burden<s n="n"/></l><r>ауыртпалық<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>courtyard<s n="n"/></l><r>аула<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>curl<s n="n"/></l><r>иірім<s n="n"/></r></p></e>
+<e><p><l>scroll<s n="n"/></l><r>иірім<s n="n"/></r></p></e>
+<e><p><l>analyze<s n="vblex"/></l><r>зерделе<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>heart<s n="n"/></l><r>жүректілік<s n="n"/></r></p></e>
+<e><p><l>inspire<s n="vblex"/></l><r>жігерлен<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>encourage<s n="vblex"/></l><r>жігерлендір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>improve<s n="vblex"/></l><r>жетіл<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>layout<s n="n"/></l><r>макет<s n="n"/></r></p></e>
+<e><p><l>maquette<s n="n"/></l><r>макет<s n="n"/></r></p></e>
+<e><p><l>fee<s n="n"/></l><r>жарна<s n="n"/></r></p></e>
+<e><p><l>payment<s n="n"/></l><r>жарна<s n="n"/></r></p></e>
+<e><p><l>revive<s n="vblex"/></l><r>жандан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>threat<s n="n"/></l><r>байбалам<s n="n"/></r></p></e>
+<e><p><l>assembly<s n="n"/></l><r>ассамблея<s n="n"/></r></p></e>
+<e><p><l>architect<s n="n"/></l><r>архитектор<s n="n"/></r></p></e>
+<e><p><l>artist<s n="n"/></l><r>артист<s n="n"/></r></p></e>
+<e><p><l>ensemble<s n="n"/></l><r>ансамбль<s n="n"/></r></p></e>
+<e><p><l>front-line<b/>soldier<s n="n"/></l><r>майдангер<s n="n"/></r></p></e>
+<e><p><l>newspaper<s n="n"/></l><r>газета<s n="n"/></r></p></e>
+<e><p><l>peacekeeping<s n="n"/></l><r>бітімгершілік<s n="n"/></r></p></e>
+<e><p><l>Oksikbayev<s n="np"/><s n="cog"/></l><r>Өксікбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Karimov<s n="np"/><s n="cog"/></l><r>Кәрімов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>instruction<s n="n"/></l><r>өкім<s n="n"/></r></p></e>
+<e><p><l>according<b/>to<b/>opinion<s n="pr"/></l><r>ойынша<s n="cnjadv"/></r></p></e>
+<e><p><l>other<s n="adj"/></l><r>өзге<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>justification<s n="n"/></l><r>негіздеме<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>patient<s n="n"/></l><r>науқас<s n="n"/></r></p></e>
+<e><p><l>kingdom<s n="n"/></l><r>корольдік<s n="n"/></r></p></e>
 <e>
       <re>[A-Z][a-z]+</re>
         <i><s n="np"/><s n="unk"/></i>

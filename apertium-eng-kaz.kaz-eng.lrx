@@ -290,6 +290,7 @@
    <match lemma="ай" tags="n.px3sp.*"><select lemma="month" tags="n.*"/></match>
  </rule>
 
+
 <rule>
 <match lemma="бұл" tags="prn.dem.adv"/>
 <match lemma="*" tags="*"/>

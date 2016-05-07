@@ -308,7 +308,7 @@
     </rule>
 
 
-<rule comment="RULE:  SN-ADVP PP SV">
+<rule comment="RULE:  SN AdvP SV SV">
       <pattern>
         
         <pattern-item n="SN"/>

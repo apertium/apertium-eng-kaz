@@ -46408,6 +46408,7 @@
                             <e lm="hammer" i=""><i>hammer</i><par n="house__n"/></e>
 
                             <e lm="hand" i=""><i>hand</i><par n="house__n"/></e>
+<e lm="handcuff" i=""><i>handcuff</i><par n="house__n"/></e>
 
                             <e lm="handball" i=""><i>handball</i><par n="east__n"/></e>
 
@@ -74087,6 +74088,8 @@
 
                             <e lm="smooth" i=""><i>smooth</i><par n="accept__vblex"/></e>
 
+
+
                             <e lm="reassurance" i=""><i>reassurance</i><par n="house__n"/></e>
 
                             <e lm="challenging" i=""><i>challenging</i><par n="expensive__adj"/></e>
@@ -74642,6 +74645,8 @@
                             <e lm="firefighter" i=""><i>firefighter</i><par n="house__n"/></e>
 <e lm="cowbow" i=""><i>cowbow</i><par n="house__n"/></e>
 <e lm="bookcase" i=""><i>bookcase</i><par n="house__n"/></e>
+
+<e lm="smooth surface" i=""><i>smooth<b/>surface</i><par n="house__n"/></e>
 <e lm="rollerblade" i=""><i>rollerblade</i><par n="house__n"/></e>
 <e lm="treehouse" i=""><i>treehouse</i><par n="house__n"/></e>
     

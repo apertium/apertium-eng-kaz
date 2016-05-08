@@ -224,6 +224,7 @@
 <e r="LR"><p><l>of<s n="pr"/></l><r></r></p></e>
 <e r="LR"><p><l>off<s n="pr"/></l><r></r></p></e>
 <e><p><l>on<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e><p><l>on<s n="pr"/></l><r>үст<s n="n"/><s n="px3sp"/><s n="dat"/></r></p></e>
 <e><p><l>on<b/>over<b/>of<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>on<b/>top<b/>of<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>onto<s n="pr"/></l><r>қарай<s n="post"/></r></p></e>
@@ -290,6 +291,7 @@
 <e><p><l>slightly<s n="adv"/></l><r>аздап<s n="adv"/></r></p></e>
 <e><p><l>then<s n="adv"/></l><r>артынша<s n="adv"/></r></p></e>
 <e><p><l>a<b/>long<b/>time<b/>ago<s n="adv"/></l><r>баяғыда<s n="adv"/></r></p></e>
+<e><p><l>long<b/>since<s n="adv"/></l><r>бұрыннан<s n="adv"/></r></p></e>
 <e><p><l>what<b/>ever<s n="adv"/></l><r>бәрібір<s n="adv"/></r></p></e>
 <e><p><l>barely<s n="adv"/></l><r>әзер<s n="adv"/></r></p></e>
 <e><p><l>ever<s n="adv"/></l><r>әйтеуір<s n="adv"/></r></p></e>
@@ -1428,6 +1430,7 @@
 <e><p><l>banishment<s n="n"/></l><r>қуғын<s n="n"/></r></p></e>
 <e><p><l>banker<s n="n"/></l><r>банкир<s n="n"/></r></p></e>
 <e><p><l>bankruptcy<s n="n"/></l><r>банкроттылық<s n="n"/></r></p></e>
+<e><p><l>bankruptcy<s n="n"/></l><r>банкроттық<s n="n"/></r></p></e>
 <e><p><l>bankrupt<s n="n"/></l><r>банкрот<s n="n"/></r></p></e>
 <e><p><l>bank<s n="n"/></l><r>банк<s n="n"/></r></p></e>
 <e><p><l>banner<s n="n"/></l><r>жарнама<s n="n"/></r></p></e>
@@ -1730,6 +1733,8 @@
 <e><p><l>bonanza<s n="n"/></l><r>көркею<s n="n"/></r></p></e>
 <e><p><l>bonding<s n="n"/></l><r>желімдік<s n="n"/></r></p></e>
 <e><p><l>bond<s n="n"/></l><r>міндеттеме<s n="n"/></r></p></e>
+<e><p><l>bond<s n="n"/></l><r>бұғау<s n="n"/></r></p></e>
+<e><p><l>handcuff<s n="n"/></l><r>бұғау<s n="n"/></r></p></e>
 <e><p><l>bone<s n="n"/></l><r>сүйек<s n="n"/></r></p></e>
 <e><p><l>bonfire<s n="n"/></l><r>алау<s n="n"/></r></p></e>
 <e><p><l>bonnet<s n="n"/></l><r>капот<s n="n"/></r></p></e>
@@ -2579,6 +2584,7 @@
 <e><p><l>collegium<s n="n"/></l><r>коллегия<s n="n"/></r></p></e>
 <e><p><l>collenchyma<s n="n"/></l><r>колленхима<s n="n"/></r></p></e>
 <e><p><l>collision<s n="n"/></l><r>соғысу<s n="n"/></r></p></e>
+<e><p><l>colliery<s n="n"/></l><r>кеніш<s n="n"/></r></p></e>
 <e><p><l>colloid<s n="n"/></l><r>коллоид<s n="n"/></r></p></e>
 <e><p><l>colloquium<s n="n"/></l><r>коллоквиум<s n="n"/></r></p></e>
 <e><p><l>collotype<s n="n"/></l><r>фотобасу<s n="n"/></r></p></e>
@@ -3056,6 +3062,7 @@
 <e><p><l>crossbar<s n="n"/></l><r>көпір<b/>ағаш<s n="n"/></r></p></e>
 <e><p><l>crossbow<s n="n"/></l><r>арбалет<s n="n"/></r></p></e>
 <e><p><l>crosshead<s n="n"/></l><r>крейцкопф<s n="n"/></r></p></e>
+<e><p><l>crossing<s n="n"/></l><r>өткел<s n="n"/></r></p></e>
 <e><p><l>crossing<s n="n"/></l><r>қоспа<s n="n"/></r></p></e>
 <e><p><l>crosslinking<s n="n"/></l><r>тігілу<s n="n"/></r></p></e>
 <e><p><l>cross<s n="n"/></l><r>крест<s n="n"/></r></p></e>
@@ -3337,6 +3344,7 @@
 <e><p><l>denouement<s n="n"/></l><r>ағыту<s n="n"/></r></p></e>
 <e><p><l>denouncer<s n="n"/></l><r>айыптаушы<s n="n"/></r></p></e>
 <e><p><l>density<s n="n"/></l><r>нығыздық<s n="n"/></r></p></e>
+<e><p><l>density<s n="n"/></l><r>тығыздық<s n="n"/></r></p></e>
 <e><p><l>denticle<s n="n"/></l><r>кішкене<b/>тіс<s n="n"/></r></p></e>
 <e><p><l>dentine<s n="n"/></l><r>дентин<s n="n"/></r></p></e>
 <e><p><l>dentist<s n="n"/></l><r>дантист<s n="n"/></r></p></e>
@@ -3822,6 +3830,7 @@
 <e><p><l>editorial<s n="n"/></l><r>редакциялық<b/>мақала<s n="n"/></r></p></e>
 <e><p><l>editor<s n="n"/></l><r>редактор<s n="n"/></r></p></e>
 <e><p><l>education<s n="n"/></l><r>тәрбие<s n="n"/></r></p></e>
+<e><p><l>education<s n="n"/></l><r>өнеге<s n="n"/></r></p></e>
 <e><p><l>educator<s n="n"/></l><r>педагог<s n="n"/></r></p></e>
 <e><p><l>e-ejaculation<s n="n"/></l><r>электронная<b/>эякуляция<s n="n"/></r></p></e>
 <e><p><l>eel<s n="n"/></l><r>безеу<s n="n"/></r></p></e>
@@ -3853,6 +3862,7 @@
 <e><p><l>elbow<s n="n"/></l><r>шынтақ<s n="n"/></r></p></e>
 <e><p><l>elderberry<s n="n"/></l><r>аю<b/>бадам<s n="n"/></r></p></e>
 <e><p><l>elder<s n="n"/></l><r>қарт<s n="n"/></r></p></e>
+<e><p><l>elder<s n="n"/></l><r>ақсақал<s n="n"/></r></p></e>
 <e><p><l>election<s n="n"/></l><r>сайлау<s n="n"/></r></p></e>
 <e><p><l>electorate<s n="n"/></l><r>электорат<s n="n"/></r></p></e>
 <e><p><l>elector<s n="n"/></l><r>таңдаушы<s n="n"/></r></p></e>
@@ -4427,6 +4437,7 @@
 <e><p><l>ferritin<s n="n"/></l><r>ферритин<s n="n"/></r></p></e>
 <e><p><l>ferromagnetism<s n="n"/></l><r>ферромагнетизм<s n="n"/></r></p></e>
 <e><p><l>ferry<s n="n"/></l><r>паром<s n="n"/></r></p></e>
+<e><p><l>ferry<s n="n"/></l><r>өткел<s n="n"/></r></p></e>
 <e><p><l>fertilisation<s n="n"/></l><r>ұрықтандыру<s n="n"/></r></p></e>
 <e><p><l>fertility<s n="n"/></l><r>береке<s n="n"/></r></p></e>
 <e><p><l>festival<s n="n"/></l><r>фестиваль<s n="n"/></r></p></e>
@@ -4926,7 +4937,9 @@
 <e><p><l>godfather<s n="n"/></l><r>кіндік<b/>әке<s n="n"/></r></p></e>
 <e><p><l>godmother<s n="n"/></l><r>кіндік<b/>ана<s n="n"/></r></p></e>
 <e><p><l>god<s n="n"/></l><r>құдай<s n="n"/></r></p></e>
+<e><p><l>god<s n="n"/></l><r>алла<s n="n"/></r></p></e>
 <e><p><l>God<s n="n"/></l><r>құдай<s n="n"/></r></p></e>
+<e><p><l>God<s n="n"/></l><r>Алла<s n="n"/></r></p></e>
 <e><p><l>God<s n="n"/></l><r>тәңір<s n="n"/></r></p></e>
 <e><p><l>godson<s n="n"/></l><r>кіндік<b/>бала<s n="n"/></r></p></e>
 <e><p><l>goitre<s n="n"/></l><r>зоб<s n="n"/></r></p></e>
@@ -6112,6 +6125,8 @@
 <e><p><l>laboratory<s n="n"/></l><r>зертхана<s n="n"/></r></p></e>
 <e><p><l>labourer<s n="n"/></l><r>жалшы<s n="n"/></r></p></e>
 <e><p><l>labour<s n="n"/></l><r>еңбек<s n="n"/></r></p></e>
+<e><p><l>work<s n="vblex"/></l><r>еңбектен<s n="v"/><s n="iv"/><s n="ger"/></r></p></e>
+<e><p><l>labour<s n="vblex"/></l><r>еңбектен<s n="v"/><s n="iv"/><s n="ger"/></r></p></e>
 <e><p><l>lab<s n="n"/></l><r>зертхана<s n="n"/></r></p></e>
 <e><p><l>lab<s n="n"/></l><r>зертханалық<s n="n"/></r></p></e>
 <e><p><l>labyrinth<s n="n"/></l><r>лабиринт<s n="n"/></r></p></e>
@@ -6672,6 +6687,8 @@
 <e><p><l>medium<s n="n"/></l><r>орта<s n="n"/></r></p></e>
 <e><p><l>medlar<s n="n"/></l><r>мушмула<s n="n"/></r></p></e>
 <e><p><l>meeting<s n="n"/></l><r>кездесу<s n="n"/></r></p></e>
+<e><p><l>meeting<s n="n"/></l><r>басқосу<s n="n"/></r></p></e>
+<e><p><l>summit<s n="n"/></l><r>басқосу<s n="n"/></r></p></e>
 <e><p><l>megabit<s n="n"/></l><r>мегабит<s n="n"/></r></p></e>
 <e><p><l>megabyte<s n="n"/></l><r>мегабайт<s n="n"/></r></p></e>
 <e><p><l>megakaryocyte<s n="n"/></l><r>мегакариоцит<s n="n"/></r></p></e>
@@ -6824,6 +6841,7 @@
 <e><p><l>mineralogy<s n="n"/></l><r>минералогия<s n="n"/></r></p></e>
 <e><p><l>mineral<s n="n"/></l><r>минерал<s n="n"/></r></p></e>
 <e><p><l>miner<s n="n"/></l><r>кенші<s n="n"/></r></p></e>
+<e><p><l>mine<s n="n"/></l><r>кеніш<s n="n"/></r></p></e>
 <e><p><l>mine<s n="n"/></l><r>мина<s n="n"/></r></p></e>
 <e><p><l>miniature<s n="n"/></l><r>миниатюра<s n="n"/></r></p></e>
 <e><p><l>miniaturisation<s n="n"/></l><r>миниатюризация<s n="n"/></r></p></e>
@@ -8701,6 +8719,7 @@
 <e><p><l>rancher<s n="n"/></l><r>ранчошы<s n="n"/></r></p></e>
 <e><p><l>ranch<s n="n"/></l><r>ранчо<s n="n"/></r></p></e>
 <e><p><l>range<s n="n"/></l><r>таңдама<s n="n"/></r></p></e>
+<e><p><l>range<s n="n"/></l><r>алыстық<s n="n"/></r></p></e>
 <e><p><l>rank<s n="n"/></l><r>дәреже<s n="n"/></r></p></e>
 <e><p><l>ransom<s n="n"/></l><r>төлем<s n="n"/></r></p></e>
 <e><p><l>rapacity<s n="n"/></l><r>ашқарақтық<s n="n"/></r></p></e>
@@ -9217,6 +9236,7 @@
 <e><p><l>samara<s n="n"/></l><r>қанатжеміс<s n="n"/></r></p></e>
 <e><p><l>samarium<s n="n"/></l><r>самарий<s n="n"/></r></p></e>
 <e><p><l>sample<s n="n"/></l><r>үлгі<s n="n"/></r></p></e>
+<e><p><l>sample<s n="n"/></l><r>өнеге<s n="n"/></r></p></e>
 <e><p><l>sampling<s n="n"/></l><r>жасау<s n="n"/></r></p></e>
 <e><p><l>sanatorium<s n="n"/></l><r>шипажай<s n="n"/></r></p></e>
 <e><p><l>sanction<s n="n"/></l><r>санкция<s n="n"/></r></p></e>
@@ -9625,6 +9645,7 @@
 <e><p><l>sister<s n="n"/></l><r>сіңлі<s n="n"/></r></p></e>
 <e><p><l>site<s n="n"/></l><r>жер<s n="n"/></r></p></e>
 <e><p><l>situation<s n="n"/></l><r>жағдай<s n="n"/></r></p></e>
+<e><p><l>situation<s n="n"/></l><r>жағдаят<s n="n"/></r></p></e>
 <e><p><l>size<s n="n"/></l><r>өлшем<s n="n"/></r></p></e>
 <e><p><l>skater<s n="n"/></l><r>скейтер<s n="n"/></r></p></e>
 <e><p><l>skate<s n="n"/></l><r>беткей<s n="n"/></r></p></e>
@@ -11329,6 +11350,7 @@
 <e r="LR"><p><l>watch<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
 <e r="RL"><p><l>time<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
 <e r="RL"><p><l></l><r>шы<s n="emph"/></r></p></e>
+<e r="RL"><p><l></l><r>гөрі<s n="post"/></r></p></e>
 
 
 
@@ -14891,7 +14913,7 @@
 <e><p><l>very<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
 <e><p><l>all<s n="predet"/></l><r>бүкіл<s n="det"/><s n="qnt"/></r></p></e>
 <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="adv"/></r></p></e>
-
+<e><p><l>all<s n="predet"/><s n="sp"/></l><r>бәрі<s n="prn"/><s n="qnt"/></r></p></e>
     <!-- Раздел: Союз -->
 
 <e><p><l>abreast<s n="cnjadv"/></l><r>қатарлап<s n="adv"/></r></p></e>
@@ -14947,6 +14969,7 @@
 <e><p><l>abundantly<s n="adv"/></l><r>мол<s n="adv"/></r></p></e>
 <e><p><l>academically<s n="adv"/></l><r>академиялы<s n="adv"/></r></p></e>
 <e><p><l>accidentally<s n="adv"/></l><r>кездейсоқ<s n="adv"/></r></p></e>
+<e><p><l>accidentally<s n="adv"/></l><r>аңдаусызда<s n="adv"/></r></p></e>
 <e><p><l>accordingly<s n="adv"/></l><r>сәйкесінше<s n="adv"/></r></p></e>
 <e><p><l>accurately<s n="adv"/></l><r>дәл<s n="adv"/></r></p></e>
 <e><p><l>actively<s n="adv"/></l><r>белсене<s n="adv"/></r></p></e>
@@ -15676,6 +15699,7 @@
 <e><p><l>wearily<s n="adv"/></l><r>қалжырап<s n="adv"/></r></p></e>
 <e><p><l>weekly<s n="adv"/></l><r>апта<b/>сайын<s n="adv"/></r></p></e>
 <e><p><l>well<s n="adv"/></l><r>жақсы<s n="adv"/></r></p></e>
+<e><p><l>well-being<s n="n"/></l><r>есендік<s n="n"/></r></p></e>
 <e><p><l>wellbeing<s n="adv"/></l><r>жақсы<s n="adv"/></r></p></e>
 <e><p><l>westward<s n="adv"/></l><r>батысқа<b/>қарай<s n="adv"/></r></p></e>
 <e><p><l>westwards<s n="adv"/></l><r>батысқа<s n="adv"/></r></p></e>
@@ -18603,6 +18627,7 @@
 <e><p><l>slippery<s n="adj"/></l><r>тайғақ<s n="adj"/></r></p></e>
 <e><p><l>slovakian<s n="adj"/></l><r>словакиялық<s n="adj"/></r></p></e>
 <e><p><l>smooth<s n="adj"/></l><r>тегіс<s n="adj"/></r></p></e>
+<e><p><l>smooth<b/>surface<s n="n"/></l><r>айдын<s n="n"/></r></p></e>
 <e><p><l>smothered<s n="adj"/></l><r>басыңқы<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>social<s n="adj"/></l><r>әлеуметтік<s n="adj"/></r></p></e>
 <e><p><l>socialist<s n="adj"/></l><r>социалистік<s n="adj"/></r></p></e>
@@ -19501,6 +19526,7 @@
 <e><p><l>that<s n="det"/><s n="dem"/></l><r>анау<s n="det"/><s n="dem"/></r></p></e>
 <e><p><l>that<s n="det"/><s n="dem"/></l><r>осы<s n="det"/><s n="dem"/></r></p></e>
 <e><p><l>this<s n="det"/><s n="dem"/></l><r>мына<s n="prn"/><s n="dem"/><s n="nom"/></r></p></e>
+<e><p><l>this<s n="det"/><s n="dem"/></l><r>мына<s n="prn"/><s n="dem"/></r></p></e>
 <e><p><l>this<s n="det"/><s n="dem"/></l><r>мынау<s n="det"/><s n="dem"/></r></p></e>
 <e><p><l>another<s n="det"/><s n="ind"/></l><r>қайсыбір<s n="det"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>not<s n="det"/><s n="ind"/></l><r></r></p></e>
@@ -20129,6 +20155,7 @@
 <e><p><l>decorate<s n="vblex"/></l><r>жайнат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>decouple<s n="vblex"/></l><r>ажырат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>decrease<s n="vblex"/></l><r>азайт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decrease<s n="vblex"/></l><r>азай<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>decree<s n="vblex"/></l><r>қаулы<b/>ет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>dedicate<s n="vblex"/></l><r>бағышта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>deepen<s n="vblex"/></l><r>шұқырайт<s n="v"/><s n="tv"/></r></p></e>
@@ -20682,6 +20709,7 @@
 <e><p><l>lend<s n="vblex"/></l><r>қарызға<b/>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>lengthen<s n="vblex"/></l><r>ұзарт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>lessen<s n="vblex"/></l><r>азайт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>go<b/>down<s n="vblex"/></l><r>аз<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>let<s n="vblex"/></l><r>қой<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>level<s n="vblex"/></l><r>деңгейле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>levy<s n="vblex"/></l><r>салық<b/>төлет<s n="v"/><s n="tv"/></r></p></e>
@@ -21285,6 +21313,7 @@
 <e><p><l>stay<s n="vblex"/></l><r>қал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>steal<s n="vblex"/></l><r>ұрла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>steel<s n="vblex"/></l><r>ұрла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>steel<s n="n"/></l><r>құрыш<s n="n"/></r></p></e>
 <e><p><l>steer<s n="vblex"/></l><r>түзет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>step<s n="vblex"/></l><r>адымда<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>stick<s n="vblex"/></l><r>жабыстыр<s n="v"/><s n="tv"/></r></p></e>
@@ -21309,6 +21338,8 @@
 <e><p><l>strap<s n="vblex"/></l><r>бу<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>stream<s n="vblex"/></l><r>жібер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>strengthen<s n="vblex"/></l><r>қуаттандыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>strengthen<s n="vblex"/></l><r>күшейт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>strengthen<s n="vblex"/></l><r>нығай<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>stress<s n="vblex"/></l><r>бас<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>stretch<s n="vblex"/></l><r>соз<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>strew<s n="vblex"/></l><r>шашыл<s n="v"/><s n="iv"/></r></p></e>
@@ -21635,6 +21666,7 @@
 <e><p><l>voyage<s n="n"/></l><r>жол<s n="n"/></r></p></e>
 <e><p><l>journey<s n="n"/></l><r>жол<s n="n"/></r></p></e>
 <e><p><l>walk<s n="n"/></l><r>жол<s n="n"/></r></p></e>
+<e><p><l>distance<s n="n"/></l><r>алыстық<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>distance<s n="n"/></l><r>жол<s n="n"/></r></p></e>
 <e><p><l>string<s n="n"/></l><r>жол<s n="n"/></r></p></e>
 <e><p><l>row<s n="n"/></l><r>жол<s n="n"/></r></p></e>
@@ -21854,6 +21886,7 @@
 <e><p><l>bowl<s n="n"/></l><r>шар<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>forum<s n="n"/></l><r>форум<s n="n"/></r></p></e>
 <e><p><l>aspiration<s n="n"/></l><r>ұмтылыс<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>aspiration<s n="n"/></l><r>пиғыл<s n="n"/></r></p></e>
 <e><p><l>candidate<s n="n"/></l><r>үміткер<s n="n"/></r></p></e>
 <e><p><l>agreement<s n="n"/></l><r>уағдаластық<s n="n"/></r></p></e>
 <e><p><l>prevent<s n="vblex"/></l><r>тый<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
@@ -21884,7 +21917,7 @@
 <e><p><l>vicinity<s n="n"/></l><r>өңір<s n="n"/></r></p></e>
 <e><p><l>norm<s n="n"/></l><r>норма<s n="n"/></r></p></e>
 <e><p><l>ideal<s n="n"/></l><r>мұрат<s n="n"/></r></p></e>
-<e><p><l>demand<s n="n"/></l><r>мұқтаждық<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>demand<s n="n"/></l><r>мұқтаждық<s n="n"/></r></p></e>
 <e><p><l>millions<b/>of<s n="n"/></l><r>миллиондаған<s n="det"/><s n="qnt"/></r></p></e>
 <e><p><l>acquire<s n="vblex"/></l><r>меңгер<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
 <e><p><l>learn<s n="vblex"/></l><r>меңгер<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
@@ -21892,6 +21925,7 @@
 <e><p><l>statement<s n="n"/></l><r>мәлімдеме<s n="n"/></r></p></e>
 <e><p><l>importance<s n="n"/></l><r>маңыздылық<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>specialize<s n="vblex"/></l><r>мамандан<s n="v"/><s n="iv"/><s n="ger"/></r></p></e>
+<e><p><l>specialize<s n="vblex"/></l><r>мамандандыр<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
 
 <e><p><l>get<b/>rid<s n="vblex"/></l><r>құтыл<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>continent<s n="n"/></l><r>құрлық<s n="n"/><s n="px3sp"/></r></p></e>
@@ -22125,7 +22159,7 @@
 <e><p><l>symbol<s n="n"/></l><r>нышан<s n="n"/></r></p></e>
 <e><p><l>standard<s n="n"/></l><r>норматив<s n="n"/></r></p></e>
 <e><p><l>race<s n="n"/></l><r>нәсіл<s n="n"/></r></p></e>
-<e><p><l>justification<s n="n"/></l><r>негіздеме<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>justification<s n="n"/></l><r>негіздеме<s n="n"/></r></p></e>
 <e><p><l>obligatory<s n="adj"/></l><r>міндетті<s n="adj"/>+е<s n="cop"/></r></p></e>
 <e><p><l>mechanism<s n="n"/></l><r>механизм<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>mechanism<s n="n"/></l><r>механизм<s n="n"/></r></p></e>
@@ -22160,7 +22194,7 @@
 <e><p><l>appropriate<s n="n"/></l><r>керектік<s n="n"/></r></p></e>
 
 <e><p><l>settlement<s n="n"/></l><r>кент<s n="n"/></r></p></e>
-<e><p><l>goodness<s n="n"/></l><r>кеңпейілділік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>goodness<s n="n"/></l><r>кеңпейілділік<s n="n"/></r></p></e>
 <e><p><l>finance<s n="vblex"/></l><r>қаржыландыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>desirable<s n="adj"/></l><r>қалаулы<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>epidemy<s n="n"/></l><r>індет<s n="n"/></r></p></e>
@@ -22183,6 +22217,7 @@
 <e><p><l>resiliency<s n="n"/></l><r>бекемдік<s n="n"/></r></p></e>
 <e><p><l>authority<s n="n"/></l><r>бедел<s n="n"/></r></p></e>
 <e><p><l>report<s n="n"/></l><r>баяндама<s n="n"/></r></p></e>
+<e><p><l>reporting<s n="n"/></l><r>есептілік<s n="n"/></r></p></e>
 <e><p><l>burden<s n="n"/></l><r>ауыртпалық<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>courtyard<s n="n"/></l><r>аула<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>curl<s n="n"/></l><r>иірім<s n="n"/></r></p></e>

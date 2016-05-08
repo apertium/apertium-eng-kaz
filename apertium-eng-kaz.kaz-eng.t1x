@@ -5629,6 +5629,17 @@ If no format information is present it is removed. -->
                   <let><var n="number"/><lit-tag v="pl"/></let>
                 </otherwise>
               </choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="2" side="sl" part="lem"/><lit v="сыз"/></equal>
+                  </test>
+                  <let><var n="number1"/><lit v="without"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number1"/> <clip pos="2" side="tl" part="lem"/></let>
+                </otherwise>
+              </choose>
         <out>
           <chunk name="nom-pron" case="caseFirstWord">
             <tags>
@@ -5637,7 +5648,7 @@ If no format information is present it is removed. -->
               <tag><lit-tag v="PD"/></tag>
             </tags>
             <lu>
-              <clip pos="2" side="tl" part="lem"/>
+             <var n="number1"/>
              <lit-tag v="pr"/>
 
             </lu>
@@ -6681,6 +6692,7 @@ If no format information is present it is removed. -->
         
       </pattern>
       <action>
+
         <call-macro n="conv-case1">
           <with-param pos="1"/>
         </call-macro>
@@ -6697,7 +6709,11 @@ If no format information is present it is removed. -->
             </tags>
             
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <lit v="speak"/>
+              <lit-tag v="vblex"/>
+              <lit-tag v="pres"/>
+
+
                     </lu>
           </chunk>
         </out>

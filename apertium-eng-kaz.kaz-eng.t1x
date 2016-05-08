@@ -5640,6 +5640,7 @@ If no format information is present it is removed. -->
                   <let><var n="number1"/> <clip pos="2" side="tl" part="lem"/></let>
                 </otherwise>
               </choose>
+
         <out>
           <chunk name="nom-pron" case="caseFirstWord">
             <tags>

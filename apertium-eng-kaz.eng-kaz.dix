@@ -411,6 +411,13 @@
 <e><p><l>ethnos<s n="n"/></l><r>этнос<s n="n"/></r></p></e>
 <e><p><l>ethnic<b/>policy<s n="n"/></l><r>этносаясат<s n="n"/></r></p></e>
 
+
+<e><p><l>islamic<s n="adv"/></l><r>мұсылманша<s n="adv"/></r></p></e>
+<e><p><l>since<b/>childhood<s n="adv"/></l><r>жастайынан<s n="adv"/></r></p></e>
+<e><p><l>closely<s n="adv"/></l><r>етене<s n="adv"/></r></p></e>
+<e><p><l>straightway<s n="adv"/></l><r>дереу<s n="adv"/></r></p></e>
+
+
 <!-- -->
 <e><p><l>abacus<s n="n"/></l><r>абакан<s n="n"/></r></p></e>
 <e><p><l>abalone<s n="n"/></l><r>құлақша<s n="n"/></r></p></e>
@@ -21620,7 +21627,10 @@
 <!--adjectives -->
 <e><p><l>corrosive<s n="adj"/></l><r>күйдіргіш<s n="adj"/></r></p></e>
 <e><p><l>laxative<s n="adj"/></l><r>іш<b/>жүргізетін<s n="adj"/></r></p></e>
-<e><p><l>palliative<s n="adj"/></l><r>жеңілдететін<s n="adj"/></r></p></e>
+<e><p><l>derivative<s n="adj"/></l><r>туынды<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>holіstіc<s n="adj"/></l><r>тұтас<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>quick<s n="adj"/></l><r>саңлақ<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>helpless<s n="adj"/></l><r>қорғансыз<s n="adj"/><s n="subst"/></r></p></e>
 <!--end of adjectives -->
 
 <!--End of corpus -->

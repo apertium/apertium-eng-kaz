@@ -12,6 +12,10 @@
       <cat-item tags="num.ord"/>
       <cat-item tags="num.itg"/>
     </def-cat>
+<def-cat n="abbr">
+      <cat-item tags="abbr"/>
+      
+    </def-cat>
 <def-cat n="birge">
       <cat-item lemma="бір" tags="num.subst.dat"/>
      
@@ -630,7 +634,8 @@
  <cat-item tags="n.px1pl.*"/>
 <cat-item tags="n.pl.px1зд.*"/>
  <cat-item tags="n.pl.px2sg.frm.*"/>
-   
+      
+
       <cat-item tags="n.px3sp.loc.attr"/>
    
  <cat-item tags="n.pl.px3sg.*"/>
@@ -821,7 +826,7 @@
 
     <def-attr n="a_nom">
       <attr-item tags="n"/>
-      
+            <attr-item tags="n.acr"/>
 
       <attr-item tags="np.top"/>
       <attr-item tags="pr"/>
@@ -2527,6 +2532,52 @@ If no format information is present it is removed. -->
     </choose>
   </action>
 </rule>
+
+
+<rule comment="RULE: abbr">
+      <pattern>
+ <pattern-item n="abbr"/>
+              </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+         <out>
+          <chunk name="abbr" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+
+
+            </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+
+<b/>
+
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+               <var n="number"/> 
+              
+             
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 
 <rule comment="RULE: myNOM">

@@ -626,6 +626,7 @@
 <e><p><l>aerodrome<s n="n"/></l><r>әуеайлақ<s n="n"/></r></p></e>
 <e><p><l>aerograph<s n="n"/></l><r>аэрограф<s n="n"/></r></p></e>
 <e><p><l>aerology<s n="n"/></l><r>әуетаным<s n="n"/></r></p></e>
+<e><p><l>oncology<s n="n"/></l><r>онкология<s n="n"/></r></p></e>
 <e><p><l>aerometer<s n="n"/></l><r>ауа<b/>өлшегіш<s n="n"/></r></p></e>
 <e><p><l>aerometry<s n="n"/></l><r>аэрометрия<s n="n"/></r></p></e>
 <e><p><l>aerophagy<s n="n"/></l><r>аэрофагия<s n="n"/></r></p></e>
@@ -4300,6 +4301,7 @@
 <e><p><l>falsifiability<s n="n"/></l><r>фальсифицикация<s n="n"/></r></p></e>
 <e><p><l>falsity<s n="n"/></l><r>ағаттық<s n="n"/></r></p></e>
 <e><p><l>fame<s n="n"/></l><r>атақ-даңқ<s n="n"/></r></p></e>
+<e><p><l>fame<s n="n"/></l><r>таңымалдылық<s n="n"/></r></p></e>
 <e><p><l>familiarity<s n="n"/></l><r>жақын<b/>қатынас<s n="n"/></r></p></e>
 <e><p><l>family<s n="n"/></l><r>отбасы<s n="n"/></r></p></e>
 <e><p><l>family<s n="n"/></l><r>отбасы<s n="n"/></r></p></e>
@@ -5429,6 +5431,7 @@
 <e><p><l>hot<s n="n"/></l><r>ыстық<s n="n"/></r></p></e>
 <e><p><l>hour<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
 <e><p><l>household<s n="n"/></l><r>отбасы<s n="n"/></r></p></e>
+<e><p><l>household<s n="adj"/></l><r>тұрмыстық<s n="adj"/></r></p></e>
 <e><p><l>house<s n="n"/></l><r>үй<s n="n"/></r></p></e>
 <e><p><l>housing<s n="n"/></l><r>орналастыру<s n="n"/></r></p></e>
 <e><p><l>houyhnhnm<s n="n"/></l><r>гуигнгнм<s n="n"/></r></p></e>
@@ -5671,6 +5674,7 @@
 <e><p><l>individualism<s n="n"/></l><r>индивидуализм<s n="n"/></r></p></e>
 <e><p><l>individuality<s n="n"/></l><r>даралық<s n="n"/></r></p></e>
 <e><p><l>individual<s n="n"/></l><r>жеке<s n="n"/></r></p></e>
+<e><p><l>proprietor<s n="n"/></l><r>жекеменшік<s n="n"/></r></p></e>
 <e><p><l>indivisibility<s n="n"/></l><r>бөлінбейтіндік<s n="n"/></r></p></e>
 <e><p><l>indoctrination<s n="n"/></l><r>идеологиялық<b/>өңдеу<s n="n"/></r></p></e>
 <e><p><l>indorsement<s n="n"/></l><r>индоссамент<s n="n"/></r></p></e>
@@ -9521,6 +9525,7 @@
 <e><p><l>shape<s n="n"/></l><r>кескін<s n="n"/></r></p></e>
 <e><p><l>shape<s n="n"/></l><r>нысан<s n="n"/></r></p></e>
 <e><p><l>shareholder<s n="n"/></l><r>акционер<s n="n"/></r></p></e>
+<e><p><l>shareholder<s n="n"/></l><r>акционерлік<s n="adj"/></r></p></e>
 <e><p><l>shark<s n="n"/></l><r>акула<s n="n"/></r></p></e>
 <e><p><l>sharpness<s n="n"/></l><r>айқындық<s n="n"/></r></p></e>
 <e><p><l>sharpshooter<s n="n"/></l><r>мерген<s n="n"/></r></p></e>
@@ -11519,6 +11524,7 @@
 <e><p><l>RAF<s n="n"/><s n="acr"/></l><r>RAF<s n="abbr"/></r></p></e>
 <e><p><l>TV<s n="n"/><s n="acr"/></l><r>ТВ<s n="abbr"/></r></p></e>
 <e><p><l>UEFA<s n="n"/><s n="acr"/></l><r>UEFA<s n="abbr"/></r></p></e>
+<e><p><l>OBCE<s n="n"/><s n="acr"/></l><r>ЕҚЫҰ<s n="abbr"/></r></p></e>
 <e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>CIS<s n="n"/><s n="acr"/></l><r>ТМД<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>USSR<s n="n"/><s n="acr"/></l><r>КСРО<s n="abbr"/></r></p></e>
@@ -11528,6 +11534,7 @@
 <e><p><l>kg<s n="n"/><s n="acr"/></l><r>кг<s n="abbr"/></r></p></e>
 <e><p><l>billion<s n="n"/><s n="acr"/></l><r>млрд<s n="abbr"/></r></p></e>
 <e><p><l>million<s n="num"/><s n="sg"/></l><r>миллион<s n="abbr"/></r></p></e>
+<e><p><l>million<s n="n"/><s n="acr"/></l><r>млн<s n="abbr"/></r></p></e>
 
 
     <!-- Раздел: Имя Собственное -->
@@ -16743,6 +16750,7 @@
 <e><p><l>dogmatic<s n="adj"/></l><r>догматикалық<s n="adj"/></r></p></e>
 <e><p><l>domed<s n="adj"/></l><r>күмбезді<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>domestic<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
+<e><p><l>domestic<s n="adj"/></l><r>отандық<s n="adj"/></r></p></e>
 <e><p><l>dominant<s n="adj"/></l><r>басты<s n="adj"/></r></p></e>
 <e><p><l>dominican<s n="adj"/></l><r>доминикандық<s n="adj"/></r></p></e>
 <e><p><l>doric<s n="adj"/></l><r>дорикалық<s n="adj"/></r></p></e>
@@ -17517,6 +17525,7 @@
 <e><p><l>internal<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
 <e><p><l>international<s n="adj"/></l><r>халықаралық<s n="adj"/></r></p></e>
 <e><p><l>worldwide<s n="adj"/></l><r>дүниежүзілік<s n="adj"/></r></p></e>
+<e><p><l>worldwide<s n="adj"/></l><r>бүкіләлемдік<s n="adj"/></r></p></e>
 <e><p><l>interosseous<s n="adj"/></l><r>сүйекаралық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>interparadigmatic<s n="adj"/></l><r>парагматикааралық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>interpersonal<s n="adj"/></l><r>тұлғаралық<s n="adj"/></r></p></e>
@@ -20122,6 +20131,7 @@
 <e><p><l>corner<s n="vblex"/></l><r>қинал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>correct<s n="vblex"/></l><r>жөнде<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>correspond<s n="vblex"/></l><r>қатына<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>correspond<s n="vblex"/></l><r>сәйкестендір<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>corroborate<s n="vblex"/></l><r>раста<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>corrode<s n="vblex"/></l><r>же<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>corrupt<s n="vblex"/></l><r>бүлдір<s n="v"/><s n="tv"/></r></p></e>
@@ -20594,6 +20604,7 @@
 <e><p><l>heed<s n="vblex"/></l><r>үңіле<b/>қара<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>heighten<s n="vblex"/></l><r>өсір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>help<s n="vblex"/></l><r>көмектес<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>help<s n="vblex"/></l><r>жәрдемдес<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>hesitate<s n="vblex"/></l><r>сенбе<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hide<s n="vblex"/></l><r>жасыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hide<s n="vblex"/></l><r>жасырын<s n="v"/><s n="iv"/></r></p></e>
@@ -22343,8 +22354,13 @@
 <e r="RL"><p><l></l><r>кенел<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>effect<s n="n"/></l><r>ауан<s n="n"/></r></p></e>
 <e><p><l>lose<s n="vblex"/></l><r>айрыл<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>conform<s n="vblex"/></l><r>айны<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>dissuade<s n="vblex"/></l><r>айны<s n="v"/><s n="iv"/></r></p></e>
-
+<e><p><l>obviate<s n="vblex"/></l><r>ары<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>bring<b/>down<s n="vblex"/></l><r>шал<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>gain<s n="vblex"/></l><r>үдет<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>guide<s n="vblex"/></l><r>төндір<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>goat<s n="n"/></l><r>теке<s n="n"/>+лы<s n="post"/></r></p></e>
 
 
 

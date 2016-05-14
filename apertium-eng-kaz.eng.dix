@@ -48,6 +48,8 @@
     <sdef n="vbmod" c="Modal verb"/> 
     <sdef n="inf" c="Infinitive"/> 
     <sdef n="ger" c="Gerund"/> 
+    <sdef n="lquot" c=""/> 
+    <sdef n="rquot" c=""/> 
     <sdef n="pp" c="Past participle"/> 
     <sdef n="p1" c="First person"/> 
     <sdef n="p2" c="Second person"/> 
@@ -124,6 +126,13 @@
       </p>
     </e>
 
+<e i="">
+      <p>
+        <l>—</l>
+        <r>—<s n="guio"/></r>
+      </p>
+    </e>
+
 
     </pardef>
 
@@ -152,7 +161,24 @@
 
     </pardef>
 
+<pardef n="quot">
 
+                            <e i="">
+      <re>[«]</re>
+      <p>
+        <l/>
+        <r><s n="lquot"/></r>
+      </p>
+    </e>
+ <e i="">
+      <re>[»]</re>
+      <p>
+        <l/>
+        <r><s n="rquot"/></r>
+      </p>
+    </e>
+
+    </pardef>
     <pardef n="aposchar">
 
                             <e i="">
@@ -87011,6 +87037,7 @@
 
                             <e i=""><par n="coma"/></e>
                             <e i=""><par n="quote"/></e>
+                            <e i=""><par n="quot"/></e>
 
                             <e i=""><par n="cometa"/></e>
 

@@ -14906,6 +14906,7 @@
 <e><p><l>XIII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XIII<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>XVII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XVII<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>XVIII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XVIII<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>XIX<s n="num"/><s n="mf"/><s n="sg"/></l><r>XIX<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>XX<s n="num"/><s n="mf"/><s n="sg"/></l><r>XX<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>XXI<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXI<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>XXII<s n="num"/><s n="mf"/><s n="sg"/></l><r>XXII<s n="num"/><s n="ord"/></r></p></e>
@@ -22417,6 +22418,49 @@
 <e><p><l>gain<s n="vblex"/></l><r>үдет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>guide<s n="vblex"/></l><r>төндір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>goat<s n="n"/></l><r>теке<s n="n"/>+лы<s n="post"/></r></p></e>
+
+<e><p><l>km³<s n="abbr"/></l><r>км³<s n="abbr"/></r></p></e>
+<e><p><l>north<s n="n"/></l><r>солт.<s n="abbr"/></r></p></e>
+<e><p><l>intellectuals<s n="n"/></l><r>зиялылар<s n="n"/></r></p></e>
+<e><p><l>ASSR<s n="np"/><s n="al"/></l><r>АКСР<s n="abbr"/></r></p></e>
+<e><p><l>Ibrai<s n="np"/><s n="ant"/><s n="m"/></l><r>Ыбырай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Mukagali<s n="np"/><s n="ant"/><s n="m"/></l><r>Мұқағали<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>RK<s n="abbr"/></l><r>ҚР<s n="abbr"/></r></p></e>
+<e><p><l>Aimautov<s n="np"/><s n="cog"/></l><r>Аймауытов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Mahambet<s n="np"/><s n="ant"/><s n="m"/></l><r>Махамбет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>m²<s n="abbr"/></l><r>м²<s n="abbr"/></r></p></e>
+<e><p><l>Leningrad<s n="np"/><s n="top"/><s n="sg"/></l><r>Ленинград<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Zhangir<s n="np"/><s n="ant"/><s n="m"/></l><r>Жәңгір<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Gali<s n="np"/><s n="ant"/><s n="m"/></l><r>Ғали<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>or<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
+<e><p><l>National Security Committee<s n="np"/><s n="al"/></l><r>ҰҚК<s n="abbr"/></r></p></e>
+<e><p><l>train<s n="vblex"/></l><r>үйрет<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
+<e><p><l>Toraigurov<s n="np"/><s n="cog"/></l><r>Торайғыров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tashkent<s n="np"/><s n="top"/><s n="sg"/></l><r>Ташкент<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Sobolev<s n="np"/><s n="cog"/></l><r>Соболев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Siberia<s n="np"/><s n="top"/><s n="sg"/></l><r>Сібір<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>RSFSR<s n="np"/><s n="al"/></l><r>РКФСР<s n="abbr"/></r></p></e>
+<e><p><l>Pushkin<s n="np"/><s n="cog"/></l><r>Пушкин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Petersburg<s n="np"/><s n="top"/><s n="sg"/></l><r>Петербург<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Orenburg<s n="np"/><s n="top"/><s n="sg"/></l><r>Орынбор<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>OGPU<s n="abbr"/></l><r>ОГПУ<s n="abbr"/></r></p></e>
+<e><p><l>Nurgaliyev<s n="np"/><s n="cog"/></l><r>Нұрғалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Muhammed<s n="np"/><s n="ant"/><s n="m"/></l><r>Мұхаммед<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Mukagali<s n="np"/><s n="ant"/><s n="m"/></l><r>Мұқағали<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Makatayev<s n="np"/><s n="cog"/></l><r>Мақатаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lermontov<s n="np"/><s n="cog"/></l><r>Лермонтов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lenin<s n="np"/><s n="cog"/></l><r>Ленин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>SSR<s n="np"/><s n="al"/></l><r>КСР<s n="abbr"/></r></p></e>
+<e><p><l>Isatai<s n="np"/><s n="ant"/><s n="m"/></l><r>Исатай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Zhansugurov<s n="np"/><s n="cog"/></l><r>Жансүгіров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>work<s n="vblex"/></l><r>еңбектен<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>Abylkhair<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбілқайыр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Grigoriev<s n="np"/><s n="cog"/></l><r>Григорьев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Grigorieva<s n="np"/><s n="cog"/></l><r>Григорьева<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Gorky<s n="np"/><s n="cog"/></l><r>Горький<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Baitursynov<s n="np"/><s n="cog"/></l><r>Байтұрсынов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Atymtai<s n="np"/><s n="ant"/><s n="m"/></l><r>Атымтай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Alik<s n="np"/><s n="ant"/><s n="m"/></l><r>Алик<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 
 

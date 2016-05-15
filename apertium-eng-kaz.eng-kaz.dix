@@ -146,7 +146,6 @@
 <e r="RL"><p><l></l><r>бұл<s n="prn"/><s n="dem"/><s n="adv"/></r></p></e>
 <e r="RL"><p><l></l><r>да<s n="postadv"/></r></p></e>
 <e r="RL"><p><l></l><r>де<s n="v"/><s n="tv"/></r></p></e>
-<e r="RL"><p><l></l><r>ет<s n="v"/><s n="tv"/></r></p></e>
 <e r="RL"><p><l></l><r>е<s n="cop"/></r></p></e>
 <e r="RL"><p><l></l><r>емес<s n="vaux"/></r></p></e>
 <e r="RL"><p><l></l><r>жат<s n="vaux"/></r></p></e>
@@ -307,6 +306,58 @@
 <e><p><l>so<b/>much<s n="adv"/></l><r>соншалықты<s n="adv"/></r></p></e>
 
 <!-- -->
+<e><p><l>oath<s n="n"/></l><r>ант<s n="n"/></r></p></e>
+<e><p><l>discord<s n="n"/></l><r>араздық<s n="n"/></r></p></e>
+<e><p><l>suspension<s n="n"/></l><r>аспа<s n="n"/></r></p></e>
+<e><p><l>net<s n="n"/></l><r>ау<s n="n"/></r></p></e>
+<e><p><l>gardener<s n="n"/></l><r>бағбан<s n="n"/></r></p></e>
+<e><p><l>wail<s n="n"/></l><r>бажыл<s n="n"/></r></p></e>
+<e><p><l>point<s n="n"/></l><r>байып<s n="n"/></r></p></e>
+<e><p><l>seaweed<s n="n"/></l><r>балдыр<s n="n"/></r></p></e>
+<e><p><l>thumb<s n="n"/></l><r>бармақ<s n="n"/></r></p></e>
+<e><p><l>print<s n="n"/></l><r>баспа<s n="n"/></r></p></e>
+<e><p><l>brace<s n="n"/></l><r>бекіткіш<s n="n"/></r></p></e>
+<e><p><l>ignorance<s n="n"/></l><r>білімсіздік<s n="n"/></r></p></e>
+<e><p><l>steel<s n="n"/></l><r>болат<s n="n"/></r></p></e>
+<e><p><l>strait<s n="n"/></l><r>бұғаз<s n="n"/></r></p></e>
+<e><p><l>universe<s n="n"/></l><r>ғалам<s n="n"/></r></p></e>
+<e><p><l>general<s n="n"/></l><r>генерал<s n="n"/></r></p></e>
+<e><p><l>skill<s n="n"/></l><r>дағды<s n="n"/></r></p></e>
+<e><p><l>tablecloth<s n="n"/></l><r>дастарқан<s n="n"/></r></p></e>
+<e><p><l>storm<b/>petrel<s n="n"/></l><r>дауылпаз<s n="n"/></r></p></e>
+<e><p><l>fortune<s n="n"/></l><r>дәулет<s n="n"/></r></p></e>
+<e><p><l>superstition<s n="n"/></l><r>діндарлық<s n="n"/></r></p></e>
+<e><p><l>outlook<s n="n"/></l><r>дүниетаным<s n="n"/></r></p></e>
+<e><p><l>hostility<s n="n"/></l><r>дұшпандық<s n="n"/></r></p></e>
+<e><p><l>mismatch<s n="n"/></l><r>ебедейсіздік<s n="n"/></r></p></e>
+<e><p><l>width<s n="n"/></l><r>ен<s n="n"/></r></p></e>
+<e><p><l>pygmy<s n="n"/></l><r>ергежейлі<s n="n"/></r></p></e>
+<e><p><l>dwarf<s n="n"/></l><r>ергежейлі<s n="n"/></r></p></e>
+<e><p><l>fun<s n="n"/></l><r>ермек<s n="n"/></r></p></e>
+<e><p><l>wellhead<s n="n"/></l><r>ернеу<s n="n"/></r></p></e>
+<e><p><l>note<s n="n"/></l><r>ескертпе<s n="n"/></r></p></e>
+<e><p><l>boots<s n="n"/></l><r>етік<s n="n"/></r></p></e>
+<e><p><l>evil<s n="n"/></l><r>жамандық<s n="n"/></r></p></e>
+<e><p><l>chip<s n="n"/></l><r>жаңқа<s n="n"/></r></p></e>
+<e><p><l>inaccuracies<s n="n"/></l><r>жаңсақтық<s n="n"/></r></p></e>
+<e><p><l>suffer<s n="n"/></l><r>жапа<s n="n"/></r></p></e>
+<e><p><l>disabled<s n="n"/></l><r>жарымжан<s n="n"/></r></p></e>
+<e><p><l>troops<s n="n"/></l><r>жасақ<s n="n"/></r></p></e>
+<e><p><l>arrow<s n="n"/></l><r>жебе<s n="n"/></r></p></e>
+<e><p><l>mistreatment<s n="n"/></l><r>жәбір<s n="n"/></r></p></e>
+<e><p><l>fan<s n="n"/></l><r>желпуіш<s n="n"/></r></p></e>
+<e><p><l>persistence<s n="n"/></l><r>жігерлілік<s n="n"/></r></p></e>
+<e><p><l>ambler<s n="n"/></l><r>жорға<s n="n"/></r></p></e>
+<e><p><l>conduct<s n="n"/></l><r>жүріс<s n="n"/></r></p></e>
+<e><p><l>rivulet<s n="n"/></l><r>жылға<s n="n"/></r></p></e>
+<e><p><l>affliction<s n="n"/></l><r>зіл<s n="n"/></r></p></e>
+<e><p><l>clue<s n="n"/></l><r>ишара<s n="n"/></r></p></e>
+<e><p><l>suggestion<s n="n"/></l><r>ишара<s n="n"/></r></p></e>
+<e><p><l>gesture<s n="n"/></l><r>ишарат<s n="n"/></r></p></e>
+<e><p><l>devil<s n="n"/></l><r>ібіліс<s n="n"/></r></p></e>
+<e><p><l>authority<s n="n"/></l><r>ізет<s n="n"/></r></p></e>
+
+
 
 
 <e><p><l>garden<s n="n"/></l><r>бақ<s n="n"/></r></p></e>
@@ -20312,6 +20363,7 @@
 <e><p><l>divert<s n="vblex"/></l><r>ауытқы<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>divide<s n="vblex"/></l><r>бөл<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>divorce<s n="vblex"/></l><r>неке<b/>бұз<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>do<s n="vblex"/></l><r>ет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>do<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>do<s n="vblex"/></l><r>істе<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>do#<b/>this<b/>way<s n="vblex"/></l><r>бүйт<s n="v"/><s n="tv"/></r></p></e>

@@ -2083,6 +2083,13 @@ If no format information is present it is removed. -->
                </test>
                <let><var n="number"/><lit-tag v="sg"/></let>
             </when> 
+<when>
+               <test>
+                  <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+               </test>
+               <let><var n="number"/><lit-tag v="pl"/></let>
+            </when> 
+
 </choose>
 <choose>
 <when>
@@ -2251,6 +2258,8 @@ If no format information is present it is removed. -->
   
 
 <section-rules>
+
+
 
 <!--<rule>
   <pattern>
@@ -2687,6 +2696,129 @@ If no format information is present it is removed. -->
 
             <lu>
 <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+               <var n="number"/> 
+              
+             
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+<rule comment="RULE: myNOM">
+      <pattern>
+ <pattern-item n="nom1"/>
+ <pattern-item n="cop"/>
+              </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
+
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+
+
+
+<lit-tag v="px1sg"/></equal>
+                  </test>
+                  <let>
+
+<var n="pos"/>
+<lit v="my"/>
+
+</let>
+                </when>
+
+	</choose>
+
+	<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+<lit-tag v="px2sg.frm"/></equal>
+                  </test>
+                  <let>
+
+<var n="pos"/><lit v="your"/></let>
+                </when>
+
+</choose>
+
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+<lit-tag v="px3sg"/></equal>
+                  </test>
+                  <let>
+
+<var n="pos"/><lit v="his"/></let>
+                </when>
+
+</choose>
+
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+<lit-tag v="px1pl"/></equal>
+                  </test>
+                  <let>
+
+<var n="pos"/><lit v="our"/></let>
+                </when>
+
+</choose>
+    
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+<lit-tag v="px3sp"/></equal>
+                  </test>
+                  <let>
+
+<var n="pos"/><lit v="their"/></let>
+                </when>
+
+</choose>
+         <out>
+          <chunk name="nommy-cop" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+
+
+            </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+
+<lu>
+          <var n="pos"/>  
+ 	<lit-tag v="det"/>
+	<lit-tag v="pos"/>
+	<lit-tag v="sg"/>
+</lu>
+<b/>
+
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
                <var n="number"/> 
               

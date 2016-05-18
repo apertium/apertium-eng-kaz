@@ -51987,6 +51987,8 @@
 
                             <e lm="telecommunication" i=""><i>telecommunication</i><par n="house__n"/></e>
 
+<e lm="telecompany" i=""><i>telecompany</i><par n="house__n"/></e>
+
                             <e lm="teledetection" i=""><i>teledetection</i><par n="house__n"/></e>
 
                             <e lm="telegram" i=""><i>telegram</i><par n="house__n"/></e>
@@ -55393,6 +55395,8 @@
                             <e lm="imaginative" i=""><i>imaginative</i><par n="expensive__adj"/></e>
 
                             <e lm="immediate" i=""><i>immediate</i><par n="expensive__adj"/></e>
+
+<e lm="mass-median" i=""><i>mass-median</i><par n="expensive__adj"/></e>
 
                             <e lm="immense" i=""><i>immense</i><par n="expensive__adj"/></e>
 
@@ -80916,6 +80920,8 @@
 <e lm="Aldabergenov" i=""><i>Aldabergenov</i><par n="Smith__np"/></e>
 <e lm="Andris" i=""><i>Andris</i><par n="Smith__np"/></e>
 <e lm="Basbayeva" i=""><i>Basbayeva</i><par n="Smith__np"/></e>
+<e lm="Karibzhanov" i=""><i>Karibzhanov</i><par n="Smith__np"/></e>
+<e lm="Sundetov" i=""><i>Sundetov</i><par n="Smith__np"/></e>
 <e lm="Karibayeva" i=""><i>Karibayeva</i><par n="Smith__np"/></e>
 <e lm="Berdymukhamedov" i=""><i>Berdymukhamedov</i><par n="Smith__np"/></e>
 <e lm="Bolkiah" i=""><i>Bolkiah</i><par n="Smith__np"/></e>

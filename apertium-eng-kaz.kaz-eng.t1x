@@ -5030,10 +5030,12 @@ If no format information is present it is removed. -->
     <tag><clip pos="2" side="sl" part="a_np"/></tag>
 <tag><clip pos="2" side="sl" part="a_mf"/></tag>
   <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
-    <tag><clip pos="2" side="sl" part="a_cas"/></tag>
+<tag><var n="number"/></tag>
+    <!--<tag><clip pos="2" side="sl" part="a_cas"/></tag>-->
     </tags>
    <lu>
       <var n="NEW-noun_lu"/>
+
     </lu>
 <b/> 
    <lu>
@@ -5043,7 +5045,8 @@ If no format information is present it is removed. -->
      <clip pos="2" side="tl" part="a_nbr"/>
     <!-- <lit-tag v="3"/>-->
     <lit-tag v="4"/>
-	<lit-tag v="5"/>
+<lit-tag v="sg"/>
+	
     </lu>
 <b/>
 

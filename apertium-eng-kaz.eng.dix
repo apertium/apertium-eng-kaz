@@ -18062,6 +18062,8 @@
                             <e lm="NYSE" i=""><i>NYSE</i><par n="BBC__n"/></e>
 
                             <e lm="USSR" i=""><i>USSR</i><par n="BBC__n"/></e>
+ <e lm="SSR" i=""><i>SSR</i><par n="BBC__n"/></e>
+<e lm="RSFSR" i=""><i>RSFSR</i><par n="BBC__n"/></e>
 
                             <e lm="S.A." i=""><i>S.A.</i><par n="BBC__n"/></e>
 
@@ -40993,7 +40995,8 @@
 
 <e lm="Zhansugurov" i=""><i>Zhansugurov</i><par n="Smith__np"/></e>
 
-<e lm="Esesnberlin" i=""><i>Esesnberlin</i><par n="Smith__np"/></e>
+<e lm="Esenberlin" i=""><i>Esenberlin</i><par n="Smith__np"/></e>
+<e lm="Kobeyev" i=""><i>Kobeyev</i><par n="Smith__np"/></e>
 <e lm="Grigoriev" i=""><i>Grigoriev</i><par n="Smith__np"/></e>
 
 <e lm="Lenin" i=""><i>Lenin</i><par n="Smith__np"/></e>
@@ -74866,6 +74869,8 @@
 
                             <e lm="Pacific Ocean" i=""><i>Pacific<b/>Ocean</i><par n="Barcelona__np"/></e>
 
+ <e lm="Cainozoe" i=""><i>Cainozoe</i><par n="Barcelona__np"/></e>
+
                             <e r="RL" i=""><i>native<b/>language</i><par n="house__n"/></e>
 
                             <e lm="Costa Rica" i=""><i>Costa<b/>Rica</i><par n="Barcelona__np"/></e>
@@ -76592,6 +76597,8 @@
                             <e lm="Zelda" i=""><i>Zelda</i><par n="Mary__np"/></e>
 
                             <e lm="Oracle" i=""><i>Oracle</i><par n="Linux__np"/></e>
+
+ <e lm="Yandex" i=""><i>Yandex</i><par n="Linux__np"/></e>
 
                             <e lm="Nintendo" i=""><i>Nintendo</i><par n="Linux__np"/></e>
 
@@ -80909,6 +80916,7 @@
 <e lm="Aldabergenov" i=""><i>Aldabergenov</i><par n="Smith__np"/></e>
 <e lm="Andris" i=""><i>Andris</i><par n="Smith__np"/></e>
 <e lm="Basbayeva" i=""><i>Basbayeva</i><par n="Smith__np"/></e>
+<e lm="Karibayeva" i=""><i>Karibayeva</i><par n="Smith__np"/></e>
 <e lm="Berdymukhamedov" i=""><i>Berdymukhamedov</i><par n="Smith__np"/></e>
 <e lm="Bolkiah" i=""><i>Bolkiah</i><par n="Smith__np"/></e>
 <e lm="Bouchez" i=""><i>Bouchez</i><par n="Smith__np"/></e>
@@ -80983,10 +80991,13 @@
 <e lm="Berzins" i=""><i>Berzins</i><par n="Smith__np"/></e>
 <e lm="Jeremić" i=""><i>Jeremić</i><par n="Smith__np"/></e>
 
-
-
-
+<e lm="Taraz" i=""><i>Taraz</i><par n="Barcelona__np"/></e>
+<e lm="Oskemen" i=""><i>Oskemen</i><par n="Barcelona__np"/></e>
+<e lm="Pavlodar" i=""><i>Pavlodar</i><par n="Barcelona__np"/></e>
+<e lm="Taldykorgan" i=""><i>Taldykorgan</i><par n="Barcelona__np"/></e>
+<e lm="Semey" i=""><i>Semey</i><par n="Barcelona__np"/></e>
 <e lm="Kyzylorda" i=""><i>Kyzylorda</i><par n="Barcelona__np"/></e>
+<e lm="Karagandy" i=""><i>Karagandy</i><par n="Barcelona__np"/></e>
 <e lm="Karaganda" i=""><i>Karaganda</i><par n="Barcelona__np"/></e>
 <e lm="Kostanai" i=""><i>Kostanai</i><par n="Barcelona__np"/></e>
 <e lm="Zhambyl" i=""><i>Zhambyl</i><par n="Barcelona__np"/></e>
@@ -81169,6 +81180,8 @@
                             <e lm="de Clavijo" i=""><i>de<b/>Clavijo</i><par n="Smith__np"/></e>
 
                             <e lm="International Security Assistance Force" i=""><i>International<b/>Security<b/>Assistance<b/>Force</i><par n="Linux__np"/></e>
+
+<e lm="National Security Committee" i=""><i>Nnational<b/>Security<b/>Committee</i><par n="Linux__np"/></e>
 
                             <e lm="Provincial Reconstruction Team" i=""><i>Provincial<b/>Reconstruction<b/>Team</i><par n="Linux__np"/></e>
 
@@ -82293,6 +82306,12 @@
                             <e lm="preliminary draft" i=""><i>preliminary<b/>draft</i><par n="house__n"/></e>
 
                             <e lm="Ministry of the Treasury" i=""><i>Ministry<b/>of<b/>the<b/>Treasury</i><par n="Linux__np"/></e>
+
+<e lm="Ministry of Internal Affairs" i=""><i>Ministry<b/>of<b/>Internal<b/>Affairs</i><par n="Linux__np"/></e>
+<e lm="Cainozoe" i=""><i>Cainozoe</i><par n="Linux__np"/></e>
+<e lm="Mezozoe" i=""><i>Cainozoe</i><par n="Linux__np"/></e>
+
+
 
                             <e lm="inland revenue" i=""><i>inland<b/>revenue</i><par n="house__n"/></e>
 

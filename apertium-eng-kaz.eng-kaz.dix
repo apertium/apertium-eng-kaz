@@ -13756,8 +13756,8 @@
 <e><p><l>Obama<s n="np"/><s n="cog"/></l><r>Обама<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Ospanbayeva<s n="np"/><s n="cog"/></l><r>Оспанбаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Ospanov<s n="np"/><s n="cog"/></l><r>Оспанов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
-<e><p><l>Karibayeva<s n="np"/><s n="cog"/></l><r>Кәрібаева<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
-<e><p><l>Karibaeva<s n="np"/><s n="cog"/></l><r>Кәрібаева<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Karibayeva<s n="np"/><s n="cog"/></l><r>Кәрібаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Karibaeva<s n="np"/><s n="cog"/></l><r>Кәрібаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Otero<s n="np"/><s n="cog"/></l><r>Отеро<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Pasteur<s n="np"/><s n="cog"/></l><r>Пастер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Pella<s n="np"/><s n="cog"/></l><r>Пелла<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -22470,6 +22470,11 @@
 <e><p><l>Baitursynov<s n="np"/><s n="cog"/></l><r>Байтұрсынов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Atymtai<s n="np"/><s n="ant"/><s n="m"/></l><r>Атымтай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Alik<s n="np"/><s n="ant"/><s n="m"/></l><r>Алик<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Kobeyev<s n="np"/><s n="cog"/></l><r>Көбеев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Cainozoe<s n="np"/><s n="al"/></l><r>Кайнозой<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Mezozoe<s n="np"/><s n="al"/></l><r>Мезозой<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Ministry<b/>of<b/>Internal<b/>Affairs<s n="np"/><s n="al"/></l><r>ІІМ<s n="abbr"/></r></p></e>
+<e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="abbr"/></r></p></e>
 
 
 <e><p><l>Nazarbekov<s n="np"/><s n="cog"/></l><r>Назарбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

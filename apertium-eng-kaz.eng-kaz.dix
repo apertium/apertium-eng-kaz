@@ -5106,6 +5106,7 @@
 <e><p><l>greed<s n="n"/></l><r>қызғаншақтық<s n="n"/></r></p></e>
 <e><p><l>Greek<s n="n"/></l><r>грек<s n="n"/></r></p></e>
 <e><p><l>greenfinch<s n="n"/></l><r>көктене<s n="n"/></r></p></e>
+<e><p><l>greenhouse<s n="n"/></l><r>жылыжай<s n="n"/></r></p></e>
 <e><p><l>greengrocer<s n="n"/></l><r>көк<b/>сатушы<s n="n"/></r></p></e>
 <e><p><l>greenness<s n="n"/></l><r>шөп<s n="n"/></r></p></e>
 <e><p><l>green<s n="n"/></l><r>шөп<s n="n"/></r></p></e>
@@ -5997,6 +5998,7 @@
 <e><p><l>irruption<s n="n"/></l><r>басып<b/>кіру<s n="n"/></r></p></e>
 <e><p><l>ischium<s n="n"/></l><r>шонданай<b/>сүйек<s n="n"/></r></p></e>
 <e><p><l>islamist<s n="n"/></l><r>Исламист<s n="n"/></r></p></e>
+<e><p><l>islam<s n="n"/></l><r>ислам<s n="n"/></r></p></e>
 <e><p><l>island<s n="n"/></l><r>арал<s n="n"/></r></p></e>
 <e><p><l>isobar<s n="n"/></l><r>изобар<s n="n"/></r></p></e>
 <e><p><l>isogamy<s n="n"/></l><r>изогамия<s n="n"/></r></p></e>
@@ -6818,6 +6820,7 @@
 <e><p><l>mesoderm<s n="n"/></l><r>мезодерма<s n="n"/></r></p></e>
 <e><p><l>mesosphere<s n="n"/></l><r>мезосфера<s n="n"/></r></p></e>
 <e><p><l>message<s n="n"/></l><r>хабарлама<s n="n"/></r></p></e>
+<e><p><l>message<s n="n"/></l><r>жолдаухат<s n="n"/></r></p></e>
 <e><p><l>messenger<s n="n"/></l><r>шабарман<s n="n"/></r></p></e>
 <e><p><l>messianism<s n="n"/></l><r>мессианизм<s n="n"/></r></p></e>
 <e><p><l>mess<s n="n"/></l><r>астан-кестен<s n="n"/></r></p></e>
@@ -10551,7 +10554,7 @@
 <e><p><l>thinness<s n="n"/></l><r>жіңішкелік<s n="n"/></r></p></e>
 <e><p><l>third<s n="n"/></l><r>үшінші<s n="n"/></r></p></e>
 <e><p><l>thirst<s n="n"/></l><r>зар<s n="n"/></r></p></e>
-<e><p><l>this<b/>year<s n="n"/></l><r>биыл<s n="n"/></r></p></e>
+<e><p><l>this<b/>year<s n="adv"/></l><r>биыл<s n="adv"/></r></p></e>
 <e><p><l>thistle<s n="n"/></l><r>ошаған<s n="n"/></r></p></e>
 <e><p><l>thixotropy<s n="n"/></l><r>тиксотропия<s n="n"/></r></p></e>
 <e><p><l>thorax<s n="n"/></l><r>көкірек<s n="n"/></r></p></e>
@@ -13851,6 +13854,7 @@
 <e><p><l>Swoboda<s n="np"/><s n="cog"/></l><r>Свобода<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Tarantino<s n="np"/><s n="cog"/></l><r>Тарантино<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Tazhin<s n="np"/><s n="cog"/></l><r>Тәжін<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tazhin<s n="np"/><s n="cog"/></l><r>Тәжин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tchaikovsky<s n="np"/><s n="cog"/></l><r>Чайковский<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Teregulov<s n="np"/><s n="cog"/></l><r>Тереғұлов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Thatcher<s n="np"/><s n="cog"/></l><r>Тэтчер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -14295,6 +14299,8 @@
 <e><p><l>Belkol<s n="np"/><s n="top"/><s n="sg"/></l><r>Белкөл<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Belogorskiy<s n="np"/><s n="top"/><s n="sg"/></l><r>Белогорский<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Belousovka<s n="np"/><s n="top"/><s n="sg"/></l><r>Белоусовка<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Belorussia<s n="np"/><s n="top"/><s n="sg"/></l><r>Белорусия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Belorussia<s n="np"/><s n="top"/><s n="sg"/></l><r>Белоруссия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Belsekseuyl<s n="np"/><s n="top"/><s n="sg"/></l><r>Белсексеуіл<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Beltam<s n="np"/><s n="top"/><s n="sg"/></l><r>Белтам<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Belterek<s n="np"/><s n="top"/><s n="sg"/></l><r>Белтерек<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -17663,6 +17669,7 @@
 <e><p><l>irrevocable<s n="adj"/></l><r>қайтарылмайтын<s n="adj"/></r></p></e>
 <e><p><l>irrotational<s n="adj"/></l><r>құйынсыз<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>islamic<s n="adj"/></l><r>исламшыл<s n="adj"/></r></p></e>
+<e><p><l>islamic<s n="adj"/></l><r>исламдық<s n="adj"/></r></p></e>
 <e><p><l>isobaric<s n="adj"/></l><r>изобаралық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>isobathic<s n="adj"/></l><r>изобатикалық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>isochronal<s n="adj"/></l><r>изохронды<s n="adj"/><s n="subst"/></r></p></e>
@@ -19765,6 +19772,7 @@
 <e><p><l>aggravate<s n="vblex"/></l><r>аздыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>agitate<s n="vblex"/></l><r>агитацияла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>agree<s n="vblex"/></l><r>келіс<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>agree<s n="vblex"/></l><r>уағдалас<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>ail<s n="vblex"/></l><r>ауыр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>aim<s n="vblex"/></l><r>нысанаға<b/>ти<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>air<s n="vblex"/></l><r>желдет<s n="v"/><s n="tv"/></r></p></e>
@@ -22713,7 +22721,7 @@
 <e><p><l>Sagintaev<s n="np"/><s n="cog"/></l><r>Сағынтаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Sagyrbaev<s n="np"/><s n="cog"/></l><r>Сағырбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Sadan<s n="np"/><s n="cog"/></l><r>Саданов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>gardeners<s n="np"/><s n="cog"/></l><r>Садовников<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Sadovnikov<s n="np"/><s n="cog"/></l><r>Садовников<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Sadykov<s n="np"/><s n="cog"/></l><r>Садықов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Sadykulov<s n="np"/><s n="cog"/></l><r>Садықұлов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Sadyrbayev<s n="np"/><s n="cog"/></l><r>Садырбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -22756,7 +22764,7 @@
 <e><p><l>Saudabayev<s n="np"/><s n="cog"/></l><r>Саудабаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Saudabayev<s n="np"/><s n="cog"/></l><r>Саудабаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Sauranbayev<s n="np"/><s n="cog"/></l><r>Сауранбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>colleague<s n="np"/><s n="cog"/></l><r>Сафаргалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Safargaliev<s n="np"/><s n="cog"/></l><r>Сафаргалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Safiev<s n="np"/><s n="cog"/></l><r>Сафиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Safin<s n="np"/><s n="cog"/></l><r>Сафин <s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Safonov<s n="np"/><s n="cog"/></l><r>Сафонов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -22773,6 +22781,8 @@
 <e><p><l>Sarsenbayev<s n="np"/><s n="cog"/></l><r>Сәрсенбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>sarsenov<s n="np"/><s n="cog"/></l><r>Сәрсенов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Satpayev<s n="np"/><s n="cog"/></l><r>Сәтбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhumabekov<s n="np"/><s n="cog"/></l><r>Жұмабеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Saudabayev<s n="np"/><s n="cog"/></l><r>Саудабаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Svaev<s n="np"/><s n="cog"/></l><r>Сваев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Sverdlov<s n="np"/><s n="cog"/></l><r>Свердлов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Sverchkov<s n="np"/><s n="cog"/></l><r>Сверчков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -22822,7 +22832,7 @@
 <e><p><l>Slatnov<s n="np"/><s n="cog"/></l><r>Слатнов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Slamqulov<s n="np"/><s n="cog"/></l><r>Сләмқұлов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Slobodan<s n="np"/><s n="cog"/></l><r>Слободан<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>elephants<s n="np"/><s n="cog"/></l><r>Слонов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Slonov<s n="np"/><s n="cog"/></l><r>Слонов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Smakov<s n="np"/><s n="cog"/></l><r>Смақов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Smirnov<s n="np"/><s n="cog"/></l><r>Смирнов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Smolova<s n="np"/><s n="cog"/></l><r>Смолов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -22906,7 +22916,7 @@
 <e><p><l>Tanirbergenov<s n="np"/><s n="cog"/></l><r>Тәңірбергенов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tashenev<s n="np"/><s n="cog"/></l><r>Тәшенев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tevkelev<s n="np"/><s n="cog"/></l><r>Тевкелев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>parietal<s n="np"/><s n="cog"/></l><r>Теменов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Temenov<s n="np"/><s n="cog"/></l><r>Теменов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Temirbekov<s n="np"/><s n="cog"/></l><r>Темірбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Temirzhanov<s n="np"/><s n="cog"/></l><r>Теміржанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Temirov<s n="np"/><s n="cog"/></l><r>Теміров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -22957,7 +22967,7 @@
 <e><p><l>Turov<s n="np"/><s n="cog"/></l><r>Туров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Turchinov<s n="np"/><s n="cog"/></l><r>Турчинов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tügelbaev<s n="np"/><s n="cog"/></l><r>Түгелбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>Tüntekov<s n="np"/><s n="cog"/></l><r>Түнтеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tuntekov<s n="np"/><s n="cog"/></l><r>Түнтеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tungushpaev<s n="np"/><s n="cog"/></l><r>Тұнғұшпаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Turagulov<s n="np"/><s n="cog"/></l><r>Тұрағұлов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Turzhanov<s n="np"/><s n="cog"/></l><r>Тұржанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -22976,7 +22986,7 @@
 <e><p><l>Uvarov<s n="np"/><s n="cog"/></l><r>Уваров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Uzelkov<s n="np"/><s n="cog"/></l><r>Узелков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Ulanov<s n="np"/><s n="cog"/></l><r>Уланов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>Ulyanovsk<s n="np"/><s n="cog"/></l><r>Ульянов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ulyanovov<s n="np"/><s n="cog"/></l><r>Ульянов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Ulyashev<s n="np"/><s n="cog"/></l><r>Уляшев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Umov<s n="np"/><s n="cog"/></l><r>Умов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Wraleev<s n="np"/><s n="cog"/></l><r>Уралеев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -23083,7 +23093,7 @@
 <e><p><l>Shiryaev<s n="np"/><s n="cog"/></l><r>Ширяев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Shnitnikov<s n="np"/><s n="cog"/></l><r>Шнитников<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Shukaev<s n="np"/><s n="cog"/></l><r>Шоқаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>shonanov<s n="np"/><s n="cog"/></l><r>Шонанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Shonanov<s n="np"/><s n="cog"/></l><r>Шонанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Shormanov<s n="np"/><s n="cog"/></l><r>Шорманов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Shostkov<s n="np"/><s n="cog"/></l><r>Шостков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Shotaev<s n="np"/><s n="cog"/></l><r>Шотаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -23099,11 +23109,11 @@
 <e><p><l>Shchepkin<s n="np"/><s n="cog"/></l><r>Щепкин <s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Shcherbakov<s n="np"/><s n="cog"/></l><r>Щербаков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Shchukin<s n="np"/><s n="cog"/></l><r>Щукин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>ibragimov<s n="np"/><s n="cog"/></l><r>Ыбрайымов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>ibraev<s n="np"/><s n="cog"/></l><r>Ыбыраев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>idrisov<s n="np"/><s n="cog"/></l><r>Ыдырысов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>iskakov<s n="np"/><s n="cog"/></l><r>Ысқақов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>ismailov<s n="np"/><s n="cog"/></l><r>Ысмайылов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ibragimov<s n="np"/><s n="cog"/></l><r>Ыбрайымов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ibraev<s n="np"/><s n="cog"/></l><r>Ыбыраев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Idrisov<s n="np"/><s n="cog"/></l><r>Ыдырысов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Iskakov<s n="np"/><s n="cog"/></l><r>Ысқақов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ismailov<s n="np"/><s n="cog"/></l><r>Ысмайылов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Edokov<s n="np"/><s n="cog"/></l><r>Эдоков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Yuvenalev<s n="np"/><s n="cog"/></l><r>Ювенальев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Yudin<s n="np"/><s n="cog"/></l><r>Юдин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

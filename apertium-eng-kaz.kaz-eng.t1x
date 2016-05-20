@@ -208,6 +208,17 @@
       <cat-item tags="det.itg.*"/>
    </def-cat>
 
+<def-cat n="nom-sim"> 
+      <cat-item tags="n.*.*.*.sim.*"/>
+      <cat-item tags="n.*.*.*.sim"/>
+      <cat-item tags="n.sim.*"/>
+      <cat-item tags="n.sim"/>
+      <cat-item tags="n.*.*.sim.*"/>
+      <cat-item tags="n.*.*.sim"/>
+      <cat-item tags="n.*.sim.*"/>
+      <cat-item tags="n.*.sim"/>
+   </def-cat>
+
 <def-cat n="nom">
        <cat-item tags="n.*"/>
  <cat-item tags="n.sg.*"/>
@@ -806,6 +817,11 @@
       <attr-item tags="sint"/>
 
     </def-attr>
+ <def-attr n="a_sim">
+     
+      <attr-item tags="sim"/>
+
+    </def-attr>
 
 <def-attr n="a_det">
      
@@ -849,6 +865,14 @@
     
     </def-attr>
 
+
+ <def-attr n="a_pron">
+
+           
+      <attr-item tags="prn.ref"/>
+
+    
+    </def-attr>
 
 
 
@@ -2674,6 +2698,22 @@ If no format information is present it is removed. -->
                 </when>
 
 </choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_sim"/>
+<lit-tag v="sim"/></equal>
+                  </test>
+                  <let>
+
+<var n="number1"/><concat><lit v="like"/><lit-tag v="pr"/></concat></let>
+                </when>
+<otherwise>
+<let>
+
+<var n="number1"/><lit v=""/></let>
+</otherwise>
+</choose>
          <out>
           <chunk name="nommy" case="caseFirstWord">
             <tags>
@@ -2681,6 +2721,10 @@ If no format information is present it is removed. -->
 
 
             </tags>
+<lu>
+<var n="number1"/>
+</lu>
+<b/>
  <lu>
 <var n="postposition_lu"/>
 </lu>
@@ -6456,7 +6500,7 @@ If no format information is present it is removed. -->
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
-<clip pos="1" side="tl" part="a_nom"/>
+<clip pos="1" side="tl" part="a_pron"/>
 <lit-tag v="2"/>
 <lit-tag v="3"/>
 <lit-tag v="4"/>
@@ -11434,9 +11478,12 @@ If no format information is present it is removed. -->
     </rule>
 
 
-<rule comment="RULE: NOM">
+
+
+
+<rule comment="RULE: NOM+sim">
       <pattern>
-        <pattern-item n="nom"/>
+        <pattern-item n="nom-sim"/>
       </pattern>
 <action>
         
@@ -11478,6 +11525,86 @@ If no format information is present it is removed. -->
 
 
         <out>
+          <chunk name="noun-sim" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="AdvP"/></tag>
+              <tag>  <var n="number"/></tag>
+            </tags>
+
+            <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+<lu>
+                <lit v="like"/>
+                <lit-tag v="pr"/>
+            
+            </lu>
+<b/>
+<lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+            
+              <clip pos="1" side="tl" part="lemq"/>
+                <lit-tag v="2"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+
+
+<rule comment="RULE: NOM">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+<action>
+        
+      <call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+    
+    
+
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                  <let><var n="case"/><lit-tag v="nom"/></let>
+                </when>
+ 
+                <otherwise>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+<choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="lem"/><lit v="аст"/></equal>
+                  </test>
+                 <let><var n="number"/><lit v=""/></let>
+                  <let><var n="postposition_lu"/><lit v=""/></let>
+                </when>
+               
+              </choose>
+
+
+        <out>
           <chunk name="noun-sg/pl1" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
@@ -11493,7 +11620,7 @@ If no format information is present it is removed. -->
               <clip pos="1" side="tl" part="a_nom"/>
             
               <clip pos="1" side="tl" part="lemq"/>
-                <lit-tag v="3"/>
+                <var n="number"/>
             </lu>
           </chunk>
         </out>

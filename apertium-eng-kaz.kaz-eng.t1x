@@ -201,6 +201,7 @@
       <cat-item tags="np.cog"/>
       <cat-item tags="np.cog.*"/>
 <cat-item tags="np.cog.*.*"/>
+<cat-item tags="np.cog.mf.*"/>
    </def-cat>
 
 <def-cat n="itg"> 
@@ -1681,7 +1682,7 @@ If no format information is present it is removed. -->
           <let><var n="number"/><lit v=""/></let>
     </def-macro>
 
-<def-macro n="NEW-build-noun-lu-2-4-5" npar="1"> 
+<def-macro n="NEW-build-np" npar="1"> 
      <let>
            <var n="NEW-noun_lu"/>
            <concat>
@@ -1689,8 +1690,8 @@ If no format information is present it is removed. -->
                <clip pos="1" side="tl" part="a_np"/>
               <!-- <lit-tag v="2"/> 
 		<lit-tag v="3"/> -->
-               <lit-tag v="4"/> <!-- for possessive -->
-              <lit-tag v="5"/>
+               <lit-tag v="4"/> 
+              <lit-tag v="sg"/>
            </concat>  
         </let>
 </def-macro>
@@ -4999,8 +5000,10 @@ If no format information is present it is removed. -->
   </pattern>
   <action>
 
-  <call-macro n="NEW-build-noun-lu-2-4-5">
-       <with-param pos="1"/>
+  <!--<call-macro n="NEW-build-np">
+       <with-param pos="1"/>-->
+ <call-macro n="choose_case_and_postposition2">
+          <with-param pos="2"/>
 
   </call-macro> 
 <choose>
@@ -5045,7 +5048,7 @@ If no format information is present it is removed. -->
 </rule>
 
 
-<rule comment="NEW RULE: name noun-cog">  <!--must be corrected to "f". rule works to m-->
+<rule comment="NEW RULE: name noun-cog">
   <pattern>
     <pattern-item n="np-ant"/>
     <pattern-item n="np-cog"/>
@@ -5053,7 +5056,7 @@ If no format information is present it is removed. -->
   </pattern>
   <action>
 
-  <call-macro n="NEW-build-noun-lu-2-4-5">
+ <call-macro n="NEW-build-np">
        <with-param pos="1"/>
 
   </call-macro> 
@@ -5068,7 +5071,7 @@ If no format information is present it is removed. -->
 
 </choose>
     <out>
-    <chunk name="np-ant-cog-cop">
+    <chunk name="name-surname">
     <tags>
     <tag><lit-tag v="SN"/></tag>
     <tag><clip pos="2" side="sl" part="a_np"/></tag>
@@ -5083,13 +5086,15 @@ If no format information is present it is removed. -->
     </lu>
 <b/> 
    <lu>
-     <clip pos="2" side="tl" part="lem"/> 
+
+     <clip pos="2" side="tl" part="lemh"/> 
      <clip pos="2" side="tl" part="a_np"/>
-	
+	<clip pos="2" side="tl" part="a_mf"/>
      <clip pos="2" side="tl" part="a_nbr"/>
     <!-- <lit-tag v="3"/>-->
-    <lit-tag v="4"/>
+    
 <lit-tag v="sg"/>
+<clip pos="2" side="tl" part="lemq"/> 
 	
     </lu>
 <b/>

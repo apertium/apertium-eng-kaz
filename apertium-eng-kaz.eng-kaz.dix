@@ -14065,6 +14065,8 @@
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Tegeran<s n="np"/><s n="top"/><s n="sg"/></l><r>Тегеран<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Tashkent<s n="np"/><s n="top"/><s n="sg"/></l><r>Ташкент<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Moscow<s n="np"/><s n="top"/><s n="sg"/></l><r>Мәскеу<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Aktobe<s n="np"/><s n="top"/><s n="sg"/></l><r>Ақтөбе<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kokshetau<s n="np"/><s n="top"/><s n="sg"/></l><r>Көкшетау<s n="np"/><s n="top"/></r></p></e>
@@ -22494,6 +22496,77 @@
 <e><p><l>Ministry<b/>of<b/>internal<b/>Affairs<s n="np"/><s n="al"/></l><r>ІІМ<s n="abbr"/></r></p></e>
 <e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="abbr"/></r></p></e>
 
+
+<e><p><l>Zhabayev<s n="np"/><s n="cog"/></l><r>Жабаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhagyparov<s n="np"/><s n="cog"/></l><r>Жағыпаров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jadov<s n="np"/><s n="cog"/></l><r>Жадов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhainaqov<s n="np"/><s n="cog"/></l><r>Жайнақов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dzhaksybekov<s n="np"/><s n="cog"/></l><r>Жақсыбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhaksylykov<s n="np"/><s n="cog"/></l><r>Жақсылықов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhakipbaev<s n="np"/><s n="cog"/></l><r>Жақыпбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhakipov<s n="np"/><s n="cog"/></l><r>Жақыпов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jamanmurınov<s n="np"/><s n="cog"/></l><r>Жаманмұрынов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhamanov<s n="np"/><s n="cog"/></l><r>Жаманов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhanaidarov<s n="np"/><s n="cog"/></l><r>Жанайдаров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dzhanasaev<s n="np"/><s n="cog"/></l><r>Жанасаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Janburchinov<s n="np"/><s n="cog"/></l><r>Жанбурчинов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Janbusunov<s n="np"/><s n="cog"/></l><r>Жанбусунов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhangabylov<s n="np"/><s n="cog"/></l><r>Жанғабылов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhandarbekov<s n="np"/><s n="cog"/></l><r>Жандарбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dzhandauletov<s n="np"/><s n="cog"/></l><r>Жандәулетов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jandosov<s n="np"/><s n="cog"/></l><r>Жандосов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Janjigitov<s n="np"/><s n="cog"/></l><r>Жанжігітов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhanzakov<s n="np"/><s n="cog"/></l><r>Жанзақов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhankuliyev<s n="np"/><s n="cog"/></l><r>Жанқұлиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Janualiev<s n="np"/><s n="cog"/></l><r>Жанұалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhanuzakov<s n="np"/><s n="cog"/></l><r>Жанұзақов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhanabayev<s n="np"/><s n="cog"/></l><r>Жаңабаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Japaqov<s n="np"/><s n="cog"/></l><r>Жапақов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhappasbaev<s n="np"/><s n="cog"/></l><r>Жаппасбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zharmagambetov<s n="np"/><s n="cog"/></l><r>Жармағамбетов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zharmaganbetov<s n="np"/><s n="cog"/></l><r>Жармағанбетов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dzharmukhambetov<s n="np"/><s n="cog"/></l><r>Жармұхамедов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dzharmukhambetov<s n="np"/><s n="cog"/></l><r>Жармұхамедов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zharov<s n="np"/><s n="cog"/></l><r>Жаров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dzhartybayev<s n="np"/><s n="cog"/></l><r>Жартыбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zharikbaev<s n="np"/><s n="cog"/></l><r>Жарықбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jarıqpaev<s n="np"/><s n="cog"/></l><r>Жарықпаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zharylgapov<s n="np"/><s n="cog"/></l><r>Жарылғапов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhasuzakov<s n="np"/><s n="cog"/></l><r>Жасұзақов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jafarov<s n="np"/><s n="cog"/></l><r>Жафаров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhakhayev<s n="np"/><s n="cog"/></l><r>Жахаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jakishev<s n="np"/><s n="cog"/></l><r>Жәкiшев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhakishev<s n="np"/><s n="cog"/></l><r>Жәкішев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Janekeshev<s n="np"/><s n="cog"/></l><r>Жәнекешев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhanibekov<s n="np"/><s n="cog"/></l><r>Жәнібеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jangirov<s n="np"/><s n="cog"/></l><r>Жәңгіров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jeylitbaev<s n="np"/><s n="cog"/></l><r>Жейлітбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jeksenbekov<s n="np"/><s n="cog"/></l><r>Жексенбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zheltov<s n="np"/><s n="cog"/></l><r>Желтов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jerebyatiev<s n="np"/><s n="cog"/></l><r>Жеребятиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jjyonov<s n="np"/><s n="cog"/></l><r>Жжёнов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jivoev<s n="np"/><s n="cog"/></l><r>Живоев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jigarev<s n="np"/><s n="cog"/></l><r>Жигарев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jiekbaev<s n="np"/><s n="cog"/></l><r>Жиекбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhienkulov<s n="np"/><s n="cog"/></l><r>Жиенқұлов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhirnov<s n="np"/><s n="cog"/></l><r>Жирнов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jirov<s n="np"/><s n="cog"/></l><r>Жиров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Jitkov<s n="np"/><s n="cog"/></l><r>Житков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zholdasbekov<s n="np"/><s n="cog"/></l><r>Жолдасбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhorabayev<s n="np"/><s n="cog"/></l><r>Жорабаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhukov<s n="np"/><s n="cog"/></l><r>Жуков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhumanov<s n="np"/><s n="cog"/></l><r>Жуманов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhuravlev<s n="np"/><s n="cog"/></l><r>Журавлёв<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhunusov<s n="np"/><s n="cog"/></l><r>Жүнісов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhunusov<s n="np"/><s n="cog"/></l><r>Жүнісов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhurgenov<s n="np"/><s n="cog"/></l><r>Жүргенов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhusupov<s n="np"/><s n="cog"/></l><r>Жүсіпов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhubanov<s n="np"/><s n="cog"/></l><r>Жұбанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhumabaev<s n="np"/><s n="cog"/></l><r>Жұмабаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhumagaliyev<s n="np"/><s n="cog"/></l><r>Жұмағалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhumadilov<s n="np"/><s n="cog"/></l><r>Жұмаділов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhumaev<s n="np"/><s n="cog"/></l><r>Жұмаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhumaskaliev<s n="np"/><s n="cog"/></l><r>Жұмасқалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
 <e><p><l>Nazarbekov<s n="np"/><s n="cog"/></l><r>Назарбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Nazarov<s n="np"/><s n="cog"/></l><r>Назаров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

@@ -1,6 +1,6 @@
-DIX=/home/apertium/apertium-kaz/apertium-kaz.kaz.lexc
-BIN=/home/apertium/apertium-eng-kaz/kaz-eng.automorf.bin
-cat /home/apertium/apertium-eng-kaz/Coding_challenge/corpus\ Lab\ IIS\ \(5925\).kz  | cut -f2 | grep -v '>(' | sed 's/&lt;/</g' | sed 's/&gt;/>/g' | apertium-destxt | lt-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/kaz.coverage.txt
+DIX=/home/apertium/apertium-testing/apertium-kaz/apertium-kaz.kaz.lexc
+BIN=/home/apertium/apertium-testing/apertium-eng-kaz/kaz-eng.automorf.bin
+cat /home/apertium/apertium-testing/apertium-eng-kaz/Coding_challenge/corpus\ Lab\ IIS\ \(5925\).kz  | cut -f2 | grep -v '>(' | sed 's/&lt;/</g' | sed 's/&gt;/>/g' | apertium-destxt | lt-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/kaz.coverage.txt
 
 EDICT=`cat $DIX | grep ':' | wc -l`;
 EPAR=`cat $DIX | grep ':' | wc -l`;

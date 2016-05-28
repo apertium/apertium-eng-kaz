@@ -792,6 +792,7 @@
 <e><p><l>age<s n="n"/></l><r>мерзім<s n="n"/></r></p></e>
 <e><p><l>agglomerate<s n="n"/></l><r>шоғырын<s n="n"/></r></p></e>
 <e><p><l>agglomeration<s n="n"/></l><r>шоғыр<s n="n"/></r></p></e>
+<e><p><l>agglomeration<s n="n"/></l><r>агломерация<s n="n"/></r></p></e>
 <e><p><l>agglutination<s n="n"/></l><r>агглютинация<s n="n"/></r></p></e>
 <e><p><l>aggravation<s n="n"/></l><r>аздыру<s n="n"/></r></p></e>
 <e><p><l>aggregate<s n="n"/></l><r>жиынтық<s n="n"/></r></p></e>
@@ -3461,6 +3462,7 @@
 <e><p><l>demise<s n="n"/></l><r>өлім<s n="n"/></r></p></e>
 <e><p><l>demobilisation<s n="n"/></l><r>демобилизация<s n="n"/></r></p></e>
 <e><p><l>democracy<s n="n"/></l><r>демократия<s n="n"/></r></p></e>
+<e><p><l>democratic<s n="n"/></l><r>демократиялық<s n="adj"/></r></p></e>
 <e><p><l>democratisation<s n="n"/></l><r>демократизация<s n="n"/></r></p></e>
 <e><p><l>democrat<s n="n"/></l><r>бұқарашыл<s n="n"/></r></p></e>
 <e><p><l>demodulation<s n="n"/></l><r>демодуляция<s n="n"/></r></p></e>
@@ -3496,9 +3498,9 @@
 <e><p><l>deodorant<s n="n"/></l><r>дезодорант<s n="n"/></r></p></e>
 <e><p><l>deontology<s n="n"/></l><r>этика<s n="n"/></r></p></e>
 <e><p><l>department<s n="n"/></l><r>бөлім<s n="n"/></r></p></e>
+<e><p><l>department<s n="n"/></l><r>ведомство<s n="n"/></r></p></e>
 <e><p><l>departure<s n="n"/></l><r>кету<s n="n"/></r></p></e>
 <e><p><l>dependence<s n="n"/></l><r>тәуелділік<s n="n"/></r></p></e>
-<e><p><l>dependency<s n="n"/></l><r>тәуелділік<s n="n"/></r></p></e>
 <e><p><l>dependent<s n="n"/></l><r>тәуелділік<s n="n"/></r></p></e>
 <e><p><l>depiction<s n="n"/></l><r>сипаттама<s n="n"/></r></p></e>
 <e><p><l>depilation<s n="n"/></l><r>депиляция<s n="n"/></r></p></e>
@@ -4381,6 +4383,7 @@
 <e><p><l>extranet<s n="n"/></l><r>экстражелі<s n="n"/></r></p></e>
 <e><p><l>extrapolation<s n="n"/></l><r>экстраполяция<s n="n"/></r></p></e>
 <e><p><l>extra<s n="n"/></l><r>айрықша<s n="n"/></r></p></e>
+<e><p><l>extractive<s n="adj"/></l><r>шикізаттық<s n="adj"/></r></p></e>
 <e><p><l>extreme<s n="n"/></l><r>қысылшаң<s n="n"/></r></p></e>
 <e><p><l>extremism<s n="n"/></l><r>экстремизм<s n="n"/></r></p></e>
 <e><p><l>extremist<s n="n"/></l><r>экстремист<s n="n"/></r></p></e>
@@ -4473,6 +4476,7 @@
 <e><p><l>fathomless<s n="adj"/></l><r>тұңғиық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>febrifuge<s n="adj"/></l><r>қызу<b/>түсіретін<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>federalistic<s n="adj"/></l><r>федералистік<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>federal<s n="adj"/></l><r>федералдық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>felicitous<s n="adj"/></l><r>сәтті<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>feline<s n="adj"/></l><r>мысық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>ferric<s n="adj"/></l><r>темірдей<s n="adj"/><s n="subst"/></r></p></e>
@@ -7115,6 +7119,7 @@
 <e><p><l>monster<s n="n"/></l><r>құбыжық<s n="n"/></r></p></e>
 <e><p><l>month<s n="n"/></l><r>ай<s n="n"/></r></p></e>
 <e><p><l>monument<s n="n"/></l><r>ескерткіш<s n="n"/></r></p></e>
+<e><p><l>monitoring<s n="n"/></l><r>мониторинг<s n="n"/></r></p></e>
 <e><p><l>mooch<s n="n"/></l><r>сүлік<s n="n"/></r></p></e>
 <e><p><l>mood<s n="n"/></l><r>рай<s n="n"/></r></p></e>
 <e><p><l>moonlighting<s n="n"/></l><r>жұмыс<s n="n"/></r></p></e>
@@ -10856,6 +10861,7 @@
 <e><p><l>trench<s n="n"/></l><r>траншея<s n="n"/></r></p></e>
 <e><p><l>trending<s n="n"/></l><r>тренд<s n="n"/></r></p></e>
 <e><p><l>trend<s n="n"/></l><r>үрдіс<s n="n"/></r></p></e>
+<e><p><l>trend<s n="n"/></l><r>тренд<s n="n"/></r></p></e>
 <e><p><l>trephnation<s n="n"/></l><r>трефнация<s n="n"/></r></p></e>
 <e><p><l>triacylglyceride<s n="n"/></l><r>триацилглицерид<s n="n"/></r></p></e>
 <e><p><l>trial<s n="n"/></l><r>сынақ<s n="n"/></r></p></e>
@@ -11543,6 +11549,11 @@
 <e><p><l>Boeing<s n="np"/><s n="al"/></l><r>Боинг<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>CAM<s n="np"/><s n="al"/></l><r>CAM<s n="abbr"/></r></p></e>
 <e><p><l>Chevron<s n="np"/><s n="al"/></l><r>Шеврон<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Bosh<s n="np"/><s n="al"/></l><r>Бош<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Simens<s n="np"/><s n="al"/></l><r>Сименс<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Volkswagen<s n="np"/><s n="al"/></l><r>Фольксваген<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Kazakhtelecom<s n="np"/><s n="al"/></l><r>Қазақтелеком<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Kazakhmys<s n="np"/><s n="al"/></l><r>Қазақмыс<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Chevron<s n="np"/><s n="al"/></l><r>Шеврон<s n="np"/><s n="unk"/></r></p></e>
 <e><p><l>Columbia<s n="np"/><s n="al"/></l><r>Columbia<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>EPO<s n="np"/><s n="al"/></l><r>EPO<s n="abbr"/></r></p></e>
@@ -11665,7 +11676,7 @@
 <e><p><l>UEFA<s n="n"/><s n="acr"/></l><r>UEFA<s n="abbr"/></r></p></e>
 <e><p><l>OBCE<s n="n"/><s n="acr"/></l><r>ЕҚЫҰ<s n="abbr"/></r></p></e>
 <e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="np"/><s n="org"/></r></p></e>
-<e><p><l>CiS<s n="n"/><s n="acr"/></l><r>ТМД<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>CIS<s n="n"/><s n="acr"/></l><r>ТМД<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>USSR<s n="n"/><s n="acr"/></l><r>КСРО<s n="abbr"/></r></p></e>
 <e><p><l>cm<s n="n"/><s n="acr"/></l><r>см<s n="abbr"/></r></p></e>
 <e><p><l>g<s n="n"/><s n="acr"/></l><r>г<s n="abbr"/></r></p></e>
@@ -13643,6 +13654,7 @@
 <e><p><l>Berzins<s n="np"/><s n="cog"/></l><r>Берзиньш<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Besson<s n="np"/><s n="cog"/></l><r>Бессон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Bilisbekov<s n="np"/><s n="cog"/></l><r>Білісбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Mikhalkov<s n="np"/><s n="cog"/></l><r>Михалков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Blair<s n="np"/><s n="cog"/></l><r>Блэр<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Bolkiah<s n="np"/><s n="cog"/></l><r>Болкиях<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Bonaparte<s n="np"/><s n="cog"/></l><r>Бонапарт<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -13840,6 +13852,9 @@
 <e><p><l>Sundetova<s n="np"/><s n="cog"/></l><r>Сүндетов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Karibzhanov<s n="np"/><s n="cog"/></l><r>Кәрібжанов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Karibayeva<s n="np"/><s n="cog"/></l><r>Кәрібаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Karimov<s n="np"/><s n="cog"/></l><r>Каримов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Karimov<s n="np"/><s n="cog"/></l><r>Кәрімов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Sholnik<s n="np"/><s n="cog"/></l><r>Школьник<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Karibaeva<s n="np"/><s n="cog"/></l><r>Кәрібаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Otero<s n="np"/><s n="cog"/></l><r>Отеро<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Pasteur<s n="np"/><s n="cog"/></l><r>Пастер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -13962,6 +13977,7 @@
 <e><p><l>Zabaleta<s n="np"/><s n="cog"/></l><r>Забалета<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Zapatero<s n="np"/><s n="cog"/></l><r>Сапатеро<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Zavala<s n="np"/><s n="cog"/></l><r>Завала<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Deripaska<s n="np"/><s n="cog"/></l><r>Deripaska<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Zhaksylykov<s n="np"/><s n="cog"/></l><r>Жақсылықов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Zhanburchinova<s n="np"/><s n="cog"/></l><r>Жанбурчинов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Zhanbussunov<s n="np"/><s n="cog"/></l><r>Жанбусунов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
@@ -14136,6 +14152,7 @@
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Cairo<s n="np"/><s n="top"/><s n="sg"/></l><r>Каир<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Tegeran<s n="np"/><s n="top"/><s n="sg"/></l><r>Тегеран<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Tashkent<s n="np"/><s n="top"/><s n="sg"/></l><r>Ташкент<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Moscow<s n="np"/><s n="top"/><s n="sg"/></l><r>Мәскеу<s n="np"/><s n="top"/></r></p></e>
@@ -15092,6 +15109,7 @@
 <e><p><l>so<s n="preadv"/></l><r>олай<s n="adv"/></r></p></e>
 <e><p><l>so<s n="preadv"/></l><r>сөйтіп<s n="adv"/></r></p></e>
 <e><p><l>too<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
+<e><p><l>too<s n="preadv"/></l><r>анағұрлым<s n="adv"/></r></p></e>
 <e><p><l>very<s n="preadv"/></l><r>өте<s n="adv"/></r></p></e>
 <e><p><l>all<s n="predet"/></l><r>бүкіл<s n="det"/><s n="qnt"/></r></p></e>
 <e><p><l>all<s n="predet"/><s n="sp"/></l><r>барлық<s n="adv"/></r></p></e>
@@ -17554,6 +17572,7 @@
 <e><p><l>independence-minded<s n="adj"/></l><r>тәуелсіз<b/>ойлы<s n="adj"/></r></p></e>
 <e><p><l>independent<s n="adj"/></l><r>өзіндік<s n="adj"/></r></p></e>
 <e><p><l>independent<s n="adj"/></l><r>тәуелсіз<s n="adj"/></r></p></e>
+<e><p><l>independent<s n="adj"/></l><r>егеменді<s n="adj"/></r></p></e>
 <e><p><l>indeterminable<s n="adj"/></l><r>анықталмаған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>indeterminate<s n="adj"/></l><r>мөлшерсіз<s n="adj"/></r></p></e>
 <e><p><l>indian<s n="adj"/></l><r>үндістандық<s n="adj"/></r></p></e>
@@ -17675,6 +17694,7 @@
 <e><p><l>intermolecular<s n="adj"/></l><r>молекулааралық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>internal<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
 <e><p><l>international<s n="adj"/></l><r>халықаралық<s n="adj"/></r></p></e>
+<e><p><l>international<s n="adj"/></l><r>әлемдік<s n="adj"/></r></p></e>
 <e><p><l>worldwide<s n="adj"/></l><r>дүниежүзілік<s n="adj"/></r></p></e>
 <e><p><l>worldwide<s n="adj"/></l><r>бүкіләлемдік<s n="adj"/></r></p></e>
 <e><p><l>interosseous<s n="adj"/></l><r>сүйекаралық<s n="adj"/><s n="subst"/></r></p></e>
@@ -17809,6 +17829,7 @@
 <e><p><l>lawless<s n="adj"/></l><r>заңсыз<s n="adj"/></r></p></e>
 <e><p><l>left<s n="adj"/></l><r>сол<s n="adj"/></r></p></e>
 <e><p><l>legal<s n="adj"/></l><r>заңды<s n="adj"/></r></p></e>
+<e><p><l>legal<s n="adj"/></l><r>құқықтық<s n="adj"/></r></p></e>
 <e><p><l>legendary<s n="adj"/></l><r>аңызды<s n="adj"/></r></p></e>
 <e><p><l>legislative<s n="adj"/></l><r>заң<b/>шығаратын<s n="adj"/></r></p></e>
 <e><p><l>legislative<s n="adj"/></l><r>заңнамалық<s n="adj"/></r></p></e>
@@ -22091,7 +22112,7 @@
 <e><p><l>kazakhstani<s n="n"/></l><r>қазақстандық<s n="n"/></r></p></e>
 <e><p><l>need<s n="n"/></l><r>қажеттік<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>affect<s n="n"/></l><r>зардап<s n="n"/><s n="px3sp"/></r></p></e>
-<e><p><l>g<s n="n"/></l><r>ж<s n="abbr"/></r></p></e>
+<e><p><l>g<s n="abbr"/></l><r>ж<s n="abbr"/></r></p></e>
 <e><p><l>no<s n="n"/></l><r>ешқандай<s n="det"/><s n="neg"/></r></p></e>
 <e r="RL"><p><l></l><r>ә<s n="ij"/></r></p></e>
 
@@ -22128,6 +22149,7 @@
 <e><p><l>energy<s n="n"/></l><r>энергия<s n="n"/></r></p></e>
 <e><p><l>energy<s n="n"/></l><r>энергетика<s n="n"/></r></p></e>
 <e><p><l>export<s n="n"/></l><r>экспорт<s n="n"/></r></p></e>
+<e><p><l>export<s n="adj"/></l><r>экспорттық<s n="adj"/></r></p></e>
 <e><p><l>bowl<s n="n"/></l><r>шар<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>forum<s n="n"/></l><r>форум<s n="n"/></r></p></e>
 <e><p><l>aspiration<s n="n"/></l><r>ұмтылыс<s n="n"/><s n="px3sp"/></r></p></e>
@@ -22261,6 +22283,9 @@
 <e><p><l>zh.<s n="abbr"/></l><r>ж.<s n="abbr"/></r></p></e>
 <e><p><l>o.<s n="abbr"/></l><r>о.<s n="abbr"/></r></p></e>
 <e><p><l>B.<s n="abbr"/></l><r>Б.<s n="abbr"/></r></p></e>
+<e><p><l>E<s n="abbr"/></l><r>Е<s n="abbr"/></r></p></e>
+<e><p><l>A.<s n="abbr"/></l><r>А<s n="abbr"/></r></p></e>
+<e><p><l>A.<s n="abbr"/></l><r>Ә<s n="abbr"/></r></p></e>
 <e><p><l>K.<s n="abbr"/></l><r>К.<s n="abbr"/></r></p></e>
 <e><p><l>S.<s n="abbr"/></l><r>С.<s n="abbr"/></r></p></e>
 <e><p><l>N.<s n="abbr"/></l><r>Н.<s n="abbr"/></r></p></e>
@@ -22308,6 +22333,7 @@
 <e><p><l>sharply<s n="adv"/></l><r>күрт<s n="adv"/></r></p></e>
 <e><p><l>hull<s n="n"/></l><r>корпус<s n="n"/></r></p></e>
 <e><p><l>competition<s n="n"/></l><r>конкурс<s n="n"/></r></p></e>
+<e><p><l>competitional<s n="adj"/></l><r>конкурстық<s n="adj"/></r></p></e>
 <e r="RL"><p><l></l><r>дариға<s n="ij"/></r></p></e>
 <e><p><l>liberty<s n="n"/></l><r>бостандық<s n="n"/></r></p></e>
 <e><p><l>stock<b/>exchange<s n="n"/></l><r>биржа<s n="n"/></r></p></e>
@@ -22640,6 +22666,60 @@
 <e><p><l>Zhumadilov<s n="np"/><s n="cog"/></l><r>Жұмаділов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Zhumaev<s n="np"/><s n="cog"/></l><r>Жұмаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Zhumaskaliev<s n="np"/><s n="cog"/></l><r>Жұмасқалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+
+<e><p><l>Lavrentjev<s n="np"/><s n="cog"/></l><r>Лаврентьев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lavrov<s n="np"/><s n="cog"/></l><r>Лавров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ladikov<s n="np"/><s n="cog"/></l><r>Ладыков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lazarev<s n="np"/><s n="cog"/></l><r>Лазарев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lakachev<s n="np"/><s n="cog"/></l><r>Лакачев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lakachov<s n="np"/><s n="cog"/></l><r>Лакачов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lamaev<s n="np"/><s n="cog"/></l><r>Ламаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lapaev<s n="np"/><s n="cog"/></l><r>Лапаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lapin<s n="np"/><s n="cog"/></l><r>Лапин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Laptev<s n="np"/><s n="cog"/></l><r>Лаптев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Larionov<s n="np"/><s n="cog"/></l><r>Ларионов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Latypov<s n="np"/><s n="cog"/></l><r>Латыпов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lebedev<s n="np"/><s n="cog"/></l><r>Лебедев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Levin<s n="np"/><s n="cog"/></l><r>Левин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Levchaev<s n="np"/><s n="cog"/></l><r>Левчаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lekanov<s n="np"/><s n="cog"/></l><r>Леканов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lekerov<s n="np"/><s n="cog"/></l><r>Лекеров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lenin<s n="np"/><s n="cog"/></l><r>Ленин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lenkov<s n="np"/><s n="cog"/></l><r>Леньков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Leone<s n="np"/><s n="cog"/></l><r>Леонов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Leontiev<s n="np"/><s n="cog"/></l><r>Леонтьев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lermontov<s n="np"/><s n="cog"/></l><r>Лермонтов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Leskov<s n="np"/><s n="cog"/></l><r>Лесков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lisakov<s n="np"/><s n="cog"/></l><r>Лисаков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Litvinov<s n="np"/><s n="cog"/></l><r>Литвинов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Likharev<s n="np"/><s n="cog"/></l><r>Лихарев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Likhachev<s n="np"/><s n="cog"/></l><r>Лихачёв<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lobanov<s n="np"/><s n="cog"/></l><r>Лобанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lobachev<s n="np"/><s n="cog"/></l><r>Лобачев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lobkov<s n="np"/><s n="cog"/></l><r>Лобков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lovanov<s n="np"/><s n="cog"/></l><r>Лованов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Loginov<s n="np"/><s n="cog"/></l><r>Логинов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Logunov<s n="np"/><s n="cog"/></l><r>Логунов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Loktev<s n="np"/><s n="cog"/></l><r>Локтев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lomova<s n="np"/><s n="cog"/></l><r>Ломов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lomonosov<s n="np"/><s n="cog"/></l><r>Ломоносов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Losmanov<s n="np"/><s n="cog"/></l><r>Лосманов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lotishev<s n="np"/><s n="cog"/></l><r>Лотышев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lukianov<s n="np"/><s n="cog"/></l><r>Лукианов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lukin<s n="np"/><s n="cog"/></l><r>Лукин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lukiyanov<s n="np"/><s n="cog"/></l><r>Лукиянов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lukoyanov<s n="np"/><s n="cog"/></l><r>Лукоянов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lukyanov<s n="np"/><s n="cog"/></l><r>Лукьянов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lupov<s n="np"/><s n="cog"/></l><r>Лупов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Luferov<s n="np"/><s n="cog"/></l><r>Луферов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Litkin<s n="np"/><s n="cog"/></l><r>Лыткин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Mubarak<s n="np"/><s n="cog"/></l><r>Mубарак<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lgov<s n="np"/><s n="cog"/></l><r>Льгов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lyubeznov<s n="np"/><s n="cog"/></l><r>Любезнов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lyubimov<s n="np"/><s n="cog"/></l><r>Любим<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lyapunov<s n="np"/><s n="cog"/></l><r>Ляпунов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+
+
 
 <e><p><l>Nazarbekov<s n="np"/><s n="cog"/></l><r>Назарбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Nazarov<s n="np"/><s n="cog"/></l><r>Назаров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

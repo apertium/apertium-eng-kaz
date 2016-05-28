@@ -308,7 +308,25 @@
 
 <!-- -->
 
-
+<e><p><l>whip<s n="n"/></l><r>көшір<s n="n"/></r></p></e>
+<e><p><l>intermarry<s n="n"/></l><r>құда<s n="n"/></r></p></e>
+<e><p><l>competence<s n="n"/></l><r>құзырет<s n="n"/></r></p></e>
+<e><p><l>ash<s n="n"/></l><r>күл<s n="n"/></r></p></e>
+<e><p><l>slave<s n="n"/></l><r>күң<s n="n"/></r></p></e>
+<e><p><l>peer<s n="n"/></l><r>құрбы<s n="n"/></r></p></e>
+<e><p><l>peer<s n="n"/></l><r>құрдас<s n="n"/></r></p></e>
+<e><p><l>strength<s n="n"/></l><r>күштілік<s n="n"/></r></p></e>
+<e><p><l>ceramic<s n="n"/></l><r>қыш<s n="n"/></r></p></e>
+<e><p><l>mainland<s n="n"/></l><r>материк<s n="n"/></r></p></e>
+<e><p><l>matter<s n="n"/></l><r>материя<s n="n"/></r></p></e>
+<e><p><l>menu<s n="n"/></l><r>мәзір<s n="n"/></r></p></e>
+<e><p><l>anniversary<s n="n"/></l><r>мерей<s n="n"/></r></p></e>
+<e><p><l>mechanics<s n="n"/></l><r>механика<s n="n"/></r></p></e>
+<e><p><l>music<s n="n"/></l><r>музыка<s n="n"/></r></p></e>
+<e><p><l>ally<s n="n"/></l><r>одақтас<s n="n"/></r></p></e>
+<e><p><l>organism<s n="n"/></l><r>организм<s n="n"/></r></p></e>
+<e><p><l>forester<s n="n"/></l><r>орманшы<s n="n"/></r></p></e>
+<e><p><l>period<s n="n"/></l><r>период<s n="n"/></r></p></e>
 <e><p><l>asyk<s n="n"/></l><r>асық<s n="n"/></r></p></e>
 <e><p><l>gardening<s n="n"/></l><r>бағбаншылық<s n="n"/></r></p></e>
 <e><p><l>concrete<s n="n"/></l><r>бетон<s n="n"/></r></p></e>
@@ -1492,10 +1510,9 @@
 <e><p><l>backorder<s n="n"/></l><r>домен<s n="n"/></r></p></e>
 <e><p><l>backpack<s n="n"/></l><r>арқа<b/>қоржын<s n="n"/></r></p></e>
 <e><p><l>portfolio<s n="n"/></l><r>қоржын<s n="n"/></r></p></e>
-<e><p><l>MCi<s n="n"/></l><r>АЕК<s n="n"/></r></p></e>
-<e><p><l>CAO<s n="n"/></l><r>ӘқБК<s n="n"/></r></p></e>
-<e><p><l>RK<s n="n"/></l><r>ҚР<s n="n"/></r></p></e>
-<e><p><l>PSC<s n="n"/></l><r>ХҚКО<s n="n"/></r></p></e>
+<e><p><l>CAO<s n="n"/><s n="acr"/></l><r>ӘҚБК<s n="abbr"/></r></p></e>
+<e><p><l>RK<s n="n"/><s n="acr"/></l><r>ҚР<s n="abbr"/></r></p></e>
+<e><p><l>PSC<s n="n"/><s n="acr"/></l><r>ХҚКО<s n="abbr"/></r></p></e>
 <e><p><l>backrest<s n="n"/></l><r>арқа<s n="n"/></r></p></e>
 <e><p><l>backside<s n="n"/></l><r>артқы<b/>жақ<s n="n"/></r></p></e>
 <e><p><l>back<s n="n"/></l><r>арқа<s n="n"/></r></p></e>
@@ -11636,6 +11653,7 @@
 <e><p><l>GDP<s n="n"/><s n="acr"/></l><r>ЖІӨ<s n="abbr"/></r></p></e>
 <e><p><l>iiC<s n="n"/><s n="acr"/></l><r>ЖСК<s n="abbr"/></r></p></e>
 <e><p><l>KZT<s n="n"/><s n="acr"/></l><r>теңге<s n="n"/></r></p></e>
+<e><p><l>MCI<s n="n"/><s n="acr"/></l><r>АЕК<s n="abbr"/></r></p></e>
 <e><p><l>MGM<s n="n"/><s n="acr"/></l><r>MGM<s n="abbr"/></r></p></e>
 <e><p><l>NATO<s n="n"/><s n="acr"/></l><r>НАТО<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>NBA<s n="n"/><s n="acr"/></l><r>NBA<s n="abbr"/></r></p></e>

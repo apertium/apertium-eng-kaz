@@ -16802,6 +16802,8 @@
     
                             <e lm="and" i=""><i>and</i><par n="and__cnjcoo"/></e>
 
+                            <e lm="to" i=""><i>to</i><par n="and__cnjcoo"/></e>
+
 
                             <e lm="but" i=""><i>but</i><par n="and__cnjcoo"/></e>
 
@@ -85510,6 +85512,8 @@
                             <e lm="grunge" i=""><i>grunge</i><par n="house__n"/></e>
 
                             <e lm="postwar" i=""><i>postwar</i><par n="expensive__adj"/></e>
+
+                            <e lm="pre" i=""><i>pre</i><par n="expensive__adj"/></e>
 
                             <e lm="postwar period" i=""><i>postwar<b/>period</i><par n="house__n"/></e>
 

@@ -11550,6 +11550,8 @@
 <e><p><l>Boeing<s n="np"/><s n="al"/></l><r>Боинг<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>CAM<s n="np"/><s n="al"/></l><r>CAM<s n="abbr"/></r></p></e>
 <e><p><l>Chevron<s n="np"/><s n="al"/></l><r>Шеврон<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Samuryk-kazyna<s n="np"/><s n="al"/></l><r>Самұрық-қазына<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Euronews<s n="np"/><s n="al"/></l><r>Евроньюс<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Bosh<s n="np"/><s n="al"/></l><r>Бош<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Simens<s n="np"/><s n="al"/></l><r>Сименс<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Volkswagen<s n="np"/><s n="al"/></l><r>Фольксваген<s n="np"/><s n="org"/></r></p></e>
@@ -11713,6 +11715,11 @@
 <e><p><l>Aiman<s n="np"/><s n="ant"/><s n="f"/></l><r>Айман<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Akzhan<s n="np"/><s n="ant"/><s n="f"/></l><r>Ақжан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Balzhan<s n="np"/><s n="ant"/><s n="f"/></l><r>Балжан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Aidar<s n="np"/><s n="ant"/><s n="m"/></l><r>Айдар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Murat<s n="np"/><s n="ant"/><s n="m"/></l><r>Мұрат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Murat<s n="np"/><s n="ant"/><s n="m"/></l><r>Мурат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Marat<s n="np"/><s n="ant"/><s n="m"/></l><r>Марат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Kadyr<b/>Myrza<b/>Ali<s n="np"/><s n="ant"/><s n="m"/></l><r>Қадыр<b/>Мырза<b/>Әли<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Aiman<s n="np"/><s n="ant"/><s n="f"/></l><r>Айман<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aimée<s n="np"/><s n="ant"/><s n="f"/></l><r>Аимии<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Ainur<s n="np"/><s n="ant"/><s n="f"/></l><r>Айнұр<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -17792,6 +17799,7 @@
 <e><p><l>jobless<s n="adj"/></l><r>жұмыссыз<s n="adj"/></r></p></e>
 <e><p><l>jordanian<s n="adj"/></l><r>иордандық<s n="adj"/></r></p></e>
 <e><p><l>journalistic<s n="adj"/></l><r>журналисттік<s n="adj"/></r></p></e>
+<e><p><l>journalistic<s n="adj"/></l><r>қаламгерлік<s n="adj"/></r></p></e>
 <e><p><l>joyous<s n="adj"/></l><r>қуанышты<s n="adj"/></r></p></e>
 <e><p><l>judicial<s n="adj"/></l><r>сынайтын<s n="adj"/></r></p></e>
 <e><p><l>juridical<s n="adj"/></l><r>заңды<s n="adj"/></r></p></e>
@@ -17976,6 +17984,7 @@
 <e><p><l>motorised<s n="adj"/></l><r>моторлы<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>motorised<s n="adj"/></l><r>мотоландырылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>multicellular<s n="adj"/></l><r>көпжасушалы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>multilateral<s n="adj"/></l><r>көптарапты<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>multicentric<s n="adj"/></l><r>көп<b/>центрлі<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>multipurpose<s n="adj"/></l><r>көп<b/>функциялы<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>multisectorial<s n="adj"/></l><r>көп<b/>секторлық<s n="adj"/><s n="subst"/></r></p></e>
@@ -22145,7 +22154,8 @@
 <e><p><l>develop<s n="vblex"/></l><r>әзірле<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
 <e><p><l>detail<s n="n"/></l><r>егжей<s n="adv"/></r></p></e>
 <e><p><l>permanently<s n="n"/></l><r>біржола<s n="adv"/></r></p></e>
-<e><p><l>stock exchange<s n="n"/></l><r>биржа<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>stock<b/>exchange<s n="n"/></l><r>биржа<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>referring<b/>to<b/>exchange<s n="adj"/></l><r>биржалық<s n="adj"/></r></p></e>
 <e><p><l>most<s n="adv"/></l><r>барынша<s n="adv"/></r></p></e>
 <e><p><l>energy<s n="n"/></l><r>энергия<s n="n"/></r></p></e>
 <e><p><l>energy<s n="n"/></l><r>энергетика<s n="n"/></r></p></e>

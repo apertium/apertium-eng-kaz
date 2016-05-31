@@ -249,6 +249,7 @@
 <e><p><l>under<s n="pr"/></l><r>аст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>unlike<s n="pr"/></l><r>басқа<s n="post"/><s n="Rabl"/></r></p></e>
 <e><p><l>until<s n="pr"/></l><r>дейін<s n="post"/></r></p></e>
+<e><p><l>until<s n="pr"/></l><r>дейінгі<s n="adv"/></r></p></e>
 <e><p><l>upon<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>via<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
 <e r="LR"><p><l>with<s n="pr"/></l><r></r></p></e>
@@ -3681,6 +3682,7 @@
 <e><p><l>dirt<s n="n"/></l><r>лас<s n="n"/></r></p></e>
 <e><p><l>dirt<s n="n"/></l><r>саз<s n="n"/></r></p></e>
 <e><p><l>disability<s n="n"/></l><r>қабілетсіздік<s n="n"/></r></p></e>
+<e><p><l>disability<s n="n"/></l><r>мүгедектік<s n="n"/></r></p></e>
 <e><p><l>disadvantage<s n="n"/></l><r>мін<s n="n"/></r></p></e>
 <e><p><l>disagreement<s n="n"/></l><r>келіспеушілік<s n="n"/></r></p></e>
 <e><p><l>disambiguation<s n="n"/></l><r>көпмағыналық<s n="n"/></r></p></e>
@@ -4467,6 +4469,7 @@
 <e><p><l>factitious<s n="adj"/></l><r>жасанды<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>facto<s n="adj"/></l><r>факто<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>factorial<s n="adj"/></l><r>факторлық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>armorial<s n="adj"/></l><r>елтаңбалық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>faecal<s n="adj"/></l><r>фекальді<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>fallacious<s n="adj"/></l><r>қате<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>fallible<s n="adj"/></l><r>жаңылыс<s n="adj"/><s n="subst"/></r></p></e>
@@ -20546,6 +20549,7 @@
 <e><p><l>elect<s n="vblex"/></l><r>таңда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>elevate<s n="vblex"/></l><r>көтер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>eliminate<s n="vblex"/></l><r>шығар<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>eliminate<s n="vblex"/></l><r>шеттетіл<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>embalm<s n="vblex"/></l><r>бальзамда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>embark<s n="vblex"/></l><r>кемеге<b/>отыр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>embarrass<s n="vblex"/></l><r>ұялт<s n="v"/><s n="tv"/></r></p></e>

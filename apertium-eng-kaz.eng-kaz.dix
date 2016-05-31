@@ -966,6 +966,7 @@
 <e><p><l>amputation<s n="n"/></l><r>кесіп<b/>алып<b/>тастау<s n="n"/></r></p></e>
 <e><p><l>amulet<s n="n"/></l><r>амулет<s n="n"/></r></p></e>
 <e><p><l>amusement<s n="n"/></l><r>ойын-сауық<s n="n"/></r></p></e>
+<e><p><l>uyk<s n="n"/></l><r>уық<s n="n"/></r></p></e>
 <e><p><l>amylase<s n="n"/></l><r>амилаза<s n="n"/></r></p></e>
 <e><p><l>amyloid<s n="n"/></l><r>амилоид<s n="n"/></r></p></e>
 <e><p><l>anachronism<s n="n"/></l><r>анахронизм<s n="n"/></r></p></e>
@@ -4476,7 +4477,7 @@
 <e><p><l>fathomless<s n="adj"/></l><r>тұңғиық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>febrifuge<s n="adj"/></l><r>қызу<b/>түсіретін<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>federalistic<s n="adj"/></l><r>федералистік<s n="adj"/><s n="subst"/></r></p></e>
-<e><p><l>federal<s n="adj"/></l><r>федералдық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>federal<s n="adj"/></l><r>федералдық<s n="adj"/></r></p></e>
 <e><p><l>felicitous<s n="adj"/></l><r>сәтті<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>feline<s n="adj"/></l><r>мысық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>ferric<s n="adj"/></l><r>темірдей<s n="adj"/><s n="subst"/></r></p></e>
@@ -11719,6 +11720,11 @@
 <e><p><l>Murat<s n="np"/><s n="ant"/><s n="m"/></l><r>Мұрат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Murat<s n="np"/><s n="ant"/><s n="m"/></l><r>Мурат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Marat<s n="np"/><s n="ant"/><s n="m"/></l><r>Марат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Dulat<s n="np"/><s n="ant"/><s n="m"/></l><r>Дулат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Adil<s n="np"/><s n="ant"/><s n="m"/></l><r>Әділ<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Aslan<s n="np"/><s n="ant"/><s n="m"/></l><r>Аслан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Assulan<s n="np"/><s n="ant"/><s n="m"/></l><r>Асулан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Aslanbek<s n="np"/><s n="ant"/><s n="m"/></l><r>Асланбек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Kadyr<b/>Myrza<b/>Ali<s n="np"/><s n="ant"/><s n="m"/></l><r>Қадыр<b/>Мырза<b/>Әли<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Aiman<s n="np"/><s n="ant"/><s n="f"/></l><r>Айман<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aimée<s n="np"/><s n="ant"/><s n="f"/></l><r>Аимии<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -12349,6 +12355,9 @@
 <e><p><l>Bas<s n="np"/><s n="ant"/><s n="m"/></l><r>Бас<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Basil<s n="np"/><s n="ant"/><s n="m"/></l><r>Бэзил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Baurzhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Бауыржан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Zhandarbek<s n="np"/><s n="ant"/><s n="m"/></l><r>Жандарбек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Malikov<s n="np"/><s n="cog"/></l><r>Мәліков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Malikov<s n="np"/><s n="cog"/></l><r>Мәліков<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Bav<s n="np"/><s n="ant"/><s n="m"/></l><r>Бав<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Baz<s n="np"/><s n="ant"/><s n="m"/></l><r>Баз<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Ben<s n="np"/><s n="ant"/><s n="m"/></l><r>Бен<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -22259,7 +22268,7 @@
 <e><p><l>throw<b/>off<s n="vblex"/></l><r>арыл<s n="v"/><s n="iv"/><s n="ger"/><s n="px3sp"/></r></p></e>
 <e><p><l>ascend<s n="vblex"/></l><r>арт<s n="v"/><s n="iv"/><s n="ger"/><s n="px3sp"/></r></p></e>
 <e><p><l>afore<s n="n"/></l><r>алд<s n="n"/><s n="px1sg"/></r></p></e>
-<e><p><l>kingdom<s n="n"/></l><r>корольдік<s n="n"/><s n="px1sg"/></r></p></e>
+<e><p><l>kingdom<s n="n"/></l><r>корольдік<s n="n"/></r></p></e>
 <e><p><l>first<s n="adv"/></l><r>алғаш<s n="adv"/></r></p></e>
 <e><p><l>poet<s n="n"/></l><r>ақын<s n="n"/></r></p></e>
 <e><p><l>writer<s n="n"/></l><r>жазушы<s n="n"/></r></p></e>
@@ -22588,6 +22597,8 @@
 <e><p><l>Makatayev<s n="np"/><s n="cog"/></l><r>Мақатаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Lermontov<s n="np"/><s n="cog"/></l><r>Лермонтов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Lenin<s n="np"/><s n="cog"/></l><r>Ленин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ihsanoglu<s n="np"/><s n="cog"/></l><r>Ихсаноглу<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Ekmeleddin<s n="np"/><s n="cog"/></l><r>Экмеледдин<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>SSR<s n="np"/><s n="al"/></l><r>КСР<s n="abbr"/></r></p></e>
 <e><p><l>isatai<s n="np"/><s n="ant"/><s n="m"/></l><r>Исатай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Zhansugurov<s n="np"/><s n="cog"/></l><r>Жансүгіров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -23321,7 +23332,7 @@
 <e><p><l>Shakhanov<s n="np"/><s n="cog"/></l><r>Шаханов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Shashkova<s n="np"/><s n="cog"/></l><r>Шашков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Shayahmetov<s n="np"/><s n="cog"/></l><r>Шаяхметов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>Shayahmetov<s n="np"/><s n="cog"/></l><r>Шаяхметов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Shayahmetov<s n="np"/><s n="cog"/></l><r>Шаяхметов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Shaymiev<s n="np"/><s n="cog"/></l><r>Шәймиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Sharipov<s n="np"/><s n="cog"/></l><r>Шәріпов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Shemekeev<s n="np"/><s n="cog"/></l><r>Шемекеев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

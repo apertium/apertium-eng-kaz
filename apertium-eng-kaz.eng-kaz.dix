@@ -1,6 +1,7 @@
 <dictionary>
   <alphabet/>
   <sdefs>
+
     <sdef n="n"  c="Имя существительное"/>
     <sdef n="v"  c="Глагол"/>
     <sdef n="vblex"  c="Глагол"/>

@@ -488,4 +488,6 @@ head -100 ../apertium-eng-kaz/Coding_challenge/corpus\ Lab\ IIS\ \(5925\).kz | a
 
 head -1000 ../apertium-eng-kaz/Coding_challenge/corpus\ Lab\ IIS\ \(5925\).kz | apertium -d ~/apertium-eng-kaz/ kaz-eng-morph | sed 's/\$\W*\^/$\n^/g' | grep '\*' | cut -f2 -d'^' | cut -f1 -d'/'  | grep -v '^$' | sort -f | uniq -c | sort -gr   | grep -v '[0-9] [0-9]'| apertium-destxt | lt-proc -w /home/apertium/apertium-kaz/kaz.automorf.bin| grep -v '\*' | cg-proc merge-analyses.bin | apertium-retxt| grep -v '\/.*\/.*\/.*\/'| cut -f4 -d'/' | cut -f1 -d'$' | sed 's/<\([a-z0-9A-Z]\+\)>/<s n="\1"\/>/g'
 
+words with starts:
+cat Coding_challenge/corpus\ Lab\ IIS\ \(5925\).kz |apertium -d. kaz-eng| grep -o '*[^"]*'|cut -f1 -d ' '
 

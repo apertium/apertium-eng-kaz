@@ -3200,7 +3200,7 @@ If no format information is present it is removed. -->
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
-<clip pos="1" side="tl" part="a_nom"/>
+<clip pos="1" side="tl" part="a_pron"/>
 <lit-tag v="2"/>
 <lit-tag v="3"/>
 <lit-tag v="4"/>

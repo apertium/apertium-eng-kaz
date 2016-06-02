@@ -24160,10 +24160,11 @@
 
 
                             <e lm="Aidana" i=""><i>Aidana</i><par n="Mary__np"/></e>
+<e lm="Zharmakhan" i=""><i>Zharmakhan</i><par n="Mark__np"/></e>
 <e lm="Talgat" i=""><i>Talgat</i><par n="Mark__np"/></e>
 <e lm="Murat" i=""><i>Murat</i><par n="Mark__np"/></e>
 <e lm="Almat" i=""><i>Almat</i><par n="Mark__np"/></e>
-<e lm="Dulatt" i=""><i>Dulat</i><par n="Mark__np"/></e>
+<e lm="Dulat" i=""><i>Dulat</i><par n="Mark__np"/></e>
 <e lm="Kadyr Myrza Ali" i=""><i>Kadyr<b/>Myrza<b/>Ali</i><par n="Mark__np"/></e>
 <e lm="Marat" i=""><i>Marat</i><par n="Mark__np"/></e>
 <e lm="Aidar" i=""><i>Aidar</i><par n="Mark__np"/></e>
@@ -24171,6 +24172,12 @@
 <e lm="Aslan" i=""><i>Aslan</i><par n="Mark__np"/></e>
 <e lm="Assulan" i=""><i>Assulan</i><par n="Mark__np"/></e>
 <e lm="Aslanbek" i=""><i>Aslanbek</i><par n="Mark__np"/></e>
+<e lm="Daniyar" i=""><i>Daniyar</i><par n="Mark__np"/></e>
+<e lm="Dastan" i=""><i>Dastan</i><par n="Mark__np"/></e>
+<e lm="Zhanibek" i=""><i>Zhanibek</i><par n="Mark__np"/></e>
+<e lm="Askar" i=""><i>Askar</i><par n="Mark__np"/></e>
+<e lm="Mahmud" i=""><i>Mahmud</i><par n="Mark__np"/></e>
+<e lm="Sergey" i=""><i>Sergey</i><par n="Mark__np"/></e>
 
 
                             <e lm="Ailsa" i=""><i>Ailsa</i><par n="Mary__np"/></e>
@@ -41717,6 +41724,7 @@
                             <e lm="adjudicator" i=""><i>adjudicator</i><par n="house__n"/></e>
 
                             <e lm="administration" i=""><i>administration</i><par n="house__n"/></e>
+<e lm="administrativ code" i=""><i>administrative<b/>code</i><par n="house__n"/></e>
 
                             <e lm="administrator" i=""><i>administrator</i><par n="house__n"/></e>
 
@@ -52716,6 +52724,8 @@
                             <e lm="vice" i=""><i>vice</i><par n="house__n"/></e>
 
                             <e lm="vice-president" i=""><i>vice-president</i><par n="house__n"/></e>
+<e lm="vice-minister" i=""><i>vice-minister</i><par n="house__n"/></e>
+<e lm="vice minister" i=""><i>vice<b/>minister</i><par n="house__n"/></e>
 
                             <e lm="vice president" i=""><i>vice<b/>president</i><par n="house__n"/></e>
 
@@ -54900,7 +54910,8 @@
                             <e lm="ecological" i=""><i>ecological</i><par n="expensive__adj"/></e>
 
                             <e lm="economic" i=""><i>economic</i><par n="expensive__adj"/></e>
-
+   <e lm="macroeconomic" i=""><i>macroeconomic</i><par n="expensive__adj"/></e>
+   <e lm="microeconomic" i=""><i>microeconomic</i><par n="expensive__adj"/></e>
                             <e lm="economical" i=""><i>economical</i><par n="expensive__adj"/></e>
 
                             <e lm="edible" i=""><i>edible</i><par n="expensive__adj"/></e>
@@ -55933,6 +55944,7 @@
                             <e lm="mild" i=""><i>mild</i><par n="long/__adj"/></e>
 
                             <e lm="military" i=""><i>military</i><par n="expensive__adj"/></e>
+<e lm="military-accounting" i=""><i>military-accounting</i><par n="expensive__adj"/></e>
 
                             <e lm="mine" i=""><i>mine</i><par n="mine__adj"/></e>
 
@@ -63043,6 +63055,7 @@
                             <e lm="to the utmost" i=""><i>to<b/>the<b/>utmost</i><par n="maybe__adv"/></e>
 
                             <e lm="today" i=""><i>today</i><par n="maybe__adv"/></e>
+<e lm="for today" i=""><i>for<b/>today</i><par n="maybe__adv"/></e>
 
                             <e lm="tomorrow" i=""><i>tomorrow</i><par n="maybe__adv"/></e>
 
@@ -64793,6 +64806,7 @@
                             <e lm="Neus" i=""><i>Neus</i><par n="Mary__np"/></e>
 
                             <e lm="Netherlands" i=""><i>Netherlands</i><par n="Barcelona__np"/></e>
+ <e lm="Baku" i=""><i>Baku</i><par n="Barcelona__np"/></e>
 
                             <e lm="Netherlands Antilles" i=""><i>Netherlands<b/>Antilles</i><par n="Barcelona__np"/></e>
 
@@ -81720,6 +81734,7 @@
 <e lm="Lombardi" i=""><i>Lombardi</i><par n="Smith__np"/></e>
 <e lm="Sundetov" i=""><i>Sundetov</i><par n="Smith__np"/></e>
 <e lm="Malikov" i=""><i>Malikov</i><par n="Smith__np"/></e>
+<e lm="Kopeyev" i=""><i>Kopeyev</i><par n="Smith__np"/></e>
 <e lm="Karibayeva" i=""><i>Karibayeva</i><par n="Smith__np"/></e>
 <e lm="Karibaeva" i=""><i>Karibaeva</i><par n="Smith__np"/></e>
 <e lm="Berdymukhamedov" i=""><i>Berdymukhamedov</i><par n="Smith__np"/></e>

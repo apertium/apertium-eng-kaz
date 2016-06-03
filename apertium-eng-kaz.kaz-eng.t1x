@@ -209,6 +209,11 @@
       <cat-item tags="det.itg.*"/>
    </def-cat>
 
+<def-cat n="qnt"> 
+      <cat-item tags="det.qnt"/>
+      
+   </def-cat>
+
 <def-cat n="nom-sim"> 
       <cat-item tags="n.*.*.*.sim.*"/>
       <cat-item tags="n.*.*.*.sim"/>
@@ -3641,6 +3646,72 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+<rule comment="RULE: what is + noun"> <!--Атыңыз кім? -->
+      <pattern>
+
+<pattern-item n="qnt"/>
+
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<let>    
+<clip pos="1" side="tl" part="a_pos"/><lit v=""/>   
+</let> 
+
+ <choose><!-- choosing correct to be-->
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+          
+<out>
+          <chunk name="det-qnt" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-det"/></tag>
+<tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+
+              
+            </tags>
+
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+
+<lit-tag v="det"/>
+<lit-tag v="ind"/>        
+             <lit-tag v="2"/> 
+            </lu>
+<b/>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
 <rule comment="RULE: NUM-ord "> <!--бірінші -->

@@ -5438,6 +5438,7 @@
 <e><p><l>hieroglyph<s n="n"/></l><r>иероглиф<s n="n"/></r></p></e>
 <e><p><l>highlands<s n="n"/></l><r>жон<s n="n"/></r></p></e>
 <e><p><l>highway<s n="n"/></l><r>тас<b/>жол<s n="n"/></r></p></e>
+<e><p><l>highway<s n="n"/></l><r>магистраль<s n="n"/></r></p></e>
 <e><p><l>hike<s n="n"/></l><r>жорық<s n="n"/></r></p></e>
 <e><p><l>hiking<s n="n"/></l><r>жаяу<b/>жүріс<s n="n"/></r></p></e>
 <e><p><l>hilarity<s n="n"/></l><r>көңілділік<s n="n"/></r></p></e>
@@ -6337,6 +6338,7 @@
 <e><p><l>larva<s n="n"/></l><r>балаңқұрт<s n="n"/></r></p></e>
 <e><p><l>larynx<s n="n"/></l><r>көмей<s n="n"/></r></p></e>
 <e><p><l>laser<s n="n"/></l><r>лазер<s n="n"/></r></p></e>
+<e><p><l>laser<s n="adj"/></l><r>лазерлік<s n="adj"/></r></p></e>
 <e><p><l>last<s n="n"/></l><r>соңғы<s n="n"/></r></p></e>
 <e><p><l>latency<s n="n"/></l><r>кешіктіру<s n="n"/></r></p></e>
 <e><p><l>laterite<s n="n"/></l><r>латерит<s n="n"/></r></p></e>
@@ -8594,6 +8596,7 @@
 <e><p><l>produce<s n="n"/></l><r>өнім<s n="n"/></r></p></e>
 <e><p><l>production<s n="n"/></l><r>өндіріс<s n="n"/></r></p></e>
 <e><p><l>productivity<s n="n"/></l><r>өндірімділік<s n="n"/></r></p></e>
+<e><p><l>productivity<s n="n"/></l><r>өнімділік<s n="n"/></r></p></e>
 <e><p><l>product<s n="n"/></l><r>өнім<s n="n"/></r></p></e>
 <e><p><l>proem<s n="n"/></l><r>кіріспе<s n="n"/></r></p></e>
 <e><p><l>professionalism<s n="n"/></l><r>профессионализм<s n="n"/></r></p></e>
@@ -10724,6 +10727,7 @@
 <e><p><l>tolerance<s n="n"/></l><r>толеранттылық<s n="n"/></r></p></e>
 <e><p><l>tolerant<s n="adj"/></l><r>толерантты<s n="adj"/></r></p></e>
 <e><p><l>long-term<s n="adj"/></l><r>ұзақмерзімдік<s n="adj"/></r></p></e>
+<e><p><l>long-term<s n="adj"/></l><r>ұзақмерзімді<s n="adj"/></r></p></e>
 <e><p><l>short-term<s n="adj"/></l><r>қысқамерзімді<s n="adj"/></r></p></e>
 <e><p><l>toll<s n="n"/></l><r>алым-салық<s n="n"/></r></p></e>
 <e><p><l>tomato<s n="n"/></l><r>қызанақ<s n="n"/></r></p></e>
@@ -16797,6 +16801,7 @@
 <e><p><l>correlative<s n="adj"/></l><r>корреляциялық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>countable<s n="adj"/></l><r>саналатын<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>cosmic<s n="adj"/></l><r>космостық<s n="adj"/></r></p></e>
+<e><p><l>cosmic<s n="adj"/></l><r>ғарыштық<s n="adj"/></r></p></e>
 <e><p><l>cosmological<s n="adj"/></l><r>космологиялық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>countless<s n="adj"/></l><r>сансыз<s n="adj"/></r></p></e>
 <e><p><l>courageous<s n="adj"/></l><r>ер<s n="adj"/></r></p></e>

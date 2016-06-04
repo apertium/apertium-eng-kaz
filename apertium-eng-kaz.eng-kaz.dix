@@ -7382,7 +7382,7 @@
 <e><p><l>newscast<s n="n"/></l><r>соңғы<b/>жаңалық<s n="n"/></r></p></e>
 <e><p><l>newspaper<s n="n"/></l><r>газет<s n="n"/></r></p></e>
 <e><p><l>newsreader<s n="n"/></l><r>диктор<s n="n"/></r></p></e>
-<e><p><l>news<s n="n"/></l><r>жаңалық<s n="n"/></r></p></e>
+<e><p><l>news<s n="n"/></l><r>жаңалық<s n="n"/><s n="pl"/></r></p></e>
 <e><p><l>newton<s n="n"/></l><r>ньютон<s n="n"/></r></p></e>
 <e><p><l>niche<s n="n"/></l><r>қуыс<s n="n"/></r></p></e>
 <e><p><l>nickel<s n="n"/></l><r>никель<s n="n"/></r></p></e>
@@ -10722,6 +10722,9 @@
 <e><p><l>toilet<s n="n"/></l><r>дәретхана<s n="n"/></r></p></e>
 <e><p><l>toil<s n="n"/></l><r>ауыр<b/>еңбек<s n="n"/></r></p></e>
 <e><p><l>tolerance<s n="n"/></l><r>толеранттылық<s n="n"/></r></p></e>
+<e><p><l>tolerant<s n="adj"/></l><r>толерантты<s n="adj"/></r></p></e>
+<e><p><l>long-term<s n="adj"/></l><r>ұзақмерзімдік<s n="adj"/></r></p></e>
+<e><p><l>short-term<s n="adj"/></l><r>қысқамерзімді<s n="adj"/></r></p></e>
 <e><p><l>toll<s n="n"/></l><r>алым-салық<s n="n"/></r></p></e>
 <e><p><l>tomato<s n="n"/></l><r>қызанақ<s n="n"/></r></p></e>
 <e><p><l>tomb<s n="n"/></l><r>қабір<s n="n"/></r></p></e>
@@ -14055,6 +14058,7 @@
 <e><p><l>indies<s n="np"/><s n="top"/></l><r>Үндістан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Kyrgyzstan<s n="np"/><s n="top"/></l><r>Қырғызстан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Oral<s n="np"/><s n="top"/></l><r>Орал<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Fukusima<s n="np"/><s n="top"/></l><r>Фукусима<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Tajikistan<s n="np"/><s n="top"/></l><r>Тәжікстан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Turkmenistan<s n="np"/><s n="top"/></l><r>Tүркменстан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Uzbekistan<s n="np"/><s n="top"/></l><r>Өзбекстан<s n="np"/><s n="top"/></r></p></e>
@@ -20635,6 +20639,7 @@
 <e><p><l>escape<s n="vblex"/></l><r>қаш<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>escort<s n="vblex"/></l><r>алып<b/>жүр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>establish<s n="vblex"/></l><r>тағайында<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>establish<s n="vblex"/></l><r>орнықтыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>estimate<s n="vblex"/></l><r>бағала<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>evacuate<s n="vblex"/></l><r>эвакуацияла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>evade<s n="vblex"/></l><r>қаш<s n="v"/><s n="iv"/></r></p></e>
@@ -22547,6 +22552,7 @@
 <e><p><l>consistency<s n="n"/></l><r>дәйектілік<s n="n"/></r></p></e>
 <e><p><l>wisdom<s n="n"/></l><r>даналық<s n="n"/></r></p></e>
 <e><p><l>industriousness<s n="n"/></l><r>еңбекқорлық<s n="n"/></r></p></e>
+<e><p><l>industrious<s n="adj"/></l><r>еңбекқор<s n="adj"/></r></p></e>
 <e><p><l>but<s n="cnjcoo"/></l><r>әйткенмен<s n="cnjadv"/></r></p></e>
 <e><p><l>fuel<s n="n"/></l><r>жанармай<s n="n"/></r></p></e>
 <e><p><l>exchange<b/>rate<s n="n"/></l><r>бағам<s n="n"/><s n="px3sp"/></r></p></e>

@@ -37961,6 +37961,7 @@
 
                             <e lm="Oral" i=""><i>Oral</i><par n="Barcelona__np"/></e>
 
+<e lm="Fukusima" i=""><i>Fukusima</i><par n="Barcelona__np"/></e>
                             <e lm="Afghanistan" i=""><i>Afghanistan</i><par n="Barcelona__np"/></e>
 
                             <e lm="Sri Lanka" i=""><i>Sri<b/>Lanka</i><par n="Barcelona__np"/></e>
@@ -83254,6 +83255,10 @@
                             <e r="RL" i=""><i>Spanish<b/>Air<b/>Force</i><par n="Linux__np"/></e>
 
                             <e lm="horse" i=""><i>horse</i><par n="expensive__adj"/></e>
+
+<e lm="tolerant" i=""><i>tolerant</i><par n="expensive__adj"/></e>
+<e lm="long-term" i=""><i>long-term</i><par n="expensive__adj"/></e>
+<e lm="short-term" i=""><i>short-term</i><par n="expensive__adj"/></e>
 
                             <e lm="tolerance" i=""><i>tolerance</i><par n="house__n"/></e>
 

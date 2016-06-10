@@ -101,8 +101,6 @@
  </rule>
 
 
-
-
  <rule>
   <match lemma="Ол" tags="prn.pers.p3.sg.nom"><select lemma="she" tags="prn.subj.p3.f.*"/></match>
   <match lemma="әдемі" tags="adj"><select lemma="beautiful" tags="adj"/></match>
@@ -236,6 +234,11 @@
  </rule>
 
 <rule>
+    <match lemma="скрипка" tags="n.*"/>
+      <match lemma="аспап" tags="n.*.*"><select lemma="instrument" tags="n.*"/></match>
+ </rule>
+
+<rule>
     
       <match lemma="жер" tags="n.*"><select lemma="earth" tags="n.*"/></match>
  </rule>
@@ -254,7 +257,22 @@
 
 <rule>
     <match lemma="Бостандық" tags="np.top.*"/>
-      <match lemma="аудан" tags="n.*.*"><select lemma="district" tags="n.*"/></match>
+      <match lemma="аудан" tags="n.*.*"><select lemma="square" tags="n.*"/></match>
+ </rule>
+
+ <rule>
+  <or>
+   <match lemma="үшбұрыш" tags="n.*"/>
+  <match lemma="төртбұрыш" tags="n.*"/>
+<match lemma="пирамида" tags="n.*"/>
+<match lemma="трапеция" tags="n.*"/>
+<match lemma="шеңбер" tags="n.*"/>
+<match lemma="дөңгелек" tags="n.*"/>
+<match lemma="конус" tags="n.*"/>
+<match lemma="цилиндр" tags="n.*"/>
+
+  </or>
+   <match lemma="аудан" tags="n.*.*"><select lemma="square" tags="n.*"/></match>
  </rule>
 
 <rule>
@@ -294,7 +312,6 @@
   </or>
    <match lemma="ай" tags="n.px3sp.*"><select lemma="month" tags="n.*"/></match>
  </rule>
-
 
 <rule>
 <match lemma="бұл" tags="prn.dem.adv"/>

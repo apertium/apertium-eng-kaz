@@ -6523,6 +6523,7 @@
 <e><p><l>liquor<s n="n"/></l><r>сусын<s n="n"/></r></p></e>
 <e><p><l>listener<s n="n"/></l><r>тыңдаушы<s n="n"/></r></p></e>
 <e><p><l>listing<s n="n"/></l><r>тізімдеу<s n="n"/></r></p></e>
+<e><p><l>listing<s n="n"/></l><r>листинг<s n="n"/></r></p></e>
 <e><p><l>list<s n="n"/></l><r>тізім<s n="n"/></r></p></e>
 <e><p><l>litany<s n="n"/></l><r>литания<s n="n"/></r></p></e>
 <e><p><l>literacy<s n="n"/></l><r>сауаттылық<s n="n"/></r></p></e>
@@ -9968,6 +9969,7 @@
 <e><p><l>sovereign<s n="n"/></l><r>монарх<s n="n"/></r></p></e>
 <e><p><l>sovereignty<s n="n"/></l><r>егемендік<s n="n"/></r></p></e>
 <e><p><l>soviet<s n="n"/></l><r>совет<s n="n"/></r></p></e>
+<e><p><l>post-soviet<s n="adj"/></l><r>посткеңестік<s n="adj"/></r></p></e>
 <e><p><l>sowing<s n="n"/></l><r>мегежін<s n="n"/></r></p></e>
 <e><p><l>sow<s n="n"/></l><r>мегежін<s n="n"/></r></p></e>
 <e><p><l>soya<s n="n"/></l><r>соя<s n="n"/></r></p></e>
@@ -11563,7 +11565,8 @@
 <e><p><l>Gray<s n="np"/></l><r>Грей<s n="np"/><s n="cog"/><s n="mf"/><s n="nom"/></r></p></e>
 <e><p><l>Gray<s n="np"/></l><r>Грей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Davos<s n="np"/></l><r>Давос<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-
+<e><p><l>Cooksey<s n="np"/></l><r>Кукси<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Fletcher<s n="np"/></l><r>Флетчер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
 
 
@@ -11741,6 +11744,7 @@
 <e><p><l>Akzhan<s n="np"/><s n="ant"/><s n="f"/></l><r>Ақжан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Balzhan<s n="np"/><s n="ant"/><s n="f"/></l><r>Балжан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aidar<s n="np"/><s n="ant"/><s n="m"/></l><r>Айдар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Taiyr<s n="np"/><s n="ant"/><s n="m"/></l><r>Тайыр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Almazbek<s n="np"/><s n="ant"/><s n="m"/></l><r>Алмазбек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Almaz<s n="np"/><s n="ant"/><s n="m"/></l><r>Алмаз<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Erzhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Ержан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -15997,6 +16001,7 @@
 <e><p><l>wrong<s n="adv"/></l><r>қателі<s n="adv"/></r></p></e>
 <e><p><l>wrongly<s n="adv"/></l><r>қателі<s n="adv"/></r></p></e>
 <e><p><l>yesterday<s n="adv"/></l><r>кеше<s n="adv"/></r></p></e>
+<e><p><l>yesterday<s n="adv"/></l><r>кешегі<b/>күнгі<s n="adv"/></r></p></e>
 <e><p><l>yet<s n="adv"/></l><r>әзірше<s n="adv"/></r></p></e>
 <e><p><l>yet<s n="adv"/></l><r>әуелі<s n="adv"/></r></p></e>
 <e><p><l>how<s n="adv"/><s n="itg"/></l><r>қалай<s n="adv"/><s n="itg"/></r></p></e>
@@ -17005,6 +17010,8 @@
 <e><p><l>doted<s n="adj"/></l><r>құмарланған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>dotted<s n="adj"/></l><r>пунктирлік<s n="adj"/></r></p></e>
 <e><p><l>double<s n="adj"/></l><r>еселенген<s n="adj"/></r></p></e>
+<e><p><l>double<s n="adj"/></l><r>қосарланған<s n="adj"/></r></p></e>
+<e><p><l>double<s n="adj"/></l><r>қосарлы<s n="adj"/></r></p></e>
 <e><p><l>doubtful<s n="adj"/></l><r>күмәншіл<s n="adj"/></r></p></e>
 <e><p><l>doughty<s n="adj"/></l><r>батыл<s n="adj"/></r></p></e>
 <e><p><l>downcast<s n="adj"/></l><r>шермеңде<s n="adj"/></r></p></e>
@@ -17314,6 +17321,7 @@
 <e><p><l>furred<s n="adj"/></l><r>ақ<b/>үлпек<b/>басқан<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>futile<s n="adj"/></l><r>пайдасыз<s n="adj"/></r></p></e>
 <e><p><l>futuristic<s n="adj"/></l><r>футуристиялық<s n="adj"/></r></p></e>
+<e><p><l>turistic<s n="adj"/></l><r>туристік<s n="adj"/></r></p></e>
 <e><p><l>gaelic<s n="adj"/></l><r>гаэлдық<s n="adj"/></r></p></e>
 <e><p><l>galactic<s n="adj"/></l><r>галактикалық<s n="adj"/></r></p></e>
 
@@ -20389,6 +20397,7 @@
 <e><p><l>cook<s n="vblex"/></l><r>пісір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>cool<s n="vblex"/></l><r>тоңазыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>cooperate<s n="vblex"/></l><r>бірге<b/>істе<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cooperate<s n="vblex"/></l><r>бірік<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>coordinate<s n="vblex"/></l><r>үйлестір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>deteriorate<s n="vblex"/></l><r>нашарла<s n="v"/><s n="iv"/><s n="ger"/></r></p></e>
 <e><p><l>degenerate<s n="vblex"/></l><r>нашарла<s n="v"/><s n="iv"/></r></p></e>
@@ -21141,6 +21150,7 @@
 <e><p><l>nod<s n="vblex"/></l><r>бас<b/>изе<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>nominate<s n="vblex"/></l><r>ұсын<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>note<s n="vblex"/></l><r>белгіле<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>note<s n="vblex"/></l><r>қуатта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>notice<s n="vblex"/></l><r>байқа<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>notify<s n="vblex"/></l><r>хабарла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>nourish<s n="vblex"/></l><r>қоректендір<s n="v"/><s n="tv"/></r></p></e>
@@ -21392,6 +21402,7 @@
 <e><p><l>relieve<s n="vblex"/></l><r>жеңілдет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>relocate<s n="vblex"/></l><r>ауыстыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>rely<s n="vblex"/></l><r>сен<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>rely<s n="vblex"/></l><r>табан<b/>тіреу<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>remain<s n="vblex"/></l><r>қал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>remark<s n="vblex"/></l><r>ескерт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>remedy<s n="vblex"/></l><r>емде<s n="v"/><s n="tv"/></r></p></e>
@@ -21607,6 +21618,7 @@
 <e><p><l>spark<s n="vblex"/></l><r>жандыр<s n="v"/><s n="tv"/></r></p></e>
 <e r="RL"><p><l>speak<s n="vblex"/></l><r>де<s n="v"/><s n="tv"/></r></p></e>
 <e r="RL"><p><l>speak<s n="vblex"/></l><r>сөз<b/>ет<s n="v"/><s n="tv"/></r></p></e>
+<e r="RL"><p><l></l><r>игі<s n="adj"/></r></p></e>
 <e><p><l>speak<s n="vblex"/></l><r>сөйле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>specialise<s n="vblex"/></l><r>ерекшеле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>specify<s n="vblex"/></l><r>көрсет<s n="v"/><s n="tv"/></r></p></e>
@@ -21668,6 +21680,7 @@
 <e><p><l>strap<s n="vblex"/></l><r>бу<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>stream<s n="vblex"/></l><r>жібер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>strengthen<s n="vblex"/></l><r>қуаттандыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>strengthen<s n="vblex"/></l><r>жігерлендір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>strengthen<s n="vblex"/></l><r>күшейт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>strengthen<s n="vblex"/></l><r>нығай<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>stress<s n="vblex"/></l><r>бас<s n="v"/><s n="tv"/></r></p></e>
@@ -22082,6 +22095,7 @@
 <e><p><l>reply<s n="n"/></l><r>жауап<s n="n"/></r></p></e>
 <e><p><l>solution<s n="n"/></l><r>жауап<s n="n"/></r></p></e>
 <e><p><l>result<s n="n"/></l><r>жауап<s n="n"/></r></p></e>
+<e><p><l>result<s n="n"/></l><r>септік<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>lex<s n="n"/></l><r>заң<s n="n"/></r></p></e>
 <e><p><l>enactment<s n="n"/></l><r>заң<s n="n"/></r></p></e>
 <e><p><l>statute<s n="n"/></l><r>заң<s n="n"/></r></p></e>
@@ -22346,6 +22360,7 @@
 <e><p><l>throw<b/>off<s n="vblex"/></l><r>арыл<s n="v"/><s n="iv"/><s n="ger"/><s n="px3sp"/></r></p></e>
 <e><p><l>ascend<s n="vblex"/></l><r>арт<s n="v"/><s n="iv"/><s n="ger"/><s n="px3sp"/></r></p></e>
 <e><p><l>afore<s n="n"/></l><r>алд<s n="n"/><s n="px1sg"/></r></p></e>
+<e><p><l>upcoming<s n="adj"/></l><r>алд<s n="n"/><s n="loc"/><s n="attr"/></r></p></e>
 <e><p><l>kingdom<s n="n"/></l><r>корольдік<s n="n"/></r></p></e>
 <e><p><l>first<s n="adv"/></l><r>алғаш<s n="adv"/></r></p></e>
 <e><p><l>poet<s n="n"/></l><r>ақын<s n="n"/></r></p></e>
@@ -22853,7 +22868,8 @@
 <e><p><l>Nesterov<s n="np"/><s n="cog"/></l><r>Нестеров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Newstruev<s n="np"/><s n="cog"/></l><r>Неуструев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Nechayev<s n="np"/><s n="cog"/></l><r>Нечаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>Nigmatullina<s n="np"/><s n="cog"/></l><r>Нигматуллин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Nigmatullin<s n="np"/><s n="cog"/></l><r>Нигматуллин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Nygmatulin<s n="np"/><s n="cog"/></l><r>Нығматулин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Nijegorodov<s n="np"/><s n="cog"/></l><r>Нижегородов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Nikanorov<s n="np"/><s n="cog"/></l><r>Никаноров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Nikitin<s n="np"/><s n="cog"/></l><r>Никитин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

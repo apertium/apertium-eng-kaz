@@ -34678,6 +34678,10 @@
 
  <e lm="Gray" i=""><i>Gray</i><par n="Mark__np"/></e>
 <e lm="Gray" i=""><i>Gray</i><par n="Smith__np"/></e>
+<e lm="Cooksey" i=""><i>Cooksey</i><par n="Smith__np"/></e>
+
+<e lm="Fletcher" i=""><i>Fletcher</i><par n="Smith__np"/></e>
+
 
                             <e lm="Gregory" i=""><i>Gregory</i><par n="Mark__np"/></e>
 
@@ -41100,6 +41104,8 @@
 
                             <e lm="Nursyultan" i=""><i>Nursyultan</i><par n="Mark__np"/></e>
 
+<e lm="Taiyr" i=""><i>Taiyr</i><par n="Mark__np"/></e>
+
                             <e lm="Obama" i=""><i>Obama</i><par n="Smith__np"/></e>
  			   <e lm="Bush" i=""><i>Bush</i><par n="Smith__np"/></e>
 
@@ -43369,6 +43375,8 @@
                             <e lm="champion" i=""><i>champion</i><par n="house__n"/></e>
 
                             <e lm="championing" i=""><i>championing</i><par n="expensive__adj"/></e>
+
+<e lm="upcoming" i=""><i>upcoming</i><par n="expensive__adj"/></e>
 
                             <e lm="championship" i=""><i>championship</i><par n="house__n"/></e>
 
@@ -53936,6 +53944,8 @@
 
                             <e lm="Soviet" i=""><p><l>Soviet</l><r>soviet</r></p><par n="expensive__adj"/></e>
 
+<e lm="Post-Soviet" i=""><p><l>Post-Soviet</l><r>post-soviet</r></p><par n="expensive__adj"/></e>
+
                             <e lm="Sudanese" i=""><p><l>Sudanese</l><r>sudanese</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Swedish" i=""><p><l>Swedish</l><r>swedish</r></p><par n="expensive__adj"/></e>
@@ -55295,6 +55305,8 @@
                             <e lm="future" i=""><i>future</i><par n="expensive__adj"/></e>
 
                             <e lm="futuristic" i=""><i>futuristic</i><par n="expensive__adj"/></e>
+
+ <e lm="turistic" i=""><i>turistic</i><par n="expensive__adj"/></e>
 
                             <e lm="garbled" i=""><i>garbled</i><par n="expensive__adj"/></e>
 
@@ -81075,6 +81087,7 @@
 <e lm="Newstruev" i=""><i>Newstruev</i><par n="Smith__np"/></e>
 <e lm="Nechayev" i=""><i>Nechayev</i><par n="Smith__np"/></e>
 <e lm="Nigmatullina" i=""><i>Nigmatullina</i><par n="Smith__np"/></e>
+<e lm="Nygmatulin" i=""><i>Nygmatulin</i><par n="Smith__np"/></e>
 <e lm="Nijegorodov" i=""><i>Nijegorodov</i><par n="Smith__np"/></e>
 <e lm="Nikanorov" i=""><i>Nikanorov</i><par n="Smith__np"/></e>
 <e lm="Nikitin" i=""><i>Nikitin</i><par n="Smith__np"/></e>

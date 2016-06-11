@@ -210,7 +210,7 @@ cat nn. txt | awk '{print "<e lm=\""$1"\" i=\"\"><i>" $1 "</i><par n=\"expensive
 cat nnn.txt|grep "\"tv\""|awk 'BEGIN {FS="l>"} {print $2}'| cut -f1 -d '<'|apertium -d. eng-kaz|grep "#"| awk 'BEGIN {FS="#"} {print $2":"$2" V-TV ; ! "}'|sort -u
 
 
-paste notnoun.txt nn.txt|awk '{print "<e><p><l>" $1 "<s n=\"n\"/></l><r>" $2 "<s n=\"n\"/></r></p></e>"}'>adj.txt
+paste kz.txt n.txt|awk '{print "<e><p><l>" $1 "<s n=\"n\"/></l><r>" $2 "<s n=\"n\"/></r></p></e>"}'>adj.txt
 
 
 bitextor -L ~/apertium-testing/logs/ -x -u http://www.kaznu.kz -d ~/apertium-testing/ak/    -v en-kk.dic en kk

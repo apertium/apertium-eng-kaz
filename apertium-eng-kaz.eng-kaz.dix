@@ -859,6 +859,7 @@
 <e><p><l>alchemy<s n="n"/></l><r>алхимия<s n="n"/></r></p></e>
 <e><p><l>alcoholism<s n="n"/></l><r>маскүнемдік<s n="n"/></r></p></e>
 <e><p><l>alcohol<s n="n"/></l><r>алкоголь<s n="n"/></r></p></e>
+<e><p><l>alcohol<s n="n"/></l><r>ішімдік<s n="n"/></r></p></e>
 <e><p><l>alcove<s n="n"/></l><r>альков<s n="n"/></r></p></e>
 <e><p><l>aldehyde<s n="n"/></l><r>альдегид<s n="n"/></r></p></e>
 <e><p><l>alga<s n="n"/></l><r>теңіз<b/>балдыры<s n="n"/></r></p></e>
@@ -5118,6 +5119,7 @@
 <e><p><l>goodbye<s n="n"/></l><r>қоштасу<s n="n"/></r></p></e>
 <e><p><l>goodness<s n="n"/></l><r>қайыр<s n="n"/></r></p></e>
 <e><p><l>good<s n="n"/></l><r>товар<s n="n"/></r></p></e>
+<e><p><l>good<b/>citizen<s n="n"/></l><r>жанашыр<s n="n"/></r></p></e>
 <e><p><l>goods<s n="n"/></l><r>мал<s n="n"/></r></p></e>
 <e><p><l>goodwill<s n="n"/></l><r>ізгілік<s n="n"/></r></p></e>
 <e><p><l>gooseberry<s n="n"/></l><r>қарлыған<s n="n"/></r></p></e>
@@ -15214,6 +15216,7 @@
 <e><p><l>although<s n="cnjadv"/></l><r>алайда<s n="adv"/></r></p></e>
 <e r="RL"><p><l>and<b/>that<s n="cnjadv"/></l><r>дегенмен<s n="cnjadv"/></r></p></e>
 <e><p><l>because<s n="cnjadv"/></l><r>себебі<s n="cnjsub"/></r></p></e>
+<e><p><l>because<s n="cnjadv"/></l><r>себебі<s n="cnjadv"/></r></p></e>
 <e><p><l>because<s n="cnjadv"/></l><r>өйткені<s n="cnjsub"/></r></p></e>
 <e><p><l>face to face<s n="cnjadv"/></l><r>бетпе-бет<s n="adv"/></r></p></e>
 <e><p><l>hence<s n="cnjadv"/></l><r>демек<s n="ij"/></r></p></e>
@@ -17403,6 +17406,7 @@
 <e><p><l>good<s n="adj"/><s n="sint"/></l><r>қабілетті<s n="adj"/></r></p></e>
 <e><p><l>good<s n="adj"/><s n="sint"/></l><r>мейірімді<s n="adj"/></r></p></e>
 <e><p><l>good<s n="adj"/><s n="sint"/></l><r>сапалы<s n="adj"/></r></p></e>
+<e><p><l>good<s n="adj"/><s n="sint"/></l><r>құлықты<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>gordian<s n="adj"/></l><r>гордийлік<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>gothic<s n="adj"/></l><r>готикалық<s n="adj"/></r></p></e>
 <e><p><l>governmental<s n="adj"/></l><r>үкіметтік<s n="adj"/></r></p></e>
@@ -22731,6 +22735,7 @@
 <e><p><l>Alik<s n="np"/><s n="ant"/><s n="m"/></l><r>Алик<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Kobeyev<s n="np"/><s n="cog"/></l><r>Көбеев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Cainozoe<s n="np"/><s n="al"/></l><r>Кайнозой<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Harbour<s n="np"/><s n="al"/></l><r>Харбор<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>Mezozoe<s n="np"/><s n="al"/></l><r>Мезозой<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>Ministry<b/>of<b/>internal<b/>Affairs<s n="np"/><s n="al"/></l><r>ІІМ<s n="abbr"/></r></p></e>
 <e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="abbr"/></r></p></e>

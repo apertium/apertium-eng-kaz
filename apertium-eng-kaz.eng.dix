@@ -22149,6 +22149,8 @@
 
                             <e lm="full stop" i=""><i>full<b/>stop</i><par n="house__n"/></e>
 
+<e lm="plumbing fixtures" i=""><i>plumbing<b/>fixtures</i><par n="house__n"/></e>
+
                             <e lm="put an end" i=""><i>put</i><par n="cut__vblex"/><p><l><b/>an<b/>end</l><r><g><b/>an<b/>end</g></r></p></e>
 
                             <e lm="golden age" i=""><i>golden<b/>age</i><par n="house__n"/></e>
@@ -55779,6 +55781,8 @@
 
                             <e lm="left-handed" i=""><i>left-handed</i><par n="expensive__adj"/></e>
 
+<e lm="bare-handed" i=""><i>bare-handed</i><par n="expensive__adj"/></e>
+
                             <e lm="left-hand" i=""><i>left-hand</i><par n="expensive__adj"/></e>
 
                             <e lm="legal" i=""><i>legal</i><par n="expensive__adj"/></e>
@@ -69935,7 +69939,7 @@
 
                             <e lm="mangrove" i=""><i>mangrove</i><par n="house__n"/></e>
 
-                            <e lm="mangrove" i=""><i>mangrove</i><par n="house__n"/></e>
+                            <e lm="mangrove" i=""><i>mangrove</i><par n="expensive__adj"/></e>
 
                             <e lm="manna" i=""><i>manna</i><par n="house__n"/></e>
 

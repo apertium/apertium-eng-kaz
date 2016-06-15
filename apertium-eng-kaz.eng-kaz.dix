@@ -5650,6 +5650,7 @@
 <e><p><l>hyperbola<s n="n"/></l><r>гипербола<s n="n"/></r></p></e>
 <e><p><l>hyperbole<s n="n"/></l><r>асырғандық<s n="n"/></r></p></e>
 <e><p><l>hyperboloid<s n="n"/></l><r>гиперболоид<s n="n"/></r></p></e>
+<e><p><l>hyperconnect<s n="n"/></l><r>гипербайланыс<s n="n"/></r></p></e>
 <e><p><l>hyperemia<s n="n"/></l><r>гиперемия<s n="n"/></r></p></e>
 <e><p><l>hyperlink<s n="n"/></l><r>гиперсілтеме<s n="n"/></r></p></e>
 <e><p><l>hypermarket<s n="n"/></l><r>супермаркет<s n="n"/></r></p></e>
@@ -11628,6 +11629,7 @@
 <e><p><l>iNTA<s n="np"/><s n="al"/></l><r>ИНТА<s n="abbr"/></r></p></e>
 <e><p><l>iSAF<s n="np"/><s n="al"/></l><r>ИСАФ<s n="abbr"/></r></p></e>
 <e><p><l>iberdrola<s n="np"/><s n="al"/></l><r>iberdrola<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Instructables<s n="np"/><s n="al"/></l><r>Instructables<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>icarus<s n="np"/><s n="al"/></l><r>Икар<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Javascript<s n="np"/><s n="al"/></l><r>Javascript<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Jupiter<s n="np"/><s n="al"/></l><r>Юпитер<s n="np"/><s n="al"/></r></p></e>
@@ -14955,6 +14957,8 @@
 <e><p><l>South<b/>Africa<s n="np"/><s n="top"/><s n="sg"/></l><r>Оңтүстік<b/>Африка<b/>Республика<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>South<b/>Korea<s n="np"/><s n="top"/><s n="sg"/></l><r>Оңтүстік<b/>Корея<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>South<b/>Sudan<s n="np"/><s n="top"/><s n="sg"/></l><r>Оңтүстік<b/>Судан<s n="np"/><s n="top"/></r></p></e>
+
+<e><p><l>Sundarbans<s n="np"/><s n="top"/><s n="sg"/></l><r>Сундарбан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Spain<s n="np"/><s n="top"/><s n="sg"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="sg"/></l><r>Шри-Ланка<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Stockholm<s n="np"/><s n="top"/><s n="sg"/></l><r>Стокгольм<s n="np"/><s n="top"/></r></p></e>
@@ -19435,7 +19439,9 @@
 <e><p><l>angry<s n="adj"/><s n="sint"/></l><r>ашуқор<s n="adj"/></r></p></e>
 <e><p><l>avid<s n="adj"/><s n="sint"/></l><r>жебір<s n="adj"/></r></p></e>
 <e><p><l>bad<s n="adj"/><s n="sint"/></l><r>жаман<s n="adj"/></r></p></e>
-<e><p><l>bare-handed<s n="adj"/></l><r>жалаңаш<b/>қолмен<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>bare-handed<s n="adj"/></l><r>құр<b/>қолмен<s n="adj"/><s n="subst"/></r></p></e>
+
+<e><p><l>bare<s n="adj"/></l><r>жалаңаш<s n="adj"/><s n="subst"/></r></p></e>
 <e r="RL"><p><l>worse<s n="adj"/><s n="sint"/></l><r>бетер<s n="adj"/></r></p></e>
 <e><p><l>based<s n="adj"/><s n="sint"/></l><r>орналасқан<s n="adj"/></r></p></e>
 <e><p><l>big<s n="adj"/><s n="sint"/></l><r>үлкен<s n="adj"/></r></p></e>

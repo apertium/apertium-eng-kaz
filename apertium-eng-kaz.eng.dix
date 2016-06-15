@@ -41337,6 +41337,8 @@
 
                             <e lm="Sudan" i=""><i>Sudan</i><par n="Barcelona__np"/></e>
 
+                            <e lm="Sundarbans" i=""><i>Sundarbans</i><par n="Barcelona__np"/></e>
+
                             <e lm="Sweden" i=""><i>Sweden</i><par n="Barcelona__np"/></e>
 
                             <e lm="Switzerland" i=""><i>Switzerland</i><par n="Barcelona__np"/></e>
@@ -46846,6 +46848,8 @@
                             <e lm="hymn" i=""><i>hymn</i><par n="house__n"/></e>
 
                             <e lm="hypermarket" i=""><i>hypermarket</i><par n="house__n"/></e>
+
+ <e lm="hyperconnect" i=""><i>hyperconnect</i><par n="house__n"/></e>
 
                             <e lm="hypocrisy" i=""><i>hypocris</i><par n="bab/y__n"/></e>
 
@@ -56846,7 +56850,9 @@
 
                             <e lm="rare" i=""><i>rare</i><par n="nice/__adj"/></e>
 
-                            <e lm="rational" i=""><i>rational</i><par n="expensive__adj"/></e>
+                            <e lm="bare" i=""><i>bare</i><par n="nice/__adj"/></e>                            
+
+<e lm="rational" i=""><i>rational</i><par n="expensive__adj"/></e>
 
                             <e lm="raw" i=""><i>raw</i><par n="long/__adj"/></e>
 
@@ -64247,6 +64253,8 @@
                             <e lm="Czech Republic" i=""><i>Czech<b/>Republic</i><par n="Barcelona__np"/></e>
 
                             <e lm="Dow Jones" i=""><i>Dow<b/>Jones</i><par n="Linux__np"/></e>
+
+                            <e lm="Instructables" i=""><i>Instructables</i><par n="Linux__np"/></e>
 
                             <e lm="Realitatea TV" i=""><i>Realitatea<b/>TV</i><par n="Linux__np"/></e>
 

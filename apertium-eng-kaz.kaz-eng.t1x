@@ -21,6 +21,16 @@
      
     </def-cat>
 
+<def-cat n="osydan">
+      <cat-item lemma="осы" tags="prn.dem.abl"/>
+     
+    </def-cat>
+
+<def-cat n="kein">
+      <cat-item lemma="кейін" tags="post"/>
+     
+    </def-cat>
+
 
 <def-cat n="vaux-can">
       <cat-item lemma="ал" tags="vaux.*.prc_impf"/>
@@ -851,6 +861,7 @@
             <attr-item tags="n.acr"/>
 
       <attr-item tags="np.top"/>
+      <attr-item tags="np.al"/>
       <attr-item tags="pr"/>
 <!--<attr-item tags="prn.pers.p1"/>
       <attr-item tags="prn.pers.p2"/>
@@ -4249,7 +4260,7 @@ If no format information is present it is removed. -->
 
             <lu>
              <clip pos="1" side="tl" part="lem"/>
-              <lit-tag v="vbser"/>
+              <lit-tag v="vblex"/>
               <lit-tag v="inf"/>
            <!--   <clip pos="1" side="tl" part="lemq"/>-->
                  </lu>
@@ -5514,6 +5525,61 @@ If no format information is present it is removed. -->
               <lit-tag v="2"/>
 
             </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+<rule comment="RULE: osydan kein">
+      <pattern>
+ <pattern-item n="osydan"/>
+        <pattern-item n="kein"/>
+
+
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="osydan-kein" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PP"/></tag>
+               <tag><var n="number"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+            </tags>
+            <lu>
+            <lit v="after"/>
+             <lit-tag v="pr"/>
+
+            </lu>
+            <b pos="1"/>
+              <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <lit-tag v="det"/>
+              <lit-tag v="dem"/>
+              <lit-tag v="2"/>
+
+              </lu>
+
           </chunk>
         </out>
         <call-macro n="reset-vars1">
@@ -7083,6 +7149,37 @@ If no format information is present it is removed. -->
             <lit v="like that"/>
 	<lit-tag v="adv"/>
 
+             
+	
+            </lu>
+          </chunk>
+        </out>
+ </when>
+<when>
+                   <test>
+               
+ <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
+
+                  </test>
+
+               
+        <out>
+          <chunk name="it-pronoun" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+	<tag><clip pos="1" side="sl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="prn"/>
+	<lit-tag v="obj"/>
+<lit-tag v="p3"/>
+<lit-tag v="nt"/>
+<lit-tag v="sg"/>
+               <clip pos="1" side="tl" part="lemq"/>
+  	
              
 	
             </lu>
@@ -10139,6 +10236,21 @@ If no format information is present it is removed. -->
                  <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
            </choose>
+<choose>
+               <when>
+                   <test>
+                    
+                       <equal><clip pos="1" side="sl" part="lemh"/><lit v="бол"/></equal>
+
+                      
+                   </test>
+                 <let><var n="number"/><lit-tag v="vbser"/></let>
+
+                </when>
+<otherwise>
+                 <let><var n="number"/>              <clip pos="1" side="tl" part="a_verb"/></let>
+</otherwise>
+           </choose>
 
 
         <out>
@@ -10159,7 +10271,7 @@ If no format information is present it is removed. -->
             <b/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
+<var n="number"/> 
               <lit-tag v="pp"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>

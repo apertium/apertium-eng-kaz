@@ -22,9 +22,16 @@
  <rule>
   <match lemma="кішкентай" tags="adj"><select lemma="small" tags="adj.*"/></match>
   
-  <match lemma="күшік" tags="n.*"><select lemma="dog" tags="n.*"/>
+  <match lemma="кейін" tags="post"><select lemma="after" tags="pr"/>
 </match>
  </rule>  
+
+ <rule>
+  <match lemma="осы" tags="prn.*"/>
+  
+  <match lemma="күшік" tags="n.*"><select lemma="dog" tags="n.*"/>
+</match>
+ </rule> 
 
 
  <rule>

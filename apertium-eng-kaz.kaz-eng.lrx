@@ -6,9 +6,16 @@
   <match lemma="мен" tags="prn.pers.p1.sg.gen"><select lemma="my" tags="det.*"/></match>
  </rule>
 
-
+<rule>
+  <match lemma="оқу" tags="n.*"><select lemma="education" tags="n.*"/></match>
+  <match lemma="*" tags="v.*"/>
+ </rule>
 <rule>
   <match lemma="бар" tags="v.*"><select lemma="go" tags="vblex.*"/></match>
+ </rule>
+
+<rule>
+  <match lemma="мұғалім" tags="n.*"><select lemma="teacher" tags="n.*"/></match>
  </rule>
 
  <rule>
@@ -33,6 +40,13 @@
 </match>
  </rule> 
 
+
+<rule>
+  <match lemma="жыл" tags="n.*"/>
+  
+  <match lemma="көлем" tags="n.px3sp.loc"><select lemma="matter" tags="n.*"/>
+</match>
+ </rule> 
 
  <rule>
   <match lemma="кішкентай" tags="adj"><select lemma="small" tags="adj.*"/></match>
@@ -195,9 +209,11 @@
   <match lemma="алд" tags="n.px3sp.loc"><select lemma="front" tags="pr"/></match>
  </rule>
 
+
+
  <rule>
   <match lemma="үй" tags="n.*"><select lemma="home" tags="n.*"/></match>
-  <match lemma="*" tags="v.*"/>
+  <match lemma="*" tags="v.*.*.*.*"/>
  </rule>
 
  <rule>
@@ -264,7 +280,7 @@
 
 <rule>
     <match lemma="Бостандық" tags="np.top.*"/>
-      <match lemma="аудан" tags="n.*.*"><select lemma="square" tags="n.*"/></match>
+      <match lemma="аудан" tags="n.*.*"><select lemma="district" tags="n.*"/></match>
  </rule>
 
  <rule>

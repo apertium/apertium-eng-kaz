@@ -146,6 +146,11 @@
 
          </def-cat>
 
+
+<def-cat n="be-verb">
+      <cat-item lemma="бол" tags="v.iv.gpr_past.subst.px3sp.ins"/>
+  </def-cat>
+
 <def-cat n="subst-adj">
       <cat-item tags="adj.comp.subst.*"/>
  <cat-item tags="adj.comp.subst.*.*"/>
@@ -2146,7 +2151,11 @@ If no format information is present it is removed. -->
           <choose> 
             <when>
                <test>
+<or>
                   <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal>
+ <equal><clip pos="1" side="sl" part="a_syntag"/><lit-tag v="attr"/></equal>
+
+</or>
                </test>
                <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
                <let><var n="sntype"/><lit-tag v="SN.NOM"/></let>
@@ -7186,20 +7195,23 @@ If no format information is present it is removed. -->
           </chunk>
         </out>
  </when>
-                 <when>
+ <when>
                    <test>
 <and>
-                    <not>   <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.ind"/></equal></not>
-<not>   <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></not>
+                    <equal><clip pos="1" side="sl" part="learned_determinertype"/><lit-tag v="dem"/></equal>
+<or>
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="мына"/></equal>
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="Мына"/></equal>
+</or>
 </and>
                   </test>
 
                
         <out>
-          <chunk name="pronoun" case="caseFirstWord">
+          <chunk name="pronoun-myna" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
-	<tag><clip pos="1" side="sl" part="a_mf"/></tag>
+	<tag><clip pos="1" side="tl" part="a_mf"/></tag>
 	              <tag><var n="number"/></tag>
               
             </tags>
@@ -7207,7 +7219,7 @@ If no format information is present it is removed. -->
 	<clip pos="1" side="tl" part="lemh"/>
             <lit-tag v="prn"/>
 	<lit-tag v="tn"/>
-<!--<lit-tag v="mf"/>-->
+	<lit-tag v="mf"/>
 <lit-tag v="3"/>
 <lit-tag v="4"/>
                <clip pos="1" side="tl" part="lemq"/>
@@ -7218,6 +7230,43 @@ If no format information is present it is removed. -->
           </chunk>
         </out>
  </when>
+                 <when>
+                   <test>
+<and>
+                    <not>   <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.ind"/></equal></not>
+<or>
+<not>   <equal><clip pos="1" side="sl" part="lemh"/><lit v="Мына"/></equal></not>
+<not>   <equal><clip pos="1" side="sl" part="lemh"/><lit v="мына"/></equal></not>
+</or>
+<not>   <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></not>
+</and>
+                  </test>
+
+               
+        <out>
+          <chunk name="pronoun" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+	<tag><clip pos="1" side="tl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="prn"/>
+	<lit-tag v="tn"/>
+
+<lit-tag v="3"/>
+<lit-tag v="4"/>
+               <clip pos="1" side="tl" part="lemq"/>
+  	
+             
+	
+            </lu>
+          </chunk>
+        </out>
+ </when>
+  
                 <otherwise>
       
         <out>
@@ -8057,7 +8106,9 @@ If no format information is present it is removed. -->
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="whole"/>
+ <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+
               <var n="number"/>
             </lu>
           </chunk>
@@ -12275,6 +12326,46 @@ If no format information is present it is removed. -->
               <clip pos="1" side="tl" part="a_verb"/>
              <lit-tag v="ger"/>
              
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+
+<rule comment="RULE: be verb">   <!--"шақырарларымдікін-ақ -->
+      <pattern>
+        <pattern-item n="be-verb"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-temps1">
+          <with-param pos="1"/>
+        </call-macro>
+  <call-macro n="conv-vpron">
+          <with-param pos="1"/>
+        </call-macro>
+
+
+        <out>
+          <chunk name="be_verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="tl" part="a_tns"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+             <lit-tag v="vbser"/>
+             <lit-tag v="pres"/>
+             <lit-tag v="p3"/>
+             <lit-tag v="sg"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>

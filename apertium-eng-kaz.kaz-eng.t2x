@@ -2380,6 +2380,88 @@
         </call-macro>
       </action>
     </rule>
+
+
+<rule comment="RULE: SN SV-kerek/need">  
+      <pattern>
+
+        <pattern-item n="SN"/>
+        <pattern-item n="SV-kerek"/>
+      </pattern>
+      <action>
+ <choose>
+<when>
+<test>
+
+
+<equal>   <clip pos="1" part="a_nptype"/><lit-tag v="ant"/></equal>
+    
+   </test>
+<let>     <clip pos="2" part="a_pers"/><lit-tag v="p3"/> </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit-tag v="sg"/></let>
+</when>
+</choose>
+       <choose>
+<when>
+<test>
+
+<and>
+
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="sg"/></equal>
+</and>
+
+    
+   </test>
+<let>     <clip pos="2" part="a_pers"/><lit-tag v="p3"/> </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit-tag v="sg"/></let>
+</when>
+<otherwise>
+<!--
+<let>     <clip pos="2" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
+-->
+<let>     <clip pos="2" part="a_pers"/><lit-tag v="p3"/> </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit-tag v="sg"/></let>
+</otherwise>
+</choose>
+ <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="2" part="a_tns"/><lit-tag v="pres"/></equal>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+<let>     <clip pos="2" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
+</when>
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+
+          <chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+    
     
 
 <rule comment="RULE: SN SV-cond"> <!--мен ойнасам If I play--> 

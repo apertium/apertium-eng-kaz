@@ -34,6 +34,12 @@
  </rule>  
 
  <rule>
+  <match lemma="қысқа" tags="adj"><select lemma="short" tags="adj.*"/></match>
+  
+  <match lemma="бала" tags="n.*"><select lemma="kid" tags="n.*"/></match>
+ </rule>  
+
+ <rule>
   <match lemma="осы" tags="prn.*"/>
   
   <match lemma="күшік" tags="n.*"><select lemma="dog" tags="n.*"/>

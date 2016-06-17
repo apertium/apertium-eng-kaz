@@ -247,10 +247,10 @@
  <cat-item tags="n.*.attr"/>
  <cat-item tags="n.*.*.subst.*"/>
       <cat-item tags="np.al"/>
-
-<cat-item tags="n.acr.*"/>
-
       <cat-item tags="np.al.*"/>
+<cat-item tags="n.acr.*"/>
+      <cat-item tags="np.org"/>
+      <cat-item tags="np.org.*"/>
    <!--   <cat-item tags="np.cog"/>
       <cat-item tags="np.cog.*"/>-->
       <cat-item tags="np.unk"/>
@@ -935,6 +935,7 @@
       <attr-item tags="ger"/>
       <attr-item tags="pprs"/>
       <attr-item tags="gna_perf"/>
+      <attr-item tags="ger_perf"/>
       <attr-item tags="gna9"/>
       <attr-item tags="prc_impf"/>
       <attr-item tags="ger_past"/>
@@ -2056,7 +2057,10 @@ If no format information is present it is removed. -->
                 </when>
 <when>
                    <test>
+<or>
                    <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="gna_perf"/></equal>
+                   <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="ger_perf"/></equal>
+</or>
                       </test>
                  <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
 
@@ -4318,6 +4322,46 @@ If no format information is present it is removed. -->
                 </when>
 
            </choose>
+<choose>
+<when>
+                   <test>
+                  
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="бол"/></equal>
+
+                      </test>
+                 <out>
+          <chunk name="have-to-inf-be" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV"/></tag>
+
+
+ <tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>
+
+</tags>
+<lu>
+          <lit v="have"/>  
+        <lit-tag v="vbmod"/>
+	<lit-tag v="inf"/>
+<lit v="#"/> 
+
+<b/>
+          <lit v="to"/> 
+
+
+</lu>
+<b/>
+
+            <lu>
+             <clip pos="1" side="tl" part="lem"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="inf"/>
+           <!--   <clip pos="1" side="tl" part="lemq"/>-->
+                 </lu>
+          </chunk>
+        </out>
+                </when>
+<otherwise>
         <out>
           <chunk name="have-to-inf" case="caseFirstWord">
             <tags>
@@ -4349,12 +4393,130 @@ If no format information is present it is removed. -->
                  </lu>
           </chunk>
         </out>
+</otherwise>
+           </choose>
         <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>
       </action>
     </rule>
 
+<rule comment="RULE: have to go"> <!--Men baruym kerek-->
+      <pattern>
+	<pattern-item n="v-gerund"/>
+        <pattern-item n="kerek"/>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<call-macro n="remove-poss">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+   <choose>
+<when>
+                   <test>
+                  
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="бол"/></equal>
+
+                      </test>
+                 <out>
+          <chunk name="have-to-inf-be" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV"/></tag>
+
+
+ <tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>
+
+</tags>
+<lu>
+          <lit v="have"/>  
+        <lit-tag v="vbmod"/>
+	<lit-tag v="inf"/>
+<lit v="#"/> 
+
+<b/>
+          <lit v="to"/> 
+
+
+</lu>
+<b/>
+
+            <lu>
+             <clip pos="1" side="tl" part="lem"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="inf"/>
+           <!--   <clip pos="1" side="tl" part="lemq"/>-->
+                 </lu>
+          </chunk>
+        </out>
+                </when>
+<otherwise>
+        <out>
+          <chunk name="have-to-inf" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV"/></tag>
+
+
+ <tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>
+
+</tags>
+<lu>
+          <lit v="have"/>  
+        <lit-tag v="vbmod"/>
+	<lit-tag v="inf"/>
+<lit v="#"/> 
+
+<b/>
+          <lit v="to"/> 
+
+
+</lu>
+<b/>
+
+            <lu>
+             <clip pos="1" side="tl" part="lem"/>
+              <lit-tag v="vblex"/>
+              <lit-tag v="inf"/>
+           <!--   <clip pos="1" side="tl" part="lemq"/>-->
+                 </lu>
+          </chunk>
+        </out>
+</otherwise>
+           </choose>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
 
@@ -7197,6 +7359,9 @@ If no format information is present it is removed. -->
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
+<call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
 
  <choose>
                  <when>
@@ -7314,6 +7479,43 @@ If no format information is present it is removed. -->
                    <test>
                <and>
  <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
+ <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="abl"/></equal>
+
+</and>
+                  </test>
+
+               
+        <out>
+          <chunk name="this-pronoun" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+	<tag><clip pos="1" side="sl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+<lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+            <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="prn"/>
+	<lit-tag v="obj"/>
+<lit-tag v="p3"/>
+<lit-tag v="nt"/>
+<lit-tag v="sg"/>
+               <clip pos="1" side="tl" part="lemq"/>
+  	
+             
+	
+            </lu>
+          </chunk>
+        </out>
+ </when>
+<when>
+                   <test>
+               <and>
+ <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
  <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="acc"/></equal>
 
 </and>
@@ -7364,6 +7566,10 @@ If no format information is present it is removed. -->
 	              <tag><var n="number"/></tag>
               
             </tags>
+<lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
             <lu>
 	<clip pos="1" side="tl" part="lemh"/>
             <lit-tag v="prn"/>

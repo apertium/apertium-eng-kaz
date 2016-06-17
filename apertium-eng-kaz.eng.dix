@@ -15771,6 +15771,8 @@
 
                             <e lm="how" i=""><i>how</i><par n="where__adv"/></e>
 
+                            <e lm="how much" i=""><i>how<b/>much</i><par n="where__adv"/></e>
+
                             <e lm="however" i=""><i>however</i><par n="maybe__adv"/></e>
 
                             <e lm="hugely" i=""><i>hugely</i><par n="maybe__adv"/></e>
@@ -60180,8 +60182,8 @@
 
                             <e lm="mount" i=""><i>mount</i><par n="accept__vblex"/></e>
 
-                            <e lm="move" i=""><i>move</i><par n="liv/e__vblex"/></e>
-                            <e lm="move" i=""><i>apparently</i><par n="liv/e__vblex"/></e>
+                            <e lm="move" i=""><i>mov</i><par n="liv/e__vblex"/></e>
+
                             <e lm="multiply" i=""><i>multipl</i><par n="appl/y__vblex"/></e>
 
                             <e lm="murder" i=""><i>murder</i><par n="accept__vblex"/></e>

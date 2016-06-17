@@ -933,7 +933,7 @@
       <attr-item tags="inf"/>
       <attr-item tags="ger"/>
       <attr-item tags="pprs"/>
-
+      <attr-item tags="gna_perf"/>
       <attr-item tags="gna9"/>
       <attr-item tags="prc_impf"/>
       <attr-item tags="ger_past"/>
@@ -2050,10 +2050,19 @@ If no format information is present it is removed. -->
                    <test>
                    <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="imp"/></equal>
                       </test>
-                 <let><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></let>
+                 <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
 
                 </when>
+<when>
+                   <test>
+                   <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="gna_perf"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
 
+                </when>
+<otherwise>
+                 <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
+</otherwise>
           </choose> 
               
 
@@ -3703,7 +3712,31 @@ If no format information is present it is removed. -->
                  <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
            <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
                 </when>
+           </choose>
+           <choose>
+<when>
+                   <test>
 
+                       <equal><clip pos="1" side="sl" part="lem"/><lit v="қанша"/></equal>
+
+                      </test>
+                 <let><var n="number"/><lit-tag v="itg"/></let>
+                 <let><var n="nbr"/><lit-tag v="sg"/></let>
+                </when>
+<when>
+                   <test>
+
+                       <equal><clip pos="1" side="sl" part="lem"/><lit v="әр"/></equal>
+
+                      </test>
+
+                 <let><var n="nbr"/><lit-tag v="sg"/></let>
+                 <let><var n="number"/><lit-tag v="ind"/></let>
+                </when>
+<otherwise>
+                 <let><var n="number"/><lit-tag v="ind"/></let>
+                 <let><var n="nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
+</otherwise>
            </choose>
           
 <out>
@@ -3711,7 +3744,7 @@ If no format information is present it is removed. -->
             <tags>
               <tag><lit-tag v="SN-det"/></tag>
 <tag><clip pos="1" side="tl" part="a_pers"/></tag>
- <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+ <tag><var n="nbr"/></tag>
 
               
             </tags>
@@ -3720,7 +3753,7 @@ If no format information is present it is removed. -->
               <clip pos="1" side="tl" part="lem"/>
 
 <lit-tag v="det"/>
-<lit-tag v="ind"/>        
+<var n="number"/>
              <lit-tag v="2"/> 
             </lu>
 <b/>
@@ -3968,22 +4001,59 @@ If no format information is present it is removed. -->
   </pattern>
   <action>
 <choose>
-    <when>
+   
+<when>
+      <test>
+<not>
+       <equal>
+         <clip pos="1" side="tl" part="a_sint"/>
+         <lit-tag v="sint"/>
+       </equal>
+</not>
+      </test>
+<out>
+    <chunk name="comp-adjec">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
+    </tags>
+    <lu>
+            <lit v="more"/>
+            <lit-tag v="preadv"/>
+
+          </lu>
+<b/>
+    <lu>
+       <clip pos="1" part="lem" side="tl"/>
+       <clip pos="1" side="tl" part="a_adjec"/>
+    </lu>
+    </chunk>
+    </out>
+    </when> 
+<when>
       <test>
        <equal>
          <clip pos="1" side="sl" part="a_subst"/>
          <lit-tag v="subst"/>
        </equal>
       </test>
-       <let><var n="comp_lu"/><lit v=""/></let> 
+<out>
+    <chunk name="comp-adjec">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
+    </tags>
+   
+    <lu>
+       <clip pos="1" part="lem" side="tl"/>
+       <clip pos="1" side="tl" part="a_adjec"/>
+    </lu>
+    </chunk>
+    </out>
     </when>
        <otherwise>
          <let>
            <var n="comp_lu"/>       <lit-tag v="comp"/>
          </let>
-       </otherwise>
-  </choose>
-    <out>
+<out>
     <chunk name="comp-adjec">
     <tags>
     <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
@@ -3998,6 +4068,9 @@ If no format information is present it is removed. -->
      </lu>
     </chunk>
     </out>
+       </otherwise>
+  </choose>
+    
   </action>
 </rule>
 
@@ -7164,11 +7237,52 @@ If no format information is present it is removed. -->
           </chunk>
         </out>
  </when>
+
+
+ <when>
+                   <test>
+<and>
+                    <equal><clip pos="1" side="sl" part="learned_determinertype"/><lit-tag v="dem"/></equal>
+<or>
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="мына"/></equal>
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="Мына"/></equal>
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="Осы"/></equal>
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="осы"/></equal>
+</or>
+</and>
+                  </test>
+
+               
+        <out>
+          <chunk name="pronoun-myna" case="caseFirstWord">
+            <tags>
+              <tag>            <lit-tag v="SN.NOM"/></tag>
+	<tag><clip pos="1" side="tl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="prn"/>
+	<lit-tag v="tn"/>
+	<lit-tag v="mf"/>
+<lit-tag v="3"/>
+<lit-tag v="4"/>
+               <clip pos="1" side="tl" part="lemq"/>
+  	
+             
+	
+            </lu>
+          </chunk>
+        </out>
+ </when>
 <when>
                    <test>
-               
+               <and>
  <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
-
+ <not><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="acc"/></equal></not>
+ <not><equal><clip pos="1" side="sl" part="learned_determinertype"/><lit-tag v="dem"/></equal></not>
+</and>
                   </test>
 
                
@@ -7181,7 +7295,7 @@ If no format information is present it is removed. -->
               
             </tags>
             <lu>
-	<clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="lemh"/>
             <lit-tag v="prn"/>
 	<lit-tag v="obj"/>
 <lit-tag v="p3"/>
@@ -7195,33 +7309,31 @@ If no format information is present it is removed. -->
           </chunk>
         </out>
  </when>
- <when>
+<when>
                    <test>
-<and>
-                    <equal><clip pos="1" side="sl" part="learned_determinertype"/><lit-tag v="dem"/></equal>
-<or>
-  <equal><clip pos="1" side="sl" part="lemh"/><lit v="мына"/></equal>
-  <equal><clip pos="1" side="sl" part="lemh"/><lit v="Мына"/></equal>
-</or>
+               <and>
+ <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
+ <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="acc"/></equal>
+
 </and>
                   </test>
 
                
         <out>
-          <chunk name="pronoun-myna" case="caseFirstWord">
+          <chunk name="it-pronoun" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
-	<tag><clip pos="1" side="tl" part="a_mf"/></tag>
+	<tag><clip pos="1" side="sl" part="a_mf"/></tag>
 	              <tag><var n="number"/></tag>
               
             </tags>
             <lu>
-	<clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="lemh"/>
             <lit-tag v="prn"/>
-	<lit-tag v="tn"/>
-	<lit-tag v="mf"/>
-<lit-tag v="3"/>
-<lit-tag v="4"/>
+	<lit-tag v="obj"/>
+<lit-tag v="p3"/>
+<lit-tag v="nt"/>
+<lit-tag v="sg"/>
                <clip pos="1" side="tl" part="lemq"/>
   	
              
@@ -9701,6 +9813,8 @@ If no format information is present it is removed. -->
                       </test>
                  <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
            <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+<let><var n="number"/><lit v=""/></let>
+<let><var n="nbr"/><lit v=""/></let>
                 </when>
 <when>
                    <test>
@@ -9711,6 +9825,8 @@ If no format information is present it is removed. -->
                       </test>
                  <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
            <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+<let><var n="number"/><lit v=""/></let>
+<let><var n="nbr"/><lit v=""/></let>
                 </when>
 <when>
                    <test>
@@ -9721,6 +9837,8 @@ If no format information is present it is removed. -->
                       </test>
                  <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
            <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+<let><var n="number"/><lit v=""/></let>
+<let><var n="nbr"/><lit v=""/></let>
                 </when>
 <when>
                    <test>
@@ -9730,10 +9848,14 @@ If no format information is present it is removed. -->
                        <equal><clip pos="2" side="sl" part="a_tns"/><lit-tag v="past"/></equal>
                      </and>
                       </test>
-           <let><clip pos="2" side="tl" part="a_pers"/><lit v="p3"/></let>
-                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v="sg"/></let>
-
+<let><var n="number"/><lit-tag v="sg"/></let>
+<let><var n="nbr"/><lit-tag v="p3"/></let>
+       
                 </when>
+<otherwise>
+<let><var n="number"/><lit-tag v="sg"/></let>
+<let><var n="nbr"/><lit-tag v="p3"/></let>
+</otherwise>
            </choose>
 
         <out>
@@ -9741,8 +9863,8 @@ If no format information is present it is removed. -->
             <tags>
               <tag><lit-tag v="SV"/></tag>
               <tag><clip pos="2" side="tl" part="a_tns"/></tag>
-              <tag><clip pos="2" side="tl" part="a_pers"/></tag>
-              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+              <tag><var n="nbr"/></tag>
+              <tag><var n="number"/></tag>
             </tags>
             <lu>
               <lit v="be"/>

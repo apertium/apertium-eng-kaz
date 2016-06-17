@@ -448,6 +448,7 @@
 <cat-item tags="prn.dem.*"/>
 <cat-item tags="prn.ind.*"/>
 <cat-item tags="prn.neg.*"/>
+<cat-item tags="prn.qnt.*.*"/>
          </def-cat>
 
  <def-cat n="prn-ref">

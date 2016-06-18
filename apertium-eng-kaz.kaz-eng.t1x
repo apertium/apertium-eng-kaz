@@ -3544,7 +3544,29 @@ If no format information is present it is removed. -->
         <pattern-item n="v-ger"/>
       </pattern>
       <action>
-        
+        <choose>
+<when>
+                   <test>
+                  
+  <equal><clip pos="1" side="sl" part="lem"/><lit v="бол"/></equal>
+
+                      </test>
+                 <out>
+           <chunk name="v-ger" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV-ger"/></tag>
+            </tags>
+
+             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="vbser"/>
+            <lit-tag v="pres"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+                </when>
+<otherwise>
         <out>
           <chunk name="v-ger" case="caseFirstWord">
             <tags>
@@ -3564,6 +3586,8 @@ If no format information is present it is removed. -->
             </lu>
           </chunk>
         </out>
+</otherwise>
+</choose>
         <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>

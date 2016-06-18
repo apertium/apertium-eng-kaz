@@ -299,7 +299,7 @@
 <e><p><l>barely<s n="adv"/></l><r>әзер<s n="adv"/></r></p></e>
 <e><p><l>ever<s n="adv"/></l><r>әйтеуір<s n="adv"/></r></p></e>
 <e><p><l>much<b/>more<s n="adv"/></l><r>әлдеқайда<s n="adv"/></r></p></e>
-<e><p><l>so<s n="adv"/></l><r>ендеше<s n="adv"/></r></p></e>
+<e><p><l>so<s n="preadv"/></l><r>ендеше<s n="adv"/></r></p></e>
 <e><p><l>suddenly<s n="adv"/></l><r>кенет<s n="adv"/></r></p></e>
 <e><p><l>absolutely<s n="adv"/></l><r>мүлдем<s n="adv"/></r></p></e>
 <e><p><l>exactly<s n="adv"/></l><r>нақ<s n="adv"/></r></p></e>
@@ -15913,10 +15913,10 @@
 <e><p><l>skilfully<s n="adv"/></l><r>епті<s n="adv"/></r></p></e>
 <e><p><l>slightly<s n="adv"/></l><r>азғантай<s n="adv"/></r></p></e>
 <e><p><l>slowly<s n="adv"/></l><r>жай<s n="adv"/></r></p></e>
-<e><p><l>so<s n="adv"/></l><r>осылайша<s n="adv"/></r></p></e>
-<e><p><l>so<s n="adv"/></l><r>солай<s n="adv"/></r></p></e>
-<e><p><l>so<s n="adv"/></l><r>бұлай<s n="adv"/></r></p></e>
-<e><p><l>so<s n="adv"/></l><r>осылай<s n="adv"/></r></p></e>
+<e><p><l>so<s n="preadv"/></l><r>осылайша<s n="adv"/></r></p></e>
+<e><p><l>so<s n="preadv"/></l><r>солай<s n="adv"/></r></p></e>
+<e><p><l>so<s n="preadv"/></l><r>бұлай<s n="adv"/></r></p></e>
+<e><p><l>so<s n="preadv"/></l><r>осылай<s n="adv"/></r></p></e>
 <e><p><l>socially<s n="adv"/></l><r>әлеуметтік<s n="adv"/></r></p></e>
 <e><p><l>softly<s n="adv"/></l><r>жұмсақ<s n="adv"/></r></p></e>
 <e><p><l>solely<s n="adv"/></l><r>бірыңғай<s n="adv"/></r></p></e>
@@ -21628,6 +21628,7 @@
 <e><p><l>shipwreck<s n="vblex"/></l><r>батыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>shiver<s n="vblex"/></l><r>қалтыра<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>shock<s n="vblex"/></l><r>шошыт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>shock<s n="vblex"/></l><r>таң<b/>қал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>shoe<s n="vblex"/></l><r>киін<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>live<s n="vblex"/></l><r>кеш<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>shoo<s n="vblex"/></l><r>қуғында<s n="v"/><s n="iv"/></r></p></e>
@@ -22213,7 +22214,7 @@
 <e><p><l>eqip<s n="vblex"/></l><r>жайластыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>fetch<b/>away<s n="vblex"/></l><r>арыл<s n="v"/><s n="iv"/><s n="ger"/></r></p></e>
 <e><p><l>substance<s n="n"/></l><r>зат<s n="n"/></r></p></e>
-<e><p><l>stuff<s n="n"/></l><r>зат<s n="n"/></r></p></e>
+<e><p><l>stuff<s n="n"/><s n="sg"/></l><r>зат<s n="n"/></r></p></e>
 <e><p><l>suggestion<s n="n"/></l><r>кеңес<s n="n"/></r></p></e>
 <e><p><l>recommendation<s n="n"/></l><r>кеңес<s n="n"/></r></p></e>
 <e><p><l>beast<s n="n"/></l><r>жануар<s n="n"/></r></p></e>

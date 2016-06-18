@@ -11,6 +11,13 @@
   <match lemma="көп" tags="adv"><select lemma="more than" tags="preadv"/></match>
 
 </rule>
+<rule>
+<match lemma="жоқ" tags="adj.*.*"><select lemma="not" tags="adv"/></match>
+</rule>
+<rule>
+  <match lemma="әрине" tags="adv"><select lemma="of course" tags="adv"/></match>
+
+ </rule>
 
 <rule>
   <match lemma="мен" tags="prn.pers.p1.sg.gen"><select lemma="my" tags="det.*"/></match>

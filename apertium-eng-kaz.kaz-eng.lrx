@@ -1,6 +1,16 @@
 <rules>
 
+<rule>
+  <match lemma="бала" tags="n.*"><select lemma="kid" tags="n.*"/></match>
+<match lemma="ынта" tags="n.*"/> 
+</rule>
 
+<rule>
+<match lemma="*" tags="num"/>
+<match lemma="процент" tags="n.*"/>
+  <match lemma="көп" tags="adv"><select lemma="more than" tags="preadv"/></match>
+
+</rule>
 
 <rule>
   <match lemma="мен" tags="prn.pers.p1.sg.gen"><select lemma="my" tags="det.*"/></match>

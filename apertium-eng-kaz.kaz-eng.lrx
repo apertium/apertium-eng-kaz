@@ -6,8 +6,30 @@
 </rule>
 
 <rule>
+  <match lemma="ол" tags="prn.dem.pl.gen"><select lemma="they" tags="prn.obj.p3.mf.pl"/></match>
+<match lemma="*" tags="num"/>
+<match lemma="пайыз" tags="n.*"/>
+</rule>
+
+<rule>
   <match lemma="бала" tags="n.pl.*"><select lemma="kid" tags="n.*"/></match>
 
+</rule>
+
+<rule>
+<match lemma="бұл" tags="prn.dem.*"/>
+  <match lemma="қоғам" tags="n.*"><select lemma="community" tags="n.*"/></match>
+
+</rule>
+
+<rule>
+<match lemma="бұл" tags="prn.dem.*"><select lemma="this" tags="det.dem.*"/></match>
+</rule>
+
+<rule>
+<match lemma="сенімділік" tags="n.*"><select lemma="trust" tags="n.*"/></match>
+<match lemma="орнат" tags="v.*.*.*"><select lemma="build" tags="vblex"/></match>
+<match lemma="қатты" tags="adv"><select lemma="really" tags="adv"/></match>
 </rule>
 
 <rule>

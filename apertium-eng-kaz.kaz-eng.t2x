@@ -353,6 +353,62 @@
     </rule>
 
 
+<rule comment="RULE:  SN SN SV-ger SN-ADVP SV -> SN-ADVP SV SV-ger SN SN">
+      <pattern>
+        <pattern-item n="SN"/>
+<pattern-item n="SN"/>
+<pattern-item n="SV-ger"/>
+        <pattern-item n="SN-ADVP"/>
+<pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <call-macro n="set-prep1">
+          <with-param pos="3"/>
+        </call-macro>
+
+        <out>
+           
+          <chunk>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+<b/>
+<var n="PREP"/>
+<chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+<b/>
+<chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+<b/>
+<chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+<b/>
+
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
 <rule comment="RULE:  SN AdvP SV SV">
       <pattern>
         

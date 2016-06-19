@@ -7564,6 +7564,291 @@ If no format information is present it is removed. -->
 
   
 
+
+<rule comment="RULE: PRN">
+      <pattern>
+        <pattern-item n="prn"/>
+<pattern-item n="nom"/>
+      </pattern>
+<action>
+             
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+<call-macro n="choose_case_and_postposition2">
+          <with-param pos="2"/>
+        </call-macro>
+
+ <choose>
+                 <when>
+                   <test>
+
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+<choose>
+
+                 <when>
+                   <test>
+<and>
+                       <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.dem.adv"/></equal>
+   <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
+</and>
+                  </test>
+              
+
+
+ </when>
+
+
+ <when>
+                   <test>
+<and>
+                    <equal><clip pos="1" side="sl" part="learned_determinertype"/><lit-tag v="dem"/></equal>
+<or>
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="мына"/></equal>
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="Мына"/></equal>
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="Осы"/></equal>
+  <equal><clip pos="1" side="sl" part="lemh"/><lit v="осы"/></equal>
+</or>
+</and>
+                  </test>
+
+               
+        <out>
+          <chunk name="pronoun-myna_noun" case="caseFirstWord">
+            <tags>
+              <tag>            <lit-tag v="SN.NOM"/></tag>
+	<tag><clip pos="1" side="tl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="prn"/>
+	<lit-tag v="tn"/>
+	<lit-tag v="mf"/>
+<lit-tag v="3"/>
+<lit-tag v="4"/>
+               <clip pos="1" side="tl" part="lemq"/>
+  	
+             
+	
+            </lu>
+<b/>
+ <lu>
+	<clip pos="2" side="tl" part="lem"/>
+<clip pos="2" side="tl" part="a_nom"/>
+    </lu>  
+          </chunk>
+        </out>
+ </when>
+<when>
+                   <test>
+               <and>
+ <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
+ <not><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="acc"/></equal></not>
+ <not><equal><clip pos="1" side="sl" part="learned_determinertype"/><lit-tag v="dem"/></equal></not>
+</and>
+                  </test>
+
+               
+        <out>
+          <chunk name="it-pronoun_noun" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+	<tag><clip pos="1" side="sl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+            <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="prn"/>
+	<lit-tag v="obj"/>
+<lit-tag v="p3"/>
+<lit-tag v="nt"/>
+<lit-tag v="sg"/>
+               <clip pos="1" side="tl" part="lemq"/>
+  	
+             
+	
+            </lu>
+<b/>
+ <lu>
+	<clip pos="2" side="tl" part="lem"/>
+<clip pos="2" side="tl" part="a_nom"/>
+    </lu>  
+          </chunk>
+        </out>
+ </when>
+<when>
+                   <test>
+               <and>
+ <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
+ <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="abl"/></equal>
+
+</and>
+                  </test>
+
+               
+        <out>
+          <chunk name="this-pronoun_noun" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+	<tag><clip pos="1" side="sl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+<lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+            <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="prn"/>
+	<lit-tag v="obj"/>
+<lit-tag v="p3"/>
+<lit-tag v="nt"/>
+<lit-tag v="sg"/>
+               <clip pos="1" side="tl" part="lemq"/>
+  	
+             
+	
+            </lu>
+<b/>
+ <lu>
+	<clip pos="2" side="tl" part="lem"/>
+<clip pos="2" side="tl" part="a_nom"/>
+    </lu>  
+          </chunk>
+        </out>
+ </when>
+<when>
+                   <test>
+               <and>
+ <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
+ <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="acc"/></equal>
+
+</and>
+                  </test>
+
+               
+        <out>
+          <chunk name="it-pronoun_noun" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+	<tag><clip pos="1" side="sl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+            <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="prn"/>
+	<lit-tag v="obj"/>
+<lit-tag v="p3"/>
+<lit-tag v="nt"/>
+<lit-tag v="sg"/>
+               <clip pos="1" side="tl" part="lemq"/>
+  	
+             
+	
+            </lu>
+
+<b/>
+ <lu>
+	<clip pos="2" side="tl" part="lem"/>
+<clip pos="2" side="tl" part="a_nom"/>
+    </lu>  
+          </chunk>
+        </out>
+ </when>
+                 <when>
+                   <test>
+<and>
+                    <not>   <equal><clip pos="1" side="sl" part="a_prn"/><lit-tag v="prn.ind"/></equal></not>
+<or>
+<not>   <equal><clip pos="1" side="sl" part="lemh"/><lit v="Мына"/></equal></not>
+<not>   <equal><clip pos="1" side="sl" part="lemh"/><lit v="мына"/></equal></not>
+</or>
+<not>   <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></not>
+</and>
+                  </test>
+
+               
+        <out>
+          <chunk name="pronoun-noun" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+	<tag><clip pos="1" side="tl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+<lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="prn"/>
+	<lit-tag v="tn"/>
+
+<lit-tag v="3"/>
+<lit-tag v="4"/>
+               <clip pos="1" side="tl" part="lemq"/>
+  	
+             
+	
+            </lu>
+<b/>
+ <lu>
+	<clip pos="2" side="tl" part="lem"/>
+<clip pos="2" side="tl" part="a_nom"/>
+<var n="number"/>
+    </lu>        
+          </chunk>
+        </out>
+ </when>
+  
+                <otherwise>
+      
+        <out>
+          <chunk name="pronoun-loc_noun" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+	    <tag><clip pos="1" side="sl" part="a_mf"/></tag>
+	              <tag><var n="number"/></tag>
+              
+            </tags>
+            <lu>
+            <lit v="where"/>
+            <lit-tag v="adv"/>
+	<lit-tag v="itg"/>
+
+	
+            </lu>
+          </chunk>
+        </out>
+                </otherwise>
+              </choose>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+
+
 <rule comment="RULE: NOM-ant"> <!--for ant,loc-->
       <pattern>
         <pattern-item n="ant"/>
@@ -12744,6 +13029,9 @@ If no format information is present it is removed. -->
         </call-macro>
       </action>
     </rule>
+
+
+
 
 
 <rule comment="RULE: de+present_verb">   <!-- деп күледі -->

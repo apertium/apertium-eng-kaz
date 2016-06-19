@@ -1709,7 +1709,9 @@ If no format information is present it is removed. -->
     <def-macro n="reset-vars1" npar="1">
           <let><var n="sntype"/><lit v=""/></let>
           <let><var n="number"/><lit v=""/></let>
+          <let><var n="postposition_lu"/><lit v=""/></let>
     </def-macro>
+
 
 <def-macro n="NEW-build-np" npar="1"> 
      <let>

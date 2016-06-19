@@ -6,6 +6,11 @@
 </rule>
 
 <rule>
+  <match lemma="бала" tags="n.pl.*"><select lemma="kid" tags="n.*"/></match>
+
+</rule>
+
+<rule>
 <match lemma="*" tags="num"/>
 <match lemma="процент" tags="n.*"/>
   <match lemma="көп" tags="adv"><select lemma="more than" tags="preadv"/></match>

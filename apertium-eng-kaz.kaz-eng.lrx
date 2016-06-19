@@ -34,7 +34,9 @@
 <rule>
   <match lemma="мұғалім" tags="n.*"><select lemma="teacher" tags="n.*"/></match>
  </rule>
-
+<rule>
+  <match lemma="күлкі" tags="n.*"><select lemma="laughter" tags="n.*"/></match>
+ </rule>
  <rule>
   <or>
    <match lemma="қай" tags="det.*"/>

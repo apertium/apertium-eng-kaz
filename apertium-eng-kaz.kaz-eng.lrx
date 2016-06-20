@@ -23,6 +23,12 @@
 </rule>
 
 <rule>
+
+  <match lemma="жауапкершілік" tags="n.*"><select lemma="responsibility" tags="n.*"/></match>
+
+</rule>
+
+<rule>
 <match lemma="бұл" tags="prn.dem.*"><select lemma="this" tags="det.dem.*"/></match>
 </rule>
 

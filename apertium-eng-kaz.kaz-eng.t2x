@@ -353,31 +353,29 @@
     </rule>
 
 
-<rule comment="RULE:  SN SN SV-ger SN-ADVP SV -> SN-ADVP SV SV-ger SN SN">
+<rule comment="RULE:  SN-NUM SN SV-ger SN -> SN SN SV-ger SN">
       <pattern>
-        <pattern-item n="SN"/>
+        <pattern-item n="SN-NUM"/>
 <pattern-item n="SN"/>
 <pattern-item n="SV-ger"/>
-        <pattern-item n="SN-ADVP"/>
-<pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+
       </pattern>
       <action>
-        <call-macro n="set-prep1">
-          <with-param pos="3"/>
-        </call-macro>
+       
 
         <out>
            
           <chunk>
-            <clip pos="4" part="lem"/>
-            <clip pos="4" part="tags"/>
-            <clip pos="4" part="chcontent"/>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
           </chunk>
           <b pos="1"/>
           <chunk>
-            <clip pos="5" part="lem"/>
-            <clip pos="5" part="tags"/>
-            <clip pos="5" part="chcontent"/>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
           </chunk>
 <b/>
 <var n="PREP"/>
@@ -388,17 +386,10 @@
           </chunk>
 <b/>
 <chunk>
-            <clip pos="2" part="lem"/>
-            <clip pos="2" part="tags"/>
-            <clip pos="2" part="chcontent"/>
+            <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+            <clip pos="4" part="chcontent"/>
           </chunk>
-<b/>
-<chunk>
-            <clip pos="1" part="lem"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-          </chunk>
-<b/>
 
         </out>
         <call-macro n="reset-case1">

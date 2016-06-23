@@ -759,6 +759,7 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
 <cat-item tags="RESsent.sent"/>
+<cat-item tags="cm"/>
     </def-cat>
 <def-cat n="qst">
       <cat-item tags="qst"/>

@@ -22,6 +22,12 @@
 
 </rule>
 
+
+<rule>
+<match lemma="ұсыныс" tags="n.*.*"/>
+  <match lemma="қолда" tags="v.*.*.*.*"><select lemma="accept" tags="vblex.*"/></match>
+</rule>
+
 <rule>
 
   <match lemma="жауапкершілік" tags="n.*"><select lemma="responsibility" tags="n.*"/></match>

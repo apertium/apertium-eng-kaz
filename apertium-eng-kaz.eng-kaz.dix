@@ -11572,7 +11572,7 @@
 <e r="RL"><p><l>time<s n="n"/></l><r>сағат<s n="n"/></r></p></e>
 <e r="RL"><p><l></l><r>шы<s n="emph"/></r></p></e>
 <e r="RL"><p><l></l><r>гөрі<s n="post"/></r></p></e>
-<e r="RL"><p><l></l><r>сайын<s n="post"/></r></p></e>
+<e r="RL"><p><l>by<s n="pr"/></l><r>сайын<s n="post"/></r></p></e>
 
 
 
@@ -22198,7 +22198,7 @@
 <e><p><l>feature<s n="n"/></l><r>қасиет<s n="n"/></r></p></e>
 <e><p><l>attribute<s n="n"/></l><r>қасиет<s n="n"/></r></p></e>
 <e><p><l>object<s n="n"/></l><r>зат<s n="n"/></r></p></e>
-<e><p><l>five<s n="num"/></l><r>бесеу<s n="num"/><s n="coll"/><s n="subst"/></r></p></e>
+<e><p><l>five<s n="num"/><s n="sp"/></l><r>бесеу<s n="num"/><s n="coll"/><s n="subst"/></r></p></e>
 <e><p><l>four<s n="num"/></l><r>төртеу<s n="num"/><s n="coll"/><s n="subst"/></r></p></e>
 <e><p><l>two<s n="num"/></l><r>екеу<s n="num"/><s n="coll"/><s n="subst"/></r></p></e>
 <e><p><l>three<s n="num"/></l><r>үшеу<s n="num"/><s n="coll"/><s n="subst"/></r></p></e>

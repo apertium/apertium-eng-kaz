@@ -46024,6 +46024,7 @@
                             <e lm="folio" i=""><i>folio</i><par n="house__n"/></e>
 
                             <e lm="folklore" i=""><i>folklore</i><par n="house__n"/></e>
+<e lm="folk" i=""><i>folk</i><par n="house__n"/></e>
 
                             <e lm="follow-up" i=""><i>follow-up</i><par n="house__n"/></e>
 
@@ -60997,7 +60998,7 @@
 
                             <e lm="smile" i=""><i>smil</i><par n="liv/e__vblex"/></e>
 
-<e lm="shrug" i=""><i>shrug</i><par n="liv/e__vblex"/></e>
+
 
                             <e lm="smoke" i=""><i>smok</i><par n="liv/e__vblex"/></e>
 
@@ -61817,6 +61818,8 @@
                             <e lm="at random" i=""><i>at<b/>random</i><par n="maybe__adv"/></e>
 
                             <e lm="at the beginning" i=""><i>at<b/>the<b/>beginning</i><par n="maybe__adv"/></e>
+
+<e lm="at that moment" i=""><i>at<b/>that<b/>moment</i><par n="maybe__adv"/></e>
 
                             <e lm="at the double" i=""><i>at<b/>the<b/>double</i><par n="maybe__adv"/></e>
 
@@ -65513,6 +65516,9 @@
                             <e lm="apprehension" i=""><i>apprehension</i><par n="house__n"/></e>
 
                             <e lm="appropriate" i=""><i>appropriate</i><par n="expensive__adj"/></e>
+
+ <e lm="appropriate" i=""><i>appropriate</i><par n="house__n"/></e>
+
 
                             <e lm="apraxia" i=""><i>apraxia</i><par n="house__n"/></e>
 
@@ -79051,6 +79057,7 @@
                             <e lm="rust" i=""><i>rust</i><par n="accept__vblex"/></e>
 
                             <e lm="unplug" i=""><i>unplug</i><par n="plug__vblex"/></e>
+<e lm="shrug" i=""><i>shrug</i><par n="plug__vblex"/></e>
 
                             <e lm="unroll" i=""><i>unroll</i><par n="accept__vblex"/></e>
 

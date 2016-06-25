@@ -180,13 +180,24 @@
 <rule>
   <match lemma="ана" tags="n.*"><select lemma="mother" tags="n.*"/></match>
  </rule>
- <rule>
+ 
+<rule>
   <match lemma="Ол" tags="prn.pers.p3.sg.nom"><select lemma="she" tags="prn.subj.p3.f.*"/></match>
   <match lemma="қыз" tags="n.*"/>
  </rule>
 
+<rule>
 
- <rule>
+  <match lemma="білім" tags="n.*"><select lemma="education" tags="n.*"/></match>
+  <match lemma="мен" tags="cnjcoo"/>
+<match lemma="денсаулық" tags="n.*"/>
+ </rule>
+<rule>
+<match lemma="осы уақытта" tags="adv"><select lemma="at that moment" tags="adv"/></match>
+<match lemma="өз" tags="det.ref"/>
+<match lemma="халық" tags="n.*.*"><select lemma="peole" tags="n.*.*"/></match>
+</rule> 
+<rule>
   <match lemma="Ол" tags="prn.pers.p3.sg.nom"><select lemma="she" tags="prn.subj.p3.f.*"/></match>
   <match lemma="әдемі" tags="adj"><select lemma="beautiful" tags="adj"/></match>
   <match lemma="қыз" tags="n.*"/>

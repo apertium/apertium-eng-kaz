@@ -838,7 +838,7 @@
     <def-attr n="a_verb">
       <attr-item tags="v"/>
       <attr-item tags="vblex"/>
-
+<attr-item tags="vbser"/>
     </def-attr>
 
  <def-attr n="a_sint">
@@ -7169,6 +7169,7 @@ If no format information is present it is removed. -->
     </rule>
 
 
+
 <rule comment="RULE: қалау рай I want+ed to + verb">
       <pattern>
 <pattern-item n="want"/>
@@ -7234,6 +7235,85 @@ If no format information is present it is removed. -->
         </call-macro>
       </action>
     </rule>
+
+
+
+<rule comment="RULE: I want+ed to be+ nom">
+      <pattern>
+<pattern-item n="nom"/>
+<pattern-item n="want"/>
+ <pattern-item n="kel-ifi"/>
+        
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+
+
+ <choose>
+               <when>
+                   <test>
+                     <or>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p3"/></equal>
+                     </or> 
+                   </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+                 <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+           </choose>
+         <out>
+          <chunk name="wantedto" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="3" side="sl" part="a_tns"/></tag>
+              <tag><clip pos="3" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="3" side="sl" part="a_nbr"/></tag>
+            </tags>
+
+            
+            
+<lu>
+          <lit v="want"/>  
+        <lit-tag v="vbmod"/>
+	<lit-tag v="past"/>
+        <lit v="#"/>  
+<b/>
+          <lit v="to"/>  
+	
+	
+</lu>
+<b/>
+
+            <lu>
+<lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="inf"/>
+              
+             
+            </lu>
+<b/>
+ <lu>
+<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <var n="number"/>
+              <clip pos="1" side="tl" part="lemq"/>
+             
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
 
 <rule comment="RULE: degen + NOM">
       <pattern>

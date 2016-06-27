@@ -284,6 +284,11 @@
   <match lemma="алд" tags="n.px3sp.loc"><select lemma="front" tags="pr"/></match>
  </rule>
 
+<rule>
+<match lemma="ай" tags="n.*.*"><select lemma="month" tags="n.*"/></match>
+
+ </rule>
+
 
 
  <rule>
@@ -411,11 +416,7 @@
    <match lemma="ай" tags="n.px3sp.*"><select lemma="month" tags="n.*"/></match>
  </rule>
 
-<rule>
-<match lemma="ай" tags="n.*.*"><select lemma="month" tags="n.*"/></match>
-<match lemma="жыл" tags="n.*.*"/>
-<match lemma="өт" tags="v.*.*.*.*"/>
- </rule>
+
 
 <rule>
 <match lemma="бұл" tags="prn.dem.adv"/>

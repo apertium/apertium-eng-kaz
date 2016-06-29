@@ -2253,6 +2253,7 @@
 <e><p><l>cardinal<s n="n"/></l><r>кардиналдық<s n="n"/></r></p></e>
 <e><p><l>cardioid<s n="n"/></l><r>кардиоид<s n="n"/></r></p></e>
 <e><p><l>cardiologist<s n="n"/></l><r>кардиолог<s n="n"/></r></p></e>
+<e><p><l>heart<b/>surgeon<s n="n"/></l><r>кардиохирург<s n="n"/></r></p></e>
 <e><p><l>cardiopathy<s n="n"/></l><r>кардиопатия<s n="n"/></r></p></e>
 <e><p><l>card<s n="n"/></l><r>карта<s n="n"/></r></p></e>
 <e><p><l>careerist<s n="n"/></l><r>мансапқор<s n="n"/></r></p></e>
@@ -3610,6 +3611,7 @@
 <e><p><l>diadem<s n="n"/></l><r>диадема<s n="n"/></r></p></e>
 <e><p><l>diagnosis<s n="n"/></l><r>диагноз<s n="n"/></r></p></e>
 <e><p><l>diagnostic<s n="n"/></l><r>диагностика<s n="n"/></r></p></e>
+<e><p><l>diagnostical<s n="adj"/></l><r>диагностикалық<s n="adj"/></r></p></e>
 <e><p><l>diagonal<s n="n"/></l><r>қиғаш<s n="n"/></r></p></e>
 <e><p><l>diagram<s n="n"/></l><r>диаграмма<s n="n"/></r></p></e>
 <e><p><l>dialectalism<s n="n"/></l><r>диалектизм<s n="n"/></r></p></e>
@@ -7399,6 +7401,10 @@
 <e><p><l>neuralgia<s n="n"/></l><r>невралгия<s n="n"/></r></p></e>
 <e><p><l>neurasthenia<s n="n"/></l><r>неврастения<s n="n"/></r></p></e>
 <e><p><l>neurochemistry<s n="n"/></l><r>нейрохимия<s n="n"/></r></p></e>
+<e><p><l>neurosurgical<s n="adj"/></l><r>нейрохирургиялық<s n="adj"/></r></p></e>
+<e><p><l>resuscitative<s n="adj"/></l><r>реанимациялық<s n="adj"/></r></p></e>
+<e><p><l>cardiosurgical<s n="adj"/></l><r>кардиохирургиялық<s n="adj"/></r></p></e>
+
 <e><p><l>neurocranium<s n="n"/></l><r>нейрокраниум<s n="n"/></r></p></e>
 <e><p><l>neurofilament<s n="n"/></l><r>нейрофиламент<s n="n"/></r></p></e>
 <e><p><l>neurology<s n="n"/></l><r>неврология<s n="n"/></r></p></e>
@@ -10948,6 +10954,7 @@
 <e><p><l>Triode<s n="n"/></l><r>триод<s n="n"/></r></p></e>
 <e><p><l>trio<s n="n"/></l><r>трио<s n="n"/></r></p></e>
 <e><p><l>triple<s n="n"/></l><r>үштік<s n="n"/></r></p></e>
+<e><p><l>tripper<s n="n"/></l><r>экскурсант<s n="n"/></r></p></e>
 <e><p><l>triplicity<s n="n"/></l><r>үштік<s n="n"/></r></p></e>
 <e><p><l>trip<s n="n"/></l><r>сапар<s n="n"/></r></p></e>
 <e><p><l>triptych<s n="n"/></l><r>триптих<s n="n"/></r></p></e>
@@ -17853,6 +17860,7 @@
 <e><p><l>intelligent<s n="adj"/></l><r>ақылды<s n="adj"/></r></p></e>
 <e><p><l>intelligible<s n="adj"/></l><r>түсінікті<s n="adj"/></r></p></e>
 <e><p><l>intense<s n="adj"/></l><r>жіті<s n="adj"/></r></p></e>
+<e><p><l>intensive<s n="adj"/></l><r>интенсивті<s n="adj"/></r></p></e>
 <e><p><l>intensive<s n="adj"/></l><r>жіті<s n="adj"/></r></p></e>
 <e><p><l>intentional<s n="adj"/></l><r>қасақана<s n="adj"/></r></p></e>
 <e><p><l>interactive<s n="adj"/></l><r>диалогті<s n="adj"/></r></p></e>

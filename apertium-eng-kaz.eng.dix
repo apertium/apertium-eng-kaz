@@ -44812,6 +44812,8 @@
 
                             <e lm="diagnostic" i=""><i>diagnostic</i><par n="house__n"/></e>
 
+ <e lm="diagnostical" i=""><i>diagnostical</i><par n="expensive__adj"/></e>
+
                             <e lm="diagonal" i=""><i>diagonal</i><par n="house__n"/></e>
 
                             <e lm="diagram" i=""><i>diagram</i><par n="house__n"/></e>
@@ -46622,6 +46624,8 @@
                             <e lm="hearing" i=""><i>hearing</i><par n="house__n"/></e>
 
                             <e lm="heart" i=""><i>heart</i><par n="house__n"/></e>
+
+<e lm="heart surgeon" i=""><i>heart<b/>surgeon</i><par n="house__n"/></e>
                             <e lm="sentiment" i=""><i>sentiment</i><par n="house__n"/></e>
                             <e lm="heat" i=""><i>heat</i><par n="house__n"/></e>
 
@@ -52482,6 +52486,8 @@
 
                             <e lm="trip" i=""><i>trip</i><par n="house__n"/></e>
 
+<e lm="tripper" i=""><i>tripper</i><par n="house__n"/></e>
+
   <e lm="journey" i=""><i>journe</i><par n="bab/y__n"/></e>
 
                             <e lm="triple" i=""><i>triple</i><par n="house__n"/></e>
@@ -54320,6 +54326,13 @@
                             <e lm="anonymous" i=""><i>anonymous</i><par n="expensive__adj"/></e>
 
                             <e lm="anthropological" i=""><i>anthropological</i><par n="expensive__adj"/></e>
+
+                            <e lm="neurosurgical" i=""><i>neurosurgical</i><par n="expensive__adj"/></e>
+
+<e lm="resuscitative" i=""><i>resuscitative</i><par n="expensive__adj"/></e>
+
+
+<e lm="cardiosurgical" i=""><i>cardiosurgical</i><par n="expensive__adj"/></e>
 
                             <e lm="antioxidant" i=""><i>antioxidant</i><par n="expensive__adj"/></e>
 

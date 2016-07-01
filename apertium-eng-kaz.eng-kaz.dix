@@ -11763,7 +11763,7 @@
 <e><p><l>http<s n="n"/><s n="acr"/></l><r>http<s n="abbr"/></r></p></e>
 <e><p><l>kg<s n="n"/><s n="acr"/></l><r>кг<s n="abbr"/></r></p></e>
 <e><p><l>billion<s n="n"/><s n="acr"/></l><r>млрд<s n="abbr"/></r></p></e>
-<e><p><l>million<s n="num"/><s n="sg"/></l><r>миллион<s n="abbr"/></r></p></e>
+<e><p><l>million<s n="num"/><s n="sp"/></l><r>миллион<s n="abbr"/></r></p></e>
 <e><p><l>million<s n="n"/><s n="acr"/></l><r>млн<s n="abbr"/></r></p></e>
 
 
@@ -15197,7 +15197,7 @@
 <e><p><l>$<s n="num"/><s n="mon"/></l><r>$<s n="num"/></r></p></e>
 <e><p><l>billion<s n="num"/><s n="pl"/></l><r>миллиард<s n="num"/></r></p></e>
 <e><p><l>billion<s n="num"/><s n="sg"/></l><r>миллиард<s n="num"/></r></p></e>
-<e><p><l>million<s n="num"/><s n="sg"/></l><r>миллион<s n="num"/></r></p></e>
+<e><p><l>million<s n="num"/><s n="sp"/></l><r>миллион<s n="num"/></r></p></e>
 <e><p><l>one<s n="num"/><s n="sg"/></l><r>бір<s n="num"/></r></p></e>
 <e><p><l>a<b/>hundred<s n="num"/><s n="sp"/></l><r>жүз<s n="num"/></r></p></e>
 <e><p><l>eight<s n="num"/><s n="sp"/></l><r>сегіз<s n="num"/></r></p></e>

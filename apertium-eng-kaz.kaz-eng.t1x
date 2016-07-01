@@ -869,8 +869,9 @@
 
         </def-attr>  
 
-
-
+ <def-attr n="a_num">
+      <attr-item tags="num"/>
+        </def-attr>  
     <def-attr n="a_nom">
       <attr-item tags="n"/>
             <attr-item tags="n.acr"/>
@@ -920,6 +921,7 @@
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
+      <attr-item tags="sp"/>
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
     </def-attr>
@@ -2916,9 +2918,9 @@ If no format information is present it is removed. -->
               
 	<clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
-              
+              <clip pos="2" side="tl" part="a_num"/>
               <clip pos="2" side="tl" part="lemq"/>
-	<lit-tag v="sg"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
             </lu>
             <b/>
             <lu>
@@ -3474,8 +3476,38 @@ If no format information is present it is removed. -->
 <pattern-item n="v-fin"/>
       </pattern>
       <action>
-        
+        <choose>
+<when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="lem"/><lit v="бол"/></equal>
+                      </test>
+
         <out>
+          <chunk name="v-ger2-be" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+
+  <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+            <lit-tag v="pres"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+<b/>
+<lu>
+              <clip pos="1" side="tl" part="lemh"/>
+            <lit-tag v="vbser"/>
+            <lit-tag v="ger"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+</when>
+<otherwise>
+   <out>
           <chunk name="v-ger2" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
@@ -3497,6 +3529,8 @@ If no format information is present it is removed. -->
             </lu>
           </chunk>
         </out>
+</otherwise>
+</choose>
         <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>
@@ -4643,8 +4677,10 @@ If no format information is present it is removed. -->
             <b/>
 		<lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-          <lit-tag v="adv"/> <clip pos="1" side="tl" part="lemq"/>
+
+          <lit-tag v="adv"/> 
+              <clip pos="1" side="tl" part="learned_advtype"/>
+<clip pos="1" side="tl" part="lemq"/>
             </lu>
 	<b/>
         <lu>
@@ -10446,7 +10482,38 @@ If no format information is present it is removed. -->
 <let><var n="nbr"/><lit-tag v="p3"/></let>
 </otherwise>
            </choose>
+<choose>
+<when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="lem"/><lit v="бол"/></equal>
+                      </test>
+                <out>
+          <chunk name="verb-ing-be" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="2" side="tl" part="a_tns"/></tag>
+              <tag><var n="nbr"/></tag>
+              <tag><var n="number"/></tag>
+            </tags>
+            <lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <lit-tag v="4"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="ger"/>
 
+            </lu>
+          </chunk>
+        </out>
+                </when>
+<otherwise>
         <out>
           <chunk name="verb-ing" case="caseFirstWord">
             <tags>
@@ -10471,6 +10538,8 @@ If no format information is present it is removed. -->
             </lu>
           </chunk>
         </out>
+</otherwise>
+</choose>
         <call-macro n="reset-vars1">
           <with-param pos="1"/>
         </call-macro>
@@ -11023,7 +11092,7 @@ If no format information is present it is removed. -->
                <when>
                    <test>
                     
-                       <equal><clip pos="1" side="sl" part="lemh"/><lit v="бол"/></equal>
+                       <equal><clip pos="1" side="sl" part="lem"/><lit v="бол"/></equal>
 
                       
                    </test>

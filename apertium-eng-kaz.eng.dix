@@ -24176,6 +24176,8 @@
 <e lm="Marat" i=""><i>Marat</i><par n="Mark__np"/></e>
 <e lm="Sharif" i=""><i>Sharif</i><par n="Mark__np"/></e>
 <e lm="Aidar" i=""><i>Aidar</i><par n="Mark__np"/></e>
+<e lm="Amantay" i=""><i>Amantay</i><par n="Mark__np"/></e>
+<e lm="Medet" i=""><i>Medet</i><par n="Mark__np"/></e>
 <e lm="Almazbek" i=""><i>Almazbek</i><par n="Mark__np"/></e>
 <e lm="Almaz" i=""><i>Almaz</i><par n="Mark__np"/></e>
 <e lm="Almas" i=""><i>Almas</i><par n="Mark__np"/></e>
@@ -74882,6 +74884,8 @@
 
                             <e lm="spark" i=""><i>spark</i><par n="house__n"/></e>
 
+<e lm="technopark" i=""><i>technopark</i><par n="house__n"/></e>
+
                             <e lm="tray" i=""><i>tray</i><par n="house__n"/></e>
 
                             <e lm="coil" i=""><i>coil</i><par n="house__n"/></e>
@@ -81824,6 +81828,8 @@
 <e lm="Abdenov" i=""><i>Abdenov</i><par n="Smith__np"/></e>
 <e lm="Abdishev" i=""><i>Abdishev</i><par n="Smith__np"/></e>
 <e lm="Akatovich" i=""><i>Akatovich</i><par n="Smith__np"/></e>
+<e lm="Maksutovich" i=""><i>Maksutovich</i><par n="Smith__np"/></e>
+<e lm="Zhankeyevich" i=""><i>Zhankeyevich</i><par n="Smith__np"/></e>
 <e lm="Akhmetov" i=""><i>Akhmetov</i><par n="Smith__np"/></e>
 <e lm="Aldabergenov" i=""><i>Aldabergenov</i><par n="Smith__np"/></e>
 <e lm="Andris" i=""><i>Andris</i><par n="Smith__np"/></e>
@@ -85726,6 +85732,8 @@
                             <e lm="FA Cup" i=""><i>FA<b/>Cup</i><par n="Linux__np"/></e>
 
                             <e lm="heighten" i=""><i>heighten</i><par n="accept__vblex"/></e>
+
+<e lm="islam" i=""><i>islam</i><par n="house__n"/></e>
 
                             <e lm="slam" i=""><i>slam</i><par n="house__n"/></e>
 

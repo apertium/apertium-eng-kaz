@@ -7906,6 +7906,7 @@
 <e><p><l>parity<s n="n"/></l><r>тепе-теңдік<s n="n"/></r></p></e>
 <e><p><l>parking<s n="n"/></l><r>автотұрақ<s n="n"/></r></p></e>
 <e><p><l>park<s n="n"/></l><r>саябақ<s n="n"/></r></p></e>
+<e><p><l>technopark<s n="n"/></l><r>технопарк<s n="n"/></r></p></e>
 <e><p><l>parliamentarism<s n="n"/></l><r>парламентаризм<s n="n"/></r></p></e>
 <e><p><l>parliament<s n="n"/></l><r>парламент<s n="n"/></r></p></e>
 <e><p><l>parliament<s n="n"/></l><r>парламент<s n="n"/></r></p></e>
@@ -8634,6 +8635,7 @@
 <e><p><l>procreation<s n="n"/></l><r>жеміс<s n="n"/></r></p></e>
 <e><p><l>procurement<s n="n"/></l><r>табыс<s n="n"/></r></p></e>
 <e><p><l>producer<s n="n"/></l><r>продюсер<s n="n"/></r></p></e>
+<e><p><l>producer<s n="n"/></l><r>режиссер<s n="n"/></r></p></e>
 <e><p><l>produce<s n="n"/></l><r>өнім<s n="n"/></r></p></e>
 <e><p><l>production<s n="n"/></l><r>өндіріс<s n="n"/></r></p></e>
 <e><p><l>productivity<s n="n"/></l><r>өндірімділік<s n="n"/></r></p></e>
@@ -11826,7 +11828,8 @@
 <e><p><l>Akzhan<s n="np"/><s n="ant"/><s n="f"/></l><r>Ақжан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Balzhan<s n="np"/><s n="ant"/><s n="f"/></l><r>Балжан<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aidar<s n="np"/><s n="ant"/><s n="m"/></l><r>Айдар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-
+<e><p><l>Amantay<s n="np"/><s n="ant"/><s n="m"/></l><r>Амантай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Medet<s n="np"/><s n="ant"/><s n="m"/></l><r>Медет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Taiyr<s n="np"/><s n="ant"/><s n="m"/></l><r>Тайыр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Almazbek<s n="np"/><s n="ant"/><s n="m"/></l><r>Алмазбек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Almaz<s n="np"/><s n="ant"/><s n="m"/></l><r>Алмаз<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -13781,6 +13784,8 @@
 <e><p><l>Ahmadinejad<s n="np"/><s n="cog"/></l><r>Ахмединежад<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Aitmukhametov<s n="np"/><s n="cog"/></l><r>Айтмұхаметов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Akatovich<s n="np"/><s n="cog"/></l><r>Ақатұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Maksutovich<s n="np"/><s n="cog"/></l><r>Мақсұтұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhankeyevich<s n="np"/><s n="cog"/></l><r>Жанкеұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Abishovich<s n="np"/><s n="cog"/></l><r>Әбішұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Adilkhanulu<s n="np"/><s n="cog"/></l><r>Әділханұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Esbolayulu<s n="np"/><s n="cog"/></l><r>Есболайұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

@@ -6,6 +6,17 @@
 </rule>
 
 <rule>
+<match lemma="оқы" tags="v.*.ger.*.acc"/>
+  <match lemma="бітір" tags="v.*.*.*.*"><select lemma="finish" tags="vblex.*"/></match>
+
+</rule>
+
+<rule>
+  <match lemma="кел" tags="v.*.*.*.*"><select lemma="come" tags="vblex.*.*.*"/></match>
+<match lemma="Америка" tags="np.top.dat"/> 
+</rule>
+
+<rule>
   <match lemma="ол" tags="prn.dem.pl.gen"><select lemma="they" tags="prn.obj.p3.mf.pl"/></match>
 <match lemma="*" tags="num"/>
 <match lemma="пайыз" tags="n.*"/>

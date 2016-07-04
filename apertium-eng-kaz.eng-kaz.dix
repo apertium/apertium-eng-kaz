@@ -11921,6 +11921,7 @@
 <e><p><l>Mahmud<s n="np"/><s n="ant"/><s n="m"/></l><r>Махмуд<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Esbolay<s n="np"/><s n="ant"/><s n="m"/></l><r>Есболай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Daniyar<s n="np"/><s n="ant"/><s n="m"/></l><r>Данияр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Shyngys<s n="np"/><s n="ant"/><s n="m"/></l><r>Шыңғыс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Erkebulan<s n="np"/><s n="ant"/><s n="m"/></l><r>Еркебұлан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Nurlan<s n="np"/><s n="ant"/><s n="m"/></l><r>Нұрлан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Konstantin<s n="np"/><s n="ant"/><s n="m"/></l><r>Константин<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -15535,6 +15536,7 @@
 <e><p><l>dramatically<s n="adv"/></l><r>драматикалы<s n="adv"/></r></p></e>
 <e><p><l>drastically<s n="adv"/></l><r>табанды<s n="adv"/></r></p></e>
 <e><p><l>during<s n="adv"/></l><r>бойы<s n="adv"/></r></p></e>
+<e><p><l>during<s n="adv"/></l><r>барысында<s n="adv"/></r></p></e>
 <e><p><l>during<b/>the<b/>day<s n="adv"/></l><r>күндіз<s n="adv"/></r></p></e>
 <e><p><l>dynamically<s n="adv"/></l><r>үдемелі<s n="adv"/></r></p></e>
 <e><p><l>eagerly<s n="adv"/></l><r>сабырсыз<s n="adv"/></r></p></e>
@@ -18459,6 +18461,7 @@
 <e><p><l>operable<s n="adj"/></l><r>қолданыстағы<s n="adj"/></r></p></e>
 <e><p><l>operatic<s n="adj"/></l><r>опералық<s n="adj"/></r></p></e>
 <e><p><l>operating<s n="adj"/></l><r>әрекетті<s n="adj"/></r></p></e>
+<e><p><l>operating<s n="adj"/></l><r>операциялық<s n="adj"/></r></p></e>
 <e><p><l>operational<s n="adj"/></l><r>шұғыл<s n="adj"/></r></p></e>
 <e><p><l>operative<s n="adj"/></l><r>жұмыскер<s n="adj"/></r></p></e>
 <e><p><l>ophthalmic<s n="adj"/></l><r>офтальмологиялық<s n="adj"/><s n="subst"/></r></p></e>
@@ -22005,6 +22008,7 @@
 <e><p><l>wander<s n="vblex"/></l><r>қаңғыр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>wane<s n="vblex"/></l><r>жоғалт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>want<s n="vblex"/></l><r>қала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>wish<s n="vblex"/></l><r>қала<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
 <e><p><l>warm<s n="vblex"/></l><r>жылыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>warn<s n="vblex"/></l><r>ескерт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>wash<s n="vblex"/></l><r>жу<s n="v"/><s n="tv"/></r></p></e>
@@ -22442,16 +22446,16 @@
 <e><p><l>condensate<s n="n"/></l><r>конденсат<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>cut<s n="vblex"/></l><r>қи<s n="v"/><s n="tv"/><s n="pass"/><s n="ger_perf"/><s n="px3sp"/></r></p></e>
 <e><p><l>community<s n="n"/></l><r>қауым<s n="n"/><s n="px3sp"/></r></p></e>
-<e><p><l>category<s n="n"/></l><r>категория<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>category<s n="n"/></l><r>категория<s n="n"/></r></p></e>
 <e><p><l>pace<s n="n"/></l><r>қарқын<s n="n"/><s n="px3sp"/></r></p></e>
-<e><p><l>need<s n="n"/></l><r>қажеттік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>need<s n="n"/></l><r>қажеттік<s n="n"/></r></p></e>
 <e><p><l>personnel<s n="n"/></l><r>кадр<s n="n"/></r></p></e>
 <e><p><l>cabinet<s n="n"/></l><r>кабинет<s n="n"/></r></p></e>
 <e><p><l>promote<s n="vblex"/></l><r>ілгерілет<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
 <e><p><l>search<s n="vblex"/></l><r>іздестір<s n="v"/><s n="tv"/><s n="ger"/></r></p></e>
 <e><p><l>own<s n="vblex"/></l><r>игер<s n="v"/><s n="tv"/><s n="ger"/><s n="attr"/></r></p></e>
-<e><p><l>affect<s n="n"/></l><r>зардап<s n="n"/><s n="px3sp"/></r></p></e>
-<e><p><l>achievement<s n="n"/></l><r>жетістік<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>affect<s n="n"/></l><r>зардап<s n="n"/></r></p></e>
+<e><p><l>achievement<s n="n"/></l><r>жетістік<s n="n"/></r></p></e>
 <e><p><l>allure<s n="vblex"/></l><r>желіктір<s n="v"/><s n="tv"/><s n="ger"/><s n="px3sp"/></r></p></e>
 <e><p><l>agitate<s n="vblex"/></l><r>желіктір<s n="v"/><s n="tv"/><s n="ger"/><s n="px3sp"/></r></p></e>
 <e><p><l>alter<s n="vblex"/></l><r>жаңар<s n="v"/><s n="iv"/><s n="ger"/></r></p></e>

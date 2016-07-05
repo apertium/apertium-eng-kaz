@@ -875,7 +875,7 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
             <attr-item tags="n.acr"/>
-
+      <attr-item tags="abbr"/>
       <attr-item tags="np.top"/>
       <attr-item tags="np.al"/>
       <attr-item tags="pr"/>

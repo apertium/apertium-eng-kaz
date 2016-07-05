@@ -1524,6 +1524,7 @@
 <e><p><l>backpack<s n="n"/></l><r>арқа<b/>қоржын<s n="n"/></r></p></e>
 <e><p><l>portfolio<s n="n"/></l><r>қоржын<s n="n"/></r></p></e>
 <e><p><l>CAO<s n="n"/><s n="acr"/></l><r>ӘҚБК<s n="abbr"/></r></p></e>
+<e><p><l>CAO<s n="n"/><s n="acr"/></l><r>ӘқБК<s n="abbr"/></r></p></e>
 <e><p><l>RK<s n="n"/><s n="acr"/></l><r>ҚР<s n="abbr"/></r></p></e>
 <e><p><l>PSC<s n="n"/><s n="acr"/></l><r>ХҚКО<s n="abbr"/></r></p></e>
 <e><p><l>backrest<s n="n"/></l><r>арқа<s n="n"/></r></p></e>
@@ -15179,6 +15180,7 @@
 <e><p><l>DC<s n="num"/><s n="mf"/><s n="sg"/></l><r>DC<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>E<s n="num"/><s n="mf"/><s n="sg"/></l><r>E<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>i<s n="num"/><s n="mf"/><s n="sg"/></l><r>i<s n="num"/><s n="ord"/></r></p></e>
+<e r="RL"><p><l>I<s n="num"/><s n="mf"/><s n="sg"/></l><r>I<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>ii<s n="num"/><s n="mf"/><s n="sg"/></l><r>ii<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>II<s n="num"/><s n="mf"/><s n="sg"/></l><r>II<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>iii<s n="num"/><s n="mf"/><s n="sg"/></l><r>iii<s n="num"/><s n="ord"/></r></p></e>

@@ -491,3 +491,8 @@ cat ../apertium-testing/apertium-eng-kaz/Coding_challenge/corpus\ Lab\ IIS\ \(59
 words with starts:
 cat Coding_challenge/corpus\ Lab\ IIS\ \(5925\).kz |apertium -d. kaz-eng| grep -o '*[^"]*'|cut -f1 -d ' '
 
+
+из лекса
+cat ../apertium-kaz/apertium-kaz.kaz.lexc|grep "N1"|cut -f1 -d ':'|apertium -d. kaz-eng|grep "\*"
+
+

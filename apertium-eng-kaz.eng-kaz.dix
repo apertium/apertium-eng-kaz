@@ -23735,6 +23735,44 @@
 <e><p><l>Mubarak<s n="np"/><s n="cog"/></l><r>Мүбарак<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
 
+<e><p><l>curtain<s n="n"/></l><r>перде<s n="n"/></r></p></e>
+<e><p><l>sponge<s n="n"/></l><r>ысқыш<s n="n"/></r></p></e>
+<e><p><l>slide<s n="n"/></l><r>төбешік<s n="n"/></r></p></e>
+<e><p><l>bagpipe<s n="n"/></l><r>волынка<s n="n"/></r></p></e>
+<e><p><l>video<s n="n"/></l><r>бейнетүсірілім<s n="n"/></r></p></e>
+<e><p><l>entertainment<s n="n"/></l><r>сауық<b/>кеші<s n="n"/></r></p></e>
+<e><p><l>valerian<s n="n"/></l><r>валерьянка<s n="n"/></r></p></e>
+<e><p><l>billet<s n="n"/></l><r>болванка<s n="n"/></r></p></e>
+<e><p><l>gasoline<b/>column<s n="n"/></l><r>бензин<b/>колонкасы<s n="n"/></r></p></e>
+<e><p><l>petrol<b/>station<s n="n"/></l><r>бензин<b/>құю<b/>станциясы<s n="n"/></r></p></e>
+<e><p><l>warhead<s n="n"/></l><r>оқтұмсық<s n="n"/></r></p></e>
+<e><p><l>baseball<s n="n"/></l><r>бейсболка<s n="n"/></r></p></e>
+<e><p><l>bud<s n="n"/></l><r>бүршік<s n="n"/></r></p></e>
+<e><p><l>askorbinka<s n="n"/></l><r>аскорбинка<s n="n"/></r></p></e>
+<e><p><l>orchestration<s n="n"/></l><r>аранжировка<s n="n"/></r></p></e>
+<e><p><l>circus<b/>artist<s n="n"/></l><r>цирк<b/>әртісі<s n="n"/></r></p></e>
+<e><p><l>shopshek<s n="n"/></l><r>шөпшек<s n="n"/></r></p></e>
+<e><p><l>cinderella<s n="n"/></l><r>күлбике<s n="n"/></r></p></e>
+<e><p><l>granddaughter<s n="n"/></l><r>немере<b/>қыз<s n="n"/></r></p></e>
+<e><p><l>bug<s n="n"/></l><r>шыбын-шіркей<s n="n"/></r></p></e>
+<e><p><l>richest<b/>woman<s n="n"/></l><r>бай<b/>әйел<s n="n"/></r></p></e>
+<e><p><l>brother<s n="n"/></l><r>інішек<s n="n"/></r></p></e>
+<e><p><l>rucksack<s n="n"/></l><r>қоржын<s n="n"/></r></p></e>
+<e><p><l>swings<s n="n"/></l><r>әткеншек<s n="n"/></r></p></e>
+<e><p><l>TV<b/>presenter<s n="n"/></l><r>тележүргізуші<s n="n"/></r></p></e>
+<e><p><l>prime<b/>minister<s n="n"/></l><r>мемлекеттік<b/>хатшы<s n="n"/></r></p></e>
+<e><p><l>draftsman<s n="n"/></l><r>сызбашы<s n="n"/></r></p></e>
+<e><p><l>aberration<s n="n"/></l><r>аберрация<s n="n"/></r></p></e>
+<e><p><l>ablation<s n="n"/></l><r>абляция<s n="n"/></r></p></e>
+<e><p><l>abolitionist<s n="n"/></l><r>аболиционист<s n="n"/></r></p></e>
+<e><p><l>absolute<s n="n"/></l><r>абсолют<s n="n"/></r></p></e>
+<e><p><l>abscissa<s n="n"/></l><r>абсцисса<s n="n"/></r></p></e>
+<e><p><l>anxiety<s n="n"/></l><r>абыржушылық<s n="n"/></r></p></e>
+<e><p><l>reputation<s n="n"/></l><r>абырой<s n="n"/></r></p></e>
+
+
+
+
 <e>
       <re>[A-Z][a-z]+</re>
         <i><s n="np"/><s n="unk"/></i>

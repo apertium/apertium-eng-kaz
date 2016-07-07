@@ -6740,6 +6740,7 @@
 <e><p><l>lunch<s n="n"/></l><r>түскі<b/>ас<s n="n"/></r></p></e>
 <e><p><l>lunch<s n="n"/></l><r>түскі<b/>ас<s n="n"/></r></p></e>
 <e><p><l>lunchtime<s n="n"/></l><r>ланч<b/>уақыт<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>lunchbox<s n="n"/></l><r>ланч<b/>қорап<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>lune<s n="n"/></l><r>координата<b/>тор<b/>зона<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>lunge<s n="n"/></l><r>арқан<s n="n"/></r></p></e>
 <e><p><l>lung<s n="n"/></l><r>өкпе<s n="n"/></r></p></e>
@@ -8844,6 +8845,7 @@
 <e><p><l>proton<s n="n"/></l><r>протон<s n="n"/></r></p></e>
 <e><p><l>protoplasm<s n="n"/></l><r>протоплазма<s n="n"/></r></p></e>
 <e><p><l>prototype<s n="n"/></l><r>прототип<s n="n"/></r></p></e>
+<e><p><l>prototyping<s n="n"/></l><r>үлгілеу<s n="n"/></r></p></e>
 <e><p><l>protozoon<s n="n"/></l><r>протозун<s n="n"/></r></p></e>
 <e><p><l>protrusion<s n="n"/></l><r>нысан<b/>сөз<s n="n"/></r></p></e>
 <e><p><l>protuberance<s n="n"/></l><r>дөңес<b/>жер<s n="n"/></r></p></e>
@@ -17385,6 +17387,7 @@
 <e><p><l>excessive<s n="adj"/></l><r>әдеттен<s n="adj"/></r></p></e>
 <e><p><l>exchangeable<s n="adj"/></l><r>ауысымды<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>exciting<s n="adj"/></l><r>толқытатын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>excited<s n="adj"/></l><r>толқытатын<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>exclusive<s n="adj"/></l><r>ерекше<s n="adj"/></r></p></e>
 <e><p><l>exculpatory<s n="adj"/></l><r>ақтайтын<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>executable<s n="adj"/></l><r>орындалатын<s n="adj"/><s n="subst"/></r></p></e>
@@ -19074,6 +19077,7 @@
 <e><p><l>sad<s n="adj"/></l><r>мұңды<s n="adj"/></r></p></e>
 <e><p><l>saddled<s n="adj"/></l><r>ауыртпалы<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>in<b/>safe<s n="adj"/></l><r>қауіпсіз<s n="adj"/></r></p></e>
+<e><p><l>safe<s n="adj"/></l><r>қауіпсіз<s n="adj"/></r></p></e>
 <e><p><l>saint<s n="adj"/></l><r>пірәдар<s n="adj"/></r></p></e>
 <e><p><l>salaried<s n="adj"/></l><r>штаттық<s n="adj"/></r></p></e>
 <e><p><l>salient<s n="adj"/></l><r>баяндамашы<s n="adj"/></r></p></e>
@@ -21789,6 +21793,7 @@
 <e><p><l>shift<s n="vblex"/></l><r>ауыстыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>shimmer<s n="vblex"/></l><r>жылтыра<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>shine<s n="vblex"/></l><r>жарқыра<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>ship<s n="vblex"/></l><r>жібер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>shipwreck<s n="vblex"/></l><r>батыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>shiver<s n="vblex"/></l><r>қалтыра<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>shock<s n="vblex"/></l><r>шошыт<s n="v"/><s n="tv"/></r></p></e>

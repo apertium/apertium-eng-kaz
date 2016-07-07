@@ -13,7 +13,9 @@
 <rule> 
     <match lemma="aunt" tags="n.*"><select lemma="тәте" tags="n.*"/></match>
   </rule>
-
+<rule> 
+    <match lemma="kid" tags="n.*"><select lemma="бала" tags="n.*"/></match>
+  </rule>
 
 
   <rule>

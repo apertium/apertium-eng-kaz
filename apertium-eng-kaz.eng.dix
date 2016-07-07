@@ -50102,6 +50102,8 @@
 
                             <e lm="prototype" i=""><i>prototype</i><par n="house__n"/></e>
 
+                            <e lm="prototyping" i=""><i>prototyping</i><par n="house__n"/></e>
+
                             <e lm="providence" i=""><i>providence</i><par n="house__n"/></e>
 
                             <e lm="provider" i=""><i>provider</i><par n="house__n"/></e>
@@ -56938,6 +56940,8 @@
 
                             <e lm="remorseless" i=""><i>remorseless</i><par n="expensive__adj"/></e>
 
+
+                            <e lm="remotely" i=""><i>remotely</i><par n="maybe__adv"/></e>
                             <e lm="remote" i=""><i>remote</i><par n="expensive__adj"/></e>
 
                             <e lm="removable" i=""><i>removable</i><par n="expensive__adj"/></e>
@@ -64497,6 +64501,8 @@
                             <e lm="port" i=""><i>port</i><par n="expensive__adj"/></e>
 
                             <e lm="self-imposed" i=""><i>self-imposed</i><par n="expensive__adj"/></e>
+
+<e lm="excited" i=""><i>excited</i><par n="expensive__adj"/></e>
 
                             <e lm="rancid" i=""><i>rancid</i><par n="expensive__adj"/></e>
 
@@ -74862,6 +74868,8 @@
                             <e lm="mailbox" i=""><i>mailbox</i><par n="access__n"/></e>
 
                             <e lm="lunchroom" i=""><i>lunchroom</i><par n="house__n"/></e>
+
+                            <e lm="lunchbox" i=""><i>lunchbox</i><par n="house__n"/></e>
 
                             <e lm="firefighter" i=""><i>firefighter</i><par n="house__n"/></e>
 <e lm="cowbow" i=""><i>cowbow</i><par n="house__n"/></e>

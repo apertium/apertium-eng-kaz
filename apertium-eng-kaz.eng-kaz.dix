@@ -11748,11 +11748,13 @@
 
 
 
-<e><p><l>Gray<s n="np"/></l><r>Грей<s n="np"/><s n="cog"/><s n="mf"/><s n="nom"/></r></p></e>
-<e><p><l>Gray<s n="np"/></l><r>Грей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-<e><p><l>Davos<s n="np"/></l><r>Давос<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-<e><p><l>Cooksey<s n="np"/></l><r>Кукси<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-<e><p><l>Fletcher<s n="np"/></l><r>Флетчер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Gray<s n="np"/><s n="cog"/><s n="mf"/></l><r>Грей<s n="np"/><s n="cog"/><s n="mf"/><s n="nom"/></r></p></e>
+<e><p><l>Gray<s n="np"/><s n="cog"/><s n="mf"/></l><r>Грей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Choi<s n="np"/><s n="cog"/><s n="mf"/></l><r>Цой<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Prodi<s n="np"/><s n="cog"/></l><r>Проди<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Davos<s n="np"/><s n="cog"/><s n="mf"/></l><r>Давос<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Cooksey<s n="np"/><s n="cog"/><s n="mf"/></l><r>Кукси<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Fletcher<s n="np"/><s n="cog"/><s n="mf"/></l><r>Флетчер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
 
 
@@ -12337,6 +12339,7 @@
 <e><p><l>Ahmar<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Ahmad<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмад<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Akhmediyar<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмедияр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Romano<s n="np"/><s n="ant"/><s n="m"/></l><r>Романо<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Akhmetzhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахметжан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Ahmed<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмед<s n="np"/><s n="ant"/><s n="m"/></r></p></e>

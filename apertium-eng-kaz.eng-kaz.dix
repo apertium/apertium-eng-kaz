@@ -136,6 +136,10 @@
   </sdefs>
   <section id="main" type="standard">
 <e r="RL"><p><l></l><r>лы<s n="post"/><s n="acc"/></r></p></e>
+<e r="RL"><p><l></l><r>лы<s n="post"/></r></p></e>
+<e r="RL"><p><l></l><r>орай<s n="post"/></r></p></e>
+<e r="RL"><p><l></l><r>қарамастан<s n="post"/></r></p></e>
+<e r="RL"><p><l></l><r>әрі<s n="cnjcoo"/></r></p></e>
 <e r="RL"><p><l></l><r>ет<s n="vaux"/></r></p></e>
 <e r="RL"><p><l>by<s n="pr"/></l><r>бойынша<s n="post"/></r></p></e>
 <e r="RL"><p><l></l><r>-ақ<s n="postadv"/></r></p></e>
@@ -216,6 +220,7 @@
 <e><p><l>inside<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>instead<b/>of<s n="pr"/></l><r>орын<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>intended<b/>for<s n="pr"/></l><r>арналған<s n="post"/><s n="Rdat"/></r></p></e>
+<e><p><l>intended<b/>for<s n="pr"/></l><r>арналған<s n="post"/></r></p></e>
 <e><p><l>into<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>like<s n="pr"/></l><r>сияқты<s n="post"/></r></p></e>
 <e><p><l>near<s n="pr"/></l><r>тұс<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -7558,6 +7563,7 @@
 <e><p><l>millimetre<s n="n"/></l><r>миллиметр<s n="n"/></r></p></e>
 <e><p><l>millionaire<s n="n"/></l><r>миллионер<s n="n"/></r></p></e>
 <e><p><l>million<s n="n"/></l><r>миллион<s n="n"/></r></p></e>
+<e><p><l>million<s n="n"/></l><r>млн.<s n="n"/></r></p></e>
 <e><p><l>millisecond<s n="n"/></l><r>миллисекунд<s n="n"/></r></p></e>
 <e><p><l>mill<s n="n"/></l><r>диірмен<s n="n"/></r></p></e>
 <e><p><l>mimosa<s n="n"/></l><r>мимоза<s n="n"/></r></p></e>
@@ -9508,6 +9514,7 @@
 <e><p><l>reafforestation<s n="n"/></l><r>орманды<b/>қалпына<b/>келтіру<s n="n"/></r></p></e>
 <e><p><l>reagent<s n="n"/></l><r>реагент<s n="n"/></r></p></e>
 <e><p><l>realisation<s n="n"/></l><r>жүзеге<b/>асыру<s n="n"/></r></p></e>
+<e><p><l>realisation<s n="n"/></l><r>іске<b/>асыру<s n="n"/></r></p></e>
 <e><p><l>realism<s n="n"/></l><r>реализм<s n="n"/></r></p></e>
 <e><p><l>reality<s n="n"/></l><r>жүзе<s n="n"/></r></p></e>
 <e><p><l>reallocation<s n="n"/></l><r>қайта<b/>бөліс<s n="n"/></r></p></e>
@@ -10112,6 +10119,7 @@
 <e><p><l>seashell<s n="n"/></l><r>теңіз<b/>қабыршақ<s n="n"/></r></p></e>
 <e><p><l>seasickness<s n="n"/></l><r>теңіз<b/>ауруы<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>sea<s n="n"/></l><r>теңіз<s n="n"/></r></p></e>
+<e><p><l>sea<b/>port<s n="n"/></l><r>теңіз<b/>порт<s n="n"/></r></p></e>
 <e><p><l>season<s n="n"/></l><r>мезгіл<s n="n"/></r></p></e>
 <e><p><l>seat<s n="n"/></l><r>орындық<s n="n"/></r></p></e>
 <e><p><l>seaweed<s n="n"/></l><r>теңіз<b/>балдыр<s n="n"/><s n="px3sp"/></r></p></e>
@@ -11080,6 +11088,7 @@
 <e><p><l>Tartar<s n="n"/></l><r>тартар<s n="n"/></r></p></e>
 <e><p><l>task<s n="n"/></l><r>мақсат<s n="n"/></r></p></e>
 <e><p><l>Tatar<s n="n"/></l><r>татар<s n="n"/></r></p></e>
+<e><p><l>Uighur<s n="n"/></l><r>ұйғыр<s n="n"/></r></p></e>
 <e><p><l>tautology<s n="n"/></l><r>тавтология<s n="n"/></r></p></e>
 <e><p><l>taxation<s n="n"/></l><r>салық<b/>салу<s n="n"/></r></p></e>
 <e><p><l>taxi<s n="n"/></l><r>такси<s n="n"/></r></p></e>
@@ -11564,6 +11573,14 @@
 <e><p><l>turret<s n="n"/></l><r>мұнара<s n="n"/></r></p></e>
 <e><p><l>turtle<s n="n"/></l><r>дүнияуи<s n="n"/></r></p></e>
 <e><p><l>tutor<s n="n"/></l><r>ұстаз<s n="n"/></r></p></e>
+<e><p><l>tutor<s n="n"/></l><r>жетекші<s n="n"/></r></p></e>
+<e><p><l>guide<s n="n"/></l><r>жетекші<s n="n"/></r></p></e>
+<e><p><l>tutoress<s n="n"/></l><r>жетекші<s n="n"/></r></p></e>
+<e><p><l>superintendent<s n="n"/></l><r>жетекші<s n="n"/></r></p></e>
+<e><p><l>director<s n="n"/></l><r>жетекші<s n="n"/></r></p></e>
+<e><p><l>leader<s n="n"/></l><r>жетекші<s n="n"/></r></p></e>
+<e><p><l>supervisor<s n="n"/></l><r>жетекші<s n="n"/></r></p></e>
+<e><p><l>manager<s n="n"/></l><r>жетекші<s n="n"/></r></p></e>
 <e><p><l>tuxedo<s n="n"/></l><r>смокинг<s n="n"/></r></p></e>
 <e><p><l>tweet<s n="n"/></l><r>шырыл<s n="n"/></r></p></e>
 <e><p><l>twig<s n="n"/></l><r>шыбық<s n="n"/></r></p></e>
@@ -15375,6 +15392,7 @@
 <e><p><l>Abdenov<s n="np"/><s n="cog"/></l><r>Әбденов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Abdishev<s n="np"/><s n="cog"/></l><r>Әбдішев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Abdrakhimov<s n="np"/><s n="cog"/></l><r>Әбдірахымов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ashimov<s n="np"/><s n="cog"/></l><r>Әшімов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Abdrayimov<s n="np"/><s n="cog"/></l><r>Әбдірайымов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Abrial<s n="np"/><s n="cog"/></l><r>Абриал<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Absieh<s n="np"/><s n="cog"/></l><r>Абсиех<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -16019,7 +16037,8 @@
 <e><p><l>Aspara<s n="np"/><s n="top"/><s n="sg"/></l><r>Аспара<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aspizhab<s n="np"/><s n="top"/><s n="sg"/></l><r>Аспижаб<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
-<e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/><s n="loc"/></r></p></e>
+<e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Astrakhan<s n="np"/><s n="top"/><s n="sg"/></l><r>Астрахан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Asturias<s n="np"/><s n="top"/><s n="sg"/></l><r>Астурия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Asubulak<s n="np"/><s n="top"/><s n="sg"/></l><r>Асубұлақ<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -16633,6 +16652,7 @@
 <e><p><l>Seville<s n="np"/><s n="top"/><s n="sg"/></l><r>Севилья<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Seychelles<s n="np"/><s n="top"/><s n="sg"/></l><r>Сейшель<b/>аралдары<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Shanghai<s n="np"/><s n="top"/><s n="sg"/></l><r>Шанхай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Shanghai<s n="np"/><s n="top"/><s n="sg"/></l><r>Шанхай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Shymkent<s n="np"/><s n="top"/><s n="sg"/></l><r>Шымкент<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Sichuan<s n="np"/><s n="top"/><s n="sg"/></l><r>Сычуань<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Sicily<s n="np"/><s n="top"/><s n="sg"/></l><r>Сицилия<s n="np"/><s n="top"/></r></p></e>
@@ -16944,6 +16964,7 @@
 <e><p><l>yet<s n="cnjadv"/></l><r>әуелі<s n="adv"/></r></p></e>
 <e r="RL"><p><l>and<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
 <e r="RL"><p><l>and<s n="cnjcoo"/></l><r>мен<s n="cnjcoo"/></r></p></e>
+<e r="RL"><p><l>and<s n="cnjcoo"/></l><r>мен<s n="post"/></r></p></e>
 <e><p><l>and<s n="cnjcoo"/></l><r>және<s n="cnjcoo"/></r></p></e>
 <e><p><l>both<s n="cnjcoo"/></l><r>екеуі<s n="cnjcoo"/></r></p></e>
 <e><p><l>both<s n="cnjcoo"/></l><r>екеуі<s n="cnjcoo"/></r></p></e>
@@ -17242,6 +17263,7 @@
 <e><p><l>freely<s n="adv"/></l><r>еркін<s n="adv"/></r></p></e>
 <e><p><l>frequently<s n="adv"/></l><r>жиі<s n="adv"/></r></p></e>
 <e><p><l>freshly<s n="adv"/></l><r>жас<s n="adv"/></r></p></e>
+<e><p><l>freshly<s n="adv"/></l><r>жаңа<s n="adv"/></r></p></e>
 <e><p><l>fully<s n="adv"/></l><r>толықтай<s n="adv"/></r></p></e>
 <e><p><l>functionally<s n="adv"/></l><r>функционалді<s n="adv"/></r></p></e>
 <e><p><l>fundamentally<s n="adv"/></l><r>іргелі<s n="adv"/></r></p></e>
@@ -17803,6 +17825,7 @@
 <e><p><l>acrosomal<s n="adj"/></l><r>акросомды<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>active<s n="adj"/></l><r>белсенді<s n="adj"/></r></p></e>
 <e><p><l>actual<s n="adj"/></l><r>шын<b/>мәнісінде<s n="adj"/></r></p></e>
+<e><p><l>actual<s n="adj"/></l><r>өзекті<s n="adj"/></r></p></e>
 <e><p><l>actuarial<s n="adj"/></l><r>актуарлық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>acute<s n="adj"/></l><r>өткір<s n="adj"/></r></p></e>
 <e><p><l>acyclic<s n="adj"/></l><r>ациклдық<s n="adj"/><s n="subst"/></r></p></e>
@@ -19536,6 +19559,7 @@
 <e><p><l>inter<s n="adj"/></l><r>ішкі<s n="adj"/></r></p></e>
 <e><p><l>interspecific<s n="adj"/></l><r>түраралық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>interstate<s n="adj"/></l><r>еларалық<s n="adj"/></r></p></e>
+<e><p><l>interstate<s n="adj"/></l><r>мемлекетаралық<s n="adj"/></r></p></e>
 <e><p><l>interstellar<s n="adj"/></l><r>жұлдызаралық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>interuniversity<s n="adj"/></l><r>университетаралық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>intestate<s n="adj"/></l><r>мирассыз<s n="adj"/><s n="subst"/></r></p></e>
@@ -19793,6 +19817,7 @@
 <e><p><l>monolingual<s n="adj"/></l><r>біртілді<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>monoploid<s n="adj"/></l><r>моноплойдты<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>monosemic<s n="adj"/></l><r>бірмағыналы<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>semantic<s n="adj"/></l><r>семантикалық<s n="adj"/></r></p></e>
 <e><p><l>monostable<s n="adj"/></l><r>монотұрақты<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>monosyllabic<s n="adj"/></l><r>бірбуынды<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>monotone<s n="adj"/></l><r>бірсарынды<s n="adj"/><s n="subst"/></r></p></e>
@@ -19885,6 +19910,7 @@
 <e><p><l>military<s n="adj"/></l><r>әскери<s n="adj"/></r></p></e>
 <e><p><l>military-accounting<s n="adj"/></l><r>әскери-есептік<s n="adj"/></r></p></e>
 <e><p><l>mineral<s n="adj"/></l><r>минералды<s n="adj"/></r></p></e>
+<e><p><l>mineral<s n="adj"/></l><r>минералдық<s n="adj"/></r></p></e>
 <e><p><l>mini<s n="adj"/></l><r>кішкентай<s n="adj"/></r></p></e>
 <e><p><l>minimal<s n="adj"/></l><r>ең<b/>төмен<s n="adj"/></r></p></e>
 <e><p><l>minimum<s n="adj"/></l><r>минимум<s n="adj"/></r></p></e>
@@ -19960,6 +19986,7 @@
 <e><p><l>nasal<s n="adj"/></l><r>мұрындық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>natal<s n="adj"/></l><r>туған<s n="adj"/></r></p></e>
 <e><p><l>national<s n="adj"/></l><r>ұлттық<s n="adj"/></r></p></e>
+<e><p><l>national<s n="adj"/></l><r>мемлекеттік<s n="adj"/></r></p></e>
 <e><p><l>native<s n="adj"/></l><r>жақын<s n="adj"/></r></p></e>
 <e><p><l>nato<s n="adj"/></l><r>натолық<s n="adj"/></r></p></e>
 <e><p><l>naturalistic<s n="adj"/></l><r>натуралистік<s n="adj"/><s n="subst"/></r></p></e>
@@ -21497,6 +21524,7 @@
 <e><p><l>thirteenth<s n="det"/><s n="ord"/><s n="sp"/></l><r>он<b/>үш<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>thirtieth<s n="det"/><s n="ord"/><s n="sp"/></l><r>отыз<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>thousandth<s n="det"/><s n="ord"/><s n="sp"/></l><r>мың<s n="num"/><s n="ord"/></r></p></e>
+<e><p><l>thousand<s n="num"/><s n="sp"/></l><r>мың<s n="num"/><s n="subst"/></r></p></e>
 <e><p><l>twelfth<s n="det"/><s n="ord"/><s n="sp"/></l><r>он<b/>екі<s n="num"/><s n="ord"/></r></p></e>
 <e><p><l>twentieth<s n="det"/><s n="ord"/><s n="sp"/></l><r>жиырма<s n="num"/><s n="ord"/><s n="subst"/><s n="nom"/></r></p></e>
 
@@ -21590,6 +21618,7 @@
 <e><p><l>this<s n="det"/><s n="dem"/></l><r>мына<s n="prn"/><s n="dem"/><s n="nom"/></r></p></e>
 <e><p><l>this<s n="det"/><s n="dem"/></l><r>мына<s n="prn"/><s n="dem"/></r></p></e>
 <e><p><l>this<s n="det"/><s n="dem"/></l><r>мынау<s n="det"/><s n="dem"/></r></p></e>
+<e><p><l>this<s n="det"/><s n="dem"/></l><r>бұл<s n="det"/><s n="dem"/></r></p></e>
 <e><p><l>this<s n="det"/><s n="dem"/></l><r>аталмыш<s n="adj"/></r></p></e>
 <e><p><l>another<s n="det"/><s n="ind"/></l><r>қайсыбір<s n="det"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>not<s n="det"/><s n="ind"/></l><r></r></p></e>
@@ -24333,6 +24362,7 @@
 <e><p><l>korean<s n="n"/></l><r>корей<s n="n"/></r></p></e>
 <e><p><l>cooperation<s n="n"/></l><r>кооперация<s n="n"/></r></p></e>
 <e><p><l>resettlement<s n="n"/></l><r>қоныс<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>settlement<s n="n"/></l><r>елді<b/>мекен<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>resettlement<s n="n"/></l><r>қоныс<s n="n"/></r></p></e>
 <e><p><l>attach<s n="vblex"/></l><r>қондыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>combine<s n="n"/></l><r>комбинат<s n="n"/></r></p></e>

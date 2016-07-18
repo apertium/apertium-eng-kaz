@@ -76,6 +76,27 @@
   </rule>
 
 
+<rule>
+    <match lemma="head" tags="n.*"><select lemma="басшы" tags="n.*"/></match>
+    <match lemma="of" tags="pr"/>
+    <match lemma="the" tags="det.*"/>
+    <match lemma="state" tags="n.*"/>
+  </rule>
+
+<rule>
+    <match lemma="head" tags="n.*"><select lemma="басшы" tags="n.*"/></match>
+    <match lemma="of" tags="pr"/>
+    <match lemma="government" tags="n.*"/>
+  </rule>
+
+
+<rule>
+    <match lemma="head" tags="n.*"><select lemma="басшы" tags="n.*"/></match>
+    <match lemma="of" tags="pr"/>
+    <match lemma="the" tags="det.*"/>
+    <match lemma="government" tags="n.*"/>
+  </rule>
+
   <rule>
     <match lemma="government" tags="n.*"/>
     <match lemma="residence" tags="n.*"><select lemma="резиденция" tags="n.*"/></match>
@@ -156,12 +177,33 @@
   </rule>
 
 <rule>
+    <match lemma="green" tags="adj"/>
+    <match lemma="plant" tags="n.*"><select lemma="өсімдік" tags="n.*"/></match>
+
+  </rule>
+
+
+ <rule>
+    <match lemma="beautiful" tags="adj"/>
+    <match lemma="plant" tags="n.*"><select lemma="өсімдік" tags="n.*"/></match>
+
+  </rule>
+
+<rule>
     <match lemma="picture" tags="n.*"/>
     <match lemma="of" tags="pr"/>
     <match lemma="artist" tags="n.*"><select lemma="суретші" tags="n.*"/></match>
     
 
   </rule>
+
+<rule>
+    <match lemma="football" tags="n.*"/>
+    <match lemma="field" tags="n.*"><select lemma="алаң" tags="n.*"/></match>
+    
+
+  </rule>
+
 
 <rule>
     <match lemma="in" tags="pr"/>

@@ -53120,6 +53120,8 @@
 
                             <e lm="trade route" i=""><i>trade<b/>route</i><par n="house__n"/></e>
 
+ <e lm="trade and economical" i=""><i>trade<b/>and<b/>economical</i><par n="expensive__adj"/></e>
+
                             <e lm="trading" i=""><i>trading</i><par n="east__n"/></e>
 
                             <e lm="tradition" i=""><i>tradition</i><par n="house__n"/></e>
@@ -82186,6 +82188,8 @@
 <e lm="Lapin" i=""><i>Lapin</i><par n="Smith__np"/></e>
 <e lm="Laptev" i=""><i>Laptev</i><par n="Smith__np"/></e>
 <e lm="Larionov" i=""><i>Larionov</i><par n="Smith__np"/></e>
+<e lm="Berlusconi" i=""><i>Berlusconi</i><par n="Smith__np"/></e>
+<e lm="Kanapiyanovnov" i=""><i>Kanapiyanov</i><par n="Smith__np"/></e>
 <e lm="Latypov" i=""><i>Latypov</i><par n="Smith__np"/></e>
 <e lm="Lebedev" i=""><i>Lebedev</i><par n="Smith__np"/></e>
 <e lm="Levin" i=""><i>Levin</i><par n="Smith__np"/></e>
@@ -82194,6 +82198,27 @@
 <e lm="Lekerov" i=""><i>Lekerov</i><par n="Smith__np"/></e>
 <e lm="Lenin" i=""><i>Lenin</i><par n="Smith__np"/></e>
 <e lm="Lenkov" i=""><i>Lenkov</i><par n="Smith__np"/></e>
+<e lm="Zhakanov" i=""><i>Zhakanov</i><par n="Smith__np"/></e>
+<e lm="Korazbaev" i=""><i>Korazbaev</i><par n="Smith__np"/></e>
+<e lm="Dadebaev" i=""><i>Dadebaev</i><par n="Smith__np"/></e>
+<e lm="Kabdolov" i=""><i>Kabdolov</i><par n="Smith__np"/></e>
+<e lm="Kumisbaev" i=""><i>Kumisbaev</i><par n="Smith__np"/></e>
+<e lm="Farabi" i=""><i>Farabi</i><par n="Smith__np"/></e>
+<e lm="Abishev" i=""><i>Abishev</i><par n="Smith__np"/></e>
+<e lm="Ormanbaev" i=""><i>Ormanbaev</i><par n="Smith__np"/></e>
+<e lm="Dosymov" i=""><i>Dosymov</i><par n="Smith__np"/></e>
+<e lm="Kurgancev" i=""><i>Kurgancev</i><par n="Smith__np"/></e>
+<e lm="Yevtushenko" i=""><i>Yevtushenko</i><par n="Smith__np"/></e>
+<e lm="Baitursynuly" i=""><i>Baitursynuly</i><par n="Smith__np"/></e>
+<e lm="Bokeykhanuly" i=""><i>Bokeykhanuly</i><par n="Smith__np"/></e>
+<e lm="Dulatuly" i=""><i>Dulatuly</i><par n="Smith__np"/></e>
+<e lm="Korazbaev" i=""><i>Korazbaev</i><par n="Smith__np"/></e>
+<e lm="Tynaliyev" i=""><i>Tynaliyev</i><par n="Smith__np"/></e>
+<e lm="Berdimuhamedov" i=""><i>Berdimuhamedov</i><par n="Smith__np"/></e>
+<e lm="Rakishev" i=""><i>Rakishev</i><par n="Smith__np"/></e>
+<e lm="Xamidullaev" i=""><i>Xamidullaev</i><par n="Smith__np"/></e>
+<e lm="Sedov" i=""><i>Sedov</i><par n="Smith__np"/></e>
+
 <e lm="Leone" i=""><i>Leone</i><par n="Smith__np"/></e>
 <e lm="Leontiev" i=""><i>Leontiev</i><par n="Smith__np"/></e>
 <e lm="Lermontov" i=""><i>Lermontov</i><par n="Smith__np"/></e>

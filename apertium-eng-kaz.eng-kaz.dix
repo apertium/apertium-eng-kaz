@@ -7686,6 +7686,7 @@
 <e><p><l>millionaire<s n="n"/></l><r>миллионер<s n="n"/></r></p></e>
 <e><p><l>million<s n="n"/></l><r>миллион<s n="n"/></r></p></e>
 <e><p><l>million<s n="n"/></l><r>млн.<s n="n"/></r></p></e>
+<e><p><l>million<s n="n"/></l><r>млн<s n="n"/></r></p></e>
 <e><p><l>millisecond<s n="n"/></l><r>миллисекунд<s n="n"/></r></p></e>
 <e><p><l>mill<s n="n"/></l><r>диірмен<s n="n"/></r></p></e>
 <e><p><l>mimosa<s n="n"/></l><r>мимоза<s n="n"/></r></p></e>
@@ -12530,6 +12531,7 @@
 <e><p><l>Medet<s n="np"/><s n="ant"/><s n="m"/></l><r>Медет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Taiyr<s n="np"/><s n="ant"/><s n="m"/></l><r>Тайыр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Almazbek<s n="np"/><s n="ant"/><s n="m"/></l><r>Алмазбек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Ulan<s n="np"/><s n="ant"/><s n="m"/></l><r>Ұлан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Almaz<s n="np"/><s n="ant"/><s n="m"/></l><r>Алмаз<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Erzhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Ержан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Almas<s n="np"/><s n="ant"/><s n="m"/></l><r>Алмас<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -15739,6 +15741,28 @@
 <e><p><l>Marchenko<s n="np"/><s n="cog"/></l><r>Марченко<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Martinez<s n="np"/><s n="cog"/></l><r>Мартинес<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Massimov<s n="np"/><s n="cog"/></l><r>Мәсімов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+
+
+<e><p><l>Korazbaev<s n="np"/><s n="cog"/></l><r>Қоразбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dadebaev<s n="np"/><s n="cog"/></l><r>Дәдебаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kabdolov<s n="np"/><s n="cog"/></l><r>Қабдолов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kumisbaev<s n="np"/><s n="cog"/></l><r>Күмісбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Farabi<s n="np"/><s n="cog"/></l><r>Фараби<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Abishev<s n="np"/><s n="cog"/></l><r>Әбішев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ormanbaev<s n="np"/><s n="cog"/></l><r>Орманбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dosymov<s n="np"/><s n="cog"/></l><r>Досымов <s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kurgancev<s n="np"/><s n="cog"/></l><r>Курганцев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Yevtushenko<s n="np"/><s n="cog"/></l><r>Евтушенко<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Baitursynuly<s n="np"/><s n="cog"/></l><r>Байтұрсынұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Bokeykhanuly<s n="np"/><s n="cog"/></l><r>Бөкейханұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dulatuly<s n="np"/><s n="cog"/></l><r>Дулатұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Korazbaev<s n="np"/><s n="cog"/></l><r>Қоразбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tynaliyev<s n="np"/><s n="cog"/></l><r>Тінәлиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Berdimuhamedov<s n="np"/><s n="cog"/></l><r>Бердімұхамедов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Rakishev<s n="np"/><s n="cog"/></l><r>Рақышев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Xamidullaev<s n="np"/><s n="cog"/></l><r>Хамидуллаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Sedov<s n="np"/><s n="cog"/></l><r>Седов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Zhakanov<s n="np"/><s n="cog"/></l><r>Жақанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>McAleese<s n="np"/><s n="cog"/></l><r>Макалис<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>McCain<s n="np"/><s n="cog"/></l><r>Маккейн<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Melville<s n="np"/><s n="cog"/></l><r>Мелвилл<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -16187,6 +16211,7 @@
 <e><p><l>Aspantau<s n="np"/><s n="top"/><s n="sg"/></l><r>Аспантау<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aspara<s n="np"/><s n="top"/><s n="sg"/></l><r>Аспара<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aspizhab<s n="np"/><s n="top"/><s n="sg"/></l><r>Аспижаб<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Tyan-Shan<s n="np"/><s n="top"/><s n="sg"/></l><r>Тянь-Шань<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/><s n="loc"/></r></p></e>
 <e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/></r></p></e>
@@ -20043,6 +20068,7 @@
 <e><p><l>mental<s n="adj"/></l><r>ментальді<s n="adj"/></r></p></e>
 <e><p><l>mental<s n="adj"/></l><r>психикалық<s n="adj"/></r></p></e>
 <e><p><l>mercantile<s n="adj"/></l><r>саудалық<s n="adj"/></r></p></e>
+<e><p><l>trade<b/>and<b/>economical<s n="adj"/></l><r>сауда-экономикалық<s n="adj"/></r></p></e>
 <e><p><l>merciless<s n="adj"/></l><r>рақымсыз<s n="adj"/></r></p></e>
 <e><p><l>mere<s n="adj"/></l><r>жай<s n="adj"/></r></p></e>
 <e><p><l>metabolic<s n="adj"/></l><r>метаболиялық<s n="adj"/></r></p></e>
@@ -24651,11 +24677,13 @@
 <e><p><l>SSR<s n="np"/><s n="al"/></l><r>КСР<s n="abbr"/></r></p></e>
 <e><p><l>isatai<s n="np"/><s n="ant"/><s n="m"/></l><r>Исатай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Zhansugurov<s n="np"/><s n="cog"/></l><r>Жансүгіров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Berlusconi<s n="np"/><s n="cog"/></l><r>Берлускони<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>work<s n="vblex"/></l><r>еңбектен<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>Abylkhair<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбілқайыр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Grigoriev<s n="np"/><s n="cog"/></l><r>Григорьев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Grigorieva<s n="np"/><s n="cog"/></l><r>Григорьева<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Gorky<s n="np"/><s n="cog"/></l><r>Горький<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kanapiyanov<s n="np"/><s n="cog"/></l><r>Қанапиянов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Baitursynov<s n="np"/><s n="cog"/></l><r>Байтұрсынов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Lombardi<s n="np"/><s n="cog"/></l><r>Ломбарди<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Bobrov<s n="np"/><s n="cog"/></l><r>Бобров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

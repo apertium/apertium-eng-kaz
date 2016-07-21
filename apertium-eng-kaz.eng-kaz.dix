@@ -574,10 +574,10 @@
 <e><p><l>roughness<s n="n"/></l><r>бұдырлылық<s n="n"/></r></p></e>
 <e><p><l>dragon<s n="n"/></l><r>аждаһа<s n="n"/></r></p></e>
 <e><p><l>guise<s n="n"/></l><r>ажар<s n="n"/></r></p></e>
-<e><p><l>liberation<s n="n"/></l><r>азат<s n="n"/></r></p></e>
-<e><p><l>release<s n="n"/></l><r>азат<s n="n"/></r></p></e>
-<e><p><l>riddance<s n="n"/></l><r>азат<s n="n"/></r></p></e>
-<e><p><l>acquittal<s n="n"/></l><r>азат<s n="n"/></r></p></e>
+<e><p><l>liberation<s n="n"/></l><r>азаттық<s n="n"/></r></p></e>
+<e><p><l>release<s n="n"/></l><r>азаттық<s n="n"/></r></p></e>
+<e><p><l>riddance<s n="n"/></l><r>азаттық<s n="n"/></r></p></e>
+<e><p><l>acquittal<s n="n"/></l><r>азаттық<s n="n"/></r></p></e>
 <e><p><l>battleaxe<s n="n"/></l><r>айбалта<s n="n"/></r></p></e>
 <e><p><l>axe<s n="n"/></l><r>айбалта<s n="n"/></r></p></e>
 <e><p><l>tomahawk<s n="n"/></l><r>айбалта<s n="n"/></r></p></e>
@@ -593,7 +593,7 @@
 <e><p><l>pastureland<s n="n"/></l><r>айылым<s n="n"/></r></p></e>
 <e><p><l>moon<s n="n"/></l><r>айшық<s n="n"/></r></p></e>
 <e><p><l>crescent<s n="n"/></l><r>айшық<s n="n"/></r></p></e>
-<e><p><l>accretion<s n="n"/></l><r>аккреции<s n="n"/></r></p></e>
+<e><p><l>accretion<s n="n"/></l><r>аккреция<s n="n"/></r></p></e>
 <e><p><l>obstetrician<s n="n"/></l><r>акушер<s n="n"/></r></p></e>
 <e><p><l>accoucheur<s n="n"/></l><r>акушер<s n="n"/></r></p></e>
 <e><p><l>tocologist<s n="n"/></l><r>акушер<s n="n"/></r></p></e>
@@ -648,9 +648,9 @@
 <e><p><l>transfer<s n="n"/></l><r>аударым<s n="n"/></r></p></e>
 <e><p><l>remittance<s n="n"/></l><r>аударым<s n="n"/></r></p></e>
 <e><p><l>stomatopods<s n="n"/></l><r>ауызаяқтылар<s n="n"/></r></p></e>
-<e><p><l>download<s n="n"/></l><r>тиеу<s n="n"/></r></p></e>
-<e><p><l>charge<s n="n"/></l><r>тиеу<s n="n"/></r></p></e>
-<e><p><l>batch<s n="n"/></l><r>тиеу<s n="n"/></r></p></e>
+<e><p><l>download<s n="n"/></l><r>жүктеушілік<s n="n"/></r></p></e>
+<e><p><l>charge<s n="n"/></l><r>тиеушілік<s n="n"/></r></p></e>
+<e><p><l>batch<s n="n"/></l><r>тиеушілік<s n="n"/></r></p></e>
 <e><p><l>ayat<s n="n"/></l><r>аят<s n="n"/></r></p></e>
 <e><p><l>verse<s n="n"/></l><r>аят<s n="n"/></r></p></e>
 <e><p><l>glass<s n="n"/></l><r>әйнек<s n="n"/></r></p></e>
@@ -1286,7 +1286,7 @@
 <e><p><l>acknowledgment<s n="n"/></l><r>құрмет<s n="n"/></r></p></e>
 <e><p><l>acme<s n="n"/></l><r>төбе<s n="n"/></r></p></e>
 <e><p><l>acne<s n="n"/></l><r>безеу<s n="n"/></r></p></e>
-<e><p><l>aconite<s n="n"/></l><r>аконита<s n="n"/></r></p></e>
+<e><p><l>aconite<s n="n"/></l><r>аконит<s n="n"/></r></p></e>
 <e><p><l>acorn<s n="n"/></l><r>еменжаңғақ<s n="n"/></r></p></e>
 <e><p><l>acoustics<s n="n"/></l><r>акустика<s n="n"/></r></p></e>
 <e><p><l>acp<s n="n"/></l><r>БҚА<s n="n"/></r></p></e>
@@ -1299,7 +1299,7 @@
 <e><p><l>acropolis<s n="n"/></l><r>акрополь<s n="n"/></r></p></e>
 <e><p><l>Acrosome<s n="n"/></l><r>Акросома<s n="n"/></r></p></e>
 <e><p><l>acrylic<s n="n"/></l><r>акрил<s n="n"/></r></p></e>
-<e><p><l>actin<s n="n"/></l><r>актинид<s n="n"/></r></p></e>
+<e><p><l>actin<s n="n"/></l><r>актинидия<s n="n"/></r></p></e>
 <e><p><l>action<s n="n"/></l><r>әрекет<s n="n"/></r></p></e>
 <e><p><l>activation<s n="n"/></l><r>белсендіру<s n="n"/></r></p></e>
 <e><p><l>activism<s n="n"/></l><r>белсенділік<s n="n"/></r></p></e>
@@ -2560,7 +2560,6 @@
 <e><p><l>address<s n="n"/></l><r>мекенжай<s n="n"/></r></p></e>
 <e><p><l>cripple<s n="n"/></l><r>мүгедек<s n="n"/></r></p></e>
 <e><p><l>reputation<s n="n"/></l><r>атақ<s n="n"/></r></p></e>
-<e><p><l>so-called<s n="n"/></l><r>аталмыш<s n="n"/></r></p></e>
 <e r="RL"><p><l>emblem<s n="n"/></l><r>елтаңба<s n="n"/></r></p></e>
 <e r="RL"><p><l>emblem<s n="n"/></l><r>герб<s n="n"/></r></p></e>
 <e><p><l>arms<s n="n"/></l><r>елтаңба<s n="n"/></r></p></e>
@@ -2942,7 +2941,7 @@
 <e><p><l>castle<s n="n"/></l><r>қорған<s n="n"/></r></p></e>
 <e><p><l>castling<s n="n"/></l><r>рокировка<s n="n"/></r></p></e>
 <e><p><l>castration<s n="n"/></l><r>кастрация<s n="n"/></r></p></e>
-<e><p><l>cast<s n="n"/></l><r>келтір-<s n="n"/></r></p></e>
+<e><p><l>cast<s n="n"/></l><r>келтірушілік<s n="n"/></r></p></e>
 <e><p><l>casualty<s n="n"/></l><r>құрбан<s n="n"/></r></p></e>
 <e><p><l>catabolism<s n="n"/></l><r>катаболизм<s n="n"/></r></p></e>
 <e><p><l>catacomb<s n="n"/></l><r>катакомб<s n="n"/></r></p></e>
@@ -4937,7 +4936,7 @@
 <e><p><l>eurozone<s n="n"/></l><r>еврозона<s n="n"/></r></p></e>
 <e><p><l>euthanasia<s n="n"/></l><r>эвтаназия<s n="n"/></r></p></e>
 <e><p><l>eutrophication<s n="n"/></l><r>эвтрофикация<s n="n"/></r></p></e>
-<e><p><l>evacuation<s n="n"/></l><r>қоныс<b/>аудар-<s n="n"/></r></p></e>
+<e><p><l>evacuation<s n="n"/></l><r>қоныс<b/>аударушылық<s n="n"/></r></p></e>
 <e><p><l>evaluation<s n="n"/></l><r>сарапшылық<s n="n"/></r></p></e>
 <e><p><l>evangelist<s n="n"/></l><r>інжілші<s n="n"/></r></p></e>
 <e><p><l>evaporation<s n="n"/></l><r>бу<s n="n"/></r></p></e>
@@ -5765,7 +5764,7 @@
 <e><p><l>godfather<s n="n"/></l><r>кіндік<b/>әке<s n="n"/></r></p></e>
 <e><p><l>godmother<s n="n"/></l><r>кіндік<b/>ана<s n="n"/></r></p></e>
 <e><p><l>god<s n="n"/></l><r>құдай<s n="n"/></r></p></e>
-<e><p><l>god<s n="n"/></l><r>алла<s n="n"/></r></p></e>
+<e><p><l>god<s n="n"/></l><r>Алла<s n="n"/></r></p></e>
 <e><p><l>God<s n="n"/></l><r>құдай<s n="n"/></r></p></e>
 <e><p><l>God<s n="n"/></l><r>Алла<s n="n"/></r></p></e>
 <e><p><l>God<s n="n"/></l><r>тәңір<s n="n"/></r></p></e>
@@ -6769,7 +6768,7 @@
 <e><p><l>irruption<s n="n"/></l><r>басып<b/>кіру<s n="n"/></r></p></e>
 <e><p><l>ischium<s n="n"/></l><r>шонданай<b/>сүйек<s n="n"/></r></p></e>
 <e><p><l>islamist<s n="n"/></l><r>Исламист<s n="n"/></r></p></e>
-<e><p><l>islam<s n="n"/></l><r>ислам<s n="n"/></r></p></e>
+<e><p><l>islam<s n="n"/></l><r>Ислам<s n="n"/></r></p></e>
 <e><p><l>island<s n="n"/></l><r>арал<s n="n"/></r></p></e>
 <e><p><l>isobar<s n="n"/></l><r>изобар<s n="n"/></r></p></e>
 <e><p><l>isogamy<s n="n"/></l><r>изогамия<s n="n"/></r></p></e>
@@ -7027,7 +7026,7 @@
 <e><p><l>larynx<s n="n"/></l><r>көмей<s n="n"/></r></p></e>
 <e><p><l>laser<s n="n"/></l><r>лазер<s n="n"/></r></p></e>
 <e><p><l>laser<s n="adj"/></l><r>лазерлік<s n="adj"/></r></p></e>
-<e><p><l>last<s n="n"/></l><r>соңғы<s n="n"/></r></p></e>
+<e><p><l>last<s n="n"/></l><r>соң<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>latency<s n="n"/></l><r>кешіктіру<s n="n"/></r></p></e>
 <e><p><l>laterite<s n="n"/></l><r>латерит<s n="n"/></r></p></e>
 <e><p><l>late<s n="n"/></l><r>кеш<s n="n"/></r></p></e>
@@ -11575,7 +11574,7 @@
 <e><p><l>transformer<s n="n"/></l><r>трансформатор<s n="n"/></r></p></e>
 <e><p><l>transfusion<s n="n"/></l><r>құю<s n="n"/></r></p></e>
 <e><p><l>transgression<s n="n"/></l><r>қылмыс<s n="n"/></r></p></e>
-<e><p><l>transhipment<s n="n"/></l><r>ауыстырып<b/>тиеу<s n="n"/></r></p></e>
+<e><p><l>transhipment<s n="n"/></l><r>ауыстырып<b/>тиеушілік<s n="n"/></r></p></e>
 <e><p><l>transistor<s n="n"/></l><r>транзистор<s n="n"/></r></p></e>
 <e><p><l>transition<s n="n"/></l><r>ауыспалылық<s n="n"/></r></p></e>
 <e><p><l>transit<s n="n"/></l><r>транзит<s n="n"/></r></p></e>
@@ -12254,11 +12253,10 @@
 <e><p><l>yoghourt<s n="n"/></l><r>йогурт<s n="n"/></r></p></e>
 <e><p><l>yoke<s n="n"/></l><r>ажырғы<s n="n"/></r></p></e>
 <e><p><l>young<b/>man<s n="n"/></l><r>бозбала<s n="n"/></r></p></e>
-<e><p><l>youngest<s n="n"/></l><r>жас<s n="n"/></r></p></e>
 <e><p><l>youngest<s n="n"/></l><r>кенже<s n="n"/></r></p></e>
 <e><p><l>youngster<s n="n"/></l><r>жігіт<s n="n"/></r></p></e>
 <e><p><l>youth<s n="n"/></l><r>жастық<s n="n"/></r></p></e>
-<e><p><l>youth<s n="n"/></l><r>жас<s n="n"/></r></p></e>
+<e><p><l>youth<s n="n"/></l><r>жасөспірім<s n="n"/></r></p></e>
 <e><p><l>yttrium<s n="n"/></l><r>иттрий<s n="n"/></r></p></e>
 <e><p><l>Yugoslavian<s n="n"/></l><r>Югославиялық<s n="n"/></r></p></e>
 <e><p><l>Yugoslav<s n="n"/></l><r>Югослав<s n="n"/></r></p></e>
@@ -16150,7 +16148,7 @@
 <e><p><l>Adyraspantobeh<s n="np"/><s n="top"/><s n="sg"/></l><r>Адыраспантөбе<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Afanasyev<s n="np"/><s n="top"/><s n="sg"/></l><r>Афанасьев<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Afghanistan<s n="np"/><s n="top"/><s n="sg"/></l><r>Ауғанстан<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Africa<s n="np"/><s n="top"/><s n="sg"/></l><r>Африка<s n="n"/></r></p></e>
+<e><p><l>Africa<s n="np"/><s n="top"/><s n="sg"/></l><r>Африка<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Aibas<s n="np"/><s n="top"/><s n="sg"/></l><r>Айбас<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aibas-Khaibas<s n="np"/><s n="top"/><s n="sg"/></l><r>Айбас-Қайбас<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aidabol<s n="np"/><s n="top"/><s n="sg"/></l><r>Айдабол<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -17026,7 +17024,8 @@
 <e><p><l>Uganda<s n="np"/><s n="top"/><s n="sg"/></l><r>Уганда<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ukraine<s n="np"/><s n="top"/><s n="sg"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>United<b/>Arab<b/>Emirates<s n="np"/><s n="top"/><s n="sg"/></l><r>Бірлескен<b/>араб<b/>эмират<s n="n"/><s n="pl"/><s n="px3sp"/></r></p></e>
-<e><p><l>United<b/>Arab<b/>Emirates<s n="np"/><s n="top"/><s n="sg"/></l><r>Біріккен<b/>араб<b/>эмират<s n="n"/><s n="pl"/><s n="px3sp"/></r></p></e>
+<e><p><l>United<b/>Arab<b/>Emirates<s n="np"/><s n="top"/><s n="sg"/></l><r>Біріккен<b/>араб<b/>эмират<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>United<b/>Arab<b/>Emirates<s n="np"/><s n="top"/><s n="sg"/></l><r>Біріккен<b/>араб<b/>эмираттар<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>United<b/>Kingdom<s n="np"/><s n="top"/><s n="sg"/></l><r>Ұлыбритания<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Uruguay<s n="np"/><s n="top"/><s n="sg"/></l><r>Уругвай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Utah<s n="np"/><s n="top"/><s n="sg"/></l><r>Юта<s n="np"/><s n="top"/></r></p></e>
@@ -23238,7 +23237,7 @@
 <e><p><l>destitute<s n="vblex"/></l><r>мұқтаж<b/>бол<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>plant<s n="vblex"/></l><r>қамтамасыз<b/>ету<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>suppose<s n="vblex"/></l><r>тиіс<b/>деп<b/>болжау<s n="v"/><s n="iv"/></r></p></e>
-<e><p><l>need<s n="vblex"/></l><r>қажет<s n="n"/></r></p></e>
+<e r="RL"><p><l>need<s n="vblex"/></l><r>қажет<s n="n"/></r></p></e>
 <e><p><l>neglect<s n="vblex"/></l><r>еле<s n="v"/><s n="tv"/><s n="neg"/></r></p></e>
 <e><p><l>negotiate<s n="vblex"/></l><r>келіс<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>neigh<s n="vblex"/></l><r>кісіне<s n="v"/><s n="iv"/></r></p></e>

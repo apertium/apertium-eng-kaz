@@ -9687,6 +9687,8 @@
 <e><p><l>recognition<s n="n"/></l><r>мойындау<s n="n"/></r></p></e>
 <e><p><l>recombination<s n="n"/></l><r>рекомбинация<s n="n"/></r></p></e>
 <e><p><l>recommendation<s n="n"/></l><r>ұсыныс<s n="n"/></r></p></e>
+<e><p><l>commode<s n="n"/></l><r>киімсалғыш<s n="n"/></r></p></e>
+<e><p><l>commode<s n="n"/></l><r>комод<s n="n"/></r></p></e>
 <e><p><l>reconciliation<s n="n"/></l><r>мәміле<s n="n"/></r></p></e>
 <e><p><l>reconfiguration<s n="n"/></l><r>реконфигурация<s n="n"/></r></p></e>
 <e><p><l>reconstruction<s n="n"/></l><r>реконструкция<s n="n"/></r></p></e>
@@ -16624,6 +16626,7 @@
 <e><p><l>Akterek<s n="np"/><s n="top"/><s n="sg"/></l><r>Ақтерек<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aktobeh<s n="np"/><s n="top"/><s n="sg"/></l><r>Ақтөбе<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aktoghai<s n="np"/><s n="top"/><s n="sg"/></l><r>Ақтоғай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Versailles<s n="np"/><s n="top"/><s n="sg"/></l><r>Версаль<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Aktoghan<s n="np"/><s n="top"/><s n="sg"/></l><r>Ақтоған<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Akyrab<s n="np"/><s n="top"/><s n="sg"/></l><r>Ақыраб<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Akyrtas<s n="np"/><s n="top"/><s n="sg"/></l><r>Ақыртас<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -17593,6 +17596,7 @@
 <!-- interjections -->
 
 <e r="RL"><p><l><s n="ij"/></l><r>жә<s n="ij"/></r></p></e>
+<e r="RL"><p><l><s n="ij"/></l><r>шіркін<s n="ij"/></r></p></e>
 <e r="RL"><p><l>ah<s n="ij"/></l><r>о<s n="ij"/></r></p></e>
 <e><p><l>ah<s n="ij"/></l><r>аһ<s n="ij"/></r></p></e>
 <e><p><l>alas<b/>and<b/>alack<s n="ij"/></l><r>әттеген-ай<s n="ij"/></r></p></e>

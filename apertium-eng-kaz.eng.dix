@@ -18875,6 +18875,10 @@
 
                             <e lm="acrobatics" i=""><i>acrobatics</i><par n="politics__n"/></e>
 
+ <e lm="geopolitics" i=""><i>geopolitics</i><par n="politics__n"/></e>
+
+<e lm="pharmaceutics" i=""><i>pharmaceutics</i><par n="politics__n"/></e>
+
                             <e lm="acromion" i=""><i>acromion</i><par n="house__n"/></e>
 
                             <e lm="acronym" i=""><i>acronym</i><par n="house__n"/></e>
@@ -44203,6 +44207,8 @@
                             <e lm="cereal" i=""><i>cereal</i><par n="house__n"/></e>
 
                             <e lm="ceremony" i=""><i>ceremon</i><par n="bab/y__n"/></e>
+
+ <e lm="ceremonial" i=""><i>ceremonial</i><par n="expensive__adj"/></e>
 
                             <e lm="certainty" i=""><i>certaint</i><par n="bab/y__n"/></e>
 

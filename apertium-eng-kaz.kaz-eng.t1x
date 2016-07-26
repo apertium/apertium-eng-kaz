@@ -3218,6 +3218,111 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+
+<rule comment="RULE: noun+cop+postadv"> <!--to noun with cop -->
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="cop"/>
+        <pattern-item n="postadv"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+       <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+
+<out>
+          <chunk name="noun-cop" case="caseFirstWord">
+<tags>
+<tag><lit-tag v="SN-cop"/></tag>
+<tag><clip pos="1" side="sl" part="a_cas"/></tag>       
+<tag>  <var n="number"/></tag>
+            </tags>
+
+           <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+<lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="lemq"/>
+                <lit-tag v="3"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+<rule comment="RULE: noun+cop+postadv"> <!--to noun with cop -->
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="postadv"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+       <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+
+<out>
+          <chunk name="noun-cop" case="caseFirstWord">
+<tags>
+<tag><lit-tag v="SN-cop"/></tag>
+<tag><clip pos="1" side="sl" part="a_cas"/></tag>       
+<tag>  <var n="number"/></tag>
+            </tags>
+
+           <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+<lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="lemq"/>
+                <lit-tag v="3"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
 <rule comment="NEW RULE: adjec noun1 noun2">   <!-- for "good football players"-->
   <pattern>
     <pattern-item n="adj"/>
@@ -6246,7 +6351,10 @@ If no format information is present it is removed. -->
 <choose>
                 <when>
                    <test>
+<or>
                        <equal><clip pos="2" side="sl" part="lem"/><lit v="сыз"/></equal>
+ <equal><clip pos="2" side="sl" part="lem"/><lit v="сіз"/></equal>
+</or>
                   </test>
                   <let><var n="number1"/><lit v="without"/></let>
                 </when>

@@ -510,3 +510,7 @@ $ cat ~/corpora/languages/kazakh/akorda/kaz.crp.txt | apertium -d
 's/\$\W*\^/$\n^/g' | lt-proc -b kaz-eng.autobil.bin | grep '/@'
 
 cat Coding_challenge/akorda-kaz-8651.txt | apertium -d /home/apertium/apertium-testing/apertium-kaz kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep -v '\/\*' | grep -o '/[^\/]\+' | sed 's/^\//^/g' | sed 's/>$/>$/g' | apertium-pretransfer | sed 's/\$\W*\^/$\n^/g' | lt-proc -b kaz-eng.autobil.bin | grep '/@'
+
+
+for kaz-rus
+cat /home/apertium/source-kaz-rus/apertium-kaz-rus/texts/Kazakhstan.kaz.txt | apertium -d /home/apertium/source-kaz-rus/apertium-kaz kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep -v '\/\*' | grep -o '/[^\/]\+' | sed 's/^\//^/g' | sed 's/>$/>$/g' | apertium-pretransfer | sed 's/\$\W*\^/$\n^/g' | lt-proc -b kaz-rus.autobil.bin | grep '/@'|grep "<n>"|cut -f1 -d '<'|sort -u >corpusnouns.txt

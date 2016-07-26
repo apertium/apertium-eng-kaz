@@ -3791,20 +3791,44 @@ If no format information is present it is removed. -->
  
 
    <call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
-    <out>
-    <chunk name="num">
+<choose>
+<when>
+<test>
+
+                       <equal><clip pos="1" side="tl" part="a_num_sp"/><lit-tag v="sp"/></equal>
+                      
+                   </test>
+                <out>
+    <chunk name="num_lu">
     <tags>
     <tag><lit-tag v="SN-NUM"/></tag>
     </tags>
     <lu>
-      <var n="num_lu"/>
+<clip pos="1" side="tl" part="lem"/>
+<clip pos="1" side="tl" part="a_num"/>
 
-
-              <clip pos="1" side="tl" part="a_num_sp"/>
               <clip pos="1" side="tl" part="a_nbr"/>
+     
      </lu>
     </chunk>
     </out>
+</when>
+<otherwise>
+<out>
+    <chunk name="num_sp">
+    <tags>
+    <tag><lit-tag v="SN-NUM"/></tag>
+    </tags>
+    <lu>
+
+      <var n="num_lu"/>
+
+              </lu>
+    </chunk>
+    </out>
+</otherwise>
+</choose>
+    
   </action>
 </rule>
 
@@ -3817,19 +3841,44 @@ If no format information is present it is removed. -->
  
 
    <call-macro n="build-num-lu"><with-param pos="1"/></call-macro> 
-    <out>
-    <chunk name="num">
+   <choose>
+<when>
+<test>
+
+                       <equal><clip pos="1" side="tl" part="a_num_sp"/><lit-tag v="sp"/></equal>
+                      
+                   </test>
+                <out>
+    <chunk name="num_lu">
     <tags>
     <tag><lit-tag v="SN-NUM"/></tag>
     </tags>
     <lu>
-      <var n="num_lu"/>
-<lit-tag v="num"/>
-              <clip pos="1" side="tl" part="a_num_sp"/>
+<clip pos="1" side="tl" part="lem"/>
+<clip pos="1" side="tl" part="a_num"/>
+
               <clip pos="1" side="tl" part="a_nbr"/>
+     
      </lu>
     </chunk>
     </out>
+</when>
+<otherwise>
+<out>
+    <chunk name="num_sp">
+    <tags>
+    <tag><lit-tag v="SN-NUM"/></tag>
+    </tags>
+    <lu>
+
+      <var n="num_lu"/>
+
+              </lu>
+    </chunk>
+    </out>
+</otherwise>
+</choose>
+
   </action>
 </rule>
 

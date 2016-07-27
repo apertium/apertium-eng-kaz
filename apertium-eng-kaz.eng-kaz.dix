@@ -13051,6 +13051,7 @@
 <e><p><l>Aliaxmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әлиахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Ali<s n="np"/><s n="ant"/><s n="m"/></l><r>Әли<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Alikhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Әлихан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Alibek<s n="np"/><s n="ant"/><s n="m"/></l><r>Әлібек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Alibi<s n="np"/><s n="ant"/><s n="m"/></l><r>Әліби<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Alim<s n="np"/><s n="ant"/><s n="m"/></l><r>Әлім<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Alimbai<s n="np"/><s n="ant"/><s n="m"/></l><r>Әлімбай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -16319,6 +16320,15 @@
 <e><p><l>Zion<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Сион<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Abdenov<s n="np"/><s n="cog"/></l><r>Әбденов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Abdishev<s n="np"/><s n="cog"/></l><r>Әбдішев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dinishev<s n="np"/><s n="cog"/></l><r>Дінішев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Ayaganov<s n="np"/><s n="cog"/></l><r>Аяғанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Galiyev<s n="np"/><s n="cog"/></l><r>Ғалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Umbetov<s n="np"/><s n="cog"/></l><r>Үмбетов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Bakiyev<s n="np"/><s n="cog"/></l><r>Бакиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Utemuratov<s n="np"/><s n="cog"/></l><r>Өтемұратов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Togzhanov<s n="np"/><s n="cog"/></l><r>Тоғжанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Bulegenov<s n="np"/><s n="cog"/></l><r>Бөлегенов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dyusenbayev<s n="np"/><s n="cog"/></l><r>Дүйсенбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Abdrakhimov<s n="np"/><s n="cog"/></l><r>Әбдірахымов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Ashimov<s n="np"/><s n="cog"/></l><r>Әшімов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Abdrayimov<s n="np"/><s n="cog"/></l><r>Әбдірайымов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -17173,6 +17183,9 @@
 <e><p><l>Bertis<s n="np"/><s n="top"/><s n="sg"/></l><r>Бертіс<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Besaghash<s n="np"/><s n="top"/><s n="sg"/></l><r>Бесағаш<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Besaryk<s n="np"/><s n="top"/><s n="sg"/></l><r>Бесарық<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Saryagash<s n="np"/><s n="top"/><s n="sg"/></l><r>Сарыағаш<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Saryagash<s n="np"/><s n="top"/><s n="sg"/></l><r>Сарыағаш<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Oskemen<s n="np"/><s n="top"/><s n="sg"/></l><r>Өскемен<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Besbalyk<s n="np"/><s n="top"/><s n="sg"/></l><r>Бесбалық<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Beskainar<s n="np"/><s n="top"/><s n="sg"/></l><r>Бесқайнар<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Beskaraghai<s n="np"/><s n="top"/><s n="sg"/></l><r>Бесқарағай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -17667,6 +17680,7 @@
 <e><p><l>Turkmenistan<s n="np"/><s n="top"/><s n="sg"/></l><r>Түрікменстан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Tuvalu<s n="np"/><s n="top"/><s n="sg"/></l><r>Тувалу<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>UK<s n="np"/><s n="top"/><s n="sg"/></l><r>Ұлыбритания<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>USA<s n="np"/><s n="top"/><s n="sg"/></l><r>АҚШ<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>USA<s n="np"/><s n="top"/><s n="sg"/></l><r>АҚШ<s n="abbr"/></r></p></e>
 <e><p><l>Uganda<s n="np"/><s n="top"/><s n="sg"/></l><r>Уганда<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ukraine<s n="np"/><s n="top"/><s n="sg"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e>

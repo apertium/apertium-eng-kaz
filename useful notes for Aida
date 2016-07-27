@@ -493,7 +493,7 @@ cat Coding_challenge/corpus\ Lab\ IIS\ \(5925\).kz |apertium -d. kaz-eng| grep -
 
 
 из лекса
-cat ../apertium-kaz/apertium-kaz.kaz.lexc|grep "N1"|cut -f1 -d ':'|apertium -d. kaz-eng|grep "\*"
+cat ../apertium-kaz/apertium-kaz.kaz.lexc|grep "N1"|cut -f1 -d ':'| apertium -d ../apertium-kaz kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep -v '\/\*' | grep -o '/[^\/]\+' | sed 's/^\//^/g' | sed 's/>$/>$/g' | apertium-pretransfer | sed 's/\$\W*\^/$\n^/g' | lt-proc -b kaz-eng.autobil.bin | grep '/@'
 
 Words not in LEXC:
 $ cat ~/corpora/languages/kazakh/akorda/kaz.crp.txt | apertium -d 

@@ -2,7 +2,22 @@
 <!-- <!DOCTYPE transfer SYSTEM "transfer.dtd"> --> 
 <!-- -*- sgml -*- -->
 <transfer default="chunk">
+
   <section-def-cats>
+<def-cat n="cat_predet">
+ <cat-item tags="predet.sp"/>
+ 
+ </def-cat>
+<def-cat n="cat_det">
+ <cat-item lemma="this" tags="det.dem.sg"/>
+ <cat-item lemma="this" tags="det.dem.pl"/>
+ 
+ </def-cat>
+<def-cat n="cat_det-dem">
+ <cat-item lemma="that" tags="det.dem.sg"/>
+ <cat-item lemma="those" tags="det.dem.pl"/>
+ 
+ </def-cat>
     <def-cat n="pers-verb"> <!-- past and present tense -->
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vblex.sep.pres.*"/>
@@ -398,6 +413,15 @@
   </section-def-cats>
  
   <section-def-attrs>
+
+<def-attr n="_attr_prn_">
+<attr-item tags="prn.qnt"/>
+<attr-item tags="prn.dem"/>
+  </def-attr>
+<def-attr n="_attr_det_">
+ <attr-item tags="det.dem.sg"/>
+ <attr-item tags="det.dem.pl"/>
+  </def-attr>
     <def-attr n="a_tense">
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
@@ -15054,6 +15078,62 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     </choose>
       </action>
 </rule>
+<rule comment="RULE:this-det">
+<pattern>
+ <pattern-item n="cat_det"/>
+</pattern>
+  <action>
+ <out>
+       <chunk name="__this-det__" case="caseFirstWord"> 
+      <tags><tag><lit-tag v="NP"/></tag>       </tags>   
+  <lu>
+  <clip pos="1" side="tl" part="lem"/>
+<clip pos="1" side="tl" part="_attr_prn_"/>
+<clip pos="1" side="tl" part="a_nbr"/>
+          <lit-tag v="nom"/>
+ </lu>
+ </chunk>
+  </out>
+ </action>
+ </rule> 
+
+
+<rule comment="RULE:that-det">
+<pattern>
+ <pattern-item n="cat_det-dem"/>
+</pattern>
+  <action>
+ <out>
+       <chunk name="__that-det__" case="caseFirstWord"> 
+      <tags><tag><lit-tag v="NP"/></tag>       </tags>   
+  <lu>
+  <clip pos="1" side="tl" part="lem"/>
+<clip pos="1" side="tl" part="_attr_det_"/>
+<clip pos="1" side="tl" part="a_nbr"/>
+
+ </lu>
+ </chunk>
+  </out>
+ </action>
+ </rule> 
+<rule comment="RULE:predet">
+<pattern>
+ <pattern-item n="cat_predet"/>
+</pattern>
+  <action>
+ <out>
+       <chunk name="__predet__" case="caseFirstWord"> 
+      <tags><tag><lit-tag v="NP"/></tag>       </tags>   
+  <lu>
+  <clip pos="1" side="tl" part="lem"/>
+<clip pos="1" side="tl" part="_attr_prn_"/>
+          <lit-tag v="px3sp"/>
+          <lit-tag v="nom"/>
+ </lu>
+ </chunk>
+  </out>
+ </action>
+ </rule> 
   </section-rules>
 </transfer>
 

@@ -12785,6 +12785,7 @@
 <e><p><l>CAM<s n="np"/><s n="al"/></l><r>CAM<s n="abbr"/></r></p></e>
 <e><p><l>Chevron<s n="np"/><s n="al"/></l><r>Шеврон<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Samuryk-kazyna<s n="np"/><s n="al"/></l><r>Самұрық-қазына<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Samuryk<s n="np"/><s n="al"/></l><r>Самұрық<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Euronews<s n="np"/><s n="al"/></l><r>Евроньюс<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Bosh<s n="np"/><s n="al"/></l><r>Бош<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Simens<s n="np"/><s n="al"/></l><r>Сименс<s n="np"/><s n="org"/></r></p></e>
@@ -13104,6 +13105,11 @@
 <e><p><l>Abdurasul<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбдірасұл<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Abdirakhman<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбдірахман<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Abdrashid<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбдірашид<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Rashid<s n="np"/><s n="ant"/><s n="m"/></l><r>Рашид<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Nurzhamal<s n="np"/><s n="ant"/><s n="f"/></l><r>Нұржамал<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Zhambyl<s n="np"/><s n="ant"/><s n="m"/></l><r>Жамбыл<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Rashit<s n="np"/><s n="ant"/><s n="m"/></l><r>Рашит<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Talgat<s n="np"/><s n="ant"/><s n="m"/></l><r>Талғат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Abdisalam<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбдісалам<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Abdisamat<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбдісамат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Abdisattar<s n="np"/><s n="ant"/><s n="m"/></l><r>Әбдісаттар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -16816,7 +16822,7 @@
 <e><p><l>Kopeyev<s n="np"/><s n="cog"/></l><r>Көпеев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Karimov<s n="np"/><s n="cog"/></l><r>Каримов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Karimov<s n="np"/><s n="cog"/></l><r>Кәрімов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>Sholnik<s n="np"/><s n="cog"/></l><r>Школьник<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Sholnik<s n="np"/><s n="cog"/></l><r>Школьник<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Karibaeva<s n="np"/><s n="cog"/></l><r>Кәрібаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Otero<s n="np"/><s n="cog"/></l><r>Отеро<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Pasteur<s n="np"/><s n="cog"/></l><r>Пастер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -17122,8 +17128,27 @@
 <e><p><l>Almalyk<s n="np"/><s n="top"/><s n="sg"/></l><r>Алмалық<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almatu<s n="np"/><s n="top"/><s n="sg"/></l><r>Алмату<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Taldykorgan<s n="np"/><s n="top"/><s n="sg"/></l><r>Талдықорған<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Almaty<s n="np"/><s n="top"/><s n="sg"/></l><r>Алматы<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Atyrau<s n="np"/><s n="top"/><s n="sg"/></l><r>Атырау<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Aktau<s n="np"/><s n="top"/><s n="sg"/></l><r>Ақтау<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Shymkent<s n="np"/><s n="top"/><s n="sg"/></l><r>Шымкент<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Palestine<s n="np"/><s n="top"/><s n="sg"/></l><r>Палестина<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Zhetisu<s n="np"/><s n="top"/><s n="sg"/></l><r>Жетісу<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Tobyl<s n="np"/><s n="top"/><s n="sg"/></l><r>Тобыл<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ertis<s n="np"/><s n="top"/><s n="sg"/></l><r>Ертіс<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Saryarka<s n="np"/><s n="top"/><s n="sg"/></l><r>Сарыарқа<s n="np"/><s n="top"/></r></p></e>
+
+<e><p><l>Atyrau<s n="np"/><s n="top"/><s n="sg"/></l><r>Атырау<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Aktau<s n="np"/><s n="top"/><s n="sg"/></l><r>Ақтау<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Shymkent<s n="np"/><s n="top"/><s n="sg"/></l><r>Шымкент<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Palestine<s n="np"/><s n="top"/><s n="sg"/></l><r>Палестина<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Zhetisu<s n="np"/><s n="top"/><s n="sg"/></l><r>Жетісу<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Tobyl<s n="np"/><s n="top"/><s n="sg"/></l><r>Тобыл<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Ertis<s n="np"/><s n="top"/><s n="sg"/></l><r>Ертіс<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Saryarka<s n="np"/><s n="top"/><s n="sg"/></l><r>Сарыарқа<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+
 <e><p><l>Cairo<s n="np"/><s n="top"/><s n="sg"/></l><r>Каир<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Cairo<s n="np"/><s n="top"/><s n="sg"/></l><r>Каир<s n="np"/><s n="top"/><s n="loc"/></r></p></e>
 <e><p><l>Tegeran<s n="np"/><s n="top"/><s n="sg"/></l><r>Тегеран<s n="np"/><s n="top"/></r></p></e>
@@ -17881,9 +17906,18 @@
 <e><p><l>Turkmenistan<s n="np"/><s n="top"/><s n="sg"/></l><r>Түрікменстан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Turkmenistan<s n="np"/><s n="top"/><s n="sg"/></l><r>Түрікменстан<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Tuvalu<s n="np"/><s n="top"/><s n="sg"/></l><r>Тувалу<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>PRC<s n="np"/><s n="top"/><s n="sg"/></l><r>ҚХР<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>UK<s n="np"/><s n="top"/><s n="sg"/></l><r>Ұлыбритания<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>USA<s n="np"/><s n="top"/><s n="sg"/></l><r>АҚШ<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Baghdad<s n="np"/><s n="top"/><s n="sg"/></l><r>Бағдат<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Caucasus<s n="np"/><s n="top"/><s n="sg"/></l><r>Кавказ<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Lvov<s n="np"/><s n="top"/><s n="sg"/></l><r>Львов<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Dushanbe<s n="np"/><s n="top"/><s n="sg"/></l><r>Душанбе<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Saudi<b/>Arabia<s n="np"/><s n="top"/><s n="sg"/></l><r>Сауд<b/>Арабиясы<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>PRC<s n="np"/><s n="top"/><s n="sg"/></l><r>ҚХР<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>PRC<s n="np"/><s n="top"/><s n="sg"/></l><r>ҚХР<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>USA<s n="np"/><s n="top"/><s n="sg"/></l><r>АҚШ<s n="abbr"/></r></p></e>
+<e><p><l>USA<s n="np"/><s n="top"/><s n="sg"/></l><r>АҚШ<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>USA<s n="np"/><s n="top"/><s n="sg"/></l><r>АҚШ<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Uganda<s n="np"/><s n="top"/><s n="sg"/></l><r>Уганда<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Ukraine<s n="np"/><s n="top"/><s n="sg"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>United<b/>Arab<b/>Emirates<s n="np"/><s n="top"/><s n="sg"/></l><r>Бірлескен<b/>араб<b/>эмираттары<s n="np"/><s n="top"/><s n="px3sp"/><s n="nom"/></r></p></e>
@@ -25682,7 +25716,7 @@
 <e><p><l>Gorky<s n="np"/><s n="cog"/></l><r>Горький<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Kanapiyanov<s n="np"/><s n="cog"/></l><r>Қанапиянов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Baitursynov<s n="np"/><s n="cog"/></l><r>Байтұрсынов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>Lombardi<s n="np"/><s n="cog"/></l><r>Ломбарди<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Lombardi<s n="np"/><s n="cog"/></l><r>Ломбарди<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Bobrov<s n="np"/><s n="cog"/></l><r>Бобров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Atymtai<s n="np"/><s n="ant"/><s n="m"/></l><r>Атымтай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Alik<s n="np"/><s n="ant"/><s n="m"/></l><r>Алик<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -26237,6 +26271,39 @@
 <e><p><l>Tatanov<s n="np"/><s n="cog"/></l><r>Татанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tatarkhanov<s n="np"/><s n="cog"/></l><r>Татарханов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tawkin<s n="np"/><s n="cog"/></l><r>Таукин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Musinov<s n="np"/><s n="cog"/></l><r>Мусинов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kazyhanov<s n="np"/><s n="cog"/></l><r>Қазыханов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Aliev<s n="np"/><s n="cog"/></l><r>Әлиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tazhiev<s n="np"/><s n="cog"/></l><r>Тәжиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lukashenko<s n="np"/><s n="cog"/></l><r>Лукашенко<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Tuymebaev<s n="np"/><s n="cog"/></l><r>Түймебаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Akanov<s n="np"/><s n="cog"/></l><r>Ақанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Dosayev<s n="np"/><s n="cog"/></l><r>Досаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Kurmanғaliev<s n="np"/><s n="cog"/></l><r>Құрманғалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Cameron<s n="np"/><s n="cog"/></l><r>Кэмерон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Otynbaev<s n="np"/><s n="cog"/></l><r>Отынбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Otynbaev<s n="np"/><s n="cog"/></l><r>Отынбаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Satkaliev<s n="np"/><s n="cog"/></l><r>Сәтқалиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Rahmon<s n="np"/><s n="cog"/></l><r>Рахмон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Shakіrov<s n="np"/><s n="cog"/></l><r>Шәкіров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Baykadamov<s n="np"/><s n="cog"/></l><r>Байқадамов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Merkel<s n="np"/><s n="cog"/></l><r>Меркель<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Burkitbayev<s n="np"/><s n="cog"/></l><r>Бүркітбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Saparbayev<s n="np"/><s n="cog"/></l><r>Сапарбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Lombardi<s n="np"/><s n="cog"/></l><r>Ломбарди<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Baliev<s n="np"/><s n="cog"/></l><r>Балиев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Baliev<s n="np"/><s n="cog"/></l><r>Балиев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
+<e><p><l>Baimaganbetov<s n="np"/><s n="cog"/></l><r>Баймағанбетов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Timurlıbaev<s n="np"/><s n="cog"/></l><r>Тимурлыбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Baymenov<s n="np"/><s n="cog"/></l><r>Байменов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Mukhanov<s n="np"/><s n="cog"/></l><r>Мұқанов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Imashev<s n="np"/><s n="cog"/></l><r>Имашев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Alimbekov<s n="np"/><s n="cog"/></l><r>Әлімбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Tusupbekov<s n="np"/><s n="cog"/></l><r>Түсіпбеков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Shkolnik<s n="np"/><s n="cog"/></l><r>Школьник<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Deripaska<s n="np"/><s n="cog"/></l><r>Дерипаска<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+
+
 <e><p><l>Tafaev<s n="np"/><s n="cog"/></l><r>Тафаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tashmuhamedov<s n="np"/><s n="cog"/></l><r>Ташмұхамедов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tazhibaev<s n="np"/><s n="cog"/></l><r>Тәжібаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

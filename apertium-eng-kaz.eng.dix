@@ -88,6 +88,7 @@
     <sdef n="sint" c="Synthetic"/> 
     <sdef n="email" c="Email"/> 
     <sdef n="obj" c="Object"/> 
+<sdef n="pat" c="Patronym"/> 
     <sdef n="subj" c="Subject"/> 
     <sdef n="subs" c="Substantive"/> 
     <sdef n="pprs" c="Present participle"/> 
@@ -30078,6 +30079,24 @@
 
                             <e lm="Timoteo" i=""><i>Timoteo</i><par n="Mark__np"/></e>
 
+ <e lm="Timur" i=""><i>Timur</i><par n="Mark__np"/></e>
+
+<e lm="Sabyr" i=""><i>Sabyr</i><par n="Mark__np"/></e>
+<e lm="Oral" i=""><i>Oral</i><par n="Mark__np"/></e>
+<e lm="Oral" i=""><i>Oral</i><par n="Mary__np"/></e>
+<e lm="Mukhambet" i=""><i>Mukhambet</i><par n="Mark__np"/></e>
+<e lm="Kurmanbek" i=""><i>Kurmanbek</i><par n="Mark__np"/></e>
+<e lm="Sarybai" i=""><i>Sarybai</i><par n="Mark__np"/></e>
+<e lm="Nur" i=""><i>Nur</i><par n="Mark__np"/></e>
+<e lm="Otan" i=""><i>Otan</i><par n="Mark__np"/></e>
+<e lm="Smagul" i=""><i>Smagul</i><par n="Mark__np"/></e>
+<e lm="Kassymbek" i=""><i>Kassymbek</i><par n="Mark__np"/></e>
+<e lm="Olzhas" i=""><i>Olzhas</i><par n="Mark__np"/></e>
+<e lm="Rauan" i=""><i>Rauan</i><par n="Mark__np"/></e>
+<e lm="Musabek" i=""><i>Musabek</i><par n="Mark__np"/></e>
+<e lm="Gulmira" i=""><i>Gulmira</i><par n="Mary__np"/></e>
+
+
                             <e lm="Tino" i=""><i>Tino</i><par n="Mark__np"/></e>
 
                             <e lm="Tommaso" i=""><i>Tommaso</i><par n="Mark__np"/></e>
@@ -42208,9 +42227,44 @@
 
 <e lm="Dushanbe" i=""><i>Dushanbe</i><par n="Barcelona__np"/></e>
 <e lm="Zhambyl" i=""><i>Zhambyl</i><par n="Barcelona__np"/></e>
+<e lm="Burabay" i=""><i>Burabay</i><par n="Barcelona__np"/></e>
 <e lm="Lvov" i=""><i>Lvov</i><par n="Barcelona__np"/></e>
 <e lm="Saudi Arabia" i=""><i>Saudi<b/>Arabia</i><par n="Barcelona__np"/></e>
                             <e lm="CPSU" i=""><i>CPSU</i><par n="Barcelona__np"/></e>
+
+<e lm="Kulibayev" i=""><i>Kulibayev</i><par n="Smith__np"/></e>
+<e lm="Kaiyrbekuly" i=""><i>Kaiyrbekuly</i><par n="Smith__np"/></e>
+<e lm="Aldabergenov" i=""><i>Aldabergenov</i><par n="Smith__np"/></e>
+<e lm="Kurmangaliyeva" i=""><i>Kurmangaliyeva</i><par n="Smith__np"/></e>
+<e lm="Farabi" i=""><i>Farabi</i><par n="Smith__np"/></e>
+<e lm="Kaseinov" i=""><i>Kaseinov</i><par n="Smith__np"/></e>
+<e lm="Rakhmonov" i=""><i>Rakhmonov</i><par n="Smith__np"/></e>
+<e lm="Ahmadinejad" i=""><i>Ahmadinejad</i><par n="Smith__np"/></e>
+<e lm="Hu" i=""><i>Hu</i><par n="Smith__np"/></e>
+<e lm="Utebayev" i=""><i>Utebayev</i><par n="Smith__np"/></e>
+<e lm="Muhametzhanov" i=""><i>Muhametzhanov</i><par n="Smith__np"/></e>
+<e lm="Akhmetov" i=""><i>Akhmetov</i><par n="Smith__np"/></e>
+<e lm="Xashieva" i=""><i>Xashieva</i><par n="Smith__np"/></e>
+<e lm="Makashevich" i=""><i>Makashevich</i><par n="Smith__np"/></e>
+<e lm="Agybayevich" i=""><i>Agybayevich</i><par n="Smith__np"/></e>
+<e lm="Baiseitova" i=""><i>Baiseitova</i><par n="Smith__np"/></e>
+<e lm="Nazarbayeva" i=""><i>Nazarbayeva</i><par n="Smith__np"/></e>
+<e lm="Aubakirova" i=""><i>Aubakirov</i><par n="Smith__np"/></e>
+<e lm="Musakhodzhaeva" i=""><i>Musakhodzhaeva</i><par n="Smith__np"/></e>
+<e lm="Rymbayeva" i=""><i>Rymbayeva</i><par n="Smith__np"/></e>
+<e lm="Dunayev" i=""><i>Dunayev</i><par n="Smith__np"/></e>
+<e lm="Zhigalov" i=""><i>Zhigalov</i><par n="Smith__np"/></e>
+<e lm="Zharylkasymovich" i=""><i>Zharylkasymovich</i><par n="Smith__np"/></e>
+<e lm="Ordabayev" i=""><i>Ordabayev</i><par n="Smith__np"/></e>
+<e lm="Ahmadinejad" i=""><i>Ahmadinejad</i><par n="Smith__np"/></e>
+<e lm="Askarov" i=""><i>Askarov</i><par n="Smith__np"/></e>
+<e lm="Ekmeleddin" i=""><i>Ekmeleddin</i><par n="Smith__np"/></e>
+<e lm="Galiyeva" i=""><i>Galiyev</i><par n="Smith__np"/></e>
+<e lm="Dauletov" i=""><i>Dauletov</i><par n="Smith__np"/></e>
+<e lm="Ermekbayev" i=""><i>Ermekbayev</i><par n="Smith__np"/></e>
+<e lm="Ashimbayev" i=""><i>Ashimbayev</i><par n="Smith__np"/></e>
+
+
 
 
 <e lm="Musinov" i=""><i>Musinov</i><par n="Smith__np"/></e>

@@ -16,7 +16,12 @@
       <cat-item tags="abbr"/>
       
     </def-cat>
-
+<def-cat n="n-sim">
+      <cat-item tags="n.px1sg.sim"/>
+      <cat-item tags="n.px2sg.sim"/>
+      <cat-item tags="n.px3sg.sim"/>
+      <cat-item tags="n.px1pl.sim"/>
+    </def-cat>
 
 <def-cat n="birge">
       <cat-item lemma="бір" tags="num.subst.dat"/>
@@ -3246,7 +3251,7 @@ If no format information is present it is removed. -->
               </choose>
 
 <out>
-          <chunk name="noun-cop" case="caseFirstWord">
+          <chunk name="noun-cop-postadv" case="caseFirstWord">
 <tags>
 <tag><lit-tag v="SN-cop"/></tag>
 <tag><clip pos="1" side="sl" part="a_cas"/></tag>       
@@ -3271,6 +3276,142 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+
+
+
+<rule comment="RULE: noun+cop+postadv"> <!--to noun with cop -->
+      <pattern>
+        <pattern-item n="n-sim"/>
+        <pattern-item n="postadv"/>
+      </pattern>
+            <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<call-macro n="choose_case_and_postposition2">
+          <with-param pos="1"/>
+        </call-macro>
+
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+
+
+
+<lit-tag v="px1sg"/></equal>
+                  </test>
+                  <let>
+
+<var n="pos"/>
+<lit v="my"/>
+
+</let>
+                </when>
+
+	
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+<lit-tag v="px2sg.frm"/></equal>
+                  </test>
+                  <let>
+
+<var n="pos"/><lit v="your"/></let>
+                </when>
+
+
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+<lit-tag v="px3sg"/></equal>
+                  </test>
+                  <let>
+
+<var n="pos"/><lit v="his"/></let>
+                </when>
+
+
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+<lit-tag v="px1pl"/></equal>
+                  </test>
+                  <let>
+
+<var n="pos"/><lit v="our"/></let>
+                </when>
+
+
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+<lit-tag v="px3sp"/></equal>
+                  </test>
+                  <let>
+
+<var n="pos"/><lit v="their"/></let>
+                </when>
+
+</choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_sim"/>
+<lit-tag v="sim"/></equal>
+                  </test>
+                  <let>
+
+<var n="number1"/><concat><lit v="like"/><lit-tag v="pr"/></concat></let>
+                </when>
+<otherwise>
+<let>
+
+<var n="number1"/><lit v=""/></let>
+</otherwise>
+</choose>
+         <out>
+          <chunk name="n-sim-postadv" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+
+
+            </tags>
+<lu>
+<var n="number1"/>
+</lu>
+<b/>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+
+<lu>
+          <var n="pos"/>  
+ 	<lit-tag v="det"/>
+	<lit-tag v="pos"/>
+	<lit-tag v="sg"/>
+</lu>
+<b/>
+
+            <lu>
+<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+               <var n="number"/> 
+              
+             
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+
+    </rule>
 
 
 <rule comment="RULE: noun+cop+postadv"> <!--to noun with cop -->
@@ -3298,7 +3439,7 @@ If no format information is present it is removed. -->
               </choose>
 
 <out>
-          <chunk name="noun-cop" case="caseFirstWord">
+          <chunk name="noun-postadv" case="caseFirstWord">
 <tags>
 <tag><lit-tag v="SN-cop"/></tag>
 <tag><clip pos="1" side="sl" part="a_cas"/></tag>       

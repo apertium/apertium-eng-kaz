@@ -12878,8 +12878,28 @@
 <e><p><l>Davos<s n="np"/><s n="cog"/><s n="mf"/></l><r>Давос<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Cooksey<s n="np"/><s n="cog"/><s n="mf"/></l><r>Кукси<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Fletcher<s n="np"/><s n="cog"/><s n="mf"/></l><r>Флетчер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-
-
+<e><p><l>Baikonur<s n="np"/><s n="top"/><s n="sg"/></l><r>Байқоңыр<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Baikonur<s n="np"/><s n="top"/><s n="sg"/></l><r>Байқоңыр<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Vasilyevich<s n="np"/><s n="pat"/><s n="m"/></l><r>Васильевич<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Arys<s n="np"/><s n="top"/><s n="sg"/></l><r>Арыс<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Arys<s n="np"/><s n="top"/><s n="sg"/></l><r>Арыс<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ossetia<s n="np"/><s n="top"/><s n="sg"/></l><r>Осетия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Ossetia<s n="np"/><s n="top"/><s n="sg"/></l><r>Осетия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Abay<s n="np"/><s n="top"/><s n="sg"/></l><r>Абай<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Abay<s n="np"/><s n="top"/><s n="sg"/></l><r>Абай<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Kazakhmys<s n="np"/><s n="al"/></l><r>Қазақмыс<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Aldabergenov<s n="np"/><s n="top"/><s n="sg"/></l><r>Алдабергенов<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Pavlovich<s n="np"/><s n="pat"/><s n="m"/></l><r>Павлович<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Samruk<s n="np"/><s n="al"/></l><r>Самұрық<s n="np"/><s n="al"/></r></p></e>
+<e><p><l>Yanukovych<s n="np"/><s n="cog"/><s n="mf"/></l><r>Янукович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Yanukovych<s n="np"/><s n="pat"/><s n="m"/></l><r>Янукович<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Abu-Dabi<s n="np"/><s n="top"/><s n="sg"/></l><r>Әбу-Даби<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Vladimirovich<s n="np"/><s n="pat"/><s n="m"/></l><r>Владимирович<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Yerevan<s n="np"/><s n="top"/><s n="sg"/></l><r>Ереван<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>California<s n="np"/><s n="top"/><s n="sg"/></l><r>Калифорния<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Kotovich<s n="np"/><s n="pat"/><s n="m"/></l><r>Котович<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Matveevich<s n="np"/><s n="pat"/><s n="m"/></l><r>Матвеевич<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>BTA<s n="np"/><s n="al"/></l><r>БТА<s n="np"/><s n="org"/></r></p></e>
 
 <!--Organsations  NP-ORG -->
 <e><p><l>Althea<s n="np"/><s n="al"/></l><r>Althea<s n="np"/><s n="org"/></r></p></e>

@@ -3753,6 +3753,8 @@
 
     </pardef>
 
+
+
     <pardef n="United_States__np">
 
                             <e i="">
@@ -3779,6 +3781,19 @@
       <p>
         <l/>
         <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+    </pardef>
+
+
+ <pardef n="patronym__np">
+
+                            <e i="">
+      <p>
+        <l/>
+        <r><s n="np"/><s n="pat"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
 
@@ -42231,6 +42246,27 @@
 <e lm="Lvov" i=""><i>Lvov</i><par n="Barcelona__np"/></e>
 <e lm="Saudi Arabia" i=""><i>Saudi<b/>Arabia</i><par n="Barcelona__np"/></e>
                             <e lm="CPSU" i=""><i>CPSU</i><par n="Barcelona__np"/></e>
+
+<e lm="Baikonur" i=""><i>Baikonur</i><par n="Barcelona__np"/></e>
+<e lm="Vasilyevich" i=""><i>Vasilyevich</i><par n="patronym__np"/></e>
+<e lm="Arys" i=""><i>Arys</i><par n="Barcelona__np"/></e>
+<e lm="Ossetia" i=""><i>Ossetia</i><par n="Barcelona__np"/></e>
+<e lm="Abay" i=""><i>Abay</i><par n="Barcelona__np"/></e>
+<e lm="Kazakhmys" i=""><i>Kazakhmys</i><par n="Linux__np"/></e>
+<e lm="Aldabergenov" i=""><i>Aldabergenov</i><par n="Barcelona__np"/></e>
+<e lm="Pavlovich" i=""><i>Pavlovich</i><par n="patronym__np"/></e>
+<e lm="Samruk" i=""><i>Samruk</i><par n="Linux__np"/></e>
+<e lm="Yanukovych" i=""><i>Yanukovych</i><par n="Smith__np"/></e>
+<e lm="Yanukovych" i=""><i>Yanukovych</i><par n="patronym__np"/></e>
+<e lm="Abu-Dabi" i=""><i>Abu-Dabi</i><par n="Linux__np"/></e>
+<e lm="Vladimirovich" i=""><i>Vladimirovich</i><par n="patronym__np"/></e>
+<e lm="Yerevan" i=""><i>Yerevan</i><par n="Barcelona__np"/></e>
+<e lm="California" i=""><i>California</i><par n="Barcelona__np"/></e>
+<e lm="Kotovich" i=""><i>Kotovich</i><par n="patronym__np"/></e>
+<e lm="Matveevich" i=""><i>Matveevich</i><par n="patronym__np"/></e>
+<e lm="BTA" i=""><i>BTA</i><par n="Linux__np"/></e>
+
+
 
 <e lm="Kulibayev" i=""><i>Kulibayev</i><par n="Smith__np"/></e>
 <e lm="Kaiyrbekuly" i=""><i>Kaiyrbekuly</i><par n="Smith__np"/></e>

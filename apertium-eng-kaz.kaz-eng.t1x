@@ -3277,9 +3277,9 @@ If no format information is present it is removed. -->
     </rule>
 
 
+<!--
 
-
-<rule comment="RULE: noun+cop+postadv"> <!--to noun with cop -->
+<rule comment="RULE: n-sim+postadv"> 
       <pattern>
         <pattern-item n="n-sim"/>
         <pattern-item n="postadv"/>
@@ -3297,11 +3297,8 @@ If no format information is present it is removed. -->
 
 <choose>
                 <when>
-                   <test>
-                       <equal><clip pos="1" side="sl" part="a_pos"/>
-
-
-
+                <test>
+                <equal><clip pos="1" side="sl" part="a_pos"/>
 <lit-tag v="px1sg"/></equal>
                   </test>
                   <let>
@@ -3311,7 +3308,15 @@ If no format information is present it is removed. -->
 
 </let>
                 </when>
+<when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+<lit-tag v="px2sg"/></equal>
+                  </test>
+                  <let>
 
+<var n="pos"/><lit v="your"/></let>
+                </when>
 	
                 <when>
                    <test>
@@ -3345,7 +3350,15 @@ If no format information is present it is removed. -->
 <var n="pos"/><lit v="our"/></let>
                 </when>
 
+<when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_pos"/>
+<lit-tag v="px2pl"/></equal>
+                  </test>
+                  <let>
 
+<var n="pos"/><lit v="your"/></let>
+                </when>
                 <when>
                    <test>
                        <equal><clip pos="1" side="sl" part="a_pos"/>
@@ -3360,11 +3373,10 @@ If no format information is present it is removed. -->
 <choose>
                 <when>
                    <test>
-                       <equal><clip pos="1" side="sl" part="a_sim"/>
+                   <equal><clip pos="1" side="sl" part="a_sim"/>
 <lit-tag v="sim"/></equal>
                   </test>
                   <let>
-
 <var n="number1"/><concat><lit v="like"/><lit-tag v="pr"/></concat></let>
                 </when>
 <otherwise>
@@ -3398,11 +3410,9 @@ If no format information is present it is removed. -->
 <b/>
 
             <lu>
-<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
-               <var n="number"/> 
-              
-             
+               <var n="number"/>        
             </lu>
           </chunk>
         </out>
@@ -3413,7 +3423,7 @@ If no format information is present it is removed. -->
 
     </rule>
 
-
+-->
 <rule comment="RULE: noun+cop+postadv"> <!--to noun with cop -->
       <pattern>
         <pattern-item n="nom"/>

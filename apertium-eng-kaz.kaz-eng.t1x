@@ -1753,6 +1753,7 @@ If no format information is present it is removed. -->
            <concat>
              <clip pos="1" side="tl" part="lem"/> 
                <clip pos="1" side="tl" part="a_num"/>
+<clip pos="1" side="tl" part="a_nbr"/>
            </concat>  
         </let>
 </def-macro>
@@ -3961,8 +3962,7 @@ If no format information is present it is removed. -->
     <lu>
 <clip pos="1" side="tl" part="lem"/>
 <clip pos="1" side="tl" part="a_num"/>
-
-              <clip pos="1" side="tl" part="a_nbr"/>
+<clip pos="1" side="tl" part="a_nbr"/>
      
      </lu>
     </chunk>
@@ -12396,6 +12396,7 @@ If no format information is present it is removed. -->
         </call-macro>
  </action>
 </rule>
+
 <rule comment="RULE: Quest">
       <pattern>
         <pattern-item n="quest"/>

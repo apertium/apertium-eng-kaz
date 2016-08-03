@@ -102,7 +102,48 @@
     <match lemma="residence" tags="n.*"><select lemma="резиденция" tags="n.*"/></match>
   </rule>
 
+  <rule>
+    <match lemma="city" tags="n.*"/>
+    <match lemma="agglomeration" tags="n.*"><select lemma="агломерация" tags="n.*"/></match>
+  </rule>
+
+  <rule>
+    <match lemma="predatory" tags="adj"/>
+    <match lemma="animal" tags="n.*"><select lemma="хайуан" tags="n.*"/></match>
+  </rule>
+
+  <rule>
+    <match lemma="animal" tags="n.*"><select lemma="хайуан" tags="n.*"/></match>
+  </rule>
+
+  <rule>
+
+    <match lemma="alarm" tags="n.*"><select lemma="қоңырау" tags="n.*"/></match>
+    <match lemma="ring" tags="vblex.*"/>
+  </rule>
+
+  <rule>
+
+    <match lemma="rough" tags="adj.*"><select lemma="бұдыр" tags="adj.*"/></match>
+    <match lemma="way" tags="vblex.*"/>
+  </rule>
+
+  <rule>
+
+    <match lemma="stout" tags="adj"><select lemma="мықты" tags="adj"/></match>
+    <match lemma="person" tags="n.*"/>
+  </rule>
  
+
+  <rule>
+
+    <match lemma="firm" tags="adj.*"><select lemma="қатты" tags="adj"/></match>
+    <match lemma="surface" tags="n.*"/>
+  </rule>
+
+  <rule>
+    <match lemma="stout" tags="adj"><select lemma="берік" tags="adj"/></match>
+  </rule>
 
  <rule> 
   
@@ -117,7 +158,9 @@
 <rule> 
     <match lemma="anything" tags="prn.*"><select lemma="бір нәрсе" tags="prn.*"/></match>    
   </rule>
-
+<rule> 
+    <match lemma="angle" tags="n.*"><select lemma="бұрыш" tags="n.*"/></match>    
+  </rule>
 <rule>
 
     <match lemma="woman" tags="n.*"><select lemma="әйел" tags="n.*"/></match>

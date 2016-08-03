@@ -428,6 +428,15 @@
  </rule>
 
 
+ <rule>
+   <match lemma="құжат" tags="n.*"/>
+   <match lemma="үлгі" tags="n.px3sp.*"><select lemma="sample" tags="n.*"/></match>
+ </rule>
+
+ <rule>
+   <match lemma="математикалық" tags="adj"/>
+   <match lemma="үлгі" tags="n.*"><select lemma="model" tags="n.*"/></match>
+ </rule>
 
 <rule>
 <match lemma="бұл" tags="prn.dem.adv"/>

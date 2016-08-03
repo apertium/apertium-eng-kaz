@@ -3892,6 +3892,7 @@
 <e><p><l>classroom<s n="n"/></l><r>дәрісхана<s n="n"/></r></p></e>
 <e><p><l>class<s n="n"/></l><r>сабақ<s n="n"/></r></p></e>
 <e><p><l>class<s n="n"/></l><r>тап<s n="n"/></r></p></e>
+<e><p><l>class<s n="n"/></l><r>класс<s n="n"/></r></p></e>
 <e><p><l>clause<s n="n"/></l><r>сөйлем<s n="n"/></r></p></e>
 <e><p><l>claustrophobia<s n="n"/></l><r>клаустрофобия<s n="n"/></r></p></e>
 <e><p><l>clave<s n="n"/></l><r>клаве<s n="n"/></r></p></e>
@@ -3998,6 +3999,7 @@
 <e><p><l>collation<s n="n"/></l><r>салыстыру<s n="n"/></r></p></e>
 <e><p><l>colleague<s n="n"/></l><r>әріптес<s n="n"/></r></p></e>
 <e><p><l>collection<s n="n"/></l><r>жиынтық<s n="n"/></r></p></e>
+<e><p><l>lection<s n="n"/></l><r>лекция<s n="n"/></r></p></e>
 <e><p><l>collection<s n="n"/></l><r>коллекция<s n="n"/></r></p></e>
 <e><p><l>collectivisation<s n="n"/></l><r>ұжымдастыру<s n="n"/></r></p></e>
 <e><p><l>collectivism<s n="n"/></l><r>ұжымшылдық<s n="n"/></r></p></e>
@@ -10477,6 +10479,7 @@
 <e><p><l>reproduction<s n="n"/></l><r>көшірмелеу<s n="n"/></r></p></e>
 <e><p><l>reprography<s n="n"/></l><r>репрография<s n="n"/></r></p></e>
 <e><p><l>reptile<s n="n"/></l><r>рептилия<s n="n"/></r></p></e>
+<e><p><l>publicist<s n="n"/></l><r>публицист<s n="n"/></r></p></e>
 <e><p><l>republicanism<s n="n"/></l><r>республиканизм<s n="n"/></r></p></e>
 <e><p><l>republican<s n="n"/></l><r>республикалық<s n="n"/></r></p></e>
 <e><p><l>republic<s n="n"/></l><r>республика<s n="n"/></r></p></e>
@@ -10745,6 +10748,7 @@
 <e><p><l>safflower<s n="n"/></l><r>сафлор<s n="n"/></r></p></e>
 <e><p><l>saga<s n="n"/></l><r>сага<s n="n"/></r></p></e>
 <e><p><l>sage<s n="n"/></l><r>кемеңгер<s n="n"/></r></p></e>
+<e><p><l>manager<s n="n"/></l><r>меңгеруші<s n="n"/></r></p></e>
 <e><p><l>sailboat<s n="n"/></l><r>яхта<s n="n"/></r></p></e>
 <e><p><l>sailor<s n="n"/></l><r>теңізші<s n="n"/></r></p></e>
 <e><p><l>sail<s n="n"/></l><r>парус<s n="n"/></r></p></e>
@@ -12944,6 +12948,7 @@
 <e><p><l>euro<s n="n"/><s n="sg"/></l><r>еуро<s n="n"/></r></p></e>
 <e><p><l>focus<s n="n"/><s n="sg"/></l><r>фокус<s n="n"/></r></p></e>
 <e><p><l>grown-ups<s n="n"/><s n="pl"/></l><r>үлкендер<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>km<s n="n"/><s n="sg"/></l><r>км<s n="n"/></r></p></e>
 <e><p><l>km<s n="n"/><s n="sg"/></l><r>км<s n="abbr"/></r></p></e>
 <e><p><l>means<s n="n"/><s n="sg"/></l><r>қаражат<s n="n"/></r></p></e>
 <e><p><l>Olympics<s n="n"/><s n="sg"/></l><r>Олимпиада<b/>ойындары<s n="n"/><s n="pl"/></r></p></e>
@@ -17717,6 +17722,7 @@
 <e><p><l>Albania<s n="np"/><s n="top"/><s n="sg"/></l><r>Албания<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Albuquerque<s n="np"/><s n="top"/><s n="sg"/></l><r>Альбукерке<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Aldabergenov<s n="np"/><s n="top"/><s n="sg"/></l><r>Алдабергенов<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Aldabergenov<s n="np"/><s n="top"/><s n="sg"/></l><r>Алдабергенов<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Alepauyl<s n="np"/><s n="top"/><s n="sg"/></l><r>Алепауыл<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Algeria<s n="np"/><s n="top"/><s n="sg"/></l><r>Алжир<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Algha<s n="np"/><s n="top"/><s n="sg"/></l><r>Алға<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
@@ -26044,6 +26050,8 @@
 <e><p><l>shanyrak<s n="n"/></l><r>шаңырақ<s n="n"/></r></p></e>
 <e><p><l>speak<s n="vblex"/></l><r>тілдес<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>TV<s n="n"/></l><r>телевизия<s n="n"/></r></p></e>
+<e><p><l>TV<s n="n"/></l><r>теледидар<s n="n"/></r></p></e>
+<e><p><l>part<s n="n"/></l><r>том<s n="n"/></r></p></e>
 <e><p><l>judge<s n="n"/></l><r>судья<s n="n"/></r></p></e>
 <e><p><l>inquiry<s n="n"/></l><r>сауал<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>prosecutor's<b/>office<s n="n"/></l><r>прокуратура<s n="n"/></r></p></e>

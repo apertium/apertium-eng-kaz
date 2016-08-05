@@ -493,7 +493,8 @@ cat Coding_challenge/corpus\ Lab\ IIS\ \(5925\).kz |apertium -d. kaz-eng| grep -
 
 
 из лекса
-cat ../apertium-kaz/apertium-kaz.kaz.lexc|grep "N1"|cut -f1 -d ':'| apertium -d ../apertium-kaz kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep -v '\/\*' | grep -o '/[^\/]\+' | sed 's/^\//^/g' | sed 's/>$/>$/g' | apertium-pretransfer | sed 's/\$\W*\^/$\n^/g' | lt-proc -b kaz-eng.autobil.bin | grep '/@'
+cat ../apertium-kaz/apertium-kaz.kaz.lexc|grep "N1"|cut -f1 -d ':'|apertium -d ../apertium-kaz kaz-morph|sed 's/\$\W*\^/$\n^/g' | grep -v '\/\*' | grep -o '/[^\/]\+' | sed 's/^\//^/g' | sed 's/>$/>$/g' | apertium-pretransfer | sed 's/\$\W*\^/$\n^/g' | lt-proc -b kaz-eng.autobil.bin | grep '/@'
+
 
 Words not in LEXC:
 $ cat ~/corpora/languages/kazakh/akorda/kaz.crp.txt | apertium -d 
@@ -502,9 +503,13 @@ $ cat ~/corpora/languages/kazakh/akorda/kaz.crp.txt | apertium -d
 
 $ cat Coding_challenge/akorda-kaz-8651.txt | apertium -d /home/apertium/apertium-testing/apertium-kaz kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep '\/\*'
 
+
+
+cat ../apertium-kaz/apertium-kaz.kaz.lexc|grep "N1"|cut -f1 -d ':'| apertium -d ~/apertium/apertium-testing/apertium-kaz kaz-morph | sed 's/\$\W*\^/$\n^/g' | grep -v '\/\*' | grep -o '/[^\/]\+' | sed 's/^\//^/g' | sed 's/>$/>$/g' | apertium-pretransfer | sed 's/\$\W*\^/$\n^/g' | lt-proc -b kaz-eng.autobil.bin | grep '/@'
+
 Words in LEXC but not in BIDIX:
 $ cat ~/corpora/languages/kazakh/akorda/kaz.crp.txt | apertium -d 
-~/source/apertium/languages/apertium-kaz kaz-morph | sed 
+~/apertium/apertium-testing/apertium-kaz kaz-morph | sed 
 's/\$\W*\^/$\n^/g' | grep -v '\/\*' | grep -o '/[^\/]\+' | sed 
 's/^\//^/g' | sed 's/>$/>$/g' | apertium-pretransfer | sed 
 's/\$\W*\^/$\n^/g' | lt-proc -b kaz-eng.autobil.bin | grep '/@'

@@ -17194,6 +17194,9 @@
 
 <e lm="around" i=""><i>around</i><par n="house__n"/></e>
 
+<e lm="lead-up" i=""><i>lead-up</i><par n="house__n"/></e>
+ lead-up
+
                             <e lm="as" i=""><i>as</i><par n="at__pr"/></e>
 
                             <e lm="as a" i=""><i>as<b/>a</i><par n="at__pr"/></e>
@@ -20485,6 +20488,8 @@
                             <e lm="christmas eve" i=""><i>christmas<b/>eve</i><par n="house__n"/></e>
 
                             <e lm="endowment" i=""><i>endowment</i><par n="house__n"/></e>
+
+                            <e lm="Summer Olympic Game" i=""><i>Summer<b/>Olympic<b/>Game</i><par n="house__n"/></e>
 
                             <e lm="olympic game" i=""><i>olympic<b/>game</i><par n="house__n"/></e>
 

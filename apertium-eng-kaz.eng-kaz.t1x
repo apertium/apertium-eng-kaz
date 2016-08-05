@@ -136,6 +136,7 @@
 
  <def-cat n="NP_verb-ing"> <!-- for ger like NP, I like playing-->
       <cat-item tags="vblex.ger"/>
+      <cat-item tags="vblex.pprs"/>
       <cat-item tags="vblex.sep.ger"/>
    </def-cat>   
 
@@ -6997,6 +6998,266 @@
 
 
  
+<rule comment="NEW RULE: det NP_verb-ing noun"> 
+  <pattern>
+    <pattern-item n="det"/>
+    <pattern-item n="NP_verb-ing"/>  
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="NEW-build-noun-lu-2-4-5-sg">
+      <with-param pos="3"/>
+    </call-macro> <!-- noun is built in singular as the NP contains numerals -->
+     <call-macro n="build-num-lu">
+      <with-param pos="2"/>
+    </call-macro>
+
+<!-- *** -->
+
+<choose>
+  <when> <!-- Demonstrative -->
+    <test>
+<or>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+ <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
+</or>
+</test>
+    <out>
+    <chunk name="detdem-ing-nom">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder: use 'semantic' number for SL -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+
+     <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_det"/>
+      <clip pos="1" side="tl" part="a_dem"/>
+    </lu>
+	<b pos="1"/>
+
+       <lu>
+      <clip pos="2" side="tl" part="lem"/>
+      <clip pos="2" side="tl" part="a_kaz_verb"/>
+      <lit-tag v="ger_past"/>
+      <lit-tag v="nom"/>
+    </lu>
+    <b pos="2"/>
+    <lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+  
+  <when> 
+    <test><equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+    <call-macro n="build-possessive-from-possessive-determiner">
+       <with-param pos="1"/>
+    </call-macro>
+    <out>
+    <chunk name="detpos-ing-nom">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><var n="possessive"/></tag> <!-- possessor computed from possessive determiner -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+  <lu>
+      <clip pos="1" side="tl" part="whole"/>
+    </lu>
+<b pos="1"/>
+  
+       <lu>
+      <clip pos="2" side="tl" part="lem"/>
+      <clip pos="2" side="tl" part="a_kaz_verb"/>
+      <lit-tag v="ger_past"/>
+      <lit-tag v="nom"/>
+    </lu>
+    <b pos="2"/>
+    <lu> 
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+
+  <otherwise>
+    <out>
+    <chunk name="detart-ing-nom">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <b pos="1"/>
+      <lu>
+      <clip pos="2" side="tl" part="lem"/>
+      <clip pos="2" side="tl" part="a_kaz_verb"/>
+      <lit-tag v="ger_past"/>
+      <lit-tag v="nom"/>
+    </lu>
+    <b pos="2"/>
+    <lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+    <call-macro n="out-blank-if-not-single-space"> 
+        <with-param pos="1"/>
+    </call-macro>
+  </otherwise>
+</choose>
+  </action>
+</rule>
+
+<rule comment="NEW RULE: det verb-ing"> 
+  <pattern>
+    <pattern-item n="det"/>
+    <pattern-item n="subs-ing"/>
+  </pattern>
+  <action>
+
+      
+    
+
+<!-- *** -->
+<choose>
+  <when> <!-- Demonstrative -->
+    <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+
+<or>
+ <equal><clip pos="1" side="sl" part="lem"/><lit v="This"/></equal>
+ <equal><clip pos="1" side="sl" part="lem"/><lit v="this"/></equal>
+</or>
+</and>
+</test>
+<let>
+<var n="case"/><lit-tag v="nom"/>
+</let>
+</when>
+<otherwise>
+<let>
+<var n="case"/><lit v=""/>
+</let>
+</otherwise>
+</choose>
+<choose>
+  <when> <!-- Demonstrative -->
+    <test>
+<or>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+ <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
+</or>
+</test>
+    <out>
+    <chunk name="detdem-ving"  case="caseFirstWord">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><lit-tag v="ND"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="PD"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="ger_past"/></tag> 
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+      <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_det"/>
+      <clip pos="1" side="tl" part="a_dem"/>
+<var n="case"/>
+    </lu>
+    <b pos="1"/>
+    <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="4"/>
+  	 <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="6"/> <!-- FMT: added  to avoid gen error -->
+        </lu>
+    </chunk>
+    </out>
+  </when>
+  
+  <when> 
+    <test><equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
+    <call-macro n="build-possessive-from-possessive-determiner">
+       <with-param pos="1"/>
+    </call-macro>
+    <out>
+    <chunk name="detpos-ving" case="caseFirstWord">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+     <tag><lit-tag v="ND"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="PD"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="ger_past"/></tag> 
+    <tag><var n="possessive"/></tag> <!-- possessor computed from possessive determiner -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
+    </lu>
+    <b pos="1"/>
+    <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="4"/>
+  	 <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="6"/> <!-- FMT: added  to avoid gen error -->
+        </lu>
+    </chunk>
+    </out>
+  </when>
+
+  <otherwise>
+    <call-macro n="process-preblank-1">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+    </call-macro>
+    <out>
+    <chunk name="detart-ving">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><lit-tag v="ND"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="PD"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="ger_past"/></tag>  <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+
+<!--    <b pos="1"/> -->
+     <var n="preblank-1"/>
+      <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="4"/>
+  	 <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="6"/> <!-- FMT: added  to avoid gen error -->
+        </lu>
+    </chunk>
+    </out>
+    <call-macro n="out-blank-if-not-single-space"> 
+        <with-param pos="1"/>
+    </call-macro>
+  </otherwise>
+</choose>
+  </action>
+</rule>
+
+
 <rule comment="NEW RULE: det num noun"> 
   <pattern>
     <pattern-item n="det"/>
@@ -11728,146 +11989,7 @@ this would have to be changed -->
   </action>
 </rule>
 
-  <rule comment="NEW RULE: det verb-ing"> 
-  <pattern>
-    <pattern-item n="det"/>
-    <pattern-item n="subs-ing"/>
-  </pattern>
-  <action>
-
-      
-    
-
-<!-- *** -->
-<choose>
-  <when> <!-- Demonstrative -->
-    <test>
-<and>
-<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
-
-<or>
- <equal><clip pos="1" side="sl" part="lem"/><lit v="This"/></equal>
- <equal><clip pos="1" side="sl" part="lem"/><lit v="this"/></equal>
-</or>
-</and>
-</test>
-<let>
-<var n="case"/><lit-tag v="nom"/>
-</let>
-</when>
-<otherwise>
-<let>
-<var n="case"/><lit v=""/>
-</let>
-</otherwise>
-</choose>
-<choose>
-  <when> <!-- Demonstrative -->
-    <test>
-<or>
-<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
- <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
-</or>
-</test>
-    <out>
-    <chunk name="detdem-ving"  case="caseFirstWord">
-    <tags>
-    <tag><lit-tag v="NP"/></tag>
-    <tag><lit-tag v="ND"/></tag> <!-- number placeholder -->
-    <tag><lit-tag v="PD"/></tag> <!-- person placeholder -->
-    <tag><lit-tag v="ger_past"/></tag> 
-    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
-    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
-    </tags>
-      <lu>
-      <clip pos="1" side="tl" part="lem"/>
-      <clip pos="1" side="tl" part="a_det"/>
-      <clip pos="1" side="tl" part="a_dem"/>
-<var n="case"/>
-    </lu>
-    <b pos="1"/>
-    <lu>
-          <clip pos="2" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-         <lit-tag v="4"/>
-  	 <lit-tag v="5"/>
-          <lit-tag v="3"/>
-          <lit-tag v="2"/>
-          <lit-tag v="6"/> <!-- FMT: added  to avoid gen error -->
-        </lu>
-    </chunk>
-    </out>
-  </when>
   
-  <when> 
-    <test><equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="pos"/></equal></test>
-    <call-macro n="build-possessive-from-possessive-determiner">
-       <with-param pos="1"/>
-    </call-macro>
-    <out>
-    <chunk name="detpos-ving" case="caseFirstWord">
-    <tags>
-    <tag><lit-tag v="NP"/></tag>
-     <tag><lit-tag v="ND"/></tag> <!-- number placeholder -->
-    <tag><lit-tag v="PD"/></tag> <!-- person placeholder -->
-    <tag><lit-tag v="ger_past"/></tag> 
-    <tag><var n="possessive"/></tag> <!-- possessor computed from possessive determiner -->
-    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
-    </tags>
-    <lu>
-      <clip pos="1" side="tl" part="whole"/>
-    </lu>
-    <b pos="1"/>
-    <lu>
-          <clip pos="2" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-         <lit-tag v="4"/>
-  	 <lit-tag v="5"/>
-          <lit-tag v="3"/>
-          <lit-tag v="2"/>
-          <lit-tag v="6"/> <!-- FMT: added  to avoid gen error -->
-        </lu>
-    </chunk>
-    </out>
-  </when>
-
-  <otherwise>
-    <call-macro n="process-preblank-1">
-       <with-param pos="1"/>
-       <with-param pos="2"/>
-    </call-macro>
-    <out>
-    <chunk name="detart-ving">
-    <tags>
-    <tag><lit-tag v="NP"/></tag>
-    <tag><lit-tag v="ND"/></tag> <!-- number placeholder -->
-    <tag><lit-tag v="PD"/></tag> <!-- person placeholder -->
-    <tag><lit-tag v="ger_past"/></tag>  <!-- person placeholder -->
-    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
-    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
-    </tags>
-
-<!--    <b pos="1"/> -->
-     <var n="preblank-1"/>
-      <lu>
-          <clip pos="2" side="tl" part="lem"/>
-	  <clip pos="2" side="tl" part="a_kaz_verb"/>
-         <lit-tag v="4"/>
-  	 <lit-tag v="5"/>
-          <lit-tag v="3"/>
-          <lit-tag v="2"/>
-          <lit-tag v="6"/> <!-- FMT: added  to avoid gen error -->
-        </lu>
-    </chunk>
-    </out>
-    <call-macro n="out-blank-if-not-single-space"> 
-        <with-param pos="1"/>
-    </call-macro>
-  </otherwise>
-</choose>
-  </action>
-</rule>
-
 
 <rule comment="NEW RULE: sup-adjec">  
   <pattern>
@@ -13635,6 +13757,10 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
               <tag><lit-tag v="Q_mark"/></tag>
              
             </tags>
+<lu>
+            <lit v="ма"/>
+            <lit-tag  v="qst"/>
+</lu>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>

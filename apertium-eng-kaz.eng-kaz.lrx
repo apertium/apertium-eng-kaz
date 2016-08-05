@@ -2,6 +2,21 @@
   <rule> <!-- to solve something that CG couldn't? -->
     <match lemma="I" tags="prn.*"><select lemma="Мен" tags="prn.*"/></match>
   </rule>
+
+  <rule>
+    <match lemma="number" tags="n.*"><select lemma="сан" tags="n.*"/></match>
+    <match lemma="of" tags="pr"/>
+    <match lemma="country" tags="n.*"><select lemma="мемлекет" tags="n.*"/></match>
+  </rule>
+
+
+  <rule>
+
+    <match lemma="country" tags="n.*"><select lemma="ел" tags="n.*"/></match>
+    <match lemma="be" tags="vbser.*"/>
+    <match lemma="participate" tags="vblex.*"/>
+  </rule>
+
   <rule> <!-- leftover example -->
     <match lemma="dog" tags="n.*"><select lemma="ит" tags="n.*"/></match>
   </rule>
@@ -32,6 +47,14 @@
    
   </rule>
 
+
+  <rule>
+    <match lemma="number" tags="n.*"/>
+    <match lemma="of" tags="pr"/>
+    <match lemma="country" tags="n.*"><select lemma="мемлекет" tags="n.*"/></match>
+
+  </rule>
+
   <rule>
     <match lemma="number" tags="n.*"><select lemma="сан" tags="n.*"/></match>
   </rule>
@@ -41,6 +64,11 @@
 
 <rule>
     <match lemma="call" tags="vblex.*"><select lemma="ата" tags="v.*"/></match>
+  </rule>
+
+<rule>
+    <match lemma="mark" tags="vblex.*"><select lemma="ата" tags="v.*"/></match>
+    <match lemma="by" tags="pr"/>
   </rule>
 
 <rule>

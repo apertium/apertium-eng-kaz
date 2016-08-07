@@ -4,11 +4,17 @@
   </rule>
 
   <rule>
+
+    <match lemma="beyond" tags="pr"/>
+    <match lemma="*" tags="det.pos.*"/>
+    <match lemma="ability" tags="n.*"><select lemma="мүмкіндік" tags="n.*"/></match>
+  </rule>
+
+  <rule>
     <match lemma="number" tags="n.*"><select lemma="сан" tags="n.*"/></match>
     <match lemma="of" tags="pr"/>
     <match lemma="country" tags="n.*"><select lemma="мемлекет" tags="n.*"/></match>
   </rule>
-
 
   <rule>
 

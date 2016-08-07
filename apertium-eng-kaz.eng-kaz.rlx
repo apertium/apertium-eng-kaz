@@ -109,6 +109,12 @@ SELECT N IF
 	(1 Det) 
 ;
 
+#Ability to sing WELL(ADV)
+SELECT Adv IF
+	(-1 V) 
+	(-2 ("to")) 
+
+;
 
 
 # z_z

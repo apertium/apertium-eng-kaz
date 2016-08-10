@@ -1382,6 +1382,7 @@
 </otherwise>
 </choose>
 </def-macro>
+
 <def-macro n="NEW-gen-simple-verb-neg" npar="1">
 <out>
       <chunk name="pers-verb">
@@ -13757,10 +13758,11 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
               <tag><lit-tag v="Q_mark"/></tag>
              
             </tags>
+<!--
 <lu>
             <lit v="ма"/>
             <lit-tag  v="qst"/>
-</lu>
+</lu>-->
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>

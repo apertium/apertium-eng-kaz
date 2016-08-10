@@ -663,6 +663,19 @@
             <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
           </when>
         </choose>
+<!--AS - 11/08/2016: DUA1 - empty ND and PD caused Segmentation fault, fixed -->
+ <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="ND"/></equal></test>
+            <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+          </when>
+        </choose>
+ <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="PD"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
+          </when>
+        </choose>
 <choose><!--formality patch-->
           <when>
             <test><equal><clip pos="1" side="sl" part="a_pers_num"/><lit-tag v="p2.sg"/></equal></test>  <!-- if we generate no formality, add it -->

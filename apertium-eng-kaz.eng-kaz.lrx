@@ -3,6 +3,10 @@
     <match lemma="I" tags="prn.*"><select lemma="Мен" tags="prn.*"/></match>
   </rule>
 
+<rule>
+    <match lemma="do" tags="vblex.*"><select lemma="істе" tags="v.tv.*"/></match>
+  </rule>
+
   <rule>
 
     <match lemma="beyond" tags="pr"/>

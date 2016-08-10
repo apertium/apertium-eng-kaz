@@ -228,6 +228,7 @@
 <e><p><l>next<b/>to<s n="pr"/></l><r>маң<s n="n"/><s n="px3sp"/><s n="loc"/></r></p></e>
 <e r="LR"><p><l>of<s n="pr"/></l><r></r></p></e>
 <e r="LR"><p><l>off<s n="pr"/></l><r></r></p></e>
+<e><p><l>on<s n="pr"/></l><r>үст<s n="n"/></r></p></e>
 <e><p><l>on<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>on<s n="pr"/></l><r>үст<s n="n"/><s n="px3sp"/><s n="dat"/></r></p></e>
 <e><p><l>on<b/>over<b/>of<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -2150,57 +2151,6 @@
 <e><p><l>dope<s n="n"/></l><r>есірткі<s n="n"/></r></p></e>
 <e><p><l>alcohol<s n="n"/></l><r>есірткіш<s n="n"/></r></p></e>
 <e><p><l>drug<s n="n"/></l><r>есірткіш<s n="n"/></r></p></e>
-<e><p><l>disobedience<s n="n"/></l><r>есітпеушілік<s n="n"/></r></p></e>
-<e><p><l>naughtiness<s n="n"/></l><r>есітпеушілік<s n="n"/></r></p></e>
-<e><p><l>attentiveness<s n="n"/></l><r>ескерушілік<s n="n"/></r></p></e>
-<e><p><l>attention<s n="n"/></l><r>ескерушілік<s n="n"/></r></p></e>
-<e><p><l>antiquity<s n="n"/></l><r>ескілік<s n="n"/></r></p></e>
-<e><p><l>prescription<s n="n"/></l><r>ескілік<s n="n"/></r></p></e>
-<e><p><l>conservatism<s n="n"/></l><r>ескілік<s n="n"/></r></p></e>
-<e><p><l>sluggishness<s n="n"/></l><r>ескілік<s n="n"/></r></p></e>
-<e><p><l>routine<s n="n"/></l><r>ескілік<s n="n"/></r></p></e>
-<e><p><l>disrepair<s n="n"/></l><r>ескіргендік<s n="n"/></r></p></e>
-<e><p><l>decrepitude<s n="n"/></l><r>ескіргендік<s n="n"/></r></p></e>
-<e><p><l>prescription<s n="n"/></l><r>ескіргендік<s n="n"/></r></p></e>
-<e><p><l>obsolescence<s n="n"/></l><r>ескіргендік<s n="n"/></r></p></e>
-<e><p><l>routine<s n="n"/></l><r>ескішілдік<s n="n"/></r></p></e>
-<e><p><l>conservatism<s n="n"/></l><r>ескішілдік<s n="n"/></r></p></e>
-<e><p><l>madness<s n="n"/></l><r>ессіздік<s n="n"/></r></p></e>
-<e><p><l>unconsciousness<s n="n"/></l><r>ессіздік<s n="n"/></r></p></e>
-<e><p><l>recklessness<s n="n"/></l><r>ессіздік<s n="n"/></r></p></e>
-<e><p><l>foolishness<s n="n"/></l><r>ессіздік<s n="n"/></r></p></e>
-<e><p><l>proximity<s n="n"/></l><r>етенелік<s n="n"/></r></p></e>
-<e><p><l>passive<s n="n"/></l><r>етіс<s n="n"/></r></p></e>
-<e><p><l>butcher<s n="n"/></l><r>етші<s n="n"/></r></p></e>
-<e><p><l>meatman<s n="n"/></l><r>етші<s n="n"/></r></p></e>
-<e><p><l>European<s n="n"/></l><r>еуропалық<s n="n"/></r></p></e>
-<e><p><l>foal<s n="n"/></l><r>жабағы<s n="n"/></r></p></e>
-<e><p><l>supplier<s n="n"/></l><r>жабдықтаушы<s n="n"/></r></p></e>
-<e><p><l>provider<s n="n"/></l><r>жабдықтаушы<s n="n"/></r></p></e>
-<e><p><l>despondency<s n="n"/></l><r>жабырқаулық<s n="n"/></r></p></e>
-<e><p><l>discouragement<s n="n"/></l><r>жабырқаулық<s n="n"/></r></p></e>
-<e><p><l>gloom<s n="n"/></l><r>жабырқаулық<s n="n"/></r></p></e>
-<e><p><l>adhesiveness<s n="n"/></l><r>жабысқақтық<s n="n"/></r></p></e>
-<e><p><l>viscosity<s n="n"/></l><r>жабысқақтық<s n="n"/></r></p></e>
-<e><p><l>stickiness<s n="n"/></l><r>жабысқақтық<s n="n"/></r></p></e>
-<e><p><l>patch<s n="n"/></l><r>жабыстырғыш<s n="n"/></r></p></e>
-<e><p><l>plaster<s n="n"/></l><r>жабыстырғыш<s n="n"/></r></p></e>
-<e><p><l>sycophancy<s n="n"/></l><r>жағымпаздық<s n="n"/></r></p></e>
-<e><p><l>flannel<s n="n"/></l><r>жағымпаздық<s n="n"/></r></p></e>
-<e><p><l>memory<s n="n"/></l><r>жады<s n="n"/></r></p></e>
-<e><p><l>memo<s n="n"/></l><r>жадынама<s n="n"/></r></p></e>
-<e><p><l>refresher<s n="n"/></l><r>жадынама<s n="n"/></r></p></e>
-<e><p><l>guiltiness<s n="n"/></l><r>жазаланушылық<s n="n"/></r></p></e>
-<e><p><l>penality<s n="n"/></l><r>жазаланушылық<s n="n"/></r></p></e>
-<e><p><l>impunity<s n="n"/></l><r>жазасыздық<s n="n"/></r></p></e>
-<e><p><l>innocence<s n="n"/></l><r>жазықсыздық<s n="n"/></r></p></e>
-<e><p><l>subscriber<s n="n"/></l><r>жазылушы<s n="n"/></r></p></e>
-<e><p><l>carelessness<s n="n"/></l><r>жайбарақаттық<s n="n"/></r></p></e>
-<e><p><l>insouciance<s n="n"/></l><r>жайбарақаттық<s n="n"/></r></p></e>
-<e><p><l>slowness<s n="n"/></l><r>жайбасарлық<s n="n"/></r></p></e>
-<e><p><l>deliberation<s n="n"/></l><r>жайбасарлық<s n="n"/></r></p></e>
-<e><p><l>sheet<s n="n"/></l><r>жайма<s n="n"/></r></p></e>
-<e><p><l>bedsheet<s n="n"/></l><r>жайма<s n="n"/></r></p></e>
 <!-- -->
 <e><p><l>abacus<s n="n"/></l><r>абакан<s n="n"/></r></p></e>
 <e><p><l>abalone<s n="n"/></l><r>құлақша<s n="n"/></r></p></e>
@@ -2821,7 +2771,7 @@
 <e><p><l>app<s n="n"/></l><r>қосымша<s n="n"/></r></p></e>
 <e><p><l>apraxia<s n="n"/></l><r>апраксия<s n="n"/></r></p></e>
 <e><p><l>apricot<s n="n"/></l><r>өрік<s n="n"/></r></p></e>
-<e><p><l>April<s n="n"/></l><r>cәуір<s n="n"/></r></p></e>
+<e><p><l>April<s n="n"/></l><r>сәуір<s n="n"/></r></p></e>
 <e><p><l>apriority<s n="n"/></l><r>приоритет<s n="n"/></r></p></e>
 <e><p><l>apron<s n="n"/></l><r>алжапқыш<s n="n"/></r></p></e>
 <e><p><l>apron<s n="n"/></l><r>алжапқыш<s n="n"/></r></p></e>
@@ -6608,7 +6558,7 @@
 <e><p><l>frontier<s n="n"/></l><r>шекара<s n="n"/></r></p></e>
 <e><p><l>frontispiece<s n="n"/></l><r>фронтспис<s n="n"/></r></p></e>
 <e><p><l>fronton<s n="n"/></l><r>фронтон<s n="n"/></r></p></e>
-<e><p><l>front<s n="n"/></l><r>алд<s n="n"/><s n="px3sp"/></r></p></e>
+<e><p><l>front<s n="n"/></l><r>алд<s n="n"/></r></p></e>
 <e><p><l>front<s n="n"/></l><r>алд<s n="n"/><s n="px1pl"/></r></p></e>
 <e><p><l>front<s n="n"/></l><r>қасбет<s n="n"/></r></p></e>
 <e><p><l>frost<s n="n"/></l><r>аяз<s n="n"/></r></p></e>
@@ -6837,6 +6787,19 @@
 <e><p><l>goal<s n="n"/></l><r>мақсат<s n="n"/></r></p></e>
 <e><p><l>goat<s n="n"/></l><r>ешкі<s n="n"/></r></p></e>
 <e><p><l>goblin<s n="n"/></l><r>гоблин<s n="n"/></r></p></e>
+
+<e><p><l>god<s n="n"/></l><r>жаратушы<s n="n"/></r></p></e>
+<e><p><l>online<s n="n"/></l><r>онлайн<s n="n"/></r></p></e>
+<e><p><l>guarantee<s n="n"/></l><r>кепілдік<s n="n"/></r></p></e>
+<e><p><l>nuclear<s n="adj"/></l><r>антиядролық<s n="adj"/></r></p></e>
+<e><p><l>transformation<s n="n"/></l><r>трансформация<s n="n"/></r></p></e>
+<e><p><l>threshold<s n="n"/></l><r>табалдырық<s n="n"/></r></p></e>
+<e><p><l>evil<s n="n"/></l><r>зұлымдық<s n="n"/></r></p></e>
+<e><p><l>prime<b/>minister<s n="n"/></l><r>вице-премьер<s n="n"/></r></p></e>
+<e><p><l>pharmaceutical<s n="adj"/></l><r>фармацевтика<s n="adj"/></r></p></e>
+<e><p><l>sweden<s n="n"/></l><r>швед<s n="n"/></r></p></e>
+<e><p><l>trade<s n="n"/></l><r>тауар<b/>айналым<s n="n"/></r></p></e>
+<e><p><l>legislative<b/>act<s n="n"/></l><r>заңнамалық<b/>акті<s n="n"/></r></p></e>
 <e><p><l>goddess<s n="n"/></l><r>құдай<s n="n"/></r></p></e>
 <e><p><l>godfather<s n="n"/></l><r>кіндік<b/>әке<s n="n"/></r></p></e>
 <e><p><l>godmother<s n="n"/></l><r>кіндік<b/>ана<s n="n"/></r></p></e>
@@ -13579,6 +13542,7 @@
 <e><p><l>g<s n="n"/><s n="acr"/></l><r>г<s n="abbr"/></r></p></e>
 <e><p><l>http<s n="n"/><s n="acr"/></l><r>http<s n="abbr"/></r></p></e>
 <e><p><l>kg<s n="n"/><s n="acr"/></l><r>кг<s n="abbr"/></r></p></e>
+<e><p><l>billion<s n="n"/><s n="acr"/></l><r>млрд<s n="n"/></r></p></e>
 <e><p><l>billion<s n="n"/><s n="acr"/></l><r>млрд<s n="abbr"/></r></p></e>
 <e><p><l>million<s n="num"/><s n="sp"/></l><r>млн<s n="abbr"/></r></p></e>
 <e><p><l>million<s n="n"/><s n="acr"/></l><r>млн<s n="abbr"/></r></p></e>

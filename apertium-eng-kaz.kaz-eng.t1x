@@ -479,8 +479,8 @@
 <cat-item tags="num.*.*"/>
 </def-cat>
 <def-cat n="num-ord">
-<cat-item tags="num.ord"/>
-<cat-item tags="num.ord.*"/>
+<cat-item tags="num.ord.subst"/>
+<cat-item tags="num.ord.subst.*"/>
 </def-cat>
  <def-cat n="cop">
       <cat-item tags="cop.*"/>
@@ -1758,7 +1758,8 @@ If no format information is present it is removed. -->
            <concat>
              <clip pos="1" side="tl" part="lem"/> 
                <clip pos="1" side="tl" part="a_num"/>
-<clip pos="1" side="tl" part="a_nbr"/>
+               <clip pos="1" side="tl" part="a_mf"/>
+               <clip pos="1" side="tl" part="a_nbr"/>
            </concat>  
         </let>
 </def-macro>

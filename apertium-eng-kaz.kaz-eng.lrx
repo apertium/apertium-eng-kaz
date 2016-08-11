@@ -434,6 +434,11 @@
  </rule>
 
  <rule>
+   <match lemma="*" tags="adj"/>
+   <match lemma="ұл" tags="n.*"><select lemma="boy" tags="n.*"/></match>
+ </rule>
+
+ <rule>
    <match lemma="математикалық" tags="adj"/>
    <match lemma="үлгі" tags="n.*"><select lemma="model" tags="n.*"/></match>
  </rule>

@@ -1,5 +1,48 @@
 <rules>
 
+ <rule>
+  <or>
+   <match lemma="жасыл" tags="adj"/>
+  <match lemma="көк" tags="adj"/>
+<match lemma="қызыл" tags="adj"/>
+<match lemma="сары" tags="adj"/>
+<match lemma="қара" tags="adj"/>
+<match lemma="ақ" tags="adj"/>
+<match lemma="қоңыр" tags="adj"/>
+<match lemma="сұр" tags="adj"/>
+
+  </or>
+   <match lemma="түс" tags="n.*"><select lemma="color" tags="n.*"/></match>
+ </rule>
+
+<rule>
+  <or>
+   <match lemma="британ" tags="n.*"/>
+  <match lemma="студент" tags="n.*"/>
+<match lemma="Европа" tags="n.*"/>
+<match lemma="Азия" tags="n.*"/>
+<match lemma="Университет" tags="n.*"/>
+<match lemma="қала" tags="n.*j"/>
+
+  </or>
+   <match lemma="кеңес" tags="n.*.*"><select lemma="council" tags="n.*"/></match>
+<match lemma="*" tags="v.*.ger.*"/> 
+
+ </rule>
+
+<rule>
+  <match lemma="есеп" tags="n.*"/>
+<match lemma="жол" tags="n.*.*"><select lemma="method" tags="n.*"/></match>
+<match lemma="*" tags="adj"/>
+</rule>
+
+<rule>
+  <match lemma="есеп" tags="n.*"/>
+<match lemma="жол" tags="n.*.*"><select lemma="method" tags="n.*"/></match>
+<match lemma="қиын" tags="adj"><select lemma="difficult" tags="adj"/></match>
+ <match lemma="*" tags="cop.*.*.*"/>
+</rule>
+
 <rule>
   <match lemma="бала" tags="n.*"><select lemma="kid" tags="n.*"/></match>
 <match lemma="ынта" tags="n.*"/> 
@@ -128,10 +171,13 @@
   <match lemma="*" tags="*"/>
   <match lemma="күшік" tags="n.*"><select lemma="dog" tags="n.*"/>
 </match>
-
-
  </rule>  
 
+<rule>
+  <match lemma="*" tags="prn.pers.*.*.nom"/>
+  <match lemma="түс" tags="n.*"><select lemma="dream" tags="n.*"/></match>
+  <match lemma="көр" tags="v.*.*.*.*"/>
+ </rule>
 
  <rule>
   <match lemma="*" tags="np.ant.m.*"/>

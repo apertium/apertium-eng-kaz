@@ -22448,6 +22448,7 @@
 
                             <e lm="aid to navigation" i=""><i>aid</i><par n="house__n"/><p><l><b/>to<b/>navigation</l><r><g><b/>to<b/>navigation</g></r></p></e>
 
+<e lm="make effort" i=""><i>ma</i><par n="ma/ke__vblex"/><p><l><b/>effort</l><r><g><b/>effort</g></r></p></e>
                             <e lm="make love" i=""><i>ma</i><par n="ma/ke__vblex"/><p><l><b/>love</l><r><g><b/>love</g></r></p></e>
 
                             <e lm="do the shopping" i=""><i>d</i><par n="d/o__vblex"/><p><l><b/>the<b/>shopping</l><r><g><b/>the<b/>shopping</g></r></p></e>
@@ -23933,6 +23934,7 @@
 
                             <e lm="talk muddled" i=""><i>talk</i><par n="accept__vblex"/><p><l><b/>muddled</l><r><g><b/>muddled</g></r></p></e>
 
+<e lm="talk over" i=""><i>talk</i><par n="accept__vblex"/><p><l><b/>over</l><r><g><b/>over</g></r></p></e>
                             <e lm="have a vague memory" i=""><i>ha</i><par n="ha/ve__vblex"/><p><l><b/>a<b/>vague<b/>memory</l><r><g><b/>a<b/>vague<b/>memory</g></r></p></e>
 
                             <e lm="congruently" i=""><i>congruently</i><par n="maybe__adv"/></e>
@@ -62242,6 +62244,8 @@
 
                             <e lm="fly" i=""><i>fl</i><par n="fl/y__vblex"/></e>
 
+
+
                             <e lm="flatter" i=""><i>flatter</i><par n="accept__vblex"/></e>
 
                             <e lm="flee" i=""><i>fle</i><par n="fle/e__vblex"/></e>
@@ -62625,6 +62629,8 @@
                             <e lm="judge" i=""><i>judg</i><par n="liv/e__vblex"/></e>
 
                             <e lm="jump" i=""><i>jump</i><par n="accept__vblex"/></e>
+
+<e lm="jump over" i=""><i>jump</i><par n="accept__vblex"/><p><l><b/>over</l><r><g><b/>over</g></r></p></e>
 
                             <e lm="justify" i=""><i>justif</i><par n="appl/y__vblex"/></e>
 
@@ -63868,6 +63874,7 @@
 
                             <e lm="take" i=""><i>t</i><par n="t/ake__vblex"/></e>
 
+<e lm="fly" i=""><i>fl</i><par n="fl/y__vblex"/><par n="probj_dem__prn"/><p><l><b/>away</l><r><g><b/>away</g></r></p></e>
                             <e lm="take away" i=""><i>t</i><par n="t/ake__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>away</l><r><g><b/>away</g></r></p></e>
 
                             <e lm="tackle" i=""><i>tackl</i><par n="liv/e__vblex"/></e>

@@ -14,6 +14,25 @@
     <match lemma="ability" tags="n.*"><select lemma="мүмкіндік" tags="n.*"/></match>
   </rule>
 
+<rule>
+<match lemma="reputation" tags="n.*.*"><select lemma="мәртебе" tags="n.*"/></match>
+<match lemma="of" tags="pr"/>
+</rule>
+
+<rule>
+<match lemma="company" tags="n.*.*"/>
+<match lemma="reputation" tags="n.*.*"><select lemma="абырой" tags="n.*"/></match>
+</rule>
+
+<rule>
+<match lemma="do" tags="vblex.*"/>
+<match lemma="review" tags="n.*.*"><select lemma="қайталау" tags="n.*"/></match>
+</rule>
+
+<rule>
+<match lemma="write" tags="vblex.*"/>
+<match lemma="review" tags="n.*.*"><select lemma="рецензия" tags="n.*"/></match>
+</rule>
   <rule>
     <match lemma="number" tags="n.*"><select lemma="сан" tags="n.*"/></match>
     <match lemma="of" tags="pr"/>

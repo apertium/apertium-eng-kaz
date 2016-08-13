@@ -2279,6 +2279,17 @@ If no format information is present it is removed. -->
 
  <def-macro n="conv-to-subj" npar="1">
       <choose>
+ <when>
+               <test>
+                 <and>
+<equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+<equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="gen"/></equal>
+<equal><clip pos="1" side="sl" part="learned_attruse"/><lit-tag v="subst"/></equal>
+ </and>
+</test>
+               <let><var n="sntype"/><lit-tag v="prn.pos"/></let>
+               <let><clip pos="1" side="sl" part="a_pers"/><lit v=""/></let>
+            </when>
             <when>
                <test>
                  <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
@@ -2619,9 +2630,15 @@ If no format information is present it is removed. -->
         </call-macro>
 <out><lu><lit v="*executedtule34"/></lu></out></when>
       <otherwise><!--Word-for-word translation-->
-
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out><!--isolated word-->
-<out><lu><lit v="*wordforword10"/></lu></out></otherwise>
+<call-macro n="build-adjec-lu"><with-param pos="1"/></call-macro> 
+  <out>
+       <chunk name="__adj___post2_" case="caseFirstWord">       <tags>             <tag><lit-tag v="AdjP"/></tag>       </tags>        
+  <lu>
+             <var n="adjec_lu"/>
+          </lu>
+          <b pos="1"/>
+      </chunk>
+      </out></otherwise>
     </choose>
   </action>
 </rule>
@@ -3267,7 +3284,7 @@ If no format information is present it is removed. -->
 	<clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
               <clip pos="1" side="tl" part="lemq"/>
-                <lit-tag v="3"/>
+ <var n="number"/>
             </lu>
           </chunk>
         </out>
@@ -3465,7 +3482,7 @@ If no format information is present it is removed. -->
 	<clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
               <clip pos="1" side="tl" part="lemq"/>
-                <lit-tag v="3"/>
+               <var n="number"/>
             </lu>
           </chunk>
         </out>
@@ -6548,12 +6565,9 @@ If no format information is present it is removed. -->
                <tag><var n="number"/></tag>
               <tag><lit-tag v="PD"/></tag>
             </tags>
-<lu>
-<var n="postposition_lu"/>
-</lu>
-<b/>   
+  
          <lu>
-<clip pos="2" side="tl" part="lem"/>
+<var n="number1"/>
              <lit-tag v="pr"/>
              
 
@@ -13944,7 +13958,7 @@ If no format information is present it is removed. -->
 
 
 <out>
-	<chunk name="any" case="caseFirstWord">
+	<chunk name="any1" case="caseFirstWord">
 <tags>             
 	<tag>
 		<lit-tag v="LRN"/>
@@ -14240,7 +14254,7 @@ If no format information is present it is removed. -->
 <out><lu><lit v="*executedtule7"/></lu></out></when>
       <otherwise>
 
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
+<out><chunk name="any2" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
 <out><lu><lit v="*wordforword2"/></lu></out></otherwise>
     </choose>
   </action>
@@ -14282,7 +14296,7 @@ If no format information is present it is removed. -->
 <out><lu><lit v="*executedtule8"/></lu></out></when>
       <otherwise>
 
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
+<out><chunk name="any3" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
 <out><lu><lit v="*wordforword3"/></lu></out></otherwise>
     </choose>
   </action>

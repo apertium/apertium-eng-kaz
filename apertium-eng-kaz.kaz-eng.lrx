@@ -22,13 +22,14 @@
 <match lemma="Европа" tags="n.*"/>
 <match lemma="Азия" tags="n.*"/>
 <match lemma="Университет" tags="n.*"/>
-<match lemma="қала" tags="n.*j"/>
+<match lemma="қала" tags="n.*"/>
 
   </or>
    <match lemma="кеңес" tags="n.*.*"><select lemma="council" tags="n.*"/></match>
 <match lemma="*" tags="v.*.ger.*"/> 
 
  </rule>
+
 
 <rule>
   <match lemma="есеп" tags="n.*"/>

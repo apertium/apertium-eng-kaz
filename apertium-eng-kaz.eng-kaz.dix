@@ -275,6 +275,7 @@
 <e><p><l>create<s n="vblex"/></l><r>қалыптастыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>address<s n="vblex"/></l><r>жүгін<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>grow<s n="vblex"/></l><r>арт<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>grow<s n="vblex"/></l><r>бойжет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>investigate<s n="vblex"/></l><r>барла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>head<s n="vblex"/></l><r>бетте<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>return<s n="vblex"/></l><r>қайтар<s n="v"/><s n="tv"/></r></p></e>
@@ -3785,6 +3786,8 @@
 <e><p><l>brothel<s n="n"/></l><r>жезөкшелер<b/>үйі<s n="n"/></r></p></e>
 <e><p><l>brotherhood<s n="n"/></l><r>ағайындық<s n="n"/></r></p></e>
 <e><p><l>brother<s n="n"/></l><r>аға<s n="n"/></r></p></e>
+<e><p><l>brother<s n="n"/></l><r>ағайынды<s n="n"/></r></p></e>
+<e><p><l>type<s n="n"/></l><r>тип<s n="n"/></r></p></e>
 <e><p><l>broth<s n="n"/></l><r>сорпа<s n="n"/></r></p></e>
 <e><p><l>browser<s n="n"/></l><r>браузер<s n="n"/></r></p></e>
 <e><p><l>brow<s n="n"/></l><r>қас<s n="n"/></r></p></e>
@@ -11715,6 +11718,7 @@
 <e><p><l>siderite<s n="n"/></l><r>сидерит<s n="n"/></r></p></e>
 <e><p><l>siderurgy<s n="n"/></l><r>қара<b/>металлургия<s n="n"/></r></p></e>
 <e><p><l>side<s n="n"/></l><r>жақ<s n="n"/></r></p></e>
+<e><p><l>side<s n="n"/></l><r>жан-жақ<s n="n"/></r></p></e>
 <e><p><l>side<s n="n"/></l><r>қабырға<s n="n"/></r></p></e>
 <e><p><l>side<s n="n"/></l><r>тарап<s n="n"/></r></p></e>
 <e><p><l>sidewalk<s n="n"/></l><r>жүру<b/>аймағы<s n="n"/></r></p></e>
@@ -26006,6 +26010,7 @@
 <e><p><l>hand<s n="vblex"/></l><r>ұста<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>handle<s n="vblex"/></l><r>басқар<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hang<s n="vblex"/></l><r>іл<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>hang<b/>out<s n="vblex"/></l><r>ілін<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>hang<s n="vblex"/></l><r>ас<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>gibbet<s n="vblex"/></l><r>ас<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>happen<s n="vblex"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>

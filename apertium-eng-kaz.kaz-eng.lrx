@@ -15,6 +15,8 @@
    <match lemma="түс" tags="n.*"><select lemma="color" tags="n.*"/></match>
  </rule>
 
+
+
 <rule>
   <or>
    <match lemma="британ" tags="n.*"/>
@@ -30,6 +32,23 @@
 
  </rule>
 
+
+<rule>
+  <match lemma="*" tags="prn.pers.*.*.nom"/>
+<match lemma="*" tags="num.ord"/>
+<match lemma="орын" tags="n.*"><select lemma="place" tags="n.*"/></match>
+<or>
+   <match lemma="ал" tags="v.*.*.*.*"/>
+ 
+<match lemma="жең" tags="v.*.*.*.*"/>
+
+  </or>
+</rule>
+
+<rule>
+  <match lemma="үлкен" tags="adj"><select lemma="great" tags="adj.*"/></match>
+<match lemma="жұмыс" tags="n.*"/>
+</rule>
 
 <rule>
   <match lemma="есеп" tags="n.*"/>
@@ -65,6 +84,7 @@
 <match lemma="*" tags="num"/>
 <match lemma="пайыз" tags="n.*"/>
 </rule>
+
 
 <rule>
   <match lemma="бала" tags="n.pl.*"><select lemma="kid" tags="n.*"/></match>

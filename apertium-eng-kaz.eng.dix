@@ -21667,6 +21667,7 @@
 <e lm="egghead" i=""><i>egghead</i><par n="house__n"/></e>
 <e lm="extractor" i=""><i>extractor</i><par n="house__n"/></e>
 <e lm="eyepiece" i=""><i>eyepiece</i><par n="house__n"/></e>
+<e lm="magpie" i=""><i>magpie</i><par n="house__n"/></e>
 <e lm="fishery" i=""><i>fishery</i><par n="house__n"/></e>
 <e lm="gardenіng" i=""><i>gardenіng</i><par n="house__n"/></e>
 <e lm="goose-grass" i=""><i>goose-grass</i><par n="house__n"/></e>
@@ -23384,7 +23385,8 @@
 
                             <e lm="catch a cold" i=""><i>catch</i><par n="approach__vblex"/><p><l><b/>a<b/>cold</l><r><g><b/>a<b/>cold</g></r></p></e>
 
-                            <e lm="roast" i=""><i>roast</i><par n="accept__vblex"/></e>
+<e lm="catch up" i=""><i>catch</i><par n="approach__vblex"/><p><l><b/>up</l><r><g><b/>up</g></r></p></e>  
+                          <e lm="roast" i=""><i>roast</i><par n="accept__vblex"/></e>
 
                             <e lm="roast" i=""><i>roast</i><par n="accept__vblex"/></e>
 
@@ -50481,7 +50483,7 @@
                             <e lm="location" i=""><i>location</i><par n="house__n"/></e>
 
                             <e lm="lock" i=""><i>lock</i><par n="house__n"/></e>
-
+<e lm="locker" i=""><i>locker</i><par n="house__n"/></e>
                             <e lm="locomotion" i=""><i>locomotion</i><par n="house__n"/></e>
 
                             <e lm="locomotive" i=""><i>locomotive</i><par n="house__n"/></e>
@@ -60672,7 +60674,7 @@
 
                             <e lm="abandon" i=""><i>abandon</i><par n="accept__vblex"/></e>
 
-
+<e lm="discard" i=""><i>discard</i><par n="accept__vblex"/></e>
 
                             <e lm="abbreviate" i=""><i>abbreviat</i><par n="liv/e__vblex"/></e>
 
@@ -61317,6 +61319,8 @@
                             <e lm="come close" i=""><i>c</i><par n="bec/ome__vblex"/><p><l><b/>close</l><r><g><b/>close</g></r></p></e>
 
                             <e lm="catch" i=""><i>ca</i><par n="ca/tch__vblex"/></e>
+
+<e lm="catch cold" i=""><i>ca</i><par n="ca/tch__vblex"/><p><l><b/>cold</l><r><g><b/>cold</g></r></p></e>
 
                             <e lm="calculate" i=""><i>calculat</i><par n="liv/e__vblex"/></e>
 
@@ -79384,6 +79388,7 @@
 
                             <e lm="constituent" i=""><i>constituent</i><par n="house__n"/></e>
 
+<e lm="constitutor" i=""><i>constitutor</i><par n="house__n"/></e>
                             <e lm="Hess" i=""><i>Hess</i><par n="Bush__np"/></e>
 
                             <e lm="malevolent" i=""><i>malevolent</i><par n="expensive__adj"/></e>

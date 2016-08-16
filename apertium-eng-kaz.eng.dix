@@ -18306,6 +18306,8 @@
 
                             <e lm="computer science" i=""><i>computer<b/>science</i><par n="house__n"/></e>
 
+ <e lm="natural science" i=""><i>natural<b/>science</i><par n="house__n"/></e>
+
                             <e lm="capital letter" i=""><i>capital<b/>letter</i><par n="house__n"/></e>
 
                             <e r="LR" i=""><p><l>online</l><r>on-line</r></p><par n="expensive__adj"/></e>
@@ -20494,6 +20496,8 @@
                             <e lm="Summer Olympic Game" i=""><i>Summer<b/>Olympic<b/>Game</i><par n="house__n"/></e>
 
                             <e lm="olympic game" i=""><i>olympic<b/>game</i><par n="house__n"/></e>
+
+<e lm="olympics game" i=""><i>olympic<b/>game</i><par n="house__n"/></e>
 
                             <e lm="flag of riveira city" i=""><i>flag<b/>of<b/>riveira<b/>city</i><par n="Linux__np"/></e>
 
@@ -45245,6 +45249,7 @@
                             <e lm="bilingualism" i=""><i>bilingualism</i><par n="house__n"/></e>
 
                             <e lm="bill" i=""><i>bill</i><par n="house__n"/></e>
+<e lm="waybill" i=""><i>waybill</i><par n="house__n"/></e>
 
                             <e lm="billiard" i=""><i>billiard</i><par n="house__n"/></e>
 
@@ -45404,6 +45409,10 @@
  <e lm="stork" i=""><i>stork</i><par n="house__n"/></e>
  <e lm="poppy" i=""><i>poppy</i><par n="house__n"/></e>
  <e lm="vegetable" i=""><i>vegetable</i><par n="house__n"/></e>
+<e lm="tadzhik" i=""><i>tadzhik</i><par n="house__n"/></e>
+<e lm="tajik" i=""><i>tajik</i><par n="house__n"/></e>
+<e lm="provost" i=""><i>provost</i><par n="house__n"/></e>
+<e lm="prorektor" i=""><i>prorektor</i><par n="house__n"/></e>
  <e lm="ice" i=""><i>ice</i><par n="house__n"/></e>
  <e lm="kokpar" i=""><i>kokpar</i><par n="house__n"/></e>
  <e lm="cola" i=""><i>cola</i><par n="house__n"/></e>
@@ -51602,6 +51611,7 @@
 <e lm="perjurer" i=""><i>perjurer</i><par n="house__n"/></e>
 <e lm="naivete" i=""><i>naivete</i><par n="house__n"/></e>
 <e lm="abhorance" i=""><i>abhorance</i><par n="house__n"/></e>
+<e lm="abіence" i=""><i>abіence</i><par n="house__n"/></e>
 <e lm="ablaze" i=""><i>ablaze</i><par n="house__n"/></e>
 <e lm="adequacy" i=""><i>adequacy</i><par n="house__n"/></e>
 <e lm="adroitness" i=""><i>adroitness</i><par n="house__n"/></e>
@@ -51811,6 +51821,8 @@
                             <e lm="paint" i=""><i>paint</i><par n="house__n"/></e>
 
                             <e lm="painter" i=""><i>painter</i><par n="house__n"/></e>
+
+ <e lm="intercession" i=""><i>intercession</i><par n="house__n"/></e>
 
                             <e lm="painting" i=""><i>painting</i><par n="house__n"/></e>
 
@@ -52745,6 +52757,7 @@
                             <e lm="publicity" i=""><i>publicit</i><par n="bab/y__n"/></e>
 
                             <e lm="publisher" i=""><i>publisher</i><par n="house__n"/></e>
+<e lm="prinpublisher" i=""><i>prinpublisher</i><par n="house__n"/></e>
 
                             <e lm="publishing" i=""><i>publishing</i><par n="house__n"/></e>
 
@@ -53748,6 +53761,8 @@
                             <e lm="servant" i=""><i>servant</i><par n="house__n"/></e>
 
                             <e lm="service" i=""><i>service</i><par n="house__n"/></e>
+
+<e lm="service man" i=""><i>service<b/>man</i><par n="house__n"/></e>
 
                             <e lm="servitude" i=""><i>servitude</i><par n="house__n"/></e>
 
@@ -67815,7 +67830,7 @@
 
                             <e lm="adjustment" i=""><i>adjustment</i><par n="house__n"/></e>
 
-                            <e lm="adjustment" i=""><i>adjustment</i><par n="house__n"/></e>
+                            <e lm="adjuster" i=""><i>adjuster</i><par n="house__n"/></e>
 
                             <e lm="admiral" i=""><i>admiral</i><par n="house__n"/></e>
 
@@ -80623,6 +80638,8 @@
                             <e lm="empirically" i=""><i>empirically</i><par n="maybe__adv"/></e>
 
                             <e lm="viewpoint" i=""><i>viewpoint</i><par n="house__n"/></e>
+
+<e lm="pointsman" i=""><i>pointsman</i><par n="house__n"/></e>
 
                             <e lm="Riemann" i=""><i>Riemann</i><par n="Smith__np"/></e>
 

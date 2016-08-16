@@ -741,6 +741,7 @@
 <e><p><l>barter<s n="n"/></l><r>айырбас<s n="n"/></r></p></e>
 <e><p><l>swap<s n="n"/></l><r>айырбас<s n="n"/></r></p></e>
 <e><p><l>trade<s n="n"/></l><r>айырбас<s n="n"/></r></p></e>
+<e><p><l>trade<s n="n"/></l><r>сауда-саттық<s n="n"/></r></p></e>
 <e><p><l>truck<s n="n"/></l><r>айырбас<s n="n"/></r></p></e>
 <e><p><l>tweaker<s n="n"/></l><r>айырсадақ<s n="n"/></r></p></e>
 <e><p><l>slingshot<s n="n"/></l><r>айырсадақ<s n="n"/></r></p></e>
@@ -2089,6 +2090,7 @@
 <e><p><l>hymn<s n="n"/></l><r>елұран<s n="n"/></r></p></e>
 <e><p><l>anthem<s n="n"/></l><r>елұран<s n="n"/></r></p></e>
 <e><p><l>doctor<s n="n"/></l><r>емдеуші<s n="n"/></r></p></e>
+<e><p><l>docent<s n="n"/></l><r>доцент<s n="n"/></r></p></e>
 <e><p><l>wallet<s n="n"/></l><r>әмиян<s n="n"/></r></p></e>
 <e><p><l>purse<s n="n"/></l><r>әмиян<s n="n"/></r></p></e>
 <e><p><l>bugle<s n="n"/></l><r>емізік<s n="n"/></r></p></e>
@@ -3727,6 +3729,7 @@
 <e><p><l>brand<s n="n"/></l><r>марка<s n="n"/></r></p></e>
 <e><p><l>bra<s n="n"/></l><r>көкірекше<s n="n"/></r></p></e>
 <e><p><l>brass<s n="n"/></l><r>мыс<s n="n"/></r></p></e>
+<e><p><l>brass<s n="n"/></l><r>жез<s n="n"/></r></p></e>
 <e><p><l>brat<s n="n"/></l><r>төре<s n="n"/></r></p></e>
 <e><p><l>Brazilian<s n="n"/></l><r>Бразилиялық<s n="n"/></r></p></e>
 <e><p><l>breadfruit<s n="n"/></l><r>нанжидек<s n="n"/></r></p></e>
@@ -4976,7 +4979,7 @@
 <e><p><l>crest<s n="n"/></l><r>айдарша<s n="n"/></r></p></e>
 <e><p><l>crewman<s n="n"/></l><r>команданың<b/>мүшесі<s n="n"/></r></p></e>
 <e><p><l>crew<s n="n"/></l><r>команда<s n="n"/></r></p></e>
-<e><p><l>crew<s n="n"/></l><r>Экипаж<s n="n"/></r></p></e>
+<e><p><l>crew<s n="n"/></l><r>экипаж<s n="n"/></r></p></e>
 <e><p><l>crib<s n="n"/></l><r>ақыр<s n="n"/></r></p></e>
 <e><p><l>cricket<s n="n"/></l><r>крикет<s n="n"/></r></p></e>
 <e><p><l>cricoid<s n="n"/></l><r>жүзік<b/>тәрізді<b/>желбезек<s n="n"/></r></p></e>
@@ -8517,6 +8520,7 @@
 <e><p><l>lubricant<s n="n"/></l><r>жағармай<s n="n"/></r></p></e>
 <e><p><l>lucerne<s n="n"/></l><r>жоңышқа<s n="n"/></r></p></e>
 <e><p><l>luck<s n="n"/></l><r>бақыт<s n="n"/></r></p></e>
+<e><p><l>luck<s n="n"/></l><r>сәттілік<s n="n"/></r></p></e>
 <e><p><l>luck<s n="n"/></l><r>құт<s n="n"/></r></p></e>
 <e><p><l>lucre<s n="n"/></l><r>пайда<s n="n"/></r></p></e>
 <e><p><l>lucuma<s n="n"/></l><r>лукума<s n="n"/></r></p></e>
@@ -19946,6 +19950,7 @@
 <e><p><l>Philippines<s n="np"/><s n="top"/><s n="sg"/></l><r>Филиппиндер<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Poland<s n="np"/><s n="top"/><s n="sg"/></l><r>Польша<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Portugal<s n="np"/><s n="top"/><s n="sg"/></l><r>Португалия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>portugal<s n="n"/></l><r>португал<s n="n"/></r></p></e>
 <e><p><l>Prague<s n="np"/><s n="top"/><s n="sg"/></l><r>Прага<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Pretoria<s n="np"/><s n="top"/><s n="sg"/></l><r>Претория<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Purdue<s n="np"/><s n="top"/><s n="sg"/></l><r>Пердью<s n="np"/><s n="top"/></r></p></e>

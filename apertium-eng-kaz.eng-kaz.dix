@@ -1332,6 +1332,10 @@
 <e><p><l>master<s n="n"/></l><r>мастер<s n="n"/></r></p></e>
 <e><p><l>master<s n="n"/></l><r>магистр<s n="n"/></r></p></e>
 <e><p><l>sturgeon<s n="n"/></l><r>бекіре<s n="n"/></r></p></e>
+<e><p><l>era<s n="n"/></l><r>эра<s n="n"/></r></p></e>
+<e><p><l>epoch<s n="n"/></l><r>эра<s n="n"/></r></p></e>
+<e><p><l>aeon<s n="n"/></l><r>эра<s n="n"/></r></p></e>
+<e><p><l>eon<s n="n"/></l><r>эра<s n="n"/></r></p></e>
 <e><p><l>geopolitics<s n="n"/></l><r>геосаясат<s n="n"/></r></p></e>
 <e><p><l>assertion<s n="n"/></l><r>бекітпе<s n="n"/></r></p></e>
 <e><p><l>binding<s n="n"/></l><r>бекітпе<s n="n"/></r></p></e>
@@ -7986,6 +7990,7 @@
 <e><p><l>haze<s n="n"/></l><r>түтін<s n="n"/></r></p></e>
 <e><p><l>headache<s n="n"/></l><r>бас<b/>ауруы<s n="n"/></r></p></e>
 <e><p><l>headband<s n="n"/></l><r>жүген<s n="n"/></r></p></e>
+<e><p><l>backband<s n="n"/></l><r>көтерме<s n="n"/></r></p></e>
 <e><p><l>headcount<s n="n"/></l><r>сан<s n="n"/></r></p></e>
 <e><p><l>header<s n="n"/></l><r>тақырыптама<s n="n"/></r></p></e>
 <e><p><l>headline<s n="n"/></l><r>тақырыптама<s n="n"/></r></p></e>
@@ -8273,6 +8278,7 @@
 <e><p><l>hydrazine<s n="n"/></l><r>гидразин<s n="n"/></r></p></e>
 <e><p><l>hydride<s n="n"/></l><r>гидрид<s n="n"/></r></p></e>
 <e><p><l>hydrocarbon<s n="n"/></l><r>көмірсутек<s n="n"/></r></p></e>
+<e><p><l>carbon<s n="n"/></l><r>көміртек<s n="n"/></r></p></e>
 <e><p><l>hydrocephalus<s n="n"/></l><r>гидроцефалия<s n="n"/></r></p></e>
 <e><p><l>hydrogenation<s n="n"/></l><r>гидрирование<s n="n"/></r></p></e>
 <e><p><l>hydrogen<s n="n"/></l><r>сутегі<s n="n"/></r></p></e>
@@ -8281,6 +8287,7 @@
 <e><p><l>hydrophobia<s n="n"/></l><r>судан<b/>қорқыныш<s n="n"/></r></p></e>
 <e><p><l>hydroplane<s n="n"/></l><r>гидроплан<s n="n"/></r></p></e>
 <e><p><l>hydroxide<s n="n"/></l><r>гидроксид<s n="n"/></r></p></e>
+<e><p><l>coordinate <s n="n"/></l><r>координата<s n="n"/></r></p></e>
 <e><p><l>hyena<s n="n"/></l><r>гиена<s n="n"/></r></p></e>
 <e><p><l>hygiene<s n="n"/></l><r>гигиена<s n="n"/></r></p></e>
 <e><p><l>hygrometer<s n="n"/></l><r>гигрометр<s n="n"/></r></p></e>
@@ -8646,6 +8653,7 @@
 <e><p><l>interest<s n="n"/></l><r>қызығушылық<s n="n"/></r></p></e>
 <e><p><l>interest<s n="n"/></l><r>мүдде<s n="n"/></r></p></e>
 <e><p><l>interface<s n="n"/></l><r>интерфейс<s n="n"/></r></p></e>
+<e><p><l>cardiac<b/>surgery<s n="n"/></l><r>кардиохирургия<s n="n"/></r></p></e>
 <e><p><l>interference<s n="n"/></l><r>қабаттасушылық<s n="n"/></r></p></e>
 <e><p><l>interferometer<s n="n"/></l><r>интерферометр<s n="n"/></r></p></e>
 <e><p><l>interfluve<s n="n"/></l><r>өзенаралық<s n="n"/></r></p></e>

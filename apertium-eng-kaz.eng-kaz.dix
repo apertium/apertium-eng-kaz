@@ -8408,6 +8408,35 @@
 <e><p><l>farming<s n="n"/></l><r>ауыл<b/>шаруашылық<s n="n"/></r></p></e>
 <e><p><l>farm<s n="n"/></l><r>ферма<s n="n"/></r></p></e>
 <e><p><l>farmyard<s n="n"/></l><r>ферманың<b/>ауласы<s n="n"/></r></p></e>
+
+
+
+<!--from lexc adj -->
+<e><p><l>free<s n="adj"/></l><r>азат<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>loose<s n="adj"/></l><r>азат<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>spare<s n="adj"/></l><r>азат<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>excess<s n="adj"/></l><r>азат<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unoccupied<s n="adj"/></l><r>азат<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>abandoned<s n="adj"/></l><r>азат<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>Asian<s n="adj"/></l><r>азиялық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>brutal<s n="adj"/></l><r>айуандық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>bestial<s n="adj"/></l><r>айуандық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>immoral<s n="adj"/></l><r>айуандық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>motley<s n="adj"/></l><r>ала<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>irregular<s n="adj"/></l><r>ала<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>piebald<s n="adj"/></l><r>ала<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>unequal<s n="adj"/></l><r>ала<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>uneven<s n="adj"/></l><r>ала<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>patchy<s n="adj"/></l><r>ала<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>American<s n="adj"/></l><r>америкалық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>American<s n="adj"/></l><r>американдық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>intermediate<s n="adj"/></l><r>аралық<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>beautiful<s n="adj"/></l><r>ару<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>pure<s n="adj"/></l><r>ару<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>chaste<s n="adj"/></l><r>ару<s n="adj"/><s n="subst"/></r></p></e>
+
+
+<!-- -->
 <e><p><l>facetious<s n="adj"/></l><r>тірі<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>facile<s n="adj"/></l><r>жеңіл<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>serious<s n="adj"/></l><r>қатаң<s n="adj"/><s n="subst"/></r></p></e>

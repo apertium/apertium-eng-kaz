@@ -10,11 +10,45 @@
 <match lemma="ақ" tags="adj"/>
 <match lemma="қоңыр" tags="adj"/>
 <match lemma="сұр" tags="adj"/>
-
   </or>
    <match lemma="түс" tags="n.*"><select lemma="color" tags="n.*"/></match>
  </rule>
 
+ <rule>
+     <match lemma="*" tags="np.ant.m.*"/>
+     <match lemma="би" tags="n.*"><select lemma="judge" tags="n.*"/></match>
+ </rule>
+
+
+ <rule>
+  <or>
+   <match lemma="*" tags="n.*"/>
+  <match lemma="*" tags="adj"/>
+
+  </or>
+   <match lemma="би" tags="n.*"><select lemma="dance" tags="n.*"/></match>
+ </rule>
+
+<rule>
+    <match lemma="*" tags="adj"/>
+    <match lemma="тіл" tags="n.px3sp.*"><select lemma="language" tags="n.*"/></match>
+ </rule>
+
+
+<rule>
+    <match lemma="көтеріліс" tags="n.*"/>
+    <match lemma="басшы" tags="n.px3sp.*"><select lemma="leader" tags="n.*"/></match>
+ </rule>
+
+<rule>
+  <or>
+   <match lemma="жүйрік" tags="n.*"/>
+  <match lemma="алғыр" tags="adj"/>
+<match lemma="тез" tags="adj"/>
+
+  </or>
+   <match lemma="ат" tags="n.px3sp.*"><select lemma="horse" tags="n.*"/></match>
+ </rule>
 
 
 <rule>

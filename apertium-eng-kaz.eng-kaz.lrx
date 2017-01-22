@@ -7,6 +7,12 @@
     <match lemma="do" tags="vblex.*"><select lemma="істе" tags="v.tv.*"/></match>
   </rule>
 
+
+<rule>
+    <match lemma="like" tags="vblex.*"><select lemma="жақсы көр" tags="v.tv.*"/></match>
+    <match lemma="*" tags="vblex.*"/>
+  </rule>
+
   <rule>
 
     <match lemma="beyond" tags="pr"/>

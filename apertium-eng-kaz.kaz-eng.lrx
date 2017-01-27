@@ -36,6 +36,12 @@
 
 
 <rule>
+    <match lemma="*" tags="prn.pers.*.*.*"/>
+    <match lemma="*" tags="num"/>
+<match lemma="үй" tags="n.*"><select lemma="house" tags="n.*"/></match>
+ </rule>
+
+<rule>
     <match lemma="көтеріліс" tags="n.*"/>
     <match lemma="басшы" tags="n.px3sp.*"><select lemma="leader" tags="n.*"/></match>
  </rule>

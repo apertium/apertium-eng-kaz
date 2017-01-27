@@ -7000,6 +7000,79 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+
+<rule comment="RULE: Pronoun-GenP NOM">
+      <pattern>
+        <pattern-item n="gen"/>
+        <pattern-item n="nom"/>
+<pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="2"/>
+        </call-macro>
+<let>    
+<clip pos="2" side="tl" part="a_pos"/><lit v=""/>   
+</let> 
+           <choose>
+                 <when>
+                   <test>
+<and>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_pers"/>
+                      <lit-tag v="p3"/>
+                     </equal>
+                     <equal>
+                    <clip pos="1" side="sl" part="a_nbr"/>
+                    <lit-tag v="sg"/>
+</equal>
+</and>
+                  </test>
+                  <let><clip pos="1" side="tl" part="lem"/><lit v="his"/></let>
+                  <let>              <var n="number1"/><lit-tag v="sg"/></let>
+                </when>
+<otherwise>
+                  <let>              <var n="number1"/><lit-tag v="sp"/></let>
+</otherwise>
+               
+              </choose>
+<out>
+          <chunk name="prn-genp-nom-cop" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+
+           <tag><lit-tag v="det"/></tag>
+              <tag><lit-tag v="pos"/></tag>
+             <tag><var n="number"/> </tag>             
+
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+<lit-tag v="2"/>
+ <lit-tag v="3"/>
+<lit-tag v="4"/>
+
+             <!-- <var n="number"/>-->
+<clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+	<clip pos="2" side="tl" part="a_nom"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
 <!--
 <rule comment="RULE: nom Pronoun NOM">
       <pattern>
@@ -8838,6 +8911,56 @@ If no format information is present it is removed. -->
     </rule>
 
 
+<rule comment="RULE: NUM  NOM"> <!--7  kyz-->
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="nom"/>
+<pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="num-nom-cop" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-NUM"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+           
+<lu>
+              <clip pos="2" side="tl" part="lem"/>
+	<clip pos="2" side="tl" part="a_nom"/>
+             <var n="number"/>
+            </lu>
+<b/>
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 
 
@@ -9367,6 +9490,59 @@ If no format information is present it is removed. -->
               </choose>
         <out>
           <chunk name="num-adj-nom" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+            <b pos="2"/>
+<lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+<b/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+              <var n="number"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+<rule comment="RULE: NUM ADJ NOM"> <!--7 ademi kyz-->
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+<pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="3"/>
+        </call-macro>
+<call-macro n="remove-poss">
+          <with-param pos="3"/>
+        </call-macro>
+       <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="num-adj-n-cop" case="caseFirstWord">
             <tags>
               <tag><var n="sntype"/></tag>
             </tags>

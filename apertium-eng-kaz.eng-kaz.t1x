@@ -366,7 +366,7 @@
  <def-cat n="if-cnjadv">
        <cat-item lemma="if" tags="cnjadv"/>
 
-
+       <cat-item lemma="If" tags="cnjadv"/>
     </def-cat>
  <def-cat n="when-cnjadv">
 
@@ -10661,6 +10661,56 @@
 </rule>
 <!--in the most beautiful garden -->
 
+
+
+
+
+
+<rule comment="NEW RULE: the most adjec noun"> 
+  <pattern>
+    <pattern-item n="the-most"/>
+    <pattern-item n="non-sup-adjec"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+<call-macro n="build-adjec-lu"><with-param pos="2"/></call-macro> 
+ 
+ 
+        <out> <!-- with postposition -->
+          <chunk name="the_most_adjec-nom">
+            <tags>
+                <tag><lit-tag v="NP"/></tag>
+                <tag><clip pos="3" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><lit-tag v="CD"/></tag>       
+            </tags>
+            <b pos="1"/>
+            <lu>  
+              <lit v="ең"/>
+               <lit-tag v="adv"/>
+            </lu>
+            <b pos="2"/>
+            <lu>  
+               <var n="adjec_lu"/>
+            </lu>
+            <b/>
+            <lu>  <!-- build in situ for the time being -->
+               <clip pos="3" side="tl" part="lem"/> 
+               <clip pos="3" side="tl" part="a_nom"/>
+               <lit-tag v="2"/> <!-- number -->
+               <!-- no need to link person -->
+               <lit-tag v="4"/> <!-- for possessive, just in case -->
+               <lit-tag v="5"/> <!-- for case -->
+            </lu>           
+          </chunk>
+        </out>
+
+  </action>
+</rule>
+
+
+
 <rule comment="NEW RULE: prep the most adjec noun"> 
   <pattern>
     <pattern-item n="prep"/>
@@ -12228,7 +12278,7 @@ this would have to be changed -->
 </or>
 </test>
     <out>
-    <chunk name="detdem-adjec-nom">
+    <chunk name="detdem-adjec-nom1">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -13364,23 +13414,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 </rule>
 
 
-<rule comment="NEW RULE: adv">  
-  <pattern>
-    <pattern-item n="adv"/>
-  </pattern>
-  <action>
-    <out>
-    <chunk name="adv">
-    <tags>
-    <tag><lit-tag v="AdvP"/></tag>
-    </tags>
-    <lu>
-      <clip pos="1" side="tl" part="whole"/>
-     </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
+
 
  
 
@@ -13828,35 +13862,6 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     </rule>
 
 
-<rule comment="NEW RULE: the-most adjec">   <!-- another rule is needed for the most ADJ -->
-  <pattern>
-    <pattern-item n="the-most"/>
-    <pattern-item n="non-sup-adjec"/>
-  </pattern>
-  <action>
-    <out>
-    <chunk name="sup-adjec">
-    <tags>
-    <tag><lit-tag v="SupP"/></tag>
-    <tag><lit-tag v="PXD"/></tag>
-    <tag><lit-tag v="CD"/></tag>
-    </tags>
-    <lu>
-       <lit v="ең"/>
-       <lit-tag v="adv"/>
-    </lu>
-    <b pos="1"/>
-    <lu>
-       <clip pos="2" part="lem" side="tl"/>
-       <lit-tag v="adj"/>
-       <lit-tag v="subst"/>
-       <lit-tag v="2"/>
-       <lit-tag v="3"/>       
-     </lu>
-    </chunk>
-    </out>
-  </action>
-</rule>
 
 
 <rule comment="NEW RULE: the adjec+comp">   <!-- bigger, for adj comp -->
@@ -14118,7 +14123,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   </pattern>
   <action>
     <out>
-    <chunk name="adv">
+    <chunk name="preadv-adv">
     <tags>
     <tag><lit-tag v="AdvP"/></tag>
     </tags>
@@ -14315,6 +14320,26 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     </tags>
     <lu>
                <var n="cnjadv_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </action>
+</rule>
+
+
+
+<rule comment="NEW RULE: adv">  
+  <pattern>
+    <pattern-item n="adv"/>
+  </pattern>
+  <action>
+    <out>
+    <chunk name="adv">
+    <tags>
+    <tag><lit-tag v="AdvP"/></tag>
+    </tags>
+    <lu>
+      <clip pos="1" side="tl" part="whole"/>
      </lu>
     </chunk>
     </out>

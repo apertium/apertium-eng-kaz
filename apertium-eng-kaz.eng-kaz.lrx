@@ -29,11 +29,26 @@
     <match lemma="garden" tags="n.*"><select lemma="бақша" tags="n.*"/></match>
   </rule>
 
+<rule>
+    <match lemma="school" tags="n.*"><select lemma="мектеп" tags="n.*"/></match>
+  </rule>
+<rule>
+    <match lemma="country" tags="n.*"><select lemma="ел" tags="n.*"/></match>
+  </rule>
+
   <rule>
 
     <match lemma="beyond" tags="pr"/>
     <match lemma="*" tags="det.pos.*"/>
     <match lemma="ability" tags="n.*"><select lemma="мүмкіндік" tags="n.*"/></match>
+  </rule>
+
+
+  <rule>
+
+    <match lemma="live" tags="vblex.*"><select lemma="өмір сүр" tags="v.iv.*"/></match>
+    <match lemma="in" tags="pr"/>
+
   </rule>
 
 <rule>

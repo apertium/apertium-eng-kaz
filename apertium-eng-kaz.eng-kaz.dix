@@ -228,7 +228,7 @@
 <e><p><l>next<b/>to<s n="pr"/></l><r>маң<s n="n"/><s n="px3sp"/><s n="loc"/></r></p></e>
 <e r="LR"><p><l>of<s n="pr"/></l><r></r></p></e>
 <e r="LR"><p><l>off<s n="pr"/></l><r></r></p></e>
-<e><p><l>on<s n="pr"/></l><r>үст<s n="n"/></r></p></e>
+
 <e><p><l>on<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>on<s n="pr"/></l><r>үст<s n="n"/><s n="px3sp"/><s n="dat"/></r></p></e>
 <e><p><l>on<b/>over<b/>of<s n="pr"/></l><r>үст<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -24067,11 +24067,14 @@
 <e><p><l>but<s n="cnjcoo"/></l><r>алайда<s n="cnjcoo"/></r></p></e>
 <e><p><l>but<s n="cnjcoo"/></l><r>бірақ<s n="cnjcoo"/></r></p></e>
 <e><p><l>either<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+<e><p><l>either<s n="cnjcoo"/></l><r>не<s n="cnjcoo"/></r></p></e>
 <e><p><l>neither<s n="cnjcoo"/></l><r>не<s n="cnjcoo"/></r></p></e>
 <e><p><l>nor<s n="cnjcoo"/></l><r>не<s n="cnjcoo"/></r></p></e>
-<e><p><l>or<s n="cnjcoo"/></l><r>болмаса<s n="cnjcoo"/></r></p></e>
 <e><p><l>or<s n="cnjcoo"/></l><r>немесе<s n="cnjcoo"/></r></p></e>
+<e><p><l>or<s n="cnjcoo"/></l><r>болмаса<s n="cnjcoo"/></r></p></e>
 <e><p><l>or<s n="cnjcoo"/></l><r>я<b/>болмаса<s n="cnjcoo"/></r></p></e>
+<e><p><l>or<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
+<e><p><l>or<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
 <e><p><l>than<s n="cnjcoo"/></l><r>қарағанда<s n="post"/></r></p></e>
 <e><p><l>while<s n="cnjcoo"/></l><r>ал<s n="cnjcoo"/></r></p></e>
 <e r="LR"><p><l>that<s n="cnjsub"/></l><r></r></p></e>
@@ -31392,7 +31395,6 @@
 <e><p><l>partnership<s n="n"/></l><r>әріптестік<s n="n"/></r></p></e>
 <e><p><l>unanimously<s n="adv"/></l><r>бірауыздан<s n="adv"/></r></p></e>
 <e><p><l>competition<s n="n"/></l><r>бәсекелестік<s n="n"/></r></p></e>
-<e><p><l>or<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
 <e><p><l>shanyrak<s n="n"/></l><r>шаңырақ<s n="n"/></r></p></e>
 <e><p><l>speak<s n="vblex"/></l><r>тілдес<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>TV<s n="n"/></l><r>телевизия<s n="n"/></r></p></e>
@@ -31744,8 +31746,7 @@
 <e><p><l>Leningrad<s n="np"/><s n="top"/><s n="sg"/></l><r>Ленинград<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Zhangir<s n="np"/><s n="ant"/><s n="m"/></l><r>Жәңгір<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Gali<s n="np"/><s n="ant"/><s n="m"/></l><r>Ғали<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e><p><l>or<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
-<e><p><l>National Security Committee<s n="np"/><s n="al"/></l><r>ҰҚК<s n="abbr"/></r></p></e>
+<e><p><l>National<b/>Security<b/>Committee<s n="np"/><s n="al"/></l><r>ҰҚК<s n="abbr"/></r></p></e>
 <e><p><l>train<s n="vblex"/></l><r>үйрет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>Toraigurov<s n="np"/><s n="cog"/></l><r>Торайғыров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Tashkent<s n="np"/><s n="top"/><s n="sg"/></l><r>Ташкент<s n="np"/><s n="top"/></r></p></e>

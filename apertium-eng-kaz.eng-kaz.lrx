@@ -12,6 +12,22 @@
     <match lemma="like" tags="vblex.*"><select lemma="жақсы көр" tags="v.tv.*"/></match>
     <match lemma="*" tags="vblex.*"/>
   </rule>
+<!--either 1 or 2 -->
+<rule>
+    <match lemma="or" tags="cnjcoo"><select lemma="немесе" tags="cnjcoo"/></match>
+    <match lemma="*" tags="num"/>
+  </rule>
+
+
+<!--I go/барамын -->
+<rule>
+    <match lemma="go" tags="vblex.*"><select lemma="бар" tags="v.iv.*"/></match>
+  </rule>
+
+
+<rule>
+    <match lemma="garden" tags="n.*"><select lemma="бақша" tags="n.*"/></match>
+  </rule>
 
   <rule>
 

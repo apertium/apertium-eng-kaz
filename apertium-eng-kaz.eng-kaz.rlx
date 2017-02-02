@@ -125,6 +125,12 @@ SELECT V IF
 	(1 Det OR Adv) 
 ;
 
+#either(cnjcoo) 1 or 2
+SELECT CC IF
+	(1 NUM) 
+	(0 ("either") OR ("neither")) 
+
+;
 
 
 REMOVE V-FIN IF (-1C V-FIN);  # Careful: would kill "The man who _came_ _wrote_ a book"

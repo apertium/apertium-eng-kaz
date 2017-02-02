@@ -2353,6 +2353,72 @@ If no format information is present it is removed. -->
   
 
 <section-rules>
+<rule comment="RULE: verb-need"> <!--Magan kitap kerek-->
+      <pattern>
+        <pattern-item n="kerek"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<call-macro n="remove-poss">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+        <out>
+          <chunk name="verb-need" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV-kerek"/></tag>
+
+
+ <tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="need"/>
+              <lit-tag v="vblex"/>
+             
+<lit-tag v="pres"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+<lit-tag v="4"/>
+            
+</lu>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
 
@@ -4397,72 +4463,7 @@ If no format information is present it is removed. -->
 
 
 
-<rule comment="RULE: verb-need"> <!--Magan kitap kerek-->
-      <pattern>
-        <pattern-item n="kerek"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
-        </call-macro>
-<call-macro n="remove-poss">
-          <with-param pos="1"/>
-        </call-macro>
- <choose>
-               <when>
-                   <test>
-                   
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
 
-                </when>
-<when>
-                   <test>
-                   <and>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                     </and>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                </when>
-
-           </choose>
-        <out>
-          <chunk name="verb-need" case="caseFirstWord">
-            <tags>
-              <tag> <lit-tag v="SV-kerek"/></tag>
-
-
- <tag> <lit-tag v="PD"/></tag>
- <tag> <lit-tag v="ND"/></tag>
-
-
-
-</tags>
-<lu>
-              <lit v="need"/>
-              <lit-tag v="vblex"/>
-             
-<lit-tag v="pres"/>
-              <lit-tag v="2"/>
-              <lit-tag v="3"/>
-<lit-tag v="4"/>
-            
-</lu>
-
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
 
 <rule comment="RULE: must not+inf"> <!--Men barmauym kerek-->
       <pattern>
@@ -8940,6 +8941,10 @@ If no format information is present it is removed. -->
             <tags>
               <tag><lit-tag v="SN-NUM"/></tag>
             </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
              
@@ -9220,7 +9225,8 @@ If no format information is present it is removed. -->
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="2" side="tl" part="lem"/>
+<clip pos="2" side="tl" part="a_nom"/>
               <var n="number"/>
             </lu>
           </chunk>
@@ -9265,6 +9271,10 @@ If no format information is present it is removed. -->
             
            
             </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
   <lit-tag v="det"/>
@@ -9324,6 +9334,10 @@ If no format information is present it is removed. -->
             
            
             </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
   <lit-tag v="det"/>
@@ -9504,7 +9518,8 @@ If no format information is present it is removed. -->
             </lu>
 <b/>
             <lu>
-              <clip pos="3" side="tl" part="whole"/>
+              <clip pos="3" side="tl" part="lem"/>
+<clip pos="3" side="tl" part="a_nom"/>
               <var n="number"/>
             </lu>
           </chunk>
@@ -9544,7 +9559,7 @@ If no format information is present it is removed. -->
         <out>
           <chunk name="num-adj-n-cop" case="caseFirstWord">
             <tags>
-              <tag><var n="sntype"/></tag>
+              <tag><lit-tag v="SN-det"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>

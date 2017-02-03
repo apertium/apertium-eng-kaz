@@ -544,6 +544,7 @@
     
 <def-cat n="bol-neg">
       <cat-item lemma="бол" tags="v.*.neg.ifi.*"/>
+<cat-item lemma="бол" tags="v.*.neg.ifi.*.*"/>
     </def-cat>
 <def-cat n="ma">
       <cat-item lemma="ма" tags="qst"/>
@@ -5689,6 +5690,73 @@ If no format information is present it is removed. -->
   </action>
 </rule>
 
+<rule comment="RULE: VP-cop-past-neg"> <!--болмады-->
+      <pattern>
+        <pattern-item n="bol-neg"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+        <out>
+          <chunk name="VP-cop-past-neg" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV"/></tag>
+
+ <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="past"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+<lit-tag v="4"/>
+              
+</lu>
+<b/>
+<lu>
+<lit v="not"/>
+<lit-tag v="adv"/>
+</lu>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 
 <!-- Мен дәрігермін-->
@@ -5951,7 +6019,7 @@ If no format information is present it is removed. -->
                 </otherwise>
               </choose>
         <out>
-          <chunk name="n-adv" case="caseFirstWord">
+          <chunk name="n-adv2" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="PP"/></tag>
                <tag><var n="number"/></tag>
@@ -5964,10 +6032,11 @@ If no format information is present it is removed. -->
 
             </lu>
             <b pos="1"/>
+<!--
 <lu>
 <var n="postposition_lu"/>
 </lu>
-<b/>
+<b/>-->
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_nom"/>
@@ -6264,6 +6333,10 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+
+
+
+
  <rule comment="RULE: subst_adj">
       <pattern>
         <pattern-item n="subst-adj"/>
@@ -6467,7 +6540,7 @@ If no format information is present it is removed. -->
               <lit v="not"/>
               <lit-tag v="adv"/>
 </lu>
-<b/>
+
           </chunk>
         </out>
         <call-macro n="reset-vars1">
@@ -12592,7 +12665,7 @@ If no format information is present it is removed. -->
       </test>
       <let>
           <clip pos="1" side="tl" part="lem"/>
-          <lit v="He"/>
+          <lit v="he"/>
         </let>
 <let>
           <clip pos="1" side="tl" part="a_nbr"/>

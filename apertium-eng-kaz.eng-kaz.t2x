@@ -187,8 +187,8 @@
       <cat-item tags="Rel"/>
       <cat-item tags="Rel.*"/>
     </def-cat>
-    <def-cat n="SENT">
-      <cat-item tags="SENT"/>
+    <def-cat n="QUOTE">
+      <cat-item tags="QUOTE"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -319,7 +319,7 @@
 
        <modify-case>
         <clip pos="1" part="lem"/>
-          <lit v="aa"/>
+          <lit v="Aa"/>
         </modify-case>
              <let>
         <clip pos="1"  part="lem"/>
@@ -7996,9 +7996,9 @@
      <pattern>
        <pattern-item n="NP"/>
        <pattern-item n="VP"/>
-       <pattern-item n="SENT"/>
+       <pattern-item n="QUOTE"/>
        <pattern-item n="NP"/>
-       <pattern-item n="SENT"/>
+       <pattern-item n="QUOTE"/>
      </pattern>
      <action>
 <call-macro n="change-case-upper">  

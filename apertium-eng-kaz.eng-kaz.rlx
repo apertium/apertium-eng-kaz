@@ -98,6 +98,15 @@ SELECT Inf IF
 SELECT (vaux inf) IF
 	(0 VAUX-SHOULD)
 	(1* ("?")) 
+
+
+;
+
+#remove np unk if word has another tag
+REMOVE (np unk) IF
+	(0 Det OR A OR Adv)
+
+
 ;
 
 # Почему-то не работает, если поставить это правило в конец.
@@ -123,6 +132,7 @@ SELECT Adv IF
 # то слово - глагол
 SELECT V IF
 	(1 Det OR Adv) 
+        (NOT -1 Det)
 ;
 
 #either(cnjcoo) 1 or 2
@@ -359,7 +369,7 @@ REMOVE Inf IF (-1 PRN-SUBJ) (NOT 0 ("will"i));
 
 REMOVE N IF (-1 PRN-SUBJ) (0 ("will"i) );
 
-REMOVE N IF (0 ("will"i)) (1C ADV-NOT)
+REMOVE N IF (0 ("will"i)) (1C ADV-NOT);
 
 SELECT Inf IF (0 Inf) (1 ADV-NOT)(2 Ger); 
 

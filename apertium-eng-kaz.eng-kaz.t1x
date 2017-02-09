@@ -508,6 +508,9 @@
       <attr-item tags="v.iv"/>
 
     </def-attr>
+    <def-attr n="a_subj"> 
+      <attr-item tags="subj"/>
+    </def-attr>
   <def-attr n="a_pron"> 
       <attr-item tags="prn"/>
       <attr-item tags="prn.neg"/>
@@ -958,12 +961,18 @@
 <choose>
   <when>
        <test>
+<and>
          <equal>
            
            <clip pos="1" side="sl" part="a_pers"/>
             <lit-tag v="p1"/>
-          
+
            </equal>
+          <equal> 
+           <clip pos="1" side="sl" part="a_subj"/>
+            <lit-tag v="subj"/>
+           </equal>
+   </and>
           </test>
        <modify-case>
         <clip pos="1" side="tl" part="lem"/>
@@ -974,7 +983,7 @@
 		<lit v="aa"/>
 	      </let>
        </when>
-  <otherwise> 
+ <otherwise> 
   <modify-case>
         <clip pos="1" side="tl" part="lem"/>
           <lit v="aa"/>
@@ -12013,9 +12022,9 @@ this would have to be changed -->
        <with-param pos="1"/>
        <with-param pos="2"/>
     </call-macro>
-<call-macro n="change-case">   
-<with-param pos="2"/>
-  </call-macro> 
+<!--<call-macro n="change-case">   
+<with-param pos="1"/>
+  </call-macro> -->
     <out>
     <chunk name="detart-nom">
     <tags>
@@ -12023,6 +12032,7 @@ this would have to be changed -->
     <tag><clip pos="2" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
     <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
     <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
     <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
     </tags>
 
@@ -13385,7 +13395,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 </when>
 <otherwise>
    <out>
-   <chunk name="obj-pron">
+   <chunk name="obj-pron" case="caseFirstWord">
    <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
@@ -13398,7 +13408,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_pron"/>
       <clip pos="1" side="tl" part="a_pers"/>
-<var n="number"/>
+      <var n="number"/>
  	<var n="pos"/> 
       <lit-tag v="4"/> 
           <var n="case"/> <!-- case --> 
@@ -15225,12 +15235,14 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   <action>
  <out>
        <chunk name="__this-det__" case="caseFirstWord"> 
-      <tags><tag><lit-tag v="NP"/></tag>       </tags>   
+      <tags><tag><lit-tag v="NP"/></tag>  
+            <tag><lit-tag v="CD"/></tag> 
+     </tags>   
   <lu>
   <clip pos="1" side="tl" part="lem"/>
 <clip pos="1" side="tl" part="_attr_prn_"/>
 <clip pos="1" side="tl" part="a_nbr"/>
-          <lit-tag v="nom"/>
+          <lit-tag v="2"/>
  </lu>
  </chunk>
   </out>

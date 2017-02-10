@@ -1,5 +1,17 @@
 <rules>
 
+
+ <rule>
+     <match lemma="*" tags="num"/>
+     <match lemma="жақсы" tags="adj"><select lemma="good" tags="adj.*"/></match>
+	<match lemma="бақша" tags="n.*"/>
+ </rule>
+
+ <rule>
+     
+     <match lemma="жақсы" tags="adj"><select lemma="good" tags="adj"/></match>
+	<match lemma="бақша" tags="n.*"/>
+ </rule>
  <rule>
   <or>
    <match lemma="жасыл" tags="adj"/>
@@ -33,6 +45,9 @@
     <match lemma="*" tags="adj"/>
     <match lemma="тіл" tags="n.px3sp.*"><select lemma="language" tags="n.*"/></match>
  </rule>
+
+
+
 
 
 <rule>

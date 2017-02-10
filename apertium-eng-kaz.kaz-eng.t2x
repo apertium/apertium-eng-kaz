@@ -19,6 +19,10 @@
       <cat-item tags="Q_mark"/>
       <cat-item tags="Q_mark.*"/>
     </def-cat>
+<def-cat n="SN-year">
+      <cat-item tags="SN-year"/>
+      <cat-item tags="SN-year.*"/>
+    </def-cat>
  <def-cat n="QAdvP">
       <cat-item tags="QAdvP"/>
       <cat-item tags="QAdvP.*"/>
@@ -1903,6 +1907,58 @@
            <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
             <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+<rule comment="RULE: SN SN-year">  <!-- -->
+      <pattern>
+        <pattern-item n="SN"/>
+ <pattern-item n="SN-year"/>
+       
+      </pattern>
+      <action>
+      
+ <choose>
+<when>
+<test>
+
+<or>
+             <equal>  <clip pos="1" part="a_nbr"/><lit-tag v="sp"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</or>
+    
+   </test>
+<let>     <clip pos="2" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
+
+</when>
+<otherwise>
+<let>     <clip pos="2" part="a_pers"/><clip pos="1" part="a_pers"/> </let>
+  <let>         <clip pos="2" part="a_nbr"/> <clip pos="1" part="a_nbr"/></let>
+
+</otherwise>
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+
+         
+        <var n="PREP"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
           </chunk>
         </out>
         <call-macro n="reset-case1">

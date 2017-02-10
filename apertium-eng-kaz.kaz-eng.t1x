@@ -5,7 +5,7 @@
     <def-cat n="vaux-neg-pres">
     
       <cat-item tags="vaux.neg.pres.*"/>
-     
+     <cat-item tags="vaux.neg.ifi.*.*.*"/>
     </def-cat>
 <def-cat n="num-det">
       <cat-item tags="num"/>
@@ -554,6 +554,7 @@
          </def-cat>
 <def-cat n="bol">
       <cat-item lemma="бол" tags="v.*.ifi.*"/>
+ <cat-item lemma="бол" tags="v.*.ifi.*.*"/>
 <cat-item lemma="е" tags="cop.ifi.*.*"/>
     </def-cat>
 <def-cat n="v-bol">
@@ -2354,6 +2355,152 @@ If no format information is present it is removed. -->
   
 
 <section-rules>
+
+<rule comment="RULE: NUM years  NOM"> <!--7  zhastamyn-->
+      <pattern>
+        <pattern-item n="num"/> 
+<pattern-item n="years_old"/>
+<pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+  <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+        <out>
+          <chunk name="num-nom-years" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-year"/></tag>
+<tag><lit-tag v="PD"/></tag>
+<tag><lit-tag v="ND"/></tag>
+ <!--<tag><clip pos="1" side="tl" part="a_nbr"/></tag>-->
+
+            </tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="pres"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              
+</lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+          <lu>
+              
+             <lit v="year"/>
+		<lit-tag v="n"/>
+              <lit-tag v="pl"/>
+                            
+            </lu>
+<b/>
+<lu>
+              
+             <lit v="old"/>
+              <lit-tag v="adj"/>
+              <lit-tag v="sint"/>
+                            
+            </lu>
+<b/>
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+<rule comment="RULE: NUM years  NOM"> <!--7  zhasta boldym-->
+      <pattern>
+        <pattern-item n="num"/> 
+<pattern-item n="years_old"/>
+<pattern-item n="bol"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="num-nom-years-past" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+          <lu>
+              
+             <lit v="year"/>
+		<lit-tag v="n"/>
+              <lit-tag v="pl"/>
+                            
+            </lu>
+<b/>
+<lu>
+              
+             <lit v="old"/>
+              <lit-tag v="adj"/>
+              <lit-tag v="sint"/>
+                            
+            </lu>
+<b/>
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
 <rule comment="RULE: verb-need"> <!--Magan kitap kerek-->
       <pattern>
         <pattern-item n="kerek"/>
@@ -2421,227 +2568,6 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
-
-
-<!--<rule>
-  <pattern>
-    <pattern-item n="CAT__adj_"/>
-  </pattern>
-  <action>
-    <choose>
-      <when>
-        <test>
-        <and>
-           <and>
-            <begins-with>
-              <clip pos="1" side="tl" part="tags" />
-              <lit-tag v="cnjcoo"/>
-            </begins-with>
-               <equal>
-                 <clip pos="1" side="tl" part="learned_numberat"/>
-                 <lit v=""/>
-               </equal>
-           </and>
-            <or>            <equal>
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="Советтік"/>
-            </equal>
-            <equal>
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="Советтік"/>
-            </equal>
-            </or>
-        </and>
-        </test>
-       <out>
-       <chunk name="__adj_" case="caseFirstWord">       <tags>             <tag><lit-tag v="LRN"/></tag>       </tags>          <lu>
-            <lit v="the"/>
-            <lit-tag v="det"/>
-            <lit-tag v="def"/>
-            <lit-tag v="sp"/>
-            <lit v=""/>
-          </lu>
-      </chunk>
-      </out>
-<out><lu><lit v="*executedtule28"/></lu></out></when>
-      <when>
-        <test>
-        <and>
-           <and>
-            <begins-with>
-              <clip pos="1" side="tl" part="tags" />
-              <lit-tag v="cnjcoo"/>
-            </begins-with>
-               <equal>
-                 <clip pos="1" side="tl" part="learned_isadjsint"/>
-                 <lit v=""/>
-               </equal>
-               <equal>
-                 <clip pos="1" side="tl" part="learned_attruse"/>
-                 <lit-tag v="subst"/>
-               </equal>
-           </and>
-            <or>            <equal>
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="басқа"/>
-            </equal>
-            <equal>
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="Басқа"/>
-            </equal>
-            </or>
-            <equal>
-              <clip pos="1" side="sl" part="learned_isadjsint" />
-              <lit v=""/>
-            </equal>
-            <equal>
-              <clip pos="1" side="sl" part="learned_attruse" />
-              <lit-tag v="subst"/>
-            </equal>
-        </and>
-        </test>
-       <out>
-       <chunk name="__adj_" case="caseFirstWord">       <tags>             <tag><lit-tag v="LRN"/></tag>       </tags>          <lu>
-            <lit v="others"/>
-            <lit-tag v="prn"/>
-            <lit-tag v="tn"/>
-            <clip pos="1" side="sl" part="learned_possessive"/>
-            <lit-tag v="mf"/>
-            <clip pos="1" side="sl" part="learned_numberat"/>
-            <lit v=""/>
-          </lu>
-      </chunk>
-      </out>
-<out><lu><lit v="*executedtule29"/></lu></out></when>
-      <when>
-        <test>
-        <and>
-           <and>
-            <begins-with>
-              <clip pos="1" side="tl" part="tags" />
-              <lit-tag v="adj"/>
-            </begins-with>
-               <equal>
-                 <clip pos="1" side="tl" part="learned_isadjsint"/>
-                 <lit-tag v="sint"/>
-               </equal>
-           </and>
-            <equal>
-              <clip pos="1" side="sl" part="learned_isadjsint" />
-              <lit v=""/>
-            </equal>
-        </and>
-        </test>
-       <out>
-       <chunk name="__adj_" case="caseFirstWord">       <tags>             <tag><lit-tag v="LRN"/></tag>       </tags>          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <lit-tag v="adj"/>
-            <lit-tag v="sint"/>
-            <clip pos="1" side="sl" part="learned_numberat"/>
-            <clip pos="1" side="sl" part="learned_possessive"/>
-            <clip pos="1" side="sl" part="learned_case"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-      </chunk>
-      </out>
-<out><lu><lit v="*executedtule30"/></lu></out></when>
-      <when>
-        <test>
-        <and>
-           <and>
-            <begins-with>
-              <clip pos="1" side="tl" part="tags" />
-              <lit-tag v="adj"/>
-            </begins-with>
-               <equal>
-                 <clip pos="1" side="tl" part="learned_numberat"/>
-                 <lit v=""/>
-               </equal>
-           </and>
-            <or>            <equal>
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="бар"/>
-            </equal>
-            <equal>
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="Бар"/>
-            </equal>
-            </or>
-        </and>
-        </test>
-       <out>
-       <chunk name="__adj_" case="caseFirstWord">       <tags>             <tag><lit-tag v="LRN"/></tag>       </tags>          <lu>
-            <lit v="a"/>
-            <lit-tag v="det"/>
-            <lit-tag v="ind"/>
-            <lit-tag v="sg"/>
-            <lit v=""/>
-          </lu>
-      </chunk>
-      </out>
-<out><lu><lit v="*executedtule31"/></lu></out></when>
-      <when>
-        <test>
-        <and>
-           <and>
-            <begins-with>
-              <clip pos="1" side="tl" part="tags" />
-              <lit-tag v="adj"/>
-            </begins-with>
-               <equal>
-                 <clip pos="1" side="tl" part="learned_numberat"/>
-                 <lit v=""/>
-               </equal>
-           </and>
-            <or>            <equal>
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="барлық"/>
-            </equal>
-            <equal>
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="Барлық"/>
-            </equal>
-            </or>
-        </and>
-        </test>
-       <out>
-       <chunk name="__adj_" case="caseFirstWord">       <tags>             <tag><lit-tag v="LRN"/></tag>       </tags>          <lu>
-            <lit v="all"/>
-            <lit-tag v="predet"/>
-            <lit-tag v="sp"/>
-            <lit v=""/>
-          </lu>
-      </chunk>
-      </out>
-<out><lu><lit v="*executedtule32"/></lu></out></when>
-      <when>
-        <test>
-            <begins-with>
-              <clip pos="1" side="tl" part="tags" />
-              <lit-tag v="adj"/>
-            </begins-with>
-        </test>
-       <out>
-       <chunk name="__adj_" case="caseFirstWord">       <tags>             <tag><lit-tag v="LRN"/></tag>       </tags>          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <lit-tag v="adj"/>
-            <clip pos="1" side="sl" part="learned_isadjsint"/>
-            <clip pos="1" side="sl" part="learned_numberat"/>
-            <clip pos="1" side="sl" part="learned_possessive"/>
-            <clip pos="1" side="sl" part="learned_case"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-      </chunk>
-      </out>
-<out><lu><lit v="*executedtule33"/></lu></out></when>
-      <otherwise>
-
-<out><chunk name="any" case="caseFirstWord"><tags>             <tag><lit-tag v="LRN"/></tag>       </tags> <lu><clip pos="1" side="tl" part="whole"/></lu></chunk></out> <out><lu><lit v="*isolatedword"/></lu></out>
-<out><lu><lit v="*wordforword9"/></lu></out></otherwise>
-    </choose>
-  </action>
-</rule>
--->
 
 
 <rule>
@@ -3269,6 +3195,9 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <call-macro n="choose_case_and_postposition2">
           <with-param pos="1"/>
         </call-macro>
        <choose>
@@ -4403,64 +4332,7 @@ If no format information is present it is removed. -->
 
 
 
-<rule comment="RULE: NUM years  NOM"> <!--7  zhastamyn-->
-      <pattern>
-        <pattern-item n="num"/> 
-<pattern-item n="years_old"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="2"/>
-        </call-macro>
- <call-macro n="remove-poss">
-          <with-param pos="2"/>
-        </call-macro>
- <choose>
-                 <when>
-                   <test>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
-                  </test>
-                  <let><var n="number"/><lit-tag v="sg"/></let>
-                </when>
-                <otherwise>
-                  <let><var n="number"/><lit-tag v="pl"/></let>
-                </otherwise>
-              </choose>
-        <out>
-          <chunk name="num-nom-years" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
 
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-             
-            </lu>
-            <b pos="1"/>
-          <lu>
-              
-             <lit v="year"/>
-		<lit-tag v="n"/>
-              <lit-tag v="pl"/>
-                            
-            </lu>
-<b/>
-<lu>
-              
-             <lit v="old"/>
-              <lit-tag v="adj"/>
-              <lit-tag v="sint"/>
-                            
-            </lu>
-<b/>
-            
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
 
 
 
@@ -9634,12 +9506,16 @@ If no format information is present it is removed. -->
             <tags>
               <tag><lit-tag v="SN-det"/></tag>
             </tags>
+<lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
              
             </lu>
-            <b pos="1"/>
-            <b pos="2"/>
+            <b/>
+            
 <lu>
               <clip pos="2" side="tl" part="whole"/>
             </lu>
@@ -10386,6 +10262,75 @@ If no format information is present it is removed. -->
         </call-macro>
       </action>
     </rule>
+
+<rule comment="RULE: V-ING VAUX-NEG-pres"> <!-- negative present contin -->
+      <pattern>
+        <pattern-item n="v-ing"/>
+        <pattern-item n="vaux-neg-pres"/>
+      </pattern>
+      <action>
+   <call-macro n="conv-temps1">
+          <with-param pos="2"/>
+        </call-macro>
+ 
+
+         <choose><!-- choosing correct to be-->
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="2" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="2" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+
+           </choose>
+                        <out>        
+          <chunk name="verb-ing-not-pres" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+              <tag><lit-tag v="pres"/></tag>
+              <tag><clip pos="2" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+            </tags>
+             <lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              <lit-tag v="4"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <lit v="not"/>
+              <lit-tag v="adv"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="ger"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 
 
 <!--ALL PASSIVE must be corrected in genereating correct to be and some of genereating 's' in noun-->

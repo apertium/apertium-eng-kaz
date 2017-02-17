@@ -487,6 +487,7 @@
 <cat-item tags="cop.*.*.*"/>
     </def-cat>
 <def-cat n="cop-neg">
+<cat-item lemma="е" tags="cop.neg.*.*.*"/>
       <cat-item tags="cop.neg.*"/>
   <cat-item tags="vaux.pres.*"/>
    <cat-item tags="cop.neg"/>
@@ -2467,9 +2468,21 @@ If no format information is present it is removed. -->
         <out>
           <chunk name="num-nom-years-past" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="SN-year"/></tag>
+<tag><lit-tag v="PD"/></tag>
+<tag><lit-tag v="ND"/></tag>
+ <!--<tag><clip pos="1" side="tl" part="a_nbr"/></tag>-->
 
             </tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="past"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+              
+</lu>
+<b/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
              
@@ -3215,7 +3228,7 @@ If no format information is present it is removed. -->
 <out>
           <chunk name="noun-cop" case="caseFirstWord">
 <tags>
-<tag><lit-tag v="SN-cop"/></tag>
+<tag><lit-tag v="SN-to-cop"/></tag>
 <tag><clip pos="1" side="sl" part="a_cas"/></tag>       
 <tag>  <var n="number"/></tag>
             </tags>
@@ -4689,8 +4702,12 @@ If no format information is present it is removed. -->
             <tags>
               <tag> <lit-tag v="SV-kerek"/></tag>
 
- <tag> <lit-tag v="PD"/></tag>
- <tag> <lit-tag v="ND"/></tag>
+ <!--<tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>-->
+
+<tag><clip pos="1" side="sl" part="a_pers"/></tag>
+    <tag><var n="mf"/></tag> 
+    <tag><var n="number"/></tag>
 
 </tags>
 <lu>
@@ -4944,6 +4961,8 @@ If no format information is present it is removed. -->
 
 <rule comment="RULE: VP-cop-had"> <!--Mende kitap bar edi-->
       <pattern>
+<pattern-item n="pers-pron"/>
+<pattern-item n="nom"/>
         <pattern-item n="bar"/>
  <pattern-item n="edi"/>
       </pattern>
@@ -4979,23 +4998,44 @@ If no format information is present it is removed. -->
         <out>
           <chunk name="VP-cop-had" case="caseFirstWord">
             <tags>
-              <tag> <lit-tag v="SV-kerek-past"/></tag>
+              <tag> <lit-tag v="SN/SV-kerek-past"/></tag>
 
- <tag><clip pos="1" side="tl" part="a_pers"/></tag>
- <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+<!-- <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>-->
 
-
+<tag><clip pos="1" side="sl" part="a_pers"/></tag>
+    <tag><var n="mf"/></tag> 
+    <tag><var n="number"/></tag>
 
 </tags>
+ <lu>
+<clip pos="1" side="tl" part="lem"/>
+
+     <lit-tag v="prn"/> 
+      <lit-tag v="subj"/> 
+
+      <lit-tag v="2"/> 
+<lit-tag v="mf"/>
+      <lit-tag v="3"/> 
+     
+ 
+    </lu>
+<b/>
 <lu>
               <lit v="have"/>
-              <lit-tag v="vbhaver"/>
+              <lit-tag v="vblex"/>
               <lit-tag v="past"/>
-              <lit-tag v="2"/>
-              <lit-tag v="3"/>
-<lit-tag v="4"/>
+             
               
 </lu>
+<b/>
+<lu>
+	<clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+            
+              <clip pos="2" side="tl" part="lemq"/>
+                <var n="number"/>
+            </lu>
 
           </chunk>
         </out>
@@ -5048,9 +5088,13 @@ If no format information is present it is removed. -->
  <tag><clip pos="1" side="tl" part="a_pers"/></tag>
  <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
 
+<tag><lit-tag v="PD"/></tag>
+<tag><lit-tag v="ND"/></tag>
+ <!--<tag><clip pos="1" side="tl" part="a_nbr"/></tag>-->
+
+            </tags>
 
 
-</tags>
 <lu>
               <lit v="be"/>
               <lit-tag v="vbser"/>
@@ -5234,7 +5278,10 @@ If no format information is present it is removed. -->
 
 <rule comment="RULE: VP-zhok"> <!--Mende kitap zhok-->
       <pattern>
-        <pattern-item n="zhok"/>
+        <pattern-item n="pers-pron"/>
+<pattern-item n="nom"/>
+ <pattern-item n="zhok"/>
+<pattern-item n="cop"/>
       </pattern>
       <action>
         <call-macro n="conv-case1">
@@ -5269,13 +5316,28 @@ If no format information is present it is removed. -->
           <chunk name="VP-cop-have-neg" case="caseFirstWord">
             <tags>
               <tag> <lit-tag v="SV-kerek"/></tag>
-
+<!--
   <tag> <lit-tag v="PD"/></tag>
- <tag> <lit-tag v="ND"/></tag>
+ <tag> <lit-tag v="ND"/></tag>-->
 
-
+ <tag><clip pos="1" side="sl" part="a_pers"/></tag>
+    <tag><var n="mf"/></tag> 
+    <tag><var n="number"/></tag>
 
 </tags>
+ <lu>
+<clip pos="1" side="tl" part="lem"/>
+
+     <lit-tag v="prn"/> 
+      <lit-tag v="subj"/> 
+
+      <lit-tag v="2"/> 
+<lit-tag v="mf"/>
+      <lit-tag v="3"/> 
+     
+ 
+    </lu>
+<b/>
 <lu>
               <lit v="do"/>
               <lit-tag v="vbdo"/>
@@ -5291,12 +5353,20 @@ If no format information is present it is removed. -->
 <lu>
               <lit v="have"/>
               <lit-tag v="vbhaver"/>
-              <lit-tag v="pres"/>
-              <lit-tag v="2"/>
+             <lit-tag v="inf"/>
+              <!--<lit-tag v="2"/>
               <lit-tag v="3"/>
-<lit-tag v="4"/>
+<lit-tag v="4"/>-->
               
 </lu>
+<b/>
+<lu>
+	<clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+            
+              <clip pos="2" side="tl" part="lemq"/>
+                <var n="number"/>
+            </lu>
 
           </chunk>
         </out>
@@ -12984,7 +13054,7 @@ If no format information is present it is removed. -->
       <action>
       
         <out>
-          <chunk name="sent" case="caseFirstWord">
+          <chunk name="q-sent" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="Q_mark"/></tag>
              

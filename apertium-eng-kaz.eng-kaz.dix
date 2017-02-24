@@ -206,7 +206,7 @@
 <e><p><l>beyond<s n="pr"/></l><r>кейін<s n="post"/><s n="PXD"/><s n="Rabl"/></r></p></e>
 <e r="LR"><p><l>by<s n="pr"/></l><r>арқылы<s n="post"/><s n="Rnom"/></r></p></e>
 <e><p><l>concerning<s n="pr"/></l><r>туралы<s n="post"/><s n="Rnom"/></r></p></e>
-<e><p><l>despite<s n="pr"/></l><r>қарамастан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e><p><l>despite<s n="pr"/></l><r>қарамастан<s n="post"/></r></p></e>
 <e><p><l>during<s n="pr"/></l><r>іш<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
 <e><p><l>except<s n="pr"/></l><r>басқа<s n="post"/></r></p></e>
 <e><p><l>facing<s n="pr"/></l><r>жөнінде<s n="post"/></r></p></e>
@@ -247,7 +247,7 @@
 <e><p><l>since<s n="pr"/></l><r>бері<s n="post"/><s n="Rabl"/></r></p></e>
 <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/></r></p></e>
 <e><p><l>through<s n="pr"/></l><r>арқылы<s n="post"/><s n="Rnom"/></r></p></e>
-<e><p><l>till<s n="pr"/></l><r>дейін<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
+<e><p><l>till<s n="pr"/></l><r>дейін<s n="post"/></r></p></e>
 <e r="LR"><p><l>to<s n="pr"/></l><r></r></p></e>
 <e><p><l>toward<s n="pr"/></l><r>қарай<s n="post"/></r></p></e>
 <e><p><l>towards<s n="pr"/></l><r>қарай<s n="post"/><s n="Rdat"/></r></p></e>
@@ -2876,7 +2876,7 @@
 <e><p><l>grass<s n="n"/></l><r>қау<s n="n"/></r></p></e>
 <e><p><l>hero<s n="n"/></l><r>қаһарман<s n="n"/></r></p></e>
 <e><p><l>character<s n="n"/></l><r>қаһарман<s n="n"/></r></p></e>
-<e><p><l>apartment<s n="n"/></l><r>квартира<s n="n"/></r></p></e>
+<e><p><l>apartment<s n="n"/></l><r>пәтер<s n="n"/></r></p></e>
 <e><p><l>box<s n="n"/></l><r>кебеже<s n="n"/></r></p></e>
 <e><p><l>pannier<s n="n"/></l><r>кебеже<s n="n"/></r></p></e>
 <e><p><l>bran<s n="n"/></l><r>кебек<s n="n"/></r></p></e>
@@ -9163,7 +9163,7 @@
 <e><p><l>fold<s n="n"/></l><r>қатпар<s n="n"/></r></p></e>
 <e><p><l>moisture<s n="n"/></l><r>ылғал<s n="n"/></r></p></e>
 <e><p><l>oligocene<s n="n"/></l><r>олигоцен<s n="n"/></r></p></e>
-<e><p><l>Sociable<s n="n"/></l><r>Lapwings<s n="n"/></r></p></e>
+
 <e><p><l>birch<s n="n"/></l><r>қайың<s n="n"/></r></p></e>
 <e><p><l>crawl<s n="n"/></l><r>жорғалаушы<s n="n"/></r></p></e>
 <e><p><l>request<s n="n"/></l><r>сұраным<s n="n"/></r></p></e>
@@ -31183,7 +31183,6 @@
 
 <e><p><l>need<s n="n"/></l><r>қажеттік<s n="n"/></r></p></e>
 <e><p><l>affect<s n="n"/></l><r>зардап<s n="n"/></r></p></e>
-<e><p><l>g<s n="n"/><s n="acr"/></l><r>ж<s n="abbr"/></r></p></e>
 <e><p><l>x<s n="n"/><s n="acr"/></l><r>x<s n="abbr"/></r></p></e>
 <e><p><l>no<s n="n"/></l><r>ешқандай<s n="det"/><s n="neg"/></r></p></e>
 <e r="RL"><p><l></l><r>ә<s n="ij"/></r></p></e>

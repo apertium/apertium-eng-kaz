@@ -51223,6 +51223,8 @@
 
                             <e lm="information" i=""><i>information</i><par n="house__n"/></e>
 
+                            <e lm="info" i=""><i>info</i><par n="house__n"/></e>
+
                             <e lm="infrastructure" i=""><i>infrastructure</i><par n="house__n"/></e>
 
                             <e lm="infusion" i=""><i>infusion</i><par n="house__n"/></e>
@@ -60775,6 +60777,7 @@
 <e lm="hauled" i=""><i>hauled</i><par n="expensive__adj"/></e>
 <e lm="hearted" i=""><i>hearted</i><par n="expensive__adj"/></e>
 <e lm="hollowed" i=""><i>hollowed</i><par n="expensive__adj"/></e>
+<e lm="honorary" i=""><i>honorary</i><par n="expensive__adj"/></e>
 <e lm="honed" i=""><i>honed</i><par n="expensive__adj"/></e>
 <e lm="hooked" i=""><i>hooked</i><par n="expensive__adj"/></e>
 <e lm="hooped" i=""><i>hooped</i><par n="expensive__adj"/></e>

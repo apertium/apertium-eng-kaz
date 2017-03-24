@@ -7446,7 +7446,7 @@
 <e><p><l>demise<s n="n"/></l><r>өлім<s n="n"/></r></p></e>
 <e><p><l>demobilisation<s n="n"/></l><r>демобилизация<s n="n"/></r></p></e>
 <e><p><l>democracy<s n="n"/></l><r>демократия<s n="n"/></r></p></e>
-<e><p><l>democratic<s n="n"/></l><r>демократиялық<s n="adj"/></r></p></e>
+<e><p><l>democratic<s n="adj"/></l><r>демократиялық<s n="adj"/></r></p></e>
 <e><p><l>democratisation<s n="n"/></l><r>демократизация<s n="n"/></r></p></e>
 <e><p><l>democrat<s n="n"/></l><r>бұқарашыл<s n="n"/></r></p></e>
 <e><p><l>demodulation<s n="n"/></l><r>демодуляция<s n="n"/></r></p></e>
@@ -10014,6 +10014,7 @@
 <e><p><l>informant<s n="n"/></l><r>құлағдар<s n="n"/></r></p></e>
 <e><p><l>information<s n="n"/></l><r>мәлімет<s n="n"/></r></p></e>
 <e><p><l>information<s n="n"/></l><r>ақпарат<s n="n"/></r></p></e>
+<e><p><l>info<s n="n"/></l><r>ақпарат<s n="n"/></r></p></e>
 <e><p><l>information<s n="n"/></l><r>мағлұмат<s n="n"/></r></p></e>
 <e><p><l>information<s n="n"/></l><r>хабар<s n="n"/></r></p></e>
 <e><p><l>information<s n="n"/></l><r>анықтама<s n="n"/></r></p></e>
@@ -26363,6 +26364,8 @@
 <e><p><l>honed<s n="adj"/></l><r>қайралған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>honest<s n="adj"/></l><r>адал<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>honored<s n="adj"/></l><r>еңбегі<b/>сіңген<s n="adj"/></r></p></e>
+<e><p><l>honorary<s n="adj"/></l><r>құрметті<s n="adj"/></r></p></e>
+<e><p><l>honorary<s n="adj"/></l><r>мәртебелі<s n="adj"/></r></p></e>
 <e><p><l>honourable<s n="adj"/></l><r>мәртебелі<s n="adj"/></r></p></e>
 <e><p><l>hooded<s n="adj"/></l><r>жабық<s n="adj"/></r></p></e>
 <e><p><l>hooked<s n="adj"/></l><r>имек<s n="adj"/><s n="subst"/></r></p></e>
@@ -26907,7 +26910,7 @@
 <e><p><l>modal<s n="adj"/></l><r>модальды<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>modifiable<s n="adj"/></l><r>өзгеретін<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>moderate<s n="adj"/></l><r>ұстамды<s n="adj"/></r></p></e>
-<e><p><l>moderate<s n="adj"/></l><r>байсалды<s n="adj"/></r></p></e>
+<e><p><l>moderate<s n="adj"/></l><r>өлшеусіз<s n="adj"/></r></p></e>
 <e><p><l>modular<s n="adj"/></l><r>модульдік<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>molar<s n="adj"/></l><r>азу<b/>тістік<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>moldable<s n="adj"/></l><r>қалыптық<s n="adj"/><s n="subst"/></r></p></e>

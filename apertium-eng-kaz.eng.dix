@@ -51147,6 +51147,8 @@
 
                             <e lm="increase" i=""><i>increase</i><par n="house__n"/></e>
 
+ 		            <e lm="increment" i=""><i>increment</i><par n="house__n"/></e>
+
                             <e lm="incubation" i=""><i>incubation</i><par n="house__n"/></e>
 
                             <e lm="incubator" i=""><i>incubator</i><par n="house__n"/></e>
@@ -57067,6 +57069,8 @@
 
                             <e lm="war" i=""><i>war</i><par n="house__n"/></e>
 
+			    <e lm="warfare" i=""><i>warfare</i><par n="house__n"/></e>
+
                             <e lm="wardrobe" i=""><i>wardrobe</i><par n="house__n"/></e>
 
                             <e lm="warehouse" i=""><i>warehouse</i><par n="house__n"/></e>
@@ -60740,6 +60744,7 @@
 <e lm="doted" i=""><i>doted</i><par n="expensive__adj"/></e>
 <e lm="dripped" i=""><i>dripped</i><par n="expensive__adj"/></e>
 <e lm="drooped" i=""><i>drooped</i><par n="expensive__adj"/></e>
+<e lm="dubbed" i=""><i>dubbed</i><par n="expensive__adj"/></e>
 <e lm="ebbed" i=""><i>ebbed</i><par n="expensive__adj"/></e>
 <e lm="elapsed" i=""><i>elapsed</i><par n="expensive__adj"/></e>
 <e lm="eluded" i=""><i>eluded</i><par n="expensive__adj"/></e>

@@ -5333,6 +5333,7 @@
 <e><p><l>CAO<s n="n"/><s n="acr"/></l><r>ӘҚБК<s n="abbr"/></r></p></e>
 <e><p><l>CAO<s n="n"/><s n="acr"/></l><r>ӘқБК<s n="abbr"/></r></p></e>
 <e><p><l>RK<s n="n"/><s n="acr"/></l><r>ҚР<s n="abbr"/></r></p></e>
+<e><p><l>RF<s n="n"/><s n="acr"/></l><r>РФ<s n="abbr"/></r></p></e>
 <e><p><l>PSC<s n="n"/><s n="acr"/></l><r>ХҚКО<s n="abbr"/></r></p></e>
 <e><p><l>backrest<s n="n"/></l><r>арқа<s n="n"/></r></p></e>
 <e><p><l>backside<s n="n"/></l><r>артқы<b/>жақ<s n="n"/></r></p></e>
@@ -6809,6 +6810,7 @@
 <e><p><l>computability<s n="n"/></l><r>есептеушілік<s n="n"/></r></p></e>
 <e><p><l>computation<s n="n"/></l><r>есептелім<s n="n"/></r></p></e>
 <e><p><l>computerisation<s n="n"/></l><r>компьютеризация<s n="n"/></r></p></e>
+<e><p><l>computeric<s n="n"/></l><r>компьютерлік<s n="n"/></r></p></e>
 <e><p><l>computer<s n="n"/></l><r>компьютер<s n="n"/></r></p></e>
 <e><p><l>comrade<s n="n"/></l><r>жолдас<s n="n"/></r></p></e>
 <e><p><l>comrade<s n="n"/></l><r>жолдас<s n="n"/></r></p></e>
@@ -16623,6 +16625,8 @@
 <e><p><l>Aibarsha<s n="np"/><s n="ant"/><s n="f"/></l><r>Айбарша<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aibibe<s n="np"/><s n="ant"/><s n="f"/></l><r>Айбибе<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Aibibi<s n="np"/><s n="ant"/><s n="f"/></l><r>Айбиби<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Shokan<s n="np"/><s n="ant"/><s n="m"/></l><r>Шоқан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Tauke<s n="np"/><s n="ant"/><s n="m"/></l><r>Тәуке<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Adela<s n="np"/><s n="ant"/><s n="f"/></l><r>Адела<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Adelaide<s n="np"/><s n="ant"/><s n="f"/></l><r>Аделаиде<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e><p><l>Adelina<s n="np"/><s n="ant"/><s n="f"/></l><r>Аделина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -17914,6 +17918,10 @@
 <e><p><l>Sergey<s n="np"/><s n="ant"/><s n="m"/></l><r>Сергей<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Zharmakhan<s n="np"/><s n="ant"/><s n="m"/></l><r>Жармахан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Dastan<s n="np"/><s n="ant"/><s n="m"/></l><r>Дастан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Saken<s n="np"/><s n="ant"/><s n="m"/></l><r>Сәкен<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Abzal<s n="np"/><s n="ant"/><s n="m"/></l><r>Абзал<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Benedict<s n="np"/><s n="ant"/><s n="m"/></l><r>Бенедикт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Farabi<s n="np"/><s n="ant"/><s n="m"/></l><r>Фараби<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Olkebai<s n="np"/><s n="ant"/><s n="m"/></l><r>Өлкебай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Omirbay<s n="np"/><s n="ant"/><s n="m"/></l><r>Өмірбай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>omirgazi<s n="np"/><s n="ant"/><s n="m"/></l><r>Өмірғазы<s n="np"/><s n="ant"/><s n="m"/></r></p></e>

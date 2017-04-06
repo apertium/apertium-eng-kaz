@@ -17480,8 +17480,11 @@
 <e lm="Sabanshy" i=""><i>Sabanshy</i><par n="Mark__np"/></e>
 <e lm="Rakhmet" i=""><i>Rakhmet</i><par n="Mark__np"/></e>
 <e lm="Sagyr" i=""><i>Sagyr</i><par n="Mark__np"/></e>
+<e lm="Ludwig" i=""><i>Ludwig</i><par n="Mark__np"/></e>
 <e lm="Qogambay" i=""><i>Qogambay</i><par n="Mark__np"/></e>
 <e lm="Saibak" i=""><i>Saibak</i><par n="Mark__np"/></e>
+<e lm="Shokan" i=""><i>Shokan</i><par n="Mark__np"/></e>
+<e lm="Tauke" i=""><i>Tauke</i><par n="Mark__np"/></e>
 <e lm="Sardar" i=""><i>Sardar</i><par n="Mark__np"/></e>
 <e lm="Samga" i=""><i>Samga</i><par n="Mark__np"/></e>
 <e lm="Sari" i=""><i>Sari</i><par n="Mark__np"/></e>
@@ -24572,6 +24575,12 @@
 <e lm="Shyngys" i=""><i>Shyngys</i><par n="Mark__np"/></e>
 <e lm="Esbolay" i=""><i>Esbolay</i><par n="Mark__np"/></e>
 <e lm="Dastan" i=""><i>Dastan</i><par n="Mark__np"/></e>
+<e lm="Farabi" i=""><i>Farabi</i><par n="Mark__np"/></e>
+<e lm="Abzal" i=""><i>Abzal</i><par n="Mark__np"/></e>
+<e lm="Saken" i=""><i>Saken</i><par n="Mark__np"/></e>
+<e lm="Benedict" i=""><i>Benedict</i><par n="Mark__np"/></e>
+<e lm="Toktamys" i=""><i>Toktamys</i><par n="Mark__np"/></e>
+
 <e lm="Olkebai" i=""><i>Olkebai</i><par n="Mark__np"/></e>
 <e lm="Omirbay" i=""><i>Omirbay</i><par n="Mark__np"/></e>
 <e lm="omirgazi" i=""><i>omirgazi</i><par n="Mark__np"/></e>
@@ -90282,6 +90291,7 @@
 
                             <e lm="computer-aided" i=""><i>computer-aided</i><par n="expensive__adj"/></e>
 
+ <e lm="computeric" i=""><i>computeric</i><par n="expensive__adj"/></e>
                             <e lm="grant-aided" i=""><i>grant-aided</i><par n="expensive__adj"/></e>
 
                             <e lm="subsidized" i=""><i>subsidized</i><par n="expensive__adj"/></e>

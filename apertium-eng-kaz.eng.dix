@@ -61450,6 +61450,8 @@
 
                             <e lm="substantial" i=""><i>substantial</i><par n="expensive__adj"/></e>
 
+                            <e lm="insubstantial" i=""><i>insubstantial</i><par n="expensive__adj"/></e>
+
                             <e lm="substantive" i=""><i>substantive</i><par n="expensive__adj"/></e>
 
                             <e lm="subtle" i=""><i>subtle</i><par n="nice/__adj"/></e>
@@ -62667,6 +62669,8 @@
                             <e lm="humiliate" i=""><i>humiliat</i><par n="liv/e__vblex"/></e>
 
                             <e r="LR" i=""><i>cost</i><par n="accept__vblex"/></e>
+
+                            <e r="LR" i=""><i>host</i><par n="accept__vblex"/></e>
 
                             <e lm="ventilate" i=""><i>ventilat</i><par n="liv/e__vblex"/></e>
 
@@ -81744,6 +81748,8 @@
                             <e lm="tectonics" i=""><i>tectonics</i><par n="politics__n"/></e>
 
                             <e lm="endogenous" i=""><i>endogenous</i><par n="expensive__adj"/></e>
+
+                            <e lm="indigenous" i=""><i>indigenous</i><par n="expensive__adj"/></e>
 
                             <e lm="knotty" i=""><i>knott</i><par n="happ/y__adj"/></e>
 

@@ -16069,6 +16069,8 @@
                           <!--  <e lm="most" i=""><i>most</i><par n="maybe__adv"/></e>-->
 
                             <e lm="mostly" i=""><i>mostly</i><par n="maybe__adv"/></e>
+				
+			    <e lm="multi" i=""><i>multi</i><par n="maybe__adv"/></e>
 
                             <e lm="much" i=""><i>much</i><par n="maybe__adv"/></e>
 
@@ -49065,6 +49067,8 @@
 
 			    <e lm="scribe" i=""><i>scribe</i><par n="house__n"/></e>
 
+			    <e lm="settler" i=""><i>settler</i><par n="house__n"/></e>
+
                             <e lm="dynasty" i=""><i>dynast</i><par n="bab/y__n"/></e>
 
                             <e lm="dysfunction" i=""><i>dysfunction</i><par n="house__n"/></e>
@@ -70947,6 +70951,8 @@
 
                             <e lm="buffoonery" i=""><i>buffooner</i><par n="bab/y__n"/></e>
 
+			    <e lm="bulk" i=""><i>bulk</i><par n="house__n"/></e>
+
                             <e lm="bulldozer" i=""><i>bulldozer</i><par n="house__n"/></e>
 
                             <e lm="bullying" i=""><i>bullying</i><par n="house__n"/></e>
@@ -71452,6 +71458,8 @@
                             <e lm="colon" i=""><i>colon</i><par n="house__n"/></e>
 
 			    <e lm="hue" i=""><i>hue</i><par n="house__n"/></e>
+
+			    <e lm="hub" i=""><i>hub</i><par n="house__n"/></e>
 
                             <e lm="colonizable" i=""><i>colonizable</i><par n="expensive__adj"/></e>
 
@@ -81644,6 +81652,8 @@
                             <e lm="saltwater" i=""><i>saltwater</i><par n="expensive__adj"/></e>
 
                             <e lm="underwear" i=""><i>underwear</i><par n="house__n"/></e>
+
+			    <e lm="undergraduate" i=""><i>undergraduate</i><par n="house__n"/></e>
 
                             <e lm="temperate" i=""><i>temperate</i><par n="expensive__adj"/></e>
 

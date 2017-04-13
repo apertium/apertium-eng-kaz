@@ -84,6 +84,12 @@ SET PERSON = 1p | 2p | 3p ;
 
 SECTION
 
+
+
+
+
+SELECT (vblex inf) if (0 ("be"i)) (-1 Pr) ;
+
 # z_z
 # Если
 # до слова стоит "to",
@@ -101,6 +107,8 @@ SELECT (vaux inf) IF
 
 
 ;
+
+
 
 #remove np unk if word has another tag
 REMOVE (np unk) IF
@@ -214,8 +222,6 @@ SELECT (n sg) if (0 ("English")) ;
 SELECT (n sg) if (0 ("Kazakh")) ;
 
 SELECT (vblex pp) if (-1 (vbser past)) ;
-
-SELECT (vblex inf) if (0 ("be"i)) (-1 Pr) ;
 
 SELECT (vblex ger) if (0 ("beginning"i))(NOT 1 V) ;
 

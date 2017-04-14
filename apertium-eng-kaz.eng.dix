@@ -35594,6 +35594,8 @@
  <e lm="Gray" i=""><i>Gray</i><par n="Mark__np"/></e>
 <e lm="Gray" i=""><i>Gray</i><par n="Smith__np"/></e>
 
+<e lm="Herschel" i=""><i>Herschel</i><par n="Smith__np"/></e>
+
 <e lm="Prodi" i=""><i>Prodi</i><par n="Smith__np"/></e>
 <e lm="Cooksey" i=""><i>Cooksey</i><par n="Smith__np"/></e>
 
@@ -39187,6 +39189,17 @@
 <e lm="Tibet" i=""><i>Tibet</i><par n="Barcelona__np"/></e>
 <e lm="Tiger" i=""><i>Tiger</i><par n="Barcelona__np"/></e>
 <e lm="Ural" i=""><i>Ural</i><par n="Barcelona__np"/></e>
+
+<e lm="Nenets" i=""><i>Nenets</i><par n="Barcelona__np"/></e>
+<e lm="Wurttemberg" i=""><i>Wurttemberg</i><par n="Barcelona__np"/></e>
+<e lm="Bavaria" i=""><i>Bavaria</i><par n="Barcelona__np"/></e>
+<e lm="Austria" i=""><i>Austria</i><par n="Barcelona__np"/></e>
+<e lm="Lombardy" i=""><i>Lombardy</i><par n="Barcelona__np"/></e>
+<e lm="Saxony" i=""><i>Saxony</i><par n="Barcelona__np"/></e>
+<e lm="Piedmont" i=""><i>Piedmont</i><par n="Barcelona__np"/></e>
+<e lm="Kemerov" i=""><i>Kemerov</i><par n="Barcelona__np"/></e>
+<e lm="Krasnoyarsk" i=""><i>Krasnoyarsk</i><par n="Barcelona__np"/></e>
+<e lm="Zharkent" i=""><i>Zharkent</i><par n="Barcelona__np"/></e>
 <e lm="Ulytau" i=""><i>Ulytau</i><par n="Barcelona__np"/></e>
 <e lm="Faroe island" i=""><i>Faroe<b/>island</i><par n="Barcelona__np"/></e>
 <e lm="Khangai" i=""><i>Khangai</i><par n="Barcelona__np"/></e>
@@ -72088,6 +72101,8 @@
                             <e lm="developing" i=""><i>developing</i><par n="expensive__adj"/></e>
 
                             <e lm="deviationism" i=""><i>deviationism</i><par n="house__n"/></e>
+
+<e lm="devision" i=""><i>devision</i><par n="house__n"/></e>
 
                             <e lm="devise" i=""><i>devis</i><par n="liv/e__vblex"/></e>
 

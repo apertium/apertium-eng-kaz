@@ -13823,6 +13823,8 @@
 <e><p><l>seeker<s n="n"/></l><r>іздеуіш<s n="n"/></r></p></e>
 <e><p><l>seer<s n="n"/></l><r>пайғамбар<s n="n"/></r></p></e>
 <e><p><l>segmentation<s n="n"/></l><r>сегменттеу<s n="n"/></r></p></e>
+<e><p><l>segmentation<s n="n"/></l><r>бөлініс<s n="n"/></r></p></e>
+<e><p><l>devision<s n="n"/></l><r>бөлініс<s n="n"/></r></p></e>
 <e><p><l>segment<s n="n"/></l><r>буын<s n="n"/></r></p></e>
 <e><p><l>segregationism<s n="n"/></l><r>сегрегационизм<s n="n"/></r></p></e>
 <e><p><l>segregation<s n="n"/></l><r>сегрегация<s n="n"/></r></p></e>
@@ -15958,6 +15960,7 @@
 
 <e><p><l>Gray<s n="np"/><s n="cog"/><s n="mf"/></l><r>Грей<s n="np"/><s n="cog"/><s n="mf"/><s n="nom"/></r></p></e>
 <e><p><l>Gray<s n="np"/><s n="cog"/><s n="mf"/></l><r>Грей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Herschel<s n="np"/><s n="cog"/><s n="mf"/></l><r>Гершель<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Choi<s n="np"/><s n="cog"/><s n="mf"/></l><r>Цой<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Prodi<s n="np"/><s n="cog"/></l><r>Проди<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Davos<s n="np"/><s n="cog"/><s n="mf"/></l><r>Давос<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -22508,6 +22511,18 @@
 <e><p><l>Barmaqqum<s n="np"/><s n="top"/></l><r>Бармаққұм<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Barsakelmes<s n="np"/><s n="top"/></l><r>Барсакелмес<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Barcelona<s n="np"/><s n="top"/></l><r>Барселона<s n="np"/><s n="top"/></r></p></e>
+
+<e><p><l>Nenets<s n="np"/><s n="top"/></l><r>Ненецк<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Bavaria<s n="np"/><s n="top"/></l><r>Бавария<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Austria<s n="np"/><s n="top"/></l><r>Аустрия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Lombardy<s n="np"/><s n="top"/></l><r>Ломбардия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Saxony<s n="np"/><s n="top"/></l><r>Саксония<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Piedmont<s n="np"/><s n="top"/></l><r>Пьемонт<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Kemerov<s n="np"/><s n="top"/></l><r>Кемеров<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Krasnoyarsk<s n="np"/><s n="top"/></l><r>Красноярск<s n="np"/><s n="top"/></r></p></e>
+
+
+
 <e><p><l>Bartogai<s n="np"/><s n="top"/></l><r>Бартоғай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Barxanqum<s n="np"/><s n="top"/></l><r>Барханқұм<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Barshaqum<s n="np"/><s n="top"/></l><r>Баршақұм<s n="np"/><s n="top"/></r></p></e>
@@ -31629,6 +31644,92 @@
 <e><p><l>newspaper<s n="n"/></l><r>газета<s n="n"/></r></p></e>
 <e><p><l>peacekeeping<s n="n"/></l><r>бітімгершілік<s n="n"/></r></p></e>
 <e><p><l>Oksikbayev<s n="np"/><s n="cog"/></l><r>Өксікбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+
+<!--from wikipedia-->
+<e><p><l>informatization<s n="n"/></l><r>ақпараттану<s n="n"/></r></p></e>
+<e><p><l>sectoral<s n="adj"/></l><r>салалық<s n="adj"/></r></p></e>
+<e><p><l>Wikipedia<s n="np"/><s n="org"/><s n="sg"/></l><r>Уикипедия<s n="np"/><s n="org"/><s n="nom"/></r></p></e>
+<e><p><l>wikipediast<s n="n"/></l><r>уикипедияшы<s n="n"/></r></p></e>
+<e><p><l>biomorphlogy<s n="n"/></l><r>биоморфология<s n="n"/></r></p></e>
+<e><p><l>navigational<s n="adj"/></l><r>навигациялық<s n="adj"/></r></p></e>
+<e><p><l>Kirov<s n="np"/><s n="top"/><s n="sg"/></l><r>Киров<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Big<b/>Dipper<s n="np"/><s n="top"/><s n="sg"/></l><r>Жетіқарақшы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Great<b/>Bear<s n="np"/><s n="top"/><s n="sg"/></l><r>Жетіқарақшы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Ursa<b/>Major<s n="np"/><s n="top"/><s n="sg"/></l><r>Жетіқарақшы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Wain<s n="np"/><s n="top"/><s n="sg"/></l><r>Жетіқарақшы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Plough<s n="np"/><s n="top"/><s n="sg"/></l><r>Жетіқарақшы<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+
+<e><p><l>cowherd<s n="n"/></l><r>сиыршы<s n="n"/></r></p></e>
+<e><p><l>terminological<s n="adj"/></l><r>терминологиялық<s n="adj"/></r></p></e>
+<e><p><l>Sardinia<s n="np"/><s n="top"/><s n="sg"/></l><r>Сардиния<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>socialogy<s n="n"/></l><r>әлеуметтану<s n="n"/></r></p></e>
+<e><p><l>Salamanca<s n="np"/><s n="top"/><s n="sg"/></l><r>Саламанка<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Viseu<s n="np"/><s n="top"/><s n="sg"/></l><r>Визеу<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>hydra<s n="n"/></l><r>гидра<s n="n"/></r></p></e>
+<e><p><l>Styria<s n="np"/><s n="top"/><s n="sg"/></l><r>Стирия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Nizhny<b/>Novgorod<s n="np"/><s n="top"/><s n="sg"/></l><r>Нижегород<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Hesse<s n="np"/><s n="top"/><s n="sg"/></l><r>Гессен<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Romagna<s n="np"/><s n="top"/><s n="sg"/></l><r>Романья<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Guarda<s n="np"/><s n="top"/><s n="sg"/></l><r>Гуарда<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Trentino<s n="np"/><s n="top"/><s n="sg"/></l><r>Трентино<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Adige<s n="np"/><s n="top"/><s n="sg"/></l><r>Адидже<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>psychology<s n="n"/></l><r>жантану<s n="n"/></r></p></e>
+<e><p><l>Khakassia<s n="np"/><s n="top"/><s n="sg"/></l><r>Хакасия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Lazio<s n="np"/><s n="top"/><s n="sg"/></l><r>Лацио<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Gabrovo<s n="np"/><s n="top"/><s n="sg"/></l><r>Габрово<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Abruzzo<s n="np"/><s n="top"/><s n="sg"/></l><r>Абруццо<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Dolgan<s n="np"/><s n="top"/><s n="sg"/></l><r>Долган<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Turnovo<s n="np"/><s n="top"/><s n="sg"/></l><r>Тырново<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Castelo<s n="np"/><s n="top"/><s n="sg"/></l><r>Каштелу<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Braganca<s n="np"/><s n="top"/><s n="sg"/></l><r>Браганса<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Guadalajara<s n="np"/><s n="top"/><s n="sg"/></l><r>Гвадалахара<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Tuscany<s n="np"/><s n="top"/><s n="sg"/></l><r>Тоскана<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Tyrol<s n="np"/><s n="top"/><s n="sg"/></l><r>Тироль<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Mississippi<s n="np"/><s n="top"/><s n="sg"/></l><r>Миссисипи<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Preserved<s n="np"/><s n="top"/><s n="sg"/></l><r>Пресервед<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Mordovia<s n="np"/><s n="top"/><s n="sg"/></l><r>Мордовия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Blagoevgrad<s n="np"/><s n="top"/><s n="sg"/></l><r>Благоевград<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Parsons<s n="np"/><s n="top"/><s n="sg"/></l><r>Парсонс<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Goias<s n="np"/><s n="top"/><s n="sg"/></l><r>Гояс<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Haskovo<s n="np"/><s n="top"/><s n="sg"/></l><r>Хасково<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Apulia<s n="np"/><s n="top"/><s n="sg"/></l><r>Апулия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Avila<s n="np"/><s n="top"/><s n="sg"/></l><r>Авила<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Burgas<s n="np"/><s n="top"/><s n="sg"/></l><r>Бургас<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Dunlop<s n="np"/><s n="top"/><s n="sg"/></l><r>Данлоп<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Hampshire<s n="np"/><s n="top"/><s n="sg"/></l><r>Гэмпшир<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Connecticut<s n="np"/><s n="top"/><s n="sg"/></l><r>Коннектикут<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Chuvashia<s n="np"/><s n="top"/><s n="sg"/></l><r>Чувашия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Piaui<s n="np"/><s n="top"/><s n="sg"/></l><r>Пиауи<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Smolyan<s n="np"/><s n="top"/><s n="sg"/></l><r>Смолян<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Centaurus<s n="np"/><s n="top"/><s n="sg"/></l><r>Центавр<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Teruel<s n="np"/><s n="top"/><s n="sg"/></l><r>Теруэль<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Marche<s n="np"/><s n="top"/><s n="sg"/></l><r>Марке<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Liguria<s n="np"/><s n="top"/><s n="sg"/></l><r>Лигурия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Paraiba<s n="np"/><s n="top"/><s n="sg"/></l><r>Параиба<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Maranhao<s n="np"/><s n="top"/><s n="sg"/></l><r>Мараньян<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Toledo<s n="np"/><s n="top"/><s n="sg"/></l><r>Толедо<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Julia<s n="np"/><s n="ant"/><s n="f"/></l><r>Джулия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>Plovdiv<s n="np"/><s n="top"/><s n="sg"/></l><r>Пловдив<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Coimbra<s n="np"/><s n="top"/><s n="sg"/></l><r>Коимбра<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Girona<s n="np"/><s n="top"/><s n="sg"/></l><r>Жирона<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Andromeda<s n="np"/><s n="top"/><s n="sg"/></l><r>Андромеда<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Aveiro<s n="np"/><s n="top"/><s n="sg"/></l><r>Авейру<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Idaho<s n="np"/><s n="top"/><s n="sg"/></l><r>Айдахо<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Cuenca<s n="np"/><s n="top"/><s n="sg"/></l><r>Куэнка<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Zagora<s n="np"/><s n="top"/><s n="sg"/></l><r>Загора<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Graubunden<s n="np"/><s n="top"/><s n="sg"/></l><r>Граубюнден<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Rioja<s n="np"/><s n="top"/><s n="sg"/></l><r>Риоха<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Ceara<s n="np"/><s n="top"/><s n="sg"/></l><r>Сеара<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Kyustendil<s n="np"/><s n="top"/><s n="sg"/></l><r>Кюстендил<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>polygraphy<s n="n"/></l><r>полиграфия<s n="n"/></r></p></e>
+<e><p><l>subregion<s n="n"/></l><r>субрегион<s n="np"/></r></p></e>
+<e><p><l>Burgenland<s n="np"/><s n="top"/><s n="sg"/></l><r>Бургенланд<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Pernik<s n="np"/><s n="top"/><s n="sg"/></l><r>Перник<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Branco<s n="np"/><s n="top"/><s n="sg"/></l><r>Бранку<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Tempel<s n="np"/><s n="top"/><s n="sg"/></l><r>Темпель<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Mexico<s n="np"/><s n="top"/><s n="sg"/></l><r>Мексико<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Tocantins<s n="np"/><s n="top"/><s n="sg"/></l><r>Токантинс<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+
 
 
 <e><p><l>Karimov<s n="np"/><s n="cog"/></l><r>Кәрімов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

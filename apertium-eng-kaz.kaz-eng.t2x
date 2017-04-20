@@ -7,6 +7,11 @@
       <cat-item tags="SN.*"/>
     </def-cat>
 
+ <def-cat n="SN-to-cop">
+      <cat-item tags="SN-to-cop"/>
+      <cat-item tags="SN-to-cop.*"/>
+    </def-cat>
+
 <def-cat n="SN-det">
       <cat-item tags="SN-det"/>
       <cat-item tags="SN-det.*"/>
@@ -1463,6 +1468,82 @@
       </action>
     </rule>
 
+
+<rule comment="RULE: SN SN-to-cop">  <!-- -->
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SN-to-cop"/>
+        
+      </pattern>
+      <action>
+       <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+<let>     <clip pos="2" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="2" part="a_nbr"/><lit v=""/></let>
+</when>
+</choose>
+<choose>
+<when>
+<test>
+
+  
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+
+    
+   </test>
+
+  <let>         <clip pos="2" part="a_nbr"/><lit-tag v="pl"/></let>
+</when>
+
+ <when>
+               <test> 
+                  <equal><clip pos="2" part="a_sn_type"/><lit-tag v="SN-to-cop"/></equal>
+               </test>
+               <let><var n="PREP"/>
+                 <concat>
+                  <get-case-from pos="1">
+                    <lit v="^tobe"/>
+                  </get-case-from>
+                  <lit-tag  v="vblex"/>
+                  <lit v="{"/>
+                  <lit v="^tobe"/>
+                  <lit-tag  v="vbserr"/>
+                  <lit v="$}$ "/>
+                </concat>
+               </let>
+            </when> 
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          
+          <chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+         <b/>
+        <var n="PREP"/>
+          
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 <rule comment="RULE: SN QST ">  <!--атыңыз кім? -->
       <pattern>

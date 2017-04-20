@@ -11832,6 +11832,7 @@
 <e><p><l>opponent<s n="n"/></l><r>оппонент<s n="n"/></r></p></e>
 <e><p><l>opportunism<s n="n"/></l><r>оппортунизм<s n="n"/></r></p></e>
 <e><p><l>opportunity<s n="n"/></l><r>орай<s n="n"/></r></p></e>
+<e><p><l>opposing<s n="n"/></l><r>қарсыласу<s n="n"/></r></p></e>
 <e><p><l>opposition<s n="n"/></l><r>оппозиция<s n="n"/></r></p></e>
 <e><p><l>oppression<s n="n"/></l><r>зұлым<s n="n"/></r></p></e>
 <e><p><l>optics<s n="n"/></l><r>оптика<s n="n"/></r></p></e>
@@ -13122,6 +13123,7 @@
 <e><p><l>range<s n="n"/></l><r>таңдама<s n="n"/></r></p></e>
 <e><p><l>range<s n="n"/></l><r>алыстық<s n="n"/></r></p></e>
 <e><p><l>rank<s n="n"/></l><r>дәреже<s n="n"/></r></p></e>
+<e><p><l>ranking<s n="n"/></l><r>рейтинг<s n="n"/></r></p></e>
 <e><p><l>ransom<s n="n"/></l><r>төлем<s n="n"/></r></p></e>
 <e><p><l>rapacity<s n="n"/></l><r>ашқарақтық<s n="n"/></r></p></e>
 <e><p><l>rapacity<s n="n"/></l><r>ашкөздік<s n="n"/></r></p></e>
@@ -27501,6 +27503,7 @@
 <e><p><l>postwar<s n="adj"/></l><r>соғыстан<b/>кейінгі<s n="adj"/></r></p></e>
 <e><p><l>potable<s n="adj"/></l><r>ішетін<s n="adj"/></r></p></e>
 <e><p><l>potential<s n="adj"/></l><r>әлует<s n="adj"/></r></p></e>
+<e><p><l>powered<s n="adj"/></l><r>механикаландырылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>powerful<s n="adj"/></l><r>мықты<s n="adj"/></r></p></e>
 <e><p><l>powerless<s n="adj"/></l><r>әлсіз<s n="adj"/></r></p></e>
 <e><p><l>practicable<s n="adj"/></l><r>тәжірибелі<s n="adj"/><s n="subst"/></r></p></e>
@@ -28046,7 +28049,8 @@
 <e><p><l>tonic<s n="adj"/></l><r>сергітетін<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>toothed<s n="adj"/></l><r>тісті<s n="adj"/></r></p></e>
 <e><p><l>topical<s n="adj"/></l><r>көкейкесті<s n="adj"/></r></p></e>
-<e><p><l>topographical<s n="adj"/></l><r>топографиялық<s n="adj"/></r></p></e>
+<e><p><l>topographical<s n="adj"/></l><r>топологиялық<s n="adj"/></r></p></e>
+<e><p><l>topological<s n="adj"/></l><r>типологиялық<s n="adj"/></r></p></e>
 <e><p><l>torrential<s n="adj"/></l><r>төкпе<s n="adj"/></r></p></e>
 <e><p><l>total<s n="adj"/></l><r>қорытынды<s n="adj"/></r></p></e>
 <e><p><l>totalitarian<s n="adj"/></l><r>тоталитарлы<s n="adj"/></r></p></e>
@@ -29431,7 +29435,9 @@
 <e><p><l>decouple<s n="vblex"/></l><r>ажырат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>decrease<s n="vblex"/></l><r>азайт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>decrease<s n="vblex"/></l><r>азай<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>decrease<s n="vblex"/></l><r>кеміт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>decree<s n="vblex"/></l><r>қаулы<b/>ет<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>deem<s n="vblex"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>dedicate<s n="vblex"/></l><r>бағышта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>deepen<s n="vblex"/></l><r>шұқырайт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>defeat<s n="vblex"/></l><r>жеңіл<s n="v"/><s n="iv"/></r></p></e>
@@ -30331,6 +30337,7 @@
 <e><p><l>raise<s n="vblex"/></l><r>көтеріл<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>rally<s n="vblex"/></l><r>бірлес<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>range<s n="vblex"/></l><r>жалғас<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>rank<s n="vblex"/></l><r>жүйеле<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>rape<s n="vblex"/></l><r>зорла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>rate<s n="vblex"/></l><r>шамала<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>ratify<s n="vblex"/></l><r>ратификацияла<s n="v"/><s n="tv"/></r></p></e>

@@ -50173,6 +50173,8 @@
 
                             <e lm="glance" i=""><i>glance</i><par n="house__n"/></e>
 
+			    <e lm="opposing" i=""><i>opposing</i><par n="house__n"/></e>
+
 <e lm="brush" i=""><i>brush</i><par n="house__n"/></e>
 <e lm="paintbrush" i=""><i>paintbrush</i><par n="house__n"/></e>
 <e lm="bobble" i=""><i>bobble</i><par n="house__n"/></e>
@@ -54444,6 +54446,8 @@
                             <e lm="range" i=""><i>range</i><par n="house__n"/></e>
 
                             <e lm="rank" i=""><i>rank</i><par n="house__n"/></e>
+
+			    <e lm="rating" i=""><i>rating</i><par n="house__n"/></e>
 
                             <e lm="rapidity" i=""><i>rapidit</i><par n="bab/y__n"/></e>
 
@@ -60861,6 +60865,7 @@
 <e lm="pilled" i=""><i>pilled</i><par n="expensive__adj"/></e>
 <e lm="pinioned" i=""><i>pinioned</i><par n="expensive__adj"/></e>
 <e lm="pitched" i=""><i>pitched</i><par n="expensive__adj"/></e>
+<e lm="powered" i=""><i>powered</i><par n="expensive__adj"/></e>
 <e lm="presumed" i=""><i>presumed</i><par n="expensive__adj"/></e>
 <e lm="professed" i=""><i>professed</i><par n="expensive__adj"/></e>
 <e lm="proportioned" i=""><i>proportioned</i><par n="expensive__adj"/></e>
@@ -62704,6 +62709,8 @@
 
                             <e lm="inhume" i=""><i>inhum</i><par n="liv/e__vblex"/></e>
 
+			   <e lm="decrease" i=""><i>decreas</i><par n="liv/e__vblex"/></e>
+
                             <e lm="exhume" i=""><i>exhum</i><par n="liv/e__vblex"/></e>
 
                             <e lm="corroborate" i=""><i>corroborat</i><par n="liv/e__vblex"/></e>
@@ -63275,6 +63282,8 @@
                             <e lm="dedicate" i=""><i>dedicat</i><par n="liv/e__vblex"/></e>
 
                             <e lm="deduce" i=""><i>deduc</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="deem" i=""><i>deem</i><par n="accept__vblex"/></e>
 
                             <e lm="deepen" i=""><i>deepen</i><par n="accept__vblex"/></e>
 
@@ -64791,6 +64800,8 @@
                             <e lm="question" i=""><i>question</i><par n="accept__vblex"/></e>
 
                             <e lm="quote" i=""><i>quot</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="rank" i=""><i>rank</i><par n="approach__vblex"/></e>
 
                             <e lm="rise" i=""><i>r</i><par n="ar/ise__vblex"/></e>
 

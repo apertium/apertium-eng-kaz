@@ -15987,6 +15987,8 @@
 
                             <e lm="internationally" i=""><i>internationally</i><par n="maybe__adv"/></e>
 
+			    <e lm="prominently" i=""><i>prominently</i><par n="maybe__adv"/></e>
+
                             <e lm="interestingly" i=""><i>interestingly</i><par n="maybe__adv"/></e>
 
                             <e lm="interestingly enough" i=""><i>interestingly<b/>enough</i><par n="maybe__adv"/></e>
@@ -48007,6 +48009,8 @@
 
                             <e lm="continent" i=""><i>continent</i><par n="house__n"/></e>
 
+			    <e lm="continuum" i=""><i>continuum</i><par n="house__n"/></e>
+
                             <e lm="contingency" i=""><i>contingenc</i><par n="bab/y__n"/></e>
 
                             <e lm="contingent" i=""><i>contingent</i><par n="house__n"/></e>
@@ -52843,6 +52847,8 @@
 
                             <e lm="neighbour" i=""><i>neighb</i><par n="col/our__n"/></e>
 
+			    <e lm="neighborhood" i=""><i>neighborhood</i><par n="house__n"/></e>
+
                             <e lm="neighbourhood" i=""><i>neighbourhood</i><par n="house__n"/></e>
 
                             <e lm="neoclassicism" i=""><i>neoclassicism</i><par n="house__n"/></e>
@@ -55402,6 +55408,8 @@
 <e lm="sheep" i=""><i>sheep</i><par n="house__n"/></e>
 
                             <e lm="sheep" i=""><i>sheep</i><par n="politics__n"/></e>
+
+			    <e lm="blues" i=""><i>blues</i><par n="politics__n"/></e>
 
                             <e lm="sheet" i=""><i>sheet</i><par n="house__n"/></e>
 
@@ -60517,6 +60525,8 @@
 
                             <e lm="old-fashioned" i=""><i>old-fashioned</i><par n="expensive__adj"/></e>
 
+	                    <e lm="reversed" i=""><i>reversed</i><par n="expensive__adj"/></e>
+
                             <e lm="olympic" i=""><i>olympic</i><par n="expensive__adj"/></e>
 
                             <e lm="oneiric" i=""><i>oneiric</i><par n="expensive__adj"/></e>
@@ -60859,6 +60869,7 @@
 <e lm="engrossed" i=""><i>engrossed</i><par n="expensive__adj"/></e>
 <e lm="enjoined" i=""><i>enjoined</i><par n="expensive__adj"/></e>
 <e lm="enlivened" i=""><i>enlivened</i><par n="expensive__adj"/></e>
+<e lm="extant" i=""><i>extant</i><par n="expensive__adj"/></e>
 <e lm="ennobled" i=""><i>ennobled</i><par n="expensive__adj"/></e>
 <e lm="ensconced" i=""><i>ensconced</i><par n="expensive__adj"/></e>
 <e lm="espied" i=""><i>espied</i><par n="expensive__adj"/></e>
@@ -61790,6 +61801,8 @@
 
                             <e lm="uncomfortable" i=""><i>uncomfortable</i><par n="expensive__adj"/></e>
 
+			    <e lm="unclear" i=""><i>unclear</i><par n="expensive__adj"/></e>
+
                             <e lm="unconditional" i=""><i>unconditional</i><par n="expensive__adj"/></e>
 
                             <e lm="uncontrolled" i=""><i>uncontrolled</i><par n="expensive__adj"/></e>
@@ -62391,9 +62404,15 @@
 
 			    <e lm="generalize" i=""><i>generaliz</i><par n="liv/e__vblex"/></e>
 
+			    <e lm="standardize" i=""><i>standardiz</i><par n="liv/e__vblex"/></e>
+
+		            <e lm="speculate" i=""><i>speculat</i><par n="liv/e__vblex"/></e>
+
 			    <e lm="categorize" i=""><i>categoriz</i><par n="liv/e__vblex"/></e>
 
 			    <e lm="illustrate" i=""><i>illustrat</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="rotate" i=""><i>rotat</i><par n="liv/e__vblex"/></e>
 
 	                    <e lm="structure" i=""><i>structur</i><par n="liv/e__vblex"/></e>
 
@@ -63672,6 +63691,8 @@
                             <e lm="emerge" i=""><i>emerg</i><par n="liv/e__vblex"/></e>
 
                             <e lm="emigrate" i=""><i>emigrat</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="migrate" i=""><i>migrat</i><par n="liv/e__vblex"/></e>
 
                             <e lm="migrate" i=""><i>migrat</i><par n="liv/e__vblex"/></e>
 
@@ -76931,6 +76952,8 @@ wind
 
                             <e lm="refugee" i=""><i>refugee</i><par n="house__n"/></e>
 
+		            <e lm="refuge" i=""><i>refuge</i><par n="house__n"/></e>
+
                             <e lm="refundable" i=""><i>refundable</i><par n="expensive__adj"/></e>
 
                             <e lm="refutation" i=""><i>refutation</i><par n="house__n"/></e>
@@ -78381,6 +78404,8 @@ wind
                             <e lm="transmittance" i=""><i>transmittance</i><par n="house__n"/></e>
 
                             <e lm="transnational" i=""><i>transnational</i><par n="expensive__adj"/></e>
+
+			    <e lm="nationwide" i=""><i>nationwide</i><par n="expensive__adj"/></e>
 
                             <e lm="transoceanic" i=""><i>transoceanic</i><par n="expensive__adj"/></e>
 
@@ -81569,6 +81594,8 @@ wind
                             <e lm="television" i=""><i>television</i><par n="expensive__adj"/></e>
 
                             <e lm="tidy" i=""><i>tid</i><par n="happ/y__adj"/></e>
+
+			    <e lm="steady" i=""><i>stead</i><par n="happ/y__adj"/></e>
 
                             <e lm="orderly" i=""><i>orderly</i><par n="expensive__adj"/></e>
 

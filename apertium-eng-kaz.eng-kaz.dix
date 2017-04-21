@@ -8513,6 +8513,7 @@
 <e><p><l>farmacological<s n="adj"/></l><r>фармакологиялық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>faroese<s n="adj"/></l><r>фарерлік<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>fashioned<s n="adj"/></l><r>сәнді<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>reversed<s n="adj"/></l><r>кері<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>fathomless<s n="adj"/></l><r>тұңғиық<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>febrifuge<s n="adj"/></l><r>қызу<b/>түсіретін<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>federalistic<s n="adj"/></l><r>федералистік<s n="adj"/><s n="subst"/></r></p></e>
@@ -8696,6 +8697,7 @@
 <e><p><l>fishing<s n="n"/></l><r>балық<b/>аулау<s n="n"/></r></p></e>
 <e><p><l>fishmonger<s n="n"/></l><r>балық<b/>сатушы<s n="n"/></r></p></e>
 <e><p><l>fish<s n="n"/></l><r>балық<s n="n"/></r></p></e>
+<e><p><l>blues<s n="n"/></l><r>блюз<s n="n"/></r></p></e>
 <e><p><l>fission<s n="n"/></l><r>ыдырау<s n="n"/></r></p></e>
 <e><p><l>fissure<s n="n"/></l><r>жарық<s n="n"/></r></p></e>
 <e><p><l>fist<s n="n"/></l><r>жұдырық<s n="n"/></r></p></e>
@@ -11547,7 +11549,7 @@
 <e><p><l>negotiation<s n="n"/></l><r>келіссөздер<s n="n"/></r></p></e>
 <e><p><l>negotiator<s n="n"/></l><r>дәнекер<s n="n"/></r></p></e>
 <e><p><l>Negro<s n="n"/></l><r>негр<s n="n"/></r></p></e>
-<e><p><l>neighbourhood<s n="n"/></l><r>аймақ<s n="n"/></r></p></e>
+<e><p><l>neighborhood<s n="n"/></l><r>аймақ<s n="n"/></r></p></e>
 <e><p><l>neighbour<s n="n"/></l><r>көрші<s n="n"/></r></p></e>
 <e><p><l>nematode<s n="n"/></l><r>нематод<s n="n"/></r></p></e>
 <e><p><l>neoclassicism<s n="n"/></l><r>неоклассицизм<s n="n"/></r></p></e>
@@ -24505,6 +24507,7 @@
 <e><p><l>interestingly<s n="adv"/></l><r>қызық<s n="adv"/></r></p></e>
 <e><p><l>internally<s n="adv"/></l><r>ішкі<s n="adv"/></r></p></e>
 <e><p><l>internationally<s n="adv"/></l><r>халықаралық<s n="adv"/></r></p></e>
+<e><p><l>prominently<s n="adv"/></l><r>байқарлық<s n="adv"/></r></p></e>
 <e><p><l>intimately<s n="adv"/></l><r>жақын<s n="adv"/></r></p></e>
 <e><p><l>intrinsically<s n="adv"/></l><r>адамзаттық<s n="adv"/></r></p></e>
 <e><p><l>invariably<s n="adv"/></l><r>әрдайым<s n="adv"/></r></p></e>
@@ -26119,6 +26122,7 @@
 <e><p><l>expressive<s n="adj"/></l><r>мәнерлі<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>exquisite<s n="adj"/></l><r>мәнерлі<s n="adj"/></r></p></e>
 <e><p><l>ex<s n="adj"/></l><r>бұрынғы<s n="adj"/></r></p></e>
+<e><p><l>extant<s n="adj"/></l><r>сақталған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>extemporaneous<s n="adj"/></l><r>суырып<b/>салынған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>extensible<s n="adj"/></l><r>кеңейтілетін<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>extensive<s n="adj"/></l><r>аумақты<s n="adj"/></r></p></e>
@@ -28142,6 +28146,7 @@
 <e><p><l>unchanged<s n="adj"/></l><r>әрдайым<s n="adj"/></r></p></e>
 <e><p><l>uncharted<s n="adj"/></l><r>зерттелмеген<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>uncomfortable<s n="adj"/></l><r>ыңғайсыз<s n="adj"/></r></p></e>
+<e><p><l>unclear<s n="adj"/></l><r>анық<b/>емес<s n="adj"/></r></p></e>
 <e><p><l>unconcerned<s n="adj"/></l><r>қамсыз<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>unconditional<s n="adj"/></l><r>зайыр<s n="adj"/></r></p></e>
 <e><p><l>unconstitutional<s n="adj"/></l><r>заңсыз<s n="adj"/></r></p></e>
@@ -28634,6 +28639,8 @@
 <e><p><l>sure<s n="adj"/><s n="sint"/></l><r>сенімді<s n="adj"/></r></p></e>
 <e><p><l>sweet<s n="adj"/><s n="sint"/></l><r>тәтті<s n="adj"/></r></p></e>
 <e><p><l>swift<s n="adj"/><s n="sint"/></l><r>тез<s n="adj"/></r></p></e>
+<e><p><l>steady<s n="adj"/><s n="sint"/></l><r>баянды<s n="adj"/></r></p></e>
+<e><p><l>steady<s n="adj"/><s n="sint"/></l><r>орнықты<s n="adj"/></r></p></e>
 <e><p><l>tall<s n="adj"/><s n="sint"/></l><r>биік<s n="adj"/></r></p></e>
 <e><p><l>flat<s n="adj"/><s n="sint"/></l><r>жалпақ<s n="adj"/></r></p></e>
 <e><p><l>tender<s n="adj"/><s n="sint"/></l><r>нәзік<s n="adj"/></r></p></e>
@@ -29630,6 +29637,7 @@
 <e><p><l>embroider<s n="vblex"/></l><r>кесте<b/>тік<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>emerge<s n="vblex"/></l><r>біт<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>emigrate<s n="vblex"/></l><r>көш<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>migrate<s n="vblex"/></l><r>көш<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>emphasize<s n="vblex"/></l><r>атап<b/>көрсет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>employ<s n="vblex"/></l><r>жалда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>empower<s n="vblex"/></l><r>мүмкіндіктерін<b/>кеңейт<s n="v"/><s n="tv"/></r></p></e>
@@ -29818,6 +29826,8 @@
 <e><p><l>gaze<s n="vblex"/></l><r>қара<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>generate<s n="vblex"/></l><r>түрлендір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>generalize<s n="vblex"/></l><r>жалпыла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>standardize<s n="vblex"/></l><r>стандартта<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>speculate<s n="vblex"/></l><r>алып-сатумен<b/>айналыс<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>get<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>get<s n="vblex"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>get<s n="vblex"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
@@ -29925,6 +29935,7 @@
 <e><p><l>ignite<s n="vblex"/></l><r>жандыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>ignore<s n="vblex"/></l><r>назар<b/>аудар<s n="v"/><s n="tv"/><s n="neg"/></r></p></e>
 <e><p><l>illustrate<s n="vblex"/></l><r>иллюстрацияла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>rotate<s n="vblex"/></l><r>айналдыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>imagine<s n="vblex"/></l><r>елестет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>imitate<s n="vblex"/></l><r>елікте<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>impact<s n="vblex"/></l><r>әсер<b/>ет<s n="v"/><s n="tv"/></r></p></e>
@@ -31357,6 +31368,7 @@
 
 <e><p><l>get<b/>rid<s n="vblex"/></l><r>құтыл<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>continent<s n="n"/></l><r>құрлық<s n="n"/></r></p></e>
+<e><p><l>continuum<s n="n"/></l><r>континуум<s n="n"/></r></p></e>
 <e><p><l>land<s n="n"/></l><r>құрлық<s n="n"/></r></p></e>
 <e><p><l>mainland<s n="n"/></l><r>құрлық<s n="n"/></r></p></e>
 <e><p><l>suspicion<s n="n"/></l><r>күдік<s n="n"/></r></p></e>

@@ -18185,6 +18185,8 @@
 
                             <e lm="Windows" i=""><i>Windows</i><par n="Linux__np"/></e>
 
+                            <e lm="Ajanta" i=""><i>Ajanta</i><par n="Linux__np"/></e>
+
                             <e lm="Apple" i=""><i>Apple</i><par n="Linux__np"/></e>
 
                             <e lm="AZF" i=""><i>AZF</i><par n="Linux__np"/></e>
@@ -24594,7 +24596,7 @@
  <e lm="A." i=""><i>A.</i><par n="Linux__np"/></e>
 <e lm="Zh." i=""><i>Zh.</i><par n="Linux__np"/></e>
 
-
+<e lm="Amalric" i=""><i>Amalric</i><par n="Mark__np"/></e>
                             <e lm="Aidana" i=""><i>Aidana</i><par n="Mary__np"/></e>
 <e lm="Zharmakhan" i=""><i>Zharmakhan</i><par n="Mark__np"/></e>
 <e lm="Talgat" i=""><i>Talgat</i><par n="Mark__np"/></e>
@@ -57936,7 +57938,7 @@
 
                             <e lm="Balkan" i=""><p><l>Balkan</l><r>balkan</r></p><par n="expensive__adj"/></e>
 
-                            <e r="RL" i=""><p><l>Barcelona</l><r>barcelona</r></p><par n="expensive__adj"/></e>
+                           <!--check AS--> <e r="RL" i=""><p><l>Barcelona</l><r>barcelona</r></p><par n="expensive__adj"/></e>
 
                             <e lm="Bavarian" i=""><p><l>Bavarian</l><r>bavarian</r></p><par n="expensive__adj"/></e>
 
@@ -69082,6 +69084,8 @@
                             <e lm="Austro-Hungarian Empire" i=""><i>Austro-Hungarian<b/>Empire</i><par n="Barcelona__np"/></e>
 
                             <e lm="Seville" i=""><i>Seville</i><par n="Barcelona__np"/></e>
+wind
+                            <e lm="Aberdour" i=""><i>Aberdour</i><par n="Barcelona__np"/></e>
 
                             <e lm="Malaga" i=""><i>Malaga</i><par n="Barcelona__np"/></e>
 

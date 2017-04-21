@@ -11304,6 +11304,7 @@
              <clip pos="2" side="tl" part="lem"/>
              <clip pos="2" side="tl" part="a_det"/>
              <clip pos="2" side="tl" part="a_dem"/>
+             <lit-tag v="nom"/>
              </lu>
              <b pos="2"/>
              <lu>

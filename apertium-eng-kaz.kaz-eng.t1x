@@ -2479,15 +2479,14 @@ If no format information is present it is removed. -->
  <!--<tag><clip pos="1" side="tl" part="a_nbr"/></tag>-->
 
             </tags>
-<lu>
+<!--<lu>
               <lit v="be"/>
               <lit-tag v="vbser"/>
               <lit-tag v="pres"/>
-              <lit-tag v="2"/>
-              <lit-tag v="3"/>
+          
               
 </lu>
-<b/>
+<b/>-->
             <lu>
               <clip pos="1" side="tl" part="whole"/>
              
@@ -2556,8 +2555,8 @@ If no format information is present it is removed. -->
               <lit v="be"/>
               <lit-tag v="vbser"/>
               <lit-tag v="past"/>
-              <lit-tag v="2"/>
-              <lit-tag v="3"/>
+             <!-- <lit-tag v="2"/>
+              <lit-tag v="3"/>-->
               
 </lu>
 <b/>
@@ -6354,7 +6353,7 @@ If no format information is present it is removed. -->
         <out>
           <chunk name="VP-cop-past" case="caseFirstWord">
             <tags>
-              <tag> <lit-tag v="SV"/></tag>
+              <tag> <lit-tag v="SV-to-cop"/></tag>
 
  <tag><clip pos="1" side="tl" part="a_pers"/></tag>
  <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
@@ -12627,7 +12626,7 @@ If no format information is present it is removed. -->
   <out>
    <chunk name="subj-pron+cop">
     <tags>
-    <tag><lit-tag v="SN"/></tag>
+    <tag><lit-tag v="SN-pron"/></tag>
     <tag><var n="sntype"/></tag>
     <tag><clip pos="1" side="sl" part="a_pers"/></tag>
     <tag><var n="mf"/></tag> 

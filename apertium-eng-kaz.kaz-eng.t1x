@@ -2545,7 +2545,7 @@ If no format information is present it is removed. -->
         <out>
           <chunk name="num-nom-years-past" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN-year"/></tag>
+              <tag><lit-tag v="SN-year-past"/></tag>
 <tag><lit-tag v="PD"/></tag>
 <tag><lit-tag v="ND"/></tag>
  <!--<tag><clip pos="1" side="tl" part="a_nbr"/></tag>-->

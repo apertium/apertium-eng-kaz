@@ -40,6 +40,10 @@
       <cat-item tags="SN-year"/>
       <cat-item tags="SN-year.*"/>
     </def-cat>
+<def-cat n="SN-year-past">
+      <cat-item tags="SN-year-past"/>
+      <cat-item tags="SN-year-past.*"/>
+    </def-cat>
  <def-cat n="QAdvP">
       <cat-item tags="QAdvP"/>
       <cat-item tags="QAdvP.*"/>
@@ -1644,6 +1648,161 @@
       </action>
     </rule>
 
+
+<rule comment="RULE: SN-pron SN-year-past">  <!--Men 7 zhasta boldym -->
+      <pattern>
+        <pattern-item n="SN-pron"/>
+        <pattern-item n="SN-year-past"/>
+        
+      </pattern>
+      <action>
+       <choose>
+<when>
+<test>
+
+<and>
+<or>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p1"/></equal>
+</or>            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+
+
+
+    
+   </test>
+<let>     <var n="PERS"/><lit v=""/> </let>
+  <let>         <var n="number"/><lit v=""/></let>
+</when><otherwise>
+<let>     <var n="PERS"/><clip pos="1" part="a_pers"/> </let>
+  <let>         <var n="number"/><clip pos="1" part="a_nbr"/></let>
+</otherwise>
+</choose>
+<choose>
+<when>
+<test>
+
+  
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+
+    
+   </test>
+
+  <let>         <clip pos="2" part="a_nbr"/><lit-tag v="pl"/></let>
+</when>
+</choose>
+ 
+  
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <var n="BE"/>
+
+          <chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+         
+        
+          
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+<rule comment="RULE: SN-pron AdjP">  <!--Men 7 zhastamyn -->
+      <pattern>
+        <pattern-item n="SN-pron"/>
+        <pattern-item n="AdjP"/>
+        
+      </pattern>
+      <action>
+       <choose>
+<when>
+<test>
+
+<and>
+<or>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p1"/></equal>
+</or>            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+
+
+
+    
+   </test>
+<let>     <var n="PERS"/><lit v=""/> </let>
+  <let>         <var n="number"/><lit v=""/></let>
+</when><otherwise>
+<let>     <var n="PERS"/><clip pos="1" part="a_pers"/> </let>
+  <let>         <var n="number"/><clip pos="1" part="a_nbr"/></let>
+</otherwise>
+</choose>
+<choose>
+<when>
+<test>
+
+  
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+
+    
+   </test>
+
+  <let>         <clip pos="2" part="a_nbr"/><lit-tag v="pl"/></let>
+</when>
+</choose>
+ 
+  <let><var n="BE"/>
+                 <concat>
+                  <get-case-from pos="1">
+                    <lit v="^am-sn"/>
+                  </get-case-from>
+                  <lit-tag  v="vbser"/>
+                  <lit v="{"/>
+                  <lit v="^be"/>
+                  <lit-tag  v="vbser"/>
+ <lit-tag  v="pres"/>
+
+ <var n="PERS"/>
+<var n="number"/>
+
+                  <lit v="$}$ "/>
+                </concat>
+               </let>
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <var n="BE"/>
+
+          <chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+         
+        
+          
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 <rule comment="RULE: SN QST ">  <!--атыңыз кім? -->
       <pattern>
         <pattern-item n="SN"/>
@@ -2197,6 +2356,7 @@
         </call-macro>
       </action>
     </rule>
+
     
 <rule comment="RULE: SN SN ">  <!-- -->
       <pattern>

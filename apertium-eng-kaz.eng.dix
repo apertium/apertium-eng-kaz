@@ -44276,6 +44276,28 @@
 <e lm="Buqantau" i=""><i>Buqantau</i><par n="Barcelona__np"/></e>
 <e lm="Bukharbay" i=""><i>Bukharbay</i><par n="Barcelona__np"/></e>
 <e lm="Bukhtarma" i=""><i>Bukhtarma</i><par n="Barcelona__np"/></e>
+<e lm="Adler" i=""><i>Adler</i><par n="Barcelona__np"/></e>
+<e lm="Ashanti" i=""><i>Ashanti</i><par n="Barcelona__np"/></e>
+<e lm="Auschwitz" i=""><i>Auschwitz</i><par n="Barcelona__np"/></e>
+<e lm="Bombay" i=""><i>Bombay</i><par n="Barcelona__np"/></e>
+<e lm="Alaric" i=""><i>Alaric</i><par n="Mark__np"/></e>
+<e lm="Alcaeus" i=""><i>Alcaeus</i><par n="Mark__np"/></e>
+<e lm="Alsace" i=""><i>Alsace</i><par n="Mark__np"/></e>
+<e lm="Amalric" i=""><i>Amalric</i><par n="Mark__np"/></e>
+<e lm="Anaxagoras" i=""><i>Anaxagoras</i><par n="Mark__np"/></e>
+<e lm="Arden" i=""><i>Arden</i><par n="Mark__np"/></e>
+<e lm="Arrhenius" i=""><i>Arrhenius</i><par n="Mark__np"/></e>
+<e lm="Atkinson" i=""><i>Atkinson</i><par n="Mark__np"/></e>
+<e lm="Baldr" i=""><i>Baldr</i><par n="Mark__np"/></e>
+<e lm="Banquo" i=""><i>Banquo</i><par n="Mark__np"/></e>
+<e lm="Barlow" i=""><i>Barlow</i><par n="Mark__np"/></e>
+<e lm="Bernstein" i=""><i>Bernstein</i><par n="Mark__np"/></e>
+<e lm="Blackadder" i=""><i>Blackadder</i><par n="Mark__np"/></e>
+<e lm="Blackjack" i=""><i>Blackjack</i><par n="Mark__np"/></e>
+<e lm="Bok" i=""><i>Bok</i><par n="Mark__np"/></e>
+<e lm="Booker" i=""><i>Booker</i><par n="Mark__np"/></e>
+
+
 
 <e lm="Lukoil" i=""><i>Lukoil</i><par n="Linux__np"/></e>
 <e lm="FIFA" i=""><i>FIFA</i><par n="Linux__np"/></e>
@@ -45327,6 +45349,9 @@
 
                             <e lm="Kazakh" i=""><i>Kazakh</i><par n="politics__n"/></e>
                             <e lm="kazakh" i=""><i>kazakh</i><par n="politics__n"/></e>
+
+                            <e lm="Bambara" i=""><i>Bambara</i><par n="politics__n"/></e>
+                            <e lm="bambara" i=""><i>bambara</i><par n="politics__n"/></e>
 
                             <e lm="Kyrgyz" i=""><i>Kyrgyz</i><par n="politics__n"/></e>
                             <e lm="kyrgyz" i=""><i>kyrgyz</i><par n="politics__n"/></e>
@@ -58024,6 +58049,7 @@
 <e lm="hispanic" i=""><i>hispanic</i><par n="expensive__adj"/></e>
 <e lm="portuguese" i=""><i>portuguese</i><par n="expensive__adj"/></e>
 <e lm="japanese" i=""><i>japanese</i><par n="expensive__adj"/></e>
+<e lm="balinese" i=""><i>balinese</i><par n="expensive__adj"/></e>
 <e lm="swedish" i=""><i>swedish</i><par n="expensive__adj"/></e>
 <e lm="dutch" i=""><i>dutch</i><par n="expensive__adj"/></e>
 <e lm="spanish" i=""><i>spanish</i><par n="expensive__adj"/></e>

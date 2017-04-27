@@ -9162,6 +9162,7 @@
 <e><p><l>contemporary<s n="n"/></l><r>замандас<s n="n"/></r></p></e>
 <e><p><l>children<s n="n"/></l><r>балалар<s n="n"/></r></p></e>
 <e><p><l>kazakh<s n="n"/></l><r>қазақша<s n="n"/></r></p></e>
+<e><p><l>bambara<s n="n"/></l><r>бамбара<s n="n"/></r></p></e>
 <e><p><l>ukrainian<s n="n"/></l><r>украин<s n="n"/></r></p></e>
 <e><p><l>islamic<s n="n"/></l><r>мұсылман<s n="n"/></r></p></e>
 <e><p><l>environment<s n="n"/></l><r>ортасы<s n="n"/></r></p></e>
@@ -19450,7 +19451,7 @@
 <e><p><l>Erdar<s n="np"/><s n="ant"/><s n="m"/></l><r>Ердар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Erdaulet<s n="np"/><s n="ant"/><s n="m"/></l><r>Ердәулет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Erdenay<s n="np"/><s n="ant"/><s n="m"/></l><r>Ерденай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e><p><l>Erden<s n="np"/><s n="ant"/><s n="m"/></l><r>Ерденбай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Erdenbay<s n="np"/><s n="ant"/><s n="m"/></l><r>Ерденбай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Erdenbek<s n="np"/><s n="ant"/><s n="m"/></l><r>Ерденбек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Erdengali<s n="np"/><s n="ant"/><s n="m"/></l><r>Ерденғали<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Erden<s n="np"/><s n="ant"/><s n="m"/></l><r>Ерден<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -22534,6 +22535,17 @@
 <e><p><l>Barcelona<s n="np"/><s n="top"/></l><r>Барселона<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Aberdour<s n="np"/><s n="top"/></l><r>Абердор<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Berkeley<s n="np"/><s n="top"/></l><r>Беркли<s n="np"/><s n="top"/></r></p></e>
+
+
+
+
+
+
+
+<e><p><l>Adler<s n="np"/><s n="top"/></l><r>Адлер<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ashanti<s n="np"/><s n="top"/></l><r>Ашанти<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Auschwitz<s n="np"/><s n="top"/></l><r>Освенцим<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Bombay<s n="np"/><s n="top"/></l><r>Бомбей<s n="np"/><s n="top"/></r></p></e>
 
 <e><p><l>Nenets<s n="np"/><s n="top"/></l><r>Ненецк<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Bavaria<s n="np"/><s n="top"/></l><r>Бавария<s n="np"/><s n="top"/></r></p></e>
@@ -26816,6 +26828,7 @@
 <e><p><l>itinerant<s n="adj"/></l><r>жылжымалы<s n="adj"/><s n="subst"/></r></p></e>
 <e r="RL"><p><l>existed<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
 <e><p><l>japanese<s n="adj"/></l><r>жапондық<s n="adj"/></r></p></e>
+<e><p><l>balinese<s n="adj"/></l><r>балийлік<s n="adj"/></r></p></e>
 <e><p><l>jealous<s n="adj"/></l><r>қызғаншақ<s n="adj"/></r></p></e>
 <e><p><l>jewish<s n="adj"/></l><r>иудейлік<s n="adj"/></r></p></e>
 <e><p><l>jobless<s n="adj"/></l><r>жұмыссыз<s n="adj"/></r></p></e>
@@ -31827,6 +31840,16 @@
 <e><p><l>intellectuals<s n="n"/></l><r>зиялылар<s n="n"/></r></p></e>
 <e><p><l>ASSR<s n="np"/><s n="al"/></l><r>АКСР<s n="abbr"/></r></p></e>
 
+
+<e><p><l>Alaric<s n="np"/><s n="ant"/><s n="m"/></l><r>Аларик<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Alcaeus<s n="np"/><s n="ant"/><s n="m"/></l><r>Алкей<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Alsace<s n="np"/><s n="ant"/><s n="m"/></l><r>Эльзас<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Amalric<s n="np"/><s n="ant"/><s n="m"/></l><r>Амальрик<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Anaxagoras<s n="np"/><s n="ant"/><s n="m"/></l><r>Анаксагор<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Baldr<s n="np"/><s n="ant"/><s n="m"/></l><r>Балдр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Banquo<s n="np"/><s n="ant"/><s n="m"/></l><r>Банко<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Blackadder<s n="np"/><s n="ant"/><s n="m"/></l><r>Блэклэддер<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Blackjack<s n="np"/><s n="ant"/><s n="m"/></l><r>Блэкджек<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Appaq<s n="np"/><s n="ant"/><s n="m"/></l><r>Аппақ<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Baqi<s n="np"/><s n="ant"/><s n="m"/></l><r>Бақи<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Barabba<s n="np"/><s n="ant"/><s n="m"/></l><r>Барабба<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -31975,6 +31998,14 @@
 <e><p><l>Ministry<b/>of<b/>internal<b/>Affairs<s n="np"/><s n="al"/></l><r>ІІМ<s n="abbr"/></r></p></e>
 <e><p><l>UN<s n="n"/><s n="acr"/></l><r>БҰҰ<s n="abbr"/></r></p></e>
 
+
+<e><p><l>Arden<s n="np"/><s n="cog"/></l><r>Арден<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Arrhenius<s n="np"/><s n="cog"/></l><r>Аррениус<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Atkinson<s n="np"/><s n="cog"/></l><r>Аткинсон<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Barlow<s n="np"/><s n="cog"/></l><r>Барлоу<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Bernstein<s n="np"/><s n="cog"/></l><r>Бернштейн<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Bok<s n="np"/><s n="cog"/></l><r>Бок<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Booker<s n="np"/><s n="cog"/></l><r>Букер<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Atambayev<s n="np"/><s n="cog"/></l><r>Атамбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Zhabayev<s n="np"/><s n="cog"/></l><r>Жабаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Zhagyparov<s n="np"/><s n="cog"/></l><r>Жағыпаров<s n="np"/><s n="cog"/><s n="m"/></r></p></e>

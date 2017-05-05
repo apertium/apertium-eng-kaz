@@ -3960,7 +3960,7 @@
   <action>
     <call-macro n="default-nbr-pers"/>
         <out>
-      <chunk name="must-inf">
+      <chunk name="must-inf1">
       <tags>
         <tag><lit-tag v="VP_must_inf"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -4039,7 +4039,7 @@
   <action>
     <call-macro n="default-nbr-pers"/>
         <out>
-      <chunk name="must-inf">
+      <chunk name="must-inf2">
       <tags>
         <tag><lit-tag v="VP_must_inf"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -4120,7 +4120,7 @@
   <action>
     <call-macro n="default-nbr-pers"/>
         <out>
-      <chunk name="must-inf">
+      <chunk name="may-not-inf">
       <tags>
         <tag><lit-tag v="VP_must_inf"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -4159,8 +4159,46 @@
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="2" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+<out>
+ <chunk name="may-be-inf">
+      <tags>
+        <tag><lit-tag v="VP_must_inf"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>            
+        <lu>
+         <lit v="бол"/>
+         <lit-tag v="v"/>
+         <lit-tag v="iv"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="5"/>
+         <lit-tag v="nom"/>
+        </lu>
+<b/> 
+        <lu>
+          <lit v="мүмкін"/>
+         <lit-tag v="adj"/>
+        </lu>
+
+    
+      </chunk>
+</out>
+</when>
+<otherwise>
         <out>
-      <chunk name="must-inf">
+      <chunk name="may-inf">
       <tags>
         <tag><lit-tag v="VP_must_inf"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -4184,7 +4222,8 @@
         </lu>
       </chunk>
   </out>
-      
+      </otherwise>
+</choose>
   </action>
 </rule>
 
@@ -6727,6 +6766,28 @@
     
 
 <!-- *** -->
+<choose>
+  <when> <!-- Demonstrative -->
+    <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+
+<or>
+ <equal><clip pos="1" side="sl" part="lem"/><lit v="This"/></equal>
+ <equal><clip pos="1" side="sl" part="lem"/><lit v="this"/></equal>
+</or>
+</and>
+</test>
+<let>
+<var n="case"/><lit-tag v="nom"/>
+</let>
+</when>
+<otherwise>
+<let>
+<var n="case"/><lit v=""/>
+</let>
+</otherwise>
+</choose>
 
 <choose>
   <when> <!-- Demonstrative -->
@@ -6752,6 +6813,7 @@
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_det"/>
       <clip pos="1" side="tl" part="a_dem"/>
+<var n="case"/>
     </lu>
 	<b pos="1"/>
     <lu>  
@@ -6847,7 +6909,29 @@
     <call-macro n="NEW-build-noun-lu-2-4-5-sg">
       <with-param pos="3"/>
     </call-macro> <!-- noun is built in singular as the NP contains numerals -->
-    
+   <choose>
+  <when> <!-- Demonstrative -->
+    <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+
+<or>
+ <equal><clip pos="1" side="sl" part="lem"/><lit v="This"/></equal>
+ <equal><clip pos="1" side="sl" part="lem"/><lit v="this"/></equal>
+</or>
+</and>
+</test>
+<let>
+<var n="case"/><lit-tag v="nom"/>
+</let>
+</when>
+<otherwise>
+<let>
+<var n="case"/><lit v=""/>
+</let>
+</otherwise>
+</choose>
+ 
 
 <!-- *** -->
 
@@ -6875,6 +6959,7 @@
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_det"/>
       <clip pos="1" side="tl" part="a_dem"/>
+<var n="case"/>
     </lu>
 	<b pos="1"/>
     <lu>  
@@ -12508,7 +12593,28 @@ this would have to be changed -->
     </call-macro>
 
 <!-- *** -->
+<choose>
+  <when> <!-- Demonstrative -->
+    <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
 
+<or>
+ <equal><clip pos="1" side="sl" part="lem"/><lit v="This"/></equal>
+ <equal><clip pos="1" side="sl" part="lem"/><lit v="this"/></equal>
+</or>
+</and>
+</test>
+<let>
+<var n="case"/><lit-tag v="nom"/>
+</let>
+</when>
+<otherwise>
+<let>
+<var n="case"/><lit v=""/>
+</let>
+</otherwise>
+</choose>
 <choose>
   <when> <!-- Demonstrative -->
     <test>
@@ -12517,6 +12623,7 @@ this would have to be changed -->
  <equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="qnt"/></equal>
 </or>
 </test>
+
     <out>
     <chunk name="detdem-adjec-nom" case="caseFirstWord">
     <tags>
@@ -12531,6 +12638,7 @@ this would have to be changed -->
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_det"/>
       <clip pos="1" side="tl" part="a_dem"/>
+<var n="case"/>
     </lu>
      	<b pos="1"/>
    <lu>  
@@ -15109,8 +15217,41 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   <call-macro n="NEW-build-noun-lu-2-4-5">
        <with-param pos="3"/>
   </call-macro> 
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="2" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+<out>
+  <chunk name="to-be-noun1">
+    <tags>
+    <tag><lit-tag v="PP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="acc"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+<b pos="1"/>
+        <lu>
+         <lit v="бол"/>
+         <lit-tag v="v"/>
+         <lit-tag v="iv"/>
+         <lit-tag v="ger"/>
+
+         <lit-tag v="5"/>
+        </lu>
+</chunk>
+</out>
+</when>
+<otherwise>
     <out>
-    <chunk name="to-inf-noun">
+    <chunk name="to-inf-noun2">
     <tags>
     <tag><lit-tag v="PP"/></tag>
     <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
@@ -15134,9 +15275,10 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
          <lit-tag v="post"/>
 
     </lu>
-<b pos="2"/>
       </chunk>
 </out>
+</otherwise>
+</choose>
   </action>
 </rule>
 
@@ -15147,8 +15289,49 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <pattern-item n="obj-pron"/>
    </pattern>
   <action>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="2" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+<out>
+  <chunk name="to-be-noun3">
+    <tags>
+    <tag><lit-tag v="PP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><clip pos="3" side="sl" part="a_pers"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="acc"/></tag> <!-- case placeholder -->
+    </tags>
+     <lu>
+      <clip pos="3" side="tl" part="lem"/>
+      <clip pos="3" side="tl" part="a_pron"/>
+      <clip pos="3" side="tl" part="a_pers"/>
+      <lit-tag v="2"/> <!-- number -->
+      <lit-tag v="4"/> <!-- possession -->
+      <lit-tag v="5"/> <!-- case --> 
+    </lu>
+    <b pos="1"/>
+        <lu>
+         <lit v="бол"/>
+         <lit-tag v="v"/>
+         <lit-tag v="iv"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="5"/>
+        </lu>
+<b/> 
+    <lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+    </lu>
+</chunk>
+</out>
+</when>
+<otherwise>
 
- 
     <out>
     <chunk name="to-inf-noun">
     <tags>
@@ -15166,7 +15349,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
       <lit-tag v="4"/> <!-- possession -->
       <lit-tag v="5"/> <!-- case --> 
     </lu>
-   <b/>
+    <b pos="1"/>
         <lu>
           <clip pos="2" side="tl" part="lem"/>
 	  <clip pos="2" side="tl" part="a_kaz_verb"/>
@@ -15181,6 +15364,8 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     </lu>
       </chunk>
 </out>
+</otherwise>
+</choose>
   </action>
 </rule>
 
@@ -15197,6 +15382,54 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   <call-macro n="NEW-build-noun-lu-2-4-5">
        <with-param pos="3"/>
   </call-macro> 
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="2" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+<out>
+  <chunk name="to-be-noun">
+    <tags>
+    <tag><lit-tag v="PP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="acc"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+   <b pos="1"/>
+        <lu>
+         <lit v="бол"/>
+         <lit-tag v="v"/>
+         <lit-tag v="iv"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="5"/>
+        </lu>
+<b pos="2"/>
+<lu>
+           <var n="cnjcoo_lu"/>
+     </lu>
+   <b pos="3"/>
+<lu>
+          <clip pos="5" side="tl" part="lem"/>
+	  <clip pos="5" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+     </lu>
+   <b pos="4"/>
+    <lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+    </lu>
+</chunk>
+</out>
+</when>
+<otherwise>
     <out>
     <chunk name="to-inf-noun">
     <tags>
@@ -15234,6 +15467,8 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     </lu>
       </chunk>
 </out>
+</otherwise>
+</choose>
   </action>
 </rule>
 

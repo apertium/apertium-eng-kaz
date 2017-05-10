@@ -2435,6 +2435,9 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+
+
+
 <rule comment="RULE: NUM years  NOM"> <!--7  zhastamyn-->
       <pattern>
         <pattern-item n="num"/> 
@@ -2517,6 +2520,120 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+<rule comment="RULE: verb-need"> <!--Magan kitap kerek edi-->
+      <pattern>
+<pattern-item n="pers-pron"/>
+<pattern-item n="nom"/>
+        <pattern-item n="kerek"/>
+<pattern-item n="edi"/>
+<!--<pattern-item n="cop"/>-->
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+<call-macro n="remove-poss">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="verb-need-past" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV-kerek-past"/></tag>
+
+
+ <tag> <lit-tag v="PD"/></tag>
+ <tag> <lit-tag v="ND"/></tag>
+
+<tag><clip pos="1" side="sl" part="a_pers"/></tag>
+    <tag><var n="mf"/></tag> 
+    <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+
+
+</tags>
+<lu>
+<clip pos="1" side="tl" part="lem"/>
+
+     <lit-tag v="prn"/> 
+      <lit-tag v="subj"/> 
+      <lit-tag v="4"/> 
+      <lit-tag v="mf"/> 
+      <lit-tag v="5"/>
+ 
+    </lu>
+            <b pos="1"/>
+<lu>
+              <lit v="need"/>
+              <lit-tag v="vblex"/>
+             
+<lit-tag v="past"/>
+            <!--  <lit-tag v="2"/>
+              <lit-tag v="3"/>
+<lit-tag v="4"/>
+            -->
+</lu>
+<b/>
+ <lu>
+	<clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="lemq"/>
+               <var n="number"/>
+            </lu>
+            
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 <rule comment="RULE: NUM years  NOM"> <!--7  zhasta boldym-->
       <pattern>
@@ -2591,7 +2708,7 @@ If no format information is present it is removed. -->
     </rule>
 
 
-<rule comment="RULE: verb-need"> <!--Magan kitap kerek-->
+<rule comment="RULE: verb-need"> 
       <pattern>
 <pattern-item n="pers-pron"/>
 <pattern-item n="nom"/>
@@ -2631,7 +2748,7 @@ If no format information is present it is removed. -->
 
            </choose>
         <out>
-          <chunk name="verb-need" case="caseFirstWord">
+          <chunk name="verb-need-cop" case="caseFirstWord">
             <tags>
               <tag> <lit-tag v="SV-kerek"/></tag>
 
@@ -3063,6 +3180,7 @@ If no format information is present it is removed. -->
         </out>
       </action>
     </rule>
+
 
 
 <!--
@@ -3604,6 +3722,8 @@ If no format information is present it is removed. -->
     </rule>
 
 
+
+
 <rule comment="NEW RULE: adjec noun1 noun2">   <!-- for "good football players"-->
   <pattern>
     <pattern-item n="adj"/>
@@ -3923,74 +4043,7 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
-<rule comment="RULE: verb-need"> <!--Magan kitap kerek edi-->
-      <pattern>
-<pattern-item n="pers-pron"/>
-<pattern-item n="nom"/>
-        <pattern-item n="kerek"/>
-<pattern-item n="edi"/>
-<pattern-item n="cop"/>
-      </pattern>
-      <action>
-        <call-macro n="conv-case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="1"/>
-        </call-macro>
-<call-macro n="remove-poss">
-          <with-param pos="1"/>
-        </call-macro>
- <choose>
-               <when>
-                   <test>
-                   
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
 
-                </when>
-<when>
-                   <test>
-                   <and>
-                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
-                     </and>
-                      </test>
-                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-                </when>
-
-           </choose>
-        <out>
-          <chunk name="verb-need-past" case="caseFirstWord">
-            <tags>
-              <tag> <lit-tag v="SV-kerek-past"/></tag>
-
-
- <tag> <lit-tag v="PD"/></tag>
- <tag> <lit-tag v="ND"/></tag>
-
-</tags>
-<lu>
-              <lit v="need"/>
-              <lit-tag v="vblex"/>
-             
-<lit-tag v="past"/>
-            <!--  <lit-tag v="2"/>
-              <lit-tag v="3"/>
-<lit-tag v="4"/>
-            -->
-</lu>
-
-          </chunk>
-        </out>
-        <call-macro n="reset-vars1">
-          <with-param pos="1"/>
-        </call-macro>
-      </action>
-    </rule>
 
 <rule comment="RULE: what is + noun"> <!--Атыңыз кім? -->
       <pattern>

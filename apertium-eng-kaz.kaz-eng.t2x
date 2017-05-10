@@ -2191,6 +2191,57 @@
     </rule>
 
 
+<rule comment="RULE: SN-pron SN SV">  <!--Men baqwada oinadym -->
+      <pattern>
+        <pattern-item n="SN-pron"/>
+ <pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+      
+ <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+<let>     <clip pos="3" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="3" part="a_nbr"/><lit v=""/></let>
+</when>
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+          <chunk>
+           <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+         <b/>
+        <var n="PREP"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
 <rule comment="RULE: SN-pron SN SV-to-cop">  <!--Ol dariger boldy -->
       <pattern>
         <pattern-item n="SN-pron"/>

@@ -2677,11 +2677,11 @@ If no format information is present it is removed. -->
               
 </lu>
 <b/>
-            <lu>
+         <!--   <lu>
               <clip pos="1" side="tl" part="whole"/>
              
             </lu>
-            <b pos="1"/>
+            <b pos="1"/>-->
           <lu>
               
              <lit v="year"/>
@@ -4890,6 +4890,8 @@ If no format information is present it is removed. -->
 
 <rule comment="RULE: VP-cop-past"> <!--Mende kitap bar-->
       <pattern>
+ <pattern-item n="pers-pron"/>
+<pattern-item n="nom"/>
         <pattern-item n="bar"/>
       </pattern>
       <action>
@@ -4926,24 +4928,40 @@ If no format information is present it is removed. -->
             <tags>
               <tag> <lit-tag v="SV-kerek"/></tag>
 
- <!--<tag> <lit-tag v="PD"/></tag>
- <tag> <lit-tag v="ND"/></tag>-->
-
 <tag><clip pos="1" side="sl" part="a_pers"/></tag>
     <tag><var n="mf"/></tag> 
     <tag><var n="number"/></tag>
 
 </tags>
+ <lu>
+<clip pos="1" side="tl" part="lem"/>
+
+     <lit-tag v="prn"/> 
+      <lit-tag v="subj"/> 
+
+      <lit-tag v="2"/> 
+<lit-tag v="mf"/>
+      <lit-tag v="3"/> 
+     
+ 
+    </lu>
+<b/>
 <lu>
               <lit v="have"/>
               <lit-tag v="vbhaver"/>
               <lit-tag v="pres"/>
-<!--
-              <lit-tag v="2"/>
-              <lit-tag v="3"/>-->
-<!--<lit-tag v="4"/>-->
-         
+             
+              
 </lu>
+<b/>
+<lu>
+	<clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+            
+              <clip pos="2" side="tl" part="lemq"/>
+                <var n="number"/>
+            </lu>
+
 
           </chunk>
         </out>

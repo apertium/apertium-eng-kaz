@@ -43895,6 +43895,8 @@
                             <e lm="US" i=""><i>US</i><par n="Barcelona__np"/></e>
 
                             <e lm="USA" i=""><i>USA</i><par n="Barcelona__np"/></e>
+
+<e lm="LLP" i=""><i>LLP</i><par n="Barcelona__np"/></e>
 <e lm="PRC" i=""><i>PRC</i><par n="Barcelona__np"/></e>
 
 <e lm="Baghdad" i=""><i>Baghdad</i><par n="Barcelona__np"/></e>
@@ -80315,6 +80317,8 @@ wind
 <e lm="Zagora" i=""><i>Zagora</i><par n="Barcelona__np"/></e>
 <e lm="Graubunden" i=""><i>Graubunden</i><par n="Barcelona__np"/></e>
 <e lm="Rioja" i=""><i>Rioja</i><par n="Barcelona__np"/></e>
+<e lm="Zhetisu" i=""><i>Zhetisu</i><par n="Barcelona__np"/></e>
+<e lm="Rio-de-Janeiro" i=""><i>Rio-de-Janeiro</i><par n="Barcelona__np"/></e>
 <e lm="Ceara" i=""><i>Ceara</i><par n="Barcelona__np"/></e>
 <e lm="Kyustendil" i=""><i>Kyustendil</i><par n="Barcelona__np"/></e>
 <e lm="polygraphy" i=""><i>polygraphy</i><par n="Barcelona__np"/></e>
@@ -82549,6 +82553,11 @@ wind
                             <e r="LR" i=""><p><l>big<b/>bang</l><r>Big<b/>Bang</r></p><par n="house__n"/></e>
 
                             <e lm="cosmological" i=""><i>cosmological</i><par n="expensive__adj"/></e>
+
+ <e lm="zoological" i=""><i>zoological</i><par n="expensive__adj"/></e>
+
+<e lm="zoogeographical" i=""><i>zoogeographical</i><par n="expensive__adj"/></e>
+<e lm="zooveterinary" i=""><i>zooveterinary</i><par n="expensive__adj"/></e>
 
                             <e lm="quantum" i=""><i>quantum</i><par n="expensive__adj"/></e>
 

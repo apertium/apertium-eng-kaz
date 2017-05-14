@@ -50592,6 +50592,8 @@
 
                             <e lm="goat" i=""><i>goat</i><par n="house__n"/></e>
 
+			    <e lm="gamma" i=""><i>gamma</i><par n="house__n"/></e>
+
 			    <e lm="genus" i=""><i>genus</i><par n="access__n"/></e>
 
                             <e lm="goblin" i=""><i>goblin</i><par n="house__n"/></e>
@@ -59692,7 +59694,7 @@
 
                             <e lm="green" i=""><i>green</i><par n="long/__adj"/></e>
 		   
-		            <e lm="lightgrey" i=""><i>lightgrey</i><par n="expensive__adj"/></e>
+		            <e lm="lightgrey" i=""><i>lightgrey</i><par n="sly/__adj"/></e>
 
                             <e r="LR" i=""><i>grey</i><par n="sly/__adj"/></e>
 
@@ -65000,7 +65002,9 @@
 
                             <e lm="receive" i=""><i>receiv</i><par n="liv/e__vblex"/></e>
 
-			    <e lm="decease" i=""><i>decease</i><par n="accept__vblex"/></e>
+			    <e lm="size" i=""><i>siz</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="decease" i=""><i>deceas</i><par n="liv/e__vblex"/></e>
 
                             <e lm="recess" i=""><i>recess</i><par n="approach__vblex"/></e>
 
@@ -79612,9 +79616,13 @@ wind
 
                             <e lm="whistle" i=""><i>whistl</i><par n="liv/e__vblex"/></e>
 
+			    <e lm="aid" i=""><i>aid</i><par n="accept__vblex"/></e>
+
                             <e lm="crowd" i=""><i>crowd</i><par n="accept__vblex"/></e>
 
 			    <e lm="crown" i=""><i>crown</i><par n="accept__vblex"/></e>
+
+			    <e lm="march" i=""><i>march</i><par n="accept__vblex"/></e>
 
                             <e lm="regard" i=""><i>regard</i><par n="accept__vblex"/></e>
 

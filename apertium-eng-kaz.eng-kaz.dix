@@ -188,6 +188,7 @@
 <e><p><l>after<s n="pr"/></l><r>кейін<s n="post"/><s n="Rabl"/></r></p></e>
 <e><p><l>after<b/>that<s n="pr"/></l><r>содан<b/>кейін<s n="post"/></r></p></e>
 <e><p><l>against<s n="pr"/></l><r>қарсы<s n="post"/></r></p></e>
+<e><p><l>versus<s n="pr"/></l><r>қарсы<s n="post"/></r></p></e>
 <e><p><l>along<s n="pr"/></l><r>бой<s n="n"/><s n="PXD"/><s n="ins"/></r></p></e>
 <e><p><l>along<b/>the<b/>way<s n="pr"/></l><r>жол-жөнекей<s n="adv"/></r></p></e>
 <e><p><l>alongside<s n="pr"/></l><r>жан<s n="n"/><s n="PXD"/><s n="loc"/></r></p></e>
@@ -1775,6 +1776,9 @@
 <e><p><l>fruit-sugar<s n="n"/></l><r>глюкозида<s n="n"/></r></p></e>
 <e><p><l>grape-sugar<s n="n"/></l><r>глюкозида<s n="n"/></r></p></e>
 <e><p><l>goal<s n="n"/></l><r>гол<s n="n"/></r></p></e>
+<e><p><l>genus<s n="n"/></l><r>түр<s n="n"/></r></p></e>
+<e><p><l>genus<s n="n"/></l><r>топ<s n="n"/></r></p></e>
+<e><p><l>genus<s n="n"/></l><r>тек<s n="n"/></r></p></e>
 <e><p><l>touchdown<s n="n"/></l><r>гол<s n="n"/></r></p></e>
 <e><p><l>Dutch<s n="n"/></l><r>голландық<s n="n"/></r></p></e>
 <e><p><l>hospital<s n="n"/></l><r>госпиталь<s n="n"/></r></p></e>
@@ -5623,6 +5627,9 @@
 <e><p><l>bird<s n="n"/></l><r>құс<s n="n"/></r></p></e>
 <e><p><l>birefringence<s n="n"/></l><r>қос<b/>сәуле<b/>сынушылық<s n="n"/></r></p></e>
 <e><p><l>birthday<s n="n"/></l><r>туған<s n="n"/></r></p></e>
+<e><p><l>birthplace<s n="n"/></l><r>туған<b/>жер<s n="n"/></r></p></e>
+<e><p><l>birthplace<s n="n"/></l><r>туған<b/>ел<s n="n"/></r></p></e>
+<e><p><l>birthplace<s n="n"/></l><r>ата-мекен<s n="n"/></r></p></e>
 <e><p><l>birth<s n="n"/></l><r>туғызу<s n="n"/></r></p></e>
 <e><p><l>biscuit<s n="n"/></l><r>печенье<s n="n"/></r></p></e>
 <e><p><l>bisection<s n="n"/></l><r>екіге<b/>бөлу<s n="n"/></r></p></e>
@@ -6817,6 +6824,7 @@
 <e><p><l>computerisation<s n="n"/></l><r>компьютеризация<s n="n"/></r></p></e>
 <e><p><l>computeric<s n="n"/></l><r>компьютерлік<s n="n"/></r></p></e>
 <e><p><l>computer<s n="n"/></l><r>компьютер<s n="n"/></r></p></e>
+<e><p><l>compromise<s n="n"/></l><r>келісім<s n="n"/></r></p></e>
 <e><p><l>comrade<s n="n"/></l><r>жолдас<s n="n"/></r></p></e>
 <e><p><l>comrade<s n="n"/></l><r>жолдас<s n="n"/></r></p></e>
 <e><p><l>concatenation<s n="n"/></l><r>конкатенация<s n="n"/></r></p></e>
@@ -9448,6 +9456,9 @@
 <e><p><l>handshake<s n="n"/></l><r>қол<b/>алысу<s n="n"/></r></p></e>
 <e><p><l>hand<s n="n"/></l><r>қол<s n="n"/></r></p></e>
 <e><p><l>hand<s n="n"/></l><r>қолтаңба<s n="n"/></r></p></e>
+<e><p><l>hash<s n="n"/></l><r>қиқым<s n="n"/></r></p></e>
+<e><p><l>hash<s n="n"/></l><r>ұнтақ<s n="n"/></r></p></e>
+<e><p><l>hash<s n="n"/></l><r>быламық<s n="n"/></r></p></e>
 <e><p><l>handwriting<s n="n"/></l><r>қолжазба<s n="n"/></r></p></e>
 <e><p><l>hangar<s n="n"/></l><r>ангар<s n="n"/></r></p></e>
 <e><p><l>hanger<s n="n"/></l><r>иықағаш<s n="n"/></r></p></e>
@@ -12057,6 +12068,7 @@
 <e><p><l>parade<s n="n"/></l><r>шеру<s n="n"/></r></p></e>
 <e><p><l>paradigm<s n="n"/></l><r>парадигма<s n="n"/></r></p></e>
 <e><p><l>paradise<s n="n"/></l><r>пейіш<s n="n"/></r></p></e>
+<e><p><l>paradox<s n="n"/></l><r>парадокс<s n="n"/></r></p></e>
 <e><p><l>paraffin<s n="n"/></l><r>парафин<s n="n"/></r></p></e>
 <e><p><l>paragraph<s n="n"/></l><r>абзац<s n="n"/></r></p></e>
 <e><p><l>parakeet<s n="n"/></l><r>ұзын<b/>құйрықты<b/>тотықұс<s n="n"/></r></p></e>
@@ -24640,6 +24652,7 @@
 <e><p><l>of<b/>course<s n="adv"/></l><r>әрине<s n="adv"/></r></p></e>
 <e><p><l>officially<s n="adv"/></l><r>ресми<s n="adv"/></r></p></e>
 <e><p><l>often<s n="adv"/></l><r>жиі<s n="adv"/></r></p></e>
+<e><p><l>whilst<s n="adv"/></l><r>әзірге<s n="adv"/></r></p></e>
 <e><p><l>on<s n="adv"/></l><r>үстінде<s n="adv"/></r></p></e>
 <e><p><l>once<s n="adv"/></l><r>бірде<s n="adv"/></r></p></e>
 <e><p><l>only<s n="adv"/></l><r>ғана<s n="adv"/></r></p></e>
@@ -27313,6 +27326,7 @@
 <e><p><l>operatic<s n="adj"/></l><r>опералық<s n="adj"/></r></p></e>
 <e><p><l>operating<s n="adj"/></l><r>әрекетті<s n="adj"/></r></p></e>
 <e><p><l>rating<s n="adj"/></l><r>рейтингілік<s n="adj"/></r></p></e>
+<e><p><l>recurring<s n="adj"/></l><r>қайталама<s n="adj"/></r></p></e>
 <e><p><l>operating<s n="adj"/></l><r>операциялық<s n="adj"/></r></p></e>
 <e><p><l>operational<s n="adj"/></l><r>шұғыл<s n="adj"/></r></p></e>
 <e><p><l>operative<s n="adj"/></l><r>жұмыскер<s n="adj"/></r></p></e>
@@ -28447,6 +28461,7 @@
 <e><p><l>greedy<s n="adj"/><s n="sint"/></l><r>қызғаншақ<s n="adj"/></r></p></e>
 <e><p><l>green<s n="adj"/><s n="sint"/></l><r>жасыл<s n="adj"/></r></p></e>
 <e><p><l>grey<s n="adj"/><s n="sint"/></l><r>сұр<s n="adj"/></r></p></e>
+<e><p><l>lightgrey<s n="adj"/><s n="sint"/></l><r>боз<s n="adj"/></r></p></e>
 <e><p><l>grim<s n="adj"/><s n="sint"/></l><r>қатал<s n="adj"/></r></p></e>
 <e><p><l>gross<s n="adj"/><s n="sint"/></l><r>семіз<s n="adj"/></r></p></e>
 <e><p><l>grumpy<s n="adj"/><s n="sint"/></l><r>ашуқор<s n="adj"/></r></p></e>
@@ -29439,6 +29454,7 @@
 <e><p><l>criticise<s n="vblex"/></l><r>сына<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>cross<s n="vblex"/></l><r>сыз<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>crowd<s n="vblex"/></l><r>топтан<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>crown<s n="vblex"/></l><r>таққа<b/>отырғыз<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>cruise<s n="vblex"/></l><r>саяхатта<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>crumble<s n="vblex"/></l><r>үгіттен<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>crush<s n="vblex"/></l><r>ұсақта<s n="v"/><s n="tv"/></r></p></e>
@@ -29472,6 +29488,7 @@
 <e><p><l>debut<s n="vblex"/></l><r>дебютте<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>decant<s n="vblex"/></l><r>сүз<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>deceive<s n="vblex"/></l><r>алда<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>decease<s n="vblex"/></l><r>қайтыс<b/>бол<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>decentralise<s n="vblex"/></l><r>децентрализацияла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>decide<s n="vblex"/></l><r>шеш<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>cede<s n="vblex"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
@@ -32931,6 +32948,7 @@
 <e><p><l>lombard<s n="n"/></l><r>ломбард<s n="n"/></r></p></e>
 <e><p><l>lugat<s n="n"/></l><r>лұғат<s n="n"/></r></p></e>
 <e><p><l>butter<s n="n"/></l><r>майыр<s n="n"/></r></p></e>
+<e><p><l>buffer<s n="n"/></l><r>буфер<s n="n"/></r></p></e>
 <e><p><l>pasta<s n="n"/></l><r>макарон<s n="n"/></r></p></e>
 <e><p><l>macaroni<s n="n"/></l><r>макарон<s n="n"/></r></p></e>
 <e><p><l>manats<s n="n"/></l><r>манат<s n="n"/></r></p></e>

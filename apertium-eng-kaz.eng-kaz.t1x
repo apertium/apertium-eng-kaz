@@ -4077,7 +4077,47 @@
   </pattern>
   <action>
     <call-macro n="default-nbr-pers"/>
-        <out>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="2" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+  <out>
+      <chunk name="must-inf2-be">
+      <tags>
+        <tag><lit-tag v="VP_must_inf"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="ger"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+        <lu>
+             <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	    <lit-tag v="4"/>
+           <lit-tag v="5"/>
+           <lit-tag v="nom"/>
+        </lu>
+        <b/> 
+        <lu>
+          <lit v="керек"/>
+         <lit-tag v="n"/>
+          <lit-tag v="nom"/>	
+        </lu>
+      </chunk>
+  </out>
+      
+</when>
+<otherwise>
+
+  <out>
       <chunk name="must-inf2">
       <tags>
         <tag><lit-tag v="VP_must_inf"/></tag>
@@ -4103,6 +4143,10 @@
         </lu>
       </chunk>
   </out>
+      
+</otherwise>
+</choose>
+
       
   </action>
 </rule>

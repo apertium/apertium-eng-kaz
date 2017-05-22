@@ -4666,7 +4666,45 @@
              <lit-tag v="past"/>
           </equal>
         </test>
-        <out>
+
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="2" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+ <out>
+      <chunk name="pers-verb19-be">
+            <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+        <lu>
+        <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	<lit-tag v="prc_impf"/>
+            </lu>
+        <b/> 
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="ifi"/>
+	<lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	</lu>
+          </chunk>
+        </out>
+</when>
+<otherwise>
+ <out>
       <chunk name="pers-verb19">
             <tags>
         <tag><lit-tag v="VP"/></tag>
@@ -4684,15 +4722,18 @@
             </lu>
         <b/> 
 	<lu>
-          <lit v="ал"/>
+        <lit v="ал"/>
  	<lit-tag v="vaux"/>
-	 <lit-tag v="ifi"/>
+	<lit-tag v="ifi"/>
 	<lit-tag v="3"/>
-          <lit-tag v="2"/>
+        <lit-tag v="2"/>
  	</lu>
           </chunk>
         </out>
-      </when>
+</otherwise>
+</choose>
+
+             </when>
     </choose>
       </action>
 </rule>
@@ -4799,6 +4840,50 @@
              <lit-tag v="past"/>
           </equal>
         </test>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="2" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+        <out>
+      <chunk name="pers-verb21-be">
+            <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+            <b pos="1"/>
+        <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+        <lu>
+        <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	<lit-tag v="prc_impf"/>
+            </lu>
+        <b/> 
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="ifi"/>
+	<lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	</lu>
+          </chunk>
+        </out>
+
+</when>
+<otherwise>
+
         <out>
       <chunk name="pers-verb21">
             <tags>
@@ -4829,6 +4914,10 @@
  	</lu>
           </chunk>
         </out>
+
+</otherwise>
+</choose>
+
       </when>
     </choose>
       </action>
@@ -4853,8 +4942,119 @@
              <lit-tag v="pres"/>
           </equal>
         </test>
-            
-        <out>
+            <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="3" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+      <out>
+      <chunk name="pers-verb22-be">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+         <b pos="1"/>
+        <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+<lu>
+        <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+            <b pos="3"/>
+ <lu>
+      <clip pos="4" side="tl" part="whole"/>
+            </lu>
+        <b/> 
+<lu>
+          <clip pos="5" side="tl" part="lem"/>
+	  <clip pos="5" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+<b/>
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="aor"/>
+	  <lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	
+ 	        </lu>
+      </chunk>
+  </out>
+  
+</when>
+ <when>
+        <test>
+          <equal>
+             <clip pos="5" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+      <out>
+      <chunk name="pers-verb22-be2">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+         <b pos="1"/>
+        <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+<lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+	
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+            <b pos="3"/>
+ <lu>
+      <clip pos="4" side="tl" part="whole"/>
+            </lu>
+        <b/> 
+<lu>
+        <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+
+        <lit-tag v="prc_impf"/>
+    	
+        </lu>
+<b/>
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="aor"/>
+	  <lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	
+ 	        </lu>
+      </chunk>
+  </out>
+  
+</when>
+<otherwise>
+      <out>
       <chunk name="pers-verb22">
       <tags>
         <tag><lit-tag v="VP"/></tag>
@@ -4897,6 +5097,12 @@
  	        </lu>
       </chunk>
   </out>
+  
+
+</otherwise>
+</choose>
+
+
        
   </when> 
       <when>
@@ -4906,9 +5112,18 @@
              <lit-tag v="past"/>
           </equal>
         </test>
-        <out>
-      <chunk name="pers-verb23">
-            <tags>
+   <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="3" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+      <out>
+      <chunk name="pers-verb23-be">
+      <tags>
         <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
@@ -4916,26 +5131,146 @@
         <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
         <tag><lit-tag v="NXD"/></tag> <!-- negative -->
       </tags>
-            <b pos="1"/>
+         <b pos="1"/>
         <lu>
       <clip pos="2" side="tl" part="whole"/>
             </lu>
             <b pos="2"/>
+<lu>
+        <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+            <b pos="3"/>
+ <lu>
+      <clip pos="4" side="tl" part="whole"/>
+            </lu>
+        <b/> 
+<lu>
+          <clip pos="5" side="tl" part="lem"/>
+	  <clip pos="5" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+<b/>
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="aor"/>
+	  <lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	
+ 	        </lu>
+      </chunk>
+  </out>
+  
+</when>
+ <when>
+        <test>
+          <equal>
+             <clip pos="5" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+      <out>
+      <chunk name="pers-verb23-be2">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+         <b pos="1"/>
         <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+<lu>
+          <clip pos="3" side="tl" part="lem"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/>
+	
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+            <b pos="3"/>
+ <lu>
+      <clip pos="4" side="tl" part="whole"/>
+            </lu>
+        <b/> 
+<lu>
+        <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+
+        <lit-tag v="prc_impf"/>
+    	
+        </lu>
+<b/>
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="aor"/>
+	  <lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	
+ 	        </lu>
+      </chunk>
+  </out>
+  
+</when>
+<otherwise>
+      <out>
+      <chunk name="pers-verb23">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+         <b pos="1"/>
+        <lu>
+      <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+<lu>
           <clip pos="3" side="tl" part="lem"/>
 	  <clip pos="3" side="tl" part="a_kaz_verb"/>
 	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+            <b pos="3"/>
+ <lu>
+      <clip pos="4" side="tl" part="whole"/>
             </lu>
         <b/> 
+<lu>
+          <clip pos="5" side="tl" part="lem"/>
+	  <clip pos="5" side="tl" part="a_kaz_verb"/>
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+<b/>
 	<lu>
           <lit v="ал"/>
  	<lit-tag v="vaux"/>
 	 <lit-tag v="ifi"/>
-	<lit-tag v="3"/>
+	  <lit-tag v="3"/>
           <lit-tag v="2"/>
- 	</lu>
-          </chunk>
-        </out>
+ 	
+ 	        </lu>
+      </chunk>
+  </out>
+  
+
+</otherwise>
+</choose>
       </when>
     </choose>
       </action>

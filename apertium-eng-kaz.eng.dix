@@ -16201,6 +16201,8 @@
 
                             <e lm="often" i=""><i>often</i><par n="maybe__adv"/></e>
 
+			    <e lm="default" i=""><i>default</i><par n="maybe__adv"/></e>
+
 			    <e lm="whilst" i=""><i>whilst</i><par n="maybe__adv"/></e>
 
                             <e lm="on" i=""><i>on</i><par n="maybe__adv"/></e>
@@ -48703,6 +48705,10 @@
 
                             <e lm="desk" i=""><i>desk</i><par n="house__n"/></e>
 
+			    <e lm="proceeding" i=""><i>proceeding</i><par n="house__n"/></e>
+
+			    <e lm="desktop" i=""><i>desktop</i><par n="house__n"/></e>
+
                             <e lm="desolation" i=""><i>desolation</i><par n="house__n"/></e>
 
                             <e lm="despair" i=""><i>despair</i><par n="house__n"/></e>
@@ -55922,6 +55928,8 @@
 
                             <e lm="star" i=""><i>star</i><par n="house__n"/></e>
 
+			    <e lm="stack" i=""><i>stack</i><par n="house__n"/></e>
+
                             <e lm="starch" i=""><i>starch</i><par n="access__n"/></e>
 
                             <e lm="start" i=""><i>start</i><par n="house__n"/></e>
@@ -56021,6 +56029,8 @@
                             <e lm="strategist" i=""><i>strategist</i><par n="house__n"/></e>
 
                             <e lm="stream" i=""><i>stream</i><par n="house__n"/></e>
+
+			    <e lm="switching" i=""><i>switching</i><par n="house__n"/></e>
 
                             <e lm="street" i=""><i>street</i><par n="house__n"/></e>
 
@@ -58749,6 +58759,8 @@
 
                             <e lm="beautiful" i=""><i>beautiful</i><par n="expensive__adj"/></e>
 
+			    <e lm="cameo" i=""><i>cameo</i><par n="expensive__adj"/></e>
+
  <e lm="holistic" i=""><i>holistic</i><par n="expensive__adj"/></e>
 
                             <e lm="independence-minded" i=""><i>independence-minded</i><par n="expensive__adj"/></e>
@@ -60025,6 +60037,8 @@
 
                             <e lm="international" i=""><i>international</i><par n="expensive__adj"/></e>
 
+			    <e lm="ecumenical" i=""><i>ecumenical</i><par n="expensive__adj"/></e>
+
 <e lm="multi-religious" i=""><i>multi-religious</i><par n="expensive__adj"/></e>
    <e lm="multiconfessional" i=""><i>multiconfessional</i><par n="expensive__adj"/></e>
 
@@ -60961,6 +60975,10 @@
 <e lm="interchanged" i=""><i>interchanged</i><par n="expensive__adj"/></e>
 <e lm="intermingled" i=""><i>intermingled</i><par n="expensive__adj"/></e>
 <e lm="inured" i=""><i>inured</i><par n="expensive__adj"/></e>
+<e lm="discontinued" i=""><i>discontinued</i><par n="expensive__adj"/></e>
+<e lm="embedded" i=""><i>embedded</i><par n="expensive__adj"/></e>
+<e lm="synthesized" i=""><i>synthesized</i><par n="expensive__adj"/></e>
+<e lm="instituted" i=""><i>instituted</i><par n="expensive__adj"/></e>
 <e lm="kindled" i=""><i>kindled</i><par n="expensive__adj"/></e>
 <e lm="knotted" i=""><i>knotted</i><par n="expensive__adj"/></e>
 <e lm="laded" i=""><i>laded</i><par n="expensive__adj"/></e>
@@ -61432,6 +61450,8 @@
 
                             <e lm="southern" i=""><i>southern</i><par n="expensive__adj"/></e>
 
+			    <e lm="southwestern" i=""><i>southwestern</i><par n="expensive__adj"/></e>
+
                             <e lm="shameful" i=""><i>shameful</i><par n="expensive__adj"/></e>
 
                             <e lm="sharp" i=""><i>sharp</i><par n="long/__adj"/></e>
@@ -61850,6 +61870,10 @@
                             <e lm="uncertain" i=""><i>uncertain</i><par n="expensive__adj"/></e>
 
                             <e lm="uncomfortable" i=""><i>uncomfortable</i><par n="expensive__adj"/></e>
+
+			    <e lm="uncommon" i=""><i>uncommon</i><par n="expensive__adj"/></e>
+
+			    <e lm="temperate" i=""><i>temperate</i><par n="expensive__adj"/></e>
 
 			    <e lm="unclear" i=""><i>unclear</i><par n="expensive__adj"/></e>
 
@@ -63205,6 +63229,8 @@
                             <e lm="comprise" i=""><i>compris</i><par n="liv/e__vblex"/></e>
 
                             <e lm="compute" i=""><i>comput</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="reorganize" i=""><i>reorganiz</i><par n="liv/e__vblex"/></e>
 
                             <e lm="computerize" i=""><i>computeri</i><par n="organi/ze__vblex"/></e>
 
@@ -65291,6 +65317,10 @@
                             <e lm="seize" i=""><i>seiz</i><par n="liv/e__vblex"/></e>
 
                             <e lm="select" i=""><i>select</i><par n="accept__vblex"/></e>
+
+			    <e lm="market" i=""><i>market</i><par n="accept__vblex"/></e>
+
+			    <e lm="model" i=""><i>model</i><par n="accept__vblex"/></e>
 
                             <e lm="send back" i=""><i>sen</i><par n="ben/d__vblex__sep"/><par n="probj_dem__prn"/><p><l><b/>back</l><r><g><b/>back</g></r></p></e>
 
@@ -74393,6 +74423,10 @@ wind
 
                             <e lm="intrinsic" i=""><i>intrinsic</i><par n="expensive__adj"/></e>
 
+			    <e lm="prevalent" i=""><i>prevalent</i><par n="expensive__adj"/></e>
+
+			    <e lm="inverse" i=""><i>inverse</i><par n="expensive__adj"/></e>
+
                             <e lm="introductory" i=""><i>introductory</i><par n="expensive__adj"/></e>
 
                             <e lm="introversion" i=""><i>introversion</i><par n="house__n"/></e>
@@ -74607,6 +74641,8 @@ wind
                             <e lm="kinesthesia" i=""><i>kinesthesia</i><par n="house__n"/></e>
 
                             <e lm="kinetical" i=""><i>kinetical</i><par n="expensive__adj"/></e>
+
+			    <e lm="kinetic" i=""><i>kinetic</i><par n="expensive__adj"/></e>
 
                             <e lm="kite" i=""><i>kite</i><par n="house__n"/></e>
 
@@ -80631,6 +80667,8 @@ wind
 
                             <e lm="admirably" i=""><i>admirably</i><par n="maybe__adv"/></e>
 
+			    <e lm="famously" i=""><i>famously</i><par n="maybe__adv"/></e>
+
                             <e lm="intern" i=""><i>intern</i><par n="house__n"/></e>
 
                             <e lm="intrinsically" i=""><i>intrinsically</i><par n="maybe__adv"/></e>
@@ -81967,9 +82005,19 @@ wind
 
                             <e lm="ferret" i=""><i>ferret</i><par n="house__n"/></e>
 
+			    <e lm="cameo" i=""><i>cameo</i><par n="house__n"/></e>
+
                             <e lm="fox" i=""><i>fox</i><par n="access__n"/></e>
 
+			    <e lm="attendance" i=""><i>attendance</i><par n="house__n"/></e>
+
+			    <e lm="lens" i=""><i>lens</i><par n="access__n"/></e>
+
+			    <e lm="prefix" i=""><i>prefix</i><par n="access__n"/></e>
+
 			    <e lm="paradox" i=""><i>paradox</i><par n="access__n"/></e>
+
+			    <e lm="flagship" i=""><i>flagship</i><par n="house__n"/></e>
 
                             <e lm="vixen" i=""><i>vixen</i><par n="house__n"/></e>
 

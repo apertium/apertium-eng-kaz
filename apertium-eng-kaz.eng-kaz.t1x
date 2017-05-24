@@ -1341,6 +1341,40 @@
       <list n="pseudo_modal_verbs"/>
    </in>
 </test>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+<out>
+      <chunk name="pers-verb1">
+      <tags>
+        <tag><lit-tag v="VP_psmod"/></tag> 
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+        <lu>
+        <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	<lit-tag v="6"/>
+          <lit-tag v="4"/>
+
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+        </lu>
+      </chunk>
+</out>
+
+
+</when>
+<otherwise>
 <out>
       <chunk name="pers-verb1">
       <tags>
@@ -1362,9 +1396,51 @@
         </lu>
       </chunk>
 </out>
+
+
+</otherwise>
+</choose>
+
 </when>
 
 <otherwise>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+<out>
+      <chunk name="pers-verb111">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag><!-- negative -->
+        <tag><lit-tag v="CD"/></tag> 
+      </tags>
+        <lu>
+          <lit v="бол"/>
+ 	  <lit-tag v="v"/>
+ 	  <lit-tag v="iv"/>
+	  <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+        </out>
+
+
+</when>
+<otherwise>
+
 <out>
       <chunk name="pers-verb111">
       <tags>
@@ -1388,6 +1464,11 @@
         </lu>
       </chunk>
         </out>
+
+</otherwise>
+</choose>
+
+
 </otherwise>
 </choose>
 </def-macro>
@@ -15612,6 +15693,46 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <pattern-item n="inf-verb"/> 
    </pattern>
   <action>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="3" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+<out>
+  <chunk name="what-NP_to_inf">  
+      <tags>
+       <tag><lit-tag v="NP_to_inf"/></tag>
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="ND"/></tag> 
+        <tag><lit-tag v="ger"/></tag> 
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="CD"/></tag>
+      </tags>
+<b pos ="1"/>
+<lu>
+          <clip pos="1" side="tl" part="whole"/>
+	
+        </lu>
+<b pos ="2"/>
+            
+        <lu>
+          <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	 <lit-tag v="4"/>
+         <lit-tag v="5"/>
+         <lit-tag v="6"/>
+        </lu>
+    
+      </chunk>
+</out>
+
+</when>
+<otherwise>
 <out>
   <chunk name="what-NP_to_inf">  
       <tags>
@@ -15639,6 +15760,11 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     
       </chunk>
 </out>
+
+
+</otherwise>
+</choose>
+
   </action>
 </rule>
 
@@ -15651,6 +15777,46 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
    </pattern>
   <action>
 <call-macro n="build-adjec-lu"><with-param pos="1"/></call-macro> 
+
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="3" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+<out>
+  <chunk name="NP_to_inf">  
+      <tags>
+       <tag><lit-tag v="NP_to_inf"/></tag>
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="ND"/></tag> 
+        <tag><lit-tag v="ger"/></tag> 
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="dat"/></tag>
+      </tags>
+            
+        <lu>
+        <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	<lit-tag v="4"/>
+         <lit-tag v="5"/>
+         <lit-tag v="6"/>
+        </lu>
+<b pos="1"/>
+  <lu>
+      <var n="adjec_lu"/>
+	
+        </lu>
+    
+      </chunk>
+</out>
+
+</when>
+<otherwise>
 <out>
   <chunk name="NP_to_inf">  
       <tags>
@@ -15677,6 +15843,10 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     
       </chunk>
 </out>
+
+
+</otherwise>
+</choose>
   </action>
 </rule>
 
@@ -15688,6 +15858,50 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <pattern-item n="inf-verb"/> 
    </pattern>
   <action>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="3" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+<out>
+  <chunk name="NP_to_inf">  
+      <tags>
+       <tag><lit-tag v="NP_to_inf"/></tag>
+        <tag><lit-tag v="PD"/></tag> 
+        <tag><lit-tag v="ND"/></tag> 
+       
+        <tag><lit-tag v="PXD"/></tag> 
+        <tag><lit-tag v="acc"/></tag>
+      </tags>
+            
+        <lu>
+        <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	<lit-tag v="ger"/>
+         <lit-tag v="4"/>
+         <lit-tag v="5"/>
+
+        </lu>
+<b pos="1"/>
+     
+        <lu>
+         <lit v="көп"/>
+         <lit-tag v="adj"/>
+         <lit-tag v="comp"/>
+
+        </lu>
+    
+      </chunk>
+</out>
+
+</when>
+<otherwise>
+
 <out>
   <chunk name="NP_to_inf">  
       <tags>
@@ -15718,6 +15932,10 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     
       </chunk>
 </out>
+
+</otherwise>
+</choose>
+
   </action>
 </rule>
 
@@ -15939,6 +16157,52 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
         <test>
           <equal>
              <clip pos="2" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+<out>
+  <chunk name="to-be-noun">
+    <tags>
+    <tag><lit-tag v="PP"/></tag>
+    <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="acc"/></tag> <!-- case placeholder -->
+    </tags>
+    <lu>
+      <var n="NEW-noun_lu"/>
+    </lu>
+   <b pos="1"/>
+        <lu>
+         <lit v="бол"/>
+         <lit-tag v="v"/>
+         <lit-tag v="iv"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="5"/>
+        </lu>
+<b pos="2"/>
+<lu>
+           <var n="cnjcoo_lu"/>
+     </lu>
+   <b pos="3"/>
+<lu>
+          <clip pos="5" side="tl" part="lem"/>
+	  <clip pos="5" side="tl" part="a_kaz_verb"/>
+         <lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+     </lu>
+   <b pos="4"/>
+    <lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+    </lu>
+</chunk>
+</out>
+</when>
+<when>
+        <test>
+          <equal>
+             <clip pos="5" side="sl" part="lem"/>
              <lit v="be"/>
           </equal>
         </test>

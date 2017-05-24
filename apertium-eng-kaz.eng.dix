@@ -46675,6 +46675,8 @@
 
                             <e lm="book" i=""><i>book</i><par n="house__n"/></e>
 
+			    <e lm="alkali" i=""><i>alkali</i><par n="house__n"/></e>
+
 			    <e lm="median" i=""><i>median</i><par n="house__n"/></e>
 
 			    <e lm="sub" i=""><i>sub</i><par n="house__n"/></e>
@@ -50269,6 +50271,8 @@
                             <e lm="gigantism" i=""><i>gigantism</i><par n="house__n"/></e>
 
                             <e lm="girl" i=""><i>girl</i><par n="house__n"/></e>
+
+			    <e lm="garrison" i=""><i>garrison</i><par n="house__n"/></e>
 
                             <e lm="glacier" i=""><i>glacier</i><par n="house__n"/></e>
 
@@ -53998,6 +54002,8 @@
                             <e lm="popularity" i=""><i>popularit</i><par n="bab/y__n"/></e>
 
                             <e lm="population" i=""><i>population</i><par n="house__n"/></e>
+
+			    <e lm="populace" i=""><i>populace</i><par n="house__n"/></e>
 
                             <e lm="populism" i=""><i>populism</i><par n="house__n"/></e>
 
@@ -58758,6 +58764,10 @@
                             <e lm="bearable" i=""><i>bearable</i><par n="expensive__adj"/></e>
 
                             <e lm="beautiful" i=""><i>beautiful</i><par n="expensive__adj"/></e>
+
+			    <e lm="colored" i=""><i>colored</i><par n="expensive__adj"/></e>
+
+			    <e lm="longtime" i=""><i>longtime</i><par n="expensive__adj"/></e>
 
 			    <e lm="cameo" i=""><i>cameo</i><par n="expensive__adj"/></e>
 
@@ -65040,6 +65050,8 @@
 
                             <e lm="recognize" i=""><i>recogni</i><par n="organi/ze__vblex"/></e>
 
+			    <e lm="summarize" i=""><i>summari</i><par n="organi/ze__vblex"/></e>
+
                             <e lm="recommend" i=""><i>recommend</i><par n="accept__vblex"/></e>
 
                             <e lm="reconsider" i=""><i>reconsider</i><par n="accept__vblex"/></e>
@@ -67070,6 +67082,8 @@
                             <e lm="off" i=""><i>off</i><par n="maybe__adv"/></e>
 
                             <e lm="officially" i=""><i>officially</i><par n="maybe__adv"/></e>
+
+			    <e lm="arguably" i=""><i>arguably</i><par n="maybe__adv"/></e>
 
                             <e lm="often" i=""><i>often</i><par n="maybe__adv"/></e>
 

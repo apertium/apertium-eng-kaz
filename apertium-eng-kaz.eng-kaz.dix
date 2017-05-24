@@ -273,6 +273,7 @@
 <e><p><l>constitute<s n="vblex"/></l><r>құра<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>participate<s n="vblex"/></l><r>қатыстырыл<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>recognize<s n="vblex"/></l><r>таны<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>summarize<s n="vblex"/></l><r>жинақта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>create<s n="vblex"/></l><r>қалыптастыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>address<s n="vblex"/></l><r>жүгін<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>grow<s n="vblex"/></l><r>арт<s n="v"/><s n="iv"/></r></p></e>
@@ -315,6 +316,7 @@
 <e><p><l>so<b/>why<s n="adv"/></l><r>неліктен<s n="adv"/></r></p></e>
 <e><p><l>lifelong<s n="adv"/></l><r>өмірбақи<s n="adv"/></r></p></e>
 <e><p><l>slightly<s n="adv"/></l><r>сәл<s n="adv"/></r></p></e>
+<e><p><l>posthumously<s n="adv"/></l><r>қайтыс<b/>болғаннан<b/>кейін<s n="adv"/></r></p></e>
 <e><p><l>so<b/>much<s n="adv"/></l><r>соншалық<s n="adv"/></r></p></e>
 <e><p><l>so<b/>much<s n="adv"/></l><r>соншалықты<s n="adv"/></r></p></e>
 
@@ -4968,6 +4970,7 @@
 <e><p><l>applause<s n="n"/></l><r>қол<b/>шапалақ<s n="n"/></r></p></e>
 <e><p><l>apple<s n="n"/></l><r>алма<s n="n"/></r></p></e>
 <e><p><l>apple<s n="n"/></l><r>алма<s n="n"/></r></p></e>
+<e><p><l>alkali<s n="n"/></l><r>сілті<s n="n"/></r></p></e>
 <e><p><l>appliance<s n="n"/></l><r>тұрмыстық<b/>жабдық<s n="n"/></r></p></e>
 <e><p><l>applicability<s n="n"/></l><r>қолданушылық<s n="n"/></r></p></e>
 <e><p><l>applicant<s n="n"/></l><r>талапкер<s n="n"/></r></p></e>
@@ -9099,6 +9102,7 @@
 <e><p><l>giraffe<s n="n"/></l><r>керік<s n="n"/></r></p></e>
 <e><p><l>girlfriend<s n="n"/></l><r>серік<s n="n"/></r></p></e>
 <e><p><l>girl<s n="n"/></l><r>қыз<s n="n"/></r></p></e>
+<e><p><l>garrison<s n="n"/></l><r>гарнизон<s n="n"/></r></p></e>
 <e><p><l>gizzard<s n="n"/></l><r>екінші<b/>асқазан<s n="n"/></r></p></e>
 <e><p><l>Glaciation<s n="n"/></l><r>мұз<b/>басу<s n="n"/></r></p></e>
 <e><p><l>glacier<s n="n"/></l><r>мұздық<s n="n"/></r></p></e>
@@ -12653,6 +12657,7 @@
 <e><p><l>popularity<s n="n"/></l><r>танымдылық<s n="n"/></r></p></e>
 <e><p><l>popular<s n="n"/></l><r>терек<s n="n"/></r></p></e>
 <e><p><l>population<s n="n"/></l><r>халық<s n="n"/></r></p></e>
+<e><p><l>populace<s n="n"/></l><r>халық<s n="n"/></r></p></e>
 <e><p><l>populism<s n="n"/></l><r>халықшылдық<s n="n"/></r></p></e>
 <e><p><l>porch<s n="n"/></l><r>кіре<b/>беріс<s n="n"/></r></p></e>
 <e><p><l>pore<s n="n"/></l><r>ойлау<s n="n"/></r></p></e>
@@ -24662,6 +24667,7 @@
 <e><p><l>of<b/>course<s n="adv"/></l><r>әрине<s n="adv"/></r></p></e>
 <e><p><l>officially<s n="adv"/></l><r>ресми<s n="adv"/></r></p></e>
 <e><p><l>often<s n="adv"/></l><r>жиі<s n="adv"/></r></p></e>
+<e><p><l>arguably<s n="adv"/></l><r>даулы<s n="adv"/></r></p></e>
 <e><p><l>default<s n="adv"/></l><r>үнсіз<b/>келісім<b/>бойынша<s n="adv"/></r></p></e>
 <e><p><l>whilst<s n="adv"/></l><r>әзірге<s n="adv"/></r></p></e>
 <e><p><l>on<s n="adv"/></l><r>үстінде<s n="adv"/></r></p></e>
@@ -27758,6 +27764,7 @@
 <e><p><l>recurrent<s n="adj"/></l><r>реккурентті<s n="adj"/></r></p></e>
 <e><p><l>recyclable<s n="adj"/></l><r>қайта<b/>өнделетін<s n="adj"/></r></p></e>
 <e><p><l>red<s n="adj"/></l><r>қызыл<s n="adj"/></r></p></e>
+<e><p><l>colored<s n="adj"/></l><r>түрлі-түсті<s n="adj"/></r></p></e>
 <e><p><l>reddish<s n="adj"/></l><r>қызылдау<s n="adj"/></r></p></e>
 <e><p><l>redundant<s n="adj"/></l><r>артық<s n="adj"/></r></p></e>
 <e><p><l>reed<s n="adj"/></l><r>қамысты<s n="adj"/><s n="subst"/></r></p></e>
@@ -27782,6 +27789,7 @@
 <e><p><l>remote<s n="adj"/></l><r>алыс<s n="adj"/></r></p></e>
 <e><p><l>renal<s n="adj"/></l><r>бүйректік<s n="adj"/></r></p></e>
 <e><p><l>rendered<s n="adj"/></l><r>қызмет<b/>көрсетілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>longtime<s n="adj"/></l><r>ұзақ<b/>мерзімді<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>renewable<s n="adj"/></l><r>жаңартылмалы<s n="adj"/></r></p></e>
 <e><p><l>renowned<s n="adj"/></l><r>атайы<s n="adj"/></r></p></e>
 <e><p><l>repealed<s n="adj"/></l><r>жойылған<s n="adj"/><s n="subst"/></r></p></e>

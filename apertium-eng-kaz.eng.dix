@@ -19826,6 +19826,8 @@
 
                             <e lm="bacteriological" i=""><i>bacteriological</i><par n="expensive__adj"/></e>
 
+ <e lm="terminological" i=""><i>terminological</i><par n="expensive__adj"/></e>
+
                             <e lm="badminton" i=""><i>badminton</i><par n="house__n"/></e>
 
                             <e lm="bagpipe" i=""><i>bagpipe</i><par n="house__n"/></e>
@@ -42142,6 +42144,12 @@
 
                             <e lm="Brazil" i=""><i>Brazil</i><par n="Barcelona__np"/></e>
 
+
+ <e lm="Basilicata" i=""><i>Basilicata</i><par n="Barcelona__np"/></e>
+<e lm="Solothurn" i=""><i>Solothurn</i><par n="Barcelona__np"/></e>
+
+<e lm="Vratsa" i=""><i>Vratsa</i><par n="Barcelona__np"/></e>
+<e lm="Pleven" i=""><i>Pleven</i><par n="Barcelona__np"/></e>
                             <e lm="Britain" i=""><i>Britain</i><par n="Barcelona__np"/></e>
 
                             <e lm="Brussels" i=""><i>Brussels</i><par n="Mars__np"/></e>

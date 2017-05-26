@@ -3363,6 +3363,7 @@
 <e><p><l>culture<s n="n"/></l><r>культура<s n="n"/></r></p></e>
 <e><p><l>kettle<s n="n"/></l><r>құман<s n="n"/></r></p></e>
 <e><p><l>teapot<s n="n"/></l><r>құман<s n="n"/></r></p></e>
+<e><p><l>pitcher<s n="n"/></l><r>құман<s n="n"/></r></p></e>
 <e><p><l>valetudinarianism<s n="n"/></l><r>күмәнданғыштық<s n="n"/></r></p></e>
 <e><p><l>potter<s n="n"/></l><r>құмырашы<s n="n"/></r></p></e>
 <e><p><l>ceramist<s n="n"/></l><r>құмырашы<s n="n"/></r></p></e>
@@ -9000,6 +9001,7 @@
 <e><p><l>gardener<s n="n"/></l><r>бақшашы<s n="n"/></r></p></e>
 <e><p><l>gardening<s n="n"/></l><r>жасылдандыру<s n="n"/></r></p></e>
 <e><p><l>garden<s n="n"/></l><r>бақша<s n="n"/></r></p></e>
+<e><p><l>graffiti<s n="n"/></l><r>граффити<s n="n"/></r></p></e>
 <e><p><l>garde<s n="n"/></l><r>авангард<s n="n"/></r></p></e>
 <e><p><l>garret<s n="n"/></l><r>шатыр<s n="n"/></r></p></e>
 <e><p><l>gargoyle<s n="n"/></l><r>горгулья<s n="n"/></r></p></e>
@@ -11896,6 +11898,7 @@
 <e><p><l>order<s n="n"/></l><r>рет<s n="n"/></r></p></e>
 <e><p><l>order<s n="n"/></l><r>тапсырыс<s n="n"/></r></p></e>
 <e><p><l>order<s n="n"/></l><r>қатар<s n="n"/></r></p></e>
+<e><p><l>odd<s n="n"/></l><r>тақ<b/>сан<s n="n"/></r></p></e>
 <e><p><l>ordinal<s n="n"/></l><r>реттік<b/>сан<b/>есім<s n="n"/></r></p></e>
 <e><p><l>ordination<s n="n"/></l><r>жайлау<s n="n"/></r></p></e>
 <e><p><l>ordure<s n="n"/></l><r>нәжістер<s n="n"/></r></p></e>
@@ -26811,7 +26814,10 @@
 <e><p><l>intuitive<s n="adj"/></l><r>сезімтал<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>inured<s n="adj"/></l><r>шыңдалған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>discontinued<s n="adj"/></l><r>тоқтатылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>coupled<s n="adj"/></l><r>байланыстырылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>embedded<s n="adj"/></l><r>кіріктірілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>exploited<s n="adj"/></l><r>пайдаланылатын<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>ordained<s n="adj"/></l><r>алдын<b/>ала<b/>анықталған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>synthesized<s n="adj"/></l><r>синтезделген<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>instituted<s n="adj"/></l><r>мекемелік<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>invaluable<s n="adj"/></l><r>құнсыз<s n="adj"/></r></p></e>
@@ -28312,6 +28318,7 @@
 <e><p><l>useful<s n="adj"/></l><r>пайдалы<s n="adj"/></r></p></e>
 <e><p><l>useless<s n="adj"/></l><r>пайдасыз<s n="adj"/></r></p></e>
 <e><p><l>usual<s n="adj"/></l><r>әдеттегі<s n="adj"/></r></p></e>
+<e><p><l>spectral<s n="adj"/></l><r>спектрлік<s n="adj"/></r></p></e>
 <e><p><l>uterine<s n="adj"/></l><r>құрсақ<s n="adj"/></r></p></e>
 <e><p><l>utmost<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
 <e><p><l>utopian<s n="adj"/></l><r>утопиялық<s n="adj"/></r></p></e>
@@ -29261,6 +29268,7 @@
 <e><p><l>call<s n="vblex"/></l><r>қоңырау<b/>шал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>call<s n="vblex"/></l><r>ата<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>call<s n="vblex"/></l><r>шақыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>convene<s n="vblex"/></l><r>шақыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>calm<s n="vblex"/></l><r>тыныштан<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>camp<s n="vblex"/></l><r>лагерьге<b/>тұр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>campaign<s n="vblex"/></l><r>үгітте<s n="v"/><s n="tv"/></r></p></e>
@@ -29686,6 +29694,7 @@
 <e><p><l>dry<s n="vblex"/></l><r>құрғат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>dull<s n="vblex"/></l><r>жалықтыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>dwarf<s n="vblex"/></l><r>ығыстыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>supersede<s n="vblex"/></l><r>ығыстыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>dwell<s n="vblex"/></l><r>өмір<b/>сүр<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>dwindle<s n="vblex"/></l><r>қысқар<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>dye<s n="vblex"/></l><r>боя<s n="v"/><s n="tv"/></r></p></e>
@@ -30279,6 +30288,7 @@
 <e><p><l>omit<s n="vblex"/></l><r>қос<s n="v"/><s n="tv"/><s n="neg"/></r></p></e>
 <e><p><l>open<s n="vblex"/></l><r>аш<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>operate<s n="vblex"/></l><r>әрекеттен<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>oppose<s n="vblex"/></l><r>қарсыластыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>optimise<s n="vblex"/></l><r>оңтайландыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>order<s n="vblex"/></l><r>тапсырыс<b/>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>organise<s n="vblex"/></l><r>ұйымдастыр<s n="v"/><s n="tv"/></r></p></e>
@@ -30497,6 +30507,7 @@
 <e><p><l>regain<s n="vblex"/></l><r>қайта<b/>ал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>regard<s n="vblex"/></l><r>қабылда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>regenerate<s n="vblex"/></l><r>жаңарт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>upgrade<s n="vblex"/></l><r>жаңарт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>register<s n="vblex"/></l><r>тірке<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>regret<s n="vblex"/></l><r>өкін<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>regulate<s n="vblex"/></l><r>ретте<s n="v"/><s n="tv"/></r></p></e>
@@ -31019,11 +31030,13 @@
 <e><p><l>wave<s n="vblex"/></l><r>бұлға<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>weaken<s n="vblex"/></l><r>босат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>wear<s n="vblex"/></l><r>ки<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>swear<s n="vblex"/></l><r>ант<b/>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>weary<s n="vblex"/></l><r>шарша<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>weave<s n="vblex"/></l><r>тоқ<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>weed<s n="vblex"/></l><r>шөпте<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>weep<s n="vblex"/></l><r>жыла<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>weigh<s n="vblex"/></l><r>тарт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>recruit<s n="vblex"/></l><r>тарт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>welcome<s n="vblex"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>wet<s n="vblex"/></l><r>жібіт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>whisper<s n="vblex"/></l><r>сыбырла<s n="v"/><s n="iv"/></r></p></e>
@@ -31304,6 +31317,7 @@
 <e><p><l>dominion<s n="n"/></l><r>ел<s n="n"/></r></p></e>
 <e><p><l>fiance<s n="n"/></l><r>жігіт<s n="n"/></r></p></e>
 <e><p><l>governor<s n="n"/></l><r>қызметші<s n="n"/></r></p></e>
+<e><p><l>governance<s n="n"/></l><r>басқару<s n="n"/></r></p></e>
 <e><p><l>matter<s n="n"/></l><r>нәрсе<s n="n"/></r></p></e>
 <e><p><l>pain<s n="n"/></l><r>жаза<s n="n"/></r></p></e>
 <e><p><l>painting<s n="n"/></l><r>сурет<s n="n"/></r></p></e>

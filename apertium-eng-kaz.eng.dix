@@ -3328,6 +3328,26 @@
 
     </pardef>
 
+<pardef n="graffit/i__n">
+
+                            <e i="">
+      <p>
+        <l>i</l>
+        <r>i<s n="n"/><s n="sg"/></r>
+      </p>
+    </e>
+
+
+                            <e i="">
+      <p>
+        <l>o</l>
+        <r>i<s n="n"/><s n="pl"/></r>
+      </p>
+    </e>
+
+
+    </pardef>
+
     <pardef n="g/oose__n">
 
                             <e i="">
@@ -41837,6 +41857,8 @@
 <e lm="synonym" i=""><i>synonym</i><par n="house__n"/></e>
 <e lm="tamper" i=""><i>tamper</i><par n="house__n"/></e>
 <e lm="teapot" i=""><i>teapot</i><par n="house__n"/></e>
+<e lm="odd" i=""><i>odd</i><par n="house__n"/></e>
+<e lm="pitcher" i=""><i>pitcher</i><par n="house__n"/></e>
 <e lm="textile" i=""><i>textile</i><par n="house__n"/></e>
 <e lm="thick grass" i=""><i>thick<b/>grass</i><par n="house__n"/></e>
 <e lm="thrift" i=""><i>thrift</i><par n="house__n"/></e>
@@ -49912,6 +49934,8 @@
 
                             <e lm="fish" i=""><i>fish</i><par n="bass__n"/></e>
 
+			    <e lm="governace" i=""><i>governance</i><par n="house__n"/></e>
+
                             <e lm="fishing" i=""><i>fishing</i><par n="house__n"/></e>
 
                             <e lm="fly" i=""><i>fl</i><par n="bab/y__n"/></e>
@@ -50201,6 +50225,8 @@
                             <e lm="garbage" i=""><i>garbage</i><par n="house__n"/></e>
 
                             <e lm="garden" i=""><i>garden</i><par n="house__n"/></e>
+
+			    <e lm="graffiti" i=""><i>graffit</i><par n="graffit/i__n"/></e>
 
                             <e lm="gardener" i=""><i>gardener</i><par n="house__n"/></e>
 
@@ -60994,7 +61020,10 @@
 <e lm="intermingled" i=""><i>intermingled</i><par n="expensive__adj"/></e>
 <e lm="inured" i=""><i>inured</i><par n="expensive__adj"/></e>
 <e lm="discontinued" i=""><i>discontinued</i><par n="expensive__adj"/></e>
+<e lm="coupled" i=""><i>coupled</i><par n="expensive__adj"/></e>
 <e lm="embedded" i=""><i>embedded</i><par n="expensive__adj"/></e>
+<e lm="exploited" i=""><i>exploited</i><par n="expensive__adj"/></e>
+<e lm="ordained" i=""><i>ordained</i><par n="expensive__adj"/></e>
 <e lm="synthesized" i=""><i>synthesized</i><par n="expensive__adj"/></e>
 <e lm="instituted" i=""><i>instituted</i><par n="expensive__adj"/></e>
 <e lm="kindled" i=""><i>kindled</i><par n="expensive__adj"/></e>
@@ -61992,6 +62021,8 @@
  <e lm="uncertainly" i=""><i>uncertainly</i><par n="expensive__adj"/></e>
 
                             <e lm="untransferable" i=""><i>untransferable</i><par n="expensive__adj"/></e>
+
+			    <e lm="spectral" i=""><i>spectral</i><par n="expensive__adj"/></e>
 
                             <e lm="unusual" i=""><i>unusual</i><par n="expensive__adj"/></e>
 
@@ -63075,6 +63106,10 @@
 <e lm="catch cold" i=""><i>ca</i><par n="ca/tch__vblex"/><p><l><b/>cold</l><r><g><b/>cold</g></r></p></e>
 
                             <e lm="calculate" i=""><i>calculat</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="upgrade" i=""><i>upgrad</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="convene" i=""><i>conven</i><par n="liv/e__vblex"/></e>
 
                             <e lm="recall" i=""><i>recall</i><par n="accept__vblex"/></e>
 
@@ -64480,6 +64515,8 @@
 
                             <e lm="like" i=""><i>lik</i><par n="liv/e__vblex"/></e>
 
+			    <e lm="supersede" i=""><i>supersed</i><par n="liv/e__vblex"/></e>
+
                             <e lm="limit" i=""><i>limit</i><par n="accept__vblex"/></e>
 
                             <e lm="line" i=""><i>lin</i><par n="liv/e__vblex"/></e>
@@ -64711,6 +64748,8 @@
                             <e lm="devour" i=""><i>devour</i><par n="accept__vblex"/></e>
 
                             <e lm="operate" i=""><i>operat</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="oppose" i=""><i>oppos</i><par n="liv/e__vblex"/></e>
 
                             <e lm="opt" i=""><i>opt</i><par n="accept__vblex"/></e>
 
@@ -65862,6 +65901,8 @@
                             <e lm="waste" i=""><i>wast</i><par n="liv/e__vblex"/></e>
 
                             <e lm="watch" i=""><i>watch</i><par n="approach__vblex"/></e>
+
+			    <e lm="recruit" i=""><i>recruit</i><par n="approach__vblex"/></e>
 
 			    <e lm="induct" i=""><i>induct</i><par n="approach__vblex"/></e>
 		

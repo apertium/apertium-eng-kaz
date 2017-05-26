@@ -5144,8 +5144,48 @@
              <lit-tag v="pres"/>
           </equal>
         </test>
-            
-        <out>
+          <choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="3" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+     <out>
+      <chunk name="pers-verb17">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><lit-tag v="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessive-->
+        <tag><lit-tag v="NXD"/></tag> <!-- negative -->
+      </tags>
+      <b pos="1"/>
+        <lu>
+        <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	<lit-tag v="prc_impf"/>
+    	
+        </lu>
+        <b/> 
+	<lu>
+          <lit v="ал"/>
+ 	<lit-tag v="vaux"/>
+	 <lit-tag v="aor"/>
+	  <lit-tag v="3"/>
+          <lit-tag v="2"/>
+ 	
+ 	        </lu>
+      </chunk>
+  </out>
+   
+</when>
+<otherwise>
+     <out>
       <chunk name="pers-verb17">
       <tags>
         <tag><lit-tag v="VP"/></tag>
@@ -5173,6 +5213,13 @@
  	        </lu>
       </chunk>
   </out>
+   
+
+</otherwise>
+</choose>
+
+
+  
        
   </when> 
       <when>
@@ -5524,7 +5571,7 @@
       <when>
         <test>
           <equal>
-             <clip pos="2" side="sl" part="lem"/>
+             <clip pos="3" side="sl" part="lem"/>
              <lit v="be"/>
           </equal>
         </test>
@@ -6605,7 +6652,57 @@
           </equal>
         </test>
         <let><var n="tense"/><lit-tag v="ifi"/></let> 
-      <out>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="4" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+ <out>
+      <chunk name="pers-verb-pass-to-inf2">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag>
+      </tags>
+     <lu>
+          <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	 <lit-tag v="ger"/>
+                 <lit-tag v="nom"/>
+        </lu>
+<b pos="1"/>
+<lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+
+    </lu>
+<b pos="2"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="pass"/>
+             <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+        </out>
+     
+
+</when>
+<otherwise>
+
+ <out>
       <chunk name="pers-verb-pass-to-inf2">
       <tags>
         <tag><lit-tag v="VP"/></tag>
@@ -6641,10 +6738,66 @@
         </lu>
       </chunk>
         </out>
+     
+</otherwise>
+</choose>
+
       </when>
 
       <otherwise>
-        <let><var n="tense"/><lit-tag v="aor"/></let>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="4" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+     <let><var n="tense"/><lit-tag v="aor"/></let>
+       <out>
+      <chunk name="pers-verb-pass-to-inf3">
+      <tags>
+        <tag><lit-tag v="VP"/></tag>
+        <tag><lit-tag v="ND"/></tag> <!-- number -->
+        <tag><lit-tag v="PD"/></tag> <!-- person -->
+        <tag><var n="tense"/></tag>  <!-- tense/conditionality -->
+        <tag><lit-tag v="PXD"/></tag> <!-- possessives for verbs??? maybe we need them -->
+        <tag><lit-tag v="NXD"/></tag>
+      </tags>
+       <lu>
+           <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	<lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+        </lu>
+<b pos="1"/>
+<lu>
+     <lit v="үшін"/>
+         <lit-tag v="post"/>
+
+    </lu>
+<b pos="2"/>
+        <lu>
+          <clip pos="2" side="tl" part="lem"/>
+	  <clip pos="2" side="tl" part="a_kaz_verb"/>
+          <lit-tag v="pass"/>
+             <lit-tag v="6"/>
+          <lit-tag v="4"/>
+          <lit-tag v="5"/>
+          <lit-tag v="3"/>
+          <lit-tag v="2"/>
+          <lit-tag v="7"/>
+        </lu>
+      </chunk>
+        </out>
+
+   
+
+</when>
+<otherwise>
+
+     <let><var n="tense"/><lit-tag v="aor"/></let>
        <out>
       <chunk name="pers-verb-pass-to-inf3">
       <tags>
@@ -6681,6 +6834,10 @@
         </lu>
       </chunk>
         </out>
+
+   
+</otherwise>
+</choose>
 
       </otherwise> 
     </choose>
@@ -15685,7 +15842,45 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
       <with-param pos="1"/>
     </call-macro>
      <let><var n="possessive"/><lit-tag v="px3sp"/></let>
-    <out>
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="3" side="sl" part="lem"/>
+             <lit v="be"/>
+          </equal>
+        </test>
+
+  <out>
+    <chunk name="time-for-play">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+  <tag><clip pos="1" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><var n="possessive"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+ <b pos="1"/>
+
+<lu>
+    <lit v="бол"/>
+ 	<lit-tag v="v"/>
+ 	<lit-tag v="iv"/>
+	<lit-tag v="ger"/>
+         <lit-tag v="nom"/>
+     </lu>    
+ <b pos="2"/>
+
+<lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+
+    </chunk>
+    </out>
+
+</when>
+<otherwise>
+  <out>
     <chunk name="time-for-play">
     <tags>
     <tag><lit-tag v="NP"/></tag>
@@ -15710,7 +15905,12 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 
     </chunk>
     </out>
-  </action>
+
+
+</otherwise>
+</choose>
+
+    </action>
 </rule>
 
 

@@ -1244,6 +1244,7 @@
 <e><p><l>november<s n="n"/></l><r>қараша<s n="n"/></r></p></e>
 <e><p><l>ordnance<s n="n"/></l><r>оқ<s n="n"/></r></p></e>
 <e><p><l>outlet<s n="n"/></l><r>розетка<s n="n"/></r></p></e>
+<e><p><l>outlet<s n="n"/></l><r>шығу<s n="n"/></r></p></e>
 <e><p><l>pane<s n="n"/></l><r>аумақ<s n="n"/></r></p></e>
 <e><p><l>proficiency<s n="n"/></l><r>меңгеру<s n="n"/></r></p></e>
 <e><p><l>quart<s n="n"/></l><r>Тоқсан<s n="n"/></r></p></e>
@@ -6566,6 +6567,7 @@
 <e><p><l>citrus<s n="n"/></l><r>цитрус<s n="n"/></r></p></e>
 <e><p><l>city<s n="n"/></l><r>қала<s n="n"/></r></p></e>
 <e><p><l>city<s n="n"/></l><r>шаһар<s n="n"/></r></p></e>
+<e><p><l>cipher<s n="n"/></l><r>шифр<s n="n"/></r></p></e>
 <e><p><l>civilian<s n="n"/></l><r>азамат<s n="n"/></r></p></e>
 <e><p><l>civilisation<s n="n"/></l><r>өркениет<s n="n"/></r></p></e>
 <e><p><l>civility<s n="n"/></l><r>әдеп<s n="n"/></r></p></e>
@@ -7734,6 +7736,7 @@
 <e><p><l>disintegration<s n="n"/></l><r>ыдырау<s n="n"/></r></p></e>
 <e><p><l>disjunction<s n="n"/></l><r>дизъюнкция<s n="n"/></r></p></e>
 <e><p><l>diskette<s n="n"/></l><r>дискета<s n="n"/></r></p></e>
+<e><p><l>floppy<s n="n"/></l><r>дискета<s n="n"/></r></p></e>
 <e><p><l>disk<s n="n"/></l><r>диск<s n="n"/></r></p></e>
 <e><p><l>dismantlement<s n="n"/></l><r>қарусыздандыру<s n="n"/></r></p></e>
 <e><p><l>dismissal<s n="n"/></l><r>жұмыстан<b/>шығару<s n="n"/></r></p></e>
@@ -9001,6 +9004,7 @@
 <e><p><l>gardener<s n="n"/></l><r>бақшашы<s n="n"/></r></p></e>
 <e><p><l>gardening<s n="n"/></l><r>жасылдандыру<s n="n"/></r></p></e>
 <e><p><l>garden<s n="n"/></l><r>бақша<s n="n"/></r></p></e>
+<e><p><l>gauge<s n="n"/></l><r>калибр<s n="n"/></r></p></e>
 <e><p><l>graffiti<s n="n"/></l><r>граффити<s n="n"/></r></p></e>
 <e><p><l>garde<s n="n"/></l><r>авангард<s n="n"/></r></p></e>
 <e><p><l>garret<s n="n"/></l><r>шатыр<s n="n"/></r></p></e>
@@ -9522,6 +9526,7 @@
 <e><p><l>healing<s n="n"/></l><r>емдік<s n="n"/></r></p></e>
 <e><p><l>health<s n="n"/></l><r>ахуал<s n="n"/></r></p></e>
 <e><p><l>health<s n="n"/></l><r>денсаулық<s n="n"/></r></p></e>
+<e><p><l>healthcare<s n="n"/></l><r>денсаулық<b/>caқтау<s n="n"/></r></p></e>
 <e><p><l>healthy<s n="n"/></l><r>сау<s n="n"/></r></p></e>
 <e><p><l>hearing<s n="n"/></l><r>тыңдау<s n="n"/></r></p></e>
 <e><p><l>hearth<s n="n"/></l><r>отан<s n="n"/></r></p></e>
@@ -11865,6 +11870,7 @@
 <e><p><l>opium<s n="n"/></l><r>апиын<s n="n"/></r></p></e>
 <e><p><l>opponent<s n="n"/></l><r>қарсылас<s n="n"/></r></p></e>
 <e><p><l>opponent<s n="n"/></l><r>оппонент<s n="n"/></r></p></e>
+<e><p><l>proponent<s n="n"/></l><r>жақтағыш<s n="n"/></r></p></e>
 <e><p><l>opportunism<s n="n"/></l><r>оппортунизм<s n="n"/></r></p></e>
 <e><p><l>opportunity<s n="n"/></l><r>орай<s n="n"/></r></p></e>
 <e><p><l>opposing<s n="n"/></l><r>қарсыласу<s n="n"/></r></p></e>
@@ -13700,6 +13706,7 @@
 <e><p><l>sanatorium<s n="n"/></l><r>шипажай<s n="n"/></r></p></e>
 <e><p><l>sanction<s n="n"/></l><r>санкция<s n="n"/></r></p></e>
 <e><p><l>sanctuary<s n="n"/></l><r>ғибадатхана<s n="n"/></r></p></e>
+<e><p><l>shrine<s n="n"/></l><r>ғибадатхана<s n="n"/></r></p></e>
 <e><p><l>sandal<s n="n"/></l><r>кебіс<s n="n"/></r></p></e>
 <e><p><l>sand<s n="n"/></l><r>құм<s n="n"/></r></p></e>
 <e><p><l>sandwich<s n="n"/></l><r>сэндвич<s n="n"/></r></p></e>
@@ -13761,6 +13768,7 @@
 <e><p><l>scarlet<s n="n"/></l><r>қызыл<b/>түс<s n="n"/></r></p></e>
 <e><p><l>scar<s n="n"/></l><r>тыртық<s n="n"/></r></p></e>
 <e><p><l>scenario<s n="n"/></l><r>сценарий<s n="n"/></r></p></e>
+<e><p><l>screenplay<s n="n"/></l><r>сценарий<s n="n"/></r></p></e>
 <e><p><l>scene<s n="n"/></l><r>сахна<s n="n"/></r></p></e>
 <e><p><l>scenography<s n="n"/></l><r>сценография<s n="n"/></r></p></e>
 <e><p><l>scent<s n="n"/></l><r>иіс<s n="n"/></r></p></e>
@@ -24929,6 +24937,8 @@
 <e><p><l>urgently<s n="adv"/></l><r>шұғыл<s n="adv"/></r></p></e>
 <e><p><l>usefully<s n="adv"/></l><r>пайдалы<s n="adv"/></r></p></e>
 <e><p><l>usually<s n="adv"/></l><r>әдетте<s n="adv"/></r></p></e>
+<e><p><l>conventionally<s n="adv"/></l><r>шартпен<s n="adv"/></r></p></e>
+<e><p><l>nominally<s n="adv"/></l><r>жалған<s n="adv"/></r></p></e>
 <e><p><l>utterly<s n="adv"/></l><r>шеткі<s n="adv"/></r></p></e>
 <e><p><l>vehemently<s n="adv"/></l><r>өлердей<s n="adv"/></r></p></e>
 <e><p><l>vertically<s n="adv"/></l><r>тіке<s n="adv"/></r></p></e>
@@ -25412,6 +25422,8 @@
 <e><p><l>beautiful<s n="adj"/></l><r>көркем<s n="adj"/></r></p></e>
 <e><p><l>beautiful<s n="adj"/></l><r>сұлу<s n="adj"/></r></p></e>
 <e><p><l>beautiful<s n="adj"/></l><r>тамаша<s n="adj"/></r></p></e>
+<e><p><l>composite<s n="adj"/></l><r>құрама<s n="adj"/></r></p></e>
+<e><p><l>ubiquitous<s n="adj"/></l><r>кезбе<s n="adj"/></r></p></e>
 <e><p><l>cameo<s n="adj"/></l><r>эпизодтық<s n="adj"/></r></p></e>
 <e><p><l>behaved<s n="adj"/></l><r>тәрбиленген<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>behavioural<s n="adj"/></l><r>мінез-құлықты<s n="adj"/></r></p></e>
@@ -25807,6 +25819,7 @@
 <e><p><l>covariant<s n="adj"/></l><r>ковариантты<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>cowardly<s n="adj"/></l><r>қорқақ<s n="adj"/></r></p></e>
 <e><p><l>crammed<s n="adj"/></l><r>толы<s n="adj"/></r></p></e>
+<e><p><l>associative<s n="adj"/></l><r>ассоциативтік<s n="adj"/></r></p></e>
 <e><p><l>creative<s n="adj"/></l><r>шығармашыл<s n="adj"/></r></p></e>
 <e><p><l>creative<s n="adj"/></l><r>креативті<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>credible<s n="adj"/></l><r>ықтимал<s n="adj"/></r></p></e>
@@ -26234,6 +26247,7 @@
 <e><p><l>fettered<s n="adj"/></l><r>шыңдаулы<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>feudal<s n="adj"/></l><r>феодалдық<s n="adj"/></r></p></e>
 <e><p><l>feverish<s n="adj"/></l><r>жанталаса<s n="adj"/></r></p></e>
+<e><p><l>floppy<s n="adj"/></l><r>ілулі<s n="adj"/></r></p></e>
 <e><p><l>few<s n="adj"/></l><r>аз<s n="adj"/></r></p></e>
 <e><p><l>fibrous<s n="adj"/></l><r>талшық<s n="adj"/></r></p></e>
 <e><p><l>fictitious<s n="adj"/></l><r>жалған<s n="adj"/></r></p></e>
@@ -26816,6 +26830,8 @@
 <e><p><l>discontinued<s n="adj"/></l><r>тоқтатылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>coupled<s n="adj"/></l><r>байланыстырылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>embedded<s n="adj"/></l><r>кіріктірілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>abbreviated<s n="adj"/></l><r>қысқартылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>guaranteed<s n="adj"/></l><r>кепілді<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>exploited<s n="adj"/></l><r>пайдаланылатын<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>ordained<s n="adj"/></l><r>алдын<b/>ала<b/>анықталған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>synthesized<s n="adj"/></l><r>синтезделген<s n="adj"/><s n="subst"/></r></p></e>
@@ -28319,6 +28335,7 @@
 <e><p><l>useless<s n="adj"/></l><r>пайдасыз<s n="adj"/></r></p></e>
 <e><p><l>usual<s n="adj"/></l><r>әдеттегі<s n="adj"/></r></p></e>
 <e><p><l>spectral<s n="adj"/></l><r>спектрлік<s n="adj"/></r></p></e>
+<e><p><l>bacterial<s n="adj"/></l><r>бактериялық<s n="adj"/></r></p></e>
 <e><p><l>uterine<s n="adj"/></l><r>құрсақ<s n="adj"/></r></p></e>
 <e><p><l>utmost<s n="adj"/></l><r>үлкен<s n="adj"/></r></p></e>
 <e><p><l>utopian<s n="adj"/></l><r>утопиялық<s n="adj"/></r></p></e>
@@ -28366,6 +28383,7 @@
 <e><p><l>virtual<s n="adj"/></l><r>виртуалды<s n="adj"/></r></p></e>
 <e><p><l>viscous<s n="adj"/></l><r>тұтқыр<s n="adj"/></r></p></e>
 <e><p><l>visible<s n="adj"/></l><r>айқын<s n="adj"/></r></p></e>
+<e><p><l>noticeable<s n="adj"/></l><r>айқын<s n="adj"/></r></p></e>
 <e><p><l>visionary<s n="adj"/></l><r>қияли<s n="adj"/></r></p></e>
 <e><p><l>visual<s n="adj"/></l><r>визуалді<s n="adj"/></r></p></e>
 <e><p><l>vital<s n="adj"/></l><r>өмірлік<s n="adj"/></r></p></e>
@@ -29513,6 +29531,7 @@
 <e><p><l>curve<s n="vblex"/></l><r>майыстыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>cushion<s n="vblex"/></l><r>үнде<s n="v"/><s n="iv"/><s n="neg"/></r></p></e>
 <e><p><l>cut<s n="vblex"/></l><r>кес<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>cipher<s n="vblex"/></l><r>шифрла<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>dam<s n="vblex"/></l><r>бекіт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>damage<s n="vblex"/></l><r>бұз<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>dampen<s n="vblex"/></l><r>ылғалдан<s n="v"/><s n="iv"/></r></p></e>
@@ -29803,6 +29822,7 @@
 <e><p><l>explain<s n="vblex"/></l><r>түсіндір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>explode<s n="vblex"/></l><r>жарыл<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>explore<s n="vblex"/></l><r>зертте<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>experiment<s n="vblex"/></l><r>эксперимент<b/>жаса<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>export<s n="vblex"/></l><r>экспортта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>expose<s n="vblex"/></l><r>шығар<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>expostulate<s n="vblex"/></l><r>қарсылас<s n="v"/><s n="iv"/></r></p></e>
@@ -29897,6 +29917,11 @@
 <e><p><l>fulfil<s n="vblex"/></l><r>жүзеге<b/>асыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>function<s n="vblex"/></l><r>жұмыс<b/>істе<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>fund<s n="vblex"/></l><r>жина<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>enlist<s n="vblex"/></l><r>жина<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>enlist<s n="vblex"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>enlist<s n="vblex"/></l><r>тарт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>diagnose<s n="vblex"/></l><r>диагностикала<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>delete<s n="vblex"/></l><r>кетір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>furnish<s n="vblex"/></l><r>жабдықта<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>gain<s n="vblex"/></l><r>жет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>gallop<s n="vblex"/></l><r>текіректетіп<b/>шапқыла<s n="v"/><s n="iv"/></r></p></e>

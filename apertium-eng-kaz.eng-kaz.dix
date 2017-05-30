@@ -7118,6 +7118,7 @@
 <e><p><l>counterprogramming<s n="n"/></l><r>контрпрограммалау<s n="n"/></r></p></e>
 <e><p><l>countershaft<s n="n"/></l><r>аралық<b/>білік<s n="n"/></r></p></e>
 <e><p><l>counter<s n="n"/></l><r>есептеуші<s n="n"/></r></p></e>
+<e><p><l>counterpart<s n="n"/></l><r>көшірме<s n="n"/></r></p></e>
 <e><p><l>counterweight<s n="n"/></l><r>қарсы<b/>салмақ<s n="n"/></r></p></e>
 <e><p><l>countryman<s n="n"/></l><r>отандас<s n="n"/></r></p></e>
 <e><p><l>countryside<s n="n"/></l><r>ауылдық<b/>аудан<s n="n"/></r></p></e>
@@ -8695,6 +8696,7 @@
 <e><p><l>finery<s n="n"/></l><r>зейнет<s n="n"/></r></p></e>
 <e><p><l>fine<s n="n"/></l><r>жақсылық<s n="n"/></r></p></e>
 <e><p><l>finger<s n="n"/></l><r>саусақ<s n="n"/></r></p></e>
+<e><p><l>fugue<s n="n"/></l><r>фуга<s n="n"/></r></p></e>
 <e><p><l>Finn<s n="n"/></l><r>Финка<s n="n"/></r></p></e>
 <e><p><l>fiord<s n="n"/></l><r>фьорд<s n="n"/></r></p></e>
 <e><p><l>firefighter<s n="n"/></l><r>өртсөндіргіш<s n="n"/></r></p></e>
@@ -12779,6 +12781,7 @@
 <e><p><l>premaxilla<s n="n"/></l><r>премаксилла<s n="n"/></r></p></e>
 <e><p><l>premeditation<s n="n"/></l><r>қасақаналық<s n="n"/></r></p></e>
 <e><p><l>première<s n="n"/></l><r>премьера<s n="n"/></r></p></e>
+<e><p><l>premiere<s n="n"/></l><r>премьера<s n="n"/></r></p></e>
 <e><p><l>premier<s n="n"/></l><r>премьер<s n="n"/></r></p></e>
 <e><p><l>premise<s n="n"/></l><r>алғышарт<s n="n"/></r></p></e>
 <e><p><l>premium<s n="n"/></l><r>сыйлық<s n="n"/></r></p></e>
@@ -15376,6 +15379,8 @@
 <e><p><l>tuberculosis<s n="n"/></l><r>туберкулез<s n="n"/></r></p></e>
 <e><p><l>tuber<s n="n"/></l><r>түйнек<s n="n"/></r></p></e>
 <e><p><l>tube<s n="n"/></l><r>түтік<s n="n"/></r></p></e>
+<e><p><l>fatty<s n="n"/></l><r>толық<s n="n"/></r></p></e>
+<e><p><l>fatty<s n="n"/></l><r>семіз<s n="n"/></r></p></e>
 <e><p><l>tub<s n="n"/></l><r>бадья<s n="n"/></r></p></e>
 <e><p><l>tubule<s n="n"/></l><r>түтік<s n="n"/></r></p></e>
 <e><p><l>tubulin<s n="n"/></l><r>тубулина<s n="n"/></r></p></e>
@@ -25422,6 +25427,8 @@
 <e><p><l>beautiful<s n="adj"/></l><r>көркем<s n="adj"/></r></p></e>
 <e><p><l>beautiful<s n="adj"/></l><r>сұлу<s n="adj"/></r></p></e>
 <e><p><l>beautiful<s n="adj"/></l><r>тамаша<s n="adj"/></r></p></e>
+<e><p><l>monastic<s n="adj"/></l><r>монахтық<s n="adj"/></r></p></e>
+<e><p><l>recursive<s n="adj"/></l><r>рекурсивті<s n="adj"/></r></p></e>
 <e><p><l>composite<s n="adj"/></l><r>құрама<s n="adj"/></r></p></e>
 <e><p><l>ubiquitous<s n="adj"/></l><r>кезбе<s n="adj"/></r></p></e>
 <e><p><l>cameo<s n="adj"/></l><r>эпизодтық<s n="adj"/></r></p></e>
@@ -26830,6 +26837,13 @@
 <e><p><l>discontinued<s n="adj"/></l><r>тоқтатылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>coupled<s n="adj"/></l><r>байланыстырылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>embedded<s n="adj"/></l><r>кіріктірілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>formalized<s n="adj"/></l><r>нысандандырылған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>labeled<s n="adj"/></l><r>таңбаланған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>styled<s n="adj"/></l><r>стильденген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>bordered<s n="adj"/></l><r>жиекті<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>bordered<s n="adj"/></l><r>көмкерілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>bordered<s n="adj"/></l><r>айналдыра<b/>қоршалған<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>mined<s n="adj"/></l><r>миналанған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>abbreviated<s n="adj"/></l><r>қысқартылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>guaranteed<s n="adj"/></l><r>кепілді<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>exploited<s n="adj"/></l><r>пайдаланылатын<s n="adj"/><s n="subst"/></r></p></e>
@@ -27995,6 +28009,7 @@
 <e><p><l>sorry<s n="adj"/></l><r>кешірімді<s n="adj"/></r></p></e>
 <e><p><l>southern<s n="adj"/></l><r>оңтүстік<s n="adj"/></r></p></e>
 <e><p><l>southwestern<s n="adj"/></l><r>оңтүстік-батыс<s n="adj"/></r></p></e>
+<e><p><l>southeastern<s n="adj"/></l><r>оңтүстік-шығыс<s n="adj"/></r></p></e>
 <e><p><l>soviet<s n="adj"/></l><r>советтік<s n="adj"/></r></p></e>
 <e><p><l>sowed<s n="adj"/></l><r>егілетін<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>spanish<s n="adj"/></l><r>испаниялық<s n="adj"/></r></p></e>
@@ -28105,6 +28120,7 @@
 <e><p><l>tabular<s n="adj"/></l><r>кестелік<s n="adj"/></r></p></e>
 <e><p><l>tacit<s n="adj"/></l><r>үндемес<s n="adj"/></r></p></e>
 <e><p><l>tactical<s n="adj"/></l><r>тактикалық<s n="adj"/></r></p></e>
+<e><p><l>papal<s n="adj"/></l><r>папалық<s n="adj"/></r></p></e>
 <e><p><l>tainted<s n="adj"/></l><r>бұзылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>tame<s n="adj"/></l><r>қол<s n="adj"/></r></p></e>
 <e><p><l>tangible<s n="adj"/></l><r>сезінетін<s n="adj"/></r></p></e>
@@ -29622,6 +29638,7 @@
 <e><p><l>devastate<s n="vblex"/></l><r>талқанда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>develop<s n="vblex"/></l><r>дамыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>devise<s n="vblex"/></l><r>ойлап<b/>тап<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>reference<s n="vblex"/></l><r>сілтеме<b/>бойынша<b/>тап<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>devote<s n="vblex"/></l><r>тәуелден<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>devour<s n="vblex"/></l><r>жалма<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>dictate<s n="vblex"/></l><r>айтып<b/>жаздыр<s n="v"/><s n="tv"/></r></p></e>
@@ -31022,6 +31039,8 @@
 <e><p><l>use<s n="vblex"/></l><r>қолдан<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>use<s n="vblex"/></l><r>тұтын<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>utilise<s n="vblex"/></l><r>пайдалан<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>popularize<s n="vblex"/></l><r>жай<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>popularize<s n="vblex"/></l><r>тарат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>validate<s n="vblex"/></l><r>бекіт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>value<s n="vblex"/></l><r>бағала<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>vanish<s n="vblex"/></l><r>жоғалып<b/>кет<s n="v"/><s n="iv"/></r></p></e>
@@ -31049,6 +31068,7 @@
 <e><p><l>warn<s n="vblex"/></l><r>ескерт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>wash<s n="vblex"/></l><r>жу<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>waste<s n="vblex"/></l><r>жарат<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>premiere<s n="vblex"/></l><r>премьера<b/>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>watch<s n="vblex"/></l><r>қара<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>watch<s n="vblex"/></l><r>шарла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>water<s n="vblex"/></l><r>сула<s n="v"/><s n="tv"/></r></p></e>

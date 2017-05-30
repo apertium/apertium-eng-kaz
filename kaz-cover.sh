@@ -1,6 +1,6 @@
-DIX=/home/apertium/apertium-testing/apertium-kaz/apertium-kaz.kaz.lexc
-BIN=/home/apertium/apertium-testing/apertium-eng-kaz/kaz-eng.automorf.bin
-cat /home/apertium/apertium-testing/apertium-eng-kaz/texts/plain25kaz.txt | cut -f2 | grep -v '>(' | sed 's/&lt;/</g' | sed 's/&gt;/>/g' | apertium-destxt | lt-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/kaz.coverage25.txt
+DIX=/home/aida/apertium-testing/apertium-kaz/apertium-kaz.kaz.lexc
+BIN=/home/aida/apertium-testing/apertium-eng-kaz/kaz-eng.automorf.bin
+cat /home/aida/Downloads/plain25kaz.txt | cut -f2 | grep -v '>(' | sed 's/&lt;/</g' | sed 's/&gt;/>/g' | apertium-destxt | lt-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/kaz.coverage25.txt
 
 EDICT=`cat $DIX | grep ':' | wc -l`;
 EPAR=`cat $DIX | grep ':' | wc -l`;

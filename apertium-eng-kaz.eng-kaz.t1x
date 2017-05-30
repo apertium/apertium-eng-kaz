@@ -589,6 +589,7 @@
     <def-var n="possessive"/>
     <def-var n="plural"/>
     <def-var n="case"/>
+    <def-var n="caseDem"/>
     <def-var n="bolmasyn"/>
   <def-var n="caseFirstWord"/>
     <def-var n="tense"/>
@@ -7559,8 +7560,12 @@
      <call-macro n="choose_case_and_postposition2">
         <with-param pos="1"/>
         <with-param pos="3"/>
+     </call-macro>
+    <call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
         <with-param pos="5"/>
      </call-macro>
+
 <!--
       <call-macro n="build-noun-lu"><with-param pos="2"/></call-macro>
 -->
@@ -7691,7 +7696,11 @@
      <call-macro n="choose_case_and_postposition2">
         <with-param pos="1"/>
         <with-param pos="2"/>
-        <with-param pos="4"/>
+     </call-macro>
+
+     <call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
+        <with-param pos="2"/>
      </call-macro>
 <!--
       <call-macro n="build-noun-lu"><with-param pos="2"/></call-macro>
@@ -7811,6 +7820,9 @@
      <call-macro n="choose_case_and_postposition2">
         <with-param pos="1"/>
         <with-param pos="3"/>
+     </call-macro>
+<call-macro n="choose_case_and_postposition2">
+        <with-param pos="1"/>
         <with-param pos="5"/>
      </call-macro>
 <!--
@@ -11263,6 +11275,19 @@
 
          <when> <!-- Demonstrative, no postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
+<choose>
+<when>  <!-- анау det dem -->
+           <test><and><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+<equal><clip pos="2" side="sl" part="lem"/><lit v="that"/></equal>
+</and></test>
+<let><var n="caseDem"/>             <lit v=""/></let>
+</when>
+<otherwise>
+<let><var n="caseDem"/>             <lit-tag v="nom"/></let>
+</otherwise>
+
+</choose>
+
            <out>
              <chunk name="prep-detdem-noun-nopost">
           <tags>
@@ -11277,7 +11302,8 @@
              <clip pos="2" side="tl" part="lem"/>
              <clip pos="2" side="tl" part="a_det"/>
              <clip pos="2" side="tl" part="a_dem"/>
-             <lit-tag v="nom"/>
+<var n="caseDem"/>
+
              </lu>
              <b pos="2"/>
              <lu>  
@@ -16257,6 +16283,42 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <pattern-item n="adjec"/>
   </pattern>
   <action>
+<choose>
+    <when>
+     <test>  
+       <equal>
+      <clip pos="1" side="tl" part="a_pron"/>
+          <lit-tag v="prn.pers"/>
+       </equal>
+     </test>
+      <out>
+    <chunk name="pron-adj">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag>
+ <tag><lit-tag v="subst"/></tag>
+ <tag><lit-tag v="PXD"/></tag>
+ <tag><lit-tag v="CD"/></tag>
+    </tags>
+	<b pos="1"/>
+     <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_pron"/>
+      <clip pos="1" side="tl" part="a_pers"/>
+      <clip pos="1" side="tl" part="a_nbr"/>
+      <clip pos="1" side="tl" part="a_cas"/>
+    </lu>
+	<b/>
+    <lu>
+      <clip pos="2" side="tl" part="lem"/>
+        <lit-tag v="adj"/>
+        <lit-tag v="2"/>
+        <lit-tag v="3"/>
+        <lit-tag v="4"/>
+     </lu>
+    </chunk>
+    </out>
+</when>
+<otherwise>
     <out>
     <chunk name="det-adj">
     <tags>
@@ -16281,6 +16343,9 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
      </lu>
     </chunk>
     </out>
+</otherwise>
+</choose>
+
   </action>
 </rule>
 

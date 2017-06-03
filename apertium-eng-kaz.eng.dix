@@ -14892,6 +14892,8 @@
 
                             <e lm="waste" i=""><i>wast</i><par n="liv/e__vblex"/></e>
 
+			    <e lm="trigger" i=""><i>trigger</i><par n="approach__vblex"/></e>
+
                             <e lm="watch" i=""><i>watch</i><par n="approach__vblex"/></e>
 
  <e lm="scare" i=""><i>scare</i><par n="approach__vblex"/></e>
@@ -45902,6 +45904,8 @@
 
                             <e lm="animal" i=""><i>animal</i><par n="house__n"/></e>
 
+			    <e lm="anime" i=""><i>anime</i><par n="house__n"/></e>
+
                             <e lm="animation" i=""><i>animation</i><par n="house__n"/></e>
 
                             <e lm="animus" i=""><i>animus</i><par n="house__n"/></e>
@@ -56597,6 +56601,8 @@
 
                             <e lm="ticket" i=""><i>ticket</i><par n="house__n"/></e>
 
+			    <e lm="timber" i=""><i>timber</i><par n="house__n"/></e>
+
                             <e lm="tide" i=""><i>tide</i><par n="house__n"/></e>
 
                             <e lm="oncoming tide" i=""><i>oncoming<b/>tide</i><par n="house__n"/></e>
@@ -59634,6 +59640,8 @@
 
                             <e lm="flagrant" i=""><i>flagrant</i><par n="expensive__adj"/></e>
 
+			    <e lm="findable" i=""><i>findable</i><par n="expensive__adj"/></e>
+
                             <e lm="flammable" i=""><i>flammable</i><par n="expensive__adj"/></e>
 
                             <e lm="flat" i=""><i>flat</i><par n="flat/__adj"/></e>
@@ -61058,6 +61066,7 @@
 <e lm="discontinued" i=""><i>discontinued</i><par n="expensive__adj"/></e>
 <e lm="coupled" i=""><i>coupled</i><par n="expensive__adj"/></e>
 <e lm="embedded" i=""><i>embedded</i><par n="expensive__adj"/></e>
+<e lm="voiced" i=""><i>voiced</i><par n="expensive__adj"/></e>
 <e lm="formalized" i=""><i>formalized</i><par n="expensive__adj"/></e>
 <e lm="labeled" i=""><i>labeled</i><par n="expensive__adj"/></e>
 <e lm="styled" i=""><i>styled</i><par n="expensive__adj"/></e>
@@ -65362,6 +65371,8 @@
 
                             <e lm="see" i=""><i>s</i><par n="s/ee__vblex"/></e>
 
+			    <e lm="oversee" i=""><i>overs</i><par n="s/ee__vblex"/></e>
+
                             <e lm="sing" i=""><i>s</i><par n="r/ing__vblex"/></e>
 
                             <e lm="seek" i=""><i>s</i><par n="s/eek__vblex"/></e>
@@ -65958,6 +65969,8 @@
                             <e lm="waste" i=""><i>wast</i><par n="liv/e__vblex"/></e>
 
                             <e lm="watch" i=""><i>watch</i><par n="approach__vblex"/></e>
+
+			    <e lm="interview" i=""><i>interview</i><par n="approach__vblex"/></e>
 
 			    <e lm="enlist" i=""><i>enlist</i><par n="approach__vblex"/></e>
 
@@ -71965,6 +71978,8 @@ wind
                             <e lm="conversational" i=""><i>conversational</i><par n="expensive__adj"/></e>
 
                             <e lm="conversely" i=""><i>conversely</i><par n="maybe__adv"/></e>
+
+			    <e lm="versa" i=""><i>versa</i><par n="maybe__adv"/></e>
 
                             <e lm="converter" i=""><i>converter</i><par n="house__n"/></e>
 

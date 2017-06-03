@@ -6490,6 +6490,7 @@
 <e><p><l>ciliate<s n="n"/></l><r>инфузория<s n="n"/></r></p></e>
 <e><p><l>cinema<s n="n"/></l><r>кино<s n="n"/></r></p></e>
 <e><p><l>cinema<s n="n"/></l><r>кинотеатр<s n="n"/></r></p></e>
+<e><p><l>constituency<s n="n"/></l><r>сайлау<b/>округ<s n="n"/></r></p></e>
 <e><p><l>cinematography<s n="n"/></l><r>кино<s n="n"/></r></p></e>
 <e><p><l>cinematography<s n="n"/></l><r>кинематография<s n="n"/></r></p></e>
 <e><p><l>cinnabar<s n="n"/></l><r>киноварь<s n="n"/></r></p></e>
@@ -9520,7 +9521,7 @@
 <e><p><l>headcount<s n="n"/></l><r>сан<s n="n"/></r></p></e>
 <e><p><l>header<s n="n"/></l><r>тақырыптама<s n="n"/></r></p></e>
 <e><p><l>headline<s n="n"/></l><r>тақырыптама<s n="n"/></r></p></e>
-<e><p><l>headquarters<s n="n"/></l><r>штабпәтер<s n="n"/></r></p></e>
+<e><p><l>headquarter<s n="n"/></l><r>штаб-пәтер<s n="n"/></r></p></e>
 <e><p><l>head<s n="n"/></l><r>бас<s n="n"/></r></p></e>
 <e><p><l>head<s n="n"/></l><r>бастық<s n="n"/></r></p></e>
 <e><p><l>head<s n="n"/></l><r>басшы<s n="n"/></r></p></e>
@@ -13815,6 +13816,7 @@
 <e><p><l>screw<s n="n"/></l><r>бұранда<s n="n"/></r></p></e>
 <e><p><l>scribe<s n="n"/></l><r>жазғыш<s n="n"/></r></p></e>
 <e><p><l>script<s n="n"/></l><r>сценарий<s n="n"/></r></p></e>
+<e><p><l>scalar<s n="n"/></l><r>скаляр<s n="n"/></r></p></e>
 <e><p><l>scriptwriter<s n="n"/></l><r>сценариші<s n="n"/></r></p></e>
 <e><p><l>scrolling<s n="n"/></l><r>айналдыру<s n="n"/></r></p></e>
 <e><p><l>scroll<s n="n"/></l><r>айналдыру<s n="n"/></r></p></e>
@@ -24429,6 +24431,7 @@
 <e><p><l>etc<s n="adv"/></l><r>т.б.<s n="abbr"/></r></p></e>
 <e><p><l>administrative<b/>code<s n="n"/></l><r>ӘҚБК<s n="abbr"/></r></p></e>
 <e><p><l>etcetera<s n="adv"/></l><r>бұдан<b/>әрі<s n="adv"/></r></p></e>
+<e><p><l>onward<s n="adv"/></l><r>одан<b/>әрі<s n="adv"/></r></p></e>
 <e><p><l>ethically<s n="adv"/></l><r>этикалы<s n="adv"/></r></p></e>
 <e><p><l>ethnically<s n="adv"/></l><r>этникалы<s n="adv"/></r></p></e>
 <e><p><l>even<s n="adv"/></l><r>тіпті<s n="adv"/></r></p></e>
@@ -25430,6 +25433,8 @@
 <e><p><l>beautiful<s n="adj"/></l><r>көркем<s n="adj"/></r></p></e>
 <e><p><l>beautiful<s n="adj"/></l><r>сұлу<s n="adj"/></r></p></e>
 <e><p><l>beautiful<s n="adj"/></l><r>тамаша<s n="adj"/></r></p></e>
+<e><p><l>temporal<s n="adj"/></l><r>уақыттық<s n="adj"/></r></p></e>
+<e><p><l>elliptic<s n="adj"/></l><r>эллипстік<s n="adj"/></r></p></e>
 <e><p><l>monastic<s n="adj"/></l><r>монахтық<s n="adj"/></r></p></e>
 <e><p><l>recursive<s n="adj"/></l><r>рекурсивті<s n="adj"/></r></p></e>
 <e><p><l>composite<s n="adj"/></l><r>құрама<s n="adj"/></r></p></e>
@@ -26841,6 +26846,7 @@
 <e><p><l>discontinued<s n="adj"/></l><r>тоқтатылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>coupled<s n="adj"/></l><r>байланыстырылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>embedded<s n="adj"/></l><r>кіріктірілген<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>displaced<s n="adj"/></l><r>ауыстырылған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>voiced<s n="adj"/></l><r>сыңғырлаған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>voiced<s n="adj"/></l><r>сылдырлаған<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>formalized<s n="adj"/></l><r>нысандандырылған<s n="adj"/><s n="subst"/></r></p></e>
@@ -31078,7 +31084,9 @@
 <e><p><l>premiere<s n="vblex"/></l><r>премьера<b/>бер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>watch<s n="vblex"/></l><r>қара<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>watch<s n="vblex"/></l><r>шарла<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>sanction<s n="vblex"/></l><r>санкцияла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>trigger<s n="vblex"/></l><r>бастамашылық<b/>ет<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>headquarter<s n="vblex"/></l><r>штаб-пәтер<b/>орналас<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>interview<s n="vblex"/></l><r>сұхбат<b/>ал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>water<s n="vblex"/></l><r>сула<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>wave<s n="vblex"/></l><r>бұлға<s n="v"/><s n="iv"/></r></p></e>
@@ -31540,6 +31548,7 @@
 <e><p><l>consider<s n="vblex"/></l><r>болып<b/>санал<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>go<s n="vblex"/></l><r>ерт<s n="v"/><s n="tv"/><s n="coop"/><s n="imp"/></r></p></e>
 <e><p><l>always<s n="adv"/></l><r>әрқашан<s n="adv"/></r></p></e>
+<e><p><l>variously<s n="adv"/></l><r>әрқалай<s n="adv"/></r></p></e>
 <e><p><l>partnership<s n="n"/></l><r>әріптестік<s n="n"/></r></p></e>
 <e><p><l>emirate<s n="n"/></l><r>әмірлік<s n="n"/></r></p></e>
 <e><p><l>governor's<b/>office<s n="n"/></l><r>әкімдік<s n="n"/></r></p></e>

@@ -14894,6 +14894,8 @@
 
 			    <e lm="trigger" i=""><i>trigger</i><par n="approach__vblex"/></e>
 
+			    <e lm="headquarter" i=""><i>headquarter</i><par n="approach__vblex"/></e>
+
                             <e lm="watch" i=""><i>watch</i><par n="approach__vblex"/></e>
 
  <e lm="scare" i=""><i>scare</i><par n="approach__vblex"/></e>
@@ -46372,7 +46374,7 @@
 
                             <e lm="bacterium" i=""><i>bacteri</i><par n="bacteri/um__n"/></e>
 
-                            <e lm="millenium" i=""><i>milleni</i><par n="bacteri/um__n"/></e>
+                            <e lm="millennium" i=""><i>millenni</i><par n="bacteri/um__n"/></e>
 
                             <e lm="badger" i=""><i>badger</i><par n="house__n"/></e>
 
@@ -48179,6 +48181,8 @@
                             <e lm="copy" i=""><i>cop</i><par n="bab/y__n"/></e>
 
                             <e lm="puppy" i=""><i>pupp</i><par n="bab/y__n"/></e>
+
+			    <e lm="constituency" i=""><i>constituenc</i><par n="bab/y__n"/></e>
 
 			    <e lm="fatty" i=""><i>fatt</i><par n="bab/y__n"/></e>
 
@@ -52590,8 +52594,6 @@
 
                             <e lm="milk" i=""><i>milk</i><par n="house__n"/></e>
 
-                            <e lm="millennium" i=""><i>millennium</i><par n="house__n"/></e>
-
                             <e lm="milligram" i=""><i>milligram</i><par n="house__n"/></e>
 
                             <e lm="milligramme" i=""><i>milligramme</i><par n="house__n"/></e>
@@ -55318,6 +55320,8 @@
                             <e lm="screw" i=""><i>screw</i><par n="house__n"/></e>
 
                             <e lm="script" i=""><i>script</i><par n="house__n"/></e>
+
+			    <e lm="scalar" i=""><i>scalar</i><par n="house__n"/></e>
 
                             <e lm="scruple" i=""><i>scruple</i><par n="house__n"/></e>
 
@@ -58831,7 +58835,11 @@
 
                             <e lm="beautiful" i=""><i>beautiful</i><par n="expensive__adj"/></e>
 
+			    <e lm="temporal" i=""><i>temporal</i><par n="expensive__adj"/></e>
+
 			    <e lm="monastic" i=""><i>monastic</i><par n="expensive__adj"/></e>
+
+			    <e lm="elliptic" i=""><i>elliptic</i><par n="expensive__adj"/></e>
 
 			    <e lm="composite" i=""><i>composite</i><par n="expensive__adj"/></e>
 
@@ -61066,6 +61074,7 @@
 <e lm="discontinued" i=""><i>discontinued</i><par n="expensive__adj"/></e>
 <e lm="coupled" i=""><i>coupled</i><par n="expensive__adj"/></e>
 <e lm="embedded" i=""><i>embedded</i><par n="expensive__adj"/></e>
+<e lm="displaced" i=""><i>displaced</i><par n="expensive__adj"/></e>
 <e lm="voiced" i=""><i>voiced</i><par n="expensive__adj"/></e>
 <e lm="formalized" i=""><i>formalized</i><par n="expensive__adj"/></e>
 <e lm="labeled" i=""><i>labeled</i><par n="expensive__adj"/></e>
@@ -65970,6 +65979,8 @@
 
                             <e lm="watch" i=""><i>watch</i><par n="approach__vblex"/></e>
 
+			    <e lm="sanction" i=""><i>sanction</i><par n="approach__vblex"/></e>
+
 			    <e lm="interview" i=""><i>interview</i><par n="approach__vblex"/></e>
 
 			    <e lm="enlist" i=""><i>enlist</i><par n="approach__vblex"/></e>
@@ -66321,6 +66332,8 @@
                             <e lm="also" i=""><i>also</i><par n="maybe__adv"/></e>
 
                             <e lm="always" i=""><i>always</i><par n="maybe__adv"/></e>
+
+			    <e lm="variously" i=""><i>variously</i><par n="maybe__adv"/></e>
 
                             <e lm="amid a lot of hype" i=""><i>amid<b/>a<b/>lot<b/>of<b/>hype</i><par n="maybe__adv"/></e>
 
@@ -86223,6 +86236,8 @@ wind
                             <e lm="etc." i=""><i>etc.</i><par n="maybe__adv"/></e>
 
                             <e lm="etcetera" i=""><i>etcetera</i><par n="maybe__adv"/></e>
+
+			    <e lm="onward" i=""><i>onward</i><par n="maybe__adv"/></e>
 
                             <e lm="viz." i=""><i>viz.</i><par n="maybe__adv"/></e>
 

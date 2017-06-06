@@ -14898,6 +14898,8 @@
 
                             <e lm="watch" i=""><i>watch</i><par n="approach__vblex"/></e>
 
+			    <e lm="repeal" i=""><i>repeal</i><par n="approach__vblex"/></e>
+
  <e lm="scare" i=""><i>scare</i><par n="approach__vblex"/></e>
 
                             <e lm="watch after" i=""><i>watch</i><par n="approach__vblex"/><p><l><b/>after</l><r><g><b/>after</g></r></p></e>
@@ -41703,6 +41705,8 @@
 <e lm="Karelian" i=""><i>Karelian</i><par n="house__n"/></e>
 <e lm="Kelvin" i=""><i>Kelvin</i><par n="house__n"/></e>
 <e lm="kerosene" i=""><i>kerosene</i><par n="house__n"/></e>
+<e lm="kernel" i=""><i>kernel</i><par n="house__n"/></e>
+<e lm="inscription" i=""><i>inscription</i><par n="house__n"/></e>
 <e lm="khalifat" i=""><i>khalifat</i><par n="house__n"/></e>
 <e lm="kiit" i=""><i>kiit</i><par n="house__n"/></e>
 <e lm="Komsomol" i=""><i>Komsomol</i><par n="house__n"/></e>
@@ -47854,11 +47858,15 @@
 
                             <e lm="passenger" i=""><i>passenger</i><par n="house__n"/></e>
 
+			    <e lm="commuter" i=""><i>commuter</i><par n="house__n"/></e>
+
                             <e lm="passers-by" i=""><i>passer<b/>-by</i><par n="house__n"/></e>
 
                             <e lm="passenger seat" i=""><i>passenger<b/>seat</i><par n="house__n"/></e>
 
                             <e lm="compensation" i=""><i>compensation</i><par n="house__n"/></e>
+
+			    <e lm="reconnaissance" i=""><i>reconnaissance</i><par n="house__n"/></e>
 
                             <e lm="competition" i=""><i>competition</i><par n="house__n"/></e>
 
@@ -48788,6 +48796,8 @@
                             <e lm="detective" i=""><i>detective</i><par n="house__n"/></e>
 
                             <e lm="detector" i=""><i>detector</i><par n="house__n"/></e>
+
+			    <e lm="determinant" i=""><i>determinant</i><par n="house__n"/></e>
 
                             <e lm="detention" i=""><i>detention</i><par n="house__n"/></e>
 
@@ -50433,6 +50443,7 @@
 <e lm="outfall" i=""><i>outfall</i><par n="house__n"/></e>
 <e lm="progress" i=""><i>progress</i><par n="house__n"/></e>
 <e lm="player" i=""><i>player</i><par n="house__n"/></e>
+<e lm="playwright" i=""><i>playwright</i><par n="house__n"/></e>
 <e lm="octave" i=""><i>octave</i><par n="house__n"/></e>
 <e lm="beekeeper" i=""><i>beekeeper</i><par n="house__n"/></e>
 <e lm="omega" i=""><i>omega</i><par n="house__n"/></e>
@@ -54311,6 +54322,8 @@
 
                             <e lm="procedure" i=""><i>procedure</i><par n="house__n"/></e>
 
+			    <e lm="proclamation" i=""><i>proclamation</i><par n="house__n"/></e>
+
                             <e lm="process" i=""><i>process</i><par n="access__n"/></e>
 
                             <e lm="procession" i=""><i>procession</i><par n="house__n"/></e>
@@ -54891,6 +54904,8 @@
                             <e lm="replication" i=""><i>replication</i><par n="house__n"/></e>
 
                             <e lm="report" i=""><i>report</i><par n="house__n"/></e>
+
+			    <e lm="repeal" i=""><i>repeal</i><par n="house__n"/></e>
 
                             <e lm="reporter" i=""><i>reporter</i><par n="house__n"/></e>
 
@@ -58670,6 +58685,8 @@
 
                             <e lm="alarming" i=""><i>alarming</i><par n="expensive__adj"/></e>
 
+			    <e lm="networking" i=""><i>networking</i><par n="expensive__adj"/></e>
+
                             <e lm="alcoholic" i=""><i>alcoholic</i><par n="expensive__adj"/></e>
 
                             <e lm="alike" i=""><i>alike</i><par n="expensive__adj"/></e>
@@ -61074,6 +61091,8 @@
 <e lm="discontinued" i=""><i>discontinued</i><par n="expensive__adj"/></e>
 <e lm="coupled" i=""><i>coupled</i><par n="expensive__adj"/></e>
 <e lm="embedded" i=""><i>embedded</i><par n="expensive__adj"/></e>
+<e lm="emitted" i=""><i>emitted</i><par n="expensive__adj"/></e>
+<e lm="mandated" i=""><i>mandated</i><par n="expensive__adj"/></e>
 <e lm="displaced" i=""><i>displaced</i><par n="expensive__adj"/></e>
 <e lm="voiced" i=""><i>voiced</i><par n="expensive__adj"/></e>
 <e lm="formalized" i=""><i>formalized</i><par n="expensive__adj"/></e>
@@ -62108,6 +62127,8 @@
                             <e lm="useless" i=""><i>useless</i><par n="expensive__adj"/></e>
 
                             <e lm="usual" i=""><i>usual</i><par n="expensive__adj"/></e>
+
+			    <e lm="upset" i=""><i>upset</i><par n="expensive__adj"/></e>
 
                             <e lm="uterine" i=""><i>uterine</i><par n="expensive__adj"/></e>
 
@@ -64416,6 +64437,10 @@
 
                             <e lm="injure" i=""><i>injur</i><par n="liv/e__vblex"/></e>
 
+			    <e lm="invoke" i=""><i>invok</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="reconnaissance" i=""><i>reconnaissanc</i><par n="liv/e__vblex"/></e>
+
 			    <e lm="manure" i=""><i>manur</i><par n="liv/e__vblex"/></e>
 
                             <e lm="insert" i=""><i>insert</i><par n="accept__vblex"/></e>
@@ -66420,6 +66445,8 @@
 
                             <e lm="backwards" i=""><i>backwards</i><par n="maybe__adv"/></e>
 
+			    <e lm="backward" i=""><i>backward</i><par n="maybe__adv"/></e>
+
                             <e lm="badly" i=""><i>badly</i><par n="maybe__adv"/></e>
 
                             <e lm="barely" i=""><i>barely</i><par n="maybe__adv"/></e>
@@ -67778,6 +67805,8 @@
                             <e lm="urgently" i=""><i>urgently</i><par n="maybe__adv"/></e>
 
                             <e lm="usually" i=""><i>usually</i><par n="maybe__adv"/></e>
+
+			    <e lm="routinely" i=""><i>routinely</i><par n="maybe__adv"/></e>
 
 			    <e lm="conventionally" i=""><i>conventionally</i><par n="maybe__adv"/></e>
 
@@ -72072,6 +72101,8 @@ wind
 
                             <e lm="counterculture" i=""><i>counterculture</i><par n="house__n"/></e>
 
+			    <e lm="cultivation" i=""><i>cultivation</i><par n="house__n"/></e>
+
                             <e lm="counterespionage" i=""><i>counterespionage</i><par n="house__n"/></e>
 
                             <e lm="counterexample" i=""><i>counterexample</i><par n="house__n"/></e>
@@ -76175,6 +76206,8 @@ wind
                             <e lm="parallelepiped" i=""><i>parallelepiped</i><par n="house__n"/></e>
 
                             <e lm="parallelogram" i=""><i>parallelogram</i><par n="house__n"/></e>
+
+			    <e lm="parallel" i=""><i>parallel</i><par n="house__n"/></e>
 
                             <e lm="paramagnetism" i=""><i>paramagnetism</i><par n="house__n"/></e>
 
@@ -91726,6 +91759,8 @@ wind
                             <e lm="filth" i=""><i>filth</i><par n="house__n"/></e>
 
                             <e lm="nettle" i=""><i>nettle</i><par n="house__n"/></e>
+
+			    <e lm="networking" i=""><i>networking</i><par n="house__n"/></e>
 
                             <e lm="nettle" i=""><i>nettl</i><par n="liv/e__vblex"/></e>
 

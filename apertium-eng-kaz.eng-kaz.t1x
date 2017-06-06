@@ -1726,7 +1726,42 @@
      <let><var n="formality"/><lit v=""/></let>
      </otherwise>
   </choose>
+<choose>
+    <when>
+     <test>  
+       <equal>
+          <var n="case"/>
+          <lit v=""/>
+       </equal>
+     </test>
+     <let><var n="case"/><lit-tag v="nom"/></let>
+    </when>
+     <otherwise>
+     <let><var n="case"/><lit v=""/></let>
+     </otherwise>
+  </choose>
 
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="1" side="tl" part="a_possessive"/>
+             <lit-tag v="px3sp"/>
+          </equal>
+        </test>
+          <let><var n="possessive"/><lit-tag v="px3sp"/></let>
+<let>
+           <var n="obj-pron_lu"/>
+           <concat>
+             <clip pos="1" side="tl" part="lem"/> 
+               <clip pos="1" side="tl" part="a_pron"/>
+               <var n="possessive"/>
+               <var n="case"/>
+           </concat>  
+        </let>
+
+</when>
+<otherwise>
      <let>
            <var n="obj-pron_lu"/>
            <concat>
@@ -1739,7 +1774,8 @@
                <var n="case"/>
            </concat>  
         </let>
-
+</otherwise>
+</choose>
 </def-macro>
 
 <def-macro n="build-cnjadv-lu" npar="1"> 
@@ -7966,13 +8002,15 @@
     <choose>
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
+
         <out> <!-- with postposition -->
+
           <chunk name="prep-obj-pron-post">
             <tags><tag><var n="number"/> </tag>
                 <tag><var n="pptag"/></tag>
               <!--<clip pos="2" part="a_nbr" side="sl"/></tag>  number -->
                 <tag><var n="subj-pron_lu"/></tag> <!-- is it OK? -->
-                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="possessive"/></tag> <!-- just in case -->
                 <tag><var n="case"/></tag>   
             </tags>
             <lu>  
@@ -15037,6 +15075,26 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 </out>
 </when>
 <otherwise>
+<choose>
+    <when>
+     <test>  
+<not>
+       <equal>
+          <clip pos="1" side="sl" part="a_possessive"/>
+          <lit v=""/>
+       </equal>
+</not>
+
+     </test>
+     <let><var n="possessive"/> <clip pos="1" side="tl" part="a_possessive"/></let>
+     <let><var n="case"/> <lit-tag v="nom"/></let>
+     <let><var n="number"/><lit v=""/></let>
+    </when>
+<otherwise>
+     <let><var n="possessive"/><lit-tag v="4"/></let>
+</otherwise>
+      </choose>
+
    <out>
    <chunk name="obj-pron" case="caseFirstWord">
    <tags>
@@ -15052,9 +15110,9 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
       <clip pos="1" side="tl" part="a_pron"/>
       <clip pos="1" side="tl" part="a_pers"/>
       <var n="number"/>
- 	<var n="pos"/> 
-      <lit-tag v="4"/> 
-          <var n="case"/> <!-- case --> 
+      <var n="pos"/> 
+<var n="possessive"/>
+      <var n="case"/> <!-- case --> 
     </lu>
 <b/>
     <lu>
@@ -16965,21 +17023,36 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 </out>
 </when>
 <otherwise>
-
+<choose>
+      <when>
+        <test>
+          <equal>
+             <clip pos="3" side="tl" part="a_possessive"/>
+             <lit-tag v="px3sp"/>
+          </equal>
+        </test>
+          <let><var n="possessive"/><lit-tag v="px3sp"/></let>
+          <let><var n="number"/><lit v=""/></let>
+</when>
+<otherwise>
+          <let><var n="possessive"/><lit-tag v="PXD"/></let>
+          <let><var n="number"/><lit-tag v="2"/></let>
+</otherwise>
+</choose>
     <out>
-    <chunk name="to-inf-noun">
+    <chunk name="to-inf-noun1">
     <tags>
     <tag><lit-tag v="PP"/></tag>
     <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->
     <tag><clip pos="3" side="sl" part="a_pers"/></tag> <!-- person placeholder -->
-    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><var n="possessive"/></tag> <!-- possessor placeholder -->
     <tag><lit-tag v="acc"/></tag> <!-- case placeholder -->
     </tags>
      <lu>
       <clip pos="3" side="tl" part="lem"/>
       <clip pos="3" side="tl" part="a_pron"/>
       <clip pos="3" side="tl" part="a_pers"/>
-      <lit-tag v="2"/> <!-- number -->
+      <var n="number"/> <!-- number -->
       <lit-tag v="4"/> <!-- possession -->
       <lit-tag v="5"/> <!-- case --> 
     </lu>
@@ -17071,7 +17144,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
           </equal>
         </test>
 <out>
-  <chunk name="to-be-noun">
+  <chunk name="to-be-noun-be">
     <tags>
     <tag><lit-tag v="PP"/></tag>
     <tag><clip pos="3" side="sl" part="a_nbr"/></tag> <!-- number placeholder -->

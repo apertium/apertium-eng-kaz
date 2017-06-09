@@ -126,6 +126,19 @@ SELECT N IF
 	(1 Det) 
 ;
 
+
+#at the beginning 
+SELECT N IF
+	(-2 Pr) 
+	(0 ("beginning")) 
+;
+
+#at the beginning 
+SELECT N IF
+	(-1 (vblex pres)) 
+	(0 ("beginning")) 
+;
+
 #Ability to sing WELL(ADV)
 SELECT Adv IF
 	(-1 V) 

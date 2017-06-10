@@ -1736,10 +1736,7 @@
      </test>
      <let><var n="case"/><lit-tag v="nom"/></let>
     </when>
-     <otherwise>
-     <let><var n="case"/><lit v=""/></let>
-     </otherwise>
-  </choose>
+    </choose>
 
 <choose>
       <when>
@@ -14804,7 +14801,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
        </equal>
      </test>
      <let><var n="formality"/><lit-tag v="frm"/></let>
-     <let><var n="case"/><lit-tag v="5"/></let>
+     <let><var n="case"/><lit-tag v="4"/></let>
     </when>
      <otherwise>
      <let><var n="formality"/><lit v=""/></let>
@@ -14872,7 +14869,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
      <let><var n="subj-pron_lu"/><lit-tag v="p3"/></let>
     </when>
      <otherwise>
-     <let><var n="case"/><lit-tag v="5"/></let>
+     <let><var n="case"/><lit-tag v="4"/></let>
      </otherwise>
   </choose>
  <choose>
@@ -14893,7 +14890,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
      <let><var n="case"/><lit-tag v="nom"/></let>
     </when>
 <otherwise>
-     <let><var n="case"/><lit-tag v="5"/></let>
+     <let><var n="case"/><lit-tag v="4"/></let>
 </otherwise>
   
   </choose>
@@ -15091,7 +15088,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
      <let><var n="number"/><lit v=""/></let>
     </when>
 <otherwise>
-     <let><var n="possessive"/><lit-tag v="4"/></let>
+     <let><var n="possessive"/><lit v=""/></let>
 </otherwise>
       </choose>
 
@@ -15101,7 +15098,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
     <tag><var n="subj-pron_lu"/></tag> <!-- Formality 2nd will be set in .t4x -->
-    <tag><var n="possessive"/></tag>
+
     <tag><lit-tag v="CD"/></tag>
      
     </tags>

@@ -933,7 +933,7 @@
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
     </def-attr>
-    <def-attr n="a_cas">
+    <def-attr n="a_case">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
       <attr-item tags="dat"/>
@@ -1019,6 +1019,9 @@
  <def-attr n="a_cnjcoo">
        <attr-item tags="post"/>
        <attr-item tags="cnjcoo"/>
+    </def-attr>
+ <def-attr n="a_postposition">
+       <attr-item tags="post"/>
     </def-attr>
 
  <def-attr n="learned_advtype">
@@ -1225,12 +1228,14 @@
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
+<def-var n="var-pos"/>
 <def-var n="pos"/>
 <def-var n="NEW-noun_lu"/>
 <def-var n="num1"/>
 <def-var n="num_lu"/>
 <def-var n="nbr"/>
 <def-var n="pers"/>
+<def-var n="var-np"/>
 <def-var n="genre"/>
 <def-var n="sp-nbr"/>
 <def-var n="preposition"/>
@@ -1659,7 +1664,7 @@ If no format information is present it is removed. -->
           <let><var n="case"/><lit-tag v="nom"/></let>
         </when>
         <when>
-          <test><equal><clip pos="1" side="sl" part="a_px"/><lit-tag v="px"/></equal></test>
+          <test><equal><clip pos="1" side="sl" part="learned_possessive"/><lit-tag v="px"/></equal></test>
           <let><var n="case"/><lit-tag v="gen"/></let>
         </when>
       </choose>
@@ -1793,7 +1798,7 @@ If no format information is present it is removed. -->
         <tag><lit-tag v="SV_psmod"/></tag> 
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><var n="a_tns"/></tag>  <!-- tense/conditionality -->
+        <tag><clip pos="1" side="tl" part="a_tns"/></tag>  <!-- tense/conditionality -->
         <tag><lit-tag v="PXD"/></tag> 
         <tag><lit-tag v="NXD"/></tag> <!-- negative -->
       </tags>
@@ -1817,7 +1822,7 @@ If no format information is present it is removed. -->
         <tag><lit-tag v="SV"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
         <tag><lit-tag v="PD"/></tag> <!-- person -->
-        <tag><var n="a_tns"/></tag>  <!-- tense/conditionality -->
+        <tag><clip pos="1" side="tl" part="a_tns"/></tag>  <!-- tense/conditionality -->
         <tag><lit-tag v="a_pos"/></tag> <!-- possessives for verbs??? maybe we need them -->
         <tag><lit-tag v="NXD"/></tag><!-- negative -->
         <tag><lit-tag v="CD"/></tag> 
@@ -1868,7 +1873,7 @@ If no format information is present it is removed. -->
           <when> 
             <test>
               <equal caseless="yes">
-                <clip pos="1" side="sl" part="a_cas"/>
+                <clip pos="1" side="sl" part="a_case"/>
                 <lit-tag v="loc"/>
               </equal>
             </test>
@@ -1883,7 +1888,7 @@ If no format information is present it is removed. -->
 <when> 
             <test>
               <equal caseless="yes">
-                <clip pos="1" side="sl" part="a_cas"/>
+                <clip pos="1" side="sl" part="a_case"/>
                 <lit-tag v="abl"/>
               </equal>
             </test>
@@ -1897,7 +1902,7 @@ If no format information is present it is removed. -->
 <when> 
             <test>
               <equal caseless="yes">
-                <clip pos="1" side="sl" part="a_cas"/>
+                <clip pos="1" side="sl" part="a_case"/>
                 <lit-tag v="dat"/>
               </equal>
             </test>
@@ -1911,7 +1916,7 @@ If no format information is present it is removed. -->
 <when> 
             <test>
               <equal caseless="yes">
-                <clip pos="1" side="sl" part="a_cas"/>
+                <clip pos="1" side="sl" part="a_case"/>
                 <lit-tag v="gen"/>
               </equal>
             </test>
@@ -1927,7 +1932,7 @@ If no format information is present it is removed. -->
   <when>   
         <test>
           <equal caseless="yes">
-            <clip pos="1" side="sl" part="a_cas"/>
+            <clip pos="1" side="sl" part="a_case"/>
             <lit-tag v="ins"/>
           </equal>
         </test>
@@ -1941,7 +1946,7 @@ If no format information is present it is removed. -->
                   <when> 
             <test>
               <equal caseless="yes">
-                <clip pos="1" side="sl" part="a_cas"/>
+                <clip pos="1" side="sl" part="a_case"/>
                 <lit-tag v="dat"/>
               </equal>
             </test>
@@ -1954,7 +1959,7 @@ If no format information is present it is removed. -->
            <when> 
              <test>
                 <equal caseless="yes">
-                  <clip pos="1" side="sl" part="a_cas"/>
+                  <clip pos="1" side="sl" part="a_case"/>
                   <lit-tag v="ins"/>
                 </equal>
              </test>
@@ -1967,7 +1972,7 @@ If no format information is present it is removed. -->
            <when> 
              <test>
                 <equal caseless="yes">
-                  <clip pos="1" side="sl" part="a_cas"/>
+                  <clip pos="1" side="sl" part="a_case"/>
                   <lit-tag v="gen"/>
                  </equal>
               </test>
@@ -2018,7 +2023,7 @@ If no format information is present it is removed. -->
              <let><var n="pptag"/><lit-tag v="PP"/></let>
              <!-- we need to compute "possessive"  --> 
  
-<let><var n="a_pos"/><lit-tag v="px3sp"/></let> <!-- default value -->
+<let><var n="var-pos"/><lit-tag v="px3sp"/></let> <!-- default value -->
 
 <choose> 
 <when>
@@ -2028,7 +2033,7 @@ If no format information is present it is removed. -->
           <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
        </and>
     </test>      
-          <let><var  n="a_pos"/><lit-tag v="px1sg"/></let>
+          <let><var  n="var-pos"/><lit-tag v="px1sg"/></let>
 </when>
 
 
@@ -2039,7 +2044,7 @@ If no format information is present it is removed. -->
           <equal><clip pos="2" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
        </and>
     </test>      
-          <let><var  n="a_pos"/><lit-tag v="px1pl"/></let>
+          <let><var  n="var-pos"/><lit-tag v="px1pl"/></let>
 </when>
                
              </choose>
@@ -2190,33 +2195,33 @@ If no format information is present it is removed. -->
             <when>
                <test>
 <or>
-                  <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal>
+                  <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="nom"/></equal>
  <equal><clip pos="1" side="sl" part="a_syntag"/><lit-tag v="attr"/></equal>
 
 </or>
                </test>
-               <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+               <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
                <let><var n="sntype"/><lit-tag v="SN.NOM"/></let>
             </when> 
             <when>
                <test>
-                  <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="acc"/></equal>
+                  <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="acc"/></equal>
                </test>
-               <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+               <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
                <let><var n="sntype"/><lit-tag v="SN.ACC"/></let>
             </when> 
             <when>
                <test>
-                  <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="gen"/></equal>
+                  <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="gen"/></equal>
                </test>
-               <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+               <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
                <let><var n="sntype"/><lit-tag v="SN.GEN"/></let>
             </when> 
             <when>
                <test>
-                  <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal>
+                  <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="loc"/></equal>
                </test>
-               <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+               <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
                <let><var n="sntype"/><lit-tag v="SN.LOC"/></let>
  <let><var n="postposition_lu"/>
  <concat>
@@ -2228,23 +2233,23 @@ If no format information is present it is removed. -->
             </when> 
             <when>
                <test>
-                  <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="abl"/></equal>
+                  <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="abl"/></equal>
                </test>
-               <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+               <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
                <let><var n="sntype"/><lit-tag v="SN.ABL"/></let>
             </when> 
             <when>
                <test>
-                  <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="dat"/></equal>
+                  <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="dat"/></equal>
                </test>
-               <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+               <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
                <let><var n="sntype"/><lit-tag v="SN.DAT"/></let>
             </when> 
             <when>
                <test>
-                  <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="ins"/></equal>
+                  <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="ins"/></equal>
                </test>
-               <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+               <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
                <let><var n="sntype"/><lit-tag v="SN.INS"/></let>
             </when> 
 
@@ -2287,7 +2292,7 @@ If no format information is present it is removed. -->
                <test>
                  <and>
 <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
-<equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="gen"/></equal>
+<equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="gen"/></equal>
 <equal><clip pos="1" side="sl" part="learned_attruse"/><lit-tag v="subst"/></equal>
  </and>
 </test>
@@ -2916,11 +2921,6 @@ If no format information is present it is removed. -->
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
-<call-macro n="choose_case_and_postposition2">
-          <with-param pos="1"/>
-        </call-macro>
-
-
          <out>
           <chunk name="abbr" case="caseFirstWord">
             <tags>
@@ -2969,6 +2969,7 @@ If no format information is present it is removed. -->
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
           <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
 
 <choose>
@@ -3095,7 +3096,7 @@ If no format information is present it is removed. -->
               <tag><clip pos="1" side="tl" part="a_tns"/></tag>
               <tag><clip pos="1" side="tl" part="a_pers"/></tag>
               <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
-<tag><clip pos="1" side="tl" part="a_cas"/></tag>
+<tag><clip pos="1" side="tl" part="a_case"/></tag>
             </tags>
 <lu>
 <lit v="not"/>
@@ -3468,6 +3469,7 @@ If no format information is present it is removed. -->
         </call-macro>
  <call-macro n="choose_case_and_postposition2">
           <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
        <choose>
                  <when>
@@ -3485,7 +3487,7 @@ If no format information is present it is removed. -->
           <chunk name="noun-cop" case="caseFirstWord">
 <tags>
 <tag><lit-tag v="SN-to-cop"/></tag>
-<tag><clip pos="1" side="sl" part="a_cas"/></tag>       
+<tag><clip pos="1" side="sl" part="a_case"/></tag>       
 <tag>  <var n="number"/></tag>
             </tags>
 
@@ -3537,7 +3539,7 @@ If no format information is present it is removed. -->
           <chunk name="noun-cop-postadv" case="caseFirstWord">
 <tags>
 <tag><lit-tag v="SN-cop"/></tag>
-<tag><clip pos="1" side="sl" part="a_cas"/></tag>       
+<tag><clip pos="1" side="sl" part="a_case"/></tag>       
 <tag>  <var n="number"/></tag>
             </tags>
 
@@ -3735,7 +3737,7 @@ If no format information is present it is removed. -->
           <chunk name="noun-postadv" case="caseFirstWord">
 <tags>
 <tag><lit-tag v="SN-cop"/></tag>
-<tag><clip pos="1" side="sl" part="a_cas"/></tag>       
+<tag><clip pos="1" side="sl" part="a_case"/></tag>       
 <tag>  <var n="number"/></tag>
             </tags>
 
@@ -3773,6 +3775,7 @@ If no format information is present it is removed. -->
 <call-macro n="build-adjec-lu"><with-param pos="1"/></call-macro> 
 <call-macro n="choose_case_and_postposition2">
           <with-param pos="3"/>
+          <with-param pos="2"/>
         </call-macro>
 <choose>
                  <when>
@@ -4561,7 +4564,7 @@ If no format information is present it is removed. -->
 <when>
       <test>
        <equal>
-         <clip pos="1" side="sl" part="a_subst"/>
+         <clip pos="1" side="sl" part="a_syntag"/>
          <lit-tag v="subst"/>
        </equal>
       </test>
@@ -5743,17 +5746,17 @@ If no format information is present it is removed. -->
        <with-param pos="1"/>-->
  <call-macro n="choose_case_and_postposition2">
           <with-param pos="2"/>
-
+          <with-param pos="1"/>
   </call-macro> 
 <choose>
 <when>
     <test>
 <equal><clip pos="1" side="sl" part="a_pos"/><lit-tag v="px3sp"/></equal>
 </test>
-<let> <var n="a_pos"/><lit-tag v="px3sp"/></let>
+<let> <var n="var-pos"/><lit-tag v="px3sp"/></let>
 </when>
 <otherwise>
-<let> <var n="a_pos"/><lit-tag v="PXD"/></let>
+<let> <var n="var-pos"/><lit-tag v="PXD"/></let>
 </otherwise>
 </choose>
     <out>
@@ -5762,7 +5765,7 @@ If no format information is present it is removed. -->
     <tag><lit-tag v="SN"/></tag>
     <tag><clip pos="2" side="sl" part="a_np"/></tag>
 <tag><clip pos="2" side="sl" part="a_mf"/></tag>
-<tag><clip pos="2" side="sl" part="a_cas"/></tag>
+<tag><clip pos="2" side="sl" part="a_case"/></tag>
   <tag><clip pos="2" side="sl" part="a_nbr"/></tag> 
     
     </tags>
@@ -5805,7 +5808,7 @@ If no format information is present it is removed. -->
     <test>
 <equal><clip pos="1" side="sl" part="a_np"/><lit-tag v="np"/></equal>
 </test>
-<let> <var n="a_np"/><lit-tag v="ant"/></let>
+<let> <var n="var-np"/><lit-tag v="ant"/></let>
 </when>
 
 </choose>
@@ -5817,7 +5820,7 @@ If no format information is present it is removed. -->
 <tag><clip pos="2" side="sl" part="a_mf"/></tag>
   <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
 <tag><var n="number"/></tag>
-    <!--<tag><clip pos="2" side="sl" part="a_cas"/></tag>-->
+    <!--<tag><clip pos="2" side="sl" part="a_case"/></tag>-->
     </tags>
    <lu>
       <var n="NEW-noun_lu"/>
@@ -6042,20 +6045,21 @@ If no format information is present it is removed. -->
       </pattern>
       <action>
         <!--<let><var n="number"/><lit v=""/></let>-->
-        <choose>
+      <!--  <choose>
  
           <when>
              <test>
-                <equal><clip pos="1" side="sl" part="a_adj"/>
+                <equal><clip pos="1" side="sl" part="a_adjec"/>
 <lit-tag v="n.attr"/>
 </equal>
              </test>
              <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
-             <call-macro n="conv-number1">
+            
+          </when> 
+        </choose>-->
+ <call-macro n="conv-number1">
                <with-param pos="1"/>
              </call-macro>
-          </when> 
-        </choose>
         <out>
           <chunk name="n-adv" case="caseFirstWord">
             <tags>
@@ -6076,7 +6080,7 @@ If no format information is present it is removed. -->
       </pattern>
       <action>
         <!--<let><var n="number"/><lit v=""/></let>-->
-        <choose>
+      <!--  <choose>
  
           <when>
              <test>
@@ -6089,7 +6093,10 @@ If no format information is present it is removed. -->
                <with-param pos="1"/>
              </call-macro>
           </when> 
-        </choose>
+        </choose>-->
+ <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
         <out>
           <chunk name="adv" case="caseFirstWord">
             <tags>
@@ -6111,7 +6118,7 @@ If no format information is present it is removed. -->
       </pattern>
       <action>
         <!--<let><var n="number"/><lit v=""/></let>-->
-        <choose>
+       <!-- <choose>
  
           <when>
              <test>
@@ -6122,7 +6129,10 @@ If no format information is present it is removed. -->
                <with-param pos="1"/>
              </call-macro>
           </when> 
-        </choose>
+        </choose>-->
+ <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
         <out>
           <chunk name="postadv" case="caseFirstWord">
             <tags>
@@ -6157,9 +6167,7 @@ If no format information is present it is removed. -->
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
-<call-macro n="choose_case_and_postposition2">
-          <with-param pos="1"/>
-        </call-macro>
+
 <choose>
                 <when>
                    <test>
@@ -6325,7 +6333,7 @@ If no format information is present it is removed. -->
       </pattern>
       <action>
         <!--<let><var n="number"/><lit v=""/></let>-->
-        <choose>
+        <!--<choose>
  
           <when>
              <test>
@@ -6335,19 +6343,18 @@ If no format information is present it is removed. -->
              <call-macro n="conv-number1">
                <with-param pos="1"/>
              </call-macro>
-<call-macro n="choose_case_and_postposition2">
+
+          </when> 
+        </choose>-->
+ <call-macro n="conv-number1">
                <with-param pos="1"/>
              </call-macro>
-          </when> 
-        </choose>
         <out>
           <chunk name="adj" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="AdjP"/></tag>
             </tags>
- <lu>
-<var n="postposition_lu"/>
-</lu>
+
 <b/>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
@@ -6368,20 +6375,10 @@ If no format information is present it is removed. -->
 <pattern-item n="cop"/>
       </pattern>
       <action>
-        <!--<let><var n="number"/><lit v=""/></let>-->
-        <choose>
- 
-          <when>
-             <test>
-                <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="n.attr"/></equal>
-             </test>
-             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
-             <call-macro n="conv-number1">
+
+ <call-macro n="conv-number1">
                <with-param pos="1"/>
              </call-macro>
-
-          </when> 
-        </choose>
 
 <choose>
  
@@ -6497,33 +6494,15 @@ If no format information is present it is removed. -->
 
       <action>
         <!--<let><var n="number"/><lit v=""/></let>-->
-        <choose>
- 
-          <when>
-             <test>
-                <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="n.attr"/></equal>
-             </test>
-             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
-             <call-macro n="conv-number1">
-               <with-param pos="1"/>
-             </call-macro>
-<call-macro n="choose_case_and_postposition2">
-          <with-param pos="1"/>
-        </call-macro>
              <call-macro n="conv-number1">
                <with-param pos="1"/>
              </call-macro>
 
-          </when> 
-        </choose>
         <out>
           <chunk name="adj-subst" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="AdjP"/></tag>
             </tags>
-<lu>
-<var n="postposition_lu"/>
-</lu>
 <b/>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
@@ -6542,19 +6521,10 @@ If no format information is present it is removed. -->
       </pattern>
       <action>
         <!--<let><var n="number"/><lit v=""/></let>-->
-        <choose>
- 
-          <when>
-             <test>
-                <equal><clip pos="1" side="sl" part="a_adj"/><lit-tag v="n.attr"/></equal>
-             </test>
-             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
-             <call-macro n="conv-number1">
+
+  <call-macro n="conv-number1">
                <with-param pos="1"/>
-             </call-macro>
-          </when> 
-        </choose>
-        <out>
+             </call-macro>       <out>
           <chunk name="adj-mod_ass" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="AdjP"/></tag>
@@ -6725,6 +6695,7 @@ If no format information is present it is removed. -->
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
           <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
 
 <choose>
@@ -8100,6 +8071,7 @@ If no format information is present it is removed. -->
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
           <with-param pos="1"/>
+          <with-param pos=""/>
         </call-macro>
 
  <choose>
@@ -8188,7 +8160,7 @@ If no format information is present it is removed. -->
  <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
  <equal><clip pos="1" side="sl" part="lemh"/><lit v="Бұл"/></equal>
 </or>
- <not><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="acc"/></equal></not>
+ <not><equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="acc"/></equal></not>
  <not><equal><clip pos="1" side="sl" part="learned_determinertype"/><lit-tag v="dem"/></equal></not>
 </and>
                   </test>
@@ -8221,7 +8193,7 @@ If no format information is present it is removed. -->
                    <test>
                <and>
  <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
- <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="abl"/></equal>
+ <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="abl"/></equal>
 
 </and>
                   </test>
@@ -8262,8 +8234,8 @@ If no format information is present it is removed. -->
  <equal><clip pos="1" side="sl" part="lemh"/><lit v="Бұл"/></equal>
 </or>
 <or>
- <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="acc"/></equal>
- <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal>
+ <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="acc"/></equal>
+ <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="nom"/></equal>
 </or>
 
 
@@ -8303,7 +8275,7 @@ If no format information is present it is removed. -->
 <not>   <equal><clip pos="1" side="sl" part="lemh"/><lit v="Мына"/></equal></not>
 <not>   <equal><clip pos="1" side="sl" part="lemh"/><lit v="мына"/></equal></not>
 </or>
-<not>   <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></not>
+<not>   <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="loc"/></equal></not>
 </and>
                   </test>
 
@@ -8380,6 +8352,7 @@ If no format information is present it is removed. -->
           <with-param pos="2"/>
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="2"/>
         </call-macro>
 
@@ -8457,7 +8430,7 @@ If no format information is present it is removed. -->
                    <test>
                <and>
  <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
- <not><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="acc"/></equal></not>
+ <not><equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="acc"/></equal></not>
  <not><equal><clip pos="1" side="sl" part="learned_determinertype"/><lit-tag v="dem"/></equal></not>
 </and>
                   </test>
@@ -8495,7 +8468,7 @@ If no format information is present it is removed. -->
                    <test>
                <and>
  <equal><clip pos="1" side="sl" part="lemh"/><lit v="бұл"/></equal>
- <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="abl"/></equal>
+ <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="abl"/></equal>
 
 </and>
                   </test>
@@ -8541,8 +8514,8 @@ If no format information is present it is removed. -->
  <equal><clip pos="1" side="sl" part="lemh"/><lit v="Бұл"/></equal>
 </or>
 <or>
- <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="acc"/></equal>
- <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal>
+ <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="acc"/></equal>
+ <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="nom"/></equal>
 </or>
 </and>
                   </test>
@@ -8586,7 +8559,7 @@ If no format information is present it is removed. -->
 <not>   <equal><clip pos="1" side="sl" part="lemh"/><lit v="Мына"/></equal></not>
 <not>   <equal><clip pos="1" side="sl" part="lemh"/><lit v="мына"/></equal></not>
 </or>
-<not>   <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="loc"/></equal></not>
+<not>   <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="loc"/></equal></not>
 </and>
                   </test>
 
@@ -8669,6 +8642,7 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
 	<call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="1"/>
         </call-macro>
  
@@ -8698,7 +8672,7 @@ If no format information is present it is removed. -->
 <choose>
                 <when>
                    <test>
-                       <equal><clip pos="1" side="sl" part="a_cas"/>
+                       <equal><clip pos="1" side="sl" part="a_case"/>
 
 
 <lit-tag v="gen"/></equal>
@@ -8755,6 +8729,7 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
 	<call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="1"/>
         </call-macro>
  
@@ -8784,7 +8759,7 @@ If no format information is present it is removed. -->
 <choose>
                 <when>
                    <test>
-                       <equal><clip pos="1" side="sl" part="a_cas"/>
+                       <equal><clip pos="1" side="sl" part="a_case"/>
 
 
 <lit-tag v="gen"/></equal>
@@ -9203,6 +9178,7 @@ If no format information is present it is removed. -->
       </pattern>
       <action>
 <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="3"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -12306,6 +12282,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="2"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -12395,6 +12372,8 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
+
+          <with-param pos=""/>
           <with-param pos="2"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -12486,6 +12465,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="3"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -12785,11 +12765,11 @@ If no format information is present it is removed. -->
     <when>
       <test>
      <equal caseless="yes">
-            <clip pos="1" side="sl" part="a_cas"/>
+            <clip pos="1" side="sl" part="a_case"/>
             <lit-tag v="loc"/>
           </equal>
       </test>
-       <let><clip pos="1" side="sl" part="a_cas"/><lit-tag v="ins"/></let> 
+       <let><clip pos="1" side="sl" part="a_case"/><lit-tag v="ins"/></let> 
     </when>
 
     
@@ -12831,6 +12811,7 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="1"/>
         </call-macro>
  
@@ -12895,11 +12876,11 @@ If no format information is present it is removed. -->
     <when>
       <test>
      <equal caseless="yes">
-            <clip pos="1" side="sl" part="a_cas"/>
+            <clip pos="1" side="sl" part="a_case"/>
             <lit-tag v="loc"/>
           </equal>
       </test>
-       <let><clip pos="1" side="sl" part="a_cas"/><lit-tag v="ins"/></let> 
+       <let><clip pos="1" side="sl" part="a_case"/><lit-tag v="ins"/></let> 
     </when>
 
     
@@ -13009,11 +12990,11 @@ If no format information is present it is removed. -->
     <when>
       <test>
      <equal caseless="yes">
-            <clip pos="1" side="sl" part="a_cas"/>
+            <clip pos="1" side="sl" part="a_case"/>
             <lit-tag v="loc"/>
           </equal>
       </test>
-       <let><clip pos="1" side="sl" part="a_cas"/><lit-tag v="ins"/></let> 
+       <let><clip pos="1" side="sl" part="a_case"/><lit-tag v="ins"/></let> 
     </when>
 
     
@@ -13054,6 +13035,7 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="1"/>
         </call-macro>
  
@@ -13562,6 +13544,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -13652,6 +13635,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -13736,6 +13720,7 @@ If no format information is present it is removed. -->
           <with-param pos="2"/>
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="1"/>
         </call-macro>
 
@@ -13885,6 +13870,7 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="1"/>
         </call-macro>
 
@@ -14021,6 +14007,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -14095,6 +14082,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
+          <with-param pos=""/>
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -14529,7 +14517,7 @@ If no format information is present it is removed. -->
 
 
 
-<!--automatically generated-->
+<!--automatically generated--><!--
 <rule>
   <pattern>
     <pattern-item n="CAT__vaux_"/>
@@ -14598,7 +14586,7 @@ If no format information is present it is removed. -->
     </choose>
 
   </action>
-</rule>
+</rule>-->
 
 
 <rule>
@@ -14615,10 +14603,7 @@ If no format information is present it is removed. -->
               <clip pos="1" side="tl" part="tags" />
               <lit-tag v="vblex"/>
             </begins-with>
-               <equal>
-                 <clip pos="1" side="tl" part="learned_isvbpron"/>
-                 <lit v=""/>
-               </equal>
+              
                <equal>
                  <clip pos="1" side="tl" part="learned_verbtype"/>
                  <lit v=""/>
@@ -14682,10 +14667,6 @@ If no format information is present it is removed. -->
               <lit-tag v="vblex"/>
             </begins-with>
                <equal>
-                 <clip pos="1" side="tl" part="learned_isvbpron"/>
-                 <lit v=""/>
-               </equal>
-               <equal>
                  <clip pos="1" side="tl" part="learned_verbtime"/>
                  <lit-tag v="aor"/>
                </equal>
@@ -14727,10 +14708,6 @@ If no format information is present it is removed. -->
               <lit-tag v="vblex"/>
             </begins-with>
                <equal>
-                 <clip pos="1" side="tl" part="learned_isvbpron"/>
-                 <lit v=""/>
-               </equal>
-               <equal>
                  <clip pos="1" side="tl" part="learned_verbtime"/>
                  <lit-tag v="aor"/>
                </equal>
@@ -14766,10 +14743,6 @@ If no format information is present it is removed. -->
               <lit-tag v="vblex"/>
             </begins-with>
                <equal>
-                 <clip pos="1" side="tl" part="learned_isvbpron"/>
-                 <lit v=""/>
-               </equal>
-               <equal>
                  <clip pos="1" side="tl" part="learned_verbtime"/>
                  <lit-tag v="ger"/>
                </equal>
@@ -14804,10 +14777,6 @@ If no format information is present it is removed. -->
               <lit-tag v="vblex"/>
             </begins-with>
                <equal>
-                 <clip pos="1" side="tl" part="learned_isvbpron"/>
-                 <lit v=""/>
-               </equal>
-               <equal>
                  <clip pos="1" side="tl" part="learned_verbtime"/>
                  <lit v=""/>
                </equal>
@@ -14841,10 +14810,6 @@ If no format information is present it is removed. -->
               <clip pos="1" side="tl" part="tags" />
               <lit-tag v="vblex"/>
             </begins-with>
-               <equal>
-                 <clip pos="1" side="tl" part="learned_isvbpron"/>
-                 <lit v=""/>
-               </equal>
                <equal>
                  <clip pos="1" side="tl" part="learned_verbtime"/>
                  <lit-tag v="ifi"/>

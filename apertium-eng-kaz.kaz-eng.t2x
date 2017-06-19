@@ -197,6 +197,14 @@
       <attr-item tags="prc_impf"/>
       <attr-item tags="ger_past"/>
     </def-attr>
+    <def-attr n="a_possessive"> <!-- check if complete -->
+      <attr-item tags="PXD"/> <!-- to be determined -->
+      <attr-item tags="px3sp"/>
+      <attr-item tags="px1sg"/>
+      <attr-item tags="px2sg"/>
+      <attr-item tags="px1pl"/>
+      <attr-item tags="px2pl"/>
+    </def-attr>
    
   </section-def-attrs>
   <section-def-vars>
@@ -2056,7 +2064,7 @@
 
             <clip pos="2" part="lem"/>
             <lit-tag v="AdjP"/>             
- <clip pos="2" part="nbr"/> 
+ <clip pos="2" part="a_nbr"/> 
 
             <clip pos="2" part="a_pers"/> 
             <clip pos="2" part="a_possessive"/>
@@ -2124,7 +2132,7 @@
 
             <clip pos="2" part="lem"/>
             <lit-tag v="AdjP"/>             
- <clip pos="2" part="nbr"/> 
+ <clip pos="2" part="a_nbr"/> 
 
             <clip pos="2" part="a_pers"/> 
             <clip pos="2" part="a_possessive"/>
@@ -2631,7 +2639,7 @@
 
             <clip pos="2" part="lem"/>
             <lit-tag v="AdjP"/>             
- <clip pos="2" part="nbr"/> 
+ <clip pos="2" part="a_nbr"/> 
 
             <clip pos="2" part="a_pers"/> 
             <clip pos="2" part="a_possessive"/>

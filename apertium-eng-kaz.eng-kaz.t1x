@@ -16136,6 +16136,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   <action>
      <call-macro n="choose_case_and_postposition2">
         <with-param pos="1"/>
+        <with-param pos="2"/>
       </call-macro>
 <call-macro n="build-num-lu"><with-param pos="2"/></call-macro> 
  

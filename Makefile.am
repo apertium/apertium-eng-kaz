@@ -2,7 +2,7 @@
 ## Makefile for eng-kaz
 ###############################################################################
 
-VERSION=0.1.0
+VERSION=1.0.0
 LANG1=eng
 LANG2=kaz
 PREFIX1=$(LANG1)-$(LANG2)
@@ -161,8 +161,13 @@ debug: .deps/$(LANG1).LR-debug.hfst .deps/$(LANG2).LR-debug.hfst
 ###############################################################################
 
 EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
+	   $(BASENAME).$(PREFIX1).dix \
+           $(BASENAME).$(PREFIX1).rlx \
+           $(BASENAME).$(PREFIX1).lrx \
+           $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx \
            $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(BASENAME).$(PREFIX1).t3x \
 	   $(BASENAME).$(PREFIX1).t4x \
+           $(BASENAME).$(PREFIX2).lrx \
 	   $(BASENAME).$(PREFIX2).t1x $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x \
            modes.xml
 

@@ -20,6 +20,7 @@ Errors/kaz-eng_unknown_words -text svneol=unset#application/octet-stream
 /NEWS -text
 /README -text
 /TODO -text
+/apertium-eng-kaz-1.0.0.tar.gz -text
 /apertium-eng-kaz.eng-kaz.dix -text
 /apertium-eng-kaz.eng-kaz.lrx -text
 /apertium-eng-kaz.eng-kaz.rlx -text

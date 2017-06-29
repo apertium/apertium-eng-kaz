@@ -8071,7 +8071,7 @@ If no format information is present it is removed. -->
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
           <with-param pos="1"/>
-          <with-param pos=""/>
+          <with-param pos="2"/>
         </call-macro>
 
  <choose>
@@ -8352,7 +8352,7 @@ If no format information is present it is removed. -->
           <with-param pos="2"/>
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="2"/>
         </call-macro>
 
@@ -8642,7 +8642,7 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
 	<call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
  
@@ -8729,7 +8729,7 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
 	<call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
  
@@ -9178,7 +9178,7 @@ If no format information is present it is removed. -->
       </pattern>
       <action>
 <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="3"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -12282,7 +12282,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="2"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -12373,7 +12373,7 @@ If no format information is present it is removed. -->
         
       <call-macro n="choose_case_and_postposition2">
 
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="2"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -12465,7 +12465,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="3"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -12811,8 +12811,8 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
           <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
  
   <out>
@@ -13035,7 +13035,7 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
  
@@ -13544,7 +13544,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -13635,7 +13635,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -13720,7 +13720,7 @@ If no format information is present it is removed. -->
           <with-param pos="2"/>
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
 
@@ -13870,7 +13870,7 @@ If no format information is present it is removed. -->
           <with-param pos="1"/>
         </call-macro>
 <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
 
@@ -14007,8 +14007,8 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
           <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
         <call-macro n="conv-case1">
           <with-param pos="1"/>
@@ -14082,7 +14082,7 @@ If no format information is present it is removed. -->
 <action>
         
       <call-macro n="choose_case_and_postposition2">
-          <with-param pos=""/>
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">

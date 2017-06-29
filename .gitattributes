@@ -130,6 +130,7 @@ mteval/wrapper.sh -text
 /new-regression-tests.sh -text
 /notnoun.txt -text
 /pasten.py -text
+/pending-tests.sh -text
 /regression-tests.sh -text
 /rules -text
 /useful[!!-~]notes[!!-~]for[!!-~]Aida -text

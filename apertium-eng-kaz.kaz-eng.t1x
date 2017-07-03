@@ -1841,6 +1841,209 @@ If no format information is present it is removed. -->
 </def-macro>
 
 
+
+<def-macro n="choose_case_and_postposition1" npar="1">  
+    <let><var n="pptag"/><lit-tag v="PP"/></let> 
+    <let><var n="genpp"/><lit v="no"/></let> 
+    
+    <choose>
+      <when>
+        <test>
+          <equal><var n="genpp"/><lit v="no"/></equal>
+        </test>
+        <choose> <!-- no postpositions -->
+          <when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="loc"/>
+              </equal>
+            </test>
+            <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                       <lit v="in"/>
+                        <lit-tag v="pr"/>          
+                      </concat>
+             </let>
+       </when> 
+
+<when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="abl"/>
+              </equal>
+            </test>
+            <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                       <lit v="from"/>
+                        <lit-tag v="pr"/>          
+                      </concat>
+             </let>
+       </when> 
+<when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="dat"/>
+              </equal>
+            </test>
+            <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                       <lit v="to"/>
+                        <lit-tag v="pr"/>          
+                      </concat>
+             </let>
+       </when> 
+<when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="gen"/>
+              </equal>
+            </test>
+            <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                       <lit v="of"/>
+                        <lit-tag v="pr"/>          
+                      </concat>
+             </let>
+       </when> 
+
+     
+  <when>   
+        <test>
+          <equal caseless="yes">
+            <clip pos="1" side="sl" part="a_case"/>
+            <lit-tag v="ins"/>
+          </equal>
+        </test>
+       <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                       <lit v="with"/>
+                        <lit-tag v="pr"/>          
+                      </concat>
+             </let>
+    </when> 
+                  <when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="dat"/>
+              </equal>
+            </test>
+            <let>
+              <var n="case"/>
+              <lit v="to"/>
+            </let>
+      </when>    
+
+           <when> 
+             <test>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="a_case"/>
+                  <lit-tag v="ins"/>
+                </equal>
+             </test>
+             <let>
+               <var n="case"/>
+               <lit v="with"/>
+             </let>
+              </when>    
+
+           <when> 
+             <test>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="a_case"/>
+                  <lit-tag v="gen"/>
+                 </equal>
+              </test>
+              <let>
+                <var n="case"/>
+                <lit-tag v="of"/>
+              </let>
+              <let>
+                 <var n="pptag"/>
+                 <lit v="GenP"/>   
+              </let>
+       </when>    
+
+           <otherwise>
+              <let>
+                <var n="case"/>
+                <lit-tag v="ins"/> 
+              </let>
+              <let>
+                <var n="pptag"/>
+                <lit-tag v="PP"/>  
+              </let>
+<let><var n="postposition_lu"/> <!-- ready for lu -->
+
+                       <lit v=""/>
+                        
+             </let>
+            </otherwise>
+    </choose>
+      </when> 
+
+      <when>  <!--- Now, with postpositions -->
+        <test>
+          <equal>
+             <var n="genpp"/>
+             <lit v="yes"/>
+          </equal>
+        </test>
+        <choose> <!-- Generate postposition --> 
+          <when> <!-- noun-based postpositions -->
+             <test>
+               <equal>
+                 <clip side="tl" part="a_postposition" pos="1"/>
+                 <lit-tag v="n"/>
+           </equal>
+             </test>
+             <let><var n="case"/><lit-tag v="gen"/></let>
+             <let><var n="pptag"/><lit-tag v="PP"/></let>
+             <!-- we need to compute "possessive"  --> 
+ 
+<let><var n="var-pos"/><lit-tag v="px3sp"/></let> <!-- default value -->
+
+<choose> 
+<when>
+   <test>
+      <and>
+          <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag  v="p1"/></equal>
+          <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+       </and>
+    </test>      
+          <let><var  n="var-pos"/><lit-tag v="px1sg"/></let>
+</when>
+
+
+<when>
+   <test>
+      <and>
+          <equal><clip  pos="1" side="sl" part="a_pers"/><lit-tag  v="p1"/></equal>
+          <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+       </and>
+    </test>      
+          <let><var  n="var-pos"/><lit-tag v="px1pl"/></let>
+</when>
+               
+             </choose>
+             <let><var n="pptag"/><lit-tag v="PP"/></let>
+             <let><var n="postposition_lu"/> <!-- ready for lu -->
+                      <concat>
+                        <clip pos="1" side="tl" part="lem"/>
+                        <lit-tag v="post"/>
+                      </concat>
+             </let>
+      </when>
+    </choose>
+       </when>
+     </choose>
+    </def-macro>
+
+
 <def-macro n="choose_case_and_postposition2" npar="2">  
     <let><var n="pptag"/><lit-tag v="PP"/></let> 
     <let><var n="genpp"/><lit v="no"/></let> 
@@ -3467,9 +3670,8 @@ If no format information is present it is removed. -->
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
- <call-macro n="choose_case_and_postposition2">
+ <call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
-          <with-param pos="2"/>
         </call-macro>
        <choose>
                  <when>
@@ -3773,9 +3975,8 @@ If no format information is present it is removed. -->
        <with-param pos="3"/>
   </call-macro> 
 <call-macro n="build-adjec-lu"><with-param pos="1"/></call-macro> 
-<call-macro n="choose_case_and_postposition2">
-          <with-param pos="3"/>
-          <with-param pos="2"/>
+<call-macro n="choose_case_and_postposition1">
+          <with-param pos="1"/>
         </call-macro>
 <choose>
                  <when>
@@ -5744,8 +5945,7 @@ If no format information is present it is removed. -->
 
   <!--<call-macro n="NEW-build-np">
        <with-param pos="1"/>-->
- <call-macro n="choose_case_and_postposition2">
-          <with-param pos="2"/>
+ <call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
   </call-macro> 
 <choose>
@@ -8069,9 +8269,8 @@ If no format information is present it is removed. -->
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
-<call-macro n="choose_case_and_postposition2">
+<call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
-          <with-param pos="2"/>
         </call-macro>
 
  <choose>
@@ -8351,9 +8550,9 @@ If no format information is present it is removed. -->
         <call-macro n="conv-number1">
           <with-param pos="2"/>
         </call-macro>
-<call-macro n="choose_case_and_postposition2">
+<call-macro n="choose_case_and_postposition1">
           <with-param pos="2"/>
-          <with-param pos="2"/>
+
         </call-macro>
 
  <choose>
@@ -8641,8 +8840,7 @@ If no format information is present it is removed. -->
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
-	<call-macro n="choose_case_and_postposition2">
-          <with-param pos="2"/>
+	<call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
         </call-macro>
  
@@ -8728,9 +8926,9 @@ If no format information is present it is removed. -->
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
-	<call-macro n="choose_case_and_postposition2">
+	<call-macro n="choose_case_and_postposition1">
           <with-param pos="2"/>
-          <with-param pos="1"/>
+
         </call-macro>
  
 <choose>
@@ -12281,9 +12479,8 @@ If no format information is present it is removed. -->
       </pattern>
 <action>
         
-      <call-macro n="choose_case_and_postposition2">
-          <with-param pos="2"/>
-          <with-param pos="2"/>
+      <call-macro n="choose_case_and_postposition1">
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">
           <with-param pos="2"/>
@@ -12371,10 +12568,8 @@ If no format information is present it is removed. -->
       </pattern>
 <action>
         
-      <call-macro n="choose_case_and_postposition2">
-
-          <with-param pos="2"/>
-          <with-param pos="2"/>
+      <call-macro n="choose_case_and_postposition1">
+          <with-param pos="3"/>
         </call-macro>
         <call-macro n="conv-case1">
           <with-param pos="2"/>
@@ -12810,9 +13005,8 @@ If no format information is present it is removed. -->
  <call-macro n="conv-mfpron">
           <with-param pos="1"/>
         </call-macro>
-<call-macro n="choose_case_and_postposition2">
+<call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
-          <with-param pos="2"/>
         </call-macro>
  
   <out>
@@ -13034,8 +13228,7 @@ If no format information is present it is removed. -->
  <call-macro n="conv-mfpron">
           <with-param pos="1"/>
         </call-macro>
-<call-macro n="choose_case_and_postposition2">
-          <with-param pos="2"/>
+<call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
         </call-macro>
  
@@ -13543,8 +13736,7 @@ If no format information is present it is removed. -->
       </pattern>
 <action>
         
-      <call-macro n="choose_case_and_postposition2">
-          <with-param pos="2"/>
+      <call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -13634,8 +13826,7 @@ If no format information is present it is removed. -->
       </pattern>
 <action>
         
-      <call-macro n="choose_case_and_postposition2">
-          <with-param pos="2"/>
+      <call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">
@@ -13869,8 +14060,7 @@ If no format information is present it is removed. -->
         <call-macro n="conv-number1">
           <with-param pos="1"/>
         </call-macro>
-<call-macro n="choose_case_and_postposition2">
-          <with-param pos="2"/>
+<call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
         </call-macro>
 
@@ -14006,9 +14196,8 @@ If no format information is present it is removed. -->
       </pattern>
 <action>
         
-      <call-macro n="choose_case_and_postposition2">
+      <call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
-          <with-param pos="2"/>
         </call-macro>
         <call-macro n="conv-case1">
           <with-param pos="1"/>
@@ -14081,8 +14270,7 @@ If no format information is present it is removed. -->
       </pattern>
 <action>
         
-      <call-macro n="choose_case_and_postposition2">
-          <with-param pos="2"/>
+      <call-macro n="choose_case_and_postposition1">
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="conv-case1">

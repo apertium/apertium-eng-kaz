@@ -18117,8 +18117,16 @@
                             <e lm="Austro-Hungarian Empire" i=""><i>Austro-Hungarian<b/>Empire</i><par n="Barcelona__np"/></e>
 
 <e lm="Aarhus" i=""><i>Aarhus</i><par n="Barcelona__np"/></e>
+<e lm="Estremadura" i=""><i>Estremadura</i><par n="Barcelona__np"/></e>
+<e lm="Alentejo" i=""><i>Alentejo</i><par n="Barcelona__np"/></e>
+<e lm="Leavenworth" i=""><i>Leavenworth</i><par n="Barcelona__np"/></e>
 <e lm="Abkhazia" i=""><i>Abkhazia</i><par n="Barcelona__np"/></e>
+<e lm="Kardzhali" i=""><i>Kardzhali</i><par n="Barcelona__np"/></e>
+<e lm="Westphalia" i=""><i>Westphalia</i><par n="Barcelona__np"/></e>
+<e lm="Argau" i=""><i>Argau</i><par n="Barcelona__np"/></e>
 <e lm="Abuja" i=""><i>Abuja</i><par n="Barcelona__np"/></e>
+<e lm="Porto" i=""><i>Porto</i><par n="Barcelona__np"/></e>
+<e lm="Styria" i=""><i>Styria</i><par n="Barcelona__np"/></e>
 <e lm="Aksubai" i=""><i>Aksubai</i><par n="Barcelona__np"/></e>
 <e lm="Aksum" i=""><i>Aksum</i><par n="Barcelona__np"/></e>
 <e lm="Alabuga" i=""><i>Alabuga</i><par n="Barcelona__np"/></e>
@@ -42174,12 +42182,15 @@
 
                             <e lm="Brazil" i=""><i>Brazil</i><par n="Barcelona__np"/></e>
 
+ <e lm="Salzburg" i=""><i>Salzburg</i><par n="Barcelona__np"/></e>
 
  <e lm="Basilicata" i=""><i>Basilicata</i><par n="Barcelona__np"/></e>
 <e lm="Solothurn" i=""><i>Solothurn</i><par n="Barcelona__np"/></e>
 
 <e lm="Vratsa" i=""><i>Vratsa</i><par n="Barcelona__np"/></e>
 <e lm="Pleven" i=""><i>Pleven</i><par n="Barcelona__np"/></e>
+<e lm="Silistra" i=""><i>Silistra</i><par n="Barcelona__np"/></e>
+<e lm="Kartintiya" i=""><i>Kartintiya</i><par n="Barcelona__np"/></e>
                             <e lm="Britain" i=""><i>Britain</i><par n="Barcelona__np"/></e>
 
                             <e lm="Brussels" i=""><i>Brussels</i><par n="Mars__np"/></e>
@@ -42693,6 +42704,15 @@
                             <e lm="Jane" i=""><i>Jane</i><par n="Mary__np"/></e>
 
                             <e lm="Japan" i=""><i>Japan</i><par n="Barcelona__np"/></e>
+
+<e lm="Yambol" i=""><i>Yambol</i><par n="Barcelona__np"/></e>
+<e lm="Madeira" i=""><i>Madeira</i><par n="Barcelona__np"/></e>
+
+<e lm="Ciudad-Juarez" i=""><i>Ciudad-Juarez</i><par n="Barcelona__np"/></e>
+<e lm="Ciudad-perdida" i=""><i>Ciudad-perdida</i><par n="Barcelona__np"/></e>
+<e lm="Madeira" i=""><i>Madeira</i><par n="Barcelona__np"/></e>
+<e lm="Madeira" i=""><i>Madeira</i><par n="Barcelona__np"/></e>
+<e lm="Pazardzhik" i=""><i>Pazardzhik</i><par n="Barcelona__np"/></e>
 
                             <e lm="Jaume" i=""><i>Jaume</i><par n="Mark__np"/></e>
 
@@ -57359,6 +57379,8 @@
 
                             <e lm="watermelon" i=""><i>watermelon</i><par n="house__n"/></e>
 
+<e lm="water management" i=""><i>water<b/>management</i><par n="house__n"/></e>
+
                             <e lm="watt" i=""><i>watt</i><par n="house__n"/></e>
 
                             <e lm="wave" i=""><i>wave</i><par n="house__n"/></e>
@@ -71434,6 +71456,8 @@ wind
                             <e lm="caducous" i=""><i>caducous</i><par n="expensive__adj"/></e>
 
                             <e lm="caesura" i=""><i>caesura</i><par n="house__n"/></e>
+
+ <e lm="sura" i=""><i>sura</i><par n="house__n"/></e>
 
                             <e lm="cafe" i=""><i>cafe</i><par n="house__n"/></e>
 
@@ -94061,10 +94085,19 @@ wind
 
                             <e lm="desktop computer" i=""><i>desktop<b/>computer</i><par n="house__n"/></e>
 
+ <e lm="computer science" i=""><i>computer<b/>science</i><par n="house__n"/></e>
+
                             <e lm="paraphernalia" i=""><i>paraphernalia</i><par n="house__n"/></e>
 
                             <e lm="Pobra do Caramiñal" i=""><i>Pobra<b/>do<b/>Caramiñal</i><par n="Barcelona__np"/></e>
 
+<e lm="Veneto" i=""><i>Veneto</i><par n="Barcelona__np"/></e>
+<e lm="Braga" i=""><i>Braga</i><par n="Barcelona__np"/></e>
+<e lm="Kyzylkum" i=""><i>Kyzylkum</i><par n="Barcelona__np"/></e>
+<e lm="Württemberg" i=""><i>Württemberg</i><par n="Barcelona__np"/></e>
+<e lm="Santarem" i=""><i>Santarem</i><par n="Barcelona__np"/></e>
+<e lm="Anhalt" i=""><i>Anhalt</i><par n="Barcelona__np"/></e>
+<e lm="Pernambuco" i=""><i>Pernambuco</i><par n="Barcelona__np"/></e>
                             <e lm="portability" i=""><i>portabilit</i><par n="bab/y__n"/></e>
 
                             <e lm="Pura P. Prado" i=""><i>Pura<b/>P.<b/>Prado</i><par n="Mary__np"/></e>

@@ -529,6 +529,7 @@
 <e><p><l>campaign<s n="n"/></l><r>науқан<s n="n"/></r></p></e>
 <e><p><l>Depression<s n="n"/></l><r>ойпат<s n="n"/></r></p></e>
 <e><p><l>districts<s n="n"/></l><r>округ<s n="n"/></r></p></e>
+<e><p><l>districts<s n="n"/></l><r>округы<s n="n"/></r></p></e>
 <e><p><l>textbook<s n="n"/></l><r>оқулық<s n="n"/></r></p></e>
 <e><p><l>region<s n="n"/></l><r>өлке<s n="n"/></r></p></e>
 <e><p><l>region<s n="n"/></l><r>өңір<s n="n"/></r></p></e>
@@ -671,6 +672,7 @@
 <e><p><l>judge<s n="n"/></l><r>бағалағыш<s n="n"/></r></p></e>
 <e><p><l>price-list<s n="n"/></l><r>бағатізбе<s n="n"/></r></p></e>
 <e><p><l>catalog<s n="n"/></l><r>бағатізбе<s n="n"/></r></p></e>
+<e><p><l>catalog<s n="n"/></l><r>тізілім<s n="n"/></r></p></e>
 <e><p><l>price-current<s n="n"/></l><r>бағатізбе<s n="n"/></r></p></e>
 <e><p><l>pricelessness<s n="n"/></l><r>бағасыздық<s n="n"/></r></p></e>
 <e><p><l>worthlessness<s n="n"/></l><r>бағасыздық<s n="n"/></r></p></e>
@@ -2236,6 +2238,7 @@
 <e><p><l>prudence<s n="n"/></l><r>есепсіздік<s n="n"/></r></p></e>
 <e><p><l>calculator<s n="n"/></l><r>есептеуіш<s n="n"/></r></p></e>
 <e><p><l>computer<s n="n"/></l><r>есептеуіш<s n="n"/></r></p></e>
+<e><p><l>computer<b/>science<s n="n"/></l><r>информатика<s n="n"/></r></p></e>
 <e><p><l>numerator<s n="n"/></l><r>есептеуіш<s n="n"/></r></p></e>
 <e><p><l>accountancy<s n="n"/></l><r>есепшілік<s n="n"/></r></p></e>
 <e><p><l>recklessness<s n="n"/></l><r>есерлік<s n="n"/></r></p></e>
@@ -3843,6 +3846,7 @@
 <e><p><l>triage<s n="n"/></l><r>сұрыптау<s n="n"/></r></p></e>
 <e><p><l>assortment<s n="n"/></l><r>сұрыптау<s n="n"/></r></p></e>
 <e><p><l>water<s n="n"/></l><r>сутаған<s n="n"/></r></p></e>
+<e><p><l>water<b/>management<s n="n"/></l><r>сушаруашылығы<s n="n"/></r></p></e>
 <e><p><l>pond<s n="n"/></l><r>сутаған<s n="n"/></r></p></e>
 <e><p><l>reservoir<s n="n"/></l><r>сутаған<s n="n"/></r></p></e>
 <e><p><l>hydrogen<s n="n"/></l><r>сутек<s n="n"/></r></p></e>
@@ -6835,7 +6839,7 @@
 <e><p><l>computability<s n="n"/></l><r>есептеушілік<s n="n"/></r></p></e>
 <e><p><l>computation<s n="n"/></l><r>есептелім<s n="n"/></r></p></e>
 <e><p><l>computerisation<s n="n"/></l><r>компьютеризация<s n="n"/></r></p></e>
-<e><p><l>computeric<s n="n"/></l><r>компьютерлік<s n="n"/></r></p></e>
+<e><p><l>computeric<s n="adj"/></l><r>компьютерлік<s n="adj"/></r></p></e>
 <e><p><l>computer<s n="n"/></l><r>компьютер<s n="n"/></r></p></e>
 <e><p><l>compromise<s n="n"/></l><r>келісім<s n="n"/></r></p></e>
 <e><p><l>comrade<s n="n"/></l><r>жолдас<s n="n"/></r></p></e>
@@ -10221,6 +10225,7 @@
 <e><p><l>interrogation<s n="n"/></l><r>жауап<s n="n"/></r></p></e>
 <e><p><l>interruption<s n="n"/></l><r>үзілім<s n="n"/></r></p></e>
 <e><p><l>intersection<s n="n"/></l><r>қоспа<s n="n"/></r></p></e>
+<e><p><l>intersection<s n="n"/></l><r>торап<s n="n"/></r></p></e>
 <e><p><l>interval<s n="n"/></l><r>ара<b/>қашықтық<s n="n"/></r></p></e>
 <e><p><l>intervention<s n="n"/></l><r>қабаттасушылық<s n="n"/></r></p></e>
 <e><p><l>interview<s n="n"/></l><r>сұхбат<s n="n"/></r></p></e>
@@ -10742,6 +10747,7 @@
 <e><p><l>listing<s n="n"/></l><r>тізімдеу<s n="n"/></r></p></e>
 <e><p><l>listing<s n="n"/></l><r>листинг<s n="n"/></r></p></e>
 <e><p><l>list<s n="n"/></l><r>тізім<s n="n"/></r></p></e>
+<e><p><l>list<s n="n"/></l><r>тізілім<s n="n"/></r></p></e>
 <e><p><l>litany<s n="n"/></l><r>литания<s n="n"/></r></p></e>
 <e><p><l>literacy<s n="n"/></l><r>сауаттылық<s n="n"/></r></p></e>
 <e><p><l>literature<s n="n"/></l><r>әдебиет<s n="n"/></r></p></e>
@@ -14727,6 +14733,7 @@
 <e><p><l>supposition<s n="n"/></l><r>жорамал<s n="n"/></r></p></e>
 <e><p><l>suppository<s n="n"/></l><r>суппозитория<s n="n"/></r></p></e>
 <e><p><l>supremacy<s n="n"/></l><r>зор<b/>күш<s n="n"/></r></p></e>
+<e><p><l>sura<s n="n"/></l><r>сүре<s n="n"/></r></p></e>
 <e><p><l>surface<s n="n"/></l><r>бет<s n="n"/></r></p></e>
 <e><p><l>surfboard<s n="n"/></l><r>серфинг<b/>тақтасы<s n="n"/></r></p></e>
 <e><p><l>surfer<s n="n"/></l><r>серфингист<s n="n"/></r></p></e>
@@ -22373,6 +22380,11 @@
 <e><p><l>Qwqmara<s n="np"/><s n="top"/></l><r>Қуқмара<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kursk<s n="np"/><s n="top"/></l><r>Курск<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kyzyltu<s n="np"/><s n="top"/></l><r>Қызылту<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Württemberg<s n="np"/><s n="top"/></l><r>Вюртемберг<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Kyzylkum<s n="np"/><s n="top"/></l><r>Қызылқұм<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Santarem<s n="np"/><s n="top"/></l><r>Сантарен<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Anhalt<s n="np"/><s n="top"/></l><r>Анхальт<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Pernambuco<s n="np"/><s n="top"/></l><r>Пернамбуку<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>PRC<s n="np"/><s n="top"/></l><r>ҚХР<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Layish<s n="np"/><s n="top"/></l><r>Лайыш<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Lancaster<s n="np"/><s n="top"/></l><r>Ланкастер<s n="np"/><s n="top"/></r></p></e>
@@ -22426,6 +22438,8 @@
 <e><p><l>Vvedenka<s n="np"/><s n="top"/></l><r>Введенка<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>VDR<s n="np"/><s n="top"/></l><r>ВДР<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Venice<s n="np"/><s n="top"/></l><r>Венеция<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Braga<s n="np"/><s n="top"/></l><r>Брага<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Veneto<s n="np"/><s n="top"/></l><r>Венето<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Verny<s n="np"/><s n="top"/></l><r>Верный<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Verxneberezovskiy<s n="np"/><s n="top"/></l><r>Верхнеберезовский<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Verxubinka<s n="np"/><s n="top"/></l><r>Верхубинка<s n="np"/><s n="top"/></r></p></e>
@@ -22587,6 +22601,14 @@
 <e><p><l>Barmaqqum<s n="np"/><s n="top"/></l><r>Бармаққұм<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Barsakelmes<s n="np"/><s n="top"/></l><r>Барсакелмес<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Barcelona<s n="np"/><s n="top"/></l><r>Барселона<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Kardzhali<s n="np"/><s n="top"/></l><r>Кырджали<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Styria<s n="np"/><s n="top"/></l><r>Штирия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Argau<s n="np"/><s n="top"/></l><r>Аргау<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Argau<s n="np"/><s n="top"/></l><r>Аргау<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Alentejo<s n="np"/><s n="top"/></l><r>Алентежу<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Leavenworth<s n="np"/><s n="top"/></l><r>Ливенворт<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Estremadura<s n="np"/><s n="top"/></l><r>Эштремадура<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Westphalia<s n="np"/><s n="top"/></l><r>Вестфалия<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Aberdour<s n="np"/><s n="top"/></l><r>Абердор<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Berkeley<s n="np"/><s n="top"/></l><r>Беркли<s n="np"/><s n="top"/></r></p></e>
 
@@ -22609,8 +22631,8 @@
 <e><p><l>Piedmont<s n="np"/><s n="top"/></l><r>Пьемонт<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kemerov<s n="np"/><s n="top"/></l><r>Кемеров<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Krasnoyarsk<s n="np"/><s n="top"/></l><r>Красноярск<s n="np"/><s n="top"/></r></p></e>
-
-
+<e><p><l>Krasnoyarsk<s n="np"/><s n="top"/></l><r>Краснояр<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Thuringia<s n="np"/><s n="top"/></l><r>Тюрингия<s n="np"/><s n="top"/></r></p></e>
 
 <e><p><l>Bartogai<s n="np"/><s n="top"/></l><r>Бартоғай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Barxanqum<s n="np"/><s n="top"/></l><r>Барханқұм<s n="np"/><s n="top"/></r></p></e>
@@ -23398,10 +23420,15 @@
 <e><p><l>Bozshakol<s n="np"/><s n="top"/><s n="sg"/></l><r>Бозшакөл<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Brasilia<s n="np"/><s n="top"/><s n="sg"/></l><r>Бразилиа<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Brazil<s n="np"/><s n="top"/><s n="sg"/></l><r>Бразилия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Zharkent<s n="np"/><s n="top"/><s n="sg"/></l><r>Жаркент<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Zhanaarka<s n="np"/><s n="top"/><s n="sg"/></l><r>Жаңаарқа<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Basilicata<s n="np"/><s n="top"/><s n="sg"/></l><r>Базиликата<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Solothurn<s n="np"/><s n="top"/><s n="sg"/></l><r>Золотурн<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Vratsa<s n="np"/><s n="top"/><s n="sg"/></l><r>Враца<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Pleven<s n="np"/><s n="top"/><s n="sg"/></l><r>Плевен<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Kartintiya<s n="np"/><s n="top"/><s n="sg"/></l><r>Картинтия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Silistra<s n="np"/><s n="top"/><s n="sg"/></l><r>Силистра<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Salzburg<s n="np"/><s n="top"/><s n="sg"/></l><r>Зальцбург<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Brazil<s n="np"/><s n="top"/><s n="sg"/></l><r>Бразилия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Bremen<s n="np"/><s n="top"/><s n="sg"/></l><r>Бремен<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Brindisi<s n="np"/><s n="top"/><s n="sg"/></l><r>Бриндизи<s n="np"/><s n="top"/></r></p></e>
@@ -23595,6 +23622,11 @@
 <e><p><l>Jakarta<s n="np"/><s n="top"/><s n="sg"/></l><r>Джакарта<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Jamaica<s n="np"/><s n="top"/><s n="sg"/></l><r>Ямайка<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Japan<s n="np"/><s n="top"/><s n="sg"/></l><r>Жапония<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Yambol<s n="np"/><s n="top"/><s n="sg"/></l><r>Ямбол<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ciudad-Juarez<s n="np"/><s n="top"/><s n="sg"/></l><r>Сьюдад-Хуарес<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ciudad-perdida<s n="np"/><s n="top"/><s n="sg"/></l><r>Сьюдад-пердида<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Madeira<s n="np"/><s n="top"/><s n="sg"/></l><r>Мадейра<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Pazardzhik<s n="np"/><s n="top"/><s n="sg"/></l><r>Пазарджик<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Jersey<s n="np"/><s n="top"/><s n="sg"/></l><r>Джерси<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Johannesburg<s n="np"/><s n="top"/><s n="sg"/></l><r>Йоханнесбург<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Jordan<s n="np"/><s n="top"/><s n="sg"/></l><r>Иордания<s n="np"/><s n="top"/></r></p></e>
@@ -28090,6 +28122,7 @@
 <e><p><l>strident<s n="adj"/></l><r>шиқылдақ<s n="adj"/></r></p></e>
 <e><p><l>strong<s n="adj"/></l><r>күшті<s n="adj"/></r></p></e>
 <e><p><l>structural<s n="adj"/></l><r>құрылымды<s n="adj"/></r></p></e>
+<e><p><l>structural<s n="adj"/></l><r>құрылымдық<s n="adj"/></r></p></e>
 <e><p><l>stubborn<s n="adj"/></l><r>қыңыр<s n="adj"/></r></p></e>
 <e><p><l>studious<s n="adj"/></l><r>ынталы<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>stumbled<s n="adj"/></l><r>сүрінген<s n="adj"/><s n="subst"/></r></p></e>

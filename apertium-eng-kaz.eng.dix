@@ -41561,6 +41561,7 @@
 <e lm="asher" i=""><i>asher</i><par n="house__n"/></e>
 <e lm="assemble" i=""><i>assemble</i><par n="house__n"/></e>
 <e lm="authorization" i=""><i>authorization</i><par n="house__n"/></e>
+
 <e lm="backband" i=""><i>backband</i><par n="house__n"/></e>
 <e lm="backwardness" i=""><i>backwardness</i><par n="house__n"/></e>
 <e lm="bad manner" i=""><i>bad<b/>manner</i><par n="house__n"/></e>
@@ -45147,6 +45148,7 @@
 <e lm="Kokbay" i=""><i>Kokbay</i><par n="Mark__np"/></e>
 <e lm="Kokserek" i=""><i>Kokserek</i><par n="Mark__np"/></e>
 <e lm="Kopbay" i=""><i>Kopbay</i><par n="Mark__np"/></e>
+<e lm="Kokshetau" i=""><i>Kokshetau</i><par n="Barcelona__np"/></e>
 <e lm="Kopzhan" i=""><i>Kopzhan</i><par n="Mark__np"/></e>
 <e lm="Kopzhasar" i=""><i>Kopzhasar</i><par n="Mark__np"/></e>
 <e lm="Koshimbay" i=""><i>Koshimbay</i><par n="Mark__np"/></e>
@@ -46235,6 +46237,7 @@
 			    <e lm="naturalist" i=""><i>naturalist</i><par n="house__n"/></e>
 
                             <e lm="authority" i=""><i>authorit</i><par n="bab/y__n"/></e>
+ <e lm="authori" i=""><i>authori</i><par n="bab/y__n"/></e>
 
                             <e lm="authoritarianism" i=""><i>authoritarianism</i><par n="house__n"/></e>
 
@@ -49908,6 +49911,8 @@
 
                             <e lm="fermentation" i=""><i>fermentation</i><par n="house__n"/></e>
 
+ <e lm="ferment" i=""><i>ferment</i><par n="house__n"/></e>
+
                             <e lm="fertiliser" i=""><i>fertiliser</i><par n="bab/y__n"/></e>
 
                             <e lm="fertility" i=""><i>fertilit</i><par n="bab/y__n"/></e>
@@ -50621,6 +50626,7 @@
 <e lm="Bosphorus" i=""><i>Bosphorus</i><par n="Barcelona__np"/></e>
 <e lm="Wisla" i=""><i>Wisla</i><par n="Barcelona__np"/></e>
 <e lm="Himalayas" i=""><i>Himalayas</i><par n="Barcelona__np"/></e>
+<e lm="Tyan-Shan" i=""><i>Tyan-Shan</i><par n="Barcelona__np"/></e>
 <e lm="Dvina" i=""><i>Dvina</i><par n="Barcelona__np"/></e>
 <e lm="Dnepr" i=""><i>Dnepr</i><par n="Barcelona__np"/></e>
 <e lm="Don" i=""><i>Don</i><par n="Barcelona__np"/></e>
@@ -51370,6 +51376,7 @@
                             <e lm="incompatibility" i=""><i>incompatibilit</i><par n="bab/y__n"/></e>
 
                             <e lm="incompetence" i=""><i>incompetence</i><par n="house__n"/></e>
+<e lm="competence" i=""><i>competence</i><par n="house__n"/></e>
 
                             <e lm="incontinence" i=""><i>incontinence</i><par n="house__n"/></e>
 
@@ -57718,6 +57725,9 @@
                             <e lm="Taiwanese" i=""><i>Taiwanese</i><par n="house__n"/></e>
 
                             <e lm="Ukrainian" i=""><i>Ukrainian</i><par n="house__n"/></e>
+
+<e lm="Uighur" i=""><i>Uighur</i><par n="house__n"/></e>
+<e lm="Tatar" i=""><i>Tatar</i><par n="house__n"/></e>
 
                             <e lm="Uruguayan" i=""><i>Uruguayan</i><par n="house__n"/></e>
 
@@ -69026,6 +69036,7 @@
                             <e lm="Frantzisko" i=""><i>Frantzisko</i><par n="Mark__np"/></e>
 
                             <e lm="Gorka" i=""><i>Gorka</i><par n="Mark__np"/></e>
+<e lm="Gorky" i=""><i>Gorky</i><par n="Smith__np"/></e>
 
                             <e lm="Iñigo" i=""><i>Iñigo</i><par n="Mark__np"/></e>
 

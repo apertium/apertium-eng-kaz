@@ -44208,6 +44208,7 @@
 <e lm="Baikonys" i=""><i>Baikonys</i><par n="Barcelona__np"/></e>
 <e lm="Baiseit" i=""><i>Baiseit</i><par n="Barcelona__np"/></e>
 <e lm="Baytakkol" i=""><i>Baytakkol</i><par n="Barcelona__np"/></e>
+<e lm="Bayterek" i=""><i>Bayterek</i><par n="Barcelona__np"/></e>
 <e lm="Baichunas" i=""><i>Baichunas</i><par n="Barcelona__np"/></e>
 <e lm="Bayaldyr" i=""><i>Bayaldyr</i><par n="Barcelona__np"/></e>
 <e lm="Bayınqol" i=""><i>Bayınqol</i><par n="Barcelona__np"/></e>
@@ -56627,6 +56628,8 @@
 
                             <e lm="thousand" i=""><i>thousand</i><par n="house__n"/></e>
 
+
+
                             <e lm="thread" i=""><i>thread</i><par n="house__n"/></e>
 
                             <e lm="threat" i=""><i>threat</i><par n="house__n"/></e>
@@ -68048,6 +68051,8 @@
                             <e lm="a hundred" i=""><i>a<b/>hundred</i><par n="million__num"/></e>
 
                             <e lm="a thousand" i=""><i>a<b/>thousand</i><par n="million__num"/></e>
+
+
 
                             <e lm="a million" i=""><i>a<b/>million</i><par n="million__num"/></e>
 

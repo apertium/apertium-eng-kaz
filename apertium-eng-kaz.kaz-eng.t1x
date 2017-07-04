@@ -467,6 +467,11 @@
       <cat-item tags="prn.itg.*"/>
 <cat-item tags="prn.itg.*.*"/>
          </def-cat>
+
+<def-cat n="determ">
+      <cat-item tags="det.dem"/>
+
+         </def-cat>
 <def-cat n="num-cas">
       <cat-item tags="num.subst.abl"/>
 <cat-item tags="num.*.*"/>
@@ -15767,6 +15772,64 @@ If no format information is present it is removed. -->
 </rule>
 
 -->
+
+<rule comment="RULE: bul"> <!-- -->
+      <pattern>
+        <pattern-item n="determ"/>
+
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+  <call-macro n="convert-poss-to-pers">
+          <with-param pos="1"/>
+        </call-macro>
+
+          
+<out>
+          <chunk name="determiner" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+
+              <tag><clip pos="1" side="tl" part="a_prn"/></tag>
+              <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+             <tag><var n="mf"/></tag> 
+    <tag><var n="number"/></tag>
+
+
+      
+
+    </tags>
+ 
+    
+
+
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+<clip pos="1" side="tl" part="a_prn"/>
+<lit-tag v="det"/> 
+      <lit-tag v="dem"/> 
+<lit-tag v="2"/>
+     <!--<lit-tag v="mf"/> 
+      <lit-tag v="sp"/> 
+     -->
+
+            </lu>
+
+          
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
  </section-rules>

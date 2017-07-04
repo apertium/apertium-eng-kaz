@@ -201,6 +201,7 @@
 
 <def-cat n="thousand-etc">
       <cat-item lemma="мың" tags="n.nom"/>
+<cat-item lemma="мың" tags="n.*"/>
 <cat-item lemma="мың" tags="num"/>
       <cat-item lemma="миллион" tags="num"/>
       <cat-item lemma="миллиард" tags="num"/>
@@ -477,12 +478,20 @@
 <cat-item tags="num.*.*"/>
 </def-cat>
 
+<def-cat n="myn_mil">
+      
+<cat-item lemma="мың" tags="num.subst.*"/>
+   </def-cat>
+
       <def-cat n="num">
       <cat-item tags="num"/>
 
       <cat-item tags="num.*"/>
 <cat-item tags="num.*.*"/>
 </def-cat>
+
+
+
 <def-cat n="num-ord">
 <cat-item tags="num.ord.subst"/>
 <cat-item tags="num.ord.subst.*"/>
@@ -2571,6 +2580,193 @@ If no format information is present it is removed. -->
 
 <section-rules>
 
+
+<rule comment="RULE: NUM myn  NOM"> <!--15 thousands -> thousands as noun-->
+      <pattern>
+<pattern-item n="num"/>
+        <pattern-item n="myn_mil"/>
+        <pattern-item n="nom"/>
+
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="3" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="myn-nom-cop" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+         <lu>
+
+<clip pos="2" side="tl" part="lemh"/>
+              <lit-tag v="n"/>
+<var n="number"/>
+              <clip pos="2" side="tl" part="lemq"/>
+
+             
+             
+            </lu>
+<b/>
+<lu>
+              <clip pos="3" side="tl" part="lem"/>
+	<clip pos="3" side="tl" part="a_nom"/>
+             <var n="number"/>
+            </lu>
+<b/>
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+<rule comment="RULE: NUM myn  NOM"> <!--15 thousands+cop -> thousands as noun-->
+      <pattern>
+<pattern-item n="num"/>
+        <pattern-item n="myn_mil"/>
+        <pattern-item n="nom"/>
+<pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="3" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="myn-nom-cop" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+ <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+         <lu>
+
+<clip pos="2" side="tl" part="lemh"/>
+              <lit-tag v="n"/>
+<var n="number"/>
+              <clip pos="2" side="tl" part="lemq"/>
+
+             
+             
+            </lu>
+<b/>
+<lu>
+              <clip pos="3" side="tl" part="lem"/>
+	<clip pos="3" side="tl" part="a_nom"/>
+             <var n="number"/>
+            </lu>
+<b/>
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+<rule comment="RULE: NUM NUM N"><!--100 мың/миллион/миллиард доллар-->
+        
+      <pattern>
+        <pattern-item n="num-det"/>
+        <pattern-item n="thousand-etc"/>
+        <pattern-item n="nom"/>
+      </pattern>
+
+      <action>
+       <call-macro n="conv-case1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="3"/>
+        </call-macro>
+<call-macro n="remove-poss">
+          <with-param pos="3"/>
+        </call-macro> 
+        
+               
+        <let><clip pos="3" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
+        
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="tl" part="a_num"/><lit-tag v="num"/></equal></test>
+	    
+	  </when>
+	</choose>
+        <out>
+          <chunk name="num_num_n">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <var n="preposition"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b/>
+            <lu>
+              
+	<clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="a_num"/>
+              <clip pos="2" side="tl" part="lemq"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+	<lit-tag v="pl"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="RULE: V-ING VAUX-NEG-past"> <!-- negative past cont -->
       <pattern>
         <pattern-item n="v-ing"/>
@@ -3370,61 +3566,7 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
-   <rule comment="RULE: NUM NUM N"><!--100 мың/миллион/миллиард доллар-->
-        
-      <pattern>
-        <pattern-item n="num-det"/>
-        <pattern-item n="thousand-etc"/>
-        <pattern-item n="nom"/>
-      </pattern>
-
-      <action>
-       <call-macro n="conv-case1">
-          <with-param pos="3"/>
-        </call-macro>
-        <call-macro n="conv-number1">
-          <with-param pos="3"/>
-        </call-macro>
-<call-macro n="remove-poss">
-          <with-param pos="3"/>
-        </call-macro> 
-        
-               
-        <let><clip pos="3" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
-        
-        <choose>
-          <when>
-            <test><equal><clip pos="1" side="tl" part="a_num"/><lit-tag v="num"/></equal></test>
-	    
-	  </when>
-	</choose>
-        <out>
-          <chunk name="num_num_n">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-            <var n="preposition"/>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-            <b/>
-            <lu>
-              
-	<clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="a_nom"/>
-              <clip pos="2" side="tl" part="a_num"/>
-              <clip pos="2" side="tl" part="lemq"/>
-              <clip pos="2" side="tl" part="a_nbr"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="3" side="tl" part="whole"/>
-	<lit-tag v="pl"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
+   
 
 
 
@@ -9369,6 +9511,7 @@ If no format information is present it is removed. -->
         </call-macro>
       </action>
     </rule>
+
 
 
 

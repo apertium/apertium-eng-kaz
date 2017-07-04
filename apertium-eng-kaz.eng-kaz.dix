@@ -417,6 +417,7 @@
 <e><p><l>universe<s n="n"/></l><r>ғалам<s n="n"/></r></p></e>
 <e><p><l>general<s n="n"/></l><r>генерал<s n="n"/></r></p></e>
 <e><p><l>skill<s n="n"/></l><r>дағды<s n="n"/></r></p></e>
+<e><p><l>skiing<s n="n"/></l><r>тау<b/>шаңғы<b/>спорт<s n="n"/></r></p></e>
 <e><p><l>tablecloth<s n="n"/></l><r>дастарқан<s n="n"/></r></p></e>
 <e><p><l>storm<b/>petrel<s n="n"/></l><r>дауылпаз<s n="n"/></r></p></e>
 <e><p><l>fortune<s n="n"/></l><r>дәулет<s n="n"/></r></p></e>
@@ -5385,6 +5386,7 @@
 <e><p><l>baker<s n="n"/></l><r>наубайшы<s n="n"/></r></p></e>
 <e><p><l>baker<s n="n"/></l><r>наубайшы<s n="n"/></r></p></e>
 <e><p><l>bakery<s n="n"/></l><r>наубайхана<s n="n"/></r></p></e>
+<e><p><l>contemporary<s n="n"/></l><r>замандас<s n="n"/></r></p></e>
 <e><p><l>balance<s n="n"/></l><r>тепе-теңдік<s n="n"/></r></p></e>
 <e><p><l>balcony<s n="n"/></l><r>балкон<s n="n"/></r></p></e>
 <e><p><l>bale<s n="n"/></l><r>тең<s n="n"/></r></p></e>
@@ -12521,6 +12523,7 @@
 <e><p><l>place<s n="n"/></l><r>орын<s n="n"/></r></p></e>
 <e><p><l>place<s n="n"/></l><r>мекен<s n="n"/></r></p></e>
 <e><p><l>place<s n="n"/></l><r>тұрақ<s n="n"/></r></p></e>
+<e><p><l>placement<s n="n"/></l><r>орналастыру<s n="n"/></r></p></e>
 <e><p><l>plagiarism<s n="n"/></l><r>плагиат<s n="n"/></r></p></e>
 <e><p><l>plague<s n="n"/></l><r>оба<s n="n"/></r></p></e>
 <e><p><l>plain<s n="n"/></l><r>жазық<s n="n"/></r></p></e>
@@ -25829,6 +25832,8 @@
 <e><p><l>constructive<s n="adj"/></l><r>сындарлы<s n="adj"/></r></p></e>
 <e><p><l>consular<s n="adj"/></l><r>консулдік<s n="adj"/></r></p></e>
 <e><p><l>consultative<s n="adj"/></l><r>консультациялық<s n="adj"/></r></p></e>
+<e><p><l>commutative<s n="adj"/></l><r>коммутативті<s n="adj"/></r></p></e>
+<e><p><l>adaptive<s n="adj"/></l><r>бейімді<s n="adj"/></r></p></e>
 <e><p><l>contagious<s n="adj"/></l><r>жұқпалы<s n="adj"/></r></p></e>
 <e><p><l>contemporary<s n="adj"/></l><r>замандас<s n="adj"/></r></p></e>
 <e><p><l>contemptible<s n="adj"/></l><r>сұқсыр<s n="adj"/></r></p></e>
@@ -27903,6 +27908,7 @@
 <e><p><l>resinous<s n="adj"/></l><r>шайырлы<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>resistant<s n="adj"/></l><r>берік<s n="adj"/></r></p></e>
 <e><p><l>respectable<s n="adj"/></l><r>салиқалы<s n="adj"/></r></p></e>
+<e><p><l>sizable<s n="adj"/></l><r>анағұрлым<s n="adj"/></r></p></e>
 <e><p><l>respectful<s n="adj"/></l><r>бейілді<s n="adj"/></r></p></e>
 <e><p><l>respective<s n="adj"/></l><r>лайықты<s n="adj"/></r></p></e>
 <e><p><l>respiratory<s n="adj"/></l><r>тыныстық<s n="adj"/></r></p></e>
@@ -27927,6 +27933,7 @@
 <e><p><l>ripe<s n="adj"/></l><r>есейген<s n="adj"/></r></p></e>
 <e><p><l>ripened<s n="adj"/></l><r>піскен<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>ritualistic<s n="adj"/></l><r>дәстүрлік<s n="adj"/></r></p></e>
+<e><p><l>relativistic<s n="adj"/></l><r>релятивистік<s n="adj"/></r></p></e>
 <e><p><l>rival<s n="adj"/></l><r>қарсылас<s n="adj"/></r></p></e>
 <e><p><l>robed<s n="adj"/></l><r>киімшең<s n="adj"/></r></p></e>
 <e><p><l>robotic<s n="adj"/></l><r>роботтық<s n="adj"/></r></p></e>
@@ -30171,8 +30178,10 @@
 <e><p><l>insist<s n="vblex"/></l><r>талап<b/>ет<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>inspect<s n="vblex"/></l><r>тексер<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>inspire<s n="vblex"/></l><r>қанаттандыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>plague<s n="vblex"/></l><r>қина<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>install<s n="vblex"/></l><r>орналастыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>station<s n="vblex"/></l><r>орналастыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>position<s n="vblex"/></l><r>орналастыр<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>instruct<s n="vblex"/></l><r>оқыт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>integrate<s n="vblex"/></l><r>біріктір<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>intend<s n="vblex"/></l><r>арна<s n="v"/><s n="tv"/></r></p></e>
@@ -30613,6 +30622,8 @@
 <e><p><l>regard<s n="vblex"/></l><r>қабылда<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>regenerate<s n="vblex"/></l><r>жаңарт<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>upgrade<s n="vblex"/></l><r>жаңарт<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>theorize<s n="vblex"/></l><r>теорияландыр<s n="v"/><s n="tv"/></r></p></e>
+<e><p><l>promulgate<s n="vblex"/></l><r>жарияла<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>register<s n="vblex"/></l><r>тірке<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>regret<s n="vblex"/></l><r>өкін<s n="v"/><s n="iv"/></r></p></e>
 <e><p><l>regulate<s n="vblex"/></l><r>ретте<s n="v"/><s n="tv"/></r></p></e>
@@ -31707,6 +31718,7 @@
 <e><p><l>TV<s n="n"/></l><r>теледидар<s n="n"/></r></p></e>
 <e><p><l>part<s n="n"/></l><r>том<s n="n"/></r></p></e>
 <e><p><l>judge<s n="n"/></l><r>судья<s n="n"/></r></p></e>
+<e><p><l>judiciary<s n="n"/></l><r>сот<b/>жүйесі<s n="n"/></r></p></e>
 <e><p><l>inquiry<s n="n"/></l><r>сауал<s n="n"/><s n="px3sp"/></r></p></e>
 <e><p><l>prosecutor's<b/>office<s n="n"/></l><r>прокуратура<s n="n"/></r></p></e>
 <e><p><l>tens<b/>of<s n="det"/></l><r>ондаған<s n="det"/><s n="qnt"/></r></p></e>
@@ -33251,6 +33263,7 @@
 <e><p><l>reactionist<s n="n"/></l><r>кертартпа<s n="n"/></r></p></e>
 <e><p><l>conservative<s n="n"/></l><r>кертартпа<s n="n"/></r></p></e>
 <e><p><l>reaction<s n="n"/></l><r>кертартпа<s n="n"/></r></p></e>
+<e><p><l>derivation<s n="n"/></l><r>қорытынды<s n="n"/></r></p></e>
 <e><p><l>doom<s n="n"/></l><r>кесім<s n="n"/></r></p></e>
 <e><p><l>cyrillic<s n="n"/></l><r>кириллица<s n="n"/></r></p></e>
 <e><p><l>treatment<s n="n"/></l><r>шипа<s n="n"/></r></p></e>

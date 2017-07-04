@@ -46414,6 +46414,8 @@
 
                             <e lm="bakery" i=""><i>baker</i><par n="bab/y__n"/></e>
 
+			    <e lm="contemporary" i=""><i>contemporar</i><par n="bab/y__n"/></e>
+
                             <e lm="balance" i=""><i>balance</i><par n="house__n"/></e>
 
                             <e lm="ball" i=""><i>ball</i><par n="house__n"/></e>
@@ -51514,6 +51516,8 @@
 
                             <e lm="insect" i=""><i>insect</i><par n="house__n"/></e>
 
+			    <e lm="placement" i=""><i>placement</i><par n="house__n"/></e>
+
                             <e lm="insecticide" i=""><i>insecticide</i><par n="house__n"/></e>
 
                             <e lm="insecurity" i=""><i>insecurit</i><par n="bab/y__n"/></e>
@@ -51857,6 +51861,8 @@
                             <e lm="junior" i=""><i>junior</i><par n="house__n"/></e>
 
                             <e lm="jury" i=""><i>jur</i><par n="bab/y__n"/></e>
+
+			    <e lm="judiciary" i=""><i>judiciar</i><par n="bab/y__n"/></e>
 
                             <e lm="jurisdiction" i=""><i>jurisdiction</i><par n="house__n"/></e>
 
@@ -54710,6 +54716,8 @@
                             <e lm="razor" i=""><i>razor</i><par n="house__n"/></e>
 
                             <e lm="reaction" i=""><i>reaction</i><par n="house__n"/></e>
+
+			    <e lm="derivation" i=""><i>derivation</i><par n="house__n"/></e>
 
                             <e lm="reactivity" i=""><i>reactivit</i><par n="bab/y__n"/></e>
 
@@ -59169,6 +59177,10 @@
 
                             <e lm="consultative" i=""><i>consultative</i><par n="expensive__adj"/></e>
 
+			    <e lm="commutative" i=""><i>commutative</i><par n="expensive__adj"/></e>
+
+		 	    <e lm="adaptive" i=""><i>adaptive</i><par n="expensive__adj"/></e>
+
                             <e lm="contagious" i=""><i>contagious</i><par n="expensive__adj"/></e>
 
                             <e lm="contemporary" i=""><i>contemporary</i><par n="expensive__adj"/></e>
@@ -61448,6 +61460,8 @@
 
                             <e lm="respectable" i=""><i>respectable</i><par n="expensive__adj"/></e>
 
+			    <e lm="sizable" i=""><i>sizable</i><par n="expensive__adj"/></e>
+
                             <e lm="respectful" i=""><i>respectful</i><par n="expensive__adj"/></e>
 
                             <e lm="respective" i=""><i>respective</i><par n="expensive__adj"/></e>
@@ -63234,6 +63248,10 @@
 
 			    <e lm="upgrade" i=""><i>upgrad</i><par n="liv/e__vblex"/></e>
 
+			    <e lm="theorize" i=""><i>theoriz</i><par n="liv/e__vblex"/></e>
+
+			    <e lm="promulgate" i=""><i>promulgat</i><par n="liv/e__vblex"/></e>
+
 			    <e lm="convene" i=""><i>conven</i><par n="liv/e__vblex"/></e>
 
                             <e lm="recall" i=""><i>recall</i><par n="accept__vblex"/></e>
@@ -64486,7 +64504,11 @@
 
                             <e lm="inspire" i=""><i>inspir</i><par n="liv/e__vblex"/></e>
 
+			    <e lm="plague" i=""><i>plagu</i><par n="liv/e__vblex"/></e>
+
                             <e lm="install" i=""><i>install</i><par n="accept__vblex"/></e>
+
+			    <e lm="position" i=""><i>position</i><par n="accept__vblex"/></e>
 
                             <e lm="institutionalize" i=""><i>institutionali</i><par n="organi/ze__vblex"/></e>
 
@@ -77455,6 +77477,8 @@ wind
 
                             <e lm="ritualistic" i=""><i>ritualistic</i><par n="expensive__adj"/></e>
 
+			    <e lm="relativistic" i=""><i>relativistic</i><par n="expensive__adj"/></e>
+
                             <e r="RL" i=""><i>road</i><par n="expensive__adj"/></e>
 
                             <e lm="road" i=""><i>road</i><par n="house__n"/></e>
@@ -77853,6 +77877,8 @@ wind
                             <e lm="skimmer" i=""><i>skimmer</i><par n="house__n"/></e>
 
                             <e lm="skittle" i=""><i>skittle</i><par n="house__n"/></e>
+
+			    <e lm="skiing" i=""><i>skiing</i><par n="house__n"/></e>
 
                             <e lm="sling" i=""><i>sl</i><par n="r/ing__vblex"/></e>
 

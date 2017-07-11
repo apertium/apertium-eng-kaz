@@ -34,6 +34,7 @@ Errors/kaz-eng_unknown_words -text svneol=unset#application/octet-stream
 /apertium-eng-kaz.kaz-eng.t1x -text
 /apertium-eng-kaz.kaz-eng.t2x -text
 /apertium-eng-kaz.kaz-eng.t3x -text
+/apertium-kaz-0.1.0.tar.gz -text
 /autogen.sh -text
 /bibl-cover.sh -text
 /configure.ac -text

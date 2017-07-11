@@ -461,6 +461,7 @@
     </def-attr>
 <def-attr n="a_detdef">
        <attr-item tags="det.def"/>
+       <attr-item tags="det.ind"/>
     </def-attr>
  
      <def-attr n="a_num">
@@ -16429,10 +16430,17 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 </when>
 <when>
      <test>
+<or>
 <equal>
       <clip pos="1" side="sl" part="a_detdef"/>
           <lit-tag v="det.def"/>
        </equal>
+<equal>
+      <clip pos="1" side="sl" part="a_detdef"/>
+          <lit-tag v="det.ind"/>
+       </equal>
+
+</or>
      </test>
     <out>
     <chunk name="the-adj">

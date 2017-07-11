@@ -3483,7 +3483,7 @@
         <out>
      <chunk name="NP_ger">  
       <tags>
-       <tag><lit-tag v="NP"/></tag>
+       <tag><lit-tag v="NP_GER"/></tag>
         <tag><lit-tag v="PD"/></tag> 
         <tag><lit-tag v="ND"/></tag> 
         <tag><lit-tag v="ger"/></tag> 

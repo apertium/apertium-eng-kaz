@@ -7,6 +7,11 @@
       <cat-item tags="NP.*"/>
       <cat-item tags="NP_to_inf.*"/>
     </def-cat>
+ <def-cat n="NP_GER">
+      <cat-item tags="NP_GER"/>
+      <cat-item tags="NP_GER.*"/>
+    </def-cat>
+ 
  <def-cat n="NPPP">
       <cat-item tags="NP"/>
       <cat-item tags="NP.*"/>
@@ -3377,7 +3382,7 @@
      <pattern>
        <pattern-item n="NP"/>
        <pattern-item n="VP_psmod"/>
-       <pattern-item n="NP"/>
+       <pattern-item n="NP_GER"/>
      </pattern>
      <action>
 <call-macro n="change-case-upper">  

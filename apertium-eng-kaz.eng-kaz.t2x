@@ -3397,7 +3397,7 @@
             <lit-tag v="NP"/>
             <clip pos="3" part="a_nbr"/>
             <clip pos="3" part="a_pers"/>
-
+            <lit-tag v="ger"/>
             <clip pos="3" part="a_possessive"/> 
             <lit-tag v="acc"/>
             <clip pos="3" part="chcontent"/>

@@ -459,6 +459,10 @@
  <def-attr n="a_subst">
        <attr-item tags="subst"/>
     </def-attr>
+<def-attr n="a_detdef">
+       <attr-item tags="det.def"/>
+    </def-attr>
+ 
      <def-attr n="a_num">
       <attr-item tags="num"/>
       <attr-item tags="num.ord"/>
@@ -1198,7 +1202,7 @@
            <otherwise>
               <let>
                 <var n="case"/>
-                <lit-tag v="ins"/> <!-- Choice when we don't know the translation of the preposition, can be improved -->
+                <lit-tag v="nom"/> <!-- Choice when we don't know the translation of the preposition, can be improved -->
               </let>
               <let>
                 <var n="pptag"/>
@@ -1329,6 +1333,13 @@
     </choose>
        </when>
      </choose>
+<choose>
+         <when> 
+           <test><equal><var n="case"/><lit v=""/>              </equal></test>
+<let><var n="case"/><lit-tag v="nom"/> </let>
+</when>
+</choose>
+
     </def-macro>
 
 
@@ -11281,7 +11292,14 @@
 
 
        <otherwise> <!-- no possessive or demonstrative, postposition -->
-        <out>
+<choose>
+         <when> 
+           <test><equal><var n="case"/><lit v=""/>              </equal></test>
+<let><var n="case"/><lit-tag v="nom"/> </let>
+</when>
+</choose>
+        
+<out>
           <chunk name="prep-detart-noun1">
           <tags>
              <tag><var n="pptag"/></tag>
@@ -12791,6 +12809,12 @@
 
 
        <otherwise> <!-- no possessive or demonstrative, postposition -->
+<choose>
+         <when> 
+           <test><equal><var n="case"/><lit v=""/>              </equal></test>
+<let><var n="case"/><lit-tag v="nom"/> </let>
+</when>
+</choose>
 
         <out>
           <chunk name="prep-det-adjec-noun-postnoposs">
@@ -16341,6 +16365,35 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
   <action>
 <choose>
     <when>
+     <test>
+<and>
+      
+ <equal>
+      <clip pos="1" side="tl" part="a_dem"/>
+          <lit-tag v="dem"/>
+       </equal>
+<equal>
+      <clip pos="1" side="tl" part="a_det"/>
+          <lit-tag v="prn"/>
+       </equal>
+</and>
+     </test>
+    <let><var n="case"/><lit-tag v="nom"/> </let>
+</when>
+</choose>
+<choose>
+    <when>
+     <test>
+<equal>
+      <clip pos="2" side="tl" part="a_subst"/>
+          <lit-tag v="subst"/>
+       </equal>
+     </test>
+    <let><var n="caseDem"/><lit-tag v="nom"/> </let>
+</when>
+</choose>
+<choose>
+    <when>
      <test>  
        <equal>
       <clip pos="1" side="tl" part="a_pron"/>
@@ -16374,6 +16427,33 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     </chunk>
     </out>
 </when>
+<when>
+     <test>
+<equal>
+      <clip pos="1" side="sl" part="a_detdef"/>
+          <lit-tag v="det.def"/>
+       </equal>
+     </test>
+    <out>
+    <chunk name="the-adj">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag>
+ <tag><lit-tag v="subst"/></tag>
+ <tag><lit-tag v="PXD"/></tag>
+ <tag><var n="caseDem"/></tag>
+    </tags>
+	<b pos="1"/>
+     <lu>
+      <clip pos="2" side="tl" part="lem"/>
+        <lit-tag v="adj"/>
+      <clip pos="2" side="tl" part="a_subst"/>
+        <lit-tag v="3"/>
+        <lit-tag v="4"/>
+     </lu>
+    </chunk>
+    </out>
+
+</when>
 <otherwise>
     <out>
     <chunk name="det-adj">
@@ -16381,19 +16461,20 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <tag><lit-tag v="AdjP"/></tag>
  <tag><lit-tag v="subst"/></tag>
  <tag><lit-tag v="PXD"/></tag>
- <tag><lit-tag v="CD"/></tag>
+ <tag><var n="caseDem"/></tag>
     </tags>
 	<b pos="1"/>
      <lu>
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_det"/>
       <clip pos="1" side="tl" part="a_dem"/>
+      <var n="case"/>
     </lu>
 	<b/>
     <lu>
       <clip pos="2" side="tl" part="lem"/>
         <lit-tag v="adj"/>
-        <lit-tag v="2"/>
+      <clip pos="2" side="tl" part="a_subst"/>
         <lit-tag v="3"/>
         <lit-tag v="4"/>
      </lu>

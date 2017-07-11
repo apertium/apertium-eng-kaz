@@ -13713,7 +13713,6 @@ this would have to be changed -->
     <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
     <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
     <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
-    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
     </tags>
 
 <!--    <b pos="1"/> -->

@@ -6560,7 +6560,7 @@ If no format information is present it is removed. -->
     </rule>
 
 
-<rule comment="RULE: NUM NOM post">
+<rule comment="RULE: NUM NOM post"> <!--1 million years ago-->
       <pattern>
  <pattern-item n="num"/>
         <pattern-item n="nom"/>
@@ -6592,14 +6592,12 @@ If no format information is present it is removed. -->
                <tag><var n="number"/></tag>
               <tag><lit-tag v="PD"/></tag>
             </tags>
-            <lu>
-              <clip pos="3" side="tl" part="lem"/>
-             <lit-tag v="pr"/>
-
-            </lu>
-            <b pos="1"/>
+            
+            
               <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lem"/>
+<lit-tag v="n"/>
+             <lit-tag v="sg"/>
               </lu>
 <b/>
 
@@ -6607,6 +6605,12 @@ If no format information is present it is removed. -->
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_nom"/>
               <lit-tag v="2"/>
+
+            </lu>
+<b/>
+<lu>
+              <clip pos="3" side="tl" part="lem"/>
+             <lit-tag v="adv"/>
 
             </lu>
           </chunk>
@@ -9719,7 +9723,7 @@ If no format information is present it is removed. -->
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="whole"/>
-              <var n="number"/>
+             <!-- <var n="number"/>-->
             </lu>
           </chunk>
         </out>

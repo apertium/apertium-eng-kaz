@@ -308,6 +308,93 @@
   <section-rules>
 
 
+<rule comment="RULE: SN SENT SN TNAN SN SV">  <!--SN SENT SN SV TNAN SN -->
+      <pattern>
+        <pattern-item n="SN"/>
+ <pattern-item n="SENT"/>
+        <pattern-item n="SN"/>
+
+<pattern-item n="THAN"/>
+<pattern-item n="SN"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+       <choose>
+<when>
+<test>
+
+<and>
+             <equal>  <clip pos="6" part="a_pers"/><lit-tag v="p3"/></equal>
+            <equal>   <clip pos="6" part="a_nbr"/><lit-tag v="pl"/></equal>
+</and>
+    
+   </test>
+<let>     <clip pos="6" part="a_pers"/><lit v=""/> </let>
+  <let>         <clip pos="6" part="a_nbr"/><lit v=""/></let>
+</when>
+</choose>
+<choose>
+<when>
+<test>
+
+  
+            <equal>   <clip pos="6" part="a_nbr"/><lit-tag v="pl"/></equal>
+
+    
+   </test>
+
+  <let>         <clip pos="6" part="a_nbr"/><lit-tag v="pl"/></let>
+</when>
+</choose>
+ 
+        <out>
+                 <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          
+<chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+
+<chunk>
+           <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+<b/>
+<chunk>
+           <clip pos="6" part="lem"/>
+            <clip pos="6" part="tags"/>
+            <clip pos="6" part="chcontent"/>
+          </chunk>
+<b/>
+<chunk>
+           <clip pos="4" part="lem"/>
+            <clip pos="4" part="tags"/>
+           <clip pos="4" part="chcontent"/>
+          </chunk>
+         <b/>
+
+<chunk>
+           <clip pos="5" part="lem"/>
+            <clip pos="5" part="tags"/>
+            <clip pos="5" part="chcontent"/>
+          </chunk>
+         
+
+        <var n="PREP"/>
+          
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
     <rule comment="RULE:  SN-ADVP PP SV">
       <pattern>
         
@@ -1222,6 +1309,9 @@
         </call-macro>
       </action>
     </rule>
+
+
+
 
 
 <rule comment="RULE: SN SN SN.LOC SV-cop SV">  <!--Мэри Джеймстің қайда екенін білмейді -->

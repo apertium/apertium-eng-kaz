@@ -317,7 +317,7 @@
 
   <!-- kaz → eng -->
 
-  <mode name="kaz-eng" install="yes">
+  <mode name="kaz-eng" install="no">
     <pipeline>
       <program name="lt-proc -w">
         <file name="kaz-eng.automorf.bin"/>

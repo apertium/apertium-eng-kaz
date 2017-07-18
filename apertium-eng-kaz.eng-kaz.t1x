@@ -15097,6 +15097,17 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 </when>
 <otherwise>
 <choose>
+<when>
+     <test> 
+    <equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="one"/>
+       </equal>
+     </test>
+     <let><var n="case"/> <lit-tag v="nom"/></let>
+     <let><var n="number"/><lit v=""/></let>
+    </when>
+
     <when>
      <test>  
 <not>
@@ -15111,6 +15122,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
      <let><var n="case"/> <lit-tag v="nom"/></let>
      <let><var n="number"/><lit v=""/></let>
     </when>
+
 <otherwise>
      <let><var n="possessive"/><lit v=""/></let>
 </otherwise>
@@ -15129,10 +15141,10 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <lu>
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_pron"/>
+      <var n="possessive"/>
       <clip pos="1" side="tl" part="a_pers"/>
       <var n="number"/>
       <var n="pos"/> 
-<var n="possessive"/>
       <var n="case"/> <!-- case --> 
     </lu>
 <b/>

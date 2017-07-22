@@ -8516,7 +8516,7 @@
 </or>
 </test>
     <out>
-    <chunk name="detdem-num-nom">
+    <chunk name="detdem-num-nom1">
     <tags>
     <tag><lit-tag v="NP"/></tag>
     <tag><clip pos="4" side="tl" part="a_nbr"/></tag> <!-- number placeholder: use 'semantic' number for SL -->
@@ -8902,6 +8902,50 @@
 <!-- *** -->
 
 <choose>
+<when> <!-- these as osy prn dem -->
+    <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+<equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+<equal><clip pos="1" side="sl" part="lem"/><lit v="this"/></equal>
+</and>
+</test>
+    <out>
+    <chunk name="detdem-num-nom-osy">
+    <tags>
+    <tag><lit-tag v="NP"/></tag>
+    <tag><clip pos="4" side="tl" part="a_nbr"/></tag> <!-- number placeholder: use 'semantic' number for SL -->
+    <tag><lit-tag v="p3"/></tag> <!-- person placeholder -->
+    <tag><lit-tag v="PXD"/></tag> <!-- possessor placeholder -->
+    <tag><lit-tag v="CD"/></tag> <!-- case placeholder -->
+    </tags>
+
+     <lu>
+      <clip pos="1" side="tl" part="lem"/>
+      <clip pos="1" side="tl" part="a_det"/>
+      <clip pos="1" side="tl" part="a_dem"/>
+     <lit-tag v="nom"/>
+    </lu>
+	<b pos="1"/>
+    <lu>  
+      <var n="num_lu"/>
+     </lu>
+    <b pos="2"/>
+    <lu>  
+     <clip pos="3" side="tl" part="lem"/> 
+     <clip pos="3" side="tl" part="a_nom"/>
+     <clip pos="3" side="tl" part="a_nbr"/>
+     <lit-tag v="nom"/>
+     </lu>
+    <b pos="3"/>
+ <lu>  
+      <var n="NEW-noun_lu"/>
+     </lu>
+    </chunk>
+    </out>
+  </when>
+ 
+ 
   <when> <!-- Demonstrative -->
     <test>
 <or>

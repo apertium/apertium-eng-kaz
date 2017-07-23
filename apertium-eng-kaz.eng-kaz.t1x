@@ -11272,6 +11272,41 @@
        <!-- when there is postposition information, it is generated -->
 
        <choose>
+<when> <!-- these as osy prn dem -->
+    <test>
+<and>
+<equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+<equal><clip pos="2" side="sl" part="lem"/><lit v="that"/></equal>
+</and>
+</test>
+	 <out>
+             <chunk name="prep-detdem-noun-post-osy">
+             <tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="3" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>   
+             </tags>
+             <b pos="1"/>
+             <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <lit-tag v="prn"/>
+             <clip pos="2" side="tl" part="a_dem"/>
+             <lit-tag v="nom"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <var n="NEW-noun_lu"/>
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+             </chunk>
+           </out>
+         </when>
+
          <when> <!-- Demonstrative, postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>
@@ -12785,6 +12820,46 @@
        <!-- when there is postposition information, it is generated -->
 
        <choose>
+<when> <!-- these as osy prn dem -->
+    <test>
+<and>
+<equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+<equal><clip pos="2" side="sl" part="lem"/><lit v="this"/></equal>
+</and>
+</test>
+	<out>
+             <chunk name="prep-det-adjec-noun-dempost-osy">
+    		<tags>
+                <tag><var n="pptag"/></tag>
+                <tag><clip pos="4" part="a_nbr" side="sl"/></tag> <!-- number -->
+                <tag><lit-tag v="p3"/></tag> <!-- person is 3 for nouns -->
+                <tag><lit-tag v="PXD"/></tag> <!-- just in case -->
+                <tag><var n="case"/></tag>   
+             </tags>
+             <b pos="1"/>
+             <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="a_det"/>
+             <clip pos="2" side="tl" part="a_dem"/>
+	     <lit-tag v="nom"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <var n="adjec_lu"/>
+            </lu>
+            <b pos="3"/>
+             <lu>
+               <var n="NEW-noun_lu"/>
+            </lu>
+            <b/>
+            <lu>  
+               <var n="postposition_lu"/>
+            </lu>
+             </chunk>
+           </out>
+ </when>
+
+
          <when> <!-- Demonstrative, postposition -->
            <test><equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/>              </equal></test>
            <out>

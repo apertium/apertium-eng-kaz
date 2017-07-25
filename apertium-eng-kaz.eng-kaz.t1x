@@ -8530,7 +8530,24 @@
     </call-macro>
 
 <!-- *** -->
-
+<choose>
+<when> <!-- these as osy prn dem -->
+    <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+<or>
+<equal><clip pos="1" side="sl" part="lem"/><lit v="This"/></equal>
+<equal><clip pos="1" side="sl" part="lem"/><lit v="These"/></equal>
+<equal><clip pos="1" side="sl" part="lem"/><lit v="this"/></equal>
+<equal><clip pos="1" side="sl" part="lem"/><lit v="these"/></equal>
+</or>
+</and>
+</test><let><var n="caseDem"/><lit-tag v="nom"/></let>
+</when>
+<otherwise>
+<let><var n="caseDem"/><lit v=""/></let>
+</otherwise>
+</choose>
 <choose>
   <when> <!-- Demonstrative -->
     <test>
@@ -8553,6 +8570,7 @@
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_det"/>
       <clip pos="1" side="tl" part="a_dem"/>
+<var n="caseDem"/>
     </lu>
 	<b pos="1"/>
     <lu>  

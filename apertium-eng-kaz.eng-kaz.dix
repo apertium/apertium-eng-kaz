@@ -20814,6 +20814,8 @@
 <e><p><l>Kairat<s n="np"/><s n="ant"/><s n="m"/></l><r>Қайрат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Kal<s n="np"/><s n="ant"/><s n="m"/></l><r>Кал<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Kanat<s n="np"/><s n="ant"/><s n="m"/></l><r>Қанат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Kultegin<s n="np"/><s n="ant"/><s n="m"/></l><r>Күлтегін<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>Tanukok<s n="np"/><s n="ant"/><s n="m"/></l><r>Таныкөк<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Kar<s n="np"/><s n="ant"/><s n="m"/></l><r>Кар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Karl<s n="np"/><s n="ant"/><s n="m"/></l><r>Карл<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e><p><l>Kassym<s n="np"/><s n="ant"/><s n="m"/></l><r>Қасым<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -29591,6 +29593,7 @@
 <e><p><l>crack<s n="vblex"/></l><r>шытырлат<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>cradle<s n="vblex"/></l><r>жу<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>crash<s n="vblex"/></l><r>күйре<s n="v"/><s n="iv"/></r></p></e>
+<e><p><l>crash<s n="vblex"/></l><r>күйрет<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>create<s n="vblex"/></l><r>жаса<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>credit<s n="vblex"/></l><r>кредитте<s n="v"/><s n="tv"/></r></p></e>
 <e><p><l>creep<s n="vblex"/></l><r>еңбекте<s n="v"/><s n="iv"/></r></p></e>
@@ -31224,6 +31227,7 @@
 <e><p><l>holіstіc<s n="adj"/></l><r>тұтас<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>quick<s n="adj"/></l><r>саңлақ<s n="adj"/><s n="subst"/></r></p></e>
 <e><p><l>helpless<s n="adj"/></l><r>қорғансыз<s n="adj"/><s n="subst"/></r></p></e>
+<e><p><l>bolshevistic<s n="adj"/></l><r>большевистік<s n="adj"/></r></p></e>
 <!--end of adjectives -->
 
 <!--End of corpus -->

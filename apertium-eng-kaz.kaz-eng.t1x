@@ -28,6 +28,11 @@
      
     </def-cat>
 
+<def-cat n="zhyl">
+      <cat-item lemma="жыл" tags="n.*"/>
+     
+    </def-cat>
+
 <def-cat n="osydan">
       <cat-item lemma="осы" tags="prn.dem.abl"/>
      
@@ -9296,6 +9301,64 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+
+<rule comment="RULE: NUM  NOM"> <!--in 1920 year-->
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="zhyl"/>
+
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+<!-- <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>-->
+        <out>
+          <chunk name="num-zhyl" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-NUM"/></tag>
+            </tags>
+<lu>
+              <lit v="in"/>
+              <lit-tag v="pr"/>
+             
+            </lu>
+            
+
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+             
+            </lu>
+            <b pos="1"/>
+           
+<lu>
+              <clip pos="2" side="tl" part="lem"/>
+	<clip pos="2" side="tl" part="a_nom"/>
+             <lit-tag v="sg"/>
+            </lu>
+<b/>
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
  
 
 

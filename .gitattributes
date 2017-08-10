@@ -31,6 +31,7 @@ Errors/kaz-eng_unknown_words -text svneol=unset#application/octet-stream
 /apertium-eng-kaz.eng.acx -text
 /apertium-eng-kaz.eng.dix -text
 /apertium-eng-kaz.kaz-eng.lrx -text
+/apertium-eng-kaz.kaz-eng.lsx -text
 /apertium-eng-kaz.kaz-eng.t1x -text
 /apertium-eng-kaz.kaz-eng.t2x -text
 /apertium-eng-kaz.kaz-eng.t3x -text

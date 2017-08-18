@@ -16,6 +16,9 @@
       <cat-item tags="abbr"/>
       
     </def-cat>
+
+
+
 <def-cat n="n-sim">
       <cat-item tags="n.px1sg.sim"/>
       <cat-item tags="n.px2sg.sim"/>
@@ -8035,7 +8038,7 @@ If no format information is present it is removed. -->
         <out>
           <chunk name="n-post" case="caseFirstWord">
             <tags>
-              <tag><var n="sntype"/></tag>
+              <tag><lit-tag v="SN-post"/></tag>
             </tags>
             <lu>
 
@@ -9786,7 +9789,7 @@ If no format information is present it is removed. -->
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="whole"/>
-             <!-- <var n="number"/>-->
+              <var n="number"/>
             </lu>
           </chunk>
         </out>
@@ -14403,6 +14406,9 @@ If no format information is present it is removed. -->
         </call-macro>
       </action>
     </rule>
+
+
+
 
 
 <rule comment="RULE: NOM">

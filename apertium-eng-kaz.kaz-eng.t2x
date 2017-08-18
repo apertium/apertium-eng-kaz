@@ -12,7 +12,10 @@
       <cat-item tags="SN-pron.*"/>
     </def-cat>
 
-
+ <def-cat n="SN-post">
+      <cat-item tags="SN-post"/>
+      <cat-item tags="SN-post.*"/>
+    </def-cat>
 
  <def-cat n="SN-to-cop">
       <cat-item tags="SN-to-cop"/>
@@ -2350,6 +2353,46 @@
            <clip pos="3" part="lem"/>
             <clip pos="3" part="tags"/>
             <clip pos="3" part="chcontent"/>
+          </chunk>
+         <b/>
+        <var n="PREP"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+        <call-macro n="reset-case1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+<rule comment="RULE: SN SN">  <!--memleket turaly about state -->
+      <pattern>
+        <pattern-item n="SN"/>
+ <pattern-item n="SN-post"/>
+       
+      </pattern>
+      <action>
+      
+
+
+ 
+        <out>
+                 <chunk>
+           <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          
+          <chunk>
+           <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
           </chunk>
          <b/>
         <var n="PREP"/>

@@ -761,6 +761,26 @@
       </choose>
     </def-macro>
 
+<def-macro n="assign-osy-dem-nom" npar="1">
+      <choose>
+<when> <!-- these as osy prn dem -->
+    <test>
+<and>
+<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
+<or>
+<equal><clip pos="1" side="sl" part="lem"/><lit v="This"/></equal>
+<equal><clip pos="1" side="sl" part="lem"/><lit v="These"/></equal>
+<equal><clip pos="1" side="sl" part="lem"/><lit v="this"/></equal>
+<equal><clip pos="1" side="sl" part="lem"/><lit v="these"/></equal>
+</or>
+</and>
+</test><let><var n="caseDem"/><lit-tag v="nom"/></let>
+</when>
+<otherwise>
+<let><var n="caseDem"/><lit v=""/></let>
+</otherwise>
+</choose>
+    </def-macro>
 
     <!--<def-macro n="choose_case_and_postposition" npar="1">  
     <let><var n="pptag"/><lit-tag v="AdvP"/></let> <let><var n="genpp"/><lit v="no"/></let> 
@@ -8674,6 +8694,7 @@
     <pattern-item n="nom"/>
   </pattern>
   <action>
+
     <call-macro n="NEW-build-noun-lu-2-4-5-sg">
       <with-param pos="3"/>
     </call-macro> <!-- noun is built in singular as the NP contains numerals -->
@@ -8681,6 +8702,9 @@
       <with-param pos="2"/>
     </call-macro>
 
+<call-macro n="assign-osy-dem-nom">
+      <with-param pos="1"/>
+    </call-macro> 
 <!-- *** -->
 
 <choose>
@@ -8705,6 +8729,7 @@
       <clip pos="1" side="tl" part="lem"/>
       <clip pos="1" side="tl" part="a_det"/>
       <clip pos="1" side="tl" part="a_dem"/>
+      <var n="caseDem"/>
     </lu>
 	<b pos="1"/>
 
@@ -10845,23 +10870,10 @@
     <pattern-item n="nom"/>
     <pattern-item n="nom"/>
   </pattern>
-  <action>
-<choose>
-<when> <!-- these as osy prn dem -->
-    <test>
-<and>
-<equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
-<or>
-<equal><clip pos="2" side="sl" part="lem"/><lit v="this"/></equal>
-<equal><clip pos="2" side="sl" part="lem"/><lit v="these"/></equal>
-</or>
-</and>
-</test><let><var n="caseDem"/><lit-tag v="nom"/></let>
-</when>
-<otherwise>
-<let><var n="caseDem"/><lit v=""/></let>
-</otherwise>
-</choose>
+  <action><call-macro n="assign-osy-dem-nom">
+      <with-param pos="2"/>
+    </call-macro> 
+
 
   <call-macro n="choose_case_and_postposition2"><with-param pos="1"/><with-param pos="4"/></call-macro>
   <call-macro n="NEW-build-noun-lu-2-4-5-sg">
@@ -13624,23 +13636,11 @@ this would have to be changed -->
   </call-macro>  
  <call-macro n="build-num-lu">
     <with-param pos="3"/>
-  </call-macro>  
-<choose>
-<when> <!-- these as osy prn dem -->
-    <test>
-<and>
-<equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
-<or>
-<equal><clip pos="2" side="sl" part="lem"/><lit v="this"/></equal>
-<equal><clip pos="2" side="sl" part="lem"/><lit v="these"/></equal>
-</or>
-</and>
-</test><let><var n="caseDem"/><lit-tag v="nom"/></let>
-</when>
-<otherwise>
-<let><var n="caseDem"/><lit v=""/></let>
-</otherwise>
-</choose>
+  </call-macro> 
+<call-macro n="assign-osy-dem-nom">
+      <with-param pos="2"/>
+    </call-macro> 
+
 
     <choose>
       <when>  
@@ -14193,25 +14193,10 @@ this would have to be changed -->
       <with-param pos="3"/>
     </call-macro>
 
-<!-- *** -->
-<choose>
-<when> <!-- these as osy prn dem -->
-    <test>
-<and>
-<equal><clip pos="1" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
-<or>
-<equal><clip pos="1" side="sl" part="lem"/><lit v="This"/></equal>
-<equal><clip pos="1" side="sl" part="lem"/><lit v="These"/></equal>
-<equal><clip pos="1" side="sl" part="lem"/><lit v="this"/></equal>
-<equal><clip pos="1" side="sl" part="lem"/><lit v="these"/></equal>
-</or>
-</and>
-</test><let><var n="caseDem"/><lit-tag v="nom"/></let>
-</when>
-<otherwise>
-<let><var n="caseDem"/><lit v=""/></let>
-</otherwise>
-</choose>
+<call-macro n="assign-osy-dem-nom">
+      <with-param pos="1"/>
+    </call-macro> 
+
 
 <choose>
   <when> <!-- Demonstrative -->

@@ -1681,7 +1681,16 @@
              <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
 
              <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p1"/></equal>
+<and>
+<equal>  <clip pos="1" part="a_pers"/><lit-tag v="p2"/></equal>
+ <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="sp"/></equal>
+</and>
+
 </or>            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+
+
+ 
+
 </and>
 
 
@@ -1690,10 +1699,12 @@
    </test>
 <let>     <var n="PERS"/><lit v=""/> </let>
   <let>         <var n="number"/><lit v=""/></let>
-</when><otherwise>
+</when>
+<otherwise>
 <let>     <var n="PERS"/><clip pos="1" part="a_pers"/> </let>
   <let>         <var n="number"/><clip pos="1" part="a_nbr"/></let>
 </otherwise>
+
 </choose>
 
  
@@ -1754,7 +1765,16 @@
              <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
 
              <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p1"/></equal>
+<and>
+<equal>  <clip pos="1" part="a_pers"/><lit-tag v="p2"/></equal>
+ <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="sp"/></equal>
+</and>
+
 </or>            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+
+
+ 
+
 </and>
 
 
@@ -1909,7 +1929,16 @@
              <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p3"/></equal>
 
              <equal>  <clip pos="1" part="a_pers"/><lit-tag v="p1"/></equal>
+<and>
+<equal>  <clip pos="1" part="a_pers"/><lit-tag v="p2"/></equal>
+ <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="sp"/></equal>
+</and>
+
 </or>            <equal>   <clip pos="1" part="a_nbr"/><lit-tag v="pl"/></equal>
+
+
+ 
+
 </and>
 
 

@@ -13183,6 +13183,10 @@
  <call-macro n="build-adjec-lu">
     <with-param pos="4"/>
   </call-macro>  
+<call-macro n="assign-osy-dem-nom">
+      <with-param pos="3"/>
+    </call-macro> 
+
     <choose>
       <when>  
        <test><equal><var n="genpp"/><lit v="yes"/></equal></test> 
@@ -13205,6 +13209,7 @@
              <clip pos="3" side="tl" part="lem"/>
              <clip pos="3" side="tl" part="a_det"/>
              <clip pos="3" side="tl" part="a_dem"/>
+             <var n="caseDem"/>
              </lu>
              <b pos="2"/>
   <lu>
@@ -13418,6 +13423,9 @@
     <pattern-item n="nom"/>
   </pattern>
   <action>
+<call-macro n="assign-osy-dem-nom">
+      <with-param pos="2"/>
+    </call-macro> 
 
   <call-macro n="choose_case_and_postposition2"><with-param pos="1"/><with-param pos="4"/></call-macro>
   <call-macro n="NEW-build-noun-lu-2-4-5">
@@ -13446,6 +13454,7 @@
              <clip pos="2" side="tl" part="lem"/>
              <clip pos="2" side="tl" part="a_det"/>
              <clip pos="2" side="tl" part="a_dem"/>
+             <var n="caseDem"/>
              </lu>
              <b pos="2"/>
              <lu>
@@ -13529,6 +13538,10 @@
       </choose>
       </when>
       <otherwise> <!-- no postposition -->
+<call-macro n="assign-osy-dem-nom">
+      <with-param pos="2"/>
+    </call-macro> 
+
         <choose>   
 
          <when> <!-- Demonstrative, no postposition -->
@@ -13547,6 +13560,7 @@
              <clip pos="2" side="tl" part="lem"/>
              <clip pos="2" side="tl" part="a_det"/>
              <clip pos="2" side="tl" part="a_dem"/>
+	     <var n="caseDem"/>
              </lu>
              <b pos="2"/>
              <lu>
@@ -15336,14 +15350,22 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 <otherwise>
 <choose>
 <when>
-     <test> 
+     <test>  
+<or>
     <equal>
           <clip pos="1" side="sl" part="lem"/>
           <lit v="one"/>
        </equal>
+ <equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="One"/>
+       </equal>
+
+</or>
      </test>
      <let><var n="case"/> <lit-tag v="nom"/></let>
      <let><var n="number"/><lit v=""/></let>
+     <let><var n="possessive"/><lit v=""/></let>
     </when>
 
     <when>

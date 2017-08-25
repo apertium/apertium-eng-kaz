@@ -495,6 +495,7 @@
       <cat-item tags="num"/>
 
       <cat-item tags="num.*"/>
+<cat-item tags="num.subst.loc"/>
 <cat-item tags="num.*.*"/>
 </def-cat>
 
@@ -579,6 +580,7 @@
       <cat-item lemma="бол" tags="v.*.ifi.*"/>
  <cat-item lemma="бол" tags="v.*.ifi.*.*"/>
 <cat-item lemma="е" tags="cop.ifi.*.*"/>
+<cat-item lemma="бол" tags="v.*.gna_perf"/>
     </def-cat>
 <def-cat n="v-bol">
       <cat-item lemma="бол" tags="vaux.*.*.*"/>
@@ -6851,6 +6853,68 @@ If no format information is present it is removed. -->
     </rule>
 
 
+<rule comment="RULE: VP-cop-past"> 
+      <pattern>
+        <pattern-item n="bol"/>
+<pattern-item n="kel"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ <choose>
+               <when>
+                   <test>
+                   
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+
+                </when>
+<when>
+                   <test>
+                   <and>
+                       <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p1"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                     </and>
+                      </test>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+           <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+                </when>
+
+           </choose>
+        <out>
+          <chunk name="VP-cop-past" case="caseFirstWord">
+            <tags>
+              <tag> <lit-tag v="SV-to-cop"/></tag>
+
+ <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+ <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+
+
+
+</tags>
+<lu>
+              <lit v="be"/>
+              <lit-tag v="vbser"/>
+              <lit-tag v="past"/>
+              <lit-tag v="2"/>
+              <lit-tag v="3"/>
+<lit-tag v="4"/>
+              
+</lu>
+
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
 
 
 
@@ -9515,8 +9579,8 @@ If no format information is present it is removed. -->
               <tag><lit-tag v="SN-NUM"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
-             
+              <clip pos="1" side="tl" part="lem"/>
+             <lit-tag v="num"/>
             </lu>
             <b pos="1"/>
            

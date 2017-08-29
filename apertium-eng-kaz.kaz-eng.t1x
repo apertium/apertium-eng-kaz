@@ -271,7 +271,14 @@
       <cat-item tags="np.cog.*"/>-->
       <cat-item tags="np.unk"/>
       <!--<cat-item tags="np.ant.*"/>-->
-      <cat-item tags="np.top"/>
+   <!--   <cat-item tags="np.top"/>
+<cat-item tags="np.top.*"/>-->
+      <!--<cat-item tags="np.loc.*"/>-->
+    </def-cat>
+
+
+<def-cat n="top">    
+   <cat-item tags="np.top"/>
 <cat-item tags="np.top.*"/>
       <!--<cat-item tags="np.loc.*"/>-->
     </def-cat>
@@ -448,6 +455,7 @@
     <def-cat n="adj">
      <cat-item tags="adj"/>
       <cat-item tags="adj.sint"/>
+<cat-item tags="adj.subst.*"/>
 <cat-item tags="adj.advl"/>
       <cat-item tags="adj.*"/>
        
@@ -497,6 +505,8 @@
       <cat-item tags="num.*"/>
 <cat-item tags="num.subst.loc"/>
 <cat-item tags="num.*.*"/>
+<cat-item tags="num.*.px3sp.*"/>
+<cat-item tags="num.coll.*.px3sp.*"/>
 </def-cat>
 
 
@@ -667,6 +677,11 @@
 <def-cat n="years_old">
  <cat-item lemma="жас" tags="n.loc"/>
       <cat-item lemma="жас" tags="adj.subst.*.*"/>
+    </def-cat>
+
+<def-cat n="astam">
+ 
+      <cat-item lemma="астам" tags="adj.subst.*"/>
     </def-cat>
 <def-cat n="edi">
  <cat-item lemma="е" tags="cop.ifi.p3.*"/>
@@ -9579,6 +9594,62 @@ If no format information is present it is removed. -->
               <tag><lit-tag v="SN-NUM"/></tag>
             </tags>
             <lu>
+              <clip pos="1" side="tl" part="whole"/>
+          <!--   <lit-tag v="num"/>-->
+            </lu>
+            <b pos="1"/>
+           
+<lu>
+              <clip pos="2" side="tl" part="lem"/>
+	<clip pos="2" side="tl" part="a_nom"/>
+             <var n="number"/>
+            </lu>
+<b/>
+            
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+<rule comment="RULE: NUM  NOM+more than"> <!--10 millionnan actam-->
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="nom"/>
+<pattern-item n="astam"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="2"/>
+        </call-macro>
+ <call-macro n="remove-poss">
+          <with-param pos="2"/>
+        </call-macro>
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="sg"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="sg"/></let>
+                </when>
+                <otherwise>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                </otherwise>
+              </choose>
+        <out>
+          <chunk name="num-nom-more_than" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-NUM"/></tag>
+            </tags>
+ <lu>
+              <clip pos="3" side="tl" part="lem"/>
+            <lit-tag v="preadv"/>
+            </lu>
+            <b/>
+            <lu>
               <clip pos="1" side="tl" part="lem"/>
              <lit-tag v="num"/>
             </lu>
@@ -9600,7 +9671,7 @@ If no format information is present it is removed. -->
     </rule>
 
 
-<rule comment="RULE: NUM  NOM"> <!--7  kyz-->
+<rule comment="RULE: NUM  NOM"> <!--7  kyz.-->
       <pattern>
         <pattern-item n="num"/>
         <pattern-item n="nom"/>
@@ -16111,6 +16182,77 @@ If no format information is present it is removed. -->
             </lu>
 
           
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+<rule comment="RULE: NP-TOP">
+      <pattern>
+        <pattern-item n="top"/>
+      </pattern>
+<action>
+        
+      <call-macro n="choose_case_and_postposition1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+    
+    
+
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                  <let><var n="case"/><lit-tag v="nom"/></let>
+                </when>
+ 
+                <otherwise>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+<choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="lem"/><lit v="аст"/></equal>
+                  </test>
+                 <let><var n="number"/><lit v=""/></let>
+                  <let><var n="postposition_lu"/><lit v=""/></let>
+                </when>
+               
+              </choose>
+
+
+        <out>
+          <chunk name="top" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+              <tag>  <var n="number"/></tag>
+            </tags>
+
+            <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+<lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+            
+              <clip pos="1" side="tl" part="lemq"/>
+                <var n="number"/>
+            </lu>
           </chunk>
         </out>
         <call-macro n="reset-vars1">

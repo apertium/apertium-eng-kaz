@@ -39112,6 +39112,15 @@
 <e lm="Almalyk" i=""><i>Almalyk</i><par n="Barcelona__np"/></e>
 <e lm="Almatu" i=""><i>Almatu</i><par n="Barcelona__np"/></e>
 <e lm="Almaty" i=""><i>Almaty</i><par n="Barcelona__np"/></e>
+<e lm="Aberdeen" i=""><i>Aberdeen</i><par n="Barcelona__np"/></e>
+<e lm="Bronx" i=""><i>Bronx</i><par n="Barcelona__np"/></e>
+<e lm="Bermuda" i=""><i>Bermuda</i><par n="Barcelona__np"/></e>
+<e lm="Alberta" i=""><i>Alberta</i><par n="Barcelona__np"/></e>
+<e lm="Aalen" i=""><i>Aalen</i><par n="Barcelona__np"/></e>
+<e lm="Antigua" i=""><i>Antigua</i><par n="Barcelona__np"/></e>
+<e lm="Andalusia" i=""><i>Andalusia</i><par n="Barcelona__np"/></e>
+<e lm="Aachen" i=""><i>Aachen</i><par n="Barcelona__np"/></e>
+
 <e lm="Rogun" i=""><i>Rogun</i><par n="Barcelona__np"/></e>
 <e lm="Romulus" i=""><i>Romulus</i><par n="Barcelona__np"/></e>
 <e lm="Russia" i=""><i>Russia</i><par n="Barcelona__np"/></e>
@@ -82102,6 +82111,8 @@ wind
                             <e lm="centenarian" i=""><i>centenarian</i><par n="expensive__adj"/></e>
 
                             <e lm="Kirchner" i=""><i>Kirchner</i><par n="Smith__np"/></e>
+
+			    <e lm="Schwarzenegger" i=""><i>Schwarzenegger</i><par n="Smith__np"/></e>
 
                             <e lm="Steinberg" i=""><i>Steinberg</i><par n="Smith__np"/></e>
 

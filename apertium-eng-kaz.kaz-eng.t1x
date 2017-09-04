@@ -9705,8 +9705,9 @@ If no format information is present it is removed. -->
 </lu>
 <b/>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>
-             <lit-tag v="num"/>
+              <clip pos="1" side="tl" part="whole"/>
+            <!-- <lit-tag v="num"/>-->
+
             </lu>
             <b pos="1"/>
            

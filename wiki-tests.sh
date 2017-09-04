@@ -6,6 +6,8 @@ TRGLANG="$3"
 mode="$SRCLANG-$TRGLANG"
 HTML="dev/$TESTTYPE.html"
 
+ 
+
 if [ "$#" -lt 3 ]; then echo "Usage: wiki-tests.sh {Regression,Pending} SRCLANG TRGLANG [update]"; exit 1; fi
 
 printf "Running $1-tests with mode \"$mode\""
@@ -17,7 +19,7 @@ if [ "$4" == "update" ]; then
     else rm $TMPHTML; echo "Couldn't fetch http://wiki.apertium.org/wiki/English_and_Kazakh/$TESTTYPE"; fi
 fi
 echo "..."
-
+echo http://wiki.apertium.org/wiki/English_and_Kazakh/$TESTTYPE
 if [[ ! -s $HTML ]]; then echo "$HTML does not exist or is empty (use 'update' option)"; exit 1; fi
 
 

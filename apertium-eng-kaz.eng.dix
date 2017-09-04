@@ -40695,6 +40695,8 @@
 
                             <e lm="Mozart" i=""><i>Mozart</i><par n="Smith__np"/></e>
 
+			    <e lm="Poirot" i=""><i>Poirot</i><par n="Smith__np"/></e>
+
                             <e lm="Olivier" i=""><i>Olivier</i><par n="Smith__np"/></e>
 
                             <e lm="Pasteur" i=""><i>Pasteur</i><par n="Smith__np"/></e>
@@ -44413,6 +44415,7 @@
 <e lm="Makashevich" i=""><i>Makashevich</i><par n="Smith__np"/></e>
 <e lm="Agybayevich" i=""><i>Agybayevich</i><par n="Smith__np"/></e>
 <e lm="Baiseitova" i=""><i>Baiseitova</i><par n="Smith__np"/></e>
+<e lm="Kournikova" i=""><i>Kournikova</i><par n="Smith__np"/></e>
 <e lm="Nazarbayeva" i=""><i>Nazarbayeva</i><par n="Smith__np"/></e>
 <e lm="Aubakirova" i=""><i>Aubakirov</i><par n="Smith__np"/></e>
 <e lm="Musakhodzhaeva" i=""><i>Musakhodzhaeva</i><par n="Smith__np"/></e>
@@ -82108,13 +82111,39 @@ wind
 
                             <e lm="Fritz" i=""><i>Fritz</i><par n="Bush__np"/></e>
 
+			    <e lm="Carnegie" i=""><i>Carnegie</i><par n="Smith__np"/></e>
+
                             <e lm="centenarian" i=""><i>centenarian</i><par n="expensive__adj"/></e>
 
                             <e lm="Kirchner" i=""><i>Kirchner</i><par n="Smith__np"/></e>
 
+			    <e lm="Afonso" i=""><i>Afonso</i><par n="Smith__np"/></e>
+
+			    <e lm="Agassi" i=""><i>Agassi</i><par n="Smith__np"/></e>
+
+			    <e lm="Spinoza" i=""><i>Spinoza</i><par n="Smith__np"/></e>
+
+			    <e lm="Carolla" i=""><i>Carolla</i><par n="Smith__np"/></e>
+
+			    <e lm="Huxley" i=""><i>Huxley</i><par n="Smith__np"/></e>
+
+			    <e lm="Massoud" i=""><i>Massoud</i><par n="Smith__np"/></e>
+
+			    <e lm="Rodin" i=""><i>Rodin</i><par n="Smith__np"/></e>
+
 			    <e lm="Schwarzenegger" i=""><i>Schwarzenegger</i><par n="Smith__np"/></e>
 
+			    <e lm="Schopenhauer" i=""><i>Schopenhauer</i><par n="Smith__np"/></e>
+
+			    <e lm="Steiner" i=""><i>Steiner</i><par n="Smith__np"/></e>
+
                             <e lm="Steinberg" i=""><i>Steinberg</i><par n="Smith__np"/></e>
+
+			    <e lm="Hitchcock" i=""><i>Hitchcock</i><par n="Smith__np"/></e>
+				
+			    <e lm="Ginsberg" i=""><i>Ginsberg</i><par n="Smith__np"/></e>
+
+			    <e lm="Turing" i=""><i>Turing</i><par n="Smith__np"/></e>
 
                             <e lm="Levine" i=""><i>Levine</i><par n="Smith__np"/></e>
 
@@ -83198,6 +83227,10 @@ wind
 
                             <e lm="Minkowski" i=""><i>Minkowski</i><par n="Smith__np"/></e>
 
+			    <e lm="Tarkovsky" i=""><i>Tarkovsky</i><par n="Smith__np"/></e>
+
+			    <e lm="Solzhenitsyn" i=""><i>Solzhenitsyn</i><par n="Smith__np"/></e>
+
                             <e lm="tread" i=""><i>tread</i><par n="house__n"/></e>
 
                             <e lm="lining" i=""><i>lining</i><par n="house__n"/></e>
@@ -83884,6 +83917,8 @@ wind
                             <e lm="Miranda" i=""><i>Miranda</i><par n="Smith__np"/></e>
 
                             <e lm="Moratinos" i=""><i>Moratinos</i><par n="Bush__np"/></e>
+
+			    <e lm="Hopkins" i=""><i>Hopkins</i><par n="Bush__np"/></e>
 
                             <e lm="Moya" i=""><i>Moya</i><par n="Smith__np"/></e>
 

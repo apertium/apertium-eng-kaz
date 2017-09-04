@@ -16217,6 +16217,22 @@
 <e><p><l>Guardian<s n="np"/><s n="al"/></l><r>Guardian<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Inc<s n="np"/><s n="al"/></l><r>Inc<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Inpex<s n="np"/><s n="al"/></l><r>Inpex<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Atari<s n="np"/><s n="al"/></l><r>Atari<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>ACLU<s n="np"/><s n="al"/></l><r>ACLU<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>AOL<s n="np"/><s n="al"/></l><r>AOL<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>AMD<s n="np"/><s n="al"/></l><r>AMD<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Audi<s n="np"/><s n="al"/></l><r>Audi<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Ajax<s n="np"/><s n="al"/></l><r>Ajax<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>ASCII<s n="np"/><s n="al"/></l><r>ASCII<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Amiga<s n="np"/><s n="al"/></l><r>Amiga<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>ABC<s n="np"/><s n="al"/></l><r>ABC<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>ABBA<s n="np"/><s n="al"/></l><r>ABBA<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Camus<s n="np"/><s n="al"/></l><r>Camus<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Christie<s n="np"/><s n="al"/></l><r>Christie<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Aon<s n="np"/><s n="al"/></l><r>Aon<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Amway<s n="np"/><s n="al"/></l><r>Amway<s n="np"/><s n="org"/></r></p></e>
+<e><p><l>Adobe<s n="np"/><s n="al"/></l><r>Adobe<s n="np"/><s n="org"/></r></p></e>
+
 <e><p><l>INSEE<s n="np"/><s n="al"/></l><r>INSEE<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>Investment<s n="np"/><s n="al"/></l><r>Investment<s n="np"/><s n="org"/></r></p></e>
 <e><p><l>yahoo<s n="np"/><s n="al"/></l><r>yahoo<s n="np"/><s n="org"/></r></p></e>
@@ -21968,7 +21984,7 @@
 <e><p><l>Asselborn<s n="np"/><s n="cog"/></l><r>Ассельборн<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Ayubayev<s n="np"/><s n="cog"/></l><r>Аяубаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Aznar<s n="np"/><s n="cog"/></l><r>Аснар<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-<e><p><l>Baiseitov<s n="np"/><s n="cog"/></l><r>Бәйсейітов<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Baiseitov<s n="np"/><s n="cog"/><s n="m"/></l><r>Бәйсейітов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Arystanov<s n="np"/><s n="cog"/></l><r>Арыстанов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Balboa<s n="np"/><s n="cog"/></l><r>Бальбоа<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Banderas<s n="np"/><s n="cog"/></l><r>Бандерас<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -23866,6 +23882,7 @@
 <e><p><l>Iran<s n="np"/><s n="top"/><s n="sg"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="sg"/></l><r>Шри-Ланка<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Stockholm<s n="np"/><s n="top"/><s n="sg"/></l><r>Стокгольм<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ames<s n="np"/><s n="top"/><s n="sg"/></l><r>Эймс<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Roma<s n="np"/><s n="top"/><s n="sg"/></l><r>Рим<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Strasbourg<s n="np"/><s n="top"/><s n="sg"/></l><r>Страсбург<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Stuttgart<s n="np"/><s n="top"/><s n="sg"/></l><r>Штутгарт<s n="np"/><s n="top"/></r></p></e>
@@ -32854,7 +32871,7 @@
 <e><p><l>Xashiev<s n="np"/><s n="cog"/></l><r>Хашиев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Makashevich<s n="np"/><s n="cog"/></l><r>Мақашұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Agybayevich<s n="np"/><s n="cog"/></l><r>Ағыбайұлы<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-<e><p><l>Baiseitov<s n="np"/><s n="cog"/></l><r>Байсейітов<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Baiseitov<s n="np"/><s n="cog"/><s n="f"/></l><r>Байсейітов<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Nazarbayev<s n="np"/><s n="cog"/></l><r>Назарбаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Aubakirov<s n="np"/><s n="cog"/></l><r>Әубәкіров<s n="np"/><s n="cog"/><s n="f"/></r></p></e>
 <e><p><l>Musakhodzhaeva<s n="np"/><s n="cog"/></l><r>Мұсақожаев<s n="np"/><s n="cog"/><s n="f"/></r></p></e>

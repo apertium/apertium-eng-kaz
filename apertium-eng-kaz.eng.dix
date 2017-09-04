@@ -39118,8 +39118,11 @@
 <e lm="Alberta" i=""><i>Alberta</i><par n="Barcelona__np"/></e>
 <e lm="Aalen" i=""><i>Aalen</i><par n="Barcelona__np"/></e>
 <e lm="Antigua" i=""><i>Antigua</i><par n="Barcelona__np"/></e>
+<e lm="Ajaccio" i=""><i>Ajaccio</i><par n="Barcelona__np"/></e>
 <e lm="Andalusia" i=""><i>Andalusia</i><par n="Barcelona__np"/></e>
+<e lm="Anguilla" i=""><i>Anguilla</i><par n="Barcelona__np"/></e>
 <e lm="Aachen" i=""><i>Aachen</i><par n="Barcelona__np"/></e>
+<e lm="Alameda" i=""><i>Alameda</i><par n="Barcelona__np"/></e>
 
 <e lm="Rogun" i=""><i>Rogun</i><par n="Barcelona__np"/></e>
 <e lm="Romulus" i=""><i>Romulus</i><par n="Barcelona__np"/></e>
@@ -42707,6 +42710,8 @@
 
                             <e lm="Italy" i=""><i>Italy</i><par n="Barcelona__np"/></e>
 
+			    <e lm="Iran" i=""><i>Iran</i><par n="Barcelona__np"/></e>
+
                             <e lm="Jack" i=""><i>Jack</i><par n="Mark__np"/></e>
 
                             <e lm="Jaime" i=""><i>Jaime</i><par n="Mark__np"/></e>
@@ -43922,15 +43927,21 @@
 
                             <e lm="Spain" i=""><i>Spain</i><par n="Barcelona__np"/></e>
 
+			    <e lm="Italy" i=""><i>Italy</i><par n="Barcelona__np"/></e>
+
                             <e lm="Stephen" i=""><i>Stephen</i><par n="Mark__np"/></e>
 
                             <e lm="Steven" i=""><i>Steven</i><par n="Mark__np"/></e>
 
                             <e lm="Stockholm" i=""><i>Stockholm</i><par n="Barcelona__np"/></e>
 
+			    <e lm="Roma" i=""><i>Roma</i><par n="Barcelona__np"/></e>
+
                             <e lm="Strasbourg" i=""><i>Strasbourg</i><par n="Barcelona__np"/></e>
 
                             <e lm="Stuttgart" i=""><i>Stuttgart</i><par n="Barcelona__np"/></e>
+
+			    <e lm="Canterbury" i=""><i>Canterbury</i><par n="Barcelona__np"/></e>
 
                             <e lm="Sudan" i=""><i>Sudan</i><par n="Barcelona__np"/></e>
 
@@ -58852,6 +58863,8 @@
                             <e lm="athletic" i=""><i>athletic</i><par n="expensive__adj"/></e>
 
                             <e lm="atlantic" i=""><i>atlantic</i><par n="expensive__adj"/></e>
+
+			    <e lm="pacific" i=""><i>pacific</i><par n="expensive__adj"/></e>
 
                             <e lm="atmospheric" i=""><i>atmospheric</i><par n="expensive__adj"/></e>
 
@@ -82113,6 +82126,14 @@ wind
 
 			    <e lm="Carnegie" i=""><i>Carnegie</i><par n="Smith__np"/></e>
 
+			    <e lm="Derleth" i=""><i>Derleth</i><par n="Smith__np"/></e>
+
+			    <e lm="Bachchan" i=""><i>Bachchan</i><par n="Smith__np"/></e>
+
+			    <e lm="Ayckbourn" i=""><i>Ayckbourn</i><par n="Smith__np"/></e>
+
+			    <e lm="Capone" i=""><i>Capone</i><par n="Smith__np"/></e>
+
                             <e lm="centenarian" i=""><i>centenarian</i><par n="expensive__adj"/></e>
 
                             <e lm="Kirchner" i=""><i>Kirchner</i><par n="Smith__np"/></e>
@@ -82136,6 +82157,18 @@ wind
 			    <e lm="Schopenhauer" i=""><i>Schopenhauer</i><par n="Smith__np"/></e>
 
 			    <e lm="Steiner" i=""><i>Steiner</i><par n="Smith__np"/></e>
+
+			    <e lm="Whorf" i=""><i>Whorf</i><par n="Smith__np"/></e>
+
+			    <e lm="Vivaldi" i=""><i>Vivaldi</i><par n="Smith__np"/></e>
+
+			    <e lm="Kurosawa" i=""><i>Kurosawa</i><par n="Smith__np"/></e>
+
+			    <e lm="Wollstonecraft" i=""><i>Wollstonecraft</i><par n="Smith__np"/></e>
+
+			    <e lm="Lavoisier" i=""><i>Lavoisier</i><par n="Smith__np"/></e>
+
+			    <e lm="Grothendieck" i=""><i>Grothendieck</i><par n="Smith__np"/></e>
 
                             <e lm="Steinberg" i=""><i>Steinberg</i><par n="Smith__np"/></e>
 
@@ -86842,6 +86875,7 @@ wind
 <e lm="Korazbaev" i=""><i>Korazbaev</i><par n="Smith__np"/></e>
 <e lm="Dadebaev" i=""><i>Dadebaev</i><par n="Smith__np"/></e>
 <e lm="Kabdolov" i=""><i>Kabdolov</i><par n="Smith__np"/></e>
+<e lm="Karpov" i=""><i>Karpov</i><par n="Smith__np"/></e>
 <e lm="Kumisbaev" i=""><i>Kumisbaev</i><par n="Smith__np"/></e>
 <e lm="Farabi" i=""><i>Farabi</i><par n="Smith__np"/></e>
 <e lm="Abishev" i=""><i>Abishev</i><par n="Smith__np"/></e>

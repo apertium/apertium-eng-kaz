@@ -22116,6 +22116,16 @@
 <e><p><l>Lopez<s n="np"/><s n="cog"/></l><r>Лопес<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Schwarzenegger<s n="np"/><s n="cog"/></l><r>Шварценеггер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Steiner<s n="np"/><s n="cog"/></l><r>Штейнер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Vivaldi<s n="np"/><s n="cog"/></l><r>Вивальди<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Kurosawa<s n="np"/><s n="cog"/></l><r>Куросава<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Capone<s n="np"/><s n="cog"/></l><r>Аль<b/>Капоне<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Derleth<s n="np"/><s n="cog"/></l><r>Дерлет<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Bachchan<s n="np"/><s n="cog"/></l><r>Баччан<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Ayckbourn<s n="np"/><s n="cog"/></l><r>Эйкборн<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Wollstonecraft<s n="np"/><s n="cog"/></l><r>Уолстонкрафт<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Lavoisier<s n="np"/><s n="cog"/></l><r>Лавуазье<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Grothendieck<s n="np"/><s n="cog"/></l><r>Гротендик<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>Whorf<s n="np"/><s n="cog"/></l><r>Уорф<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Schopenhauer<s n="np"/><s n="cog"/></l><r>Шопенгауэр<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Turing<s n="np"/><s n="cog"/></l><r>Тьюринг<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Ginsberg<s n="np"/><s n="cog"/></l><r>Гинзберг<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -22142,6 +22152,7 @@
 <e><p><l>Korazbaev<s n="np"/><s n="cog"/></l><r>Қоразбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Dadebaev<s n="np"/><s n="cog"/></l><r>Дәдебаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Kabdolov<s n="np"/><s n="cog"/></l><r>Қабдолов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Karpov<s n="np"/><s n="cog"/></l><r>Карпов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Kumisbaev<s n="np"/><s n="cog"/></l><r>Күмісбаев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Farabi<s n="np"/><s n="cog"/></l><r>Фараби<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Abishev<s n="np"/><s n="cog"/></l><r>Әбішев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -22909,8 +22920,11 @@
 <e><p><l>Alberta<s n="np"/><s n="top"/><s n="sg"/></l><r>Альберта<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aalen<s n="np"/><s n="top"/><s n="sg"/></l><r>Ален<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Antigua<s n="np"/><s n="top"/><s n="sg"/></l><r>Антигуа<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Ajaccio<s n="np"/><s n="top"/><s n="sg"/></l><r>Аяччо<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Andalusia<s n="np"/><s n="top"/><s n="sg"/></l><r>Андалусия<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Anguilla<s n="np"/><s n="top"/><s n="sg"/></l><r>Ангилья<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aachen<s n="np"/><s n="top"/><s n="sg"/></l><r>Ахен<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
+<e><p><l>Alameda<s n="np"/><s n="top"/><s n="sg"/></l><r>Аламида<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Taldykorgan<s n="np"/><s n="top"/><s n="sg"/></l><r>Талдықорған<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Rogun<s n="np"/><s n="top"/><s n="sg"/></l><r>Рогун<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Romulus<s n="np"/><s n="top"/><s n="sg"/></l><r>Ромула<s n="np"/><s n="top"/></r></p></e>
@@ -23848,10 +23862,14 @@
 
 <e><p><l>Sundarbans<s n="np"/><s n="top"/><s n="sg"/></l><r>Сундарбан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Spain<s n="np"/><s n="top"/><s n="sg"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Italy<s n="np"/><s n="top"/><s n="sg"/></l><r>Италия<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Iran<s n="np"/><s n="top"/><s n="sg"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="sg"/></l><r>Шри-Ланка<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Stockholm<s n="np"/><s n="top"/><s n="sg"/></l><r>Стокгольм<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Roma<s n="np"/><s n="top"/><s n="sg"/></l><r>Рим<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Strasbourg<s n="np"/><s n="top"/><s n="sg"/></l><r>Страсбург<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Stuttgart<s n="np"/><s n="top"/><s n="sg"/></l><r>Штутгарт<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Canterbury<s n="np"/><s n="top"/><s n="sg"/></l><r>Кентербери<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Sudan<s n="np"/><s n="top"/><s n="sg"/></l><r>Судан<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Suriname<s n="np"/><s n="top"/><s n="sg"/></l><r>Суринам<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Swaziland<s n="np"/><s n="top"/><s n="sg"/></l><r>Свазиленд<s n="np"/><s n="top"/></r></p></e>
@@ -25428,6 +25446,7 @@
 <e><p><l>athenian<s n="adj"/></l><r>афиналық<s n="adj"/></r></p></e>
 <e><p><l>athletic<s n="adj"/></l><r>атлетикалы<s n="adj"/></r></p></e>
 <e><p><l>atlantic<s n="adj"/></l><r>Атлантикалық<s n="adj"/></r></p></e>
+<e><p><l>pacific<s n="adj"/></l><r>Тынық<s n="adj"/></r></p></e>
 <e><p><l>atmospheric<s n="adj"/></l><r>атмосфералық<s n="adj"/></r></p></e>
 <e><p><l>atomic<s n="adj"/></l><r>атомды<s n="adj"/></r></p></e>
 <e><p><l>atomistic<s n="adj"/></l><r>атомистикалық<s n="adj"/><s n="subst"/></r></p></e>

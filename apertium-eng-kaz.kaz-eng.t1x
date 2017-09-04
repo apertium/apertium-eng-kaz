@@ -6347,6 +6347,44 @@ If no format information is present it is removed. -->
   </action>
 </rule>
 
+<rule comment="RULE: ADv with cop">
+      <pattern>
+        <pattern-item n="adv"/>
+<pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <!--<let><var n="number"/><lit v=""/></let>-->
+      <!--  <choose>
+ 
+          <when>
+             <test>
+                <equal><clip pos="1" side="sl" part="a_adj"/>
+<lit-tag v="n.attr"/>
+</equal>
+             </test>
+             <let><clip pos="1" side="tl" part="a_adj"/><lit-tag v="n"/></let>
+             <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
+          </when> 
+        </choose>-->
+ <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
+        <out>
+          <chunk name="adv-cop" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN-ADVP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 <rule comment="RULE: VP-cop-past-neg"> <!--болмады-->
       <pattern>
         <pattern-item n="bol-neg"/>
@@ -6490,6 +6528,9 @@ If no format information is present it is removed. -->
         </out>
       </action>
     </rule>
+
+
+
 
 
 <rule comment="RULE: postADv">
@@ -9159,6 +9200,92 @@ If no format information is present it is removed. -->
       </action>
     </rule>
 
+
+<rule comment="RULE: NOM-ant"> <!--for ant,loc with cop-->
+      <pattern>
+        <pattern-item n="ant"/>
+<pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+	<call-macro n="choose_case_and_postposition1">
+          <with-param pos="1"/>
+        </call-macro>
+ 
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nom"/>
+<lit-tag v="ant"/></equal>
+                  </test>
+                             </when>
+
+	</choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nom"/>
+
+
+<lit-tag v="top"/></equal>
+                  </test>
+                 
+
+
+                </when>
+
+	</choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_case"/>
+
+
+<lit-tag v="gen"/></equal>
+                  </test>
+                 <let><var n="postposition_lu"/><lit v=""/></let>
+
+
+                </when>
+
+	</choose>
+
+        <out>
+          <chunk name="np_ant-cop" case="caseFirstWord">
+            <tags>
+              
+		<tag><var n="sntype"/></tag> 
+
+		
+            </tags>
+<lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_np"/>
+	
+ 	<!--<lit-tag v="ant"/>-->
+             <clip pos="1" side="tl" part="a_mf"/>
+	<lit-tag v="sg"/>
+              <clip pos="1" side="tl" part="lemq"/>          
+	
+
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
 <rule comment="RULE: NOM-ant"> <!--for Мэридің күшігі жоқ-->
       <pattern>
         <pattern-item n="ant"/>
@@ -9277,9 +9404,72 @@ If no format information is present it is removed. -->
     </rule>
 
 
-<rule comment="RULE: NOM-cog"> <!--for cog-->
+<rule comment="RULE: NOM-cog"> <!--for cog with cop-->
       <pattern>
         <pattern-item n="cog"/>
+<pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+ 
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nom"/>
+<lit-tag v="cog"/></equal>
+                  </test>
+                             </when>
+
+	</choose>
+<choose>
+                <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nom"/>
+
+<lit-tag v="top"/></equal>
+                  </test>
+ 
+                </when>
+
+	</choose>
+
+
+        <out>
+          <chunk name="cog-cop" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+		
+    <tag><lit-tag v="sg"/></tag>
+            </tags>
+            <lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_np"/>
+	<clip pos="1" side="tl" part="a_mf"/>
+ 	
+	
+              <clip pos="1" side="tl" part="lemq"/>          
+	
+        <lit-tag v="3"/> 
+	<!--<lit-tag v="3"/> -->
+            </lu>
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+<rule comment="RULE: NOM-cog"> <!--for cog -->
+      <pattern>
+        <pattern-item n="cog"/>
+
       </pattern>
       <action>
         <call-macro n="conv-case1">
@@ -9321,7 +9511,7 @@ If no format information is present it is removed. -->
             <lu>
 	<clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_np"/>
-	
+	<clip pos="1" side="tl" part="a_mf"/>
  	
 	
               <clip pos="1" side="tl" part="lemq"/>          
@@ -9336,7 +9526,6 @@ If no format information is present it is removed. -->
         </call-macro>
       </action>
     </rule>
-
 
 
    <rule comment="RULE: ADJ NOM-GEN LOC-ATTR"> 
@@ -16183,6 +16372,77 @@ If no format information is present it is removed. -->
             </lu>
 
           
+          </chunk>
+        </out>
+        <call-macro n="reset-vars1">
+          <with-param pos="1"/>
+        </call-macro>
+      </action>
+    </rule>
+
+<rule comment="RULE: NP-TOP with cop">
+      <pattern>
+        <pattern-item n="top"/>
+<pattern-item n="cop"/>
+      </pattern>
+<action>
+        
+      <call-macro n="choose_case_and_postposition1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv-number1">
+          <with-param pos="1"/>
+        </call-macro>
+
+    
+    
+
+ <choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  </test>
+                  <let><var n="number"/><lit-tag v="pl"/></let>
+                  <let><var n="case"/><lit-tag v="nom"/></let>
+                </when>
+ 
+                <otherwise>
+                  <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
+                </otherwise>
+              </choose>
+<choose>
+                 <when>
+                   <test>
+                       <equal><clip pos="1" side="sl" part="lem"/><lit v="аст"/></equal>
+                  </test>
+                 <let><var n="number"/><lit v=""/></let>
+                  <let><var n="postposition_lu"/><lit v=""/></let>
+                </when>
+               
+              </choose>
+
+
+        <out>
+          <chunk name="top-cop" case="caseFirstWord">
+            <tags>
+              <tag><var n="sntype"/></tag>
+              <tag>  <var n="number"/></tag>
+            </tags>
+
+            <lu>
+<var n="postposition_lu"/>
+</lu>
+<b/>
+<lu>
+	<clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+            
+              <clip pos="1" side="tl" part="lemq"/>
+                <var n="number"/>
+            </lu>
           </chunk>
         </out>
         <call-macro n="reset-vars1">

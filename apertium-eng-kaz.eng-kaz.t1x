@@ -1589,7 +1589,7 @@
 
 </def-macro>
 
-<def-macro n="NEW-gen-simple-verb-pass" npar="1">
+<def-macro n="choose-pass" npar="1"><!-- passive could not be applied for intransitive verbs -->
 <choose>
      <when>
        <test>
@@ -1603,6 +1603,10 @@
           <var n="verb-pass"/><lit v=""/>      </let>
 </otherwise>
     </choose>
+</def-macro>
+
+<def-macro n="NEW-gen-simple-verb-pass" npar="1">
+ <call-macro n="choose-pass"><with-param pos="1"/></call-macro> 
     <choose>
      <when>
        <test>
@@ -7089,6 +7093,7 @@
           </equal>
         </test>
         <let><var n="tense"/><lit-tag v="aor"/></let>
+ <call-macro n="choose-pass"><with-param pos="3"/></call-macro> 
            <out>
       <chunk name="pers-verb-pass2">
       <tags>
@@ -7105,8 +7110,8 @@
 <b pos="1"/>
         <lu>
           <clip pos="3" side="tl" part="lem"/>
-	  <clip pos="3" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="pass"/>
+	  <clip pos="3" side="tl" part="a_kaz_verb"/> 
+          <var n="verb-pass"/>
              <lit-tag v="6"/>
           <lit-tag v="4"/>
           <lit-tag v="5"/>

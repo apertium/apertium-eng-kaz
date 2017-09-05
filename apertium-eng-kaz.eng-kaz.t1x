@@ -15429,6 +15429,7 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <when>
      <test>  
 <not>
+
        <equal>
           <clip pos="1" side="sl" part="a_possessive"/>
           <lit v=""/>
@@ -15437,6 +15438,17 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
 
      </test>
      <let><var n="possessive"/> <clip pos="1" side="tl" part="a_possessive"/></let>
+     <let><var n="case"/> <lit-tag v="nom"/></let>
+     <let><var n="number"/><lit v=""/></let>
+    </when>
+    <when>
+     <test>  
+       <equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="that"/>
+       </equal>
+     </test>
+     <let><var n="possessive"/><lit v=""/></let>
      <let><var n="case"/> <lit-tag v="nom"/></let>
      <let><var n="number"/><lit v=""/></let>
     </when>

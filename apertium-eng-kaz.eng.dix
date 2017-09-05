@@ -31706,6 +31706,14 @@
 
                             <e lm="Aurco" i=""><i>Aurco</i><par n="Mark__np"/></e>
 
+			    <e lm="Aurangzeb" i=""><i>Aurangzeb</i><par n="Mark__np"/></e>
+
+			    <e lm="Ambrose" i=""><i>Ambrose</i><par n="Mark__np"/></e>
+
+			    <e lm="Alhazen" i=""><i>Alhazen</i><par n="Mark__np"/></e>
+
+			    <e lm="Avicenna" i=""><i>Avicenna</i><par n="Mark__np"/></e>
+
                             <e lm="Aureliano" i=""><i>Aureliano</i><par n="Mark__np"/></e>
 
                             <e lm="Aurelio" i=""><i>Aurelio</i><par n="Mark__np"/></e>
@@ -32208,6 +32216,8 @@
                             <e lm="de Lourdes" i=""><i>de<b/>Lourdes</i><par n="James__np"/></e>
 
                             <e lm="Decio" i=""><i>Decio</i><par n="Mark__np"/></e>
+
+			    <e lm="Deco" i=""><i>Deco</i><par n="Mark__np"/></e>
 
                             <e lm="Deivi" i=""><i>Deivi</i><par n="Mark__np"/></e>
 
@@ -37002,6 +37012,12 @@
                             <e lm="Alexandria" i=""><i>Alexandria</i><par n="Mary__np"/></e>
 
                             <e lm="Alexia" i=""><i>Alexia</i><par n="Mary__np"/></e>
+
+			    <e lm="Agrippina" i=""><i>Agrippina</i><par n="Mary__np"/></e>
+
+			    <e lm="Artemis" i=""><i>Artemis</i><par n="Mary__np"/></e>
+
+			    <e lm="Aaliyah" i=""><i>Aaliyah</i><par n="Mary__np"/></e>
 
                             <e lm="Alexis" i=""><i>Alexis</i><par n="Mary__np"/></e>
 
@@ -43877,6 +43893,8 @@
 
 			    <e lm="Ames" i=""><i>Ames</i><par n="Barcelona__np"/></e>
 
+			    <e lm="Accrington" i=""><i>Accrington</i><par n="Barcelona__np"/></e>
+
                             <e lm="Rosa" i=""><i>Rosa</i><par n="Mary__np"/></e>
 
                             <e lm="Russia" i=""><i>Russia</i><par n="Barcelona__np"/></e>
@@ -46785,6 +46803,8 @@
                             <e lm="bonus" i=""><i>bonus</i><par n="access__n"/></e>
 
                             <e lm="book" i=""><i>book</i><par n="house__n"/></e>
+
+			    <e lm="ottoman" i=""><i>ottoman</i><par n="house__n"/></e>
 
 			    <e lm="alkali" i=""><i>alkali</i><par n="house__n"/></e>
 
@@ -50230,6 +50250,8 @@
                             <e lm="friendliness" i=""><i>friendliness</i><par n="access__n"/></e>
 
                             <e lm="friendship" i=""><i>friendship</i><par n="house__n"/></e>
+
+			    <e lm="commonwealth" i=""><i>commonwealth</i><par n="house__n"/></e>
 
                             <e lm="frigate" i=""><i>frigate</i><par n="house__n"/></e>
 
@@ -58262,6 +58284,7 @@
 <e lm="swedish" i=""><i>swedish</i><par n="expensive__adj"/></e>
 <e lm="dutch" i=""><i>dutch</i><par n="expensive__adj"/></e>
 <e lm="spanish" i=""><i>spanish</i><par n="expensive__adj"/></e>
+<e lm="anglican" i=""><i>anglican</i><par n="expensive__adj"/></e>
 <e lm="danish" i=""><i>danish</i><par n="expensive__adj"/></e>
 <e lm="irish" i=""><i>irish</i><par n="expensive__adj"/></e>
 <e lm="finnish" i=""><i>finnish</i><par n="expensive__adj"/></e>
@@ -82170,11 +82193,15 @@ wind
 
 			    <e lm="Rodin" i=""><i>Rodin</i><par n="Smith__np"/></e>
 
+			    <e lm="DiFranco" i=""><i>DiFranco</i><par n="Smith__np"/></e>
+
 			    <e lm="Schwarzenegger" i=""><i>Schwarzenegger</i><par n="Smith__np"/></e>
 
 			    <e lm="Schopenhauer" i=""><i>Schopenhauer</i><par n="Smith__np"/></e>
 
 			    <e lm="Steiner" i=""><i>Steiner</i><par n="Smith__np"/></e>
+
+			    <e lm="Dürer" i=""><i>Dürer</i><par n="Smith__np"/></e>
 
 			    <e lm="Whorf" i=""><i>Whorf</i><par n="Smith__np"/></e>
 

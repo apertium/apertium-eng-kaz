@@ -27,7 +27,7 @@ if [[ ! -s $HTML ]]; then echo "$HTML does not exist or is empty (use 'update' o
 SRCLIST=`mktemp -t tmp.$SRCLANG-src.XXXXXXXXXX`;
 TRGLIST=`mktemp -t tmp.$SRCLANG-trg.XXXXXXXXXX`;
 TSTLIST=`mktemp -t tmp.$SRCLANG-tst.XXXXXXXXXX`;
-
+ 
 ECHOE="echo -e"
 SED=sed
 if test x$(uname -s) = xDarwin; then 

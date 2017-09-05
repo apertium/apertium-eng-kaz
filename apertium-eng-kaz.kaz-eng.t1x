@@ -3201,7 +3201,7 @@ If no format information is present it is removed. -->
                    
                        <equal><clip pos="1" side="sl" part="a_pers"/><lit-tag v="p2"/></equal>
                       </test>
-                 <let><var n="number"/><lit-tag v="sp"/></let>
+                 <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sp"/></let>
 
 
                 </when>

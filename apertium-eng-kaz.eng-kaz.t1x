@@ -433,17 +433,12 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np.ant"/>
-      <attr-item tags="np.ant.m"/>
-      <attr-item tags="np.ant.f"/>
       <attr-item tags="np.top"/>
       <attr-item tags="np.org"/>
       <attr-item tags="np.unk"/>
       <attr-item tags="abbr"/>
       <attr-item tags="np.cog"/>
-      <attr-item tags="np.cog.m"/>
       <attr-item tags="np.pat.m"/>
-      <attr-item tags="np.cog.mf"/>
-      <attr-item tags="np.cog.f"/>
       <attr-item tags="np.al"/>
     </def-attr>
     <def-attr n="a_adjec">
@@ -574,6 +569,10 @@
       <attr-item tags="px3pl"/>
     </def-attr>
 
+<def-attr n="a_cog"> 
+      <attr-item tags="cog"/> 
+    </def-attr>
+
     <def-attr n="a_postposition"> <!-- Kazakh postposition indicators -->
       <attr-item tags="n"/> 
       <attr-item tags="post"/>
@@ -595,6 +594,7 @@
 
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="gender"/>
     <def-var n="current_verb"/>
     <def-var n="possessive"/>
     <def-var n="plural"/>
@@ -1075,6 +1075,18 @@
             <test>
               <equal caseless="yes">
                 <clip pos="1" side="sl" part="lem"/>
+                <lit v="by"/>
+              </equal>
+            </test>
+            <let>
+               <var n="case"/>
+               <lit-tag v="dat"/>
+            </let>
+       </when>
+ <when> 
+            <test>
+              <equal caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
                 <lit v="per"/>
               </equal>
             </test>
@@ -1452,7 +1464,7 @@
           </equal>
         </test>
 <out>
-      <chunk name="pers-verb111">
+      <chunk name="pers-verb11">
       <tags>
         <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -1481,7 +1493,7 @@
 <otherwise>
 
 <out>
-      <chunk name="pers-verb111">
+      <chunk name="pers-verb2">
       <tags>
         <tag><lit-tag v="VP"/></tag>
         <tag><lit-tag v="ND"/></tag> <!-- number -->
@@ -1696,11 +1708,26 @@
 
 
 <def-macro n="NEW-build-noun-lu-2-4-5" npar="1"> 
+<choose>
+     <when>
+       <test>
+         <equal><clip pos="1" side="tl" part="a_cog"/><lit-tag v="cog"/></equal></test>
+      <let>
+          <var n="gender"/><clip pos="1" side="sl" part="a_gender"/>
+      </let>
+     </when>
+     <otherwise>
+      <let>
+          <var n="gender"/><clip pos="1" side="tl" part="a_gender"/>
+      </let>
+     </otherwise>
+    </choose>
      <let>
            <var n="NEW-noun_lu"/>
            <concat>
                <clip pos="1" side="tl" part="lem"/> 
                <clip pos="1" side="tl" part="a_nom"/>
+                <var n="gender"/>
                <lit-tag v="2"/> <!-- for number -->
                <!-- no need to link person -->
                <lit-tag v="4"/> <!-- for possessive -->
@@ -11471,7 +11498,7 @@
        <otherwise> <!-- no possessive or demonstrative, postposition -->
 <choose>
          <when> 
-           <test><equal><var n="case"/><lit v=""/>              </equal></test>
+           <test><equal><var n="case"/><lit v=""/>       </equal></test>
 <let><var n="case"/><lit-tag v="nom"/> </let>
 </when>
 </choose>

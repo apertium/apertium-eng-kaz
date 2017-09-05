@@ -1,5 +1,10 @@
 <rules>
 
+<rule>
+<match lemma="осы" tags="det.dem"><select lemma="this" tags="det.dem.*"/></match>
+    <match lemma="*" tags="n"/>
+    
+ </rule>
 
  <rule>
      <match lemma="*" tags="num"/>

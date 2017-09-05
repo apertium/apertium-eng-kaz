@@ -357,6 +357,7 @@
 <def-cat n="coma">
       <cat-item tags="cm"/>
     </def-cat>
+
     <def-cat n="quote">
       <cat-item tags="quote" lemma="'"/>
     </def-cat>
@@ -499,6 +500,10 @@
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
     </def-attr>
+<def-attr n="a_trans">
+      <attr-item tags="iv"/>
+      <attr-item tags="tv"/>
+    </def-attr>
 
  <def-attr n="a_cnjsub">
        <attr-item tags="cnjsub"/>
@@ -598,6 +603,7 @@
     <def-var n="bolmasyn"/>
   <def-var n="caseFirstWord"/>
     <def-var n="tense"/>
+    <def-var n="verb-pass"/>
     <def-var n="verb-pers"/> <!-- State variable -->
     <def-var n="verb-nbr"/> <!-- State variable -->
     <def-var n="formality"/> <!-- Used to generate formal versions of 2nd person pronouns -->
@@ -1572,6 +1578,28 @@
 </def-macro>
 
 <def-macro n="NEW-gen-simple-verb-pass" npar="1">
+<choose>
+     <when>
+       <test>
+         <equal><clip pos="1" side="tl" part="a_trans"/><lit-tag v="tv"/></equal>
+       </test>
+      <let>
+          <var n="verb-pass"/><lit-tag v="pass"/>
+      </let>
+     </when>
+<otherwise>      <let>
+          <var n="verb-pass"/><lit v=""/>      </let>
+</otherwise>
+    </choose>
+    <choose>
+     <when>
+       <test>
+         <equal><var n="verb-nbr"/><lit v=""/></equal></test>
+      <let>
+          <var n="verb-nbr"/><lit-tag v="sg"/>
+      </let>
+     </when>
+    </choose>
 <out>
       <chunk name="pers-verb-pass1">
       <tags>
@@ -1585,7 +1613,7 @@
         <lu>
           <clip pos="1" side="tl" part="lem"/>
 	  <clip pos="1" side="tl" part="a_kaz_verb"/>
-          <lit-tag v="pass"/>
+	  <var n="verb-pass"/>
           <lit-tag v="6"/>
           <lit-tag v="4"/>
           <lit-tag v="5"/>

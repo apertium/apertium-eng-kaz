@@ -271,6 +271,7 @@
  <def-var n="case"/>
     <def-var n="Coma"/>
     <def-var n="possessive"/>
+    <def-var n="person"/>
     <def-var n="possessive1"/>
     <def-var n="possessive2"/>
     <def-var n="formality"/>
@@ -306,6 +307,28 @@
 </choose>
 
 </def-macro>
+
+
+<def-macro n="choose-number-person" npar="1">  <!--NP VP agreement-->
+<choose> 
+<when>
+   <test>
+      <and>
+          <equal><clip pos="1"  part="a_pers"/><lit  v=""/></equal>
+          <equal><clip pos="1"  part="a_nbr"/><lit v=""/></equal>
+       </and>
+    </test>      
+          <let><var  n="person"/><lit-tag v="p3"/></let>
+          <let><var  n="number"/><lit-tag v="sg"/></let>
+</when>
+<otherwise>
+   <let><var  n="person"/><clip pos="1"  part="a_pers"/></let>
+          <let><var  n="number"/><clip pos="1"  part="a_nbr"/></let>
+
+      </otherwise>
+</choose> 
+</def-macro>
+
 
 <def-macro n="change-case-upper" npar="1">  <!--change case to upper for first word-->
 
@@ -3232,7 +3255,10 @@
   </call-macro> 
 <call-macro n="change-case-lower">  
 <with-param pos="2"/>
-  </call-macro> 
+  </call-macro>  
+<call-macro n="choose-number-person">  
+<with-param pos="1"/>
+  </call-macro>
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -3243,8 +3269,8 @@
           <chunk>
             <clip pos="2" part="lem"/>
             <lit-tag v="VP"/>
-            <clip pos="1" part="a_nbr"/> <!-- agree number -->
-            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <var n="number"/>
+            <var n="person"/>
             <clip pos="2" part="a_tense"/>
             <clip pos="2" part="a_possessive"/> 
             <clip pos="2" part="a_pass"/>

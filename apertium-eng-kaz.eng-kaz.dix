@@ -16192,13 +16192,13 @@
 <e><p><l>Pavlovich<s n="np"/><s n="pat"/><s n="m"/></l><r>Павлович<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
 <e><p><l>Samruk<s n="np"/><s n="al"/></l><r>Самұрық<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>Yanukovych<s n="np"/><s n="cog"/><s n="mf"/></l><r>Янукович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-<e><p><l>Yanukovych<s n="np"/><s n="pat"/><s n="m"/></l><r>Янукович<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Yanukovych<s n="np"/><s n="pat"/><s n="m"/></l><r>Януко<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
 <e><p><l>Abu-Dabi<s n="np"/><s n="top"/><s n="sg"/></l><r>Әбу-Даби<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Vladimirovich<s n="np"/><s n="pat"/><s n="m"/></l><r>Владимирович<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
 <e><p><l>Yerevan<s n="np"/><s n="top"/><s n="sg"/></l><r>Ереван<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>California<s n="np"/><s n="top"/><s n="sg"/></l><r>Калифорния<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Kotovich<s n="np"/><s n="pat"/><s n="m"/></l><r>Котович<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
-<e><p><l>Matveevich<s n="np"/><s n="pat"/><s n="m"/></l><r>Матвеевич<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Kotovich<s n="np"/><s n="pat"/><s n="m"/></l><r>Кото<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Matveevich<s n="np"/><s n="pat"/><s n="m"/></l><r>Матвее<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
 <e><p><l>BTA<s n="np"/><s n="al"/></l><r>БТА<s n="np"/><s n="org"/></r></p></e>
 
 <!--Organsations  NP-ORG -->
@@ -22139,7 +22139,7 @@
 <e><p><l>Lieberman<s n="np"/><s n="cog"/></l><r>Либерман<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Lloyd<s n="np"/><s n="cog"/></l><r>Ллойд<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Lopez<s n="np"/><s n="cog"/></l><r>Лопес<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-<e><p><l>DiFranco<s n="np"/><s n="cog"/></l><r>Дифранко<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+<e><p><l>DiFranco<s n="np"/><s n="cog"/><s n="mf"/></l><r>Дифранко<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Schwarzenegger<s n="np"/><s n="cog"/></l><r>Шварценеггер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Steiner<s n="np"/><s n="cog"/></l><r>Штейнер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Dürer<s n="np"/><s n="cog"/></l><r>Дюрер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -22195,7 +22195,7 @@
 <e><p><l>Korazbaev<s n="np"/><s n="cog"/></l><r>Қоразбаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Tynaliyev<s n="np"/><s n="cog"/></l><r>Тінәлиев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Berdimuhamedov<s n="np"/><s n="cog"/></l><r>Бердімұхамедов<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Rakishev<s n="np"/><s n="cog"/></l><r>Рақышев<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Rakishev<s n="np"/><s n="cog"/></l><r>Рақышев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Xamidullaev<s n="np"/><s n="cog"/></l><r>Хамидуллаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Sedov<s n="np"/><s n="cog"/></l><r>Седов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Zhakanov<s n="np"/><s n="cog"/></l><r>Жақанов<s n="np"/><s n="cog"/></r></p></e>
@@ -32387,7 +32387,7 @@
 <e><p><l>Lekerov<s n="np"/><s n="cog"/></l><r>Лекеров<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Lenin<s n="np"/><s n="cog"/></l><r>Ленин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Lenkov<s n="np"/><s n="cog"/></l><r>Леньков<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Leone<s n="np"/><s n="cog"/></l><r>Леонов<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Leone<s n="np"/><s n="cog"/></l><r>Леонов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Leontiev<s n="np"/><s n="cog"/></l><r>Леонтьев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Lermontov<s n="np"/><s n="cog"/></l><r>Лермонтов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Leskov<s n="np"/><s n="cog"/></l><r>Лесков<s n="np"/><s n="cog"/></r></p></e>
@@ -32437,7 +32437,7 @@
 <e><p><l>Nazhimedenov<s n="np"/><s n="cog"/></l><r>Нәжімеденов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Nekrasov<s n="np"/><s n="cog"/></l><r>Некрасов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Nemilov<s n="np"/><s n="cog"/></l><r>Немилов<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Germans<s n="np"/><s n="cog"/></l><r>Немцев<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Germans<s n="np"/><s n="cog"/></l><r>Немцев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Neplyuev<s n="np"/><s n="cog"/></l><r>Неплюев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Nesipbaev<s n="np"/><s n="cog"/></l><r>Несіпбаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Nesterov<s n="np"/><s n="cog"/></l><r>Нестеров<s n="np"/><s n="cog"/></r></p></e>
@@ -32488,7 +32488,7 @@
 <e><p><l>Obaev<s n="np"/><s n="cog"/></l><r>Обаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Obogrelov<s n="np"/><s n="cog"/></l><r>Обогрелов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Obraztsova<s n="np"/><s n="cog"/></l><r>Образцов<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Obruchevsk<s n="np"/><s n="cog"/></l><r>Обручев<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Obruchevsk<s n="np"/><s n="cog"/></l><r>Обручев<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Obukhov<s n="np"/><s n="cog"/></l><r>Обухов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Ovelev<s n="np"/><s n="cog"/></l><r>Овельев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Ovchinnikov<s n="np"/><s n="cog"/></l><r>Овчинников<s n="np"/><s n="cog"/></r></p></e>
@@ -32511,7 +32511,7 @@
 <e><p><l>Orekhov<s n="np"/><s n="cog"/></l><r>Орехов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Orechnikov<s n="np"/><s n="cog"/></l><r>Орешников<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Orinov<s n="np"/><s n="cog"/></l><r>Оринов<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Ork<s n="np"/><s n="cog"/></l><r>Орков<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Ork<s n="np"/><s n="cog"/></l><r>Орков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Orlov<s n="np"/><s n="cog"/></l><r>Орлов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Orimbaev<s n="np"/><s n="cog"/></l><r>Орымбаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Orymbetov<s n="np"/><s n="cog"/></l><r>Орымбетов<s n="np"/><s n="cog"/></r></p></e>
@@ -32578,8 +32578,8 @@
 <e><p><l>Profiriev<s n="np"/><s n="cog"/></l><r>Порфирьев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Potapov<s n="np"/><s n="cog"/></l><r>Потапов<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Poyandaev<s n="np"/><s n="cog"/></l><r>Пояндаев<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Presnovsky<s n="np"/><s n="cog"/></l><r>Преснов<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Presnogorkovskaya<s n="np"/><s n="cog"/></l><r>Пресногорьков<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Presnovsky<s n="np"/><s n="cog"/></l><r>Преснов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+<e><p><l>Presnogorkovskaya<s n="np"/><s n="cog"/></l><r>Пресногорьков<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Prokofiev<s n="np"/><s n="cog"/></l><r>Прокофьев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Prokhorov<s n="np"/><s n="cog"/></l><r>Прохоров<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Pugachev<s n="np"/><s n="cog"/></l><r>Пугачев<s n="np"/><s n="cog"/></r></p></e>
@@ -32940,7 +32940,7 @@
 <e><p><l>Toktabayev<s n="np"/><s n="cog"/></l><r>Тоқтабаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Toktarov<s n="np"/><s n="cog"/></l><r>Тоқтаров<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Tolmachev<s n="np"/><s n="cog"/></l><r>Толмачев<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Tolstoy<s n="np"/><s n="cog"/></l><r>Толстов<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Tolstoy<s n="np"/><s n="cog"/></l><r>Толстов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Toraigurov<s n="np"/><s n="cog"/></l><r>Торайғыров<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Toropcev<s n="np"/><s n="cog"/></l><r>Торопцев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Tosov<s n="np"/><s n="cog"/></l><r>Тосов<s n="np"/><s n="cog"/></r></p></e>

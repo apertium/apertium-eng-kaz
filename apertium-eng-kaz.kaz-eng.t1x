@@ -3316,14 +3316,6 @@ If no format information is present it is removed. -->
               <lit-tag v="3"/>
               
 </lu>
-<b/>
-<lu>
-	<clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="a_nom"/>
-            
-              <clip pos="2" side="tl" part="lemq"/>
-                <var n="number"/>
-            </lu>
           </chunk>
         </out>
 </when>

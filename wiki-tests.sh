@@ -93,5 +93,5 @@ if [ -n "$CALC" ]; then
 fi
 echo $CORRECT" / "$TOTAL$WORKING;
 
-rm -f $SRCLIST $TRGLIST $TSTLIST;
+echo $SRCLIST $TRGLIST $TSTLIST;
 #head $SRCLIST $TRGLIST $TSTLIST;

@@ -178,6 +178,11 @@
 <cat-item tags="adj.adv"/>
 </def-cat>
 
+<def-cat n="comp_adj">
+      <cat-item tags="adj.comp"/>
+</def-cat>
+
+
 <def-cat n="verb-subst-neg">
       <cat-item tags="v.*.neg.ger_past.*"/>
 <cat-item tags="v.*.neg.ger_perf"/>
@@ -457,7 +462,7 @@
       <cat-item tags="adj.sint"/>
 <cat-item tags="adj.subst.*"/>
 <cat-item tags="adj.advl"/>
-      <cat-item tags="adj.*"/>
+    <!--  <cat-item tags="adj.*"/>-->
        
   </def-cat>
 
@@ -5027,6 +5032,91 @@ If no format information is present it is removed. -->
     </rule>
 
 
+<rule comment="NEW RULE: adjec+comp nom">   <!-- bigger, for adj comp -->
+  <pattern>
+    <pattern-item n="comp-adjec"/>
+ <pattern-item n="nom"/>
+<pattern-item n="cop"/>
+  </pattern>
+  <action>
+<choose>
+   
+<when>
+      <test>
+<not>
+       <equal>
+         <clip pos="1" side="tl" part="a_sint"/>
+         <lit-tag v="sint"/>
+       </equal>
+</not>
+      </test>
+<out>
+    <chunk name="comp-adjec">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
+    </tags>
+    <lu>
+            <lit v="more"/>
+            <lit-tag v="preadv"/>
+
+          </lu>
+<b/>
+    <lu>
+       <clip pos="1" part="lem" side="tl"/>
+       <clip pos="1" side="tl" part="a_adjec"/>
+    </lu>
+<b/>
+ <lu>
+       <clip pos="1" part="lem" side="tl"/>
+       <clip pos="1" side="tl" part="a_nom"/>
+    </lu>
+    </chunk>
+    </out>
+    </when> 
+<when>
+      <test>
+       <equal>
+         <clip pos="1" side="sl" part="a_syntag"/>
+         <lit-tag v="subst"/>
+       </equal>
+      </test>
+<out>
+    <chunk name="comp-adjec">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
+    </tags>
+   
+    <lu>
+       <clip pos="1" part="lem" side="tl"/>
+       <clip pos="1" side="tl" part="a_adjec"/>
+    </lu>
+    </chunk>
+    </out>
+    </when>
+       <otherwise>
+         <let>
+           <var n="comp_lu"/>       <lit-tag v="comp"/>
+         </let>
+<out>
+    <chunk name="comp-adjec">
+    <tags>
+    <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
+    </tags>
+   
+    <lu>
+       <clip pos="1" part="lem" side="tl"/>
+       <clip pos="1" side="tl" part="a_adjec"/>
+
+	<var n="comp_lu"/>
+         
+     </lu>
+    </chunk>
+    </out>
+       </otherwise>
+  </choose>
+    
+  </action>
+</rule>
 
 
 <rule comment="NEW RULE: adjec+comp">   <!-- bigger, for adj comp -->
@@ -5046,7 +5136,7 @@ If no format information is present it is removed. -->
 </not>
       </test>
 <out>
-    <chunk name="comp-adjec">
+    <chunk name="comp-adjec1">
     <tags>
     <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
     </tags>
@@ -7158,7 +7248,6 @@ If no format information is present it is removed. -->
         </call-macro>
       </action>
     </rule>
-
 
 
 
@@ -10428,6 +10517,9 @@ If no format information is present it is removed. -->
         </call-macro>
       </action>
     </rule>
+
+
+
 
 <rule comment="RULE: NUM ADJ NOM"> <!--7 ademi kyz-->
       <pattern>

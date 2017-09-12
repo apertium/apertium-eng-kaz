@@ -438,7 +438,7 @@
       <attr-item tags="np.unk"/>
       <attr-item tags="abbr"/>
       <attr-item tags="np.cog"/>
-      <attr-item tags="np.pat.m"/>
+      <attr-item tags="np.pat"/>
       <attr-item tags="np.al"/>
     </def-attr>
     <def-attr n="a_adjec">

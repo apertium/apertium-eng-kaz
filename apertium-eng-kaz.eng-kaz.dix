@@ -16052,7 +16052,7 @@
 <e><p><l>Fletcher<s n="np"/><s n="cog"/><s n="mf"/></l><r>Флетчер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e><p><l>Baikonur<s n="np"/><s n="top"/><s n="sg"/></l><r>Байқоңыр<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Baikonur<s n="np"/><s n="top"/><s n="sg"/></l><r>Байқоңыр<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
-<e><p><l>Vasilyevich<s n="np"/><s n="pat"/><s n="m"/></l><r>Васильевич<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Vasilyevich<s n="np"/><s n="pat"/></l><r>Васильевич<s n="np"/><s n="pat"/></r></p></e>
 <e><p><l>Arys<s n="np"/><s n="top"/><s n="sg"/></l><r>Арыс<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Samud<s n="np"/><s n="top"/><s n="sg"/></l><r>Сәмүд<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Sydney<s n="np"/><s n="top"/><s n="sg"/></l><r>Сидней<s n="np"/><s n="top"/></r></p></e>
@@ -16189,16 +16189,16 @@
 <e><p><l>Abay<s n="np"/><s n="top"/><s n="sg"/></l><r>Абай<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Kazakhmys<s n="np"/><s n="al"/></l><r>Қазақмыс<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>Aldabergenov<s n="np"/><s n="top"/><s n="sg"/></l><r>Алдабергенов<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
-<e><p><l>Pavlovich<s n="np"/><s n="pat"/><s n="m"/></l><r>Павлович<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Pavlovich<s n="np"/><s n="pat"/></l><r>Павлович<s n="np"/><s n="pat"/></r></p></e>
 <e><p><l>Samruk<s n="np"/><s n="al"/></l><r>Самұрық<s n="np"/><s n="al"/></r></p></e>
 <e><p><l>Yanukovych<s n="np"/><s n="cog"/><s n="mf"/></l><r>Янукович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-<e><p><l>Yanukovych<s n="np"/><s n="pat"/><s n="m"/></l><r>Януко<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Yanukovych<s n="np"/><s n="pat"/></l><r>Янукович<s n="np"/><s n="pat"/></r></p></e>
 <e><p><l>Abu-Dabi<s n="np"/><s n="top"/><s n="sg"/></l><r>Әбу-Даби<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>Vladimirovich<s n="np"/><s n="pat"/><s n="m"/></l><r>Владимирович<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
 <e><p><l>Yerevan<s n="np"/><s n="top"/><s n="sg"/></l><r>Ереван<s n="np"/><s n="top"/></r></p></e>
 <e><p><l>California<s n="np"/><s n="top"/><s n="sg"/></l><r>Калифорния<s n="np"/><s n="top"/></r></p></e>
-<e><p><l>Kotovich<s n="np"/><s n="pat"/><s n="m"/></l><r>Кото<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
-<e><p><l>Matveevich<s n="np"/><s n="pat"/><s n="m"/></l><r>Матвее<s n="np"/><s n="pat"/><s n="m"/></r></p></e>
+<e><p><l>Kotovich<s n="np"/><s n="pat"/></l><r>Котович<s n="np"/><s n="pat"/></r></p></e>
+<e><p><l>Matveevich<s n="np"/><s n="pat"/></l><r>Матвеевич<s n="np"/><s n="pat"/></r></p></e>
 <e><p><l>BTA<s n="np"/><s n="al"/></l><r>БТА<s n="np"/><s n="org"/></r></p></e>
 
 <!--Organsations  NP-ORG -->
@@ -21916,7 +21916,7 @@
 <e><p><l>Kazhgaliev<s n="np"/><s n="cog"/></l><r>Қажығалиев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Kazakbaev<s n="np"/><s n="cog"/></l><r>Қазақбаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Kazansev<s n="np"/><s n="cog"/></l><r>Қазансев<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Kaztal<s n="np"/><s n="cog"/></l><r>Қазталов<s n="np"/><s n="cog"/></r></p></e>
+<e><p><l>Kaztal<s n="np"/><s n="cog"/></l><r>Қазталов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 <e><p><l>Kazybayev<s n="np"/><s n="cog"/></l><r>Қазыбаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Kaidarov<s n="np"/><s n="cog"/></l><r>Қайдаров<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Kairbekov<s n="np"/><s n="cog"/></l><r>Қайырбеков<s n="np"/><s n="cog"/></r></p></e>
@@ -32691,7 +32691,6 @@
 <e><p><l>Kurmangaliyev<s n="np"/><s n="cog"/></l><r>Құрманғалиев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Baliyev<s n="np"/><s n="cog"/></l><r>Балиев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Satybaldinov<s n="np"/><s n="cog"/></l><r>Сатыбалдинов<s n="np"/><s n="cog"/></r></p></e>
-<e><p><l>Saudabayev<s n="np"/><s n="cog"/></l><r>Саудабаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Saudabayev<s n="np"/><s n="cog"/></l><r>Саудабаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Sauranbayev<s n="np"/><s n="cog"/></l><r>Сауранбаев<s n="np"/><s n="cog"/></r></p></e>
 <e><p><l>Safargaliev<s n="np"/><s n="cog"/></l><r>Сафаргалиев<s n="np"/><s n="cog"/></r></p></e>

@@ -16789,13 +16789,13 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     <tag><lit-tag v="AdjP"/></tag>
  <tag><lit-tag v="subst"/></tag>
  <tag><lit-tag v="PXD"/></tag>
- <tag><var n="caseDem"/></tag>
+ <tag><var n="case"/></tag>
     </tags>
 	<b pos="1"/>
      <lu>
       <clip pos="2" side="tl" part="lem"/>
         <lit-tag v="adj"/>
-      <clip pos="2" side="tl" part="a_subst"/>
+        <clip pos="2" side="tl" part="a_subst"/>
         <lit-tag v="3"/>
         <lit-tag v="4"/>
      </lu>

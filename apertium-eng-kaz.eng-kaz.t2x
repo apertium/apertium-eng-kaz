@@ -819,7 +819,7 @@
             <clip pos="3" part="lem"/>
             <lit-tag v="VP"/>
 		<var n="number"/>
-		<var n="person"/>
+		<var n="person"/> 
               <lit-tag v="ger_past"/>
             <clip pos="3" part="a_possessive"/> 
             <clip pos="3" part="a_neg"/>
@@ -3300,6 +3300,9 @@
 <call-macro n="change-case-upper">  
 <with-param pos="1"/>
   </call-macro> 
+<call-macro n="choose-number-person">  
+<with-param pos="1"/>
+  </call-macro>
       <out>
           <chunk>
             <clip pos="2" part="lem"/>
@@ -3317,8 +3320,8 @@
           <chunk>
             <clip pos="3" part="lem"/>
             <lit-tag v="VP"/>
-            <clip pos="1" part="a_nbr"/> 
-            <clip pos="1" part="a_pers"/> 
+            <var n="number"/>
+	    <var n="person"/>
             <clip pos="3" part="a_tense"/>
             <clip pos="3" part="a_possessive"/> 
             <clip pos="3" part="a_pass"/>
@@ -4589,7 +4592,9 @@
 <call-macro n="change-case-upper">  
 <with-param pos="1"/>
   </call-macro> 
-
+<call-macro n="choose-number-person">  
+<with-param pos="1"/>
+  </call-macro>
       <out>
           <chunk>
             <clip pos="1" part="lem"/>
@@ -4614,8 +4619,8 @@
           <chunk>
             <clip pos="2" part="lem"/>
             <lit-tag v="VP"/>
-            <clip pos="1" part="a_nbr"/> <!-- agree number -->
-            <clip pos="1" part="a_pers"/> <!-- agree person -->
+            <var n="number"/>
+            <var n="person"/>
             <clip pos="2" part="a_tense"/>
             <clip pos="2" part="a_possessive"/> 
             <clip pos="2" part="a_neg"/>

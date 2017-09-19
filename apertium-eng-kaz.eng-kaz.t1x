@@ -15519,10 +15519,21 @@ sometimes. MLF 20150520 patches it but it should be removed!! -->
     </when>
     <when>
      <test>  
+<or>
        <equal>
           <clip pos="1" side="sl" part="lem"/>
           <lit v="that"/>
        </equal>
+<equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="each"/>
+       </equal>
+<equal>
+          <clip pos="1" side="sl" part="lem"/>
+          <lit v="Each"/>
+       </equal>
+
+</or>
      </test>
      <let><var n="possessive"/><lit v=""/></let>
      <let><var n="case"/> <lit-tag v="nom"/></let>

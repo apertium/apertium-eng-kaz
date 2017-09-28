@@ -929,7 +929,7 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
             <attr-item tags="n.acr"/>
-      <attr-item tags="abbr"/>
+      
       <attr-item tags="np.top"/>
       <attr-item tags="np.al"/>
       <attr-item tags="pr"/>
@@ -952,6 +952,14 @@
     
     </def-attr>
 
+
+<def-attr n="a_abbr">
+
+           
+      <attr-item tags="abbr"/>
+
+    
+    </def-attr>
 
  <def-attr n="a_pron">
 
@@ -3493,8 +3501,8 @@ If no format information is present it is removed. -->
 
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_nom"/>
-               <var n="number"/> 
+              <clip pos="1" side="tl" part="a_abbr"/>
+              <!-- <var n="number"/> -->
               
              
             </lu>

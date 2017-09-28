@@ -172,6 +172,7 @@
  <cat-item tags="adj.comp.subst.*.*.*"/>
 <cat-item tags="adj.comp.subst.*.*.*.*"/>
 <cat-item tags="adj.comp.subst.*.*.*.*.*"/>
+<cat-item tags="adj.subst"/>
 <cat-item tags="adj.subst.*"/>
 <cat-item tags="adj.subst.*.*"/>
 <cat-item tags="adj.subst.*.*.*"/>	
@@ -697,7 +698,8 @@
       <cat-item lemma="арт" tags="n.px3sp.abl"/>
     </def-cat>
     <def-cat n="post">
-      <cat-item tags="post"/>
+      <cat-item lemma="лы" tags="post"/>
+    <cat-item  tags="post"/>
       <cat-item tags="post.*"/>
       <cat-item tags="post.Rnom"/>
       <cat-item tags="post.Rnom.*"/>
@@ -5153,7 +5155,7 @@ If no format information is present it is removed. -->
        </equal>
       </test>
 <out>
-    <chunk name="comp-adjec">
+    <chunk name="comp-adjec2">
     <tags>
     <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
     </tags>
@@ -5170,7 +5172,7 @@ If no format information is present it is removed. -->
            <var n="comp_lu"/>       <lit-tag v="comp"/>
          </let>
 <out>
-    <chunk name="comp-adjec">
+    <chunk name="comp-adjec3">
     <tags>
     <tag><lit-tag v="AdjP"/></tag> <!-- no tags, regular AdjP -->
     </tags>
@@ -7069,6 +7071,37 @@ If no format information is present it is removed. -->
 
         <out>
           <chunk name="adj-subst" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="AdjP"/></tag>
+            </tags>
+<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_adjec"/>
+	
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+<rule comment="RULE: subst_adj">
+      <pattern>
+        <pattern-item n="subst-adj"/>
+ <pattern-item n="post"/>
+<pattern-item n="postadv"/>
+      </pattern>
+
+      <action>
+        <!--<let><var n="number"/><lit v=""/></let>-->
+             <call-macro n="conv-number1">
+               <with-param pos="1"/>
+             </call-macro>
+
+        <out>
+          <chunk name="adj_subst-post-postadv" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="AdjP"/></tag>
             </tags>

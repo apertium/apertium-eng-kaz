@@ -957,7 +957,7 @@
 
            
       <attr-item tags="abbr"/>
-
+<attr-item tags="abbr.*"/>
     
     </def-attr>
 
@@ -3500,9 +3500,10 @@ If no format information is present it is removed. -->
 <b/>
 
             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_abbr"/>
-              <!-- <var n="number"/> -->
+              <clip pos="1" side="tl" part="whole"/>
+        <!--      <clip pos="1" side="tl" part="a_nom"/>
+<clip pos="1" side="tl" part="lemq"/>-->
+             <!--  <var n="number"/> -->
               
              
             </lu>

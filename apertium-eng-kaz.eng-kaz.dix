@@ -23236,6 +23236,7 @@
 <e><p><l>Aspara<s n="np"/><s n="top"/><s n="sg"/></l><r>Аспара<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Aspizhab<s n="np"/><s n="top"/><s n="sg"/></l><r>Аспижаб<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Tyan-Shan<s n="np"/><s n="top"/><s n="sg"/></l><r>Тянь-Шань<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Tyan-Shan<s n="np"/><s n="top"/><s n="sg"/></l><r>Тянь-Шань<s n="np"/><s n="top"/><s n="gen"/></r></p></e>
 <e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/><s n="nom"/></r></p></e>
 <e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/><s n="loc"/></r></p></e>
 <e><p><l>Astana<s n="np"/><s n="top"/><s n="sg"/></l><r>Астана<s n="np"/><s n="top"/></r></p></e>
@@ -31387,7 +31388,7 @@
 <e><p><l>complex<s n="n"/></l><r>кешен<s n="n"/></r></p></e>
 <e><p><l>pan<s n="n"/></l><r>шара<s n="n"/></r></p></e>
 <e><p><l>act<s n="n"/></l><r>акт<s n="n"/></r></p></e>
-<e><p><l>m<s n="abbr"/></l><r>м<s n="abbr"/></r></p></e>
+<e><p><l>m<s n="n"/><s n="acr"/><s n="sg"/></l><r>м<s n="abbr"/></r></p></e>
 <e><p><l>order<s n="n"/></l><r>өкім<s n="n"/></r></p></e>
 <e><p><l>club<s n="n"/></l><r>клуб<s n="n"/></r></p></e>
 <e><p><l>problem<s n="n"/></l><r>проблема<s n="n"/></r></p></e>

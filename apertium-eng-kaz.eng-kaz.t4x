@@ -988,6 +988,19 @@
             <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
 
           </when>
+<when>
+            <test>
+<and>
+            <equal><clip pos="1" side="sl" part="case"/><lit-tag v="nom"/></equal>
+<equal><clip pos="1" side="sl" part="subst"/><lit v=""/></equal>
+<equal><clip pos="1" side="sl" part="adj"/><lit-tag v="adj"/></equal>
+</and>
+            </test>
+            <let><clip pos="1" side="tl" part="subst"/><lit v=""/></let>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
+
+          </when>
+
         </choose>
 <choose>
           <when>
@@ -995,6 +1008,7 @@
             <let><clip pos="1" side="tl" part="tense"/><lit v=""/></let>
           </when>
         </choose>
+
        <choose>
           <when>
             <test>
@@ -1050,6 +1064,13 @@
             <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let>
           </when>
         </choose>
+<choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="lem"/><lit v="анау"/></equal></test>
+            <let><clip pos="1" side="tl" part="case"/><lit v=""/></let>
+          </when>
+        </choose>
+
 <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="pron"/><lit-tag v="recip"/></equal></test>

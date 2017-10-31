@@ -8155,7 +8155,7 @@
               <!--<clip pos="2" part="a_nbr" side="sl"/></tag>  number -->
                 <tag><var n="subj-pron_lu"/></tag> <!-- is it OK? -->
                 <tag><var n="possessive"/></tag> <!-- just in case -->
-                <tag><var n="case"/></tag>   
+                <tag><lit-tag v="nom"/></tag>   
             </tags>
             <lu>  
                <var n="obj-pron_lu"/>
@@ -11463,6 +11463,7 @@
 <and>
 <equal><clip pos="2" side="sl" part="a_dem"/><lit-tag v="dem"/></equal>
 <equal><clip pos="2" side="sl" part="lem"/><lit v="that"/></equal>
+<not><equal><clip pos="2" side="tl" part="lem"/><lit v="анау"/></equal></not>
 </and>
 </test>
 	 <out>

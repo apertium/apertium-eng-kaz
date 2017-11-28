@@ -330,6 +330,8 @@ SELECT N IF (1 Pr)(2 N);
 
 SELECT N IF (1 (vbser pres));
 
+REMOVE N IF (-2 N)(-1 (cnjcoo))(1 N);
+
 SELECT N IF (-2 N)(-1 (cnjcoo));
 
 REMOVE N IF (0 V-FIN) (0 N) (0 N OR V-FIN) ((NOT 1* V-FIN BARRIER CLB) OR (NOT -1C* V-FIN BARRIER CLB)) (NOT -1* Det BARRIER (*) - Unknown);

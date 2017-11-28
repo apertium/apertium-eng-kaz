@@ -3,6 +3,12 @@
     <match lemma="I" tags="prn.*"><select lemma="Мен" tags="prn.*"/></match>
   </rule>
 
+<rule> <!-- default-->
+    <match lemma="or" tags="cnjcoo"><select lemma="немесе" tags="cnjcoo"/></match>
+  </rule>
+
+
+
 <rule>
     <match lemma="do" tags="vblex.*"><select lemma="істе" tags="v.tv.*"/></match>
   </rule>

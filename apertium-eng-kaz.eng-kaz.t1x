@@ -8150,7 +8150,7 @@
         <out> <!-- with postposition -->
 
           <chunk name="prep-obj-pron-post">
-            <tags><tag><var n="number"/> </tag>
+            <tags>
                 <tag><var n="pptag"/></tag>
               <!--<clip pos="2" part="a_nbr" side="sl"/></tag>  number -->
                 <tag><var n="subj-pron_lu"/></tag> <!-- is it OK? -->

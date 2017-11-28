@@ -1072,8 +1072,14 @@
         </choose>
 
 <choose>
-          <when>
-            <test><equal><clip pos="1" side="sl" part="pron"/><lit-tag v="recip"/></equal></test>
+          <when> 
+            <test>
+<and>
+<equal><clip pos="1" side="sl" part="pron"/><lit-tag v="recip"/></equal>
+<not><equal><clip pos="1" side="sl" part="case"/><lit-tag v="dat"/></equal></not>
+</and>
+
+</test>
             <let><clip pos="1" side="tl" part="case"/><lit-tag v="acc"/></let>
             <let><clip pos="1" side="tl" part="poss"/><lit-tag v="px3sp"/></let>
           </when>

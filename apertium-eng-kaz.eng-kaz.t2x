@@ -244,6 +244,10 @@
       <attr-item tags="neg"/>
       <attr-item tags="NXD"/>
     </def-attr>
+ <def-attr n="a_recip">
+      <attr-item tags="recip"/>
+    </def-attr>
+
  <def-attr n="a_adj">
       <attr-item tags="subst"/>
     </def-attr>
@@ -4868,6 +4872,48 @@
      </action>
     </rule>
 
+
+<rule comment="NEW RULE: VP_have AdvP NP">
+     <pattern>
+       <pattern-item n="VP_have"/>
+       <pattern-item n="AdvP"/>
+       <pattern-item n="NP"/>
+     </pattern>
+     <action>
+<call-macro n="change-case-upper">  
+<with-param pos="2"/>
+  </call-macro> 
+<call-macro n="change-case-lower">  
+<with-param pos="1"/>
+  </call-macro> 
+      <out>
+  <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <b pos="2"/>
+     <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>  
+            <lit-tag v="VP"/>
+            <clip pos="3" part="a_nbr"/> <!-- agree number -->
+            <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="1" part="a_tense"/>
+            <clip pos="1" part="a_possessive"/> 
+            <clip pos="1" part="a_neg"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+      </out>
+     </action>
+    </rule>
+
 <rule comment="NEW RULE: NP VP_have NP">
      <pattern>
        <pattern-item n="NP"/>
@@ -7871,6 +7917,7 @@
             <lit-tag v="NP"/>
             <clip pos="3" part="a_nbr"/> <!-- agree number -->
             <clip pos="3" part="a_pers"/> <!-- agree person -->
+            <clip pos="3" part="a_recip"/>  
             <var n="possessive"/>
             <lit-tag v="dat"/>
             <clip pos="3" part="chcontent"/>

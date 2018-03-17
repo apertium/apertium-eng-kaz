@@ -138,3 +138,8 @@ mteval/wrapper.sh -text
 /useful[!!-~]notes[!!-~]for[!!-~]Aida -text
 /wiki-correct-tests.sh -text
 /wiki-tests.sh -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true

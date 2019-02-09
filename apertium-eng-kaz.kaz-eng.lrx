@@ -593,4 +593,9 @@
  
  </rule>
 
+ <rule>
+   <match lemma="кішкентай" tags="adj"><select lemma="little"/></match>
+   <match lemma="ханзада" tags="n.*"/>
+ </rule>
+ 
 </rules>

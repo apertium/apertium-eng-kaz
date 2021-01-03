@@ -38,7 +38,7 @@
 ^Ол/ол<prn><pers><p3><sg><nom>$ ^барлық/барлық<adj>$ ^жерді/жер<n><acc>$ ^қарап/қара<v><tv><prc_perf>$ ^жүр/жүр<vaux><pres><p3><sg>$^,/,<cm>$ ^бірақ/бірақ<cnjcoo>$ ^Азаматты/Азамат<np><ant><m><acc>$ ^таба/тап<v><tv><prc_impf>$ ^алмай/ал<vaux><neg><prc_perf>$ ^жатыр/жат<vaux><pres><p3><sg>$^./.<sent>$
 ^Одан кейін/одан кейін<adv>$ ^ол/ол<prn><pers><p3><sg><nom>$ ^бір/бір<num>$ ^дыбысты/дыбысты<adj><advl>$ ^естиді/есті<v><tv><aor><p3><sg>$^,/,<cm>$ ^ол/ол<prn><pers><p3><sg><nom>$ ^дыбыс/дыбыс<n><nom>$ ^ескі/ескі<adj>$ ^үлкен/үлкен<adj>$ ^ағаштың/ағаш<n><gen>$ ^артынан/артынан<adv>$ ^шығып/шық<v><iv><prc_perf>$ ^жатыр/жат<vaux><pres><p3><sg>$^./.<sent>$
 ^Мүмкін/мүмкін<adj>$ ^бұл/бұл<prn><dem><nom>$ ^Азамат/Азамат<np><ant><m><nom>$ ^шығар/шық<v><iv><gpr_fut>$^?/?<sent>$
-^Ол/ол<prn><pers><p3><sg><nom>$ ^дыбыс/дыбыс<n><nom>$ ^қайта/қайта<adv>$ ^естіледі/ест<v><tv><pass><aor><p3><sg>$^!/!<sent>$
+^Ол/ол<det><dem>$ ^дыбыс/дыбыс<n><nom>$ ^қайта/қайта<adv>$ ^естіледі/ест<v><tv><pass><aor><p3><sg>$^!/!<sent>$
 ^Айгүл/Айгүл<np><ant><f><nom>$ ^оны/ол<prn><dem><acc>$ ^ақырын/ақырын<adj><advl>$ ^тыңдайды/тыңда<v><tv><aor><p3><sg>$^./.<sent>$
 ^Ол/ол<prn><pers><p3><sg><nom>$ ^аң да/аң<n><nom>$ ^да<postadv>$^,/,<cm>$ ^құс та/құс<n><nom>$ ^да<postadv>$ ^емес/е<cop><neg><aor><p3><sg>$^./.<sent>$
 ^Ол/ол<prn><pers><p3><sg><nom>$ ^енді/ен<n><acc>$ ^ол/ол<prn><pers><p3><sg><nom>$ ^дыбысты/дыбысты<adj>$ ^анығырақ/анық<adj><comp><advl>$ ^ести/есті<v><tv><prc_impf>$ ^бастады/баста<vaux><ifi><p3><sg>$^./.<sent>$

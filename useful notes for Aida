@@ -101,7 +101,7 @@ cat texts/kazakhstan1.eng.txt | apertium -d . eng-kaz-morph | tr ' ' '\012' | gr
 cat countr.txt | egrep "l>"| awk 'BEGIN{FS="<l>"} {print $3}'
 
 
-http://wiki.apertium.org/wiki/English_and_Kazakh/Work_plan_%28GSOC_2014%29
+https://wiki.apertium.org/wiki/English_and_Kazakh/Work_plan_%28GSOC_2014%29
 
 http://pastebin.com/eSGvUm3Y
 
@@ -363,7 +363,7 @@ pertium: spectre360 * 55029: /branches/papers/codeswitch-cltw-2014/: codeswitch.
 <spectie> and runs every lexical unit through the translator
 <Aida> why I getting #?
 <spectie> because in some cases you don't have rules that deal with single words ?
-* rm_ (0e8b5206@gateway/web/freenode/ip.14.139.82.6) has joined #apertium
+* rm_ (0e8b5206@gateway/web/OFTC/ip.14.139.82.6) has joined #apertium
 <spectie> maybe some words aren't in kaz.lexc too
 <Aida> for some verbs
 * rm_ is now known as r

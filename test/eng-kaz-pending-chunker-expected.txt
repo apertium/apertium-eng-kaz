@@ -1,0 +1,22 @@
+[CsQ9Tvt1XHcD#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^айт<v><tv><6><4><5><3><2><7>$}$ ^detpos-nom<NP><sg><p3><px1sg><CD>{^мен<prn><pers><p1><sg><gen>$ ^жас<n><2><4><5>$}$
+[/CsQ9Tvt1XHcD]
+[JiRDbZ3FoY0Q#0] ^than<THAN><post>{^не<cnjcoo>$}$ ^num<AdjP>{^1<num>$}$ ^than<THAN><post>{^немесе<cnjcoo>$}$ ^num<AdjP>{^2<num>$}$
+[/JiRDbZ3FoY0Q]
+[Kl-0ATGU9wCB#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^айт<v><tv><6><4><5><3><2><7>$}$ ^obj-pron<NP><sp><p2><CD>{^сіз<prn><p2><sg><nom>$ }$ ^detart-nom<NP><sg><p3><PXD><CD>{^повес<n><2><4><5>$}$
+[/Kl-0ATGU9wCB]
+[LVuZlq-7DGBE#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^айт<v><tv><6><4><5><3><2><7>$}$ ^obj-pron<NP><sp><p2><CD>{^сіз<prn><p2><sg><nom>$ }$ ^default<default>{^(<lpar>$}$^num-noun<NP><sg><p3><PXD><CD>{^бес<num>$ ^есе<n><sg><4><5>$}$^default<default>{^)<rpar>$}$
+[/LVuZlq-7DGBE]
+[OIjgAlKZCaAu#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^айт<v><tv><6><4><5><3><2><7>$}$ ^obj-pron<NP><sp><p2><CD>{^сіз<prn><p2><sg><nom>$ }$ ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^VP_q<VPQ><ifi>{ }$ ^adv<AdvP>{^жоқ<adv>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^есті<v><tv><prc_vol><3><2>$ ^кел<vaux><aor><p3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^повес<n><2><4><5>$}$
+[/OIjgAlKZCaAu]
+[VczjRKwnuy2z#0] ^than<THAN><post>{^не<cnjcoo>$}$ ^num<AdjP>{^1<num>$}$ ^than<THAN><post>{^не<cnjcoo>$}$ ^num<AdjP>{^2<num>$}$
+[/VczjRKwnuy2z]
+[_-WIJn-JjfYZ#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^айт<v><tv><6><4><5><3><2><7>$}$ ^obj-pron<NP><sp><p2><CD>{^сіз<prn><p2><sg><nom>$ }$ ^to-inf-noun2<PP><sg><p3><PXD><acc>{^үй<n><2><4><5>$ ^бар<v><iv><ger><nom>$ ^үшін<post>$}$
+[/_-WIJn-JjfYZ]
+[_PUfA5WmDm1i#0] ^than<THAN><post>{^екеуі<cnjcoo>$}$ ^num<AdjP>{^1<num>$}$ ^than<THAN><post>{^және<cnjcoo>$}$ ^num<AdjP>{^2<num>$}$
+[/_PUfA5WmDm1i]
+[f0BEBhzSAzXa#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^көр<v><tv><6><4><5><3><2><7>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^мекен<n><2><4><5>$}$ ^prep-detart-noun2<GenP><sg><p3><PXD><gen>{  ^президент<n><2><4><5>$}$
+[/f0BEBhzSAzXa]
+[f6LjTCKXZsqa#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^айт<v><tv><6><4><5><3><2><7>$}$ ^default<default>{^сәлем<ij>$}$
+[/f6LjTCKXZsqa]
+[xMAWl4ckrvck#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^өмір сүр<v><iv><6><4><5><3><2><7>$}$ ^prep-detart-noun2<PP><sg><p3><PXD><loc>{  ^мекен<n><2><4><5>$}$
+[/xMAWl4ckrvck]

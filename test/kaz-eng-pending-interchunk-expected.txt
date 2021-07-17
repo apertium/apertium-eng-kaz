@@ -1,0 +1,188 @@
+[-YZI5d4Xy5kc#0] ^VP-cop-have<SV-kerek><p1><pl>{^We<prn><subj><2><mf><3>$ ^have<vbhaver><pres>$ ^book<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/-YZI5d4Xy5kc]
+[0KmaAk5-XXfW#0] ^verb-need-cop<SV-kerek><p2><sg>{^You<prn><subj><2><mf><3>$ ^need<vblex><pres>$ ^bag<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/0KmaAk5-XXfW]
+[0XoGdMUxVFf5#0] ^verb-need-cop<SV-kerek><p1><pl>{^We<prn><subj><2><mf><3>$  ^need<vblex><pres>$ ^bag<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/0XoGdMUxVFf5]
+[2P1yDtBy7e-7#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres>$}$ ^adj-cop<AdjP>{^happy<adj>$}$^sent<SENT>{^.<sent>$}$
+[/2P1yDtBy7e-7]
+[2xCgiz3VSzwt#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><sg>{^I<2><3><4><5><6>$}$ ^verb-ing<SV><pres><p3><sg>{^be<vbser><2><3><4>$ ^play<vblex><ger>$}$^sent<SENT>{^.<sent>$}$
+[/2xCgiz3VSzwt]
+[30aa3cCFnyDm#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><pl>{^We<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres>$}$ ^adj<AdjP>{ ^happy<adj>$}$ ^VP-cop-past<SV-to-cop>{^be<vbser><past><2><3><4>$}$^sent<SENT>{^.<sent>$}$
+[/30aa3cCFnyDm]
+[3NAXy1GS3TSi#0] ^subj-pron+cop<SN-pron><prn><subj><p3><m><sg>{^He<2><3><4><5><6>$}$ ^verb-presperf<SV><pres><p3><sg>{^have<vbhaver><2>$ ^play<vblex><pp>$}$^sent<SENT>{^.<sent>$}$
+[/3NAXy1GS3TSi]
+[3z34Z9d1U9Tg#0] ^subj-pron+cop<SN-pron><prn><subj><p3><m><sg>{^He<2><3><4><5><6>$}$ ^adj-nom<SN><NOM>{ ^beautiful<adj>$ ^girl<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/3z34Z9d1U9Tg]
+[49501v8Dv-U4#0] ^VP-cop-had<SN/SV-kerek-past><p2><sp>{^You<prn><subj><2><mf><3>$ ^have<vblex><past>$ ^book<n><sp>$}$^sent<SENT>{^.<sent>$}$
+[/49501v8Dv-U4]
+[4cNsP1OS4_ag#0] ^subj-pron+cop<SN-pron><prn><subj><p2><mf><sp>{^You<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p2><sp>$}$ ^adj<AdjP>{ ^happy<adj>$}$ ^VP-cop-past-neg<SV>{^be<vbser><past><2><3><4>$ ^not<adv>$}$^sent<SENT>{^.<sent>$}$
+[/4cNsP1OS4_ag]
+[5mr2AyG8a7RH#0] ^verb-need-past<SV-kerek-past><PD><ND><p2><sg>{^You<prn><subj><4><mf><sp>$   ^need<vblex><past>$ ^bag<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/5mr2AyG8a7RH]
+[68Kbm8Lz6JED#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><pl>{^We<2><3><4><5><6>$}$ ^adj-nom-cop<SN><NOM><pl>{ ^beautiful<adj>$ ^girl<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/68Kbm8Lz6JED]
+[6Vembx9HiRa7#0] ^unk-noun<SN><a_nbr><p3><a_pos><a_case>{^*сусап$}$ ^single-vaux<SV-vaux><pres><p1><sg>{^<vblex><pres>$}$
+[/6Vembx9HiRa7]
+[6viprjPsHWpa#0] ^num_sp<SN-NUM>{^1<num>$}$ ^subj-pron+cop<SN-pron><prn><subj><p1><mf><sg>{^I<2><3><4><5><6>$}$ ^num_sp<SN-NUM>{^2<num>$}$
+[/6viprjPsHWpa]
+[6zueAkc77l_y#0] ^unk-translation_of_verb<SV><pres>{^cheer<vblex><pres>$}$ ^pres-verb<SV><past>{^past<vblex><2><3><4>$}$
+[/6zueAkc77l_y]
+[881EOltGRRX0#0] ^subj-pron+cop<SN-pron><prn><subj><p2><mf><sp>{^You<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p2><sp>$}$ ^noun-cop<SN-to-cop><nom><sg>{ ^doctor<n><3>$}$^sent<SENT>{^.<sent>$}$
+[/881EOltGRRX0]
+[8XmA54zE5luL#0] ^verb-need-past<SV-kerek-past><PD><ND><p1><sg>{^I<prn><subj><4><mf><5>$    ^need<vblex><past>$ ^bag<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/8XmA54zE5luL]
+[Aj96r72e4yIB#0] ^subj-pron+cop<SN-pron><prn><subj><p2><mf><sp>{^You<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p2><sp>$}$ ^adj<AdjP>{ ^happy<adj>$}$ ^VP-cop-past<SV-to-cop>{^be<vbser><past><2><3><4>$}$^sent<SENT>{^.<sent>$}$
+[/Aj96r72e4yIB]
+[BlZW6ANngoa-#0] ^subj-pron+cop<SN-pron><prn><subj><p3><m><sg>{^He<2><3><4><5><6>$}$ ^verb-presperf-not<SV><pres><p3><sg>{^have<vbhaver><2>$ ^not<adv>$ ^play<vblex><pp>$}$^sent<SENT>{^.<sent>$}$
+[/BlZW6ANngoa-]
+[D1rlsfpQDBBh#0] ^pres-verb<SV><pres>{^cheer<vblex><2><3><4>$}$
+[/D1rlsfpQDBBh]
+[DYW8-tMGMJiB#0] ^VP-cop-have-neg<SV-kerek><p1><pl>{^We<prn><subj><2><mf><3>$ ^do<vbdo><pres>$ ^not<adv>$ ^have<vbhaver><inf>$ ^book<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/DYW8-tMGMJiB]
+[F6VCpMRIeClD#0] ^VP-cop-had<SN/SV-kerek-past><p3><sg>{^It<prn><subj><2><mf><3>$ ^have<vblex><past>$ ^book<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/F6VCpMRIeClD]
+[F9fSjSqzRkS4#0] ^subj-pron+cop<SN-pron><prn><subj><p2><mf><sp>{^You<2><3><4><5><6>$}$ ^verb-ing-not-past<SV><past>{^be<vbser><2><3><4>$ ^not<adv>$ ^play<vblex><ger>$}$^sent<SENT>{^.<sent>$}$
+[/F9fSjSqzRkS4]
+[FTGYFCn1fLUp#0] ^subj-pron+cop<SN-pron><prn><subj><p2><mf><sp>{^You<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p2><sp>$}$ ^adj-cop<AdjP>{^happy<adj>$}$^sent<SENT>{^.<sent>$}$
+[/FTGYFCn1fLUp]
+[FUzZhHly__Nw#0] ^subj-pron+cop<SN-pron><prn><subj><p3><m><sg>{^He<2><3><4><5><6>$}$ ^num-nom-years-past<SN-year-past><PD><ND>{^be<vbser><past>$ ^year<n><pl>$ ^old<adj><sint>$ }$^sent<SENT>{^.<sent>$}$
+[/FUzZhHly__Nw]
+[FdlPm_AxB8a2#0] ^VP-cop-have<SV-kerek><p2><sg>{^You<prn><subj><2><mf><3>$ ^have<vbhaver><pres>$ ^book<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/FdlPm_AxB8a2]
+[FiMTLwtl53Ie#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><sg>{^I<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p1><sg>$}$ ^adj<AdjP>{ ^happy<adj>$}$ ^VP-cop-past-neg<SV><p1><sg>{^be<vbser><past><2><3><4>$ ^not<adv>$}$^sent<SENT>{^.<sent>$}$
+[/FiMTLwtl53Ie]
+[FiUnl9MCWFFv#0] ^verb-need-cop<SV-kerek><p3><sg>{^It<prn><subj><2><mf><3>$  ^need<vblex><pres>$ ^bag<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/FiUnl9MCWFFv]
+[G7GvwgkL6S92#0] ^VP-cop-have<SV-kerek><p3><pl>{^They<prn><subj><2><mf><3>$ ^have<vbhaver><pres>$ ^book<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/G7GvwgkL6S92]
+[Jnip2h0-KPQ9#0] ^verb-need-past<SV-kerek-past><PD><ND><p1><pl>{^We<prn><subj><4><mf><5>$    ^need<vblex><past>$ ^bag<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/Jnip2h0-KPQ9]
+[JrbZs-A_ljLT#0] ^unk-translation_of_verb<SV><pres>{^cold<vblex><pres>$}$ ^pres-verb<SV><past>{^past<vblex><2><3><4>$}$
+[/JrbZs-A_ljLT]
+[KX1orwTmW9AF#0] ^verb-need-cop<SV-kerek><p1><pl>{^We<prn><subj><2><mf><3>$  ^need<vblex><pres>$ ^bag<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/KX1orwTmW9AF]
+[MDquj089wXK-#0] ^VP-cop-have-neg<SV-kerek><p3><sg>{^It<prn><subj><2><mf><3>$ ^do<vbdo><pres>$ ^not<adv>$ ^have<vbhaver><inf>$ ^book<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/MDquj089wXK-]
+[NDB54y-l0yAL#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^verb-ing-not-past<SV><past><p3><sg>{^be<vbser><2><3><4>$ ^not<adv>$ ^play<vblex><ger>$}$^sent<SENT>{^.<sent>$}$
+[/NDB54y-l0yAL]
+[Nov9WaGOrQWE#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><sg>{^I<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p1><sg>$}$ ^adj<AdjP>{ ^happy<adj>$}$ ^VP-cop-past<SV-to-cop><p1><sg>{^be<vbser><past><2><3><4>$}$^sent<SENT>{^.<sent>$}$
+[/Nov9WaGOrQWE]
+[NujJRW64M0B0#0] ^num_sp<SN-NUM>{^1<num>$}$ ^unk-noun<SN><a_nbr><p3><a_pos><a_case>{^*әрi$}$ ^num_sp<SN-NUM>{^2<num>$}$
+[/NujJRW64M0B0]
+[OuqcomnB5FmX#0] ^subj-pron+cop<SN-pron><prn><subj><p3><m><sg>{^He<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p3><sg>$}$ ^noun-cop<SN-to-cop><nom><sg>{ ^doctor<n><3>$}$^sent<SENT>{^.<sent>$}$
+[/OuqcomnB5FmX]
+[PnwXr3bXGH1c#0] ^subj-pron+cop<SN-pron><prn><subj><p3><m><sg>{^He<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p3><sg>$}$ ^adj<AdjP>{ ^happy<adj>$}$ ^VP-cop-past<SV-to-cop><p3><sg>{^be<vbser><past><2><3><4>$}$^sent<SENT>{^.<sent>$}$
+[/PnwXr3bXGH1c]
+[Q2pdnI2UQPBG#0] ^unk-noun<SN><a_nbr><p3><a_pos><a_case>{^*қызарып$}$ ^single-vaux<SV-vaux><pres><p3><sg>{^<vblex><pres>$}$
+[/Q2pdnI2UQPBG]
+[QCSp36ig4GUp#0] ^VP-cop-have-neg<SV-kerek><p3><pl>{^They<prn><subj><2><mf><3>$ ^do<vbdo><pres>$ ^not<adv>$ ^have<vbhaver><inf>$ ^book<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/QCSp36ig4GUp]
+[QLDgKuuWKhC5#0] ^verb-need-cop<SV-kerek><p3><pl>{^They<prn><subj><2><mf><3>$  ^need<vblex><pres>$ ^bag<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/QLDgKuuWKhC5]
+[RKXqJhyaSiTs#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^num-nom-years-past<SN-year-past><PD><pl>{^be<vbser><past>$ ^year<n><pl>$ ^old<adj><sint>$ }$^sent<SENT>{^.<sent>$}$
+[/RKXqJhyaSiTs]
+[RQjBA2fIYPtc#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres>$}$ ^adj<AdjP>{ ^happy<adj>$}$ ^VP-cop-past<SV-to-cop><p3><sg>{^be<vbser><past><2><3><4>$}$^sent<SENT>{^.<sent>$}$
+[/RQjBA2fIYPtc]
+[SkIX7AprXPe1#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><pl>{^We<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres>$}$ ^noun-cop<SN-to-cop><nom><pl>{ ^doctor<n><3>$}$^sent<SENT>{^.<sent>$}$
+[/SkIX7AprXPe1]
+[SyCjoNYOhGYQ#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><pl>{^We<2><3><4><5><6>$}$ ^verb-ing-not-past<SV><past>{^be<vbser><2><3><4>$ ^not<adv>$ ^play<vblex><ger>$}$^sent<SENT>{^.<sent>$}$
+[/SyCjoNYOhGYQ]
+[VFCn74J5ZLld#0] ^adj-nom<SN><NOM>{ ^green<adj>$ ^color<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/VFCn74J5ZLld]
+[VOxCwPqvgM_l#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres>$}$ ^noun-cop<SN-to-cop><nom><pl>{ ^doctor<n><3>$}$^sent<SENT>{^.<sent>$}$
+[/VOxCwPqvgM_l]
+[W-jfXd3ZagKr#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^verb-ing-not-past<SV><past><p3><sg>{^be<vbser><2><3><4>$ ^not<adv>$ ^play<vblex><ger>$}$^sent<SENT>{^.<sent>$}$
+[/W-jfXd3ZagKr]
+[WQ_wml1x-k4a#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^v-neg-fin<SV><pres><p3><sg>{^do<vbdo><2><3><4>$ ^not<adv>$ ^play<vblex><inf>$}$^sent<SENT>{^.<sent>$}$
+[/WQ_wml1x-k4a]
+[WuntwwNZo4_v#0] ^VP-cop-have-neg<SV-kerek><p1><sg>{^I<prn><subj><2><mf><3>$ ^do<vbdo><pres>$ ^not<adv>$ ^have<vbhaver><inf>$ ^book<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/WuntwwNZo4_v]
+[YLPx6ddb3zVr#0] ^subj-pron+cop<SN-pron><prn><subj><p2><mf><sp>{^You<2><3><4><5><6>$}$ ^adj-nom-cop<SN><NOM>{ ^beautiful<adj>$ ^girl<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/YLPx6ddb3zVr]
+[YrGBxulmAY0b#0] ^verb-need-cop<SV-kerek><p2><sg>{^You<prn><subj><2><mf><3>$ ^need<vblex><pres>$ ^bag<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/YrGBxulmAY0b]
+[ZmGiS6yvPS7d#0] ^VP-cop-had<SN/SV-kerek-past><p3><pl>{^They<prn><subj><2><mf><3>$ ^have<vblex><past>$ ^book<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/ZmGiS6yvPS7d]
+[_VZExBCzHmI7#0] ^unk-noun<SN><a_nbr><p3><a_pos><a_case>{^*қызарып$}$ ^pres-verb<SV><past>{^past<vblex><2><3><4>$}$
+[/_VZExBCzHmI7]
+[_m6M-ntuQNmF#0] ^verb-need-past<SV-kerek-past><PD><ND><p3><pl>{^They<prn><subj><4><mf><5>$    ^need<vblex><past>$ ^bag<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/_m6M-ntuQNmF]
+[aRcyUQvx2gup#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><sg>{^I<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p1><sg>$}$ ^noun-cop<SN-to-cop><nom><sg>{ ^doctor<n><3>$}$^sent<SENT>{^.<sent>$}$
+[/aRcyUQvx2gup]
+[bSSIyB2sMFlX#0] ^pres-verb<SV><pres>{^cold<vblex><2><3><4>$}$
+[/bSSIyB2sMFlX]
+[bly73-7cnz1y#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^verb-ing<SV><past><p3><sg>{^be<vbser><2><3><4>$ ^play<vblex><ger>$}$^sent<SENT>{^.<sent>$}$
+[/bly73-7cnz1y]
+[cET2xzxd4JpY#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><sg>{^I<2><3><4><5><6>$}$ ^adj-nom-cop<SN><NOM>{ ^beautiful<adj>$ ^girl<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/cET2xzxd4JpY]
+[ceaNs2f6nyaK#0] ^VP-cop-had<SN/SV-kerek-past><p1><pl>{^We<prn><subj><2><mf><3>$ ^have<vblex><past>$ ^book<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/ceaNs2f6nyaK]
+[d1C7T_07DGO6#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres>$}$ ^noun-cop<SN-to-cop><nom><pl>{ ^doctor<n><3>$}$^sent<SENT>{^.<sent>$}$
+[/d1C7T_07DGO6]
+[f6VyzVSZ7Iw6#0] ^verb-need-cop<SV-kerek><p1><sg>{^I<prn><subj><2><mf><3>$  ^need<vblex><pres>$ ^bag<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/f6VyzVSZ7Iw6]
+[fRBYt1l9vJX_#0] ^VP-cop-have-neg<SV-kerek><p2><sp>{^You<prn><subj><2><mf><3>$ ^do<vbdo><pres>$ ^not<adv>$ ^have<vbhaver><inf>$ ^book<n><sp>$}$^sent<SENT>{^.<sent>$}$
+[/fRBYt1l9vJX_]
+[fcfSI1mtYw5-#0] ^verb-need-cop<SV-kerek><p1><sg>{^I<prn><subj><2><mf><3>$  ^need<vblex><pres>$ ^bag<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/fcfSI1mtYw5-]
+[hCRYzl36wP4y#0] ^subj-pron+cop<SN-pron><prn><subj><p3><m><sg>{^He<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p3><sg>$}$ ^adj<AdjP>{ ^happy<adj>$}$ ^VP-cop-past-neg<SV><p3><sg>{^be<vbser><past><2><3><4>$ ^not<adv>$}$^sent<SENT>{^.<sent>$}$
+[/hCRYzl36wP4y]
+[hvBW4B5c00cX#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><pl>{^We<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres>$}$ ^adj<AdjP>{ ^happy<adj>$}$ ^VP-cop-past-neg<SV>{^be<vbser><past><2><3><4>$ ^not<adv>$}$^sent<SENT>{^.<sent>$}$
+[/hvBW4B5c00cX]
+[iNMLWPG9_Zan#0] ^num-nom-cop<SN-NUM>{^in<pr>$ ^1<num>$ ^strength<n><pl>$ }$ ^num_sp<SN-NUM>{^2<num>$}$
+[/iNMLWPG9_Zan]
+[imsBy547A6O0#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><sg>{^I<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p1><sg>$}$ ^adj-cop<AdjP>{^happy<adj>$}$^sent<SENT>{^.<sent>$}$
+[/imsBy547A6O0]
+[jYY-nFawnUhC#0] ^verb-need-cop<SV-kerek><p3><pl>{^They<prn><subj><2><mf><3>$  ^need<vblex><pres>$ ^bag<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/jYY-nFawnUhC]
+[kwpl5aP_72Z1#0] ^subj-pron+cop<SN-pron><prn><subj><p3><m><sg>{^He<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p3><sg>$}$ ^adj-cop<AdjP>{^happy<adj>$}$^sent<SENT>{^.<sent>$}$
+[/kwpl5aP_72Z1]
+[lgGBpmO-VqgU#0] ^VP-cop-have<SV-kerek><p1><sg>{^I<prn><subj><2><mf><3>$ ^have<vbhaver><pres>$ ^book<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/lgGBpmO-VqgU]
+[ljWz_qdV5BAJ#0] ^unk-noun<SN><a_nbr><p3><a_pos><a_case>{^*сусап$}$ ^pres-verb<SV><past>{^past<vblex><2><3><4>$}$
+[/ljWz_qdV5BAJ]
+[m7JOSMxGQ0eA#0] ^subj-pron+cop<SN-pron><prn><subj><p2><mf><sp>{^You<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p2><sp>$}$ ^noun-cop<SN-to-cop><nom><sg>{ ^doctor<n><3>$}$^sent<SENT>{^.<sent>$}$
+[/m7JOSMxGQ0eA]
+[mhkDcTZlgC6k#0] ^subj-pron+cop<SN-pron><prn><subj><p2><mf><sp>{^You<2><3><4><5><6>$}$ ^am-sn<vbser>{^be<vbser><pres><p2><sp>$}$ ^num-nom-years<SN-year><PD><ND>{^seven<num><sp>$ ^year<n><pl>$ ^old<adj><sint>$ }$^sent<SENT>{^.<sent>$}$
+[/mhkDcTZlgC6k]
+[n-jQLaoPmYUP#0] ^verb-need-past<SV-kerek-past><PD><ND><p3><sg>{^It<prn><subj><4><nt><5>$    ^need<vblex><past>$ ^bag<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/n-jQLaoPmYUP]
+[nLLjkLF8Tv40#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><pl>{^We<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres>$}$ ^noun-cop<SN-to-cop><nom><pl>{ ^doctor<n><3>$}$^sent<SENT>{^.<sent>$}$
+[/nLLjkLF8Tv40]
+[okCDzepnuZbI#0] ^verb-ing<SV><pres><p3><sg>{^be<vbser><2><3><4>$ ^cold<vblex><ger>$}$
+[/okCDzepnuZbI]
+[pMH2AYd0h_wD#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^adj-nom-cop<SN><NOM><pl>{ ^beautiful<adj>$ ^girl<n><pl>$}$^sent<SENT>{^.<sent>$}$
+[/pMH2AYd0h_wD]
+[pN2EykgWG6WG#0] ^adj-nom<SN><NOM>{ ^blue<adj>$ ^color<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/pN2EykgWG6WG]
+[q4Rce8qHg4oq#0] ^subj-pron+cop<SN-pron><prn><subj><p2><mf><sp>{^You<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres><p2><sp>$}$ ^adj-cop<AdjP>{^happy<adj>$}$^sent<SENT>{^.<sent>$}$
+[/q4Rce8qHg4oq]
+[qMvE6D4S5B6n#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^verb-presperfcon<SV><p3><sg>{^have<vbhaver><pres><2><3>$ ^be<vbser><pp>$ ^play<vblex><ger>$}$^sent<SENT>{^.<sent>$}$
+[/qMvE6D4S5B6n]
+[ryOX8CEuPi6K#0] ^subj-pron+cop<SN-pron><prn><subj><p3><m><sg>{^He<2><3><4><5><6>$}$ ^verb-ing-not-past<SV><past><p3><sg>{^be<vbser><2><3><4>$ ^not<adv>$ ^play<vblex><ger>$}$^sent<SENT>{^.<sent>$}$
+[/ryOX8CEuPi6K]
+[sGvYWnj9Iy_X#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><pl>{^We<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres>$}$ ^adj-cop<AdjP>{^happy<adj>$}$^sent<SENT>{^.<sent>$}$
+[/sGvYWnj9Iy_X]
+[sMQdSkV-sTc0#0] ^subj-pron+cop<SN-pron><prn><subj><p1><mf><sg>{^I<2><3><4><5><6>$}$ ^verb-ing-not-past<SV><past><p3><sg>{^be<vbser><2><3><4>$ ^not<adv>$ ^play<vblex><ger>$}$^sent<SENT>{^.<sent>$}$
+[/sMQdSkV-sTc0]
+[t2OOqwsCqruf#0] ^__v_<LRN>{^pass<vblex><past>$}$^*executedtule6$\/^adv<SN-ADVP>{^quite<preadv>$}$ ^unk-noun<SN><a_nbr><p3><a_pos><a_case>{^*сусап$}$ ^single-vaux<SV-vaux><pres><p1><sg>{^<vblex><pres>$}$
+[/t2OOqwsCqruf]
+[tCdurgvXf8_9#0] ^VP-cop-have<SV-kerek><p3><sg>{^It<prn><subj><2><mf><3>$ ^have<vbhaver><pres>$ ^book<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/tCdurgvXf8_9]
+[tDNt6_cdDB8p#0] ^VP-cop-had<SN/SV-kerek-past><p1><sg>{^I<prn><subj><2><mf><3>$ ^have<vblex><past>$ ^book<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/tDNt6_cdDB8p]
+[tHm_cjyFCS-L#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^am-sn{^be<vbser><pres>$}$ ^adj<AdjP>{ ^happy<adj>$}$ ^VP-cop-past-neg<SV><p3><sg>{^be<vbser><past><2><3><4>$ ^not<adv>$}$^sent<SENT>{^.<sent>$}$
+[/tHm_cjyFCS-L]
+[ucZVJdBLgZ_S#0] ^num-of_noun<SN><NOM><sg><p3>{ ^seven<num><sp>$ ^house<n><3>$ ^of<pr>$ ^its<det><pos><sp>$}$ ^VP-cop<SV-cop><p3><sg>{^be<vbser><pres><2><3>$}$ ^sent<SENT>{^.<sent>$}$
+[/ucZVJdBLgZ_S]
+[uj2yEoUk7w6T#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^verb-ing<SV><pres><p3><sg>{^be<vbser><2><3><4>$ ^play<vblex><ger>$}$^sent<SENT>{^.<sent>$}$
+[/uj2yEoUk7w6T]
+[urF_OnYsB7mK#0] ^verb-ing<SV><pres><p3><sg>{^be<vbser><2><3><4>$ ^cheer<vblex><ger>$}$
+[/urF_OnYsB7mK]
+[v7uqDP2_tMb3#0] ^verb-need-cop<SV-kerek><p3><sg>{^It<prn><subj><2><mf><3>$  ^need<vblex><pres>$ ^bag<n><sg>$}$^sent<SENT>{^.<sent>$}$
+[/v7uqDP2_tMb3]
+[wJ53ol9UsPL2#0] ^subj-pron+cop<SN-pron><prn><subj><p3><mf><pl>{^They<2><3><4><5><6>$}$ ^pres-verb<SV><pres><p3><sg>{^play<vblex><2><3><4>$}$^sent<SENT>{^.<sent>$}$
+[/wJ53ol9UsPL2]
+[wSOZUXPkCX-9#0] ^unk-noun<SN><a_nbr><p3><a_pos><a_case>{^*сусаймын$}$
+[/wSOZUXPkCX-9]

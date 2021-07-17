@@ -1,0 +1,26 @@
+{
+    "eng-kaz-correct": {
+        "input": "eng-kaz-correct-input.txt",
+        "mode": "eng-kaz"
+    },
+    "eng-kaz-pending": {
+        "input": "eng-kaz-pending-input.txt",
+        "mode": "eng-kaz"
+    },
+    "eng-kaz-regression": {
+        "input": "eng-kaz-regression-input.txt",
+        "mode": "eng-kaz"
+    },
+    "kaz-eng-correct": {
+        "input": "kaz-eng-correct-input.txt",
+        "mode": "kaz-eng"
+    },
+    "kaz-eng-pending": {
+        "input": "kaz-eng-pending-input.txt",
+        "mode": "kaz-eng"
+    },
+    "kaz-eng-regression": {
+        "input": "kaz-eng-regression-input.txt",
+        "mode": "kaz-eng"
+    }
+}

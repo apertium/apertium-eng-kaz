@@ -1,0 +1,1014 @@
+[-BT6H9g2nQez#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/-BT6H9g2nQez]
+[-IINzfPXLgZi#0] ^detpos-nom<NP><sg><p3><px3sp><CD>{^ол<prn><pers><p3><sg><gen>$ ^бақша<n><2><4><5>$}$
+[/-IINzfPXLgZi]
+[-YvYs7c76FzW#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-need<VP_need><ND><PD><ifi><PXD><NXD>{^керек<n><nom>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/-YvYs7c76FzW]
+[-aJYbl_6RrVX#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><aor><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/-aJYbl_6RrVX]
+[-bguz2wxqrh6#0] ^detart-nom<NP><sg><p3><PXD><CD>{^үй<n><2><4><5>$}$
+[/-bguz2wxqrh6]
+[-o4_2Xvqv8Cu#0] ^detart-nom<NP><sg><p3><PXD><CD>{^кесте<n><2><4><5>$}$
+[/-o4_2Xvqv8Cu]
+[-rEKlK43dZwW#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb19<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/-rEKlK43dZwW]
+[-ueYyFVUG7el#0] ^prep-detart-noun2<PP><sg><p3><PXD><dat>{  ^бақша<n><2><4><5>$}$
+[/-ueYyFVUG7el]
+[0Bi8fs_xd5Pd#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb11<VP><ND><PD><aor><PXD><neg>{    ^ойна<v><tv><prc_perf>$ ^бол<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/0Bi8fs_xd5Pd]
+[0W6jZVP_jUVD#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb4<VP><ND><PD><pres><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^жат<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/0W6jZVP_jUVD]
+[0iUFSyDXkUvn#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/0iUFSyDXkUvn]
+[0sogRVsm2f4s#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/0sogRVsm2f4s]
+[10Nwr1Q2Uc9h#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/10Nwr1Q2Uc9h]
+[142sJYo8iiJ7#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-have<VP_have><ND><PD><pres><PXD><NXD>{^бар<adj>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/142sJYo8iiJ7]
+[14fG4-FmquAC#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/14fG4-FmquAC]
+[1AsRk4cSgg4p#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/1AsRk4cSgg4p]
+[1et4pLb3ZcYb#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$    ^pers-verb2<VP><ND><PD><fut><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/1et4pLb3ZcYb]
+[1h4_-wyIDj3g#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><past><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/1h4_-wyIDj3g]
+[1lKELjLnSYbN#0] ^VP_qhave<VPQ><past>{ }$ ^subj-pron<NP><sg><p2><PXD><CD>{^сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb2<VP><ND><PD><past><PXD><NXD><CD>{^бар<v><iv><6><4><5><3><2><7>$}$ ^prep-nom<PP><sg><p3><PXD><dat>{ ^мектеп<n><2><4><5>$}$^sent<Q_mark>{^?<sent>$}$
+[/1lKELjLnSYbN]
+[1mfIPJbzE9nG#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><ifi><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/1mfIPJbzE9nG]
+[1u_eXRqWBwBT#0] ^adjec-noun<NP><sg><p3><PXD><CD>{^жақсы<adj>$ ^бақша<n><2><4><5>$}$
+[/1u_eXRqWBwBT]
+[1z8rdpVvbWmt#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^VP_need_to<VP_need><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/1z8rdpVvbWmt]
+[2D-6URlLPvhE#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb10<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^бол<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/2D-6URlLPvhE]
+[2ElMq7sr5evH#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb10<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^бол<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/2ElMq7sr5evH]
+[2FGVfTHBPiSO#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb-neg-ing<VP><ND><PD><pres><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^жат<vaux><neg><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/2FGVfTHBPiSO]
+[2KJyqHfL5XEn#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/2KJyqHfL5XEn]
+[2QXdl2ojbUaa#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/2QXdl2ojbUaa]
+[2VGorn4HGg51#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-need<VP_need><ND><PD><ifi><PXD><NXD>{^керек<n><nom>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/2VGorn4HGg51]
+[2Y4EagFmHwIN#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Кітап<n><2><4><5>$}$  ^pers-verb-pass1<VP><ND><PD><aor><PXD><NXD>{^бер<v><tv><pass><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/2Y4EagFmHwIN]
+[2ab7BvqSdFfS#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb12<VP><ND><PD><ifi><PXD><NXD>{ ^кел<v><iv><gpr_impf>$ ^е<cop><4><3><2>$}$^default<default>{^.<sent>$}$
+[/2ab7BvqSdFfS]
+[2gXGwarHZ2bA#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/2gXGwarHZ2bA]
+[2q-9M8E2Xdo2#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb8<VP><ND><PD><fut><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/2q-9M8E2Xdo2]
+[2sugIpVWGCvh#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-need<VP_need><sg><p3><aor><PXD><neg>{^керек<n><nom>$ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/2sugIpVWGCvh]
+[30LGPiYW12wg#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><aor><p3><2>$}$^default<default>{^.<sent>$}$
+[/30LGPiYW12wg]
+[34hGdfkXrXD2#0] ^prep-detart-num-noun2<PP><pl><p3><PXD><gen>{  ^үш<num>$ ^бақша<n><sg><4><5>$ ^аст<n><px3sp><loc>$}$
+[/34hGdfkXrXD2]
+[3C1zxP9J2buC#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/3C1zxP9J2buC]
+[3CB3MLWit8Ad#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^VP_have_to<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$ ^е<cop><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/3CB3MLWit8Ad]
+[3MvejQdwRrwx#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^should-inf<VP_should_inf><ND><PD><ger_past><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^жөн<adj>$}$^default<default>{^.<sent>$}$
+[/3MvejQdwRrwx]
+[3ZNfIKQvpxWV#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb16<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/3ZNfIKQvpxWV]
+[3fTozo5AVpLT#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb19<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/3fTozo5AVpLT]
+[3mSrKBKO9cS1#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^VP_have_to<VP_must_inf><PD><ND><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/3mSrKBKO9cS1]
+[3tU5IO5OlbFF#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><past><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/3tU5IO5OlbFF]
+[3urXUueTk0Um#0] ^prep-the_most_adjec-nom<GenP><sg><p3><PXD><gen>{ ^ең<adv>$ ^әдемі<adj>$ ^бақша<n><2><4><5>$}$
+[/3urXUueTk0Um]
+[46YOLXHtUYPY#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb16<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/46YOLXHtUYPY]
+[4TtZuK6q8BRu#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/4TtZuK6q8BRu]
+[4jjObYOJCiLv#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><ifi><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/4jjObYOJCiLv]
+[4kgTHVniXLH6#0] ^detart-nom<NP><sg><p3><PXD><CD>{^тұрғын<n><2><4><5>$}$
+[/4kgTHVniXLH6]
+[4sADC4YbYW2d#0] ^detpos-nom<NP><sg><p3><px3sp><CD>{^ол<prn><pers><p3><sg><gen>$ ^бақша<n><2><4><5>$}$
+[/4sADC4YbYW2d]
+[4x82qPax1rme#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^VP_have_to<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$ ^е<cop><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/4x82qPax1rme]
+[53M1w_uZKWiD#0] ^detart-num-nom4<NP><pl><p3><PXD><CD>{ ^екі<num>$ ^бақша<n><sg><4><5>$}$
+[/53M1w_uZKWiD]
+[58JprE_bBhte#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb16<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/58JprE_bBhte]
+[5Dg2GORPryWE#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/5Dg2GORPryWE]
+[5SDcM_H1qRQd#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb15<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/5SDcM_H1qRQd]
+[5oJQbkvam2KI#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/5oJQbkvam2KI]
+[5yMEQr0OZwYC#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^VP_have_to<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$ ^е<cop><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/5yMEQr0OZwYC]
+[60s38mb4uW-5#0] ^prep-obj-pron<PP><sg><p3><PXD><ins>{^ол<prn><p3><sg><ins>$}$
+[/60s38mb4uW-5]
+[6FFftaHGeGS0#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^VP_have_to<VP_must_inf><PD><ND><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/6FFftaHGeGS0]
+[6H78YB17fpG0#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^past-verb-neg-ing<VP><ND><PD><ifi><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/6H78YB17fpG0]
+[6RXKzNtuS3Mg#0] ^VP_q<VPQ><ifi>{ }$ ^subj-pron<NP><sg><p2><PXD><CD>{^сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^бар<v><iv><6><4><5><3><2><7>$}$ ^prep-nom<PP><sg><p3><PXD><dat>{ ^мектеп<n><2><4><5>$}$^sent<Q_mark>{^?<sent>$}$
+[/6RXKzNtuS3Mg]
+[6hRgleEHuiUP#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/6hRgleEHuiUP]
+[6mGXNuw6z-2l#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^VP_have_to<VP_must_inf><PD><ND><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/6mGXNuw6z-2l]
+[6zTO_D2Iyd8X#0] ^detdem-nom<NP><sg><p3><PXD><CD>{^осы<prn><dem><nom>$ ^бақша<n><2><4><5>$}$
+[/6zTO_D2Iyd8X]
+[79odZcIjxBWp#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb10<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^бол<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/79odZcIjxBWp]
+[7B9zJElrss5Z#0] ^prep-adjec-nom<PP><pl><p3><PXD><loc>{ ^жақсы<adj>$ ^бақша<n><2><4><5>$}$
+[/7B9zJElrss5Z]
+[7S8xak6N4FqA#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$ ^obj-pron<NP><sg><CD>{^бір нәрсе<prn><sg><4>$ }$
+[/7S8xak6N4FqA]
+[7Y1DjovbkWlK#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><aor><p3><2>$}$^default<default>{^.<sent>$}$
+[/7Y1DjovbkWlK]
+[7ZKCxLDg9JWQ#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^VP_have_to<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$ ^е<cop><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/7ZKCxLDg9JWQ]
+[7nyhZ-_Holbj#0] ^adv<AdvP>{^биыл<adv>$}$
+[/7nyhZ-_Holbj]
+[7sHcDQV4MZ7S#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><ifi><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/7sHcDQV4MZ7S]
+[7vyaRyfiJoX_#0] ^detdem-nom<NP><sg><p3><PXD><CD>{^анау<det><dem>$ ^бақша<n><2><4><5>$}$
+[/7vyaRyfiJoX_]
+[8EUFrxRGn8yO#0] ^prep-obj-pron<PP><sg><p3><PXD><ins>{^мен<prn><p1><sg><ins>$}$
+[/8EUFrxRGn8yO]
+[8KXu-qFoMpR2#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-need<VP_need><ND><PD><pres><PXD><NXD>{^керек<n><nom>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/8KXu-qFoMpR2]
+[8dzdROvi6GnN#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^VP_have_to<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$ ^е<cop><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/8dzdROvi6GnN]
+[8eMQcwHZvtcH#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$ ^prep-num-adj-noun<PP><pl><p3><PXD><gen>{^үш<num>$ ^әдемі<adj>$ ^ағаш<n><sg><4><5>$ ^үст<n><px3sp><loc>$}$ ^prep-det-adjec-noun-nopossnodem<PP><sg><p3><PXD><loc>{  ^жаңа<adj>$ ^бақша<n><2><4><5>$}$
+[/8eMQcwHZvtcH]
+[8gj3Jz4YXfom#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/8gj3Jz4YXfom]
+[8kEbXKvVeGDM#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb-neg-ing<VP><ND><PD><pres><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^жат<vaux><neg><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/8kEbXKvVeGDM]
+[8kVy7Y-zggRW#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/8kVy7Y-zggRW]
+[8lh1MQwngsNX#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb15<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/8lh1MQwngsNX]
+[8xMCOiNK08LA#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Кітап<n><2><4><5>$}$ ^pers-verb-passive<VP><ND><PD><pres><PXD><neg>{  ^бер<v><tv><pass><prc_perf>$ ^жат<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/8xMCOiNK08LA]
+[9NMA-uzPOH_k#0] ^prep-detart-comp_adj-noun<PP><sg><p3><PXD><loc>{  ^үлкен<adj><comp>$ ^бақша<n><2><4><5>$}$
+[/9NMA-uzPOH_k]
+[9Wkz1NH-kHtx#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/9Wkz1NH-kHtx]
+[9XplHzdXDycg#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/9XplHzdXDycg]
+[9aEMHuNhK1eF#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^must-inf2<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/9aEMHuNhK1eF]
+[9dF6UZxrjRwF#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^VP_need_to<VP_need><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/9dF6UZxrjRwF]
+[9e14GcRSmZXX#0] ^prep-detart-noun2<GenP><sg><p3><PXD><gen>{  ^бақша<n><2><4><5>$}$
+[/9e14GcRSmZXX]
+[9l-0yjIeYJyu#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^кел<v><iv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$ ^prep-detart-num-adjec-noun<PP><pl><p3><PXD><nom>{  ^сегіз<num>$ ^әдемі<adj>$ ^бақша<n><sg><4><5>$ ^арқылы<post>$}$^default<default>{^.<sent>$}$
+[/9l-0yjIeYJyu]
+[9qZ-1OWs1jAb#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^past-verb-neg-ing<VP><ND><PD><ifi><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/9qZ-1OWs1jAb]
+[9wk-mMI16pJn#0] ^noun<NP><sg><p3><PXD><CD>{^Аида<np><ant><f><2><4><5>$}$^default<default>{^.<sent>$}$
+[/9wk-mMI16pJn]
+[A18J8j4gQBpW#0] ^prep-detart-noun2<PP><sg><p3><PXD><loc>{  ^бақша<n><2><4><5>$}$
+[/A18J8j4gQBpW]
+[AHrntltczOyq#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb4<VP><ND><PD><pres><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^жат<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/AHrntltczOyq]
+[AO4sroBM2HpQ#0] ^prep-detart-num-adjec-noun<PP><pl><p3><PXD><dat>{  ^бес<num>$ ^жақсы<adj>$ ^бақша<n><sg><4><5>$ ^қарай<post>$}$
+[/AO4sroBM2HpQ]
+[AVwScTHPd6gx#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^num-years-old<NP><pl><p3><PXD><loc>{^бес<num>$  ^жас<n><sg><4><5>$}$^default<default>{^.<sent>$}$
+[/AVwScTHPd6gx]
+[AWkDEno6WL1q#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/AWkDEno6WL1q]
+[Am89UdQeKI_v#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/Am89UdQeKI_v]
+[Avwsxxe1XSIj#0] ^prep-adjec-nom<PP><sg><p3><PXD><loc>{ ^жақсы<adj>$ ^бақша<n><2><4><5>$}$
+[/Avwsxxe1XSIj]
+[BGdenAgQsESD#0] ^prep-num-nom<PP><pl><p3><PXD><loc>{ ^екі<num>$ ^бақша<n><sg><4><5>$}$
+[/BGdenAgQsESD]
+[BGfYB-WmNJ6w#0] ^prep-detart-noun1<PP><pl><p3><PXD><nom>{  ^бақша<n><2><4><5>$ ^арқылы<post>$}$
+[/BGfYB-WmNJ6w]
+[BV--F_G7T29h#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb31<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/BV--F_G7T29h]
+[BW8hyrGvQgq8#0] ^detpos-nom<NP><sg><p3><px1sg><CD>{^мен<prn><pers><p1><sg><gen>$ ^бақша<n><2><4><5>$}$
+[/BW8hyrGvQgq8]
+[BZ6PTKGA4nCI#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/BZ6PTKGA4nCI]
+[Blw0arg9eKYo#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/Blw0arg9eKYo]
+[Bo0YrdbLRfm0#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Ер<n><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^adv-adj<AdjP>{ ^өте<adv>$ ^ірі<adj>$}$
+[/Bo0YrdbLRfm0]
+[BqO8hQcw34x1#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/BqO8hQcw34x1]
+[C2_CbYPljIvj#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/C2_CbYPljIvj]
+[C6FJP8w9i_tT#0] ^prep-obj-pron<PP><sp><p3><PXD><ins>{^сіз<prn><p2><sg><frm><ins>$}$
+[/C6FJP8w9i_tT]
+[CAJEooqbd2Ph#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/CAJEooqbd2Ph]
+[CCHubLwlh6GD#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^айт<v><tv><6><4><5><3><2><7>$}$  ^subj-pron<NP><pl><p1><PXD><CD>{^біз<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^жаз<v><tv><6><4><5><3><2><7>$}$
+[/CCHubLwlh6GD]
+[CGs_gOajr4tl#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$   ^pers-verb2<VP><ND><PD><ifi><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/CGs_gOajr4tl]
+[CVJCrz-dKzve#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^must-inf2<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/CVJCrz-dKzve]
+[CiRU165pPnad#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb15<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/CiRU165pPnad]
+[Cmc5nkXzuO1l#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^should-inf<VP_should_inf><ND><PD><ger_past><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^жөн<adj>$}$ ^prep-detart-noun2<PP><sg><p3><PXD><loc>{  ^бақша<n><2><4><5>$}$
+[/Cmc5nkXzuO1l]
+[Cmhanw5AS0-_#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb10<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^бол<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/Cmhanw5AS0-_]
+[CrLbGXPVwIxR#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-need<VP_need><sg><p3><aor><PXD><neg>{^керек<n><nom>$ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/CrLbGXPVwIxR]
+[CvUUXGFZ1_0R#0] ^pron<NP_pron_neg><sg><p3><PXD><CD>{^Ешнәрсе<prn><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^жаз<v><tv><6><4><5><3><2><7>$}$
+[/CvUUXGFZ1_0R]
+[D1at69Q4q9sO#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb28<VP><ND><PD><past><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/D1at69Q4q9sO]
+[D9LWix2c-hZm#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/D9LWix2c-hZm]
+[DDPu_S4uvB3o#0] ^noun<NP><sg><p3><PXD><CD>{^ББС<abbr><2><4><5>$}$^default<default>{^.<sent>$}$
+[/DDPu_S4uvB3o]
+[DFYisCItD3ur#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^VP_need_to<VP_need><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/DFYisCItD3ur]
+[DFvYCPdF_P0a#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb19<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/DFvYCPdF_P0a]
+[DI-41OzAwugM#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/DI-41OzAwugM]
+[DS94YNCijSDX#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><aor><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/DS94YNCijSDX]
+[DSEtHbMfr1Xu#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/DSEtHbMfr1Xu]
+[D_9e00OEHLRa#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/D_9e00OEHLRa]
+[Dlwfl9aHXjc6#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$^default<default>{^.<sent>$}$
+[/Dlwfl9aHXjc6]
+[E-yyTsCCGV0v#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/E-yyTsCCGV0v]
+[EFRqHTa8FP0N#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/EFRqHTa8FP0N]
+[EavxStcM23iZ#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb12<VP><ND><PD><ifi><PXD><NXD>{ ^кел<v><iv><gpr_impf>$ ^е<cop><4><3><2>$}$^default<default>{^.<sent>$}$
+[/EavxStcM23iZ]
+[EkFT7nRBRYBS#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^must-inf2<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$ ^prep-detart-noun2<PP><sg><p3><PXD><loc>{  ^бақша<n><2><4><5>$}$
+[/EkFT7nRBRYBS]
+[EmjEklyXYeRQ#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb-neg-ing<VP><ND><PD><pres><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^жат<vaux><neg><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/EmjEklyXYeRQ]
+[ExA7DRRzi3QY#0] ^noun<NP><sg><p3><PXD><CD>{^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/ExA7DRRzi3QY]
+[EyO9_eE5tUTq#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/EyO9_eE5tUTq]
+[EzseeTQ55ZJr#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><aor><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/EzseeTQ55ZJr]
+[F5nfhTynRI59#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Кітап<n><2><4><5>$}$   ^pers-verb3<VP><ND><PD><aor><PXD><neg>{^бер<v><tv><pass><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/F5nfhTynRI59]
+[FAnQeJ00zCfv#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb26<VP><ND><PD><past><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/FAnQeJ00zCfv]
+[FRecqZMZs1vj#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/FRecqZMZs1vj]
+[FbJAnKScvN-K#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb12<VP><ND><PD><ifi><PXD><NXD>{ ^кел<v><iv><gpr_impf>$ ^е<cop><4><3><2>$}$^default<default>{^.<sent>$}$
+[/FbJAnKScvN-K]
+[G-PZ6mNltIec#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb11<VP><ND><PD><aor><PXD><neg>{    ^ойна<v><tv><prc_perf>$ ^бол<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/G-PZ6mNltIec]
+[GCUEQiox-q0v#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$  ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/GCUEQiox-q0v]
+[GS1W1AaPqDEf#0] ^noun<NP><sg><p3><PXD><CD>{^Алматы<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/GS1W1AaPqDEf]
+[GWqzflop-IAs#0] ^prep-detart-num-adjec-noun<PP><pl><p3><PXD><loc>{  ^екі<num>$ ^жақсы<adj>$ ^бақша<n><sg><4><5>$}$
+[/GWqzflop-IAs]
+[GdS6iFbAVIki#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/GdS6iFbAVIki]
+[GtlqwOC8I3yl#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Кітап<n><2><4><5>$}$ ^pers-verb30<VP><ND><PD><past><PXD><NXD>{  ^бер<v><tv><pass><prc_perf>$ ^бол<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/GtlqwOC8I3yl]
+[H-83xVJPSFvq#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/H-83xVJPSFvq]
+[H0Xfl4CKRbjw#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/H0Xfl4CKRbjw]
+[H4y-tcyCp0U7#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><ifi><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/H4y-tcyCp0U7]
+[HJ49NSN_3MJP#0] ^detpos-nom<NP><sg><p3><px2sg><CD>{^сіз<prn><pers><p2><sg><frm><gen>$ ^бақша<n><2><4><5>$}$
+[/HJ49NSN_3MJP]
+[HUoN0Aj8OUjN#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$    ^pers-verb2<VP><ND><PD><fut><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/HUoN0Aj8OUjN]
+[HkB7Rx9c5Sx5#0] ^prep-detdem-noun-post<PP><sg><p3><PXD><gen>{ ^осы<prn><dem><nom>$ ^бақша<n><2><4><5>$ ^аст<n><px3sp><loc>$}$
+[/HkB7Rx9c5Sx5]
+[HkZ1LGECmFzx#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^бар<v><iv><6><4><5><3><2><7>$}$ ^prep-nom<PP><sg><p3><PXD><dat>{ ^мектеп<n><2><4><5>$}$ ^prep-nom<GenP><sg><p3><PXD><gen>{ ^қала<n><2><4><5>$}$ ^prep-nom<GenP><sg><p3><PXD><gen>{ ^ел<n><2><4><5>$}$
+[/HkZ1LGECmFzx]
+[HzPwyY3EDZ0N#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^should-inf<VP_should_inf><ND><PD><ger_past><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^жөн<adj>$}$ ^noun<NP><sg><p3><PXD><CD>{^футбол<n><2><4><5>$}$
+[/HzPwyY3EDZ0N]
+[I7evgnhFdbrf#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/I7evgnhFdbrf]
+[IDfnQhNXMZzx#0] ^pron<NP_pron_neg><sg><p3><PXD><CD>{^Ешкім<prn><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^кел<v><iv><6><4><5><3><2><7>$}$
+[/IDfnQhNXMZzx]
+[IErb7hlxrPZz#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^көр<v><tv><6><4><5><3><2><7>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^президент<n><2><4><5>$}$ ^prep-nom<GenP><sg><p3><PXD><gen>{ ^ел<n><2><4><5>$}$
+[/IErb7hlxrPZz]
+[IbXvBjYcO9Ks#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Кітап<n><2><4><5>$}$ ^pers-verb-passive-neg<VP><ND><PD><pres><PXD><neg>{   ^бер<v><tv><pass><prc_perf>$ ^жат<vaux><neg><4><3><2>$}$^default<default>{^.<sent>$}$
+[/IbXvBjYcO9Ks]
+[InOV1Gi35PX2#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb12<VP><ND><PD><ifi><PXD><NXD>{ ^кел<v><iv><gpr_impf>$ ^е<cop><4><3><2>$}$^default<default>{^.<sent>$}$
+[/InOV1Gi35PX2]
+[IonmtAVKrwb9#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb9<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/IonmtAVKrwb9]
+[J-ysesQOS62F#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb11<VP><ND><PD><aor><PXD><neg>{    ^ойна<v><tv><prc_perf>$ ^бол<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/J-ysesQOS62F]
+[J6Z8d2JueZ7H#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^айт<v><tv><6><4><5><3><2><7>$}$  ^subj-pron<NP><pl><p3><PXD><CD>{^олар<prn><pers><p3><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^жаз<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$
+[/J6Z8d2JueZ7H]
+[J8YF87kemsz5#0] ^prep-comp_adjec-nom<GenP><sg><p3><PXD><gen>{ ^үлкен<adj><comp>$ ^бақша<n><2><4><5>$}$
+[/J8YF87kemsz5]
+[JCF2dj9iZZDf#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/JCF2dj9iZZDf]
+[JE3yklILPtwm#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/JE3yklILPtwm]
+[JHX_da5lGzW4#0] ^noun<NP><sg><p3><PXD><CD>{^Байсейітов<np><cog><f><2><4><5>$}$^default<default>{^.<sent>$}$
+[/JHX_da5lGzW4]
+[JoxKs0yDBW1G#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-need<VP_need><sg><p3><aor><PXD><neg>{^керек<n><nom>$ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/JoxKs0yDBW1G]
+[JwoddeIXiQQX#0] ^obj-pron<NP><sg><p3><CD>{^ол<prn><p3><sg><4>$ }$^default<default>{^.<sent>$}$
+[/JwoddeIXiQQX]
+[JyDBj74fnxqU#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/JyDBj74fnxqU]
+[KAGeTAj2-Arm#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb19<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/KAGeTAj2-Arm]
+[KH6RJm25AXpR#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb4<VP><ND><PD><pres><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^жат<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/KH6RJm25AXpR]
+[KIwVwI0UEIIW#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^should-inf<VP_should_inf><ND><PD><ger_past><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^жөн<adj>$}$^default<default>{^.<sent>$}$
+[/KIwVwI0UEIIW]
+[KJAX3Yfb818_#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/KJAX3Yfb818_]
+[KaNVcSuLliKq#0] ^if<IF><cnjsub>{^Егер<cnjsub>$}$ ^subj-pron<NP><sg><p2><PXD><CD>{^сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^өмір сүр<v><iv><6><4><5><3><2><7>$}$ ^prep-nom<PP><sg><p3><PXD><loc>{ ^қала<n><2><4><5>$}$^coma<CM>{^,<cm>$}$ ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$  ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^кел<v><iv><6><4><5><3><2><7>$}$
+[/KaNVcSuLliKq]
+[KeXDKA1jGIzn#0] ^noun<NP><sg><p3><PXD><CD>{^Дидар<np><ant><m><2><4><5>$}$^default<default>{^.<sent>$}$
+[/KeXDKA1jGIzn]
+[L14glN3wEJIA#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb31<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/L14glN3wEJIA]
+[L2FL_4N9a9JM#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/L2FL_4N9a9JM]
+[L6MyZlLMkYoZ#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/L6MyZlLMkYoZ]
+[L9GgsaZ8PX1D#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb11<VP><ND><PD><aor><PXD><neg>{    ^ойна<v><tv><prc_perf>$ ^бол<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/L9GgsaZ8PX1D]
+[LFJz1-pJX44X#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb15<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/LFJz1-pJX44X]
+[LRD1gHVwHZYK#0] ^sup-adjec-nom<NP><sg><p3><PXD><CD>{ ^ең<adv>$ ^үлкен<adj><subst><4><5>$ ^бақша<n><2><4><5>$}$
+[/LRD1gHVwHZYK]
+[LRT_3VdZ2JFh#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^past-verb-neg-ing<VP><ND><PD><ifi><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/LRT_3VdZ2JFh]
+[LRt3qGeMGioQ#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^VP_need_to<VP_need><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/LRt3qGeMGioQ]
+[LYKt8dRMYLmw#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^VP_have_to<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$ ^е<cop><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/LYKt8dRMYLmw]
+[LfSLZg3rrsoO#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/LfSLZg3rrsoO]
+[ME5Nib9lAlfd#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$^default<default>{^.<sent>$}$
+[/ME5Nib9lAlfd]
+[MWYhhEjvH2Uz#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^past-verb-neg-ing<VP><ND><PD><ifi><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/MWYhhEjvH2Uz]
+[MefHZaRDEa9N#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb19<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/MefHZaRDEa9N]
+[MjEAn1Hbiv9B#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Кітап<n><2><4><5>$}$   ^pers-verb-pass1<VP><ND><PD><aor><PXD><NXD>{^бер<v><tv><pass><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/MjEAn1Hbiv9B]
+[MjWqoL78LCsT#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><past><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/MjWqoL78LCsT]
+[Mlt1rbEUxx5Y#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><fut><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/Mlt1rbEUxx5Y]
+[N0ny2X3auZ4m#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb31<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/N0ny2X3auZ4m]
+[N4_ZpFkWTc-f#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^VP_need_to<VP_need><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/N4_ZpFkWTc-f]
+[N5d4R4oRPDYl#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/N5d4R4oRPDYl]
+[NB6KIpNyfymQ#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^may-inf<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^мүмкін<adj>$}$^default<default>{^.<sent>$}$
+[/NB6KIpNyfymQ]
+[NTOeaTsEb9Kn#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^істе<v><tv><6><4><5><3><2><7>$}$ ^obj-pron<NP><sg><CD>{^бірдеме<prn><sg><4>$ }$
+[/NTOeaTsEb9Kn]
+[NWwN8rlXcX-D#0] ^prep-det-adjec-noun-nopossnodem<PP><sg><p3><PXD><loc>{  ^жақсы<adj>$ ^бақша<n><2><4><5>$}$
+[/NWwN8rlXcX-D]
+[N_jaeiyAeSt5#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb8<VP><ND><PD><fut><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/N_jaeiyAeSt5]
+[Nq-Ab9LkwQCD#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb9<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/Nq-Ab9LkwQCD]
+[NtC6sZOOtzG1#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb12<VP><ND><PD><ifi><PXD><NXD>{ ^кел<v><iv><gpr_impf>$ ^е<cop><4><3><2>$}$^default<default>{^.<sent>$}$
+[/NtC6sZOOtzG1]
+[O-kXzL9Q8opD#0] ^prep-num-adj-noun<PP><pl><p3><PXD><loc>{ ^екі<num>$ ^жақсы<adj>$ ^бақша<n><sg><4><5>$}$
+[/O-kXzL9Q8opD]
+[OA_Z_YhVp_5x#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-need<VP_need><ND><PD><ifi><PXD><NXD>{^керек<n><nom>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/OA_Z_YhVp_5x]
+[OL1Yb_QZcSZr#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/OL1Yb_QZcSZr]
+[OTEXQsXfJmwf#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-have<VP_have><ND><PD><ifi><PXD><NXD>{^бар<adj>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/OTEXQsXfJmwf]
+[OXGt3oxsivZP#0] ^prep-detart-noun1<PP><sg><p3><PXD><gen>{  ^бақша<n><2><4><5>$ ^үст<n><px3sp><loc>$}$
+[/OXGt3oxsivZP]
+[OYB512GGohNK#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/OYB512GGohNK]
+[Oiotl_2rnBqh#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><ifi><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/Oiotl_2rnBqh]
+[On04J1c3rTYp#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/On04J1c3rTYp]
+[Oq3LGDa0bLVf#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><aor><p3><2>$}$^default<default>{^.<sent>$}$
+[/Oq3LGDa0bLVf]
+[OuKB8YeK6M0v#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^should-inf<VP_should_inf><ND><PD><ger_past><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^жөн<adj>$}$^default<default>{^.<sent>$}$
+[/OuKB8YeK6M0v]
+[PH5mvfMHW8un#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/PH5mvfMHW8un]
+[PJcrWW4wgt1K#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$   ^pers-verb2<VP><ND><PD><past><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/PJcrWW4wgt1K]
+[POLCaMihiGki#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^past-verb-neg-ing<VP><ND><PD><ifi><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/POLCaMihiGki]
+[PXZhOgzTHx_8#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/PXZhOgzTHx_8]
+[PY-_VimpHVs9#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb16<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/PY-_VimpHVs9]
+[PcoaDA9x3wBl#0] ^num-adjec-noun<NP><pl><p3><PXD><CD>{^екі<num>$ ^жақсы<adj>$ ^бақша<n><sg><4><5>$}$
+[/PcoaDA9x3wBl]
+[PhEz6LZdFDCC#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^num-years-old<NP><pl><p3><PXD><loc>{^бес<num>$  ^жас<n><sg><4><5>$}$^default<default>{^.<sent>$}$
+[/PhEz6LZdFDCC]
+[PmxzOuNht0VR#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/PmxzOuNht0VR]
+[Pyu4sLv5LcjV#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb15<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/Pyu4sLv5LcjV]
+[QNR0sJCxkv_I#0] ^prep-obj-pron<PP><sp><p3><PXD><dat>{^сіз<prn><p2><sg><frm><dat>$}$^default<default>{^.<sent>$}$
+[/QNR0sJCxkv_I]
+[QPK5Ooza4RgS#0] ^detpos-nom<NP><sg><p3><px3sp><CD>{^Ол<prn><pers><p3><sg><gen>$ ^аға<n><2><4><5>$}$ ^pers-verb4<VP><ND><PD><pres><PXD><NXD><CD>{ ^бар<v><iv><prc_perf>$ ^жат<vaux><6><4><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><dat>{ ^бақша<n><2><4><5>$}$ ^prep-nom<GenP><sg><p3><PXD><gen>{ ^қала<n><2><4><5>$}$
+[/QPK5Ooza4RgS]
+[QXJSePjKVq6S#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/QXJSePjKVq6S]
+[QoF4jANue1YM#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb19<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/QoF4jANue1YM]
+[RH91U0x2yLzb#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^VP_need_to<VP_need><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/RH91U0x2yLzb]
+[RHaq3wU4Caq8#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb28<VP><ND><PD><past><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/RHaq3wU4Caq8]
+[RK7svtz2Gg0j#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$  ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/RK7svtz2Gg0j]
+[RQYxkv8_PL7q#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/RQYxkv8_PL7q]
+[RZ-QDoKOKfsw#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/RZ-QDoKOKfsw]
+[Rdi5cFVQXPjT#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-need<VP_need><ND><PD><pres><PXD><NXD>{^керек<n><nom>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/Rdi5cFVQXPjT]
+[Re4WRbPVAgS1#0] ^prep-detart-noun1<PP><sg><p3><PXD><dat>{  ^бақша<n><2><4><5>$ ^қарай<post>$}$
+[/Re4WRbPVAgS1]
+[RebO9NkXemq7#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^may-inf<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^мүмкін<adj>$}$^default<default>{^.<sent>$}$
+[/RebO9NkXemq7]
+[Rmag4IHhRqLe#0] ^adv-itg<QAdvP>{^қайда<adv><itg>$}$ ^VP_q<VPQ><ifi>{ }$ ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^бар<v><iv><6><4><5><3><2><7>$}$^sent<Q_mark>{^?<sent>$}$
+[/Rmag4IHhRqLe]
+[Rr2sLrCPPYlJ#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb4<VP><ND><PD><pres><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^жат<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/Rr2sLrCPPYlJ]
+[RrVL5F1c2FOW#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/RrVL5F1c2FOW]
+[S1Zx3DR2NrL6#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb8<VP><ND><PD><fut><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/S1Zx3DR2NrL6]
+[S2Yvzna4Hvhm#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-need<VP_need><sg><p3><aor><PXD><neg>{^керек<n><nom>$ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/S2Yvzna4Hvhm]
+[S2zrilSvc0xn#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/S2zrilSvc0xn]
+[SAi7t9Y0dHQs#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-need<VP_need><ND><PD><ifi><PXD><NXD>{^керек<n><nom>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/SAi7t9Y0dHQs]
+[SD2Kajf7EUMW#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/SD2Kajf7EUMW]
+[SFiz03zjOeCm#0] ^prep-obj-pron<PP><pl><p3><PXD><dat>{^олар<prn><p3><pl><dat>$}$^default<default>{^.<sent>$}$
+[/SFiz03zjOeCm]
+[SGEharxgjKuN#0] ^prep-detart-num-noun2<PP><pl><p3><PXD><dat>{  ^бес<num>$ ^бақша<n><sg><4><5>$ ^қарай<post>$}$
+[/SGEharxgjKuN]
+[SJzXH75_L0Gp#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/SJzXH75_L0Gp]
+[SQScKCVrU-X-#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><aor><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/SQScKCVrU-X-]
+[STx0P-J8Adfk#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/STx0P-J8Adfk]
+[SXxPA99Np4Hr#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Кітап<n><2><4><5>$}$ ^pers-verb24<VP><ND><PD><past><PXD><neg>{   ^бер<v><tv><pass><prc_perf>$ ^бол<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/SXxPA99Np4Hr]
+[S_lvpLXaXBxy#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-need<VP_need><sg><p3><aor><PXD><neg>{^керек<n><nom>$ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/S_lvpLXaXBxy]
+[ShCbgpu9_ufj#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/ShCbgpu9_ufj]
+[StJ63rycGv8T#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/StJ63rycGv8T]
+[SuG4W5vurxo5#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^істе<v><tv><6><4><5><3><2><7>$}$ ^pron<NP_pron_neg><sg><p3><PXD><CD>{^ешнәрсе<prn><2><4><5>$}$
+[/SuG4W5vurxo5]
+[T-aOzpRQFqmn#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/T-aOzpRQFqmn]
+[TGhA5FIzBTEU#0] ^VP_qhave<VPQ><past>{ }$ ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><past><PXD><NXD><CD>{^жаз<v><tv><6><4><5><3><2><7>$}$^sent<Q_mark>{^?<sent>$}$
+[/TGhA5FIzBTEU]
+[TIgk9r4dNlI1#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$^default<default>{^.<sent>$}$
+[/TIgk9r4dNlI1]
+[TK0eVZN2fWso#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/TK0eVZN2fWso]
+[Tg1VXAtds5cw#0] ^obj-pron<NP><sg><p1><CD>{^мен<prn><p1><sg><nom>$ }$^default<default>{^.<sent>$}$
+[/Tg1VXAtds5cw]
+[U2Otfn0s9CX2#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb4<VP><ND><PD><pres><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^жат<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/U2Otfn0s9CX2]
+[UG6ta4HIUB4M#0] ^detart-adjec-nom<NP><sg><p3><PXD><CD>{ ^жақсы<adj>$ ^бақша<n><2><4><5>$}$
+[/UG6ta4HIUB4M]
+[UacvUTuqf8iX#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><aor><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/UacvUTuqf8iX]
+[Un1V5JJd3wNy#0] ^detpos-num-nom<NP><pl><p3><px1pl><CD>{^біз<prn><pers><p1><pl><gen>$ ^бес<num>$ ^бақша<n><sg><4><5>$}$
+[/Un1V5JJd3wNy]
+[UsuaR9rVzwva#0] ^the_most_adjec-nom<NP><sg><p3><PXD><CD>{ ^ең<adv>$ ^әдемі<adj>$ ^бақша<n><2><4><5>$}$
+[/UsuaR9rVzwva]
+[V0FGdxJlpbX2#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><fut><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/V0FGdxJlpbX2]
+[V2ItPgfcpdws#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><ifi><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/V2ItPgfcpdws]
+[V9hTq5M3kcI9#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb12<VP><ND><PD><ifi><PXD><NXD>{ ^кел<v><iv><gpr_impf>$ ^е<cop><4><3><2>$}$^default<default>{^.<sent>$}$
+[/V9hTq5M3kcI9]
+[VBfrkUNUP0E7#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^айт<v><tv><6><4><5><3><2><7>$}$  ^subj-pron<NP><pl><p1><PXD><CD>{^біз<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^жаз<v><tv><6><4><5><3><2><7>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$
+[/VBfrkUNUP0E7]
+[VMWu-7sRw86Q#0] ^prep-detart-noun1<PP><sg><p3><PXD><gen>{  ^бақша<n><2><4><5>$ ^аст<n><px3sp><loc>$}$
+[/VMWu-7sRw86Q]
+[VOEf1Bk_uCBl#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb8<VP><ND><PD><fut><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/VOEf1Bk_uCBl]
+[VPEDnx_STD0L#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><fut><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/VPEDnx_STD0L]
+[VYUOnxwp7Mee#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^may-inf<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^мүмкін<adj>$}$^default<default>{^.<sent>$}$
+[/VYUOnxwp7Mee]
+[Vd_jYZ1EwZgO#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb10<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^бол<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/Vd_jYZ1EwZgO]
+[Vmcw4QCBiRy4#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^VP_have_to<VP_must_inf><PD><ND><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/Vmcw4QCBiRy4]
+[VrB-xXPsLYh1#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-need<VP_need><ND><PD><pres><PXD><NXD>{^керек<n><nom>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/VrB-xXPsLYh1]
+[VtRe6d7jwuJv#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/VtRe6d7jwuJv]
+[VysnZ8kI7eX8#0] ^prep-det-adjec-noun-postnoposs<PP><sg><p3><PXD><gen>{  ^жақсы<adj>$ ^бақша<n><2><4><5>$ ^аст<n><px3sp><loc>$}$
+[/VysnZ8kI7eX8]
+[W0jfb3lXWEE_#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/W0jfb3lXWEE_]
+[W2qEA3Gh9buv#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb11<VP><ND><PD><aor><PXD><neg>{    ^ойна<v><tv><prc_perf>$ ^бол<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/W2qEA3Gh9buv]
+[W82yvSMDS4TF#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><past><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/W82yvSMDS4TF]
+[WCsPiR5uu0VN#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><aor><p3><2>$}$^default<default>{^.<sent>$}$
+[/WCsPiR5uu0VN]
+[WddEUBEuWMFE#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^must-inf2<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/WddEUBEuWMFE]
+[WkqnxhruqqtC#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/WkqnxhruqqtC]
+[WmXkbg_fJrsv#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/WmXkbg_fJrsv]
+[X4JtInLP36vE#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/X4JtInLP36vE]
+[XBHiHzxlidYL#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$   ^pers-verb2<VP><ND><PD><fut><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/XBHiHzxlidYL]
+[XsEZ84LUv-ll#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/XsEZ84LUv-ll]
+[Xxliq4Xx8Orw#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-have<VP_have><ND><PD><pres><PXD><NXD>{^бар<adj>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/Xxliq4Xx8Orw]
+[Y53LkDuR1RRK#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^must-inf2<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/Y53LkDuR1RRK]
+[Y5DWsiztjw4V#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$  ^pers-verb2<VP><ND><PD><past><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/Y5DWsiztjw4V]
+[YAt0he9a2tZo#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb31<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/YAt0he9a2tZo]
+[YKR25H7ctM2t#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/YKR25H7ctM2t]
+[YNDtCYfXsavQ#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^should-inf<VP_should_inf><ND><PD><ger_past><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^жөн<adj>$}$^default<default>{^.<sent>$}$
+[/YNDtCYfXsavQ]
+[YXf9JmTXhb88#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$^default<default>{^.<sent>$}$
+[/YXf9JmTXhb88]
+[YdFbwFynvlGT#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^VP_have_to<VP_must_inf><PD><ND><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/YdFbwFynvlGT]
+[YgERG4Ogy1sJ#0] ^than<THAN><post>{^және<cnjcoo>$}$
+[/YgERG4Ogy1sJ]
+[YlRumwRbaR68#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb28<VP><ND><PD><past><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/YlRumwRbaR68]
+[YpxiIAk4tXMF#0] ^noun<NP><sg><p3><PXD><CD>{^бақша<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/YpxiIAk4tXMF]
+[YsR9I2bEJ4Z2#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^VP_have_to<VP_must_inf><PD><ND><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/YsR9I2bEJ4Z2]
+[YzP4z5LUVeKz#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^past-verb-neg-ing<VP><ND><PD><ifi><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/YzP4z5LUVeKz]
+[ZWSZOYJGqJ0m#0] ^noun<NP><pl><p3><PXD><CD>{^бақша<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/ZWSZOYJGqJ0m]
+[ZXelxUo8Zb9w#0] ^detpos-nom<NP><sg><p3><px1pl><CD>{^біз<prn><pers><p1><pl><gen>$ ^бақша<n><2><4><5>$}$
+[/ZXelxUo8Zb9w]
+[ZjoVayLyWBk8#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-have<VP_have><ND><PD><ifi><PXD><NXD>{^бар<adj>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/ZjoVayLyWBk8]
+[_3a_9xhFDMvZ#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><ifi><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/_3a_9xhFDMvZ]
+[_5m6LpxpxOUt#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/_5m6LpxpxOUt]
+[_AaOvHUOmbzA#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb26<VP><ND><PD><past><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/_AaOvHUOmbzA]
+[_Jp-gU5-3lSS#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/_Jp-gU5-3lSS]
+[_RU-xy5vjJES#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-have<VP_have><ND><PD><ifi><PXD><NXD>{^бар<adj>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/_RU-xy5vjJES]
+[_eaAEFPugG79#0] ^prep-adjec-nom<PP><sg><p3><PXD><loc>{  ^әдемі<adj><comp>$ ^бақша<n><2><4><5>$}$
+[/_eaAEFPugG79]
+[_n5JMNLHhP7s#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb9<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/_n5JMNLHhP7s]
+[a-r7sWoK10_H#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb8<VP><ND><PD><fut><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/a-r7sWoK10_H]
+[aXK2v5O9wjyb#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb9<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/aXK2v5O9wjyb]
+[ac7y3WItYmIF#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb4<VP><ND><PD><pres><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^жат<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/ac7y3WItYmIF]
+[ah1-Dqmw4Ber#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/ah1-Dqmw4Ber]
+[alFKyCatNxIe#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb16<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/alFKyCatNxIe]
+[aqmjr4b4RVAX#0] ^adv-itg<QAdvP>{^қашан<adv><itg>$}$ ^VP_q<VPQ><ifi>{ }$ ^subj-pron<NP><sg><p2><PXD><CD>{^сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^сақта<v><tv><6><4><5><3><2><7>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^ақша<n><2><4><5>$}$^sent<Q_mark>{^?<sent>$}$
+[/aqmjr4b4RVAX]
+[au4Ozq119VZF#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb26<VP><ND><PD><past><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/au4Ozq119VZF]
+[ay7ThuVgX3jU#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-need<VP_need><ND><PD><pres><PXD><NXD>{^керек<n><nom>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/ay7ThuVgX3jU]
+[b-dto22MWwdv#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-need<VP_need><sg><p3><aor><PXD><neg>{^керек<n><nom>$ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/b-dto22MWwdv]
+[b0_P7PvbQDMA#0] ^prep-det-adjec-noun-postnoposs<PP><sg><p3><PXD><gen>{  ^жақсы<adj>$ ^бақша<n><2><4><5>$ ^бой<n><px3sp><ins>$}$
+[/b0_P7PvbQDMA]
+[bCK2WCdmFIsk#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$  ^pers-verb2<VP><ND><PD><past><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/bCK2WCdmFIsk]
+[bGDgaPiIZg-A#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb10<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^бол<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/bGDgaPiIZg-A]
+[bIDoR1LHq2Wy#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><aor><p3><2>$}$^default<default>{^.<sent>$}$
+[/bIDoR1LHq2Wy]
+[bTBCfrxs_tW8#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^should-inf<VP_should_inf><ND><PD><ger_past><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^жөн<adj>$}$^default<default>{^.<sent>$}$
+[/bTBCfrxs_tW8]
+[bUshViAmJlfM#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb28<VP><ND><PD><past><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/bUshViAmJlfM]
+[br10cvhV0tnp#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^өмір сүр<v><iv><6><4><5><3><2><7>$}$ ^prep-detart-sup_adj-noun<PP><sg><p3><PXD><loc>{  ^ең<adv>$ ^үлкен<adj>$ ^бақша<n><2><4><5>$}$ ^prep-nom<GenP><sg><p3><PXD><gen>{ ^Қазақстан<np><top><2><4><5>$}$
+[/br10cvhV0tnp]
+[c4NxHBsF5yoe#0] ^than<THAN><post>{^қарағанда<post>$}$
+[/c4NxHBsF5yoe]
+[c6aXGl3BicaR#0] ^if<IF><cnjsub>{^Егер<cnjsub>$}$ ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^жаз<v><tv><6><4><5><3><2><7>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^coma<CM>{^,<cm>$}$ ^subj-pron<NP><pl><p1><PXD><CD>{^біз<prn><pers><p1><2><4><5>$}$  ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$
+[/c6aXGl3BicaR]
+[cGkbQn_9K042#0] ^obj-pron<NP><pl><p1><CD>{^біз<prn><p1><pl><nom>$ }$^default<default>{^.<sent>$}$
+[/cGkbQn_9K042]
+[cO8WQNDmqjwR#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$  ^pers-verb2<VP><ND><PD><past><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/cO8WQNDmqjwR]
+[cRwMv9RAiqxc#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-need<VP_need><ND><PD><ifi><PXD><NXD>{^керек<n><nom>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/cRwMv9RAiqxc]
+[cSkPcilVb-Hc#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><fut><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/cSkPcilVb-Hc]
+[cXVRejcLXNLm#0] ^than<THAN><post>{^немесе<cnjcoo>$}$
+[/cXVRejcLXNLm]
+[cZ4hqHj0cZAJ#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/cZ4hqHj0cZAJ]
+[cava0cyr5VEY#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/cava0cyr5VEY]
+[cfO_qBGVKR9U#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^may-inf<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^мүмкін<adj>$}$^default<default>{^.<sent>$}$
+[/cfO_qBGVKR9U]
+[crmHzpusIexk#0] ^detpos-nom<NP><sg><p3><px3sp><CD>{^олар<prn><pers><p3><pl><gen>$ ^бақша<n><2><4><5>$}$
+[/crmHzpusIexk]
+[cvRVxa_W7NlO#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/cvRVxa_W7NlO]
+[d4yx0sU0Hy3E#0] ^adv<AdvP>{^соншалық<adv>$}$
+[/d4yx0sU0Hy3E]
+[dJsqP36QHQby#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^VP_have_to<VP_must_inf><PD><ND><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/dJsqP36QHQby]
+[dKPnk-o9CnCT#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb16<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/dKPnk-o9CnCT]
+[dLEtHVWkvAZf#0] ^prep-detart-noun1<PP><sg><p3><PXD><gen>{  ^бақша<n><2><4><5>$ ^аст<n><px3sp><loc>$}$
+[/dLEtHVWkvAZf]
+[dP__OecVXki-#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/dP__OecVXki-]
+[dXtyKh9ALg0j#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-have<VP_have><ND><PD><ifi><PXD><NXD>{^бар<adj>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/dXtyKh9ALg0j]
+[d_bAx7GpBYAp#0] ^prep-detart-noun2<PP><sg><p3><PXD><abl>{  ^бақша<n><2><4><5>$}$
+[/d_bAx7GpBYAp]
+[ddN2uQdEfc0r#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/ddN2uQdEfc0r]
+[duXbV6ELtv3w#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^may-inf<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^мүмкін<adj>$}$^default<default>{^.<sent>$}$
+[/duXbV6ELtv3w]
+[e6hiajfi8HkD#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><aor><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/e6hiajfi8HkD]
+[e6z60c1AFRkx#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-have<VP_have><ND><PD><ifi><PXD><NXD>{^бар<adj>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/e6z60c1AFRkx]
+[eKVzFoaYds61#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/eKVzFoaYds61]
+[efIwAdes13_l#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb28<VP><ND><PD><past><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/efIwAdes13_l]
+[efvFDoGT_GTd#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><ifi><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/efvFDoGT_GTd]
+[ehSsV0G4XLXj#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb9<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/ehSsV0G4XLXj]
+[eir-Zc7_GQZ2#0] ^detpos-num-nom<NP><pl><p3><px3sp><CD>{^ол<prn><pers><p3><sg><gen>$ ^төрт<num>$ ^бақша<n><sg><4><5>$}$
+[/eir-Zc7_GQZ2]
+[eiweoHgos_iV#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/eiweoHgos_iV]
+[exQ8UwpC-gqV#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><ifi><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/exQ8UwpC-gqV]
+[f-SR3vRKI0Fq#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Кітап<n><2><4><5>$}$ ^rel<Rel>{^ол<prn><pers><p3><sg><nom>$}$ ^subj-pron<NP><sg><p2><PXD><CD>{^сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^оқы<v><tv><6><4><5><3><2><7>$}$
+[/f-SR3vRKI0Fq]
+[f02V6dcPztO8#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-need<VP_need><ND><PD><pres><PXD><NXD>{^керек<n><nom>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/f02V6dcPztO8]
+[f0BEBhzSAzXa#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^көр<v><tv><6><4><5><3><2><7>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^мекен<n><2><4><5>$}$ ^prep-detart-noun2<GenP><sg><p3><PXD><gen>{  ^президент<n><2><4><5>$}$
+[/f0BEBhzSAzXa]
+[f93IX4CxhBkj#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/f93IX4CxhBkj]
+[fEHCMseJR_2x#0] ^prep-detdem-noun-nopost<PP><sg><p3><loc>{ ^осы<prn><dem><nom>$ ^бақша<n><2><4><5>$}$
+[/fEHCMseJR_2x]
+[fEzSO6ciPxXr#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^VP_have_to<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$ ^е<cop><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/fEzSO6ciPxXr]
+[fF3ny-tL_8Yb#0] ^prep-num-adj-noun<PP><pl><p3><PXD><loc>{ ^екі<num>$ ^жақсы<adj>$ ^түн<n><sg><4><5>$}$
+[/fF3ny-tL_8Yb]
+[fJ_XihsIpGlH#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb28<VP><ND><PD><past><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/fJ_XihsIpGlH]
+[fN_VkngBGYLs#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^must-inf2<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$ ^noun<NP><sg><p3><PXD><CD>{^футбол<n><2><4><5>$}$
+[/fN_VkngBGYLs]
+[fRx_rzrU-xKr#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$  ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/fRx_rzrU-xKr]
+[fbhHGmLzFg7c#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><ifi><p3><2>$}$^default<default>{^.<sent>$}$
+[/fbhHGmLzFg7c]
+[fmg7A1W67QDN#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/fmg7A1W67QDN]
+[fqbAMEiYeqQt#0] ^num-noun<NP><pl><p3><PXD><CD>{^екі<num>$ ^бақша<n><sg><4><5>$}$
+[/fqbAMEiYeqQt]
+[gRrXjPCzeqC8#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/gRrXjPCzeqC8]
+[gWLayxyjuBei#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><past><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/gWLayxyjuBei]
+[gYZuCA6CjYRv#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/gYZuCA6CjYRv]
+[g_VhlsTkUehz#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/g_VhlsTkUehz]
+[g_sUox4DWeWr#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb16<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/g_sUox4DWeWr]
+[h2RS4gPLZW2P#0] ^detpos-nom<NP><pl><p3><px1sg><CD>{^мен<prn><pers><p1><sg><gen>$ ^жеті<num>$ ^жақсы<adj>$ ^бақша<n><sg><4><5>$}$
+[/h2RS4gPLZW2P]
+[h6o7SDDt85ke#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/h6o7SDDt85ke]
+[hDCCxmixpAj2#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/hDCCxmixpAj2]
+[hGoiBbFIeffj#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb26<VP><ND><PD><past><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/hGoiBbFIeffj]
+[hGrUzoX1jCsk#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb26<VP><ND><PD><past><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/hGrUzoX1jCsk]
+[hI3wO-1QvtyB#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/hI3wO-1QvtyB]
+[hXOPj5p_GwS1#0] ^obj-pron<NP><sg><CD>{^қандай<prn><nom>$ ^бол<vaux><neg><opt><p3><sg>$}$
+[/hXOPj5p_GwS1]
+[hZwXEs4L_hbq#0] ^obj-pron<NP><sg><p3><CD>{^ол<prn><p3><sg><4>$ }$^default<default>{^.<sent>$}$
+[/hZwXEs4L_hbq]
+[hyWxWdPzXkA9#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/hyWxWdPzXkA9]
+[i1TlYiQ08sBK#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^should-inf<VP_should_inf><ND><PD><ger_past><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^жөн<adj>$}$^default<default>{^.<sent>$}$
+[/i1TlYiQ08sBK]
+[i6eJmUp08uuD#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-have<VP_have><ND><PD><pres><PXD><NXD>{^бар<adj>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/i6eJmUp08uuD]
+[iXZByCcyPdcg#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/iXZByCcyPdcg]
+[ie0F_wpJNicd#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-have<VP_have><ND><PD><pres><PXD><NXD>{^бар<adj>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/ie0F_wpJNicd]
+[ikQqzkq61VtP#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-have<VP_have><ND><PD><pres><PXD><NXD>{^бар<adj>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/ikQqzkq61VtP]
+[imLFUTu2xwfd#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/imLFUTu2xwfd]
+[iqEz79STtvZr#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^must-inf2<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/iqEz79STtvZr]
+[ixaV3Si_7Bqo#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/ixaV3Si_7Bqo]
+[j9j1yuGMFBd9#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb15<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/j9j1yuGMFBd9]
+[jBj5XIWbxrQs#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/jBj5XIWbxrQs]
+[jDQI5hARW-oM#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/jDQI5hARW-oM]
+[jI1ixxE45lGC#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/jI1ixxE45lGC]
+[jRNrpiD61i09#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb26<VP><ND><PD><past><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/jRNrpiD61i09]
+[jVUtDKz2lRvu#0] ^prep-detart-noun1<PP><sg><p3><PXD><dat>{  ^бақша<n><2><4><5>$ ^таман<post>$}$
+[/jVUtDKz2lRvu]
+[jdrwMCTyiWhH#0] ^detpos-num-nom<NP><pl><p3><px3sp><CD>{^ол<prn><pers><p3><sg><gen>$ ^сегіз<num>$ ^бақша<n><sg><4><5>$}$
+[/jdrwMCTyiWhH]
+[jeG5KEYKEKCD#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/jeG5KEYKEKCD]
+[jk9o8HmUteG3#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$^default<default>{^.<sent>$}$
+[/jk9o8HmUteG3]
+[jkEgevIWXAxy#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$  ^pers-verb2<VP><ND><PD><past><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/jkEgevIWXAxy]
+[jqe8YLmqU2ZH#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/jqe8YLmqU2ZH]
+[jraGDnKf2tz7#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb8<VP><ND><PD><fut><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/jraGDnKf2tz7]
+[jxj6OgHrcmUX#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/jxj6OgHrcmUX]
+[kcBweBc4xiXx#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$    ^pers-verb2<VP><ND><PD><fut><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/kcBweBc4xiXx]
+[kwpeU-zeyv99#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^must-inf2<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/kwpeU-zeyv99]
+[kxEnImaOkVKm#0] ^prep-detart-sup_adj-noun<GenP><sg><p3><PXD><gen>{  ^ең<adv>$ ^үлкен<adj>$ ^бақша<n><2><4><5>$}$
+[/kxEnImaOkVKm]
+[l0kG3Er31reh#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/l0kG3Er31reh]
+[lDMzj8m6Hr-q#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/lDMzj8m6Hr-q]
+[lMeKFeLjHN8Y#0] ^more-comp-adjec<AdjP><CD>{ ^әдемі<adj><comp><2>$}$ ^noun<NP><sg><p3><PXD><CD>{^бақша<n><2><4><5>$}$
+[/lMeKFeLjHN8Y]
+[lWrDabjkhG4R#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/lWrDabjkhG4R]
+[lXJwwlxS0K1a#0] ^prep-detart-noun1<PP><sg><p3><PXD><gen>{  ^ағаш<n><2><4><5>$ ^жан<n><px3sp><loc>$}$
+[/lXJwwlxS0K1a]
+[ljLUjqXVY62p#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb31<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/ljLUjqXVY62p]
+[luwhafwyiB8h#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb-neg-ing<VP><ND><PD><pres><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^жат<vaux><neg><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/luwhafwyiB8h]
+[lveZjovBHSLD#0] ^prep-nom<PP><sg><p3><PXD><loc>{ ^бақша<n><2><4><5>$}$
+[/lveZjovBHSLD]
+[lwkAJnOlqXF2#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb15<VP><ND><PD><tense><PXD><neg>{  ^ойна<v><tv><prc_impf>$ ^ал<vaux><neg><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/lwkAJnOlqXF2]
+[m-cr69fjJuBw#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/m-cr69fjJuBw]
+[m0banEFYd2jJ#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$  ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/m0banEFYd2jJ]
+[m2XVl3RGy04Q#0] ^prep-obj-pron<PP><pl><p3><PXD><ins>{^олар<prn><p3><pl><ins>$}$
+[/m2XVl3RGy04Q]
+[m4LwWt3XsrN0#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^should-inf<VP_should_inf><ND><PD><ger_past><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^жөн<adj>$}$^default<default>{^.<sent>$}$
+[/m4LwWt3XsrN0]
+[mAiVAGNKmqcX#0] ^prep-adjec-nom<PP><pl><p3><PXD><loc>{ ^жақсы<adj>$ ^түн<n><2><4><5>$}$
+[/mAiVAGNKmqcX]
+[mJmrd1OKcB3a#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/mJmrd1OKcB3a]
+[mUtn5R0m9HkB#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><ifi><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/mUtn5R0m9HkB]
+[mWbCKEx-Pa_O#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^көр<v><tv><6><4><5><3><2><7>$}$ ^pron<NP_pron_neg><sg><p3><PXD><CD>{^ешкім<prn><2><4><5>$}$
+[/mWbCKEx-Pa_O]
+[me5-zNl4qAYa#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-have<VP_have><ND><PD><ifi><PXD><NXD>{^бар<adj>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/me5-zNl4qAYa]
+[msEccVbUjVXg#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/msEccVbUjVXg]
+[mue2YjqpTDVQ#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-need<VP_need><sg><p3><aor><PXD><neg>{^керек<n><nom>$ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/mue2YjqpTDVQ]
+[n3kW8nBeuMiD#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><aor><p3><2>$}$^default<default>{^.<sent>$}$
+[/n3kW8nBeuMiD]
+[n5Eq7JPtrG-l#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/n5Eq7JPtrG-l]
+[nLStB4cwcDzx#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/nLStB4cwcDzx]
+[ne4Ghl4FXvme#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/ne4Ghl4FXvme]
+[o5j8gHsn_S0T#0] ^prep-detart-noun1<PP><sg><p3><PXD><gen>{  ^ағаш<n><2><4><5>$ ^арт<n><px3sp><loc>$}$
+[/o5j8gHsn_S0T]
+[o7Jy19DoZ9MP#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$  ^pers-verb2<VP><ND><PD><past><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/o7Jy19DoZ9MP]
+[o7QVu1SkE9df#0] ^prep-detart-noun1<PP><sg><p3><PXD><nom>{  ^өзен<n><2><4><5>$ ^арқылы<post>$}$
+[/o7QVu1SkE9df]
+[oNeQ1iZr1d-o#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb19<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><ifi><3><2>$}$^default<default>{^.<sent>$}$
+[/oNeQ1iZr1d-o]
+[okMFx9kdIsvz#0] ^VP_q<VPQ><aor>{ }$ ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^жаз<v><tv><6><4><5><3><2><7>$}$^sent<Q_mark>{^?<sent>$}$
+[/okMFx9kdIsvz]
+[oqB0ECyWTTJI#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb12<VP><ND><PD><ifi><PXD><NXD>{ ^кел<v><iv><gpr_impf>$ ^е<cop><4><3><2>$}$^default<default>{^.<sent>$}$
+[/oqB0ECyWTTJI]
+[owIMsK4nNyW3#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/owIMsK4nNyW3]
+[pJLvCyP0vIYn#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-need<VP_need><ND><PD><ifi><PXD><NXD>{^керек<n><nom>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/pJLvCyP0vIYn]
+[pTfABWo8zFP5#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-have<VP_have><ND><PD><ifi><PXD><NXD>{^бар<adj>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/pTfABWo8zFP5]
+[qE4GoPgVwfOO#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb-neg-ing<VP><ND><PD><pres><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^жат<vaux><neg><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/qE4GoPgVwfOO]
+[qHP3lUaBeAsx#0] ^noun<NP><sg><p3><PXD><CD>{^Қала<n><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^comp-adjec<AdjP>{^үлкен<adj><comp>$}$ ^than<THAN><post>{^қарағанда<post>$}$ ^noun<NP><sg><p3><PXD><CD>{^бақша<n><2><4><5>$}$
+[/qHP3lUaBeAsx]
+[qJrKHtWBNsXL#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb8<VP><ND><PD><fut><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/qJrKHtWBNsXL]
+[qMwc8y0qvdEn#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^verb-need<VP_need><ND><PD><ifi><PXD><NXD>{^керек<n><nom>$ ^е<cop><4><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/qMwc8y0qvdEn]
+[qT-oNY_a3Yje#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$  ^pers-verb2<VP><ND><PD><past><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/qT-oNY_a3Yje]
+[qnBDs_V8bxcD#0] ^prep-detart-noun2<PP><sg><p3><PXD><loc>{  ^бақша<n><2><4><5>$}$
+[/qnBDs_V8bxcD]
+[qx0NhOTFiot_#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^must-inf2<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/qx0NhOTFiot_]
+[r8Q_VtXn04ZQ#0] ^comp-adjec<AdjP>{^үлкен<adj><comp>$}$ ^noun<NP><sg><p3><PXD><CD>{^бақша<n><2><4><5>$}$
+[/r8Q_VtXn04ZQ]
+[rFtMHVLwAXH2#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$    ^pers-verb2<VP><ND><PD><fut><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/rFtMHVLwAXH2]
+[rLaY-6vjS58_#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^VP_want_to<VP_wantto><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_vol><3><2>$ ^кел<vaux><aor><p3><2>$}$^default<default>{^.<sent>$}$
+[/rLaY-6vjS58_]
+[rRLjarWu6sMx#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Кітап<n><2><4><5>$}$ ^rel<Rel>{}$ ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^жаз<v><tv><6><4><5><3><2><7>$}$
+[/rRLjarWu6sMx]
+[rfOMpR94VHFn#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/rfOMpR94VHFn]
+[riKa4axEdaxF#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/riKa4axEdaxF]
+[rn7oy1z63WIt#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-need<VP_need><ND><PD><pres><PXD><NXD>{^керек<n><nom>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/rn7oy1z63WIt]
+[rzlxS9VN28Zd#0] ^detart-nom<NP><sg><p3><PXD><CD>{^бақша<n><2><4><5>$}$
+[/rzlxS9VN28Zd]
+[s2RzAMMAJqOI#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$  ^pers-verb2<VP><ND><PD><past><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/s2RzAMMAJqOI]
+[sLo5JsZP1lbz#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb4<VP><ND><PD><pres><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^жат<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/sLo5JsZP1lbz]
+[sqkpg-bjr_En#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><past><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/sqkpg-bjr_En]
+[sxOFLOZnAcNl#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$ ^prep-num-adj-noun<PP><pl><p3><PXD><gen>{^үш<num>$ ^әдемі<adj>$ ^ағаш<n><sg><4><5>$ ^үст<n><px3sp><loc>$}$^default<default>{^.<sent>$}$
+[/sxOFLOZnAcNl]
+[t2GRflkyRLbR#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/t2GRflkyRLbR]
+[t8U-xPY9gB9j#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/t8U-xPY9gB9j]
+[t9rG7ezi3T6z#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/t9rG7ezi3T6z]
+[tLg5Z07yYtYJ#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_not_be><ND><PD><pres><PXD><neg>{ ^е<cop><6><aor><3><2>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/tLg5Z07yYtYJ]
+[tZdoZ-X3mhcE#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$    ^pers-verb2<VP><ND><PD><fut><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/tZdoZ-X3mhcE]
+[ted5n01UTnvn#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^may-inf<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^мүмкін<adj>$}$^default<default>{^.<sent>$}$
+[/ted5n01UTnvn]
+[u0TwJt6Syuou#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/u0TwJt6Syuou]
+[u78seaOEHsYm#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb31<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/u78seaOEHsYm]
+[uKJ2hibofa4v#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$    ^pers-verb2<VP><ND><PD><fut><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/uKJ2hibofa4v]
+[uWRGgt06CQeP#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^past-verb-neg-ing<VP><ND><PD><ifi><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/uWRGgt06CQeP]
+[uYTBjVX1C63k#0] ^detart-nom<NP><sg><p3><PXD><CD>{^Кітап<n><2><4><5>$}$    ^pers-verb3<VP><ND><PD><aor><PXD><neg>{^бер<v><tv><pass><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/uYTBjVX1C63k]
+[ur5oiKujQoCW#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$  ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/ur5oiKujQoCW]
+[uzLWro1D8SwB#0] ^detpos-nom<NP><sg><p3><px3sp><CD>{^ол<prn><pers><p3><sg><gen>$ ^бақша<n><2><4><5>$}$
+[/uzLWro1D8SwB]
+[vHiMmxRxsszi#0] ^noun<NP><sg><p3><PXD><CD>{^Самұрық-қазына<np><org><2><4><5>$}$^default<default>{^.<sent>$}$
+[/vHiMmxRxsszi]
+[v_9wS4hHT_K5#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb8<VP><ND><PD><fut><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/v_9wS4hHT_K5]
+[vkDyUNRvcJ1y#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb11<VP><ND><PD><aor><PXD><neg>{    ^ойна<v><tv><prc_perf>$ ^бол<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/vkDyUNRvcJ1y]
+[vlbEgYgytZa_#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^prep-nom<PP><sg><p3><PXD><abl>{ ^Қазақстан<np><top><2><4><5>$}$^default<default>{^.<sent>$}$
+[/vlbEgYgytZa_]
+[vlf31Fer44Pr#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^pers-verb26<VP><ND><PD><past><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^отыр<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/vlf31Fer44Pr]
+[vtUs6n2g6MPB#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^доктор<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/vtUs6n2g6MPB]
+[vv4KbGaDlN3T#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb10<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^бол<vaux><4><3><2>$}$^default<default>{^.<sent>$}$
+[/vv4KbGaDlN3T]
+[vzzsR45ezUrO#0] ^detpos-nom<NP><sg><p3><px2sg><CD>{^Сіз<prn><pers><p2><sg><frm><gen>$ ^қала<n><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^comp-adjec<AdjP>{^жақсы<adj><comp>$}$ ^than<THAN><post>{^қарағанда<post>$}$ ^__this-det__<NP><CD>{^осы<prn><dem><sg><2>$}$
+[/vzzsR45ezUrO]
+[w0F7Pabf9XeG#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb-neg-ing<VP><ND><PD><pres><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^жат<vaux><neg><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/w0F7Pabf9XeG]
+[wHjHzjSzdEmy#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^may-inf<VP_must_inf><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^мүмкін<adj>$}$^default<default>{^.<sent>$}$
+[/wHjHzjSzdEmy]
+[wISmLzg_brgA#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-have<VP_have><ND><PD><pres><PXD><NXD>{^бар<adj>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/wISmLzg_brgA]
+[wNBrrY5YpCnI#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-need<VP_need><ND><PD><pres><PXD><NXD>{^керек<n><nom>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/wNBrrY5YpCnI]
+[wb6oFWpwk-9m#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/wb6oFWpwk-9m]
+[wctquaF4QUb-#0] ^comp-adjec<AdjP><CD>{ ^үлкен<adj><comp><2>$}$ ^noun<NP><sg><p3><PXD><CD>{^бақша<n><2><4><5>$}$
+[/wctquaF4QUb-]
+[weUz53NSw354#0] ^prep-detart-noun2<PP><sg><p3><PXD><loc>{  ^бақша<n><2><4><5>$}$
+[/weUz53NSw354]
+[x2adOH4MKQLO#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb2<VP><ND><PD><ifi><PXD><NXD><CD>{^айт<v><tv><6><4><5><3><2><7>$}$  ^subj-pron<NP><pl><p3><PXD><CD>{^олар<prn><pers><p3><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^жаз<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$
+[/x2adOH4MKQLO]
+[x6y-xtVZe4l_#0] ^prep-detart-noun1<PP><sg><p3><PXD><gen>{  ^бақша<n><2><4><5>$ ^аст<n><px3sp><loc>$}$
+[/x6y-xtVZe4l_]
+[xEDQSCeXQ5mU#0] ^it-pron<NP><sg><p3><PXD><CD>{^Бұл<prn><3><2><4><5>$}$ ^pers-verb5<VP><ND><PD><ifi><PXD><NXD><CD>{ ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/xEDQSCeXQ5mU]
+[xLrUYsy1OsQH#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^VP_need_to<VP_need><ND><PD><ger><PXD><NXD>{ ^ойна<v><tv><4><5><nom>$ ^керек<n><nom>$}$^default<default>{^.<sent>$}$
+[/xLrUYsy1OsQH]
+[xMAWl4ckrvck#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^өмір сүр<v><iv><6><4><5><3><2><7>$}$ ^prep-detart-noun2<PP><sg><p3><PXD><loc>{  ^мекен<n><2><4><5>$}$
+[/xMAWl4ckrvck]
+[xRyWvJu54qLU#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_be><ND><PD><ifi><PXD><NXD><CD>{^бол<vaux><4><3><2><5>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/xRyWvJu54qLU]
+[xUJh8F_B6GME#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><ifi><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/xUJh8F_B6GME]
+[xY_7-RU2JAmy#0] ^prep-detart-noun1<PP><sg><p3><PXD><abl>{  ^бақша<n><2><4><5>$ ^кейін<post>$}$
+[/xY_7-RU2JAmy]
+[xbkMfB1umszV#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb-neg-ing<VP><ND><PD><pres><PXD><neg>{  ^ойна<v><tv><prc_perf>$ ^жат<vaux><neg><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/xbkMfB1umszV]
+[xc3fUe5M8GKS#0] ^subj-pron<NP><sg><p2><PXD><CD>{^Сіз<prn><pers><p2><2><4><5>$}$ ^verb-be<VP_be><ND><PD><aor><PXD><NXD>{^е<cop><aor><evid><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/xc3fUe5M8GKS]
+[xerT1IuPbfZ-#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/xerT1IuPbfZ-]
+[xkagGnSqFQFr#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb11<VP><ND><PD><aor><PXD><neg>{    ^ойна<v><tv><prc_perf>$ ^бол<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/xkagGnSqFQFr]
+[xtbsnUVYNxcy#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb9<VP><ND><PD><aor><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/xtbsnUVYNxcy]
+[yKqE6kc40DI0#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^verb-have<VP_have><ND><PD><pres><PXD><NXD>{^бар<adj>$}$ ^detart-nom<NP><sg><p3><PXD><CD>{^кітап<n><2><4><5>$}$^default<default>{^.<sent>$}$
+[/yKqE6kc40DI0]
+[yPl4fzc47Leg#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><ifi><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/yPl4fzc47Leg]
+[yXaihRtmTMN7#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^verb-past-be<VP_past_not_be><ND><PD><ifi><PXD><neg>{^бол<vaux><6><4><3><2>$}$ ^adjec<AdjP><subst><CD>{^бақытты<adj><2><3>$}$^default<default>{^.<sent>$}$
+[/yXaihRtmTMN7]
+[yap9cgVfGStN#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><aor><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/yap9cgVfGStN]
+[ymlkh35ShxAJ#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/ymlkh35ShxAJ]
+[ynSWDZ8XVkJZ#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$ ^pers-verb28<VP><ND><PD><past><PXD><neg>{   ^ойна<v><tv><prc_perf>$ ^отыр<vaux><6><4><3><2>$}$^default<default>{^.<sent>$}$
+[/ynSWDZ8XVkJZ]
+[z-VsIx09AEgy#0] ^subj-pron<NP><sg><p1><PXD><CD>{^мен<prn><pers><p1><2><4><5>$}$ ^pers-verb2<VP><ND><PD><aor><PXD><NXD><CD>{^бар<v><iv><6><4><5><3><2><7>$}$ ^prep-nom<PP><sg><p3><PXD><dat>{ ^университет<n><2><4><5>$}$ ^prep-nom<GenP><sg><p3><PXD><gen>{ ^ел<n><2><4><5>$}$
+[/z-VsIx09AEgy]
+[zOMys8FRSVxF#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$    ^pers-verb2<VP><ND><PD><fut><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/zOMys8FRSVxF]
+[zREvw8-5p_4Y#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><aor><PXD><neg><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/zREvw8-5p_4Y]
+[zcKZN4hxiK03#0] ^than<THAN><post>{^бірақ<cnjcoo>$}$
+[/zcKZN4hxiK03]
+[zh_1Y178TVVL#0] ^subj-pron<NP><sg><p3><PXD><CD>{^Ол<prn><pers><p3><2><4><5>$}$^default<default>{^.<sent>$}$
+[/zh_1Y178TVVL]
+[zoZUsZasRPyA#0] ^noun<NP><sg><p3><PXD><CD>{^Байсейітов<np><cog><m><2><4><5>$}$^default<default>{^.<sent>$}$
+[/zoZUsZasRPyA]
+[zon4arAOJcvx#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb31<VP><ND><PD><tense><PXD><NXD>{ ^ойна<v><tv><prc_impf>$ ^ал<vaux><aor><3><2>$}$^default<default>{^.<sent>$}$
+[/zon4arAOJcvx]
+[zy3TD4e0BC4i#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$ ^pers-verb1<VP_psmod><ND><PD><ifi><PXD><NXD>{^жақсы көр<v><tv><6><4><3><2>$}$ ^NP_ger<NP_GER><PD><ND><ger><PXD><CD>{^ойна<v><tv><4><5><3><2><6>$}$^default<default>{^.<sent>$}$
+[/zy3TD4e0BC4i]
+[zyZRqfjE73qU#0] ^subj-pron<NP><pl><p3><PXD><CD>{^Олар<prn><pers><p3><2><4><5>$}$   ^pers-verb2<VP><ND><PD><fut><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/zyZRqfjE73qU]
+[zznINVPDQ6Z5#0] ^subj-pron<NP><pl><p1><PXD><CD>{^Біз<prn><pers><p1><2><4><5>$}$   ^pers-verb2<VP><ND><PD><fut><PXD><NXD><CD>{^ойна<v><tv><6><4><5><3><2><7>$}$^default<default>{^.<sent>$}$
+[/zznINVPDQ6Z5]

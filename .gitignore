@@ -33,3 +33,11 @@
 /testcache
 /compiled/
 /test/*-output.txt
+/*.gz
+/*.pc
+/*.zhfst
+/.DS_Store
+/*.mode
+/*-*.prob
+/config.in
+/config

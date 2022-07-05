@@ -2,7 +2,6 @@
 ## Makefile for eng-kaz
 ###############################################################################
 
-VERSION=1.0.0
 LANG1=eng
 LANG2=kaz
 PREFIX1=$(LANG1)-$(LANG2)
@@ -100,9 +99,11 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 ###############################################################################
 
 $(PREFIX1).lrx.bin: $(BASENAME).$(PREFIX1).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 $(PREFIX2).lrx.bin: $(BASENAME).$(PREFIX2).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 ###############################################################################
